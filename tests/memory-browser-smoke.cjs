@@ -43,6 +43,20 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
     await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
     await chooseOpenCatalogProduct(page, name);
   };
+  const installPickerModule = async name => {
+    const picker = memory().locator('.mc-picker');
+    const target = picker.getByRole('button', { name, exact: true });
+    // Newest-first and thousands of models can move an older exact match to
+    // a later page even when every query word matches its technical sheet.
+    while (await target.count() === 0) {
+      const next = picker.getByRole('button', { name: 'Suivant', exact: true });
+      assert.ok(await next.isEnabled(), `The paginated picker must contain ${name}`);
+      const before = await picker.locator('.mc-pagination').textContent();
+      await next.click();
+      await page.waitForFunction(before => document.querySelector('.mc-picker .mc-pagination')?.textContent !== before, before);
+    }
+    await target.click();
+  };
   const captureMemory = async filename => {
     await memory().scrollIntoViewIfNeeded();
     await memory().screenshot({ timeout: 60000, path: path.join(output, filename) });
@@ -128,7 +142,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
       let picker = memory().locator('.mc-picker');
       await picker.getByRole('checkbox').uncheck();
       await picker.getByRole('searchbox').fill('Vengeance LPX 32 Go DDR4');
-      await picker.getByRole('button', { name: 'Installer une barrette Corsair Vengeance LPX 32 Go DDR4 en A1', exact: true }).click();
+      await installPickerModule('Installer une barrette Corsair Vengeance LPX 32 Go DDR4 en A1');
       await assertScene(3, 'A1,A2,B2', 48);
       assert.equal(await scene().getAttribute('data-ram-models'), 'ram-ddr4-32,ram-ddr5-32,ram-ddr5-32');
       assert.match(await memory().locator('.mc-warning-list').textContent(), /Générations de mémoire mélangées/);
@@ -250,7 +264,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
         await picker.scrollIntoViewIfNeeded();
         await assertNoOverflow(360);
         await picker.getByRole('searchbox').fill('Flare X5 64 Go DDR5');
-        await picker.getByRole('button', { name: 'Installer une barrette G.Skill Flare X5 64 Go DDR5 en B1', exact: true }).click();
+        await installPickerModule('Installer une barrette G.Skill Flare X5 64 Go DDR5 en B1');
         assert.equal(await memory().getAttribute('data-installed-count'), '4');
         assert.equal(await scene().getAttribute('data-ram-capacity'), '80');
         await assertNoOverflow(360);
