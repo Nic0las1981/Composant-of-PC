@@ -44,6 +44,8 @@ npm run preview -- --port 4173
 ## Fonctionnalités
 
 - Tour 3D adaptée aux références sélectionnées : dimensions, formes, finitions, couleurs, ventilateurs et éclairages. Survol avec noms réels, sélection au clic, zoom, vues face/profil/3-4, panneau latéral et vue éclatée. Aperçu de secours sans WebGL.
+- Rotation automatique douce en vue 3/4, suspendue au survol et pendant la manipulation, avec reprise après 6,5 secondes. Ventilateurs animés (rotor mobile, cadre fixe), RGB multicolore uniquement sur les zones renseignées et surbrillance progressive des surfaces au survol. Commande de pause globale et prise en compte du mouvement réduit.
+- Détails de montage et matériaux enrichis : circuits et connecteurs de carte mère, contacts dorés, capot AM5, vis, passe-câbles, joints, peinture, bois, raccords AIO et finitions blanches.
 - 200 composants répartis en huit catégories : 26 CPU, 24 cartes mères, 30 GPU, 27 kits RAM, 26 SSD, 25 refroidissements, 22 alimentations et 20 boîtiers. Recherche, tri, filtres par marque, budget, type de refroidissement et compatibilité.
 - 14 watercoolings AIO de 240/280/360/420 mm, avec pompe, tuyaux tressés, radiateur, ventilateurs, RGB ou écran selon la référence. Contrôle du socket et des positions de radiateur du boîtier ; avertissements sur les dégagements non garantis.
 - Fiches techniques regroupées par thème : sockets, dimensions, mémoire, ventilation, radiateurs, alimentation et conseils de montage. Comparaison de trois modèles de la même catégorie, avec option pour afficher seulement les différences et filtres conservés au retour.
@@ -55,7 +57,7 @@ npm run preview -- --port 4173
 
 ## Limites des données
 
-Les prix sont indicatifs et le catalogue n’est connecté à aucun marchand. Les indices de performance sont des heuristiques relatives documentées dans le moteur : ce ne sont ni des benchmarks ni des mesures du pourcentage réel de bridage. Les résultats réels varient selon jeux, logiciels et réglages. Les modèles 3D reconstituent les volumes, les styles et les principaux détails de chaque référence. Ce ne sont pas des fichiers CAD fournis par les fabricants : les connecteurs, tolérances, câbles et collisions fines restent approximatifs. La compatibilité repose sur les caractéristiques du catalogue, indépendamment du rendu.
+Les prix sont des estimations non vérifiées et le catalogue n’est connecté à aucun marchand. Les fiches et le comparateur proposent des recherches Idealo et Google Shopping pour la référence choisie ; ces liens ne valident pas le montant affiché. Voir [PRIX.md](PRIX.md) pour la revue des prix et son périmètre. Les indices de performance sont des heuristiques relatives documentées dans le moteur : ce ne sont ni des benchmarks ni des mesures du pourcentage réel de bridage. Les résultats réels varient selon jeux, logiciels et réglages. Les modèles 3D reconstituent les volumes, les styles et les principaux détails de chaque référence. Ce ne sont pas des fichiers CAD fournis par les fabricants : les connecteurs, tolérances, câbles et collisions fines restent approximatifs. La compatibilité repose sur les caractéristiques du catalogue, indépendamment du rendu. La vitesse des ventilateurs et les écrans illustrent une configuration en fonctionnement ; aucune télémétrie matérielle réelle n’est collectée.
 
 Avant achat, vérifier les fiches fabricants, les révisions BIOS, les connecteurs, les kits de montage et les dégagements combinés. Les sauvegardes restent dans le navigateur ; il n’y a ni compte utilisateur, ni backend, ni paiement.
 
@@ -68,12 +70,14 @@ Avant achat, vérifier les fiches fabricants, les révisions BIOS, les connecteu
 - `src/components/scene/` : boîtiers, composants et watercooling, textures entièrement locales.
 - `src/components/ProductArt.tsx` : illustrations SVG du catalogue.
 - `src/components/CatalogPanel.tsx` : catalogue, filtres, fiches et comparateur.
+- `src/data/pricing.ts` : statut des estimations et recherches des offres par modèle.
+- `src/components/scene/SceneAnimation.tsx` : commande commune des mouvements et prise en compte du mouvement réduit.
 - `src/lib/productDetails.ts` : caractéristiques et lignes de comparaison issues des données disponibles.
 - `src/App.tsx` : parcours du configurateur et sauvegardes.
 - `tests/compatibility.test.ts` : tests des règles et des estimations.
 - `tests/visualProfiles.test.ts` : cohérence des modèles avec le catalogue.
 - `tests/productDetails.test.ts` : données de fiche, valeurs manquantes et comparaisons.
-- `tests/browser-smoke.cjs`, `tests/catalog-details-smoke.cjs` et `tests/scene-smoke.cjs` : parcours navigateur et contrôles de la 3D, avec Playwright/Chromium disponibles. `FORGE_TEST_URL` peut cibler une version de production servie dans un sous-dossier.
+- `tests/browser-smoke.cjs`, `tests/catalog-details-smoke.cjs`, `tests/motion-smoke.cjs` et `tests/scene-smoke.cjs` : parcours navigateur et contrôles de la 3D, avec Playwright/Chromium disponibles (le contrôle des pixels dans `motion-smoke.cjs` utilise aussi `pngjs`). `FORGE_TEST_URL` peut cibler une version de production servie dans un sous-dossier.
 
 ## Publication GitHub Pages
 

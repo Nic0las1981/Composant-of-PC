@@ -53,6 +53,8 @@ export interface GpuVisualProfile extends BaseVisualProfile {
   shroudColor: string;
   backplateColor: string;
   fanLayout?: "inline" | "flow-through";
+  /** RGB fan halos are distinct from a card with only an illuminated logo. */
+  fanRgb?: boolean;
 }
 export interface CoolerVisualProfile extends BaseVisualProfile {
   category: "cooler";
@@ -330,7 +332,7 @@ export const caseProfiles: Record<string, CaseVisualProfile> = {
     category: "case",
     color: "#30363c",
     accent: "#a9b5be",
-    rgb: false,
+    rgb: true,
     kind: "panoramic",
     widthMm: 285,
     heightMm: 459,
@@ -436,6 +438,7 @@ export const gpuProfiles: Record<string, GpuVisualProfile> = {
     color: "#24272c",
     accent: "#80cad2",
     rgb: true,
+    fanRgb: true,
     shroudColor: "#2c3037",
     backplateColor: "#52575d",
   },

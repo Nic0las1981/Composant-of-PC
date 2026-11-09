@@ -91,6 +91,12 @@ test("lighting follows selected products instead of adding RGB to every componen
   assert.equal(ramProfiles["ram-ddr5-64"].rgb, false);
   assert.equal(gpuProfiles["gpu-4070s"].rgb, false);
   assert.equal(gpuProfiles["gpu-4080s"].rgb, true);
+  assert.equal(gpuProfiles["gpu-4080s"].fanRgb, true);
+  assert.equal(gpuProfiles["gpu-a770-le"].fanRgb, true);
+  assert.ok(Object.values(gpuProfiles).every((profile) => !profile.fanRgb || profile.rgb));
+  assert.equal(getCaseProfile("case-o11")!.rgb, true);
+  assert.equal(getCaseProfile("case-o11")!.fanRgb, false);
+  assert.equal(getCaseProfile("case-o11")!.fanCount, 0);
   assert.ok(
     Object.values(coolerProfiles)
       .filter((p) => p.kind !== "aio" && p.id !== "cooler-ak620-digital")

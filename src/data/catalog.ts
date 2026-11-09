@@ -1944,6 +1944,7 @@ export const catalog: Component[] = [
       "GPU jusqu’à 426 mm",
       "Ventirad jusqu’à 167 mm",
       "0 ventilateurs fournis",
+      "Bande ARGB de façade",
     ],
     supportedFormFactors: ["ATX", "Micro-ATX", "Mini-ITX"],
     maxGpuLengthMm: 426,
@@ -1959,7 +1960,7 @@ export const catalog: Component[] = [
     depthMm: 465,
     color: "#30363c",
     accent: "#a9b5be",
-    rgb: false,
+    rgb: true,
   },
   {
     id: "case-h9",

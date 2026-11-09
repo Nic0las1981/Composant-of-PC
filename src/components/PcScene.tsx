@@ -2,6 +2,7 @@ import {
   Component as ReactComponent,
   Suspense,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -49,6 +50,7 @@ import {
   AioCoolingModel,
 } from "./scene/HardwareModels";
 import ProductArt from "./ProductArt";
+import { SceneAnimationProvider, useSceneAnimation } from "./scene/SceneAnimation";
 
 export type CameraView = "perspective" | "side" | "front";
 type V3 = [number, number, number];
@@ -57,6 +59,7 @@ export interface PcSceneProps {
   components: SelectedComponents;
   exploded?: boolean;
   paused?: boolean;
+  animated?: boolean;
   openSide?: boolean;
   cameraView?: CameraView;
   activeCategory?: CategoryId | null;
@@ -95,6 +98,9 @@ function Part({
   offset = [0, 0, 0],
   exploded,
   highlight,
+  selected,
+  subdued,
+  modelKey,
   size,
   onHover,
   onSelect,
@@ -106,24 +112,78 @@ function Part({
   offset?: V3;
   exploded?: boolean;
   highlight: boolean;
+  selected: boolean;
+  subdued: boolean;
+  modelKey: string;
   size?: V3;
   onHover: (id: CategoryId | null, event?: ThreeEvent<PointerEvent>) => void;
   onSelect?: (id: CategoryId) => void;
   children: ReactNode;
 }) {
   const ref = useRef<THREE.Group>(null);
-  const reduced = useMemo(
-    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
-    [],
-  );
+  const animated = useSceneAnimation();
+  const intensity = useRef({ highlight: 0, subdued: 0 });
+  // Tint each real surface only while it is being drawn. This also works for
+  // instanced fan blades and AIO tubing, and preserves animated RGB materials.
+  useLayoutEffect(() => {
+    if (!ref.current) return;
+    const restores: Array<() => void> = [];
+    const accent = new THREE.Color("#c6f8ae");
+    ref.current.traverse((object) => {
+      if (!(object instanceof THREE.Mesh)) return;
+      const before = object.onBeforeRender;
+      const after = object.onAfterRender;
+      type LitMaterial = THREE.Material & { color?: THREE.Color; emissive?: THREE.Color; emissiveIntensity?: number };
+      const snapshots = new Map<THREE.Material, { color?: THREE.Color; emissive?: THREE.Color; emissiveIntensity?: number; active: boolean }>();
+      object.onBeforeRender = function (...args) {
+        before.apply(this, args);
+        const material = args[4] as LitMaterial;
+        const amount = intensity.current.highlight;
+        const dim = intensity.current.subdued;
+        if (amount < 0.001 && dim < 0.001) return;
+        let snapshot = snapshots.get(material);
+        if (!snapshot) {
+          snapshot = { color: material.color?.clone(), emissive: material.emissive?.clone(), emissiveIntensity: material.emissiveIntensity, active: false };
+          snapshots.set(material, snapshot);
+        }
+        snapshot.active = true;
+        snapshot.color?.copy(material.color!);
+        snapshot.emissive?.copy(material.emissive!);
+        snapshot.emissiveIntensity = material.emissiveIntensity;
+        if (material.color) material.color.multiplyScalar(1 - dim * 0.24).lerp(accent, amount * 0.19);
+        if (material.emissive) {
+          // Preserve the RGB hue underneath a modest, clearly visible hover glow.
+          material.emissive.lerp(accent, amount * 0.3);
+          material.emissiveIntensity = (material.emissiveIntensity ?? 0) * (1 - dim * 0.22) + amount * 0.65;
+        }
+      };
+      object.onAfterRender = function (...args) {
+        const material = args[4] as LitMaterial;
+        const snapshot = snapshots.get(material);
+        if (snapshot?.active) {
+          if (snapshot.color) material.color?.copy(snapshot.color);
+          if (snapshot.emissive) material.emissive?.copy(snapshot.emissive);
+          if (snapshot.emissiveIntensity !== undefined) material.emissiveIntensity = snapshot.emissiveIntensity;
+          snapshot.active = false;
+        }
+        after.apply(this, args);
+      };
+      restores.push(() => { object.onBeforeRender = before; object.onAfterRender = after; });
+    });
+    return () => restores.forEach((restore) => restore());
+  }, [modelKey, exploded]);
   const target = useMemo(
     () => new THREE.Vector3(...(exploded ? add(position, offset) : position)),
     [...position, ...offset, exploded],
   );
   useFrame((_, dt) => {
     if (ref.current) {
-      if (reduced) ref.current.position.copy(target);
-      else ref.current.position.lerp(target, 1 - Math.exp(-dt * 8));
+      const fade = animated ? 1 - Math.exp(-Math.min(dt, 0.1) * 11) : 1;
+      if (!animated) ref.current.position.copy(target);
+      else ref.current.position.lerp(target, 1 - Math.exp(-Math.min(dt, 0.1) * 8));
+      intensity.current.highlight = THREE.MathUtils.lerp(intensity.current.highlight, highlight ? 1 : 0, fade);
+      intensity.current.subdued = THREE.MathUtils.lerp(intensity.current.subdued, subdued ? 1 : 0, fade);
+      ref.current.userData.hoverStrength = intensity.current.highlight;
     }
   });
   const hover = (e: ThreeEvent<PointerEvent>) => {
@@ -148,7 +208,7 @@ function Part({
       }}
     >
       {children}
-      {highlight && size && <Highlight size={size} />}
+      {selected && !highlight && !subdued && size && <Highlight size={size} />}
     </group>
   );
 }
@@ -265,7 +325,11 @@ function Assembly({
     offset,
     size: bounds,
     exploded,
-    highlight: hovered === id || activeCategory === id,
+    highlight: hovered === id,
+    selected: activeCategory === id,
+    subdued: hovered !== null && hovered !== id,
+    modelKey: `${components[id]?.id}-${components.case?.id}-${components.cooler?.id}-${openSide}`,
+
     onHover,
     onSelect: onSelectCategory,
   });
@@ -404,22 +468,61 @@ function Assembly({
   );
 }
 
+type MotionReport = { state: string; animated: boolean; cameraAngle: number; fanAngle?: number; rgbPhase?: number; hoverStrength: number };
+
 function CameraRig({
   profile,
   view = "perspective",
   resetKey,
   exploded,
+  hovered,
   onDrag,
+  reportMotion,
 }: {
   profile: CaseVisualProfile;
   view?: CameraView;
   resetKey?: number;
   exploded?: boolean;
+  hovered: CategoryId | null;
   onDrag: (active: boolean) => void;
+  reportMotion: (report: MotionReport) => void;
 }) {
-  const { camera, size } = useThree();
+  const { camera, size, scene } = useThree();
+  const animated = useSceneAnimation();
   const controls = useRef<OrbitControlsImpl>(null);
   const destination = useRef<THREE.Vector3 | null>(null);
+  const dragging = useRef(false);
+  const resumeAt = useRef(0);
+  const lastReport = useRef(0);
+  const speed = useRef(0);
+  const previousAnimated = useRef(animated);
+  function stopInertia() {
+    const control = controls.current;
+    if (!control) return;
+    // OrbitControls keeps a private spherical delta when damping is enabled.
+    // Consume that delta once without damping, then restore and resynchronise
+    // the exact current pose: pausing must not drift or jump on a slow device.
+    const position = camera.position.clone();
+    const quaternion = camera.quaternion.clone();
+    const target = control.target.clone();
+    const damping = control.enableDamping;
+    control.autoRotate = false;
+    control.enableDamping = false;
+    control.update();
+    camera.position.copy(position);
+    camera.quaternion.copy(quaternion);
+    control.target.copy(target);
+    control.update();
+    control.enableDamping = damping;
+    speed.current = 0;
+  }
+  useLayoutEffect(() => {
+    if (!animated || hovered) {
+      if ((previousAnimated.current && !animated) || hovered) destination.current = null;
+      stopInertia();
+    }
+    previousAnimated.current = animated;
+  }, [animated, hovered, camera]);
   useEffect(() => {
     const aspect = size.width / size.height;
     const dimension = Math.max(
@@ -438,14 +541,47 @@ function CameraRig({
       controls.current.target.set(0, 0, 0);
       controls.current.minDistance = dimension * 1.2;
       controls.current.maxDistance = dimension * 4.5;
+      controls.current.autoRotate = false;
     }
+    speed.current = 0;
   }, [profile.id, view, resetKey, exploded, size.width, size.height, camera]);
+  useEffect(() => {
+    // Keep the identified part still, including for a short moment after leaving it.
+    if (hovered) resumeAt.current = performance.now() + 1800;
+    else resumeAt.current = Math.max(resumeAt.current, performance.now() + 1400);
+  }, [hovered]);
   useFrame((_, dt) => {
+    const control = controls.current;
+    if (!control) return;
+    const now = performance.now();
+    let state = "rotating";
     if (destination.current) {
-      camera.position.lerp(destination.current, 1 - Math.exp(-dt * 7));
-      controls.current?.update();
-      if (camera.position.distanceTo(destination.current) < 0.015)
-        destination.current = null;
+      control.autoRotate = false;
+      if (animated) camera.position.lerp(destination.current, 1 - Math.exp(-Math.min(dt, 0.1) * 7));
+      else camera.position.copy(destination.current);
+      control.update();
+      if (camera.position.distanceTo(destination.current) < 0.015) destination.current = null;
+      state = "settling";
+    }
+    if (!animated) state = "paused";
+    else if (dragging.current) state = "dragging";
+    else if (hovered) state = "hover";
+    else if (view !== "perspective") state = "preset";
+    else if (now < resumeAt.current) state = "waiting";
+    const rotate = state === "rotating";
+    speed.current = rotate ? THREE.MathUtils.lerp(speed.current, 0.62, 1 - Math.exp(-Math.min(dt, 0.1) * 1.8)) : 0;
+    control.autoRotate = rotate;
+    control.autoRotateSpeed = speed.current;
+    if (now - lastReport.current > 180) {
+      const rotor = scene.getObjectByName("fan-rotor");
+      const rgb = (scene.getObjectByName("rgb-diffuser-strip") || scene.getObjectByName("rgb-diffuser-ring")) as THREE.Mesh | undefined;
+      const rgbMaterial = rgb && !Array.isArray(rgb.material) ? rgb.material as THREE.MeshStandardMaterial : undefined;
+      const rgbPhase = rgb?.name === "rgb-diffuser-strip" ? rgbMaterial?.map?.offset.x : rgbMaterial?.map?.rotation;
+      const hoverStrength = hovered
+        ? Number(scene.getObjectByName(`component-${hovered}`)?.userData.hoverStrength ?? 0)
+        : Math.max(0, ...categories.map(({ id }) => Number(scene.getObjectByName(`component-${id}`)?.userData.hoverStrength ?? 0)));
+      reportMotion({ state, animated, cameraAngle: control.getAzimuthalAngle(), fanAngle: rotor?.rotation.z, rgbPhase, hoverStrength });
+      lastReport.current = now;
     }
   });
   return (
@@ -453,15 +589,21 @@ function CameraRig({
       ref={controls}
       makeDefault
       enablePan={false}
-      enableDamping
+      enableDamping={animated && !hovered}
       dampingFactor={0.09}
       minPolarAngle={0.15}
       maxPolarAngle={Math.PI * 0.8}
       onStart={() => {
         destination.current = null;
+        dragging.current = true;
+        stopInertia();
         onDrag(true);
       }}
-      onEnd={() => onDrag(false)}
+      onEnd={() => {
+        dragging.current = false;
+        resumeAt.current = performance.now() + 6500;
+        onDrag(false);
+      }}
     />
   );
 }
@@ -469,7 +611,7 @@ function CameraRig({
 function FallbackPc({ components }: { components: SelectedComponents }) {
   return (
     <div className="pc-fallback">
-      <ProductArt category="case" brand={components.case?.brand} />
+      <ProductArt category="case" brand={components.case?.brand} component={components.case} detailed />
       <strong>{components.case?.name || "Votre configuration"}</strong>
       <span>Aperçu simplifié · WebGL indisponible</span>
       <p>
@@ -559,6 +701,7 @@ export default function PcScene(props: PcSceneProps) {
       data-gpu-fans={gpu?.fanCount || 0}
       data-cooler-model={cooler?.kind || ""}
       data-hover-category={hover?.category || ""}
+      data-animation={props.animated === false || props.paused ? "paused" : "enabled"}
       style={{ cursor: hover ? "pointer" : "grab" }}
     >
       {supported ? (
@@ -575,24 +718,26 @@ export default function PcScene(props: PcSceneProps) {
             }}
             onPointerMissed={() => setHover(null)}
           >
-            <ambientLight intensity={0.7} />
-            <hemisphereLight args={["#e4ebf5", "#343f35", 1.5]} />
+            <SceneAnimationProvider animated={props.animated !== false && !props.paused}>
+            <ambientLight intensity={0.82} />
+            <hemisphereLight args={["#edf1fa", "#3c3734", 1.35]} />
             <directionalLight
               position={[4, 6, 5]}
-              intensity={3.2}
-              color="#f8f6ee"
+              intensity={2.8}
+              color="#fff5e8"
               castShadow
               shadow-mapSize={[1024, 1024]}
               shadow-bias={-0.0005}
             />
             <directionalLight
               position={[-3, 3, -4]}
-              intensity={2.2}
-              color="#b2c7e1"
+              intensity={2}
+              color="#bdd9f4"
             />
+            <directionalLight position={[5, 1, -3]} intensity={1.05} color="#edf7ff" />
             <pointLight
               position={[3, -1, 4]}
-              intensity={8}
+              intensity={6}
               distance={12}
               color="#d2dce7"
             />
@@ -635,11 +780,23 @@ export default function PcScene(props: PcSceneProps) {
               view={props.cameraView}
               resetKey={props.resetKey}
               exploded={props.exploded}
+              hovered={hover?.category ?? null}
+              reportMotion={({ state, animated, cameraAngle, fanAngle, rgbPhase, hoverStrength }) => {
+                if (!container.current) return;
+                const dataset = container.current.dataset;
+                dataset.rotationState = state;
+                dataset.cameraAngle = cameraAngle.toFixed(5);
+                dataset.fanAngle = fanAngle?.toFixed(5) ?? "";
+                dataset.rgbPhase = rgbPhase?.toFixed(5) ?? "";
+                dataset.motionEnabled = String(animated);
+                dataset.hoverStrength = hoverStrength.toFixed(3);
+              }}
               onDrag={(active) => {
                 dragging.current = active;
                 if (active) setHover(null);
               }}
             />
+            </SceneAnimationProvider>
           </Canvas>
         </SceneBoundary>
       ) : (

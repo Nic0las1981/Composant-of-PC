@@ -1,5 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { useSceneAnimation } from "./SceneAnimation";
 
 type Vector3 = [number, number, number];
 export type BoxInstance = {
@@ -137,7 +139,103 @@ export function HardwareLabel({
   );
 }
 
-function CurvedFanBlades({ radius }: { radius: number }) {
+/** Texture-backed light diffusers keep the rainbow to one draw call per strip. */
+function useRgbTexture(circular: boolean, phase: number) {
+  const animated = useSceneAnimation();
+  const texture = useMemo(() => {
+    const canvas = document.createElement("canvas");
+    canvas.width = circular ? 128 : 256;
+    canvas.height = circular ? 128 : 8;
+    const context = canvas.getContext("2d")!;
+    const gradient = circular
+      ? context.createConicGradient(0, 64, 64)
+      : context.createLinearGradient(0, 0, 256, 0);
+    ["#28dbea", "#466bff", "#a84dff", "#ff52bf", "#ff8c66", "#a8ed8b", "#28dbea"]
+      .forEach((color, index, colors) => gradient.addColorStop(index / (colors.length - 1), color));
+    context.fillStyle = gradient;
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    const map = new THREE.CanvasTexture(canvas);
+    map.colorSpace = THREE.SRGBColorSpace;
+    map.wrapS = map.wrapT = THREE.RepeatWrapping;
+    map.center.set(0.5, 0.5);
+    if (circular) map.rotation = phase;
+    else map.offset.x = phase;
+    return map;
+  }, [circular, phase]);
+  useFrame((_, delta) => {
+    if (!animated) return;
+    const step = Math.min(delta, 0.05);
+    if (circular) texture.rotation = (texture.rotation + step * 0.22) % (Math.PI * 2);
+    else texture.offset.x = (texture.offset.x + step * 0.035) % 1;
+  });
+  useEffect(() => () => texture.dispose(), [texture]);
+  return texture;
+}
+
+/** A multicolour diffuser along the local X axis. Render only for actual RGB parts. */
+export function RGBStrip({
+  size,
+  position = [0, 0, 0],
+  rotation = [0, 0, 0],
+  phase = 0,
+}: {
+  size: Vector3;
+  position?: Vector3;
+  rotation?: Vector3;
+  phase?: number;
+}) {
+  const texture = useRgbTexture(false, phase);
+  return (
+    <mesh name="rgb-diffuser-strip" userData={{ animationKind: "rgb" }} position={position} rotation={rotation}>
+      <boxGeometry args={size} />
+      <meshStandardMaterial
+        map={texture}
+        emissiveMap={texture}
+        color="#ffffff"
+        emissive="#ffffff"
+        emissiveIntensity={0.75}
+        metalness={0.04}
+        roughness={0.3}
+        toneMapped={false}
+      />
+    </mesh>
+  );
+}
+
+/** Local +Z-facing ring. Width is the difference between its outer and inner radii. */
+export function RGBRing({
+  radius,
+  width = radius * 0.14,
+  position = [0, 0, 0],
+  rotation = [0, 0, 0],
+  phase = 0,
+}: {
+  radius: number;
+  width?: number;
+  position?: Vector3;
+  rotation?: Vector3;
+  phase?: number;
+}) {
+  const texture = useRgbTexture(true, phase);
+  return (
+    <mesh name="rgb-diffuser-ring" userData={{ animationKind: "rgb" }} position={position} rotation={rotation}>
+      <ringGeometry args={[Math.max(0, radius - width), radius, 64]} />
+      <meshStandardMaterial
+        map={texture}
+        emissiveMap={texture}
+        color="#ffffff"
+        emissive="#ffffff"
+        emissiveIntensity={0.75}
+        metalness={0.04}
+        roughness={0.3}
+        side={THREE.DoubleSide}
+        toneMapped={false}
+      />
+    </mesh>
+  );
+}
+
+function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
   const ref = useRef<THREE.InstancedMesh>(null);
   const geometry = useMemo(() => {
     const shape = new THREE.Shape();
@@ -170,12 +268,42 @@ function CurvedFanBlades({ radius }: { radius: number }) {
   return (
     <instancedMesh ref={ref} args={[geometry, undefined, 9]}>
       <meshStandardMaterial
-        color="#41474d"
+        color={color}
         metalness={0.12}
         roughness={0.43}
         side={THREE.DoubleSide}
       />
     </instancedMesh>
+  );
+}
+
+function FanHousing({ radius, color }: { radius: number; color: string }) {
+  const geometry = useMemo(() => {
+    const extent = radius * 1.065;
+    const shape = new THREE.Shape();
+    shape.moveTo(-extent, -extent);
+    shape.lineTo(extent, -extent);
+    shape.lineTo(extent, extent);
+    shape.lineTo(-extent, extent);
+    shape.closePath();
+    const aperture = new THREE.Path();
+    aperture.absarc(0, 0, radius * 0.965, 0, Math.PI * 2, true);
+    shape.holes.push(aperture);
+    return new THREE.ExtrudeGeometry(shape, {
+      depth: 0.085,
+      bevelEnabled: true,
+      bevelThickness: 0.003,
+      bevelSize: 0.004,
+      bevelSegments: 1,
+      curveSegments: 32,
+      steps: 1,
+    });
+  }, [radius]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
+  return (
+    <mesh geometry={geometry} position={[0, 0, -0.0425]} castShadow receiveShadow>
+      <meshStandardMaterial color={color} metalness={0.1} roughness={0.55} />
+    </mesh>
   );
 }
 
@@ -189,6 +317,7 @@ export function HardwareFan({
   accent = "#b3f472",
   hubLabel,
   color = "#171b20",
+  bladeColor,
 }: {
   radius?: number;
   position?: Vector3;
@@ -198,49 +327,61 @@ export function HardwareFan({
   accent?: string;
   hubLabel?: string;
   color?: string;
+  bladeColor?: string;
 }) {
+  const rotor = useRef<THREE.Group>(null);
+  const animated = useSceneAnimation();
+  const rgbPhase = useMemo(() => new THREE.Color(accent).getHSL({ h: 0, s: 0, l: 0 }).h * Math.PI * 2, [accent]);
+  const resolvedBladeColor = useMemo(() => {
+    if (bladeColor) return bladeColor;
+    const surface = new THREE.Color(color);
+    const hsl = { h: 0, s: 0, l: 0 };
+    surface.getHSL(hsl);
+    if (hsl.s > 0.2 && hsl.h < 0.18) return color; // Brown fan blades retain their finish.
+    if (surface.r + surface.g + surface.b > 1.55) return "#dbe0e1";
+    return rgb ? "#acb9c4" : "#39434b";
+  }, [color, bladeColor, rgb]);
+  useFrame((_, delta) => {
+    if (!rotor.current || !animated) return;
+    // Slowed illustrative motion keeps the individual blades readable, not a measured RPM.
+    rotor.current.rotation.z = (rotor.current.rotation.z - Math.min(delta, 0.05) * 7.2) % (Math.PI * 2);
+  });
   const screws = useMemo<BoxInstance[]>(
     () =>
       [-1, 1].flatMap((x) =>
         [-1, 1].map((y) => ({
-          position: [x * radius * 0.86, y * radius * 0.86, 0.025] as Vector3,
+          position: [x * radius * 0.86, y * radius * 0.86, 0.048] as Vector3,
           size: [0.025, 0.025, 0.017] as Vector3,
         })),
       ),
     [radius],
   );
+  const supports = useMemo<BoxInstance[]>(() => [0.65, 0.65 + Math.PI / 2].map((angle) => ({
+    position: [0, 0, -0.025] as Vector3,
+    size: [radius * 1.95, radius * 0.085, 0.024] as Vector3,
+    rotation: [0, 0, angle] as Vector3,
+  })), [radius]);
   return (
-    <group position={position} rotation={rotation}>
-      {frame && (
-        <MetalBox
-          size={[radius * 2.13, radius * 2.13, 0.085]}
-          color={color}
-          metalness={0.12}
-          roughness={0.58}
-        />
-      )}
-      <mesh position={[0, 0, 0.045]}>
-        <circleGeometry args={[radius, 48]} />
-        <meshStandardMaterial color="#0b0e13" roughness={0.6} />
-      </mesh>
-      <mesh position={[0, 0, 0.047]}>
+    <group name="hardware-fan" userData={{ animationKind: "fan", rgb }} position={position} rotation={rotation}>
+      {frame && <><FanHousing radius={radius} color={color} /><BoxInstances items={supports} color={color} metalness={0.1} roughness={0.6} /></>}
+      {rgb ? <RGBRing radius={radius} position={[0, 0, 0.047]} phase={rgbPhase} /> : <mesh position={[0, 0, 0.047]}>
         <ringGeometry args={[radius * 0.86, radius, 48]} />
         <meshStandardMaterial
-          color={rgb ? accent : "#343b42"}
+          color="#343b42"
           roughness={0.3}
           metalness={0.55}
-          emissive={rgb ? accent : "#000000"}
-          emissiveIntensity={rgb ? 1.5 : 0}
+          side={THREE.DoubleSide}
         />
-      </mesh>
-      <group position={[0, 0, 0.066]}>
-        <CurvedFanBlades radius={radius} />
+      </mesh>}
+      <group ref={rotor} name="fan-rotor" userData={{ animationKind: "fan-rotor" }}>
+      <group position={[0, 0, 0.005]}>
+        <CurvedFanBlades radius={radius} color={resolvedBladeColor} />
       </group>
-      <mesh position={[0, 0, 0.084]} rotation={[Math.PI / 2, 0, 0]}>
+      <mesh position={[0, 0, 0.016]} rotation={[Math.PI / 2, 0, 0]}>
         <cylinderGeometry args={[radius * 0.24, radius * 0.24, 0.04, 24]} />
         <meshStandardMaterial color={color} roughness={0.3} metalness={0.35} />
       </mesh>
-      <mesh position={[0, 0, 0.106]}>
+      <mesh position={[0, 0, 0.039]}>
         <circleGeometry args={[radius * 0.13, 16]} />
         <meshStandardMaterial
           color="#777f85"
@@ -248,17 +389,18 @@ export function HardwareFan({
           roughness={0.25}
         />
       </mesh>
-      {frame && <BoxInstances items={screws} color="#777d83" metalness={0.8} />}
       {hubLabel && (
         <HardwareLabel
           text={hubLabel}
           width={radius * 0.3}
           height={radius * 0.16}
-          position={[0, 0, 0.108]}
+          position={[0, 0, 0.042]}
           rotation={[0, 0, 0]}
           color="#e0e2e4"
         />
       )}
+      </group>
+      {frame && <BoxInstances items={screws} color="#777d83" metalness={0.8} />}
     </group>
   );
 }

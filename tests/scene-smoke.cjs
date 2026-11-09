@@ -72,6 +72,9 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
     await page.getByRole('heading', {name:'Votre PC. Vos règles.'}).waitFor();
     await page.locator('.visualizer canvas').waitFor();
     if (process.env.FORGE_SCENE_MOBILE_ONLY !== '1') {
+    // Geometry and raycast comparisons use a stable camera; motion-smoke exercises live animation.
+    const animations = page.locator('.studio-view-toolbar .animation-toggle');
+    if (await animations.getAttribute('aria-pressed') === 'true') await animations.click();
     await test('Default H6 panorama, dual-fan GPU and real air cooler are selected', async () => {
       assert.equal(await scene().getAttribute('data-case-id'),'case-h6');
       assert.equal(await scene().getAttribute('data-case-model'),'panoramic');

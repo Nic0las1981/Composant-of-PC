@@ -4157,3 +4157,30 @@ select option {
   .part-card-footer { gap: 5px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Motion controls remain reachable while the 3D studio is running. */
+.studio-view-toolbar { gap: 8px; }
+.animation-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #4c5968;
+  border-radius: 6px;
+  padding: 8px 10px;
+  min-height: 32px;
+  background: #1b222bd9;
+  color: #aebfce;
+  font-size: 9px;
+  backdrop-filter: blur(12px);
+}
+.animation-toggle.active { color: #d9e4ff; border-color: #7186ae; background: #29334bd9; }
+.animation-toggle:hover { color: white; border-color: #a0b7df; }
+.animation-toggle:focus-visible { outline: 2px solid #c0ed99; outline-offset: 3px; }
+@media (max-width: 600px) {
+  .animation-toggle { padding: 7px; flex: 0 0 32px; }
+  .animation-toggle > span { display: none; }
+  .studio-view-toolbar { gap: 5px; }
+  .studio-view-toolbar .interior-toggle { padding: 8px 6px; gap: 4px; }
+}
+.animation-toggle:disabled { opacity: .55; cursor: default; }

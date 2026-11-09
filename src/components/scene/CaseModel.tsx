@@ -1,11 +1,42 @@
-import { useEffect, useMemo, useRef } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { RoundedBox } from "@react-three/drei";
 import * as THREE from "three";
 import { MM, type CaseVisualProfile } from "../../data/visualProfiles";
+import { BoxInstances, HardwareFan, RGBStrip, type BoxInstance } from "./HardwarePrimitives";
 
 type Vec3 = [number, number, number];
 const noRaycast = () => {};
+const CoatingContext = createContext<THREE.Texture | null>(null);
+
+/** A shared fine powder-coat normal relief keeps painted parts matte and tactile. */
+function useCoatingTexture() {
+  const texture = useMemo(() => {
+    const canvas = document.createElement("canvas");
+    canvas.width = canvas.height = 128;
+    const context = canvas.getContext("2d")!;
+    const pixels = context.createImageData(128, 128);
+    for (let i = 0; i < pixels.data.length; i += 4) {
+      const grain = 116 + ((i * 17 + Math.floor(i / 512) * 31) % 29);
+      pixels.data[i] = pixels.data[i + 1] = pixels.data[i + 2] = grain;
+      pixels.data[i + 3] = 255;
+    }
+    context.putImageData(pixels, 0, 0);
+    const map = new THREE.CanvasTexture(canvas);
+    map.wrapS = map.wrapT = THREE.RepeatWrapping;
+    map.repeat.set(5, 7);
+    return map;
+  }, []);
+  useEffect(() => () => texture.dispose(), [texture]);
+  return texture;
+}
+
+function caseBrand(profile: CaseVisualProfile) {
+  if (/Fractal/i.test(profile.name)) return "FRACTAL";
+  if (/Lian Li/i.test(profile.name)) return "LIAN LI";
+  if (/Cooler Master/i.test(profile.name)) return "COOLER MASTER";
+  return profile.name.split(" ")[0].toUpperCase();
+}
 
 /** Distinct enclosures built in millimetres, without remote model dependencies.
  * These are recognisable dimensional reconstructions, not manufacturer CAD.
@@ -31,6 +62,7 @@ function Metal({
   roughness?: number;
   rotation?: Vec3;
 }) {
+  const coating = useContext(CoatingContext);
   return (
     <mesh position={position} rotation={rotation} castShadow receiveShadow>
       <boxGeometry args={size} />
@@ -38,6 +70,8 @@ function Metal({
         color={color}
         metalness={0.3}
         roughness={roughness}
+        bumpMap={coating ?? undefined}
+        bumpScale={0.002}
       />
     </mesh>
   );
@@ -150,59 +184,30 @@ function CaseFan({
   rotation = [0, 0, 0],
   size = 120 * MM,
   light = false,
+  rgb = false,
+  accent,
+  label,
 }: {
   position: Vec3;
   rotation?: Vec3;
   size?: number;
   light?: boolean;
+  rgb?: boolean;
+  accent?: string;
+  label?: string;
 }) {
-  const r = size * 0.43;
   return (
-    <group position={position} rotation={rotation}>
-      <RoundedBox
-        args={[size, size, size * 0.16]}
-        radius={0.035}
-        smoothness={2}
-      >
-        <meshStandardMaterial
-          color={light ? "#d8dcda" : "#171c1e"}
-          metalness={0.25}
-          roughness={0.64}
-        />
-      </RoundedBox>
-      <mesh position={[0, 0, size * 0.09]}>
-        <ringGeometry args={[r * 0.85, r * 1.06, 40]} />
-        <meshStandardMaterial color="#41494c" metalness={0.4} roughness={0.5} />
-      </mesh>
-      {Array.from({ length: 7 }, (_, i) => (
-        <group key={i} rotation={[0, 0, (i * Math.PI * 2) / 7]}>
-          <mesh
-            position={[r * 0.42, 0, size * 0.1]}
-            rotation={[0, 0, -0.42]}
-            scale={[r * 0.55, r * 0.18, 0.025]}
-          >
-            <sphereGeometry args={[1, 10, 6]} />
-            <meshStandardMaterial
-              color={light ? "#b9c1c2" : "#697276"}
-              metalness={0.15}
-              roughness={0.62}
-            />
-          </mesh>
-        </group>
-      ))}
-      <mesh position={[0, 0, size * 0.12]} rotation={[Math.PI / 2, 0, 0]}>
-        <cylinderGeometry args={[r * 0.24, r * 0.24, 0.035, 24]} />
-        <meshStandardMaterial color="#252b2e" roughness={0.6} />
-      </mesh>
-      {[-1, 1].flatMap((x) =>
-        [-1, 1].map((y) => (
-          <Screw
-            key={`${x}${y}`}
-            position={[x * size * 0.425, y * size * 0.425, size * 0.105]}
-          />
-        )),
-      )}
-    </group>
+    <HardwareFan
+      position={position}
+      rotation={rotation}
+      radius={size / 2.13}
+      frame
+      rgb={rgb}
+      accent={accent}
+      color={light ? "#e1e5e5" : "#20272a"}
+      bladeColor={light ? "#c7cfd0" : rgb ? "#a6b7bf" : "#5b666c"}
+      hubLabel={label}
+    />
   );
 }
 
@@ -252,50 +257,87 @@ function TopIO({
   height,
   depth,
   compact = false,
+  light = false,
 }: {
   width: number;
   height: number;
   depth: number;
   compact?: boolean;
+  light?: boolean;
 }) {
-  const y = height / 2 + 0.004,
+  const y = height / 2 + 0.006,
     z = depth / 2 - 0.17,
     x = width / 2 - 0.2;
   return (
     <group>
       <mesh position={[x, y, z]} rotation={[-Math.PI / 2, 0, 0]}>
-        <ringGeometry args={[0.044, 0.054, 24]} />
-        <meshStandardMaterial
-          color="#a3acae"
-          metalness={0.9}
-          roughness={0.35}
-        />
+        <ringGeometry args={[0.044, 0.054, 28]} />
+        <meshStandardMaterial color={light ? "#919b9c" : "#9faeb3"} metalness={0.7} roughness={0.36} />
       </mesh>
       <mesh position={[x, y + 0.002, z]} rotation={[-Math.PI / 2, 0, 0]}>
         <circleGeometry args={[0.038, 24]} />
-        <meshStandardMaterial color="#1b2123" roughness={0.4} />
+        <meshStandardMaterial color={light ? "#c1c9ca" : "#242d30"} roughness={0.4} />
       </mesh>
-      <Metal
-        position={[x - 0.19, y, z]}
-        size={[0.09, 0.012, 0.032]}
-        color="#0b0e10"
-      />
-      {!compact && (
-        <Metal
-          position={[x - 0.34, y, z]}
-          size={[0.09, 0.012, 0.032]}
-          color="#0b0e10"
-        />
-      )}
-      <mesh
-        position={[x - (compact ? 0.33 : 0.49), y, z]}
-        rotation={[-Math.PI / 2, 0, 0]}
-      >
-        <circleGeometry args={[0.022, 20]} />
+      <mesh position={[x, y + 0.004, z]} rotation={[-Math.PI / 2, 0, 0]}>
+        <ringGeometry args={[0.013, 0.016, 20, 1, 0.62, Math.PI * 2 - 1.24]} />
+        <meshBasicMaterial color={light ? "#455157" : "#d6e3e6"} />
+      </mesh>
+      <Metal position={[x, y + 0.006, z - 0.012]} size={[0.004, 0.003, 0.02]} color={light ? "#455157" : "#d6e3e6"} />
+      {[0, ...(compact ? [] : [1])].map((i) => (
+        <group key={i} position={[x - 0.19 - i * 0.15, y, z]}>
+          <Metal size={[0.105, 0.014, 0.044]} color={light ? "#929fa5" : "#899499"} roughness={0.34} />
+          <Metal position={[0, 0.009, 0]} size={[0.087, 0.008, 0.032]} color="#0a1117" roughness={0.8} />
+          <Metal position={[0, 0.014, 0.007]} size={[0.067, 0.005, 0.01]} color="#2b6091" roughness={0.6} />
+        </group>
+      ))}
+      <mesh position={[x - (compact ? 0.33 : 0.49), y, z]} rotation={[-Math.PI / 2, 0, 0]}>
+        <ringGeometry args={[0.016, 0.024, 20]} />
+        <meshStandardMaterial color="#8f9b9d" metalness={0.75} roughness={0.4} />
+      </mesh>
+      <mesh position={[x - (compact ? 0.33 : 0.49), y + 0.001, z]} rotation={[-Math.PI / 2, 0, 0]}>
+        <circleGeometry args={[0.016, 20]} />
         <meshBasicMaterial color="#080c0d" />
       </mesh>
     </group>
   );
+}
+
+/** Recessed rubber cable pass-throughs on the motherboard tray. */
+function CableGrommet({ position, height = 0.32, width = 0.16 }: { position: Vec3; height?: number; width?: number }) {
+  const ribs = useMemo<BoxInstance[]>(() => Array.from({ length: 4 }, (_, i) => ({
+    position: [0.022, -height * 0.3 + i * height * 0.2, 0] as Vec3,
+    size: [0.007, 0.009, width * 0.8] as Vec3,
+  })), [height, width]);
+  return <group position={position}>
+    <RoundedBox args={[0.032, height, width]} radius={0.014} smoothness={2}>
+      <meshStandardMaterial color="#22272a" roughness={0.93} metalness={0} />
+    </RoundedBox>
+    <Metal size={[0.012, height * 0.77, width * 0.68]} position={[0.019, 0, 0]} color="#080e12" roughness={1} />
+    <BoxInstances items={ribs} color="#394145" metalness={0} roughness={0.95} />
+  </group>;
+}
+
+/** Folded sheet-metal seams and expansion slot covers remain visible from the rear. */
+function ChassisDetails({ profile, width: w, height: h, depth: d }: { profile: CaseVisualProfile; width: number; height: number; depth: number }) {
+  const small = profile.kind === "compact";
+  const panoramic = profile.kind === "panoramic";
+  const trayX = panoramic ? -0.43 : -w / 2 + 0.07;
+  const slots = small ? 4 : 7;
+  const slotY = -h * 0.03;
+  const vents = useMemo<BoxInstance[]>(() => Array.from({ length: slots }, (_, row) =>
+    Array.from({ length: 5 }, (_, col) => ({
+      position: [w * 0.1 - 0.29 + col * 0.14, slotY - row * 0.145, -d / 2 - 0.024] as Vec3,
+      size: [0.08, 0.037, 0.007] as Vec3,
+    }))).flat(), [slots, w, slotY, d]);
+  return <group>
+    <Metal size={[0.018, h - 0.32, d * 0.7]} position={[trayX, 0.04, -d * 0.08]} color={profile.frameColor} roughness={0.72} />
+    {[-0.25, 0.33, 0.91].map((y, i) => <CableGrommet key={i} position={[trayX + 0.022, h * y * 0.35, d * 0.31]} height={small ? 0.25 : 0.34} />)}
+    {[0, 1].map((i) => <Metal key={i} size={[0.024, h - 0.35, 0.018]} position={[trayX + 0.018, 0.02, -d * 0.43 + i * d * 0.72]} color={profile.color} roughness={0.7} />)}
+    {Array.from({ length: slots }, (_, i) => <Metal key={i} size={[0.82, 0.105, 0.012]} position={[w * 0.1, slotY - i * 0.145, -d / 2 - 0.014]} color={profile.frameColor} roughness={0.65} />)}
+    <BoxInstances items={vents} color="#080d10" metalness={0.15} roughness={0.75} />
+    {[-1, 1].flatMap((y) => [-1, 1].map((z) => <Screw key={`${y}-${z}`} position={[w / 2 - 0.035, y * (h / 2 - 0.15), z * (d / 2 - 0.08)]} rotation={[0, Math.PI / 2, 0]} />))}
+    {[-1, 1].map((x) => <Metal key={x} size={[0.027, 0.035, d - 0.18]} position={[x * (w / 2 - 0.08), h / 2 - 0.08, 0]} color={profile.frameColor} roughness={0.75} />)}
+  </group>;
 }
 
 function SidePanel({
@@ -347,6 +389,16 @@ function SidePanel({
       )}
       {!ghost && (
         <>
+          {profile.sidePanel !== "vented" && (
+            <group>
+              {[-1, 1].map((edge) => <Metal key={edge} position={[-0.012, edge * (height / 2 - 0.1), 0]} size={[0.012, 0.025, depth - 0.15]} color="#111b1d" roughness={0.85} />)}
+              <Metal position={[-0.012, 0.025, -depth / 2 + 0.085]} size={[0.012, height - 0.18, 0.025]} color="#111b1d" roughness={0.85} />
+              <mesh raycast={noRaycast} position={[0.012, 0.025, depth / 2 - 0.075]}>
+                <boxGeometry args={[0.008, height - 0.2, 0.006]} />
+                <meshStandardMaterial color="#9cafab" transparent opacity={0.35} roughness={0.18} metalness={0.05} depthWrite={false} />
+              </mesh>
+            </group>
+          )}
           <Metal
             position={[0, height / 2 - 0.055, 0]}
             size={[0.023, 0.055, depth - 0.1]}
@@ -407,6 +459,10 @@ function PsuShroud({ profile }: { profile: CaseVisualProfile }) {
         position={[width / 2, (top + bottom) / 2, middle]}
         color={profile.frameColor}
       />
+      <Metal size={[width * 0.96, 0.005, 0.012]} position={[0, top + thickness / 2 + 0.003, front - 0.13]} color={isLightCase(profile) ? "#a4afb0" : "#151d20"} roughness={0.8} />
+      <group position={[-width * 0.25, top + thickness / 2 + 0.02, middle + depth * 0.15]} rotation={[0, 0, Math.PI / 2]}>
+        <CableGrommet position={[0, 0, 0]} height={0.32} width={0.16} />
+      </group>
     </group>
   );
 }
@@ -425,6 +481,7 @@ function TowerFrame({
   const f = profile.frameColor;
   return (
     <group>
+      <ChassisDetails profile={profile} width={w} height={h} depth={d} />
       {/* Structural rails leave the selected hardware visible through the open side. */}
       <Metal size={[w, 0.09, d]} position={[0, -h / 2 + 0.095, 0]} color={f} />
       <Metal
@@ -486,7 +543,7 @@ function TowerFrame({
           />
         )),
       )}
-      {profile.id !== "case-q300l" && <TopIO width={w} height={h} depth={d} />}
+      {profile.id !== "case-q300l" && <TopIO width={w} height={h} depth={d} light={isLightCase(profile)} />}
     </group>
   );
 }
@@ -548,6 +605,9 @@ function Panoramic({
         >
           {Array.from({ length: sideFans }, (_, i) => (
             <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
               key={i}
               position={[0, ((sideFans - 1) / 2 - i) * (fanSize + 0.045), 0]}
               size={fanSize}
@@ -558,6 +618,9 @@ function Panoramic({
       )}
       {rearFans > 0 && (
         <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
           position={[0, h / 2 - 0.67, -d / 2 + 0.2]}
           rotation={[0, Math.PI, 0]}
           size={fanSize}
@@ -565,14 +628,17 @@ function Panoramic({
         />
       )}
       {isO11 && (
-        <Metal
-          size={[0.08, h - 0.12, 0.07]}
-          position={[w / 2 - 0.04, 0.01, d / 2 - 0.025]}
-          color={profile.frameColor}
-        />
+        <>
+          <Metal
+            size={[0.08, h - 0.12, 0.07]}
+            position={[w / 2 - 0.04, 0.01, d / 2 - 0.025]}
+            color={profile.frameColor}
+          />
+          {profile.rgb && <RGBStrip size={[0.025, h - 0.42, 0.015]} position={[w / 2 - 0.045, 0.025, d / 2 + 0.018]} phase={0.3} />}
+        </>
       )}
       <FrontBadge
-        text={isO11 ? "LIAN LI" : "NZXT"}
+        text={caseBrand(profile)}
         position={[w * 0.25, -h / 2 + 0.2, d / 2 + 0.02]}
         width={isO11 ? 0.5 : 0.36}
         color={light ? "#626c70" : "#939c9b"}
@@ -631,6 +697,9 @@ function Airflow({
       {occupiedMount !== "front" &&
         Array.from({ length: frontFans }, (_, i) => (
           <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
             key={i}
             position={[
               0,
@@ -643,6 +712,9 @@ function Airflow({
         ))}
       {rearFans > 0 && (
         <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
           position={[0, h / 2 - 0.65, -d / 2 + 0.2]}
           rotation={[0, Math.PI, 0]}
           size={fanSize}
@@ -656,7 +728,7 @@ function Airflow({
         pattern={nzxt ? "round" : "diagonal"}
       />
       <FrontBadge
-        text={nzxt ? "NZXT" : "CORSAIR"}
+        text={caseBrand(profile)}
         position={[0, -h / 2 + 0.22, d / 2 + 0.053]}
         width={nzxt ? 0.32 : 0.45}
         color={light ? "#596367" : "#939c9b"}
@@ -719,6 +791,9 @@ function Compact({ profile, openSide, exploded }: CaseModelProps) {
       )}
       {profile.fanCount > 0 && (
         <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
           position={[0, h / 2 - 0.6, -d / 2 + 0.21]}
           rotation={[0, Math.PI, 0]}
           size={profile.fanSizeMm * MM}
@@ -768,7 +843,7 @@ function WoodPanel({ position, size }: { position: Vec3; size: Vec3 }) {
   return (
     <mesh position={position} castShadow>
       <boxGeometry args={size} />
-      <meshStandardMaterial map={texture} roughness={0.69} metalness={0} />
+      <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.003} roughness={0.69} metalness={0} />
     </mesh>
   );
 }
@@ -802,8 +877,20 @@ function WoodSlats({
         c.lineTo(x + Math.sin(y * 0.018 + x) * 1.8, y);
       c.stroke();
     }
+    c.lineWidth = 0.7;
+    for (let knot = 0; knot < 3; knot++) {
+      const centerX = 8 + knot * 22;
+      const centerY = 90 + knot * 155;
+      for (let ring = 0; ring < 4; ring++) {
+        c.strokeStyle = walnut ? "rgba(54,26,9,0.12)" : "rgba(112,76,32,0.14)";
+        c.beginPath();
+        c.ellipse(centerX, centerY, 1.7 + ring * 1.2, 8 + ring * 11, 0, 0, Math.PI * 2);
+        c.stroke();
+      }
+    }
     const t = new THREE.CanvasTexture(canvas);
     t.colorSpace = THREE.SRGBColorSpace;
+    t.anisotropy = 4;
     return t;
   }, [walnut]);
   useEffect(() => () => texture.dispose(), [texture]);
@@ -812,9 +899,12 @@ function WoodSlats({
     for (let i = 0; i < count; i++) {
       matrix.makeTranslation(((i - (count - 1) / 2) * width) / count, 0, 0);
       mesh.current?.setMatrixAt(i, matrix);
+      const variation = 0.91 + ((i * 7) % 9) * 0.02;
+      mesh.current?.setColorAt(i, new THREE.Color(variation, variation, variation));
     }
     if (mesh.current) {
       mesh.current.instanceMatrix.needsUpdate = true;
+      if (mesh.current.instanceColor) mesh.current.instanceColor.needsUpdate = true;
       mesh.current.computeBoundingSphere();
     }
   }, [width]);
@@ -827,7 +917,7 @@ function WoodSlats({
       receiveShadow
     >
       <boxGeometry args={[slatWidth, height, 0.05]} />
-      <meshStandardMaterial map={texture} roughness={0.72} metalness={0} />
+      <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.004} roughness={0.72} metalness={0} />
     </instancedMesh>
   );
 }
@@ -874,6 +964,9 @@ function WoodFront({
       {occupiedMount !== "front" &&
         Array.from({ length: frontFans }, (_, i) => (
           <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
             key={i}
             position={[
               0,
@@ -886,6 +979,9 @@ function WoodFront({
         ))}
       {rearFans > 0 && (
         <CaseFan
+              rgb={profile.fanRgb}
+              accent={profile.accent}
+              label={caseBrand(profile)}
           position={[0, h / 2 - 0.65, -d / 2 + 0.2]}
           rotation={[0, Math.PI, 0]}
           size={120 * MM}
@@ -955,6 +1051,12 @@ function Terra({ profile, openSide, exploded }: CaseModelProps) {
         position={[w / 2 - 0.03, h / 2 - 0.025, 0]}
         color={profile.frameColor}
       />
+      {[-1, 1].map((side) => <group key={side}>
+        <Metal size={[0.015, h - 0.2, 0.013]} position={[side * (w / 2 - 0.045), 0.04, d / 2 + 0.004]} color="#556450" roughness={0.7} />
+        <Metal size={[0.021, 0.02, d - 0.2]} position={[side * (w / 2 - 0.065), h / 2 - 0.056, 0]} color="#a0ad98" roughness={0.52} />
+        {[-1, 1].map((end) => <Screw key={end} position={[side * (w / 2 - 0.08), h / 2 + 0.004, end * (d / 2 - 0.11)]} rotation={[-Math.PI / 2, 0, 0]} />)}
+      </group>)}
+      <Metal size={[w - 0.03, 0.013, 0.013]} position={[0, -h / 2 + 0.355, d / 2 + 0.008]} color="#394936" roughness={0.8} />
       <WoodPanel
         position={[0, -h / 2 + 0.2, d / 2 + 0.007]}
         size={[w - 0.03, 0.3, 0.055]}
@@ -1002,16 +1104,19 @@ function Terra({ profile, openSide, exploded }: CaseModelProps) {
 }
 
 export default function CaseModel(props: CaseModelProps) {
+  const coating = useCoatingTexture();
+  let model;
   switch (props.profile.kind) {
     case "panoramic":
-      return <Panoramic {...props} />;
+      model = <Panoramic {...props} />; break;
     case "airflow":
-      return <Airflow {...props} />;
+      model = <Airflow {...props} />; break;
     case "compact":
-      return <Compact {...props} />;
+      model = <Compact {...props} />; break;
     case "sandwich":
-      return <Terra {...props} />;
+      model = <Terra {...props} />; break;
     case "wood-front":
-      return <WoodFront {...props} />;
+      model = <WoodFront {...props} />; break;
   }
+  return <CoatingContext.Provider value={coating}>{model}</CoatingContext.Provider>;
 }

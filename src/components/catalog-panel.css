@@ -283,3 +283,18 @@
 @media (max-width: 600px) {
   .catalog-panel .cp-scroll-hint { display: block; font-size: 11px; color: #afbea4; margin: -6px 0 14px; line-height: 1.6; }
 }
+
+.catalog-panel .cp-card-price > strong > small { margin-left: 7px; color: #99aa8d; font-size: 9px; font-weight: 400; letter-spacing: 0; }
+.catalog-panel .cp-offers { padding: 16px 18px; margin: 0 0 25px; border: 1px solid #4b5038; border-radius: 9px; background: #282b20; display: grid; grid-template-columns: 1.3fr 1fr; gap: 18px; align-items: center; }
+.catalog-panel .cp-offers strong { display: flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; color: #d9d7ae; }
+.catalog-panel .cp-offers p { margin: 7px 0 0; color: #b6baaa; font-size: 11px; line-height: 1.65; }
+.catalog-panel .cp-offer-links { display: flex; flex-direction: column; align-items: flex-start; gap: 9px; }
+.catalog-panel .cp-offer-links a, .catalog-panel .cp-offer-link { display: inline-flex; align-items: center; gap: 6px; color: #c6dcac; text-decoration: none; font-size: 11px; line-height: 1.5; }
+.catalog-panel .cp-offer-links a:hover, .catalog-panel .cp-offer-link:hover { color: #e1ffc4; text-decoration: underline; }
+.catalog-panel .cp-offer-links a:focus-visible, .catalog-panel .cp-offer-link:focus-visible { outline: 2px solid #b7ec88; outline-offset: 4px; }
+.catalog-panel .cp-offer-link { margin: -4px 0 12px; }
+@media (max-width: 600px) {
+  .catalog-panel .cp-offers { grid-template-columns: 1fr; gap: 14px; padding: 15px; }
+  .catalog-panel .cp-offer-links a { min-height: 33px; }
+  .catalog-panel .cp-card-price > strong > small { display: block; margin: 3px 0 0; }
+}

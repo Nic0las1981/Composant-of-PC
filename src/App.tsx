@@ -35,6 +35,8 @@ import {
   Menu,
   Crosshair,
   Gauge,
+  Play,
+  Pause,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import {
@@ -54,6 +56,7 @@ import ProductArt from "./components/ProductArt";
 import CatalogPanel from "./components/CatalogPanel";
 import type { CameraView } from "./components/PcScene";
 import { getCaseProfile } from "./data/visualProfiles";
+import { pricingPolicy } from "./data/pricing";
 const PcScene = lazy(() => import("./components/PcScene"));
 
 type Selection = Record<CategoryId, string | null>;
@@ -161,7 +164,7 @@ function Dialog({
       if (event.key === "Escape") closeRef.current();
       if (event.key === "Tab") {
         const nodes = container.current?.querySelectorAll<HTMLElement>(
-          'button:not([disabled]), input, select, [tabindex="0"]',
+          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex="0"]',
         );
         if (!nodes?.length) return;
         const first = nodes[0],
@@ -237,6 +240,21 @@ export default function App() {
   const [exploded, setExploded] = useState(false);
   const [openSide, setOpenSide] = useState(true);
   const [cameraView, setCameraView] = useState<CameraView>("perspective");
+  const [reducedMotion, setReducedMotion] = useState(
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+  );
+  const [animated, setAnimated] = useState<boolean>(
+    () => !reducedMotion && (typeof initial?.animated === "boolean" ? initial.animated : true),
+  );
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      setReducedMotion(media.matches);
+      if (media.matches) setAnimated(false);
+    };
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
   const [resetKey, setResetKey] = useState(0);
   const [fullView, setFullView] = useState(false);
   const [dialog, setDialog] = useState<
@@ -272,12 +290,12 @@ export default function App() {
     try {
       localStorage.setItem(
         SELECTION_KEY,
-        JSON.stringify({ selection, resolution, usage, name: buildName }),
+        JSON.stringify({ selection, resolution, usage, name: buildName, animated }),
       );
     } catch {
       /* Export remains available when browser storage is blocked. */
     }
-  }, [selection, resolution, usage, buildName]);
+  }, [selection, resolution, usage, buildName, animated]);
   const openCatalog = (category: CategoryId) => {
     setActiveCategory(category);
     setCatalogCategory(category);
@@ -353,7 +371,8 @@ export default function App() {
       "",
       "Équilibre : " + analysis.balance.description,
       "",
-      "Prix indicatifs, hors livraison. Analyse basée sur les spécifications du catalogue et des estimations ; vérifier les fiches fabricants, versions BIOS et connecteurs avant achat.",
+      pricingPolicy.description,
+      "Analyse basée sur les spécifications du catalogue et des estimations ; vérifier les fiches fabricants, versions BIOS et connecteurs avant achat.",
     ];
     const url = URL.createObjectURL(
       new Blob([lines.join("\n")], { type: "text/plain;charset=utf-8" }),
@@ -504,7 +523,7 @@ export default function App() {
               <span />
               Tous les détails font la différence.
             </span>
-            <span className="version">STUDIO 3.0</span>
+            <span className="version">STUDIO 3.1</span>
           </div>
         </header>
         <main>
@@ -642,6 +661,17 @@ export default function App() {
                     ))}
                   </div>
                   <button
+                    className={`animation-toggle ${animated ? "active" : ""}`}
+                    aria-label={reducedMotion ? "Animations désactivées : mouvement réduit" : animated ? "Mettre les animations en pause" : "Activer les animations"}
+                    aria-pressed={animated}
+                    disabled={reducedMotion}
+                    title={reducedMotion ? "Le mouvement réduit est activé dans vos préférences système" : "Rotation automatique, ventilateurs et éclairages RGB"}
+                    onClick={() => setAnimated(!animated)}
+                  >
+                    {animated ? <Pause size={14} /> : <Play size={14} />}
+                    <span>{animated ? "Animations" : "En pause"}</span>
+                  </button>
+                  <button
                     className={`interior-toggle ${openSide ? "active" : ""}`}
                     aria-pressed={openSide}
                     onClick={() => setOpenSide(!openSide)}
@@ -662,6 +692,7 @@ export default function App() {
                     <PcScene
                       components={analysis.selected}
                       paused={fullView || !!catalogCategory || !!dialog}
+                      animated={animated}
                       exploded={exploded}
                       openSide={openSide}
                       cameraView={cameraView}
@@ -684,7 +715,7 @@ export default function App() {
                     <span>
                       Survolez pour identifier
                       <br />
-                      <small>Glissez pour tourner · Défilez pour zoomer</small>
+                      <small>Glissez pour orienter · Molette pour zoomer</small>
                     </span>
                   </span>
                   <div className="viewer-controls">
@@ -1222,7 +1253,7 @@ export default function App() {
                 </div>
                 <div className="total-price">
                   {money(analysis.total)}
-                  <span>TTC*</span>
+                  <span>estimés*</span>
                 </div>
                 <div className="total-status">
                   {errors.length ? (
@@ -1241,7 +1272,7 @@ export default function App() {
                   <ArrowUpRight size={16} />
                 </button>
                 <p>
-                  * Prix indicatifs, hors livraison.
+                  * Prix indicatifs hors livraison, non vérifiés auprès des marchands.
                   <br />
                   Aucun achat n’est effectué sur FORGE.
                 </p>
@@ -1596,6 +1627,7 @@ export default function App() {
             >
               <PcScene
                 exploded={exploded}
+                animated={animated}
                 components={analysis.selected}
                 openSide={openSide}
                 cameraView={cameraView}
@@ -1606,6 +1638,17 @@ export default function App() {
             </Suspense>
           </div>
           <div className="full-scene-controls">
+            <button
+              className="button button-secondary"
+              aria-label={reducedMotion ? "Animations désactivées : mouvement réduit" : animated ? "Mettre les animations en pause" : "Activer les animations"}
+              aria-pressed={animated}
+              disabled={reducedMotion}
+              title={reducedMotion ? "Le mouvement réduit est activé dans vos préférences système" : undefined}
+              onClick={() => setAnimated(!animated)}
+            >
+              {animated ? <Pause size={16} /> : <Play size={16} />}
+              {animated ? "Mettre en pause" : "Animer la tour"}
+            </button>
             <button
               className="button button-secondary"
               aria-pressed={openSide}

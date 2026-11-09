@@ -538,6 +538,7 @@ export const gpuProfileExpansion: Record<string, GpuVisualProfile> = {
     "color": "#2a2e36",
     "accent": "#779ca7",
     "rgb": true,
+    "fanRgb": true,
     "lengthMm": 280,
     "heightMm": 115,
     "thicknessMm": 42,

@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import type { Component } from "../../data/catalog";
 import {
@@ -16,6 +16,7 @@ import {
   BoxInstances,
   HardwareFan,
   HardwareLabel,
+  RGBStrip,
   Tube,
   type BoxInstance,
 } from "./HardwarePrimitives";
@@ -41,20 +42,53 @@ export function getBoardAnchors(profile: BoardVisualProfile): {
   };
 }
 
-function BoardSurface({ profile }: { profile: BoardVisualProfile }) {
+/** Board-mounted cylinders share geometry/material to keep small details affordable. */
+function BoardCapacitors({ positions }: { positions: Vec3[] }) {
+  const bodies = useRef<THREE.InstancedMesh>(null);
+  const tops = useRef<THREE.InstancedMesh>(null);
+  useLayoutEffect(() => {
+    const matrix = new THREE.Object3D();
+    positions.forEach((position, index) => {
+      matrix.position.set(...position);
+      matrix.rotation.z = -Math.PI / 2;
+      matrix.updateMatrix();
+      bodies.current?.setMatrixAt(index, matrix.matrix);
+      matrix.position.x += 0.033;
+      matrix.updateMatrix();
+      tops.current?.setMatrixAt(index, matrix.matrix);
+    });
+    for (const mesh of [bodies.current, tops.current]) if (mesh) {
+      mesh.instanceMatrix.needsUpdate = true;
+      mesh.computeBoundingSphere();
+    }
+  }, [positions]);
+  return <group>
+    <instancedMesh ref={bodies} args={[undefined, undefined, positions.length]} castShadow>
+      <cylinderGeometry args={[0.024, 0.024, 0.061, 12]} />
+      <meshStandardMaterial color="#2b343b" metalness={0.25} roughness={0.5} />
+    </instancedMesh>
+    <instancedMesh ref={tops} args={[undefined, undefined, positions.length]}>
+      <cylinderGeometry args={[0.021, 0.021, 0.005, 12]} />
+      <meshStandardMaterial color="#aab5b8" metalness={0.7} roughness={0.4} />
+    </instancedMesh>
+  </group>;
+}
+
+function BoardSurface({ component, profile }: Props<BoardVisualProfile>) {
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
-    canvas.width = 512;
-    canvas.height = 640;
+    canvas.width = 1024;
+    canvas.height = 1280;
     const c = canvas.getContext("2d")!;
+    c.scale(2, 2);
     c.fillStyle = profile.pcbColor;
     c.fillRect(0, 0, 512, 640);
-    // Deliberately deterministic fine circuitry, with no downloadable textures.
-    c.lineWidth = 1.2;
-    for (let i = 0; i < 48; i++) {
+    // Routed traces and silk screen are reconstructed locally, never downloaded.
+    c.lineWidth = 0.9;
+    for (let i = 0; i < 96; i++) {
       const x = 13 + ((i * 73) % 480),
         y = 18 + ((i * 117) % 600);
-      c.strokeStyle = i % 4 === 0 ? "#444d46" : "#2b3732";
+      c.strokeStyle = i % 4 === 0 ? "#8d8b6a66" : "#718a7860";
       c.beginPath();
       c.moveTo(x, y);
       c.lineTo(x + 12, y);
@@ -65,18 +99,29 @@ function BoardSurface({ profile }: { profile: BoardVisualProfile }) {
       c.fillStyle = "#a4a996";
       c.fillRect(x - 1, y - 1, 2.5, 2.5);
     }
-    for (let i = 0; i < 160; i++) {
-      c.fillStyle = i % 5 === 0 ? "#6c7165" : "#354138";
-      c.fillRect(12 + ((i * 97) % 486), 10 + ((i * 53) % 620), 3, 2);
+    for (let i = 0; i < 200; i++) {
+      const x = 12 + ((i * 97) % 486), y = 10 + ((i * 53) % 620);
+      c.fillStyle = "#141b1d";
+      c.fillRect(x, y, 5.5, 3);
+      c.fillStyle = i % 5 === 0 ? "#c2b783" : "#8b9690";
+      c.fillRect(x, y, 1.2, 3);
+      c.fillRect(x + 4.3, y, 1.2, 3);
     }
-    c.strokeStyle = "#4e5a4a";
+    c.font = "500 8px monospace";
+    c.fillStyle = "#c3ccc2";
+    for (const [label, x, y] of [["CPU_PWR", 355, 35], ["SYS_FAN", 30, 88], ["PCI_E1", 180, 405], ["M.2", 265, 452], ["USB", 205, 602], ["AUDIO", 430, 583], ["ATX_PWR", 12, 342]] as const) {
+      c.fillText(label, x, y);
+    }
+    c.font = "600 10px monospace";
+    c.fillText(component.name.slice(0, 35), 80, 570, 340);
+    c.strokeStyle = "#788b76";
     c.lineWidth = 2;
     c.strokeRect(6, 6, 500, 628);
     const t = new THREE.CanvasTexture(canvas);
     t.colorSpace = THREE.SRGBColorSpace;
     t.anisotropy = 4;
     return t;
-  }, [profile.pcbColor]);
+  }, [profile.pcbColor, component.name]);
   useEffect(() => () => texture.dispose(), [texture]);
   return (
     <mesh position={[0.018, 0, 0]} rotation={[0, Math.PI / 2, 0]}>
@@ -130,6 +175,18 @@ export function MotherboardModel({
       })),
     [h, w],
   );
+  const capacitors = useMemo<Vec3[]>(() => [
+    ...Array.from({ length: 9 }, (_, i) => [0.06, h * 0.31 - i * h * 0.065, -w * 0.285] as Vec3),
+    ...Array.from({ length: 6 }, (_, i) => [0.06, -h * 0.41, -w * 0.34 + i * w * 0.055] as Vec3),
+  ], [h, w]);
+  const powerPins = useMemo<BoxInstance[]>(() => Array.from({ length: 24 }, (_, i) => ({
+    position: [0.138, -0.15 + (i % 12) * 0.027, w * 0.47 + (i < 12 ? -0.018 : 0.018)] as Vec3,
+    size: [0.009, 0.013, 0.009] as Vec3,
+  })), [w]);
+  const sinkGrooves = useMemo<BoxInstance[]>(() => Array.from({ length: 11 }, (_, i) => ({
+    position: [0.17, h * 0.18 - h * 0.19 + i * h * 0.037, -w * 0.41] as Vec3,
+    size: [0.008, 0.011, w * 0.145] as Vec3,
+  })), [h, w]);
   return (
     <group>
       <MetalBox
@@ -138,7 +195,7 @@ export function MotherboardModel({
         metalness={0.1}
         roughness={0.85}
       />
-      <BoardSurface profile={profile} />
+      <BoardSurface component={component} profile={profile} />
       <MetalBox
         position={[0.085, h * 0.18, -w * 0.41]}
         size={[0.14, h * 0.46, w * 0.16]}
@@ -149,7 +206,18 @@ export function MotherboardModel({
         size={[0.15, h * 0.12, w * 0.55]}
         color={profile.heatsinkColor}
       />
-      <BoxInstances items={traces} color="#737d82" />
+      <BoxInstances items={traces} color="#98a5aa" roughness={0.5} />
+      <BoxInstances items={sinkGrooves} color="#171f24" metalness={0.2} roughness={0.7} />
+      <BoardCapacitors positions={capacitors} />
+      <BoxInstances items={powerPins} color="#b8a36a" metalness={0.65} />
+      <group position={[0.11, h * 0.18, -w * 0.502]}>
+        <MetalBox size={[0.19, h * 0.49, 0.045]} color="#8b969a" metalness={0.65} roughness={0.42} />
+        {[0, 1, 2].map((index) => <group key={index} position={[0, h * (0.12 - index * 0.115), -0.028]}>
+          <MetalBox size={[0.12, 0.12, 0.012]} color="#172126" metalness={0.1} />
+          <MetalBox position={[0, 0.018, -0.009]} size={[0.085, 0.021, 0.009]} color={index === 1 ? "#286ba1" : "#242a30"} metalness={0.1} />
+          <MetalBox position={[0, -0.025, -0.009]} size={[0.085, 0.021, 0.009]} color={index === 1 ? "#286ba1" : "#242a30"} metalness={0.1} />
+        </group>)}
+      </group>
       <HardwareLabel
         text={component.brand.toUpperCase()}
         position={[0.167, h * 0.33, -w * 0.4]}
@@ -205,6 +273,7 @@ export function MotherboardModel({
             size={[0.008, 0.017, w * 0.51]}
             color="#0d1317"
           />
+          <MetalBox position={[0.04, 0, w * 0.305]} size={[0.07, 0.072, 0.06]} color="#667277" roughness={0.55} metalness={0.2} />
         </group>
       ))}
       <MetalBox
@@ -224,6 +293,14 @@ export function MotherboardModel({
         size={[0.12, 0.36, 0.072]}
         color="#171a1f"
       />
+      {profile.rgb && (component.brand === "ASUS" ?
+        <RGBStrip position={[0.175, h * 0.31, -w * 0.405]} size={[h * 0.2, 0.025, 0.018]} rotation={[0, 0, Math.PI / 2]} phase={0.45} /> :
+        <RGBStrip position={[0.14, -h * 0.43, w * 0.29]} size={[w * 0.21, 0.022, 0.014]} rotation={[0, Math.PI / 2, 0]} phase={0.45} />)}
+      <mesh position={[0.055, -h * 0.29, -w * 0.32]} rotation={[0, 0, Math.PI / 2]}>
+        <cylinderGeometry args={[0.078, 0.078, 0.022, 32]} />
+        <meshStandardMaterial color="#aeb6b2" metalness={0.72} roughness={0.35} />
+      </mesh>
+      <HardwareLabel text="+" position={[0.068, -h * 0.29, -w * 0.32]} width={0.07} height={0.05} color="#3b4848" />
       <BoxInstances
         items={bits}
         color="#61696d"
@@ -263,7 +340,7 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
       c.fillStyle = y % 9 === 0 ? "#ffffff05" : "#00000006";
       c.fillRect(0, y, 1024, 1);
     }
-    c.strokeStyle = "#a5b2b528";
+    c.strokeStyle = "#a5b2b56b";
     c.lineWidth = 3;
     c.strokeRect(16, 16, 992, 480);
     c.beginPath();
@@ -278,11 +355,16 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
       c.moveTo(x, y - 5); c.lineTo(x, y + 5); c.stroke();
     }
     c.fillStyle = "#c5cdd0";
-    c.font = "600 43px Arial";
+    c.font = "600 50px Arial";
     c.fillText(component.brand.toUpperCase(), 100, 245, 560);
     c.fillStyle = "#9ba7ab";
     c.font = "500 21px Arial";
-    c.fillText(component.name, 100, 286, 560);
+    c.fillText(component.name, 100, 292, 680);
+    c.fillStyle = "#c0b278";
+    c.beginPath(); c.moveTo(80, 360); c.lineTo(96, 333); c.lineTo(112, 360); c.closePath(); c.fill();
+    c.fillStyle = "#293035"; c.font = "600 18px Arial"; c.fillText("!", 92, 355);
+    c.fillStyle = "#a9b2b3"; c.font = "500 14px monospace";
+    c.fillText("HOT SURFACE", 125, 355);
     const map = new THREE.CanvasTexture(canvas);
     map.colorSpace = THREE.SRGBColorSpace;
     map.anisotropy = 4;
@@ -353,7 +435,8 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
         position={[0, height * 0.46, 0]}
         size={[width, 0.045, length]}
         color={profile.backplateColor}
-        roughness={0.32}
+        metalness={0.22}
+        roughness={0.62}
       />
       <GpuBackplate component={component} profile={profile} />
       <BoxInstances items={backVents} color="#111519" />
@@ -361,16 +444,22 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
         position={[width * 0.49, 0, 0]}
         size={[0.035, height * 0.91, length]}
         color={metal}
+        metalness={0.3}
+        roughness={0.48}
       />
       <MetalBox
         position={[-width * 0.49, 0, 0]}
         size={[0.035, height * 0.91, length]}
         color={metal}
+        metalness={0.3}
+        roughness={0.48}
       />
       <MetalBox
         position={[0, -height * 0.43, 0]}
         size={[width, height * 0.17, length]}
         color={metal}
+        metalness={0.3}
+        roughness={0.48}
       />
       {Array.from({ length: profile.fanCount }, (_, i) => (
         <HardwareFan
@@ -393,6 +482,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
             0,
           ]}
           color={metal}
+          rgb={profile.rgb && profile.fanRgb === true}
           hubLabel={
             component.brand === "Sapphire"
               ? "S"
@@ -412,11 +502,11 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
         color={profile.rgb ? profile.accent : "#d4d7d9"}
       />
       {profile.rgb && (
-        <MetalBox
-          position={[width * 0.512, -height * 0.31, -length * 0.1]}
-          size={[0.012, 0.018, length * 0.62]}
-          color={profile.accent}
-          emissive={profile.accent}
+        <RGBStrip
+          position={[width * 0.512, -height * 0.31, component.brand === "ASUS" ? -length * 0.32 : -length * 0.1]}
+          size={[length * (component.brand === "ASUS" ? 0.17 : 0.62), 0.022, 0.015]}
+          rotation={[0, Math.PI / 2, 0]}
+          phase={0.1}
         />
       )}
       {component.brand === "Sapphire" && /PULSE/i.test(component.name) && (
@@ -445,6 +535,11 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
         color="#14191c"
         metalness={0.1}
       />
+      <MetalBox position={[width * 0.18, height * 0.603, -length * 0.21]} size={[0.155, 0.013, 0.125]} color="#080c0e" roughness={0.85} metalness={0.05} />
+      {[0, 1, 2].map((port) => <group key={port} position={[width * (0.25 - port * 0.24), -height * 0.12, -length * 0.528]}>
+        <MetalBox size={[width * 0.17, height * 0.22, 0.019]} color="#202729" metalness={0.15} />
+        <MetalBox position={[0, 0, -0.011]} size={[width * 0.12, height * 0.075, 0.008]} color="#b4ab80" metalness={0.75} />
+      </group>)}
     </group>
   );
 }
@@ -520,6 +615,8 @@ export function CoolerModel({
           rotation={[0, Math.PI / 2, 0]}
           frame
           color={profile.fanColor}
+          bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
+          rgb={profile.fanRgb}
           hubLabel="N"
         />
       ) : (
@@ -538,6 +635,8 @@ export function CoolerModel({
             position={[h * 0.07, 0, d * (profile.fanCount > 1 ? 0.43 : -0.055)]}
             frame
             color={profile.fanColor}
+            bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
+            rgb={profile.fanRgb}
             hubLabel={
               component.brand === "Noctua"
                 ? "N"
@@ -552,8 +651,12 @@ export function CoolerModel({
               position={[h * 0.07, 0, -d * 0.055]}
               frame
               color={profile.fanColor}
+              bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
+              rgb={profile.fanRgb}
             />
           )}
+          {profile.pumpDisplay === "lcd" && <PumpScreen width={Math.min(w, d) * 0.62} position={[h * 0.475, 0, 0]} brand={component.brand} rectangular />}
+          {profile.rgb && !profile.fanRgb && [-1, 1].map(side => <RGBStrip key={side} position={[h * 0.469, side * w * .45, 0]} size={[d * .78, .018, .013]} rotation={[0, Math.PI / 2, 0]} phase={side > 0 ? .2 : .65} />)}
           <HardwareLabel
             text={component.brand.toUpperCase()}
             position={[h * 0.465, 0, d * 0.23]}
@@ -601,12 +704,9 @@ export function RamModel({ component, profile }: Props<RamVisualProfile>) {
           />
           <BoxInstances items={contacts} color="#ba9b4c" />
           <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />
-          <MetalBox
-            position={[h * 0.51, 0, 0]}
-            size={[0.034, l * 0.91, t * 1.52]}
-            color={profile.rgb ? "#d6f5e8" : "#4b5054"}
-            emissive={profile.rgb ? profile.accent : undefined}
-          />
+          {profile.rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 1.52]} rotation={[0, 0, Math.PI / 2]} phase={i * 0.13} /> :
+            <MetalBox position={[h * 0.51, 0, 0]} size={[0.034, l * 0.91, t * 1.52]} color={profile.heatspreaderColor} roughness={0.45} />}
+
           <HardwareLabel
             text={component.brand.toUpperCase()}
             position={[h * 0.534, 0, 0]}
@@ -634,6 +734,22 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
   const w = profile.widthMm * MM,
     h = profile.heightMm * MM,
     d = profile.depthMm * MM;
+  const am5 = profile.socket === "AM5";
+  const heatspreader = useMemo(() => {
+    const outline = new THREE.Shape();
+    const points = [
+      [-.28, -.43], [.28, -.43], [.28, -.34], [.43, -.34], [.43, -.18],
+      [.34, -.18], [.34, .18], [.43, .18], [.43, .34], [.28, .34],
+      [.28, .43], [-.28, .43], [-.28, .34], [-.43, .34], [-.43, .18],
+      [-.34, .18], [-.34, -.18], [-.43, -.18], [-.43, -.34], [-.28, -.34],
+    ];
+    points.forEach(([x, y], index) => index ? outline.lineTo(x * w, y * h) : outline.moveTo(x * w, y * h));
+    outline.closePath();
+    return new THREE.ExtrudeGeometry(outline, { depth: d * .69, bevelEnabled: true, bevelSize: .002, bevelThickness: .002, bevelSegments: 1, steps: 1 });
+  }, [w, h, d]);
+  useEffect(() => () => heatspreader.dispose(), [heatspreader]);
+  const capacitors = useMemo<BoxInstance[]>(() => [-1, 1].flatMap(side =>
+    Array.from({ length: 5 }, (_, i) => ({ position: [-d * .015, side * h * .43, (i - 2) * w * .13] as Vec3, size: [d * .19, h * .025, w * .065] as Vec3 }))), [w, h, d]);
   return (
     <group>
       <MetalBox
@@ -643,13 +759,10 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
         roughness={0.72}
         metalness={0.12}
       />
-      <MetalBox
-        position={[d * 0.12, 0, 0]}
-        size={[d * 0.76, h * 0.84, w * 0.84]}
-        color="#bfc4c5"
-        roughness={0.23}
-        metalness={0.86}
-      />
+      {am5 ? <mesh geometry={heatspreader} position={[-d * .23, 0, 0]} rotation={[0, Math.PI / 2, 0]} castShadow>
+        <meshStandardMaterial color="#bfc6c5" metalness={.62} roughness={.4} />
+      </mesh> : <MetalBox position={[d * 0.12, 0, 0]} size={[d * 0.76, h * 0.84, w * 0.84]} color="#bfc4c5" roughness={0.4} metalness={0.62} />}
+      <BoxInstances items={capacitors} color="#b5a974" metalness={0.45} roughness={0.6} />
       <HardwareLabel
         text={component.brand === "AMD" ? "AMD RYZEN" : "intel CORE"}
         subtext={component.name.replace("Ryzen ", "").replace("Core ", "")}
@@ -658,7 +771,7 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
         height={h * 0.48}
         color="#343b3d"
       />
-      {component.brand === "AMD" &&
+      {am5 &&
         [-1, 1].flatMap((y) =>
           [-1, 1].map((z) => (
             <MetalBox
@@ -803,7 +916,7 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   );
 }
 
-function PumpScreen({ width, position, brand }: { width: number; position: Vec3; brand: string }) {
+function PumpScreen({ width, position, brand, rectangular = false }: { width: number; position: Vec3; brand: string; rectangular?: boolean }) {
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
     canvas.width = 512;
@@ -816,8 +929,12 @@ function PumpScreen({ width, position, brand }: { width: number; position: Vec3;
     glow.addColorStop(1, "#060a0f");
     ctx.fillStyle = glow;
     ctx.fillRect(0, 0, 512, 512);
+    const screenColor = ctx.createLinearGradient(0, 0, 512, 512);
+    screenColor.addColorStop(0, "#78e0ef");
+    screenColor.addColorStop(0.5, "#758bff");
+    screenColor.addColorStop(1, "#ca76e1");
     ctx.lineWidth = 12;
-    ctx.strokeStyle = "#7dd7df";
+    ctx.strokeStyle = screenColor;
     ctx.beginPath();
     ctx.arc(256, 256, 215, -Math.PI * 0.8, Math.PI * 0.6);
     ctx.stroke();
@@ -833,16 +950,16 @@ function PumpScreen({ width, position, brand }: { width: number; position: Vec3;
     ctx.fillText(brand.toUpperCase(), 256, 232, 370);
     ctx.fillStyle = "#88a9b4";
     ctx.font = "500 22px Arial";
-    ctx.fillText("L I Q U I D   C O O L I N G", 256, 302, 360);
+    ctx.fillText(rectangular ? "D I G I T A L   C O O L I N G" : "L I Q U I D   C O O L I N G", 256, 302, 360);
     const map = new THREE.CanvasTexture(canvas);
     map.colorSpace = THREE.SRGBColorSpace;
     map.anisotropy = 4;
     return map;
-  }, [brand]);
+  }, [brand, rectangular]);
   useEffect(() => () => texture.dispose(), [texture]);
   return (
     <mesh position={position} rotation={[0, Math.PI / 2, 0]}>
-      <circleGeometry args={[width / 2, 48]} />
+      {rectangular ? <planeGeometry args={[width * 1.3, width]} /> : <circleGeometry args={[width / 2, 48]} />}
       <meshBasicMaterial map={texture} toneMapped={false} />
     </mesh>
   );
@@ -882,7 +999,7 @@ function BraidedHose({ points, color }: { points: Vec3[]; color: string }) {
     ctx.fillStyle = color;
     ctx.fillRect(0, 0, 64, 64);
     ctx.lineWidth = 3;
-    ctx.strokeStyle = "#33383b";
+    ctx.strokeStyle = new THREE.Color(color).getHSL({ h: 0, s: 0, l: 0 }).l > 0.55 ? "#a7afb4" : "#556069";
     for (let i = -64; i < 128; i += 12) {
       ctx.beginPath();
       ctx.moveTo(i, 0);
@@ -1041,20 +1158,20 @@ export function AioCoolingModel({
       <group position={radiatorPosition} rotation={rotation}>
         <MetalBox
           size={[width, thickness * 0.77, length]}
-          color="#11171b"
+          color={profile.finColor}
           roughness={0.72}
         />
         <BoxInstances
           items={fins}
-          color="#687277"
-          metalness={0.75}
+          color={profile.finColor}
+          metalness={0.45}
           roughness={0.49}
         />
-        <BoxInstances items={rails} color="#252c30" roughness={0.44} />
+        <BoxInstances items={rails} color={profile.color} metalness={0.22} roughness={0.52} />
         <MetalBox
           position={[0, thickness * 0.43, 0]}
           size={[width * 0.88, 0.014, length * 0.88]}
-          color="#151d20"
+          color={profile.color}
           metalness={0.3}
           roughness={0.65}
         />
@@ -1070,6 +1187,7 @@ export function AioCoolingModel({
             ]}
             rotation={[Math.PI / 2, 0, 0]}
             color={profile.fanColor}
+            bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
             rgb={profile.fanRgb}
             accent={profile.accent}
             hubLabel={
@@ -1102,6 +1220,10 @@ export function AioCoolingModel({
           metalness={0.8}
           roughness={0.25}
         />
+        {[-1, 1].flatMap((y) => [-1, 1].map((z) => <mesh key={`${y}-${z}`} position={[-pumpDepth * 0.36, y * pumpWidth * 0.4, z * pumpHeight * 0.4]} rotation={[0, 0, Math.PI / 2]}>
+          <cylinderGeometry args={[0.025, 0.025, 0.065, 12]} />
+          <meshStandardMaterial color="#aeb8bc" metalness={0.75} roughness={0.3} />
+        </mesh>))}
         {rounded ? (
           <mesh rotation={[0, 0, Math.PI / 2]} castShadow>
             <cylinderGeometry args={[radius, radius, pumpDepth, 48]} />
@@ -1126,18 +1248,8 @@ export function AioCoolingModel({
               <>
                 {[-1, 1].map((side) => (
                   <group key={side}>
-                    <MetalBox
-                      position={[face, side * pumpWidth * 0.42, 0]}
-                      size={[0.018, 0.025, pumpHeight * 0.86]}
-                      color={profile.accent}
-                      emissive={profile.accent}
-                    />
-                    <MetalBox
-                      position={[face, 0, side * pumpHeight * 0.42]}
-                      size={[0.018, pumpWidth * 0.86, 0.025]}
-                      color={profile.accent}
-                      emissive={profile.accent}
-                    />
+                    <RGBStrip position={[face, side * pumpWidth * 0.42, 0]} size={[pumpHeight * 0.86, 0.025, 0.018]} rotation={[0, Math.PI / 2, 0]} phase={side > 0 ? 0.1 : 0.6} />
+                    <RGBStrip position={[face, 0, side * pumpHeight * 0.42]} size={[pumpWidth * 0.86, 0.018, 0.025]} rotation={[0, 0, Math.PI / 2]} phase={side > 0 ? 0.35 : 0.85} />
                   </group>
                 ))}
                 {component.brand === "DeepCool" &&
@@ -1152,8 +1264,8 @@ export function AioCoolingModel({
                               0,
                             ]}
                             size={[0.008, 0.009, pumpHeight * (0.7 - i * 0.14)]}
-                            color={profile.accent}
-                            emissive={profile.accent}
+                            color={i === 1 ? "#80d9ed" : "#ad88ed"}
+                            emissive={i === 1 ? "#4895a7" : "#6a4a96"}
                           />
                           <MetalBox
                             position={[
@@ -1162,8 +1274,8 @@ export function AioCoolingModel({
                               side * pumpHeight * (0.35 - i * 0.07),
                             ]}
                             size={[0.008, pumpWidth * (0.7 - i * 0.14), 0.009]}
-                            color={profile.accent}
-                            emissive={profile.accent}
+                            color={i === 1 ? "#80d9ed" : "#ad88ed"}
+                            emissive={i === 1 ? "#4895a7" : "#6a4a96"}
                           />
                         </group>
                       ))}

@@ -36,6 +36,43 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
     await page.locator('canvas').waitFor();
     assert.ok(Number((await page.locator('.gauge-number').textContent()).split('/')[0]) >= 70);
   });
+  await test('Estimated prices remain explicit and merchant searches target the exact model safely', async () => {
+    const total = page.locator('.total-card');
+    assert.match(await total.locator('.total-price').textContent(), /estimés/);
+    assert.doesNotMatch(await total.locator('.total-price').textContent(), /TTC/);
+    assert.match(await total.locator('p').textContent(), /Prix indicatifs hors livraison, non vérifiés auprès des marchands/);
+    const totalBefore = await total.locator('.total-price').textContent();
+    await page.getByRole('button', { name: 'Détails de Ryzen 7 7800X3D', exact: true }).click();
+    const offers = dialog().locator('.cp-offers');
+    await offers.waitFor();
+    assert.match(await offers.textContent(), /Prix marchand non vérifié/);
+    assert.match(await offers.textContent(), /ne sont pas actualisés depuis les marchands/);
+    for (const [label, host] of [['Rechercher sur Idealo', 'www.idealo.fr'], ['Rechercher sur Google Shopping', 'www.google.com']]) {
+      const link = offers.getByRole('link', { name: label, exact: true });
+      const destination = new URL(await link.getAttribute('href'));
+      assert.equal(destination.protocol, 'https:');
+      assert.equal(destination.hostname, host);
+      assert.equal(destination.searchParams.get('q'), 'AMD Ryzen 7 7800X3D');
+      assert.equal(await link.getAttribute('target'), '_blank');
+      const relation = (await link.getAttribute('rel')).split(/\s+/);
+      assert.ok(relation.includes('noopener') && relation.includes('noreferrer'));
+      if (host === 'www.google.com') {
+        assert.equal(destination.searchParams.get('tbm'), 'shop');
+        assert.equal(destination.searchParams.get('gl'), 'fr');
+      }
+    }
+    await dialog().locator('.cp-detail-actions').getByRole('button', { name: 'Comparer', exact: true }).focus();
+    await page.keyboard.press('Tab');
+    assert.equal(await offers.getByRole('link', { name: 'Rechercher sur Idealo', exact: true }).evaluate(node => node === document.activeElement), true);
+    await page.keyboard.press('Tab');
+    assert.equal(await offers.getByRole('link', { name: 'Rechercher sur Google Shopping', exact: true }).evaluate(node => node === document.activeElement), true);
+    await page.keyboard.press('Tab');
+    assert.equal(await dialog().getByRole('button', { name: 'Fermer le catalogue', exact: true }).evaluate(node => node === document.activeElement), true);
+    // Check destinations without visiting a merchant or treating search links as verified offers.
+    await page.screenshot({ path: path.join(directory, 'unverified-price-details.png'), animations: 'disabled' });
+    await page.keyboard.press('Escape');
+    assert.equal(await total.locator('.total-price').textContent(), totalBefore);
+  });
   await test('Choosing Intel CPU reports socket incompatibility', async () => {
     await choose('Processeur', 'Core i5-14600KF');
     assert.match(await page.locator('.compatibility-banner strong').textContent(), /incompatibilité/);
