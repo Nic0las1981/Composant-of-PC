@@ -62,3 +62,7 @@ Avant achat, vérifier les fiches fabricants, les révisions BIOS, les connecteu
 - `src/components/ProductArt.tsx` : illustrations SVG du catalogue.
 - `src/App.tsx` : parcours du configurateur et sauvegardes.
 - `tests/compatibility.test.ts` : tests des règles et des estimations.
+
+## Publication GitHub Pages
+
+`npm run deploy:pages` compile puis publie les fichiers statiques sur la branche `gh-pages`, sans modifier le checkout de travail ni réécrire l’historique distant. GitHub Pages doit être activé pour cette branche, dossier `/` (racine). La publication effective et l’URL publique doivent être vérifiées après chaque déploiement.
