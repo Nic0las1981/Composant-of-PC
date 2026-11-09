@@ -1,4 +1,14 @@
 import type { CategoryId, Component, FormFactor, Socket } from "./catalog.ts";
+import {
+  caseProfileExpansion,
+  gpuProfileExpansion,
+  coolerProfileExpansion,
+  ramProfileExpansion,
+  boardProfileExpansion,
+  psuProfileExpansion,
+  cpuProfileExpansion,
+  storageProfileExpansion,
+} from "./visualExpansion.ts";
 
 /** One scene unit equals 125 mm. +X is the open side, +Y up, +Z the front.
  * These are modeled product envelopes and appearance cues, not manufacturer CAD
@@ -115,6 +125,7 @@ export type VisualProfile =
   | StorageVisualProfile;
 
 export const caseProfiles: Record<string, CaseVisualProfile> = {
+  ...caseProfileExpansion,
   "case-h6": {
     id: "case-h6",
     name: "NZXT H6 Flow",
@@ -382,6 +393,7 @@ export const caseProfiles: Record<string, CaseVisualProfile> = {
 };
 
 export const gpuProfiles: Record<string, GpuVisualProfile> = {
+  ...gpuProfileExpansion,
   "gpu-4070s": {
     id: "gpu-4070s",
     name: "ASUS GeForce RTX 4070 SUPER Dual",
@@ -637,6 +649,7 @@ export const gpuProfiles: Record<string, GpuVisualProfile> = {
 };
 
 export const coolerProfiles: Record<string, CoolerVisualProfile> = {
+  ...coolerProfileExpansion,
   "cooler-phantom": {
     id: "cooler-phantom",
     name: "Thermalright Phantom Spirit 120 SE",
@@ -797,9 +810,9 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
     accent: "#9ba9b4",
     rgb: false,
     kind: "aio",
-    heightMm: 53,
-    widthMm: 78,
-    depthMm: 98,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     fanCount: 2,
     fanSizeMm: 120,
     finColor: "#37424b",
@@ -822,9 +835,9 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
     accent: "#9ba9b4",
     rgb: false,
     kind: "aio",
-    heightMm: 53,
-    widthMm: 78,
-    depthMm: 98,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     fanCount: 2,
     fanSizeMm: 140,
     finColor: "#37424b",
@@ -847,9 +860,9 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
     accent: "#9ba9b4",
     rgb: false,
     kind: "aio",
-    heightMm: 53,
-    widthMm: 78,
-    depthMm: 98,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     fanCount: 3,
     fanSizeMm: 120,
     finColor: "#37424b",
@@ -967,6 +980,7 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
 };
 
 export const ramProfiles: Record<string, RamVisualProfile> = {
+  ...ramProfileExpansion,
   "ram-ddr5-32": {
     id: "ram-ddr5-32",
     name: "Corsair Vengeance RGB DDR5",
@@ -1139,6 +1153,7 @@ export const ramProfiles: Record<string, RamVisualProfile> = {
 };
 
 export const boardProfiles: Record<string, BoardVisualProfile> = {
+  ...boardProfileExpansion,
   "mb-b650": {
     id: "mb-b650",
     name: "MSI MAG B650 TOMAHAWK WIFI",
@@ -1310,6 +1325,7 @@ export const boardProfiles: Record<string, BoardVisualProfile> = {
 };
 
 export const psuProfiles: Record<string, PsuVisualProfile> = {
+  ...psuProfileExpansion,
   "psu-rm750e": {
     id: "psu-rm750e",
     name: "Corsair RM750e · 750 W",
@@ -1469,6 +1485,7 @@ export const psuProfiles: Record<string, PsuVisualProfile> = {
 };
 
 export const cpuProfiles: Record<string, CpuVisualProfile> = {
+  ...cpuProfileExpansion,
   "cpu-7800x3d": {
     id: "cpu-7800x3d",
     name: "AMD Ryzen 7 7800X3D",
@@ -1640,6 +1657,7 @@ export const cpuProfiles: Record<string, CpuVisualProfile> = {
 };
 
 export const storageProfiles: Record<string, StorageVisualProfile> = {
+  ...storageProfileExpansion,
   "ssd-990-1": {
     id: "ssd-990-1",
     name: "Samsung 990 EVO Plus 1 To",

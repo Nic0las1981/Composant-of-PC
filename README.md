@@ -44,8 +44,10 @@ npm run preview -- --port 4173
 ## Fonctionnalités
 
 - Tour 3D adaptée aux références sélectionnées : dimensions, formes, finitions, couleurs, ventilateurs et éclairages. Survol avec noms réels, sélection au clic, zoom, vues face/profil/3-4, panneau latéral et vue éclatée. Aperçu de secours sans WebGL.
-- 106 composants répartis en huit catégories : 14 CPU, 12 cartes mères, 16 GPU, 13 kits RAM, 12 SSD, 15 refroidissements, 12 alimentations et 12 boîtiers. Recherche, tri, filtre par marque et compatibilité.
-- 9 watercoolings AIO de 240/280/360 mm, avec pompe, tuyaux tressés, radiateur, ventilateurs, RGB ou écran selon la référence. Contrôle du socket et des positions de radiateur du boîtier ; avertissements sur les dégagements non garantis.
+- 200 composants répartis en huit catégories : 26 CPU, 24 cartes mères, 30 GPU, 27 kits RAM, 26 SSD, 25 refroidissements, 22 alimentations et 20 boîtiers. Recherche, tri, filtres par marque, budget, type de refroidissement et compatibilité.
+- 14 watercoolings AIO de 240/280/360/420 mm, avec pompe, tuyaux tressés, radiateur, ventilateurs, RGB ou écran selon la référence. Contrôle du socket et des positions de radiateur du boîtier ; avertissements sur les dégagements non garantis.
+- Fiches techniques regroupées par thème : sockets, dimensions, mémoire, ventilation, radiateurs, alimentation et conseils de montage. Comparaison de trois modèles de la même catégorie, avec option pour afficher seulement les différences et filtres conservés au retour.
+- Illustrations SVG détaillées selon le modèle, agrandies dans les fiches. Accès direct aux détails des pièces choisies et raccourcis vers la 3D, les composants, l’analyse et le catalogue.
 - Vérifications du socket, de la mémoire, des dimensions, du format du boîtier, du refroidissement et de l’alimentation ; avertissements BIOS et montage.
 - Recommandations contextuelles et estimation de l’équilibre CPU/GPU pour le gaming, la création ou un usage polyvalent, en 1080p, 1440p et 4K.
 - Sauvegarde automatique du travail, configurations nommées dans `localStorage`, export texte et réinitialisation.
@@ -59,16 +61,19 @@ Avant achat, vérifier les fiches fabricants, les révisions BIOS, les connecteu
 
 ## Organisation
 
-- `src/data/catalog.ts` : modèles, caractéristiques, prix et sélection initiale.
+- `src/data/catalog.ts` et `catalogExpansion.ts` : modèles, caractéristiques, prix et sélection initiale.
 - `src/lib/compatibility.ts` : analyse, recommandations et compatibilité d’un candidat.
-- `src/data/visualProfiles.ts` : enveloppes dimensionnelles et finitions propres aux 106 références.
+- `src/data/visualProfiles.ts` et `visualExpansion.ts` : enveloppes dimensionnelles et finitions propres aux 200 références.
 - `src/components/PcScene.tsx` : assemblage, placement, caméra et survol.
 - `src/components/scene/` : boîtiers, composants et watercooling, textures entièrement locales.
 - `src/components/ProductArt.tsx` : illustrations SVG du catalogue.
+- `src/components/CatalogPanel.tsx` : catalogue, filtres, fiches et comparateur.
+- `src/lib/productDetails.ts` : caractéristiques et lignes de comparaison issues des données disponibles.
 - `src/App.tsx` : parcours du configurateur et sauvegardes.
 - `tests/compatibility.test.ts` : tests des règles et des estimations.
 - `tests/visualProfiles.test.ts` : cohérence des modèles avec le catalogue.
-- `tests/browser-smoke.cjs` et `tests/scene-smoke.cjs` : parcours navigateur et contrôles de la 3D, avec Playwright/Chromium disponibles. `FORGE_TEST_URL` peut cibler une version de production servie dans un sous-dossier.
+- `tests/productDetails.test.ts` : données de fiche, valeurs manquantes et comparaisons.
+- `tests/browser-smoke.cjs`, `tests/catalog-details-smoke.cjs` et `tests/scene-smoke.cjs` : parcours navigateur et contrôles de la 3D, avec Playwright/Chromium disponibles. `FORGE_TEST_URL` peut cibler une version de production servie dans un sous-dossier.
 
 ## Publication GitHub Pages
 

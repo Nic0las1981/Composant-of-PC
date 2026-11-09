@@ -1,3 +1,5 @@
+import { catalogExpansion } from "./catalogExpansion.ts";
+
 export type CategoryId =
   | "cpu"
   | "motherboard"
@@ -1373,7 +1375,9 @@ export const catalog: Component[] = [
     radiatorSizeMm: 240,
     radiatorThicknessMm: 38,
     supportedSockets: ["AM4", "AM5", "LGA1700"],
-    heightMm: 53,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     color: "#303a43",
     rgb: false,
     accent: "#9ba9b4",
@@ -1396,7 +1400,9 @@ export const catalog: Component[] = [
     radiatorSizeMm: 280,
     radiatorThicknessMm: 38,
     supportedSockets: ["AM4", "AM5", "LGA1700"],
-    heightMm: 53,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     color: "#303a43",
     rgb: false,
     accent: "#9ba9b4",
@@ -1419,7 +1425,9 @@ export const catalog: Component[] = [
     radiatorSizeMm: 360,
     radiatorThicknessMm: 38,
     supportedSockets: ["AM4", "AM5", "LGA1700"],
-    heightMm: 53,
+    heightMm: 68.5,
+    widthMm: 108.5,
+    depthMm: 91,
     color: "#303a43",
     rgb: false,
     accent: "#9ba9b4",
@@ -2014,6 +2022,8 @@ export const catalog: Component[] = [
     rgb: false,
   },
 ];
+
+catalog.push(...catalogExpansion);
 
 export const defaultSelection: Selection = {
   cpu: "cpu-7800x3d",

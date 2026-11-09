@@ -28,7 +28,6 @@ import {
   Sparkles,
   Download,
   Save,
-  Search,
   SlidersHorizontal,
   CheckCheck,
   Trash2,
@@ -52,6 +51,7 @@ import {
   type Usage,
 } from "./lib/compatibility";
 import ProductArt from "./components/ProductArt";
+import CatalogPanel from "./components/CatalogPanel";
 import type { CameraView } from "./components/PcScene";
 import { getCaseProfile } from "./data/visualProfiles";
 const PcScene = lazy(() => import("./components/PcScene"));
@@ -233,16 +233,10 @@ export default function App() {
   const [catalogCategory, setCatalogCategory] = useState<CategoryId | null>(
     null,
   );
-  const [search, setSearch] = useState("");
-  const [compatibleOnly, setCompatibleOnly] = useState(false);
-  const [sort, setSort] = useState("recommended");
+  const [detailProductId, setDetailProductId] = useState<string | null>(null);
   const [exploded, setExploded] = useState(false);
   const [openSide, setOpenSide] = useState(true);
   const [cameraView, setCameraView] = useState<CameraView>("perspective");
-  const [brandFilter, setBrandFilter] = useState("all");
-  const [coolingFilter, setCoolingFilter] = useState<"all" | "air" | "aio">(
-    "all",
-  );
   const [resetKey, setResetKey] = useState(0);
   const [fullView, setFullView] = useState(false);
   const [dialog, setDialog] = useState<
@@ -265,11 +259,6 @@ export default function App() {
   ).length;
   const activeComponent = analysis.selected[activeCategory];
   const selectedCaseProfile = getCaseProfile(analysis.selected.case);
-  const catalogBrands = [
-    ...new Set(
-      catalog.filter((c) => c.category === catalogCategory).map((c) => c.brand),
-    ),
-  ].sort();
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(
     undefined,
   );
@@ -292,13 +281,24 @@ export default function App() {
   const openCatalog = (category: CategoryId) => {
     setActiveCategory(category);
     setCatalogCategory(category);
-    setSearch("");
-    setCompatibleOnly(false);
-    setBrandFilter("all");
-    setCoolingFilter("all");
+    setDetailProductId(null);
+  };
+  const openProductDetails = (component: Component) => {
+    setActiveCategory(component.category);
+    setDetailProductId(component.id);
+    setCatalogCategory(component.category);
+  };
+  const jumpTo = (section: "studio" | "components" | "analysis") => {
+    if (section !== "studio") setActiveTab(section);
+    setMobileNav(false);
+    requestAnimationFrame(() => {
+      document.getElementById(section === "studio" ? "studio" : "components")
+        ?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+    });
   };
   const choose = (component: Component) => {
     setSelection((s) => ({ ...s, [component.category]: component.id }));
+    setActiveCategory(component.category);
     setCatalogCategory(null);
     notify(`${component.name} ajouté à votre configuration`);
   };
@@ -372,55 +372,6 @@ export default function App() {
       : warningCount
         ? `${warningCount} point${warningCount > 1 ? "s" : ""} à vérifier`
         : "Tout est compatible";
-  const preferredComponentId = catalogCategory
-    ? analysis.recommendations.find(
-        (r) => r.category === catalogCategory && r.componentId,
-      )?.componentId || defaultSelection[catalogCategory]
-    : null;
-  const options = useMemo(() => {
-    if (!catalogCategory) return [];
-    let list = catalog.filter(
-      (c) =>
-        c.category === catalogCategory &&
-        (brandFilter === "all" || c.brand === brandFilter) &&
-        (catalogCategory !== "cooler" ||
-          coolingFilter === "all" ||
-          (c.coolingType || "air") === coolingFilter) &&
-        `${c.name} ${c.brand} ${c.specs.join(" ")}`
-          .toLowerCase()
-          .includes(search.toLowerCase()),
-    );
-    const withChecks = list.map((c) => {
-      const issues = getCandidateIssues(selection, c, resolution, usage);
-      return { component: c, issues, compatible: issues.length === 0 };
-    });
-    let results = compatibleOnly
-      ? withChecks.filter((c) => c.compatible)
-      : withChecks;
-    if (sort === "price-up")
-      results.sort((a, b) => a.component.price - b.component.price);
-    else if (sort === "price-down")
-      results.sort((a, b) => b.component.price - a.component.price);
-    else
-      results.sort(
-        (a, b) =>
-          Number(b.compatible) - Number(a.compatible) ||
-          Number(b.component.id === preferredComponentId) -
-            Number(a.component.id === preferredComponentId),
-      );
-    return results;
-  }, [
-    catalogCategory,
-    search,
-    compatibleOnly,
-    sort,
-    selection,
-    resolution,
-    usage,
-    preferredComponentId,
-    brandFilter,
-    coolingFilter,
-  ]);
 
   return (
     <div className="app-shell">
@@ -448,12 +399,23 @@ export default function App() {
             className="nav-item selected"
             onClick={() => {
               setDialog(null);
-              setMobileNav(false);
+              jumpTo("studio");
             }}
           >
             <LayoutGrid size={18} />
             Configurateur
             <span className="active-dot" />
+          </button>
+          <button
+            className="nav-item"
+            onClick={() => {
+              openCatalog(activeCategory);
+              setMobileNav(false);
+            }}
+          >
+            <CircuitBoard size={18} />
+            Catalogue
+            <span className="nav-count">{catalog.length}</span>
           </button>
           <button
             className="nav-item"
@@ -542,7 +504,7 @@ export default function App() {
               <span />
               Tous les détails font la différence.
             </span>
-            <span className="version">STUDIO 2.0</span>
+            <span className="version">STUDIO 3.0</span>
           </div>
         </header>
         <main>
@@ -622,9 +584,19 @@ export default function App() {
               </div>
             </div>
           </section>
+          <nav className="builder-navigation" aria-label="Parcourir la configuration">
+            <div className="builder-navigation-steps">
+              <button onClick={() => jumpTo("studio")}><Box size={16} /><span>Aperçu 3D</span></button>
+              <button onClick={() => jumpTo("components")}><Cpu size={16} /><span>Composants</span><small>{analysis.selectedCount}/8</small></button>
+              <button onClick={() => jumpTo("analysis")}><ShieldCheck size={16} /><span>Analyse</span>{errors.length > 0 && <small className="navigation-alert">{errors.length}</small>}</button>
+            </div>
+            <button className="browse-catalog" onClick={() => openCatalog(activeCategory)}>
+              <LayoutGrid size={16} /> Catalogue <span>{catalog.length} références</span><ArrowUpRight size={15} />
+            </button>
+          </nav>
           <div className="builder-layout">
             <section className="builder-main">
-              <div className="studio-header">
+              <div className="studio-header" id="studio">
                 <div>
                   <span className="studio-eyebrow">VOTRE ATELIER 3D</span>
                   <button
@@ -689,7 +661,7 @@ export default function App() {
                   >
                     <PcScene
                       components={analysis.selected}
-                      paused={fullView}
+                      paused={fullView || !!catalogCategory || !!dialog}
                       exploded={exploded}
                       openSide={openSide}
                       cameraView={cameraView}
@@ -784,13 +756,16 @@ export default function App() {
                       "Ajoutez ce composant à votre PC"}
                   </small>
                 </div>
-                <button
-                  className="button button-secondary"
-                  onClick={() => openCatalog(activeCategory)}
-                >
-                  {activeComponent ? "Modifier" : "Choisir"}
-                  <ArrowRight size={14} />
-                </button>
+                <div className="selected-detail-actions">
+                  {activeComponent && (
+                    <button className="selected-detail-link" onClick={() => openProductDetails(activeComponent)}>
+                      <Info size={14} /> Fiche détaillée
+                    </button>
+                  )}
+                  <button className="button button-secondary" onClick={() => openCatalog(activeCategory)}>
+                    {activeComponent ? "Modifier" : "Choisir"}<ArrowRight size={14} />
+                  </button>
+                </div>
               </div>
               <div
                 className={`compatibility-banner ${errors.length ? "has-error" : warningCount ? "has-warning" : ""}`}
@@ -814,7 +789,7 @@ export default function App() {
                           : "Vos composants sont faits pour fonctionner ensemble."}
                   </p>
                 </div>
-                <button onClick={() => setActiveTab("analysis")}>
+                <button onClick={() => jumpTo("analysis")}>
                   Voir l’analyse <ArrowRight size={16} />
                 </button>
               </div>
@@ -923,6 +898,16 @@ export default function App() {
                             <strong>
                               {component ? money(component.price) : "—"}
                             </strong>
+                            {component && (
+                              <button
+                                className="part-detail-button"
+                                onClick={() => openProductDetails(component)}
+                                aria-label={`Détails de ${component.name}`}
+                                title="Voir la fiche technique"
+                              >
+                                <Info size={14} /><span>Détails</span>
+                              </button>
+                            )}
                             <button
                               className="part-change"
                               onClick={() => openCatalog(category.id)}
@@ -1282,11 +1267,7 @@ export default function App() {
         </div>
         <button
           className="button button-secondary"
-          onClick={() =>
-            document
-              .getElementById("components")
-              ?.scrollIntoView({ behavior: "smooth", block: "start" })
-          }
+          onClick={() => jumpTo("components")}
         >
           <LayoutGrid size={15} />
           Composants
@@ -1319,243 +1300,24 @@ export default function App() {
           title={`Choisir ${categories.find((c) => c.id === catalogCategory)?.label}`}
           onClose={() => setCatalogCategory(null)}
         >
-          <div className="modal-header">
-            <div>
-              <span className="eyebrow">CHAQUE DÉTAIL COMPTE</span>
-              <h2>
-                Trouvez votre{" "}
-                {categories
-                  .find((c) => c.id === catalogCategory)
-                  ?.shortLabel.toLowerCase()}
-                .
-              </h2>
-              <p>Comparez, choisissez. Votre build s’adapte en temps réel.</p>
-            </div>
-            <button
-              className="icon-button close-button"
-              aria-label="Fermer le catalogue"
-              onClick={() => setCatalogCategory(null)}
-            >
-              <X size={21} />
-            </button>
-          </div>
-          <div className="catalog-categories">
-            {categories.map((c) => {
-              const Icon = icons[c.id];
-              return (
-                <button
-                  className={catalogCategory === c.id ? "active" : ""}
-                  key={c.id}
-                  onClick={() => {
-                    setCatalogCategory(c.id);
-                    setSearch("");
-                    setBrandFilter("all");
-                    setCoolingFilter("all");
-                  }}
-                >
-                  <Icon size={15} />
-                  {c.shortLabel}
-                </button>
-              );
-            })}
-          </div>
-          <div className="catalog-tools">
-            <label className="search-field">
-              <Search size={17} />
-              <input
-                autoFocus
-                placeholder="Rechercher un composant…"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-              />
-              {search && (
-                <button
-                  aria-label="Effacer la recherche"
-                  onClick={() => setSearch("")}
-                >
-                  <X size={14} />
-                </button>
-              )}
-            </label>
-            <select
-              aria-label="Trier les composants"
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
-            >
-              <option value="recommended">Recommandés</option>
-              <option value="price-up">Prix croissant</option>
-              <option value="price-down">Prix décroissant</option>
-            </select>
-          </div>
-          <div className="catalog-extra-filters">
-            <label className="brand-filter">
-              Marque
-              <select
-                aria-label="Filtrer par marque"
-                value={brandFilter}
-                onChange={(e) => setBrandFilter(e.target.value)}
-              >
-                <option value="all">Toutes les marques</option>
-                {catalogBrands.map((brand) => (
-                  <option key={brand} value={brand}>
-                    {brand}
-                  </option>
-                ))}
-              </select>
-            </label>
-            {catalogCategory === "cooler" && (
-              <div
-                className="cooling-filter"
-                aria-label="Type de refroidissement"
-              >
-                {(
-                  [
-                    { id: "all", label: "Tout" },
-                    { id: "air", label: "Ventirads" },
-                    { id: "aio", label: "Watercooling" },
-                  ] as const
-                ).map((type) => (
-                  <button
-                    key={type.id}
-                    className={coolingFilter === type.id ? "active" : ""}
-                    aria-pressed={coolingFilter === type.id}
-                    onClick={() => setCoolingFilter(type.id)}
-                  >
-                    {type.label}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-          <div className="catalog-results-heading">
-            <span>
-              {options.length} composant{options.length > 1 ? "s" : ""}
-            </span>
-            <label className="toggle-label">
-              <input
-                type="checkbox"
-                checked={compatibleOnly}
-                onChange={(e) => setCompatibleOnly(e.target.checked)}
-              />
-              <span className="toggle" />
-              Compatibles avec mes composants
-            </label>
-          </div>
-          <div className="catalog-products">
-            {options.map(({ component, compatible, issues }) => (
-              <article
-                key={component.id}
-                className={`catalog-product ${selection[catalogCategory] === component.id ? "is-selected" : ""}`}
-              >
-                <div className="catalog-product-top">
-                  <span className="part-brand">{component.brand}</span>
-                  {selection[catalogCategory] === component.id ? (
-                    <span className="selected-label">
-                      <Check size={12} />
-                      Votre choix
-                    </span>
-                  ) : component.id === preferredComponentId && compatible ? (
-                    <span className="recommended-label">
-                      <Sparkles size={12} />
-                      Notre sélection
-                    </span>
-                  ) : null}
-                </div>
-                <div className="catalog-art">
-                  <ProductArt
-                    category={component.category}
-                    brand={component.brand}
-                    component={component}
-                  />
-                </div>
-                <h3>{component.name}</h3>
-                <p>{component.description}</p>
-                <div className="spec-pills">
-                  {component.specs.map((spec) => (
-                    <span key={spec}>{spec}</span>
-                  ))}
-                </div>
-                <div
-                  className={`catalog-compatibility ${!compatible ? "incompatible" : ""}`}
-                >
-                  {compatible ? (
-                    <>
-                      <Check size={13} />
-                      Compatible avec les composants choisis
-                    </>
-                  ) : (
-                    <>
-                      <TriangleAlert size={13} />
-                      {issues[0].title}
-                    </>
-                  )}
-                </div>
-                <div className="catalog-product-bottom">
-                  <strong>{money(component.price)}</strong>
-                  <button
-                    className={
-                      selection[catalogCategory] === component.id
-                        ? "selected"
-                        : ""
-                    }
-                    onClick={() => choose(component)}
-                  >
-                    {selection[catalogCategory] === component.id ? (
-                      <>
-                        <Check size={14} />
-                        Sélectionné
-                      </>
-                    ) : (
-                      <>
-                        <Plus size={14} />
-                        Choisir
-                      </>
-                    )}
-                  </button>
-                </div>
-              </article>
-            ))}
-            {!options.length && (
-              <div className="empty-state">
-                <Search size={30} />
-                <h3>Aucun composant trouvé</h3>
-                <p>
-                  Essayez un autre terme ou désactivez le filtre de
-                  compatibilité.
-                </p>
-                <button
-                  className="button button-secondary"
-                  onClick={() => {
-                    setSearch("");
-                    setCompatibleOnly(false);
-                    setBrandFilter("all");
-                    setCoolingFilter("all");
-                  }}
-                >
-                  Réinitialiser les filtres
-                </button>
-              </div>
-            )}
-          </div>
-          <div className="catalog-footer">
-            <span>
-              <Info size={13} />
-              Prix et catalogue de démonstration. Vérifiez les offres avant
-              achat.
-            </span>
-            {selection[catalogCategory] && (
-              <button
-                className="text-button"
-                onClick={() => {
-                  setSelection((s) => ({ ...s, [catalogCategory]: null }));
-                  setCatalogCategory(null);
-                }}
-              >
-                <Trash2 size={13} />
-                Retirer ce composant
-              </button>
-            )}
-          </div>
+          <CatalogPanel
+            category={catalogCategory}
+            selection={selection}
+            resolution={resolution}
+            usage={usage}
+            initialProductId={detailProductId}
+            onCategoryChange={(category) => {
+              setCatalogCategory(category);
+              setDetailProductId(null);
+            }}
+            onChoose={choose}
+            onRemove={(category) => {
+              setSelection((current) => ({ ...current, [category]: null }));
+              setCatalogCategory(null);
+              notify("Composant retiré de votre configuration");
+            }}
+            onClose={() => setCatalogCategory(null)}
+          />
         </Dialog>
       )}
       {dialog === "save" && (

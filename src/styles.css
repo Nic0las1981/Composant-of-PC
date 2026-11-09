@@ -1502,7 +1502,7 @@ select option {
   outline: none;
 }
 .modal-wide {
-  width: 940px;
+  width: 1120px;
 }
 .modal-header {
   display: flex;
@@ -4069,3 +4069,91 @@ select option {
     font-size: 11px;
   }
 }
+
+/* Short routes through the workbench and direct access to part specifications. */
+.builder-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 22px;
+  padding: 9px;
+  background: #191e19;
+  border: 1px solid #30382c;
+  border-radius: 10px;
+}
+.builder-navigation-steps { display: flex; align-items: center; gap: 4px; }
+.builder-navigation button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 39px;
+  padding: 8px 13px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #bec9b5;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.builder-navigation button:hover { background: #2a3324; color: #e0f5ce; }
+.builder-navigation button:focus-visible { outline: 2px solid #b5e889; outline-offset: 2px; }
+.builder-navigation small {
+  background: #303c28;
+  color: #c0d5ae;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.builder-navigation small.navigation-alert { background: #4d2b24; color: #ffb09a; }
+.builder-navigation .browse-catalog { color: #c4e7a9; background: #283321; }
+.browse-catalog > span { color: #a3b895; font-size: 10px; }
+#studio, #components { scroll-margin-top: 24px; }
+.selected-detail-actions { display: flex; flex-direction: column; align-items: stretch; gap: 7px; flex-shrink: 0; }
+.selected-detail-actions .button { min-height: 32px; padding: 6px 12px; font-size: 11px; }
+.selected-detail-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  background: transparent;
+  color: #bedfa7;
+  font-size: 11px;
+  min-height: 28px;
+  padding: 3px 5px;
+}
+.selected-detail-link:hover { color: #efffe3; }
+.part-detail-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #bbd4a9;
+  border: 1px solid #3b4932;
+  border-radius: 5px;
+  background: #252e20;
+  padding: 5px 6px;
+  min-height: 27px;
+  font-size: 10px;
+  margin-left: auto;
+}
+.part-detail-button:hover { color: #e2ffd0; background: #35462a; }
+.part-detail-button + .part-change { margin-left: 0; }
+@media (min-width: 901px) and (max-width: 1550px) {
+  .part-detail-button > span { display: none; }
+}
+@media (max-width: 700px) {
+  .builder-navigation { flex-direction: column; align-items: stretch; gap: 5px; padding: 6px; margin-bottom: 18px; }
+  .builder-navigation-steps { display: grid; grid-template-columns: 1fr 1.2fr 1fr; }
+  .builder-navigation button { font-size: 11px; padding: 7px 6px; gap: 6px; min-height: 40px; }
+  .builder-navigation .browse-catalog { min-height: 35px; }
+  .browse-catalog > span { margin-left: 4px; }
+  .selected-detail-actions .button { font-size: 10px; padding: 5px 8px; min-height: 32px; }
+  .selected-detail-link { font-size: 10px; min-height: 30px; padding: 2px; gap: 4px; }
+  .part-detail-button { min-height: 30px; padding: 4px 5px; }
+  .part-detail-button > span { display: none; }
+  .part-card-footer { gap: 5px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

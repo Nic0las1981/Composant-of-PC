@@ -93,9 +93,11 @@ test("lighting follows selected products instead of adding RGB to every componen
   assert.equal(gpuProfiles["gpu-4080s"].rgb, true);
   assert.ok(
     Object.values(coolerProfiles)
-      .filter((p) => p.kind !== "aio")
+      .filter((p) => p.kind !== "aio" && p.id !== "cooler-ak620-digital")
       .every((p) => !p.rgb),
   );
+  assert.equal(coolerProfiles["cooler-ak620-digital"].rgb, true);
+  assert.equal(coolerProfiles["cooler-ak620-digital"].fanRgb, false);
 });
 
 test("motherboard and PSU profiles keep physical form-factor differences", () => {
@@ -128,10 +130,10 @@ test("absent or unrelated selected parts do not silently restore a default visua
 
 test("AIO radiators retain their actual length, width, thickness and fan layout", () => {
   const aios = catalog.filter((c) => c.coolingType === "aio");
-  assert.equal(aios.length, 9);
+  assert.ok(aios.length >= 14);
   assert.deepEqual(
     new Set(aios.map((c) => c.radiatorSizeMm)),
-    new Set([240, 280, 360]),
+    new Set([240, 280, 360, 420]),
   );
   for (const component of aios) {
     const profile = getCoolerProfile(component)!;
@@ -141,7 +143,7 @@ test("AIO radiators retain their actual length, width, thickness and fan layout"
     assert.ok(profile.radiatorLengthMm! > profile.radiatorSizeMm!);
     // Arctic's 140 mm fan frames overhang its 138 mm radiator by 1 mm per side.
     assert.ok(profile.radiatorWidthMm! + 2 >= profile.fanSizeMm);
-    assert.equal(profile.fanCount, component.radiatorSizeMm === 360 ? 3 : 2);
+    assert.equal(profile.fanCount, component.radiatorSizeMm! >= 360 ? 3 : 2);
     assert.equal(profile.heatpipes, 0);
     assert.ok(profile.tubeColor && profile.pumpColor);
   }
@@ -149,11 +151,24 @@ test("AIO radiators retain their actual length, width, thickness and fan layout"
   assert.equal(coolerProfiles["cooler-kraken240"].pumpDisplay, "lcd");
   assert.equal(coolerProfiles["cooler-h150i360"].fanRgb, true);
   assert.equal(coolerProfiles["cooler-lfiii280"].fanRgb, false);
+  for (const id of [
+    "cooler-lfiii240",
+    "cooler-lfiii280",
+    "cooler-lfiii360",
+    "cooler-lfiii420",
+    "cooler-lfiii360-argb-white",
+  ]) {
+    const profile = coolerProfiles[id];
+    assert.deepEqual(
+      [profile.widthMm, profile.depthMm, profile.heightMm],
+      [108.5, 91, 68.5],
+    );
+  }
 });
 
 test("case dimensional envelopes and radiator positions are explicit for every model", () => {
   const cases = catalog.filter((c) => c.category === "case");
-  assert.equal(cases.length, 12);
+  assert.ok(cases.length >= 20);
   for (const component of cases) {
     const profile = getCaseProfile(component)!;
     for (const axis of ["widthMm", "heightMm", "depthMm"] as const) {
@@ -174,7 +189,7 @@ test("case dimensional envelopes and radiator positions are explicit for every m
 });
 
 test("catalog expansion covers diverse platforms without orphan IDs or invalid physical values", () => {
-  assert.ok(catalog.length >= 100);
+  assert.ok(catalog.length >= 200);
   assert.equal(new Set(catalog.map((c) => c.id)).size, catalog.length);
   for (const component of catalog) {
     assert.ok(component.price > 0);
