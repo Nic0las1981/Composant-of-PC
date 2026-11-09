@@ -187,3 +187,36 @@ test("catalogue details are grouped, unique and never leak internal performance 
     assert.ok(details.highlights.length <= 4);
   }
 });
+
+test("imported clock and latency facts retain their declared meaning without fabricated measurements", () => {
+  const gpu = { ...sparse("gpu"), capacityGB: 12, specs: [
+    "GeForce RTX 4070 SUPER", "Fréquence déclarée par la source : 1980 MHz", "Boost déclaré : 2475 MHz",
+  ] };
+  const rows = rowsFor(gpu);
+  assert.equal(rows["Puce graphique"], "GeForce RTX 4070 SUPER");
+  assert.equal(rows["Fréquence déclarée par la source"], "1980 MHz");
+  assert.equal(rows["Fréquence boost déclarée"], "2475 MHz");
+  assert.equal(rows["Mémoire vidéo"], "12 Go");
+  assert.equal(rows["Ventilateurs"], undefined);
+  assert.equal(rows["Puissance retenue pour l’estimation"], undefined);
+  assert.ok(getProductDetails(gpu).advice.some(value => value.includes("base ou de jeu")));
+  const ram = rowsFor({ ...sparse("ram"), casLatency: 36, specs: ["Latence CAS théorique déclarée : 12 ns"] });
+  assert.equal(ram["Latence CAS"], "CL36");
+  assert.equal(ram["Latence CAS théorique déclarée"], "12 ns");
+});
+
+test("declared SSD cache and nominal board format do not imply DRAM or total product dimensions", () => {
+  const ssd = { ...sparse("storage"), specs: [
+    "M.2 2280 · NVMe", "PCIe 4.0 ×8", "Cache déclaré : 0 Mo", "Format nominal du circuit : 22 × 80 mm",
+    "Interface PCIe à confirmer : nombre de lignes inhabituel pour M.2",
+  ] };
+  const details = getProductDetails(ssd);
+  const rows = rowsFor(ssd);
+  assert.equal(rows["Cache déclaré"], "0 Mo");
+  assert.equal(rows["Format nominal du circuit"], "22 × 80 mm");
+  assert.equal(rows["Dimensions (L × l × H)"], undefined);
+  assert.match(rows["Vérification de l’interface"], /à confirmer/);
+  assert.ok(details.advice.some(value => value.includes("présence de DRAM")));
+  assert.ok(details.advice.some(value => value.includes("Confirmez l’interface exacte")));
+  assert.equal(rowsFor({ ...sparse("psu"), specs: ["Câbles fixes"] })["Câblage"], "Câbles fixes");
+});

@@ -119,7 +119,10 @@ export function getProductDetails(component: Component): ProductDetails {
       const memory = spec(/\d+\s*Go.*GDDR/i) ?? amount(component.capacityGB, "Go");
       const length = component.lengthMm ?? gpu?.lengthMm;
       const count = component.fanCount ?? gpu?.fanCount;
+      add("Carte graphique", "Puce graphique", spec(/^(?:GeForce|Radeon|Quadro|Arc|Intel Arc|FirePro|Tesla|TITAN)\b/i));
       add("Carte graphique", "Mémoire vidéo", memory);
+      add("Carte graphique", "Fréquence déclarée par la source", match(/^Fréquence déclarée par la source\s*:\s*(.+)$/i)?.[1]);
+      add("Carte graphique", "Fréquence boost déclarée", match(/^Boost déclaré\s*:\s*(.+)$/i)?.[1]);
       add("Carte graphique", "Puissance retenue pour l’estimation", amount(component.powerW, "W"));
       add("Carte graphique", "Alimentation recommandée", amount(component.recommendedPsuW, "W"));
       add("Encombrement et ventilation", "Longueur", amount(length, "mm"));
@@ -130,6 +133,7 @@ export function getProductDetails(component: Component): ProductDetails {
       highlight(memory, amount(length, "mm de long"), known(count) ? `${count} ventilateurs` : undefined);
       if (known(length)) advice.push(`Réservez au moins ${number.format(length)} mm pour la carte, en tenant compte d’un éventuel radiateur en façade et du passage des câbles.`);
       advice.push("Vérifiez aussi l’épaisseur disponible, l’espace devant le connecteur d’alimentation et les câbles requis par cette version de la carte.");
+      if (spec(/^Fréquence déclarée par la source/i)) advice.push("La fréquence déclarée peut être une fréquence de base ou de jeu selon la source. Le boost n’est pas une fréquence constante et ne remplace pas une mesure de performances.");
       break;
     }
     case "ram": {
@@ -158,6 +162,7 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Réglages et dimensions", "Tension renseignée", amount(memoryDetails.voltageV ?? undefined, "V"));
       add("Réglages et dimensions", "Dissipateur mémoire", memoryDetails.heatspreader === null ? undefined : memoryDetails.heatspreader ? "Présent" : "Sans dissipateur");
       add("Réglages et dimensions", "Latence CAS", latency ? `CL${latency}` : undefined);
+      add("Réglages et dimensions", "Latence CAS théorique déclarée", match(/^Latence CAS théorique déclarée\s*:\s*(.+)$/i)?.[1]);
       add("Réglages et dimensions", "Profil mémoire", spec(/EXPO|XMP/i) ?? component.memoryProfile);
       add("Réglages et dimensions", "Hauteur des barrettes", amount(component.heightMm ?? ram?.heightMm, "mm"));
       add("Réglages et dimensions", "Éclairage", (component.rgb ?? ram?.rgb) === undefined ? undefined : (component.rgb ?? ram?.rgb) ? "RGB" : "Sans RGB");
@@ -181,6 +186,10 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Stockage", "Interface", component.storageInterface);
       add("Stockage", "Format", match(/M\.2\s+(\d{4})/i)?.[0]);
       add("Stockage", "Liaison PCIe", spec(/PCIe/i));
+      add("Stockage", "Cache déclaré", match(/^Cache déclaré\s*:\s*(.+)$/i)?.[1]);
+      add("Stockage", "Format nominal du circuit", match(/^Format nominal du circuit\s*:\s*(.+)$/i)?.[1]);
+      const interfaceNote = spec(/^Interface PCIe à confirmer/i);
+      if (interfaceNote) add("Stockage", "Vérification de l’interface", interfaceNote);
       const readSpeed = part(/lecture.*(?:Mo|Go|MB)\/s/i);
       const writeSpeed = part(/écriture.*(?:Mo|Go|MB)\/s/i);
       add("Installation", "Lecture annoncée", readSpeed);
@@ -190,6 +199,8 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Installation", "Dissipateur sur le modèle", storage ? storage.hasHeatsink ? "Présent" : "Sans dissipateur" : undefined);
       highlight(capacity, component.storageInterface, spec(/PCIe/i));
       advice.push("Vérifiez le format et la génération PCIe acceptés par le port M.2 choisi. Un port plus lent peut limiter le débit maximal annoncé.");
+      if (spec(/^Cache déclaré/i)) advice.push("Le cache indiqué provient de la source ; sa technologie n’est pas renseignée. Cette valeur ne permet pas d’affirmer la présence de DRAM ni de quantifier un cache SLC.");
+      if (interfaceNote) advice.push("La liaison PCIe déclarée est inhabituelle pour ce format M.2. Confirmez l’interface exacte sur la fiche du fabricant avant achat.");
       if (storage) advice.push("Vérifiez le dégagement du dissipateur et retirez le film de protection des pads thermiques avant le montage.");
       break;
     }
@@ -236,7 +247,7 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Alimentation", "Format", format);
       add("Alimentation", "Certification annoncée", efficiency);
       add("Alimentation", "Norme électrique annoncée", part(/ATX\s*\d/i));
-      add("Installation", "Câblage", spec(/modulaire/i));
+      add("Installation", "Câblage", spec(/modulaire|câbles fixes/i));
       add("Installation", "Connecteur graphique annoncé", part(/12VHPWR|12V-2x6/i));
       add("Installation", "Dimensions (l × H × P)", dimensions(component.widthMm ?? psu?.widthMm, component.heightMm ?? psu?.heightMm, component.depthMm ?? psu?.depthMm));
       add("Installation", "Diamètre du ventilateur", amount(component.fanSizeMm ?? psu?.fanSizeMm, "mm"));

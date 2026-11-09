@@ -58,7 +58,9 @@ import CatalogPanel from "./components/CatalogPanel";
 import type { CameraView } from "./components/PcScene";
 import { getCaseProfile } from "./data/visualProfiles";
 import { getCatalogGroups } from "./lib/catalogVariants";
-import { pricingPolicy, formatComponentPrice } from "./data/pricing";
+import { pricingPolicy, formatComponentPrice, getPricingInfo, getPriceCaption } from "./data/pricing";
+import { refreshMarketFeed } from "./lib/marketFeed";
+import { useMarketFeedRevision } from "./lib/useMarketFeed";
 import { arrangeMemorySlots, resetMemoryToKit, chooseMemoryComponent } from "./lib/memory";
 import MemoryConfigurator from "./components/MemoryConfigurator";
 const PcScene = lazy(() => import("./components/PcScene"));
@@ -227,6 +229,8 @@ function Dialog({
 }
 
 export default function App() {
+  const priceRevision = useMarketFeedRevision();
+  useEffect(() => { void refreshMarketFeed(); }, []);
   const [initial] = useState(readWorkspace);
   const [selection, setSelection] = useState<Selection>(
     initial?.selection || defaultSelection,
@@ -280,7 +284,7 @@ export default function App() {
   const [mobileNav, setMobileNav] = useState(false);
   const analysis = useMemo(
     () => analyzeBuild(selection, resolution, usage),
-    [selection, resolution, usage],
+    [selection, resolution, usage, priceRevision],
   );
   const errors = analysis.warnings.filter((w) => w.severity === "error");
   const displayBalance = errors.length || analysis.balance.available === false ? 0 : analysis.balance.score;
@@ -376,10 +380,23 @@ export default function App() {
       "FORGE — " + buildName,
       `Usage : ${usage} · Résolution : ${resolution}`,
       "",
-      ...categories.map(
-        (c) =>
-          `${c.label} : ${analysis.selected[c.id]?.name || "Non sélectionné"}${analysis.selected[c.id] ? " — " + formatComponentPrice(analysis.selected[c.id]!) : ""}`,
-      ),
+      ...categories.flatMap((category) => {
+        const component = analysis.selected[category.id];
+        if (!component) return [`${category.label} : Non sélectionné`];
+        const pricing = getPricingInfo(component);
+        const caption = pricing.status === "unknown" ? "" : ` (${getPriceCaption(component)})`;
+        const report = pricing.status === "reported" ? pricing.observation : null;
+        return [
+          `${category.label} : ${component.name} — ${formatComponentPrice(component)}${caption}`,
+          ...(report ? [
+            `  Prix signalé en Allemagne par ${report.merchant} ; non revérifié auprès du marchand.`,
+            `  Fichier source mis à jour : ${report.sourceUpdatedAt} ; prix inchangé depuis : ${report.priceSince}.`,
+            `  Source : ${report.sourceURL}`,
+            `  Produit : ${report.productURL}`,
+            "  Stock rapporté, état, frais, fiscalité et livraison en France à confirmer.",
+          ] : []),
+        ];
+      }),
       "",
       `${analysis.unpricedCount ? "Budget partiel" : "Total indicatif"} : ${budgetText(analysis)}`,
       ...(analysis.unpricedCount ? [`Prix non renseignés : ${analysis.unpricedCount} référence(s)`] : []),
@@ -1297,7 +1314,7 @@ export default function App() {
                   <ArrowUpRight size={16} />
                 </button>
                 <p>
-                  * Prix indicatifs hors livraison, non vérifiés auprès des marchands.
+                  * Montants indicatifs : estimations ou signalements publics selon le pays, hors frais non renseignés et non vérifiés auprès des marchands.
                   <br />
                   Aucun achat n’est effectué sur FORGE.
                 </p>

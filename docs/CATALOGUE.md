@@ -44,9 +44,7 @@ de cette révision précise, pas à la branche `main` actuelle.
 
 Les prix de la source sont des montants historiques en dollars américains. Ils
 restent dans le snapshot d’archive pour pouvoir vérifier les lignes originales.
-**Ils ne sont ni convertis en euros, ni utilisés par le site.** Chaque référence
-importée porte `priceStatus: "unknown"` et un zéro technique ; l’interface affiche
-« Prix non renseigné » et signale que le budget est incomplet.
+**Ils ne sont pas convertis en euros et restent hors du budget.** Un module séparé affiche maintenant les 3 265 montants positifs comme archives USD datées, liées à leur variante exacte. Chaque référence importée conserve `priceStatus: "unknown"` et un zéro technique dans le catalogue ; les rares signalements EUR admissibles sont résolus séparément par le module de prix. À défaut, l’interface affiche « Prix non renseigné » et signale le budget incomplet. Voir [PRIX.md](../PRIX.md).
 
 Chaque référence importée porte `detailLevel: "partial"`. Les caractéristiques
 non documentées restent absentes. Aucun score de performances, débit SSD,

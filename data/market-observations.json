@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "xxderen/pc-build",
+    "branch": "main",
+    "commit": "936b9f68632e413dab3bed1ebe2f6a6b56382f3b",
+    "sourceName": "xxderen/pc-build · Geizhals Allemagne",
+    "sourceURL": "https://github.com/xxderen/pc-build/blob/936b9f68632e413dab3bed1ebe2f6a6b56382f3b/data/prices.json",
+    "productsURL": "https://github.com/xxderen/pc-build/blob/936b9f68632e413dab3bed1ebe2f6a6b56382f3b/data/parts.json",
+    "sourceUpdatedAt": "2026-11-09T19:00:10Z",
+    "retrievedAt": "2026-11-09T21:05:21Z",
+    "pricesSha256": "9b72306a959e73064c7900763087739b65136fe44b03d8d5fbf0f27c10f05478",
+    "productsSha256": "5d114814e9402471b00bc9de637e910aea4fc516276b552fb96adf19cf68139f",
+    "licenseNote": "Aucune licence explicite trouvée. Extraction limitée à dix faits de prix et identifiants, avec attribution ; aucun code, texte éditorial ou historique complet repris."
+  },
+  "records": [
+    {
+      "component": {
+        "id": "cpu-9800x3d",
+        "category": "cpu",
+        "brand": "AMD",
+        "name": "Ryzen 7 9800X3D",
+        "finishName": null,
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "cpu-9800x3d",
+        "category": "cpu",
+        "name": "AMD Ryzen 7 9800X3D (boxed, ohne Kühler)",
+        "geizhalsSlug": "amd-ryzen-7-9800x3d-100-100001084wof-a3336051",
+        "manufacturerPartNumber": "100-100001084WOF"
+      },
+      "current": {
+        "price": 378.0,
+        "merchant": "Mindfactory",
+        "url": "https://geizhals.de/amd-ryzen-7-9800x3d-100-100001084wof-a3336051.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-11-09T19:00:10Z"
+      },
+      "exactVariantNote": "Ryzen 7 9800X3D ; offre source pour la version boîte sans ventirad. Le catalogue identifie le processeur, sans préciser son conditionnement."
+    },
+    {
+      "component": {
+        "id": "import-mb-f5396b6fc639",
+        "category": "motherboard",
+        "brand": "Gigabyte",
+        "name": "B850 AORUS ELITE WIFI7 ICE",
+        "finishName": "Blanc / Argent",
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "board-b850-aorus-elite-wifi7-ice",
+        "category": "board",
+        "name": "Gigabyte B850 AORUS Elite WIFI7 ICE",
+        "geizhalsSlug": "gigabyte-b850-aorus-elite-wifi7-ice-a3380369",
+        "manufacturerPartNumber": null
+      },
+      "current": {
+        "price": 186.18,
+        "merchant": "voelkner.de",
+        "url": "https://geizhals.de/gigabyte-b850-aorus-elite-wifi7-ice-a3380369.html?hloc=de",
+        "source": "geizhals",
+        "availability": "shortly",
+        "since": "2026-11-09T19:00:10Z"
+      },
+      "exactVariantNote": "B850 AORUS ELITE WIFI7 ICE, ATX, finition blanche/argent. Révision du circuit non précisée par la source ; aucune extrapolation au modèle B850M ICE-P."
+    },
+    {
+      "component": {
+        "id": "import-gpu-66e4b322eece",
+        "category": "gpu",
+        "brand": "Gigabyte",
+        "name": "AERO OC RTX 5070 Ti · 16 Go · Blanc / Argent · 340 mm",
+        "finishName": "Blanc / Argent",
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "gpu-gigabyte-aero-oc",
+        "category": "gpu",
+        "name": "Gigabyte RTX 5070 Ti Aero OC 16G",
+        "geizhalsSlug": "gigabyte-geforce-rtx-5070-ti-aero-oc-16g-gv-n507taero-oc-16gd-a3381846",
+        "manufacturerPartNumber": "GV-N507TAERO OC-16GD"
+      },
+      "current": {
+        "price": 1479.0,
+        "merchant": "Amazon.de",
+        "url": "https://geizhals.de/gigabyte-geforce-rtx-5070-ti-aero-oc-16g-gv-n507taero-oc-16gd-a3381846.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-11-08T17:12:38Z"
+      },
+      "exactVariantNote": "Gigabyte AERO OC RTX 5070 Ti 16 Go, blanche/argent, longueur 340 mm. Référence extraite du lien produit de la source."
+    },
+    {
+      "component": {
+        "id": "import-gpu-20aa8e7b85a7",
+        "category": "gpu",
+        "brand": "Gigabyte",
+        "name": "EAGLE OC ICE SFF RTX 5070 Ti · 16 Go · Blanc / Argent · 304 mm",
+        "finishName": "Blanc / Argent",
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "gpu-gigabyte-eagle-oc-ice-sff",
+        "category": "gpu",
+        "name": "Gigabyte RTX 5070 Ti Eagle OC ICE SFF 16G",
+        "geizhalsSlug": "gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-sff-16g-gv-n507teagleoc-ice-16gd-a3381837",
+        "manufacturerPartNumber": "GV-N507TEAGLEOC ICE-16GD"
+      },
+      "current": {
+        "price": 1449.99,
+        "merchant": "x-kom",
+        "url": "https://geizhals.de/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-sff-16g-gv-n507teagleoc-ice-16gd-a3381837.html?hloc=de",
+        "source": "geizhals",
+        "availability": "shortly",
+        "since": "2026-11-06T18:12:59Z"
+      },
+      "exactVariantNote": "Gigabyte EAGLE OC ICE SFF RTX 5070 Ti 16 Go, blanche/argent, longueur 304 mm. Référence extraite du lien produit de la source."
+    },
+    {
+      "component": {
+        "id": "import-gpu-2ba51b8960d7",
+        "category": "gpu",
+        "brand": "Inno3D",
+        "name": "X3 OC RTX 5070 Ti · 16 Go · Blanc / Argent · 300 mm",
+        "finishName": "Blanc / Argent",
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "gpu-inno3d-x3-oc-white",
+        "category": "gpu",
+        "name": "Inno3D RTX 5070 Ti X3 OC White",
+        "geizhalsSlug": "inno3d-geforce-rtx-5070-ti-x3-oc-white-n507t3-16d7x-176068w-a3394854",
+        "manufacturerPartNumber": "N507T3-16D7X-176068W"
+      },
+      "current": {
+        "price": 1599.99,
+        "merchant": "pcspezi-kf",
+        "url": "https://geizhals.de/inno3d-geforce-rtx-5070-ti-x3-oc-white-n507t3-16d7x-176068w-a3394854.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-10-30T18:43:15Z"
+      },
+      "exactVariantNote": "Inno3D X3 OC RTX 5070 Ti 16 Go, version White, longueur 300 mm. Ce prix ne concerne pas la variante noire."
+    },
+    {
+      "component": {
+        "id": "import-gpu-d6700a9c333d",
+        "category": "gpu",
+        "brand": "MSI",
+        "name": "GAMING TRIO OC RTX 5070 Ti · 16 Go · Blanc · 338 mm",
+        "finishName": "Blanc",
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "gpu-msi-gaming-trio-oc-white",
+        "category": "gpu",
+        "name": "MSI RTX 5070 Ti Gaming Trio OC White",
+        "geizhalsSlug": "msi-geforce-rtx-5070-ti-16g-gaming-trio-oc-white-a3445154",
+        "manufacturerPartNumber": null
+      },
+      "current": {
+        "price": 1850.0,
+        "merchant": "plussafe-trading",
+        "url": "https://geizhals.de/msi-geforce-rtx-5070-ti-16g-gaming-trio-oc-white-a3445154.html?hloc=de",
+        "source": "geizhals",
+        "availability": "shortly",
+        "since": "2026-11-07T16:05:45Z"
+      },
+      "exactVariantNote": "MSI GAMING TRIO OC RTX 5070 Ti 16 Go, version White, longueur 338 mm. Ce prix ne concerne pas la version sans OC ni une autre finition."
+    },
+    {
+      "component": {
+        "id": "import-ssd-e1b5f2393e07",
+        "category": "storage",
+        "brand": "Lexar",
+        "name": "NM790 2 To · PCIe 4.0 ×4",
+        "finishName": null,
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "ssd-lexar-nm790-2tb",
+        "category": "ssd",
+        "name": "Lexar NM790 2 TB",
+        "geizhalsSlug": "lexar-nm690-2tb-lnm790x002t-rnnn-a2956595",
+        "manufacturerPartNumber": "LNM790X002T-RNNN"
+      },
+      "current": {
+        "price": 349.0,
+        "merchant": "Mindfactory",
+        "url": "https://geizhals.de/lexar-nm690-2tb-lnm790x002t-rnnn-a2956595.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-11-04T21:23:31Z"
+      },
+      "exactVariantNote": "Lexar NM790 2 To standard, sans dissipateur. Le lien comparateur contient « nm690 », mais le nom et la référence LNM790X002T-RNNN de la source désignent le NM790."
+    },
+    {
+      "component": {
+        "id": "ssd-990evo-2",
+        "category": "storage",
+        "brand": "Samsung",
+        "name": "990 EVO Plus 2 To",
+        "finishName": null,
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "ssd-samsung-990-evo-plus-2tb",
+        "category": "ssd",
+        "name": "Samsung 990 EVO Plus 2 TB",
+        "geizhalsSlug": "samsung-ssd-990-evo-plus-2tb-mz-v9s2t0bw-mz-v9s2t0b-a3316843",
+        "manufacturerPartNumber": "MZ-V9S2T0BW"
+      },
+      "current": {
+        "price": 339.89,
+        "merchant": "playox.de",
+        "url": "https://geizhals.de/samsung-ssd-990-evo-plus-2tb-mz-v9s2t0bw-mz-v9s2t0b-a3316843.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-11-03T11:36:48Z"
+      },
+      "exactVariantNote": "Samsung 990 EVO Plus 2 To. Le lien source cite MZ-V9S2T0BW / MZ-V9S2T0B ; aucune attribution aux modèles 990 EVO ou 990 PRO."
+    },
+    {
+      "component": {
+        "id": "import-ssd-fccc3b7b9ef6",
+        "category": "storage",
+        "brand": "Western Digital",
+        "name": "WD_BLACK SN7100 2 To · PCIe 4.0 ×4",
+        "finishName": null,
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "ssd-wd-black-sn7100-2tb",
+        "category": "ssd",
+        "name": "WD_BLACK SN7100 2 TB",
+        "geizhalsSlug": "western-digital-wd-black-sn7100-nvme-ssd-2tb-wds200t4x0e-00cja0-a3372712",
+        "manufacturerPartNumber": "WDS200T4X0E-00CJA0"
+      },
+      "current": {
+        "price": 318.89,
+        "merchant": "computeruniverse",
+        "url": "https://geizhals.de/western-digital-wd-black-sn7100-nvme-ssd-2tb-wds200t4x0e-00cja0-a3372712.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-11-07T23:48:00Z"
+      },
+      "exactVariantNote": "WD_BLACK SN7100 2 To, référence WDS200T4X0E-00CJA0 identifiée dans le lien source."
+    },
+    {
+      "component": {
+        "id": "import-ssd-fb11a79a58bd",
+        "category": "storage",
+        "brand": "Western Digital",
+        "name": "WD_Black SN850X 2 To · PCIe 4.0 ×4",
+        "finishName": null,
+        "manufacturerPartNumber": null
+      },
+      "sourcePart": {
+        "id": "ssd-wd-black-sn850x-2tb",
+        "category": "ssd",
+        "name": "WD_BLACK SN850X 2 TB",
+        "geizhalsSlug": "western-digital-wd-black-sn850x-nvme-ssd-2tb-wds200t2x0e-00bca0-a2770177",
+        "manufacturerPartNumber": "WDS200T2X0E-00BCA0"
+      },
+      "current": {
+        "price": 369.0,
+        "merchant": "galaxus",
+        "url": "https://geizhals.de/western-digital-wd-black-sn850x-nvme-ssd-2tb-wds200t2x0e-00bca0-a2770177.html?hloc=de",
+        "source": "geizhals",
+        "availability": "in_stock",
+        "since": "2026-10-21T20:17:19Z"
+      },
+      "exactVariantNote": "WD_BLACK SN850X 2 To standard, référence WDS200T2X0E-00BCA0. Ce prix ne concerne pas la version équipée d’un dissipateur."
+    }
+  ]
+}

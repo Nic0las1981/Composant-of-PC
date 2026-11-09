@@ -10,6 +10,8 @@ import { getReleaseInfo } from "../data/releaseTimeline";
 import { getMemoryModuleCapacity, getMemoryDetails } from "../lib/memoryDetails";
 import { groupVariants, getVariantLabel, getDefaultVariant } from "../lib/catalogVariants";
 import { getCatalogFamily } from "../lib/catalogFamilies";
+import { useMarketFeedRevision } from "../lib/useMarketFeed";
+import { getReferencePrice } from "../data/pricing";
 import "./memory-configurator.css";
 
 export interface MemoryConfiguratorProps {
@@ -32,10 +34,12 @@ function kitSummary(component: Component) {
   return `${component.memorySticks || "?"} × ${perModule ? capacity(perModule) : "capacité inconnue"}${component.memoryType ? ` · ${component.memoryType}` : ""}`;
 }
 function estimatedPrice(component: Component) {
-  return component.priceStatus === "unknown" || !Number.isFinite(component.price) || component.price <= 0 ? "Prix non renseigné" : `${euro(component.price)} le kit`;
+  const price = getReferencePrice(component);
+  return price === null ? "Prix non renseigné" : `${euro(price)} le kit`;
 }
 
 export default function MemoryConfigurator({ selection, onChange, onBrowseMemory }: MemoryConfiguratorProps) {
+  const priceRevision = useMarketFeedRevision();
   const headingId = useId();
   const searchId = useId();
   const panelRef = useRef<HTMLElement>(null);
@@ -49,7 +53,7 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
   const [sameGeneration, setSameGeneration] = useState(true);
   const [page, setPage] = useState(0);
   const [checksOpen, setChecksOpen] = useState(false);
-  const memory = useMemo(() => getMemoryAnalysis(selection), [selection]);
+  const memory = useMemo(() => getMemoryAnalysis(selection), [selection, priceRevision]);
   const motherboard = getComponent(selection.motherboard);
   const selectedReference = getComponent(selection.ram);
   const primary = selectedReference?.category === "ram" ? selectedReference : memory.purchases[0]?.component;

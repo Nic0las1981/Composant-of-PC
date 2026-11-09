@@ -58,6 +58,7 @@ import ProductArt from "./ProductArt";
 import type { MemoryAnalysis } from "../lib/memory";
 import { getMemoryDetails } from "../lib/memoryDetails";
 import { SceneAnimationProvider, useSceneAnimation } from "./scene/SceneAnimation";
+import { HardwareSurfaceProvider } from "./scene/HardwarePrimitives";
 
 export type CameraView = "perspective" | "side" | "front";
 type V3 = [number, number, number];
@@ -772,47 +773,60 @@ export default function PcScene(props: PcSceneProps) {
               antialias: true,
               alpha: true,
               powerPreference: "high-performance",
+              toneMapping: THREE.ACESFilmicToneMapping,
+              toneMappingExposure: 1.02,
             }}
             onPointerMissed={() => setHover(null)}
           >
             <SceneAnimationProvider animated={props.animated !== false && !props.paused}>
-            <ambientLight intensity={0.82} />
-            <hemisphereLight args={["#edf1fa", "#3c3734", 1.35]} />
+            <HardwareSurfaceProvider>
+            <ambientLight intensity={0.3} />
+            <hemisphereLight args={["#edf2f7", "#252a2b", 0.7]} />
             <directionalLight
-              position={[4, 6, 5]}
-              intensity={2.8}
-              color="#fff5e8"
+              position={[4, 6, 4]}
+              intensity={2.35}
+              color="#fff8ee"
               castShadow
               shadow-mapSize={[1024, 1024]}
-              shadow-bias={-0.0005}
+              shadow-bias={-0.00015}
+              shadow-normalBias={0.008}
+              shadow-camera-near={0.1}
+              shadow-camera-far={22}
             />
             <directionalLight
               position={[-3, 3, -4]}
-              intensity={2}
-              color="#bdd9f4"
+              intensity={1.15}
+              color="#d2e5f5"
             />
-            <directionalLight position={[5, 1, -3]} intensity={1.05} color="#edf7ff" />
+            <directionalLight position={[5, 1, -3]} intensity={0.65} color="#edf7ff" />
             <pointLight
               position={[3, -1, 4]}
-              intensity={6}
+              intensity={2.2}
               distance={12}
-              color="#d2dce7"
+              color="#e2e9ef"
             />
             <Suspense fallback={null}>
-              <Environment resolution={128}>
+              <Environment resolution={256} environmentIntensity={0.9}>
                 <Lightformer
-                  intensity={1}
-                  color="#ffffff"
-                  position={[3, 4, 2]}
-                  scale={[4, 6, 1]}
-                  rotation={[0, -Math.PI / 4, 0]}
+                  intensity={2.5}
+                  color="#fffaf1"
+                  position={[4, 3.5, 4]}
+                  scale={[3, 5, 1]}
+                  rotation={[0, Math.PI / 4, 0]}
                 />
                 <Lightformer
-                  intensity={0.7}
-                  color="#c6d5e8"
-                  position={[-3, 2, -3]}
-                  scale={[3, 5, 1]}
-                  rotation={[0, Math.PI / 3, 0]}
+                  intensity={1.8}
+                  color="#d8e9f5"
+                  position={[-4, 2, -2]}
+                  scale={[1.2, 5, 1]}
+                  rotation={[0, -Math.PI / 3, 0]}
+                />
+                <Lightformer
+                  intensity={1.6}
+                  color="#ffffff"
+                  position={[0, 5, 0]}
+                  scale={[5, 3, 1]}
+                  rotation={[Math.PI / 2, 0, 0]}
                 />
               </Environment>
               <Assembly
@@ -826,9 +840,9 @@ export default function PcScene(props: PcSceneProps) {
               <ContactShadows
                 key={`${profile.id}-${props.exploded}-${props.components.cooler?.id}`}
                 position={[0, (-profile.heightMm * MM) / 2 - 0.035, 0]}
-                opacity={0.58}
+                opacity={0.6}
                 scale={12}
-                blur={2.5}
+                blur={1.8}
                 far={5}
                 resolution={256}
                 frames={80}
@@ -855,6 +869,7 @@ export default function PcScene(props: PcSceneProps) {
                 if (active) setHover(null);
               }}
             />
+            </HardwareSurfaceProvider>
             </SceneAnimationProvider>
           </Canvas>
         </SceneBoundary>

@@ -25,6 +25,50 @@ import {
 type Vec3 = [number, number, number];
 type Props<T> = { component: Component; profile: T };
 
+/** Reconstructed fasteners share three draw calls, regardless of their count.
+ * Their placement is visual assembly detail, not a manufacturer mounting map.
+ */
+function Fasteners({ positions, axis = "x", radius = 0.019, color = "#899294" }: {
+  positions: Vec3[]; axis?: "x" | "y" | "z"; radius?: number; color?: string;
+}) {
+  const heads = useRef<THREE.InstancedMesh>(null);
+  const washers = useRef<THREE.InstancedMesh>(null);
+  useLayoutEffect(() => {
+    const object = new THREE.Object3D();
+    object.rotation.set(axis === "z" ? Math.PI / 2 : 0, 0, axis === "x" ? -Math.PI / 2 : 0);
+    positions.forEach((position, index) => {
+      object.position.set(...position);
+      object.updateMatrix();
+      heads.current?.setMatrixAt(index, object.matrix);
+      washers.current?.setMatrixAt(index, object.matrix);
+    });
+    for (const mesh of [heads.current, washers.current]) if (mesh) {
+      mesh.instanceMatrix.needsUpdate = true;
+      mesh.computeBoundingSphere();
+    }
+  }, [positions, axis]);
+  const slots = useMemo<BoxInstance[]>(() => positions.flatMap((position) => [0, 1].map((turn) => {
+    const point = [...position] as Vec3;
+    point[axis === "x" ? 0 : axis === "y" ? 1 : 2] += 0.009;
+    const size: Vec3 = axis === "x" ? [0.002, radius * 1.1, radius * 0.17]
+      : axis === "y" ? [radius * 1.1, 0.002, radius * 0.17] : [radius * 1.1, radius * 0.17, 0.002];
+    const rotation: Vec3 = axis === "x" ? [turn * Math.PI / 2, 0, 0]
+      : axis === "y" ? [0, turn * Math.PI / 2, 0] : [0, 0, turn * Math.PI / 2];
+    return { position: point, size, rotation };
+  })), [positions, axis, radius]);
+  return <group name="reconstructed-fasteners">
+    <instancedMesh ref={washers} args={[undefined, undefined, positions.length]}>
+      <cylinderGeometry args={[radius * 1.42, radius * 1.42, 0.005, 16]} />
+      <meshStandardMaterial color="#273036" metalness={0.45} roughness={0.55} />
+    </instancedMesh>
+    <instancedMesh ref={heads} args={[undefined, undefined, positions.length]} castShadow>
+      <cylinderGeometry args={[radius * 0.92, radius, 0.016, 16]} />
+      <meshStandardMaterial color={color} metalness={0.75} roughness={0.3} />
+    </instancedMesh>
+    <BoxInstances items={slots} color="#11191c" metalness={0.1} roughness={0.8} />
+  </group>;
+}
+
 /** A physical DIMM slot pitch is shared by the socket and its installed module. */
 export const DIMM_SLOT_SPACING = 0.073;
 export function getDimmSlotLabel(slotCount: number, index: number): string {
@@ -120,6 +164,22 @@ function BoardSurface({ component, profile }: Props<BoardVisualProfile>) {
       c.fillRect(x, y, 1.2, 3);
       c.fillRect(x + 4.3, y, 1.2, 3);
     }
+    // Fine plated vias and parallel buses give the board its layered PCB look.
+    // These routes deliberately do not claim a real electrical netlist.
+    for (let i = 0; i < 190; i++) {
+      const x = 16 + ((i * 61) % 478), y = 15 + ((i * 89) % 606);
+      c.strokeStyle = "#9b9d797a"; c.lineWidth = 0.65;
+      c.beginPath(); c.arc(x, y, 1.1, 0, Math.PI * 2); c.stroke();
+      c.fillStyle = "#0b1716"; c.fillRect(x - 0.35, y - 0.35, 0.7, 0.7);
+    }
+    for (let lane = 0; lane < 18; lane++) {
+      c.strokeStyle = lane % 3 ? "#95a58b33" : "#b0ad7b48";
+      c.lineWidth = 0.6;
+      c.beginPath(); c.moveTo(255 + lane * 2.4, 150);
+      c.lineTo(255 + lane * 2.4, 240 + lane * 1.3);
+      c.lineTo(330 + lane * 2.4, 315 + lane * 1.3);
+      c.lineTo(440, 315 + lane * 1.3); c.stroke();
+    }
     c.font = "500 8px monospace";
     c.fillStyle = "#c3ccc2";
     for (const [label, x, y] of [["CPU_PWR", 355, 35], ["SYS_FAN", 30, 88], ["PCI_E1", 180, 405], ["M.2", 265, 452], ["USB", 205, 602], ["AUDIO", 430, 583], ["ATX_PWR", 12, 342]] as const) {
@@ -200,11 +260,31 @@ export function MotherboardModel({
     position: [0.17, h * 0.18 - h * 0.19 + i * h * 0.037, -w * 0.41] as Vec3,
     size: [0.008, 0.011, w * 0.145] as Vec3,
   })), [h, w]);
+  const topSinkGrooves = useMemo<BoxInstance[]>(() => Array.from({ length: 18 }, (_, i) => ({
+    position: [0.167, h * 0.41, -w * 0.26 + i * w * 0.028] as Vec3,
+    size: [0.009, h * 0.105, 0.009] as Vec3,
+  })), [h, w]);
+  const slotContacts = useMemo<BoxInstance[]>(() => [
+    ...Array.from({ length: profile.slots }, (_, slot) => {
+      const p = getDimmSlotPosition(profile, slot);
+      return Array.from({ length: 27 }, (_, pin) => ({
+        position: [p[0] + 0.039, p[1] - 0.47 + pin * 0.036, p[2]] as Vec3,
+        size: [0.003, 0.011, 0.012] as Vec3,
+      }));
+    }).flat(),
+    ...Array.from({ length: pcieCount }, (_, slot) => Array.from({ length: 31 }, (_, pin) => ({
+      position: [0.084, -h * 0.16 - slot * 0.27, -w * 0.345 + pin * w * 0.016] as Vec3,
+      size: [0.003, 0.014, 0.007] as Vec3,
+    }))).flat(),
+  ], [profile, pcieCount, h, w]);
+  const mountingScrews = useMemo<Vec3[]>(() => [-1, 1].flatMap(y => [-1, 1].map(z =>
+    [0.029, y * h * 0.46, z * w * 0.45] as Vec3)), [h, w]);
   return (
     <group>
       <MetalBox
         size={[0.033, h, w]}
         color={profile.pcbColor}
+        finish="pcb"
         metalness={0.1}
         roughness={0.85}
       />
@@ -221,8 +301,11 @@ export function MotherboardModel({
       />
       <BoxInstances items={traces} color="#98a5aa" roughness={0.5} />
       <BoxInstances items={sinkGrooves} color="#171f24" metalness={0.2} roughness={0.7} />
+      <BoxInstances items={topSinkGrooves} color="#1b252b" metalness={0.15} roughness={0.65} />
       <BoardCapacitors positions={capacitors} />
       <BoxInstances items={powerPins} color="#b8a36a" metalness={0.65} />
+      <BoxInstances items={slotContacts} color="#bda465" metalness={0.7} roughness={0.32} />
+      <Fasteners positions={mountingScrews} radius={0.018} />
       <group position={[0.11, h * 0.18, -w * 0.502]}>
         <MetalBox size={[0.19, h * 0.49, 0.045]} color="#8b969a" metalness={0.65} roughness={0.42} />
         {[0, 1, 2].map((index) => <group key={index} position={[0, h * (0.12 - index * 0.115), -0.028]}>
@@ -249,6 +332,11 @@ export function MotherboardModel({
         size={[0.014, 0.35, 0.35]}
         color="#151a1d"
       />
+      <Tube points={[
+        [anchors.cpu[0] + 0.034, anchors.cpu[1] - 0.2, anchors.cpu[2] + 0.218],
+        [anchors.cpu[0] + 0.041, anchors.cpu[1] + 0.18, anchors.cpu[2] + 0.218],
+        [anchors.cpu[0] + 0.055, anchors.cpu[1] + 0.245, anchors.cpu[2] + 0.17],
+      ]} radius={0.009} color="#b1b8b7" />
       {Array.from({ length: profile.slots }, (_, i) => (
         <group
           key={i}
@@ -320,28 +408,42 @@ export function MotherboardModel({
         metalness={0.7}
         roughness={0.5}
       />
-      {[-1, 1].flatMap((y) =>
-        [-1, 1].map((z) => (
-          <mesh
-            key={`${y}-${z}`}
-            position={[0.025, y * h * 0.46, z * w * 0.45]}
-            rotation={[0, Math.PI / 2, 0]}
-          >
-            <ringGeometry args={[0.012, 0.025, 12]} />
-            <meshStandardMaterial
-              color="#c2c2b0"
-              metalness={0.8}
-              roughness={0.4}
-            />
-          </mesh>
-        )),
-      )}
     </group>
   );
 }
 
-/** Painted backplate details share one local texture, including the recessed screws. */
+/** Cut-outs are real openings, so fins and flow-through fans remain visible. */
 function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
+  const geometry = useMemo(() => {
+    const l = profile.lengthMm * MM, w = profile.heightMm * MM;
+    const edge = Math.min(w * 0.055, 0.04);
+    const shape = new THREE.Shape();
+    shape.moveTo(-l / 2 + edge, -w / 2);
+    shape.lineTo(l / 2 - edge, -w / 2); shape.lineTo(l / 2, -w / 2 + edge);
+    shape.lineTo(l / 2, w / 2 - edge); shape.lineTo(l / 2 - edge, w / 2);
+    shape.lineTo(-l / 2 + edge, w / 2); shape.lineTo(-l / 2, w / 2 - edge);
+    shape.lineTo(-l / 2, -w / 2 + edge); shape.closePath();
+    if (profile.fanLayout === "flow-through") {
+      const radius = Math.min(profile.fanSizeMm * MM * 0.48, w * 0.44, l / (profile.fanCount * 2) * 0.95);
+      const opening = new THREE.Path();
+      opening.absarc(-(l / 2 - radius - 0.04), 0, radius * 0.93, 0, Math.PI * 2, true);
+      shape.holes.push(opening);
+    } else {
+      for (let i = 0; i < 10; i++) {
+        const x = -l * (0.19 + i * 0.023), half = Math.min(l * 0.004, 0.009);
+        const slot = new THREE.Path();
+        slot.moveTo(x - half, -w * 0.3); slot.lineTo(x - half, w * 0.3);
+        slot.lineTo(x + half, w * 0.3); slot.lineTo(x + half, -w * 0.3); slot.closePath();
+        shape.holes.push(slot);
+      }
+    }
+    const result = new THREE.ExtrudeGeometry(shape, { depth: 0.027, bevelEnabled: false, curveSegments: 40, steps: 1 });
+    const uv = result.getAttribute("uv"), position = result.getAttribute("position");
+    for (let i = 0; i < uv.count; i++) uv.setXY(i, position.getX(i) / l + 0.5, position.getY(i) / w + 0.5);
+    uv.needsUpdate = true;
+    return result;
+  }, [profile.lengthMm, profile.heightMm, profile.fanLayout, profile.fanSizeMm, profile.fanCount]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
     canvas.width = 1024;
@@ -358,26 +460,12 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
     c.strokeRect(16, 16, 992, 480);
     c.beginPath();
     c.moveTo(90, 450); c.lineTo(310, 450); c.lineTo(590, 70); c.lineTo(900, 70); c.stroke();
-    for (const [x, y] of [[50, 48], [50, 464], [970, 48], [970, 464], [420, 140], [420, 372]]) {
-      c.fillStyle = "#080c0f";
-      c.beginPath(); c.arc(x, y, 12, 0, Math.PI * 2); c.fill();
-      c.strokeStyle = "#818b8e"; c.lineWidth = 2;
-      c.beginPath(); c.arc(x, y, 9, 0, Math.PI * 2); c.stroke();
-      c.strokeStyle = "#abb4b6";
-      c.beginPath(); c.moveTo(x - 5, y); c.lineTo(x + 5, y);
-      c.moveTo(x, y - 5); c.lineTo(x, y + 5); c.stroke();
-    }
     c.fillStyle = "#c5cdd0";
     c.font = "600 50px Arial";
     c.fillText(component.brand.toUpperCase(), 100, 245, 560);
     c.fillStyle = "#9ba7ab";
     c.font = "500 21px Arial";
     c.fillText(component.name, 100, 292, 680);
-    c.fillStyle = "#c0b278";
-    c.beginPath(); c.moveTo(80, 360); c.lineTo(96, 333); c.lineTo(112, 360); c.closePath(); c.fill();
-    c.fillStyle = "#293035"; c.font = "600 18px Arial"; c.fillText("!", 92, 355);
-    c.fillStyle = "#a9b2b3"; c.font = "500 14px monospace";
-    c.fillText("HOT SURFACE", 125, 355);
     const map = new THREE.CanvasTexture(canvas);
     map.colorSpace = THREE.SRGBColorSpace;
     map.anisotropy = 4;
@@ -386,11 +474,15 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
   useEffect(() => () => texture.dispose(), [texture]);
   return (
     <mesh
-      position={[0, profile.thicknessMm * MM * 0.46 + 0.023, 0]}
+      name="gpu-backplate"
+      position={[0, profile.thicknessMm * MM * 0.46, 0]}
       rotation={[-Math.PI / 2, 0, Math.PI / 2]}
+      geometry={geometry}
+      castShadow
+      receiveShadow
     >
-      <planeGeometry args={[profile.lengthMm * MM * 0.985, profile.heightMm * MM * 0.985]} />
-      <meshStandardMaterial map={texture} metalness={0.12} roughness={0.72} envMapIntensity={0.35} />
+      <meshStandardMaterial attach="material-0" map={texture} metalness={0.35} roughness={0.48} />
+      <meshStandardMaterial attach="material-1" color={profile.backplateColor} metalness={0.65} roughness={0.3} />
     </mesh>
   );
 }
@@ -404,7 +496,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
     width * 0.44,
     (length / (profile.fanCount * 2)) * 0.95,
   );
-  const fanSpan = length / 2 - fanRadius - 0.04;
+  const fanSpan = profile.fanCount > 1 ? length / 2 - fanRadius - 0.04 : 0;
   const fins = useMemo<BoxInstance[]>(
     () =>
       Array.from({ length: 38 }, (_, i) => ({
@@ -413,14 +505,24 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
       })),
     [length, width, height],
   );
-  const backVents = useMemo<BoxInstance[]>(
-    () =>
-      Array.from({ length: 11 }, (_, i) => ({
-        position: [0, height * 0.46 + 0.027, length * 0.23 + i * 0.032],
-        size: [width * 0.68, 0.009, 0.012],
-      })),
-    [width, height, length],
-  );
+  const sideRails = useMemo<BoxInstance[]>(() => [-1, 1].flatMap(side => [-1, 1].map(edge => ({
+    position: [side * width * 0.49, edge * height * 0.32, 0] as Vec3,
+    size: [0.035, height * 0.17, length] as Vec3,
+  }))), [width, height, length]);
+  const faceRails = useMemo<BoxInstance[]>(() => [
+    ...[-1, 1].map(side => ({ position: [side * width * 0.46, -height * 0.43, 0] as Vec3,
+      size: [width * 0.08, height * 0.17, length] as Vec3 })),
+    ...Array.from({ length: profile.fanCount + 1 }, (_, i) => ({
+      position: [0, -height * 0.43, -length * 0.47 + i * length * 0.94 / profile.fanCount] as Vec3,
+      size: [width * 0.88, height * 0.17, Math.min(length * 0.035, 0.09)] as Vec3,
+    })),
+  ], [width, height, length, profile.fanCount]);
+  const contacts = useMemo<BoxInstance[]>(() => Array.from({ length: 28 }, (_, i) => ({
+    position: [-width * 0.4, height * 0.6, -length * 0.1 - 0.29 + i * 0.0215] as Vec3,
+    size: [0.046, 0.075, 0.014] as Vec3,
+  })).filter((_, i) => i !== 7), [width, height, length]);
+  const screws = useMemo<Vec3[]>(() => [-1, 1].flatMap(side => [-0.43, -0.03, 0.43].map(z =>
+    [side * width * 0.39, height * 0.46 + 0.03, z * length] as Vec3)), [width, height, length]);
   const bracket = useMemo<BoxInstance[]>(
     () =>
       Array.from({ length: 5 }, (_, i) => ({
@@ -430,7 +532,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
     [width, height, length],
   );
   const metal = profile.shroudColor;
-  const label = /Radeon/i.test(component.name)
+  const label = /Radeon|\bRX[\s-]*\d/i.test(component.name)
     ? "RADEON RX"
     : /Arc/i.test(component.name)
       ? "intel ARC"
@@ -440,36 +542,22 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
   return (
     <group>
       <MetalBox
-        size={[width * 0.95, height * 0.78, length * 0.98]}
-        color="#1a1d20"
+        position={[0, height * 0.37, -length * (profile.fanLayout === "flow-through" ? 0.22 : 0.025)]}
+        size={[width * 0.88, 0.016, length * (profile.fanLayout === "flow-through" ? 0.5 : 0.9)]}
+        color="#26302b"
+        finish="pcb"
+        metalness={0.08}
+        roughness={0.8}
       />
-      <BoxInstances items={fins} color="#687075" roughness={0.36} />
-      <MetalBox
-        position={[0, height * 0.46, 0]}
-        size={[width, 0.045, length]}
-        color={profile.backplateColor}
-        metalness={0.22}
-        roughness={0.62}
-      />
+      <MetalBox position={[0, height * 0.26, -length * 0.08]} size={[width * 0.72, 0.035, length * 0.71]} color="#848b89" metalness={0.8} roughness={0.32} />
+      <BoxInstances items={fins} color="#687075" finish="brushed" roughness={0.36} />
       <GpuBackplate component={component} profile={profile} />
-      <BoxInstances items={backVents} color="#111519" />
+      <Fasteners positions={screws} axis="y" radius={0.016} color="#818a8b" />
+      <BoxInstances items={sideRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />
+      <BoxInstances items={faceRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />
       <MetalBox
         position={[width * 0.49, 0, 0]}
-        size={[0.035, height * 0.91, length]}
-        color={metal}
-        metalness={0.3}
-        roughness={0.48}
-      />
-      <MetalBox
-        position={[-width * 0.49, 0, 0]}
-        size={[0.035, height * 0.91, length]}
-        color={metal}
-        metalness={0.3}
-        roughness={0.48}
-      />
-      <MetalBox
-        position={[0, -height * 0.43, 0]}
-        size={[width, height * 0.17, length]}
+        size={[0.035, height * 0.3, length * 0.67]}
         color={metal}
         metalness={0.3}
         roughness={0.48}
@@ -530,12 +618,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
           roughness={0.5}
         />
       )}
-      <MetalBox
-        position={[-width * 0.4, height * 0.6, -length * 0.1]}
-        size={[0.045, 0.075, 0.63]}
-        color="#b29851"
-        roughness={0.4}
-      />
+      <BoxInstances items={contacts} color="#c2a45e" metalness={0.7} roughness={0.32} />
       <MetalBox
         position={[0, 0, -length * 0.51]}
         size={[width * 1.02, height * 1.15, 0.023]}
@@ -707,6 +790,23 @@ export function RamModel({
     && !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name));
   const rgb = profile.rgb && (!documentedBare || component.rgb === true);
   const details = getMemoryDetails(component);
+  const pcbGeometry = useMemo(() => {
+    const edge = Math.min(h * 0.045, l * 0.009);
+    const keyY = -l * 0.43 + (component.memoryType === "DDR5" ? 18 : 16) * l * 0.86 / 35;
+    const keyWidth = l * 0.012;
+    const shape = new THREE.Shape();
+    shape.moveTo(-h * 0.435, -l / 2 + edge);
+    shape.lineTo(-h * 0.435, keyY - keyWidth); shape.lineTo(-h * 0.33, keyY - keyWidth);
+    shape.lineTo(-h * 0.33, keyY + keyWidth); shape.lineTo(-h * 0.435, keyY + keyWidth);
+    shape.lineTo(-h * 0.435, l / 2 - edge); shape.lineTo(-h * 0.435 + edge, l / 2);
+    shape.lineTo(h * 0.435 - edge, l / 2); shape.lineTo(h * 0.435, l / 2 - edge);
+    shape.lineTo(h * 0.435, -l / 2 + edge); shape.lineTo(h * 0.435 - edge, -l / 2);
+    shape.lineTo(-h * 0.435 + edge, -l / 2); shape.closePath();
+    const geometry = new THREE.ExtrudeGeometry(shape, { depth: Math.min(0.013, t * 0.3), bevelEnabled: false, steps: 1 });
+    geometry.translate(0, 0, -Math.min(0.013, t * 0.3) / 2);
+    return geometry;
+  }, [h, l, t, component.memoryType]);
+  useEffect(() => () => pcbGeometry.dispose(), [pcbGeometry]);
   // Contacts and IC packages are schematic details: package count does not
   // assert the physical ranks, die density, or revision of the sold module.
   const contacts = useMemo<BoxInstance[]>(
@@ -727,6 +827,16 @@ export function RamModel({
       position: [h * 0.08, side * l * (0.31 + i * 0.035), t * 0.505] as Vec3,
       size: [h * 0.64, l * 0.012, t * 0.035] as Vec3,
     }))), [h, l, t]);
+  const surfaceParts = useMemo<BoxInstance[]>(() => [-1, 1].flatMap(side =>
+    Array.from({ length: 22 }, (_, i) => ({
+      position: [i % 2 ? h * 0.31 : -h * 0.34, -l * 0.4 + i * l * 0.038, side * Math.min(0.01, t * 0.19)] as Vec3,
+      size: [h * 0.033, l * 0.013, 0.004] as Vec3,
+    }))), [h, l, t]);
+  const packageMarks = useMemo<BoxInstance[]>(() => [-1, 1].flatMap(side =>
+    Array.from({ length: 8 }, (_, i) => ({
+      position: [-h * 0.18, -l * 0.38 + i * l * 0.103, side * Math.min(0.019, t * 0.35)] as Vec3,
+      size: [0.005, 0.005, 0.002] as Vec3,
+    }))), [h, l, t]);
   const family = component.name.split(/ · | \d+\s*(?:Go|GB)/i)[0];
   const capacityText = capacity ? `${new Intl.NumberFormat("fr-FR").format(capacity)} Go` : "";
   const moduleLabel = [capacityText, component.memoryType, details.organization, details.moduleKind,
@@ -744,8 +854,12 @@ export function RamModel({
             memoryPackageLayout: "schematic" }}
           position={[0, 0, singleModule ? 0 : (i - (count - 1) / 2) * DIMM_SLOT_SPACING]}
         >
-          <MetalBox size={[h * 0.87, l, Math.min(0.013, t * 0.3)]} color={documentedBare ? profile.pcbColor ?? "#2d684d" : bareModule ? "#244b3d" : "#23382e"} metalness={0.08} roughness={0.75} />
+          <mesh name="ram-keyed-pcb" geometry={pcbGeometry} castShadow receiveShadow>
+            <meshStandardMaterial color={documentedBare ? profile.pcbColor ?? "#2d684d" : bareModule ? "#244b3d" : "#23382e"} metalness={0.08} roughness={0.75} />
+          </mesh>
           <BoxInstances items={chips} color="#161d21" roughness={0.76} metalness={0.08} />
+          {bareModule && <><BoxInstances items={surfaceParts} color="#a89976" metalness={0.25} roughness={0.6} />
+            <BoxInstances items={packageMarks} color="#68716c" metalness={0.05} roughness={0.8} /></>}
           {!bareModule && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
           <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
           {!bareModule && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
@@ -899,6 +1013,10 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   const w = profile.widthMm * MM,
     h = profile.heightMm * MM,
     d = profile.depthMm * MM;
+  const wiring = component.specs.join(" ");
+  const fixedWiring = /non[\s-]*modulaire|câbles fixes/i.test(wiring);
+  const semiModular = /semi[\s-]*modulaire/i.test(wiring);
+  const knownModular = !fixedWiring && /modulaire/i.test(wiring);
   const grille = useMemo<BoxInstance[]>(
     () =>
       Array.from({ length: 12 }, (_, i) => ({
@@ -909,7 +1027,7 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   );
   const plugs = useMemo<BoxInstance[]>(
     () =>
-      Array.from({ length: 8 }, (_, i) => ({
+      Array.from({ length: knownModular ? semiModular ? 4 : 8 : 0 }, (_, i) => ({
         position: [
           -w * 0.32 + (i % 4) * w * 0.22,
           -h * 0.19 + Math.floor(i / 4) * h * 0.39,
@@ -917,8 +1035,14 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
         ],
         size: [w * 0.15, h * 0.24, 0.026],
       })),
-    [w, h, d],
+    [w, h, d, knownModular, semiModular],
   );
+  const fixedBundles = useMemo<Vec3[][]>(() => Array.from({ length: 4 }, (_, i) => [
+    [-w * 0.32 + i * 0.026, -h * 0.3, d * 0.51],
+    [-w * 0.31 + i * 0.026, -h * 0.3, d * 0.58 + 0.06],
+    [-w * 0.23 + i * 0.026, -h * 0.2, d * 0.6 + 0.13],
+    [-w * 0.16 + i * 0.026, -h * 0.08, d * 0.6 + 0.15],
+  ] as Vec3[]), [w, h, d]);
   return (
     <group>
       <MetalBox size={[w, h, d]} color={profile.color} roughness={0.39} />
@@ -944,7 +1068,11 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
         height={h * 0.53}
         color="#c4c7c6"
       />
-      <BoxInstances items={plugs} color="#070b0d" metalness={0.05} />
+      {plugs.length > 0 && <BoxInstances items={plugs} color="#070b0d" finish="plastic" metalness={0.05} />}
+      {(fixedWiring || semiModular) && <>
+        <MetalBox position={[-w * 0.28, -h * 0.3, d * 0.507]} size={[w * 0.19, h * 0.16, 0.025]} color="#141a1c" finish="plastic" metalness={0.02} roughness={0.85} />
+        {fixedBundles.map((points, i) => <Tube key={i} points={points} radius={0.016} color="#20282c" finish="plastic" />)}
+      </>}
       <MetalBox
         position={[-w * 0.2, -h * 0.12, -d * 0.51]}
         size={[w * 0.31, h * 0.3, 0.03]}
@@ -1028,10 +1156,16 @@ function HoseFitting({ position }: { position: Vec3 }) {
   }, []);
   useEffect(() => () => texture.dispose(), [texture]);
   return (
-    <mesh position={position} rotation={[Math.PI / 2, 0, 0]}>
-      <cylinderGeometry args={[0.058, 0.058, 0.11, 16]} />
-      <meshStandardMaterial map={texture} metalness={0.6} roughness={0.4} />
-    </mesh>
+    <group position={position}>
+      <mesh rotation={[Math.PI / 2, 0, 0]} castShadow>
+        <cylinderGeometry args={[0.058, 0.058, 0.11, 24]} />
+        <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.0015} metalness={0.6} roughness={0.4} />
+      </mesh>
+      {[-1, 1].map(side => <mesh key={side} position={[0, 0, side * 0.045]}>
+        <torusGeometry args={[0.056, 0.005, 8, 24]} />
+        <meshStandardMaterial color="#6b7376" metalness={0.75} roughness={0.32} />
+      </mesh>)}
+    </group>
   );
 }
 
@@ -1066,9 +1200,9 @@ function BraidedHose({ points, color }: { points: Vec3[]; color: string }) {
     () =>
       new THREE.TubeGeometry(
         new THREE.CatmullRomCurve3(points.map((p) => new THREE.Vector3(...p))),
-        48,
+        64,
         0.043,
-        10,
+        16,
         false,
       ),
     [points],
@@ -1077,7 +1211,7 @@ function BraidedHose({ points, color }: { points: Vec3[]; color: string }) {
   useEffect(() => () => geometry.dispose(), [geometry]);
   return (
     <mesh geometry={geometry} castShadow>
-      <meshStandardMaterial map={texture} roughness={0.84} metalness={0.04} />
+      <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.0013} roughness={0.84} metalness={0.04} />
     </mesh>
   );
 }
@@ -1113,9 +1247,9 @@ export function AioCoolingModel({
   const fanDistance = profile.fanSizeMm * MM;
   const fins = useMemo<BoxInstance[]>(
     () =>
-      Array.from({ length: 53 }, (_, i) => ({
-        position: [0, 0, -length * 0.43 + (i * length * 0.86) / 52],
-        size: [width * 0.83, thickness * 0.68, 0.009],
+      Array.from({ length: 73 }, (_, i) => ({
+        position: [0, 0, -length * 0.43 + (i * length * 0.86) / 72],
+        size: [width * 0.83, thickness * 0.68, 0.006],
       })),
     [width, length, thickness],
   );
@@ -1141,6 +1275,17 @@ export function AioCoolingModel({
       ] as BoxInstance[],
     [width, thickness, length],
   );
+  const waterways = useMemo<BoxInstance[]>(() => Array.from({ length: 9 }, (_, i) => ({
+    position: [-width * 0.39 + i * width * 0.0975, 0, 0] as Vec3,
+    size: [width * 0.023, thickness * 0.72, length * 0.89] as Vec3,
+  })), [width, thickness, length]);
+  const radiatorBolts = useMemo<Vec3[]>(() => Array.from({ length: profile.fanCount }, (_, i) =>
+    [-1, 1].flatMap(x => [-1, 1].map(z => [
+      x * fanDistance * 0.41, thickness * 0.51,
+      (i - (profile.fanCount - 1) / 2) * fanDistance + z * fanDistance * 0.41,
+    ] as Vec3))).flat(), [profile.fanCount, fanDistance, thickness]);
+  const pumpBolts = useMemo<Vec3[]>(() => [-1, 1].flatMap(y => [-1, 1].map(z =>
+    [-pumpDepth * 0.32, y * pumpWidth * 0.4, z * pumpHeight * 0.4] as Vec3)), [pumpDepth, pumpWidth, pumpHeight]);
   const hoses = useMemo(() => {
     const transform = new THREE.Euler(...rotation);
     return [-1, 1].map((side) => {
@@ -1200,26 +1345,19 @@ export function AioCoolingModel({
   const radius = Math.min(pumpWidth, pumpHeight) * 0.46;
   return (
     <group>
-      <group position={radiatorPosition} rotation={rotation}>
-        <MetalBox
-          size={[width, thickness * 0.77, length]}
-          color={profile.finColor}
-          roughness={0.72}
-        />
+      <group name="aio-radiator-core" position={radiatorPosition} rotation={rotation}>
+        {/* An open fin core replaces the solid box, including the top face.
+            Tube/fin segmentation is illustrative, never a technical tube count. */}
         <BoxInstances
           items={fins}
           color={profile.finColor}
+          finish="brushed"
           metalness={0.45}
           roughness={0.49}
         />
-        <BoxInstances items={rails} color={profile.color} metalness={0.22} roughness={0.52} />
-        <MetalBox
-          position={[0, thickness * 0.43, 0]}
-          size={[width * 0.88, 0.014, length * 0.88]}
-          color={profile.color}
-          metalness={0.3}
-          roughness={0.65}
-        />
+        <BoxInstances items={waterways} color={profile.finColor} finish="brushed" metalness={0.48} roughness={0.45} />
+        <BoxInstances items={rails} color={profile.color} finish="paint" metalness={0.22} roughness={0.52} />
+        <Fasteners positions={radiatorBolts} axis="y" radius={0.018} color="#6c7477" />
         {Array.from({ length: profile.fanCount }, (_, i) => (
           <HardwareFan
             key={i}
@@ -1265,10 +1403,7 @@ export function AioCoolingModel({
           metalness={0.8}
           roughness={0.25}
         />
-        {[-1, 1].flatMap((y) => [-1, 1].map((z) => <mesh key={`${y}-${z}`} position={[-pumpDepth * 0.36, y * pumpWidth * 0.4, z * pumpHeight * 0.4]} rotation={[0, 0, Math.PI / 2]}>
-          <cylinderGeometry args={[0.025, 0.025, 0.065, 12]} />
-          <meshStandardMaterial color="#aeb8bc" metalness={0.75} roughness={0.3} />
-        </mesh>))}
+        <Fasteners positions={pumpBolts} radius={0.023} color="#aeb8bc" />
         {rounded ? (
           <mesh rotation={[0, 0, Math.PI / 2]} castShadow>
             <cylinderGeometry args={[radius, radius, pumpDepth, 48]} />
@@ -1285,6 +1420,10 @@ export function AioCoolingModel({
             roughness={0.3}
           />
         )}
+        {rounded && <mesh position={[face - 0.012, 0, 0]} rotation={[0, Math.PI / 2, 0]}>
+          <torusGeometry args={[radius * 0.96, 0.008, 8, 56]} />
+          <meshStandardMaterial color="#747b7d" metalness={0.72} roughness={0.28} />
+        </mesh>}
         {profile.pumpDisplay === "lcd" ? (
           <PumpScreen width={radius * 1.83} position={[face + 0.005, 0, 0]} brand={component.brand} />
         ) : (

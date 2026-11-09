@@ -5,7 +5,7 @@ import type { CategoryId, Component, Selection } from '../data/catalog';
 import { analyzeBuild, getCandidateIssues } from '../lib/compatibility';
 import type { Resolution, Usage } from '../lib/compatibility';
 import { getComparisonRows, getProductDetails } from '../lib/productDetails';
-import { getPricingInfo, getReferencePrice, formatComponentPrice, pricingPolicy } from "../data/pricing";
+import { getPricingInfo, getReferencePrice, formatComponentPrice, getPriceCaption, pricingPolicy } from "../data/pricing";
 import { getMemoryAnalysis, memorySpeed as getMemorySpeed, chooseMemoryComponent } from "../lib/memory";
 import ProductArt from './ProductArt';
 import { getCatalogFamily } from '../lib/catalogFamilies';
@@ -13,6 +13,9 @@ import { getReleaseInfo } from '../data/releaseTimeline';
 import { compareByRecency, releaseBadge, releaseDateLabel } from '../lib/catalogOrdering';
 import { getMemoryDetails, getMemoryModuleCapacity } from '../lib/memoryDetails';
 import { getCatalogGroups, getVariantGroup, getVariantGroupId, getVariantLabel, getDefaultVariant, groupVariants } from '../lib/catalogVariants';
+import { getPriceArchive, formatArchivePrice, formatArchiveDate } from '../lib/priceArchive';
+import { useMarketFeedRevision } from '../lib/useMarketFeed';
+import { getMarketFeedState, refreshMarketFeed } from '../lib/marketFeed';
 import './catalog-panel.css';
 
 export interface CatalogPanelProps {
@@ -28,10 +31,11 @@ export interface CatalogPanelProps {
 }
 
 type View = 'list' | 'detail' | 'compare';
-type Sort = 'newest' | 'oldest' | 'recommended' | 'price-up' | 'price-down' | 'name';
+type Sort = 'newest' | 'oldest' | 'recommended' | 'price-up' | 'price-down' | 'archive-up' | 'archive-down' | 'name';
 const PAGE_SIZE = 36;
 const categoryCounts = Object.fromEntries(categories.map(({ id }) => [id, getCatalogGroups(id).length]));
 const categoryIcons = { cpu: Cpu, motherboard: CircuitBoard, gpu: Monitor, ram: MemoryStick, storage: HardDrive, cooler: Fan, psu: PlugZap, case: PcCase };
+const sourceDate = (value: string) => new Intl.DateTimeFormat('fr-FR', { dateStyle: 'long', timeStyle: 'short', timeZone: 'UTC' }).format(new Date(value)) + ' UTC';
 const euro = (value: number) => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(value);
 const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const productForCategory = (id: string | null | undefined, category: CategoryId) => {
@@ -39,7 +43,14 @@ const productForCategory = (id: string | null | undefined, category: CategoryId)
   return product?.category === category ? product : undefined;
 };
 
+function ArchivePriceNote({ component }: { component: Component }) {
+  const quote = getPriceArchive(component);
+  return quote ? <span className="cp-archive-note" data-archive-currency={quote.currency}><span>Archive 2025 · <b>{formatArchivePrice(quote)}</b></span><small>Repère historique · hors budget EUR</small></span> : null;
+}
+
 export default function CatalogPanel({ category, selection, resolution, usage, initialProductId, onCategoryChange, onChoose, onRemove, onClose }: CatalogPanelProps) {
+  const priceRevision = useMarketFeedRevision();
+  const feedState = getMarketFeedState();
   const initialProduct = productForCategory(initialProductId, category);
   const [view, setView] = useState<View>(initialProduct ? 'detail' : 'list');
   const [detailId, setDetailId] = useState<string | null>(initialProduct?.id ?? null);
@@ -136,7 +147,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
   const speeds = useMemo(() => [...new Set(candidates.map(({ component }) => getMemorySpeed(component)).filter((value): value is number => value !== null))].sort((a, b) => a - b), [candidates]);
   const moduleCounts = useMemo(() => [...new Set(candidates.map(({ component }) => component.memorySticks).filter((value): value is number => typeof value === 'number' && value > 0))].sort((a, b) => a - b), [candidates]);
   const slotCounts = useMemo(() => [...new Set(candidates.map(({ component }) => component.memorySlots).filter((value): value is number => typeof value === 'number' && value > 0))].sort((a, b) => a - b), [candidates]);
-  const memoryAnalysis = useMemo(() => category === 'ram' ? getMemoryAnalysis(selection) : null, [category, selection]);
+  const memoryAnalysis = useMemo(() => category === 'ram' ? getMemoryAnalysis(selection) : null, [category, selection, priceRevision]);
   const results = useMemo(() => {
     const words = normalize(search).trim().split(/\s+/).filter(Boolean);
     const items = candidates.filter(({ component, issues, searchable, family: componentFamily, memory }) => {
@@ -171,10 +182,15 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
         if (left === null || right === null) return left === null ? right === null ? 0 : 1 : -1;
         return sort === 'price-up' ? left - right : right - left;
       }
+      if (sort === 'archive-up' || sort === 'archive-down') {
+        const left = getPriceArchive(a.component)?.amount, right = getPriceArchive(b.component)?.amount;
+        if (left === undefined || right === undefined) return left === undefined ? right === undefined ? 0 : 1 : -1;
+        return sort === 'archive-up' ? left - right : right - left;
+      }
       if (sort === 'name') return a.component.name.localeCompare(b.component.name, 'fr');
       return Number(a.issues.length > 0) - Number(b.issues.length > 0);
     });
-  }, [candidates, search, brand, family, maxPrice, compatibleOnly, coolingType, sort, memoryType, capacity, moduleCapacity, moduleKind, organization, modules, boardSlots, socket, memorySpeed, previewVariants, selection]);
+  }, [candidates, search, brand, family, maxPrice, compatibleOnly, coolingType, sort, memoryType, capacity, moduleCapacity, moduleKind, organization, modules, boardSlots, socket, memorySpeed, previewVariants, selection, priceRevision]);
   const visibleResults = results.slice(0, visibleCount);
   const filterCount = [search.trim() !== '', brand !== 'all', family !== 'all', maxPrice !== 'all', compatibleOnly, coolingType !== 'all', memoryType !== 'all', capacity !== 'all', moduleCapacity !== 'all', moduleKind !== 'all', organization !== 'all', modules !== 'all', boardSlots !== 'all', socket !== 'all', memorySpeed !== 'all'].filter(Boolean).length;
   const detail = productForCategory(detailId, category);
@@ -182,8 +198,12 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
   const detailRelease = detail ? getReleaseInfo(detail) : null;
   const detailGroup = getVariantGroup(detail);
   const pricing = detail ? getPricingInfo(detail) : undefined;
+  const marketObservation = pricing?.observation;
+  const availabilityLabels = { in_stock: 'En stock selon la source', shortly: 'Disponibilité annoncée prochainement', unavailable: 'Indisponible selon la source', unknown: 'Non renseigné' };
+  const feedLabels = { snapshot: 'Relevé conservé', refreshing: 'Actualisation de la source…', refreshed: 'Source publique actualisée', partial: 'Source partiellement actualisée', unavailable: 'Source inaccessible · relevé conservé' };
+  const priceArchive = detail ? getPriceArchive(detail) : null;
   const detailIssues = detail ? candidates.find((item) => item.component.id === detail.id)?.issues ?? [] : [];
-  const detailAnalysis = useMemo(() => detail ? analyzeBuild(category === 'ram' ? chooseMemoryComponent(selection, detail.id) : { ...selection, [category]: detail.id }, resolution, usage) : null, [detail, category, selection, resolution, usage]);
+  const detailAnalysis = useMemo(() => detail ? analyzeBuild(category === 'ram' ? chooseMemoryComponent(selection, detail.id) : { ...selection, [category]: detail.id }, resolution, usage) : null, [detail, category, selection, resolution, usage, priceRevision]);
   const detailWarnings = detailAnalysis?.warnings.filter((warning) => warning.severity !== 'error' && warning.category === category) ?? [];
   const compared = compareIds.map((id) => productForCategory(id, category)).filter((item): item is Component => Boolean(item));
   const comparisonRows = getComparisonRows(compared).filter((row) => !differencesOnly || new Set(row.values).size > 1);
@@ -254,7 +274,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       <div className="cp-discovery">
         <div className="cp-search-row">
           <label className="cp-search"><Search size={18} aria-hidden="true" /><input aria-label="Rechercher un composant" placeholder="Rechercher un composant…" value={search} onChange={(event) => setSearch(event.target.value)} />{search && <button type="button" aria-label="Effacer la recherche" onClick={() => setSearch('')}><X size={16} /></button>}</label>
-          <label className="cp-field cp-sort"><span>Trier par</span><select aria-label="Trier les composants" value={sort} onChange={(event) => setSort(event.target.value as Sort)}><option value="newest">Plus récents d’abord</option><option value="oldest">Plus anciens d’abord</option><option value="recommended">Compatibilité d’abord</option><option value="price-up">Prix croissant</option><option value="price-down">Prix décroissant</option><option value="name">Nom : A à Z</option></select></label>
+          <label className="cp-field cp-sort"><span>Trier par</span><select aria-label="Trier les composants" value={sort} onChange={(event) => setSort(event.target.value as Sort)}><option value="newest">Plus récents d’abord</option><option value="oldest">Plus anciens d’abord</option><option value="recommended">Compatibilité d’abord</option><option value="price-up">Prix EUR croissant</option><option value="price-down">Prix EUR décroissant</option><option value="archive-up">Archive USD croissante</option><option value="archive-down">Archive USD décroissante</option><option value="name">Nom : A à Z</option></select></label>
         </div>
         <div className="cp-filters">
           <label className="cp-field"><span>Marque</span><select aria-label="Filtrer par marque" value={brand} onChange={(event) => setBrand(event.target.value)}><option value="all">Toutes les marques</option>{brands.map((name) => <option key={name} value={name}>{name}</option>)}</select></label>
@@ -262,6 +282,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
           <label className="toggle-label cp-compatible"><input type="checkbox" checked={compatibleOnly} onChange={(event) => setCompatibleOnly(event.target.checked)} /><span className="cp-switch" aria-hidden="true" /><span>Sans conflit connu<br className="cp-desktop-break" /> avec mes composants</span></label>
           {filterCount > 0 && <button type="button" className="cp-reset" onClick={resetFilters}><X size={13} aria-hidden="true" />Réinitialiser les filtres <span>{filterCount}</span></button>}
         </div>
+        {(sort === 'archive-up' || sort === 'archive-down') && <p className="cp-budget-note">Tri des montants USD dans l’archive du 23 juillet 2025. Ce ne sont pas des offres actuelles ; les références sans montant archivé restent en dernier.</p>}
         {maxPrice !== 'all' && <p className="cp-budget-note">Le budget filtre les prix renseignés. Les références sans prix sont masquées.</p>}
         {category === 'cooler' && <div className="cp-cooling" aria-label="Type de refroidissement">{[{ id: 'all', label: 'Tout' }, { id: 'air', label: 'Ventirads' }, { id: 'aio', label: 'Watercooling' }].map((type) => <button key={type.id} type="button" aria-pressed={coolingType === type.id} className={coolingType === type.id ? 'cp-active' : ''} onClick={() => setCoolingType(type.id)}>{type.label}</button>)}</div>}
       </div>
@@ -291,7 +312,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
             <div className="cp-card-info"><h3>{group.name}</h3><p>{component.description}</p><div className="cp-spec-tags">{getProductDetails(component).highlights.slice(0, 3).map((spec, index) => <span key={`${index}-${spec}`}>{spec}</span>)}</div></div>
             {group.variants.length > 1 ? <div className="cp-variant-picks" role="group" aria-label={`Coloris de ${group.name}`}>{group.variants.map((variant) => <button type="button" key={variant.id} aria-label={`Aperçu ${getVariantLabel(variant)}`} aria-pressed={component.id === variant.id} title={getVariantLabel(variant)} onClick={() => previewVariant(variant)}><span className="cp-color-dot" style={variant.color ? { background: variant.color } : undefined} /><span>{getVariantLabel(variant)}</span></button>)}</div> : component.finishName && <span className="cp-finish-label">Coloris : {getVariantLabel(component)}</span>}
             <div className={`cp-card-status ${issues.length ? 'cp-status-error' : component.detailLevel === 'partial' ? 'cp-status-partial' : ''}`}>{issues.length ? <CircleAlert size={13} aria-hidden="true" /> : component.detailLevel === 'partial' ? <Info size={13} aria-hidden="true" /> : <ShieldCheck size={13} aria-hidden="true" />}<span>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''} de compatibilité` : component.detailLevel === 'partial' ? 'À vérifier · données partielles' : 'Aucun conflit détecté'}</span></div>
-            <div className="cp-card-price"><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}{getReferencePrice(component) !== null && <small>indicatif</small>}</strong>{priceDelta(component)}</div>
+            <div className="cp-card-price"><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}{getReferencePrice(component) !== null && <small>{getPriceCaption(component)}</small>}</strong>{priceDelta(component)}<ArchivePriceNote component={component} /></div>
             <div className="cp-card-actions"><button type="button" className="cp-button cp-secondary" aria-label={`Détails de ${component.name}`} data-cp-details={component.id} onClick={() => openDetail(component)}>Détails</button>{chooseButton(component)}</div>
             {isSelected && <button type="button" className={`cp-current-compare ${isCompared ? 'cp-active' : ''}`} aria-label={`Comparer ${component.name}`} aria-pressed={isCompared} disabled={!isCompared && compareIds.length >= 3} onClick={() => toggleComparison(component)}>{isCompared ? <Check size={13} aria-hidden="true" /> : <GitCompareArrows size={13} aria-hidden="true" />}Comparer votre choix</button>}
           </article>;
@@ -306,7 +327,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       <button type="button" ref={backRef} className="cp-back" onClick={() => setView('list')}><ArrowLeft size={16} aria-hidden="true" />Retour aux composants</button>
       <section className="cp-detail-hero" aria-labelledby="cp-product-name">
         <div className="cp-detail-art"><span className="cp-detail-category">{details.categoryLabel}</span><ProductArt category={detail.category} brand={detail.brand} component={detail} detailed /><p>{detail.detailLevel === 'partial' ? 'Aperçu schématique : les volumes non renseignés sont illustratifs.' : 'Visuel reconstitué. Vérifiez la fiche du fabricant et les dégagements avant achat.'}</p></div>
-        <div className="cp-detail-intro"><span className="cp-brand">{detail.brand}</span><h3 id="cp-product-name">{detail.name}</h3><p>{detail.description}</p><div className="cp-detail-highlights">{details.highlights.map((item, index) => <span key={`${index}-${item}`}>{item}</span>)}</div><div className="cp-detail-price"><strong className={getReferencePrice(detail) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(detail)}</strong>{getReferencePrice(detail) !== null && <span>Prix indicatif</span>}{priceDelta(detail)}</div><div className="cp-detail-actions">{chooseButton(detail)}<button type="button" className={`cp-button cp-secondary ${isComparedComponent(detail) ? 'cp-active' : ''}`} aria-pressed={isComparedComponent(detail)} disabled={!isComparedComponent(detail) && compareIds.length >= 3} onClick={() => toggleComparison(detail)}>{isComparedComponent(detail) ? <Check size={15} aria-hidden="true" /> : <GitCompareArrows size={15} aria-hidden="true" />}Comparer</button></div></div>
+        <div className="cp-detail-intro"><span className="cp-brand">{detail.brand}</span><h3 id="cp-product-name">{detail.name}</h3><p>{detail.description}</p><div className="cp-detail-highlights">{details.highlights.map((item, index) => <span key={`${index}-${item}`}>{item}</span>)}</div><div className="cp-detail-price"><strong className={getReferencePrice(detail) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(detail)}</strong>{getReferencePrice(detail) !== null && <span>Prix {getPriceCaption(detail)}</span>}{priceDelta(detail)}</div><div className="cp-detail-actions">{chooseButton(detail)}<button type="button" className={`cp-button cp-secondary ${isComparedComponent(detail) ? 'cp-active' : ''}`} aria-pressed={isComparedComponent(detail)} disabled={!isComparedComponent(detail) && compareIds.length >= 3} onClick={() => toggleComparison(detail)}>{isComparedComponent(detail) ? <Check size={15} aria-hidden="true" /> : <GitCompareArrows size={15} aria-hidden="true" />}Comparer</button></div></div>
       </section>
       <section className="cp-release-detail" aria-label="Classement chronologique"><Info size={17} aria-hidden="true" /><div><strong>{releaseBadge(detailRelease)}</strong><p>{detailRelease ? `${detailRelease.label} · ${releaseDateLabel(detailRelease)}. ${detailRelease.note ?? (detailRelease.basis === 'model' ? 'Repère de sortie du modèle.' : 'Le lancement de la génération ou de la gamme ne date pas chaque capacité, finition ou révision.')}` : 'La date de sortie n’est pas renseignée. Cette référence apparaît après les composants datés dans les tris chronologiques.'}</p>{detailRelease?.sourceUrl && <a href={detailRelease.sourceUrl} target="_blank" rel="noopener noreferrer">{detailRelease.sourceName ?? 'Consulter le repère historique'}<ArrowUpRight size={13} /></a>}</div></section>
       {detailGroup && detailGroup.variants.length > 1 && <section className="cp-variant-detail" aria-label="Coloris du composant"><div><strong>Finition / variante</strong><p>Le visuel, le prix et les caractéristiques affichés correspondent au coloris sélectionné.</p></div><div className="cp-variant-picks" role="group" aria-label="Coloris disponibles">{detailGroup.variants.map((variant) => <button type="button" key={variant.id} aria-label={`Coloris ${getVariantLabel(variant)}`} aria-pressed={variant.id === detail.id} onClick={() => previewVariant(variant, true)}><span className="cp-color-dot" style={variant.color ? { background: variant.color } : undefined} /><span>{getVariantLabel(variant)}</span>{variant.id === detail.id && <Check size={13} />}</button>)}</div></section>}
@@ -315,6 +336,16 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
         <div><strong><Info size={15} />{pricing.label}</strong><p>{pricing.description} Comparez la même référence, capacité et finition.</p></div>
         <div className="cp-offer-links">{pricing.searchLinks.map((link) => <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" title={`${link.label} (nouvel onglet)`}>{link.label}<ArrowUpRight size={14} /></a>)}</div>
       </section>}
+      {marketObservation && <section className="cp-market-observation" aria-label="Prix signalé par une source publique" data-market="DE" data-reported-amount={marketObservation.amount}>
+        <div className="cp-market-heading"><div><span>Signalement public · Allemagne</span><strong>{euro(marketObservation.amount)}</strong></div><span className="cp-market-unverified">Non revérifié auprès du marchand</span></div>
+        <p className="cp-market-product">{marketObservation.sourceProductName}</p>
+        <dl><div><dt>Marchand signalé</dt><dd>{marketObservation.merchant}</dd></div><div><dt>Stock déclaré</dt><dd>{availabilityLabels[marketObservation.availabilityReported]}</dd></div><div><dt>Prix inchangé depuis</dt><dd>{sourceDate(marketObservation.priceSince)}</dd></div><div><dt>Fichier source mis à jour</dt><dd>{sourceDate(marketObservation.sourceUpdatedAt)}</dd></div></dl>
+        <p>La date du fichier ne prouve pas une vérification de cette offre. Le stock, l’état, les frais, la fiscalité et la livraison en France restent à confirmer. {pricing?.status === 'reported' ? 'Ce montant sert de repère indicatif dans votre budget.' : 'Ce signalement reste hors budget : la source est ancienne ou sa disponibilité n’est pas annoncée en stock.'}</p>
+        <details><summary>Correspondance de la référence</summary><p>{marketObservation.exactVariantNote}</p></details>
+        <div className="cp-market-links"><a href={marketObservation.productURL} target="_blank" rel="noopener noreferrer">Voir le produit sur Geizhals<ArrowUpRight size={14} /></a><a href={marketObservation.sourceURL} target="_blank" rel="noopener noreferrer">Consulter le suivi public<ArrowUpRight size={14} /></a></div>
+        <div className="cp-market-refresh"><span role="status">{feedLabels[feedState.status]}</span><button type="button" className="cp-text-button" aria-label="Actualiser les prix signalés" disabled={feedState.status === 'refreshing'} onClick={() => { void refreshMarketFeed(); }}>Actualiser les relevés</button></div>
+      </section>}
+      {priceArchive && <section className="cp-price-archive" aria-label="Prix archivé du composant"><div className="cp-archive-heading"><span>Archive de catalogue · États-Unis</span><strong>{formatArchivePrice(priceArchive)}</strong></div><p>Archive du {formatArchiveDate(priceArchive)}, pour cette référence et cette finition. La date du relevé individuel, le marchand et les frais ne sont pas renseignés. Ce montant historique n’est pas une offre actuelle ; il n’est pas converti ni ajouté au budget en euros.</p><a href={priceArchive.sourceUrl} target="_blank" rel="noopener noreferrer">Consulter la source du prix<ArrowUpRight size={14} /></a></section>}
       <section className="cp-detail-compatibility" aria-labelledby="cp-compatibility-title"><h3 id="cp-compatibility-title"><ShieldCheck size={18} aria-hidden="true" />Dans votre configuration</h3>
         {detailIssues.length === 0 && <div className={`cp-notice ${detail.detailLevel === 'partial' ? 'cp-notice-warning' : 'cp-notice-success'}`}><Info size={16} aria-hidden="true" /><div><strong>{detail.detailLevel === 'partial' ? 'Aucun conflit connu · vérifications incomplètes' : 'Aucun conflit détecté avec vos composants'}</strong><p>Contrôle selon les caractéristiques renseignées. {detail.detailLevel === 'partial' ? 'Les dimensions et caractéristiques absentes doivent être vérifiées auprès du fabricant.' : 'Les emplacements encore vides seront vérifiés après leur sélection.'}</p></div></div>}
         {detailIssues.map((issue) => <div className="cp-notice cp-notice-error" key={issue.id}><CircleAlert size={16} aria-hidden="true" /><div><strong>{issue.title}</strong><p>{issue.description}</p></div></div>)}
@@ -329,7 +360,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       <button type="button" ref={backRef} className="cp-back" onClick={() => setView('list')}><ArrowLeft size={16} aria-hidden="true" />Retour aux composants</button>
       <div className="cp-comparison-heading"><div><h3>{compared.length} modèles, côte à côte.</h3><p>Comparez les caractéristiques qui comptent pour votre configuration.</p></div><label className="cp-differences"><input type="checkbox" checked={differencesOnly} onChange={(event) => setDifferencesOnly(event.target.checked)} />Afficher les différences uniquement</label></div>
       <p className="cp-scroll-hint">Faites glisser le tableau de côté pour voir les autres modèles.</p>
-      <div className="cp-comparison-scroll" role="region" aria-label="Tableau comparatif des composants" tabIndex={0}><table className="cp-comparison-table"><caption className="cp-sr-only">Comparaison de {compared.map((component) => component.name).join(', ')}</caption><thead><tr><th scope="col"><span>{categoryLabel}</span><small>Prix indicatifs</small></th>{compared.map((component) => <th scope="col" key={component.id}><div className="cp-comparison-product"><ProductArt category={component.category} brand={component.brand} component={component} detailed /><span className="cp-brand">{component.brand}</span><h3>{component.name}</h3><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}</strong><a className="cp-offer-link" href={getPricingInfo(component).comparisonUrl} target="_blank" rel="noopener noreferrer">Comparer les offres<ArrowUpRight size={12} /></a>{chooseButton(component)}<button type="button" className="cp-text-button" onClick={() => { setDetailId(component.id); setView('detail'); }}>Voir la fiche<ChevronRight size={12} aria-hidden="true" /></button></div></th>)}</tr></thead><tbody>
+      <div className="cp-comparison-scroll" role="region" aria-label="Tableau comparatif des composants" tabIndex={0}><table className="cp-comparison-table"><caption className="cp-sr-only">Comparaison de {compared.map((component) => component.name).join(', ')}</caption><thead><tr><th scope="col"><span>{categoryLabel}</span><small>Prix indicatifs</small></th>{compared.map((component) => <th scope="col" key={component.id}><div className="cp-comparison-product"><ProductArt category={component.category} brand={component.brand} component={component} detailed /><span className="cp-brand">{component.brand}</span><h3>{component.name}</h3><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}</strong>{getReferencePrice(component) !== null && <span className="cp-comparison-price-caption">Prix {getPriceCaption(component)}</span>}<ArchivePriceNote component={component} /><a className="cp-offer-link" href={getPricingInfo(component).comparisonUrl} target="_blank" rel="noopener noreferrer">Comparer les offres<ArrowUpRight size={12} /></a>{chooseButton(component)}<button type="button" className="cp-text-button" onClick={() => { setDetailId(component.id); setView('detail'); }}>Voir la fiche<ChevronRight size={12} aria-hidden="true" /></button></div></th>)}</tr></thead><tbody>
         <tr className="cp-comparison-compatibility"><th scope="row">Compatibilité actuelle</th>{compared.map((component) => { const issues = candidates.find((item) => item.component.id === component.id)?.issues ?? []; return <td key={component.id}><span className={issues.length ? 'cp-table-error' : component.detailLevel === 'partial' ? 'cp-table-partial' : 'cp-table-ok'}>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''}` : component.detailLevel === 'partial' ? 'Données partielles · à vérifier' : 'Aucun conflit détecté'}</span>{issues.map((issue) => <small key={issue.id}>{issue.title}</small>)}</td>; })}</tr>
         {comparisonRows.map((row) => <tr key={row.label} className={new Set(row.values).size > 1 ? 'cp-row-different' : ''}><th scope="row">{row.label}</th>{row.values.map((value, index) => <td key={index}>{value}</td>)}</tr>)}
       </tbody></table></div>

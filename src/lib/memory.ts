@@ -197,8 +197,8 @@ export function getMemoryAnalysis(selection: Selection, lookup: ComponentLookup 
     const modulesPerKit = kitKnown ? component.memorySticks! : 1;
     const kits = Math.ceil(installedModules / modulesPerKit);
     const capacityPerModuleGB = positive(component.capacityGB) && kitKnown ? component.capacityGB / modulesPerKit : null;
-    const knownPrice = getReferencePrice(component) !== null && kitKnown;
-    return { component, kits, installedModules, spareModules: kits * modulesPerKit - installedModules, modulesPerKit, capacityPerModuleGB, price: knownPrice ? round(kits * component.price) : null };
+    const referencePrice = getReferencePrice(component);
+    return { component, kits, installedModules, spareModules: kits * modulesPerKit - installedModules, modulesPerKit, capacityPerModuleGB, price: referencePrice !== null && kitKnown ? round(kits * referencePrice) : null };
   });
   const totalPrice = round(purchases.reduce((sum, purchase) => sum + (purchase.price ?? 0), 0));
   const priceKnown = purchases.every(purchase => purchase.price !== null) && occupied.every(slot => !!slot.component);

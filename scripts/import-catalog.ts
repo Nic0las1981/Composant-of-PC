@@ -55,6 +55,7 @@ const text = (record: RawRecord, field: string) => {
   return record[field] as string;
 };
 const capacity = (gb: number) => gb >= 1000 && gb % 1000 === 0 ? `${gb / 1000} To` : `${gb} Go`;
+const decimal = (value: number) => new Intl.NumberFormat("fr-FR", { useGrouping: false, maximumFractionDigits: 3 }).format(value);
 const brands = ["Western Digital", "Silicon Power", "Cooler Master", "Super Flower", "be quiet!", "SK hynix", "G.Skill"];
 const brandSpelling: Record<string, string> = { Asus: "ASUS", TEAMGROUP: "TeamGroup", SeaSonic: "Seasonic", Deepcool: "DeepCool" };
 function manufacturer(name: string) {
@@ -113,12 +114,13 @@ function convert(row: SourceRow): Component {
     const memoryType = `DDR${generation}` as MemoryType;
     const totalGB = sticks * moduleGB;
     const family = model.replace(/\s+\d+(?:\.\d+)?\s*GB\b/gi, "").trim();
+    const memoryProfile = /EXPO/i.test(record.name) ? /XMP/i.test(record.name) ? "EXPO/XMP" as const : "EXPO" as const : /XMP/i.test(record.name) ? "XMP" as const : undefined;
     return {
       ...common, category: "ram", name: `${family} ${totalGB} Go (${sticks} × ${moduleGB} Go) ${memoryType}-${speed} CL${cas}${colorSuffix}`,
-      description: `Référence de mémoire de bureau : ${sticks} barrette${sticks > 1 ? "s" : ""} de ${moduleGB} Go. Vitesse annoncée ; fréquence effective et stabilité selon processeur, carte mère et réglages. Hauteur et profils mémoire non documentés dans cette source.`,
+      description: `Mémoire ${memoryType} de ${totalGB} Go en ${sticks} barrette${sticks > 1 ? "s" : ""} de ${moduleGB} Go, au débit annoncé de ${speed} MT/s et à latence CAS CL${cas}. ${memoryProfile ? `Profil ${memoryProfile} mentionné dans la référence. ` : ""}${common.rgb ? "Éclairage RGB mentionné dans la référence. " : ""}Le débit utilisé dépend du processeur, de la carte mère, du BIOS et du nombre de barrettes installées.`,
       specs: [`${totalGB} Go · ${sticks} × ${moduleGB} Go`, `${memoryType} · ${speed} MT/s`, `CAS CL${cas}`, ...(typeof record.first_word_latency === "number" ? [`Latence CAS théorique déclarée : ${record.first_word_latency} ns`] : []), "UDIMM de bureau · non enregistrée", ...colorSpecs, ...(common.rgb ? ["RGB mentionné dans la référence"] : [])],
       capacityGB: totalGB, memorySticks: sticks, memoryType, memorySpeedMTs: speed, casLatency: cas, memoryModuleFormat: "DIMM", memoryModuleKind: "UDIMM", memoryRegistered: false,
-      ...(/EXPO/i.test(record.name) ? { memoryProfile: /XMP/i.test(record.name) ? "EXPO/XMP" as const : "EXPO" as const } : /XMP/i.test(record.name) ? { memoryProfile: "XMP" as const } : {}),
+      ...(memoryProfile ? { memoryProfile } : {}),
     };
   }
   if (row.sourceType === "internal-hard-drive") {
@@ -126,10 +128,14 @@ function convert(row: SourceRow): Component {
     assert(!/RGB/i.test(record.name));
     const gb = integer(record, "capacity");
     const connection = text(record, "interface").replace(/^M\.2 /, "").replace(/X(\d)/, "×$1");
+    // Preserve the original row and ID when the source reports a suspect
+    // lane count; do not silently rewrite a nominal M.2 interface into x4.
+    const suspectInterface = /×(?:8|16)\b/.test(connection);
+    const cacheDescription = typeof record.cache === "number" ? ` Cache déclaré : ${decimal(record.cache)} Mo ; sa technologie n’est pas précisée.` : "";
     return {
       ...common, category: "storage", name: `${model} ${capacity(gb)} · ${connection}`,
-      description: "SSD au format M.2 2280 et interface PCIe. Débits, endurance, hauteur du dissipateur et compatibilité exacte avec les emplacements de la carte mère restent à vérifier sur la fiche constructeur.",
-      specs: [capacity(gb), "M.2 2280 · NVMe", connection, ...(typeof record.cache === "number" ? [`Cache déclaré : ${record.cache} Mo`] : [])],
+      description: `SSD de ${capacity(gb)} au format M.2 2280, avec interface ${connection} déclarée par la source.${cacheDescription} ${suspectInterface ? "Le nombre de lignes PCIe indiqué est inhabituel pour le format M.2 : interface à confirmer auprès du fabricant. " : ""}Débits, endurance et hauteur du dissipateur ne sont pas renseignés.`,
+      specs: [capacity(gb), "M.2 2280 · NVMe", connection, "Format nominal du circuit : 22 × 80 mm", ...(typeof record.cache === "number" ? [`Cache déclaré : ${record.cache} Mo`] : []), ...(suspectInterface ? ["Interface PCIe à confirmer : nombre de lignes inhabituel pour M.2"] : [])],
       capacityGB: gb, storageInterface: "M.2 NVMe",
     };
   }
@@ -139,9 +145,10 @@ function convert(row: SourceRow): Component {
     const length = integer(record, "length");
     const chipName = chipset.replace(/GeForce |Radeon |Intel /g, "").replace(/\s+\d+GB$/, "");
     const modelContainsChip = model.replace(/\s/g, "").toLowerCase().includes(chipName.replace(/\s/g, "").toLowerCase());
+    const clocks = [typeof record.core_clock === "number" ? `une fréquence déclarée de ${record.core_clock} MHz` : "", typeof record.boost_clock === "number" ? `un boost déclaré de ${record.boost_clock} MHz` : ""].filter(Boolean);
     return {
       ...common, category: "gpu", name: `${modelContainsChip ? model : `${model} ${chipName}`} · ${memory} Go${colorSuffix} · ${length} mm`,
-      description: "Modèle et coloris référencés dans le catalogue source. La longueur est documentée ; épaisseur, hauteur, connecteurs, consommation et performances ne le sont pas. Aperçu 3D schématique.",
+      description: `Carte graphique ${chipset} avec ${memory} Go de mémoire vidéo et une longueur de ${length} mm.${clocks.length ? ` La source indique ${clocks.join(" et ")}.` : ""} Le type de mémoire vidéo, la consommation, les connecteurs et les performances mesurées restent non renseignés.`,
       specs: [chipset, `${memory} Go de mémoire vidéo`, `Longueur ${length} mm`, ...(typeof record.core_clock === "number" ? [`Fréquence déclarée par la source : ${record.core_clock} MHz`] : []), ...(typeof record.boost_clock === "number" ? [`Boost déclaré : ${record.boost_clock} MHz`] : []), ...colorSpecs],
       capacityGB: memory, lengthMm: length,
     };
@@ -158,7 +165,7 @@ function convert(row: SourceRow): Component {
     const memoryType: MemoryType | undefined = socket === "AM4" ? "DDR4" : socket === "AM5" ? "DDR5" : /\b(?:DDR4|D4)\b/i.test(record.name) ? "DDR4" : /\b(?:DDR5|D5)\b/i.test(record.name) ? "DDR5" : undefined;
     return {
       ...common, category: "motherboard", name: model,
-      description: `Carte mère ${formFactor} pour socket ${socket}. Nombre de DIMM et capacité totale déclarés par la source ; vérifier la liste QVL et le BIOS pour chaque kit et processeur. ${memoryType ? "Emplacements M.2 et détails des connecteurs non documentés." : "Type DDR non renseigné : compatibilité mémoire à confirmer."}`,
+      description: `Carte mère ${formFactor} pour socket ${socket}, avec ${memorySlots} emplacements DIMM${memoryType ? ` ${memoryType}` : ""} et jusqu’à ${maxMemoryGB} Go de mémoire totale selon la source. ${memoryType ? "La prise en charge des processeurs et kits mémoire dépend du BIOS et de la liste QVL du fabricant." : "La génération DDR n’est pas renseignée : vérifiez la révision exacte avant de choisir la mémoire."} Le nombre d’emplacements M.2 et la connectique ne sont pas documentés.`,
       specs: [`Socket ${socket}`, formFactor, `${memorySlots} emplacements DIMM`, `Jusqu’à ${maxMemoryGB} Go selon BIOS et processeur`, memoryType ?? "Type DDR à confirmer", ...colorSpecs],
       socket, formFactor, memorySlots, maxMemoryGB, ...(memoryType ? { memoryType } : {}),
     };
@@ -173,7 +180,7 @@ function convert(row: SourceRow): Component {
   const efficiency = typeof record.efficiency === "string" ? record.efficiency === "plus" ? "80 PLUS" : `80 PLUS ${record.efficiency.charAt(0).toUpperCase() + record.efficiency.slice(1)}` : undefined;
   return {
     ...common, category: "psu", name: `${model} · ${watts} W · ${psuFormat}${efficiency ? ` · ${efficiency}` : ""}${modular ? ` · ${modular}` : ""}${colorSuffix}`,
-    description: "Alimentation dont la puissance et le format sont renseignés. Dimensions exactes, connecteurs GPU, câblage et révision ATX doivent être vérifiés auprès du constructeur.",
+    description: `Alimentation au format ${psuFormat}, de puissance nominale ${watts} W.${efficiency ? ` Certification ${efficiency} déclarée par la source.` : " Certification de rendement non renseignée."}${modular ? ` Câblage : ${modular.toLowerCase()}.` : ""} La longueur, les connecteurs GPU et la révision de la norme ATX ne sont pas documentés.`,
     specs: [`${watts} W`, `Format ${psuFormat}`, ...(efficiency ? [`Certification déclarée : ${efficiency}`] : []), ...(modular ? [modular] : []), ...colorSpecs],
     wattage: watts, psuFormat,
   };

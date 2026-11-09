@@ -1,35 +1,13 @@
-import { createContext, useContext, useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { RoundedBox } from "@react-three/drei";
 import * as THREE from "three";
+import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
 import { MM, type CaseVisualProfile } from "../../data/visualProfiles";
-import { BoxInstances, HardwareFan, RGBStrip, type BoxInstance } from "./HardwarePrimitives";
+import { BoxInstances, HardwareFan, RGBStrip, useHardwareSurface, type BoxInstance } from "./HardwarePrimitives";
 
 type Vec3 = [number, number, number];
 const noRaycast = () => {};
-const CoatingContext = createContext<THREE.Texture | null>(null);
-
-/** A shared fine powder-coat normal relief keeps painted parts matte and tactile. */
-function useCoatingTexture() {
-  const texture = useMemo(() => {
-    const canvas = document.createElement("canvas");
-    canvas.width = canvas.height = 128;
-    const context = canvas.getContext("2d")!;
-    const pixels = context.createImageData(128, 128);
-    for (let i = 0; i < pixels.data.length; i += 4) {
-      const grain = 116 + ((i * 17 + Math.floor(i / 512) * 31) % 29);
-      pixels.data[i] = pixels.data[i + 1] = pixels.data[i + 2] = grain;
-      pixels.data[i + 3] = 255;
-    }
-    context.putImageData(pixels, 0, 0);
-    const map = new THREE.CanvasTexture(canvas);
-    map.wrapS = map.wrapT = THREE.RepeatWrapping;
-    map.repeat.set(5, 7);
-    return map;
-  }, []);
-  useEffect(() => () => texture.dispose(), [texture]);
-  return texture;
-}
 
 function caseBrand(profile: CaseVisualProfile) {
   if (/Fractal/i.test(profile.name)) return "FRACTAL";
@@ -62,16 +40,18 @@ function Metal({
   roughness?: number;
   rotation?: Vec3;
 }) {
-  const coating = useContext(CoatingContext);
+  const surface = useHardwareSurface("paint");
   return (
     <mesh position={position} rotation={rotation} castShadow receiveShadow>
       <boxGeometry args={size} />
       <meshStandardMaterial
         color={color}
-        metalness={0.3}
+        metalness={0.16}
         roughness={roughness}
-        bumpMap={coating ?? undefined}
-        bumpScale={0.002}
+        bumpMap={surface?.texture}
+        roughnessMap={surface?.texture}
+        bumpScale={surface?.bumpScale ?? 0}
+        envMapIntensity={surface?.envMapIntensity ?? 1}
       />
     </mesh>
   );
@@ -87,7 +67,7 @@ function Screw({
   return (
     <group position={position} rotation={rotation}>
       <mesh rotation={[Math.PI / 2, 0, 0]}>
-        <cylinderGeometry args={[0.023, 0.023, 0.014, 8]} />
+        <cylinderGeometry args={[0.022, 0.025, 0.014, 16]} />
         <meshStandardMaterial
           color="#80898e"
           metalness={0.9}
@@ -99,11 +79,13 @@ function Screw({
         position={[0, 0, 0.009]}
         color="#131719"
       />
+      <Metal size={[0.005, 0.025, 0.006]} position={[0, 0, 0.009]} color="#131719" />
     </group>
   );
 }
 
-function usePerforation(kind: "round" | "diagonal" | "slats") {
+type Perforation = "round" | "diagonal" | "triangle" | "slats";
+function usePerforation(kind: Perforation) {
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
     canvas.width = canvas.height = 128;
@@ -119,7 +101,12 @@ function usePerforation(kind: "round" | "diagonal" | "slats") {
         for (let x = -gap; x <= 128; x += gap) {
           const shift = ((Math.floor(y / gap) % 2) * gap) / 2;
           ctx.beginPath();
-          if (kind === "diagonal") {
+          if (kind === "triangle") {
+            ctx.moveTo(x + shift, y - 5.5);
+            ctx.lineTo(x + shift + 5.3, y + 4.5);
+            ctx.lineTo(x + shift - 5.3, y + 4.5);
+            ctx.closePath();
+          } else if (kind === "diagonal") {
             ctx.moveTo(x + shift, y - 6);
             ctx.lineTo(x + shift + 6, y);
             ctx.lineTo(x + shift, y + 6);
@@ -151,11 +138,12 @@ function MeshPanel({
   position: Vec3;
   rotation?: Vec3;
   color: string;
-  pattern?: "round" | "diagonal" | "slats";
+  pattern?: Perforation;
   ghost?: boolean;
   nonInteractive?: boolean;
 }) {
   const alpha = usePerforation(pattern);
+  const surface = useHardwareSurface("paint");
   return (
     <mesh
       position={position}
@@ -166,8 +154,11 @@ function MeshPanel({
       <planeGeometry args={size} />
       <meshStandardMaterial
         color={color}
-        metalness={0.3}
+        metalness={0.16}
         roughness={0.62}
+        bumpMap={surface?.texture}
+        bumpScale={surface?.bumpScale ?? 0}
+        envMapIntensity={surface?.envMapIntensity ?? 1}
         alphaMap={alpha}
         alphaTest={ghost ? 0 : 0.5}
         side={THREE.DoubleSide}
@@ -177,6 +168,54 @@ function MeshPanel({
       />
     </mesh>
   );
+}
+
+/** Two shallow layers give a perforated intake depth without modelling every
+ * hole. The weave is illustrative; it does not specify a filtration rating. */
+function IntakeFilter({ width, height, position }: { width: number; height: number; position: Vec3 }) {
+  const texture = useMemo(() => {
+    const canvas = document.createElement("canvas");
+    canvas.width = canvas.height = 64;
+    const context = canvas.getContext("2d")!;
+    context.fillStyle = "#000000";
+    context.fillRect(0, 0, 64, 64);
+    for (let i = 0; i < 64; i += 8) {
+      context.fillStyle = "#b8b8b8";
+      context.fillRect(i, 0, 1.2, 64);
+      context.fillStyle = "#ffffff";
+      context.fillRect(0, i, 64, 1.2);
+    }
+    const map = new THREE.CanvasTexture(canvas);
+    map.wrapS = map.wrapT = THREE.RepeatWrapping;
+    map.repeat.set(width * 7, height * 7);
+    map.anisotropy = 4;
+    return map;
+  }, [width, height]);
+  useEffect(() => () => texture.dispose(), [texture]);
+  const border = useMemo<BoxInstance[]>(() => [
+    ...[-1, 1].map(side => ({ position: [side * (width / 2 - 0.015), 0, 0] as Vec3, size: [0.03, height, 0.024] as Vec3 })),
+    ...[-1, 1].map(side => ({ position: [0, side * (height / 2 - 0.015), 0] as Vec3, size: [width, 0.03, 0.024] as Vec3 })),
+  ], [width, height]);
+  return <group position={position}>
+    <mesh raycast={noRaycast} receiveShadow>
+      <planeGeometry args={[width - 0.035, height - 0.035]} />
+      <meshStandardMaterial color="#222a2b" roughness={0.96} metalness={0} alphaMap={texture} alphaTest={0.15} side={THREE.DoubleSide} />
+    </mesh>
+    <BoxInstances items={border} color="#242b2d" roughness={0.86} metalness={0.06} />
+  </group>;
+}
+
+/** The rubber contact pad and painted upper shell are separate materials. */
+function CaseFoot({ position, size, color }: { position: Vec3; size: Vec3; color: string }) {
+  const surface = useHardwareSurface("paint");
+  return <group position={position}>
+    <RoundedBox args={[size[0], size[1] * 0.7, size[2]]} radius={0.018} smoothness={2} position={[0, size[1] * 0.15, 0]} castShadow receiveShadow>
+      <meshStandardMaterial color={color} metalness={0.18} roughness={0.55} bumpMap={surface?.texture} bumpScale={surface?.bumpScale ?? 0} />
+    </RoundedBox>
+    <RoundedBox args={[size[0] * 0.87, size[1] * 0.3, size[2] * 0.88]} radius={0.009} smoothness={2} position={[0, -size[1] * 0.35, 0]} receiveShadow>
+      <meshStandardMaterial color="#121718" metalness={0} roughness={0.96} />
+    </RoundedBox>
+  </group>;
 }
 
 function CaseFan({
@@ -329,14 +368,56 @@ function ChassisDetails({ profile, width: w, height: h, depth: d }: { profile: C
       position: [w * 0.1 - 0.29 + col * 0.14, slotY - row * 0.145, -d / 2 - 0.024] as Vec3,
       size: [0.08, 0.037, 0.007] as Vec3,
     }))).flat(), [slots, w, slotY, d]);
+  const foldedEdges = useMemo<BoxInstance[]>(() => [
+    ...[-1, 1].map(side => ({ position: [w / 2 - 0.06, side * (h / 2 - 0.12), 0] as Vec3, size: [0.012, 0.028, d - 0.25] as Vec3 })),
+    ...[-1, 1].map(side => ({ position: [w / 2 - 0.06, 0, side * (d / 2 - 0.1)] as Vec3, size: [0.012, h - 0.25, 0.028] as Vec3 })),
+  ], [w, h, d]);
   return <group>
     <Metal size={[0.018, h - 0.32, d * 0.7]} position={[trayX, 0.04, -d * 0.08]} color={profile.frameColor} roughness={0.72} />
     {[-0.25, 0.33, 0.91].map((y, i) => <CableGrommet key={i} position={[trayX + 0.022, h * y * 0.35, d * 0.31]} height={small ? 0.25 : 0.34} />)}
     {[0, 1].map((i) => <Metal key={i} size={[0.024, h - 0.35, 0.018]} position={[trayX + 0.018, 0.02, -d * 0.43 + i * d * 0.72]} color={profile.color} roughness={0.7} />)}
     {Array.from({ length: slots }, (_, i) => <Metal key={i} size={[0.82, 0.105, 0.012]} position={[w * 0.1, slotY - i * 0.145, -d / 2 - 0.014]} color={profile.frameColor} roughness={0.65} />)}
     <BoxInstances items={vents} color="#080d10" metalness={0.15} roughness={0.75} />
+    <BoxInstances items={foldedEdges} color={isLightCase(profile) ? "#a7b0b1" : "#161d21"} metalness={0.18} roughness={0.68} />
     {[-1, 1].flatMap((y) => [-1, 1].map((z) => <Screw key={`${y}-${z}`} position={[w / 2 - 0.035, y * (h / 2 - 0.15), z * (d / 2 - 0.08)]} rotation={[0, Math.PI / 2, 0]} />))}
     {[-1, 1].map((x) => <Metal key={x} size={[0.027, 0.035, d - 0.18]} position={[x * (w / 2 - 0.08), h / 2 - 0.08, 0]} color={profile.frameColor} roughness={0.75} />)}
+  </group>;
+}
+
+/** A real opening keeps the rear intake from becoming an opaque painted wall.
+ * Its shape follows the illustrated fan size, not a manufacturer CAD drawing. */
+function RearPanel({ profile, width: w, height: h, depth: d }: { profile: CaseVisualProfile; width: number; height: number; depth: number }) {
+  const surface = useHardwareSurface("paint");
+  const hasFan = (profile.rearFanCount ?? 0) > 0 || (profile.kind === "compact" && profile.fanCount > 0);
+  const fanY = h / 2 - (profile.kind === "compact" ? 0.6 : profile.kind === "panoramic" ? 0.67 : 0.65);
+  const radius = Math.min(profile.fanSizeMm * MM * 0.43, w * 0.37, h / 2 - 0.065 - fanY);
+  const geometry = useMemo(() => {
+    const panel = new THREE.Shape();
+    panel.moveTo(-w / 2 + 0.06, -h / 2 + 0.095);
+    panel.lineTo(w / 2 - 0.06, -h / 2 + 0.095);
+    panel.lineTo(w / 2 - 0.06, h / 2 - 0.055);
+    panel.lineTo(-w / 2 + 0.06, h / 2 - 0.055);
+    panel.closePath();
+    if (hasFan) {
+      const opening = new THREE.Path();
+      opening.absarc(0, fanY, radius, 0, Math.PI * 2, true);
+      panel.holes.push(opening);
+    }
+    return new THREE.ExtrudeGeometry(panel, { depth: 0.018, bevelEnabled: false, curveSegments: 32 });
+  }, [w, h, hasFan, fanY, radius]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
+  return <group position={[0, 0, -d / 2 + 0.006]}>
+    <mesh geometry={geometry} castShadow receiveShadow>
+      <meshStandardMaterial color={profile.color} roughness={0.6} metalness={0.16} bumpMap={surface?.texture} bumpScale={surface?.bumpScale ?? 0} />
+    </mesh>
+    {hasFan && <>
+      <MeshPanel size={[radius * 2, radius * 2]} position={[0, fanY, 0.022]} color={profile.frameColor} />
+      <mesh position={[0, fanY, -0.006]}>
+        <torusGeometry args={[radius + 0.008, 0.012, 6, 48]} />
+        <meshStandardMaterial color={profile.frameColor} roughness={0.5} metalness={0.25} />
+      </mesh>
+      {[-1, 1].flatMap(x => [-1, 1].map(y => <Screw key={`${x}-${y}`} position={[x * radius * 0.92, fanY + y * radius * 0.92, -0.016]} rotation={[0, Math.PI, 0]} />))}
+    </>}
   </group>;
 }
 
@@ -374,16 +455,19 @@ function SidePanel({
           nonInteractive
         />
       ) : (
-        <mesh raycast={noRaycast} position={[0, 0.025, 0]}>
-          <boxGeometry args={[0.016, height - 0.17, depth - 0.13]} />
+        <mesh raycast={noRaycast} position={[-0.012, 0.025, 0]}>
+          <boxGeometry args={[0.032, height - 0.17, depth - 0.13]} />
           <meshPhysicalMaterial
-            color="#a8bfbe"
-            metalness={0.05}
-            roughness={0.08}
+            color={profile.sidePanel === "acrylic" ? "#c1ccce" : "#b4c9c5"}
+            metalness={0}
+            roughness={profile.sidePanel === "acrylic" ? 0.14 : 0.07}
             transparent
-            opacity={ghost ? 0.035 : exploded ? 0.11 : 0.16}
+            opacity={ghost ? 0.035 : exploded ? 0.12 : 0.18}
             depthWrite={false}
             clearcoat={1}
+            clearcoatRoughness={0.06}
+            ior={profile.sidePanel === "acrylic" ? 1.49 : 1.52}
+            envMapIntensity={1.1}
           />
         </mesh>
       )}
@@ -393,10 +477,10 @@ function SidePanel({
             <group>
               {[-1, 1].map((edge) => <Metal key={edge} position={[-0.012, edge * (height / 2 - 0.1), 0]} size={[0.012, 0.025, depth - 0.15]} color="#111b1d" roughness={0.85} />)}
               <Metal position={[-0.012, 0.025, -depth / 2 + 0.085]} size={[0.012, height - 0.18, 0.025]} color="#111b1d" roughness={0.85} />
-              <mesh raycast={noRaycast} position={[0.012, 0.025, depth / 2 - 0.075]}>
-                <boxGeometry args={[0.008, height - 0.2, 0.006]} />
-                <meshStandardMaterial color="#9cafab" transparent opacity={0.35} roughness={0.18} metalness={0.05} depthWrite={false} />
-              </mesh>
+              {[-1, 1].map(edge => <mesh key={edge} raycast={noRaycast} position={[-0.01, 0.025, edge * (depth / 2 - 0.068)]}>
+                <boxGeometry args={[0.029, height - 0.2, 0.006]} />
+                <meshPhysicalMaterial color="#70938c" transparent opacity={0.42} roughness={0.12} metalness={0} clearcoat={1} depthWrite={false} />
+              </mesh>)}
             </group>
           )}
           <Metal
@@ -447,6 +531,11 @@ function PsuShroud({ profile }: { profile: CaseVisualProfile }) {
   const depth = front - rear;
   const middle = (front + rear) / 2;
   const width = w - 16 * MM;
+  const ventilation = useMemo<BoxInstance[]>(() => Array.from({ length: 5 }, (_, row) =>
+    Array.from({ length: 8 }, (_, column) => ({
+      position: [-width * 0.3 + column * width * 0.085, top + thickness / 2 + 0.002, rear + depth * 0.13 + row * 0.07] as Vec3,
+      size: [width * 0.046, 0.003, 0.024] as Vec3,
+    }))).flat(), [width, top, thickness, rear, depth]);
   return (
     <group>
       <Metal
@@ -460,6 +549,7 @@ function PsuShroud({ profile }: { profile: CaseVisualProfile }) {
         color={profile.frameColor}
       />
       <Metal size={[width * 0.96, 0.005, 0.012]} position={[0, top + thickness / 2 + 0.003, front - 0.13]} color={isLightCase(profile) ? "#a4afb0" : "#151d20"} roughness={0.8} />
+      <BoxInstances items={ventilation} color={isLightCase(profile) ? "#7a8587" : "#101719"} metalness={0.05} roughness={0.9} />
       <group position={[-width * 0.25, top + thickness / 2 + 0.02, middle + depth * 0.15]} rotation={[0, 0, Math.PI / 2]}>
         <CableGrommet position={[0, 0, 0]} height={0.32} width={0.16} />
       </group>
@@ -527,19 +617,14 @@ function TowerFrame({
         color={profile.color}
         pattern={profile.kind === "compact" ? "diagonal" : "round"}
       />
-      <Metal
-        size={[w - 0.12, h - 0.15, 0.04]}
-        position={[0, 0.02, -d / 2 + 0.02]}
-        color={profile.color}
-      />
+      <RearPanel profile={profile} width={w} height={h} depth={d} />
       {[-1, 1].flatMap((x) =>
         [-1, 1].map((z) => (
-          <Metal
+          <CaseFoot
             key={`foot${x}${z}`}
             size={[0.2, 0.095, 0.25]}
             position={[x * (w / 2 - 0.22), -h / 2 + 0.0475, z * (d / 2 - 0.27)]}
-            color="#14181a"
-            roughness={0.9}
+            color="#252c2f"
           />
         )),
       )}
@@ -581,17 +666,21 @@ function Panoramic({
         color={profile.frameColor}
       />
       <mesh position={[w * 0.1, 0.025, d / 2 + 0.005]} raycast={noRaycast}>
-        <boxGeometry args={[w * 0.72, h - 0.15, 0.015]} />
+        <boxGeometry args={[w * 0.72, h - 0.15, 0.03]} />
         <meshPhysicalMaterial
-          color="#a5c4c2"
+          color="#b4c9c5"
           roughness={0.08}
-          metalness={0.02}
+          metalness={0}
           transparent
-          opacity={0.065}
+          opacity={0.095}
           depthWrite={false}
           clearcoat={1}
+          clearcoatRoughness={0.06}
+          ior={1.52}
+          envMapIntensity={1.1}
         />
       </mesh>
+      <Metal position={[w * 0.1, -h / 2 + 0.09, d / 2 - 0.018]} size={[w * 0.72, 0.025, 0.018]} color={light ? "#7e8b8d" : "#11191d"} roughness={0.9} />
       {/* H6 has its characteristic angled intake. H9 has straight side intakes;
         the O11 Dynamic EVO ships without fans and stays correctly empty. */}
       {occupiedMount !== "side" && sideFans > 0 && (
@@ -670,6 +759,7 @@ function Airflow({
   const frontFans = Math.max(0, profile.fanCount - rearFans);
   const fanSize = profile.fanSizeMm * MM;
   const nzxt = profile.id === "case-h7";
+  const triangularFront = /^case-(4000d|5000d)/.test(profile.id);
   return (
     <group>
       <TowerFrame profile={profile} width={w} height={h} depth={d} />
@@ -721,11 +811,12 @@ function Airflow({
           light={light}
         />
       )}
+      <IntakeFilter width={w - 0.28} height={h - 0.29} position={[0, 0.04, d / 2 + 0.014]} />
       <MeshPanel
         position={[0, 0.04, d / 2 + 0.042]}
         size={[w - 0.27, h - 0.28]}
         color={light ? "#d0d7d7" : "#40494b"}
-        pattern={nzxt ? "round" : "diagonal"}
+        pattern={triangularFront ? "triangle" : nzxt ? "round" : "diagonal"}
       />
       <FrontBadge
         text={caseBrand(profile)}
@@ -841,10 +932,9 @@ function WoodPanel({ position, size }: { position: Vec3; size: Vec3 }) {
   }, []);
   useEffect(() => () => texture.dispose(), [texture]);
   return (
-    <mesh position={position} castShadow>
-      <boxGeometry args={size} />
+    <RoundedBox position={position} args={size} radius={0.008} smoothness={2} castShadow>
       <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.003} roughness={0.69} metalness={0} />
-    </mesh>
+    </RoundedBox>
   );
 }
 
@@ -862,6 +952,8 @@ function WoodSlats({
   const mesh = useRef<THREE.InstancedMesh>(null);
   const count = 17;
   const slatWidth = (width / count) * 0.61;
+  const geometry = useMemo(() => new RoundedBoxGeometry(slatWidth, height, 0.05, 2, 0.007), [slatWidth, height]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
     canvas.width = 64;
@@ -912,11 +1004,11 @@ function WoodSlats({
     <instancedMesh
       ref={mesh}
       args={[undefined, undefined, count]}
+      geometry={geometry}
       position={position}
       castShadow
       receiveShadow
     >
-      <boxGeometry args={[slatWidth, height, 0.05]} />
       <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.004} roughness={0.72} metalness={0} />
     </instancedMesh>
   );
@@ -949,6 +1041,7 @@ function WoodFront({
         position={[0, -h / 2 + 0.11, d / 2 - 0.01]}
         color={profile.frameColor}
       />
+      <IntakeFilter width={w - 0.17} height={h - 0.27} position={[0, 0.035, d / 2 - 0.012]} />
       <MeshPanel
         position={[0, 0.035, d / 2 + 0.002]}
         size={[w - 0.15, h - 0.25]}
@@ -1082,12 +1175,11 @@ function Terra({ profile, openSide, exploded }: CaseModelProps) {
       />
       {[-1, 1].flatMap((x) =>
         [-1, 1].map((z) => (
-          <Metal
+          <CaseFoot
             key={`tf${x}${z}`}
             size={[0.14, 0.07, 0.24]}
             position={[x * (w / 2 - 0.16), -h / 2 + 0.035, z * (d / 2 - 0.22)]}
             color="#202722"
-            roughness={0.9}
           />
         )),
       )}
@@ -1104,7 +1196,6 @@ function Terra({ profile, openSide, exploded }: CaseModelProps) {
 }
 
 export default function CaseModel(props: CaseModelProps) {
-  const coating = useCoatingTexture();
   let model;
   switch (props.profile.kind) {
     case "panoramic":
@@ -1118,5 +1209,5 @@ export default function CaseModel(props: CaseModelProps) {
     case "wood-front":
       model = <WoodFront {...props} />; break;
   }
-  return <CoatingContext.Provider value={coating}>{model}</CoatingContext.Provider>;
+  return model;
 }

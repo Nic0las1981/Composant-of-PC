@@ -1,7 +1,29 @@
-import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
+import { createContext, useContext, useEffect, useLayoutEffect, useMemo, useRef } from "react";
+import type { ReactNode } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { RoundedBoxGeometry } from "three-stdlib";
 import { useSceneAnimation } from "./SceneAnimation";
+import { createHardwareSurfaces, type SurfaceFinish } from "./SurfaceTextures";
+
+const HardwareSurfaceContext = createContext<ReturnType<typeof createHardwareSurfaces> | null>(null);
+
+export function HardwareSurfaceProvider({ children }: { children: ReactNode }) {
+  const surfaces = useMemo(createHardwareSurfaces, []);
+  useEffect(() => {
+    Object.values(surfaces).forEach(({ texture }) => { texture.needsUpdate = true; });
+    return () => Object.values(surfaces).forEach(({ texture }) => texture.dispose());
+  }, [surfaces]);
+  return <HardwareSurfaceContext.Provider value={surfaces}>{children}</HardwareSurfaceContext.Provider>;
+}
+
+export function useHardwareSurface(finish: SurfaceFinish) {
+  const surfaces = useContext(HardwareSurfaceContext);
+  return finish === "smooth" ? undefined : surfaces?.[finish];
+}
+
+const visualFinish = (finish: SurfaceFinish | undefined, metalness: number): SurfaceFinish =>
+  finish ?? (metalness >= 0.75 ? "brushed" : metalness <= 0.18 ? "plastic" : "paint");
 
 type Vector3 = [number, number, number];
 export type BoxInstance = {
@@ -17,6 +39,8 @@ export function MetalBox({
   metalness = 0.65,
   roughness = 0.38,
   emissive,
+  finish,
+  bevel,
 }: {
   position?: Vector3;
   size: Vector3;
@@ -24,14 +48,29 @@ export function MetalBox({
   metalness?: number;
   roughness?: number;
   emissive?: string;
+  finish?: SurfaceFinish;
+  /** Small edge highlights for large solid covers; zero retains square edges. */
+  bevel?: number;
 }) {
+  const materialFinish = visualFinish(finish, metalness);
+  const surface = useHardwareSurface(materialFinish);
+  const [width, height, depth] = size;
+  const shortest = Math.min(width, height, depth);
+  const radius = Math.max(0, Math.min(shortest * 0.2, bevel ?? (shortest >= 0.035 && Math.max(...size) >= 0.35 && materialFinish !== "pcb" ? 0.006 : 0)));
+  const geometry = useMemo(() => radius
+    ? new RoundedBoxGeometry(width, height, depth, 1, radius)
+    : new THREE.BoxGeometry(width, height, depth), [width, height, depth, radius]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
   return (
-    <mesh position={position} castShadow receiveShadow>
-      <boxGeometry args={size} />
+    <mesh position={position} geometry={geometry} castShadow receiveShadow>
       <meshStandardMaterial
         color={color}
         metalness={metalness}
         roughness={roughness}
+        roughnessMap={surface?.texture}
+        bumpMap={surface?.texture}
+        bumpScale={surface?.bumpScale ?? 0}
+        envMapIntensity={surface?.envMapIntensity ?? 1}
         emissive={emissive || "#000000"}
         emissiveIntensity={emissive ? 0.5 : 0}
       />
@@ -44,13 +83,16 @@ export function BoxInstances({
   color = "#3d4248",
   metalness = 0.65,
   roughness = 0.4,
+  finish,
 }: {
   items: BoxInstance[];
   color?: string;
   metalness?: number;
   roughness?: number;
+  finish?: SurfaceFinish;
 }) {
   const ref = useRef<THREE.InstancedMesh>(null);
+  const surface = useHardwareSurface(visualFinish(finish, metalness));
   useLayoutEffect(() => {
     if (!ref.current) return;
     const object = new THREE.Object3D();
@@ -76,6 +118,10 @@ export function BoxInstances({
         color={color}
         metalness={metalness}
         roughness={roughness}
+        roughnessMap={surface?.texture}
+        bumpMap={surface?.texture}
+        bumpScale={surface?.bumpScale ?? 0}
+        envMapIntensity={surface?.envMapIntensity ?? 1}
       />
     </instancedMesh>
   );
@@ -237,6 +283,7 @@ export function RGBRing({
 
 function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
   const ref = useRef<THREE.InstancedMesh>(null);
+  const surface = useHardwareSurface("plastic");
   const geometry = useMemo(() => {
     const shape = new THREE.Shape();
     shape.moveTo(0.17, -0.07);
@@ -271,6 +318,9 @@ function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
         color={color}
         metalness={0.12}
         roughness={0.43}
+        roughnessMap={surface?.texture}
+        bumpMap={surface?.texture}
+        bumpScale={surface?.bumpScale ?? 0}
         side={THREE.DoubleSide}
       />
     </instancedMesh>
@@ -278,6 +328,7 @@ function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
 }
 
 function FanHousing({ radius, color }: { radius: number; color: string }) {
+  const surface = useHardwareSurface("plastic");
   const geometry = useMemo(() => {
     const extent = radius * 1.065;
     const shape = new THREE.Shape();
@@ -302,7 +353,8 @@ function FanHousing({ radius, color }: { radius: number; color: string }) {
   useEffect(() => () => geometry.dispose(), [geometry]);
   return (
     <mesh geometry={geometry} position={[0, 0, -0.0425]} castShadow receiveShadow>
-      <meshStandardMaterial color={color} metalness={0.1} roughness={0.55} />
+      <meshStandardMaterial color={color} metalness={0.08} roughness={0.58}
+        roughnessMap={surface?.texture} bumpMap={surface?.texture} bumpScale={surface?.bumpScale ?? 0} />
     </mesh>
   );
 }
@@ -409,11 +461,15 @@ export function Tube({
   points,
   radius = 0.018,
   color = "#aaaeb1",
+  finish = "brushed",
 }: {
   points: Vector3[];
   radius?: number;
   color?: string;
+  finish?: SurfaceFinish;
 }) {
+  const surface = useHardwareSurface(finish);
+  const insulated = finish === "plastic" || finish === "pcb";
   const geometry = useMemo(
     () =>
       new THREE.TubeGeometry(
@@ -428,7 +484,9 @@ export function Tube({
   useEffect(() => () => geometry.dispose(), [geometry]);
   return (
     <mesh geometry={geometry} castShadow>
-      <meshStandardMaterial color={color} metalness={0.88} roughness={0.25} />
+      <meshStandardMaterial color={color} metalness={insulated ? 0.02 : finish === "paint" ? 0.16 : 0.88} roughness={insulated ? 0.67 : finish === "paint" ? 0.55 : 0.27}
+        roughnessMap={surface?.texture} bumpMap={surface?.texture} bumpScale={surface?.bumpScale ?? 0}
+        envMapIntensity={surface?.envMapIntensity ?? 1} />
     </mesh>
   );
 }
