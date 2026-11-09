@@ -9,807 +9,478 @@ import {
 import type { ReactNode } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import type { ThreeEvent } from "@react-three/fiber";
-import { OrbitControls, RoundedBox, ContactShadows } from "@react-three/drei";
+import {
+  ContactShadows,
+  Environment,
+  Lightformer,
+  OrbitControls,
+} from "@react-three/drei";
+import type { OrbitControls as OrbitControlsImpl } from "three-stdlib";
 import * as THREE from "three";
+import {
+  categories,
+  getComponent,
+  defaultSelection,
+  type CategoryId,
+  type Component,
+} from "../data/catalog";
+import {
+  MM,
+  getCaseProfile,
+  getBoardProfile,
+  getCpuProfile,
+  getGpuProfile,
+  getCoolerProfile,
+  getRamProfile,
+  getPsuProfile,
+  getStorageProfile,
+  type CaseVisualProfile,
+} from "../data/visualProfiles";
+import CaseModel from "./scene/CaseModel";
+import {
+  MotherboardModel,
+  CpuModel,
+  GpuModel,
+  CoolerModel,
+  RamModel,
+  PsuModel,
+  StorageModel,
+  getBoardAnchors,
+  AioCoolingModel,
+} from "./scene/HardwareModels";
+import ProductArt from "./ProductArt";
 
+export type CameraView = "perspective" | "side" | "front";
+type V3 = [number, number, number];
+type SelectedComponents = Partial<Record<CategoryId, Component | undefined>>;
 export interface PcSceneProps {
+  components: SelectedComponents;
   exploded?: boolean;
-  activeCategory?: string | null;
-  selectedCategories?: string[];
-  accent?: string;
-  onSelectCategory?: (id: string) => void;
+  paused?: boolean;
+  openSide?: boolean;
+  cameraView?: CameraView;
+  activeCategory?: CategoryId | null;
+  onSelectCategory?: (id: CategoryId) => void;
   resetKey?: number;
   className?: string;
 }
+type Hover = { category: CategoryId; x: number; y: number };
+const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
+const noRaycast = () => {};
 
-const ALL_CATEGORIES = [
-  "cpu",
-  "motherboard",
-  "gpu",
-  "ram",
-  "storage",
-  "cooler",
-  "psu",
-  "case",
-];
-const DARK = "#121721";
-const EDGE = "#2a3040";
-
-function PrintedLabel({
-  text,
-  position,
-  width = 0.55,
-  color = "#b5bdc9",
-}: {
-  text: string;
-  position: [number, number, number];
-  width?: number;
-  color?: string;
-}) {
-  const texture = useMemo(() => {
-    const canvas = document.createElement("canvas");
-    canvas.width = 512;
-    canvas.height = 96;
-    const context = canvas.getContext("2d")!;
-    context.font = "600 52px Arial, sans-serif";
-    context.textAlign = "center";
-    context.textBaseline = "middle";
-    context.fillStyle = color;
-    context.fillText(text, 256, 48);
-    const result = new THREE.CanvasTexture(canvas);
-    result.colorSpace = THREE.SRGBColorSpace;
-    return result;
-  }, [text, color]);
-  useEffect(() => () => texture.dispose(), [texture]);
-  return (
-    <mesh position={position} rotation={[0, Math.PI / 2, 0]}>
-      <planeGeometry args={[width, (width * 96) / 512]} />
-      <meshBasicMaterial map={texture} transparent depthWrite={false} />
-    </mesh>
+function Highlight({ size }: { size: V3 }) {
+  const box = useMemo(
+    () =>
+      new THREE.BoxGeometry(size[0] + 0.025, size[1] + 0.025, size[2] + 0.025),
+    [size[0], size[1], size[2]],
   );
-}
-
-function Box({
-  position = [0, 0, 0],
-  size,
-  color = DARK,
-  metalness = 0.6,
-  roughness = 0.32,
-  glow,
-  opacity = 1,
-}: {
-  position?: [number, number, number];
-  size: [number, number, number];
-  color?: string;
-  metalness?: number;
-  roughness?: number;
-  glow?: string;
-  opacity?: number;
-}) {
+  useEffect(() => () => box.dispose(), [box]);
   return (
-    <mesh position={position} castShadow receiveShadow>
-      <boxGeometry args={size} />
-      <meshStandardMaterial
-        color={color}
-        metalness={metalness}
-        roughness={roughness}
-        emissive={glow || "#000000"}
-        emissiveIntensity={glow ? 1.6 : 0}
-        transparent={opacity < 1}
-        opacity={opacity}
+    <lineSegments raycast={noRaycast}>
+      <edgesGeometry args={[box]} />
+      <lineBasicMaterial
+        color="#bef58c"
+        transparent
+        opacity={0.48}
+        depthWrite={false}
       />
-    </mesh>
+    </lineSegments>
   );
 }
 
-function Fan({
-  position,
-  rotation = [0, 0, 0],
-  radius = 0.47,
-  color = "#7c6cff",
-  spinning = true,
-}: {
-  position: [number, number, number];
-  rotation?: [number, number, number];
-  radius?: number;
-  color?: string;
-  spinning?: boolean;
-}) {
-  const blades = useRef<THREE.Group>(null);
-  useFrame((_, delta) => {
-    if (blades.current && spinning) blades.current.rotation.z += delta * 0.5;
-  });
-  return (
-    <group position={position} rotation={rotation}>
-      <RoundedBox
-        args={[radius * 2.1, radius * 2.1, 0.095]}
-        radius={0.07}
-        smoothness={3}
-        castShadow
-      >
-        <meshStandardMaterial color="#141923" roughness={0.4} metalness={0.6} />
-      </RoundedBox>
-      <mesh position={[0, 0, 0.055]}>
-        <ringGeometry args={[radius * 0.64, radius * 0.94, 64]} />
-        <meshStandardMaterial
-          color={color}
-          emissive={color}
-          emissiveIntensity={0.55}
-          transparent
-          opacity={0.55}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
-      <mesh position={[0, 0, 0.065]}>
-        <torusGeometry args={[radius * 0.89, 0.026, 8, 64]} />
-        <meshStandardMaterial
-          color={color}
-          emissive={color}
-          emissiveIntensity={2.6}
-          toneMapped={false}
-        />
-      </mesh>
-      <mesh position={[0, 0, 0.068]}>
-        <torusGeometry args={[radius * 0.68, 0.008, 6, 48]} />
-        <meshStandardMaterial
-          color={color}
-          emissive={color}
-          emissiveIntensity={1}
-        />
-      </mesh>
-      <group ref={blades} position={[0, 0, 0.071]}>
-        {Array.from({ length: 9 }, (_, i) => (
-          <group key={i} rotation={[0, 0, (i * Math.PI * 2) / 9]}>
-            <mesh
-              position={[radius * 0.39, 0, 0]}
-              rotation={[0.12, 0.1, -0.5]}
-              scale={[radius * 0.39, radius * 0.14, 0.013]}
-            >
-              <sphereGeometry args={[1, 12, 8]} />
-              <meshStandardMaterial
-                color="#536078"
-                roughness={0.3}
-                metalness={0.5}
-              />
-            </mesh>
-          </group>
-        ))}
-      </group>
-      <mesh position={[0, 0, 0.09]} rotation={[Math.PI / 2, 0, 0]}>
-        <cylinderGeometry args={[radius * 0.22, radius * 0.22, 0.045, 32]} />
-        <meshStandardMaterial
-          color="#262d3b"
-          metalness={0.8}
-          roughness={0.25}
-        />
-      </mesh>
-      <mesh position={[0, 0, 0.12]}>
-        <circleGeometry args={[radius * 0.08, 6]} />
-        <meshStandardMaterial color="#a7b3cc" metalness={0.8} roughness={0.2} />
-      </mesh>
-    </group>
-  );
-}
-
-function MovingPart({
-  children,
+function Part({
   id,
   position = [0, 0, 0],
-  explodedPosition,
+  rotation = [0, 0, 0],
+  offset = [0, 0, 0],
   exploded,
-  active,
+  highlight,
+  size,
+  onHover,
   onSelect,
+  children,
 }: {
-  children: ReactNode;
-  id: string;
-  position?: [number, number, number];
-  explodedPosition?: [number, number, number];
+  id: CategoryId;
+  position?: V3;
+  rotation?: V3;
+  offset?: V3;
   exploded?: boolean;
-  active?: boolean;
-  onSelect?: (id: string) => void;
+  highlight: boolean;
+  size?: V3;
+  onHover: (id: CategoryId | null, event?: ThreeEvent<PointerEvent>) => void;
+  onSelect?: (id: CategoryId) => void;
+  children: ReactNode;
 }) {
   const ref = useRef<THREE.Group>(null);
-  const target = useMemo(
-    () =>
-      new THREE.Vector3(
-        ...(exploded && explodedPosition ? explodedPosition : position),
-      ),
-    [exploded, ...position, ...(explodedPosition || position)],
+  const reduced = useMemo(
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    [],
   );
-  useFrame((_, delta) => {
-    ref.current?.position.lerp(target, 1 - Math.exp(-delta * 7));
+  const target = useMemo(
+    () => new THREE.Vector3(...(exploded ? add(position, offset) : position)),
+    [...position, ...offset, exploded],
+  );
+  useFrame((_, dt) => {
+    if (ref.current) {
+      if (reduced) ref.current.position.copy(target);
+      else ref.current.position.lerp(target, 1 - Math.exp(-dt * 8));
+    }
   });
-  const click = (event: ThreeEvent<MouseEvent>) => {
-    event.stopPropagation();
-    onSelect?.(id);
+  const hover = (e: ThreeEvent<PointerEvent>) => {
+    e.stopPropagation();
+    onHover(id, e);
   };
   return (
     <group
+      name={`component-${id}`}
       ref={ref}
       position={position}
-      onClick={click}
-      onPointerOver={(event) => {
-        event.stopPropagation();
-        document.body.style.cursor = "pointer";
+      rotation={rotation}
+      onPointerOver={hover}
+      onPointerMove={hover}
+      onPointerOut={(e) => {
+        e.stopPropagation();
+        onHover(null);
       }}
-      onPointerOut={() => {
-        document.body.style.cursor = "";
+      onClick={(e) => {
+        e.stopPropagation();
+        onSelect?.(id);
       }}
     >
       {children}
-      {active && (
-        <pointLight
-          position={[0.4, 0, 0.4]}
-          intensity={0.6}
-          distance={2}
-          color="#9aa7ff"
-        />
-      )}
+      {highlight && size && <Highlight size={size} />}
     </group>
   );
 }
 
-function PcModel({
-  exploded,
-  activeCategory,
-  selectedCategories = ALL_CATEGORIES,
-  accent = "#b3f472",
-  onSelectCategory,
-}: PcSceneProps) {
-  const has = (id: string) => selectedCategories.includes(id);
-  const part = (id: string) => ({
-    id,
-    active: activeCategory === id,
-    onSelect: onSelectCategory,
-    exploded,
-  });
-  const bright = (id: string) => (activeCategory === id ? "#8887bf" : EDGE);
-  const pipe = useMemo(
+function Cable({ from, to }: { from: V3; to: V3 }) {
+  const curve = useMemo(
     () =>
       new THREE.CatmullRomCurve3([
-        new THREE.Vector3(-0.19, 0.48, -0.23),
-        new THREE.Vector3(0.14, 0.78, -0.25),
-        new THREE.Vector3(0.28, 1.1, -0.35),
-        new THREE.Vector3(0.13, 1.32, -0.5),
+        new THREE.Vector3(...from),
+        new THREE.Vector3(from[0] + 0.15, from[1] - 0.14, from[2] + 0.1),
+        new THREE.Vector3(to[0] + 0.2, to[1] + 0.3, to[2]),
+        new THREE.Vector3(...to),
       ]),
-    [],
-  );
-  const pipe2 = useMemo(
-    () =>
-      new THREE.CatmullRomCurve3([
-        new THREE.Vector3(-0.19, 0.38, -0.23),
-        new THREE.Vector3(0.25, 0.68, -0.15),
-        new THREE.Vector3(0.38, 1.05, -0.25),
-        new THREE.Vector3(0.3, 1.32, -0.5),
-      ]),
-    [],
+    [...from, ...to],
   );
   return (
-    <group position={[0, 0.02, 0]}>
-      {has("case") && (
-        <MovingPart {...part("case")}>
-          {/* The solid back panel and structural rails leave the glazed side readable. */}
-          <Box
-            position={[-0.81, 0, 0]}
-            size={[0.065, 3.35, 2.45]}
-            color="#10141c"
-          />
-          <Box
-            position={[0, -1.62, 0]}
-            size={[1.7, 0.15, 2.52]}
-            color="#191d27"
-          />
-          <Box
-            position={[0, 1.62, 0]}
-            size={[1.7, 0.13, 2.52]}
-            color="#1e2330"
-          />
-          <Box
-            position={[0, 0, -1.22]}
-            size={[1.7, 3.25, 0.06]}
-            color="#121721"
-          />
-          {[-0.82, 0.82].map((x) =>
-            [-1.2, 1.2].map((z) => (
-              <Box
-                key={`${x}-${z}`}
-                position={[x, 0, z]}
-                size={[0.07, 3.3, 0.08]}
-                color="#32384a"
-              />
-            )),
-          )}
-          <Box
-            position={[0.82, 1.53, 0]}
-            size={[0.065, 0.1, 2.5]}
-            color="#353b4d"
-          />
-          <Box
-            position={[0.82, -1.5, 0]}
-            size={[0.065, 0.12, 2.5]}
-            color="#252b38"
-          />
-          {[-0.64, 0.64].map((x) =>
-            [-0.92, 0.92].map((z) => (
-              <Box
-                key={`foot-${x}-${z}`}
-                position={[x, -1.78, z]}
-                size={[0.23, 0.19, 0.3]}
-                color="#181d27"
-              />
-            )),
-          )}
-          {/* Front fascia, separate rim and translucent mesh. */}
-          <Box
-            position={[0, 0, 1.22]}
-            size={[1.64, 3.2, 0.075]}
-            color="#0d1119"
-          />
-          <Box
-            position={[-0.76, 0, 1.3]}
-            size={[0.055, 3.3, 0.08]}
-            color="#434959"
-          />
-          <Box
-            position={[0.76, 0, 1.3]}
-            size={[0.055, 3.3, 0.08]}
-            color="#333948"
-          />
-          <Box
-            position={[0, 1.56, 1.31]}
-            size={[1.5, 0.09, 0.08]}
-            color="#353b4a"
-          />
-          <Box
-            position={[0, -1.56, 1.31]}
-            size={[1.5, 0.09, 0.08]}
-            color="#252a38"
-          />
-          <Fan position={[0, 0.99, 1.28]} radius={0.445} color="#d1e7e6" />
-          <Fan position={[0, 0, 1.28]} radius={0.445} color={accent} />
-          <Fan position={[0, -0.99, 1.28]} radius={0.445} color={accent} />
-          {[-0.69, 0.69].map((x) => (
-            <Box
-              key={x}
-              position={[x, 0, 1.36]}
-              size={[0.012, 3.08, 0.006]}
-              color="#9197b0"
-            />
-          ))}
-          {/* Small ports on the brushed top panel. */}
-          {[0.35, 0.53].map((x) => (
-            <Box
-              key={x}
-              position={[x, 1.693, 0.85]}
-              size={[0.09, 0.005, 0.035]}
-              color="#030508"
-            />
-          ))}
-          <mesh position={[0.08, 1.695, 0.85]} rotation={[-Math.PI / 2, 0, 0]}>
-            <ringGeometry args={[0.035, 0.045, 24]} />
-            <meshStandardMaterial
-              color="#b0bcff"
-              emissive="#b0bcff"
-              emissiveIntensity={0.8}
-            />
-          </mesh>
-          {Array.from({ length: 13 }, (_, i) => (
-            <Box
-              key={`vent-${i}`}
-              position={[-0.1, 1.695, -0.9 + i * 0.12]}
-              size={[1.08, 0.005, 0.026]}
-              color="#070b12"
-            />
-          ))}
-          {/* This almost-clear sheet contributes a real reflected glass edge. */}
-          {!exploded && (
-            <mesh position={[0.835, 0.02, 0]}>
-              <boxGeometry args={[0.012, 2.97, 2.3]} />
-              <meshPhysicalMaterial
-                color="#a6b5dc"
-                transparent
-                opacity={0.045}
-                metalness={0.1}
-                roughness={0.05}
-                depthWrite={false}
-                side={THREE.DoubleSide}
-              />
-            </mesh>
-          )}
-        </MovingPart>
-      )}
+    <mesh raycast={noRaycast}>
+      <tubeGeometry args={[curve, 24, 0.025, 7, false]} />
+      <meshStandardMaterial color="#21272b" roughness={0.88} />
+    </mesh>
+  );
+}
 
-      {has("motherboard") && (
-        <MovingPart
-          {...part("motherboard")}
-          explodedPosition={[-0.45, 0, -0.12]}
+function Assembly({
+  components,
+  exploded,
+  openSide,
+  activeCategory,
+  hovered,
+  onHover,
+  onSelectCategory,
+  caseProfile,
+}: PcSceneProps & {
+  caseProfile: CaseVisualProfile;
+  hovered: CategoryId | null;
+  onHover: (id: CategoryId | null, event?: ThreeEvent<PointerEvent>) => void;
+}) {
+  const p = caseProfile;
+  const w = p.widthMm * MM,
+    h = p.heightMm * MM,
+    d = p.depthMm * MM;
+  const sandwich = p.kind === "sandwich",
+    panoramic = p.kind === "panoramic";
+  const board =
+    getBoardProfile(components.motherboard) ||
+    getBoardProfile(sandwich ? "mb-a620i" : "mb-b650")!;
+  const cpu = getCpuProfile(components.cpu),
+    gpu = getGpuProfile(components.gpu),
+    cooler = getCoolerProfile(components.cooler),
+    ram = getRamProfile(components.ram),
+    psu = getPsuProfile(components.psu),
+    ssd = getStorageProfile(components.storage);
+  const boardPosition: V3 = [
+    sandwich ? -0.015 : panoramic ? -0.32 : -w / 2 + 0.13,
+    h / 2 - (sandwich ? 0.12 : 0.27) - (board.heightMm * MM) / 2,
+    -d / 2 + 0.16 + (board.widthMm * MM) / 2,
+  ];
+  const anchors = getBoardAnchors(board);
+  const cpuPosition = add(boardPosition, anchors.cpu);
+  const coolerPosition = add(cpuPosition, [
+    cooler ? (cooler.heightMm * MM) / 2 : 0.5,
+    0,
+    0,
+  ]);
+  const ramPosition = add(add(boardPosition, anchors.ram), [
+    ram ? (ram.heightMm * MM) / 2 : 0,
+    0,
+    0,
+  ]);
+  const gpuPosition: V3 = sandwich
+    ? [
+        -(((gpu?.thicknessMm || 50) * MM) / 2) - 0.08,
+        0,
+        -d / 2 + 0.13 + ((gpu?.lengthMm || 267) * MM) / 2,
+      ]
+    : [
+        boardPosition[0] + ((gpu?.heightMm || 134) * MM) / 2 + 0.035,
+        boardPosition[1] - board.heightMm * MM * 0.28,
+        -d / 2 + 0.18 + ((gpu?.lengthMm || 267) * MM) / 2,
+      ];
+  const psuPosition: V3 = sandwich
+    ? [0, -0.04, d / 2 - ((psu?.depthMm || 100) * MM) / 2 - 0.12]
+    : panoramic
+      ? [
+          -w / 2 + ((psu?.heightMm || 86) * MM) / 2 + 0.06,
+          -h / 2 + ((psu?.widthMm || 150) * MM) / 2 + 0.13,
+          -d / 2 + ((psu?.depthMm || 140) * MM) / 2 + 0.13,
+        ]
+      : [
+          0,
+          -h / 2 + ((psu?.heightMm || 86) * MM) / 2 + 0.13,
+          -d / 2 + ((psu?.depthMm || 140) * MM) / 2 + 0.12,
+        ];
+  const aio = cooler?.kind === "aio";
+  const size =
+    components.cooler?.radiatorSizeMm || cooler?.radiatorSizeMm || 240;
+  const support = components.case?.radiatorSupport;
+  const mount: "top" | "front" | "side" = support?.top?.includes(size)
+    ? "top"
+    : support?.front?.includes(size)
+      ? "front"
+      : support?.side?.includes(size)
+        ? "side"
+        : "top";
+  const radiatorPosition: V3 =
+    mount === "top"
+      ? [panoramic ? 0.35 : 0, h / 2 - 0.23, -0.08]
+      : mount === "front"
+        ? [0, 0.08, d / 2 - 0.21]
+        : [boardPosition[0] + 0.13, 0.08, d / 2 - 0.55];
+  const props = (id: CategoryId, position: V3, offset: V3, bounds?: V3) => ({
+    id,
+    position,
+    offset,
+    size: bounds,
+    exploded,
+    highlight: hovered === id || activeCategory === id,
+    onHover,
+    onSelect: onSelectCategory,
+  });
+  return (
+    <group>
+      {components.case && (
+        <Part {...props("case", [0, 0, 0], [0, 0, 0])}>
+          <CaseModel
+            profile={p}
+            openSide={openSide}
+            exploded={exploded}
+            occupiedMount={aio ? mount : undefined}
+          />
+        </Part>
+      )}
+      {components.motherboard && (
+        <Part
+          {...props(
+            "motherboard",
+            boardPosition,
+            [-0.8, 0.1, -0.2],
+            [0.08, board.heightMm * MM, board.widthMm * MM],
+          )}
         >
-          <Box
-            position={[-0.68, 0.2, -0.1]}
-            size={[0.08, 2.35, 1.88]}
-            color="#1a202c"
+          <MotherboardModel
+            component={components.motherboard}
+            profile={board}
           />
-          <Box
-            position={[-0.6, 0.72, -0.8]}
-            size={[0.13, 1.1, 0.31]}
-            color={bright("motherboard")}
-          />
-          <Box
-            position={[-0.59, 1.17, -0.19]}
-            size={[0.14, 0.24, 0.9]}
-            color="#3c4251"
-          />
-          {Array.from({ length: 9 }, (_, i) => (
-            <Box
-              key={`sink-${i}`}
-              position={[-0.5, 0.31 + i * 0.09, -0.82]}
-              size={[0.035, 0.018, 0.27]}
-              color="#626978"
-            />
-          ))}
-          <Box
-            position={[-0.61, -0.51, -0.17]}
-            size={[0.13, 0.25, 0.78]}
-            color="#333a49"
-          />
-          {[-0.57, -0.38, -0.16].map((y) => (
-            <Box
-              key={y}
-              position={[-0.6, y, 0.12]}
-              size={[0.07, 0.035, 1.1]}
-              color="#555a65"
-            />
-          ))}
-          {Array.from({ length: 6 }, (_, i) => (
-            <Box
-              key={`chip-${i}`}
-              position={[-0.6, -0.58 + i * 0.27, 0.67]}
-              size={[0.065, 0.11, 0.08]}
-              color="#53596a"
-            />
-          ))}
-          <Fan position={[-0.08, 0.84, -1.15]} radius={0.41} color="#bfdbd6" />
-        </MovingPart>
+        </Part>
       )}
-
-      {has("cpu") && (
-        <MovingPart {...part("cpu")} explodedPosition={[0.5, 0.55, 0]}>
-          <Box
-            position={[-0.53, 0.5, -0.16]}
-            size={[0.07, 0.52, 0.52]}
-            color="#b6bdc9"
-            metalness={0.95}
-            roughness={0.2}
-          />
-          <Box
-            position={[-0.485, 0.5, -0.16]}
-            size={[0.014, 0.32, 0.32]}
-            color="#9399ac"
-          />
-        </MovingPart>
+      {components.cpu && cpu && (
+        <Part
+          {...props(
+            "cpu",
+            cpuPosition,
+            [0.85, 0.45, -0.2],
+            [cpu.depthMm * MM, cpu.heightMm * MM, cpu.widthMm * MM],
+          )}
+        >
+          <CpuModel component={components.cpu} profile={cpu} />
+        </Part>
       )}
-
-      {has("cooler") && (
-        <MovingPart {...part("cooler")} explodedPosition={[0.65, 0.85, -0.2]}>
-          <RoundedBox
-            args={[0.27, 0.62, 0.62]}
-            radius={0.065}
-            position={[-0.35, 0.5, -0.16]}
-            smoothness={3}
-            castShadow
+      {components.gpu && gpu && (
+        <Part
+          {...props(
+            "gpu",
+            gpuPosition,
+            [0.9, -0.45, 0.65],
+            [gpu.heightMm * MM, gpu.thicknessMm * MM, gpu.lengthMm * MM],
+          )}
+          rotation={sandwich ? [0, 0, Math.PI / 2] : [0, 0, 0]}
+        >
+          <GpuModel component={components.gpu} profile={gpu} />
+        </Part>
+      )}
+      {components.cooler &&
+        cooler &&
+        (aio ? (
+          <Part {...props("cooler", [0, 0, 0], [0.7, 0.65, 0])}>
+            <AioCoolingModel
+              component={components.cooler}
+              profile={cooler}
+              pumpPosition={add(cpuPosition, [
+                (cooler.heightMm * MM) / 2 + 0.025,
+                0,
+                0,
+              ])}
+              radiatorPosition={radiatorPosition}
+              mount={mount}
+            />
+          </Part>
+        ) : (
+          <Part
+            {...props(
+              "cooler",
+              coolerPosition,
+              [1.35, 0.95, 0.05],
+              [cooler.heightMm * MM, cooler.widthMm * MM, cooler.depthMm * MM],
+            )}
           >
-            <meshStandardMaterial
-              color="#272b3b"
-              metalness={0.65}
-              roughness={0.25}
-            />
-          </RoundedBox>
-          <mesh position={[-0.205, 0.5, -0.16]} rotation={[0, Math.PI / 2, 0]}>
-            <ringGeometry args={[0.19, 0.215, 48]} />
-            <meshStandardMaterial
-              color={accent}
-              emissive={accent}
-              emissiveIntensity={2.4}
-              toneMapped={false}
-            />
-          </mesh>
-          <mesh position={[-0.198, 0.5, -0.16]} rotation={[0, Math.PI / 2, 0]}>
-            <circleGeometry args={[0.085, 6]} />
-            <meshStandardMaterial
-              color="#e7e9ff"
-              emissive="#a4afff"
-              emissiveIntensity={0.6}
-            />
-          </mesh>
-          <mesh>
-            <tubeGeometry args={[pipe, 24, 0.039, 8, false]} />
-            <meshStandardMaterial color="#1f2531" roughness={0.8} />
-          </mesh>
-          <mesh>
-            <tubeGeometry args={[pipe2, 24, 0.039, 8, false]} />
-            <meshStandardMaterial color="#222936" roughness={0.8} />
-          </mesh>
-          <Box
-            position={[-0.04, 1.34, -0.1]}
-            size={[1.22, 0.14, 1.9]}
-            color="#1d2430"
-          />
-          <Fan
-            position={[-0.04, 1.22, -0.63]}
-            rotation={[Math.PI / 2, 0, 0]}
-            radius={0.4}
-            color="#c4dddb"
-          />
-          <Fan
-            position={[-0.04, 1.22, 0.34]}
-            rotation={[Math.PI / 2, 0, 0]}
-            radius={0.4}
-            color={accent}
-          />
-        </MovingPart>
+            <CoolerModel component={components.cooler} profile={cooler} />
+          </Part>
+        ))}
+      {components.ram && ram && (
+        <Part
+          {...props(
+            "ram",
+            ramPosition,
+            [1.05, 0.1, 1.1],
+            [
+              ram.heightMm * MM,
+              ram.lengthMm * MM,
+              (ram.sticks - 1) * 0.145 + ram.thicknessMm * MM,
+            ],
+          )}
+        >
+          <RamModel component={components.ram} profile={ram} />
+        </Part>
       )}
-
-      {has("ram") && (
-        <MovingPart {...part("ram")} explodedPosition={[0.75, 0.1, 0.4]}>
-          {[0.45, 0.63].map((z, index) => (
-            <group key={z}>
-              <Box
-                position={[-0.47, 0.6, z]}
-                size={[0.21, 0.91, 0.07]}
-                color="#333949"
-              />
-              <Box
-                position={[-0.35, 0.6, z]}
-                size={[0.025, 0.85, 0.055]}
-                color={index ? "#d5e4df" : accent}
-                glow={index ? "#d5e4df" : accent}
-              />
-              <Box
-                position={[-0.45, 0.53, z + 0.04]}
-                size={[0.13, 0.42, 0.006]}
-                color="#747d91"
-              />
-            </group>
-          ))}
-        </MovingPart>
+      {components.storage && ssd && (
+        <Part
+          {...props(
+            "storage",
+            add(boardPosition, anchors.storage),
+            [1.1, -0.05, -0.7],
+            [0.045, ssd.widthMm * MM, ssd.lengthMm * MM],
+          )}
+        >
+          <StorageModel component={components.storage} profile={ssd} />
+        </Part>
       )}
-
-      {has("gpu") && (
-        <MovingPart {...part("gpu")} explodedPosition={[1.1, -0.1, 0.1]}>
-          <RoundedBox
-            args={[1.16, 0.42, 1.72]}
-            radius={0.045}
-            position={[-0.03, -0.33, -0.18]}
-            smoothness={3}
-            castShadow
-          >
-            <meshStandardMaterial
-              color={bright("gpu")}
-              metalness={0.75}
-              roughness={0.27}
-            />
-          </RoundedBox>
-          <Box
-            position={[-0.03, -0.09, -0.18]}
-            size={[1.15, 0.035, 1.72]}
-            color="#4d5567"
-          />
-          <Box
-            position={[0.563, -0.15, -0.2]}
-            size={[0.015, 0.025, 1.48]}
-            color={accent}
-            glow={accent}
-          />
-          <Box
-            position={[0.566, -0.35, -0.2]}
-            size={[0.012, 0.13, 0.6]}
-            color="#121923"
-          />
-          <PrintedLabel
-            text="GRAPHICS"
-            position={[0.578, -0.35, -0.2]}
-            width={0.54}
-          />
-          {Array.from({ length: 13 }, (_, i) => (
-            <Box
-              key={`gpu-fin-${i}`}
-              position={[0.57, -0.42, -0.86 + i * 0.11]}
-              size={[0.015, 0.12, 0.025]}
-              color="#7a8290"
-            />
-          ))}
-          <Fan
-            position={[-0.02, -0.57, -0.61]}
-            rotation={[Math.PI / 2, 0, 0]}
-            radius={0.34}
-            color="#65709a"
-            spinning={false}
-          />
-          <Fan
-            position={[-0.02, -0.57, 0.22]}
-            rotation={[Math.PI / 2, 0, 0]}
-            radius={0.34}
-            color="#65709a"
-            spinning={false}
-          />
-          <Box
-            position={[-0.55, -0.35, -1.1]}
-            size={[0.18, 0.47, 0.05]}
-            color="#8c94a3"
-          />
-          <Box
-            position={[0.51, -0.68, 0.59]}
-            size={[0.05, 0.34, 0.05]}
-            color="#4c5363"
-          />
-        </MovingPart>
+      {components.psu && psu && (
+        <Part
+          {...props(
+            "psu",
+            psuPosition,
+            [0.3, -0.6, -0.6],
+            [psu.widthMm * MM, psu.heightMm * MM, psu.depthMm * MM],
+          )}
+          rotation={panoramic ? [0, 0, Math.PI / 2] : [0, 0, 0]}
+        >
+          <PsuModel component={components.psu} profile={psu} />
+        </Part>
       )}
-
-      {has("storage") && (
-        <MovingPart {...part("storage")} explodedPosition={[0.8, -0.1, -0.55]}>
-          <Box
-            position={[-0.535, -0.72, -0.26]}
-            size={[0.065, 0.12, 0.7]}
-            color="#515a6e"
-          />
-          <Box
-            position={[-0.495, -0.72, -0.26]}
-            size={[0.01, 0.07, 0.39]}
-            color="#9a9fae"
-          />
-        </MovingPart>
+      {!exploded && components.psu && components.gpu && (
+        <Cable
+          from={add(gpuPosition, [
+            ((gpu?.heightMm || 134) * MM) / 2,
+            0.05,
+            0.25,
+          ])}
+          to={add(psuPosition, [0.1, 0.3, 0.35])}
+        />
       )}
-
-      {has("psu") && (
-        <MovingPart {...part("psu")} explodedPosition={[0.65, -0.25, -0.45]}>
-          <Box
-            position={[0, -1.22, -0.35]}
-            size={[1.52, 0.58, 1.65]}
-            color="#1a1f2b"
-          />
-          <Box
-            position={[0.77, -1.21, -0.36]}
-            size={[0.016, 0.21, 0.68]}
-            color="#2a3141"
-          />
-          <PrintedLabel
-            text="F O R G E"
-            position={[0.782, -1.2, -0.36]}
-            width={0.53}
-          />
-          {Array.from({ length: 8 }, (_, i) => (
-            <Box
-              key={`psu-vent-${i}`}
-              position={[0.773, -1.35, 0.1 + i * 0.035]}
-              size={[0.01, 0.085, 0.01]}
-              color="#080d15"
-            />
-          ))}
-          <Box
-            position={[0.4, -0.85, 0.38]}
-            size={[0.08, 0.18, 0.13]}
-            color="#1c222d"
-          />
-        </MovingPart>
-      )}
-      <pointLight
-        position={[0.3, 0.5, 0.75]}
-        color="#c1e5dc"
-        intensity={0.9}
-        distance={3.6}
-        decay={2}
-      />
-      <pointLight
-        position={[0.3, -0.9, 0.3]}
-        color={accent}
-        intensity={0.5}
-        distance={2.5}
-        decay={2}
-      />
     </group>
   );
 }
 
 function CameraRig({
+  profile,
+  view = "perspective",
   resetKey,
   exploded,
+  onDrag,
 }: {
+  profile: CaseVisualProfile;
+  view?: CameraView;
   resetKey?: number;
   exploded?: boolean;
+  onDrag: (active: boolean) => void;
 }) {
-  const { camera } = useThree();
-  const controls = useRef<any>(null);
+  const { camera, size } = useThree();
+  const controls = useRef<OrbitControlsImpl>(null);
+  const destination = useRef<THREE.Vector3 | null>(null);
   useEffect(() => {
-    camera.position.set(4.8, 2.65, 5.2);
-    controls.current?.target.set(0, -0.04, 0);
-    controls.current?.update();
-  }, [resetKey, camera]);
-  useFrame((_, delta) => {
-    if ("zoom" in camera) {
-      const target = exploded ? 0.82 : 1;
-      camera.zoom = THREE.MathUtils.lerp(
-        camera.zoom,
-        target,
-        1 - Math.exp(-delta * 5),
-      );
-      camera.updateProjectionMatrix();
+    const aspect = size.width / size.height;
+    const dimension = Math.max(
+      profile.heightMm * MM,
+      ((profile.widthMm + profile.depthMm) * MM * 0.68) / Math.max(0.8, aspect),
+    );
+    const distance = dimension * 2.32 * (exploded ? 1.35 : 1);
+    const direction =
+      view === "side"
+        ? new THREE.Vector3(1, 0.04, 0.01)
+        : view === "front"
+          ? new THREE.Vector3(0.01, 0.04, 1)
+          : new THREE.Vector3(1.25, 0.65, 1.5).normalize();
+    destination.current = direction.multiplyScalar(distance);
+    if (controls.current) {
+      controls.current.target.set(0, 0, 0);
+      controls.current.minDistance = dimension * 1.2;
+      controls.current.maxDistance = dimension * 4.5;
+    }
+  }, [profile.id, view, resetKey, exploded, size.width, size.height, camera]);
+  useFrame((_, dt) => {
+    if (destination.current) {
+      camera.position.lerp(destination.current, 1 - Math.exp(-dt * 7));
+      controls.current?.update();
+      if (camera.position.distanceTo(destination.current) < 0.015)
+        destination.current = null;
     }
   });
   return (
     <OrbitControls
       ref={controls}
-      enablePan={false}
-      enableZoom={false}
-      minPolarAngle={Math.PI / 4}
-      maxPolarAngle={Math.PI / 1.95}
-      minAzimuthAngle={-Math.PI / 2.5}
-      maxAzimuthAngle={Math.PI / 1.5}
-      target={[0, -0.04, 0]}
       makeDefault
+      enablePan={false}
+      enableDamping
+      dampingFactor={0.09}
+      minPolarAngle={0.15}
+      maxPolarAngle={Math.PI * 0.8}
+      onStart={() => {
+        destination.current = null;
+        onDrag(true);
+      }}
+      onEnd={() => onDrag(false)}
     />
   );
 }
 
-function FallbackPc() {
+function FallbackPc({ components }: { components: SelectedComponents }) {
   return (
-    <div
-      style={{
-        height: "100%",
-        display: "grid",
-        placeItems: "center",
-        minHeight: 280,
-      }}
-    >
-      <div
-        style={{
-          position: "relative",
-          width: 155,
-          height: 240,
-          background: "linear-gradient(130deg,#282c3c,#11141e)",
-          border: "1px solid #4d5067",
-          borderRadius: 8,
-          transform: "perspective(600px) rotateY(-25deg) rotateX(5deg)",
-          boxShadow: "24px 28px 60px #080a1180",
-        }}
-      >
-        {[0, 1, 2].map((i) => (
-          <span
-            key={i}
-            style={{
-              position: "absolute",
-              right: 16,
-              top: 22 + i * 67,
-              width: 52,
-              height: 52,
-              borderRadius: "50%",
-              border: "3px solid #9a8bff",
-              boxShadow: "0 0 15px #9581ff66, inset 0 0 15px #9581ff55",
-              background:
-                "radial-gradient(circle,#39394d 20%,#191d2a 21%,#45415f 58%,#191d2a 60%)",
-            }}
-          />
-        ))}
-        <span
-          style={{
-            position: "absolute",
-            left: 12,
-            top: 22,
-            width: 51,
-            height: 170,
-            border: "1px solid #46485a",
-            background: "linear-gradient(25deg,#25273688,#3e395e55)",
-          }}
-        />
-      </div>
-      <span style={{ color: "#8d90a6", fontSize: 11, marginTop: -24 }}>
-        Aperçu simplifié · WebGL indisponible
-      </span>
+    <div className="pc-fallback">
+      <ProductArt category="case" brand={components.case?.brand} />
+      <strong>{components.case?.name || "Votre configuration"}</strong>
+      <span>Aperçu simplifié · WebGL indisponible</span>
+      <p>
+        Le choix des composants et les contrôles de compatibilité restent
+        disponibles.
+      </p>
     </div>
   );
 }
-
 class SceneBoundary extends ReactComponent<
-  { children: ReactNode },
+  { children: ReactNode; components: SelectedComponents },
   { failed: boolean }
 > {
   state = { failed: false };
@@ -817,86 +488,180 @@ class SceneBoundary extends ReactComponent<
     return { failed: true };
   }
   render() {
-    return this.state.failed ? <FallbackPc /> : this.props.children;
+    return this.state.failed ? (
+      <FallbackPc components={this.props.components} />
+    ) : (
+      this.props.children
+    );
   }
 }
 
 export default function PcScene(props: PcSceneProps) {
+  const container = useRef<HTMLDivElement>(null);
+  const dragging = useRef(false);
+  const [hover, setHover] = useState<Hover | null>(null);
   const [supported] = useState(() => {
     try {
-      const canvas = document.createElement("canvas");
-      const context = canvas.getContext("webgl2");
-      if (!context) return false;
-      context.getExtension("WEBGL_lose_context")?.loseContext();
+      const c = document.createElement("canvas");
+      const gl = c.getContext("webgl2");
+      if (!gl) return false;
+      gl.getExtension("WEBGL_lose_context")?.loseContext();
       return true;
     } catch {
       return false;
     }
   });
-  useEffect(
-    () => () => {
-      document.body.style.cursor = "";
-    },
-    [],
-  );
+  const profile =
+    getCaseProfile(props.components.case) ||
+    getCaseProfile(defaultSelection.case)!;
+  const gpu = getGpuProfile(props.components.gpu),
+    cooler = getCoolerProfile(props.components.cooler);
+  useEffect(() => {
+    setHover(null);
+  }, [props.components]);
+  const handleHover = (
+    category: CategoryId | null,
+    event?: ThreeEvent<PointerEvent>,
+  ) => {
+    if (!category) {
+      setHover(null);
+      return;
+    }
+    if (dragging.current || !event || !container.current) return;
+    const bounds = container.current.getBoundingClientRect();
+    setHover({
+      category,
+      x: Math.max(
+        10,
+        Math.min(
+          event.nativeEvent.clientX - bounds.left + 17,
+          bounds.width - 246,
+        ),
+      ),
+      y: Math.max(
+        10,
+        Math.min(
+          event.nativeEvent.clientY - bounds.top - 25,
+          bounds.height - 116,
+        ),
+      ),
+    });
+  };
+  const hovered = hover ? props.components[hover.category] : undefined;
   return (
     <div
-      className={props.className}
-      style={{ width: "100%", height: "100%", position: "relative" }}
-      role="img"
-      aria-label="Votre configuration PC en 3D. Faites glisser pour tourner et cliquez sur un composant pour le sélectionner."
+      className={`pc-scene ${props.className || ""}`}
+      ref={container}
+      onPointerLeave={() => setHover(null)}
+      data-case-model={profile.kind}
+      data-case-id={props.components.case?.id || ""}
+      data-gpu-model={gpu?.id || ""}
+      data-gpu-fans={gpu?.fanCount || 0}
+      data-cooler-model={cooler?.kind || ""}
+      data-hover-category={hover?.category || ""}
+      style={{ cursor: hover ? "pointer" : "grab" }}
     >
       {supported ? (
-        <SceneBoundary>
+        <SceneBoundary components={props.components}>
           <Canvas
+            frameloop={props.paused ? "never" : "always"}
             shadows
-            dpr={[1, 1.75]}
-            camera={{ position: [4.8, 2.65, 5.2], fov: 32 }}
+            dpr={[1, 1.5]}
+            camera={{ position: [5.5, 3, 6.5], fov: 32, near: 0.05, far: 100 }}
             gl={{
               antialias: true,
               alpha: true,
               powerPreference: "high-performance",
             }}
+            onPointerMissed={() => setHover(null)}
           >
-            <ambientLight intensity={1.15} />
-            <hemisphereLight args={["#d5e3e2", "#252b2b", 1.65]} />
+            <ambientLight intensity={0.7} />
+            <hemisphereLight args={["#e4ebf5", "#343f35", 1.5]} />
             <directionalLight
-              position={[4, 7, 4]}
-              intensity={3.8}
-              color="#e8efec"
+              position={[4, 6, 5]}
+              intensity={3.2}
+              color="#f8f6ee"
               castShadow
               shadow-mapSize={[1024, 1024]}
               shadow-bias={-0.0005}
             />
             <directionalLight
-              position={[-4, 3, 0]}
-              intensity={3}
-              color="#81939a"
+              position={[-3, 3, -4]}
+              intensity={2.2}
+              color="#b2c7e1"
             />
-            <directionalLight
-              position={[1, 0, -4]}
-              intensity={2.1}
-              color="#a6c7d2"
+            <pointLight
+              position={[3, -1, 4]}
+              intensity={8}
+              distance={12}
+              color="#d2dce7"
             />
             <Suspense fallback={null}>
-              <PcModel {...props} />
+              <Environment resolution={128}>
+                <Lightformer
+                  intensity={1}
+                  color="#ffffff"
+                  position={[3, 4, 2]}
+                  scale={[4, 6, 1]}
+                  rotation={[0, -Math.PI / 4, 0]}
+                />
+                <Lightformer
+                  intensity={0.7}
+                  color="#c6d5e8"
+                  position={[-3, 2, -3]}
+                  scale={[3, 5, 1]}
+                  rotation={[0, Math.PI / 3, 0]}
+                />
+              </Environment>
+              <Assembly
+                {...props}
+                caseProfile={profile}
+                hovered={hover?.category || null}
+                onHover={handleHover}
+              />
               <ContactShadows
-                key={`${props.exploded}-${props.selectedCategories?.join(",")}`}
-                position={[0, -1.91, 0]}
-                opacity={0.55}
+                key={`${profile.id}-${props.exploded}-${props.components.cooler?.id}`}
+                position={[0, (-profile.heightMm * MM) / 2 - 0.035, 0]}
+                opacity={0.58}
                 scale={12}
-                blur={2.3}
+                blur={2.5}
                 far={5}
-                color="#05060c"
                 resolution={256}
-                frames={props.exploded ? Infinity : 30}
+                frames={80}
               />
             </Suspense>
-            <CameraRig resetKey={props.resetKey} exploded={props.exploded} />
+            <CameraRig
+              profile={profile}
+              view={props.cameraView}
+              resetKey={props.resetKey}
+              exploded={props.exploded}
+              onDrag={(active) => {
+                dragging.current = active;
+                if (active) setHover(null);
+              }}
+            />
           </Canvas>
         </SceneBoundary>
       ) : (
-        <FallbackPc />
+        <FallbackPc components={props.components} />
+      )}
+      {hover && hovered && (
+        <div
+          className="pc-hover-card"
+          role="status"
+          style={{ left: hover.x, top: hover.y }}
+        >
+          <span className="pc-hover-type">
+            {categories.find((c) => c.id === hover.category)?.label}
+            <span>CLIQUER POUR SÉLECTIONNER</span>
+          </span>
+          <strong>
+            {hovered.brand} {hovered.name}
+          </strong>
+          <span className="pc-hover-specs">
+            {hovered.specs.slice(0, 2).join(" · ")}
+          </span>
+        </div>
       )}
     </div>
   );

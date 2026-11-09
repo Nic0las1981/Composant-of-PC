@@ -52,6 +52,8 @@ import {
   type Usage,
 } from "./lib/compatibility";
 import ProductArt from "./components/ProductArt";
+import type { CameraView } from "./components/PcScene";
+import { getCaseProfile } from "./data/visualProfiles";
 const PcScene = lazy(() => import("./components/PcScene"));
 
 type Selection = Record<CategoryId, string | null>;
@@ -227,7 +229,7 @@ export default function App() {
   const [buildName, setBuildName] = useState<string>(
     typeof initial?.name === "string" ? initial.name : "Mon setup idéal",
   );
-  const [activeCategory, setActiveCategory] = useState<CategoryId>("cpu");
+  const [activeCategory, setActiveCategory] = useState<CategoryId>("case");
   const [catalogCategory, setCatalogCategory] = useState<CategoryId | null>(
     null,
   );
@@ -235,6 +237,12 @@ export default function App() {
   const [compatibleOnly, setCompatibleOnly] = useState(false);
   const [sort, setSort] = useState("recommended");
   const [exploded, setExploded] = useState(false);
+  const [openSide, setOpenSide] = useState(true);
+  const [cameraView, setCameraView] = useState<CameraView>("perspective");
+  const [brandFilter, setBrandFilter] = useState("all");
+  const [coolingFilter, setCoolingFilter] = useState<"all" | "air" | "aio">(
+    "all",
+  );
   const [resetKey, setResetKey] = useState(0);
   const [fullView, setFullView] = useState(false);
   const [dialog, setDialog] = useState<
@@ -256,9 +264,12 @@ export default function App() {
     (w) => w.severity === "warning",
   ).length;
   const activeComponent = analysis.selected[activeCategory];
-  const selectedCategories = categories
-    .filter((c) => selection[c.id])
-    .map((c) => c.id);
+  const selectedCaseProfile = getCaseProfile(analysis.selected.case);
+  const catalogBrands = [
+    ...new Set(
+      catalog.filter((c) => c.category === catalogCategory).map((c) => c.brand),
+    ),
+  ].sort();
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(
     undefined,
   );
@@ -283,6 +294,8 @@ export default function App() {
     setCatalogCategory(category);
     setSearch("");
     setCompatibleOnly(false);
+    setBrandFilter("all");
+    setCoolingFilter("all");
   };
   const choose = (component: Component) => {
     setSelection((s) => ({ ...s, [component.category]: component.id }));
@@ -292,7 +305,9 @@ export default function App() {
   function saveBuild() {
     if (!buildName.trim()) return;
     const build: SavedBuild = {
-      id: globalThis.crypto?.randomUUID?.() ?? `build-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      id:
+        globalThis.crypto?.randomUUID?.() ??
+        `build-${Date.now()}-${Math.random().toString(36).slice(2)}`,
       name: buildName.trim(),
       selection: { ...selection },
       resolution,
@@ -367,6 +382,10 @@ export default function App() {
     let list = catalog.filter(
       (c) =>
         c.category === catalogCategory &&
+        (brandFilter === "all" || c.brand === brandFilter) &&
+        (catalogCategory !== "cooler" ||
+          coolingFilter === "all" ||
+          (c.coolingType || "air") === coolingFilter) &&
         `${c.name} ${c.brand} ${c.specs.join(" ")}`
           .toLowerCase()
           .includes(search.toLowerCase()),
@@ -399,6 +418,8 @@ export default function App() {
     resolution,
     usage,
     preferredComponentId,
+    brandFilter,
+    coolingFilter,
   ]);
 
   return (
@@ -521,7 +542,7 @@ export default function App() {
               <span />
               Tous les détails font la différence.
             </span>
-            <span className="version">BÊTA 1.0</span>
+            <span className="version">STUDIO 2.0</span>
           </div>
         </header>
         <main>
@@ -534,7 +555,7 @@ export default function App() {
               <h1>
                 Votre PC. <span>Vos règles.</span>
               </h1>
-              <p>Chaque composant compte. Trouvez l’équilibre parfait.</p>
+              <p>Choisissez vos composants. Regardez votre PC prendre forme.</p>
             </div>
             <div className="heading-actions">
               <button
@@ -603,53 +624,96 @@ export default function App() {
           </section>
           <div className="builder-layout">
             <section className="builder-main">
-              <div className="visualizer">
-                <div className="viewer-top">
-                  <span className="viewer-label">
-                    <span className="small-status-dot" />
-                    VOTRE BUILD EN 3D
-                  </span>
-                  <span className="viewer-note">Vue illustrative</span>
+              <div className="studio-header">
+                <div>
+                  <span className="studio-eyebrow">VOTRE ATELIER 3D</span>
+                  <button
+                    className="studio-case-title"
+                    onClick={() => openCatalog("case")}
+                  >
+                    {analysis.selected.case?.name || "Choisir un boîtier"}
+                    <ChevronDown size={15} />
+                  </button>
+                </div>
+                <button
+                  className="studio-change-case"
+                  onClick={() => openCatalog("case")}
+                >
+                  <Box size={15} />
+                  Changer de boîtier
+                  <ArrowUpRight size={13} />
+                </button>
+              </div>
+              <div className="visualizer studio-visualizer">
+                <div className="studio-view-toolbar">
+                  <div className="camera-presets" aria-label="Angle de vue">
+                    {(
+                      [
+                        {
+                          id: "perspective",
+                          label: "3/4",
+                          aria: "Vue trois quarts",
+                        },
+                        { id: "side", label: "Profil", aria: "Vue de profil" },
+                        { id: "front", label: "Face", aria: "Vue de face" },
+                      ] as const
+                    ).map((view) => (
+                      <button
+                        key={view.id}
+                        aria-label={view.aria}
+                        aria-pressed={cameraView === view.id}
+                        className={cameraView === view.id ? "active" : ""}
+                        onClick={() => setCameraView(view.id)}
+                      >
+                        {view.label}
+                      </button>
+                    ))}
+                  </div>
+                  <button
+                    className={`interior-toggle ${openSide ? "active" : ""}`}
+                    aria-pressed={openSide}
+                    onClick={() => setOpenSide(!openSide)}
+                  >
+                    <Layers3 size={14} />
+                    {openSide ? "Intérieur visible" : "Voir l’intérieur"}
+                  </button>
                 </div>
                 <div className="scene-wrap">
                   <Suspense
                     fallback={
                       <div className="scene-loading">
                         <Box size={36} />
-                        <span>Assemblage de votre PC…</span>
+                        <span>Votre configuration prend forme…</span>
                       </div>
                     }
                   >
                     <PcScene
+                      components={analysis.selected}
+                      paused={fullView}
                       exploded={exploded}
+                      openSide={openSide}
+                      cameraView={cameraView}
                       activeCategory={activeCategory}
-                      selectedCategories={selectedCategories}
-                      accent="#b3f472"
-                      onSelectCategory={(id) =>
-                        setActiveCategory(id as CategoryId)
-                      }
+                      onSelectCategory={setActiveCategory}
                       resetKey={resetKey}
                     />
                   </Suspense>
                 </div>
-                <div className="viewer-corner tl" />
-                <div className="viewer-corner br" />
-                <div className="scene-component-tag">
-                  <span className="tag-line" />
-                  <span>
-                    {activeComponent?.name ||
-                      categories.find((c) => c.id === activeCategory)?.label}
-                    <small>
-                      {activeComponent
-                        ? "COMPOSANT SÉLECTIONNÉ"
-                        : "EMPLACEMENT LIBRE"}
-                    </small>
-                  </span>
+                <div className="studio-model-meta">
+                  <span className="small-status-dot" />
+                  {selectedCaseProfile
+                    ? `${selectedCaseProfile.widthMm} × ${selectedCaseProfile.heightMm} × ${selectedCaseProfile.depthMm} mm`
+                    : "Assemblage libre"}
+                  <span>Reconstitution 3D</span>
                 </div>
                 <div className="viewer-bottom">
                   <span className="rotate-hint">
-                    <MousePointer2 size={13} />
-                    Glissez pour explorer
+                    <MousePointer2 size={14} />
+                    <span>
+                      Survolez pour identifier
+                      <br />
+                      <small>Glissez pour tourner · Défilez pour zoomer</small>
+                    </span>
                   </span>
                   <div className="viewer-controls">
                     <button
@@ -657,7 +721,7 @@ export default function App() {
                       aria-label="Recentrer la vue"
                       onClick={() => setResetKey((k) => k + 1)}
                     >
-                      <RotateCcw size={15} />
+                      <RotateCcw size={16} />
                     </button>
                     <span />
                     <button
@@ -679,11 +743,54 @@ export default function App() {
                       <Expand size={16} />
                     </button>
                   </div>
-                  <span className="viewer-axis">
-                    <b>Y</b>
-                    <i />X
-                  </span>
                 </div>
+              </div>
+              <div
+                className="scene-part-shortcuts"
+                aria-label="Repérer un composant dans la tour"
+              >
+                {categories.map((category) => {
+                  const Icon = icons[category.id];
+                  return (
+                    <button
+                      key={category.id}
+                      aria-pressed={activeCategory === category.id}
+                      className={activeCategory === category.id ? "active" : ""}
+                      onClick={() => setActiveCategory(category.id)}
+                    >
+                      <Icon size={14} />
+                      {category.shortLabel}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="scene-selection-bar">
+                <div className="selected-part-art">
+                  <ProductArt
+                    category={activeCategory}
+                    brand={activeComponent?.brand}
+                    component={activeComponent}
+                  />
+                </div>
+                <div className="selected-part-copy">
+                  <span>
+                    {categories.find((c) => c.id === activeCategory)?.label}
+                  </span>
+                  <strong>
+                    {activeComponent?.name || "Emplacement disponible"}
+                  </strong>
+                  <small>
+                    {activeComponent?.specs.slice(0, 2).join(" · ") ||
+                      "Ajoutez ce composant à votre PC"}
+                  </small>
+                </div>
+                <button
+                  className="button button-secondary"
+                  onClick={() => openCatalog(activeCategory)}
+                >
+                  {activeComponent ? "Modifier" : "Choisir"}
+                  <ArrowRight size={14} />
+                </button>
               </div>
               <div
                 className={`compatibility-banner ${errors.length ? "has-error" : warningCount ? "has-warning" : ""}`}
@@ -711,7 +818,7 @@ export default function App() {
                   Voir l’analyse <ArrowRight size={16} />
                 </button>
               </div>
-              <section className="parts-section">
+              <section className="parts-section" id="components">
                 <div className="parts-header">
                   <div className="section-tabs">
                     <button
@@ -755,7 +862,6 @@ export default function App() {
                         <article
                           className={`part-card ${activeCategory === category.id ? "part-active" : ""} ${issue ? "part-error" : ""}`}
                           key={category.id}
-                          onMouseEnter={() => setActiveCategory(category.id)}
                         >
                           <div className="part-card-heading">
                             <span>
@@ -773,6 +879,7 @@ export default function App() {
                               <ProductArt
                                 category={category.id}
                                 brand={component?.brand}
+                                component={component}
                               />
                             </div>
                             <div className="part-copy">
@@ -1168,6 +1275,30 @@ export default function App() {
           </footer>
         </main>
       </div>
+      <div className="mobile-build-summary">
+        <div>
+          <span>Total estimé</span>
+          <strong>{money(analysis.total)}</strong>
+        </div>
+        <button
+          className="button button-secondary"
+          onClick={() =>
+            document
+              .getElementById("components")
+              ?.scrollIntoView({ behavior: "smooth", block: "start" })
+          }
+        >
+          <LayoutGrid size={15} />
+          Composants
+        </button>
+        <button
+          className="button button-accent"
+          aria-label="Enregistrer ce build"
+          onClick={() => setDialog("save")}
+        >
+          <Save size={17} />
+        </button>
+      </div>
       {toast && (
         <div className="toast" role="status">
           <span>
@@ -1218,6 +1349,8 @@ export default function App() {
                   onClick={() => {
                     setCatalogCategory(c.id);
                     setSearch("");
+                    setBrandFilter("all");
+                    setCoolingFilter("all");
                   }}
                 >
                   <Icon size={15} />
@@ -1253,6 +1386,46 @@ export default function App() {
               <option value="price-up">Prix croissant</option>
               <option value="price-down">Prix décroissant</option>
             </select>
+          </div>
+          <div className="catalog-extra-filters">
+            <label className="brand-filter">
+              Marque
+              <select
+                aria-label="Filtrer par marque"
+                value={brandFilter}
+                onChange={(e) => setBrandFilter(e.target.value)}
+              >
+                <option value="all">Toutes les marques</option>
+                {catalogBrands.map((brand) => (
+                  <option key={brand} value={brand}>
+                    {brand}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {catalogCategory === "cooler" && (
+              <div
+                className="cooling-filter"
+                aria-label="Type de refroidissement"
+              >
+                {(
+                  [
+                    { id: "all", label: "Tout" },
+                    { id: "air", label: "Ventirads" },
+                    { id: "aio", label: "Watercooling" },
+                  ] as const
+                ).map((type) => (
+                  <button
+                    key={type.id}
+                    className={coolingFilter === type.id ? "active" : ""}
+                    aria-pressed={coolingFilter === type.id}
+                    onClick={() => setCoolingFilter(type.id)}
+                  >
+                    {type.label}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
           <div className="catalog-results-heading">
             <span>
@@ -1292,6 +1465,7 @@ export default function App() {
                   <ProductArt
                     category={component.category}
                     brand={component.brand}
+                    component={component}
                   />
                 </div>
                 <h3>{component.name}</h3>
@@ -1354,6 +1528,8 @@ export default function App() {
                   onClick={() => {
                     setSearch("");
                     setCompatibleOnly(false);
+                    setBrandFilter("all");
+                    setCoolingFilter("all");
                   }}
                 >
                   Réinitialiser les filtres
@@ -1658,15 +1834,24 @@ export default function App() {
             >
               <PcScene
                 exploded={exploded}
-                selectedCategories={selectedCategories}
+                components={analysis.selected}
+                openSide={openSide}
+                cameraView={cameraView}
                 activeCategory={activeCategory}
-                accent="#b3f472"
                 resetKey={resetKey}
                 onSelectCategory={(id) => setActiveCategory(id as CategoryId)}
               />
             </Suspense>
           </div>
           <div className="full-scene-controls">
+            <button
+              className="button button-secondary"
+              aria-pressed={openSide}
+              onClick={() => setOpenSide(!openSide)}
+            >
+              <Layers3 size={16} />
+              {openSide ? "Fermer le panneau" : "Voir l’intérieur"}
+            </button>
             <button
               className="button button-secondary"
               onClick={() => setExploded(!exploded)}

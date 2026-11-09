@@ -45,6 +45,15 @@ export function analyzeBuild(
   resolution: Resolution = "1440p",
   usage: Usage = "gaming",
 ): BuildAnalysis {
+  return analyzeBuildInternal(selection, resolution, usage, true);
+}
+
+function analyzeBuildInternal(
+  selection: Selection,
+  resolution: Resolution,
+  usage: Usage,
+  includeRecommendations: boolean,
+): BuildAnalysis {
   const selected = Object.fromEntries(
     categories.map(({ id }) => {
       const component = getComponent(selection[id]);
@@ -64,6 +73,17 @@ export function analyzeBuild(
   const warnings: CompatibilityWarning[] = [];
   const recommendations: Recommendation[] = [];
   const add = (warning: CompatibilityWarning) => warnings.push(warning);
+  const isSuitable = (component: Component) => {
+    const candidate = analyzeBuildInternal(
+      { ...selection, [component.category]: component.id }, resolution, usage, false,
+    );
+    return !candidate.warnings.some(warning =>
+      issueInvolvesCategory(warning, component.category)
+      && (warning.severity === "error" || warning.id === "cooler-power" || warning.id === "psu-headroom"),
+    );
+  };
+  const findSuitable = (category: CategoryId, predicate: (component: Component) => boolean = () => true) =>
+    includeRecommendations ? catalog.find(component => component.category === category && predicate(component) && isSuitable(component)) : undefined;
   const suggest = (
     id: string,
     title: string,
@@ -71,8 +91,13 @@ export function analyzeBuild(
     category: CategoryId,
     componentId?: string,
   ) => {
+    if (!includeRecommendations) return;
+    // Keep general advice even when no single replacement resolves the known
+    // constraints. Never attach a directly recommended incompatible product.
+    const candidate = getComponent(componentId);
+    const safeComponentId = candidate && isSuitable(candidate) ? candidate.id : undefined;
     if (!recommendations.some((r) => r.category === category))
-      recommendations.push({ id, title, description, category, componentId });
+      recommendations.push({ id, title, description, category, componentId: safeComponentId });
   };
 
   if (cpu && motherboard && cpu.socket !== motherboard.socket) {
@@ -83,12 +108,12 @@ export function analyzeBuild(
       description: `${cpu.name} utilise le socket ${cpu.socket}, alors que la carte mère utilise ${motherboard.socket}.`,
       category: "motherboard",
     });
-    const match = catalog.find(
+    const match = findSuitable("motherboard",
       (c) =>
         c.category === "motherboard" &&
         c.socket === cpu.socket &&
         (!ram || c.memoryType === ram.memoryType) &&
-        (!pcCase || pcCase.supportedFormFactors?.includes(c.formFactor!)),
+        (!pcCase || !!pcCase.supportedFormFactors?.includes(c.formFactor!)),
     );
     suggest(
       "match-board",
@@ -106,7 +131,7 @@ export function analyzeBuild(
       description: `Cette carte mère accepte la ${motherboard.memoryType}. Le kit sélectionné est en ${ram.memoryType} : les connecteurs sont différents.`,
       category: "ram",
     });
-    const match = catalog.find(
+    const match = findSuitable("ram",
       (c) =>
         c.category === "ram" &&
         c.memoryType === motherboard.memoryType &&
@@ -164,16 +189,16 @@ export function analyzeBuild(
     add({
       id: "cooler-socket",
       severity: "error",
-      title: "Fixation du ventirad incompatible",
+      title: "Fixation du refroidissement incompatible",
       description: `${cooler.name} ne propose pas de fixation ${cpu.socket} dans ce catalogue.`,
       category: "cooler",
     });
     suggest(
       "match-cooler",
       "Un refroidissement adapté au socket",
-      "Le Phantom Spirit prend en charge AM4, AM5 et LGA1700.",
+      "Vérifiez le socket, le kit de montage et l’espace disponible dans votre boîtier.",
       "cooler",
-      "cooler-phantom",
+      findSuitable("cooler")?.id,
     );
   }
   if (
@@ -186,17 +211,16 @@ export function analyzeBuild(
       severity: "warning",
       title: "Refroidissement à surveiller",
       description:
-        "Ce ventirad compact peut limiter les performances en charge prolongée. Vérifiez les recommandations thermiques du fabricant et les limites de puissance du CPU.",
+        "Ce refroidissement peut limiter les performances en charge prolongée. Vérifiez les recommandations thermiques du fabricant et les limites de puissance du CPU.",
       category: "cooler",
     });
-    if (!pcCase || (pcCase.maxCoolerHeightMm ?? 0) >= 154)
-      suggest(
-        "stronger-cooler",
-        "Plus de marge thermique",
-        "Un ventirad double tour convient mieux à ce processeur en charge soutenue.",
-        "cooler",
-        "cooler-phantom",
-      );
+    suggest(
+      "stronger-cooler",
+      "Plus de marge thermique",
+      "Un refroidissement plus performant peut aider ce processeur en charge soutenue, selon les recommandations du fabricant.",
+      "cooler",
+      findSuitable("cooler")?.id,
+    );
   }
   if (
     motherboard &&
@@ -213,9 +237,9 @@ export function analyzeBuild(
     suggest(
       "larger-case",
       "Un boîtier adapté à votre carte mère",
-      "Le 4000D Airflow accepte les cartes ATX, Micro-ATX et Mini-ITX.",
+      "Choisissez un boîtier qui accepte la carte mère et laisse assez de place au GPU et au refroidissement.",
       "case",
-      "case-4000d",
+      findSuitable("case")?.id,
     );
   }
   if (
@@ -233,13 +257,14 @@ export function analyzeBuild(
     suggest(
       "longer-case",
       "Plus de place pour votre GPU",
-      "Le H6 Flow accepte les cartes graphiques jusqu’à 365 mm.",
+      "Prévoyez le dégagement nécessaire au GPU, en tenant compte d’un éventuel radiateur en façade.",
       "case",
-      "case-h6",
+      findSuitable("case")?.id,
     );
   }
   if (
     cooler &&
+    cooler.coolingType !== "aio" &&
     pcCase &&
     (cooler.heightMm ?? 0) > (pcCase.maxCoolerHeightMm ?? Infinity)
   ) {
@@ -250,20 +275,60 @@ export function analyzeBuild(
       description: `${cooler.heightMm} mm nécessaires pour ${pcCase.maxCoolerHeightMm} mm de dégagement maximum.`,
       category: "cooler",
     });
-    const match = catalog.find(
-      (c) =>
-        c.category === "cooler" &&
-        (c.heightMm ?? Infinity) <= (pcCase.maxCoolerHeightMm ?? 0) &&
-        (!cpu || c.supportedSockets?.includes(cpu.socket!)) &&
-        (!cpu || (c.recommendedCpuPowerW ?? 0) >= (cpu.powerW ?? 0)),
-    );
+    const match = findSuitable("cooler");
     suggest(
       "shorter-cooler",
       "Respectez le dégagement du boîtier",
-      "Choisissez un ventirad plus bas ou un boîtier plus spacieux.",
+      "Choisissez un refroidissement adapté aux dégagements et aux emplacements du boîtier.",
       "cooler",
       match?.id,
     );
+  }
+  if (cooler?.coolingType === "aio" && pcCase) {
+    const positions = radiatorPositions(cooler, pcCase);
+    if (!positions.length) {
+      add({
+        id: "radiator-fit",
+        severity: "error",
+        title: "Radiateur incompatible avec le boîtier",
+        description: `${pcCase.name} ne dispose d’aucun emplacement renseigné pour un radiateur de ${cooler.radiatorSizeMm} mm. La hauteur de la pompe ne suffit pas à établir la compatibilité.`,
+        category: "cooler",
+      });
+      suggest(
+        "radiator-fit", "Un refroidissement adapté au boîtier",
+        "Choisissez une taille de radiateur prise en charge ou un ventirad compatible avec les dégagements disponibles.",
+        "cooler", findSuitable("cooler")?.id,
+      );
+    } else {
+      const positionNames = { top: "haut", front: "façade", side: "côté" };
+      const thick = (cooler.radiatorThicknessMm ?? 27) >= 35;
+      if (thick) {
+        add({
+          id: "radiator-thickness",
+          severity: "warning",
+          title: "Épaisseur du radiateur à vérifier",
+          description: `Le radiateur mesure ${cooler.radiatorThicknessMm} mm d’épaisseur, auxquels s’ajoutent les ventilateurs (environ 25 à 27 mm selon le modèle). Emplacement possible : ${positions.map(position => positionNames[position]).join(" / ")}. Vérifiez le dégagement avec la carte mère et la RAM en haut, ou avec le GPU en façade ; la longueur seule ne garantit pas le montage.`,
+          category: "cooler",
+        });
+      } else {
+        add({
+          id: "radiator-clearance",
+          severity: "info",
+          title: "Emplacement de radiateur disponible",
+          description: `Le format ${cooler.radiatorSizeMm} mm est accepté en ${positions.map(position => positionNames[position]).join(" / ")}. Vérifiez l’épaisseur radiateur + ventilateurs, le dégagement de la RAM et des dissipateurs ainsi que le passage des tuyaux avant achat.`,
+          category: "cooler",
+        });
+      }
+      if (positions.every(position => position === "front") && gpu) {
+        add({
+          id: "radiator-gpu-clearance",
+          severity: "warning",
+          title: "Dégagement GPU avec radiateur en façade",
+          description: "Le radiateur doit être monté en façade. Sa présence et celle des ventilateurs peuvent réduire la longueur disponible pour la carte graphique ; vérifiez la combinaison exacte sur la fiche du boîtier.",
+          category: "case",
+        });
+      }
+    }
   }
   if (psu && pcCase && !pcCase.supportedPsuFormats?.includes(psu.psuFormat!)) {
     add({
@@ -273,10 +338,10 @@ export function analyzeBuild(
       description: `${pcCase.name} utilise une alimentation ${pcCase.supportedPsuFormats?.join(" ou ")} ; votre modèle est au format ${psu.psuFormat}. Un adaptateur éventuel n’est pas pris en compte.`,
       category: "psu",
     });
-    const match = catalog.find(
+    const match = findSuitable("psu",
       (c) =>
         c.category === "psu" &&
-        pcCase.supportedPsuFormats?.includes(c.psuFormat!) &&
+        !!pcCase.supportedPsuFormats?.includes(c.psuFormat!) &&
         (c.wattage ?? 0) >= (gpu?.recommendedPsuW ?? 550),
     );
     suggest(
@@ -331,11 +396,11 @@ export function analyzeBuild(
     });
   }
   if (psu && capacity < recommended) {
-    const match = catalog.find(
+    const match = findSuitable("psu",
       (c) =>
         c.category === "psu" &&
         (c.wattage ?? 0) >= recommended &&
-        (!pcCase || pcCase.supportedPsuFormats?.includes(c.psuFormat!)),
+        (!pcCase || !!pcCase.supportedPsuFormats?.includes(c.psuFormat!)),
     );
     suggest(
       "more-power",
@@ -345,13 +410,24 @@ export function analyzeBuild(
       match?.id,
     );
   }
-  if (cpu?.id === "cpu-14600kf" && motherboard?.socket === "LGA1700") {
+  const intelNeedsBios = cpu && motherboard?.socket === "LGA1700"
+    && (/\b14\d{3}/.test(cpu.name)
+      || (/\b13\d{3}/.test(cpu.name) && /\b[BHZ]6\d{2}/i.test(motherboard.name)));
+  if (intelNeedsBios) {
     add({
       id: "intel-bios",
       severity: "warning",
       title: "Version du BIOS à vérifier",
       description:
-        "Les cartes B760 peuvent nécessiter un BIOS récent pour les processeurs Intel de 14e génération. Vérifiez la liste CPU du fabricant.",
+        "Selon sa révision et le BIOS installé, cette carte mère peut nécessiter une mise à jour pour ce processeur Intel. Vérifiez le modèle exact et la version minimale dans la liste CPU du fabricant.",
+      category: "motherboard",
+    });
+  }
+  if (cpu?.socket === "AM5" && motherboard?.socket === "AM5"
+    && /\b9\d{3}/.test(cpu.name) && /\b(?:A620|B650|X670)/i.test(motherboard.name)) {
+    add({
+      id: "amd-bios", severity: "warning", title: "BIOS AM5 à mettre à jour si nécessaire",
+      description: "Les cartes AM5 de série 600 peuvent nécessiter un BIOS plus récent pour les Ryzen 9000. Vérifiez la version minimale du modèle exact avant le montage.",
       category: "motherboard",
     });
   }
@@ -542,10 +618,23 @@ const issueCategories: Record<string, CategoryId[]> = {
   "board-size": ["motherboard", "case"],
   "gpu-length": ["gpu", "case"],
   "cooler-height": ["cooler", "case"],
+  "radiator-fit": ["cooler", "case"],
   "psu-format": ["psu", "case"],
   "storage-slot": ["storage", "motherboard"],
   "psu-insufficient": ["psu", "cpu", "gpu", "ram", "storage"],
+  "psu-headroom": ["psu", "cpu", "gpu", "ram", "storage"],
 };
+
+function issueInvolvesCategory(warning: CompatibilityWarning, category: CategoryId) {
+  return issueCategories[warning.id]?.includes(category) ?? warning.category === category;
+}
+
+function radiatorPositions(cooler: Component, pcCase: Component): ("top" | "front" | "side")[] {
+  if (!cooler.radiatorSizeMm || !pcCase.radiatorSupport) return [];
+  return (["top", "front", "side"] as const).filter(position =>
+    pcCase.radiatorSupport?.[position]?.includes(cooler.radiatorSizeMm!),
+  );
+}
 
 /** Blocking issues involving a candidate after it replaces its category.
  * Existing issues are intentionally retained when the candidate still causes
@@ -557,15 +646,15 @@ export function getCandidateIssues(
   resolution: Resolution = "1440p",
   usage: Usage = "gaming",
 ): CompatibilityWarning[] {
-  const result = analyzeBuild(
+  const result = analyzeBuildInternal(
     { ...selection, [component.category]: component.id },
     resolution,
     usage,
+    false,
   );
   return result.warnings.filter(
     (warning) =>
       warning.severity === "error" &&
-      (issueCategories[warning.id]?.includes(component.category) ??
-        warning.category === component.category),
+      issueInvolvesCategory(warning, component.category),
   );
 }

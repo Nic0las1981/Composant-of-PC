@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { categories, defaultSelection, getComponent } from '../src/data/catalog.ts';
+import { catalog, categories, defaultSelection, getComponent } from '../src/data/catalog.ts';
 import type { Selection } from '../src/data/catalog.ts';
 import { analyzeBuild, getCandidateIssues } from '../src/lib/compatibility.ts';
 
@@ -114,4 +114,83 @@ test('relative performance display indices stay in range for all profiles', () =
     }
   }
   assert.equal(analyzeBuild(defaultSelection, '4k').balance.limiter, 'gpu');
+});
+
+test('a 360 mm AIO fits the H6 top mount without applying ventirad height rules', () => {
+  assert.equal(getComponent('cooler-h150i360')?.coolingType, 'aio');
+  const result = analyzeBuild({ ...defaultSelection, cooler: 'cooler-h150i360' });
+  assert.ok(!result.warnings.some(w => w.id === 'radiator-fit' || w.id === 'cooler-height'));
+  assert.ok(result.warnings.some(w => w.id === 'radiator-clearance' && w.description.includes('haut')));
+  assert.equal(result.warnings.filter(w => w.severity === 'error').length, 0);
+});
+
+test('240 mm AIO fits the 4000D; front-only 360 mm mounting needs GPU clearance review', () => {
+  const smaller = analyzeBuild({ ...defaultSelection, case: 'case-4000d', cooler: 'cooler-h100i240' });
+  assert.ok(!smaller.warnings.some(w => w.id === 'radiator-fit'));
+  assert.ok(!smaller.warnings.some(w => w.id === 'radiator-gpu-clearance'));
+  const larger = analyzeBuild({ ...defaultSelection, case: 'case-4000d', cooler: 'cooler-h150i360' });
+  assert.ok(!larger.warnings.some(w => w.id === 'radiator-fit'));
+  assert.ok(larger.warnings.some(w => w.id === 'radiator-gpu-clearance' && w.severity === 'warning'));
+});
+
+test('the Terra rejects an AIO even though its pump is lower than the air cooler limit', () => {
+  assert.ok((getComponent('cooler-h100i240')?.heightMm ?? Infinity) < (getComponent('case-terra')?.maxCoolerHeightMm ?? 0));
+  const selection = { ...defaultSelection, case: 'case-terra', cooler: 'cooler-h100i240' };
+  const result = analyzeBuild(selection);
+  assert.ok(result.warnings.some(w => w.id === 'radiator-fit' && w.severity === 'error'));
+  assert.ok(!result.warnings.some(w => w.id === 'cooler-height'));
+  assert.ok(getCandidateIssues(selection, getComponent('cooler-h100i240')!).some(w => w.id === 'radiator-fit'));
+  assert.ok(getCandidateIssues(selection, getComponent('case-terra')!).some(w => w.id === 'radiator-fit'));
+});
+
+test('a thick Arctic radiator has an explicit dimensional uncertainty warning', () => {
+  const result = analyzeBuild({ ...defaultSelection, cooler: 'cooler-lfiii360' });
+  assert.ok(!result.warnings.some(w => w.id === 'radiator-fit'));
+  const warning = result.warnings.find(w => w.id === 'radiator-thickness');
+  assert.equal(warning?.severity, 'warning');
+  assert.match(warning?.description ?? '', /38 mm/);
+  assert.match(warning?.description ?? '', /RAM/);
+});
+
+test('replacement recommendations do not introduce known blocking conflicts', () => {
+  const selections: Selection[] = [
+    { ...defaultSelection, case: 'case-terra', cooler: 'cooler-h150i360' },
+    { ...defaultSelection, cpu: 'cpu-14600kf', case: 'case-q300l', cooler: 'cooler-l9a', psu: 'psu-a550' },
+    { ...defaultSelection, ram: 'ram-ddr4-16', gpu: 'gpu-4080s' },
+  ];
+  for (const selection of selections) {
+    for (const recommendation of analyzeBuild(selection).recommendations) {
+      if (!recommendation.componentId) continue;
+      const component = getComponent(recommendation.componentId)!;
+      assert.equal(getCandidateIssues(selection, component).length, 0, `Invalid recommendation: ${component.name}`);
+      if (component.category === 'cooler') {
+        assert.ok(!analyzeBuild({ ...selection, cooler: component.id }).warnings.some(w => w.id === 'cooler-power'));
+      }
+    }
+  }
+});
+
+test('newer CPUs signal firmware checks on older compatible platforms', () => {
+  assert.ok(getComponent('cpu-9800x3d'));
+  assert.ok(analyzeBuild({ ...defaultSelection, cpu: 'cpu-9800x3d' }).warnings.some(w => w.id === 'amd-bios'));
+  assert.ok(getComponent('mb-b850-tomahawk'));
+  assert.ok(!analyzeBuild({ ...defaultSelection, cpu: 'cpu-9800x3d', motherboard: 'mb-b850-tomahawk' }).warnings.some(w => w.id === 'amd-bios'));
+  assert.ok(getComponent('cpu-14700kf'));
+  assert.ok(analyzeBuild({ ...defaultSelection, cpu: 'cpu-14700kf', motherboard: 'mb-b760', ram: 'ram-ddr4-32' }).warnings.some(w => w.id === 'intel-bios'));
+});
+
+test('catalog-wide single replacements never recommend a known incompatible alternative', () => {
+  let checked = 0;
+  for (const component of catalog) {
+    const selection = { ...defaultSelection, [component.category]: component.id };
+    for (const recommendation of analyzeBuild(selection).recommendations) {
+      if (!recommendation.componentId) continue;
+      const alternative = getComponent(recommendation.componentId);
+      assert.ok(alternative, `Missing recommended component ${recommendation.componentId}`);
+      assert.equal(getCandidateIssues(selection, alternative).length, 0,
+        `Selecting ${component.id} recommends incompatible ${alternative.id}`);
+      checked++;
+    }
+  }
+  assert.ok(checked >= catalog.length, 'The complete expanded catalog must exercise recommendation validation');
 });
