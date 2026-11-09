@@ -693,12 +693,12 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   return (
     <group>
       <MetalBox size={[w, h, d]} color={profile.color} roughness={0.39} />
-      <HardwareFan
-        radius={Math.min(profile.fanSizeMm * MM * 0.45, w * 0.42, d * 0.42)}
-        position={[0, h * 0.505, 0]}
-        rotation={[-Math.PI / 2, 0, 0]}
-        color="#15191c"
-      />
+      <group position={[0, h * 0.505, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 1, 0.12]}>
+        <HardwareFan
+          radius={Math.min(profile.fanSizeMm * MM * 0.45, w * 0.42, d * 0.42)}
+          color="#15191c"
+        />
+      </group>
       <BoxInstances items={grille} color="#5e6368" metalness={0.7} />
       <MetalBox
         position={[w * 0.504, 0, 0]}
