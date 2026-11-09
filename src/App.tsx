@@ -43,12 +43,14 @@ import {
   catalog,
   categories,
   defaultSelection,
+  getComponent,
+  type Selection,
   type CategoryId,
   type Component,
 } from "./data/catalog";
 import {
   analyzeBuild,
-  getCandidateIssues,
+  getBuildIssues,
   type Resolution,
   type Usage,
 } from "./lib/compatibility";
@@ -56,10 +58,11 @@ import ProductArt from "./components/ProductArt";
 import CatalogPanel from "./components/CatalogPanel";
 import type { CameraView } from "./components/PcScene";
 import { getCaseProfile } from "./data/visualProfiles";
-import { pricingPolicy } from "./data/pricing";
+import { pricingPolicy, formatComponentPrice } from "./data/pricing";
+import { arrangeMemorySlots, resetMemoryToKit } from "./lib/memory";
+import MemoryConfigurator from "./components/MemoryConfigurator";
 const PcScene = lazy(() => import("./components/PcScene"));
 
-type Selection = Record<CategoryId, string | null>;
 type SavedBuild = {
   id: string;
   name: string;
@@ -95,17 +98,24 @@ function safeSelection(value: unknown): Selection | null {
     if (input[c.id] === null) result[c.id] = null;
     else if (
       typeof input[c.id] === "string" &&
-      catalog.some((p) => p.id === input[c.id] && p.category === c.id)
+      getComponent(input[c.id] as string)?.category === c.id
     )
       result[c.id] = input[c.id] as string;
     else return null;
+  }
+  if (input.memory !== undefined) {
+    if (!input.memory || typeof input.memory !== "object") return null;
+    const slots = (input.memory as { slots?: unknown }).slots;
+    if (!Array.isArray(slots) || slots.length > 16 || !slots.every((id) => id === null || (typeof id === "string" && getComponent(id)?.category === "ram"))) return null;
+    result.memory = { slots: [...slots] };
   }
   return result;
 }
 function readWorkspace() {
   try {
     const data = JSON.parse(localStorage.getItem(SELECTION_KEY) || "null");
-    return data && safeSelection(data.selection) ? data : null;
+    const selection = data && safeSelection(data.selection);
+    return selection ? { ...data, selection } : null;
   } catch {
     return null;
   }
@@ -125,6 +135,7 @@ function readBuilds(): SavedBuild[] {
           )
           .map((b) => ({
             ...b,
+            selection: safeSelection(b.selection)!,
             resolution: ["1080p", "1440p", "4k"].includes(b.resolution)
               ? b.resolution
               : "1440p",
@@ -271,7 +282,9 @@ export default function App() {
     [selection, resolution, usage],
   );
   const errors = analysis.warnings.filter((w) => w.severity === "error");
-  const displayBalance = errors.length ? 0 : analysis.balance.score;
+  const displayBalance = errors.length || analysis.balance.available === false ? 0 : analysis.balance.score;
+  const budgetLabel = analysis.unpricedCount ? "Budget partiel" : "Total estimé";
+  const budgetText = (build: ReturnType<typeof analyzeBuild>) => `${money(build.total)}${build.unpricedCount ? " + prix à renseigner" : ""}`;
   const warningCount = analysis.warnings.filter(
     (w) => w.severity === "warning",
   ).length;
@@ -315,7 +328,11 @@ export default function App() {
     });
   };
   const choose = (component: Component) => {
-    setSelection((s) => ({ ...s, [component.category]: component.id }));
+    setSelection((current) => component.category === "ram"
+      ? resetMemoryToKit(current, component.id)
+      : component.category === "motherboard"
+        ? arrangeMemorySlots({ ...current, motherboard: component.id })
+        : { ...current, [component.category]: component.id });
     setActiveCategory(component.category);
     setCatalogCategory(null);
     notify(`${component.name} ajouté à votre configuration`);
@@ -327,7 +344,7 @@ export default function App() {
         globalThis.crypto?.randomUUID?.() ??
         `build-${Date.now()}-${Math.random().toString(36).slice(2)}`,
       name: buildName.trim(),
-      selection: { ...selection },
+      selection: { ...selection, ...(selection.memory ? { memory: { slots: [...selection.memory.slots] } } : {}) },
       resolution,
       usage,
       savedAt: new Date().toISOString(),
@@ -360,11 +377,18 @@ export default function App() {
       "",
       ...categories.map(
         (c) =>
-          `${c.label} : ${analysis.selected[c.id]?.name || "Non sélectionné"}${analysis.selected[c.id] ? " — " + money(analysis.selected[c.id]!.price) : ""}`,
+          `${c.label} : ${analysis.selected[c.id]?.name || "Non sélectionné"}${analysis.selected[c.id] ? " — " + formatComponentPrice(analysis.selected[c.id]!) : ""}`,
       ),
       "",
-      `Total indicatif : ${money(analysis.total)}`,
-      `Consommation estimée : ${analysis.power.estimated} W`,
+      `${analysis.unpricedCount ? "Budget partiel" : "Total indicatif"} : ${budgetText(analysis)}`,
+      ...(analysis.unpricedCount ? [`Prix non renseignés : ${analysis.unpricedCount} référence(s)`] : []),
+      "",
+      `Mémoire installée : ${analysis.memory.installedCount} barrette(s) · ${analysis.memory.totalCapacityGB} Go`,
+      ...analysis.memory.slots.filter((slot) => slot.component).map((slot) => `${slot.label}${slot.supported ? "" : " (hors des emplacements de la carte mère)"} : ${slot.component!.brand} ${slot.component!.name} · ${slot.capacityGB ?? "?"} Go par barrette`),
+      `Canaux mémoire : ${analysis.memory.channelSummary}`,
+      ...analysis.memory.purchases.map((purchase) => `Achats RAM : ${purchase.kits} kit(s) ${purchase.component.name} · ${purchase.installedModules} barrette(s) installée(s) · ${purchase.spareModules} restante(s)`),
+      "",
+      `Consommation ${analysis.power.complete ? "estimée" : "partiellement renseignée"} : ${analysis.power.estimated} W`,
       "",
       "Compatibilité : " + statusText,
       ...analysis.warnings.map((w) => `${w.title} : ${w.description}`),
@@ -523,7 +547,7 @@ export default function App() {
               <span />
               Tous les détails font la différence.
             </span>
-            <span className="version">STUDIO 3.1</span>
+            <span className="version">STUDIO 4.0</span>
           </div>
         </header>
         <main>
@@ -691,6 +715,7 @@ export default function App() {
                   >
                     <PcScene
                       components={analysis.selected}
+                      memory={analysis.memory}
                       paused={fullView || !!catalogCategory || !!dialog}
                       animated={animated}
                       exploded={exploded}
@@ -707,7 +732,7 @@ export default function App() {
                   {selectedCaseProfile
                     ? `${selectedCaseProfile.widthMm} × ${selectedCaseProfile.heightMm} × ${selectedCaseProfile.depthMm} mm`
                     : "Assemblage libre"}
-                  <span>Reconstitution 3D</span>
+                  <span>{Object.values(analysis.selected).some((component) => component?.detailLevel === "partial") ? "Aperçu partiellement schématique" : "Reconstitution 3D"}</span>
                 </div>
                 <div className="viewer-bottom">
                   <span className="rotate-hint">
@@ -852,17 +877,14 @@ export default function App() {
                   </button>
                 </div>
                 {activeTab === "components" ? (
+                  <>
+                  <MemoryConfigurator selection={selection} onChange={setSelection} onBrowseMemory={() => openCatalog("ram")} />
                   <div className="parts-grid">
                     {categories.map((category, index) => {
                       const component = analysis.selected[category.id];
                       const Icon = icons[category.id];
                       const issue = component
-                        ? getCandidateIssues(
-                            selection,
-                            component,
-                            resolution,
-                            usage,
-                          ).length > 0
+                        ? getBuildIssues(analysis, category.id).length > 0
                         : false;
                       return (
                         <article
@@ -926,8 +948,8 @@ export default function App() {
                                 <Plus size={13} />
                               )}
                             </span>
-                            <strong>
-                              {component ? money(component.price) : "—"}
+                            <strong className={component?.priceStatus === "unknown" ? "price-unknown" : undefined}>
+                              {component ? formatComponentPrice(component) : "—"}
                             </strong>
                             {component && (
                               <button
@@ -952,6 +974,7 @@ export default function App() {
                       );
                     })}
                   </div>
+                  </>
                 ) : (
                   <div className="analysis-details">
                     <div className="detail-heading">
@@ -1066,7 +1089,7 @@ export default function App() {
                     aria-label={
                       errors.length
                         ? "Analyse suspendue : composants incompatibles"
-                        : `Indice d’équilibre estimé : ${displayBalance} sur 100`
+                        : analysis.balance.available === false ? "Indice indisponible : caractéristiques à compléter" : `Indice d’équilibre estimé : ${displayBalance} sur 100`
                     }
                   >
                     <defs>
@@ -1092,7 +1115,7 @@ export default function App() {
                       textAnchor="middle"
                       className="gauge-number"
                     >
-                      {errors.length ? "—" : displayBalance}
+                      {errors.length || analysis.balance.available === false ? "—" : displayBalance}
                       <tspan className="gauge-denominator">/100</tspan>
                     </text>
                     <text
@@ -1125,7 +1148,7 @@ export default function App() {
                       Processeur
                     </span>
                     <b>
-                      {analysis.balance.cpu}
+                      {analysis.balance.available === false ? "—" : analysis.balance.cpu}
                       <small> / 100</small>
                     </b>
                   </div>
@@ -1138,7 +1161,7 @@ export default function App() {
                       Carte graphique
                     </span>
                     <b>
-                      {analysis.balance.gpu}
+                      {analysis.balance.available === false ? "—" : analysis.balance.gpu}
                       <small> / 100</small>
                     </b>
                   </div>
@@ -1171,7 +1194,7 @@ export default function App() {
                       {analysis.power.estimated}
                       <span> W</span>
                     </strong>
-                    <small>consommation estimée</small>
+                    <small>{analysis.power.complete ? "consommation estimée" : "consommation connue seulement"}</small>
                   </div>
                   <span className="power-divider">/</span>
                   <div className="power-capacity">
@@ -1193,7 +1216,7 @@ export default function App() {
                 </div>
                 <div className="power-foot">
                   <span>
-                    {analysis.power.capacity >= analysis.power.recommended ? (
+                    {analysis.power.complete && analysis.power.capacity >= analysis.power.recommended ? (
                       <>
                         <Check size={12} />
                         Une marge confortable
@@ -1205,7 +1228,7 @@ export default function App() {
                       </>
                     )}
                   </span>
-                  <b>{analysis.power.recommended} W conseillés</b>
+                  <b>{analysis.power.complete ? `${analysis.power.recommended} W conseillés` : "Estimation incomplète"}</b>
                 </div>
               </section>
               <section className="recommendation-card">
@@ -1248,13 +1271,14 @@ export default function App() {
               </section>
               <section className="total-card">
                 <div className="total-label">
-                  <span>Votre configuration</span>
+                  <span>{analysis.unpricedCount ? "Budget partiel" : "Votre configuration"}</span>
                   <span>{analysis.selectedCount} composants</span>
                 </div>
                 <div className="total-price">
                   {money(analysis.total)}
-                  <span>estimés*</span>
+                  <span>{analysis.unpricedCount ? "+ prix manquants*" : "estimés*"}</span>
                 </div>
+                {analysis.unpricedCount > 0 && <p className="incomplete-budget-note">{analysis.unpricedCount} référence(s) sans prix en euros. Ce montant ne couvre pas toute la configuration.</p>}
                 <div className="total-status">
                   {errors.length ? (
                     <TriangleAlert size={13} />
@@ -1285,7 +1309,7 @@ export default function App() {
               Pensé pour les passionnés. Construit par vous.
             </span>
             <span>
-              Votre prochaine aventure commence ici.
+              <a href="./assets/catalog-license.txt" target="_blank" rel="noreferrer">Catalogue : sources et licence</a>
               <span className="footer-dot" />
             </span>
           </footer>
@@ -1293,8 +1317,8 @@ export default function App() {
       </div>
       <div className="mobile-build-summary">
         <div>
-          <span>Total estimé</span>
-          <strong>{money(analysis.total)}</strong>
+          <span>{budgetLabel}</span>
+          <strong>{money(analysis.total)}{analysis.unpricedCount ? " + ?" : ""}</strong>
         </div>
         <button
           className="button button-secondary"
@@ -1343,7 +1367,7 @@ export default function App() {
             }}
             onChoose={choose}
             onRemove={(category) => {
-              setSelection((current) => ({ ...current, [category]: null }));
+              setSelection((current) => category === "ram" ? resetMemoryToKit(current, null) : { ...current, [category]: null });
               setCatalogCategory(null);
               notify("Composant retiré de votre configuration");
             }}
@@ -1393,7 +1417,7 @@ export default function App() {
                   {analysis.selectedCount} composants sélectionnés
                 </strong>
                 <span>
-                  {money(analysis.total)} ·{" "}
+                  {budgetText(analysis)} ·{" "}
                   {resolution === "4k" ? "4K" : resolution}
                 </span>
               </div>
@@ -1443,12 +1467,12 @@ export default function App() {
                   <div className="saved-info">
                     <h3>{build.name}</h3>
                     <p>
-                      {money(
+                      {budgetText(
                         analyzeBuild(
                           build.selection,
                           build.resolution,
                           build.usage,
-                        ).total,
+                        ),
                       )}{" "}
                       · {new Date(build.savedAt).toLocaleDateString("fr-FR")}
                     </p>
@@ -1629,6 +1653,7 @@ export default function App() {
                 exploded={exploded}
                 animated={animated}
                 components={analysis.selected}
+                memory={analysis.memory}
                 openSide={openSide}
                 cameraView={cameraView}
                 activeCategory={activeCategory}

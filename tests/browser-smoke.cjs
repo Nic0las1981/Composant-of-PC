@@ -18,11 +18,12 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
   const results = [];
   const test = async (name, run) => {
     try { await run(); results.push({ name, result: 'PASS' }); console.log('PASS', name); }
-    catch (error) { results.push({ name, result: 'FAIL', error: error.message }); console.error('FAIL', name, error.message); if (!page.isClosed()) { await page.screenshot({ path: path.join(directory, `failure-${results.length}.png`), fullPage: true }).catch(()=>{}); await page.keyboard.press('Escape').catch(()=>{}); } }
+    catch (error) { results.push({ name, result: 'FAIL', error: error.message }); console.error('FAIL', name, error.message); if (!page.isClosed()) { await page.screenshot({ timeout: 60000, path: path.join(directory, `failure-${results.length}.png`), fullPage: true }).catch(()=>{}); await page.keyboard.press('Escape').catch(()=>{}); } }
   };
   const dialog = () => page.getByRole('dialog');
   const choose = async (category, product) => {
     await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
+    await dialog().getByPlaceholder('Rechercher un composant…').fill(product);
     const card = dialog().locator('.catalog-product').filter({ has: page.getByRole('heading', { name: product, exact: true }) });
     await card.getByRole('button', { name: 'Choisir', exact: true }).click();
     await page.waitForFunction(() => !document.querySelector('[role=dialog]'));
@@ -69,7 +70,7 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
     await page.keyboard.press('Tab');
     assert.equal(await dialog().getByRole('button', { name: 'Fermer le catalogue', exact: true }).evaluate(node => node === document.activeElement), true);
     // Check destinations without visiting a merchant or treating search links as verified offers.
-    await page.screenshot({ path: path.join(directory, 'unverified-price-details.png'), animations: 'disabled' });
+    await page.screenshot({ timeout: 60000, path: path.join(directory, 'unverified-price-details.png'), animations: 'disabled' });
     await page.keyboard.press('Escape');
     assert.equal(await total.locator('.total-price').textContent(), totalBefore);
   });
@@ -82,18 +83,19 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
   });
   await test('Expanded motherboard filter keeps compatible Intel DDR5 boards and DDR4 correction still works', async () => {
     await page.getByRole('button', { name: 'Choisir Carte mère', exact: true }).click();
-    const motherboardCount = await dialog().locator('.catalog-product').count();
+    const motherboardCount = parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10);
     assert.ok(motherboardCount >= 12, 'Expanded motherboard catalog must contain at least 12 options');
-    assert.equal(parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10), motherboardCount);
+    assert.equal(await dialog().locator('.catalog-product').count(), Math.min(motherboardCount, 36));
     await dialog().locator('.toggle-label').click();
     assert.equal(await dialog().getByRole('checkbox').isChecked(), true);
     await dialog().locator('.catalog-product').first().waitFor();
-    const compatibleCount = await dialog().locator('.catalog-product').count();
+    const compatibleCount = parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10);
     assert.ok(compatibleCount > 0 && compatibleCount < motherboardCount, 'Intel/DDR5 must have fitting boards and exclude incompatible options');
     assert.equal(await dialog().locator('.cp-card-status.cp-status-error').count(), 0);
-    assert.equal(parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10), compatibleCount);
+    assert.equal(await dialog().locator('.catalog-product').count(), Math.min(compatibleCount, 36));
     await dialog().locator('.toggle-label').click();
     assert.equal(await dialog().getByRole('checkbox').isChecked(), false);
+    await dialog().getByPlaceholder('Rechercher un composant…').fill('PRO B760M-A WIFI DDR4');
     await dialog().locator('.catalog-product').filter({ has: page.getByRole('heading', { name: 'PRO B760M-A WIFI DDR4', exact: true }) }).getByRole('button', { name: 'Choisir', exact: true }).click();
     assert.match(await page.locator('.compatibility-banner strong').textContent(), /incompatibilité/);
     await choose('Mémoire vive', 'Vengeance LPX 32 Go DDR4');
@@ -173,7 +175,7 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
     await dialog().getByRole('button', { name: 'Réinitialiser les filtres', exact: true }).click();
     const cpuCount = await dialog().locator('.catalog-product').count();
     assert.ok(cpuCount >= 12, 'Expanded CPU catalog must contain at least 12 options');
-    assert.equal(parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10), cpuCount);
+    assert.equal(cpuCount, Math.min(parseInt(await dialog().locator('.cp-results-summary [role="status"]').textContent(), 10), 36));
     await page.keyboard.press('Escape');
   });
   await test('Exploded mode, expanded 3D viewer and reset respond', async () => {
@@ -187,7 +189,7 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
     await dialog().getByRole('button', { name: 'Fermer la vue agrandie', exact: true }).click();
     assert.equal(await exploded.getAttribute('aria-pressed'), 'false');
   });
-  await page.screenshot({ path: path.join(directory, 'desktop-final.png'), fullPage: true });
+  await page.screenshot({ timeout: 60000, path: path.join(directory, 'desktop-final.png'), fullPage: true });
   }
   await context.close();
   const mobileContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, deviceScaleFactor: 1 });
@@ -204,17 +206,17 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
     await mobile.getByRole('button', { name: 'Choisir Processeur', exact: true }).click();
     const mobileCpuCount = await mobile.getByRole('dialog').locator('.catalog-product').count();
     assert.ok(mobileCpuCount >= 12);
-    assert.equal(parseInt(await mobile.getByRole('dialog').locator('.cp-results-summary [role="status"]').textContent(), 10), mobileCpuCount);
+    assert.equal(mobileCpuCount, Math.min(parseInt(await mobile.getByRole('dialog').locator('.cp-results-summary [role="status"]').textContent(), 10), 36));
     const bounds = await mobile.getByRole('dialog').boundingBox();
     assert.ok(bounds.x >= 0 && bounds.x + bounds.width <= 390);
     await mobile.getByRole('button', { name: 'Fermer le catalogue', exact: true }).click();
     await mobile.evaluate(() => scrollTo(0,0));
-    await mobile.screenshot({ path: path.join(directory, 'mobile.png'), fullPage: true });
+    await mobile.screenshot({ timeout: 60000, path: path.join(directory, 'mobile.png'), fullPage: true });
   });
   await test('Mobile at 360px has no horizontal overflow', async () => {
     await mobile.setViewportSize({ width: 360, height: 800 });
     assert.deepEqual(await mobile.evaluate(() => ({ width: window.innerWidth, scroll: document.documentElement.scrollWidth })), { width: 360, scroll: 360 });
-    await mobile.screenshot({ path: path.join(directory, 'mobile-360.png'), fullPage: true });
+    await mobile.screenshot({ timeout: 60000, path: path.join(directory, 'mobile-360.png'), fullPage: true });
   });
   await test('No uncaught browser runtime errors', async () => { assert.deepEqual(errors, []); });
   await fs.writeFile(path.join(directory, 'browser-results.json'), JSON.stringify({ results, errors }, null, 2));

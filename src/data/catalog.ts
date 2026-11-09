@@ -1,4 +1,5 @@
 import { catalogExpansion } from "./catalogExpansion.ts";
+import { catalogImported } from "./catalogImported.ts";
 
 export type CategoryId =
   | "cpu"
@@ -9,7 +10,10 @@ export type CategoryId =
   | "cooler"
   | "psu"
   | "case";
-export type Selection = Record<CategoryId, string | null>;
+export type Selection = Record<CategoryId, string | null> & {
+  /** Installed modules, in the physical order of motherboard slots. */
+  memory?: { slots: Array<string | null> };
+};
 export type Socket = "AM4" | "AM5" | "LGA1700";
 export type MemoryType = "DDR4" | "DDR5";
 export type FormFactor = "ATX" | "Micro-ATX" | "Mini-ITX";
@@ -24,6 +28,15 @@ export interface Component {
   brand: string;
   name: string;
   price: number;
+  priceStatus?: "estimate" | "unknown";
+  detailLevel?: "documented" | "partial";
+  source?: {
+    dataset: string;
+    url: string;
+    snapshot: string;
+    date: string;
+    rowId: string;
+  };
   description: string;
   specs: string[];
   socket?: Socket;
@@ -38,6 +51,14 @@ export interface Component {
   maxMemoryGB?: number;
   memorySticks?: number;
   memorySlots?: number;
+  memorySpeedMTs?: number;
+  casLatency?: number;
+  memoryModuleFormat?: "DIMM" | "SO-DIMM";
+  memoryRegistered?: boolean;
+  memoryEcc?: boolean;
+  memoryProfile?: "EXPO" | "XMP" | "EXPO/XMP" | "JEDEC";
+  memoryChannels?: number;
+  maxMemoryPerSlotGB?: number;
   lengthMm?: number;
   maxGpuLengthMm?: number;
   heightMm?: number;
@@ -2025,6 +2046,7 @@ export const catalog: Component[] = [
 ];
 
 catalog.push(...catalogExpansion);
+catalog.push(...catalogImported);
 
 export const defaultSelection: Selection = {
   cpu: "cpu-7800x3d",
@@ -2037,8 +2059,10 @@ export const defaultSelection: Selection = {
   case: "case-h6",
 };
 
+const componentsById = new Map(catalog.map((component) => [component.id, component]));
+
 export function getComponent(
   id: string | null | undefined,
 ): Component | undefined {
-  return catalog.find((component) => component.id === id);
+  return id ? componentsById.get(id) : undefined;
 }

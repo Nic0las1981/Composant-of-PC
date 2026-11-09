@@ -1,17 +1,27 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { catalog, getComponent, type Component } from "../src/data/catalog.ts";
-import { getPricingInfo } from "../src/data/pricing.ts";
+import { getPricingInfo, getReferencePrice, formatComponentPrice } from "../src/data/pricing.ts";
 
 test("unobserved catalogue amounts never acquire merchant provenance from a search link", () => {
   for (const component of catalog) {
     const info = getPricingInfo(component);
-    assert.equal(info.status, "estimate", component.id);
+    assert.equal(info.status, component.priceStatus === "unknown" ? "unknown" : "estimate", component.id);
     assert.equal(info.checkedAt, null, component.id);
     assert.equal(info.source, null, component.id);
     assert.equal(info.currency, "EUR");
     assert.equal(info.market, "FR");
-    assert.match(info.label, /non vérifié/i);
+    assert.match(info.label, component.priceStatus === "unknown" ? /non renseigné/i : /non vérifié/i);
+  }
+});
+
+test("an imported price is missing rather than free or converted from historical dollars", () => {
+  const imported = catalog.filter((component) => component.source);
+  assert.ok(imported.length >= 1000);
+  for (const component of imported) {
+    assert.equal(getReferencePrice(component), null, component.id);
+    assert.equal(formatComponentPrice(component), "Prix non renseigné", component.id);
+    assert.equal(getPricingInfo(component).checkedAt, null, component.id);
   }
 });
 

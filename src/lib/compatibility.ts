@@ -1,5 +1,7 @@
 import { catalog, categories, getComponent } from "../data/catalog.ts";
 import type { CategoryId, Component, Selection } from "../data/catalog.ts";
+import { getReferencePrice } from "../data/pricing.ts";
+import { arrangeMemorySlots, getMemoryAnalysis, resetMemoryToKit, type MemoryAnalysis } from "./memory.ts";
 
 export type Resolution = "1080p" | "1440p" | "4k";
 export type Usage = "gaming" | "creation" | "general";
@@ -20,16 +22,21 @@ export interface Recommendation {
 export interface BuildAnalysis {
   selected: Record<CategoryId, Component | undefined>;
   total: number;
+  totalKnown: number;
+  unpricedCount: number;
+  memory: MemoryAnalysis;
   selectedCount: number;
   status: "compatible" | "warning" | "incompatible" | "incomplete";
   warnings: CompatibilityWarning[];
   power: {
+    complete: boolean;
     estimated: number;
     recommended: number;
     capacity: number;
     headroom: number;
   };
   balance: {
+    available: boolean;
     score: number;
     cpu: number;
     gpu: number;
@@ -60,6 +67,8 @@ function analyzeBuildInternal(
       return [id, component?.category === id ? component : undefined];
     }),
   ) as Record<CategoryId, Component | undefined>;
+  const memory = getMemoryAnalysis(selection);
+  selected.ram = memory.aggregate;
   const {
     cpu,
     motherboard,
@@ -70,12 +79,12 @@ function analyzeBuildInternal(
     psu,
     case: pcCase,
   } = selected;
-  const warnings: CompatibilityWarning[] = [];
+  const warnings: CompatibilityWarning[] = [...memory.warnings];
   const recommendations: Recommendation[] = [];
   const add = (warning: CompatibilityWarning) => warnings.push(warning);
   const isSuitable = (component: Component) => {
     const candidate = analyzeBuildInternal(
-      { ...selection, [component.category]: component.id }, resolution, usage, false,
+      candidateSelection(selection, component), resolution, usage, false,
     );
     return !candidate.warnings.some(warning =>
       issueInvolvesCategory(warning, component.category)
@@ -100,7 +109,16 @@ function analyzeBuildInternal(
       recommendations.push({ id, title, description, category, componentId: safeComponentId });
   };
 
-  if (cpu && motherboard && cpu.socket !== motherboard.socket) {
+  const partial = Object.values(selected).filter(component => component?.detailLevel === "partial");
+  if (partial.length) add({
+    id: "catalog-partial", severity: "warning", title: "Fiches techniques partielles",
+    description: `Certaines caractéristiques de ${partial.map(component => component!.name).join(", ")} ne sont pas renseignées. Les contrôles portent sur les données disponibles ; vérifiez les modèles exacts avant achat.`,
+  });
+  if (cpu && motherboard && (!cpu.socket || !motherboard.socket)) add({
+    id: "socket-unknown", severity: "warning", title: "Socket à vérifier",
+    description: "Le socket du processeur ou de la carte mère n’est pas renseigné.", category: "motherboard",
+  });
+  if (cpu && motherboard && cpu.socket && motherboard.socket && cpu.socket !== motherboard.socket) {
     add({
       id: "socket",
       severity: "error",
@@ -123,69 +141,16 @@ function analyzeBuildInternal(
       match?.id,
     );
   }
-  if (ram && motherboard && ram.memoryType !== motherboard.memoryType) {
-    add({
-      id: "memory-type",
-      severity: "error",
-      title: "Mémoire incompatible",
-      description: `Cette carte mère accepte la ${motherboard.memoryType}. Le kit sélectionné est en ${ram.memoryType} : les connecteurs sont différents.`,
-      category: "ram",
-    });
-    const match = findSuitable("ram",
-      (c) =>
-        c.category === "ram" &&
-        c.memoryType === motherboard.memoryType &&
-        (c.capacityGB ?? 0) >= 32,
-    );
-    suggest(
-      "match-ram",
-      `Passez à la ${motherboard.memoryType}`,
-      "Le type de mémoire doit correspondre à celui de la carte mère.",
-      "ram",
-      match?.id,
-    );
+  if (motherboard && memory.warnings.some(warning => warning.id === "memory-type")) {
+    const match = findSuitable("ram", component => component.memoryType === motherboard.memoryType && (component.capacityGB ?? 0) >= 32);
+    suggest("match-ram", `Passez à la ${motherboard.memoryType}`,
+      "Le type de mémoire doit correspondre à celui de la carte mère.", "ram", match?.id);
   }
-  if (
-    ram &&
-    cpu &&
-    cpu.supportedMemory &&
-    !cpu.supportedMemory.includes(ram.memoryType!)
-  ) {
-    add({
-      id: "cpu-memory",
-      severity: "error",
-      title: "Mémoire non prise en charge par le CPU",
-      description: `${cpu.name} prend en charge ${cpu.supportedMemory.join(" ou ")}, pas la ${ram.memoryType}.`,
-      category: "ram",
-    });
-  }
-  if (
-    ram &&
-    motherboard &&
-    (ram.capacityGB ?? 0) > (motherboard.maxMemoryGB ?? Infinity)
-  ) {
-    add({
-      id: "memory-capacity",
-      severity: "error",
-      title: "Capacité mémoire dépassée",
-      description: `${ram.capacityGB} Go sélectionnés pour un maximum renseigné de ${motherboard.maxMemoryGB} Go.`,
-      category: "ram",
-    });
-  }
-  if (
-    ram &&
-    motherboard &&
-    (ram.memorySticks ?? 0) > (motherboard.memorySlots ?? Infinity)
-  ) {
-    add({
-      id: "memory-slots",
-      severity: "error",
-      title: "Trop de barrettes mémoire",
-      description: `Le kit contient ${ram.memorySticks} barrettes pour ${motherboard.memorySlots} emplacements.`,
-      category: "ram",
-    });
-  }
-  if (cpu && cooler && !cooler.supportedSockets?.includes(cpu.socket!)) {
+  if (cpu && cooler && (!cpu.socket || !cooler.supportedSockets)) add({
+    id: "cooler-socket-unknown", severity: "warning", title: "Fixation du refroidissement à vérifier",
+    description: "La liste des fixations ou le socket n’est pas renseigné. Consultez le kit de montage du modèle exact.", category: "cooler",
+  });
+  if (cpu?.socket && cooler?.supportedSockets && !cooler.supportedSockets.includes(cpu.socket)) {
     add({
       id: "cooler-socket",
       severity: "error",
@@ -222,10 +187,23 @@ function analyzeBuildInternal(
       findSuitable("cooler")?.id,
     );
   }
+  if (motherboard && pcCase && (!motherboard.formFactor || !pcCase.supportedFormFactors)) add({
+    id: "board-size-unknown", severity: "warning", title: "Format de carte mère à vérifier",
+    description: "Le format ou la liste des cartes mères acceptées par le boîtier n’est pas renseigné.", category: "case",
+  });
+  if (gpu && pcCase && (!isPositive(gpu.lengthMm) || !isPositive(pcCase.maxGpuLengthMm))) add({
+    id: "gpu-length-unknown", severity: "warning", title: "Dégagement GPU à vérifier",
+    description: "La longueur du GPU ou le dégagement du boîtier manque. Vérifiez également son épaisseur, sa largeur et la place des câbles.", category: "case",
+  });
+  if (cooler && cooler.coolingType !== "aio" && pcCase && (!isPositive(cooler.heightMm) || !isPositive(pcCase.maxCoolerHeightMm))) add({
+    id: "cooler-height-unknown", severity: "warning", title: "Hauteur du ventirad à vérifier",
+    description: "La hauteur du refroidissement ou le dégagement du boîtier n’est pas renseigné.", category: "cooler",
+  });
   if (
     motherboard &&
     pcCase &&
-    !pcCase.supportedFormFactors?.includes(motherboard.formFactor!)
+    motherboard.formFactor && pcCase.supportedFormFactors &&
+    !pcCase.supportedFormFactors.includes(motherboard.formFactor)
   ) {
     add({
       id: "board-size",
@@ -286,7 +264,10 @@ function analyzeBuildInternal(
   }
   if (cooler?.coolingType === "aio" && pcCase) {
     const positions = radiatorPositions(cooler, pcCase);
-    if (!positions.length) {
+    if (!cooler.radiatorSizeMm || !pcCase.radiatorSupport) {
+      add({ id: "radiator-fit-unknown", severity: "warning", title: "Emplacements de radiateur à vérifier",
+        description: "La taille du radiateur ou les emplacements pris en charge ne sont pas renseignés. L’absence de donnée ne signifie pas l’absence d’emplacement.", category: "cooler" });
+    } else if (!positions.length) {
       add({
         id: "radiator-fit",
         severity: "error",
@@ -330,7 +311,11 @@ function analyzeBuildInternal(
       }
     }
   }
-  if (psu && pcCase && !pcCase.supportedPsuFormats?.includes(psu.psuFormat!)) {
+  if (psu && pcCase && (!psu.psuFormat || !pcCase.supportedPsuFormats)) add({
+    id: "psu-format-unknown", severity: "warning", title: "Format d’alimentation à vérifier",
+    description: "Le format d’alimentation ou les formats acceptés par le boîtier ne sont pas renseignés.", category: "psu",
+  });
+  if (psu?.psuFormat && pcCase?.supportedPsuFormats && !pcCase.supportedPsuFormats.includes(psu.psuFormat)) {
     add({
       id: "psu-format",
       severity: "error",
@@ -352,7 +337,11 @@ function analyzeBuildInternal(
       match?.id,
     );
   }
-  if (storage && motherboard && (motherboard.m2Slots ?? 0) < 1) {
+  if (storage?.storageInterface === "M.2 NVMe" && motherboard && motherboard.m2Slots === undefined) add({
+    id: "storage-slot-unknown", severity: "warning", title: "Emplacement M.2 à vérifier",
+    description: "Le nombre d’emplacements M.2 NVMe de cette carte mère n’est pas renseigné. Consultez son manuel avant de choisir ce SSD.", category: "storage",
+  });
+  if (storage?.storageInterface === "M.2 NVMe" && motherboard && motherboard.m2Slots !== undefined && motherboard.m2Slots < 1) {
     add({
       id: "storage-slot",
       severity: "error",
@@ -362,31 +351,40 @@ function analyzeBuildInternal(
     });
   }
 
+  const completePower = !!cpu && !!gpu && isPositive(cpu.powerW) && isPositive(gpu.powerW);
   const basePower = selectedCount(selected) > 0 ? 65 : 0;
   const estimated = Math.ceil(
     (cpu?.powerW ?? 0) +
       (gpu?.powerW ?? 0) +
       basePower +
-      (ram ? 10 : 0) +
+      memory.installedCount * 5 +
       (storage ? 8 : 0),
   );
-  const recommended = estimated
+  const recommended = completePower && estimated
     ? Math.max(
         Math.ceil((estimated * 1.25) / 50) * 50,
         gpu?.recommendedPsuW ?? 0,
       )
     : 0;
   const capacity = psu?.wattage ?? 0;
-  const headroom = capacity ? capacity - estimated : 0;
-  if (psu && capacity < estimated) {
+  const headroom = completePower && capacity ? capacity - estimated : 0;
+  if ((cpu && !isPositive(cpu.powerW)) || (gpu && !isPositive(gpu.powerW))) add({
+    id: "power-unknown", severity: "warning", title: "Estimation électrique incomplète",
+    description: "La consommation du CPU ou du GPU n’est pas renseignée. Le total additionne les valeurs connues et les auxiliaires estimés ; la marge de l’alimentation et la puissance conseillée ne peuvent pas être confirmées.", category: "psu",
+  });
+  if (psu && !isPositive(psu.wattage)) add({
+    id: "psu-capacity-unknown", severity: "warning", title: "Puissance d’alimentation à vérifier",
+    description: "La puissance nominale de cette alimentation n’est pas renseignée.", category: "psu",
+  });
+  if (psu && isPositive(capacity) && capacity < estimated) {
     add({
       id: "psu-insufficient",
       severity: "error",
       title: "Puissance d’alimentation insuffisante",
-      description: `La charge estimée atteint ${estimated} W pour une alimentation de ${capacity} W. Visez au moins ${recommended} W.`,
+      description: completePower ? `La charge estimée atteint ${estimated} W pour une alimentation de ${capacity} W. Visez au moins ${recommended} W.` : `Les valeurs connues et auxiliaires estimés atteignent déjà ${estimated} W pour une alimentation de ${capacity} W ; la consommation totale reste à vérifier.`,
       category: "psu",
     });
-  } else if (psu && capacity < recommended) {
+  } else if (completePower && psu && isPositive(capacity) && capacity < recommended) {
     add({
       id: "psu-headroom",
       severity: "warning",
@@ -395,7 +393,7 @@ function analyzeBuildInternal(
       category: "psu",
     });
   }
-  if (psu && capacity < recommended) {
+  if (completePower && psu && isPositive(capacity) && capacity < recommended) {
     const match = findSuitable("psu",
       (c) =>
         c.category === "psu" &&
@@ -453,6 +451,7 @@ function analyzeBuildInternal(
   }
 
   const balance: BuildAnalysis["balance"] = {
+    available: false,
     score: 0,
     cpu: 0,
     gpu: 0,
@@ -461,11 +460,14 @@ function analyzeBuildInternal(
     description:
       "Ajoutez un processeur et une carte graphique pour estimer l’équilibre.",
   };
-  if (cpu && gpu) {
-    const cpuBase =
-      usage === "creation" ? (cpu.creationScore ?? 0) : (cpu.gamingScore ?? 0);
-    const gpuBase =
-      usage === "creation" ? (gpu.creationScore ?? 0) : (gpu.gamingScore ?? 0);
+  const cpuBase = usage === "creation" ? cpu?.creationScore : cpu?.gamingScore;
+  const gpuBase = usage === "creation" ? gpu?.creationScore : gpu?.gamingScore;
+  if (cpu && gpu && (!isPositive(cpuBase) || !isPositive(gpuBase))) {
+    balance.label = "Équilibre non calculable";
+    balance.description = "Le catalogue ne renseigne pas les indices de performances nécessaires pour ce CPU ou ce GPU. Aucun pourcentage de bridage ne peut être déduit de ces données manquantes.";
+  }
+  if (cpu && gpu && isPositive(cpuBase) && isPositive(gpuBase)) {
+    balance.available = true;
     const resolutionFactor =
       usage === "gaming"
         ? { "1080p": 0.78, "1440p": 1, "4k": 1.42 }[resolution]
@@ -500,14 +502,14 @@ function analyzeBuildInternal(
         usage === "gaming"
           ? "À cette définition, le processeur peut limiter les hauts débits d’images dans les jeux exigeants en calcul CPU. Un GPU plus puissant ne garantit pas plus de fluidité."
           : "Le CPU peut devenir le facteur limitant dans les tâches de calcul, compilation ou rendu CPU. Le rendu GPU dépend davantage de la carte graphique.";
-      const match = catalog
+      const match = includeRecommendations ? catalog
         .filter(
           (c) =>
             c.category === "cpu" &&
             (!motherboard || c.socket === motherboard.socket) &&
             (c.gamingScore ?? 0) > (cpu.gamingScore ?? 0),
         )
-        .sort((a, b) => (b.gamingScore ?? 0) - (a.gamingScore ?? 0))[0];
+        .sort((a, b) => (b.gamingScore ?? 0) - (a.gamingScore ?? 0))[0] : undefined;
       suggest(
         "balance-cpu",
         "Renforcez le processeur",
@@ -521,7 +523,7 @@ function analyzeBuildInternal(
         usage === "gaming"
           ? "La carte graphique devrait être le principal facteur limitant, surtout avec des réglages élevés. C’est courant en haute définition et ce n’est pas une incompatibilité."
           : "Les tâches accélérées par GPU peuvent être limitées par la carte graphique. Les tâches de rendu CPU ou de compilation peuvent se comporter autrement.";
-      const match = catalog
+      const match = includeRecommendations ? catalog
         .filter(
           (c) =>
             c.category === "gpu" &&
@@ -530,7 +532,7 @@ function analyzeBuildInternal(
               (c.lengthMm ?? Infinity) <= (pcCase.maxGpuLengthMm ?? 0)) &&
             (!psu || (c.recommendedPsuW ?? Infinity) <= (psu.wattage ?? 0)),
         )
-        .sort((a, b) => a.price - b.price)[0];
+        .sort((a, b) => (getReferencePrice(a) ?? Infinity) - (getReferencePrice(b) ?? Infinity))[0] : undefined;
       suggest(
         "balance-gpu",
         "Priorité à la carte graphique",
@@ -540,7 +542,7 @@ function analyzeBuildInternal(
       );
     }
   }
-  if (ram && (ram.capacityGB ?? 0) < (usage === "creation" ? 64 : 32)) {
+  if (includeRecommendations && ram && memory.capacityKnown && memory.totalCapacityGB < (usage === "creation" ? 64 : 32)) {
     const target = usage === "creation" ? 64 : 32;
     const match = catalog.find(
       (c) =>
@@ -567,7 +569,7 @@ function analyzeBuildInternal(
       "ssd-sn850-2",
     );
   }
-  if (!recommendations.length && cpu && gpu) {
+  if (!recommendations.length && cpu && gpu && balance.available && !warnings.some(warning => warning.severity !== "info")) {
     suggest(
       "balanced",
       "Une base cohérente",
@@ -576,18 +578,24 @@ function analyzeBuildInternal(
     );
   }
 
+  if (includeRecommendations && !recommendations.length && cpu && gpu) suggest(
+    "verify-build", "Vérifiez les caractéristiques du montage",
+    "Complétez les données manquantes et consultez les listes CPU/RAM ainsi que les dimensions du fabricant avant achat.", "motherboard",
+  );
+  const pricedComponents = Object.values(selected).filter((component): component is Component => !!component && component.category !== "ram");
+  const totalKnown = Math.round((pricedComponents.reduce((sum, component) => sum + (getReferencePrice(component) ?? 0), 0) + memory.totalPrice) * 100) / 100;
+  const unpricedCount = pricedComponents.filter(component => getReferencePrice(component) === null).length
+    + memory.purchases.filter(purchase => purchase.price === null).length
+    + new Set(memory.slots.filter(slot => slot.componentId && !slot.component).map(slot => slot.componentId)).size;
   const count = selectedCount(selected);
   const hasError = warnings.some((w) => w.severity === "error");
   const hasWarning = warnings.some((w) => w.severity === "warning");
   return {
     selected,
-    total:
-      Math.round(
-        Object.values(selected).reduce(
-          (sum, component) => sum + (component?.price ?? 0),
-          0,
-        ) * 100,
-      ) / 100,
+    total: totalKnown,
+    totalKnown,
+    unpricedCount,
+    memory,
     selectedCount: count,
     status: hasError
       ? "incompatible"
@@ -597,10 +605,20 @@ function analyzeBuildInternal(
           ? "warning"
           : "compatible",
     warnings,
-    power: { estimated, recommended, capacity, headroom },
+    power: { complete: completePower, estimated, recommended, capacity, headroom },
     balance,
     recommendations,
   };
+}
+
+function isPositive(value: unknown): value is number {
+  return typeof value === "number" && Number.isFinite(value) && value > 0;
+}
+
+function candidateSelection(selection: Selection, component: Component): Selection {
+  if (component.category === "ram") return resetMemoryToKit(selection, component.id);
+  const next = { ...selection, [component.category]: component.id };
+  return component.category === "motherboard" ? arrangeMemorySlots(next) : next;
 }
 
 function selectedCount(selected: Record<CategoryId, Component | undefined>) {
@@ -613,6 +631,9 @@ const issueCategories: Record<string, CategoryId[]> = {
   "cpu-memory": ["cpu", "ram"],
   "memory-capacity": ["ram", "motherboard"],
   "memory-slots": ["ram", "motherboard"],
+  "memory-module-capacity": ["ram", "motherboard"],
+  "memory-module-format": ["ram", "motherboard"],
+  "memory-registered": ["ram", "motherboard"],
   "cooler-socket": ["cpu", "cooler"],
   "cooler-power": ["cpu", "cooler"],
   "board-size": ["motherboard", "case"],
@@ -636,6 +657,11 @@ function radiatorPositions(cooler: Component, pcCase: Component): ("top" | "fron
   );
 }
 
+/** Current installed-state errors, without replacing an aggregate RAM selection by its source kit. */
+export function getBuildIssues(analysis: BuildAnalysis, category: CategoryId): CompatibilityWarning[] {
+  return analysis.warnings.filter(warning => warning.severity === "error" && issueInvolvesCategory(warning, category));
+}
+
 /** Blocking issues involving a candidate after it replaces its category.
  * Existing issues are intentionally retained when the candidate still causes
  * them. Unrelated conflicts do not make an otherwise fitting candidate fail.
@@ -647,7 +673,7 @@ export function getCandidateIssues(
   usage: Usage = "gaming",
 ): CompatibilityWarning[] {
   const result = analyzeBuildInternal(
-    { ...selection, [component.category]: component.id },
+    candidateSelection(selection, component),
     resolution,
     usage,
     false,

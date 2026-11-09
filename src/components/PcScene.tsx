@@ -36,6 +36,8 @@ import {
   getPsuProfile,
   getStorageProfile,
   type CaseVisualProfile,
+  type BoardVisualProfile,
+  type RamVisualProfile,
 } from "../data/visualProfiles";
 import CaseModel from "./scene/CaseModel";
 import {
@@ -47,9 +49,13 @@ import {
   PsuModel,
   StorageModel,
   getBoardAnchors,
+  getDimmSlotPosition,
+  getDimmSlotLabel,
+  DIMM_SLOT_SPACING,
   AioCoolingModel,
 } from "./scene/HardwareModels";
 import ProductArt from "./ProductArt";
+import type { MemoryAnalysis } from "../lib/memory";
 import { SceneAnimationProvider, useSceneAnimation } from "./scene/SceneAnimation";
 
 export type CameraView = "perspective" | "side" | "front";
@@ -57,6 +63,7 @@ type V3 = [number, number, number];
 type SelectedComponents = Partial<Record<CategoryId, Component | undefined>>;
 export interface PcSceneProps {
   components: SelectedComponents;
+  memory?: MemoryAnalysis;
   exploded?: boolean;
   paused?: boolean;
   animated?: boolean;
@@ -67,7 +74,27 @@ export interface PcSceneProps {
   resetKey?: number;
   className?: string;
 }
-type Hover = { category: CategoryId; x: number; y: number };
+type Hover = { category: CategoryId; x: number; y: number; slotIndex?: number; slotLabel?: string; componentId?: string; moduleCapacityGB?: number };
+type SceneRamModule = { index: number; label: string; component: Component; profile: RamVisualProfile; capacityGB: number | null };
+
+/** The drawing is bounded by real board sockets; surplus configured sticks stay in the analysis. */
+function getSceneRamModules(components: SelectedComponents, board: BoardVisualProfile, memory?: MemoryAnalysis): SceneRamModule[] {
+  if (memory) return memory.slots.flatMap((slot) => {
+    const profile = slot.component?.category === "ram" ? getRamProfile(slot.component) : undefined;
+    return slot.supported && slot.index >= 0 && slot.index < board.slots && slot.component && profile
+      ? [{ index: slot.index, label: slot.label, component: slot.component, profile, capacityGB: slot.capacityGB }]
+      : [];
+  });
+  const component = components.ram;
+  const profile = getRamProfile(component);
+  if (!component || !profile) return [];
+  const quantity = Math.max(0, Math.min(board.slots, Math.floor(component.memorySticks ?? profile.sticks)));
+  const preferred = board.slots === 4 ? [1, 3, 0, 2] : Array.from({ length: board.slots }, (_, index) => index);
+  return preferred.slice(0, quantity).sort((a, b) => a - b).map((index) => ({
+    index, label: getDimmSlotLabel(board.slots, index), component, profile,
+    capacityGB: component.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : null,
+  }));
+}
 const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
 const noRaycast = () => {};
 
@@ -98,6 +125,7 @@ function Part({
   offset = [0, 0, 0],
   exploded,
   highlight,
+  highlightSlot,
   selected,
   subdued,
   modelKey,
@@ -112,6 +140,7 @@ function Part({
   offset?: V3;
   exploded?: boolean;
   highlight: boolean;
+  highlightSlot?: number | null;
   selected: boolean;
   subdued: boolean;
   modelKey: string;
@@ -123,6 +152,8 @@ function Part({
   const ref = useRef<THREE.Group>(null);
   const animated = useSceneAnimation();
   const intensity = useRef({ highlight: 0, subdued: 0 });
+  const highlightedSlot = useRef(highlightSlot);
+  highlightedSlot.current = highlightSlot;
   // Tint each real surface only while it is being drawn. This also works for
   // instanced fan blades and AIO tubing, and preserves animated RGB materials.
   useLayoutEffect(() => {
@@ -133,13 +164,17 @@ function Part({
       if (!(object instanceof THREE.Mesh)) return;
       const before = object.onBeforeRender;
       const after = object.onAfterRender;
+      let ancestor: THREE.Object3D | null = object;
+      while (ancestor && ancestor !== ref.current && ancestor.userData.memorySlotIndex === undefined) ancestor = ancestor.parent;
+      const moduleIndex = ancestor?.userData.memorySlotIndex as number | undefined;
       type LitMaterial = THREE.Material & { color?: THREE.Color; emissive?: THREE.Color; emissiveIntensity?: number };
       const snapshots = new Map<THREE.Material, { color?: THREE.Color; emissive?: THREE.Color; emissiveIntensity?: number; active: boolean }>();
       object.onBeforeRender = function (...args) {
         before.apply(this, args);
         const material = args[4] as LitMaterial;
-        const amount = intensity.current.highlight;
-        const dim = intensity.current.subdued;
+        const matchingModule = highlightedSlot.current == null || moduleIndex == null || moduleIndex === highlightedSlot.current;
+        const amount = matchingModule ? intensity.current.highlight : 0;
+        const dim = intensity.current.subdued + (matchingModule ? 0 : intensity.current.highlight * 0.7);
         if (amount < 0.001 && dim < 0.001) return;
         let snapshot = snapshots.get(material);
         if (!snapshot) {
@@ -238,12 +273,16 @@ function Assembly({
   openSide,
   activeCategory,
   hovered,
+  hoveredSlot,
+  ramModules,
   onHover,
   onSelectCategory,
   caseProfile,
 }: PcSceneProps & {
   caseProfile: CaseVisualProfile;
   hovered: CategoryId | null;
+  hoveredSlot: number | null;
+  ramModules: SceneRamModule[];
   onHover: (id: CategoryId | null, event?: ThreeEvent<PointerEvent>) => void;
 }) {
   const p = caseProfile;
@@ -258,7 +297,6 @@ function Assembly({
   const cpu = getCpuProfile(components.cpu),
     gpu = getGpuProfile(components.gpu),
     cooler = getCoolerProfile(components.cooler),
-    ram = getRamProfile(components.ram),
     psu = getPsuProfile(components.psu),
     ssd = getStorageProfile(components.storage);
   const boardPosition: V3 = [
@@ -273,11 +311,10 @@ function Assembly({
     0,
     0,
   ]);
-  const ramPosition = add(add(boardPosition, anchors.ram), [
-    ram ? (ram.heightMm * MM) / 2 : 0,
-    0,
-    0,
-  ]);
+  const memoryKey = ramModules.map((slot) => `${slot.index}:${slot.component.id}:${slot.capacityGB}`).join("|");
+  const ramHeight = Math.max(0.25, ...ramModules.map(({ profile }) => profile.heightMm * MM));
+  const ramLength = Math.max(1.06, ...ramModules.map(({ profile }) => profile.lengthMm * MM));
+  const ramPosition = add(add(boardPosition, anchors.ram), [ramHeight / 2, 0, 0]);
   const gpuPosition: V3 = sandwich
     ? [
         -(((gpu?.thicknessMm || 50) * MM) / 2) - 0.08,
@@ -413,20 +450,22 @@ function Assembly({
             <CoolerModel component={components.cooler} profile={cooler} />
           </Part>
         ))}
-      {components.ram && ram && (
+      {ramModules.length > 0 && (
         <Part
-          {...props(
-            "ram",
-            ramPosition,
-            [1.05, 0.1, 1.1],
-            [
-              ram.heightMm * MM,
-              ram.lengthMm * MM,
-              (ram.sticks - 1) * 0.145 + ram.thicknessMm * MM,
-            ],
-          )}
+          {...props("ram", ramPosition, [1.05, 0.1, 1.1], [ramHeight + 0.04, ramLength, Math.max(0.07, (board.slots - 1) * DIMM_SLOT_SPACING + 0.06)])}
+          modelKey={`${memoryKey}-${board.id}-${openSide}`}
+          highlightSlot={hoveredSlot}
         >
-          <RamModel component={components.ram} profile={ram} />
+          {ramModules.map((slot) => {
+            const socket = getDimmSlotPosition(board, slot.index);
+            return <group key={`${slot.index}-${slot.component.id}`} position={[
+              socket[0] - anchors.ram[0] + (slot.profile.heightMm * MM - ramHeight) / 2,
+              socket[1] - anchors.ram[1],
+              socket[2] - anchors.ram[2],
+            ]}>
+              <RamModel component={slot.component} profile={slot.profile} singleModule moduleCapacityGB={slot.capacityGB} slotIndex={slot.index} slotLabel={slot.label} />
+            </group>;
+          })}
         </Part>
       )}
       {components.storage && ssd && (
@@ -658,9 +697,11 @@ export default function PcScene(props: PcSceneProps) {
     getCaseProfile(defaultSelection.case)!;
   const gpu = getGpuProfile(props.components.gpu),
     cooler = getCoolerProfile(props.components.cooler);
+  const board = getBoardProfile(props.components.motherboard) || getBoardProfile(profile.kind === "sandwich" ? "mb-a620i" : "mb-b650")!;
+  const ramModules = getSceneRamModules(props.components, board, props.memory);
   useEffect(() => {
     setHover(null);
-  }, [props.components]);
+  }, [props.components, props.memory]);
   const handleHover = (
     category: CategoryId | null,
     event?: ThreeEvent<PointerEvent>,
@@ -671,8 +712,17 @@ export default function PcScene(props: PcSceneProps) {
     }
     if (dragging.current || !event || !container.current) return;
     const bounds = container.current.getBoundingClientRect();
+    let module: THREE.Object3D | null = category === "ram" ? event.object : null;
+    while (module && module.userData.memorySlotIndex === undefined) module = module.parent;
+    const memoryHover = module ? {
+      slotIndex: Number(module.userData.memorySlotIndex),
+      slotLabel: String(module.userData.memorySlotLabel),
+      componentId: String(module.userData.memoryComponentId),
+      moduleCapacityGB: typeof module.userData.memoryModuleCapacityGB === "number" ? module.userData.memoryModuleCapacityGB : undefined,
+    } : {};
     setHover({
       category,
+      ...memoryHover,
       x: Math.max(
         10,
         Math.min(
@@ -689,7 +739,7 @@ export default function PcScene(props: PcSceneProps) {
       ),
     });
   };
-  const hovered = hover ? props.components[hover.category] : undefined;
+  const hovered = hover?.componentId ? getComponent(hover.componentId) : hover ? props.components[hover.category] : undefined;
   return (
     <div
       className={`pc-scene ${props.className || ""}`}
@@ -701,6 +751,11 @@ export default function PcScene(props: PcSceneProps) {
       data-gpu-fans={gpu?.fanCount || 0}
       data-cooler-model={cooler?.kind || ""}
       data-hover-category={hover?.category || ""}
+      data-hover-slot={hover?.slotLabel || ""}
+      data-ram-count={ramModules.length}
+      data-ram-slots={ramModules.map((slot) => slot.label).join(",")}
+      data-ram-models={ramModules.map((slot) => slot.component.id).join(",")}
+      data-ram-capacity={ramModules.reduce((total, slot) => total + (slot.capacityGB ?? 0), 0)}
       data-animation={props.animated === false || props.paused ? "paused" : "enabled"}
       style={{ cursor: hover ? "pointer" : "grab" }}
     >
@@ -762,6 +817,8 @@ export default function PcScene(props: PcSceneProps) {
                 {...props}
                 caseProfile={profile}
                 hovered={hover?.category || null}
+                hoveredSlot={hover?.slotIndex ?? null}
+                ramModules={ramModules}
                 onHover={handleHover}
               />
               <ContactShadows
@@ -809,14 +866,16 @@ export default function PcScene(props: PcSceneProps) {
           style={{ left: hover.x, top: hover.y }}
         >
           <span className="pc-hover-type">
-            {categories.find((c) => c.id === hover.category)?.label}
+            {categories.find((c) => c.id === hover.category)?.label}{hover.slotLabel ? ` · ${hover.slotLabel}` : ""}
             <span>CLIQUER POUR SÉLECTIONNER</span>
           </span>
           <strong>
             {hovered.brand} {hovered.name}
           </strong>
           <span className="pc-hover-specs">
-            {hovered.specs.slice(0, 2).join(" · ")}
+            {hover.slotLabel
+              ? [hover.moduleCapacityGB ? `${new Intl.NumberFormat("fr-FR").format(hover.moduleCapacityGB)} Go par barrette` : "Capacité non renseignée", hovered.memoryType, `Emplacement ${hover.slotLabel}`].filter(Boolean).join(" · ")
+              : hovered.specs.slice(0, 2).join(" · ")}
           </span>
         </div>
       )}

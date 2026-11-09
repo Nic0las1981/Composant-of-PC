@@ -24,6 +24,18 @@ import {
 type Vec3 = [number, number, number];
 type Props<T> = { component: Component; profile: T };
 
+/** A physical DIMM slot pitch is shared by the socket and its installed module. */
+export const DIMM_SLOT_SPACING = 0.073;
+export function getDimmSlotLabel(slotCount: number, index: number): string {
+  return slotCount <= 2
+    ? `${String.fromCharCode(65 + index)}1`
+    : `${String.fromCharCode(65 + Math.floor(index / 2))}${index % 2 + 1}`;
+}
+export function getDimmSlotPosition(profile: BoardVisualProfile, index: number): Vec3 {
+  const anchor = getBoardAnchors(profile).ram;
+  return [anchor[0], anchor[1], anchor[2] + (index - (profile.slots - 1) / 2) * DIMM_SLOT_SPACING];
+}
+
 export function getBoardAnchors(profile: BoardVisualProfile): {
   cpu: Vec3;
   ram: Vec3;
@@ -34,7 +46,7 @@ export function getBoardAnchors(profile: BoardVisualProfile): {
   return {
     cpu: [0.045, h * 0.19, -w * 0.12],
     ram: [
-      0.045,
+      0.052,
       h * (profile.formFactor === "Mini-ITX" ? 0.07 : 0.12),
       w * 0.32,
     ],
@@ -239,17 +251,17 @@ export function MotherboardModel({
       {Array.from({ length: profile.slots }, (_, i) => (
         <group
           key={i}
-          position={[
-            0.052,
-            anchors.ram[1],
-            anchors.ram[2] + (i - (profile.slots - 1) / 2) * 0.073,
-          ]}
+          name={`dimm-slot-${i}`}
+          userData={{ memorySocketIndex: i, memorySocketLabel: getDimmSlotLabel(profile.slots, i) }}
+          position={getDimmSlotPosition(profile, i)}
         >
           <MetalBox
             size={[0.07, 1.06, 0.035]}
             color={i % 2 ? "#343c40" : "#1b2225"}
             metalness={0.1}
           />
+          <MetalBox position={[0.036, 0, 0]} size={[0.005, 1.01, 0.014]} color="#0b1217" roughness={0.8} metalness={0} />
+          <HardwareLabel text={getDimmSlotLabel(profile.slots, i)} position={[0.04, -0.608, 0]} width={0.06} height={0.034} color="#a5b6ab" />
           <MetalBox
             position={[0.02, 0.55, 0]}
             size={[0.065, 0.042, 0.052]}
@@ -670,62 +682,86 @@ export function CoolerModel({
   );
 }
 
-export function RamModel({ component, profile }: Props<RamVisualProfile>) {
+export function RamModel({
+  component,
+  profile,
+  singleModule = false,
+  moduleCapacityGB,
+  slotIndex = 0,
+  slotLabel,
+}: Props<RamVisualProfile> & {
+  /** Slot-aware scenes place one module at the actual socket, not a whole kit. */
+  singleModule?: boolean;
+  moduleCapacityGB?: number | null;
+  slotIndex?: number;
+  slotLabel?: string;
+}) {
   const h = profile.heightMm * MM,
     l = profile.lengthMm * MM,
     t = profile.thicknessMm * MM;
+  const count = singleModule ? 1 : Math.max(1, profile.sticks);
+  const capacity = moduleCapacityGB ?? (component.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : undefined);
+  const bareModule = !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name);
+  // Contacts and IC packages are schematic details: package count does not
+  // assert the physical ranks, die density, or revision of the sold module.
   const contacts = useMemo<BoxInstance[]>(
     () =>
       Array.from({ length: 36 }, (_, i) => ({
-        position: [-h * 0.51, -l * 0.43 + (i * l * 0.86) / 35, 0] as Vec3,
-        size: [0.035, 0.013, 0.025] as Vec3,
+        position: [-h * 0.46, -l * 0.43 + (i * l * 0.86) / 35, 0] as Vec3,
+        size: [0.036, 0.013, Math.min(0.016, t * 0.4)] as Vec3,
       })).filter((_, i) => i !== (component.memoryType === "DDR5" ? 18 : 16)),
-    [h, l, component.memoryType],
+    [h, l, t, component.memoryType],
   );
+  const chips = useMemo<BoxInstance[]>(() => [-1, 1].flatMap((side) =>
+    Array.from({ length: 8 }, (_, i) => ({
+      position: [-h * 0.03, -l * 0.36 + i * l * 0.103, side * Math.min(0.012, t * 0.25)] as Vec3,
+      size: [h * 0.46, l * 0.072, Math.min(0.01, t * 0.18)] as Vec3,
+    }))), [h, l, t]);
   const ridges = useMemo<BoxInstance[]>(() => [-1, 1].flatMap((side) =>
     Array.from({ length: 5 }, (_, i) => ({
-      position: [h * 0.07, side * l * (0.32 + i * 0.035), t * 0.84] as Vec3,
-      size: [h * 0.66, l * 0.014, t * 0.18] as Vec3,
+      position: [h * 0.08, side * l * (0.31 + i * 0.035), t * 0.505] as Vec3,
+      size: [h * 0.64, l * 0.012, t * 0.035] as Vec3,
     }))), [h, l, t]);
   const family = component.name.split(/ · | \d+\s*(?:Go|GB)/i)[0];
+  const capacityText = capacity ? `${new Intl.NumberFormat("fr-FR").format(capacity)} Go` : "";
   return (
     <group>
-      {Array.from({ length: profile.sticks }, (_, i) => (
-        <group
+      {Array.from({ length: count }, (_, i) => {
+        const index = singleModule ? slotIndex : i;
+        const label = slotLabel ?? `DIMM ${index + 1}`;
+        return <group
           key={i}
-          position={[0, 0, (i - (profile.sticks - 1) / 2) * 0.145]}
+          name={`ram-module-${index}`}
+          userData={{ memorySlotIndex: index, memorySlotLabel: label, memoryComponentId: component.id, memoryModuleCapacityGB: capacity }}
+          position={[0, 0, singleModule ? 0 : (i - (count - 1) / 2) * DIMM_SLOT_SPACING]}
         >
-          <MetalBox size={[h * 0.83, l, t]} color="#20342b" metalness={0.1} />
-          <MetalBox
-            position={[h * 0.07, 0, 0]}
-            size={[h * 0.89, l * 0.99, t * 1.6]}
-            color={profile.heatspreaderColor}
-            roughness={0.32}
-          />
-          <BoxInstances items={contacts} color="#ba9b4c" />
-          <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />
-          {profile.rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 1.52]} rotation={[0, 0, Math.PI / 2]} phase={i * 0.13} /> :
-            <MetalBox position={[h * 0.51, 0, 0]} size={[0.034, l * 0.91, t * 1.52]} color={profile.heatspreaderColor} roughness={0.45} />}
-
-          <HardwareLabel
+          <MetalBox size={[h * 0.87, l, Math.min(0.013, t * 0.3)]} color={bareModule ? "#244b3d" : "#23382e"} metalness={0.08} roughness={0.75} />
+          <BoxInstances items={chips} color="#161d21" roughness={0.76} metalness={0.08} />
+          {!bareModule && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
+          <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
+          {!bareModule && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
+          {profile.rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
+            !bareModule && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />}
+          {!bareModule && <HardwareLabel
             text={component.brand.toUpperCase()}
-            position={[h * 0.534, 0, 0]}
+            position={[h * (profile.rgb ? 0.534 : 0.503), 0, 0]}
             rotation={[0, Math.PI / 2, Math.PI / 2]}
             width={l * 0.55}
             height={0.075}
-            color={profile.rgb ? "#3b5548" : "#b6bdc0"}
-          />
+            color={profile.rgb ? "#334b47" : "#b6bdc0"}
+          />}
           <HardwareLabel
             text={family.toUpperCase()}
-            subtext={`${component.memoryType || ""} · ${component.capacityGB || ""} Go`}
-            position={[0, 0, t * 0.81 + 0.001]}
+            subtext={[component.memoryType, capacityText].filter(Boolean).join(" · ")}
+            position={[h * 0.04, 0, bareModule ? Math.min(0.019, t * 0.4) : t * 0.527]}
             rotation={[0, 0, Math.PI / 2]}
-            width={l * 0.65}
-            height={h * 0.35}
-            color="#a5aeb2"
+            width={l * 0.64}
+            height={h * 0.31}
+            color={bareModule ? "#d4dec9" : "#aeb9ba"}
+            background={bareModule ? "#24382a" : undefined}
           />
-        </group>
-      ))}
+        </group>;
+      })}
     </group>
   );
 }

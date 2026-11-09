@@ -18,6 +18,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
   const errors = [];
   let activePage;
   const test = async (name, run) => {
+    if (process.env.FORGE_CATALOG_TEST_MATCH && !new RegExp(process.env.FORGE_CATALOG_TEST_MATCH).test(name)) return;
     try {
       await run();
       results.push({ name, result: 'PASS' });
@@ -26,7 +27,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
       results.push({ name, result: 'FAIL', error: error.message });
       console.error('FAIL', name, error.message);
       if (activePage && !activePage.isClosed()) {
-        await activePage.screenshot({ path: path.join(output, `catalog-failure-${results.length}.png`), fullPage: true }).catch(() => {});
+        await activePage.screenshot({ timeout: 60000, path: path.join(output, `catalog-failure-${results.length}.png`), fullPage: true }).catch(() => {});
         await activePage.keyboard.press('Escape').catch(() => {});
         const componentsTab = activePage.getByRole('button', { name: /^Les composants/ });
         if (await componentsTab.isVisible().catch(() => false)) await componentsTab.click().catch(() => {});
@@ -78,7 +79,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
       assert.match(await sheet.textContent(), /AM5/);
       assert.match(await sheet.textContent(), /DDR5/);
       assert.match(await sheet.textContent(), /Cœurs et threads/);
-      await page.screenshot({ path: path.join(output, 'desktop-cpu-details.png'), fullPage: true });
+      await page.screenshot({ timeout: 60000, path: path.join(output, 'desktop-cpu-details.png'), fullPage: true });
       await page.keyboard.press('Escape');
       assert.equal(await page.locator('.part-card').first().textContent(), before);
       assert.equal(await page.evaluate(() => document.activeElement?.getAttribute('aria-label')), 'Détails de Ryzen 7 7800X3D');
@@ -110,6 +111,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
         await toggle.click();
         assert.equal(await toggle.getAttribute('aria-pressed'), 'true');
       }
+      await modal.getByPlaceholder('Rechercher un composant…').fill('Core i5-14600KF');
       assert.equal(await product(page, 'Core i5-14600KF').getByRole('button', { name: 'Comparer Core i5-14600KF', exact: true }).isDisabled(), true);
       await modal.getByRole('button', { name: 'Comparer la sélection', exact: true }).click();
       const table = modal.getByRole('table');
@@ -122,7 +124,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
       const differentRows = await table.locator('tbody tr').count();
       assert.ok(differentRows > 1 && differentRows < allRows, 'Identical rows should disappear while true differences remain');
       assert.equal(await table.locator('tbody tr:not(.cp-comparison-compatibility):not(.cp-row-different)').count(), 0);
-      await page.screenshot({ path: path.join(output, 'desktop-comparison.png'), fullPage: true });
+      await page.screenshot({ timeout: 60000, path: path.join(output, 'desktop-comparison.png'), fullPage: true });
       const firstProduct = table.locator('thead th').filter({ has: page.getByRole('heading', { name: 'Ryzen 5 7600', exact: true }) });
       await firstProduct.getByRole('button', { name: 'Choisir', exact: true }).click();
       await page.waitForFunction(() => !document.querySelector('[role="dialog"]'));
@@ -140,6 +142,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
       assert.deepEqual(costs, [...costs].sort((a, b) => a - b));
       await product(page, 'Ryzen 5 7600').getByRole('button', { name: 'Comparer Ryzen 5 7600', exact: true }).click();
       await modal.getByRole('navigation', { name: 'Catégories de composants', exact: true }).getByRole('button', { name: /^GPU/ }).click();
+      await page.waitForFunction(() => document.querySelector('[aria-label="Budget maximum par composant"]')?.value === 'all');
       assert.equal(await modal.getByRole('combobox', { name: 'Budget maximum par composant', exact: true }).inputValue(), 'all');
       assert.equal(await modal.locator('.cp-compare-tray').count(), 0);
       assert.ok(await modal.locator('.catalog-product').count() >= 16);
@@ -157,7 +160,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
       assert.match(await specs.textContent(), /hors ventilateurs/);
       assert.match(await specs.textContent(), /Hauteur du bloc pompe/);
       assert.match(await modal.locator('.cp-advice').textContent(), /tuyaux/);
-      await page.screenshot({ path: path.join(output, 'desktop-watercooling-details.png'), fullPage: true });
+      await page.screenshot({ timeout: 60000, path: path.join(output, 'desktop-watercooling-details.png'), fullPage: true });
       await page.keyboard.press('Escape');
     });
 
@@ -180,7 +183,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
           await product(mobile, 'Ryzen 5 7600').getByRole('button', { name: 'Détails de Ryzen 5 7600', exact: true }).click();
           await modal.locator('.cp-detail-specs').waitFor();
           await assertFits(mobile, width);
-          await mobile.screenshot({ path: path.join(output, `mobile-details-${width}.png`), fullPage: false });
+          await mobile.screenshot({ timeout: 60000, path: path.join(output, `mobile-details-${width}.png`), fullPage: false });
           await modal.getByRole('button', { name: 'Retour aux composants', exact: true }).click();
           for (const name of ['Ryzen 5 7600', 'Ryzen 7 7700X']) {
             await product(mobile, name).getByRole('button', { name: `Comparer ${name}`, exact: true }).click();
@@ -192,7 +195,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-catalog-validation';
           assert.ok(await region.evaluate(node => node.scrollWidth > node.clientWidth), 'Comparison should scroll inside its own region on mobile');
           await region.evaluate(node => { node.scrollLeft = node.scrollWidth; });
           assert.ok(await region.evaluate(node => node.scrollLeft) > 0);
-          await mobile.screenshot({ path: path.join(output, `mobile-comparison-${width}.png`), fullPage: false });
+          await mobile.screenshot({ timeout: 60000, path: path.join(output, `mobile-comparison-${width}.png`), fullPage: false });
           await modal.getByRole('button', { name: 'Fermer le catalogue', exact: true }).click();
           assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth), width);
         } finally { await mobileContext.close(); }

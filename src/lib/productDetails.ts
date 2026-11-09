@@ -29,13 +29,14 @@ const fans = (count?: number, size?: number) => {
   return known(size) ? `${count} × ${number.format(size)} mm` : `${count} ventilateur${count > 1 ? "s" : ""}`;
 };
 
-/** Only explicit catalogue data and the selected product's visual profile are used.
+/** Only explicit catalogue data and documented product profiles are used.
+ * Schematic render dimensions never become product specifications.
  * Missing details stay absent; the comparison helper supplies the empty-state text.
  * Prices are deliberately left to the product header, where their indicative nature is shown.
  */
 export function getProductDetails(component: Component): ProductDetails {
   const rawProfile = getVisualProfile(component);
-  const profile = rawProfile?.category === component.category ? rawProfile : undefined;
+  const profile = rawProfile?.category === component.category && rawProfile.fidelity !== "schematic" ? rawProfile : undefined;
   const groups: ProductDetails["groups"] = [];
   const highlights: string[] = [];
   const advice: string[] = [];
@@ -90,17 +91,20 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Mémoire et stockage", "Type de mémoire", component.memoryType);
       add("Mémoire et stockage", "Emplacements mémoire", amount(component.memorySlots ?? board?.slots, "DIMM"));
       add("Mémoire et stockage", "Mémoire maximale", amount(component.maxMemoryGB, "Go"));
+      add("Mémoire et stockage", "Maximum par emplacement", amount(component.maxMemoryPerSlotGB, "Go"));
+      add("Mémoire et stockage", "Canaux mémoire", known(component.memoryChannels) ? String(component.memoryChannels) : undefined);
       add("Mémoire et stockage", "Emplacements M.2", known(component.m2Slots) ? String(component.m2Slots) : undefined);
       add("Connectivité", "Réseau annoncé", list(fragments.filter((value) => /Wi-?Fi|Ethernet|Bluetooth|\bLAN\b/i.test(value))));
       add("Connectivité", "Autres équipements", list(fragments.filter((value) => /PCIe|SupremeFX|HDMI|DisplayPort|Q-Flash|USB/i.test(value))));
-      highlight(component.socket, format, component.memoryType, known(component.m2Slots) ? `${component.m2Slots} M.2` : undefined);
+      highlight(component.socket, format, component.memoryType, known(component.memorySlots) ? `${component.memorySlots} emplacements RAM` : undefined);
       advice.push("Vérifiez la version du BIOS et la liste de processeurs pris en charge avant de monter le processeur.");
+      if (known(component.memorySlots)) advice.push("Le nombre d’emplacements ne correspond pas au nombre de canaux mémoire. Consultez le manuel pour répartir vos barrettes et la liste QVL pour les kits testés.");
       if (known(component.m2Slots)) advice.push("Consultez le manuel pour la génération PCIe de chaque port M.2 et les éventuels partages de lignes avec d’autres connecteurs.");
       break;
     }
     case "gpu": {
       const gpu = profile?.category === "gpu" ? profile : undefined;
-      const memory = spec(/\d+\s*Go.*GDDR/i);
+      const memory = spec(/\d+\s*Go.*GDDR/i) ?? amount(component.capacityGB, "Go");
       const length = component.lengthMm ?? gpu?.lengthMm;
       const count = component.fanCount ?? gpu?.fanCount;
       add("Carte graphique", "Mémoire vidéo", memory);
@@ -119,20 +123,30 @@ export function getProductDetails(component: Component): ProductDetails {
     case "ram": {
       const ram = profile?.category === "ram" ? profile : undefined;
       const sticks = component.memorySticks ?? ram?.sticks;
-      const speed = match(/DDR[45][\s-]+([\d ]{4,})/i)?.[1]?.replace(/\s/g, "");
-      const latency = match(/\bCL\s*(\d+)/i)?.[1];
+      const parsedSpeed = match(/DDR[45][\s-]+([\d ]{4,})/i)?.[1]?.replace(/\s/g, "");
+      const speed = component.memorySpeedMTs ?? (parsedSpeed ? Number(parsedSpeed) : undefined);
+      const latency = component.casLatency ?? match(/\bCL\s*(\d+(?:[.,]\d+)?)/i)?.[1];
+      const moduleCapacity = known(component.capacityGB) && known(sticks) && sticks > 0 ? component.capacityGB / sticks : undefined;
       const kit = part(/\d+\s*[×x]\s*\d+\s*Go/i);
       add("Kit mémoire", "Capacité totale", amount(component.capacityGB, "Go"));
       add("Kit mémoire", "Type de mémoire", component.memoryType);
-      add("Kit mémoire", "Composition du kit", kit ?? (known(sticks) ? `${sticks} barrette${sticks > 1 ? "s" : ""}` : undefined));
-      add("Réglages et dimensions", "Débit mémoire annoncé", speed ? `${number.format(Number(speed))} MT/s` : undefined);
+      add("Kit mémoire", "Composition du kit", kit ?? (known(sticks) ? known(moduleCapacity) ? `${sticks} × ${number.format(moduleCapacity)} Go` : `${sticks} barrette${sticks > 1 ? "s" : ""}` : undefined));
+      add("Kit mémoire", "Capacité par barrette", amount(moduleCapacity, "Go"));
+      add("Kit mémoire", "Format des barrettes", component.memoryModuleFormat);
+      add("Kit mémoire", "Mémoire enregistrée", component.memoryRegistered === undefined ? undefined : component.memoryRegistered ? "Registered / RDIMM" : "Non enregistrée / unbuffered");
+      add("Kit mémoire", "Correction ECC du module", component.memoryEcc === undefined ? undefined : component.memoryEcc ? "ECC" : "Non-ECC");
+      add("Réglages et dimensions", "Débit mémoire annoncé", amount(speed, "MT/s"));
       add("Réglages et dimensions", "Latence CAS", latency ? `CL${latency}` : undefined);
-      add("Réglages et dimensions", "Profil mémoire", spec(/EXPO|XMP/i));
+      add("Réglages et dimensions", "Profil mémoire", spec(/EXPO|XMP/i) ?? component.memoryProfile);
       add("Réglages et dimensions", "Hauteur des barrettes", amount(component.heightMm ?? ram?.heightMm, "mm"));
       add("Réglages et dimensions", "Éclairage", (component.rgb ?? ram?.rgb) === undefined ? undefined : (component.rgb ?? ram?.rgb) ? "RGB" : "Sans RGB");
-      highlight(amount(component.capacityGB, "Go"), component.memoryType, speed ? `${number.format(Number(speed))} MT/s` : undefined, latency ? `CL${latency}` : undefined);
+      highlight(amount(component.capacityGB, "Go"), component.memoryType, known(sticks) ? known(moduleCapacity) ? `${sticks} × ${number.format(moduleCapacity)} Go` : `${sticks} barrette${sticks > 1 ? "s" : ""}` : undefined, amount(speed, "MT/s"));
       if (speed) advice.push("Le débit annoncé peut nécessiter l’activation d’EXPO ou XMP dans le BIOS. La fréquence stable dépend du processeur, de la carte mère et du nombre de barrettes.");
-      if (known(sticks)) advice.push("Installez les barrettes dans les emplacements recommandés par le manuel de la carte mère et vérifiez leur dégagement sous le ventirad.");
+      if (known(sticks)) {
+        advice.push("La capacité indiquée est celle du kit complet. Le configurateur calcule séparément les barrettes installées, les kits à acheter et les éventuelles barrettes restantes.");
+        advice.push("Installez les barrettes dans les emplacements recommandés par le manuel de la carte mère et vérifiez leur dégagement sous le ventirad. Un mélange de kits, même de même référence, ne garantit pas le débit annoncé.");
+      }
+      if (component.memoryType === "DDR5" && component.memoryEcc === false) advice.push("L’ECC interne aux puces DDR5 (on-die ECC) ne transforme pas une barrette non-ECC en mémoire ECC système.");
       break;
     }
     case "storage": {

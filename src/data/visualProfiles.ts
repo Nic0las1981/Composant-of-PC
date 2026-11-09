@@ -1,5 +1,12 @@
 import type { CategoryId, Component, FormFactor, Socket } from "./catalog.ts";
 import {
+  importedRamProfiles,
+  importedBoardProfiles,
+  importedGpuProfiles,
+  importedStorageProfiles,
+  importedPsuProfiles,
+} from "./importedVisualProfiles.ts";
+import {
   caseProfileExpansion,
   gpuProfileExpansion,
   coolerProfileExpansion,
@@ -24,6 +31,8 @@ interface BaseVisualProfile {
   color: string;
   accent: string;
   rgb: boolean;
+  /** Schematic envelopes are display-only and are never manufacturer specs. */
+  fidelity?: "reconstructed" | "schematic";
 }
 
 export interface CaseVisualProfile extends BaseVisualProfile {
@@ -395,6 +404,7 @@ export const caseProfiles: Record<string, CaseVisualProfile> = {
 };
 
 export const gpuProfiles: Record<string, GpuVisualProfile> = {
+  ...importedGpuProfiles,
   ...gpuProfileExpansion,
   "gpu-4070s": {
     id: "gpu-4070s",
@@ -983,6 +993,7 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
 };
 
 export const ramProfiles: Record<string, RamVisualProfile> = {
+  ...importedRamProfiles,
   ...ramProfileExpansion,
   "ram-ddr5-32": {
     id: "ram-ddr5-32",
@@ -1156,6 +1167,7 @@ export const ramProfiles: Record<string, RamVisualProfile> = {
 };
 
 export const boardProfiles: Record<string, BoardVisualProfile> = {
+  ...importedBoardProfiles,
   ...boardProfileExpansion,
   "mb-b650": {
     id: "mb-b650",
@@ -1328,6 +1340,7 @@ export const boardProfiles: Record<string, BoardVisualProfile> = {
 };
 
 export const psuProfiles: Record<string, PsuVisualProfile> = {
+  ...importedPsuProfiles,
   ...psuProfileExpansion,
   "psu-rm750e": {
     id: "psu-rm750e",
@@ -1660,6 +1673,7 @@ export const cpuProfiles: Record<string, CpuVisualProfile> = {
 };
 
 export const storageProfiles: Record<string, StorageVisualProfile> = {
+  ...importedStorageProfiles,
   ...storageProfileExpansion,
   "ssd-990-1": {
     id: "ssd-990-1",

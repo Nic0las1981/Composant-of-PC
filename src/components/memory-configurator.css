@@ -1,0 +1,239 @@
+.memory-configurator {
+  --mc-border: #3a4434;
+  --mc-muted: #a4b298;
+  --mc-accent: #b7ed88;
+  color: #e5eddf;
+  background: linear-gradient(135deg, #20271d, #191f19 68%);
+  border: 1px solid #46563a;
+  border-radius: 12px;
+  padding: 22px;
+  margin: 0 0 22px;
+  min-width: 0;
+  font-size: 12px;
+}
+.memory-configurator *, .memory-configurator *::before, .memory-configurator *::after { box-sizing: border-box; }
+.memory-configurator button, .memory-configurator input, .memory-configurator select { font: inherit; }
+.memory-configurator button { cursor: pointer; }
+.memory-configurator button:disabled { cursor: default; opacity: .48; }
+.memory-configurator button:focus-visible, .memory-configurator input:focus-visible, .memory-configurator select:focus-visible { outline: 2px solid var(--mc-accent); outline-offset: 3px; }
+.memory-configurator svg { flex: 0 0 auto; }
+.memory-configurator .mc-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 19px; }
+.memory-configurator .mc-heading-copy { min-width: 0; }
+.memory-configurator .mc-eyebrow { display: flex; align-items: center; gap: 7px; font-size: 9px; font-weight: 650; letter-spacing: 1.1px; color: #b5d695; }
+.memory-configurator .mc-heading h3 { font-size: 20px; line-height: 1.4; letter-spacing: -.5px; font-weight: 600; margin: 7px 0 6px; }
+.memory-configurator .mc-heading p { color: var(--mc-muted); line-height: 1.6; font-size: 11px; margin: 0; }
+.memory-configurator .mc-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 37px; padding: 8px 12px; border: 1px solid transparent; border-radius: 7px; font-size: 11px; font-weight: 550; line-height: 1.4; }
+.memory-configurator .mc-primary { color: #203016; background: var(--mc-accent); border-color: var(--mc-accent); }
+.memory-configurator .mc-primary:hover { background: #d0ffa8; }
+.memory-configurator .mc-secondary { color: #c6d9b6; border-color: #506443; background: #2b3623; }
+.memory-configurator .mc-secondary:hover:not(:disabled) { background: #3b4d2e; border-color: #86a86a; }
+.memory-configurator .mc-browse { white-space: nowrap; flex: 0 0 auto; }
+.memory-configurator .mc-board-summary { display: flex; align-items: center; gap: 11px; border: 1px solid var(--mc-border); background: #171d17; border-radius: 8px; padding: 13px 15px; }
+.memory-configurator .mc-board-summary > svg { color: #94af7e; }
+.memory-configurator .mc-board-summary > div { flex: 1; min-width: 0; }
+.memory-configurator .mc-board-summary > div > strong { display: block; font-size: 12px; font-weight: 550; line-height: 1.5; overflow-wrap: anywhere; }
+.memory-configurator .mc-board-summary > div > span { display: block; color: #a0b190; font-size: 10px; line-height: 1.5; margin-top: 3px; }
+.memory-configurator .mc-count-badge { display: flex; flex-direction: column; gap: 2px; align-items: center; flex: 0 0 auto; border: 1px solid #526941; border-radius: 6px; background: #2b3b23; padding: 6px 10px; color: #cce6b6; font-size: 14px; }
+.memory-configurator .mc-count-badge small { font-size: 8px; color: #9eb18f; }
+.memory-configurator .mc-count-warning { border-color: #795340; background: #3f2e23; color: #ffc6a3; }
+.memory-configurator .mc-quantity-block { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 15px; align-items: center; padding: 18px 1px; }
+.memory-configurator .mc-reference { min-width: 0; }
+.memory-configurator .mc-reference > span, .memory-configurator .mc-quantity > span { display: block; color: #a4b698; font-size: 10px; margin-bottom: 6px; }
+.memory-configurator .mc-reference strong { display: block; line-height: 1.5; font-size: 12px; font-weight: 550; overflow-wrap: anywhere; }
+.memory-configurator .mc-reference small { display: block; color: #9aaa8e; line-height: 1.5; font-size: 10px; margin-top: 4px; }
+.memory-configurator .mc-quantity-buttons { display: flex; gap: 5px; flex-wrap: wrap; }
+.memory-configurator .mc-quantity-buttons > button { min-width: 37px; min-height: 37px; padding: 7px 11px; border: 1px solid #47573b; background: #242e20; color: #c4d4b6; border-radius: 6px; font-size: 13px; }
+.memory-configurator .mc-quantity-buttons > button:hover:not(:disabled) { color: #e4ffd1; border-color: #9cc17e; }
+.memory-configurator .mc-quantity-buttons > button.mc-active { color: #213016; background: #b6e88b; border-color: #caefa9; font-weight: 650; }
+.memory-configurator .mc-inline-note { grid-column: 1/-1; display: flex; align-items: flex-start; gap: 7px; margin: -2px 0 0; color: #b5bfaa; font-size: 10px; line-height: 1.6; }
+.memory-configurator .mc-inline-note svg { margin-top: 1px; }
+.memory-configurator .mc-empty { display: flex; align-items: center; gap: 15px; padding: 24px 0; }
+.memory-configurator .mc-empty > svg { color: #8ea979; }
+.memory-configurator .mc-empty > div { flex: 1; }
+.memory-configurator .mc-empty strong { display: block; font-size: 13px; }
+.memory-configurator .mc-empty p { color: #9dac92; font-size: 11px; line-height: 1.6; margin: 6px 0 0; }
+.memory-configurator .mc-slots-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 2px 0 12px; }
+.memory-configurator .mc-slots-heading > span > strong { display: block; font-size: 12px; font-weight: 550; }
+.memory-configurator .mc-slots-heading > span > small { display: block; font-size: 9px; color: #94a489; line-height: 1.5; margin-top: 4px; }
+.memory-configurator .mc-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 33px; padding: 4px 0; background: transparent; border: 0; color: #bed6aa; font-size: 10px; line-height: 1.5; }
+.memory-configurator .mc-text-button:hover:not(:disabled) { color: #dcffc2; }
+.memory-configurator .mc-slots { display: grid; grid-template-columns: repeat(var(--mc-slot-columns), minmax(0, 1fr)); gap: 9px; }
+.memory-configurator .mc-slot { border: 1px solid #36432f; border-radius: 9px; background: #151b15; min-width: 0; overflow: hidden; }
+.memory-configurator .mc-slot.mc-filled { border-color: #526c40; background: linear-gradient(180deg, #202c1b, #192018); }
+.memory-configurator .mc-slot.mc-slot-overflow { border-color: #9a6249; background: #32251f; }
+.memory-configurator .mc-slot.mc-slot-editing { border-color: #c2f19c; box-shadow: 0 0 0 1px #c2f19c; }
+.memory-configurator .mc-slot-select { display: flex; flex-direction: column; align-items: center; width: 100%; min-height: 168px; padding: 10px; color: inherit; background: transparent; border: 0; text-align: center; }
+.memory-configurator .mc-slot-select:hover:not(:disabled) { background: #9ccc6810; }
+.memory-configurator .mc-slot-select:disabled { opacity: 1; }
+.memory-configurator .mc-slot-top { display: flex; align-items: center; justify-content: space-between; gap: 5px; width: 100%; margin-bottom: 10px; }
+.memory-configurator .mc-slot-top > strong { font-size: 12px; font-weight: 650; color: #d8ecc9; }
+.memory-configurator .mc-slot-top > small { font-size: 8px; color: #97ad87; }
+.memory-configurator .mc-slot[data-memory-channel="A"] .mc-slot-top > strong { color: #c5ec9c; }
+.memory-configurator .mc-slot[data-memory-channel="B"] .mc-slot-top > strong { color: #9edce3; }
+.memory-configurator .mc-slot[data-memory-channel="C"] .mc-slot-top > strong { color: #d2b0ed; }
+.memory-configurator .mc-slot[data-memory-channel="D"] .mc-slot-top > strong { color: #edc698; }
+.memory-configurator .mc-slot-overflow .mc-slot-top > small { color: #efb195; }
+.memory-configurator .mc-dimm { display: block; position: relative; width: 69px; height: 51px; margin: 3px 0 13px; border: 1px dashed #47563c; border-radius: 4px; background: repeating-linear-gradient(90deg, #1e281a 0 5px, #25321e 5px 6px); transform: skewY(-7deg); }
+.memory-configurator .mc-dimm-filled { background: var(--mc-module-color); border: 1px solid #7a8584; box-shadow: 5px 4px 0 #0e1412; }
+.memory-configurator .mc-dimm-light { position: absolute; top: -4px; left: 4px; right: 3px; height: 6px; border-radius: 2px; background: #718276; opacity: .35; }
+.memory-configurator .mc-dimm-rgb .mc-dimm-light { background: linear-gradient(90deg, #62dce8, #9492ed, #e89ac5, #b3efda); opacity: 1; box-shadow: 0 0 8px #ac91dd5c; }
+.memory-configurator .mc-dimm-body { display: grid; place-items: center; position: absolute; inset: 8px 6px; color: #b6c6b9; border-top: 1px solid #bacac141; border-bottom: 1px solid #bacac141; }
+.memory-configurator .mc-dimm:not(.mc-dimm-filled) .mc-dimm-body { border: 0; color: #718765; }
+.memory-configurator .mc-dimm-pins { position: absolute; bottom: -6px; left: 4px; right: 4px; height: 6px; background: repeating-linear-gradient(90deg, #bdac6c 0 3px, #383c2a 3px 4px); border-radius: 0 0 1px 1px; opacity: .35; }
+.memory-configurator .mc-dimm-filled .mc-dimm-pins { opacity: 1; }
+.memory-configurator .mc-slot-capacity { font-size: 14px; font-weight: 550; letter-spacing: -.2px; color: #dbe8d2; }
+.memory-configurator .mc-slot:not(.mc-filled) .mc-slot-capacity { color: #a0b48f; font-size: 12px; }
+.memory-configurator .mc-slot-name { font-size: 9px; line-height: 1.55; color: #a2b395; margin-top: 5px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; overflow-wrap: anywhere; min-height: 28px; }
+.memory-configurator .mc-slot-remove { display: flex; align-items: center; justify-content: center; gap: 5px; width: calc(100% - 16px); margin: 0 8px 7px; border: 0; border-top: 1px solid #4c5a4055; background: transparent; color: #a6b996; padding: 6px 3px; min-height: 28px; font-size: 9px; }
+.memory-configurator .mc-slot-remove:hover { color: #ffd0b9; }
+.memory-configurator .mc-overflow-note { display: flex; gap: 8px; align-items: flex-start; color: #f2bfa3; font-size: 11px; line-height: 1.65; padding: 11px 13px; border: 1px solid #79533c; background: #36291f; border-radius: 7px; margin: 12px 0 0; }
+.memory-configurator .mc-overflow-note svg { margin-top: 2px; }
+.memory-configurator .mc-customize-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 8px 0 0; }
+.memory-configurator .mc-rotated { transform: rotate(180deg); }
+.memory-configurator .mc-clear { color: #b1aa96; }
+.memory-configurator .mc-customize-help { font-size: 11px; line-height: 1.65; color: #a7b39e; margin: 4px 0 16px; }
+.memory-configurator .mc-picker { border: 1px solid #6d8756; border-radius: 9px; background: #151d14; padding: 18px; margin: 14px 0 20px; }
+.memory-configurator .mc-picker-heading { scroll-margin-top: 100px; display: flex; align-items: flex-start; justify-content: space-between; gap: 15px; margin-bottom: 15px; }
+.memory-configurator .mc-picker-heading h4 { font-size: 15px; line-height: 1.5; margin: 6px 0; font-weight: 550; }
+.memory-configurator .mc-picker-heading p { font-size: 10px; color: #a8b69b; line-height: 1.65; margin: 0; }
+.memory-configurator .mc-icon-button { display: grid; place-items: center; width: 32px; height: 32px; flex: 0 0 32px; border: 1px solid #46563b; border-radius: 6px; color: #c0ceb5; background: #263220; padding: 0; }
+.memory-configurator .mc-search-row { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(120px, 1fr); gap: 9px; }
+.memory-configurator .mc-search { display: flex; align-items: center; gap: 8px; background: #10170f; border: 1px solid #4a613c; border-radius: 6px; color: #8ca778; padding: 0 11px; }
+.memory-configurator .mc-search input { width: 100%; min-width: 0; min-height: 39px; color: #e2edd9; border: 0; background: transparent; outline: 0; font-size: 11px; }
+.memory-configurator .mc-search input::placeholder { color: #819477; }
+.memory-configurator .mc-search-row select { min-width: 0; min-height: 39px; border: 1px solid #465b39; border-radius: 6px; background: #222e1c; color: #c4d8b4; padding: 7px 9px; font-size: 11px; }
+.memory-configurator .mc-picker-filters { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 12px 0 14px; }
+.memory-configurator .mc-picker-filters label { display: flex; align-items: center; gap: 7px; font-size: 10px; color: #afc19e; line-height: 1.5; cursor: pointer; }
+.memory-configurator .mc-picker-filters input { accent-color: var(--mc-accent); width: 15px; height: 15px; margin: 0; }
+.memory-configurator .mc-picker-filters > span { color: #a3b395; font-size: 9px; white-space: nowrap; }
+.memory-configurator .mc-picker-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.memory-configurator .mc-picker-result { display: flex; flex-direction: column; align-items: stretch; text-align: left; min-width: 0; padding: 12px; border: 1px solid #3d5032; border-radius: 7px; background: #212b1c; color: #d8e7cc; }
+.memory-configurator .mc-picker-result:hover { border-color: #8bb169; background: #2c3a23; }
+.memory-configurator .mc-picker-result.mc-result-current { border-color: #b0d78f; }
+.memory-configurator .mc-result-brand { display: flex; align-items: center; justify-content: space-between; gap: 5px; color: #90b377; font-size: 9px; margin-bottom: 5px; }
+.memory-configurator .mc-result-brand > span { display: inline-flex; align-items: center; gap: 3px; color: #c2e6a4; font-size: 8px; }
+.memory-configurator .mc-picker-result > strong { font-size: 11px; line-height: 1.6; font-weight: 550; overflow-wrap: anywhere; margin-bottom: 7px; }
+.memory-configurator .mc-result-specs, .memory-configurator .mc-picker-result > small { color: #a9bd99; font-size: 9px; line-height: 1.7; }
+.memory-configurator .mc-result-bottom { display: flex; justify-content: space-between; gap: 7px; align-items: flex-end; margin-top: auto; padding-top: 11px; font-size: 9px; color: #b5cda3; }
+.memory-configurator .mc-result-bottom > span:last-child { display: flex; align-items: center; gap: 4px; color: #d6f4bc; }
+.memory-configurator .mc-picker-empty { display: flex; align-items: center; flex-direction: column; text-align: center; padding: 25px 12px; color: #a0b88e; gap: 8px; }
+.memory-configurator .mc-picker-empty strong { color: #dcead1; font-size: 13px; }
+.memory-configurator .mc-picker-empty p { font-size: 11px; line-height: 1.6; margin: 0 0 7px; }
+.memory-configurator .mc-pagination { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 14px; }
+.memory-configurator .mc-pagination > span { font-size: 10px; color: #a7bb96; white-space: nowrap; }
+.memory-configurator .mc-pagination .mc-button { font-size: 10px; padding: 7px 10px; }
+.memory-configurator .mc-installed-summary { display: grid; grid-template-columns: 1fr 1.3fr; gap: 18px; padding: 16px 0; border-top: 1px solid var(--mc-border); margin-top: 16px; }
+.memory-configurator .mc-installed-summary > div > span { display: block; font-size: 10px; color: #a3b698; margin-bottom: 6px; }
+.memory-configurator .mc-installed-summary strong { display: block; font-size: 23px; line-height: 1.4; font-weight: 600; letter-spacing: -.7px; color: #d4f0bc; }
+.memory-configurator .mc-installed-summary strong.mc-price-incomplete { font-size: 16px; letter-spacing: -.3px; color: #d3c99e; }
+.memory-configurator .mc-installed-summary small { display: block; font-size: 9px; color: #9cab91; margin-top: 4px; line-height: 1.6; }
+.memory-configurator .mc-operating-info { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+.memory-configurator .mc-operating-info > div { border: 1px solid #3a4b30; border-radius: 7px; padding: 12px; background: #1c2519; }
+.memory-configurator .mc-operating-info span { font-size: 10px; color: #a7c38e; font-weight: 550; }
+.memory-configurator .mc-operating-info p { font-size: 10px; color: #b9c9ae; line-height: 1.7; margin: 6px 0 0; }
+.memory-configurator .mc-purchases { border-top: 1px solid var(--mc-border); padding-top: 14px; }
+.memory-configurator .mc-purchases h4 { display: flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 550; margin: 0 0 11px; }
+.memory-configurator .mc-purchase { display: flex; align-items: center; gap: 11px; padding: 11px 0; border-bottom: 1px solid #3b463335; }
+.memory-configurator .mc-kit-count { flex: 0 0 43px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 42px; padding: 5px; border: 1px solid #526841; border-radius: 6px; background: #29381f; color: #cce9b2; font-size: 14px; }
+.memory-configurator .mc-kit-count small { font-size: 8px; }
+.memory-configurator .mc-purchase > div { flex: 1; min-width: 0; }
+.memory-configurator .mc-purchase > div > strong { display: block; font-size: 11px; line-height: 1.5; font-weight: 500; overflow-wrap: anywhere; }
+.memory-configurator .mc-purchase > div > span { display: block; font-size: 9px; line-height: 1.7; color: #a2b590; margin-top: 3px; }
+.memory-configurator .mc-purchase > strong { flex: 0 0 auto; font-size: 12px; font-weight: 500; color: #d2e6c1; }
+.memory-configurator .mc-purchase > strong.mc-purchase-unknown { font-size: 10px; color: #c8bc96; }
+.memory-configurator .mc-purchase-note { display: flex; align-items: flex-start; gap: 6px; color: #98ab88; font-size: 9px; line-height: 1.7; margin: 11px 0 0; }
+.memory-configurator .mc-purchase-note svg { margin-top: 1px; }
+.memory-configurator .mc-checks { margin-top: 16px; border: 1px solid #52613d; border-radius: 8px; overflow: hidden; background: #272d20; }
+.memory-configurator .mc-checks.mc-has-errors { border-color: #8b5946; background: #32251f; }
+.memory-configurator .mc-checks-toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; border: 0; background: transparent; color: #c5d2aa; padding: 12px 14px; text-align: left; font-size: 11px; }
+.memory-configurator .mc-checks-toggle > span { display: inline-flex; gap: 7px; align-items: center; }
+.memory-configurator .mc-has-errors .mc-checks-toggle { color: #f3bea0; }
+.memory-configurator .mc-check-count { border-radius: 4px; font-size: 9px; background: #adb58321; padding: 1px 6px; }
+.memory-configurator .mc-warning-list { border-top: 1px solid #5e654035; padding: 0 14px; }
+.memory-configurator .mc-warning { display: flex; gap: 8px; align-items: flex-start; padding: 12px 0; }
+.memory-configurator .mc-warning + .mc-warning { border-top: 1px solid #60674626; }
+.memory-configurator .mc-warning > svg { margin-top: 1px; color: #c2d4a0; }
+.memory-configurator .mc-warning strong { font-size: 11px; font-weight: 550; color: #d4dfbf; }
+.memory-configurator .mc-warning p { font-size: 10px; line-height: 1.7; margin: 4px 0 0; color: #b8c0a5; }
+.memory-configurator .mc-warning-error > svg, .memory-configurator .mc-warning-error strong { color: #f0b39a; }
+.memory-configurator .mc-warning-error p { color: #d4b8a6; }
+@media (max-width: 850px) {
+  .memory-configurator { padding: 18px; }
+  .memory-configurator .mc-heading h3 { font-size: 18px; }
+  .memory-configurator .mc-heading { gap: 12px; }
+  .memory-configurator .mc-quantity-block { grid-template-columns: 1fr; gap: 13px; }
+  .memory-configurator .mc-quantity > span { display: inline-block; margin-right: 10px; }
+  .memory-configurator .mc-quantity-buttons { display: inline-flex; vertical-align: middle; }
+  .memory-configurator .mc-slots { gap: 6px; }
+  .memory-configurator .mc-slot-select { padding: 9px 7px; }
+  .memory-configurator .mc-slot-top { flex-direction: column; gap: 3px; }
+  .memory-configurator .mc-dimm { width: 54px; height: 48px; }
+  .memory-configurator .mc-purchase > strong.mc-purchase-unknown { max-width: 85px; text-align: right; line-height: 1.5; }
+}
+@media (max-width: 600px) {
+  .memory-configurator { padding: 15px 12px; margin-bottom: 16px; border-radius: 9px; }
+  .memory-configurator .mc-heading { flex-direction: column; gap: 11px; margin-bottom: 14px; }
+  .memory-configurator .mc-heading h3 { font-size: 18px; letter-spacing: -.45px; }
+  .memory-configurator .mc-heading p { font-size: 10px; }
+  .memory-configurator .mc-eyebrow { font-size: 8px; letter-spacing: .9px; }
+  .memory-configurator .mc-browse { min-height: 35px; font-size: 10px; align-self: flex-start; }
+  .memory-configurator .mc-board-summary { padding: 11px; gap: 8px; }
+  .memory-configurator .mc-board-summary > svg { display: none; }
+  .memory-configurator .mc-board-summary > div > strong { font-size: 11px; }
+  .memory-configurator .mc-board-summary > div > span { font-size: 9px; }
+  .memory-configurator .mc-count-badge { padding: 5px 8px; font-size: 13px; }
+  .memory-configurator .mc-quantity-block { padding: 15px 0; }
+  .memory-configurator .mc-reference strong { font-size: 11px; }
+  .memory-configurator .mc-quantity > span { display: block; margin-bottom: 8px; }
+  .memory-configurator .mc-quantity-buttons { display: flex; }
+  .memory-configurator .mc-quantity-buttons > button { min-width: 42px; min-height: 39px; font-size: 13px; }
+  .memory-configurator .mc-slots-heading { align-items: flex-start; gap: 8px; }
+  .memory-configurator .mc-slots-heading > span > strong { font-size: 11px; }
+  .memory-configurator .mc-slots-heading > span > small { font-size: 8px; }
+  .memory-configurator .mc-slots-heading > .mc-text-button { font-size: 9px; flex: 0 0 90px; align-items: flex-start; line-height: 1.4; padding-top: 1px; }
+  .memory-configurator .mc-slots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .memory-configurator .mc-slot-top { flex-direction: row; gap: 5px; }
+  .memory-configurator .mc-slot-select { min-height: 155px; padding: 10px; }
+  .memory-configurator .mc-slot-capacity { font-size: 14px; }
+  .memory-configurator .mc-slot-name { font-size: 9px; }
+  .memory-configurator .mc-slot-remove { min-height: 31px; }
+  .memory-configurator .mc-dimm { width: 65px; height: 47px; }
+  .memory-configurator .mc-customize-row { flex-wrap: wrap; gap: 0 12px; }
+  .memory-configurator .mc-customize-row > .mc-text-button { font-size: 10px; min-height: 38px; }
+  .memory-configurator .mc-customize-help { font-size: 10px; }
+  .memory-configurator .mc-overflow-note { padding: 10px; font-size: 10px; }
+  .memory-configurator .mc-picker { padding: 13px 10px; margin: 10px -3px 18px; }
+  .memory-configurator .mc-picker-heading { gap: 9px; }
+  .memory-configurator .mc-picker-heading h4 { font-size: 14px; }
+  .memory-configurator .mc-picker-heading p { font-size: 9px; }
+  .memory-configurator .mc-search-row { grid-template-columns: 1fr; gap: 8px; }
+  .memory-configurator .mc-search input, .memory-configurator .mc-search-row select { min-height: 42px; font-size: 11px; }
+  .memory-configurator .mc-picker-filters { align-items: flex-start; }
+  .memory-configurator .mc-picker-filters label { font-size: 9px; }
+  .memory-configurator .mc-picker-filters > span { font-size: 8px; }
+  .memory-configurator .mc-picker-results { grid-template-columns: 1fr; gap: 7px; }
+  .memory-configurator .mc-picker-result { padding: 12px; }
+  .memory-configurator .mc-picker-result > strong { font-size: 12px; }
+  .memory-configurator .mc-result-specs, .memory-configurator .mc-picker-result > small { font-size: 10px; }
+  .memory-configurator .mc-result-bottom { font-size: 10px; }
+  .memory-configurator .mc-result-brand { font-size: 10px; }
+  .memory-configurator .mc-pagination .mc-button { font-size: 9px; padding: 7px; }
+  .memory-configurator .mc-pagination > span { font-size: 9px; }
+  .memory-configurator .mc-installed-summary { grid-template-columns: 1fr 1.2fr; gap: 11px; margin-top: 12px; padding: 14px 0; }
+  .memory-configurator .mc-installed-summary strong { font-size: 21px; }
+  .memory-configurator .mc-installed-summary strong.mc-price-incomplete { font-size: 14px; }
+  .memory-configurator .mc-installed-summary > div > span { font-size: 9px; }
+  .memory-configurator .mc-installed-summary small { font-size: 8px; }
+  .memory-configurator .mc-operating-info { grid-template-columns: 1fr; gap: 8px; }
+  .memory-configurator .mc-operating-info > div { padding: 11px; }
+  .memory-configurator .mc-purchase { flex-wrap: wrap; gap: 8px; }
+  .memory-configurator .mc-purchase > div > strong { font-size: 10px; }
+  .memory-configurator .mc-purchase > div > span { font-size: 9px; }
+  .memory-configurator .mc-purchase > strong { margin-left: 52px; font-size: 11px; }
+  .memory-configurator .mc-purchase > strong.mc-purchase-unknown { max-width: none; font-size: 10px; }
+  .memory-configurator .mc-checks-toggle { font-size: 10px; padding: 11px; }
+  .memory-configurator .mc-warning-list { padding: 0 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .memory-configurator * { transition: none !important; }
+}

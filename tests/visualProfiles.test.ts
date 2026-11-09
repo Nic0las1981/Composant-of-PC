@@ -1,6 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { catalog, getComponent } from "../src/data/catalog.ts";
+import { catalogImported } from "../src/data/catalogImported.ts";
+import { createImportedVisualProfile } from "../src/data/importedVisualProfiles.ts";
+import { getProductDetails } from "../src/lib/productDetails.ts";
 import {
   MM,
   visualProfiles,
@@ -29,7 +32,9 @@ test("every selected catalog model has a matching visual profile, and no orphan 
 
 test("visible GPU lengths and cooler heights agree with compatibility dimensions", () => {
   for (const component of catalog.filter((c) => c.category === "gpu")) {
-    assert.equal(getGpuProfile(component)?.lengthMm, component.lengthMm);
+    if (component.lengthMm !== undefined)
+      assert.equal(getGpuProfile(component)?.lengthMm, component.lengthMm);
+    else assert.equal(getGpuProfile(component)?.fidelity, "schematic");
   }
   for (const component of catalog.filter((c) => c.category === "cooler")) {
     assert.equal(getCoolerProfile(component)?.heightMm, component.heightMm);
@@ -87,7 +92,7 @@ test("hardware geometry changes with GPU model and air cooler type", () => {
 test("lighting follows selected products instead of adding RGB to every component", () => {
   const rgbRam = Object.values(ramProfiles).filter((p) => p.rgb);
   assert.ok(rgbRam.length >= 4);
-  assert.ok(rgbRam.every((p) => getComponent(p.id)?.name.includes("RGB")));
+  assert.ok(rgbRam.every((p) => /RGB/i.test(getComponent(p.id)?.name || "")));
   assert.equal(ramProfiles["ram-ddr5-64"].rgb, false);
   assert.equal(gpuProfiles["gpu-4070s"].rgb, false);
   assert.equal(gpuProfiles["gpu-4080s"].rgb, true);
@@ -198,7 +203,7 @@ test("catalog expansion covers diverse platforms without orphan IDs or invalid p
   assert.ok(catalog.length >= 200);
   assert.equal(new Set(catalog.map((c) => c.id)).size, catalog.length);
   for (const component of catalog) {
-    assert.ok(component.price > 0);
+    assert.ok(component.price > 0 || (component.priceStatus === "unknown" && component.price === 0));
     const profile = getVisualProfile(component)!;
     for (const [key, value] of Object.entries(profile)) {
       if (key.endsWith("Mm"))
@@ -210,4 +215,48 @@ test("catalog expansion covers diverse platforms without orphan IDs or invalid p
   }
   assert.equal(gpuProfiles["gpu-5070-fe"].fanLayout, "flow-through");
   assert.equal(gpuProfiles["gpu-7800xt"].fanLayout ?? "inline", "inline");
+});
+
+test("imported references retain explicit schematic provenance without inventing catalogue facts", () => {
+  assert.ok(catalogImported.length >= 1000);
+  for (const component of catalogImported) {
+    const before = JSON.stringify(component);
+    const profile = createImportedVisualProfile(component);
+    assert.ok(profile, component.id);
+    assert.equal(profile.id, component.id);
+    assert.equal(profile.category, component.category);
+    assert.equal(profile.fidelity, "schematic");
+    assert.equal(JSON.stringify(component), before, `Rendering must not mutate ${component.id}`);
+    assert.ok(component.source?.url, component.id);
+    assert.ok(!profile.rgb || component.rgb === true, `No undocumented RGB for ${component.id}`);
+    if (component.category === "ram") {
+      assert.equal(ramProfiles[component.id].sticks, component.memorySticks);
+    }
+    if (component.category === "motherboard") {
+      assert.equal(boardProfiles[component.id].slots, component.memorySlots);
+    }
+  }
+});
+
+test("schematic dimensions and fan templates are not displayed as imported product specifications", () => {
+  const gpu = catalogImported.find((component) => component.category === "gpu"
+    && component.heightMm === undefined && component.thicknessMm === undefined && component.fanCount === undefined);
+  assert.ok(gpu);
+  const profile = getGpuProfile(gpu)!;
+  assert.ok(profile.heightMm > 0 && profile.thicknessMm > 0 && profile.fanCount > 0);
+  const details = getProductDetails(gpu).groups.flatMap((group) => group.rows);
+  assert.ok(!details.some((row) => ["Hauteur", "Épaisseur", "Ventilateurs"].includes(row.label)));
+  if (gpu.lengthMm !== undefined) assert.ok(details.some((row) => row.label === "Longueur"));
+  if (gpu.rgb === undefined) assert.ok(!details.some((row) => row.label === "Éclairage"));
+});
+
+test("an explicitly named Heat Sink is visible on the imported SSD", () => {
+  const ssd = catalogImported.find((component) => component.category === "storage" && /with Heat Sink/i.test(component.name));
+  assert.ok(ssd);
+  const profile = getVisualProfile(ssd);
+  assert.equal(profile?.category, "storage");
+  if (profile?.category !== "storage") return;
+  assert.equal(profile.hasHeatsink, true);
+  assert.equal(profile.fidelity, "schematic");
+  assert.equal(ssd.heightMm, undefined, "A visible heatsink does not establish its actual height");
 });

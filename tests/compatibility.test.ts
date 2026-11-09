@@ -55,7 +55,7 @@ test('resolution changes potential limiter, without reporting benchmark FPS', ()
 });
 
 test('incomplete and invalid selections cannot appear fully compatible', () => {
-  const empty = Object.fromEntries(categories.map(c => [c.id, null])) as Selection;
+  const empty = Object.fromEntries(categories.map(c => [c.id, null])) as unknown as Selection;
   const result = analyzeBuild(empty);
   assert.equal(result.status, 'incomplete');
   assert.equal(result.selectedCount, 0);
@@ -193,4 +193,33 @@ test('catalog-wide single replacements never recommend a known incompatible alte
     }
   }
   assert.ok(checked >= catalog.length, 'The complete expanded catalog must exercise recommendation validation');
+});
+
+
+test('imported GPUs without performance or power data produce no invented bottleneck or PSU margin', () => {
+  const gpu = catalog.find(component => component.category === 'gpu' && component.source
+    && component.gamingScore === undefined && component.creationScore === undefined && component.powerW === undefined)!;
+  assert.ok(gpu, 'expected an imported GPU with explicitly partial specifications');
+  for (const usage of ['gaming', 'creation', 'general'] as const) {
+    const analysis = analyzeBuild({ ...defaultSelection, gpu: gpu.id }, '1440p', usage);
+    assert.equal(analysis.balance.available, false);
+    assert.equal(analysis.balance.limiter, 'unknown');
+    assert.equal(analysis.power.complete, false);
+    assert.equal(analysis.power.headroom, 0);
+    assert.equal(analysis.power.recommended, 0);
+    assert.ok(analysis.warnings.some(warning => warning.id === 'power-unknown'));
+    assert.equal(analysis.recommendations.some(recommendation => ['balance-cpu', 'balance-gpu', 'more-power', 'balanced'].includes(recommendation.id)), false);
+    assert.equal(analysis.unpricedCount, 1);
+    assert.equal(analysis.totalKnown, Math.round((analyzeBuild(defaultSelection).totalKnown - getComponent(defaultSelection.gpu)!.price) * 100) / 100);
+  }
+});
+
+test('an unknown M.2 count on an imported motherboard is a check to perform, not a missing-slot error', () => {
+  const board = catalog.find(component => component.category === 'motherboard' && component.source
+    && component.socket === 'AM5' && component.memoryType === 'DDR5' && component.m2Slots === undefined)!;
+  assert.ok(board, 'expected an imported AM5 board with M.2 data absent');
+  const analysis = analyzeBuild({ ...defaultSelection, motherboard: board.id });
+  assert.ok(analysis.warnings.some(warning => warning.id === 'storage-slot-unknown' && warning.severity === 'warning'));
+  assert.equal(analysis.warnings.some(warning => warning.id === 'storage-slot'), false);
+  assert.equal(getCandidateIssues({ ...defaultSelection, motherboard: board.id }, getComponent('ssd-990-1')!).some(warning => warning.id === 'storage-slot'), false);
 });

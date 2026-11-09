@@ -98,6 +98,50 @@ test("memory transfer rate and CAS latency come from explicit specs, without inv
   assert.ok(!Object.hasOwn(noProfile, "Capacité totale"));
 });
 
+test("memory details distinguish kit capacity, module capacity and documented electrical properties", () => {
+  const kit: Component = {
+    ...sparse("ram"), memoryType: "DDR5", capacityGB: 96, memorySticks: 4,
+    memorySpeedMTs: 6400, casLatency: 32, memoryModuleFormat: "DIMM",
+    memoryRegistered: false, memoryEcc: false, memoryProfile: "XMP",
+  };
+  const rows = rowsFor(kit);
+  assert.equal(rows["Capacité totale"], "96 Go");
+  assert.equal(rows["Composition du kit"], "4 × 24 Go");
+  assert.equal(rows["Capacité par barrette"], "24 Go");
+  assert.equal(rows["Format des barrettes"], "DIMM");
+  assert.equal(rows["Débit mémoire annoncé"]?.replace(/\s/g, ""), "6400MT/s");
+  assert.equal(rows["Latence CAS"], "CL32");
+  assert.equal(rows["Profil mémoire"], "XMP");
+  assert.equal(rows["Mémoire enregistrée"], "Non enregistrée / unbuffered");
+  assert.equal(rows["Correction ECC du module"], "Non-ECC");
+  const unknown = rowsFor({ ...sparse("ram"), memoryType: "DDR5", capacityGB: 32 });
+  for (const label of ["Composition du kit", "Capacité par barrette", "Format des barrettes", "Mémoire enregistrée", "Correction ECC du module", "Profil mémoire"])
+    assert.equal(unknown[label], undefined, label);
+  const comparison = getComparisonRows([kit, { ...kit, capacityGB: 48, memorySticks: 2 }]);
+  assert.deepEqual(comparison.find((row) => row.label === "Capacité totale")?.values, ["96 Go", "48 Go"]);
+  assert.deepEqual(comparison.find((row) => row.label === "Capacité par barrette")?.values, ["24 Go", "24 Go"]);
+});
+
+test("motherboard memory slots and channels remain separate documented specifications", () => {
+  const board = rowsFor({
+    ...sparse("motherboard"), memorySlots: 4, memoryChannels: 2,
+    maxMemoryGB: 192, maxMemoryPerSlotGB: 48,
+  });
+  assert.equal(board["Emplacements mémoire"], "4 DIMM");
+  assert.equal(board["Canaux mémoire"], "2");
+  assert.equal(board["Mémoire maximale"], "192 Go");
+  assert.equal(board["Maximum par emplacement"], "48 Go");
+  const incomplete = rowsFor({ ...sparse("motherboard"), memorySlots: 4, maxMemoryGB: 128 });
+  assert.equal(incomplete["Canaux mémoire"], undefined);
+  assert.equal(incomplete["Maximum par emplacement"], undefined);
+});
+
+test("known GPU memory capacity does not imply an undocumented GDDR generation", () => {
+  const gpu = rowsFor({ ...sparse("gpu"), capacityGB: 12 });
+  assert.equal(gpu["Mémoire vidéo"], "12 Go");
+  assert.deepEqual(Object.keys(gpu), ["Mémoire vidéo"]);
+});
+
 test("combined expansion specs keep each fact under the correct label", () => {
   const cpu = rowsFor(getComponent("cpu-5700x3d")!);
   assert.equal(cpu["Puissance annoncée"], "105 W de base");

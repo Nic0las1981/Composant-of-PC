@@ -5,7 +5,8 @@ import type { CategoryId, Component, Selection } from '../data/catalog';
 import { analyzeBuild, getCandidateIssues } from '../lib/compatibility';
 import type { Resolution, Usage } from '../lib/compatibility';
 import { getComparisonRows, getProductDetails } from '../lib/productDetails';
-import { getPricingInfo, pricingPolicy } from "../data/pricing";
+import { getPricingInfo, getReferencePrice, formatComponentPrice, pricingPolicy } from "../data/pricing";
+import { getMemoryAnalysis, memorySpeed as getMemorySpeed, resetMemoryToKit } from "../lib/memory";
 import ProductArt from './ProductArt';
 import './catalog-panel.css';
 
@@ -23,6 +24,8 @@ export interface CatalogPanelProps {
 
 type View = 'list' | 'detail' | 'compare';
 type Sort = 'recommended' | 'price-up' | 'price-down' | 'name';
+const PAGE_SIZE = 36;
+const categoryCounts = Object.fromEntries(categories.map(({ id }) => [id, catalog.filter((component) => component.category === id).length]));
 const categoryIcons = { cpu: Cpu, motherboard: CircuitBoard, gpu: Monitor, ram: MemoryStick, storage: HardDrive, cooler: Fan, psu: PlugZap, case: PcCase };
 const euro = (value: number) => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(value);
 const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -41,6 +44,13 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
   const [maxPrice, setMaxPrice] = useState('all');
   const [compatibleOnly, setCompatibleOnly] = useState(false);
   const [coolingType, setCoolingType] = useState('all');
+  const [memoryType, setMemoryType] = useState('all');
+  const [capacity, setCapacity] = useState('all');
+  const [modules, setModules] = useState('all');
+  const [boardSlots, setBoardSlots] = useState('all');
+  const [socket, setSocket] = useState('all');
+  const [memorySpeed, setMemorySpeed] = useState('all');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [differencesOnly, setDifferencesOnly] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -53,6 +63,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
 
   function resetFilters() {
     setSearch(''); setBrand('all'); setSort('recommended'); setMaxPrice('all'); setCompatibleOnly(false); setCoolingType('all');
+    setMemoryType('all'); setCapacity('all'); setModules('all'); setBoardSlots('all'); setSocket('all'); setMemorySpeed('all'); setVisibleCount(PAGE_SIZE);
   }
 
   useEffect(() => {
@@ -82,34 +93,55 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
     previousView.current = view;
   }, [view]);
 
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [search, brand, sort, maxPrice, compatibleOnly, coolingType, memoryType, capacity, modules, boardSlots, socket, memorySpeed]);
+
   const candidates = useMemo(() => catalog.filter((component) => component.category === category).map((component) => ({
     component,
     issues: getCandidateIssues(selection, component, resolution, usage),
+    searchable: normalize(`${component.brand} ${component.name} ${component.description} ${component.specs.join(' ')}`),
   })), [category, selection, resolution, usage]);
   const brands = useMemo(() => [...new Set(candidates.map(({ component }) => component.brand))].sort((a, b) => a.localeCompare(b, 'fr')), [candidates]);
+  const capacities = useMemo(() => [...new Set(candidates.map(({ component }) => component.capacityGB).filter((value): value is number => typeof value === 'number' && value > 0))].sort((a, b) => a - b), [candidates]);
+  const speeds = useMemo(() => [...new Set(candidates.map(({ component }) => getMemorySpeed(component)).filter((value): value is number => value !== null))].sort((a, b) => a - b), [candidates]);
+  const moduleCounts = useMemo(() => [...new Set(candidates.map(({ component }) => component.memorySticks).filter((value): value is number => typeof value === 'number' && value > 0))].sort((a, b) => a - b), [candidates]);
+  const slotCounts = useMemo(() => [...new Set(candidates.map(({ component }) => component.memorySlots).filter((value): value is number => typeof value === 'number' && value > 0))].sort((a, b) => a - b), [candidates]);
+  const memoryAnalysis = useMemo(() => category === 'ram' ? getMemoryAnalysis(selection) : null, [category, selection]);
   const results = useMemo(() => {
     const words = normalize(search).trim().split(/\s+/).filter(Boolean);
-    const items = candidates.filter(({ component, issues }) => {
-      const haystack = normalize(`${component.brand} ${component.name} ${component.description} ${component.specs.join(' ')}`);
-      return words.every((word) => haystack.includes(word))
+    const items = candidates.filter(({ component, issues, searchable }) => {
+      const price = getReferencePrice(component);
+      const speed = getMemorySpeed(component);
+      return words.every((word) => searchable.includes(word))
         && (brand === 'all' || component.brand === brand)
-        && (maxPrice === 'all' || component.price <= Number(maxPrice))
+        && (maxPrice === 'all' || (price !== null && price <= Number(maxPrice)))
+        && (memoryType === 'all' || component.memoryType === memoryType)
+        && (capacity === 'all' || component.capacityGB === Number(capacity))
+        && (modules === 'all' || component.memorySticks === Number(modules))
+        && (boardSlots === 'all' || component.memorySlots === Number(boardSlots))
+        && (socket === 'all' || component.socket === socket)
+        && (memorySpeed === 'all' || speed === Number(memorySpeed))
         && (!compatibleOnly || issues.length === 0)
         && (coolingType === 'all' || component.coolingType === coolingType);
     });
     return items.sort((a, b) => {
-      if (sort === 'price-up') return a.component.price - b.component.price;
-      if (sort === 'price-down') return b.component.price - a.component.price;
+      if (sort === 'price-up' || sort === 'price-down') {
+        const left = getReferencePrice(a.component), right = getReferencePrice(b.component);
+        if (left === null || right === null) return left === null ? right === null ? 0 : 1 : -1;
+        return sort === 'price-up' ? left - right : right - left;
+      }
       if (sort === 'name') return a.component.name.localeCompare(b.component.name, 'fr');
       return Number(a.issues.length > 0) - Number(b.issues.length > 0);
     });
-  }, [candidates, search, brand, maxPrice, compatibleOnly, coolingType, sort]);
-  const filterCount = [search.trim() !== '', brand !== 'all', maxPrice !== 'all', compatibleOnly, coolingType !== 'all'].filter(Boolean).length;
+  }, [candidates, search, brand, maxPrice, compatibleOnly, coolingType, sort, memoryType, capacity, modules, boardSlots, socket, memorySpeed]);
+  const visibleResults = results.slice(0, visibleCount);
+  const filterCount = [search.trim() !== '', brand !== 'all', maxPrice !== 'all', compatibleOnly, coolingType !== 'all', memoryType !== 'all', capacity !== 'all', modules !== 'all', boardSlots !== 'all', socket !== 'all', memorySpeed !== 'all'].filter(Boolean).length;
   const detail = productForCategory(detailId, category);
   const details = detail ? getProductDetails(detail) : undefined;
   const pricing = detail ? getPricingInfo(detail) : undefined;
   const detailIssues = detail ? candidates.find((item) => item.component.id === detail.id)?.issues ?? [] : [];
-  const detailAnalysis = useMemo(() => detail ? analyzeBuild({ ...selection, [category]: detail.id }, resolution, usage) : null, [detail, category, selection, resolution, usage]);
+  const detailAnalysis = useMemo(() => detail ? analyzeBuild(category === 'ram' ? resetMemoryToKit(selection, detail.id) : { ...selection, [category]: detail.id }, resolution, usage) : null, [detail, category, selection, resolution, usage]);
   const detailWarnings = detailAnalysis?.warnings.filter((warning) => warning.severity !== 'error' && warning.category === category) ?? [];
   const compared = compareIds.map((id) => productForCategory(id, category)).filter((item): item is Component => Boolean(item));
   const comparisonRows = getComparisonRows(compared).filter((row) => !differencesOnly || new Set(row.values).size > 1);
@@ -133,12 +165,16 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
     setCompareIds((current) => current.includes(component.id) ? current.filter((id) => id !== component.id) : current.length < 3 ? [...current, component.id] : current);
   }
   function priceDelta(component: Component) {
-    if (!selected || selected.id === component.id) return null;
-    const delta = component.price - selected.price;
+    if (!selected || (selected.id === component.id && !selection.memory)) return null;
+    const candidatePrice = getReferencePrice(component);
+    const currentPrice = memoryAnalysis ? memoryAnalysis.priceKnown ? memoryAnalysis.totalPrice : null : getReferencePrice(selected);
+    if (candidatePrice === null || currentPrice === null) return null;
+    const delta = candidatePrice - currentPrice;
+    if (delta === 0) return null;
     return <span className={`cp-price-delta ${delta <= 0 ? 'cp-saving' : ''}`}>{delta > 0 ? '+' : delta < 0 ? '−' : ''}{euro(Math.abs(delta))} sur votre configuration</span>;
   }
   function chooseButton(component: Component, className = '') {
-    const isSelected = selection[category] === component.id;
+    const isSelected = selection[category] === component.id && !(category === 'ram' && selection.memory);
     return <button type="button" className={`cp-button cp-primary ${isSelected ? 'cp-chosen' : ''} ${className}`} onClick={() => onChoose(component)}>
       {isSelected ? <Check size={15} aria-hidden="true" /> : <ArrowRight size={15} aria-hidden="true" />}{isSelected ? 'Sélectionné' : 'Choisir'}
     </button>;
@@ -154,7 +190,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       {categories.map((item) => {
         const Icon = categoryIcons[item.id];
         return <button type="button" key={item.id} aria-current={category === item.id ? 'page' : undefined} className={category === item.id ? 'cp-active' : ''} onClick={() => { if (item.id !== category) onCategoryChange(item.id); }}>
-          <Icon size={17} aria-hidden="true" /><span>{item.shortLabel}</span><small>{catalog.filter((component) => component.category === item.id).length}</small>
+          <Icon size={17} aria-hidden="true" /><span>{item.shortLabel}</span><small>{categoryCounts[item.id]}</small>
           {selection[item.id] && <span className="cp-category-dot" aria-label="Composant choisi" />}
         </button>;
       })}
@@ -169,28 +205,37 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
         <div className="cp-filters">
           <label className="cp-field"><span>Marque</span><select aria-label="Filtrer par marque" value={brand} onChange={(event) => setBrand(event.target.value)}><option value="all">Toutes les marques</option>{brands.map((name) => <option key={name} value={name}>{name}</option>)}</select></label>
           <label className="cp-field"><span>Budget maximum</span><select aria-label="Budget maximum par composant" value={maxPrice} onChange={(event) => setMaxPrice(event.target.value)}><option value="all">Tous les prix</option>{[50, 100, 150, 200, 300, 500, 750, 1000, 1500, 2000].map((price) => <option key={price} value={price}>{euro(price)}</option>)}</select></label>
-          <label className="toggle-label cp-compatible"><input type="checkbox" checked={compatibleOnly} onChange={(event) => setCompatibleOnly(event.target.checked)} /><span className="cp-switch" aria-hidden="true" /><span>Compatibles avec<br className="cp-desktop-break" /> mes composants</span></label>
+          <label className="toggle-label cp-compatible"><input type="checkbox" checked={compatibleOnly} onChange={(event) => setCompatibleOnly(event.target.checked)} /><span className="cp-switch" aria-hidden="true" /><span>Sans conflit connu<br className="cp-desktop-break" /> avec mes composants</span></label>
           {filterCount > 0 && <button type="button" className="cp-reset" onClick={resetFilters}><X size={13} aria-hidden="true" />Réinitialiser les filtres <span>{filterCount}</span></button>}
         </div>
+        {maxPrice !== 'all' && <p className="cp-budget-note">Le budget filtre les prix renseignés. Les références sans prix sont masquées.</p>}
         {category === 'cooler' && <div className="cp-cooling" aria-label="Type de refroidissement">{[{ id: 'all', label: 'Tout' }, { id: 'air', label: 'Ventirads' }, { id: 'aio', label: 'Watercooling' }].map((type) => <button key={type.id} type="button" aria-pressed={coolingType === type.id} className={coolingType === type.id ? 'cp-active' : ''} onClick={() => setCoolingType(type.id)}>{type.label}</button>)}</div>}
       </div>
+      {(category === 'ram' || category === 'motherboard' || category === 'storage') && <div className="cp-specific-filters" aria-label="Caractéristiques du composant">
+        {(category === 'ram' || category === 'motherboard') && <label className="cp-field"><span>Génération mémoire</span><select aria-label="Filtrer par génération mémoire" value={memoryType} onChange={(event) => setMemoryType(event.target.value)}><option value="all">Toutes les générations</option><option value="DDR4">DDR4</option><option value="DDR5">DDR5</option></select></label>}
+        {(category === 'ram' || category === 'storage') && <label className="cp-field"><span>{category === 'ram' ? 'Capacité du kit' : 'Capacité'}</span><select aria-label="Filtrer par capacité" value={capacity} onChange={(event) => setCapacity(event.target.value)}><option value="all">Toutes les capacités</option>{capacities.map((value) => <option key={value} value={value}>{value >= 1000 && category === 'storage' ? `${value / 1000} To` : `${value} Go`}</option>)}</select></label>}
+        {category === 'ram' && <><label className="cp-field"><span>Barrettes dans le kit</span><select aria-label="Filtrer par nombre de barrettes" value={modules} onChange={(event) => setModules(event.target.value)}><option value="all">Tous les kits</option>{moduleCounts.map((value) => <option key={value} value={value}>{value} barrette{value > 1 ? 's' : ''}</option>)}</select></label><label className="cp-field"><span>Débit annoncé</span><select aria-label="Filtrer par débit mémoire" value={memorySpeed} onChange={(event) => setMemorySpeed(event.target.value)}><option value="all">Tous les débits</option>{speeds.map((value) => <option key={value} value={value}>{value} MT/s</option>)}</select></label></>}
+        {category === 'motherboard' && <><label className="cp-field"><span>Emplacements RAM</span><select aria-label="Filtrer par emplacements mémoire" value={boardSlots} onChange={(event) => setBoardSlots(event.target.value)}><option value="all">Tous les emplacements</option>{slotCounts.map((value) => <option key={value} value={value}>{value} emplacements</option>)}</select></label><label className="cp-field"><span>Socket processeur</span><select aria-label="Filtrer par socket" value={socket} onChange={(event) => setSocket(event.target.value)}><option value="all">Tous les sockets</option>{['AM4', 'AM5', 'LGA1700'].map((value) => <option key={value} value={value}>{value}</option>)}</select></label></>}
+      </div>}
+      {category === 'ram' && <p className="cp-kit-note">Vous choisissez ici une référence de kit. Le nombre de barrettes installées et les emplacements se règlent ensuite dans votre configuration.</p>}
 
       <div className="cp-results-summary"><div><h3>{categoryLabel}</h3><span role="status">{results.length} composant{results.length > 1 ? 's' : ''}</span></div><span className="cp-compare-hint"><GitCompareArrows size={14} aria-hidden="true" />Comparez jusqu’à 3 modèles</span></div>
       <div className="cp-products">
-        {results.map(({ component, issues }) => {
+        {visibleResults.map(({ component, issues }) => {
           const isSelected = selection[category] === component.id;
           const isCompared = compareIds.includes(component.id);
           return <article className={`catalog-product cp-product ${isSelected ? 'cp-is-selected' : ''}`} key={component.id}>
             <div className="cp-card-top"><span className="cp-brand">{component.brand}</span>{isSelected ? <span className="cp-selected-badge"><CheckCheck size={12} aria-hidden="true" />Votre choix</span> : <button type="button" className={`cp-compare-toggle ${isCompared ? 'cp-active' : ''}`} aria-label={`Comparer ${component.name}`} aria-pressed={isCompared} disabled={!isCompared && compareIds.length >= 3} onClick={() => toggleComparison(component)}>{isCompared ? <Check size={13} aria-hidden="true" /> : <GitCompareArrows size={13} aria-hidden="true" />}Comparer</button>}</div>
             <button type="button" className="cp-product-art" aria-label={`Voir les détails de ${component.name}`} onClick={() => openDetail(component)}><ProductArt category={component.category} brand={component.brand} component={component} detailed /><span className="cp-art-more">Explorer<ChevronRight size={12} aria-hidden="true" /></span></button>
             <div className="cp-card-info"><h3>{component.name}</h3><p>{component.description}</p><div className="cp-spec-tags">{getProductDetails(component).highlights.slice(0, 3).map((spec, index) => <span key={`${index}-${spec}`}>{spec}</span>)}</div></div>
-            <div className={`cp-card-status ${issues.length ? 'cp-status-error' : ''}`}>{issues.length ? <CircleAlert size={13} aria-hidden="true" /> : <ShieldCheck size={13} aria-hidden="true" />}<span>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''} de compatibilité` : 'Aucun conflit détecté'}</span></div>
-            <div className="cp-card-price"><strong>{euro(component.price)}<small>indicatif</small></strong>{priceDelta(component)}</div>
+            <div className={`cp-card-status ${issues.length ? 'cp-status-error' : component.detailLevel === 'partial' ? 'cp-status-partial' : ''}`}>{issues.length ? <CircleAlert size={13} aria-hidden="true" /> : component.detailLevel === 'partial' ? <Info size={13} aria-hidden="true" /> : <ShieldCheck size={13} aria-hidden="true" />}<span>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''} de compatibilité` : component.detailLevel === 'partial' ? 'À vérifier · données partielles' : 'Aucun conflit détecté'}</span></div>
+            <div className="cp-card-price"><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}{getReferencePrice(component) !== null && <small>indicatif</small>}</strong>{priceDelta(component)}</div>
             <div className="cp-card-actions"><button type="button" className="cp-button cp-secondary" aria-label={`Détails de ${component.name}`} data-cp-details={component.id} onClick={() => openDetail(component)}>Détails</button>{chooseButton(component)}</div>
             {isSelected && <button type="button" className={`cp-current-compare ${isCompared ? 'cp-active' : ''}`} aria-label={`Comparer ${component.name}`} aria-pressed={isCompared} disabled={!isCompared && compareIds.length >= 3} onClick={() => toggleComparison(component)}>{isCompared ? <Check size={13} aria-hidden="true" /> : <GitCompareArrows size={13} aria-hidden="true" />}Comparer votre choix</button>}
           </article>;
         })}
       </div>
+      {results.length > 0 && <div className="cp-pagination"><span>{visibleResults.length} sur {results.length} références affichées</span>{visibleCount < results.length && <button type="button" className="cp-button cp-secondary" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>Afficher {Math.min(PAGE_SIZE, results.length - visibleCount)} composants de plus<ArrowRight size={14} /></button>}</div>}
       {results.length === 0 && <div className="cp-empty"><SlidersHorizontal size={30} aria-hidden="true" /><h3>Aucun composant trouvé</h3><p>Essayez une autre recherche ou élargissez vos filtres.</p><button type="button" className="cp-button cp-primary" onClick={resetFilters}>Réinitialiser les filtres</button></div>}
       <div className="cp-list-footer"><p><Info size={13} aria-hidden="true" />{pricingPolicy.description}</p>{selected && <button type="button" className="cp-text-button" onClick={() => onRemove(category)}><Trash2 size={14} aria-hidden="true" />Retirer ce composant</button>}</div>
     </>}
@@ -198,18 +243,19 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
     {view === 'detail' && detail && details && <>
       <button type="button" ref={backRef} className="cp-back" onClick={() => setView('list')}><ArrowLeft size={16} aria-hidden="true" />Retour aux composants</button>
       <section className="cp-detail-hero" aria-labelledby="cp-product-name">
-        <div className="cp-detail-art"><span className="cp-detail-category">{details.categoryLabel}</span><ProductArt category={detail.category} brand={detail.brand} component={detail} detailed /><p>Visuel reconstitué. Vérifiez la fiche du fabricant et les dégagements avant achat.</p></div>
-        <div className="cp-detail-intro"><span className="cp-brand">{detail.brand}</span><h3 id="cp-product-name">{detail.name}</h3><p>{detail.description}</p><div className="cp-detail-highlights">{details.highlights.map((item, index) => <span key={`${index}-${item}`}>{item}</span>)}</div><div className="cp-detail-price"><strong>{euro(detail.price)}</strong><span>Prix indicatif</span>{priceDelta(detail)}</div><div className="cp-detail-actions">{chooseButton(detail)}<button type="button" className={`cp-button cp-secondary ${compareIds.includes(detail.id) ? 'cp-active' : ''}`} aria-pressed={compareIds.includes(detail.id)} disabled={!compareIds.includes(detail.id) && compareIds.length >= 3} onClick={() => toggleComparison(detail)}>{compareIds.includes(detail.id) ? <Check size={15} aria-hidden="true" /> : <GitCompareArrows size={15} aria-hidden="true" />}Comparer</button></div></div>
+        <div className="cp-detail-art"><span className="cp-detail-category">{details.categoryLabel}</span><ProductArt category={detail.category} brand={detail.brand} component={detail} detailed /><p>{detail.detailLevel === 'partial' ? 'Aperçu schématique : les volumes non renseignés sont illustratifs.' : 'Visuel reconstitué. Vérifiez la fiche du fabricant et les dégagements avant achat.'}</p></div>
+        <div className="cp-detail-intro"><span className="cp-brand">{detail.brand}</span><h3 id="cp-product-name">{detail.name}</h3><p>{detail.description}</p><div className="cp-detail-highlights">{details.highlights.map((item, index) => <span key={`${index}-${item}`}>{item}</span>)}</div><div className="cp-detail-price"><strong className={getReferencePrice(detail) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(detail)}</strong>{getReferencePrice(detail) !== null && <span>Prix indicatif</span>}{priceDelta(detail)}</div><div className="cp-detail-actions">{chooseButton(detail)}<button type="button" className={`cp-button cp-secondary ${compareIds.includes(detail.id) ? 'cp-active' : ''}`} aria-pressed={compareIds.includes(detail.id)} disabled={!compareIds.includes(detail.id) && compareIds.length >= 3} onClick={() => toggleComparison(detail)}>{compareIds.includes(detail.id) ? <Check size={15} aria-hidden="true" /> : <GitCompareArrows size={15} aria-hidden="true" />}Comparer</button></div></div>
       </section>
+      {detail.source && <section className="cp-source" aria-label="Origine des caractéristiques"><div><strong><Info size={15} />Caractéristiques partielles</strong><p>Référence issue de {detail.source.dataset}, relevé du {new Intl.DateTimeFormat('fr-FR', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(detail.source.date))}. Les mesures absentes ne sont pas déduites du visuel. Les informations et la disponibilité peuvent avoir évolué.</p></div><a href={detail.source.url} target="_blank" rel="noopener noreferrer">Consulter la source<ArrowUpRight size={14} /></a></section>}
       {pricing && <section className="cp-offers" aria-label="Prix et offres du composant">
         <div><strong><Info size={15} />{pricing.label}</strong><p>{pricing.description} Comparez la même référence, capacité et finition.</p></div>
         <div className="cp-offer-links">{pricing.searchLinks.map((link) => <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" title={`${link.label} (nouvel onglet)`}>{link.label}<ArrowUpRight size={14} /></a>)}</div>
       </section>}
       <section className="cp-detail-compatibility" aria-labelledby="cp-compatibility-title"><h3 id="cp-compatibility-title"><ShieldCheck size={18} aria-hidden="true" />Dans votre configuration</h3>
-        {detailIssues.length === 0 && <div className="cp-notice cp-notice-success"><Check size={16} aria-hidden="true" /><div><strong>Aucun conflit détecté avec vos composants</strong><p>Contrôle selon les caractéristiques renseignées. Les emplacements encore vides seront vérifiés après leur sélection.</p></div></div>}
+        {detailIssues.length === 0 && <div className={`cp-notice ${detail.detailLevel === 'partial' ? 'cp-notice-warning' : 'cp-notice-success'}`}><Info size={16} aria-hidden="true" /><div><strong>{detail.detailLevel === 'partial' ? 'Aucun conflit connu · vérifications incomplètes' : 'Aucun conflit détecté avec vos composants'}</strong><p>Contrôle selon les caractéristiques renseignées. {detail.detailLevel === 'partial' ? 'Les dimensions et caractéristiques absentes doivent être vérifiées auprès du fabricant.' : 'Les emplacements encore vides seront vérifiés après leur sélection.'}</p></div></div>}
         {detailIssues.map((issue) => <div className="cp-notice cp-notice-error" key={issue.id}><CircleAlert size={16} aria-hidden="true" /><div><strong>{issue.title}</strong><p>{issue.description}</p></div></div>)}
         {detailWarnings.map((warning) => <div className="cp-notice cp-notice-warning" key={warning.id}><Info size={16} aria-hidden="true" /><div><strong>{warning.title}</strong><p>{warning.description}</p></div></div>)}
-        {(category === 'cpu' || category === 'gpu') && detailAnalysis?.selected.cpu && detailAnalysis?.selected.gpu && <div className="cp-notice"><GitCompareArrows size={16} aria-hidden="true" /><div><strong>Équilibre CPU / GPU · {resolution === '4k' ? '4K' : resolution}</strong><p>{detailAnalysis.balance.description}</p><small>Estimation indicative selon l’usage choisi, sans mesure de performances en jeu.</small></div></div>}
+        {(category === 'cpu' || category === 'gpu') && detailAnalysis?.selected.cpu && detailAnalysis?.selected.gpu && <div className="cp-notice"><GitCompareArrows size={16} aria-hidden="true" /><div><strong>Équilibre CPU / GPU · {resolution === '4k' ? '4K' : resolution}</strong><p>{detailAnalysis.balance.description}</p>{detailAnalysis.balance.limiter !== 'unknown' && <small>Estimation indicative selon l’usage choisi, sans mesure de performances en jeu.</small>}</div></div>}
       </section>
       <div className="cp-detail-specs">{details.groups.map((group) => <section key={group.title}><h3>{group.title}</h3><dl>{group.rows.map((row) => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>)}</div>
       {details.advice.length > 0 && <section className="cp-advice"><h3><Info size={17} aria-hidden="true" />Les détails à vérifier</h3><ul>{details.advice.map((advice, index) => <li key={index}>{advice}</li>)}</ul></section>}
@@ -219,8 +265,8 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       <button type="button" ref={backRef} className="cp-back" onClick={() => setView('list')}><ArrowLeft size={16} aria-hidden="true" />Retour aux composants</button>
       <div className="cp-comparison-heading"><div><h3>{compared.length} modèles, côte à côte.</h3><p>Comparez les caractéristiques qui comptent pour votre configuration.</p></div><label className="cp-differences"><input type="checkbox" checked={differencesOnly} onChange={(event) => setDifferencesOnly(event.target.checked)} />Afficher les différences uniquement</label></div>
       <p className="cp-scroll-hint">Faites glisser le tableau de côté pour voir les autres modèles.</p>
-      <div className="cp-comparison-scroll" role="region" aria-label="Tableau comparatif des composants" tabIndex={0}><table className="cp-comparison-table"><caption className="cp-sr-only">Comparaison de {compared.map((component) => component.name).join(', ')}</caption><thead><tr><th scope="col"><span>{categoryLabel}</span><small>Prix indicatifs</small></th>{compared.map((component) => <th scope="col" key={component.id}><div className="cp-comparison-product"><ProductArt category={component.category} brand={component.brand} component={component} detailed /><span className="cp-brand">{component.brand}</span><h3>{component.name}</h3><strong>{euro(component.price)}</strong><a className="cp-offer-link" href={getPricingInfo(component).comparisonUrl} target="_blank" rel="noopener noreferrer">Comparer les offres<ArrowUpRight size={12} /></a>{chooseButton(component)}<button type="button" className="cp-text-button" onClick={() => { setDetailId(component.id); setView('detail'); }}>Voir la fiche<ChevronRight size={12} aria-hidden="true" /></button></div></th>)}</tr></thead><tbody>
-        <tr className="cp-comparison-compatibility"><th scope="row">Compatibilité actuelle</th>{compared.map((component) => { const issues = candidates.find((item) => item.component.id === component.id)?.issues ?? []; return <td key={component.id}><span className={issues.length ? 'cp-table-error' : 'cp-table-ok'}>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''}` : 'Aucun conflit détecté'}</span>{issues.map((issue) => <small key={issue.id}>{issue.title}</small>)}</td>; })}</tr>
+      <div className="cp-comparison-scroll" role="region" aria-label="Tableau comparatif des composants" tabIndex={0}><table className="cp-comparison-table"><caption className="cp-sr-only">Comparaison de {compared.map((component) => component.name).join(', ')}</caption><thead><tr><th scope="col"><span>{categoryLabel}</span><small>Prix indicatifs</small></th>{compared.map((component) => <th scope="col" key={component.id}><div className="cp-comparison-product"><ProductArt category={component.category} brand={component.brand} component={component} detailed /><span className="cp-brand">{component.brand}</span><h3>{component.name}</h3><strong className={getReferencePrice(component) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(component)}</strong><a className="cp-offer-link" href={getPricingInfo(component).comparisonUrl} target="_blank" rel="noopener noreferrer">Comparer les offres<ArrowUpRight size={12} /></a>{chooseButton(component)}<button type="button" className="cp-text-button" onClick={() => { setDetailId(component.id); setView('detail'); }}>Voir la fiche<ChevronRight size={12} aria-hidden="true" /></button></div></th>)}</tr></thead><tbody>
+        <tr className="cp-comparison-compatibility"><th scope="row">Compatibilité actuelle</th>{compared.map((component) => { const issues = candidates.find((item) => item.component.id === component.id)?.issues ?? []; return <td key={component.id}><span className={issues.length ? 'cp-table-error' : component.detailLevel === 'partial' ? 'cp-table-partial' : 'cp-table-ok'}>{issues.length ? `${issues.length} conflit${issues.length > 1 ? 's' : ''}` : component.detailLevel === 'partial' ? 'Données partielles · à vérifier' : 'Aucun conflit détecté'}</span>{issues.map((issue) => <small key={issue.id}>{issue.title}</small>)}</td>; })}</tr>
         {comparisonRows.map((row) => <tr key={row.label} className={new Set(row.values).size > 1 ? 'cp-row-different' : ''}><th scope="row">{row.label}</th>{row.values.map((value, index) => <td key={index}>{value}</td>)}</tr>)}
       </tbody></table></div>
       {differencesOnly && comparisonRows.length === 0 && <p className="cp-no-differences">Aucune différence parmi les caractéristiques renseignées.</p>}

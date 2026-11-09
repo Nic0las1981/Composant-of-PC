@@ -4184,3 +4184,10 @@ select option {
   .studio-view-toolbar .interior-toggle { padding: 8px 6px; gap: 4px; }
 }
 .animation-toggle:disabled { opacity: .55; cursor: default; }
+
+.part-card-footer > .price-unknown { font-size: 10px; line-height: 1.35; white-space: normal; max-width: 105px; color: #b2bbaa; }
+.total-card .incomplete-budget-note { color: #e0c4a0; font-size: 11px; line-height: 1.6; margin: 6px 0 14px; }
+@media (max-width: 600px) {
+  .part-card-footer > .price-unknown { font-size: 9px; max-width: 70px; }
+  .total-price > span { white-space: normal; }
+}

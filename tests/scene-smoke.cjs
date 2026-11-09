@@ -23,13 +23,14 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
       await page.mouse.move(3, 3);
       await page.locator('.visualizer').scrollIntoViewIfNeeded();
       await page.waitForTimeout(1000);
-      await page.locator('.visualizer').screenshot({ path: path.join(output, name + '.png') });
+      await page.locator('.visualizer').screenshot({ timeout: 60000, path: path.join(output, name + '.png') });
     };
     const open = async category => {
       await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
       await dialog().locator('.catalog-product').first().waitFor();
     };
     const chooseOpen = async name => {
+      await dialog().getByPlaceholder('Rechercher un composant…').fill(name);
       const card = dialog().locator('.catalog-product').filter({ has: page.getByRole('heading', { name, exact: true }) });
       assert.equal(await card.count(), 1, `Catalog must contain exactly one ${name}`);
       await card.getByRole('button', { name: 'Choisir', exact: true }).click();
@@ -37,11 +38,12 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
     };
     const choose = async (category, name) => { await open(category); await chooseOpen(name); };
     const test = async (name, run) => {
+      if (process.env.FORGE_SCENE_TEST_MATCH && !new RegExp(process.env.FORGE_SCENE_TEST_MATCH).test(name)) return;
       try { await run(); results.push({name, result: 'PASS'}); console.log('PASS', name); }
       catch (error) {
         results.push({name, result: 'FAIL', error: error.message});
         console.error('FAIL', name, error.message);
-        await page.screenshot({path:path.join(output, `scene-failure-${results.length}.png`), fullPage:true}).catch(()=>{});
+        await page.screenshot({ timeout: 60000,path:path.join(output, `scene-failure-${results.length}.png`), fullPage:true}).catch(()=>{});
         await page.keyboard.press('Escape').catch(()=>{});
       }
     };
@@ -88,14 +90,16 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
       assert.match(hit.label, /H6 Flow|4070 SUPER|Phantom Spirit|Vengeance|B650/);
       await page.mouse.click(hit.x, hit.y);
       const selectedName = await page.locator('.scene-selection-bar .selected-part-copy strong').textContent();
-      assert.ok(hit.label.includes(selectedName), `${hit.label} must identify selected ${selectedName}`);
+      // RAM hover identifies one physical module; the selection bar describes the installed set.
+      const selectedModel = hit.category === 'ram' ? selectedName.replace(/ · \d+ barrettes? installées?$/, '') : selectedName;
+      assert.ok(hit.label.includes(selectedModel), `${hit.label} must identify selected ${selectedModel}`);
       const shortcut = page.locator('.scene-part-shortcuts button[aria-pressed="true"]');
       assert.equal(await shortcut.count(),1);
       await fs.writeFile(path.join(output,'hover-default.json'),JSON.stringify(hit,null,2));
       // Mouse hover again after the click restores the real hover card for evidence.
       await page.mouse.move(hit.x+2,hit.y+2);
       await page.waitForTimeout(150);
-      await page.locator('.visualizer').screenshot({path:path.join(output,'scene-hover-name.png')});
+      await page.locator('.visualizer').screenshot({ timeout: 60000,path:path.join(output,'scene-hover-name.png')});
     });
     await test('Case replacement changes the modeled geometry across Terra, white 4000D and North', async () => {
       for(const [name,id,kind,file] of [
@@ -168,7 +172,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
           await mobile.locator('.visualizer canvas').waitFor();
           assert.deepEqual(await mobile.evaluate(()=>({client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,inner:innerWidth})),{client:width,scroll:width,inner:width});
           assert.equal(await mobile.locator('.mobile-build-summary').isVisible(),true);
-          await mobile.screenshot({path:path.join(output,`mobile-before-controls-${width}.png`)});
+          await mobile.screenshot({ timeout: 60000,path:path.join(output,`mobile-before-controls-${width}.png`)});
           await mobile.locator('.mobile-build-summary').getByRole('button',{name:'Composants',exact:true}).click();
           await mobile.getByRole('button',{name:'Choisir Refroidissement',exact:true}).click();
           const modal=mobile.getByRole('dialog');
@@ -180,11 +184,11 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
           for(const text of await cards.locator('.cp-spec-tags').allTextContents()) assert.match(text,/Watercooling AIO/);
           assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth),width);
           const rect=await modal.boundingBox();assert.ok(rect.x>=0&&rect.x+rect.width<=width);
-          await mobile.screenshot({path:path.join(output,`mobile-cooler-filter-${width}.png`),fullPage:false});
+          await mobile.screenshot({ timeout: 60000,path:path.join(output,`mobile-cooler-filter-${width}.png`),fullPage:false});
           await modal.getByRole('button',{name:'Fermer le catalogue',exact:true}).click();
           await mobile.evaluate(()=>scrollTo(0,0));
           await mobile.mouse.move(0,0);
-          await mobile.screenshot({path:path.join(output,`mobile-studio-${width}.png`),fullPage:true});
+          await mobile.screenshot({ timeout: 60000,path:path.join(output,`mobile-studio-${width}.png`),fullPage:true});
         } finally {await mobileContext.close();}
       }
     });

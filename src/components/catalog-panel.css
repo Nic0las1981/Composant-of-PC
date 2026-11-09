@@ -38,6 +38,10 @@
 .catalog-panel .cp-field select { width: 100%; color: #ecf0e9; border: 0; background: #202325; padding: 0 15px 0 0; min-height: 22px; font-size: 12px; }
 .catalog-panel .cp-filters { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
 .catalog-panel .cp-filters .cp-field { width: 175px; }
+.catalog-panel .cp-specific-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 8px; margin-top: 14px; }
+.catalog-panel .cp-specific-filters .cp-field { min-height: 50px; }
+.catalog-panel .cp-budget-note, .catalog-panel .cp-kit-note { color: #a9b6a1; font-size: 11px; line-height: 1.6; margin: 10px 0 0; }
+.catalog-panel .cp-kit-note { max-width: 730px; }
 .catalog-panel .cp-compatible { display: flex; align-items: center; gap: 8px; margin: 0 6px; position: relative; min-height: 44px; font-size: 11px; color: #d3d9d1; line-height: 1.45; cursor: pointer; }
 .catalog-panel .cp-compatible input { position: absolute; left: 0; width: 36px; height: 30px; margin: 0; opacity: 0; }
 .catalog-panel .cp-switch { position: relative; width: 32px; height: 19px; background: #414741; border-radius: 20px; flex: 0 0 auto; transition: background .2s; }
@@ -77,8 +81,10 @@
 .catalog-panel .cp-card-status { display: flex; align-items: center; gap: 5px; border-top: 1px solid #3e493c70; padding: 11px 0 0; color: #afcc96; font-size: 10px; }
 .catalog-panel .cp-card-status svg { flex: 0 0 auto; }
 .catalog-panel .cp-status-error { color: #f6a89b; }
+.catalog-panel .cp-status-partial, .catalog-panel .cp-table-partial { color: #d8c49b; }
 .catalog-panel .cp-card-price { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-height: 65px; padding: 12px 0 10px; }
 .catalog-panel .cp-card-price > strong { font-size: 19px; letter-spacing: -.6px; font-weight: 650; white-space: nowrap; }
+.catalog-panel .cp-card-price > .cp-price-unknown, .catalog-panel .cp-comparison-product > .cp-price-unknown { font-size: 13px; line-height: 1.45; letter-spacing: 0; white-space: normal; color: #c4cec0; }
 .catalog-panel .cp-price-delta { display: block; color: #a4afa0; font-size: 10px; line-height: 1.4; }
 .catalog-panel .cp-price-delta.cp-saving { color: #b8d59d; }
 .catalog-panel .cp-card-actions { display: grid; grid-template-columns: .85fr 1.15fr; gap: 6px; }
@@ -95,6 +101,9 @@
 .catalog-panel .cp-empty h3 { font-size: 19px; margin: 16px 0 0; color: #ebf1e6; }
 .catalog-panel .cp-empty p { line-height: 1.6; margin: 10px 0 22px; }
 .catalog-panel .cp-list-footer { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding-top: 20px; }
+.catalog-panel .cp-pagination { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 24px; }
+.catalog-panel .cp-pagination > span { font-size: 11px; color: #a6b19f; }
+.catalog-panel .cp-pagination .cp-button { min-height: 44px; }
 .catalog-panel .cp-list-footer p { font-size: 10px; color: #929e8b; display: flex; gap: 6px; align-items: center; margin: 0; }
 .catalog-panel .cp-list-footer p svg { flex: 0 0 auto; }
 .catalog-panel .cp-text-button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 5px 0; min-height: 30px; border: 0; background: transparent; color: #bdc9b4; font-size: 11px; }
@@ -113,11 +122,18 @@
 .catalog-panel .cp-detail-highlights > span { padding: 6px 9px; border: 1px solid #3a4933; background: #252e22; border-radius: 5px; color: #c0d4b0; font-size: 11px; }
 .catalog-panel .cp-detail-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 10px; margin-top: auto; margin-bottom: 18px; }
 .catalog-panel .cp-detail-price > strong { font-size: 29px; letter-spacing: -.8px; }
+.catalog-panel .cp-detail-price > .cp-price-unknown { font-size: 20px; line-height: 1.5; letter-spacing: -.2px; }
 .catalog-panel .cp-detail-price > span:not(.cp-price-delta) { color: #9eab96; font-size: 11px; }
 .catalog-panel .cp-detail-price .cp-price-delta { width: 100%; font-size: 12px; }
 .catalog-panel .cp-detail-actions { display: flex; gap: 8px; flex-wrap: wrap; width: 100%; }
 .catalog-panel .cp-detail-actions .cp-button { min-height: 45px; min-width: 130px; }
 .catalog-panel .cp-detail-compatibility { margin-bottom: 28px; }
+.catalog-panel .cp-source { display: flex; align-items: center; gap: 20px; padding: 16px 18px; margin-bottom: 14px; border: 1px solid #3f4b40; border-radius: 9px; background: #222823; }
+.catalog-panel .cp-source > div { flex: 1; }
+.catalog-panel .cp-source strong { display: flex; align-items: center; gap: 7px; color: #c8d3c0; font-size: 12px; }
+.catalog-panel .cp-source p { color: #a8b7a3; font-size: 11px; line-height: 1.7; margin: 7px 0 0; overflow-wrap: anywhere; }
+.catalog-panel .cp-source a { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: #c1dda8; white-space: nowrap; text-underline-offset: 3px; }
+.catalog-panel .cp-source a:focus-visible { outline: 2px solid var(--cp-accent); outline-offset: 4px; }
 .catalog-panel .cp-detail-compatibility > h3, .catalog-panel .cp-advice > h3 { display: flex; align-items: center; gap: 8px; font-size: 16px; margin: 0 0 12px; }
 .catalog-panel .cp-notice { display: flex; gap: 10px; border: 1px solid #3d4439; border-radius: 8px; padding: 14px; background: #242a21; margin: 8px 0; color: #b6c4ac; }
 .catalog-panel .cp-notice > svg { flex: 0 0 auto; margin-top: 2px; }
@@ -207,6 +223,9 @@
   .catalog-panel .cp-sort select { width: auto; max-width: 75%; }
   .catalog-panel .cp-filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
   .catalog-panel .cp-filters .cp-field { width: auto; min-height: 48px; }
+  .catalog-panel .cp-specific-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 12px; }
+  .catalog-panel .cp-specific-filters .cp-field { padding: 7px 8px; }
+  .catalog-panel .cp-specific-filters select { font-size: 11px; }
   .catalog-panel .cp-compatible { min-height: 36px; margin: 0; font-size: 10px; gap: 6px; }
   .catalog-panel .cp-reset { margin-left: auto; font-size: 10px; text-align: right; }
   .catalog-panel .cp-reset > svg { display: none; }
@@ -236,6 +255,7 @@
   .catalog-panel .cp-card-status svg { width: 11px; margin-top: 1px; }
   .catalog-panel .cp-card-price { padding-top: 10px; min-height: 67px; }
   .catalog-panel .cp-card-price > strong { font-size: 17px; }
+  .catalog-panel .cp-card-price > .cp-price-unknown { font-size: 11px; }
   .catalog-panel .cp-price-delta { font-size: 9px; }
   .catalog-panel .cp-card-actions { gap: 6px; }
   .catalog-panel .cp-button { min-height: 41px; font-size: 11px; padding: 10px 8px; }
@@ -251,6 +271,9 @@
   .catalog-panel .cp-detail-intro > h3 { font-size: 24px; }
   .catalog-panel .cp-detail-highlights { margin-bottom: 20px; }
   .catalog-panel .cp-detail-price > strong { font-size: 28px; }
+  .catalog-panel .cp-detail-price > .cp-price-unknown { font-size: 20px; }
+  .catalog-panel .cp-source { flex-direction: column; align-items: flex-start; gap: 9px; padding: 15px; }
+  .catalog-panel .cp-source a { min-height: 36px; }
   .catalog-panel .cp-detail-actions .cp-button { flex: 1; }
   .catalog-panel .cp-detail-compatibility > h3, .catalog-panel .cp-advice > h3 { font-size: 15px; }
   .catalog-panel .cp-detail-specs { grid-template-columns: 1fr; gap: 12px; }

@@ -171,7 +171,7 @@ export default function ProductArt({ category, brand, className, component, deta
     case 'ram': {
       const p = profile?.category === 'ram' ? profile : undefined;
       const rgb = p?.rgb || false;
-      const count = Math.min(4,p?.sticks || 2);
+      const count = Math.min(4,component?.memorySticks ?? p?.sticks ?? 2);
       const ink = light(p?.heatspreaderColor)?'#31433f':'#e2e8df';
       const h = p ? Math.min(25,10+p.heightMm*.3) : 23;
       artwork = <g transform={count>2?'translate(9 -1) scale(.83)':'translate(0 7)'}>
