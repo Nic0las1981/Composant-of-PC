@@ -40,7 +40,6 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import {
-  catalog,
   categories,
   defaultSelection,
   getComponent,
@@ -58,8 +57,9 @@ import ProductArt from "./components/ProductArt";
 import CatalogPanel from "./components/CatalogPanel";
 import type { CameraView } from "./components/PcScene";
 import { getCaseProfile } from "./data/visualProfiles";
+import { getCatalogGroups } from "./lib/catalogVariants";
 import { pricingPolicy, formatComponentPrice } from "./data/pricing";
-import { arrangeMemorySlots, resetMemoryToKit } from "./lib/memory";
+import { arrangeMemorySlots, resetMemoryToKit, chooseMemoryComponent } from "./lib/memory";
 import MemoryConfigurator from "./components/MemoryConfigurator";
 const PcScene = lazy(() => import("./components/PcScene"));
 
@@ -90,6 +90,7 @@ const money = (value: number) =>
   }).format(value);
 const SELECTION_KEY = "forge-workbench-v1";
 const BUILDS_KEY = "forge-builds-v1";
+const CATALOG_MODEL_COUNT = getCatalogGroups().length;
 function safeSelection(value: unknown): Selection | null {
   if (!value || typeof value !== "object") return null;
   const input = value as Record<string, unknown>;
@@ -329,7 +330,7 @@ export default function App() {
   };
   const choose = (component: Component) => {
     setSelection((current) => component.category === "ram"
-      ? resetMemoryToKit(current, component.id)
+      ? chooseMemoryComponent(current, component.id)
       : component.category === "motherboard"
         ? arrangeMemorySlots({ ...current, motherboard: component.id })
         : { ...current, [component.category]: component.id });
@@ -458,7 +459,7 @@ export default function App() {
           >
             <CircuitBoard size={18} />
             Catalogue
-            <span className="nav-count">{catalog.length}</span>
+            <span className="nav-count">{CATALOG_MODEL_COUNT}</span>
           </button>
           <button
             className="nav-item"
@@ -634,7 +635,7 @@ export default function App() {
               <button onClick={() => jumpTo("analysis")}><ShieldCheck size={16} /><span>Analyse</span>{errors.length > 0 && <small className="navigation-alert">{errors.length}</small>}</button>
             </div>
             <button className="browse-catalog" onClick={() => openCatalog(activeCategory)}>
-              <LayoutGrid size={16} /> Catalogue <span>{catalog.length} références</span><ArrowUpRight size={15} />
+              <LayoutGrid size={16} /> Catalogue <span>{CATALOG_MODEL_COUNT} modèles</span><ArrowUpRight size={15} />
             </button>
           </nav>
           <div className="builder-layout">

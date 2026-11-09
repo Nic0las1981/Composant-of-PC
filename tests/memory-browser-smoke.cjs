@@ -1,6 +1,7 @@
 // Slot-by-slot RAM and large-catalog integration checks using public browser controls.
 // Requires Playwright, Chromium and npm run dev (or FORGE_TEST_URL for a hosted build).
 const { chromium } = require('playwright');
+const { chooseOpenCatalogProduct, openCatalogProductDetail } = require('./catalog-test-helpers.cjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -19,6 +20,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
     page.on('pageerror', error => errors.push(error.message));
   };
   const test = async (name, run) => {
+    if (process.env.FORGE_MEMORY_TEST_MATCH && !new RegExp(process.env.FORGE_MEMORY_TEST_MATCH).test(name)) return;
     try { await run(); results.push({ name, result: 'PASS' }); console.log('PASS', name); }
     catch (error) {
       results.push({ name, result: 'FAIL', error: error.message }); console.error('FAIL', name, error.message);
@@ -39,11 +41,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
   };
   const choose = async (category, name) => {
     await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
-    const modal = page.getByRole('dialog');
-    await modal.getByPlaceholder('Rechercher un composant…').fill(name);
-    const card = modal.locator('.catalog-product').filter({ has: page.getByRole('heading', { name, exact: true }) });
-    await card.getByRole('button', { name: 'Choisir', exact: true }).click();
-    await modal.waitFor({ state: 'hidden' });
+    await chooseOpenCatalogProduct(page, name);
   };
   const captureMemory = async filename => {
     await memory().scrollIntoViewIfNeeded();
@@ -56,8 +54,8 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
     watch(await desktop.newPage());
     await page.goto(baseUrl, { waitUntil: 'domcontentloaded' });
     await memory().waitFor();
-    await test('Default kit occupies A2/B2; catalog includes at least 1,300 real references', async () => {
-      assert.ok(Number(await page.locator('.nav-count').textContent()) >= 1300);
+    await test('Default kit occupies A2/B2; catalog includes at least 5,000 distinct models', async () => {
+      assert.ok(Number((await page.locator('.nav-count').textContent()).replace(/\D/g, '')) >= 5000);
       assert.equal(await memory().getAttribute('data-memory-slots'), '4');
       await assertScene(2, 'A2,B2', 32);
       await scene().locator('canvas').waitFor();
@@ -224,10 +222,9 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
       assert.equal(await modal.locator('.cp-price-unknown').count(), 0);
       assert.ok(await modal.locator('.catalog-product').count() > 0);
       await modal.getByRole('combobox', { name: 'Budget maximum par composant', exact: true }).selectOption('all');
-      await modal.getByPlaceholder('Rechercher un composant…').fill('Vengeance RGB 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir');
-      const card = modal.locator('.catalog-product').filter({ has: page.getByRole('heading', { name: 'Vengeance RGB 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir', exact: true }) });
-      assert.match(await card.locator('.cp-card-price').textContent(), /Prix non renseigné/);
-      await card.getByRole('button', { name: 'Choisir', exact: true }).click();
+      await openCatalogProductDetail(page, 'Vengeance RGB 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir');
+      assert.match(await modal.locator('.cp-detail-price').textContent(), /Prix non renseigné/);
+      await modal.locator('.cp-detail-actions').getByRole('button', { name: 'Choisir', exact: true }).click();
       await modal.waitFor({ state: 'hidden' });
       assert.match(await memory().locator('.mc-installed-summary').textContent(), /Prix à renseigner/);
       assert.match(await memory().locator('.mc-purchase').textContent(), /Prix non renseigné/);
@@ -271,6 +268,8 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-memory-validation';
         await modal.getByRole('combobox', { name: 'Filtrer par nombre de barrettes', exact: true }).selectOption('1');
         assert.ok(await modal.locator('.catalog-product').count() > 0);
         await assertNoOverflow(360);
+        await modal.locator('.catalog-product').first().scrollIntoViewIfNeeded();
+        assert.equal(await modal.locator('.cp-card-info > p').first().evaluate(element => getComputedStyle(element).webkitLineClamp), '3');
         await page.screenshot({ timeout: 60000, path: path.join(output, 'mobile-memory-catalog-360.png') });
       } finally { await mobile.close(); }
     });

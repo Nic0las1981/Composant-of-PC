@@ -1,6 +1,7 @@
 // Selection-specific 3D validation using real canvas pointer events.
 // Run with Vite or static hosting ready: node tests/scene-smoke.cjs
 const { chromium } = require('playwright');
+const { chooseOpenCatalogProduct } = require('./catalog-test-helpers.cjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -29,13 +30,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-studio-validation';
       await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
       await dialog().locator('.catalog-product').first().waitFor();
     };
-    const chooseOpen = async name => {
-      await dialog().getByPlaceholder('Rechercher un composant…').fill(name);
-      const card = dialog().locator('.catalog-product').filter({ has: page.getByRole('heading', { name, exact: true }) });
-      assert.equal(await card.count(), 1, `Catalog must contain exactly one ${name}`);
-      await card.getByRole('button', { name: 'Choisir', exact: true }).click();
-      await page.waitForFunction(() => !document.querySelector('[role="dialog"]'));
-    };
+    const chooseOpen = async name => chooseOpenCatalogProduct(page, name);
     const choose = async (category, name) => { await open(category); await chooseOpen(name); };
     const test = async (name, run) => {
       if (process.env.FORGE_SCENE_TEST_MATCH && !new RegExp(process.env.FORGE_SCENE_TEST_MATCH).test(name)) return;

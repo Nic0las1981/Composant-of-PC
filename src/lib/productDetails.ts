@@ -1,5 +1,9 @@
 import { categories, type Component } from "../data/catalog.ts";
 import { getVisualProfile } from "../data/visualProfiles.ts";
+import { getCatalogFamily } from "./catalogFamilies.ts";
+import { getReleaseInfo } from "../data/releaseTimeline.ts";
+import { releaseDateLabel } from "./catalogOrdering.ts";
+import { getMemoryDetails } from "./memoryDetails.ts";
 
 export interface ProductDetailRow {
   label: string;
@@ -53,6 +57,14 @@ export function getProductDetails(component: Component): ProductDetails {
   const highlight = (...values: Array<string | undefined>) => {
     highlights.push(...values.filter((value): value is string => Boolean(value)));
   };
+
+  const family = getCatalogFamily(component);
+  if (family.known) add("Famille et chronologie", "Famille", family.label);
+  const release = getReleaseInfo(component);
+  if (release) {
+    add("Famille et chronologie", "Repère chronologique", releaseDateLabel(release));
+    add("Famille et chronologie", "Base du classement", `${release.basis === "model" ? "Modèle" : release.basis === "generation" ? "Génération" : "Gamme"} : ${release.label}`);
+  }
 
   switch (component.category) {
     case "cpu": {
@@ -122,6 +134,7 @@ export function getProductDetails(component: Component): ProductDetails {
     }
     case "ram": {
       const ram = profile?.category === "ram" ? profile : undefined;
+      const memoryDetails = getMemoryDetails(component);
       const sticks = component.memorySticks ?? ram?.sticks;
       const parsedSpeed = match(/DDR[45][\s-]+([\d ]{4,})/i)?.[1]?.replace(/\s/g, "");
       const speed = component.memorySpeedMTs ?? (parsedSpeed ? Number(parsedSpeed) : undefined);
@@ -133,15 +146,27 @@ export function getProductDetails(component: Component): ProductDetails {
       add("Kit mémoire", "Composition du kit", kit ?? (known(sticks) ? known(moduleCapacity) ? `${sticks} × ${number.format(moduleCapacity)} Go` : `${sticks} barrette${sticks > 1 ? "s" : ""}` : undefined));
       add("Kit mémoire", "Capacité par barrette", amount(moduleCapacity, "Go"));
       add("Kit mémoire", "Format des barrettes", component.memoryModuleFormat);
+      add("Kit mémoire", "Type de module", memoryDetails.moduleKind ?? undefined);
+      add("Kit mémoire", "Référence fabricant", memoryDetails.partNumber ?? undefined);
+      add("Organisation mémoire", "Organisation des puces", memoryDetails.organization ?? undefined);
+      add("Organisation mémoire", "Rangs par barrette", memoryDetails.rankCount ? String(memoryDetails.rankCount) : undefined);
+      add("Organisation mémoire", "Largeur des puces", memoryDetails.deviceWidthBits ? `x${memoryDetails.deviceWidthBits}` : undefined);
       add("Kit mémoire", "Mémoire enregistrée", component.memoryRegistered === undefined ? undefined : component.memoryRegistered ? "Registered / RDIMM" : "Non enregistrée / unbuffered");
       add("Kit mémoire", "Correction ECC du module", component.memoryEcc === undefined ? undefined : component.memoryEcc ? "ECC" : "Non-ECC");
       add("Réglages et dimensions", "Débit mémoire annoncé", amount(speed, "MT/s"));
+      add("Réglages et dimensions", "Horloge DDR théorique correspondante", amount(memoryDetails.clockMHz ?? undefined, "MHz"));
+      add("Réglages et dimensions", "Tension renseignée", amount(memoryDetails.voltageV ?? undefined, "V"));
+      add("Réglages et dimensions", "Dissipateur mémoire", memoryDetails.heatspreader === null ? undefined : memoryDetails.heatspreader ? "Présent" : "Sans dissipateur");
       add("Réglages et dimensions", "Latence CAS", latency ? `CL${latency}` : undefined);
       add("Réglages et dimensions", "Profil mémoire", spec(/EXPO|XMP/i) ?? component.memoryProfile);
       add("Réglages et dimensions", "Hauteur des barrettes", amount(component.heightMm ?? ram?.heightMm, "mm"));
       add("Réglages et dimensions", "Éclairage", (component.rgb ?? ram?.rgb) === undefined ? undefined : (component.rgb ?? ram?.rgb) ? "RGB" : "Sans RGB");
       highlight(amount(component.capacityGB, "Go"), component.memoryType, known(sticks) ? known(moduleCapacity) ? `${sticks} × ${number.format(moduleCapacity)} Go` : `${sticks} barrette${sticks > 1 ? "s" : ""}` : undefined, amount(speed, "MT/s"));
-      if (speed) advice.push("Le débit annoncé peut nécessiter l’activation d’EXPO ou XMP dans le BIOS. La fréquence stable dépend du processeur, de la carte mère et du nombre de barrettes.");
+      if (speed) advice.push(component.memoryProfile === "JEDEC"
+        ? "Le débit JEDEC renseigné ne nécessite pas de profil XMP ou EXPO. Le débit utilisé dépend des limites du processeur, de la carte mère, du BIOS et du nombre de barrettes."
+        : "Le débit annoncé peut nécessiter l’activation d’EXPO ou XMP dans le BIOS. La fréquence stable dépend du processeur, de la carte mère et du nombre de barrettes.");
+      if (memoryDetails.organization) advice.push(`${memoryDetails.organization} décrit les rangs et la largeur des puces d’une barrette. Ce n’est ni le nombre de barrettes, ni le nombre de canaux, ni une garantie du nombre de faces peuplées.`);
+      if (memoryDetails.clockMHz) advice.push(`La DDR transfère deux fois par cycle : ${number.format(memoryDetails.transferRateMTs!)} MT/s correspond théoriquement à une horloge de ${number.format(memoryDetails.clockMHz)} MHz. Le débit réellement utilisé dépend du BIOS et du contrôleur mémoire.`);
       if (known(sticks)) {
         advice.push("La capacité indiquée est celle du kit complet. Le configurateur calcule séparément les barrettes installées, les kits à acheter et les éventuelles barrettes restantes.");
         advice.push("Installez les barrettes dans les emplacements recommandés par le manuel de la carte mère et vérifiez leur dégagement sous le ventirad. Un mélange de kits, même de même référence, ne garantit pas le débit annoncé.");

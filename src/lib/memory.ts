@@ -1,5 +1,6 @@
 import { getComponent, type Component, type Selection } from "../data/catalog.ts";
 import { getReferencePrice } from "../data/pricing.ts";
+import { getVariantGroupId } from "./catalogVariants.ts";
 
 export const MAX_MEMORY_SLOTS = 16;
 export interface MemoryWarning {
@@ -115,6 +116,22 @@ export function resetMemoryToKit(selection: Selection, componentId: string | nul
   const count = component && validCount(component.memorySticks) ? component.memorySticks : component ? 1 : 0;
   return { ...selection, ram: component?.id ?? null, memory: { slots: distribute(selection, component ? Array(count).fill(component.id) : []) } };
 }
+/** Selecting a finish changes only modules of the current primary reference.
+ * Explicit groups certify equivalent kit specifications; similar names alone
+ * must never preserve a layout when the user is really choosing another kit.
+ */
+export function chooseMemoryComponent(selection: Selection, componentId: string | null): Selection {
+  const current = ramFor(selection.ram);
+  const next = ramFor(componentId);
+  const sameChoice = current && next && (current.id === next.id
+    || (current.variantGroupId?.trim() && next.variantGroupId?.trim()
+      && getVariantGroupId(current) === getVariantGroupId(next)));
+  if (!sameChoice || !current || !next) return resetMemoryToKit(selection, componentId);
+  // Preserve explicit positions, mixed references, and any overflow unchanged.
+  const slots = Array.isArray(selection.memory?.slots) ? selection.memory.slots : sourceSlots(selection);
+  return { ...selection, ram: next.id, memory: { slots: slots.map(id => id === current.id ? next.id : id) } };
+}
+
 /** Quick quantity control intentionally uses one reference. Mixed layouts remain editable per slot. */
 export function withMemoryQuantity(selection: Selection, count: number, componentId?: string): Selection {
   if (!Number.isInteger(count) || count < 0 || count > MAX_MEMORY_SLOTS) throw new RangeError(`Nombre de barrettes attendu : 0 à ${MAX_MEMORY_SLOTS}`);

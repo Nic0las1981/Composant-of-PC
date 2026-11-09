@@ -56,6 +56,7 @@ import {
 } from "./scene/HardwareModels";
 import ProductArt from "./ProductArt";
 import type { MemoryAnalysis } from "../lib/memory";
+import { getMemoryDetails } from "../lib/memoryDetails";
 import { SceneAnimationProvider, useSceneAnimation } from "./scene/SceneAnimation";
 
 export type CameraView = "perspective" | "side" | "front";
@@ -734,12 +735,13 @@ export default function PcScene(props: PcSceneProps) {
         10,
         Math.min(
           event.nativeEvent.clientY - bounds.top - 25,
-          bounds.height - 116,
+          bounds.height - (category === "ram" ? 165 : 116),
         ),
       ),
     });
   };
   const hovered = hover?.componentId ? getComponent(hover.componentId) : hover ? props.components[hover.category] : undefined;
+  const hoveredMemory = hovered?.category === "ram" ? getMemoryDetails(hovered) : undefined;
   return (
     <div
       className={`pc-scene ${props.className || ""}`}
@@ -877,6 +879,13 @@ export default function PcScene(props: PcSceneProps) {
               ? [hover.moduleCapacityGB ? `${new Intl.NumberFormat("fr-FR").format(hover.moduleCapacityGB)} Go par barrette` : "Capacité non renseignée", hovered.memoryType, `Emplacement ${hover.slotLabel}`].filter(Boolean).join(" · ")
               : hovered.specs.slice(0, 2).join(" · ")}
           </span>
+          {hoveredMemory && (hoveredMemory.organization || hoveredMemory.moduleKind || hoveredMemory.voltageV) && <span className="pc-hover-specs">
+            {[hoveredMemory.organization, hoveredMemory.moduleKind,
+              hoveredMemory.voltageV ? `${new Intl.NumberFormat("fr-FR").format(hoveredMemory.voltageV)} V` : null].filter(Boolean).join(" · ")}
+          </span>}
+          {hoveredMemory?.partNumber && !hovered.name.includes(hoveredMemory.partNumber) && <span className="pc-hover-specs">
+            Réf. {hoveredMemory.partNumber}
+          </span>}
         </div>
       )}
     </div>

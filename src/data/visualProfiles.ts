@@ -92,6 +92,9 @@ export interface RamVisualProfile extends BaseVisualProfile {
   thicknessMm: number;
   sticks: number;
   heatspreaderColor: string;
+  /** Explicitly bare OEM modules expose their PCB and packages. Unknown stays schematic. */
+  hasHeatspreader?: boolean;
+  pcbColor?: string;
 }
 export interface BoardVisualProfile extends BaseVisualProfile {
   category: "motherboard";

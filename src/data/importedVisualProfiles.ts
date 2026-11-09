@@ -1,4 +1,5 @@
 import { catalogImported } from "./catalogImported.ts";
+import { catalogOemMemory } from "./catalogOemMemory.ts";
 import type { Component, FormFactor } from "./catalog.ts";
 import type {
   BoardVisualProfile,
@@ -60,15 +61,18 @@ export function createImportedVisualProfile(component: Component): VisualProfile
     case "ram": {
       const low = /\blpx\b|\bvalue(?:ram)?\b|\bpremier\b/i.test(component.name);
       const rgb = component.rgb === true;
-      const heightMm = positive(component.heightMm, rgb ? 44 : low ? 32 : 37);
+      const bare = component.memoryHeatspreader === false;
+      const heightMm = positive(component.heightMm, bare ? 31.25 : rgb ? 44 : low ? 32 : 37);
       const profile: RamVisualProfile = {
         ...common,
         category: "ram",
         heightMm,
         lengthMm: positive(component.lengthMm, component.memoryModuleFormat === "SO-DIMM" ? 69.6 : 133.35),
-        thicknessMm: positive(component.thicknessMm, 7),
+        thicknessMm: positive(component.thicknessMm, bare ? 3.8 : 7),
         sticks: positive(component.memorySticks, 1),
         heatspreaderColor: finish(component, "#353c40"),
+        hasHeatspreader: component.memoryHeatspreader,
+        pcbColor: bare ? finish(component, "#2d684d") : "#253b31",
       };
       return profile;
     }
@@ -141,7 +145,7 @@ export function createImportedVisualProfile(component: Component): VisualProfile
 }
 
 export const importedVisualProfiles: Record<string, VisualProfile> = Object.fromEntries(
-  catalogImported.map((component) => {
+  [...catalogImported, ...catalogOemMemory].map((component) => {
     const profile = createImportedVisualProfile(component);
     if (!profile) throw new Error(`Unsupported imported visual category: ${component.category} (${component.id})`);
     return [component.id, profile];

@@ -1,18 +1,21 @@
 # Catalogue et provenance des références
 
-Le catalogue ajoute **1 300 références issues de données publiques** aux 200
-références déjà présentes, soit **1 500 composants**. Les variantes retenues
-correspondent chacune à une ligne existante de la source : aucune combinaison
-artificielle de capacité, fréquence, modèle ou couleur n’a été créée.
+L’import comprend **9 018 références distinctes hors coloris**, déclinées en
+**10 359 variantes de finition issues de données publiques**. Il complète les
+200 références historiques et préserve les 1 300 identifiants de la première
+extension. Les coloris sont regroupés dans une même fiche ; ils ne servent pas
+à atteindre le minimum de 5 000 composants. Chaque variante correspond à une
+ligne existante de la source : aucune combinaison artificielle de capacité,
+fréquence, modèle ou couleur n’a été créée.
 
-| Catégorie importée | Références |
-| --- | ---: |
-| Mémoire DDR4 / DDR5 de bureau | 450 |
-| SSD M.2 2280 PCIe 4.0 / 5.0 | 300 |
-| Cartes graphiques | 300 |
-| Cartes mères AM4 / AM5 / LGA1700 | 150 |
-| Alimentations ATX / SFX | 100 |
-| **Total ajouté** | **1 300** |
+| Catégorie importée | Fiches hors coloris | Variantes |
+| --- | ---: | ---: |
+| Mémoire DDR4 / DDR5 de bureau | 2 691 | 3 832 |
+| SSD M.2 2280 PCIe 4.0 / 5.0 | 806 | 806 |
+| Cartes graphiques | 2 323 | 2 444 |
+| Cartes mères AM4 / AM5 / LGA1700 | 1 472 | 1 479 |
+| Alimentations ATX / SFX | 1 726 | 1 798 |
+| **Total de l’import** | **9 018** | **10 359** |
 
 ## Source figée et attribution
 
@@ -30,7 +33,7 @@ désigne donc le modèle et les caractéristiques qui permettent de distinguer l
 ligne source, et ne constitue pas une fiche constructeur complète ou une
 garantie de disponibilité actuelle.
 
-`data/catalog-source.json` conserve les 1 300 lignes originales sélectionnées,
+`data/catalog-source.json` conserve les 10 359 lignes originales sélectionnées,
 leur index d’origine (base zéro), leur empreinte SHA256, une clé de déduplication
 et l’empreinte de chacun des fichiers source complets. Les champs `source` de
 chaque composant donnent le dépôt, le lien vers le fichier à la révision figée,
@@ -57,11 +60,12 @@ L’absence de cette mention n’atteste pas que le produit réel n’a pas d’
 
 ## Sélection et déduplication
 
-Les lignes ont été réparties entre marques, plateformes, capacités et formats
-pour proposer de la diversité. L’ordre source a été conservé à l’intérieur de
-chaque groupe. Les clés ignorent les prix et les différences qui ne distinguent
-pas clairement un produit, par exemple deux annonces du même GPU qui ne
-diffèrent que par une fréquence renseignée.
+L’extension conserve toutes les lignes qui passent les critères documentés,
+après déduplication et exclusion des formats ambigus. Les 1 300 identifiants
+antérieurs sont conservés en priorité ; les nouveaux identifiants sont dérivés
+des caractéristiques de la variante, de façon stable. Les clés ignorent les prix
+et les différences qui ne distinguent pas clairement un produit, par exemple
+deux annonces du même GPU qui ne diffèrent que par une fréquence renseignée.
 
 - **RAM** : famille, génération DDR, vitesse, nombre de modules, capacité par
   module, CAS et couleur principale. Les familles DIMM de bureau connues sont
@@ -71,8 +75,9 @@ diffèrent que par une fréquence renseignée.
   Pro/Ballistix fournissent les références. Les familles workstation Kingston
   FURY Renegade Pro et TeamGroup T-Create Master sont exclues même si leur nom
   n’indique pas RDIMM. Les familles ambiguës disponibles aussi en SO-DIMM
-  (Vengeance simple, Ballistix simple/Sport/Sport LT, Viper Steel/4 simples et
-  T-Create Classic) sont exclues lorsque la source ne permet pas de trancher.
+  (Vengeance simple/Performance, Ballistix simple/Sport/Sport LT, Viper Steel/4
+  simples, T-Create Classic et T-Force Zeus) sont exclues lorsque la source ne
+  permet pas de trancher. Les mentions CUDIMM, CKD et CAMM2 sont aussi exclues.
   Les profils XMP/EXPO et la hauteur ne
   sont pas inventés lorsque la source ne les donne pas.
 - **SSD** : famille et capacité, avec normalisation des noms WD/Western Digital.
@@ -86,9 +91,15 @@ diffèrent que par une fréquence renseignée.
   Mini-ITX sont retenus. Une anomalie source à un seul emplacement DIMM est
   exclue. AM4 implique DDR4 et AM5 DDR5. Sur LGA1700, le type DDR reste inconnu
   si le nom source ne l’indique pas explicitement.
+  Les lignes du même modèle qui ne divergent que par la capacité maximale
+  annoncée (par exemple après une mise à jour BIOS) ne sont pas comptées comme
+  de nouveaux modèles ; une ligne cohérente est conservée.
 - **Alimentation** : modèle, puissance, format et couleur. Les modèles à RGB
   explicite, les variantes SFX-L identifiables et les familles SFX ambiguës sont
   exclus. La longueur, la révision ATX et les connecteurs restent inconnus.
+  La certification et le câblage modulaire sont conservés dans la clé du modèle,
+  notamment `Full / Side` pour les connecteurs latéraux. Une fiche sans
+  certification qui duplique une version documentée n’est pas ajoutée.
 
 Une seconde exclusion compare ces clés aux 200 références initiales ; les
 variantes qui représentent déjà une référence existante ne sont pas ajoutées.
@@ -99,14 +110,47 @@ la référence correspond : cela évite de réimporter un produit dont le colori
 historique était incomplet. Les coloris restent distincts entre nouvelles lignes
 de la source, où ce champ est renseigné.
 
+## Groupes de coloris et identifiants stables
+
+`variantGroupId` identifie une fiche hors coloris, `variantGroupName` son nom
+neutre et `finishName` le coloris déclaré. Les identifiants individuels restent
+utilisables pour les configurations enregistrées et pour sélectionner une
+couleur précise. Ils ne sont jamais remplacés par l’identifiant du groupe.
+
+La clé de regroupement conserve la capacité, le nombre de modules, le CAS, la
+vitesse, le RGB explicite, le format et les dimensions connues. Elle conserve
+aussi le chipset/VRAM des GPU et la certification/modularité des alimentations.
+Un suffixe de couleur est retiré du nom seulement s’il correspond au champ
+couleur source ; les gammes comme WD_BLACK, Blackout ou Black Edition ne sont
+pas effacées. Les mentions OC et de révision restent significatives.
+
+Certaines variantes d’une même gamme GPU ont des fréquences déclarées
+différentes ou incomplètes dans la source. Elles restent consultables sur la
+fiche de la variante choisie ; les regroupements sont des finitions/variantes
+de modèle et ne garantissent pas que toutes les fréquences sont identiques.
+Une divergence d’horloge seule ne sert pas à compter un modèle supplémentaire.
+Le champ `core_clock` est libellé « fréquence déclarée par la source », car
+il peut désigner une fréquence de base ou de jeu selon les enregistrements.
+La revue de cette extension a relevé 20 groupes GPU dont les textes techniques
+diffèrent sur ces horloges, et une simple différence de formulation
+« ventilateurs inclus/fournis » pour un boîtier historique. Les valeurs de chaque
+variante sont conservées ; aucune fréquence n’a été corrigée arbitrairement.
+
+Les groupes ne créent aucune nouvelle combinaison de caractéristiques. Une
+mémoire de 32 Go en 2 × 16 Go et une mémoire de 32 Go en 1 × 32 Go restent deux
+références différentes, tout comme deux kits de vitesses ou CAS différents.
+
 ## Mémoire : kits et barrettes installées
 
-Les 450 références de RAM comprennent des produits vendus en 1, 2 ou 4 modules.
+Les 2 691 fiches de RAM comprennent des produits vendus en 1, 2 ou 4 modules.
 `capacityGB` représente la capacité **totale du produit référencé** et
 `memorySticks` son nombre de modules. La capacité d’une barrette est
 `capacityGB / memorySticks`. `memorySpeedMTs` est le débit annoncé en MT/s,
 `casLatency` le CAS déclaré, et `memoryModuleFormat` vaut `DIMM` pour les familles
-de bureau sélectionnées.
+de bureau sélectionnées. Ces familles identifiées comme mémoire de bureau non
+enregistrée portent `memoryModuleKind: "UDIMM"` et `memoryRegistered: false`.
+Le filtre de capacité par barrette utilise la capacité unitaire, sans confondre
+un kit de 2 × 8 Go avec une barrette de 16 Go.
 
 La configuration des emplacements est distincte du conditionnement commercial :
 installer trois barrettes ne crée pas une fausse référence de kit de trois.
@@ -131,7 +175,8 @@ npx tsx scripts/import-catalog.ts --check
 ```
 
 Il vérifie les empreintes des lignes, les identifiants uniques, les clés de
-référence, les volumes par catégorie et les invariants des champs utilisés.
+référence, les groupes hors coloris, la conservation des 1 300 identifiants
+antérieurs, les volumes par catégorie et les invariants des champs utilisés.
 `--check` confirme aussi que `src/data/catalogImported.ts` correspond exactement
 au snapshot et à la version actuelle du générateur.
 
@@ -143,6 +188,20 @@ immuables consignées dans `source.files`, puis lancer :
 ```sh
 npx tsx scripts/import-catalog.ts --check --source-dir /chemin/vers/les/json
 ```
+
+Pour reproduire la sélection complète depuis ces mêmes fichiers immuables :
+
+```sh
+python3 scripts/select-catalog.py --source-dir /chemin/vers/les/json
+npx tsx scripts/import-catalog.ts
+npx tsx scripts/import-catalog.ts --check --source-dir /chemin/vers/les/json
+```
+
+Le snapshot contient les signatures des 200 références historiques utilisées
+pour l’exclusion des doublons. Le sélecteur vérifie les fichiers entiers avant
+de traiter leurs lignes. Le TypeScript généré utilise de petits tableaux typés
+pour limiter la complexité d’inférence ; le snapshot brut reste une archive de
+développement et n’est pas chargé par le navigateur.
 
 Le script ne contacte aucun marchand et ne met pas à jour les prix. Une nouvelle
 révision du dataset exige une nouvelle sélection vérifiée et la mise à jour

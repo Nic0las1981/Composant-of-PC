@@ -80,16 +80,19 @@ export default function ProductArt({ category, brand, className, component, deta
       artwork = <g transform={`matrix(1,-.24,.56,.66,${intel?23:21},30)`}>
         <path d={`M0 ${height}v5h${width}v-5M${width} 0v${height+5}`} fill="#1b342c" stroke="#4c6859" strokeWidth="1.2" />
         <rect width={width} height={height} rx="1.4" fill="#255542" stroke="#b0b888" strokeWidth=".7" />
+        <path d={`M1.2 1.2h${width-2.4}M1.2 ${height-1.2}h${width-2.4}`} stroke="#97b58b" strokeWidth=".45" />
+        {detailed && <path d={`M4 ${height*.36}v${height*.25}h2M${width-4} ${height*.36}v${height*.25}h-2`} stroke="#c7bf7a" strokeWidth=".3" opacity=".75" />}
         {Array.from({length:detailed?20:13},(_,i)=><g key={i}>
           <path d={`M${2+i*(width-4)/(detailed?20:13)} ${height+1}v2.8M${2+i*(width-4)/(detailed?20:13)} .8v1.5`} stroke="#dfbd68" strokeWidth=".7" />
         </g>)}
         {[9,15,21,27,33,39].map((y)=><g key={y}><rect x="1.8" y={y} width="2" height="1.4" fill="#b9b496"/><rect x={width-3.7} y={y} width="2" height="1.4" fill="#b9b496"/></g>)}
         <path d={ihs} transform="translate(0 2.2)" fill="#7d8987" stroke="#435653" strokeWidth=".6" />
         <path d={ihs} fill={metal} stroke="#edf1ec" strokeWidth=".8" strokeLinejoin="round" />
+        <path d={ihs} transform="translate(.4 -.4)" fill="none" stroke="#f0f3ed" strokeWidth=".25" opacity=".5" />
         <path d={`M13 13H${width-12}M13 ${height-12}H${width-12}`} stroke="#f1f4ec" strokeWidth=".65" opacity=".7" />
-        <text x={width/2} y={height*.42} textAnchor="middle" fill="#475552" fontFamily="Arial,sans-serif" fontSize={intel?8:7} fontWeight="700">{intel?'intel':'AMD'}</text>
-        <text x={width/2} y={height*.56} textAnchor="middle" fill="#64706b" fontFamily="Arial,sans-serif" fontSize="4.3" letterSpacing="1">{intel?'CORE':'RYZEN'}</text>
-        <text x={width/2} y={height*.68} textAnchor="middle" fill="#626e67" fontFamily="Arial,sans-serif" fontSize="2.9">{engraving || (intel?'LGA1700':'AM5')}</text>
+        <text x={width/2} y={height*.42} textAnchor="middle" fill="#475552" fontFamily="Arial,sans-serif" fontSize={intel?8:7} fontWeight="700">{intel?'intel':maker.toUpperCase() || 'CPU'}</text>
+        <text x={width/2} y={height*.56} textAnchor="middle" fill="#64706b" fontFamily="Arial,sans-serif" fontSize="4.3" letterSpacing="1">{/\bCore\b/i.test(model)?'CORE':/\bRyzen\b/i.test(model)?'RYZEN':''}</text>
+        <text x={width/2} y={height*.68} textAnchor="middle" fill="#626e67" fontFamily="Arial,sans-serif" fontSize="2.9">{engraving || component?.socket || ''}</text>
         {detailed && <><text x={width/2} y={height*.77} textAnchor="middle" fill="#728079" fontFamily="monospace" fontSize="1.75">{component?.socket} · PROCESSOR</text><g transform={`translate(${width-14} ${height-16})`}>{[0,1,2].flatMap(y=>[0,1,2].map(x=><rect key={`${x}-${y}`} x={x} y={y} width=".65" height=".65" fill="#6c7972"/>))}</g></>}
         <path d={`M2 ${height-3}l3 1.3-3 1.3Z`} fill="#e1c97d" />
       </g>;
@@ -103,11 +106,17 @@ export default function ProductArt({ category, brand, className, component, deta
       const left = (120-width-12)/2;
       const top = 30;
       const flow = p?.fanLayout === 'flow-through';
-      const label = component?.name.includes('Radeon') ? 'RADEON RX' : component?.name.includes('Arc') ? 'INTEL ARC' : 'GEFORCE RTX';
+      const chipset = `${component?.name ?? ''} ${component?.specs.join(' ') ?? ''}`;
+      const label = /\bRadeon\s+Pro\b/i.test(chipset) ? 'RADEON PRO'
+        : /\bRX\s*\d{3,4}/i.test(chipset) ? 'RADEON RX' : /\bRadeon\b/i.test(chipset) ? 'RADEON'
+        : /\bArc\b/i.test(chipset) ? 'INTEL ARC' : /\bQuadro\b/i.test(chipset) ? 'NVIDIA QUADRO'
+        : /\bRTX\s*(?:PRO|[A-Z]\d|[1-6]000\b)/i.test(chipset) ? 'NVIDIA RTX'
+        : /\bGTX\s*\d/i.test(chipset) ? 'GEFORCE GTX' : /\bRTX\s*\d/i.test(chipset) ? 'GEFORCE RTX' : 'GPU';
       artwork = <g transform={`translate(${left} ${top})`}>
         <path d={`M0 0 ${width} -12 ${width+12} -3 12 9Z`} fill={paint('backplate-surface')} stroke="#9aa6aa" strokeWidth=".65" />
         {Array.from({length:detailed?34:22},(_,i)=><path key={i} d={`M${12+i*(width-16)/(detailed?34:22)} 5.7l4-4`} stroke="#101a20" strokeWidth=".65"/>)}
         <path d={`M12 9 ${width+12} -3v${depth}L12 ${depth+9}Z`} fill={paint('shroud-surface')} stroke="#8c9ba1" strokeWidth=".8" />
+        <path d={`M13 9 ${width+11} -2M13 ${depth+7} ${width+11} ${depth-5}`} stroke={mix(p?.shroudColor || shell, 255, .4)} strokeWidth=".45" />
         <path d={`M0 0 12 9v${depth}L0 ${depth-3}Z`} fill={paint('graphite')} stroke="#79878c" strokeWidth=".65" />
         <g transform={`translate(12 9) skewY(${-Math.atan(12/width)*180/Math.PI})`}>
           <path d={`M4 3h${width-8}v${depth-6}H4Z`} fill="#10181b" stroke="#48565d" strokeWidth=".6" />
@@ -122,10 +131,12 @@ export default function ProductArt({ category, brand, className, component, deta
         </g>
         <path d={`M${width*.5} -6l10-1.2 3 2.2-10 1.3Z`} fill="#0c1418" stroke="#5d6b6e" strokeWidth=".5" />
         {Array.from({length:6},(_,i)=><path key={i} d={`M${width*.5+1+i*1.4} -5.7l1.3 1.1`} stroke="#a9b0a8" strokeWidth=".4"/>)}
-        <text x={width*.32} y=".5" transform={`rotate(-7.5 ${width*.32} .5)`} fill="#e1e7e4" fontSize="3.4" fontFamily="Arial,sans-serif" fontWeight="700" letterSpacing=".35">{label}</text>
+        <text x={width*.32} y=".5" transform={`rotate(-7.5 ${width*.32} .5)`} fill={light(p?.backplateColor)?'#34443f':'#e1e7e4'} fontSize="3.4" fontFamily="Arial,sans-serif" fontWeight="700" letterSpacing=".35">{label}</text>
         {[0,1,2].map(i=><path key={i} d={`M2 ${9+i*6}l6 4v2l-6-4Z`} fill="#0d171d" stroke="#a5b0b4" strokeWidth=".5"/>)}
         <path d={`M26 ${depth+8}l22-2.8v3l-22 2.8Z`} fill={paint('gold')} />
-        {detailed && <text x="20" y={depth+5} transform="rotate(-7.5)" fill="#a6b2b7" fontSize="2.1" fontFamily="Arial,sans-serif">{maker.toUpperCase()}</text>}
+        <path d={Array.from({length:14},(_,i)=>`M${27+i*1.5} ${depth+8-(1+i*1.5)*.127}v2.8`).join(' ')} stroke="#6e613d" strokeWidth=".45" />
+        {detailed && component?.capacityGB && <text x={width*.85} y="-5.5" transform={`rotate(-7.5 ${width*.85} -5.5)`} textAnchor="end" fill={light(p?.backplateColor)?'#3c4b47':'#c4ceca'} fontSize="2.3" fontFamily="Arial,sans-serif">{component.capacityGB} GB</text>}
+        {detailed && <text x="20" y={depth+5} transform="rotate(-7.5)" fill={light(p?.shroudColor)?'#42524d':'#a6b2b7'} fontSize="2.1" fontFamily="Arial,sans-serif">{maker.toUpperCase()}</text>}
       </g>;
       break;
     }
@@ -160,7 +171,7 @@ export default function ProductArt({ category, brand, className, component, deta
         <path d={`M${width*.67} ${height*.65}h${width*.23}v${height*.17}l-${width*.23}-2Z`} fill={p?.heatsinkColor || '#526166'} stroke="#91a29d" strokeWidth=".55" />
         <path d={`m${width*.71} ${height*.69} 6 2m-6 1 6 2`} stroke={p?.rgb?paint('rgb-line'):'#b1bcb9'} data-rgb-zone={p?.rgb?'motherboard-chipset':undefined} strokeWidth=".65" />
         {p?.rgb && <g data-rgb-zone="motherboard-heatsink" transform="translate(1 4)"><rect width="4.5" height={height*.22} rx=".7" fill={paint('rgb')} opacity=".85"/><path d={`M.8 1v${height*.2}`} stroke="#e5f7ff" strokeWidth=".35" opacity=".75"/></g>}
-        <text x={width*.7} y={height*.8} fontSize="1.9" fill="#c0cbc7" fontFamily="Arial,sans-serif">{maker.slice(0,7).toUpperCase()}</text>
+        <text x={width*.7} y={height*.8} fontSize="1.9" fill={light(p?.heatsinkColor)?'#40534b':'#c0cbc7'} fontFamily="Arial,sans-serif">{maker.slice(0,7).toUpperCase()}</text>
         {[.68,.77].map(y=><rect key={y} x={width-3} y={height*y} width="3.2" height="4" fill="#111a20" stroke="#687a76" strokeWidth=".6"/>)}
         {[0,1,2,3,4].map(i=><g key={i}><rect x={2+i*3.3} y={height-3} width="2.1" height="1.4" fill="#162026"/><path d={`M${2.3+i*3.3} ${height-2.8}v1M${3.4+i*3.3} ${height-2.8}v1`} stroke="#c9af66" strokeWidth=".35"/></g>)}
         {[.33,.43,.53,.63,.73].map(y=><circle key={y} cx="4.5" cy={height*y} r="1" fill="#a4afaa" stroke="#162b26" strokeWidth=".35" />)}
@@ -170,25 +181,58 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'ram': {
       const p = profile?.category === 'ram' ? profile : undefined;
-      const rgb = p?.rgb || false;
-      const count = Math.min(4,component?.memorySticks ?? p?.sticks ?? 2);
-      const ink = light(p?.heatspreaderColor)?'#31433f':'#e2e8df';
-      const h = p ? Math.min(25,10+p.heightMm*.3) : 23;
-      artwork = <g transform={count>2?'translate(9 -1) scale(.83)':'translate(0 7)'}>
-        {Array.from({length:count},(_,i)=><g key={i} transform={`matrix(1,-.18,0,1,${15+i*5},${20+i*14})`}>
-          <path d="M0 0 5-5h74l-5 5Z" fill={rgb?paint('rgb'):paint('heatspreader-surface')} stroke={rgb?'#dbeaff':'#84948b'} data-rgb-zone={rgb?'ram-diffuser':undefined} strokeWidth=".6" />
-          {rgb && <><path d="M4-1h70" stroke={paint('rgb-line')} strokeWidth="3.5" opacity=".2"/><path d="M5-3.5h69" stroke="#eef6ff" strokeWidth=".65" opacity=".85" /></>}
-          <path d={`M74 0 79-5v${h}l-5 5Z`} fill={paint('graphite')} stroke="#5b6b67" strokeWidth=".5" />
-          <rect y="1" width="74" height={h} fill="#192c24" />
-          {[7,19,45,57].map(x=><rect key={x} x={x} y="5" width="10" height={h-9} rx=".7" fill="#182126" stroke="#48574f" strokeWidth=".5" />)}
-          <path d={`M0 0h74v${h-3}H48l-5-3H32l-5 3H0Z`} fill={paint('heatspreader-surface')} stroke="#97a39b" strokeWidth=".6" />
-          <path d={`M3 3h20l8 8H16l-4 6H3ZM71 3H51l-8 8h15l4 6h9Z`} fill="#0d1c21" fillOpacity=".32" stroke="#8b9b95" strokeWidth=".45" />
-          {[7,11,15,59,63,67].map(x=><path key={x} d={`M${x} 4v${h-10}`} stroke="#b5bdb7" strokeWidth=".35" opacity=".4" />)}
-          <path d={`M3 ${h-1}h31v4H3ZM37 ${h-1}h34v4H37Z`} fill={paint('gold')} />
-          {Array.from({length:detailed?30:23},(_,j)=>{const x=4+j*2.9;return x<70 && (x<33||x>37)?<path key={j} d={`M${x} ${h-1}v4`} stroke="#675d3b" strokeWidth=".55" />:null;})}
-          <text x="37" y="9" textAnchor="middle" fontFamily="Arial,sans-serif" fontWeight="700" fontSize="3.6" fill={ink}>{maker.toUpperCase()}</text>
-          <text x="37" y="14" textAnchor="middle" fontFamily="Arial,sans-serif" fontSize="2.5" fill={ink}>{component?.memoryType || 'DDR5'}</text>
-          {detailed && <text x="37" y="18" textAnchor="middle" fontFamily="Arial,sans-serif" fontSize="1.6" fill={ink}>{engraving.slice(0,23)}</text>}
+      const bare = p?.hasHeatspreader === false || component?.memoryHeatspreader === false;
+      const rgb = p?.rgb === true && (!bare || component?.rgb === true);
+      const count = Math.min(4, component?.memorySticks ?? p?.sticks ?? 2);
+      const pcb = p?.pcbColor || (bare ? '#2d684d' : '#253b31');
+      const ink = light(p?.heatspreaderColor) ? '#31433f' : '#e2e8df';
+      const h = p ? Math.min(25, 10 + p.heightMm * .3) : bare ? 19.4 : 23;
+      const moduleCapacity = component?.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : null;
+      const organization = component?.memoryRankCount && component.memoryDeviceWidthBits ? `${component.memoryRankCount}Rx${component.memoryDeviceWidthBits}` : '';
+      const moduleKind = component?.memoryModuleKind || (component?.memoryRegistered === false && component.memoryModuleFormat === 'DIMM' ? 'UDIMM' : component?.memoryModuleFormat || '');
+      const scale = count > 2 ? .83 : 1;
+      const offsetX = 60 - (15 + 94 + (count - 1) * 5) * .5 * scale;
+      const offsetY = 45 - ((bare ? 3.5 : .5) + 20 + (count - 1) * 14 + h + 3) * .5 * scale;
+      const contacts = Array.from({ length: detailed ? 30 : 23 }, (_, index) => {
+        const x = 4 + index * (detailed ? 2.2 : 2.9);
+        return x < 70 && (x < 33 || x > 37) ? `M${x} ${h - 1}v4` : '';
+      }).join(' ');
+      artwork = <g transform={`translate(${offsetX} ${offsetY}) scale(${scale})`} data-ram-construction={bare ? 'bare' : 'heatspreader'}>
+        {Array.from({ length: count }, (_, i) => <g key={i} transform={`matrix(1,-.18,0,1,${15 + i * 5},${20 + i * 14})`}>
+          {bare ? <>
+            <path d={`M0 0 3-2.2h74l-3 2.2v${h}l3-2.2V-2.2`} fill={mix(pcb, 0, .22)} stroke="#8da58d" strokeWidth=".45" />
+            <path d={`M0 0h74v${h + 2}H37v-3h-3v3H0Z`} fill={pcb} stroke="#88a58b" strokeWidth=".6" />
+            <path d={`M1 1h72M1 ${h - 3}h31m6 0h35`} stroke="#a7c397" strokeWidth=".4" opacity=".65" />
+            {Array.from({ length: 8 }, (_, chip) => <g key={chip}>
+              <path d={`M${3 + chip * 8.6} 4h7.2v${h - 9}h-7.2Z`} fill="#152125" stroke="#80948b" strokeWidth=".4" />
+              <path d={`M${3.7 + chip * 8.6} 4.7h5.8`} stroke="#5b706a" strokeWidth=".4" />
+              {detailed && <path d={`M${4 + chip * 8.6} 7h4.8m-4.8 1.3h3.1`} stroke="#788b81" strokeWidth=".28" opacity=".8" />}
+              <path d={`M${5 + chip * 8.6} ${h - 5}v1.4l1.6 1.2v1.3`} stroke="#c7ba74" strokeWidth=".3" opacity=".65" />
+            </g>)}
+            {[5, 16, 27, 39, 50, 62, 69].map(x => <g key={x}><rect x={x} y="1.7" width="1.4" height="1" fill="#d3caa7" /><path d={`M${x - .2} 2.2h.4m1.2 0h.4`} stroke="#b0c0b4" strokeWidth=".45" /></g>)}
+            <rect x="5" y="4.2" width="33" height={h - 8.3} rx=".5" fill="#ecefe3" stroke="#b9c5b4" strokeWidth=".4" />
+            <text x="7.3" y="7.7" fontFamily="Arial,sans-serif" fontWeight="700" fontSize="2.8" fill="#293c35">{maker.toUpperCase()}</text>
+            <text x="7.3" y="10.4" fontFamily="Arial,sans-serif" fontSize="2" fill="#34483e">{[moduleCapacity ? `${moduleCapacity} GB` : '', organization].filter(Boolean).join(' · ')}</text>
+            <text x="7.3" y="12.7" fontFamily="Arial,sans-serif" fontSize="1.7" fill="#34483e">{component?.memoryType}{component?.memorySpeedMTs ? `-${component.memorySpeedMTs}` : ''}{moduleKind ? ` ${moduleKind}` : ''}</text>
+            {detailed && component?.manufacturerPartNumber && <text x="7.3" y="14.6" fontFamily="monospace" fontSize="1.15" fill="#44574b">{component.manufacturerPartNumber}</text>}
+            {rgb && <path d="M5-1h65" stroke={paint('rgb-line')} strokeWidth="1.2" data-rgb-zone="ram-diffuser" />}
+          </> : <>
+            <path d="M0 0 5-5h74l-5 5Z" fill={rgb ? paint('rgb') : paint('heatspreader-surface')} stroke={rgb ? '#dbeaff' : '#84948b'} data-rgb-zone={rgb ? 'ram-diffuser' : undefined} strokeWidth=".6" />
+            {rgb && <><path d="M4-1h70" stroke={paint('rgb-line')} strokeWidth="3.5" opacity=".2" /><path d="M5-3.5h69" stroke="#eef6ff" strokeWidth=".65" opacity=".85" /></>}
+            <path d={`M74 0 79-5v${h}l-5 5Z`} fill={paint('graphite')} stroke="#5b6b67" strokeWidth=".5" />
+            <rect y="1" width="74" height={h} fill={pcb} />
+            {[7, 19, 45, 57].map(x => <rect key={x} x={x} y="5" width="10" height={h - 9} rx=".7" fill="#182126" stroke="#48574f" strokeWidth=".5" />)}
+            <path d={`M0 0h74v${h - 3}H48l-5-3H32l-5 3H0Z`} fill={paint('heatspreader-surface')} stroke="#97a39b" strokeWidth=".6" />
+            <path d="M3 3h20l8 8H16l-4 6H3ZM71 3H51l-8 8h15l4 6h9Z" fill="#0d1c21" fillOpacity=".32" stroke="#8b9b95" strokeWidth=".45" />
+            {[7, 11, 15, 59, 63, 67].map(x => <path key={x} d={`M${x} 4v${h - 10}`} stroke="#b5bdb7" strokeWidth=".35" opacity=".4" />)}
+            <path d={`M2 ${h - 4}h24m23 0h23`} stroke={mix(p?.heatspreaderColor || shell, 255, .35)} strokeWidth=".5" />
+            <text x="37" y="9" textAnchor="middle" fontFamily="Arial,sans-serif" fontWeight="700" fontSize="3.6" fill={ink}>{maker.toUpperCase()}</text>
+            <text x="37" y="14" textAnchor="middle" fontFamily="Arial,sans-serif" fontSize="2.5" fill={ink}>{component?.memoryType || 'RAM'}{moduleCapacity ? ` · ${moduleCapacity} GB` : ''}</text>
+            {detailed && <text x="37" y="18" textAnchor="middle" fontFamily="Arial,sans-serif" fontSize="1.6" fill={ink}>{organization || engraving.slice(0, 23)}</text>}
+          </>}
+          <path d={`M3 ${h - 1}h31v4H3ZM37 ${h - 1}h34v4H37Z`} fill={paint('gold')} />
+          <path d={contacts} stroke="#675d3b" strokeWidth=".55" />
+          <path d={`M1.2 ${h - 6}v3m71.6-3v3`} stroke="#d2dccb" strokeWidth=".65" />
         </g>)}
       </g>;
       break;
@@ -199,6 +243,8 @@ export default function ProductArt({ category, brand, className, component, deta
       artwork = <g transform="matrix(1,-.22,.62,.7,10,45)">
         <path d="M0 22v2h84v-2M84 0v24" stroke="#315043" strokeWidth="1.2" />
         <path d="M0 0h78v22H0v-7a4 4 0 0 0 0-8Z" fill={shell} stroke="#778e81" strokeWidth=".7" />
+        <path d="M5 2h17l3 3h27l4-3h19M5 20h18l3-3h25l5 3h19" stroke="#91a780" strokeWidth=".4" opacity=".7" />
+        {detailed && <path d="M17 4v2l4 4v5l4 4M41 3v3l4 4v4l5 5M66 4h8v3h3m-9 12h5v-6h4" stroke="#a9ac76" strokeWidth=".28" opacity=".75" />}
         <path d="M0 7a4 4 0 0 1 0 8" fill="none" stroke="#d0cba9" strokeWidth="1.5" />
         <path d="M78 1h8v7h-3v2h3v11h-8Z" fill={paint('gold')} />
         {Array.from({length:10},(_,i)=><path key={i} d={`M79 ${2+i*1.9}h7`} stroke="#736846" strokeWidth=".55" />)}
@@ -290,7 +336,9 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'psu': {
       const p = profile?.category === 'psu' ? profile : undefined;
-      const modular = !/non.modulaire/i.test((component?.specs || []).join(' '));
+      const wiring = (component?.specs || []).join(' ');
+      const modular = /semi[ -]modulaire/i.test(wiring) ? 'semi'
+        : /c[âa]bles fixes|non[ -]modulaire/i.test(wiring) ? 'fixed' : /modulaire/i.test(wiring) ? 'full' : 'unknown';
       artwork = <g transform={p?.format==='SFX'?'translate(12 8) scale(.82)':undefined}>
         <path d="m16 28 44-12 43 24-47 14Z" fill={paint('shell-surface')} stroke="#95a3a7" strokeWidth=".7" />
         <path d="m16 28 40 26v25L16 53Z" fill={paint('shell-surface')} stroke="#79878c" strokeWidth=".7" />
@@ -304,14 +352,15 @@ export default function ProductArt({ category, brand, className, component, deta
         <g transform="matrix(1,-.29,0,1,60,54)">
           <rect width="36" height="18" rx=".8" fill="#192329" stroke="#859494" strokeWidth=".45" />
           <text x="3" y="5" fill="#bac5be" fontFamily="Arial,sans-serif" fontSize="2.6" fontWeight="700">{maker.toUpperCase()}</text>
-          <text x="3" y="13.2" fill="#edf0e6" fontFamily="Arial,sans-serif" fontSize="7" fontWeight="700">{component?.wattage || 750}<tspan fontSize="4"> W</tspan></text>
+          <text x="3" y="13.2" fill="#edf0e6" fontFamily="Arial,sans-serif" fontSize="7" fontWeight="700">{component?.wattage || 'PSU'}{component?.wattage && <tspan fontSize="4"> W</tspan>}</text>
           <path d="M2 16h32" stroke={accent} strokeWidth=".6" />
           <text x="30" y="8" textAnchor="middle" fill="#adbcb5" fontFamily="Arial,sans-serif" fontSize="2.6">{p?.format || 'ATX'}</text>
           {detailed && <path d="M27 11h6m-6 1.5h6m-6 1.5h4" stroke="#a4b1ae" strokeWidth=".4" />}
         </g>
         <g transform="matrix(.8,.51,0,.9,20,33)">
-          {modular ? [0,1].flatMap(row=>[0,1,2].map(col=><g key={`${row}-${col}`}><rect x={col*11} y={row*11} width="9" height="8" rx=".6" fill="#0c171d" stroke="#77888d" strokeWidth=".6"/>{[0,1].flatMap(y=>[0,1,2].map(x=><rect key={`${y}-${x}`} x={1.6+col*11+x*2.2} y={1.8+row*11+y*3} width="1.2" height="1.5" fill="#626e6b"/>))}</g>)) : <><rect width="34" height="19" fill="#1c282d" stroke="#7d8b8a" strokeWidth=".6"/>{[0,1,2,3,4].map(i=><path key={i} d={`M${3+i*6} 3v13`} stroke="#839392" strokeWidth=".7"/>)}</>}
+          {modular === 'full' || modular === 'semi' ? (modular === 'semi' ? [0] : [0,1]).flatMap(row=>[0,1,2].map(col=><g key={`${row}-${col}`}><rect x={col*11} y={row*11} width="9" height="8" rx=".6" fill="#0c171d" stroke="#77888d" strokeWidth=".6"/>{[0,1].flatMap(y=>[0,1,2].map(x=><rect key={`${y}-${x}`} x={1.6+col*11+x*2.2} y={1.8+row*11+y*3} width="1.2" height="1.5" fill="#626e6b"/>))}</g>)) : <><rect width="34" height="19" fill="#1c282d" stroke="#7d8b8a" strokeWidth=".6"/>{[0,1,2,3,4].map(i=><path key={i} d={`M${3+i*6} 3v13`} stroke="#839392" strokeWidth=".7"/>)}</>}
         </g>
+        {(modular === 'fixed' || modular === 'semi') && <g data-art-wiring={modular}><ellipse cx="29" cy="54" rx="4" ry="2.7" fill="#0c171b" stroke="#7c8e87" strokeWidth=".6" />{[0,1,2,3].map(i=><path key={i} d={`M${26+i*1.6} 54q-6 6-4 10t-9 8`} stroke={i%2?'#47575a':'#243237'} strokeWidth="1.4" strokeLinecap="round" />)}</g>}
         {screw(99,44,.75)}{screw(99,61,.75)}{screw(58,74,.75)}
       </g>;
       break;
@@ -370,7 +419,7 @@ export default function ProductArt({ category, brand, className, component, deta
             {Array.from({length:detailed?16:12},(_,i)=><path key={i} d={`M${3+i*(frontWidth-5)/(detailed?16:12)} 4v${panelH-8}`} stroke="#8c9ca0" strokeWidth=".35" strokeDasharray=".55 .8" opacity=".65"/>)}
           </>}
           {component?.id==='case-o11' && p?.rgb && <g data-rgb-zone="case-front-strip"><rect x={frontWidth-2.6} y="3" width="2.5" height={panelH-6} rx=".6" fill={paint('rgb')} opacity=".2"/><rect x={frontWidth-1.8} y="3" width=".9" height={panelH-6} rx=".35" fill={paint('rgb')}/></g>}
-          <text x={frontWidth/2} y={panelH-2} textAnchor="middle" fill="#a9b9bc" fontSize="1.8" fontFamily="Arial,sans-serif" letterSpacing=".3">{maker.slice(0,10).toUpperCase()}</text>
+          <text x={frontWidth/2} y={panelH-2} textAnchor="middle" fill={light(p?.frontColor)?'#4c5c55':'#a9b9bc'} fontSize="1.8" fontFamily="Arial,sans-serif" letterSpacing=".3">{maker.slice(0,10).toUpperCase()}</text>
         </g>
         <path d={`M${left+3} ${bottom-sideWidth*.32}v4M${edge+3} ${bottom}v4M${right-4} ${bottom-frontWidth*.28}v4`} stroke="#27373e" strokeWidth="3.5" />
         <g transform={`matrix(1,-.28,.7,.22,${left+frontWidth-2} ${top-4})`}>

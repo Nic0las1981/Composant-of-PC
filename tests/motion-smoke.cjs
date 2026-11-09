@@ -1,6 +1,7 @@
 // Optional browser checks for real scene animation and pointer interaction.
 // Uses angles and texture phases read from Three objects, plus canvas pixel differences.
 const { chromium } = require('playwright');
+const { chooseOpenCatalogProduct } = require('./catalog-test-helpers.cjs');
 const { PNG } = require('pngjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
@@ -67,9 +68,7 @@ const output = process.env.FORGE_TEST_OUTPUT || '/tmp/forge-motion-validation';
   };
   const choose = async (page, category, name) => {
     await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
-    const card = page.getByRole('dialog').locator('.catalog-product').filter({ has: page.getByRole('heading', { name, exact: true }) });
-    await card.getByRole('button', { name: 'Choisir', exact: true }).click();
-    await page.waitForFunction(() => !document.querySelector('[role="dialog"]'));
+    await chooseOpenCatalogProduct(page, name);
     await scene(page).scrollIntoViewIfNeeded();
     await page.mouse.move(0, 0);
   };

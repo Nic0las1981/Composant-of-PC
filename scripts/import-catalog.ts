@@ -5,7 +5,7 @@
  */
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, rename, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { resolve } from "node:path";
 import type { Component, FormFactor, MemoryType, Socket } from "../src/data/catalog.ts";
@@ -19,6 +19,9 @@ interface SourceRow {
   recordKey: string;
   recordHash: string;
   record: RawRecord;
+  variantGroupKey: string;
+  variantGroupId: string;
+  neutralName: string;
 }
 interface Snapshot {
   schemaVersion: number;
@@ -28,7 +31,7 @@ interface Snapshot {
     sourceUpdated: string;
     files: Record<string, { sha256: string; rows: number; url: string }>;
   };
-  selection: { baselineCount: number; counts: Record<SourceType, number>; baselineIds: string[] };
+  selection: { baselineCount: number; counts: Record<SourceType, number>; baselineIds: string[]; legacyIds: string[]; groupCounts: Record<SourceType, number>; groupCount: number };
   records: SourceRow[];
 }
 
@@ -79,11 +82,13 @@ function sourceColors(record: RawRecord): Pick<Component, "color" | "accent"> & 
 
 function convert(row: SourceRow): Component {
   const record = row.record;
-  const { brand, model } = manufacturer(record.name);
+  const { brand, model } = manufacturer(row.neutralName);
   const { colorLabel, ...colorValues } = sourceColors(record);
   const colorSuffix = colorLabel ? ` · ${colorLabel}` : "";
   const common = {
     id: row.id, brand, price: 0, priceStatus: "unknown" as const, detailLevel: "partial" as const,
+    variantGroupId: row.variantGroupId,
+    ...(colorLabel ? { finishName: colorLabel } : {}),
     source: {
       dataset: "docyx/pc-part-dataset",
       url: `${snapshot.source.repository}/blob/${snapshot.source.commit}/data/json/${row.sourceType}.json`,
@@ -103,7 +108,7 @@ function convert(row: SourceRow): Component {
     assert(/^(Corsair (Vengeance|Dominator)|G\.Skill (Ripjaws V|Ripjaws S5|Trident Z|Flare X|Aegis)|Kingston (FURY (Beast|Renegade)|HyperX (Fury|Predator))|TEAMGROUP (T-Force|T-Create)|Patriot Viper|Silicon Power (GAMING|XPOWER)|ADATA XPG|Crucial (Pro|Ballistix))/i.test(record.name));
     // Several workstation/laptop families omit RDIMM or SO-DIMM from their
     // dataset name. Exclude those ambiguous families instead of guessing DIMM.
-    assert(!/SO.?DIMM|\bECC\b|Registered|RDIMM|CUDIMM|Impact|Renegade Pro|T-Create Master|T-Create Classic|^Corsair Vengeance \d|^Crucial Ballistix(?: Sport(?: LT)?)? \d|^Patriot Viper (?:Steel|4) \d/i.test(record.name));
+    assert(!/SO.?DIMM|\bECC\b|Registered|RDIMM|CUDIMM|Impact|Renegade Pro|T-Create Master|T-Create Classic|Vengeance Performance|T-Force Zeus|\bCKD\b|CAMM2|^Corsair Vengeance \d|^Crucial Ballistix(?: Sport(?: LT)?)? \d|^Patriot Viper (?:Steel|4) \d/i.test(record.name));
     const cas = integer(record, "cas_latency");
     const memoryType = `DDR${generation}` as MemoryType;
     const totalGB = sticks * moduleGB;
@@ -111,8 +116,8 @@ function convert(row: SourceRow): Component {
     return {
       ...common, category: "ram", name: `${family} ${totalGB} Go (${sticks} × ${moduleGB} Go) ${memoryType}-${speed} CL${cas}${colorSuffix}`,
       description: `Référence de mémoire de bureau : ${sticks} barrette${sticks > 1 ? "s" : ""} de ${moduleGB} Go. Vitesse annoncée ; fréquence effective et stabilité selon processeur, carte mère et réglages. Hauteur et profils mémoire non documentés dans cette source.`,
-      specs: [`${totalGB} Go · ${sticks} × ${moduleGB} Go`, `${memoryType} · ${speed} MT/s`, `CAS CL${cas}`, "Format DIMM de bureau", ...colorSpecs, ...(common.rgb ? ["RGB mentionné dans la référence"] : [])],
-      capacityGB: totalGB, memorySticks: sticks, memoryType, memorySpeedMTs: speed, casLatency: cas, memoryModuleFormat: "DIMM",
+      specs: [`${totalGB} Go · ${sticks} × ${moduleGB} Go`, `${memoryType} · ${speed} MT/s`, `CAS CL${cas}`, ...(typeof record.first_word_latency === "number" ? [`Latence CAS théorique déclarée : ${record.first_word_latency} ns`] : []), "UDIMM de bureau · non enregistrée", ...colorSpecs, ...(common.rgb ? ["RGB mentionné dans la référence"] : [])],
+      capacityGB: totalGB, memorySticks: sticks, memoryType, memorySpeedMTs: speed, casLatency: cas, memoryModuleFormat: "DIMM", memoryModuleKind: "UDIMM", memoryRegistered: false,
       ...(/EXPO/i.test(record.name) ? { memoryProfile: /XMP/i.test(record.name) ? "EXPO/XMP" as const : "EXPO" as const } : /XMP/i.test(record.name) ? { memoryProfile: "XMP" as const } : {}),
     };
   }
@@ -137,7 +142,7 @@ function convert(row: SourceRow): Component {
     return {
       ...common, category: "gpu", name: `${modelContainsChip ? model : `${model} ${chipName}`} · ${memory} Go${colorSuffix} · ${length} mm`,
       description: "Modèle et coloris référencés dans le catalogue source. La longueur est documentée ; épaisseur, hauteur, connecteurs, consommation et performances ne le sont pas. Aperçu 3D schématique.",
-      specs: [chipset, `${memory} Go de mémoire vidéo`, `Longueur ${length} mm`, ...(typeof record.core_clock === "number" ? [`Fréquence de base : ${record.core_clock} MHz`] : []), ...(typeof record.boost_clock === "number" ? [`Boost déclaré : ${record.boost_clock} MHz`] : []), ...colorSpecs],
+      specs: [chipset, `${memory} Go de mémoire vidéo`, `Longueur ${length} mm`, ...(typeof record.core_clock === "number" ? [`Fréquence déclarée par la source : ${record.core_clock} MHz`] : []), ...(typeof record.boost_clock === "number" ? [`Boost déclaré : ${record.boost_clock} MHz`] : []), ...colorSpecs],
       capacityGB: memory, lengthMm: length,
     };
   }
@@ -164,17 +169,17 @@ function convert(row: SourceRow): Component {
   assert(!(record.type === "SFX" && (/^Silverstone/i.test(record.name) || /SGX|Dagger/i.test(record.name))));
   const watts = integer(record, "wattage");
   const psuFormat = record.type as "ATX" | "SFX";
-  const modular = record.modular === "Full" ? "Entièrement modulaire" : record.modular === "Semi" ? "Semi-modulaire" : record.modular === false ? "Câbles fixes" : undefined;
+  const modular = record.modular === "Full" ? "Entièrement modulaire" : record.modular === "Full / Side" ? "Modulaire · connecteurs latéraux" : record.modular === "Semi" ? "Semi-modulaire" : record.modular === false ? "Câbles fixes" : undefined;
   const efficiency = typeof record.efficiency === "string" ? record.efficiency === "plus" ? "80 PLUS" : `80 PLUS ${record.efficiency.charAt(0).toUpperCase() + record.efficiency.slice(1)}` : undefined;
   return {
-    ...common, category: "psu", name: `${model} · ${watts} W · ${psuFormat}${colorSuffix}`,
+    ...common, category: "psu", name: `${model} · ${watts} W · ${psuFormat}${efficiency ? ` · ${efficiency}` : ""}${modular ? ` · ${modular}` : ""}${colorSuffix}`,
     description: "Alimentation dont la puissance et le format sont renseignés. Dimensions exactes, connecteurs GPU, câblage et révision ATX doivent être vérifiés auprès du constructeur.",
     specs: [`${watts} W`, `Format ${psuFormat}`, ...(efficiency ? [`Certification déclarée : ${efficiency}`] : []), ...(modular ? [modular] : []), ...colorSpecs],
     wattage: watts, psuFormat,
   };
 }
 
-assert.equal(snapshot.schemaVersion, 1);
+assert.equal(snapshot.schemaVersion, 2);
 assert.match(snapshot.source.commit, /^[a-f0-9]{40}$/);
 assert(snapshot.records.length >= 1000, "At least 1,000 additional references are required");
 const ids = new Set<string>();
@@ -184,12 +189,21 @@ for (const row of snapshot.records) {
   assert(!ids.has(row.id) && !snapshot.selection.baselineIds.includes(row.id), `Duplicate id: ${row.id}`);
   assert(!keys.has(`${row.sourceType}:${row.recordKey}`), `Duplicate reference: ${row.id}`);
   assert(row.id.endsWith(`-${hash(row.recordKey).slice(0, 12)}`), `Unstable reference id: ${row.id}`);
+  assert(row.variantGroupId.endsWith(`-${hash(row.variantGroupKey).slice(0, 16)}`), `Unstable group id: ${row.id}`);
   assert.equal(hash(canonical(row.record)), row.recordHash, `Record checksum failed: ${row.id}`);
   assert(row.sourceIndex >= 0 && row.sourceIndex < snapshot.source.files[`${row.sourceType}.json`].rows);
   ids.add(row.id); keys.add(`${row.sourceType}:${row.recordKey}`);
   counts[row.sourceType] = (counts[row.sourceType] ?? 0) + 1;
 }
 assert.deepEqual(counts, snapshot.selection.counts);
+assert(snapshot.selection.legacyIds.every((id) => ids.has(id)), "Existing saved component IDs must remain available");
+const groupCounts: Record<string, number> = {};
+for (const type of Object.keys(counts)) {
+  groupCounts[type] = new Set(snapshot.records.filter((row) => row.sourceType === type).map((row) => row.variantGroupId)).size;
+}
+assert.deepEqual(groupCounts, snapshot.selection.groupCounts);
+assert.equal(Object.values(groupCounts).reduce((sum, value) => sum + value, 0), snapshot.selection.groupCount);
+assert(snapshot.selection.groupCount >= 5000, "At least 5,000 references excluding colour variants are required");
 const args = process.argv.slice(2);
 const sourceDirIndex = args.indexOf("--source-dir");
 if (sourceDirIndex !== -1) {
@@ -206,7 +220,19 @@ if (sourceDirIndex !== -1) {
   }
 }
 
-const components = snapshot.records.map(convert);
+const components = snapshot.records.map((row) => {
+  const component = convert(row);
+  const colorLabel = sourceColors(row.record).colorLabel;
+  component.variantGroupName = colorLabel ? component.name.replace(` · ${colorLabel}`, "") : component.name;
+  return component;
+});
+// Case and punctuation differences in the source do not change the group label.
+const groupNames = new Map<string, string>();
+for (const component of components) {
+  const id = component.variantGroupId!;
+  if (!groupNames.has(id)) groupNames.set(id, component.variantGroupName!);
+  component.variantGroupName = groupNames.get(id)!;
+}
 // Small typed batches keep TypeScript's contextual union below its complexity limit.
 const batches: string[] = [];
 for (let start = 0; start < components.length; start += 100) {
@@ -217,6 +243,7 @@ const destination = resolve(root, "src/data/catalogImported.ts");
 if (args.includes("--check")) {
   assert.equal(await readFile(destination, "utf8"), output, "Generated catalogue is stale; run npx tsx scripts/import-catalog.ts");
 } else {
-  await writeFile(destination, output);
+  await writeFile(`${destination}.tmp`, output);
+  await rename(`${destination}.tmp`, destination);
 }
-console.log(`${args.includes("--check") ? "Verified" : "Generated"} ${components.length} references: ${JSON.stringify(counts)}`);
+console.log(`${args.includes("--check") ? "Verified" : "Generated"} ${snapshot.selection.groupCount} references / ${components.length} finish variants: ${JSON.stringify(groupCounts)}`);

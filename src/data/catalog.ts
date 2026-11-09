@@ -1,5 +1,7 @@
 import { catalogExpansion } from "./catalogExpansion.ts";
 import { catalogImported } from "./catalogImported.ts";
+import { legacyVariantMetadata } from "./legacyVariants.ts";
+import { catalogOemMemory } from "./catalogOemMemory.ts";
 
 export type CategoryId =
   | "cpu"
@@ -27,6 +29,11 @@ export interface Component {
   category: CategoryId;
   brand: string;
   name: string;
+  /** Explicit same-model color variants, kept as real IDs for saved builds. */
+  variantGroupId?: string;
+  variantGroupName?: string;
+  finishName?: string;
+  manufacturerPartNumber?: string;
   price: number;
   priceStatus?: "estimate" | "unknown";
   detailLevel?: "documented" | "partial";
@@ -54,9 +61,14 @@ export interface Component {
   memorySpeedMTs?: number;
   casLatency?: number;
   memoryModuleFormat?: "DIMM" | "SO-DIMM";
+  memoryModuleKind?: "UDIMM" | "SO-DIMM" | "RDIMM" | "LRDIMM" | "CUDIMM";
   memoryRegistered?: boolean;
   memoryEcc?: boolean;
   memoryProfile?: "EXPO" | "XMP" | "EXPO/XMP" | "JEDEC";
+  memoryRankCount?: 1 | 2 | 4 | 8;
+  memoryDeviceWidthBits?: 4 | 8 | 16;
+  memoryVoltageV?: number;
+  memoryHeatspreader?: boolean;
   memoryChannels?: number;
   maxMemoryPerSlotGB?: number;
   lengthMm?: number;
@@ -2047,6 +2059,8 @@ export const catalog: Component[] = [
 
 catalog.push(...catalogExpansion);
 catalog.push(...catalogImported);
+catalog.push(...catalogOemMemory);
+for (const component of catalog) Object.assign(component, legacyVariantMetadata[component.id] ?? {});
 
 export const defaultSelection: Selection = {
   cpu: "cpu-7800x3d",

@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { catalog, defaultSelection, getComponent, type Component, type Selection } from '../src/data/catalog.ts';
 import { analyzeBuild, getBuildIssues, getCandidateIssues } from '../src/lib/compatibility.ts';
-import { arrangeMemorySlots, getMemoryAnalysis, resetMemoryToKit, withMemoryQuantity, withMemorySlot } from '../src/lib/memory.ts';
+import { getCatalogGroups } from '../src/lib/catalogVariants.ts';
+import { arrangeMemorySlots, chooseMemoryComponent, getMemoryAnalysis, resetMemoryToKit, withMemoryQuantity, withMemorySlot } from '../src/lib/memory.ts';
 
 const kit = getComponent('ram-ddr5-32')!;
 const largerKit = getComponent('ram-ddr5-64')!;
@@ -97,9 +98,9 @@ test('mixed DDR generations remain blocked for both the CPU and motherboard', ()
   assert.equal(analysis.status, 'incompatible');
 });
 
-test('choosing a kit or inspecting a RAM candidate replaces custom slot overrides', () => {
+test('choosing a different kit or inspecting its RAM candidate replaces custom slot overrides', () => {
   const custom = withMemorySlot(withMemoryQuantity(defaultSelection, 4), 0, 'ram-ddr4-16');
-  assert.deepEqual(getCandidateIssues(custom, kit), []);
+  assert.deepEqual(getCandidateIssues(custom, largerKit), []);
   const reset = resetMemoryToKit(custom, largerKit.id);
   const memory = getMemoryAnalysis(reset);
   assert.equal(memory.installedCount, 2);
@@ -221,7 +222,8 @@ test('current RAM card issues preserve mixed-reference errors instead of inspect
   const installedIssues = getBuildIssues(analysis, 'ram');
   assert.ok(installedIssues.some(warning => warning.id === 'memory-mixed-generation'));
   assert.ok(installedIssues.some(warning => warning.id === 'memory-type'));
-  assert.deepEqual(getCandidateIssues(selection, kit), []);
+  assert.ok(getCandidateIssues(selection, kit).some(warning => warning.id === 'memory-mixed-generation'));
+  assert.deepEqual(getCandidateIssues(selection, largerKit), []);
   assert.ok(getBuildIssues(analysis, 'motherboard').some(warning => warning.id === 'memory-type'));
 });
 
@@ -255,4 +257,79 @@ test('mixing priced and unpriced RAM retains the known kit subtotal in the build
   assert.ok(analysis.warnings.some(warning => warning.id === 'catalog-partial'));
   assert.equal(analysis.totalKnown, analyzeBuild(defaultSelection).totalKnown);
   assert.equal(analysis.unpricedCount, 1);
+});
+
+
+function colorVariants() {
+  const group = getCatalogGroups('ram').find(group => group.variants.length > 1
+    && group.variants.every(component => component.memoryType === 'DDR5' && component.memorySticks === 2 && component.capacityGB === 32));
+  assert.ok(group, 'expected explicitly grouped DDR5 2 × 16 GB retail finishes');
+  return [group.variants[0], group.variants[1]] as const;
+}
+
+test('changing a RAM finish preserves four installed modules and two complete purchased kits', () => {
+  const [oldFinish, newFinish] = colorVariants();
+  const original = withMemoryQuantity(resetMemoryToKit(defaultSelection, oldFinish.id), 4);
+  const snapshot = JSON.stringify(original);
+  const changed = chooseMemoryComponent(original, newFinish.id);
+  assert.equal(changed.ram, newFinish.id);
+  assert.deepEqual(changed.memory?.slots, original.memory?.slots.map(id => id === oldFinish.id ? newFinish.id : id));
+  const analysis = getMemoryAnalysis(changed);
+  assert.equal(analysis.installedCount, 4);
+  assert.equal(analysis.totalCapacityGB, 64);
+  assert.equal(analysis.purchases.length, 1);
+  assert.equal(analysis.purchases[0].kits, 2);
+  assert.equal(analysis.purchases[0].spareModules, 0);
+  assert.equal(analysis.purchases[0].component.id, newFinish.id);
+  assert.equal(analysis.purchases[0].price, newFinish.priceStatus === 'unknown' ? null : Math.round(newFinish.price * 200) / 100);
+  // Exercise budget arithmetic with a known quote while retaining real variant IDs.
+  const quoted = getMemoryAnalysis(changed, lookupWith({ ...newFinish, price: 149.9, priceStatus: 'estimate' }));
+  assert.equal(quoted.totalPrice, 299.8);
+  assert.equal(JSON.stringify(original), snapshot);
+});
+
+test('a RAM finish change preserves mixed references, gaps and out-of-board slots', () => {
+  const [oldFinish, newFinish] = colorVariants();
+  const mixed = withMemorySlot(withMemoryQuantity(resetMemoryToKit(defaultSelection, oldFinish.id), 3), 0, largerKit.id);
+  const narrow = { ...mixed, motherboard: 'mb-a620i' };
+  const changed = chooseMemoryComponent(narrow, newFinish.id);
+  assert.deepEqual(changed.memory?.slots, narrow.memory?.slots.map(id => id === oldFinish.id ? newFinish.id : id));
+  assert.equal(changed.memory?.slots[0], largerKit.id);
+  assert.equal(changed.memory?.slots[2], null);
+  assert.equal(changed.memory?.slots[3], newFinish.id);
+  const analysis = getMemoryAnalysis(changed);
+  assert.equal(analysis.installedCount, 3);
+  assert.equal(analysis.totalCapacityGB, 64);
+  assert.ok(analysis.warnings.some(warning => warning.id === 'memory-slots'));
+  assert.ok(getCandidateIssues(narrow, newFinish).some(warning => warning.id === 'memory-slots'));
+});
+
+test('reselecting the same RAM reference preserves quantity while the explicit reset still restores its kit', () => {
+  const original = withMemoryQuantity(defaultSelection, 3);
+  const selectedAgain = chooseMemoryComponent(original, kit.id);
+  assert.deepEqual(selectedAgain.memory, original.memory);
+  assert.equal(getMemoryAnalysis(selectedAgain).installedCount, 3);
+  assert.equal(getMemoryAnalysis(resetMemoryToKit(original, kit.id)).installedCount, 2);
+});
+
+test('choosing a different RAM model resets to that real kit and clearing removes all modules', () => {
+  const [oldFinish] = colorVariants();
+  const original = withMemoryQuantity(resetMemoryToKit(defaultSelection, oldFinish.id), 4);
+  const replaced = chooseMemoryComponent(original, largerKit.id);
+  assert.equal(getMemoryAnalysis(replaced).installedCount, largerKit.memorySticks);
+  assert.equal(getMemoryAnalysis(replaced).totalCapacityGB, largerKit.capacityGB);
+  assert.ok(replaced.memory?.slots.every(id => id === null || id === largerKit.id));
+  const removed = chooseMemoryComponent(original, null);
+  assert.equal(removed.ram, null);
+  assert.equal(getMemoryAnalysis(removed).installedCount, 0);
+});
+
+
+test('similar black and white legacy kit names do not preserve quantity without an explicit shared group', () => {
+  const original = withMemoryQuantity(defaultSelection, 3);
+  const whiteKit = getComponent('ram-ddr5-32-white')!;
+  assert.ok(whiteKit);
+  const changed = chooseMemoryComponent(original, whiteKit.id);
+  assert.equal(getMemoryAnalysis(changed).installedCount, whiteKit.memorySticks);
+  assert.equal(getMemoryAnalysis(changed).installedCount, 2);
 });

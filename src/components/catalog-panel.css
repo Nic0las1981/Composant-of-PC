@@ -321,3 +321,38 @@
   .catalog-panel .cp-offer-links a { min-height: 33px; }
   .catalog-panel .cp-card-price > strong > small { display: block; margin: 3px 0 0; }
 }
+
+/* Family discovery sits outside the sticky controls, leaving room on phones. */
+.catalog-panel .cp-family-filter { display: grid; grid-template-columns: minmax(210px, 1fr) minmax(0, 1.2fr); gap: 18px; align-items: center; margin: 16px 0; }
+.catalog-panel .cp-family-filter .cp-field { min-width: 0; }
+.catalog-panel .cp-family-filter select { width: 100%; min-width: 0; }
+.catalog-panel .cp-chronology-note { display: flex; align-items: flex-start; gap: 7px; margin: 0; color: #a5b39c; font-size: 10px; line-height: 1.65; }
+.catalog-panel .cp-chronology-note svg { flex-shrink: 0; margin-top: 2px; }
+.catalog-panel .cp-classification { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; margin: 0 0 8px; }
+.catalog-panel .cp-classification > span { font-size: 9px; line-height: 1.5; overflow-wrap: anywhere; }
+.catalog-panel .cp-family-badge { color: #b7c4ae; }
+.catalog-panel .cp-release-badge { border: 1px solid #465b37; border-radius: 4px; background: #a5d07c0a; color: #c4d9b5; padding: 2px 5px; }
+.catalog-panel .cp-release-badge.cp-release-unknown { border-color: #454b40; color: #a0a99a; background: transparent; }
+.catalog-panel .cp-release-detail { display: flex; gap: 10px; background: #1b2518; border: 1px solid #405336; border-radius: 9px; padding: 15px; margin-bottom: 18px; }
+.catalog-panel .cp-release-detail > svg { flex: 0 0 auto; margin-top: 2px; color: #b4ce9e; }
+.catalog-panel .cp-release-detail strong { font-size: 12px; color: #d3e5c5; }
+.catalog-panel .cp-release-detail p { font-size: 11px; line-height: 1.7; color: #b3c0aa; margin: 5px 0 0; }
+.catalog-panel .cp-release-detail a { display: inline-flex; align-items: center; gap: 5px; color: #c8e7af; margin-top: 8px; font-size: 11px; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .catalog-panel .cp-family-filter { grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 13px 0; }
+  .catalog-panel .cp-classification { align-items: flex-start; flex-direction: column; }
+}
+
+.catalog-panel .cp-variant-picks { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.catalog-panel .cp-variant-picks button { display: inline-flex; align-items: center; gap: 5px; min-height: 30px; max-width: 100%; border: 1px solid #47523e; border-radius: 6px; padding: 5px 7px; background: #20251e; color: #b7c2b0; font-size: 10px; line-height: 1.4; text-align: left; }
+.catalog-panel .cp-variant-picks button[aria-pressed="true"] { border-color: #c4e49c; color: #e4f1d3; background: #303e26; }
+.catalog-panel .cp-variant-picks button > span:not(.cp-color-dot) { overflow-wrap: anywhere; }
+.catalog-panel .cp-color-dot { width: 13px; height: 13px; border: 1px solid #939c8b; border-radius: 50%; flex: 0 0 auto; background: repeating-linear-gradient(45deg,#5b6554 0px,#5b6554 3px,#293123 3px,#293123 6px); }
+.catalog-panel .cp-finish-label { font-size: 10px; line-height: 1.5; color: #a6b29d; margin: 0 0 10px; }
+.catalog-panel .cp-variant-detail { border: 1px solid #46583a; border-radius: 9px; padding: 16px; margin-bottom: 18px; background: #1c2619; }
+.catalog-panel .cp-variant-detail strong { font-size: 13px; color: #d8e8c9; }
+.catalog-panel .cp-variant-detail p { margin: 6px 0 12px; font-size: 11px; color: #adbea2; line-height: 1.6; }
+.catalog-panel .cp-variant-detail .cp-variant-picks { margin: 0; }
+.catalog-panel .cp-variant-detail .cp-variant-picks button { min-height: 40px; font-size: 12px; padding: 8px 12px; }
+
+.catalog-panel .cp-card-info > p { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }

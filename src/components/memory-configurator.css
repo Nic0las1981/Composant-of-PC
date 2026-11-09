@@ -237,3 +237,11 @@
 @media (prefers-reduced-motion: reduce) {
   .memory-configurator * { transition: none !important; }
 }
+
+.memory-configurator .mc-module-capacity-filter, .memory-configurator .mc-finish-select { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: #b3c6a4; font-size: 10px; line-height: 1.5; margin: 12px 0; }
+.memory-configurator .mc-module-capacity-filter select, .memory-configurator .mc-finish-select select { flex: 1; min-width: 0; max-width: 100%; padding: 8px; background: #222e1c; color: #d0e2c2; border: 1px solid #506842; border-radius: 6px; min-height: 36px; font-size: 10px; }
+.memory-configurator .mc-picker-install { display: flex; flex: 1; flex-direction: column; width: 100%; min-width: 0; background: transparent; padding: 0; margin: 0; border: 0; color: inherit; text-align: left; }
+.memory-configurator .mc-picker-install > strong { font-size: 11px; line-height: 1.6; font-weight: 550; overflow-wrap: anywhere; margin-bottom: 7px; }
+.memory-configurator .mc-picker-install > small { color: #a9bd99; font-size: 9px; line-height: 1.7; }
+.memory-configurator .mc-picker-install .mc-result-bottom { width: 100%; }
+.memory-configurator .mc-finish-select { margin: 10px 0 0; padding-top: 9px; border-top: 1px solid #4d6240; }

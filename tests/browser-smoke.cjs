@@ -1,6 +1,7 @@
 // Optional browser smoke test: NODE_PATH must resolve Playwright, Chromium must be installed.
 // Run: node tests/browser-smoke.cjs (expects npm run dev on http://127.0.0.1:5173).
 const { chromium } = require('playwright');
+const { chooseOpenCatalogProduct } = require('./catalog-test-helpers.cjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -23,10 +24,7 @@ const baseUrl = process.env.FORGE_TEST_URL || 'http://127.0.0.1:5173';
   const dialog = () => page.getByRole('dialog');
   const choose = async (category, product) => {
     await page.getByRole('button', { name: `Choisir ${category}`, exact: true }).click();
-    await dialog().getByPlaceholder('Rechercher un composant…').fill(product);
-    const card = dialog().locator('.catalog-product').filter({ has: page.getByRole('heading', { name: product, exact: true }) });
-    await card.getByRole('button', { name: 'Choisir', exact: true }).click();
-    await page.waitForFunction(() => !document.querySelector('[role=dialog]'));
+    await chooseOpenCatalogProduct(page, product);
   };
   await page.goto(baseUrl, { waitUntil: 'domcontentloaded' });
   await page.getByRole('heading', { name: 'Votre PC. Vos règles.' }).waitFor();

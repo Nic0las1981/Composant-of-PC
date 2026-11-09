@@ -1,7 +1,7 @@
 import { catalog, categories, getComponent } from "../data/catalog.ts";
 import type { CategoryId, Component, Selection } from "../data/catalog.ts";
 import { getReferencePrice } from "../data/pricing.ts";
-import { arrangeMemorySlots, getMemoryAnalysis, resetMemoryToKit, type MemoryAnalysis } from "./memory.ts";
+import { arrangeMemorySlots, chooseMemoryComponent, getMemoryAnalysis, type MemoryAnalysis } from "./memory.ts";
 
 export type Resolution = "1080p" | "1440p" | "4k";
 export type Usage = "gaming" | "creation" | "general";
@@ -616,7 +616,7 @@ function isPositive(value: unknown): value is number {
 }
 
 function candidateSelection(selection: Selection, component: Component): Selection {
-  if (component.category === "ram") return resetMemoryToKit(selection, component.id);
+  if (component.category === "ram") return chooseMemoryComponent(selection, component.id);
   const next = { ...selection, [component.category]: component.id };
   return component.category === "motherboard" ? arrangeMemorySlots(next) : next;
 }

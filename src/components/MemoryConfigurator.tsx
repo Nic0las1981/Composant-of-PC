@@ -5,6 +5,11 @@ import { catalog, getComponent } from "../data/catalog";
 import type { Component, Selection } from "../data/catalog";
 import { getRamProfile } from "../data/visualProfiles";
 import { arrangeMemorySlots, getMemoryAnalysis, resetMemoryToKit, withMemoryQuantity, withMemorySlot } from "../lib/memory";
+import { compareByRecency, releaseBadge } from "../lib/catalogOrdering";
+import { getReleaseInfo } from "../data/releaseTimeline";
+import { getMemoryModuleCapacity, getMemoryDetails } from "../lib/memoryDetails";
+import { groupVariants, getVariantLabel, getDefaultVariant } from "../lib/catalogVariants";
+import { getCatalogFamily } from "../lib/catalogFamilies";
 import "./memory-configurator.css";
 
 export interface MemoryConfiguratorProps {
@@ -39,6 +44,8 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
   const [pickerIndex, setPickerIndex] = useState<number | null>(null);
   const [search, setSearch] = useState("");
   const [brand, setBrand] = useState("all");
+  const [moduleCapacityFilter, setModuleCapacityFilter] = useState("all");
+  const [pickerPreviews, setPickerPreviews] = useState<Record<string, string>>({});
   const [sameGeneration, setSameGeneration] = useState(true);
   const [page, setPage] = useState(0);
   const [checksOpen, setChecksOpen] = useState(false);
@@ -53,15 +60,18 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
   const selectedSlot = memory.slots.find((slot) => slot.index === pickerIndex);
   const ramCatalog = useMemo(() => catalog.filter((component) => component.category === "ram"), []);
   const brands = useMemo(() => [...new Set(ramCatalog.map((component) => component.brand))].sort((a, b) => a.localeCompare(b, "fr")), [ramCatalog]);
+  const moduleCapacities = useMemo(() => [...new Set(ramCatalog.map(getMemoryModuleCapacity).filter((value): value is number => value !== null))].sort((a,b) => a-b), [ramCatalog]);
   const candidates = useMemo(() => {
     const words = normalize(search).trim().split(/\s+/).filter(Boolean);
-    return ramCatalog.filter((component) => {
+    const items = ramCatalog.filter((component) => {
+      if (moduleCapacityFilter !== "all" && getMemoryModuleCapacity(component) !== Number(moduleCapacityFilter)) return false;
       if (brand !== "all" && component.brand !== brand) return false;
       if (sameGeneration && motherboard?.memoryType && component.memoryType !== motherboard.memoryType) return false;
-      const haystack = normalize(`${component.brand} ${component.name} ${component.specs.join(" ")}`);
+      const haystack = normalize(`${component.brand} ${component.name} ${component.manufacturerPartNumber ?? ""} ${component.memoryModuleKind ?? ""} ${getMemoryDetails(component).organization ?? ""} ${getCatalogFamily(component).label} ${getReleaseInfo(component)?.year ?? ""} ${component.specs.join(" ")}`);
       return words.every((word) => haystack.includes(word));
-    }).sort((a, b) => Number(b.id === primary?.id) - Number(a.id === primary?.id) || a.brand.localeCompare(b.brand, "fr") || a.name.localeCompare(b.name, "fr"));
-  }, [ramCatalog, brand, sameGeneration, motherboard?.memoryType, search, primary?.id]);
+    }).sort((a, b) => compareByRecency(a, b));
+    return groupVariants(items).map((group) => ({ group, component: getDefaultVariant(group, pickerPreviews[group.id] ?? selectedSlot?.componentId) }));
+  }, [ramCatalog, brand, sameGeneration, motherboard?.memoryType, search, moduleCapacityFilter, pickerPreviews, selectedSlot?.componentId]);
   const pageCount = Math.max(1, Math.ceil(candidates.length / PAGE_SIZE));
   const currentPage = Math.min(page, pageCount - 1);
   const visibleCandidates = candidates.slice(currentPage * PAGE_SIZE, (currentPage + 1) * PAGE_SIZE);
@@ -77,7 +87,7 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
   }, [errorCount]);
   useEffect(() => {
     setPage(0);
-  }, [search, brand, sameGeneration, motherboard?.memoryType]);
+  }, [search, brand, sameGeneration, motherboard?.memoryType, moduleCapacityFilter]);
   useEffect(() => {
     if (pickerIndex !== null) searchRef.current?.focus();
   }, [pickerIndex]);
@@ -97,6 +107,8 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
     setPickerIndex(index);
     setSearch("");
     setBrand("all");
+    setModuleCapacityFilter("all");
+    setPickerPreviews({});
     setPage(0);
   }
   function closePicker() {
@@ -167,13 +179,14 @@ export default function MemoryConfigurator({ selection, onChange, onBrowseMemory
     {advanced && pickerIndex === null && <p className="mc-customize-help">Cliquez sur un emplacement pour choisir sa barrette. Vous pouvez mélanger des références ; le type de mémoire, les capacités et les points de vigilance seront recalculés.</p>}
 
     {advanced && pickerIndex !== null && selectedSlot && <section className="mc-picker" aria-label={`Choisir la barrette de l’emplacement ${selectedSlot.label}`} onKeyDown={(event) => { if (event.key === "Escape") { event.stopPropagation(); closePicker(); } }}>
-      <div className="mc-picker-heading"><div><span className="mc-eyebrow">EMPLACEMENT {selectedSlot.label}</span><h4>Quelle barrette souhaitez-vous installer ?</h4><p>Une seule barrette est placée ici. Le budget compte les kits complets nécessaires.</p></div><button type="button" className="mc-icon-button" aria-label="Fermer le choix de barrette" onClick={closePicker}><X size={19} /></button></div>
+      <div className="mc-picker-heading"><div><span className="mc-eyebrow">EMPLACEMENT {selectedSlot.label}</span><h4>Quelle barrette souhaitez-vous installer ?</h4><p>Références classées des plus récentes aux plus anciennes selon le modèle ou la gamme ; années inconnues en dernier. Une seule barrette est placée ici, les kits complets sont comptés au budget.</p></div><button type="button" className="mc-icon-button" aria-label="Fermer le choix de barrette" onClick={closePicker}><X size={19} /></button></div>
       <div className="mc-search-row"><label className="mc-search" htmlFor={searchId}><Search size={16} /><input id={searchId} ref={searchRef} type="search" aria-label={`Rechercher une barrette pour ${selectedSlot.label}`} placeholder="Marque, capacité, fréquence, CL…" value={search} onChange={(event) => setSearch(event.target.value)} /></label><select aria-label="Marque de la barrette" value={brand} onChange={(event) => setBrand(event.target.value)}><option value="all">Toutes les marques</option>{brands.map((value) => <option key={value} value={value}>{value}</option>)}</select></div>
+      <label className="mc-module-capacity-filter">Capacité par barrette<select aria-label="Capacité par barrette dans cet emplacement" value={moduleCapacityFilter} onChange={(event) => setModuleCapacityFilter(event.target.value)}><option value="all">Toutes les capacités</option>{moduleCapacities.map((value) => <option key={value} value={value}>{value} Go par barrette</option>)}</select></label>
       <div className="mc-picker-filters"><label><input type="checkbox" checked={sameGeneration} disabled={!motherboard?.memoryType} onChange={(event) => setSameGeneration(event.target.checked)} />{motherboard?.memoryType ? `Même génération : ${motherboard.memoryType}` : "Génération de la carte mère non renseignée"}</label><span role="status">{candidates.length} référence{candidates.length > 1 ? "s" : ""}</span></div>
       <div className="mc-picker-results">
-        {visibleCandidates.map((component) => <button type="button" key={component.id} className={`mc-picker-result ${component.id === selectedSlot.componentId ? "mc-result-current" : ""}`} onClick={() => chooseForSlot(component)} aria-label={`Installer une barrette ${component.brand} ${component.name} en ${selectedSlot.label}`}><span className="mc-result-brand">{component.brand}{component.id === selectedSlot.componentId && <span><Check size={12} />Votre choix</span>}</span><strong>{component.name}</strong><span className="mc-result-specs">{moduleCapacity(component) ? `${capacity(moduleCapacity(component)!)} par barrette` : "Capacité par barrette à confirmer"} · {component.memoryType ?? "Type non renseigné"}</span><small>{kitSummary(component)} par kit{component.memorySpeedMTs ? ` · ${new Intl.NumberFormat("fr-FR").format(component.memorySpeedMTs)} MT/s` : ""}{component.casLatency ? ` · CL${component.casLatency}` : ""}</small><span className="mc-result-bottom"><span>{estimatedPrice(component)}</span><span>Installer<Plus size={13} /></span></span></button>)}
+        {visibleCandidates.map(({component, group}) => <div key={group.id} className={`mc-picker-result ${group.variants.some((variant) => variant.id === selectedSlot.componentId) ? "mc-result-current" : ""}`} data-group-id={group.id}><button type="button" className="mc-picker-install" onClick={() => chooseForSlot(component)} aria-label={`Installer une barrette ${component.brand} ${component.name} en ${selectedSlot.label}`}><span className="mc-result-brand">{component.brand}{component.id === selectedSlot.componentId && <span><Check size={12} />Votre choix</span>}</span><strong>{group.name}</strong><small className="mc-result-chronology">{getCatalogFamily(component).label} · {releaseBadge(getReleaseInfo(component))}</small><span className="mc-result-specs">{moduleCapacity(component) ? `${capacity(moduleCapacity(component)!)} par barrette` : "Capacité par barrette à confirmer"} · {component.memoryType ?? "Type non renseigné"}</span><small>{kitSummary(component)} par kit{component.memorySpeedMTs ? ` · ${new Intl.NumberFormat("fr-FR").format(component.memorySpeedMTs)} MT/s` : ""}{component.casLatency ? ` · CL${component.casLatency}` : ""}</small><span className="mc-result-bottom"><span>{estimatedPrice(component)}</span><span>Installer<Plus size={13} /></span></span></button>{group.variants.length > 1 && <label className="mc-finish-select">Finition<select aria-label={`Finition de ${group.name}`} value={component.id} onChange={(event) => setPickerPreviews((current) => ({...current, [group.id]:event.target.value}))}>{group.variants.map((variant) => <option key={variant.id} value={variant.id}>{getVariantLabel(variant)}</option>)}</select></label>}</div>)}
       </div>
-      {candidates.length === 0 && <div className="mc-picker-empty"><Search size={24} /><strong>Aucune référence trouvée</strong><p>Essayez un nom plus court ou une autre marque.</p><button type="button" className="mc-button mc-secondary" onClick={() => { setSearch(""); setBrand("all"); setSameGeneration(false); }}>Réinitialiser la recherche</button></div>}
+      {candidates.length === 0 && <div className="mc-picker-empty"><Search size={24} /><strong>Aucune référence trouvée</strong><p>Essayez un nom plus court ou une autre marque.</p><button type="button" className="mc-button mc-secondary" onClick={() => { setSearch(""); setBrand("all"); setModuleCapacityFilter("all"); setSameGeneration(false); }}>Réinitialiser la recherche</button></div>}
       {pageCount > 1 && <nav className="mc-pagination" aria-label="Pages des barrettes mémoire"><button type="button" className="mc-button mc-secondary" disabled={currentPage === 0} onClick={() => changePage(currentPage - 1)}><ChevronLeft size={14} />Précédent</button><span aria-live="polite">Page {currentPage + 1} / {pageCount}</span><button type="button" className="mc-button mc-secondary" disabled={currentPage >= pageCount - 1} onClick={() => changePage(currentPage + 1)}>Suivant<ChevronRight size={14} /></button></nav>}
     </section>}
 

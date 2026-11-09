@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import type { Component } from "../../data/catalog";
+import { getMemoryDetails } from "../../lib/memoryDetails";
 import {
   MM,
   type BoardVisualProfile,
@@ -701,7 +702,11 @@ export function RamModel({
     t = profile.thicknessMm * MM;
   const count = singleModule ? 1 : Math.max(1, profile.sticks);
   const capacity = moduleCapacityGB ?? (component.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : undefined);
-  const bareModule = !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name);
+  const documentedBare = profile.hasHeatspreader === false;
+  const bareModule = documentedBare || (profile.hasHeatspreader === undefined
+    && !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name));
+  const rgb = profile.rgb && (!documentedBare || component.rgb === true);
+  const details = getMemoryDetails(component);
   // Contacts and IC packages are schematic details: package count does not
   // assert the physical ranks, die density, or revision of the sold module.
   const contacts = useMemo<BoxInstance[]>(
@@ -724,6 +729,8 @@ export function RamModel({
     }))), [h, l, t]);
   const family = component.name.split(/ · | \d+\s*(?:Go|GB)/i)[0];
   const capacityText = capacity ? `${new Intl.NumberFormat("fr-FR").format(capacity)} Go` : "";
+  const moduleLabel = [capacityText, component.memoryType, details.organization, details.moduleKind,
+    details.voltageV ? `${new Intl.NumberFormat("fr-FR").format(details.voltageV)} V` : null].filter(Boolean).join(" · ");
   return (
     <group>
       {Array.from({ length: count }, (_, i) => {
@@ -732,15 +739,17 @@ export function RamModel({
         return <group
           key={i}
           name={`ram-module-${index}`}
-          userData={{ memorySlotIndex: index, memorySlotLabel: label, memoryComponentId: component.id, memoryModuleCapacityGB: capacity }}
+          userData={{ memorySlotIndex: index, memorySlotLabel: label, memoryComponentId: component.id, memoryModuleCapacityGB: capacity,
+            memoryHasHeatspreader: !bareModule, memoryPartNumber: details.partNumber, memoryOrganization: details.organization,
+            memoryPackageLayout: "schematic" }}
           position={[0, 0, singleModule ? 0 : (i - (count - 1) / 2) * DIMM_SLOT_SPACING]}
         >
-          <MetalBox size={[h * 0.87, l, Math.min(0.013, t * 0.3)]} color={bareModule ? "#244b3d" : "#23382e"} metalness={0.08} roughness={0.75} />
+          <MetalBox size={[h * 0.87, l, Math.min(0.013, t * 0.3)]} color={documentedBare ? profile.pcbColor ?? "#2d684d" : bareModule ? "#244b3d" : "#23382e"} metalness={0.08} roughness={0.75} />
           <BoxInstances items={chips} color="#161d21" roughness={0.76} metalness={0.08} />
           {!bareModule && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
           <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
           {!bareModule && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
-          {profile.rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
+          {rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
             !bareModule && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />}
           {!bareModule && <HardwareLabel
             text={component.brand.toUpperCase()}
@@ -751,14 +760,14 @@ export function RamModel({
             color={profile.rgb ? "#334b47" : "#b6bdc0"}
           />}
           <HardwareLabel
-            text={family.toUpperCase()}
-            subtext={[component.memoryType, capacityText].filter(Boolean).join(" · ")}
+            text={documentedBare ? [component.brand.toUpperCase(), details.partNumber].filter(Boolean).join(" ") : family.toUpperCase()}
+            subtext={documentedBare ? moduleLabel : [component.memoryType, capacityText].filter(Boolean).join(" · ")}
             position={[h * 0.04, 0, bareModule ? Math.min(0.019, t * 0.4) : t * 0.527]}
             rotation={[0, 0, Math.PI / 2]}
             width={l * 0.64}
             height={h * 0.31}
-            color={bareModule ? "#d4dec9" : "#aeb9ba"}
-            background={bareModule ? "#24382a" : undefined}
+            color={documentedBare ? "#263632" : bareModule ? "#d4dec9" : "#aeb9ba"}
+            background={documentedBare ? "#f2f3e9" : bareModule ? "#24382a" : undefined}
           />
         </group>;
       })}
