@@ -4,6 +4,7 @@ import { getCatalogFamily } from "./catalogFamilies.ts";
 import { getReleaseInfo } from "../data/releaseTimeline.ts";
 import { releaseDateLabel } from "./catalogOrdering.ts";
 import { getMemoryDetails } from "./memoryDetails.ts";
+import { getVerifiedProduct } from "./verifiedOffers.ts";
 
 export interface ProductDetailRow {
   label: string;
@@ -59,6 +60,15 @@ export function getProductDetails(component: Component): ProductDetails {
   };
 
   const family = getCatalogFamily(component);
+  const verified = getVerifiedProduct(component);
+  if (verified) {
+    add('Référence vérifiée', 'Référence fabricant (MPN)', verified.mpn);
+    for (const group of verified.groups) for (const row of group.rows) {
+      const label = `Relevé · ${group.title} · ${row.label}`;
+      if (!groups.some(entry => entry.rows.some(item => item.label === label))) add(`Relevé technique · ${group.title}`, label, row.value);
+    }
+    advice.push(...verified.notes);
+  }
   if (family.known) add("Famille et chronologie", "Famille", family.label);
   const release = getReleaseInfo(component);
   if (release) {

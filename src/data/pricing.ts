@@ -2,21 +2,23 @@ import type { Component } from "./catalog.ts";
 import { getLiveMarketObservation } from "../lib/marketFeed.ts";
 import type { MarketObservation } from "./marketObservations.ts";
 import { MARKET_REFERENCE_MAX_AGE_MS } from "./marketPolicy.ts";
+import { getVerifiedOffer, getVerifiedProduct } from "../lib/verifiedOffers.ts";
 export { MARKET_REFERENCE_MAX_AGE_MS } from "./marketPolicy.ts";
 
 /**
  * Public reports are indicative references, never independently verified offers.
  * Currency, market, source update and price-change date stay distinct. Historical
- * USD quotes never enter the EUR budget, and checkedAt always remains null.
+ * USD quotes never enter the EUR budget. Direct merchant observations carry
+ * their own checkedAt; public comparator reports keep checkedAt null.
  */
 export interface PricingInfo {
-  status: "estimate" | "reported" | "unknown";
+  status: "estimate" | "reported" | "verified" | "unknown";
   label: string;
   description: string;
   market: "FR" | "DE";
   currency: "EUR";
-  checkedAt: null;
-  source: null | { name: string; url: string; independentlyVerified: false };
+  checkedAt: string | null;
+  source: null | { name: string; url: string; independentlyVerified: boolean };
   observation: MarketObservation | null;
   comparisonUrl: string;
   searchLabel: string;
@@ -27,7 +29,7 @@ export interface PricingInfo {
 export const pricingPolicy = {
   label: "Budget indicatif",
   description:
-    "Montants indicatifs en euros : estimations ou prix signalés par une source publique, selon le pays indiqué. Frais, fiscalité, état et livraison en France à confirmer ; aucune offre n’est vérifiée directement auprès du marchand.",
+    "Budget indicatif : relevés marchands datés, signalements publics ou estimations selon la référence. Les relevés ne garantissent pas le prix au paiement. Livraison non incluse ; les montants sans source vérifiée restent signalés.",
   verificationLabel: "Prix marchand non vérifié",
   market: "FR",
   currency: "EUR",
@@ -47,13 +49,22 @@ export function getIndicativeMarketObservation(component: Component, now = Date.
 
 /** Missing EUR prices are not zero-cost offers or historical USD conversions. */
 export function getReferencePrice(component: Component): number | null {
+  if (component.priceBasis === 'installed-memory-purchases') {
+    return component.priceStatus === 'unknown' || !Number.isFinite(component.price) || component.price <= 0 ? null : component.price;
+  }
+  const verified = getVerifiedOffer(component);
+  if (verified) return verified.amount;
   const reported = getIndicativeMarketObservation(component);
   if (reported) return reported.amount;
+  if (getVerifiedProduct(component)?.offers.length) return null;
   return component.priceStatus === "unknown" || !Number.isFinite(component.price) || component.price <= 0
     ? null : component.price;
 }
 
 export function getPriceCaption(component: Component): string {
+  if (component.priceBasis === 'installed-memory-purchases') return 'kits achetés · hors livraison';
+  const offer = getVerifiedOffer(component);
+  if (offer) return `relevé · ${offer.retailer} · hors livraison`;
   return getIndicativeMarketObservation(component) ? "signalé · Allemagne" : "indicatif";
 }
 
@@ -84,6 +95,7 @@ function productSearchQuery(component: Component): string {
 }
 
 export function getPricingInfo(component: Component): PricingInfo {
+  const verified = getVerifiedOffer(component);
   const known = getReferencePrice(component) !== null;
   const observation = getLiveMarketObservation(component);
   const reported = getIndicativeMarketObservation(component);
@@ -97,14 +109,14 @@ export function getPricingInfo(component: Component): PricingInfo {
   shoppingUrl.searchParams.set("q", searchQuery);
 
   return {
-    status: reported ? "reported" : known ? "estimate" : "unknown",
-    label: reported ? "Prix signalé en Allemagne · à confirmer" : known ? pricingPolicy.verificationLabel : "Prix en euros non renseigné",
-    description: reported ? "Ce montant provient d’un suivi public de comparateur. Il sert de repère indicatif ; le stock rapporté n’est pas revérifié, et les frais, l’état, la fiscalité et la livraison en France restent à confirmer."
+    status: verified ? "verified" : reported ? "reported" : known ? "estimate" : "unknown",
+    label: component.priceBasis === 'installed-memory-purchases' ? 'Budget des kits mémoire achetés' : verified ? `Prix relevé sur ${verified.retailer} · France` : reported ? "Prix signalé en Allemagne · à confirmer" : known ? pricingPolicy.verificationLabel : "Prix en euros non renseigné",
+    description: component.priceBasis === 'installed-memory-purchases' ? 'Total des kits entiers nécessaires aux modules installés, hors livraison. Consultez chaque référence pour ses offres et leur date ; les prix manquants rendent le budget partiel.' : verified ? `Référence ${verified.mpn}, vendue par ${verified.seller}. Montant TTC relevé le ${new Intl.DateTimeFormat('fr-FR', {dateStyle:'short', timeStyle:'short', timeZone:'Europe/Paris'}).format(new Date(verified.checkedAt))}. Hors livraison ; prix et disponibilité à reconfirmer chez le vendeur. Le relevé entre dans le budget pendant 24 h.` : reported ? "Ce montant provient d’un suivi public de comparateur. Il sert de repère indicatif ; le stock rapporté n’est pas revérifié, et les frais, l’état, la fiscalité et la livraison en France restent à confirmer."
       : known ? pricingPolicy.description : "Aucun prix de référence en euros n’est renseigné pour cette variante. Les archives et signalements éventuels ci-dessous restent distincts du budget ; ce composant ne doit pas être considéré comme gratuit.",
-    market: reported ? "DE" : pricingPolicy.market,
+    market: verified ? "FR" : reported ? "DE" : pricingPolicy.market,
     currency: pricingPolicy.currency,
-    checkedAt: null,
-    source: reported ? { name: reported.sourceName, url: reported.sourceURL, independentlyVerified: false } : null,
+    checkedAt: verified?.checkedAt ?? null,
+    source: verified ? {name:verified.retailer,url:verified.url,independentlyVerified:true} : reported ? { name: reported.sourceName, url: reported.sourceURL, independentlyVerified: false } : null,
     observation,
     comparisonUrl: comparisonUrl.href,
     searchLabel: "Comparer les offres sur Idealo",

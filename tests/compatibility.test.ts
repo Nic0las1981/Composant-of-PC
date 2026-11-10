@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { catalog, categories, defaultSelection, getComponent } from '../src/data/catalog.ts';
 import type { Selection } from '../src/data/catalog.ts';
+import { getReferencePrice } from '../src/data/pricing.ts';
 import { analyzeBuild, getCandidateIssues } from '../src/lib/compatibility.ts';
 
 test('default build is complete and compatible with power headroom', () => {
@@ -9,7 +10,8 @@ test('default build is complete and compatible with power headroom', () => {
   assert.equal(result.status, 'compatible');
   assert.equal(result.selectedCount, 8);
   assert.equal(result.warnings.filter(w => w.severity === 'error').length, 0);
-  assert.ok(result.total > 1500);
+  assert.ok(result.totalKnown > 0);
+  assert.ok(result.unpricedCount > 0, 'Retired or unavailable offers make the default budget partial');
   assert.ok(result.power.capacity >= result.power.recommended);
   assert.equal(result.balance.limiter, 'balanced');
 });
@@ -209,8 +211,8 @@ test('imported GPUs without performance or power data produce no invented bottle
     assert.equal(analysis.power.recommended, 0);
     assert.ok(analysis.warnings.some(warning => warning.id === 'power-unknown'));
     assert.equal(analysis.recommendations.some(recommendation => ['balance-cpu', 'balance-gpu', 'more-power', 'balanced'].includes(recommendation.id)), false);
-    assert.equal(analysis.unpricedCount, 1);
-    assert.equal(analysis.totalKnown, Math.round((analyzeBuild(defaultSelection).totalKnown - getComponent(defaultSelection.gpu)!.price) * 100) / 100);
+    assert.equal(analysis.unpricedCount, analyzeBuild({ ...defaultSelection, gpu: null }).unpricedCount + 1);
+    assert.equal(analysis.totalKnown, Math.round((analyzeBuild(defaultSelection).totalKnown - (getReferencePrice(getComponent(defaultSelection.gpu)!) ?? 0)) * 100) / 100);
   }
 });
 

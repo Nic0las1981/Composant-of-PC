@@ -83,7 +83,7 @@ test("SSD capacity and heatsink editions use a labelled series year without inve
 });
 
 test("ambiguous PSU names remain undated while explicit revision years are retained", () => {
-  assert.equal(getReleaseInfo(getComponent("psu-rm750e")!), null);
+  assert.equal(getReleaseInfo(getComponent("psu-rm750e")!)?.year, 2025);
   assert.equal(getReleaseInfo(getComponent("psu-sf750")!), null);
   assert.equal(getReleaseInfo(getComponent("psu-focus850")!), null);
   const revision = getReleaseInfo(getComponent("psu-rm750x-2021")!)!;

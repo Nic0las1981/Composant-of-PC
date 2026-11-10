@@ -49,7 +49,7 @@ test("comparison aligns each product with its own values and keeps unknown field
   const left = getComponent("gpu-4070s")!;
   const right = { ...sparse("gpu"), powerW: 150, lengthMm: 240 };
   const rows = getComparisonRows([left, right]);
-  assert.deepEqual(rows.find((row) => row.label === "Longueur")?.values, ["267 mm", "240 mm"]);
+  assert.deepEqual(rows.find((row) => row.label === "Longueur")?.values, ["267,01 mm", "240 mm"]);
   assert.deepEqual(rows.find((row) => row.label === "Puissance retenue pour l’estimation")?.values, ["220 W", "150 W"]);
   assert.deepEqual(rows.find((row) => row.label === "Mémoire vidéo")?.values, ["12 Go GDDR6X", "Non renseigné"]);
   assert.ok(rows.every((row) => row.values.length === 2));
@@ -92,7 +92,7 @@ test("memory transfer rate and CAS latency come from explicit specs, without inv
   assert.equal(ram["Composition du kit"], "2 × 16 Go");
   assert.equal(ram["Débit mémoire annoncé"]?.replace(/\s/g, ""), "6000MT/s");
   assert.equal(ram["Latence CAS"], "CL30");
-  assert.equal(ram["Profil mémoire"], "AMD EXPO");
+  assert.equal(ram["Profil mémoire"], "AMD EXPO · Intel XMP");
   const noProfile = rowsFor({ ...sparse("ram"), memoryType: "DDR5", specs: ["DDR5-5600", "CL46"] });
   assert.ok(!Object.hasOwn(noProfile, "Profil mémoire"));
   assert.ok(!Object.hasOwn(noProfile, "Capacité totale"));

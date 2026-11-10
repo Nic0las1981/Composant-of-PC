@@ -267,7 +267,7 @@ test("a shared precise deadline invalidates subscribed budget calculations at th
   assert.equal(prices.at(-1), getMarketObservation(target)!.amount, "the exact 14-day boundary is still eligible");
   clock.fire("timeout");
   assert.equal(clock.now(), lastEligible + 1);
-  assert.equal(prices.at(-1), target.price, "the subscriber recomputes the actual pricing fallback immediately after expiration");
+  assert.equal(prices.at(-1), null, "the subscriber recomputes the actual pricing fallback immediately after expiration");
   assert.notEqual(prices.at(-1), prices[0]);
   assert.equal(requests, 0);
   assert.equal(store.getState().status, "snapshot", "clock changes do not pretend to refresh source files");
@@ -292,7 +292,7 @@ test("visibility, pageshow and the minute clock refresh stale tabs and remove th
   assert.equal(prices.length, 0);
   clock.visibility.visibilityState = "visible";
   clock.visibility.dispatchEvent(new Event("visibilitychange"));
-  assert.equal(prices.at(-1), target.price);
+  assert.equal(prices.at(-1), null);
   assert.equal(store.getRevision(), 1);
   clock.moveTo(clock.now() + 1_000);
   clock.page.dispatchEvent(new Event("pageshow"));

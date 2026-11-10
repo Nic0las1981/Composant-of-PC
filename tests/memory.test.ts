@@ -1,12 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { catalog, defaultSelection, getComponent, type Component, type Selection } from '../src/data/catalog.ts';
+import { catalog, defaultSelection as catalogDefaultSelection, getComponent, type Component, type Selection } from '../src/data/catalog.ts';
 import { analyzeBuild, getBuildIssues, getCandidateIssues } from '../src/lib/compatibility.ts';
 import { getCatalogGroups } from '../src/lib/catalogVariants.ts';
 import { arrangeMemorySlots, chooseMemoryComponent, getMemoryAnalysis, resetMemoryToKit, withMemoryQuantity, withMemorySlot } from '../src/lib/memory.ts';
 
-const kit = getComponent('ram-ddr5-32')!;
-const largerKit = getComponent('ram-ddr5-64')!;
+// Keep kit arithmetic independent of dated merchant offers.
+const defaultSelection = { ...catalogDefaultSelection, ram: 'ram-trident-rgb-32' };
+const kit = getComponent(defaultSelection.ram)!;
+const largerKit = getComponent('ram-ddr5-64-rgb')!;
 const board = getComponent('mb-b650')!;
 const installedLabels = (selection: Selection) => getMemoryAnalysis(selection).slots.filter(slot => slot.componentId).map(slot => slot.label);
 const lookupWith = (...components: Component[]) => (id: string | null | undefined) => components.find(component => component.id === id) ?? getComponent(id);
@@ -179,7 +181,7 @@ test('unknown saved references remain visible and cannot appear compatible', () 
   assert.equal(memory.capacityKnown, false);
   assert.ok(memory.warnings.some(warning => warning.id === 'memory-reference' && warning.severity === 'error'));
   assert.equal(analyzeBuild(selection).status, 'incompatible');
-  assert.equal(analyzeBuild(selection).unpricedCount, 1);
+  assert.equal(analyzeBuild(selection).unpricedCount, analyzeBuild(defaultSelection).unpricedCount + 1);
 });
 
 test('aggregate memory and helpers never mutate the original kit or saved selection', () => {
@@ -192,7 +194,7 @@ test('aggregate memory and helpers never mutate the original kit or saved select
   const expectedTotal = analyzeBuild(defaultSelection).total + kit.price;
   assert.equal(result.total, Math.round(expectedTotal * 100) / 100);
   assert.equal(result.totalKnown, result.total);
-  assert.equal(result.unpricedCount, 0);
+  assert.equal(result.unpricedCount, analyzeBuild(defaultSelection).unpricedCount);
   assert.equal(JSON.stringify(defaultSelection), originalSelection);
   assert.equal(JSON.stringify(kit), originalKit);
   assert.deepEqual(getMemoryAnalysis(JSON.parse(JSON.stringify(selection))).slots, result.memory.slots);
@@ -238,7 +240,7 @@ test('imported RAM keeps whole-kit quantities without making an unknown price fr
   assert.equal(analysis.memory.purchases[0].spareModules, 1);
   assert.equal(analysis.memory.purchases[0].price, null);
   assert.equal(analysis.memory.priceKnown, false);
-  assert.equal(analysis.unpricedCount, 1);
+  assert.equal(analysis.unpricedCount, analyzeBuild(defaultSelection).unpricedCount + 1);
   assert.equal(analysis.totalKnown, Math.round((analyzeBuild(defaultSelection).totalKnown - kit.price) * 100) / 100);
   assert.equal(analysis.total, analysis.totalKnown);
 });
@@ -256,7 +258,7 @@ test('mixing priced and unpriced RAM retains the known kit subtotal in the build
   assert.equal(analysis.selected.ram?.detailLevel, 'partial');
   assert.ok(analysis.warnings.some(warning => warning.id === 'catalog-partial'));
   assert.equal(analysis.totalKnown, analyzeBuild(defaultSelection).totalKnown);
-  assert.equal(analysis.unpricedCount, 1);
+  assert.equal(analysis.unpricedCount, analyzeBuild(defaultSelection).unpricedCount + 1);
 });
 
 

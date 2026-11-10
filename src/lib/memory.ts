@@ -286,6 +286,7 @@ export function getMemoryAnalysis(selection: Selection, lookup: ComponentLookup 
     memorySticks: installedCount,
     memoryType: types.length === 1 ? types[0] : undefined,
     price: totalPrice,
+    priceBasis: 'installed-memory-purchases',
     priceStatus: priceKnown ? "estimate" : "unknown",
   } : undefined;
   return { slots, availableSlots, slotsKnown, installedCount, totalCapacityGB, capacityKnown, purchases, priceKnown, totalPrice, warnings, channelCount, channelCapacitiesGB, channelMode, channelSummary, speedSummary, commonSpeedMTs, aggregate };

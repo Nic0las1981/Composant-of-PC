@@ -1,0 +1,72 @@
+[
+  {
+    "componentId": "cpu-5600",
+    "evidence": "amd-5600.json",
+    "kind": "manufacturer",
+    "name": "AMD",
+    "reason": "Page indisponible"
+  },
+  {
+    "componentId": "cpu-5700x",
+    "evidence": "amd-5700x.json",
+    "kind": "manufacturer",
+    "name": "AMD",
+    "reason": "Page indisponible"
+  },
+  {
+    "componentId": "cpu-5500",
+    "evidence": "amd-5500.json",
+    "kind": "manufacturer",
+    "name": "AMD",
+    "reason": "Page indisponible"
+  },
+  {
+    "componentId": "cpu-5700x3d",
+    "evidence": "amd-5700x3d.json",
+    "kind": "manufacturer",
+    "name": "AMD",
+    "reason": "Page indisponible"
+  },
+  {
+    "componentId": "psu-focus-gx750",
+    "evidence": "retailer-psu-focus-gx750.json",
+    "kind": "retailer",
+    "name": "LDLC",
+    "reason": "La fiche vise la révision ATX 3.0 ; révision initiale non identifiée."
+  },
+  {
+    "componentId": "mb-b550m-pro4",
+    "evidence": "retailer-mb-b550m-pro4.json",
+    "kind": "retailer",
+    "name": "LDLC",
+    "reason": "La fiche marchand vise la révision R2.0 ; révision du catalogue non identifiée."
+  },
+  {
+    "componentId": "cpu-5600",
+    "evidence": "ldlc-5600.json",
+    "kind": "retailer",
+    "name": "LDLC",
+    "reason": "MPN différent : 100-000000927 / 100-100000927BOX"
+  },
+  {
+    "componentId": "cpu-14600kf",
+    "evidence": "ldlc-14600kf.json",
+    "kind": "retailer",
+    "name": "LDLC",
+    "reason": "MPN différent : CM8071504821014 / BX8071514600KF"
+  },
+  {
+    "componentId": "cpu-7700x",
+    "evidence": "pcc-cpu-7700x.json",
+    "kind": "retailer",
+    "name": "PcComponentes",
+    "reason": "MPN différent : 100-000000591 / 100-100000591WOF"
+  },
+  {
+    "componentId": "cpu-9700x",
+    "evidence": "pcc-cpu-9700x.json",
+    "kind": "retailer",
+    "name": "PcComponentes",
+    "reason": "MPN différent : 100-000001404 / 100-100001404WOF"
+  }
+]

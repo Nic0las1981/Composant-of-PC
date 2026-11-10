@@ -388,6 +388,7 @@ export default function App() {
         const report = pricing.status === "reported" ? pricing.observation : null;
         return [
           `${category.label} : ${component.name} — ${formatComponentPrice(component)}${caption}`,
+          ...(pricing.status === 'verified' ? [`  ${pricing.description}`, `  Source : ${pricing.source?.url}`] : []),
           ...(report ? [
             `  Prix signalé en Allemagne par ${report.merchant} ; non revérifié auprès du marchand.`,
             `  Fichier source mis à jour : ${report.sourceUpdatedAt} ; prix inchangé depuis : ${report.priceSince}.`,
@@ -1314,7 +1315,7 @@ export default function App() {
                   <ArrowUpRight size={16} />
                 </button>
                 <p>
-                  * Montants indicatifs : estimations ou signalements publics selon le pays, hors frais non renseignés et non vérifiés auprès des marchands.
+                  * Budget indicatif : relevés marchands datés, estimations ou signalements publics selon la référence et le pays. Hors livraison. Les fiches précisent les sources et les offres exclues du budget.
                   <br />
                   Aucun achat n’est effectué sur FORGE.
                 </p>

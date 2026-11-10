@@ -2,6 +2,8 @@ import type { Component } from "../data/catalog.ts";
 import { MARKET_MAPPINGS, MARKET_SOURCE, marketObservations, type MarketMapping, type MarketObservation } from "../data/marketObservations.ts";
 import { getMarketObservation } from "./marketObservations.ts";
 import { MARKET_REFERENCE_MAX_AGE_MS } from "../data/marketPolicy.ts";
+import { verifiedProducts } from "../data/verifiedCatalog.ts";
+import { VERIFIED_OFFER_MAX_AGE_MS } from "./verifiedOffers.ts";
 
 const MAX_FILE_BYTES = 256 * 1024;
 const MAX_PARTS = 500;
@@ -168,6 +170,12 @@ export function createMarketFeed(options: MarketFeedOptions = {}) {
     deadlineTimer = undefined;
     const instant = now();
     let deadline = Infinity;
+    for (const product of Object.values(verifiedProducts)) for (const offer of product.offers) {
+      const checked = Date.parse(offer.checkedAt);
+      for (const boundary of [checked, checked + VERIFIED_OFFER_MAX_AGE_MS + 1]) {
+        if (Number.isFinite(boundary) && boundary > instant) deadline = Math.min(deadline, boundary);
+      }
+    }
     for (const mapping of MARKET_MAPPINGS) {
       const observation = refreshed.get(mapping.component.id) ?? marketObservations[mapping.component.id];
       if (!observation) continue;

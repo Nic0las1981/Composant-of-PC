@@ -391,3 +391,15 @@
 .catalog-panel .cp-market-refresh button:disabled { opacity: .6; cursor: wait; }
 .catalog-panel .cp-comparison-price-caption { color: #aebfa3; font-size: 10px; line-height: 1.5; margin: -7px 0 12px; }
 @media (max-width: 600px) { .catalog-panel .cp-market-observation dl { grid-template-columns: minmax(0,1fr); } }
+.cp-verified { margin: 20px 0; padding: 20px; border: 1px solid #3c6155; border-radius: 12px; background: #13221e; color: #dbe9e3; }
+.cp-verified h3, .cp-verified h4 { margin: 0 0 12px; }
+.cp-verified p { font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.cp-verified-sources { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 22px; }
+.cp-verified-sources a { display: grid; gap: 5px; padding: 10px; background: #20362e; border-radius: 8px; color: #c3f2d9; font-size: 13px; }
+.cp-verified-sources small, .cp-verified-offers small { font-size: 11px; color: #b4c8be; }
+.cp-verified-offers { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.cp-verified-offers li { padding: 14px; border: 1px solid #355247; border-radius: 8px; }
+.cp-verified-offers li > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.cp-verified-offers a { color: #c3f2d9; font-weight: 700; }
+.cp-verified-offers strong { font-size: 12px; color: #dce9a5; }
+.cp-verified-offers small { overflow-wrap: anywhere; }

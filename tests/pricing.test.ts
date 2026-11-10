@@ -4,6 +4,7 @@ import { catalog, getComponent, type Component } from "../src/data/catalog.ts";
 import { getPricingInfo, getReferencePrice, formatComponentPrice, getIndicativeMarketObservation, MARKET_REFERENCE_MAX_AGE_MS } from "../src/data/pricing.ts";
 import { getMarketObservation } from "../src/lib/marketObservations.ts";
 import { MARKET_SOURCE, MARKET_MAPPINGS } from "../src/data/marketObservations.ts";
+import { getVerifiedProduct } from "../src/lib/verifiedOffers.ts";
 import { analyzeBuild } from "../src/lib/compatibility.ts";
 import { defaultSelection } from "../src/data/catalog.ts";
 
@@ -23,12 +24,13 @@ test("only explicitly matched public reports gain source provenance, never merch
       assert.match(info.label, /signalé.*confirmer/i);
       continue;
     }
-    assert.equal(info.status, component.priceStatus === "unknown" ? "unknown" : "estimate", component.id);
+    const unknown = component.priceStatus === "unknown" || Boolean(getVerifiedProduct(component)?.offers.length);
+    assert.equal(info.status, unknown ? "unknown" : "estimate", component.id);
     assert.equal(info.checkedAt, null, component.id);
     assert.equal(info.source, null, component.id);
     assert.equal(info.currency, "EUR");
     assert.equal(info.market, "FR");
-    assert.match(info.label, component.priceStatus === "unknown" ? /non renseigné/i : /non vérifié/i);
+    assert.match(info.label, unknown ? /non renseigné/i : /non vérifié/i);
   }
 });
 
