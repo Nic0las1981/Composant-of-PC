@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-10T22:03:47.318Z",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "web_search_exa error (429): Your network is sending requests faster than the Exa per-network rate limit allows. If you believe this is in error, please email support@exa.ai :)\nTimestamp: 2026-11-10T22:03:46.779Z"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

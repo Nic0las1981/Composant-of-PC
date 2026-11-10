@@ -26,6 +26,8 @@ import {
 } from "./HardwarePrimitives";
 
 import {CrucialHeatspreader, Samsung9100Surface, SteelLegendBoardDetails, SteelLegendGpuShroud, PowerZoneGrille} from "./IndividualHardwareDetails";
+import MemoryHeatspreader from './MemoryHeatspreader';
+import {getMemoryAppearance,getMemoryAppearanceColor} from '../../data/memoryAppearance';
 
 import {CircuitPackages, M2Board, CpuContactField, FanWireClips, VentilatedPsuShell, AxialShroud, CpuSubstrate} from "./CircuitDetails";
 
@@ -784,6 +786,8 @@ export function RamModel({
   const count = singleModule ? 1 : Math.max(1, profile.sticks);
   const capacity = moduleCapacityGB ?? (component.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : undefined);
   const crucialPro = profile.design === "crucial-pro-overclocking";
+  const memoryDesign = getMemoryAppearance(component);
+  const memoryShellColor = getMemoryAppearanceColor(component);
   const documentedBare = profile.hasHeatspreader === false;
   const bareModule = documentedBare || (profile.hasHeatspreader === undefined
     && !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name));
@@ -792,6 +796,9 @@ export function RamModel({
   const sodimm = details.physicalFormat === "SO-DIMM";
   const pcbGeometry = useMemo(() => {
     const edge = Math.min(h * 0.045, l * 0.009);
+    // The PCB stays below the reconstructed shell/diffuser silhouette. Its
+    // internal outline is illustrative and does not establish a module spec.
+    const pcbTop = h * (memoryDesign ? 0.25 : 0.435);
     const keyY = -l * 0.43 + (component.memoryType === "DDR5" ? 18 : 16) * l * 0.86 / 35;
     const keyWidth = l * 0.012;
     const shape = new THREE.Shape();
@@ -799,13 +806,13 @@ export function RamModel({
     shape.lineTo(-h * 0.435, keyY - keyWidth); shape.lineTo(-h * 0.33, keyY - keyWidth);
     shape.lineTo(-h * 0.33, keyY + keyWidth); shape.lineTo(-h * 0.435, keyY + keyWidth);
     shape.lineTo(-h * 0.435, l / 2 - edge); shape.lineTo(-h * 0.435 + edge, l / 2);
-    shape.lineTo(h * 0.435 - edge, l / 2); shape.lineTo(h * 0.435, l / 2 - edge);
-    shape.lineTo(h * 0.435, -l / 2 + edge); shape.lineTo(h * 0.435 - edge, -l / 2);
+    shape.lineTo(pcbTop - edge, l / 2); shape.lineTo(pcbTop, l / 2 - edge);
+    shape.lineTo(pcbTop, -l / 2 + edge); shape.lineTo(pcbTop - edge, -l / 2);
     shape.lineTo(-h * 0.435 + edge, -l / 2); shape.closePath();
     const geometry = new THREE.ExtrudeGeometry(shape, { depth: Math.min(0.013, t * 0.3), bevelEnabled: false, steps: 1 });
     geometry.translate(0, 0, -Math.min(0.013, t * 0.3) / 2);
     return geometry;
-  }, [h, l, t, component.memoryType]);
+  }, [h, l, t, component.memoryType, memoryDesign]);
   useEffect(() => () => pcbGeometry.dispose(), [pcbGeometry]);
   // Contacts and IC packages are schematic details: package count does not
   // assert the physical ranks, die density, or revision of the sold module.
@@ -861,12 +868,13 @@ export function RamModel({
           {bareModule && <><BoxInstances items={surfaceParts} color="#a89976" metalness={0.25} roughness={0.6} />
             <BoxInstances items={packageMarks} color="#68716c" metalness={0.05} roughness={0.8} /></>}
           {crucialPro && <CrucialHeatspreader profile={profile} />}
-          {!bareModule && !crucialPro && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.44} bevel={.002} />)}
+          {!bareModule && memoryDesign && <MemoryHeatspreader profile={memoryShellColor?{...profile,heatspreaderColor:memoryShellColor}:profile} design={memoryDesign} rgb={rgb} phase={index*.13}/>}
+          {!bareModule && !crucialPro && !memoryDesign && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.44} bevel={.002} />)}
           <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
-          {!bareModule && !crucialPro && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
-          {rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
-            !bareModule && !crucialPro && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />}
-          {!bareModule && !crucialPro && <HardwareLabel
+          {!bareModule && !crucialPro && !memoryDesign && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
+          {!memoryDesign && (rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
+            !bareModule && !crucialPro && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />)}
+          {!bareModule && !crucialPro && !memoryDesign && <HardwareLabel
             text={component.brand.toUpperCase()}
             position={[h * (profile.rgb ? 0.534 : 0.503), 0, 0]}
             rotation={[0, Math.PI / 2, Math.PI / 2]}
@@ -874,7 +882,7 @@ export function RamModel({
             height={0.075}
             color={profile.rgb ? "#334b47" : "#b6bdc0"}
           />}
-          {!crucialPro && <HardwareLabel
+          {!crucialPro && !memoryDesign && <HardwareLabel
             text={documentedBare ? [component.brand.toUpperCase(), details.partNumber].filter(Boolean).join(" ") : family.toUpperCase()}
             subtext={documentedBare ? moduleLabel : [component.memoryType, capacityText].filter(Boolean).join(" · ")}
             position={[h * 0.04, 0, bareModule ? Math.min(0.019, t * 0.4) : t * 0.527]}

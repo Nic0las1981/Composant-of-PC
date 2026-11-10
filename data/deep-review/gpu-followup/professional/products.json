@@ -1,0 +1,292 @@
+{
+  "import-gpu-72e143943502": {
+    "identityKind": "mpn",
+    "mpn": "VCNRTX2000ADA-PB",
+    "identityNote": "Référence VCNRTX2000ADA-PB présente littéralement dans l’archive et dans le document PNY du modèle exact ; capacité mémoire confirmée.",
+    "sources": [
+      {
+        "name": "PNY — fiche constructeur du modèle exact",
+        "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+        "checkedAt": "2026-11-10T15:43:36.385Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "heightMm": 68.58,
+      "lengthMm": 167.64,
+      "powerW": 70,
+      "manufacturerPartNumber": "VCNRTX2000ADA-PB",
+      "description": "Carte graphique professionnelle NVIDIA RTX 2000 Ada Generation ; référence commerciale VCNRTX2000ADA-PB publiée par PNY. Les dimensions H/L sont converties depuis les pouces indiqués. Épaisseur et alimentation système recommandée non publiées dans cette source.",
+      "detailLevel": "partial"
+    },
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+        "checkedAt": "2026-11-10T15:43:36.385Z"
+      },
+      "heightMm": {
+        "value": 68.58,
+        "sourceURL": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+        "checkedAt": "2026-11-10T15:43:36.385Z"
+      },
+      "lengthMm": {
+        "value": 167.64,
+        "sourceURL": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+        "checkedAt": "2026-11-10T15:43:36.385Z"
+      },
+      "powerW": {
+        "value": 70,
+        "sourceURL": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+        "checkedAt": "2026-11-10T15:43:36.385Z"
+      }
+    },
+    "groups": [
+      {
+        "title": "Spécifications PNY du modèle exact",
+        "rows": [
+          {
+            "label": "GPU memory",
+            "value": "16GB GDDR6"
+          },
+          {
+            "label": "Memory interface",
+            "value": "128-bit"
+          },
+          {
+            "label": "Memory bandwidth",
+            "value": "224 GB/s"
+          },
+          {
+            "label": "Error-correcting code (ECC)",
+            "value": "Yes"
+          },
+          {
+            "label": "NVIDIA Ada Lovelace architecture-based CUDA Cores",
+            "value": "2,816"
+          },
+          {
+            "label": "NVIDIA fourth-generation Tensor Cores",
+            "value": "88"
+          },
+          {
+            "label": "NVIDIA third-generation RT Cores",
+            "value": "22"
+          },
+          {
+            "label": "Single-precision performance",
+            "value": "2 12.0 TFLOPS"
+          },
+          {
+            "label": "RT Core performance",
+            "value": "2 27.7 TFLOPS"
+          },
+          {
+            "label": "Tensor performance",
+            "value": "3 191.9 TFLOPS"
+          },
+          {
+            "label": "System interface",
+            "value": "4 PCIe 4.0 x 8"
+          },
+          {
+            "label": "Power consumption",
+            "value": "Total board power: 70 W"
+          },
+          {
+            "label": "Thermal solution",
+            "value": "Active"
+          },
+          {
+            "label": "Form factor",
+            "value": "2.7” H x 6.6” L, Dual Slot"
+          },
+          {
+            "label": "Display connectors",
+            "value": "4x Mini DisplayPort 1.4a"
+          },
+          {
+            "label": "Display adapters",
+            "value": "4x NVIDIA ®️ Certified latching mDP to DP adapters included"
+          },
+          {
+            "label": "Max simultaneous displays",
+            "value": "4x 4096 x 2160 @ 120 Hz 4x 5120 x 2880 @ 60 Hz 2x 7680 x 4320 @ 60 Hz"
+          },
+          {
+            "label": "Encode/decode engines",
+            "value": "1x encode, 1x decode (+AV1 encode and decode)"
+          },
+          {
+            "label": "VR-ready",
+            "value": "Yes"
+          },
+          {
+            "label": "Graphics APIs",
+            "value": "DirectX 12, Shader Model 6.6, 5 OpenGL 4.6 5, Vulkan 1.3"
+          },
+          {
+            "label": "Compute APIs",
+            "value": "CUDA 11.6, OpenCL 3.0, DirectCompute"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Dimensions converties à partir de 2,7 pouces H × 6,6 pouces L ; la précision reste celle des mesures publiées.",
+      "Dual Slot indique une occupation de slots ; aucune épaisseur en millimètres n’en est déduite.",
+      "Aucun prix commercial ni wattage système n’est déduit de la puissance de carte."
+    ],
+    "offers": []
+  },
+  "import-gpu-f87d2f2d81ba": {
+    "identityKind": "mpn",
+    "mpn": "VCNRTX4000ADALP-PB",
+    "identityNote": "Référence VCNRTX4000ADALP-PB présente littéralement dans l’archive et dans le document PNY du modèle exact ; capacité mémoire confirmée.",
+    "sources": [
+      {
+        "name": "PNY — fiche constructeur du modèle exact",
+        "url": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+        "checkedAt": "2026-11-10T15:43:38.029Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "capacityGB": 20,
+      "heightMm": 68.58,
+      "lengthMm": 167.64,
+      "powerW": 70,
+      "manufacturerPartNumber": "VCNRTX4000ADALP-PB",
+      "description": "Carte graphique professionnelle NVIDIA RTX 4000 SFF Ada Generation ; référence commerciale VCNRTX4000ADALP-PB publiée par PNY. Les dimensions H/L sont converties depuis les pouces indiqués. Épaisseur et alimentation système recommandée non publiées dans cette source.",
+      "detailLevel": "partial"
+    },
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 20,
+        "sourceURL": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+        "checkedAt": "2026-11-10T15:43:38.029Z"
+      },
+      "heightMm": {
+        "value": 68.58,
+        "sourceURL": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+        "checkedAt": "2026-11-10T15:43:38.029Z"
+      },
+      "lengthMm": {
+        "value": 167.64,
+        "sourceURL": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+        "checkedAt": "2026-11-10T15:43:38.029Z"
+      },
+      "powerW": {
+        "value": 70,
+        "sourceURL": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+        "checkedAt": "2026-11-10T15:43:38.029Z"
+      }
+    },
+    "groups": [
+      {
+        "title": "Spécifications PNY du modèle exact",
+        "rows": [
+          {
+            "label": "Product",
+            "value": "NVIDIA RTX 4000 SFF Ada Generation"
+          },
+          {
+            "label": "PNY Part Number",
+            "value": "VCNRTX4000ADALP-PB"
+          },
+          {
+            "label": "Architecture",
+            "value": "NVIDIA Ada Lovelace Architecture"
+          },
+          {
+            "label": "Process Size",
+            "value": "4nm NVIDIA Custom Process | TSMC"
+          },
+          {
+            "label": "Die Size",
+            "value": "294.5 mm"
+          },
+          {
+            "label": "Transistors",
+            "value": "35.8 Billion"
+          },
+          {
+            "label": "CUDA Cores",
+            "value": "6144"
+          },
+          {
+            "label": "Tensor Cores",
+            "value": "192 | Gen 4"
+          },
+          {
+            "label": "RT Cores",
+            "value": "48 | Gen 3"
+          },
+          {
+            "label": "FP32 Performance",
+            "value": "1 19.2 TFLOPS"
+          },
+          {
+            "label": "Tensor Performance",
+            "value": "1 306.8 TFLOPS 2"
+          },
+          {
+            "label": "RT Core Performance",
+            "value": "1 44.3 TFLOPS"
+          },
+          {
+            "label": "GPU Memory",
+            "value": "20 GB GDDR6 ECC"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "160-bit"
+          },
+          {
+            "label": "Memory Bandwidth",
+            "value": "320 GB/s"
+          },
+          {
+            "label": "Display Connectors",
+            "value": "mDP 1.4a (4)"
+          },
+          {
+            "label": "Form Factor",
+            "value": "2.7” H x 6.6” L | Dual Slot"
+          },
+          {
+            "label": "Thermal Solution",
+            "value": "Active Fansink"
+          },
+          {
+            "label": "AR/MR/VR/XR Capable",
+            "value": "Yes"
+          },
+          {
+            "label": "NVIDIA 3D Vision and 3D Vision Pro",
+            "value": "Support via Optional 3-pin mini-DIN"
+          },
+          {
+            "label": "Frame Lock",
+            "value": "Compatible with NVIDIA Quadro Sync II"
+          },
+          {
+            "label": "Maximum Power Consumption",
+            "value": "70W | No Auxiliary Power Required"
+          },
+          {
+            "label": "NVENC | NVDEC",
+            "value": "2x | 2x | Includes AV1 Encode and Decode"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Dimensions converties à partir de 2,7 pouces H × 6,6 pouces L ; la précision reste celle des mesures publiées.",
+      "Dual Slot indique une occupation de slots ; aucune épaisseur en millimètres n’en est déduite.",
+      "Aucun prix commercial ni wattage système n’est déduit de la puissance de carte."
+    ],
+    "offers": []
+  }
+}

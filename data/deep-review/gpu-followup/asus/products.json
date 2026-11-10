@@ -1,0 +1,4322 @@
+{
+  "import-gpu-b5bee89c205f": {
+    "identityKind": "mpn",
+    "mpn": "DUAL-RX7800XT-O16G",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "AMD Radeon™ RX 7800 XT"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "16GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : up to 2520 MHz (Boost Clock)/up to 2213 MHz (Game Clock) Default mode : up to 2475 MHz (Boost Clock)/up to 2169 MHz (Game Clock)"
+          },
+          {
+            "label": "Stream Processors",
+            "value": "3840"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19.5 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 2.1), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Thank you card 1 x Speedsetup Manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & Drivers: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "279.9 x 133.9 x 49.3 mm 11.02 x 5.27 x 1.94 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.47 slot"
+          },
+          {
+            "label": "Model",
+            "value": "DUAL-RX7800XT-O16G"
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "Two tried-and-true Axial-tech fans feature a smaller hub that facilitates longer blades and a barrier ring to increase downward air pressure."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "lengthMm": 279.9,
+      "heightMm": 133.9,
+      "thicknessMm": 49.3,
+      "recommendedPsuW": 750.0,
+      "fanCount": 2,
+      "description": "Carte graphique DUAL-RX7800XT-O16G avec 16 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL OC RX 7800 XT · 16 Go · Noir · 279.9 mm",
+      "manufacturerPartNumber": "DUAL-RX7800XT-O16G"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "lengthMm": {
+        "value": 279.9,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "heightMm": {
+        "value": 133.9,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "thicknessMm": {
+        "value": 49.3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-e86971fd0eb1": {
+    "identityKind": "mpn",
+    "mpn": "PRIME-RTX4070TIS-O16G",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 4070 Ti SUPER"
+          },
+          {
+            "label": "AI Performance",
+            "value": "710"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "16GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : 2655 MHz Default mode : 2625 MHz (boost)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8448"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "21 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1a), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup Manual 1 x Thank you card 1 x Adapter Cable (1 to 2)"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "300 x 120 x 50 mm 11.81 x 4.72 x 1.97 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.5 Slot"
+          },
+          {
+            "label": "Model",
+            "value": "PRIME-RTX4070TIS-O16G"
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The SFF-ready ASUS Prime GeForce RTX™ 4070 Ti SUPER OC Edition 16GB GDDR6X boasts three fans in a sleek aesthetic with Axial-tech fan design for broad PC builds compatibility."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "lengthMm": 300.0,
+      "heightMm": 120.0,
+      "thicknessMm": 50.0,
+      "recommendedPsuW": 750.0,
+      "fanCount": 3,
+      "description": "Carte graphique PRIME-RTX4070TIS-O16G avec 16 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "PRIME OC RTX 4070 Ti SUPER · 16 Go · Noir · 300 mm",
+      "manufacturerPartNumber": "PRIME-RTX4070TIS-O16G"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "lengthMm": {
+        "value": 300.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "heightMm": {
+        "value": 120.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "fanCount": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-06e29dfac904": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 5090 3352 TOPs"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 5.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "32GB GDDR7"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode: 2437 MHz Default mode: 2407 MHz(Boost clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "21760"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "28 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "512-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1b), Yes x 3 (Native DisplayPort 2.1b), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup Manual 1 x TUF Graphics Card Holder 1 x TUF Velcro Hook & Loop 1 x TUF Magnet 1 x TUF Gaming Certificate 1 x Thank You Card 1 x Adapter Cable (1 to 4)​"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & MuseTree & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "348 x 146 x 72 mm 13.7 x 5.7 x 2.8 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "1000W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "3.6 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "Manufacturer model",
+            "value": "ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "lengthMm": 348.0,
+      "heightMm": 146.0,
+      "thicknessMm": 72.0,
+      "recommendedPsuW": 1000.0,
+      "description": "Carte graphique ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7 avec 32 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING RTX 5090 · 32 Go · Noir / Argent · 348 mm",
+      "manufacturerModel": "ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "lengthMm": {
+        "value": 348.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "heightMm": {
+        "value": 146.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "thicknessMm": {
+        "value": 72.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "recommendedPsuW": {
+        "value": 1000.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7"
+  },
+  "import-gpu-60339e06cf31": {
+    "identityKind": "mpn",
+    "mpn": "PRIME-RTX5080-16G",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 5080"
+          },
+          {
+            "label": "AI Performance",
+            "value": "1801 TOPs"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 5.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "16GB GDDR7"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode: 2640 MHz Default mode: 2617 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "10752"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "30 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1b), Yes x 3 (Native DisplayPort 2.1b), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup Manual 1 x ASUS Velcro Hook & Loop 1 x Thank You Card 1 x Adapter Cable (1 to 3)​"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & MuseTree & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "304 x 126 x 50 mm 12 x 5 x 2 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.5 Slot"
+          },
+          {
+            "label": "Model",
+            "value": "PRIME-RTX5080-16G"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "lengthMm": 304.0,
+      "heightMm": 126.0,
+      "thicknessMm": 50.0,
+      "recommendedPsuW": 850.0,
+      "description": "Carte graphique PRIME-RTX5080-16G avec 16 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "PRIME RTX 5080 · 16 Go · Noir / Blanc · 304 mm",
+      "manufacturerPartNumber": "PRIME-RTX5080-16G"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "lengthMm": {
+        "value": 304.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "heightMm": {
+        "value": 126.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-6dce6a0514ba": {
+    "identityKind": "mpn",
+    "mpn": "TUF-RTX4070S-O12G-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 4070 SUPER"
+          },
+          {
+            "label": "AI Performance",
+            "value": "588"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "12GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : 2595 MHz (Boost Clock) Default mode : 2565 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "7168"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "21 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "192-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1a), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection Card 1 x Speedsetup Manual 1 x Thank you Card 1 x TUF Velcro Hook & Loop 1 x TUF Graphics card holder 1 x TUF Gaming Certificate 1 x Adapter Cable (1 to 2)"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "301 x 139 x 63 mm 11.85 x 5.47 x 2.48 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "3.15 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "Model",
+            "value": "TUF-RTX4070S-O12G-GAMING"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 12,
+      "lengthMm": 301.0,
+      "heightMm": 139.0,
+      "thicknessMm": 63.0,
+      "recommendedPsuW": 750.0,
+      "description": "Carte graphique TUF-RTX4070S-O12G-GAMING avec 12 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING OC RTX 4070 SUPER · 12 Go · Noir · 301 mm",
+      "manufacturerPartNumber": "TUF-RTX4070S-O12G-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 12,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "lengthMm": {
+        "value": 301.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "heightMm": {
+        "value": 139.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "thicknessMm": {
+        "value": 63.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-beaa800ac2f2": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "TUF Gaming GeForce RTX™ 3080 V2 OC edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3080"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "10GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1815 MHz (Boost Clock) Gaming Mode (Default) - GPU Boost Clock : 1785 MHz , GPU Base Clock : 1440 MHz"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8704"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "320-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual 1 x TUF certificate of Reliability"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "11.8 \" x 4.99 \" x 2.03 \" Inch 29.99 x 12.69 x 5.16 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The TUF Gaming GeForce RTX™ 3080 has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, independent heatsinks for the GPU and memory keep thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, a new GPU bracket, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 299.9,
+      "heightMm": 126.9,
+      "thicknessMm": 51.6,
+      "recommendedPsuW": 850.0,
+      "capacityGB": 10,
+      "fanCount": 3,
+      "description": "Carte graphique TUF Gaming GeForce RTX™ 3080 V2 OC edition avec 10 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING OC V2 RTX 3080 10GB LHR · 10 Go · Noir · 299.9 mm",
+      "manufacturerModel": "TUF Gaming GeForce RTX™ 3080 V2 OC edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 299.9,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 126.9,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 51.6,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 10,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "TUF Gaming GeForce RTX™ 3080 V2 OC edition"
+  },
+  "import-gpu-cf3d20e68c58": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG Strix GeForce RTX™ 3080 OC Edition 12GB"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3080"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "12GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : 1890 MHz (Boost Clock) Gaming mode : 1860 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8960"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "384-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "318.5 x 140.1 x 57.78 mm 12.53 x 5.51 x 2.27 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "3 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 52 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.78,
+      "recommendedPsuW": 850.0,
+      "capacityGB": 12,
+      "description": "Carte graphique ROG Strix GeForce RTX™ 3080 OC Edition 12GB avec 12 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING OC RTX 3080 12GB LHR · 12 Go · Noir / Argent · 318.5 mm",
+      "manufacturerModel": "ROG Strix GeForce RTX™ 3080 OC Edition 12GB"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.78,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 12,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "ROG Strix GeForce RTX™ 3080 OC Edition 12GB"
+  },
+  "import-gpu-7790ed894246": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3060TI-O8G-V2-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/au/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3060TI-O8G-V2-GAMING"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1890 MHz (Boost Clock) Gaming Mode - 1860 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "description": "Carte graphique ROG-STRIX-RTX3060TI-O8G-V2-GAMING avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING OC V2 RTX 3060 Ti LHR · 8 Go · Noir / Argent · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3060TI-O8G-V2-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-af963225d9ae": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "TUF Gaming GeForce RTX™ 3060 Ti V2 OC Edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1785 MHz (Boost Clock) Gaming Mode - 1755 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x TUF certificate of Reliability 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "11.81 \" x 5.63 \" x 2.13 \" Inch 30.1 x 14.3 x 5.4 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The TUF GAMING GeForce RTX™ 3060 Ti has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 301.0,
+      "heightMm": 143.0,
+      "thicknessMm": 54.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 3,
+      "description": "Carte graphique TUF Gaming GeForce RTX™ 3060 Ti V2 OC Edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING OC V2 RTX 3060 Ti LHR · 8 Go · Noir · 301 mm",
+      "manufacturerModel": "TUF Gaming GeForce RTX™ 3060 Ti V2 OC Edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 301.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 143.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 54.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "TUF Gaming GeForce RTX™ 3060 Ti V2 OC Edition"
+  },
+  "import-gpu-a032aad43c0f": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "Dual GeForce RTX™️ 3070 V2 OC edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3070"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1800 MHz (Boost Clock) Gaming Mode - 1770 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "5888"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "10.51 \" x 5.31 \" x 2.05 \" Inch 26.7 x 13.5 x5.2 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "ASUS Dual GeForce RTX™ 3070 V2 OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 267.0,
+      "heightMm": 135.0,
+      "thicknessMm": 52.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique Dual GeForce RTX™️ 3070 V2 OC edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL OC V2 RTX 3070 LHR · 8 Go · Noir · 267 mm",
+      "manufacturerModel": "Dual GeForce RTX™️ 3070 V2 OC edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 267.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 135.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 52.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "Dual GeForce RTX™️ 3070 V2 OC edition"
+  },
+  "import-gpu-65d9330e77e1": {
+    "identityKind": "mpn",
+    "mpn": "TUF-RTX5060TI-16G-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 5060 Ti 759 TOPs"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 5.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "16GB GDDR7"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode: 2602MHz Default mode: 2572MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4608"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "28 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "128-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1b), Yes x 3 (Native DisplayPort 2.1b), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup Manual 1 x TUF Graphics Card Holder 1 x TUF Velcro Hook & Loop 1 x TUF Gaming Certificate 1 x Thank You Card 1 x Adpater Cable (1 to 2)"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & MuseTree & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "302 x 133.5 x 62mm"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "3.1 slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "Model",
+            "value": "TUF-RTX5060TI-16G-GAMING"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "lengthMm": 302.0,
+      "heightMm": 133.5,
+      "thicknessMm": 62.0,
+      "recommendedPsuW": 550.0,
+      "description": "Carte graphique TUF-RTX5060TI-16G-GAMING avec 16 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING RTX 5060 Ti · 16 Go · Noir / Argent · 302 mm",
+      "manufacturerPartNumber": "TUF-RTX5060TI-16G-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "lengthMm": {
+        "value": 302.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "heightMm": {
+        "value": 133.5,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "thicknessMm": {
+        "value": 62.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-459005105ffb": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "TUF Gaming GeForce RTX™ 3070 V2 OC Edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3070"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1845 MHz (Boost Clock) Gaming Mode - 1815 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "5888"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup manual 1 x Collection card 1 x TUF certificate of Reliability"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "11.8 x 5.51 x 2.1 inch 299.9 x 140 x 53.4 mm"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The TUF GAMING GeForce RTX™ 3070 has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 299.9,
+      "heightMm": 140.0,
+      "thicknessMm": 53.4,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 3,
+      "description": "Carte graphique TUF Gaming GeForce RTX™ 3070 V2 OC Edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING OC V2 RTX 3070 LHR · 8 Go · Noir · 299.9 mm",
+      "manufacturerModel": "TUF Gaming GeForce RTX™ 3070 V2 OC Edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 299.9,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 140.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 53.4,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "TUF Gaming GeForce RTX™ 3070 V2 OC Edition"
+  },
+  "import-gpu-e16253ce77ae": {
+    "identityKind": "mpn",
+    "mpn": "PROART-RTX4070S-O12G",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 4070 SUPER"
+          },
+          {
+            "label": "AI Performance",
+            "value": "581"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "12GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : 2565 MHz (Boost Clock) Default mode : 2535 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "7168"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "21 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "192-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1a), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection Card 1 x Speedsetup Manual 1 x Thank you Card 1 x ASUS Velcro Hook & Loop 1 x Adapter Cable (1 to 2)"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "300 x 120 x 50 mm 11.81 x 4.72 x 1.97 inch"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 16-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.5 Slot"
+          },
+          {
+            "label": "Model",
+            "value": "PROART-RTX4070S-O12G"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 12,
+      "lengthMm": 300.0,
+      "heightMm": 120.0,
+      "thicknessMm": 50.0,
+      "recommendedPsuW": 750.0,
+      "description": "Carte graphique PROART-RTX4070S-O12G avec 12 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ProArt OC RTX 4070 SUPER · 12 Go · Noir / Or · 300 mm",
+      "manufacturerPartNumber": "PROART-RTX4070S-O12G"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 12,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "lengthMm": {
+        "value": 300.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "heightMm": {
+        "value": 120.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-bbcb1a6a46c9": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "Dual GeForce RTX™ 3060 Ti V2 OC Edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1740 MHz (Boost Clock) Gaming Mode - 1710 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "10.56 \" x 5.35 \" x 2.05 \" Inch 26.9 x 13.6 x 5.2 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "ASUS Dual GeForce RTX™ 3060 Ti V2 OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 269.0,
+      "heightMm": 136.0,
+      "thicknessMm": 52.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique Dual GeForce RTX™ 3060 Ti V2 OC Edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL OC V2 RTX 3060 Ti LHR · 8 Go · Noir / Argent · 269 mm",
+      "manufacturerModel": "Dual GeForce RTX™ 3060 Ti V2 OC Edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 269.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 136.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 52.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "Dual GeForce RTX™ 3060 Ti V2 OC Edition"
+  },
+  "import-gpu-7ddad1660ff3": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3080-O10G-V2-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3080-O10G-V2-GAMING"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3080"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "10GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1935 MHz (Boost Clock) Gaming Mode (Default) - GPU Boost Clock : 1905 MHz , GPU Base Clock : 1440 MHz"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8704"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "320-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "3 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 850.0,
+      "capacityGB": 10,
+      "description": "Carte graphique ROG-STRIX-RTX3080-O10G-V2-GAMING avec 10 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING OC V2 RTX 3080 10GB LHR · 10 Go · Noir · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3080-O10G-V2-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 10,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-0e76b25c62b1": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T22:00:35.890Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "KO GeForce RTX™ 3060 Ti V2 OC Edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1785 MHz (Boost Clock) Gaming Mode - 1755 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "10.83 \" x 5.31 \" x 2.13 \" Inch 27.5 x 13.5 x 5.4 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "ASUS KO GeForce RTX™ 30 Series GPUs host the new NVIDIA Ampere architecture with some extra shine on performance and durability. Twin fans leverage our Axial-tech design for efficient cooling at low dB levels. Enhancements such as space-grade lubricant, Auto-Extreme Technology, and enduring capacitors keep KO composed for the most demanding scenarios. And a unique shroud takes on gold and silver faceplates with fully-customizable ARGB accents."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 275.0,
+      "heightMm": 135.0,
+      "thicknessMm": 54.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique KO GeForce RTX™ 3060 Ti V2 OC Edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "KO GAMING OC V2 RTX 3060 Ti LHR · 8 Go · Argent / Noir · 275 mm",
+      "manufacturerModel": "KO GeForce RTX™ 3060 Ti V2 OC Edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 275.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "heightMm": {
+        "value": 135.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "thicknessMm": {
+        "value": 54.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/",
+        "checkedAt": "2026-11-10T22:00:35.890Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "KO GeForce RTX™ 3060 Ti V2 OC Edition"
+  },
+  "import-gpu-a354d38a4460": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3070-O8G-WHITE-V2",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3070-O8G-WHITE-V2"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3070"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1935 MHz (Boost Clock) Gaming Mode - 1905 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "5888"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "description": "Carte graphique ROG-STRIX-RTX3070-O8G-WHITE-V2 avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX WHITE OC V2 RTX 3070 LHR · 8 Go · Blanc · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3070-O8G-WHITE-V2"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-7cdd61da9379": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1710 MHz (Boost Clock) Gaming Mode - 1680 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "7.87 \" x 4.84 \" x 1.496 \" Inch 20 x 12.3 x 3.8 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The compact ASUS DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for small chassis including the Intel® NUC 9 Kits."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 200.0,
+      "heightMm": 123.0,
+      "thicknessMm": 38.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL MINI OC V2 RTX 3060 Ti LHR · 8 Go · Noir · 200 mm",
+      "manufacturerModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 200.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "heightMm": {
+        "value": 123.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "thicknessMm": {
+        "value": 38.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition"
+  },
+  "import-gpu-aa769de49395": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3080-O10G-WHITE-V2",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3080-O10G-WHITE-V2"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3080"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "10GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1935 MHz (Boost Clock) Gaming Mode - 1905 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8704"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "320-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup manual 1 x Collection card 1 x ROG ruler 1 x ROG Velcro Hook & Loop 1 x ROG ring"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "3 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 850.0,
+      "capacityGB": 10,
+      "description": "Carte graphique ROG-STRIX-RTX3080-O10G-WHITE-V2 avec 10 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX WHITE OC V2 RTX 3080 10GB LHR · 10 Go · Blanc · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3080-O10G-WHITE-V2"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 10,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-cb7bb9298707": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3070-O8G-V2-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3070-O8G-V2-GAMING"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3070"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1935 MHz (Boost Clock) Gaming Mode - 1905 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "5888"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "description": "Carte graphique ROG-STRIX-RTX3070-O8G-V2-GAMING avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING OC V2 RTX 3070 LHR · 8 Go · Noir / Argent · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3070-O8G-V2-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-95390e78abf0": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "DUAL GeForce RTX™ 3060 Ti V2 MINI"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1695 MHz (Boost Clock) Gaming Mode - 1665 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 1 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "7.87 \" x 4.84 \" x 1.496 \" Inch 20 x 12.3 x 3.8 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The compact ASUS DUAL GeForce RTX™ 3060 Ti V2 MINI 8GB GDDR6 with LHR features two powerful Axial-tech fans for small chassis including the Intel® NUC 9 Kits."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 200.0,
+      "heightMm": 123.0,
+      "thicknessMm": 38.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique DUAL GeForce RTX™ 3060 Ti V2 MINI avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL MINI V2 RTX 3060 Ti LHR · 8 Go · Noir · 200 mm",
+      "manufacturerModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 200.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "heightMm": {
+        "value": 123.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "thicknessMm": {
+        "value": 38.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI"
+  },
+  "import-gpu-e9050c393b46": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3080-10G-V2-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3080-10G-V2-GAMING"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3080"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "10GB GDDR6X"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1740 MHz (Boost Clock) Gaming Mode (Default) - GPU Boost Clock : 1710 MHz , GPU Base Clock : 1440 MHz"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "8704"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "19 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "320-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "850W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "3 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 850.0,
+      "capacityGB": 10,
+      "description": "Carte graphique ROG-STRIX-RTX3080-10G-V2-GAMING avec 10 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING V2 RTX 3080 10GB LHR · 10 Go · Noir · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3080-10G-V2-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 850.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 10,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-abc748277d4f": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "TUF Gaming GeForce RTX™ 3060 Ti V2"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1695 MHz (Boost Clock) Gaming Mode - 1665 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x TUF certificate of Reliability 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "11.81 \" x 5.63 \" x 2.13 \" Inch 30.1 x 14.3 x 5.4 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The TUF GAMING GeForce RTX™ 3060 Ti has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 301.0,
+      "heightMm": 143.0,
+      "thicknessMm": 54.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 3,
+      "description": "Carte graphique TUF Gaming GeForce RTX™ 3060 Ti V2 avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "TUF GAMING V2 RTX 3060 Ti LHR · 8 Go · Noir · 301 mm",
+      "manufacturerModel": "TUF Gaming GeForce RTX™ 3060 Ti V2"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 301.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 143.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 54.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "TUF Gaming GeForce RTX™ 3060 Ti V2"
+  },
+  "import-gpu-2c018702802b": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ASUS GeForce RTX 3070 Noctua Edition 8GB GDDR6"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3070"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode: 1755 MHz (Boost Clock) Gaming mode: 1725 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "5888"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup Manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "310 x 147 x 87.5 mm 12.20 x 5.79 x 3.45 inches"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "4.3 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "The two Noctua NF-A12x25 120mm fans integrate a low-resonance Sterrox® liquid-crystal polymer (LCP) fan impeller, metal-reinforced motor hub, stabilized bearings, and custom low-noise PWM controller to deliver performance you can rely on day in, day out."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 310.0,
+      "heightMm": 147.0,
+      "thicknessMm": 87.5,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "fanSizeMm": 120,
+      "description": "Carte graphique ASUS GeForce RTX 3070 Noctua Edition 8GB GDDR6 avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "Noctua RTX 3070 LHR · 8 Go · Brun / Noir · 310 mm",
+      "manufacturerModel": "ASUS GeForce RTX 3070 Noctua Edition 8GB GDDR6"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 310.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "heightMm": {
+        "value": 147.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "thicknessMm": {
+        "value": 87.5,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      },
+      "fanSizeMm": {
+        "value": 120,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "ASUS GeForce RTX 3070 Noctua Edition 8GB GDDR6"
+  },
+  "import-gpu-7ec89158a343": {
+    "identityKind": "mpn",
+    "mpn": "RTX4060-8G-LP-BRK",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 4060"
+          },
+          {
+            "label": "AI Performance",
+            "value": "242"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC mode : 2490 MHz Default mode : 2460 MHz (Boost)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "3072"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "17 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "128-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1a), Yes x 2 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Speedsetup Manual​ 1 x LP bracket"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak III & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "188 x 69 x 39 mm 7.4 x 2.72 x 1.53 inches"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 6-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2 Slot"
+          },
+          {
+            "label": "Model",
+            "value": "RTX4060-8G-LP-BRK"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 188.0,
+      "heightMm": 69.0,
+      "thicknessMm": 39.0,
+      "recommendedPsuW": 550.0,
+      "description": "Carte graphique RTX4060-8G-LP-BRK avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "LP BRK RTX 4060 · 8 Go · Noir · 188 mm",
+      "manufacturerPartNumber": "RTX4060-8G-LP-BRK"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "lengthMm": {
+        "value": 188.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "heightMm": {
+        "value": 69.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "thicknessMm": {
+        "value": 39.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+        "checkedAt": "2026-11-10T22:01:27.242Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-93393f2258fe": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "Dual GeForce RTX™ 3060 Ti V2"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1695 MHz (Boost Clock) Gaming Mode - 1665 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "10.56 \" x 5.35 \" x 2.05 \" Inch 26.9 x 13.6 x 5.2 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "ASUS Dual GeForce RTX™ 3060 Ti V2 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 269.0,
+      "heightMm": 136.0,
+      "thicknessMm": 52.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique Dual GeForce RTX™ 3060 Ti V2 avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "DUAL V2 RTX 3060 Ti LHR · 8 Go · Noir / Argent · 269 mm",
+      "manufacturerModel": "Dual GeForce RTX™ 3060 Ti V2"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 269.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "heightMm": {
+        "value": 136.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "thicknessMm": {
+        "value": 52.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+        "checkedAt": "2026-11-10T13:31:17Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "Dual GeForce RTX™ 3060 Ti V2"
+  },
+  "import-gpu-69592a8a7f99": {
+    "identityKind": "mpn",
+    "mpn": "ROG-STRIX-RTX3060TI-8G-V2-GAMING",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. Code commercial imprimé dans la fiche.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — LHR explicitement publié",
+        "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "ROG-STRIX-RTX3060TI-8G-V2-GAMING"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1695 MHz (Boost Clock) Gaming Mode - 1665 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1) Yes x 3 (Native DisplayPort 1.4a) HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x ROG Velcro Hook & Loop 1 x ROG ruler 1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "12.53 \" x 5.51 \" x 2.27 \" Inch 31.85 x 14.01 x 5.78 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "2 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.9 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 318.5,
+      "heightMm": 140.1,
+      "thicknessMm": 57.8,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "description": "Carte graphique ROG-STRIX-RTX3060TI-8G-V2-GAMING avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "ROG STRIX GAMING V2 RTX 3060 Ti LHR · 8 Go · Noir · 318.5 mm",
+      "manufacturerPartNumber": "ROG-STRIX-RTX3060TI-8G-V2-GAMING"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 318.5,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "heightMm": {
+        "value": 140.1,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "thicknessMm": {
+        "value": 57.8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+        "checkedAt": "2026-11-10T15:24:12Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ]
+  },
+  "import-gpu-513ee5ddd935": {
+    "identityKind": "manufacturer-model",
+    "mpn": "",
+    "identityNote": "Nom, capacité et suffixes exacts rapprochés avec le document ASUS. Le statut LHR est explicitement confirmé sur la page du même modèle. MPN commercial non publié ; aucun SKU ni prix attribué par déduction.",
+    "sources": [
+      {
+        "name": "ASUS — spécifications du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ASUS — refroidissement du modèle exact",
+        "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications détaillées du fabricant ASUS",
+        "rows": [
+          {
+            "label": "Model",
+            "value": "KO GeForce RTX™ 3060 Ti V2"
+          },
+          {
+            "label": "Graphic Engine",
+            "value": "NVIDIA® GeForce RTX™ 3060 TI"
+          },
+          {
+            "label": "Bus Standard",
+            "value": "PCI Express 4.0"
+          },
+          {
+            "label": "OpenGL",
+            "value": "OpenGL®4.6"
+          },
+          {
+            "label": "Video Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Engine Clock",
+            "value": "OC Mode - 1695 MHz (Boost Clock) Gaming Mode - 1665 MHz (Boost Clock)"
+          },
+          {
+            "label": "CUDA Core",
+            "value": "4864"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Interface",
+            "value": "256-bit"
+          },
+          {
+            "label": "Resolution",
+            "value": "Digital Max Resolution 7680 x 4320"
+          },
+          {
+            "label": "Interface",
+            "value": "Yes x 2 (Native HDMI 2.1), Yes x 3 (Native DisplayPort 1.4a), HDCP Support Yes (2.3)"
+          },
+          {
+            "label": "Maximum Display Support",
+            "value": "4"
+          },
+          {
+            "label": "NVlink/ Crossfire Support",
+            "value": "No"
+          },
+          {
+            "label": "Accessories",
+            "value": "1 x Collection card 1 x Speedsetup manual"
+          },
+          {
+            "label": "Software",
+            "value": "ASUS GPU Tweak II & GeForce Game Ready Driver & Studio Driver: please download all software from the support site."
+          },
+          {
+            "label": "Dimensions",
+            "value": "10.83 \" x 5.31 \" x 2.13 \" Inch 27.5 x 13.5 x 5.4 Centimeter"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1 x 8-pin"
+          },
+          {
+            "label": "Slot",
+            "value": "2.7 Slot"
+          },
+          {
+            "label": "AURA SYNC",
+            "value": "ARGB"
+          },
+          {
+            "label": "LHR — description du fabricant",
+            "value": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.)."
+          },
+          {
+            "label": "Ventilateurs — description du fabricant",
+            "value": "ASUS KO GeForce RTX™ 30 Series GPUs host the new NVIDIA Ampere architecture with some extra shine on performance and durability. Twin fans leverage our Axial-tech design for efficient cooling at low dB levels. Enhancements such as space-grade lubricant, Auto-Extreme Technology, and enduring capacitors keep KO composed for the most demanding scenarios. And a unique shroud takes on gold and silver faceplates with fully-customizable ARGB accents."
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "lengthMm": 275.0,
+      "heightMm": 135.0,
+      "thicknessMm": 54.0,
+      "recommendedPsuW": 750.0,
+      "capacityGB": 8,
+      "fanCount": 2,
+      "description": "Carte graphique KO GeForce RTX™ 3060 Ti V2 avec 8 Go de mémoire vidéo. Les caractéristiques publiées sont issues des documents ASUS du modèle exact ; les champs non publiés restent à confirmer.",
+      "detailLevel": "partial",
+      "name": "KO GAMING V2 RTX 3060 Ti LHR · 8 Go · Argent / Noir · 275 mm",
+      "manufacturerModel": "KO GeForce RTX™ 3060 Ti V2"
+    },
+    "offers": [],
+    "fieldEvidence": {
+      "lengthMm": {
+        "value": 275.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "heightMm": {
+        "value": 135.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "thicknessMm": {
+        "value": 54.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:31:18Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/",
+        "checkedAt": "2026-11-10T15:51:10Z"
+      }
+    },
+    "notes": [
+      "La recommandation d’alimentation concerne le système complet et ne constitue pas la consommation électrique de la carte.",
+      "Aucun prix de l’archive importée ni d’une autre variante n’est repris."
+    ],
+    "manufacturerModel": "KO GeForce RTX™ 3060 Ti V2"
+  }
+}

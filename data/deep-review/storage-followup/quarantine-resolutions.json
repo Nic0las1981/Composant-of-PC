@@ -1,0 +1,19 @@
+[
+  {
+    "id": "import-ssd-4b370adc4f5c",
+    "mpn": "K01TBM2SP0-C7T",
+    "productFile": "data/deep-review/storage-followup/products.json",
+    "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+    "requiredPatch": {
+      "manufacturerPartNumber": "K01TBM2SP0-C7T",
+      "name": "CRAS C715 1 To · PCIe 3.0 ×4",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe"
+    },
+    "requiredEvidence": {
+      "interfaceGeneration": "PCIe 3.0 ×4 NVMe 1.3",
+      "formFactor": "M.2 2280"
+    },
+    "reason": "La fiche officielle CRAS C715 v3 identifie la capacité 1 To et le MPN exact en PCIe Gen3 ×4. L'ancien motif était une interface erronée de l'archive ; la description et les caractéristiques ont été réconciliées. Les autres correspondances rejetées restent exclues."
+  }
+]

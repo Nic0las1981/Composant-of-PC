@@ -44,9 +44,11 @@ Les offres sont des relevés intégrés au déploiement. Le navigateur ne consul
 
 ## Images et représentation 3D
 
-**{number(summary['photoAssets'])} références** disposent d’une image produit liée au fabricant. **{number(summary['visuallyInspectedPhotoAssets'])} images** ont en plus été inspectées visuellement ; les autres sont identifiées par la page ou le catalogue constructeur, sans prétendre à cette inspection. La photo n’est affichée qu’après chargement. Une image distante bloquée laisse une illustration locale utilisable.
+**{number(summary['photoAssets'])} références** disposent d’une image produit liée au fabricant. **{number(summary['visuallyInspectedPhotoAssets'])} références** bénéficient d’une photographie inspectée visuellement ; une même photo peut être explicitement associée à plusieurs MPN. Les autres images sont identifiées par la page ou le catalogue constructeur, sans prétendre à cette inspection. La photo n’est affichée qu’après chargement. Une image distante bloquée laisse une illustration locale utilisable.
 
 Les huit catégories disposent de représentations enrichies : géométrie adaptée aux dimensions connues, circuits et contacts, dissipateurs et ailettes, pales, connectique, châssis et façades, pompes AIO et détails propres aux familles. Les SSD à simple film thermique restent distincts des versions à dissipateur épais. Les icônes et l’assemblage utilisent les caractéristiques de la variante sélectionnée.
+
+**{number(summary.get('individuallyReconstructedMemory', 0))} variantes mémoire intégrées** utilisent aussi une silhouette de dissipateur propre au modèle, commune à l’icône et à la scène 3D : profils asymétriques Trident Z5, ailettes Vengeance LPX, fenêtres lumineuses Dominator et panneaux anguleux Fury. Les associations exigent un MPN exact. Le relevé de 68 photos constructeur et ses 475 associations de MPN sont conservés dans `data/deep-review/visual/memory-silhouettes/inspected-shapes.json` ; les références ambiguës du catalogue ne reçoivent pas ces formes par ressemblance de nom.
 
 Quatre modèles de ventilateurs proviennent des fichiers CAD officiels Noctua et équipent cinq refroidissements du catalogue. Les fichiers ont été simplifiés pour le navigateur ; l’avis de provenance et d’utilisation accompagne les GLB dans `public/models/noctua/README-Noctua.txt`. Les autres pièces restent des reconstitutions : tolérances, câblage fin, connecteurs et collisions ne constituent pas une maquette industrielle certifiée.
 

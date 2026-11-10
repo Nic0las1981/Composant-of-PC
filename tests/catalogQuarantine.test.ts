@@ -69,3 +69,18 @@ test('the exact manufacturer table resolves the UD85 interface and physical-heig
   assert.ok(rows.some(row=>row.value==='PCIe 4.0 x4 · NVMe 1.4'));
   assert.ok(!rows.some(row=>/x16|×16/.test(row.value)));
 });
+
+test('C715 is admitted only after its archived PCIe generation is corrected from the exact manufacturer table',()=>{
+  const ssd=getComponent('import-ssd-4b370adc4f5c')!;
+  const product=getVerifiedProduct(ssd)!;
+  assert.equal(product.mpn,'K01TBM2SP0-C7T');
+  assert.equal(ssd.capacityGB,1000);
+  assert.match(ssd.name,/PCIe 3\.0/);
+  assert.ok(ssd.specs.some(value=>/PCIe 3\.0/.test(value)));
+  assert.ok(!ssd.specs.some(value=>/PCIe 4\.0/.test(value)));
+  assert.equal(product.fieldEvidence?.interfaceGeneration.value,'PCIe 3.0 ×4 NVMe 1.3');
+  assert.ok(product.sources.some(source=>source.kind==='manufacturer'&&source.url.includes('KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf')));
+  assert.ok(!product.groups.flatMap(group=>group.rows).some(row=>/PCIe 4\.0|PCI Express 4\.0/.test(row.value)));
+  assert.equal(isQuarantinedReference(ssd.id,product.mpn),false);
+  assert.equal(isQuarantinedReference('import-ssd-01c097994185','SDSSDE61-2T00-G25'),true);
+});

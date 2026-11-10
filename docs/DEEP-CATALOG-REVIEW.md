@@ -1,33 +1,33 @@
 # Revue approfondie du catalogue, des images et de la 3D
 
-État généré le **2026-11-10T16:21:45.485Z**, depuis les données réellement intégrées au site.
+État généré le **2026-11-10T22:17:07.913Z**, depuis les données réellement intégrées au site.
 
-Le catalogue conserve **10 564 variantes**, regroupées en **9 237 fiches de sélection**. Le contrôle d’intégrité et le suivi des recherches couvrent chaque identifiant. **7 316 variantes possèdent une fiche reliée à des sources traçables**, dont **7 156** avec une source constructeur ; **3 248 identités restent à confirmer**. Une recherche sans résultat ou une page inaccessible ne valide pas une référence.
+Le catalogue conserve **10 564 variantes**, regroupées en **9 237 fiches de sélection**. Le contrôle d’intégrité et le suivi des recherches couvrent chaque identifiant. **7 569 variantes possèdent une fiche reliée à des sources traçables**, dont **7 397** avec une source constructeur ; **2 995 identités restent à confirmer**. Une recherche sans résultat ou une page inaccessible ne valide pas une référence.
 
 ## Caractéristiques réellement disponibles
 
-Les fiches intègrent **152 956 lignes techniques sourcées**. La recherche dans une fiche filtre aussi les valeurs et les unités. Les caractéristiques non publiées ou contradictoires restent signalées.
+Les fiches intègrent **160 049 lignes techniques sourcées**. La recherche dans une fiche filtre aussi les valeurs et les unités. Les caractéristiques non publiées ou contradictoires restent signalées.
 
 | Catégorie | Variantes | Fiche sourcée | Liste technique complète | Lignes techniques | Offre FR admissible |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Processeurs | 26 | 26 | 6 | 1 197 | 21 |
 | Cartes mères | 1 503 | 1 485 | 1 170 | 35 171 | 26 |
-| Cartes graphiques | 2 474 | 1 747 | 11 | 38 824 | 132 |
-| Mémoire | 3 864 | 2 088 | 306 | 32 006 | 337 |
-| SSD | 832 | 750 | 245 | 11 965 | 195 |
+| Cartes graphiques | 2 474 | 1 869 | 13 | 41 410 | 139 |
+| Mémoire | 3 864 | 2 101 | 1 232 | 33 648 | 341 |
+| SSD | 832 | 819 | 310 | 13 421 | 199 |
 | Refroidissements | 25 | 25 | 18 | 839 | 14 |
-| Alimentations | 1 820 | 1 175 | 80 | 32 450 | 80 |
+| Alimentations | 1 820 | 1 224 | 96 | 33 859 | 80 |
 | Boîtiers | 20 | 20 | 19 | 504 | 6 |
 
 « Liste technique complète » signifie que chaque champ de la liste définie dans `src/lib/catalogCompletion.ts` possède une preuve. Ce compteur ne signifie ni prix actuel garanti, ni modèle CAD exact, ni présence de toutes les informations possibles d’un manuel. Les restrictions PCIe, BIOS, radiateurs, rails et câbles restent dans les tableaux détaillés.
 
-**3 998 références commerciales** sont documentées. **3 318 modèles constructeur** sont identifiés sans MPN de vente unique : leur MPN demeure vide et aucune offre n’est attribuée à une révision au hasard. Lorsque plusieurs révisions répondent à la même désignation exacte, seuls leurs faits communs explicitement documentés peuvent être conservés ; les différences restent inconnues ou contradictoires.
+**4 111 références commerciales** sont documentées. **3 458 modèles constructeur** sont identifiés sans MPN de vente unique : leur MPN demeure vide et aucune offre n’est attribuée à une révision au hasard. Lorsque plusieurs révisions répondent à la même désignation exacte, seuls leurs faits communs explicitement documentés peuvent être conservés ; les différences restent inconnues ou contradictoires.
 
 Les corrections de capacité SSD et de puissance continue des alimentations sont reliées à l’identifiant, à l’ancienne valeur, à la nouvelle valeur et à une source constructeur enregistrée. Les archives d’origine sont conservées. Une erreur de référence ancienne est mise en quarantaine par MPN afin de ne pas supprimer une nouvelle correspondance correctement prouvée.
 
 ## Prix et disponibilité
 
-**1 252 observations d’offres** sont intégrées ; **811 variantes** ont une offre directe admissible à l’heure de cet audit. La collecte utilise PcComponentes, Fnac, LDLC et Amazon.fr. Les refus d’accès, les absences de correspondance et les produits indisponibles sont consignés séparément. Amazon n’est pas une preuve de prix lorsque sa page n’est pas lisible.
+**1 280 observations d’offres** sont intégrées ; **826 variantes** ont une offre directe admissible à l’heure de cet audit. La collecte utilise PcComponentes, Fnac, LDLC et Amazon.fr. Les refus d’accès, les absences de correspondance et les produits indisponibles sont consignés séparément. Amazon n’est pas une preuve de prix lorsque sa page n’est pas lisible.
 
 Le budget n’utilise une offre directe que si le MPN exact correspond, le produit est neuf, disponible, en EUR pour le marché français, avec une vérification datant de moins de 24 heures. Les vendeurs marketplace, l’état, l’heure du relevé et les frais connus restent visibles. Un prix minimal agrégé, une occasion, une devise convertie ou un résultat de recherche ne remplace pas une offre produit. Les frais inconnus ne valent pas zéro et le total reste hors livraison.
 
@@ -35,9 +35,11 @@ Les offres sont des relevés intégrés au déploiement. Le navigateur ne consul
 
 ## Images et représentation 3D
 
-**2 122 références** disposent d’une image produit liée au fabricant. **581 images** ont en plus été inspectées visuellement ; les autres sont identifiées par la page ou le catalogue constructeur, sans prétendre à cette inspection. La photo n’est affichée qu’après chargement. Une image distante bloquée laisse une illustration locale utilisable.
+**2 122 références** disposent d’une image produit liée au fabricant. **581 références** bénéficient d’une photographie inspectée visuellement ; une même photo peut être explicitement associée à plusieurs MPN. Les autres images sont identifiées par la page ou le catalogue constructeur, sans prétendre à cette inspection. La photo n’est affichée qu’après chargement. Une image distante bloquée laisse une illustration locale utilisable.
 
 Les huit catégories disposent de représentations enrichies : géométrie adaptée aux dimensions connues, circuits et contacts, dissipateurs et ailettes, pales, connectique, châssis et façades, pompes AIO et détails propres aux familles. Les SSD à simple film thermique restent distincts des versions à dissipateur épais. Les icônes et l’assemblage utilisent les caractéristiques de la variante sélectionnée.
+
+**158 variantes mémoire intégrées** utilisent aussi une silhouette de dissipateur propre au modèle, commune à l’icône et à la scène 3D : profils asymétriques Trident Z5, ailettes Vengeance LPX, fenêtres lumineuses Dominator et panneaux anguleux Fury. Les associations exigent un MPN exact. Le relevé de 68 photos constructeur et ses 475 associations de MPN sont conservés dans `data/deep-review/visual/memory-silhouettes/inspected-shapes.json` ; les références ambiguës du catalogue ne reçoivent pas ces formes par ressemblance de nom.
 
 Quatre modèles de ventilateurs proviennent des fichiers CAD officiels Noctua et équipent cinq refroidissements du catalogue. Les fichiers ont été simplifiés pour le navigateur ; l’avis de provenance et d’utilisation accompagne les GLB dans `public/models/noctua/README-Noctua.txt`. Les autres pièces restent des reconstitutions : tolérances, câblage fin, connecteurs et collisions ne constituent pas une maquette industrielle certifiée.
 

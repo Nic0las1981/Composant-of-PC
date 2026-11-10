@@ -2,6 +2,8 @@ import { useId, useState } from 'react';
 import IndividualProductArt from './IndividualProductArt';
 import AioPumpArt from './AioPumpArt';
 import CaseFacePattern from './CaseFacePattern';
+import MemoryHeatspreaderArt from './MemoryHeatspreaderArt';
+import {getMemoryAppearance,getMemoryAppearanceColor} from '../data/memoryAppearance';
 import {coolerAppearances,caseAppearances} from '../data/hardwareAppearance';
 import {getProductImage} from '../data/productImages';
 import type { Component } from '../data/catalog';
@@ -22,6 +24,7 @@ type ProductArtProps = {
 export default function ProductArt({ category, brand, className, component, detailed = false, preferIllustration = false }: ProductArtProps) {
   const id = `hardware-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`;
   const profile = getVisualProfile(component);
+  const memoryShellColor = getMemoryAppearanceColor(component);
   const productImage=preferIllustration?undefined:getProductImage(component);
   const [loadedImage,setLoadedImage]=useState<string|null>(null);
   const photoVisible=!!productImage&&loadedImage===productImage.imageURL;
@@ -42,7 +45,7 @@ export default function ProductArt({ category, brand, className, component, deta
     backplate: profile?.category === 'gpu' ? profile.backplateColor : shell,
     frame: profile?.category === 'case' ? profile.frameColor : shell,
     front: profile?.category === 'case' ? profile.frontColor : shell,
-    heatspreader: profile?.category === 'ram' ? profile.heatspreaderColor : shell,
+    heatspreader: memoryShellColor ?? (profile?.category === 'ram' ? profile.heatspreaderColor : shell),
     pump: profile?.category === 'cooler' ? profile.pumpColor || shell : shell,
     pcb: profile?.category === 'motherboard' ? profile.pcbColor : '#24342e',
     heatsink: profile?.category === 'motherboard' ? profile.heatsinkColor : profile?.category === 'cooler' ? profile.finColor : shell,
@@ -205,11 +208,12 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'ram': {
       const p = profile?.category === 'ram' ? profile : undefined;
+      const memoryDesign = getMemoryAppearance(component);
       const bare = p?.hasHeatspreader === false || component?.memoryHeatspreader === false;
       const rgb = p?.rgb === true && (!bare || component?.rgb === true);
       const count = Math.min(4, component?.memorySticks ?? p?.sticks ?? 2);
       const pcb = p?.pcbColor || (bare ? '#2d684d' : '#253b31');
-      const ink = light(p?.heatspreaderColor) ? '#31433f' : '#e2e8df';
+      const ink = light(memoryShellColor ?? p?.heatspreaderColor) ? '#31433f' : '#e2e8df';
       const h = p ? Math.min(25, 10 + p.heightMm * .3) : bare ? 19.4 : 23;
       const moduleCapacity = component?.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : null;
       const organization = component?.memoryRankCount && component.memoryDeviceWidthBits ? `${component.memoryRankCount}Rx${component.memoryDeviceWidthBits}` : '';
@@ -240,6 +244,9 @@ export default function ProductArt({ category, brand, className, component, deta
             <text x="7.3" y="12.7" fontFamily="Arial,sans-serif" fontSize="1.7" fill="#34483e">{component?.memoryType}{component?.memorySpeedMTs ? `-${component.memorySpeedMTs}` : ''}{moduleKind ? ` ${moduleKind}` : ''}</text>
             {detailed && component?.manufacturerPartNumber && <text x="7.3" y="14.6" fontFamily="monospace" fontSize="1.15" fill="#44574b">{component.manufacturerPartNumber}</text>}
             {rgb && <path d="M5-1h65" stroke={paint('rgb-line')} strokeWidth="1.2" data-rgb-zone="ram-diffuser" />}
+          </> : memoryDesign ? <>
+            <path d={`M0 ${h*.24}h74v${h*.76}H0Z`} fill={pcb}/>
+            <MemoryHeatspreaderArt design={memoryDesign} height={h} body={paint('heatspreader-surface')} bodyColor={memoryShellColor ?? p?.heatspreaderColor} ink={ink} rgb={rgb} rainbow={paint('rgb')} brushed={paint('brushed')}/>
           </> : <>
             <path d="M0 0 5-5h74l-5 5Z" fill={rgb ? paint('rgb') : paint('heatspreader-surface')} stroke={rgb ? '#dbeaff' : '#84948b'} data-rgb-zone={rgb ? 'ram-diffuser' : undefined} strokeWidth=".6" />
             {rgb && <><path d="M4-1h70" stroke={paint('rgb-line')} strokeWidth="3.5" opacity=".2" /><path d="M5-3.5h69" stroke="#eef6ff" strokeWidth=".65" opacity=".85" /></>}

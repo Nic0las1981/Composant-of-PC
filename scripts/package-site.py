@@ -15,7 +15,7 @@ with ZipFile(release / 'forge-site.zip', 'w', ZIP_DEFLATED, compresslevel=9) as 
         if path.is_file():
             archive.write(path, path.relative_to(dist))
 
-source_paths = ['src', 'public', 'build', 'scripts', 'tests', 'data', 'docs', '.gitignore', 'package.json',
+source_paths = ['src', 'public', 'build', 'scripts', 'tests', 'data', 'docs', '.gitignore', '.gitattributes', 'package.json',
                 'package-lock.json', 'index.html', 'vite.config.ts', 'tsconfig.json', 'README.md', 'PRIX.md', 'MISE-EN-LIGNE.txt']
 with ZipFile(release / 'forge-sources.zip', 'w', ZIP_DEFLATED, compresslevel=9) as archive:
     for name in source_paths:

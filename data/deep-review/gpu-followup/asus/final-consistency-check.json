@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-11-10T22:06:48.341835+00:00",
+  "newAsusRecords": 28,
+  "existingAsusRecords": 305,
+  "identityComparison": [
+    "normalized MPN or manufacturer-model across complete existing GPU products",
+    "same ASUS model URL key across regional/specification/feature pages"
+  ],
+  "crossRecordIdentityOrModelUrlCollisions": [],
+  "conflictingEligibleNumericFields": [],
+  "numericComparison": "All fields in the union of every eligible source patch, including absence; dimensions, PSU recommendation and capacity are consistent in every eligible set."
+}

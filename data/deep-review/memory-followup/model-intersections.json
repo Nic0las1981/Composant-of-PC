@@ -1,0 +1,794 @@
+[
+  {
+    "id": "import-ram-6d23992cb5c3",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Argent",
+    "candidateMPNs": [
+      "F5-6000J2636G32GX2-TR5NS",
+      "F5-6000J2636H32GX2-TR5NS"
+    ],
+    "candidateProofs": {
+      "capacityGB": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": 64
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": 64
+        }
+      ],
+      "casLatency": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": 26
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": 26
+        }
+      ],
+      "heightMm": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        }
+      ],
+      "memoryEcc": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": false
+        }
+      ],
+      "memoryHeatspreader": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        }
+      ],
+      "memoryModuleFormat": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        }
+      ],
+      "memoryModuleKind": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        }
+      ],
+      "memoryProfile": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": "EXPO"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": "EXPO"
+        }
+      ],
+      "memoryRegistered": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": false
+        }
+      ],
+      "memorySpeedMTs": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": 6000
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": 6000
+        }
+      ],
+      "memorySticks": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": 2
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": 2
+        }
+      ],
+      "memoryType": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+          "value": "DDR5"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+          "value": "DDR5"
+        }
+      ],
+      "rgb": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        }
+      ]
+    },
+    "excludedFields": [
+      "memoryVoltageV"
+    ],
+    "clearTypedFields": [
+      "memoryVoltageV"
+    ]
+  },
+  {
+    "id": "import-ram-84b59f50090a",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Argent",
+    "candidateMPNs": [
+      "F5-6000J2636G16GX2-TR5NS",
+      "F5-6000J2636H16GX2-TR5NS"
+    ],
+    "candidateProofs": {
+      "capacityGB": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": 32
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": 32
+        }
+      ],
+      "casLatency": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": 26
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": 26
+        }
+      ],
+      "heightMm": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        }
+      ],
+      "memoryEcc": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": false
+        }
+      ],
+      "memoryHeatspreader": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        }
+      ],
+      "memoryModuleFormat": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        }
+      ],
+      "memoryModuleKind": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        }
+      ],
+      "memoryProfile": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": "EXPO"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": "EXPO"
+        }
+      ],
+      "memoryRegistered": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": false
+        }
+      ],
+      "memorySpeedMTs": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": 6000
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": 6000
+        }
+      ],
+      "memorySticks": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": 2
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": 2
+        }
+      ],
+      "memoryType": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+          "value": "DDR5"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+          "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+          "value": "DDR5"
+        }
+      ],
+      "rgb": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NS",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        }
+      ]
+    },
+    "excludedFields": [
+      "memoryVoltageV"
+    ],
+    "clearTypedFields": [
+      "memoryVoltageV"
+    ]
+  },
+  {
+    "id": "import-ram-c872df48c426",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Or",
+    "candidateMPNs": [
+      "F5-6000J2636G32GX2-TR5NG",
+      "F5-6000J2636H32GX2-TR5NG"
+    ],
+    "candidateProofs": {
+      "capacityGB": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": 64
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": 64
+        }
+      ],
+      "casLatency": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": 26
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": 26
+        }
+      ],
+      "heightMm": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        }
+      ],
+      "memoryEcc": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": false
+        }
+      ],
+      "memoryHeatspreader": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        }
+      ],
+      "memoryModuleFormat": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        }
+      ],
+      "memoryModuleKind": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        }
+      ],
+      "memoryProfile": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": "EXPO"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": "EXPO"
+        }
+      ],
+      "memoryRegistered": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": false
+        }
+      ],
+      "memorySpeedMTs": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": 6000
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": 6000
+        }
+      ],
+      "memorySticks": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": 2
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": 2
+        }
+      ],
+      "memoryType": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+          "value": "DDR5"
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+          "value": "DDR5"
+        }
+      ],
+      "rgb": [
+        {
+          "mpn": "F5-6000J2636G32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H32GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        }
+      ]
+    },
+    "excludedFields": [
+      "memoryVoltageV"
+    ],
+    "clearTypedFields": [
+      "memoryVoltageV"
+    ]
+  },
+  {
+    "id": "import-ram-4051ac88b91d",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Or",
+    "candidateMPNs": [
+      "F5-6000J2636G16GX2-TR5NG",
+      "F5-6000J2636H16GX2-TR5NG"
+    ],
+    "candidateProofs": {
+      "capacityGB": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": 32
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": 32
+        }
+      ],
+      "casLatency": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": 26
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": 26
+        }
+      ],
+      "heightMm": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": 44
+        }
+      ],
+      "memoryEcc": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": false
+        }
+      ],
+      "memoryHeatspreader": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+          "checkedAt": "2026-11-10T22:01:49.321Z",
+          "value": true
+        }
+      ],
+      "memoryModuleFormat": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "DIMM"
+        }
+      ],
+      "memoryModuleKind": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/faq",
+          "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+          "value": "UDIMM"
+        }
+      ],
+      "memoryProfile": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": "EXPO"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": "EXPO"
+        }
+      ],
+      "memoryRegistered": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": false
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": false
+        }
+      ],
+      "memorySpeedMTs": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": 6000
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": 6000
+        }
+      ],
+      "memorySticks": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": 2
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": 2
+        }
+      ],
+      "memoryType": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+          "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+          "value": "DDR5"
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+          "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+          "value": "DDR5"
+        }
+      ],
+      "rgb": [
+        {
+          "mpn": "F5-6000J2636G16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        },
+        {
+          "mpn": "F5-6000J2636H16GX2-TR5NG",
+          "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+          "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+          "value": true
+        }
+      ]
+    },
+    "excludedFields": [
+      "memoryVoltageV"
+    ],
+    "clearTypedFields": [
+      "memoryVoltageV"
+    ]
+  }
+]

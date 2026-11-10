@@ -1,0 +1,1039 @@
+[
+  {
+    "id": "import-gpu-b5bee89c205f",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus DUAL OC",
+      "price": 699,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2520,
+      "color": "Black",
+      "length": 280
+    },
+    "modelKey": "dual-rx7800xt-o16g",
+    "publishedModel": "DUAL-RX7800XT-O16G",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS Dual Radeon™ RX 7800 XT OC Edition 16GB GDDR6 | Graphics Card | ASUS Global - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/techspec/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "fb2f841cacdc5d625ff3638acd44328939035d12b0d14d605e4b2074d015396c",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx7800xt-o16g/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "quote": "Two tried-and-true Axial-tech fans feature a smaller hub that facilitates longer blades and a barrier ring to increase downward air pressure.",
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "53910bad5f25a83f0cd4b11d4309ffae7ebf5439039ce737d40f878745470430"
+    }
+  },
+  {
+    "id": "import-gpu-e86971fd0eb1",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus PRIME OC",
+      "price": 1129,
+      "chipset": "GeForce RTX 4070 Ti SUPER",
+      "memory": 16,
+      "core_clock": 2340,
+      "boost_clock": 2655,
+      "color": "Black",
+      "length": 300
+    },
+    "modelKey": "prime-rtx4070tis-o16g",
+    "publishedModel": "PRIME-RTX4070TIS-O16G",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS Prime GeForce RTX™ 4070 Ti SUPER OC Edition 16GB GDDR6X - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/techspec/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "fe04596b608409410485958e207d955b09b6c96420ed2c2da7a655d4719486b5",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx4070tis-o16g/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "quote": "The SFF-ready ASUS Prime GeForce RTX™ 4070 Ti SUPER OC Edition 16GB GDDR6X boasts three fans in a sleek aesthetic with Axial-tech fan design for broad PC builds compatibility.",
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "98c3e528234bc91cf78d886b9f0628c8bf669cb43c91c4fd898d41d4503ab1ba"
+    }
+  },
+  {
+    "id": "import-gpu-06e29dfac904",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus TUF GAMING",
+      "price": 2759.99,
+      "chipset": "GeForce RTX 5090",
+      "memory": 32,
+      "core_clock": 2010,
+      "boost_clock": null,
+      "color": "Black / Silver",
+      "length": 348
+    },
+    "modelKey": "tuf-rtx5090-32g-gaming",
+    "publishedModel": "ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS TUF Gaming GeForce RTX™ 5090 32GB GDDR7 - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5090-32g-gaming/techspec/",
+      "checkedAt": "2026-11-10T22:01:27.242Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-2.json",
+      "sha256": "33ee32073c468b793b34c0d8f6e3ea6acc31aedfd77a08ae4844a8f607eeb680",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-60339e06cf31",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus PRIME",
+      "price": 1264.99,
+      "chipset": "GeForce RTX 5080",
+      "memory": 16,
+      "core_clock": 2300,
+      "boost_clock": null,
+      "color": "Black / White",
+      "length": 306
+    },
+    "modelKey": "prime-rtx5080-16g",
+    "publishedModel": "PRIME-RTX5080-16G",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS Prime GeForce RTX™ 5080 16GB GDDR7 - Tech Specs",
+      "url": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/",
+      "checkedAt": "2026-11-10T22:01:27.242Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-2.json",
+      "sha256": "fffd664331ecaf27801e4af9e399b6bd938759649247374e075c725af8fa1119",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-6dce6a0514ba",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus TUF GAMING OC",
+      "price": 1189,
+      "chipset": "GeForce RTX 4070 SUPER",
+      "memory": 12,
+      "core_clock": 1980,
+      "boost_clock": 2595,
+      "color": "Black",
+      "length": 301
+    },
+    "modelKey": "tuf-rtx4070s-o12g-gaming",
+    "publishedModel": "TUF-RTX4070S-O12G-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS TUF Gaming GeForce RTX ™ 4070 SUPER 12GB GDDR6X OC Edition | Graphics Card | ASUS | Global - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/techspec/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "445ed39168d4eb0dd1ca8d953d5a0acdef18da78be5dc604de48273f581987e5",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-beaa800ac2f2",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus TUF GAMING OC V2",
+      "price": 1049,
+      "chipset": "GeForce RTX 3080 10GB LHR",
+      "memory": 10,
+      "core_clock": 1440,
+      "boost_clock": 1815,
+      "color": "Black",
+      "length": 300
+    },
+    "modelKey": "tuf-rtx3080-o10g-v2-gaming",
+    "publishedModel": "TUF Gaming GeForce RTX™ 3080 V2 OC edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/c6b797884eb06256fb33.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "8514ab3f2483cd5fe59f66d4a5c71ab516535630daccb2d55cb0e84aa7b8ffc8",
+      "bytes": 338453
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/63300bb3a73a83732054.html.gz",
+      "sha256": "665b3b7dafb055cb0f1b053ab3608a32906ccb5af2dff2e89e420c9267027bab"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3080-o10g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The TUF Gaming GeForce RTX™ 3080 has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, independent heatsinks for the GPU and memory keep thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, a new GPU bracket, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/63300bb3a73a83732054.html.gz",
+      "sha256": "665b3b7dafb055cb0f1b053ab3608a32906ccb5af2dff2e89e420c9267027bab"
+    }
+  },
+  {
+    "id": "import-gpu-cf3d20e68c58",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING OC",
+      "price": 999.99,
+      "chipset": "GeForce RTX 3080 12GB LHR",
+      "memory": 12,
+      "core_clock": 1260,
+      "boost_clock": 1890,
+      "color": "Black / Silver",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3080-o12g-gaming-model",
+    "publishedModel": "ROG Strix GeForce RTX™ 3080 OC Edition 12GB",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/335e0647e0878e5e1c6b.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "ab8740445207a92b09c33bfda48679411b44a5c29fee1a856990a323a4582d1f",
+      "bytes": 191720
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o12g-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 52 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/089f0e3dfc8d608c073e.html.gz",
+      "sha256": "01a3ed37d93d9c0c4e05a25172726a24b7e6cd4786d66c7377c2c9be8c9040a5"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-7790ed894246",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING OC V2",
+      "price": 485.17,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1890,
+      "color": "Black / Silver",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3060ti-o8g-v2-gaming-model",
+    "publishedModel": "ROG-STRIX-RTX3060TI-O8G-V2-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/2a172e41c07b06110c37.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4723f3843b557fa96b98dcd94f1753c6a794c20689252b9d302e4bf27e68dc66",
+      "bytes": 185768
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/au/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-o8g-v2-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/45afbfe72b33a02356c6.html.gz",
+      "sha256": "b117d85daf2f5438a9a66f6e13a0ada3f4034145baeb829cca0f32c79fa7a4bd"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-af963225d9ae",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus TUF GAMING OC V2",
+      "price": 698.97,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1785,
+      "color": "Black",
+      "length": 301
+    },
+    "modelKey": "tuf-rtx3060ti-o8g-v2-gaming",
+    "publishedModel": "TUF Gaming GeForce RTX™ 3060 Ti V2 OC Edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/4dff71c300bdcd128104.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "2af978dcdce6e78edf25a6cb1834ed9db86c4618b2d3a08efd9f24163e617020",
+      "bytes": 338512
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/cb675413f0012efe45b1.html.gz",
+      "sha256": "8c5e22b6e12ca7ce0dd8697804c3e689bc63908d1adc72a738138aeac8553cbf"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The TUF GAMING GeForce RTX™ 3060 Ti has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/cb675413f0012efe45b1.html.gz",
+      "sha256": "8c5e22b6e12ca7ce0dd8697804c3e689bc63908d1adc72a738138aeac8553cbf"
+    }
+  },
+  {
+    "id": "import-gpu-a032aad43c0f",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus DUAL OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3070 LHR",
+      "memory": 8,
+      "core_clock": 1500,
+      "boost_clock": 1800,
+      "color": "Black",
+      "length": 267
+    },
+    "modelKey": "dual-rtx3070-o8g-v2",
+    "publishedModel": "Dual GeForce RTX™️ 3070 V2 OC edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/ef137d4240ebc8bcf250.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "3cf6b26be04ba3731eb49476fa62d52fd7d1c8d03973080bbaa36e26f3c57e6b",
+      "bytes": 335498
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/dcd51a24e9d44208adfc.html.gz",
+      "sha256": "452f02f3d42b9bd5d63f0a418d85dba3322cb40aa73ff474bb8e523a798fe80b"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3070-o8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "ASUS Dual GeForce RTX™ 3070 V2 OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/dcd51a24e9d44208adfc.html.gz",
+      "sha256": "452f02f3d42b9bd5d63f0a418d85dba3322cb40aa73ff474bb8e523a798fe80b"
+    }
+  },
+  {
+    "id": "import-gpu-65d9330e77e1",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus TUF GAMING",
+      "price": null,
+      "chipset": "GeForce RTX 5060 Ti",
+      "memory": 16,
+      "core_clock": 2410,
+      "boost_clock": 2602,
+      "color": "Black / Silver",
+      "length": 302
+    },
+    "modelKey": "tuf-rtx5060ti-16g-gaming",
+    "publishedModel": "TUF-RTX5060TI-16G-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS TUF Gaming GeForce RTX™ 5060 Ti 16GB GDDR7 - Tech Specs",
+      "url": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/techspec/",
+      "checkedAt": "2026-11-10T22:01:27.242Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-2.json",
+      "sha256": "1a0d95f3c6ef2187b4ab185aa45adf42964b1502c0a4aa39b2cc45727083fa0d",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-459005105ffb",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus TUF GAMING OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3070 LHR",
+      "memory": 8,
+      "core_clock": 1500,
+      "boost_clock": 1845,
+      "color": "Black",
+      "length": 300
+    },
+    "modelKey": "tuf-rtx3070-o8g-v2-gaming",
+    "publishedModel": "TUF Gaming GeForce RTX™ 3070 V2 OC Edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/82f0f20a8cac9e34c65d.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "b3e4662ebf6f316bb0c583ea0ffc1fdb159c407548ca21cc305f7dd294d2d520",
+      "bytes": 338456
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/f4f32cce5f9f958b3aec.html.gz",
+      "sha256": "b5c27e7a83660a59ded03e2320191662ac584d76f63223e08d4b982e68e16f41"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3070-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The TUF GAMING GeForce RTX™ 3070 has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/f4f32cce5f9f958b3aec.html.gz",
+      "sha256": "b5c27e7a83660a59ded03e2320191662ac584d76f63223e08d4b982e68e16f41"
+    }
+  },
+  {
+    "id": "import-gpu-e16253ce77ae",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus ProArt OC",
+      "price": 1295,
+      "chipset": "GeForce RTX 4070 SUPER",
+      "memory": 12,
+      "core_clock": 1980,
+      "boost_clock": 2565,
+      "color": "Black / Gold",
+      "length": 300
+    },
+    "modelKey": "proart-rtx4070s-o12g",
+    "publishedModel": "PROART-RTX4070S-O12G",
+    "source": {
+      "brand": "ASUS",
+      "title": "ProArt GeForce RTX™ 4070 SUPER OC Edition 12GB GDDR6X - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4070s-o12g/techspec/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "bb57ddd1d0e26a3fd65360c37d2b9891bc9e7b69d2617519961b26c74c612e8c",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-bbcb1a6a46c9",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus DUAL OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1740,
+      "color": "Black / Silver",
+      "length": 269
+    },
+    "modelKey": "dual-rtx3060ti-o8g-v2",
+    "publishedModel": "Dual GeForce RTX™ 3060 Ti V2 OC Edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/b707c6e103c8d80c5281.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "71373c24604f865eb58a0109cee59b3f4076b2730fc5e52656491f35a396496b",
+      "bytes": 336403
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/c5314c10cc6bdc57f3d6.html.gz",
+      "sha256": "19caeab0da6143cdef6e8cd884d406ef38d71e662fc5c1559d1775e3f17e2b3f"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-o8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "ASUS Dual GeForce RTX™ 3060 Ti V2 OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/c5314c10cc6bdc57f3d6.html.gz",
+      "sha256": "19caeab0da6143cdef6e8cd884d406ef38d71e662fc5c1559d1775e3f17e2b3f"
+    }
+  },
+  {
+    "id": "import-gpu-7ddad1660ff3",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING OC V2",
+      "price": 1099,
+      "chipset": "GeForce RTX 3080 10GB LHR",
+      "memory": 10,
+      "core_clock": 1440,
+      "boost_clock": 1935,
+      "color": "Black",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3080-o10g-v2-gaming-model",
+    "publishedModel": "ROG-STRIX-RTX3080-O10G-V2-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/8976c6328533a0546b82.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "bcbc482ddb4b238a3e7a9e6ad31bd406943af06ec475f052545d38971ec61caa",
+      "bytes": 188701
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-v2-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/4cbd2f4cd915d4cdbaba.html.gz",
+      "sha256": "dd911cdf0e407ef897067b3d2ae6e2ccfa3a4fcb4cf747c4fa29b2f73d239c65"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-0e76b25c62b1",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus KO GAMING OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1785,
+      "color": "Silver / Black",
+      "length": 275
+    },
+    "modelKey": "ko-rtx3060ti-o8g-v2-gaming",
+    "publishedModel": "KO GeForce RTX™ 3060 Ti V2 OC Edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:18Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/72eb20fc90050cfe4d8b.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "4fa000ebf0f682e92d7717c38f0e010db472f2f88de94e4d39b9a683335f84f9",
+      "bytes": 328568
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "995143c74006a3c5b417e93b9321ef65d3a9b266b10bd471af73bd6e9c0d1139"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-o8g-v2-gaming/",
+      "checkedAt": "2026-11-10T22:00:35.890Z",
+      "quote": "ASUS KO GeForce RTX™ 30 Series GPUs host the new NVIDIA Ampere architecture with some extra shine on performance and durability. Twin fans leverage our Axial-tech design for efficient cooling at low dB levels. Enhancements such as space-grade lubricant, Auto-Extreme Technology, and enduring capacitors keep KO composed for the most demanding scenarios. And a unique shroud takes on gold and silver faceplates with fully-customizable ARGB accents.",
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-1.json",
+      "sha256": "995143c74006a3c5b417e93b9321ef65d3a9b266b10bd471af73bd6e9c0d1139"
+    }
+  },
+  {
+    "id": "import-gpu-a354d38a4460",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX WHITE OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3070 LHR",
+      "memory": 8,
+      "core_clock": 1500,
+      "boost_clock": 1935,
+      "color": "White",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3070-o8g-white-v2-model",
+    "publishedModel": "ROG-STRIX-RTX3070-O8G-WHITE-V2",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/5a845a6b38cb9f401f23.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "d8167174820bf0e217ab2bb9a6d2b42b761c6f0fa78c775b375d1138c956650b",
+      "bytes": 189486
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-white-v2-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/d8f05d1926a6aa3ac802.html.gz",
+      "sha256": "5511464fd24168fc5ef9505837f5ccac8fa536fe5e75881e7baaab5459164cf5"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-7cdd61da9379",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus DUAL MINI OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1710,
+      "color": "Black",
+      "length": 200
+    },
+    "modelKey": "dual-rtx3060ti-o8g-mini-v2",
+    "publishedModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+      "checkedAt": "2026-11-10T13:31:18Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/dc0a1f38131b367cdec4.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "8e239f048d05a514d6de7430b415e07f02fe304e0a2747b796c3e0da4ecb5954",
+      "bytes": 337823
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/18e640ecb417e0a563df.html.gz",
+      "sha256": "80921a9d07105b6a7818da148010c6b95e45ab6a8987cfed7e5a87020c70d455"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-o8g-mini-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The compact ASUS DUAL GeForce RTX™ 3060 Ti V2 MINI OC Edition 8GB GDDR6 with LHR features two powerful Axial-tech fans for small chassis including the Intel® NUC 9 Kits.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/18e640ecb417e0a563df.html.gz",
+      "sha256": "80921a9d07105b6a7818da148010c6b95e45ab6a8987cfed7e5a87020c70d455"
+    }
+  },
+  {
+    "id": "import-gpu-aa769de49395",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX WHITE OC V2",
+      "price": null,
+      "chipset": "GeForce RTX 3080 10GB LHR",
+      "memory": 10,
+      "core_clock": 1440,
+      "boost_clock": 1935,
+      "color": "White",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3080-o10g-white-v2-model",
+    "publishedModel": "ROG-STRIX-RTX3080-O10G-WHITE-V2",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/78449a13f695a81e0d98.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "fbcb93e7bc0d6d45284b72124e4a850cb71185f6fcff748a0f1654c8234715f6",
+      "bytes": 190557
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-o10g-white-v2-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/8f0366e730986ee90794.html.gz",
+      "sha256": "2028cad2fe7f674ead58dcf26cf3379083772086cfbf18798e92feb46d6e13d5"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-cb7bb9298707",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING OC V2",
+      "price": 995,
+      "chipset": "GeForce RTX 3070 LHR",
+      "memory": 8,
+      "core_clock": 1500,
+      "boost_clock": 1935,
+      "color": "Black / Silver",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3070-o8g-v2-gaming-model",
+    "publishedModel": "ROG-STRIX-RTX3070-O8G-V2-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/ede6bba11d53ff189e61.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6feb2b5d2e19b6015502a25f33873c100ab01e42aa4f184405672fb1e168d7e6",
+      "bytes": 188168
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-v2-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/8f67201f7ec69fd9b2a7.html.gz",
+      "sha256": "65f1b97ebb2531fc31eb386c52bd11f525338246d672b6f405ce6a2efd98f93d"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-95390e78abf0",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus DUAL MINI V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1695,
+      "color": "Black",
+      "length": 200
+    },
+    "modelKey": "dual-rtx3060ti-8g-mini-v2",
+    "publishedModel": "DUAL GeForce RTX™ 3060 Ti V2 MINI",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+      "checkedAt": "2026-11-10T13:31:18Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/0f080b7a23c2bc0ec208.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "bd215fc65efb8ae34acaa31a9f74b9f143eab74c944e307528cb0c199156633a",
+      "bytes": 333100
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/1ce05490ae8e4fb1ff73.html.gz",
+      "sha256": "9cc11afdacb2a422854f3d013e7887ddaedbb911fac52b4fdb6c109edeb1d405"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual-mini/dual-rtx3060ti-8g-mini-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The compact ASUS DUAL GeForce RTX™ 3060 Ti V2 MINI 8GB GDDR6 with LHR features two powerful Axial-tech fans for small chassis including the Intel® NUC 9 Kits.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/1ce05490ae8e4fb1ff73.html.gz",
+      "sha256": "9cc11afdacb2a422854f3d013e7887ddaedbb911fac52b4fdb6c109edeb1d405"
+    }
+  },
+  {
+    "id": "import-gpu-e9050c393b46",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING V2",
+      "price": null,
+      "chipset": "GeForce RTX 3080 10GB LHR",
+      "memory": 10,
+      "core_clock": 1440,
+      "boost_clock": 1740,
+      "color": "Black",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3080-10g-v2-gaming-model",
+    "publishedModel": "ROG-STRIX-RTX3080-10G-V2-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/652d4bdd0ceaa55ba5b2.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4b5ff836beae5bd37f0e9ac23a8e10945b54b222ab7f90eb4427672150f4a695",
+      "bytes": 188914
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3080-10g-v2-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3080 graphics card with LHR (lite hash rate) delivers 43 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/874d0ece5897d5035432.html.gz",
+      "sha256": "d64df7713618e80cc0e934a632bec02ed0e7f76b824bbf9b8710d23567c9eed3"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-abc748277d4f",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus TUF GAMING V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1695,
+      "color": "Black",
+      "length": 301
+    },
+    "modelKey": "tuf-rtx3060ti-8g-v2-gaming",
+    "publishedModel": "TUF Gaming GeForce RTX™ 3060 Ti V2",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/e8aae801ac809301b596.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "99773327edf831ed911ec7b8e9263feb01ef318566c06da9a8fed0e727dc1f3e",
+      "bytes": 335208
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/bde9cea59428e52203fa.html.gz",
+      "sha256": "ba1bd599cbedcc142c6dbfca12b6df6dd31321e88505270832280d6718c3d97a"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx3060ti-8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The TUF GAMING GeForce RTX™ 3060 Ti has been stripped down and built back up to provide more robust power and cooling. A new all-metal shroud houses three powerful axial-tech fans that utilize durable dual ball fan bearings. Fan rotation has been optimized for reduced turbulence, and a stop mode brings all three fans to a halt at low temps. Beneath, a thick heatsink keeps thermals under tight control. Additional features, including TUF components, Auto-Extreme Technology, and a backplate vent make the TUF a proper powerhouse. For builders looking for a new “old faithful”, this card has your back.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/bde9cea59428e52203fa.html.gz",
+      "sha256": "ba1bd599cbedcc142c6dbfca12b6df6dd31321e88505270832280d6718c3d97a"
+    }
+  },
+  {
+    "id": "import-gpu-2c018702802b",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus Noctua",
+      "price": null,
+      "chipset": "GeForce RTX 3070 LHR",
+      "memory": 8,
+      "core_clock": 1500,
+      "boost_clock": 1755,
+      "color": "Brown / Black",
+      "length": 310
+    },
+    "modelKey": "rtx3070-8g-noctua",
+    "publishedModel": "ASUS GeForce RTX 3070 Noctua Edition 8GB GDDR6",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+      "checkedAt": "2026-11-10T13:31:18Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/28c95eae4b873a1cb7ec.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "722353860514cbf5e69fef33d1b372d3e37edab655f96206a477552086cd7dfb",
+      "bytes": 330882
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3070 graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/7b5b23f72f6a0fe96c3e.html.gz",
+      "sha256": "e6759fa5d0c13b6bafde75ee08124c3132c90b501c8ae3273dedbd4590d3eee7"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx3070-8g-noctua/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "The two Noctua NF-A12x25 120mm fans integrate a low-resonance Sterrox® liquid-crystal polymer (LCP) fan impeller, metal-reinforced motor hub, stabilized bearings, and custom low-noise PWM controller to deliver performance you can rely on day in, day out.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/7b5b23f72f6a0fe96c3e.html.gz",
+      "sha256": "e6759fa5d0c13b6bafde75ee08124c3132c90b501c8ae3273dedbd4590d3eee7",
+      "fanSizeMm": 120
+    }
+  },
+  {
+    "id": "import-gpu-7ec89158a343",
+    "method": "exact_model_capacity_variant",
+    "original": {
+      "name": "Asus LP BRK",
+      "price": null,
+      "chipset": "GeForce RTX 4060",
+      "memory": 8,
+      "core_clock": 1830,
+      "boost_clock": 2490,
+      "color": "Black",
+      "length": 188
+    },
+    "modelKey": "rtx4060-8g-lp-brk",
+    "publishedModel": "RTX4060-8G-LP-BRK",
+    "source": {
+      "brand": "ASUS",
+      "title": "ASUS GeForce RTX™ 4060 LP BRK 8GB GDDR6 - Tech Specs",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/asus/rtx4060-8g-lp-brk/techspec/",
+      "checkedAt": "2026-11-10T22:01:27.242Z",
+      "status": 200,
+      "contentFile": "data/deep-review/gpu-followup/asus/sources/exa-batch-2.json",
+      "sha256": "842d25f50ce86b8cb8419c8df2309ae6931e7927229ac282b797340ff7c7be3d",
+      "digestScope": "exa-full-document-text"
+    },
+    "lhrProof": null,
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-93393f2258fe",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus DUAL V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1695,
+      "color": "Black / Silver",
+      "length": 269
+    },
+    "modelKey": "dual-rtx3060ti-8g-v2",
+    "publishedModel": "Dual GeForce RTX™ 3060 Ti V2",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+      "checkedAt": "2026-11-10T13:31:17Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/741d2a3278801fe465f2.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "83b98a799f4561d0e2a45e662f50e9c82ca824f651bc40063fb21a9970cf4adc",
+      "bytes": 333381
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/6795218be1e556f255d1.html.gz",
+      "sha256": "280cfabf0353ba1182a15f700744d9550922fbc80e0c14526d4c197238efa50f"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060ti-8g-v2/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "ASUS Dual GeForce RTX™ 3060 Ti V2 8GB GDDR6 with LHR features two powerful Axial-tech fans for AAA gaming performance and ray tracing.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/6795218be1e556f255d1.html.gz",
+      "sha256": "280cfabf0353ba1182a15f700744d9550922fbc80e0c14526d4c197238efa50f"
+    }
+  },
+  {
+    "id": "import-gpu-69592a8a7f99",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus ROG STRIX GAMING V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1695,
+      "color": "Black",
+      "length": 318
+    },
+    "modelKey": "rog-strix-rtx3060ti-8g-v2-gaming-model",
+    "publishedModel": "ROG-STRIX-RTX3060TI-8G-V2-GAMING",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+      "checkedAt": "2026-11-10T15:24:12Z",
+      "requestedURL": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/spec/",
+      "contentFile": "data/deep-review/gpu/sources/728912011d0cab3340d9.html.gz",
+      "contentTruncated": false,
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "32cd837345ebef292ba3cf55e879e46a8170f77a662bf7b4b3a6f4b2cdc9bf9e",
+      "bytes": 186523
+    },
+    "lhrProof": {
+      "url": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3060ti-8g-v2-gaming-model/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/ea8c6fa3b24c1dc46f0d.html.gz",
+      "sha256": "e508f81e5c44d9c5f810c39336e05ae720682c1a17bb9bf3d895a1b4d30d76c0"
+    },
+    "fanProof": null
+  },
+  {
+    "id": "import-gpu-513ee5ddd935",
+    "method": "exact_model_capacity_variant_and_explicit_LHR",
+    "original": {
+      "name": "Asus KO GAMING V2",
+      "price": null,
+      "chipset": "GeForce RTX 3060 Ti LHR",
+      "memory": 8,
+      "core_clock": 1410,
+      "boost_clock": 1695,
+      "color": "Silver / Black",
+      "length": 275
+    },
+    "modelKey": "ko-rtx3060ti-8g-v2-gaming",
+    "publishedModel": "KO GeForce RTX™ 3060 Ti V2",
+    "source": {
+      "brand": "ASUS",
+      "kind": "product",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+      "checkedAt": "2026-11-10T13:31:18Z",
+      "requestedURL": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/techspec/",
+      "contentFile": "data/deep-review/gpu/sources/d1274624728ed1f4e4ef.html.gz",
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "118c302f45db6179e8cb9c4727dde63e003ca7c509fe1a33df4adc3e3876ba9a",
+      "bytes": 327304
+    },
+    "lhrProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "This GeForce RTX 3060 Ti graphics card with LHR (lite hash rate) delivers 25 MH/s ETH hash rate (est.).",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/95e3bb2d0e81f4ccd8c3.html.gz",
+      "sha256": "88e71afae48e06bdbeec8f1dd79493a403e6e8f8eaea1568e31ff90b9ed05b35"
+    },
+    "fanProof": {
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/ko/ko-rtx3060ti-8g-v2-gaming/",
+      "checkedAt": "2026-11-10T15:51:10Z",
+      "quote": "ASUS KO GeForce RTX™ 30 Series GPUs host the new NVIDIA Ampere architecture with some extra shine on performance and durability. Twin fans leverage our Axial-tech design for efficient cooling at low dB levels. Enhancements such as space-grade lubricant, Auto-Extreme Technology, and enduring capacitors keep KO composed for the most demanding scenarios. And a unique shroud takes on gold and silver faceplates with fully-customizable ARGB accents.",
+      "contentFile": "data/deep-review/gpu/board-brands/sources/95e3bb2d0e81f4ccd8c3.html.gz",
+      "sha256": "88e71afae48e06bdbeec8f1dd79493a403e6e8f8eaea1568e31ff90b9ed05b35"
+    }
+  }
+]

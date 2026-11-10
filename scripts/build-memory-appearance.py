@@ -1,0 +1,81 @@
+"""Map individually inspected manufacturer images to reconstructed silhouettes.
+
+No substring matching is performed at runtime. Each eligible MPN is independently
+linked to the reviewed image by its manufacturer's page in the existing evidence.
+These controls describe appearance, never mechanical specifications or CAD.
+"""
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / 'data/deep-review/memory-storage'
+OUT = ROOT / 'data/deep-review/visual/memory-silhouettes'
+OUT.mkdir(parents=True, exist_ok=True)
+groups = {
+    'gskill': [(range(59, 76), 'trident-z5')],
+    'corsair': [
+        (range(1, 9), 'dominator-platinum-rgb'),
+        (range(23, 41), 'vengeance-lpx'),
+        ([12, 41, 42, *range(47, 53)], 'vengeance-ddr5-rgb'),
+    ],
+    'kingston': [
+        ([24, 25], 'fury-beast-ddr4'),
+        ([26, 27], 'fury-beast-ddr5'),
+        ([28], 'fury-beast-rgb'),
+        ([29, 30, 31, 34, 35, 36], 'fury-renegade-ddr4'),
+        ([32, 33, 37, 38, 39], 'fury-renegade-ddr5'),
+    ],
+}
+notes = {
+    'trident-z5': 'Sommet asymétrique incurvé ; large bande noire centrale ; panneau supérieur relevé à droite et panneau inférieur incurvé. RGB limité à la portion découverte du sommet selon la variante.',
+    'dominator-platinum-rgb': 'Coiffe rectangulaire à épaules biseautées, fenêtres lumineuses séparées, flanc uni et fixations latérales. Les anciennes éditions Platinum non RGB sont exclues.',
+    'vengeance-lpx': 'Dissipateur bas, rainures verticales et sommet crénelé ; cartouche central noir avec inscription jaune. Pas de diffuseur lumineux.',
+    'vengeance-ddr5-rgb': 'Diffuseur continu, épaules arrondies, grand panneau central trapézoïdal sombre et textures triangulaires latérales. Éditions graphiques spéciales exclues.',
+    'fury-beast-ddr4': 'Dissipateur bas et asymétrique, ruptures de hauteur, nervures obliques sur la partie droite.',
+    'fury-beast-ddr5': 'Profil bas, encoches supérieures, groupe de nervures obliques et marquages Fury/Beast séparés.',
+    'fury-beast-rgb': 'Diffuseur supérieur continu, panneau central trapézoïdal avec marquage Fury et côtés anguleux.',
+    'fury-renegade-ddr4': 'Grand panneau central argent en trapèze, extrémités noires et coiffe segmentée. Version RGB distinguée par la donnée vérifiée de chaque référence.',
+    'fury-renegade-ddr5': 'Plaque argent/blanche anguleuse, découpes sombres obliques symétriques, cartouche central Fury, diffuseur en forme de selle pour la variante RGB.',
+}
+assignments, colors, proofs = {}, {}, []
+for brand, ranges in groups.items():
+    rows = json.loads((DATA / f'visual-finish-reviews-{brand}.json').read_text())
+    for indexes, design in ranges:
+        for index in indexes:
+            row = rows[index - 1]
+            assert row['sheetIndex'] == index and row['visuallyInspected']
+            observed = [c.lower() for c in row['observedBodyColors']]
+            # For Trident Z5, the black central band is separate from the large
+            # silver/white shell. Preserve that two-tone construction regardless
+            # of the order of colour words in the old archive's title.
+            if design == 'trident-z5':
+                finish = next((c for c in ['white', 'silver', 'black'] if c in observed), 'black')
+            elif design.startswith('fury-renegade'):
+                finish = 'white' if 'white' in observed else 'black'
+            else:
+                finish = next((c for c in ['white', 'red', 'blue', 'gray', 'grey', 'silver', 'black'] if c in observed), 'black')
+            color = {'white':'#efefed','silver':'#bfc5c8','black':'#242528','red':'#b52c31','blue':'#1692b3','gray':'#65636b','grey':'#65636b'}[finish]
+            for mpn in row['linkedMPNs']:
+                assert mpn not in assignments or assignments[mpn] == design
+                assignments[mpn] = design
+                colors[mpn] = color
+            proofs.append({
+                'design': design, 'imageSHA256': row['sha256'],
+                'representativeMPN': row['representativeMPN'],
+                'linkedMPNs': row['linkedMPNs'], 'observation': notes[design],
+                'sourceReview': f'data/deep-review/memory-storage/visual-finish-reviews-{brand}.json',
+                'sheetIndex': index,
+                'observedBodyColors': row['observedBodyColors'], 'reconstructedShellColor': color,
+            })
+manifest = {'reviewedAt': datetime.now(timezone.utc).isoformat(),
+            'kind': 'photograph-based-reconstruction', 'notManufacturerCAD': True,
+            'referenceCount': len(assignments), 'imageCount': len(proofs), 'proofs': proofs}
+(OUT / 'inspected-shapes.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+by_design = {design: sorted(mpn for mpn, d in assignments.items() if d == design) for design in notes}
+target = ROOT / 'src/data/memoryAppearanceAssignments.ts'
+target.write_text('// Generated by scripts/build-memory-appearance.py; exact reviewed MPNs only.\n'
+                  'export const memoryAppearanceAssignments = ' + json.dumps(by_design, indent=2) + ' as const;\n'
+                  'export const memoryAppearanceColors: Readonly<Record<string,string>> = ' + json.dumps(colors, indent=2) + ';\n')
+print(json.dumps({'references': len(assignments), 'reviewedImages': len(proofs),
+                  'designs': {d: len(mpns) for d, mpns in by_design.items()}}))

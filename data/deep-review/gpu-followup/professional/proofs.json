@@ -1,0 +1,58 @@
+[
+  {
+    "id": "import-gpu-72e143943502",
+    "mpn": "VCNRTX2000ADA-PB",
+    "archive": {
+      "name": "PNY VCNRTX2000ADA-PB",
+      "price": 705.93,
+      "chipset": "RTX 2000 Ada Generation",
+      "memory": 16,
+      "core_clock": 1620,
+      "boost_clock": 2130,
+      "color": null,
+      "length": 168
+    },
+    "model": "NVIDIA RTX 2000 Ada Generation",
+    "source": {
+      "brand": "PNY",
+      "title": "PNY | NVIDIA RTX 2000 Ada Generation",
+      "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+      "requestedURL": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-2000-ada-datasheet.pdf",
+      "checkedAt": "2026-11-10T15:43:36.385Z",
+      "status": 200,
+      "kind": "manufacturer-brochure",
+      "sha256": "110a4bdf06a1e3ce7840994a98f534585c3c7f2bf19258b84fd543942247a7fe",
+      "digestScope": "exa-full-document-text",
+      "contentFile": "data/deep-review/gpu/secondary/sources/pny-batch-17.json"
+    },
+    "exactMpnPrinted": true
+  },
+  {
+    "id": "import-gpu-f87d2f2d81ba",
+    "mpn": "VCNRTX4000ADALP-PB",
+    "archive": {
+      "name": "PNY VCNRTX4000ADALP-PB",
+      "price": 1299,
+      "chipset": "RTX 4000 SFF Ada Generation",
+      "memory": 20,
+      "core_clock": 1290,
+      "boost_clock": 1565,
+      "color": "Black",
+      "length": 168
+    },
+    "model": "NVIDIA RTX 4000 SFF Ada Generation",
+    "source": {
+      "brand": "PNY",
+      "title": "NVIDIA RTX 4000 SFF Ada Generation",
+      "url": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+      "requestedURL": "https://www.pny.com/nvidia-rtx-4000-sff-ada-generation",
+      "checkedAt": "2026-11-10T15:43:38.029Z",
+      "status": 200,
+      "kind": "manufacturer-product",
+      "sha256": "199e9d75f392f717762aea720ed3bec5962a270aa2598ed33de6fbddbaeebdce",
+      "digestScope": "exa-full-document-text",
+      "contentFile": "data/deep-review/gpu/secondary/sources/pny-batch-21.json"
+    },
+    "exactMpnPrinted": true
+  }
+]

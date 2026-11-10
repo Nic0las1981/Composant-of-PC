@@ -1,0 +1,697 @@
+[
+  {
+    "id": "gpu-4060",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "gpu-4060ti",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-76ed1ccd54e6",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-ceca3bb8fa97",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-7de0ce707230",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce® GTX 1650 VENTUS XS 4G OC",
+        "reason": "archived_length_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-VENTUS-XS-4G-OC/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-990031787647",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660ventusxs6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-2b708ab879d6",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-904e78783597",
+    "state": "archive_finish_collision",
+    "matchingModels": [
+      "geforcegtx1660supergamingx"
+    ],
+    "rejectedConflicts": [],
+    "collidingIDs": [
+      "import-gpu-bdeffb836c6c",
+      "import-gpu-904e78783597"
+    ]
+  },
+  {
+    "id": "import-gpu-e14a7b1ca7e4",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-8c108dc626e7",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660tiventusxs6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-e1590e2e8a18",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4070tisuper16ggamingxslimwhite"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-60324f61ac85",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-65ebfbcda9a7",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4070tisuper16gventus2xwhiteoc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-ae832418723f",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060gamingz6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-7ed55ad6a2f0",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-496288849617",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4070super12gventus2xwhiteoc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-bf25d5897c11",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660tiarmor6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-846c87cee789",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2070 ARMOR 8G",
+        "reason": "archived_length_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-cab45c60f6f3",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4080super16ggamingxslimwhite"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-da9eb741e7ef",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660gamingx6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-da53fff377be",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4060tigamingxslimwhite16g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-4d9f9bd49979",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1650gamingx4g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-a56ec8f32cb9",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-95bfee6b2d16",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660armor6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-c8fa60a9d0a8",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-b31969ff8de5",
+    "state": "archive_finish_collision",
+    "matchingModels": [
+      "geforcertx3070gamingztrio8glhr"
+    ],
+    "rejectedConflicts": [],
+    "collidingIDs": [
+      "import-gpu-b31969ff8de5",
+      "import-gpu-e866b8cdd21c"
+    ]
+  },
+  {
+    "id": "import-gpu-547a414f04ee",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060ventusxs6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-3e4e14ba87ab",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-cc1303f6881a",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcegtx1660tiventusxs6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-9b4f5fb00ef8",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcertx4070tigamingxtriowhite12g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-957021b85407",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-b70e2fe00129",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060gaming6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-31272933c601",
+    "state": "quarantined_identity_not_promoted",
+    "matchingModels": [
+      "geforcegtx1660superaeroitxoc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-362c1b06b5cf",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-5b5e6862d333",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2080 DUKE 8G",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-DUKE-8G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b764cc888e87",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-de4a29898587",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-271aa40537a3",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060ventus6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-227b8f91e6f1",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2070 DUKE 8G",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-DUKE-8G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-bdb1236e0cc0",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce® GTX 1660 Ti GAMING 6G",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-GAMING-6G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2973fdf447d9",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-dca48b9d23e3",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060superaeroitx"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-48a369117b9d",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080ventus8goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-b4ce57b313d1",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2080 Ti DUKE 11G",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-DUKE-11G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-de4c76e01054",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tiseahawkx"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-d233c9e7fe26",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tigamingtrio"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-03dc23fb4f1c",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tiventusgp"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-2fc8ccb12ca3",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080supergamingtrio"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-9b44184e696d",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2070aero8g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-6df5933f71fe",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060ventus6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-72bc0c80dafb",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-23eec580c888",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-08c87343919c",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060superarmoroc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-d959186950d8",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2070supergamingtrio"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-333300e83587",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2070armor8gocv1"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-f303209cbe23",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tilightningz"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-57c4b714fcd7",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080superaero"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-6beb436592d1",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-6609c5f1fb77",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080aero8g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-f1be0011436c",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2070 GAMING X 8G",
+        "reason": "archived_length_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-GAMING-X-8G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-1431759825c1",
+    "state": "archive_finish_collision",
+    "matchingModels": [
+      "radeonrx5700xt8g"
+    ],
+    "rejectedConflicts": [],
+    "collidingIDs": [
+      "import-gpu-603b61d44f06",
+      "import-gpu-1431759825c1"
+    ]
+  },
+  {
+    "id": "import-gpu-cdbb78c8553c",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660tiaeroitx6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-fe40dc5a33b9",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2070 GAMING 8G",
+        "reason": "archived_length_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-GAMING-8G/Specification"
+      },
+      {
+        "model": "GeForce RTX™ 2070 GAMING 8G",
+        "reason": "archived_length_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-GAMING-8G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-6bfb68924401",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1650aeroitx4goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-e866b8cdd21c",
+    "state": "archive_finish_collision",
+    "matchingModels": [
+      "geforcertx3070gamingztrio8glhr"
+    ],
+    "rejectedConflicts": [],
+    "collidingIDs": [
+      "import-gpu-b31969ff8de5",
+      "import-gpu-e866b8cdd21c"
+    ]
+  },
+  {
+    "id": "import-gpu-3fc430cf8664",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2080 GAMING TRIO",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-GAMING-TRIO/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-57608a23dba8",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2070aeroitx8g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-7e61075a2740",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080seahawkx"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-97e96c16c87d",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tiventus11g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-8f07d515b6e9",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce® GTX 1660 Ti ARMOR 6G",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-7ab79ceecff1",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": [
+      {
+        "model": "GeForce RTX™ 2070 DUKE 8G OC",
+        "reason": "archived_boost_conflict",
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-DUKE-8G-OC/Specification"
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-58f6a0b81c2a",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-8ff03ee35e3b",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080superseahawkx"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-fea4b6f01850",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-a38d04232e29",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx5070ti16gventus3x"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-d85ee557923d",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060aeroitx6goc"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-a1fa91ae2983",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080superventus"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-f9e2f59cdd88",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-d41bb5dbed89",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060aeroitx6g"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-a9cb124e49b7",
+    "state": "followup_required",
+    "matchingModels": [],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-6b16abb0754a",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2060superarmor"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-12abbc728ffa",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcertx2080tilightning"
+    ],
+    "rejectedConflicts": []
+  },
+  {
+    "id": "import-gpu-c99ceafac1c2",
+    "state": "archive_finish_collision",
+    "matchingModels": [
+      "radeonrx57008g"
+    ],
+    "rejectedConflicts": [],
+    "collidingIDs": [
+      "import-gpu-0420c88e30fd",
+      "import-gpu-c99ceafac1c2"
+    ]
+  },
+  {
+    "id": "import-gpu-c8de880000e8",
+    "state": "primary_identity_and_specs",
+    "matchingModels": [
+      "geforcegtx1660tiaeroitx6g"
+    ],
+    "rejectedConflicts": []
+  }
+]

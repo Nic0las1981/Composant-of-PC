@@ -8697,7 +8697,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-8fcff64e6054": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMW64GX4M4E3200C16/Gallery/Vengeance_RGB_Pro_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMW64GX4M4E3200C16/Gallery/Vengeance_RGB_Pro_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmw64gx4m4e3200c16/vengeancea-rgb-pro-64gb-4-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-a-black-cmw64gx4m4e3200c16",
     "mpn": "CMW64GX4M4E3200C16",
     "inspection": "visually-inspected"
@@ -8763,7 +8763,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-c05c36505eca": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/vengeance-rgb-ddr5-wht-config/Gallery/Vengeance-RGB-DDR5-2UP-WHITE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/vengeance-rgb-ddr5-wht-config/Gallery/Vengeance-RGB-DDR5-2UP-WHITE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh32gx5m2e6000c36w/vengeance-rgb-32gb-2x16gb-ddr5-dram-6000mts-cl36-memory-kit-white-cmh32gx5m2e6000c36w",
     "mpn": "CMH32GX5M2B5200C40W",
     "inspection": "visually-inspected"
@@ -8937,7 +8937,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-bf43243c4318": {
-    "imageURL": "https://assets.corsair.com/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/vengeance-rgb-ddr5-config/black/2up/Vengeance-RGB-DDR5-2UP-BLACK_01.png",
+    "imageURL": "https://assets.corsair.com/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/vengeance-rgb-ddr5-config/black/2up/Vengeance-RGB-DDR5-2UP-BLACK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh64gx5m2d6000c40/vengeance-rgb-64gb-2x32gb-ddr5-dram-6000mt-s-cl40-memory-kit-black-cmh64gx5m2d6000c40",
     "mpn": "CMH64GX5M2D6000C40",
     "inspection": "visually-inspected"
@@ -9141,13 +9141,13 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-abee37a0b8aa": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/vengeance-rgb-ddr5-blk-config/Gallery/2up/VENGEANCE_RGB_DDR5_BLK_01.webp",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/vengeance-rgb-ddr5-blk-config/Gallery/2up/VENGEANCE_RGB_DDR5_BLK_01.webp",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh32gx5m2e6000c36w/vengeance-rgb-32gb-2x16gb-ddr5-dram-6000mts-cl36-memory-kit-white-cmh32gx5m2e6000c36w",
     "mpn": "CMH48GX5M2E6000C36",
     "inspection": "visually-inspected"
   },
   "import-ram-5ddca2650b9b": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMN16GX4M2Z3200C16W/Gallery/VENGEANCE_RGB_RT_WHITE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMN16GX4M2Z3200C16W/Gallery/VENGEANCE_RGB_RT_WHITE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmn16gx4m2z3200c16w/vengeancea-rgb-rt-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-a-white-cmn16gx4m2z3200c16w",
     "mpn": "CMN16GX4M2Z3200C16W",
     "inspection": "visually-inspected"
@@ -9213,7 +9213,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-4a707979fbc9": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK32GX4M2E3200C16W/-CMK32GX4M2B3200C16W-Gallery-VENG-LPX-WHT-00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK32GX4M2E3200C16W/-CMK32GX4M2B3200C16W-Gallery-VENG-LPX-WHT-00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk32gx4m2e3200c16w/vengeancea-lpx-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-white-cmk32gx4m2e3200c16w",
     "mpn": "CMK32GX4M2E3200C16W",
     "inspection": "visually-inspected"
@@ -9405,7 +9405,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-45c20ed15154": {
-    "imageURL": "https://assets.corsair.com/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/vengeance-rgb-ddr5-config/black/2up/Vengeance-RGB-DDR5-2UP-BLACK_01.png",
+    "imageURL": "https://assets.corsair.com/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/vengeance-rgb-ddr5-config/black/2up/Vengeance-RGB-DDR5-2UP-BLACK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh32gx5m2e6200c36/vengeance-rgb-32gb-2x16gb-ddr5-dram-6200mt-s-c36-memory-kit-black-cmh32gx5m2e6200c36",
     "mpn": "CMH32GX5M2X7000C36",
     "inspection": "visually-inspected"
@@ -9435,7 +9435,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-e88a8ce9ba5d": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/vengeance-rgb-ddr5-wht-config/Gallery/Vengeance-RGB-DDR5-2UP-WHITE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/vengeance-rgb-ddr5-wht-config/Gallery/Vengeance-RGB-DDR5-2UP-WHITE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh32gx5m2e6200c36/vengeance-rgb-32gb-2x16gb-ddr5-dram-6200mt-s-c36-memory-kit-black-cmh32gx5m2e6200c36",
     "mpn": "CMH32GX5M2B5600C36WK",
     "inspection": "visually-inspected"
@@ -9453,7 +9453,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-f5f5a8bd0bea": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMT64GX4M4E3200C16/Gallery/DOMINATOR_PLAT_RGB_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMT64GX4M4E3200C16/Gallery/DOMINATOR_PLAT_RGB_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmt16gx4m2c3200c16/dominatora-platinum-rgb-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-cmt16gx4m2c3200c16",
     "mpn": "CMT64GX4M4E3200C16",
     "inspection": "visually-inspected"
@@ -9807,7 +9807,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-2c41762bd8e6": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK16GX4M2B3000C15B/Gallery/VENG_LPX_BLU_00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK16GX4M2B3000C15B/Gallery/VENG_LPX_BLU_00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk16gx4m2b3000c15b/vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-3000mhz-c15-memory-kit-blue-cmk16gx4m2b3000c15b",
     "mpn": "CMK16GX4M2B3000C15B",
     "inspection": "visually-inspected"
@@ -9867,13 +9867,13 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-6f9938098610": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK8GX4M1A2400C16R/Gallery/VENG_LPX_RED_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK8GX4M1A2400C16R/Gallery/VENG_LPX_RED_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk8gx4m1a2400c16r/vengeancea-lpx-8gb-1-x-8gb-ddr4-dram-2400mhz-c16-memory-kit-red-cmk8gx4m1a2400c16r",
     "mpn": "CMK8GX4M1A2400C16R",
     "inspection": "visually-inspected"
   },
   "import-ram-5db14cf1fd17": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK16GX4M2B3000C15W/Gallery/VENG_LPX_WHT_00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK16GX4M2B3000C15W/Gallery/VENG_LPX_WHT_00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk16gx4m2b3000c15w/vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-3000mhz-c15-memory-kit-white-cmk16gx4m2b3000c15w",
     "mpn": "CMK16GX4M2B3000C15W",
     "inspection": "visually-inspected"
@@ -9969,7 +9969,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-7440737ff57a": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMH32GX4M4E3200C16/Gallery/VENGEANCE_RGB_PRO_SL_BLACK_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMH32GX4M4E3200C16/Gallery/VENGEANCE_RGB_PRO_SL_BLACK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmh16gx4m2e3200c16/vengeance-rgb-pro-sl-16gb-2x8gb-ddr4-dram-3200mhz-c16-memory-kit-a-black-cmh16gx4m2e3200c16",
     "mpn": "CMH32GX4M4E3200C16",
     "inspection": "visually-inspected"
@@ -10041,13 +10041,13 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-14385e6998c7": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMT16GX4M2K4000C19W/Gallery/DOMINATOR_PLAT_RGB_WHITE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMT16GX4M2K4000C19W/Gallery/DOMINATOR_PLAT_RGB_WHITE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmt16gx4m2k4000c19w/dominatora-platinum-rgb-16gb-2-x-8gb-ddr4-dram-4000mhz-c19-memory-kit-a-white-cmt16gx4m2k4000c19w",
     "mpn": "CMT16GX4M2K4000C19W",
     "inspection": "visually-inspected"
   },
   "import-ram-178db48e2c3b": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK32GX4M2A2666C16R/Gallery/VENG_LPX_RED_00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK32GX4M2A2666C16R/Gallery/VENG_LPX_RED_00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk32gx4m2a2666c16r/vengeancea-lpx-32gb-2-x-16gb-ddr4-dram-2666mhz-c16-memory-kit-red-cmk32gx4m2a2666c16r",
     "mpn": "CMK32GX4M2A2666C16R",
     "inspection": "visually-inspected"
@@ -10065,7 +10065,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-b0751d2e43ca": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMN16GX4M2Z3200C16/Gallery/VENGEANCE_RGB_RT_GUNMETAL_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMN16GX4M2Z3200C16/Gallery/VENGEANCE_RGB_RT_GUNMETAL_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmn16gx4m2z3200c16/vengeancea-rgb-rt-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-a-black-cmn16gx4m2z3200c16",
     "mpn": "CMN16GX4M2Z3200C16",
     "inspection": "visually-inspected"
@@ -10221,7 +10221,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-0397375947eb": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK16GX4M2A2666C16R/Gallery/VENG_LPX_RED_00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK16GX4M2A2666C16R/Gallery/VENG_LPX_RED_00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk16gx4m2a2666c16r/vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-2666mhz-c16-memory-kit-red-cmk16gx4m2a2666c16r",
     "mpn": "CMK16GX4M2A2666C16R",
     "inspection": "visually-inspected"
@@ -10239,7 +10239,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-927cd39c8e7e": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK16GX4M1E3200C16/Gallery/VENG_LPX_BLK_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK16GX4M1E3200C16/Gallery/VENG_LPX_BLK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk16gx4m1e3200c16/vengeancea-lpx-16gb-1-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk16gx4m1e3200c16",
     "mpn": "CMK16GX4M1E3200C16",
     "inspection": "visually-inspected"
@@ -10251,7 +10251,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-4da8919a5f45": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMD32GX4M4C3200C16-ROG/Gallery/DOM_ROG_001.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMD32GX4M4C3200C16-ROG/Gallery/DOM_ROG_001.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmd32gx4m4c3200c16-rog/dominatora-platinum-rog-edition-32gb-4-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-cmd32gx4m4c3200c16-rog",
     "mpn": "CMD32GX4M4C3200C16-ROG",
     "inspection": "visually-inspected"
@@ -10293,13 +10293,13 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-b0fa405f3e81": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMU16GX4M2C3200C16R/Gallery/Veng_LED_BLK-RED_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMU16GX4M2C3200C16R/Gallery/Veng_LED_BLK-RED_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmu16gx4m2c3200c16r/vengeancea-led-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-red-led-cmu16gx4m2c3200c16r",
     "mpn": "CMU16GX4M2C3200C16R",
     "inspection": "visually-inspected"
   },
   "import-ram-96f3be0e88a5": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMU16GX4M2A2666C16/Gallery/Veng_LED_BLK_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMU16GX4M2A2666C16/Gallery/Veng_LED_BLK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmu16gx4m2a2666c16/vengeancea-led-16gb-2-x-8gb-ddr4-dram-2666mhz-c16-memory-kit-white-led-cmu16gx4m2a2666c16",
     "mpn": "CMU16GX4M2A2666C16",
     "inspection": "visually-inspected"
@@ -10323,7 +10323,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-457a1ddf8224": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMN32GX4M4Z3600C18W/Gallery/VENGEANCE_RGB_RT_WHITE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMN32GX4M4Z3600C18W/Gallery/VENGEANCE_RGB_RT_WHITE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmn32gx4m4z3600c18w/vengeancea-rgb-rt-32gb-4-x-8gb-ddr4-dram-3600mhz-c18-memory-kit-a-white-cmn32gx4m4z3600c18w",
     "mpn": "CMN32GX4M4Z3600C18W",
     "inspection": "visually-inspected"
@@ -10431,7 +10431,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-71a294c24f13": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMD32GX4M2C3466C16W/Gallery/Dominator_SE_WHT_02.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMD32GX4M2C3466C16W/Gallery/Dominator_SE_WHT_02.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmd32gx4m2c3466c16w/dominatora-platinum-special-edition-contrast-32gb-2x16gb-ddr4-3466-pc4-27700-c16-desktop-memory-cmd32gx4m2c3466c16w",
     "mpn": "CMD32GX4M2C3466C16W",
     "inspection": "visually-inspected"
@@ -10851,7 +10851,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-495976fcff27": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMT32GX4M2K4000C19/Gallery/DOMINATOR_PLAT_RGB_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMT32GX4M2K4000C19/Gallery/DOMINATOR_PLAT_RGB_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmt16gx4m2c3200c16/dominatora-platinum-rgb-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-cmt16gx4m2c3200c16",
     "mpn": "CMT32GX4M2K4000C19",
     "inspection": "visually-inspected"
@@ -10911,7 +10911,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-2dbd3b894069": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMN32GX4M4Z3200C16/Gallery/VENGEANCE_RGB_RT_GUNMETAL_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMN32GX4M4Z3200C16/Gallery/VENGEANCE_RGB_RT_GUNMETAL_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmn16gx4m2z3200c16/vengeancea-rgb-rt-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-a-black-cmn16gx4m2z3200c16",
     "mpn": "CMN32GX4M4Z3200C16",
     "inspection": "visually-inspected"
@@ -11001,7 +11001,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-900805932732": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMK32GX4M4A2666C16W/Gallery/VENG_LPX_WHT_00.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMK32GX4M4A2666C16W/Gallery/VENG_LPX_WHT_00.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk32gx4m4a2666c16w/vengeancea-lpx-32gb-4-x-8gb-ddr4-dram-2666mhz-c16-memory-kit-white-cmk32gx4m4a2666c16w",
     "mpn": "CMK32GX4M4A2666C16W",
     "inspection": "visually-inspected"
@@ -11115,7 +11115,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-77f1a1b2a312": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMU32GX4M4C3200C16/Gallery/Veng_LED_BLK_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMU32GX4M4C3200C16/Gallery/Veng_LED_BLK_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmu32gx4m4c3200c16/vengeancea-led-32gb-4-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-white-led-cmu32gx4m4c3200c16",
     "mpn": "CMU32GX4M4C3200C16",
     "inspection": "visually-inspected"
@@ -11427,7 +11427,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-5ced6a5ecb21": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMU64GX4M4C3200C16B/Gallery/Veng_LED_BLUE_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMU64GX4M4C3200C16B/Gallery/Veng_LED_BLUE_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmu64gx4m4c3200c16b/vengeancea-led-64gb-4-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-blue-led-cmu64gx4m4c3200c16b",
     "mpn": "CMU64GX4M4C3200C16B",
     "inspection": "visually-inspected"
@@ -11505,7 +11505,7 @@ export const manufacturerImageAssets = {
     "inspection": "visually-inspected"
   },
   "import-ram-b3a2f9b885f7": {
-    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_96/products/Memory/CMU32GX4M4D3000C16R/Gallery/Veng_LED_BLK-RED_01.png",
+    "imageURL": "https://res.cloudinary.com/corsair-pwa/image/upload/c_scale%2Cq_auto%2Cw_1024/products/Memory/CMU32GX4M4D3000C16R/Gallery/Veng_LED_BLK-RED_01.png",
     "sourceURL": "https://www.corsair.com/us/en/p/memory/cmu32gx4m4d3000c16r/vengeancea-led-32gb-4-x-8gb-ddr4-dram-3000mhz-c16-memory-kit-red-led-cmu32gx4m4d3000c16r",
     "mpn": "CMU32GX4M4D3000C16R",
     "inspection": "visually-inspected"

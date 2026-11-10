@@ -1,0 +1,17 @@
+{
+  "query": "Corsair CSSD-F4000GBMP600PHX 4TB official MP600 PRO",
+  "objective": "Find literal PHX SKU authoritative sources; do not substitute PNH or LPX.",
+  "checkedAt": "2026-11-10T22:03:05.092Z",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "web_search_exa error (401): Invalid API key. Provide a valid key using 'Authorization: Bearer <key>' or 'x-api-key: <key>'. Create a key at https://dashboard.exa.ai/api-keys\nTimestamp: 2026-11-10T22:03:04.897Z"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

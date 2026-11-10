@@ -15,6 +15,10 @@ import {deepPowerSilverstoneProducts} from './deepPowerSilverstoneCatalog.ts';
 import {deepFspProducts} from './deepFspCatalog.ts';
 import {deepPowerAntecProducts} from './deepPowerAntecCatalog.ts';
 import {deepPowerEnermaxProducts} from './deepPowerEnermaxCatalog.ts';
+import {deepGpuFollowupProducts} from './deepGpuFollowupCatalog.ts';
+import {deepMemoryFollowupProducts} from './deepMemoryFollowupCatalog.ts';
+import {deepStorageFollowupProducts} from './deepStorageFollowupCatalog.ts';
+import {deepPowerFollowupProducts} from './deepPowerFollowupCatalog.ts';
 
 export const deepProducts:Record<string,VerifiedProduct>={
   ...deepMotherboardProducts,
@@ -33,4 +37,8 @@ export const deepProducts:Record<string,VerifiedProduct>={
   ...deepFspProducts,
   ...deepPowerAntecProducts,
   ...deepPowerEnermaxProducts,
+  ...deepGpuFollowupProducts,
+  ...deepMemoryFollowupProducts,
+  ...deepStorageFollowupProducts,
+  ...deepPowerFollowupProducts,
 };

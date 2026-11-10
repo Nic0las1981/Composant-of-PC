@@ -1,0 +1,17 @@
+{
+  "query": "Silicon Power XD85 SSD product XD85 SP01KGBP44XD8505 specifications",
+  "objective": "Find literal XD85 official or merchant product pages, exclude UD85 unless a source proves identity correction.",
+  "checkedAt": "2026-11-10T22:03:05.005Z",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "web_search_exa error (401): Invalid API key. Provide a valid key using 'Authorization: Bearer <key>' or 'x-api-key: <key>'. Create a key at https://dashboard.exa.ai/api-keys\nTimestamp: 2026-11-10T22:03:04.836Z"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

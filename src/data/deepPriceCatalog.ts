@@ -39858,5 +39858,733 @@ export const deepPriceRecords:Record<string,DeepPriceRecord[]> = {
         }
       ]
     }
+  ],
+  "import-ssd-e35ae4df739f": [
+    {
+      "mpn": "MZ-V9P4T0CW",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-4-to-ssd-pcie-4-0-nvme-m-2-avec-dissipateur-thermique"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-4-to-ssd-pcie-4-0-nvme-m-2-avec-dissipateur-thermique",
+          "productName": "Samsung 990 PRO 4 To SSD PCIe 4.0 NVMe M.2 avec dissipateur thermique",
+          "mpn": "MZ-V9P4T0CW",
+          "amount": 805.89,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:01Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-4-to-ssd-pcie-4-0-nvme-m-2-avec-dissipateur-thermique",
+          "checkedAt": "2026-11-10T22:09:01Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-72e143943502": [
+    {
+      "mpn": "VCNRTX2000ADA-PB",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/carte-graphique-nvidia-pny-quadro-rtx-2000-ada-16go-gddr6-profondeurs-professionnelles"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/carte-graphique-nvidia-pny-quadro-rtx-2000-ada-16go-gddr6-profondeurs-professionnelles",
+          "productName": "Carte Graphique Nvidia PNY Quadro RTX 2000 Ada 16Go GDDR6 Profondeurs professionnelles",
+          "mpn": "VCNRTX2000ADA-PB",
+          "amount": 1375.87,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:02Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/carte-graphique-nvidia-pny-quadro-rtx-2000-ada-16go-gddr6-profondeurs-professionnelles",
+          "checkedAt": "2026-11-10T22:09:02Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ram-c398a10661e7": [
+    {
+      "mpn": "F5-6000J2836G16GX2-TR5NS",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-rgb-f5-6000j2836g16gx2-tr5ns-32gb-2x16gb-ddr5-6000mhz-cl28-rgb-amd-expo-argent",
+        "https://www.ldlc.com/fiche/PB00630801.html",
+        "https://www.fnac.com/mp52409878/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "Icoza",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-rgb-f5-6000j2836g16gx2-tr5ns-32gb-2x16gb-ddr5-6000mhz-cl28-rgb-amd-expo-argent",
+          "productName": "Mémoire RAM G.Skill Trident Z5 Neo RGB F5-6000J2836G16GX2-TR5NS 32GB 2x16GB DDR5 6000MHz CL28 RGB AMD EXPO Argent",
+          "mpn": "F5-6000J2836G16GX2-TR5NS",
+          "amount": 1418.76,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:00Z"
+        },
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00630801.html",
+          "productName": "G.Skill Trident Z5 Royal Neo 32 Go (2 x 16 Go) DDR5 6000 MHz CL28 - Argent",
+          "mpn": "F5-6000J2836G16GX2-TR5NS",
+          "amount": 1399.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "out_of_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:09:01Z"
+        },
+        {
+          "retailer": "Fnac",
+          "seller": "2KINGS",
+          "url": "https://www.fnac.com/mp52409878/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4",
+          "productName": "GSKILL Modèle du produit : Trident Z5 Royal Neo 32 Go (2 x 16 Go) DDR5 6000 MHz CL28",
+          "mpn": "F5-6000J2836G16GX2-TR5NS",
+          "amount": 1265.76,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:09:03Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-rgb-f5-6000j2836g16gx2-tr5ns-32gb-2x16gb-ddr5-6000mhz-cl28-rgb-amd-expo-argent",
+          "checkedAt": "2026-11-10T22:09:00Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00630801.html",
+          "checkedAt": "2026-11-10T22:09:01Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "Fnac — offre contrôlée",
+          "url": "https://www.fnac.com/mp52409878/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4",
+          "checkedAt": "2026-11-10T22:09:03Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ssd-d3ec4b5c5379": [
+    {
+      "mpn": "MZ-V9P2T0CW",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/disque-dur-ssd-samsung-990-pro-2-to-pcie-4-0-nvme-m-2-avec-dissipateur-thermique"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/disque-dur-ssd-samsung-990-pro-2-to-pcie-4-0-nvme-m-2-avec-dissipateur-thermique",
+          "productName": "SSD Samsung 990 PRO 2 To PCIe 4.0 NVMe M.2 avec dissipateur thermique",
+          "mpn": "MZ-V9P2T0CW",
+          "amount": 465.99,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:01Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/disque-dur-ssd-samsung-990-pro-2-to-pcie-4-0-nvme-m-2-avec-dissipateur-thermique",
+          "checkedAt": "2026-11-10T22:09:01Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ram-bdf164391cff": [
+    {
+      "mpn": "F5-6000J2836G16GX2-TR5NG",
+      "checkedURLs": [
+        "https://www.fnac.com/mp52351353/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4",
+        "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6000mhz-cl28-amd-expo-rgb-dore"
+      ],
+      "offers": [
+        {
+          "retailer": "Fnac",
+          "seller": "2KINGS",
+          "url": "https://www.fnac.com/mp52351353/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4",
+          "productName": "GSKILL Modèle du produit : Trident Z5 Royal Neo 32 Go (2 x 16 Go) DDR5 6000 MHz CL28",
+          "mpn": "F5-6000J2836G16GX2-TR5NG",
+          "amount": 2258.72,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:09:06Z"
+        },
+        {
+          "retailer": "PcComponentes",
+          "seller": "GpasPlus-fr",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6000mhz-cl28-amd-expo-rgb-dore",
+          "productName": "Mémoire RAM G.Skill Trident Z5 Royal Neo 32Go 2x16Go DDR5 6000MHz CL28 AMD EXPO RGB doré",
+          "mpn": "F5-6000J2836G16GX2-TR5NG",
+          "amount": 2506.23,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:15Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Fnac — offre contrôlée",
+          "url": "https://www.fnac.com/mp52351353/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6000-MHz-CL28/w-4",
+          "checkedAt": "2026-11-10T22:09:06Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6000mhz-cl28-amd-expo-rgb-dore",
+          "checkedAt": "2026-11-10T22:09:15Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ram-53d6286797c7": [
+    {
+      "mpn": "F5-6400J3039G16GX2-TR5NG",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6400mhz-cl30-amd-expo-rgb-dore",
+        "https://www.fnac.com/mp53948346/Memoire-RAM-GSKILL-Trident-Z5-Royal-Neo-32-Go-2x16-Go-DDR5-6400-MHz-CL30-argent/w-4"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "GpasPlus-fr",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6400mhz-cl30-amd-expo-rgb-dore",
+          "productName": "Mémoire RAM G.Skill Trident Z5 Royal Neo 32Go 2x16Go DDR5 6400MHz CL30 AMD EXPO RGB doré",
+          "mpn": "F5-6400J3039G16GX2-TR5NG",
+          "amount": 2406.14,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:16Z"
+        },
+        {
+          "retailer": "Fnac",
+          "seller": "Sotel France",
+          "url": "https://www.fnac.com/mp53948346/Memoire-RAM-GSKILL-Trident-Z5-Royal-Neo-32-Go-2x16-Go-DDR5-6400-MHz-CL30-argent/w-4",
+          "productName": "Mémoire RAM GSKILL Trident Z5 Royal Neo 32 Go 2x16 Go DDR5 6400 MHz CL30 argent",
+          "mpn": "F5-6400J3039G16GX2-TR5NG",
+          "amount": 2383.9,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:09:07Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-royal-neo-32go-2x16go-ddr5-6400mhz-cl30-amd-expo-rgb-dore",
+          "checkedAt": "2026-11-10T22:09:16Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "Fnac — offre contrôlée",
+          "url": "https://www.fnac.com/mp53948346/Memoire-RAM-GSKILL-Trident-Z5-Royal-Neo-32-Go-2x16-Go-DDR5-6400-MHz-CL30-argent/w-4",
+          "checkedAt": "2026-11-10T22:09:07Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ram-5703fc7a8317": [
+    {
+      "mpn": "F5-6400J3039G16GX2-TR5NS",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-f5-6400j3039g16gx2-tr5ns-32gb-2x16gb-ddr5-6400mhz-cl30-kit-dual-rgb-amd-expo-argent",
+        "https://www.fnac.com/mp52363308/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6400-MHz-CL30/w-4"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "Icoza",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-f5-6400j3039g16gx2-tr5ns-32gb-2x16gb-ddr5-6400mhz-cl30-kit-dual-rgb-amd-expo-argent",
+          "productName": "Mémoire RAM G.Skill Trident Z5 Neo F5-6400J3039G16GX2-TR5NS 32GB 2x16GB DDR5 6400MHz CL30 Kit Dual RGB AMD EXPO Argent",
+          "mpn": "F5-6400J3039G16GX2-TR5NS",
+          "amount": 1418.11,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:15Z"
+        },
+        {
+          "retailer": "Fnac",
+          "seller": "TopBizfr",
+          "url": "https://www.fnac.com/mp52363308/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6400-MHz-CL30/w-4",
+          "productName": "GSKILL Modèle du produit : Trident Z5 Royal Neo 32 Go (2 x 16 Go) DDR5 6400 MHz CL30",
+          "mpn": "F5-6400J3039G16GX2-TR5NS",
+          "amount": 1427.32,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:09:16Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-neo-f5-6400j3039g16gx2-tr5ns-32gb-2x16gb-ddr5-6400mhz-cl30-kit-dual-rgb-amd-expo-argent",
+          "checkedAt": "2026-11-10T22:09:15Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "Fnac — offre contrôlée",
+          "url": "https://www.fnac.com/mp52363308/GSKILL-Modele-du-produit-Trident-Z5-Royal-Neo-32-Go-2-x-16-Go-DDR5-6400-MHz-CL30/w-4",
+          "checkedAt": "2026-11-10T22:09:16Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ssd-59373d019360": [
+    {
+      "mpn": "MZ-V9P1T0CW",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-m-2-1-to-pci-express-4-0-v-nand-mlc-nvme"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-m-2-1-to-pci-express-4-0-v-nand-mlc-nvme",
+          "productName": "Samsung 990 PRO M.2 1 To PCI Express 4.0 V-NAND MLC NVMe",
+          "mpn": "MZ-V9P1T0CW",
+          "amount": 249.71,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:16Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/disque-dur-samsung-990-pro-m-2-1-to-pci-express-4-0-v-nand-mlc-nvme",
+          "checkedAt": "2026-11-10T22:09:16Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-ebbd7cb3ad86": [
+    {
+      "mpn": "GV-N5080AERO OC-16GD",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aero-oc-sff-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+        "https://www.ldlc.com/fiche/PB00660814.html"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aero-oc-sff-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "productName": "Carte Graphique Gigabyte GeForce RTX 5080 AERO OC SFF 16GB GDDR7 Reflex 2 RTX AI DLSS4",
+          "mpn": "GV-N5080AERO OC-16GD",
+          "amount": 2479.33,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:09:03Z"
+        },
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00660814.html",
+          "productName": "Gigabyte GeForce RTX 5080 AERO OC SFF 16G",
+          "mpn": "GV-N5080AERO OC-16GD",
+          "amount": 2199.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:10:49Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aero-oc-sff-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "checkedAt": "2026-11-10T22:09:03Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00660814.html",
+          "checkedAt": "2026-11-10T22:10:49Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-54f38bec770f": [
+    {
+      "mpn": "GV-N5080AORUSM ICE-16GD",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aorus-master-ice-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+        "https://www.ldlc.com/fiche/PB00666524.html"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aorus-master-ice-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "productName": "Carte Graphique Gigabyte GeForce RTX 5080 AORUS MASTER ICE 16GB GDDR7 Reflex 2 RTX AI DLSS4",
+          "mpn": "GV-N5080AORUSM ICE-16GD",
+          "amount": 2599.99,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:10:50Z"
+        },
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00666524.html",
+          "productName": "Gigabyte AORUS GeForce RTX 5080 MASTER ICE 16G",
+          "mpn": "GV-N5080AORUSM ICE-16GD",
+          "amount": 2249.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "out_of_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:10:50Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5080-aorus-master-ice-16gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "checkedAt": "2026-11-10T22:10:50Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00666524.html",
+          "checkedAt": "2026-11-10T22:10:50Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-66e4b322eece": [
+    {
+      "mpn": "GV-N507TAERO OC-16GD",
+      "checkedURLs": [
+        "https://www.ldlc.com/fiche/PB00666543.html"
+      ],
+      "offers": [
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00666543.html",
+          "productName": "Gigabyte GeForce RTX 5070 Ti AERO OC 16G ",
+          "mpn": "GV-N507TAERO OC-16GD",
+          "amount": 1719.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:10:48Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00666543.html",
+          "checkedAt": "2026-11-10T22:10:48Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-f484f7fd45ed": [
+    {
+      "mpn": "GV-N5060EAGLEOC ICE-8GD",
+      "checkedURLs": [
+        "https://www.ldlc.com/fiche/PB00684438.html"
+      ],
+      "offers": [
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00684438.html",
+          "productName": "Gigabyte GeForce RTX 5060 EAGLE OC ICE 8G",
+          "mpn": "GV-N5060EAGLEOC ICE-8GD",
+          "amount": 629.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "out_of_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:10:50Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00684438.html",
+          "checkedAt": "2026-11-10T22:10:50Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-20aa8e7b85a7": [
+    {
+      "mpn": "GV-N507TEAGLEOC ICE-16GD",
+      "checkedURLs": [
+        "https://www.ldlc.com/fiche/PB00666549.html"
+      ],
+      "offers": [
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00666549.html",
+          "productName": "Gigabyte GeForce RTX 5070 Ti EAGLE OC ICE SFF 16G",
+          "mpn": "GV-N507TEAGLEOC ICE-16GD",
+          "amount": 1669.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:11:05Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00666549.html",
+          "checkedAt": "2026-11-10T22:11:05Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-6b2192b52876": [
+    {
+      "mpn": "GV-N506TAERO OC-16GD",
+      "checkedURLs": [
+        "https://www.ldlc.com/fiche/PB00677315.html"
+      ],
+      "offers": [
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00677315.html",
+          "productName": "Gigabyte GeForce RTX 5060 Ti AERO OC 16G",
+          "mpn": "GV-N506TAERO OC-16GD",
+          "amount": 1099.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:11:05Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00677315.html",
+          "checkedAt": "2026-11-10T22:11:05Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-gpu-cc2f60439d1f": [
+    {
+      "mpn": "GV-N506TAERO OC-8GD",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5060-ti-aero-oc-8gb-gddr7-reflex-2-rtx-ai-dlss4",
+        "https://www.ldlc.com/fiche/PB00677457.html"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5060-ti-aero-oc-8gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "productName": "Carte Graphique Gigabyte GeForce RTX 5060 Ti AERO OC 8GB GDDR7 Reflex 2 RTX AI DLSS4",
+          "mpn": "GV-N506TAERO OC-8GD",
+          "amount": 614.87,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:11:06Z"
+        },
+        {
+          "retailer": "LDLC",
+          "seller": "LDLC",
+          "url": "https://www.ldlc.com/fiche/PB00677457.html",
+          "productName": "Gigabyte GeForce RTX 5060 Ti AERO OC 8G",
+          "mpn": "GV-N506TAERO OC-8GD",
+          "amount": 699.95,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "unknown",
+          "priceKind": "current",
+          "shipping": null,
+          "shippingNote": "Frais de livraison non confirmés.",
+          "checkedAt": "2026-11-10T22:11:06Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5060-ti-aero-oc-8gb-gddr7-reflex-2-rtx-ai-dlss4",
+          "checkedAt": "2026-11-10T22:11:06Z",
+          "kind": "retailer"
+        },
+        {
+          "name": "LDLC — offre contrôlée",
+          "url": "https://www.ldlc.com/fiche/PB00677457.html",
+          "checkedAt": "2026-11-10T22:11:06Z",
+          "kind": "retailer"
+        }
+      ]
+    }
+  ],
+  "import-ssd-4b370adc4f5c": [
+    {
+      "mpn": "K01TBM2SP0-C7T",
+      "checkedURLs": [
+        "https://www.pccomponentes.fr/disque-dur-klevv-cras-c715-1-tb-m-2-nvme-3200-mb-s-x4"
+      ],
+      "offers": [
+        {
+          "retailer": "PcComponentes",
+          "seller": "PcComponentes",
+          "url": "https://www.pccomponentes.fr/disque-dur-klevv-cras-c715-1-tb-m-2-nvme-3200-mb-s-x4",
+          "productName": "Disque Dur Klevv CRAS C715 1 TB M.2 NVMe 3200 MB/s x4",
+          "mpn": "K01TBM2SP0-C7T",
+          "amount": 182.01,
+          "currency": "EUR",
+          "market": "FR",
+          "condition": "new",
+          "availability": "in_stock",
+          "priceKind": "current",
+          "shipping": 0.0,
+          "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+          "checkedAt": "2026-11-10T22:15:16Z"
+        }
+      ],
+      "sources": [
+        {
+          "name": "PcComponentes — offre contrôlée",
+          "url": "https://www.pccomponentes.fr/disque-dur-klevv-cras-c715-1-tb-m-2-nvme-3200-mb-s-x4",
+          "checkedAt": "2026-11-10T22:15:16Z",
+          "kind": "retailer"
+        }
+      ]
+    }
   ]
 };

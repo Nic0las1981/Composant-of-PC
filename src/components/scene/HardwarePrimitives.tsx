@@ -188,7 +188,7 @@ export function HardwareLabel({
 }
 
 /** Texture-backed light diffusers keep the rainbow to one draw call per strip. */
-function useRgbTexture(circular: boolean, phase: number) {
+export function useRgbTexture(circular: boolean, phase: number) {
   const animated = useSceneAnimation();
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");

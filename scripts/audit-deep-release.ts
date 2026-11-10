@@ -3,6 +3,7 @@ import {catalog,categories} from '../src/data/catalog.ts';
 import {deepProducts} from '../src/data/deepCatalog.ts';
 import {getVerifiedProduct,getVerifiedOffer} from '../src/lib/verifiedOffers.ts';
 import {getProductImage} from '../src/data/productImages.ts';
+import {getMemoryAppearance} from '../src/data/memoryAppearance.ts';
 import {getCatalogCompletion} from '../src/lib/catalogCompletion.ts';
 import {getCatalogGroups} from '../src/lib/catalogVariants.ts';
 const now=Date.now();
@@ -28,6 +29,7 @@ const summary={generatedAt:new Date(now).toISOString(),total:catalog.length,disp
   offerObservations:records.reduce((n,r)=>n+r.offerObservations,0),
   photoAssets:records.filter(r=>r.photo).length,visuallyInspectedPhotoAssets:records.filter(r=>r.photo==='visually-inspected').length,
   manufacturerCadCoolers:5,
+  individuallyReconstructedMemory:catalog.filter(component=>!!getMemoryAppearance(component)).length,
   byCategory:Object.fromEntries(categories.map(({id})=>{const subset=records.filter(r=>r.category===id);return [id,{total:subset.length,documented:subset.filter(r=>r.primaryRecord).length,deep:subset.filter(r=>r.deepPass).length,technicallyComplete:subset.filter(r=>r.checklist.complete).length,currentFrenchOffers:subset.filter(r=>r.currentFrenchOffer).length,technicalRows:subset.reduce((n,r)=>n+r.technicalRows,0)}]}))};
 mkdirSync('data/deep-review',{recursive:true});
 writeFileSync('data/deep-review/release-audit.json',JSON.stringify({summary,records},null,2)+'\n');

@@ -16,7 +16,16 @@ function inspect(svg:string,id:string){
  const definitions=[...svg.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
  assert.equal(new Set(definitions).size,definitions.length,`Duplicate paint IDs in ${id}`);
  for(const m of svg.matchAll(/url\(#([^\)]+)\)/g))assert.ok(definitions.includes(m[1]),`Missing paint ${m[1]} for ${id}`);
- assert.ok((svg.match(/<(?:path|rect|circle|ellipse)\b/g)||[]).length>=15,`Empty hardware in ${id}`);
+ const memorySilhouette=svg.match(/data-memory-design="[^"]+"[^>]*>\s*<path d="([^"]+)"/);
+ if(memorySilhouette){
+  // A traced heatspreader is one filled polygon rather than fifteen generic
+  // rectangles. Check its actual nonzero projected area instead of element count.
+  assert.ok(memorySilhouette[1].endsWith('Z'),`Open memory silhouette in ${id}`);
+  const points=[...memorySilhouette[1].matchAll(/[ML](-?[\d.]+) (-?[\d.]+)/g)].map(m=>[+m[1],+m[2]]);
+  assert.ok(points.length>=5,`Missing memory outline in ${id}`);
+  const area=Math.abs(points.reduce((sum,[x,y],i)=>{const next=points[(i+1)%points.length];return sum+x*next[1]-next[0]*y;},0))/2;
+  assert.ok(area>100,`Empty memory silhouette in ${id}`);
+ }else assert.ok((svg.match(/<(?:path|rect|circle|ellipse)\b/g)||[]).length>=15,`Empty hardware in ${id}`);
 }
 
 test('every catalogue variant renders a finite, nonempty material-aware icon with resolved paint definitions',()=>{

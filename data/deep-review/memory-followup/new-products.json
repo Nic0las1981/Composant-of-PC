@@ -1,0 +1,3745 @@
+{
+  "import-ram-c398a10661e7": {
+    "mpn": "F5-6000J2836G16GX2-TR5NS",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PC21 — prix TTC, état neuf et disponibilité du MPN exact",
+        "url": "https://www.pc21.fr/fiche/f5-6000j2836g16gx2-tr5ns-0j2836g16gx2-tr5ns-memory-module-32-gb-2-x-16-gb-ddr5-i5684397.html",
+        "checkedAt": "2026-11-10T22:08:41.192121+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "32GB (16GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.40V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "4800 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.4,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836G16GX2-TR5NS",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL28 · Argent. Référence F5-6000J2836G16GX2-TR5NS. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [
+      {
+        "retailer": "PC21",
+        "seller": "PC21",
+        "url": "https://www.pc21.fr/fiche/f5-6000j2836g16gx2-tr5ns-0j2836g16gx2-tr5ns-memory-module-32-gb-2-x-16-gb-ddr5-i5684397.html",
+        "productName": "G.Skill  0J2836G16Gx2-Tr5Ns Memory Module 32 Gb 2 X 16 Gb Ddr5 0J2836G16Gx2-Tr5Ns Memory Module 32 Gb 2 X 16 Gb Ddr5",
+        "mpn": "F5-6000J2836G16GX2-TR5NS",
+        "retailerReference": "5684397",
+        "amount": 1705.82,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": null,
+        "shippingNote": "Prix TTC hors livraison ; frais et total livré en France à confirmer.",
+        "checkedAt": "2026-11-10T22:08:41.192121+00:00"
+      }
+    ],
+    "notes": [
+      "Offre PC21 vérifiée sur la page directe ; montant TTC, état neuf et stock explicites. Mise à jour marchand : 10/11/2026 21:20. Le prix indexé du moteur de recherche n’est pas repris."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryVoltageV": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836G16GX2-TR5NS",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "voltage": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009556/F5-6000J2836G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.183699+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NS"
+      }
+    }
+  },
+  "import-ram-028bac60f301": {
+    "mpn": "F5-6000J3036G32GX2-TR5NS",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "64GB (32GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "Intel XMP 3.0 / AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (XMP/EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (XMP/EXPO)",
+            "value": "30-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (XMP/EXPO)",
+            "value": "1.40V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "4800 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "Intel XMP 3.0 & AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 64,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 30,
+      "memoryVoltageV": 1.4,
+      "memoryProfile": "EXPO/XMP",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J3036G32GX2-TR5NS",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL30 · Argent. Référence F5-6000J3036G32GX2-TR5NS. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "casLatency": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryVoltageV": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryProfile": {
+        "value": "EXPO/XMP",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J3036G32GX2-TR5NS",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO/XMP",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "capacity": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "cas": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "voltage": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1731478018/F5-6000J3036G32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.382196+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J3036G32GX2-TR5NS"
+      }
+    }
+  },
+  "import-ram-9831ada5b4cd": {
+    "mpn": "F5-6000J2836F48GX2-TR5NS",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "96GB (48GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.35V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "5600 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 96,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.35,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836F48GX2-TR5NS",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 96 Go (2 × 48 Go) DDR5-6000 CL28 · Argent. Référence F5-6000J2836F48GX2-TR5NS. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 96,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryVoltageV": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836F48GX2-TR5NS",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "capacity": {
+        "value": 96,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "voltage": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132870/F5-6000J2836F48GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.458861+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NS"
+      }
+    }
+  },
+  "import-ram-6d23992cb5c3": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Argent",
+    "mpn": "",
+    "identityNote": "Modèle documenté avec variantes commerciales non départagées. Famille, génération, capacité, composition, débit, CAS et finition correspondent aux références candidates ; aucun MPN unique n’est affirmé.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.761293+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Références candidates du modèle exact",
+        "rows": [
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636G32GX2-TR5NS — https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification"
+          },
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636H32GX2-TR5NS — https://www.gskill.com/specification/165/425/1741936341/F5-6000J2636H32GX2-TR5NS-Specification"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques identiques dans toutes les références candidates",
+        "rows": [
+          {
+            "label": "Capacité totale (Go)",
+            "value": "64"
+          },
+          {
+            "label": "Latence CAS (CL)",
+            "value": "26"
+          },
+          {
+            "label": "Hauteur (mm)",
+            "value": "44"
+          },
+          {
+            "label": "ECC système",
+            "value": "Non"
+          },
+          {
+            "label": "Dissipateur mémoire",
+            "value": "Oui"
+          },
+          {
+            "label": "Format du module",
+            "value": "DIMM"
+          },
+          {
+            "label": "Type de module",
+            "value": "UDIMM"
+          },
+          {
+            "label": "Profils mémoire",
+            "value": "EXPO"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non"
+          },
+          {
+            "label": "Débit testé (MT/s)",
+            "value": "6000"
+          },
+          {
+            "label": "Nombre de modules",
+            "value": "2"
+          },
+          {
+            "label": "Génération mémoire",
+            "value": "DDR5"
+          },
+          {
+            "label": "Éclairage RGB",
+            "value": "Oui"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques restant à départager",
+        "rows": [
+          {
+            "label": "Révision / champs variables ou non publiés partout",
+            "value": "Tension du profil testé (V)"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 64,
+      "casLatency": 26,
+      "heightMm": 44,
+      "memoryEcc": false,
+      "memoryHeatspreader": true,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memorySpeedMTs": 6000,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "rgb": true,
+      "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Argent",
+      "detailLevel": "partial",
+      "description": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Argent. Plusieurs références commerciales correspondent exactement aux attributs archivés. Seules leurs caractéristiques publiées communes sont renseignées ; la révision et le MPN restent à confirmer."
+    },
+    "offers": [],
+    "notes": [
+      "Références candidates : F5-6000J2636G32GX2-TR5NS, F5-6000J2636H32GX2-TR5NS.",
+      "Aucun prix n’est transféré entre ces références. Les caractéristiques variables ou absentes d’un candidat ne sont pas considérées comme confirmées."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "capacity": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "casLatency": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "cas": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132752/F5-6000J2636G32GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.400202+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      }
+    }
+  },
+  "import-ram-bac3d767d0cc": {
+    "mpn": "F5-6000J2836F48GX2-TR5NG",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "96GB (48GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.35V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "5600 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 96,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.35,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836F48GX2-TR5NG",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 96 Go (2 × 48 Go) DDR5-6000 CL28 · Or. Référence F5-6000J2836F48GX2-TR5NG. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 96,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryVoltageV": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836F48GX2-TR5NG",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "capacity": {
+        "value": 96,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "voltage": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133152/F5-6000J2836F48GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.603607+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F48GX2-TR5NG"
+      }
+    }
+  },
+  "import-ram-5703fc7a8317": {
+    "mpn": "F5-6400J3039G16GX2-TR5NS",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PC21 — prix TTC, état neuf et disponibilité du MPN exact",
+        "url": "https://www.pc21.fr/fiche/f5-6400j3039g16gx2-tr5ns-39g16gx2-tr5ns-memory-module-32-gb-2-x-16-gb-ddr5-6400-mhz-i5684429.html",
+        "checkedAt": "2026-11-10T22:10:11.003540+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "32GB (16GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6400* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "30-39-39-102"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.40V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "4800 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6400,
+      "casLatency": 30,
+      "memoryVoltageV": 1.4,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6400J3039G16GX2-TR5NS",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6400 CL30 · Argent. Référence F5-6400J3039G16GX2-TR5NS. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [
+      {
+        "retailer": "PC21",
+        "seller": "PC21",
+        "url": "https://www.pc21.fr/fiche/f5-6400j3039g16gx2-tr5ns-39g16gx2-tr5ns-memory-module-32-gb-2-x-16-gb-ddr5-6400-mhz-i5684429.html",
+        "productName": "G.Skill  39G16Gx2-Tr5Ns Memory Module 32 Gb 2 X 16 Gb Ddr5 6400 Mhz 39G16Gx2-Tr5Ns Memory Module 32 Gb 2 X 16 Gb Ddr5 6400 Mhz",
+        "mpn": "F5-6400J3039G16GX2-TR5NS",
+        "retailerReference": "5684429",
+        "amount": 1752.25,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": null,
+        "shippingNote": "Prix TTC hors livraison ; frais et total livré en France à confirmer.",
+        "checkedAt": "2026-11-10T22:10:11.003540+00:00"
+      }
+    ],
+    "notes": [
+      "Offre PC21 vérifiée sur la page directe ; montant TTC, état neuf et stock explicites. Mise à jour marchand : 10/11/2026 21:20. Le prix indexé du moteur de recherche n’est pas repris."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memorySpeedMTs": {
+        "value": 6400,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "casLatency": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryVoltageV": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6400J3039G16GX2-TR5NS",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "rate": {
+        "value": 6400,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "cas": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "voltage": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429792/F5-6400J3039G16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.271107+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NS"
+      }
+    }
+  },
+  "import-ram-bdf164391cff": {
+    "mpn": "F5-6000J2836G16GX2-TR5NG",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PC21 — prix TTC, état neuf et disponibilité du MPN exact",
+        "url": "https://www.pc21.fr/fiche/f5-6000j2836g16gx2-tr5ng-000j2836g16gx2-tr5ng-memory-module-32-gb-2-x-16-gb-ddr5-i5683836.html",
+        "checkedAt": "2026-11-10T22:10:11.012741+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "32GB (16GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.40V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "4800 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.4,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836G16GX2-TR5NG",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL28 · Or. Référence F5-6000J2836G16GX2-TR5NG. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [
+      {
+        "retailer": "PC21",
+        "seller": "PC21",
+        "url": "https://www.pc21.fr/fiche/f5-6000j2836g16gx2-tr5ng-000j2836g16gx2-tr5ng-memory-module-32-gb-2-x-16-gb-ddr5-i5683836.html",
+        "productName": "G.Skill  000J2836G16Gx2-Tr5Ng Memory Module 32 Gb 2 X 16 Gb Ddr5 000J2836G16Gx2-Tr5Ng Memory Module 32 Gb 2 X 16 Gb Ddr5",
+        "mpn": "F5-6000J2836G16GX2-TR5NG",
+        "retailerReference": "5683836",
+        "amount": 2330.82,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": null,
+        "shippingNote": "Prix TTC hors livraison ; frais et total livré en France à confirmer.",
+        "checkedAt": "2026-11-10T22:10:11.012741+00:00"
+      }
+    ],
+    "notes": [
+      "Offre PC21 vérifiée sur la page directe ; montant TTC, état neuf et stock explicites. Mise à jour marchand : 10/11/2026 21:20. Le prix indexé du moteur de recherche n’est pas repris."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryVoltageV": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836G16GX2-TR5NG",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "voltage": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723009555/F5-6000J2836G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.141379+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836G16GX2-TR5NG"
+      }
+    }
+  },
+  "import-ram-84b59f50090a": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Argent",
+    "mpn": "",
+    "identityNote": "Modèle documenté avec variantes commerciales non départagées. Famille, génération, capacité, composition, débit, CAS et finition correspondent aux références candidates ; aucun MPN unique n’est affirmé.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.815424+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Références candidates du modèle exact",
+        "rows": [
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636G16GX2-TR5NS — https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification"
+          },
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636H16GX2-TR5NS — https://www.gskill.com/specification/165/425/1741936482/F5-6000J2636H16GX2-TR5NS-Specification"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques identiques dans toutes les références candidates",
+        "rows": [
+          {
+            "label": "Capacité totale (Go)",
+            "value": "32"
+          },
+          {
+            "label": "Latence CAS (CL)",
+            "value": "26"
+          },
+          {
+            "label": "Hauteur (mm)",
+            "value": "44"
+          },
+          {
+            "label": "ECC système",
+            "value": "Non"
+          },
+          {
+            "label": "Dissipateur mémoire",
+            "value": "Oui"
+          },
+          {
+            "label": "Format du module",
+            "value": "DIMM"
+          },
+          {
+            "label": "Type de module",
+            "value": "UDIMM"
+          },
+          {
+            "label": "Profils mémoire",
+            "value": "EXPO"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non"
+          },
+          {
+            "label": "Débit testé (MT/s)",
+            "value": "6000"
+          },
+          {
+            "label": "Nombre de modules",
+            "value": "2"
+          },
+          {
+            "label": "Génération mémoire",
+            "value": "DDR5"
+          },
+          {
+            "label": "Éclairage RGB",
+            "value": "Oui"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques restant à départager",
+        "rows": [
+          {
+            "label": "Révision / champs variables ou non publiés partout",
+            "value": "Tension du profil testé (V)"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "casLatency": 26,
+      "heightMm": 44,
+      "memoryEcc": false,
+      "memoryHeatspreader": true,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memorySpeedMTs": 6000,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "rgb": true,
+      "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Argent",
+      "detailLevel": "partial",
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Argent. Plusieurs références commerciales correspondent exactement aux attributs archivés. Seules leurs caractéristiques publiées communes sont renseignées ; la révision et le MPN restent à confirmer."
+    },
+    "offers": [],
+    "notes": [
+      "Références candidates : F5-6000J2636G16GX2-TR5NS, F5-6000J2636H16GX2-TR5NS.",
+      "Aucun prix n’est transféré entre ces références. Les caractéristiques variables ou absentes d’un candidat ne sont pas considérées comme confirmées."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "casLatency": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "cas": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132814/F5-6000J2636G16GX2-TR5NS-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.437861+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      }
+    }
+  },
+  "import-ram-c872df48c426": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Or",
+    "mpn": "",
+    "identityNote": "Modèle documenté avec variantes commerciales non départagées. Famille, génération, capacité, composition, débit, CAS et finition correspondent aux références candidates ; aucun MPN unique n’est affirmé.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.674486+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Références candidates du modèle exact",
+        "rows": [
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636G32GX2-TR5NG — https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification"
+          },
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636H32GX2-TR5NG — https://www.gskill.com/specification/165/425/1741936340/F5-6000J2636H32GX2-TR5NG-Specification"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques identiques dans toutes les références candidates",
+        "rows": [
+          {
+            "label": "Capacité totale (Go)",
+            "value": "64"
+          },
+          {
+            "label": "Latence CAS (CL)",
+            "value": "26"
+          },
+          {
+            "label": "Hauteur (mm)",
+            "value": "44"
+          },
+          {
+            "label": "ECC système",
+            "value": "Non"
+          },
+          {
+            "label": "Dissipateur mémoire",
+            "value": "Oui"
+          },
+          {
+            "label": "Format du module",
+            "value": "DIMM"
+          },
+          {
+            "label": "Type de module",
+            "value": "UDIMM"
+          },
+          {
+            "label": "Profils mémoire",
+            "value": "EXPO"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non"
+          },
+          {
+            "label": "Débit testé (MT/s)",
+            "value": "6000"
+          },
+          {
+            "label": "Nombre de modules",
+            "value": "2"
+          },
+          {
+            "label": "Génération mémoire",
+            "value": "DDR5"
+          },
+          {
+            "label": "Éclairage RGB",
+            "value": "Oui"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques restant à départager",
+        "rows": [
+          {
+            "label": "Révision / champs variables ou non publiés partout",
+            "value": "Tension du profil testé (V)"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 64,
+      "casLatency": 26,
+      "heightMm": 44,
+      "memoryEcc": false,
+      "memoryHeatspreader": true,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memorySpeedMTs": 6000,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "rgb": true,
+      "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Or",
+      "detailLevel": "partial",
+      "description": "G.Skill Trident Z5 Royal Neo RGB 64 Go (2 × 32 Go) DDR5-6000 CL26 · Or. Plusieurs références commerciales correspondent exactement aux attributs archivés. Seules leurs caractéristiques publiées communes sont renseignées ; la révision et le MPN restent à confirmer."
+    },
+    "offers": [],
+    "notes": [
+      "Références candidates : F5-6000J2636G32GX2-TR5NG, F5-6000J2636H32GX2-TR5NG.",
+      "Aucun prix n’est transféré entre ces références. Les caractéristiques variables ou absentes d’un candidat ne sont pas considérées comme confirmées."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "capacity": {
+        "value": 64,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "casLatency": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "cas": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.622688+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      }
+    }
+  },
+  "import-ram-53d6286797c7": {
+    "mpn": "F5-6400J3039G16GX2-TR5NG",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PC21 — prix TTC, état neuf et disponibilité du MPN exact",
+        "url": "https://www.pc21.fr/fiche/f5-6400j3039g16gx2-tr5ng-400j3039g16gx2-tr5ng-memory-module-32-gb-2-x-16-gb-ddr5-i5682906.html",
+        "checkedAt": "2026-11-10T22:10:09.282064+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "32GB (16GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6400* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "30-39-39-102"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.40V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "4800 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6400,
+      "casLatency": 30,
+      "memoryVoltageV": 1.4,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6400J3039G16GX2-TR5NG",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6400 CL30 · Or. Référence F5-6400J3039G16GX2-TR5NG. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [
+      {
+        "retailer": "PC21",
+        "seller": "PC21",
+        "url": "https://www.pc21.fr/fiche/f5-6400j3039g16gx2-tr5ng-400j3039g16gx2-tr5ng-memory-module-32-gb-2-x-16-gb-ddr5-i5682906.html",
+        "productName": "G.Skill  400J3039G16Gx2-Tr5Ng Memory Module 32 Gb 2 X 16 Gb Ddr5 400J3039G16Gx2-Tr5Ng Memory Module 32 Gb 2 X 16 Gb Ddr5",
+        "mpn": "F5-6400J3039G16GX2-TR5NG",
+        "retailerReference": "5682906",
+        "amount": 2237.06,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": null,
+        "shippingNote": "Prix TTC hors livraison ; frais et total livré en France à confirmer.",
+        "checkedAt": "2026-11-10T22:10:09.282064+00:00"
+      }
+    ],
+    "notes": [
+      "Offre PC21 vérifiée sur la page directe ; montant TTC, état neuf et stock explicites. Mise à jour marchand : 10/11/2026 21:20. Le prix indexé du moteur de recherche n’est pas repris."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memorySpeedMTs": {
+        "value": 6400,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "casLatency": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryVoltageV": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6400J3039G16GX2-TR5NG",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "rate": {
+        "value": 6400,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "cas": {
+        "value": 30,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "voltage": {
+        "value": 1.4,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1723429682/F5-6400J3039G16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.270477+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6400J3039G16GX2-TR5NG"
+      }
+    }
+  },
+  "import-ram-c87978e3709e": {
+    "mpn": "F5-6000J2836F24GX2-TR5NS",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "48GB (24GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.35V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "5600 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 48,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.35,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836F24GX2-TR5NS",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 48 Go (2 × 24 Go) DDR5-6000 CL28 · Argent. Référence F5-6000J2836F24GX2-TR5NS. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 48,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryVoltageV": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836F24GX2-TR5NS",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "capacity": {
+        "value": 48,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "voltage": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736132937/F5-6000J2836F24GX2-TR5NS-Specification",
+        "checkedAt": "2026-11-10T13:28:01.556724+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NS"
+      }
+    }
+  },
+  "import-ram-4051ac88b91d": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Or",
+    "mpn": "",
+    "identityNote": "Modèle documenté avec variantes commerciales non départagées. Famille, génération, capacité, composition, débit, CAS et finition correspondent aux références candidates ; aucun MPN unique n’est affirmé.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.717913+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Références candidates du modèle exact",
+        "rows": [
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636G16GX2-TR5NG — https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification"
+          },
+          {
+            "label": "MPN candidat",
+            "value": "F5-6000J2636H16GX2-TR5NG — https://www.gskill.com/specification/165/425/1741936481/F5-6000J2636H16GX2-TR5NG-Specification"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques identiques dans toutes les références candidates",
+        "rows": [
+          {
+            "label": "Capacité totale (Go)",
+            "value": "32"
+          },
+          {
+            "label": "Latence CAS (CL)",
+            "value": "26"
+          },
+          {
+            "label": "Hauteur (mm)",
+            "value": "44"
+          },
+          {
+            "label": "ECC système",
+            "value": "Non"
+          },
+          {
+            "label": "Dissipateur mémoire",
+            "value": "Oui"
+          },
+          {
+            "label": "Format du module",
+            "value": "DIMM"
+          },
+          {
+            "label": "Type de module",
+            "value": "UDIMM"
+          },
+          {
+            "label": "Profils mémoire",
+            "value": "EXPO"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non"
+          },
+          {
+            "label": "Débit testé (MT/s)",
+            "value": "6000"
+          },
+          {
+            "label": "Nombre de modules",
+            "value": "2"
+          },
+          {
+            "label": "Génération mémoire",
+            "value": "DDR5"
+          },
+          {
+            "label": "Éclairage RGB",
+            "value": "Oui"
+          }
+        ]
+      },
+      {
+        "title": "Caractéristiques restant à départager",
+        "rows": [
+          {
+            "label": "Révision / champs variables ou non publiés partout",
+            "value": "Tension du profil testé (V)"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 32,
+      "casLatency": 26,
+      "heightMm": 44,
+      "memoryEcc": false,
+      "memoryHeatspreader": true,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memorySpeedMTs": 6000,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "rgb": true,
+      "manufacturerModel": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Or",
+      "detailLevel": "partial",
+      "description": "G.Skill Trident Z5 Royal Neo RGB 32 Go (2 × 16 Go) DDR5-6000 CL26 · Or. Plusieurs références commerciales correspondent exactement aux attributs archivés. Seules leurs caractéristiques publiées communes sont renseignées ; la révision et le MPN restent à confirmer."
+    },
+    "offers": [],
+    "notes": [
+      "Références candidates : F5-6000J2636G16GX2-TR5NG, F5-6000J2636H16GX2-TR5NG.",
+      "Aucun prix n’est transféré entre ces références. Les caractéristiques variables ou absentes d’un candidat ne sont pas considérées comme confirmées."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "capacity": {
+        "value": 32,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "casLatency": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "cas": {
+        "value": 26,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133097/F5-6000J2636G16GX2-TR5NG-EOL-Specification",
+        "checkedAt": "2026-11-10T13:28:01.569028+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Valeur identique explicitement publiée pour les 2 références candidates listées dans la fiche."
+      }
+    }
+  },
+  "import-ram-638039ab371c": {
+    "mpn": "F5-6000J2836F24GX2-TR5NG",
+    "identityNote": "Référence fabricant unique après concordance de génération, capacité, nombre de modules, débit, CAS et finition. Le fabricant nomme la série Trident Z5 Royal Neo et confirme explicitement son éclairage RGB.",
+    "sources": [
+      {
+        "name": "G.Skill — fiche technique du MPN exact",
+        "url": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — FAQ dimensions et nomenclature publiées",
+        "url": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — Trident Z5 Royal Neo avec éclairage RGB explicite",
+        "url": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "G.Skill — construction officielle de la série",
+        "url": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fabricant — référence exacte et éclairage documenté",
+        "rows": [
+          {
+            "label": "Memory Type",
+            "value": "DDR5"
+          },
+          {
+            "label": "Capacity",
+            "value": "48GB (24GBx2)"
+          },
+          {
+            "label": "Multi-Channel Kit",
+            "value": "Dual Channel Kit"
+          },
+          {
+            "label": "OC Profile Support",
+            "value": "AMD EXPO"
+          },
+          {
+            "label": "Tested Speed (EXPO)",
+            "value": "Up to 6000* MT/s"
+          },
+          {
+            "label": "Tested Latency (EXPO)",
+            "value": "28-36-36-96"
+          },
+          {
+            "label": "Tested Voltage (EXPO)",
+            "value": "1.35V"
+          },
+          {
+            "label": "Registered/Unbuffered",
+            "value": "Unbuffered"
+          },
+          {
+            "label": "Error Checking (ECC)",
+            "value": "Non-ECC"
+          },
+          {
+            "label": "SPD Speed (Default)",
+            "value": "5600 MT/s"
+          },
+          {
+            "label": "SPD Voltage (Default)",
+            "value": "1.10V"
+          },
+          {
+            "label": "Fan Included",
+            "value": "No"
+          },
+          {
+            "label": "Warranty",
+            "value": "Limited Lifetime"
+          },
+          {
+            "label": "Features",
+            "value": "AMD EXPO™ Memory Overclock Profile"
+          },
+          {
+            "label": "Additional Notes",
+            "value": "Do not mix memory kits. Memory kits are sold in matched kits that are designed to run together as a set. Mixing memory kits will result in stability issues or system failure. Memory kits that are \"Intel XMP 3.0 Ready\" / \"AMD EXPO Profile Ready\" includes support for the respective OC profile. Prior to enabling XMP or EXPO, memory kits will boot at the SPD speed at default BIOS settings with compatible hardware. For memory kits with XMP or EXPO, enable XMP/EXPO/DOCP/A-XMP profile in BIOS to reach up to the rated potential XMP or EXPO overclock speed of the memory kit, subject to the use of compatible hardware. Enabling XMP or EXPO is an act of overclocking and requires BIOS setting adjustments. Please refer to the \" How to Enable XMP/EXPO \" guide. Reaching the rated XMP/EXPO overclock speed and system stability will depend on the compatibility and capability of the motherboard and CPU used. Usage in any manner inconsistent with manufacturer specifications, warnings, designs, or recommendations will result in lower speeds, system instability, or damage to the system or its components. Memory module height can be found in the FAQ, under the question \" How tall are the memory modules? \". For product support and related questions, please contact the G.SKILL technical support team via email ."
+          },
+          {
+            "label": "Nom fabricant et éclairage",
+            "value": "Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 48,
+      "memorySticks": 2,
+      "memoryType": "DDR5",
+      "memorySpeedMTs": 6000,
+      "casLatency": 28,
+      "memoryVoltageV": 1.35,
+      "memoryProfile": "EXPO",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "heightMm": 44,
+      "manufacturerPartNumber": "F5-6000J2836F24GX2-TR5NG",
+      "memoryModuleKind": "UDIMM",
+      "memoryModuleFormat": "DIMM",
+      "rgb": true,
+      "memoryHeatspreader": true,
+      "description": "G.Skill Trident Z5 Royal Neo RGB 48 Go (2 × 24 Go) DDR5-6000 CL28 · Or. Référence F5-6000J2836F24GX2-TR5NG. Données techniques et éclairage RGB documentés par le fabricant."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 48,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memorySticks": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memorySpeedMTs": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "casLatency": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryVoltageV": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryProfile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "heightMm": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "manufacturerPartNumber": {
+        "value": "F5-6000J2836F24GX2-TR5NG",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "rgb": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG",
+        "checkedAt": "2026-11-10T22:00:42.727138+00:00",
+        "reason": "Référence exacte. Passage fabricant : Trident Z5 Royal Neo is the luxury-class of overclock performance DDR5 memory designed for compatible AMD platforms, featuring a crown jewel designed crystalline light bar for a magnificent display of customizable RGB lighting"
+      },
+      "memoryHeatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "heatspreader": {
+        "value": true,
+        "sourceURL": "https://www.gskill.com/community/1584933243/1661142547/EXPO-DDR5-Memory-for-AMD-AM5-Platform",
+        "checkedAt": "2026-11-10T22:01:49.321Z",
+        "reason": "Construction commune de la série Trident Z5 Royal Neo ; appartenance du MPN attestée par sa fiche technique exacte. Passage fabricant : electroplated aluminum heatspreaders with a mirrored finish"
+      },
+      "profile": {
+        "value": "EXPO",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "height": {
+        "value": 44,
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "capacity": {
+        "value": 48,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "kit": {
+        "value": 2,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "generation": {
+        "value": "DDR5",
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "rate": {
+        "value": 6000,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "cas": {
+        "value": 28,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "voltage": {
+        "value": 1.35,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "moduleType": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.gskill.com/faq",
+        "checkedAt": "2026-11-10T13:29:16.729423+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      },
+      "hostEcc": {
+        "value": false,
+        "sourceURL": "https://www.gskill.com/specification/165/425/1736133209/F5-6000J2836F24GX2-TR5NG-Specification",
+        "checkedAt": "2026-11-10T13:28:01.639588+00:00",
+        "reason": "Référence exacte. Passage fabricant : Caractéristique de la référence F5-6000J2836F24GX2-TR5NG"
+      }
+    }
+  }
+}

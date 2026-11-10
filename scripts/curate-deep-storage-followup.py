@@ -1,0 +1,96 @@
+"""Human-reviewed SSD facts with retained source documents and exact per-ID evidence."""
+from pathlib import Path
+import gzip,json,re
+ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'data/deep-review/storage-followup'; OLD=ROOT/'data/deep-review/memory-storage'
+base={r['component']['id']:r['component'] for r in json.loads(gzip.decompress((OUT/'baseline.json.gz').read_bytes()))};products={};proofs=[]
+labels={'read':'Lecture séquentielle','write':'Écriture séquentielle','nand':'Type NAND','endurance':'Endurance TBW','warranty':'Garantie','heatsink':'Dissipateur','interfaceGeneration':'Interface et protocole','formFactor':'Format M.2','controller':'Contrôleur','dram':'Cache DRAM','randomRead':'Lecture aléatoire','randomWrite':'Écriture aléatoire','weight':'Poids','mtbf':'MTBF','activePower':'Consommation active','idlePower':'Consommation au repos','operatingTemperature':'Température de fonctionnement','storageTemperature':'Température de stockage','encryption':'Chiffrement'}
+def src(key,url,name,kind='manufacturer'):
+ doc=json.loads((OUT/(key+'.json')).read_text());text='\n'.join(x.get('text','') for x in doc['response']['content']);assert url in text,url
+ return dict(name=name,url=url,checkedAt=doc['checkedAt'],kind=kind)
+def add(id,mpn,sources,values,dims=None,heatsink=None,notes=None,name=None,model=None):
+ c=base[id];patch=dict(capacityGB=c['capacityGB'],storageInterface='M.2 NVMe')
+ if mpn:patch['manufacturerPartNumber']=mpn
+ if model:patch['manufacturerModel']=model
+ if dims:patch.update({k:v for k,v in zip(['lengthMm','widthMm','heightMm'],dims) if v is not None})
+ if heatsink is not None:patch['storageHeatsink']=heatsink
+ if name:patch['name']=name
+ patch['description']=f"{c['brand']} {name or c['name']}. Caractéristiques et limites documentées pour cette capacité et cette version."
+ rows=[dict(label='Référence fabricant' if mpn else 'Modèle fabricant',value=mpn or model),dict(label='Capacité',value=f"{c['capacityGB']} Go")]
+ rows += [dict(label=labels.get(k,k),value=str(v[0] if isinstance(v,tuple) else v)) for k,v in values.items()]
+ if dims:rows.extend(dict(label=l,value=f'{v} mm') for l,v in zip(['Longueur','Largeur','Hauteur'],dims) if v is not None)
+ proof={k:dict(value=v[0] if isinstance(v,tuple) else v,sourceURL=sources[v[1] if isinstance(v,tuple) else 0]['url'],checkedAt=sources[v[1] if isinstance(v,tuple) else 0]['checkedAt']) for k,v in values.items()}
+ for k,v in patch.items():
+  if k not in ['description','name']:proof[k]=dict(value=v,sourceURL=sources[0]['url'],checkedAt=sources[0]['checkedAt'])
+ p=dict(mpn=mpn,identityNote='Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.',sources=sources,groups=[dict(title='Stockage · caractéristiques exactes et limites publiées',rows=rows)],patch=patch,offers=[],notes=notes or [],fieldEvidence=proof)
+ if model:p.update(identityKind='manufacturer-model',manufacturerModel=model)
+ products[id]=p
+ proofs.append(dict(id=id,mpn=mpn,manufacturerModel=model,sourceURLs=[s['url'] for s in sources],fieldSources={k:v['sourceURL'] for k,v in proof.items()},notes=p['notes']))
+ return p
+
+sam=src('samsung-heatsink','https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf','Samsung — fiche officielle 990 PRO with Heatsink révision 3.0')
+for id,mpn,cap,randomread,readpower,writepower,idle in [
+ ('import-ssd-59373d019360','MZ-V9P1T0CW',1,1200000,5.5,5.2,50),('import-ssd-d3ec4b5c5379','MZ-V9P2T0CW',2,1400000,6.1,5.5,55),('import-ssd-e35ae4df739f','MZ-V9P4T0CW',4,1600000,6.5,5.7,55)]:
+ add(id,mpn,[sam],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 2.0',formFactor='M.2 2280',read='7 450 Mo/s maximum',write='6 900 Mo/s maximum',nand='Samsung V-NAND TLC',endurance=f'{cap*600} TBW',warranty='5 ans ou TBW, première limite atteinte',heatsink='Dissipateur préinstallé avec éclairage RGB',dram=f'{cap} Go LPDDR4',controller='Samsung, conception interne',randomRead=f'{randomread} IOPS maximum (QD32/T16)',randomWrite='1 550 000 IOPS maximum (QD32/T16)',activePower=f'Lecture {readpower} W ; écriture {writepower} W (moyennes actives maximales)',idlePower=f'{idle} mW APST activé',operatingTemperature='0 à 70 °C',storageTemperature='−40 à 85 °C',mtbf='1,5 million d’heures',encryption='AES 256 bits ; TCG Opal 2.0 ; IEEE1667'),(80.15,25,8.88),True,notes=['Dimensions maximales de la révision officielle 3.0 ; les anciennes pages peuvent conserver des mesures antérieures.'])
+
+k=src('fetch-selected-1','https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=','KLEVV — fiche officielle CRAS C715 v3')
+p=add('import-ssd-4b370adc4f5c','K01TBM2SP0-C7T',[k],dict(interfaceGeneration='PCIe 3.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='3 200 Mo/s maximum',write='2 000 Mo/s maximum',nand='3D TLC',endurance='600 TBW',warranty='5 ans limitée',weight='7 g',**{'Organisation physique':'PCB simple face'}),(80,22,2.5),name='CRAS C715 1 To · PCIe 3.0 ×4',notes=['Correction de l’archive PCIe 4.0 : le modèle C715 est explicitement PCIe Gen3 ×4.'])
+p['patch']['specs']=['1 To','M.2 2280 · PCIe 3.0 ×4 NVMe 1.3','Lecture 3 200 Mo/s · écriture 2 000 Mo/s']
+p['fieldEvidence']['specs']=dict(value=p['patch']['specs'],sourceURL=k['url'],checkedAt=k['checkedAt'])
+
+us=src('fetch-selected-1','https://silicon-power.com/web/product-US70','Silicon Power — page US70 et tableau de commande par capacité')
+for id,mpn,tbw in [('import-ssd-8bf5bca73859','SP01KGBP44US7005',1800),('import-ssd-4339ab71f076','SP02KGBP44US7005',3600)]:
+ add(id,mpn,[us],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum',write='4 400 Mo/s maximum',nand='3D NAND ; TLC/QLC non précisé',endurance=f'{tbw} TBW',warranty='5 ans ou TBW, première limite atteinte',weight='8 g',mtbf='1 700 000 heures',operatingTemperature='0 à 70 °C'),(80,22,3.5))
+
+xs=src('fetch-selected-2','https://silicon-power.com/web/product-XS70','Silicon Power — XS70, tableau par capacité et codes régionaux')
+for id,cap,read in [('import-ssd-ab2fb7f44091',2,7300),('import-ssd-4b0d79c1fc74',4,7200)]:
+ add(id,'',[xs],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.4',formFactor='M.2 2280',read=f'{read} Mo/s maximum',write='6 800 Mo/s maximum',nand='3D NAND ; TLC/QLC non précisé',warranty='5 ans ou TBW, première limite atteinte',heatsink='Dissipateur aluminium préinstallé',dram='Présent',weight='33 g',mtbf='1 600 000 heures',operatingTemperature='0 à 70 °C'),(80,24.6,10.8),True,model=f'XS70 {cap}TB',notes=['Modèle et capacité documentés. Le tableau distingue plusieurs suffixes régionaux ; aucun MPN commercial n’est choisi arbitrairement.','La valeur de lecture 4 To est 7 200 Mo/s, distincte du maximum 7 300 Mo/s de la série.'])
+
+ki=src('fetch-selected-1','https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G','Kingston — référence arrêtée SFYRSK/500G')
+kp=src('fetch-selected-2','https://www.kingston.com/en/company/press/article/67775','Kingston — lancement FURY Renegade avec dissipateur')
+kr=src('fetch-selected-2','https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php','ComX — fiche exacte SFYRSK/500G','retailer')
+p=add('import-ssd-25886bcecc13','SFYRSK/500G',[ki,kp,kr],dict(interfaceGeneration=('PCIe 4.0 ×4 NVMe',2),formFactor=('M.2 2280',2),read=('7 300 Mo/s maximum',2),write=('3 900 Mo/s maximum',2),nand=('3D TLC',2),endurance=('500 TBW',2),warranty=('5 ans limitée',1),heatsink='Dissipateur préinstallé',controller=('Phison E18',2),dram=('Présent',2),randomRead=('450 000 IOPS maximum',2),randomWrite=('900 000 IOPS maximum',2),weight=('32,1 g avec dissipateur',2)),(80,23.67,10.5),True,notes=['Référence officiellement arrêtée. MTBF non retenu : les distributeurs divergent entre 1,8 et 2 millions d’heures.'])
+for field in ['lengthMm','widthMm','heightMm']:p['fieldEvidence'][field].update(sourceURL=kr['url'],checkedAt=kr['checkedAt'])
+
+a840=src('fetch-selected-1','https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf','ADATA — fiche originale LEGEND 840 conservée par Tehnoteka','retailer')
+for id,mpn,write,tbw,rr,rw in [('import-ssd-71709db07089','ALEG-840-512GCS',3000,325,520000,450000),('import-ssd-97e83495331c','ALEG-840-1TCS',4500,650,650000,600000)]:
+ add(id,mpn,[a840],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.4',formFactor='M.2 2280',read='5 000 Mo/s maximum',write=f'{write} Mo/s maximum',nand='3D NAND ; TLC/QLC non précisé',endurance=f'{tbw} TBW',warranty='5 ans limitée',heatsink='Dissipateur fourni, épaisseur totale 3,13 mm ; module nu 2,15 mm',controller='Innogrit IG5220',randomRead=f'{rr} IOPS maximum',randomWrite=f'{rw} IOPS maximum',mtbf='2 000 000 heures',operatingTemperature='0 à 70 °C',storageTemperature='−40 à 85 °C',encryption='AES 256 bits'),(80,22,3.13),True)
+
+s50=src('fetch-selected-1','https://www.comx.co.za/download/adata/191648_PDF1.pdf','ADATA/XPG — fiche GAMMIX S50 originale, miroir ComX','retailer')
+for id,mpn,tbw in [('import-ssd-bb27852e961e','AGAMMIXS50-1TT-C',1800),('import-ssd-0ee0e5378f99','AGAMMIXS50-2TT-C',3600)]:
+ add(id,mpn,[s50],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum (CDM QD32/T1)',write='4 400 Mo/s maximum (CDM QD32/T1)',nand='3D TLC',endurance=f'{tbw} TBW',warranty='5 ans limitée',heatsink='Dissipateur aluminium',dram='Présent',randomRead='750 000 IOPS',randomWrite='750 000 IOPS',weight='12 g',mtbf='1 700 000 heures',activePower='0,8 W typique (selon méthode de la fiche)',idlePower='0,05 W Slumber',encryption='AES 256 bits'),(80,22,6.1),True,notes=['Original GAMMIX S50, distinct des S50 Lite et S50 CORE. Axes physiques normalisés : 80 mm est la longueur du M.2 2280.'])
+
+pre=src('fetch-selected-1','https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf','ADATA — fiche officielle Premium SSD for PS5')
+add('import-ssd-5318a1969718','APSFG-1T-CSUS',[pre],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.4',formFactor='M.2 2280',read='7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5',write='5 500 Mo/s maximum (1 To)',nand='3D NAND ; TLC/QLC non précisé',endurance='740 TBW',warranty='5 ans limitée',heatsink='Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm',controller='InnoGrit IG5236A1',dram='Présent',randomRead='740 000 IOPS',randomWrite='740 000 IOPS',mtbf='2 000 000 heures',weight='10 g avec dissipateur ; 7 g nu',encryption='AES 256 bits'),(80,22,4.3),True,notes=['Le tableau de commande comporte une répétition du code 1 To dans la ligne 2 To. La ligne 1 To et ses performances sont distinctes ; aucun code 2 To n’est dérivé.'])
+
+cer=src('fetch-selected-1','https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538','Newegg — modèle exact Ceramic C440 et tableau fabricant par capacité','retailer')
+add('import-ssd-c79175eed546','TM8FPA001T0C410',[cer],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum',write='4 400 Mo/s maximum',nand='3D NAND ; cellule non précisée',endurance='1 800 TBW',heatsink='Dissipateur céramique',randomRead='750 000 IOPS maximum',randomWrite='750 000 IOPS maximum',weight='13,5 g',mtbf='1 700 000 heures'),(80,22,4.75),True)
+cer2=src('ceramic2','https://www.epricesource.com/team-group-tm8fpa002t0c410-parts-supplies.html','ePriceSource — identité commerciale Ceramic C440 2 To','retailer')
+p=add('import-ssd-7332ff1e5cf6','TM8FPA002T0C410',[cer2,cer],{k:(v,1) for k,v in dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum (ligne 2 To)',write='4 400 Mo/s maximum (ligne 2 To)',nand='3D NAND ; cellule non précisée',endurance='3 600 TBW (ligne 2 To)',heatsink='Dissipateur céramique',randomRead='750 000 IOPS maximum (ligne 2 To)',randomWrite='750 000 IOPS maximum (ligne 2 To)',weight='13,5 g',mtbf='1 700 000 heures').items()},(80,22,4.75),True)
+for field in ['lengthMm','widthMm','heightMm','storageHeatsink']:p['fieldEvidence'][field].update(sourceURL=cer['url'],checkedAt=cer['checkedAt'])
+
+p400=src('patriot-p400','https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf','Patriot — fiche SKU P400P1TBM28H conservée par 1foDiscount','retailer')
+add('import-ssd-c9f204a98f01','P400P1TBM28H',[p400],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum',write='4 800 Mo/s maximum',endurance='800 TBW',warranty='5 ans limitée',heatsink='Bouclier thermique ultrafin en graphène',randomRead='620 000 IOPS',randomWrite='550 000 IOPS',activePower='2,38 W',idlePower='0,38 W',weight='9 g',operatingTemperature='0 à 70 °C'),(80,22,3.8),True)
+p512=src('fetch-selected-2','https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296','Newegg — fiche exacte P400P512GM28H','retailer')
+add('import-ssd-7d090e078598','P400P512GM28H',[p512],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum',write='3 300 Mo/s maximum',endurance='400 TBW',heatsink='Bouclier thermique ultrafin en graphène',randomRead='550 000 IOPS',randomWrite='450 000 IOPS',activePower='2,38 W',idlePower='0,38 W',weight='9 g',operatingTemperature='0 à 70 °C'),(80,22,3.8),True,notes=['Garantie non validée : Newegg indique 3 ans, les documents de la famille indiquent 5 ans. Une fiche SKU 512 Go reste nécessaire.'])
+vp=src('fetch-selected-2','https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf','Patriot — fiche exacte VP4100-1TBM28H, miroir Senetic','retailer')
+add('import-ssd-b51a4487c486','VP4100-1TBM28H',[vp],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.3',formFactor='M.2 2280',read='5 000 Mo/s maximum (CDM) ; 4 700 Mo/s (ATTO)',write='4 400 Mo/s maximum (CDM) ; 4 200 Mo/s (ATTO)',endurance='1 800 TBW',warranty='5 ans limitée',heatsink='Dissipateur bas profil et capteur thermique externe',controller='Phison E16',dram='1 Go',randomRead='800 000 IOPS',randomWrite='800 000 IOPS',weight='25 g',operatingTemperature='0 à 70 °C'),(80,22,7),True)
+
+cwhite=src('crucial-white','https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html','B&H — T705 2 To édition dissipateur blanc, référence exacte','retailer')
+cwp=src('fetch-selected-2','https://www.simms.co.uk/PDFS/Products/SSD/Crucial-T705-Datasheet.pdf','Crucial — fiche officielle T705, miroir Simms','retailer')
+add('import-ssd-bff619a7272a','CT2000T705SSD5A',[cwhite,cwp],dict(interfaceGeneration='PCIe 5.0 ×4 NVMe',formFactor='M.2 2280',read='14 500 Mo/s maximum',write='12 700 Mo/s maximum',nand='Micron 232 couches 3D TLC',endurance='1 200 TBW',warranty=('5 ans ou TBW, première limite atteinte',1),heatsink='Dissipateur blanc, édition limitée',randomRead='1 550 000 IOPS',randomWrite='1 800 000 IOPS',mtbf='1,5 million d’heures'),(80.01,23.37,21.08),True,notes=['Dimensions métriques publiées par B&H, issues de mesures arrondies en pouces ; ne pas les confondre avec une tolérance mécanique fabricant.'])
+cp=src('fetch-selected-2','https://www.crucial.in/products/ssd/crucial-p5-plus-ssd','Crucial — tableau officiel P5 Plus incluant les références avec dissipateur')
+cpr=src('fetch-selected-2','https://www.comx.co.za/CT2000P5PSSD5-Crucial-P5-Plus-2TB-M-2-NVMe-Gen4-NAND-Solid-State-Drive-p-283697.php','ComX — fiche exacte P5 Plus 2 To avec dissipateur','retailer')
+add('import-ssd-7b94673e8fe5','CT2000P5PSSD5',[cp,cpr],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe',formFactor='M.2 2280',read='6 600 Mo/s maximum',write='5 000 Mo/s maximum',nand='Micron Advanced 3D NAND ; cellule non précisée dans la page',endurance=('1 200 TBW',1),warranty='5 ans limitée',heatsink='Dissipateur préinstallé',randomRead='720 000 IOPS maximum',randomWrite='700 000 IOPS maximum'),heatsink=True,notes=['Dimensions du modèle avec dissipateur non publiées dans les sources admises ; aucune mesure du module nu substituée.'])
+
+v2=src('vp4100-2-spec','https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html','Singular — VP4100-2TBM28H, caractéristiques de la capacité exacte','retailer')
+add('import-ssd-4f0c032bcf45','VP4100-2TBM28H',[v2],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe',formFactor='M.2 2280',read='5 000 Mo/s',write='4 400 Mo/s',endurance='3 600 TBW',warranty='5 ans limitée',heatsink='Dissipateur bas profil et capteur thermique externe',controller='Phison E16',dram='2 Go',randomRead='800 000 IOPS',randomWrite='800 000 IOPS',weight='25 g',operatingTemperature='0 à 70 °C'),(80,22,7),True,notes=['La catégorie générique 2,5 pouces du marchand est contredite par son tableau M.2 2280 ; seule la spécification M.2 du produit exact est retenue.'])
+pre2=src('adata-premium2-final','https://www.amazon.com/ADATA-Premium-Internal-Gaming-APSFG-2T-CSUS/dp/B09NS6TQND','Amazon — identité commerciale ADATA Premium 2 To APSFG-2T-CSUS','retailer')
+p=add('import-ssd-1d750eaa8f27','APSFG-2T-CSUS',[pre2,pre],{k:(v,1) for k,v in dict(interfaceGeneration='PCIe 4.0 ×4 NVMe 1.4',formFactor='M.2 2280',read='7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5',write='6 800 Mo/s maximum (CDM QD32/T1) ; 6 700 Mo/s (ATTO)',nand='3D NAND ; TLC/QLC non précisé',endurance='1 480 TBW',warranty='5 ans limitée',heatsink='Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm',controller='InnoGrit IG5236A1',dram='Présent',randomRead='750 000 IOPS',randomWrite='750 000 IOPS',mtbf='2 000 000 heures',weight='10 g avec dissipateur ; 7 g nu',encryption='AES 256 bits').items()},(80,22,4.3),True,notes=['Le PDF fabricant répète par erreur le MPN 1 To sur la ligne 2 To. Le MPN 2 To est établi séparément par la fiche marchande exacte ; les performances proviennent exclusivement de la ligne 2 To du PDF.'])
+for field in ['lengthMm','widthMm','heightMm','storageHeatsink']:p['fieldEvidence'][field].update(sourceURL=pre['url'],checkedAt=pre['checkedAt'])
+ms=src('msi-eco-final','https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html','Epicentr — référence SPATIUM M482 2 To Eco-Pack S78-440Q720-P83','retailer')
+add('import-ssd-f37e0ff096d2','S78-440Q720-P83',[ms],dict(interfaceGeneration='PCIe 4.0 ×4 NVMe',formFactor='M.2 2280',read='7 300 Mo/s',write='6 400 Mo/s',nand='3D TLC (fiche marchande Eco-Pack)',endurance='1 200 TBW',warranty='60 mois',mtbf='1,5 million d’heures',**{'Conditionnement':'Eco-Pack ; SSD seul'}),(80,22,2.15),notes=['Identité Eco-Pack établie par une fiche marchande exacte. Aucune assimilation aux références boîte, Bulk ou SM482N2TB ; aucune offre ukrainienne importée.'])
+
+proofs=[dict(id=id,mpn=p['mpn'],manufacturerModel=p.get('manufacturerModel'),sourceURLs=[s['url'] for s in p['sources']],fieldSources={k:v['sourceURL'] for k,v in p['fieldEvidence'].items()},notes=p['notes']) for id,p in products.items()]
+(OUT/'manual-products.json').write_text(json.dumps(products,ensure_ascii=False,indent=2)+'\n')
+(OUT/'manual-field-proofs.json').write_text(json.dumps(proofs,ensure_ascii=False,indent=2)+'\n')
+print(f'{len(products)} manually reviewed exact records')

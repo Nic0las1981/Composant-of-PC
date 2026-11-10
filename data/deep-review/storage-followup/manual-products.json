@@ -1,0 +1,4966 @@
+{
+  "import-ssd-59373d019360": {
+    "mpn": "MZ-V9P1T0CW",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Samsung — fiche officielle 990 PRO with Heatsink révision 3.0",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "MZ-V9P1T0CW"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 450 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 900 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "Samsung V-NAND TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur préinstallé avec éclairage RGB"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "1 Go LPDDR4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Samsung, conception interne"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1200000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1 550 000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Lecture 5.5 W ; écriture 5.2 W (moyennes actives maximales)"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "50 mW APST activé"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667"
+          },
+          {
+            "label": "Longueur",
+            "value": "80.15 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "25 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "8.88 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "MZ-V9P1T0CW",
+      "lengthMm": 80.15,
+      "widthMm": 25,
+      "heightMm": 8.88,
+      "storageHeatsink": true,
+      "description": "Samsung 990 Pro w/Heatsink 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Dimensions maximales de la révision officielle 3.0 ; les anciennes pages peuvent conserver des mesures antérieures."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "read": {
+        "value": "7 450 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "write": {
+        "value": "6 900 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "nand": {
+        "value": "Samsung V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur préinstallé avec éclairage RGB",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "dram": {
+        "value": "1 Go LPDDR4",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "controller": {
+        "value": "Samsung, conception interne",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomRead": {
+        "value": "1200000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomWrite": {
+        "value": "1 550 000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "activePower": {
+        "value": "Lecture 5.5 W ; écriture 5.2 W (moyennes actives maximales)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "idlePower": {
+        "value": "50 mW APST activé",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageTemperature": {
+        "value": "−40 à 85 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "mtbf": {
+        "value": "1,5 million d’heures",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P1T0CW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "widthMm": {
+        "value": 25,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heightMm": {
+        "value": 8.88,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      }
+    }
+  },
+  "import-ssd-d3ec4b5c5379": {
+    "mpn": "MZ-V9P2T0CW",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Samsung — fiche officielle 990 PRO with Heatsink révision 3.0",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "MZ-V9P2T0CW"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 450 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 900 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "Samsung V-NAND TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1200 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur préinstallé avec éclairage RGB"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "2 Go LPDDR4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Samsung, conception interne"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1400000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1 550 000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Lecture 6.1 W ; écriture 5.5 W (moyennes actives maximales)"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "55 mW APST activé"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667"
+          },
+          {
+            "label": "Longueur",
+            "value": "80.15 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "25 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "8.88 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "MZ-V9P2T0CW",
+      "lengthMm": 80.15,
+      "widthMm": 25,
+      "heightMm": 8.88,
+      "storageHeatsink": true,
+      "description": "Samsung 990 Pro w/Heatsink 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Dimensions maximales de la révision officielle 3.0 ; les anciennes pages peuvent conserver des mesures antérieures."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "read": {
+        "value": "7 450 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "write": {
+        "value": "6 900 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "nand": {
+        "value": "Samsung V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur préinstallé avec éclairage RGB",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "dram": {
+        "value": "2 Go LPDDR4",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "controller": {
+        "value": "Samsung, conception interne",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomRead": {
+        "value": "1400000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomWrite": {
+        "value": "1 550 000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "activePower": {
+        "value": "Lecture 6.1 W ; écriture 5.5 W (moyennes actives maximales)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "idlePower": {
+        "value": "55 mW APST activé",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageTemperature": {
+        "value": "−40 à 85 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "mtbf": {
+        "value": "1,5 million d’heures",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P2T0CW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "widthMm": {
+        "value": 25,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heightMm": {
+        "value": 8.88,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      }
+    }
+  },
+  "import-ssd-e35ae4df739f": {
+    "mpn": "MZ-V9P4T0CW",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Samsung — fiche officielle 990 PRO with Heatsink révision 3.0",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "MZ-V9P4T0CW"
+          },
+          {
+            "label": "Capacité",
+            "value": "4000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 450 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 900 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "Samsung V-NAND TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "2400 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur préinstallé avec éclairage RGB"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "4 Go LPDDR4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Samsung, conception interne"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1600000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1 550 000 IOPS maximum (QD32/T16)"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Lecture 6.5 W ; écriture 5.7 W (moyennes actives maximales)"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "55 mW APST activé"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667"
+          },
+          {
+            "label": "Longueur",
+            "value": "80.15 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "25 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "8.88 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "MZ-V9P4T0CW",
+      "lengthMm": 80.15,
+      "widthMm": 25,
+      "heightMm": 8.88,
+      "storageHeatsink": true,
+      "description": "Samsung 990 Pro w/Heatsink 4 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Dimensions maximales de la révision officielle 3.0 ; les anciennes pages peuvent conserver des mesures antérieures."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "read": {
+        "value": "7 450 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "write": {
+        "value": "6 900 Mo/s maximum",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "nand": {
+        "value": "Samsung V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "endurance": {
+        "value": "2400 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur préinstallé avec éclairage RGB",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "dram": {
+        "value": "4 Go LPDDR4",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "controller": {
+        "value": "Samsung, conception interne",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomRead": {
+        "value": "1600000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "randomWrite": {
+        "value": "1 550 000 IOPS maximum (QD32/T16)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "activePower": {
+        "value": "Lecture 6.5 W ; écriture 5.7 W (moyennes actives maximales)",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "idlePower": {
+        "value": "55 mW APST activé",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageTemperature": {
+        "value": "−40 à 85 °C",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "mtbf": {
+        "value": "1,5 million d’heures",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits ; TCG Opal 2.0 ; IEEE1667",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P4T0CW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "widthMm": {
+        "value": 25,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "heightMm": {
+        "value": 8.88,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_with_heatsink_datasheet_rev.3.0.pdf",
+        "checkedAt": "2026-11-10T22:00:21.960Z"
+      }
+    }
+  },
+  "import-ssd-4b370adc4f5c": {
+    "mpn": "K01TBM2SP0-C7T",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "KLEVV — fiche officielle CRAS C715 v3",
+        "url": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "K01TBM2SP0-C7T"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 3.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "3 200 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "2 000 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Poids",
+            "value": "7 g"
+          },
+          {
+            "label": "Organisation physique",
+            "value": "PCB simple face"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "2.5 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "K01TBM2SP0-C7T",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.5,
+      "name": "CRAS C715 1 To · PCIe 3.0 ×4",
+      "description": "Klevv CRAS C715 1 To · PCIe 3.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version.",
+      "specs": [
+        "1 To",
+        "M.2 2280 · PCIe 3.0 ×4 NVMe 1.3",
+        "Lecture 3 200 Mo/s · écriture 2 000 Mo/s"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Correction de l’archive PCIe 4.0 : le modèle C715 est explicitement PCIe Gen3 ×4."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "3 200 Mo/s maximum",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "2 000 Mo/s maximum",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D TLC",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "7 g",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "Organisation physique": {
+        "value": "PCB simple face",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "K01TBM2SP0-C7T",
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 2.5,
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "specs": {
+        "value": [
+          "1 To",
+          "M.2 2280 · PCIe 3.0 ×4 NVMe 1.3",
+          "Lecture 3 200 Mo/s · écriture 2 000 Mo/s"
+        ],
+        "sourceURL": "https://www.klevv.com/HyAdmin/upload/goodFile/KLEVV_Product%20Sheet_SSD_CRAS%20C715_v3_EN.pdf?2026010501=",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-8bf5bca73859": {
+    "mpn": "SP01KGBP44US7005",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Silicon Power — page US70 et tableau de commande par capacité",
+        "url": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SP01KGBP44US7005"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1800 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Poids",
+            "value": "8 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.5 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "SP01KGBP44US7005",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.5,
+      "description": "Silicon Power US70 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "1800 TBW",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "8 g",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "SP01KGBP44US7005",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 3.5,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-4339ab71f076": {
+    "mpn": "SP02KGBP44US7005",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Silicon Power — page US70 et tableau de commande par capacité",
+        "url": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SP02KGBP44US7005"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3600 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Poids",
+            "value": "8 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.5 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "SP02KGBP44US7005",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.5,
+      "description": "Silicon Power US70 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "3600 TBW",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "8 g",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "SP02KGBP44US7005",
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 3.5,
+        "sourceURL": "https://silicon-power.com/web/product-US70",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-ab2fb7f44091": {
+    "mpn": "",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Silicon Power — XS70, tableau par capacité et codes régionaux",
+        "url": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Modèle fabricant",
+            "value": "XS70 2TB"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7300 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 800 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur aluminium préinstallé"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Poids",
+            "value": "33 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 600 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "24.6 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "10.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerModel": "XS70 2TB",
+      "lengthMm": 80,
+      "widthMm": 24.6,
+      "heightMm": 10.8,
+      "storageHeatsink": true,
+      "description": "Silicon Power XS70 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Modèle et capacité documentés. Le tableau distingue plusieurs suffixes régionaux ; aucun MPN commercial n’est choisi arbitrairement.",
+      "La valeur de lecture 4 To est 7 200 Mo/s, distincte du maximum 7 300 Mo/s de la série."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "7300 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "6 800 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur aluminium préinstallé",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "weight": {
+        "value": "33 g",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "mtbf": {
+        "value": "1 600 000 heures",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "manufacturerModel": {
+        "value": "XS70 2TB",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "widthMm": {
+        "value": 24.6,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heightMm": {
+        "value": 10.8,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      }
+    },
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XS70 2TB"
+  },
+  "import-ssd-4b0d79c1fc74": {
+    "mpn": "",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Silicon Power — XS70, tableau par capacité et codes régionaux",
+        "url": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Modèle fabricant",
+            "value": "XS70 4TB"
+          },
+          {
+            "label": "Capacité",
+            "value": "4000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7200 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 800 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur aluminium préinstallé"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Poids",
+            "value": "33 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 600 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "24.6 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "10.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerModel": "XS70 4TB",
+      "lengthMm": 80,
+      "widthMm": 24.6,
+      "heightMm": 10.8,
+      "storageHeatsink": true,
+      "description": "Silicon Power XS70 4 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Modèle et capacité documentés. Le tableau distingue plusieurs suffixes régionaux ; aucun MPN commercial n’est choisi arbitrairement.",
+      "La valeur de lecture 4 To est 7 200 Mo/s, distincte du maximum 7 300 Mo/s de la série."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "7200 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "6 800 Mo/s maximum",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur aluminium préinstallé",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "weight": {
+        "value": "33 g",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "mtbf": {
+        "value": "1 600 000 heures",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "manufacturerModel": {
+        "value": "XS70 4TB",
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "widthMm": {
+        "value": 24.6,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heightMm": {
+        "value": 10.8,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://silicon-power.com/web/product-XS70",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      }
+    },
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XS70 4TB"
+  },
+  "import-ssd-25886bcecc13": {
+    "mpn": "SFYRSK/500G",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Kingston — référence arrêtée SFYRSK/500G",
+        "url": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Kingston — lancement FURY Renegade avec dissipateur",
+        "url": "https://www.kingston.com/en/company/press/article/67775",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ComX — fiche exacte SFYRSK/500G",
+        "url": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SFYRSK/500G"
+          },
+          {
+            "label": "Capacité",
+            "value": "500 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 300 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "3 900 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "500 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur préinstallé"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E18"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "450 000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "900 000 IOPS maximum"
+          },
+          {
+            "label": "Poids",
+            "value": "32,1 g avec dissipateur"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "23.67 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "10.5 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "SFYRSK/500G",
+      "lengthMm": 80,
+      "widthMm": 23.67,
+      "heightMm": 10.5,
+      "storageHeatsink": true,
+      "description": "Kingston Fury Renegade with Heat Sink 500 Go · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Référence officiellement arrêtée. MTBF non retenu : les distributeurs divergent entre 1,8 et 2 millions d’heures."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "7 300 Mo/s maximum",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "3 900 Mo/s maximum",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "nand": {
+        "value": "3D TLC",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "endurance": {
+        "value": "500 TBW",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.kingston.com/en/company/press/article/67775",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur préinstallé",
+        "sourceURL": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "controller": {
+        "value": "Phison E18",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomRead": {
+        "value": "450 000 IOPS maximum",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomWrite": {
+        "value": "900 000 IOPS maximum",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "weight": {
+        "value": "32,1 g avec dissipateur",
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "SFYRSK/500G",
+        "sourceURL": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "widthMm": {
+        "value": 23.67,
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heightMm": {
+        "value": 10.5,
+        "sourceURL": "https://www.comx.co.za/SFYRSK-500G-Kingston-FURY-Renegade-500G-PCIe-4-0-NVMe-Solid-State-Drive-with-Heatsink-p-305406.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SFYRSK%2F500G",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-71709db07089": {
+    "mpn": "ALEG-840-512GCS",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ADATA — fiche originale LEGEND 840 conservée par Tehnoteka",
+        "url": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "ALEG-840-512GCS"
+          },
+          {
+            "label": "Capacité",
+            "value": "512 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "3000 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "325 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur fourni, épaisseur totale 3,13 mm ; module nu 2,15 mm"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Innogrit IG5220"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "520000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "450000 IOPS maximum"
+          },
+          {
+            "label": "MTBF",
+            "value": "2 000 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.13 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "ALEG-840-512GCS",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.13,
+      "storageHeatsink": true,
+      "description": "ADATA LEGEND 840 512 Go · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "3000 Mo/s maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "325 TBW",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur fourni, épaisseur totale 3,13 mm ; module nu 2,15 mm",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "controller": {
+        "value": "Innogrit IG5220",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "520000 IOPS maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "450000 IOPS maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "2 000 000 heures",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageTemperature": {
+        "value": "−40 à 85 °C",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 512,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "ALEG-840-512GCS",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 3.13,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-97e83495331c": {
+    "mpn": "ALEG-840-1TCS",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ADATA — fiche originale LEGEND 840 conservée par Tehnoteka",
+        "url": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "ALEG-840-1TCS"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4500 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "650 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur fourni, épaisseur totale 3,13 mm ; module nu 2,15 mm"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Innogrit IG5220"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "650000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "600000 IOPS maximum"
+          },
+          {
+            "label": "MTBF",
+            "value": "2 000 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.13 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "ALEG-840-1TCS",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.13,
+      "storageHeatsink": true,
+      "description": "ADATA LEGEND 840 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4500 Mo/s maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "650 TBW",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur fourni, épaisseur totale 3,13 mm ; module nu 2,15 mm",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "controller": {
+        "value": "Innogrit IG5220",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "650000 IOPS maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "600000 IOPS maximum",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "2 000 000 heures",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageTemperature": {
+        "value": "−40 à 85 °C",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "ALEG-840-1TCS",
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 3.13,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-bb27852e961e": {
+    "mpn": "AGAMMIXS50-1TT-C",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ADATA/XPG — fiche GAMMIX S50 originale, miroir ComX",
+        "url": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AGAMMIXS50-1TT-C"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum (CDM QD32/T1)"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum (CDM QD32/T1)"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1800 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur aluminium"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "Poids",
+            "value": "12 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Consommation active",
+            "value": "0,8 W typique (selon méthode de la fiche)"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0,05 W Slumber"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "6.1 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "AGAMMIXS50-1TT-C",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 6.1,
+      "storageHeatsink": true,
+      "description": "ADATA XPG GAMMIX S50 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Original GAMMIX S50, distinct des S50 Lite et S50 CORE. Axes physiques normalisés : 80 mm est la longueur du M.2 2280."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum (CDM QD32/T1)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum (CDM QD32/T1)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D TLC",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "1800 TBW",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur aluminium",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "12 g",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "activePower": {
+        "value": "0,8 W typique (selon méthode de la fiche)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "idlePower": {
+        "value": "0,05 W Slumber",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "AGAMMIXS50-1TT-C",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 6.1,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-0ee0e5378f99": {
+    "mpn": "AGAMMIXS50-2TT-C",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ADATA/XPG — fiche GAMMIX S50 originale, miroir ComX",
+        "url": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AGAMMIXS50-2TT-C"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum (CDM QD32/T1)"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum (CDM QD32/T1)"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3600 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur aluminium"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "Poids",
+            "value": "12 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Consommation active",
+            "value": "0,8 W typique (selon méthode de la fiche)"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0,05 W Slumber"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "6.1 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "AGAMMIXS50-2TT-C",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 6.1,
+      "storageHeatsink": true,
+      "description": "ADATA XPG GAMMIX S50 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Original GAMMIX S50, distinct des S50 Lite et S50 CORE. Axes physiques normalisés : 80 mm est la longueur du M.2 2280."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum (CDM QD32/T1)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum (CDM QD32/T1)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D TLC",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "3600 TBW",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur aluminium",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "12 g",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "activePower": {
+        "value": "0,8 W typique (selon méthode de la fiche)",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "idlePower": {
+        "value": "0,05 W Slumber",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "AGAMMIXS50-2TT-C",
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 6.1,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.comx.co.za/download/adata/191648_PDF1.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-5318a1969718": {
+    "mpn": "APSFG-1T-CSUS",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ADATA — fiche officielle Premium SSD for PS5",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "APSFG-1T-CSUS"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "5 500 Mo/s maximum (1 To)"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "740 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236A1"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "740 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "740 000 IOPS"
+          },
+          {
+            "label": "MTBF",
+            "value": "2 000 000 heures"
+          },
+          {
+            "label": "Poids",
+            "value": "10 g avec dissipateur ; 7 g nu"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "4.3 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "APSFG-1T-CSUS",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 4.3,
+      "storageHeatsink": true,
+      "description": "ADATA Premium For PS5 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Le tableau de commande comporte une répétition du code 1 To dans la ligne 2 To. La ligne 1 To et ses performances sont distinctes ; aucun code 2 To n’est dérivé."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "5 500 Mo/s maximum (1 To)",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "740 TBW",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "controller": {
+        "value": "InnoGrit IG5236A1",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "740 000 IOPS",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "740 000 IOPS",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "2 000 000 heures",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "10 g avec dissipateur ; 7 g nu",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "APSFG-1T-CSUS",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 4.3,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-c79175eed546": {
+    "mpn": "TM8FPA001T0C410",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Newegg — modèle exact Ceramic C440 et tableau fabricant par capacité",
+        "url": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "TM8FPA001T0C410"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule non précisée"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 800 TBW"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur céramique"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750 000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750 000 IOPS maximum"
+          },
+          {
+            "label": "Poids",
+            "value": "13,5 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "4.75 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "TM8FPA001T0C410",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 4.75,
+      "storageHeatsink": true,
+      "description": "TeamGroup T-Force Cardea Ceramic C440 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; cellule non précisée",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "1 800 TBW",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur céramique",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "750 000 IOPS maximum",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "750 000 IOPS maximum",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "13,5 g",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "TM8FPA001T0C410",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 4.75,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-7332ff1e5cf6": {
+    "mpn": "TM8FPA002T0C410",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "ePriceSource — identité commerciale Ceramic C440 2 To",
+        "url": "https://www.epricesource.com/team-group-tm8fpa002t0c410-parts-supplies.html",
+        "checkedAt": "2026-11-10T22:05:14.644Z",
+        "kind": "retailer"
+      },
+      {
+        "name": "Newegg — modèle exact Ceramic C440 et tableau fabricant par capacité",
+        "url": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "TM8FPA002T0C410"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum (ligne 2 To)"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum (ligne 2 To)"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule non précisée"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3 600 TBW (ligne 2 To)"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur céramique"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750 000 IOPS maximum (ligne 2 To)"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750 000 IOPS maximum (ligne 2 To)"
+          },
+          {
+            "label": "Poids",
+            "value": "13,5 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 700 000 heures"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "4.75 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "TM8FPA002T0C410",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 4.75,
+      "storageHeatsink": true,
+      "description": "TeamGroup T-Force Cardea Ceramic C440 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum (ligne 2 To)",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum (ligne 2 To)",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; cellule non précisée",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "3 600 TBW (ligne 2 To)",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur céramique",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "750 000 IOPS maximum (ligne 2 To)",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "750 000 IOPS maximum (ligne 2 To)",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "13,5 g",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "1 700 000 heures",
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.epricesource.com/team-group-tm8fpa002t0c410-parts-supplies.html",
+        "checkedAt": "2026-11-10T22:05:14.644Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.epricesource.com/team-group-tm8fpa002t0c410-parts-supplies.html",
+        "checkedAt": "2026-11-10T22:05:14.644Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "TM8FPA002T0C410",
+        "sourceURL": "https://www.epricesource.com/team-group-tm8fpa002t0c410-parts-supplies.html",
+        "checkedAt": "2026-11-10T22:05:14.644Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 4.75,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.newegg.com/team-group-1tb-t-force-cardea-ceramic-c440/p/N82E16820331538",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-c9f204a98f01": {
+    "mpn": "P400P1TBM28H",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Patriot — fiche SKU P400P1TBM28H conservée par 1foDiscount",
+        "url": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "P400P1TBM28H"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 800 Mo/s maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "800 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Bouclier thermique ultrafin en graphène"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "620 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "550 000 IOPS"
+          },
+          {
+            "label": "Consommation active",
+            "value": "2,38 W"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0,38 W"
+          },
+          {
+            "label": "Poids",
+            "value": "9 g"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "P400P1TBM28H",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "storageHeatsink": true,
+      "description": "Patriot P400 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "write": {
+        "value": "4 800 Mo/s maximum",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "endurance": {
+        "value": "800 TBW",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "heatsink": {
+        "value": "Bouclier thermique ultrafin en graphène",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "randomRead": {
+        "value": "620 000 IOPS",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "randomWrite": {
+        "value": "550 000 IOPS",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "activePower": {
+        "value": "2,38 W",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "idlePower": {
+        "value": "0,38 W",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "weight": {
+        "value": "9 g",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "P400P1TBM28H",
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "heightMm": {
+        "value": 3.8,
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://beta.1fodiscount.com/ressources/site/document/product/fiche-technique-pour-patriot-p400-1to_9068.pdf",
+        "checkedAt": "2026-11-10T22:03:05.608Z"
+      }
+    }
+  },
+  "import-ssd-7d090e078598": {
+    "mpn": "P400P512GM28H",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Newegg — fiche exacte P400P512GM28H",
+        "url": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "P400P512GM28H"
+          },
+          {
+            "label": "Capacité",
+            "value": "512 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "3 300 Mo/s maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "400 TBW"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Bouclier thermique ultrafin en graphène"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "550 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "450 000 IOPS"
+          },
+          {
+            "label": "Consommation active",
+            "value": "2,38 W"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0,38 W"
+          },
+          {
+            "label": "Poids",
+            "value": "9 g"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "P400P512GM28H",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "storageHeatsink": true,
+      "description": "Patriot P400 512 Go · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Garantie non validée : Newegg indique 3 ans, les documents de la famille indiquent 5 ans. Une fiche SKU 512 Go reste nécessaire."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "3 300 Mo/s maximum",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "endurance": {
+        "value": "400 TBW",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Bouclier thermique ultrafin en graphène",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomRead": {
+        "value": "550 000 IOPS",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomWrite": {
+        "value": "450 000 IOPS",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "activePower": {
+        "value": "2,38 W",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "idlePower": {
+        "value": "0,38 W",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "weight": {
+        "value": "9 g",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 512,
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "P400P512GM28H",
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heightMm": {
+        "value": 3.8,
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.newegg.com/patriot-512gb-p400/p/N82E16820225296",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      }
+    }
+  },
+  "import-ssd-b51a4487c486": {
+    "mpn": "VP4100-1TBM28H",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Patriot — fiche exacte VP4100-1TBM28H, miroir Senetic",
+        "url": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "VP4100-1TBM28H"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s maximum (CDM) ; 4 700 Mo/s (ATTO)"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s maximum (CDM) ; 4 200 Mo/s (ATTO)"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 800 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur bas profil et capteur thermique externe"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E16"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "1 Go"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "800 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "800 000 IOPS"
+          },
+          {
+            "label": "Poids",
+            "value": "25 g"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "7 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "VP4100-1TBM28H",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 7,
+      "storageHeatsink": true,
+      "description": "Patriot Viper Gaming VP4100 1 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.3",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s maximum (CDM) ; 4 700 Mo/s (ATTO)",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s maximum (CDM) ; 4 200 Mo/s (ATTO)",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "endurance": {
+        "value": "1 800 TBW",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur bas profil et capteur thermique externe",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "controller": {
+        "value": "Phison E16",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "dram": {
+        "value": "1 Go",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomRead": {
+        "value": "800 000 IOPS",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomWrite": {
+        "value": "800 000 IOPS",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "weight": {
+        "value": "25 g",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "VP4100-1TBM28H",
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heightMm": {
+        "value": 7,
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://gfx3.senetic.com/akeneo-catalog/8/b/b/a/8bba38657ed7c347190753242c0eee0452e07f2d_1776088_VP4100_1TBM28H_icecat_multimedia_leaflet_1_en_US.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      }
+    }
+  },
+  "import-ssd-bff619a7272a": {
+    "mpn": "CT2000T705SSD5A",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "B&H — T705 2 To édition dissipateur blanc, référence exacte",
+        "url": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z",
+        "kind": "retailer"
+      },
+      {
+        "name": "Crucial — fiche officielle T705, miroir Simms",
+        "url": "https://www.simms.co.uk/PDFS/Products/SSD/Crucial-T705-Datasheet.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "CT2000T705SSD5A"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 5.0 ×4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "14 500 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "12 700 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "Micron 232 couches 3D TLC"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 200 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur blanc, édition limitée"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1 550 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1 800 000 IOPS"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          },
+          {
+            "label": "Longueur",
+            "value": "80.01 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "23.37 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "21.08 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "CT2000T705SSD5A",
+      "lengthMm": 80.01,
+      "widthMm": 23.37,
+      "heightMm": 21.08,
+      "storageHeatsink": true,
+      "description": "Crucial T705 W/Heatsink Limited Edition 2 To · PCIe 5.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Dimensions métriques publiées par B&H, issues de mesures arrondies en pouces ; ne pas les confondre avec une tolérance mécanique fabricant."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 5.0 ×4 NVMe",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "read": {
+        "value": "14 500 Mo/s maximum",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "write": {
+        "value": "12 700 Mo/s maximum",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "nand": {
+        "value": "Micron 232 couches 3D TLC",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "endurance": {
+        "value": "1 200 TBW",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "warranty": {
+        "value": "5 ans ou TBW, première limite atteinte",
+        "sourceURL": "https://www.simms.co.uk/PDFS/Products/SSD/Crucial-T705-Datasheet.pdf",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur blanc, édition limitée",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "randomRead": {
+        "value": "1 550 000 IOPS",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "randomWrite": {
+        "value": "1 800 000 IOPS",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "mtbf": {
+        "value": "1,5 million d’heures",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "CT2000T705SSD5A",
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "lengthMm": {
+        "value": 80.01,
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "widthMm": {
+        "value": 23.37,
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "heightMm": {
+        "value": 21.08,
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.bhphotovideo.com/c/product/1868863-REG/crucial_ct2000t705ssd5a_t705_2tb_pcie_gen5.html",
+        "checkedAt": "2026-11-10T22:04:24.448Z"
+      }
+    }
+  },
+  "import-ssd-7b94673e8fe5": {
+    "mpn": "CT2000P5PSSD5",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Crucial — tableau officiel P5 Plus incluant les références avec dissipateur",
+        "url": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ComX — fiche exacte P5 Plus 2 To avec dissipateur",
+        "url": "https://www.comx.co.za/CT2000P5PSSD5-Crucial-P5-Plus-2TB-M-2-NVMe-Gen4-NAND-Solid-State-Drive-p-283697.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "CT2000P5PSSD5"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "6 600 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "5 000 Mo/s maximum"
+          },
+          {
+            "label": "Type NAND",
+            "value": "Micron Advanced 3D NAND ; cellule non précisée dans la page"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 200 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur préinstallé"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "720 000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "700 000 IOPS maximum"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "CT2000P5PSSD5",
+      "storageHeatsink": true,
+      "description": "Crucial P5 Plus W/Heatsink 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Dimensions du modèle avec dissipateur non publiées dans les sources admises ; aucune mesure du module nu substituée."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "read": {
+        "value": "6 600 Mo/s maximum",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "write": {
+        "value": "5 000 Mo/s maximum",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "nand": {
+        "value": "Micron Advanced 3D NAND ; cellule non précisée dans la page",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "endurance": {
+        "value": "1 200 TBW",
+        "sourceURL": "https://www.comx.co.za/CT2000P5PSSD5-Crucial-P5-Plus-2TB-M-2-NVMe-Gen4-NAND-Solid-State-Drive-p-283697.php",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur préinstallé",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomRead": {
+        "value": "720 000 IOPS maximum",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "randomWrite": {
+        "value": "700 000 IOPS maximum",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "CT2000P5PSSD5",
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.crucial.in/products/ssd/crucial-p5-plus-ssd",
+        "checkedAt": "2026-11-10T22:05:41.096Z"
+      }
+    }
+  },
+  "import-ssd-4f0c032bcf45": {
+    "mpn": "VP4100-2TBM28H",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Singular — VP4100-2TBM28H, caractéristiques de la capacité exacte",
+        "url": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "VP4100-2TBM28H"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5 000 Mo/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4 400 Mo/s"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3 600 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur bas profil et capteur thermique externe"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E16"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "2 Go"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "800 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "800 000 IOPS"
+          },
+          {
+            "label": "Poids",
+            "value": "25 g"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "7 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "VP4100-2TBM28H",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 7,
+      "storageHeatsink": true,
+      "description": "Patriot Viper Gaming VP4100 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "La catégorie générique 2,5 pouces du marchand est contredite par son tableau M.2 2280 ; seule la spécification M.2 du produit exact est retenue."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "read": {
+        "value": "5 000 Mo/s",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "write": {
+        "value": "4 400 Mo/s",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "endurance": {
+        "value": "3 600 TBW",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur bas profil et capteur thermique externe",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "controller": {
+        "value": "Phison E16",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "dram": {
+        "value": "2 Go",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "randomRead": {
+        "value": "800 000 IOPS",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "randomWrite": {
+        "value": "800 000 IOPS",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "weight": {
+        "value": "25 g",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "operatingTemperature": {
+        "value": "0 à 70 °C",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "VP4100-2TBM28H",
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "heightMm": {
+        "value": 7,
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.singular.com.cy/patriot-viper-vp4100-solid-state-disk-2tb-nvme.html",
+        "checkedAt": "2026-11-10T22:08:15.366Z"
+      }
+    }
+  },
+  "import-ssd-1d750eaa8f27": {
+    "mpn": "APSFG-2T-CSUS",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Amazon — identité commerciale ADATA Premium 2 To APSFG-2T-CSUS",
+        "url": "https://www.amazon.com/ADATA-Premium-Internal-Gaming-APSFG-2T-CSUS/dp/B09NS6TQND",
+        "checkedAt": "2026-11-10T22:08:15.675Z",
+        "kind": "retailer"
+      },
+      {
+        "name": "ADATA — fiche officielle Premium SSD for PS5",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "APSFG-2T-CSUS"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 800 Mo/s maximum (CDM QD32/T1) ; 6 700 Mo/s (ATTO)"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; TLC/QLC non précisé"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 480 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236A1"
+          },
+          {
+            "label": "Cache DRAM",
+            "value": "Présent"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750 000 IOPS"
+          },
+          {
+            "label": "MTBF",
+            "value": "2 000 000 heures"
+          },
+          {
+            "label": "Poids",
+            "value": "10 g avec dissipateur ; 7 g nu"
+          },
+          {
+            "label": "Chiffrement",
+            "value": "AES 256 bits"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "4.3 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "APSFG-2T-CSUS",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 4.3,
+      "storageHeatsink": true,
+      "description": "ADATA Premium For PS5 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Le PDF fabricant répète par erreur le MPN 1 To sur la ligne 2 To. Le MPN 2 To est établi séparément par la fiche marchande exacte ; les performances proviennent exclusivement de la ligne 2 To du PDF."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe 1.4",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "read": {
+        "value": "7 400 Mo/s maximum sur PC ; 6 100 Mo/s sur PS5",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "write": {
+        "value": "6 800 Mo/s maximum (CDM QD32/T1) ; 6 700 Mo/s (ATTO)",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "nand": {
+        "value": "3D NAND ; TLC/QLC non précisé",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "endurance": {
+        "value": "1 480 TBW",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "warranty": {
+        "value": "5 ans limitée",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heatsink": {
+        "value": "Dissipateur fourni ; module nu 3,3 mm, assemblé 4,3 mm",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "controller": {
+        "value": "InnoGrit IG5236A1",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "dram": {
+        "value": "Présent",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomRead": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "randomWrite": {
+        "value": "750 000 IOPS",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "mtbf": {
+        "value": "2 000 000 heures",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "weight": {
+        "value": "10 g avec dissipateur ; 7 g nu",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "encryption": {
+        "value": "AES 256 bits",
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.amazon.com/ADATA-Premium-Internal-Gaming-APSFG-2T-CSUS/dp/B09NS6TQND",
+        "checkedAt": "2026-11-10T22:08:15.675Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.amazon.com/ADATA-Premium-Internal-Gaming-APSFG-2T-CSUS/dp/B09NS6TQND",
+        "checkedAt": "2026-11-10T22:08:15.675Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "APSFG-2T-CSUS",
+        "sourceURL": "https://www.amazon.com/ADATA-Premium-Internal-Gaming-APSFG-2T-CSUS/dp/B09NS6TQND",
+        "checkedAt": "2026-11-10T22:08:15.675Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "heightMm": {
+        "value": 4.3,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/datasheet_premium_ssd_for_ps5_pcie_gen4_x4_m2_2280_ssd_20220106.pdf",
+        "checkedAt": "2026-11-10T22:03:56.109Z"
+      }
+    }
+  },
+  "import-ssd-f37e0ff096d2": {
+    "mpn": "S78-440Q720-P83",
+    "identityNote": "Référence/capacité/version documentées dans les sources citées ; aucun code dérivé d’une capacité voisine.",
+    "sources": [
+      {
+        "name": "Epicentr — référence SPATIUM M482 2 To Eco-Pack S78-440Q720-P83",
+        "url": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · caractéristiques exactes et limites publiées",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "S78-440Q720-P83"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 ×4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7 300 Mo/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6 400 Mo/s"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC (fiche marchande Eco-Pack)"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1 200 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "60 mois"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          },
+          {
+            "label": "Conditionnement",
+            "value": "Eco-Pack ; SSD seul"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "2.15 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "manufacturerPartNumber": "S78-440Q720-P83",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.15,
+      "description": "MSI SPATIUM M482 Eco-Pack 2 To · PCIe 4.0 ×4. Caractéristiques et limites documentées pour cette capacité et cette version."
+    },
+    "offers": [],
+    "notes": [
+      "Identité Eco-Pack établie par une fiche marchande exacte. Aucune assimilation aux références boîte, Bulk ou SM482N2TB ; aucune offre ukrainienne importée."
+    ],
+    "fieldEvidence": {
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 NVMe",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "read": {
+        "value": "7 300 Mo/s",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "write": {
+        "value": "6 400 Mo/s",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "nand": {
+        "value": "3D TLC (fiche marchande Eco-Pack)",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "endurance": {
+        "value": "1 200 TBW",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "warranty": {
+        "value": "60 mois",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "mtbf": {
+        "value": "1,5 million d’heures",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "Conditionnement": {
+        "value": "Eco-Pack ; SSD seul",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "manufacturerPartNumber": {
+        "value": "S78-440Q720-P83",
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      },
+      "heightMm": {
+        "value": 2.15,
+        "sourceURL": "https://epicentrk.ua/ua/shop/mplc-ssd-nakopicuvac-msi-spatium-m482-2tb-pci-e-4-0-x4-m-2-2280-3d-tlc-eco-pack-s78-440q720-p83-1f0689e2-22ba-6230-94dc-49a8c6d15892.html",
+        "checkedAt": "2026-11-10T22:08:15.331Z"
+      }
+    }
+  }
+}

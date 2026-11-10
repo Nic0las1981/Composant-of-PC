@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-10T16:21:26.828Z",
+  "generatedAt": "2026-11-10T22:17:14.794Z",
   "total": 10564,
   "statuses": {
-    "identity_missing": 3286,
-    "ready": 1847,
+    "identity_missing": 3033,
+    "ready": 2848,
     "source_missing": 20,
-    "technical_missing": 5411
+    "technical_missing": 4663
   },
   "pricing": {
-    "current": 803,
-    "no_current_eligible_offer": 97,
-    "offer_missing": 9664
+    "current": 818,
+    "no_current_eligible_offer": 98,
+    "offer_missing": 9648
   },
   "visual": {
     "reference_missing": 8434,
@@ -29,30 +29,30 @@
       "technical_missing": 315
     },
     "gpu": {
-      "identity_missing": 727,
-      "ready": 11,
+      "identity_missing": 605,
+      "ready": 13,
       "source_missing": 14,
-      "technical_missing": 1722
+      "technical_missing": 1842
     },
     "ram": {
-      "identity_missing": 1796,
-      "ready": 298,
-      "technical_missing": 1770
+      "identity_missing": 1783,
+      "ready": 1216,
+      "technical_missing": 865
     },
     "storage": {
-      "identity_missing": 84,
-      "ready": 245,
-      "technical_missing": 503
+      "identity_missing": 15,
+      "ready": 310,
+      "technical_missing": 507
     },
     "cooler": {
       "ready": 18,
       "technical_missing": 7
     },
     "psu": {
-      "identity_missing": 661,
-      "ready": 80,
+      "identity_missing": 612,
+      "ready": 96,
       "source_missing": 6,
-      "technical_missing": 1073
+      "technical_missing": 1106
     },
     "case": {
       "ready": 19,

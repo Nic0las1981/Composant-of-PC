@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-10T22:13:12.430609+00:00",
+  "testCommand": "npx tsx --test tests/deep-memory-followup.test.ts tests/memoryDetails.test.ts",
+  "tests": 13,
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    "Existing product identity, offers, notes, groups and explicit unknown runtime values preserved",
+    "All new fields have manufacturer evidence for every exact candidate",
+    "New MPNs match generation, total capacity, kit size, rate, CAS and finish",
+    "Ambiguous revisions contain no MPN, no offers and no unique voltage",
+    "Current offers have exact MPN, visible TTC/EUR, new condition, stock, merchant date and matching archived HTML SHA-256",
+    "Unavailable merchant products are excluded",
+    "Generic XMP/EXPO caution is excluded and conditional profile speed boundaries are applied"
+  ],
+  "typescriptBuild": "npx tsc -b --pretty false: passed (exit 0)"
+}

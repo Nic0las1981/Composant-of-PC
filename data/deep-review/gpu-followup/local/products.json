@@ -1,0 +1,5503 @@
+{
+  "import-gpu-990031787647": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 VENTUS XS 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 VENTUS XS 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 VENTUS XS 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1830 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1408 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "8 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR5"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4) / HDMI™ 2.0b x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "130 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "204 x 128 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "702 g / 1061 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 204.0,
+      "heightMm": 128.0,
+      "thicknessMm": 42.0,
+      "powerW": 130.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 VENTUS XS 6G OC",
+      "description": "Carte graphique GeForce® GTX 1660 VENTUS XS 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 204.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 128.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 130.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-8c108dc626e7": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 Ti VENTUS XS 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 Ti VENTUS XS 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 Ti VENTUS XS 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1830 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1536 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "12 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "120 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "204 x 128 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "669 g / 1028 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 204.0,
+      "heightMm": 128.0,
+      "thicknessMm": 42.0,
+      "powerW": 120.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 Ti VENTUS XS 6G OC",
+      "description": "Carte graphique GeForce® GTX 1660 Ti VENTUS XS 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "lengthMm": {
+        "value": 204.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "heightMm": {
+        "value": 128.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "powerW": {
+        "value": 120.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      }
+    }
+  },
+  "import-gpu-ae832418723f": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2060 GAMING Z 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2060 GAMING Z 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "MSI — annonce du modèle et ventilation",
+        "url": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2060 GAMING Z 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1830 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "190 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "247 x 129 x 52 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "957 g / 1525 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      },
+      {
+        "title": "Ventilation publiée par MSI",
+        "rows": [
+          {
+            "label": "Déclaration constructeur pour le modèle exact",
+            "value": "two 9 cm TORX 3.0 fans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 247.0,
+      "heightMm": 129.0,
+      "thicknessMm": 52.0,
+      "powerW": 190.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce RTX™ 2060 GAMING Z 6G",
+      "description": "Carte graphique GeForce RTX™ 2060 GAMING Z 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented",
+      "fanCount": 2,
+      "fanSizeMm": 90
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 247.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 52.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 190.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "fanSizeMm": {
+        "value": 90,
+        "sourceURL": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-bf25d5897c11": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 Ti ARMOR 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 Ti ARMOR 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 Ti ARMOR 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660 Ti PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1860 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1536 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "12 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "130 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "243 x 129 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "668 g / 1184 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320 Error fetching https://www.msi.com/Graphics-Card/GeForce-RTX-4060-VENTUS-2X-8G/Specification: CRAWL_NOT_FOUND Error fetching https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-3X-BLACK-OC/Specification: CRAWL_NOT_FOUND"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 243.0,
+      "heightMm": 129.0,
+      "thicknessMm": 42.0,
+      "powerW": 130.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 Ti ARMOR 6G OC",
+      "description": "Carte graphique GeForce® GTX 1660 Ti ARMOR 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "lengthMm": {
+        "value": 243.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "powerW": {
+        "value": 130.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:37.666Z"
+      }
+    }
+  },
+  "import-gpu-da9eb741e7ef": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 GAMING X 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 GAMING X 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 GAMING X 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1860 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "1408 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "8 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR5"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4) / HDMI™ 2.0b x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "130 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "247 x 127 x 46 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "845 g / 1474 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 247.0,
+      "heightMm": 127.0,
+      "thicknessMm": 46.0,
+      "powerW": 130.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 GAMING X 6G",
+      "description": "Carte graphique GeForce® GTX 1660 GAMING X 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      },
+      "lengthMm": {
+        "value": 247.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      },
+      "heightMm": {
+        "value": 127.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      },
+      "thicknessMm": {
+        "value": 46.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      },
+      "powerW": {
+        "value": 130.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-GAMING-X-6G/Specification",
+        "checkedAt": "2026-11-10T22:04:19.560873+00:00"
+      }
+    }
+  },
+  "import-gpu-4d9f9bd49979": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1650 GAMING X 4G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1650 GAMING X 4G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1650 GAMING X 4G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1650 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1860 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "896 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "8 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "4GB GDDR5"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "128-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 2(v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "85 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "300 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "245 x 127 x 39 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "585 g / 1196 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "3"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 4,
+      "lengthMm": 245.0,
+      "heightMm": 127.0,
+      "thicknessMm": 39.0,
+      "powerW": 85.0,
+      "recommendedPsuW": 300.0,
+      "manufacturerModel": "GeForce® GTX 1650 GAMING X 4G",
+      "description": "Carte graphique GeForce® GTX 1650 GAMING X 4G avec 4 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "lengthMm": {
+        "value": 245.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "heightMm": {
+        "value": 127.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "thicknessMm": {
+        "value": 39.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "powerW": {
+        "value": 85.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "recommendedPsuW": {
+        "value": 300.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-GAMING-X-4G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      }
+    }
+  },
+  "import-gpu-95bfee6b2d16": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 ARMOR 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 ARMOR 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 ARMOR 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1845 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1408 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "8 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR5"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4) / HDMI™ 2.0b x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "130 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "243 x 129 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "663 g / 1173 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 243.0,
+      "heightMm": 129.0,
+      "thicknessMm": 42.0,
+      "powerW": 130.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 ARMOR 6G OC",
+      "description": "Carte graphique GeForce® GTX 1660 ARMOR 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "lengthMm": {
+        "value": 243.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "powerW": {
+        "value": 130.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-ARMOR-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      }
+    }
+  },
+  "import-gpu-547a414f04ee": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2060 VENTUS XS 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2060 VENTUS XS 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2060 VENTUS XS 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "1710 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "205 x 128 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "725 g / 1188 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 205.0,
+      "heightMm": 128.0,
+      "thicknessMm": 41.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce RTX™ 2060 VENTUS XS 6G OC",
+      "description": "Carte graphique GeForce RTX™ 2060 VENTUS XS 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "lengthMm": {
+        "value": 205.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "heightMm": {
+        "value": 128.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      }
+    }
+  },
+  "import-gpu-b70e2fe00129": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2060 GAMING 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2060 GAMING 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2060 GAMING 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1680 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "247 x 129 x 52 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "957 g / 1525 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 247.0,
+      "heightMm": 129.0,
+      "thicknessMm": 52.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce RTX™ 2060 GAMING 6G",
+      "description": "Carte graphique GeForce RTX™ 2060 GAMING 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "lengthMm": {
+        "value": 247.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "thicknessMm": {
+        "value": 52.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      }
+    }
+  },
+  "import-gpu-271aa40537a3": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2060 VENTUS 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2060 VENTUS 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "MSI — annonce du modèle et ventilation",
+        "url": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2060 VENTUS 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1710 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "226 x 128 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "764 g / 1193 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      },
+      {
+        "title": "Ventilation publiée par MSI",
+        "rows": [
+          {
+            "label": "Déclaration constructeur pour le modèle exact",
+            "value": "new dual-fan thermal design"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 226.0,
+      "heightMm": 128.0,
+      "thicknessMm": 41.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce RTX™ 2060 VENTUS 6G OC",
+      "description": "Carte graphique GeForce RTX™ 2060 VENTUS 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented",
+      "fanCount": 2
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 226.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 128.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "fanCount": {
+        "value": 2,
+        "sourceURL": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-dca48b9d23e3": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2060 SUPER™ AERO ITX",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2060 SUPER™ AERO ITX ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2060 SUPER™ AERO ITX"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1650 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "2176 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "175 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "175 x 127 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "572 g / 1029 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 175.0,
+      "heightMm": 127.0,
+      "thicknessMm": 42.0,
+      "powerW": 175.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce® RTX 2060 SUPER™ AERO ITX",
+      "description": "Carte graphique GeForce® RTX 2060 SUPER™ AERO ITX avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "lengthMm": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "heightMm": {
+        "value": 127.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "powerW": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-AERO-ITX/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      }
+    }
+  },
+  "import-gpu-48a369117b9d": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 VENTUS 8G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 VENTUS 8G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 VENTUS 8G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1800 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "2944 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "225 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 114 x 50 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1046 g / 1538 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 50.0,
+      "powerW": 225.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 VENTUS 8G OC",
+      "description": "Carte graphique GeForce RTX™ 2080 VENTUS 8G OC avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "powerW": {
+        "value": 225.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      }
+    }
+  },
+  "import-gpu-de4c76e01054": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti SEA HAWK X",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti SEA HAWK X ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti SEA HAWK X"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1755 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Size",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4) / HDMI™ 2.0b x 1 / USB Type-C x1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "300 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "Card: 268 x 114 x 41 mm Cooler: 154 x 120 x 52 mm Tube: 320 x 10.3 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1420 g / 2405 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5 NVIDIA® NVLink™ (SLI-Ready), 2-way 4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 41.0,
+      "powerW": 300.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti SEA HAWK X",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti SEA HAWK X avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 300.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-d233c9e7fe26": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti GAMING TRIO",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti GAMING TRIO ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti GAMING TRIO"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 Ti PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1635 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "300 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "327 x 140 x 55.6 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1582 g / 2450 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5 NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 327.0,
+      "heightMm": 140.0,
+      "thicknessMm": 55.6,
+      "powerW": 300.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti GAMING TRIO",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti GAMING TRIO avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 327.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 140.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 55.6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 300.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-03dc23fb4f1c": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti VENTUS GP",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti VENTUS GP ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti VENTUS GP"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1545 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 112 x 50 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1087 g / 1579 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 268.0,
+      "heightMm": 112.0,
+      "thicknessMm": 50.0,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti VENTUS GP",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti VENTUS GP avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "heightMm": {
+        "value": 112.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      }
+    }
+  },
+  "import-gpu-2fc8ccb12ca3": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2080 SUPER™ GAMING TRIO",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2080 SUPER™ GAMING TRIO ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2080 SUPER™ GAMING TRIO"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1815 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "3072 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "15.5 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) Type-C x1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "328 x 140 x 56.5 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1531 g / 2345 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "5"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 328.0,
+      "heightMm": 140.0,
+      "thicknessMm": 56.5,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce® RTX 2080 SUPER™ GAMING TRIO",
+      "description": "Carte graphique GeForce® RTX 2080 SUPER™ GAMING TRIO avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "lengthMm": {
+        "value": 328.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "heightMm": {
+        "value": 140.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "thicknessMm": {
+        "value": 56.5,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      }
+    }
+  },
+  "import-gpu-9b44184e696d": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2070 AERO 8G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2070 AERO 8G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2070 AERO 8G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2070"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1620 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "2304 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "175 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 114 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "880 g / 1372 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 41.0,
+      "powerW": 175.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce RTX™ 2070 AERO 8G",
+      "description": "Carte graphique GeForce RTX™ 2070 AERO 8G avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-6df5933f71fe": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2060 VENTUS 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2060 VENTUS 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2060 VENTUS 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1680 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "226 x 128 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "764 g / 1193 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 226.0,
+      "heightMm": 128.0,
+      "thicknessMm": 41.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce RTX™ 2060 VENTUS 6G",
+      "description": "Carte graphique GeForce RTX™ 2060 VENTUS 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 226.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 128.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-08c87343919c": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2060 SUPER™ ARMOR OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2060 SUPER™ ARMOR OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2060 SUPER™ ARMOR OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060 SUPER™"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1680 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "2176 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "175 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "250 x 129 x 44 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "809 g / 1290 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 250.0,
+      "heightMm": 129.0,
+      "thicknessMm": 44.0,
+      "powerW": 175.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce® RTX 2060 SUPER™ ARMOR OC",
+      "description": "Carte graphique GeForce® RTX 2060 SUPER™ ARMOR OC avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "lengthMm": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "thicknessMm": {
+        "value": 44.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "powerW": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      }
+    }
+  },
+  "import-gpu-d959186950d8": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2070 SUPER™ GAMING TRIO",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2070 SUPER™ GAMING TRIO ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2070 SUPER™ GAMING TRIO"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2070 SUPER™"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1770 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "2560 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "215 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "328 x 140 x 56.5 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1522 g / 2336 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 328.0,
+      "heightMm": 140.0,
+      "thicknessMm": 56.5,
+      "powerW": 215.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce® RTX 2070 SUPER™ GAMING TRIO",
+      "description": "Carte graphique GeForce® RTX 2070 SUPER™ GAMING TRIO avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "lengthMm": {
+        "value": 328.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "heightMm": {
+        "value": 140.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "thicknessMm": {
+        "value": 56.5,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "powerW": {
+        "value": 215.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z"
+      }
+    }
+  },
+  "import-gpu-333300e83587": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2070 ARMOR 8G OCV1",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2070 ARMOR 8G OCV1 ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2070 ARMOR 8G OCV1"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2070"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1710 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "2304 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "185 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "295 x 140 x 51 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1177 g / 1699 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 295.0,
+      "heightMm": 140.0,
+      "thicknessMm": 51.0,
+      "powerW": 185.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce RTX™ 2070 ARMOR 8G OCV1",
+      "description": "Carte graphique GeForce RTX™ 2070 ARMOR 8G OCV1 avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 295.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 140.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 51.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 185.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-ARMOR-8G-OCV1/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-f303209cbe23": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti LIGHTNING Z",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti LIGHTNING Z ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti LIGHTNING Z"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1770 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "350 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 3"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "328 x 143 x 63 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1852 g / 4116 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way;recommend 4 slot (80 mm) NVLink™ Bridge"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 328.0,
+      "heightMm": 143.0,
+      "thicknessMm": 63.0,
+      "powerW": 350.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti LIGHTNING Z",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti LIGHTNING Z avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 328.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 143.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 63.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 350.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-Z/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-57c4b714fcd7": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2080 SUPER™ AERO",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2080 SUPER™ AERO ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2080 SUPER™ AERO"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 SUPER"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1815 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "3072 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "15.5 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "265 x 114 x 40 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "862 g / 1554 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 265.0,
+      "heightMm": 114.0,
+      "thicknessMm": 40.0,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce® RTX 2080 SUPER™ AERO",
+      "description": "Carte graphique GeForce® RTX 2080 SUPER™ AERO avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      },
+      "lengthMm": {
+        "value": 265.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      },
+      "thicknessMm": {
+        "value": 40.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-AERO/Specification",
+        "checkedAt": "2026-11-10T22:04:20.919886+00:00"
+      }
+    }
+  },
+  "import-gpu-6609c5f1fb77": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 AERO 8G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 AERO 8G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 AERO 8G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1710 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "2944 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "215 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 114 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "879 g / 1371 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 41.0,
+      "powerW": 215.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 AERO 8G",
+      "description": "Carte graphique GeForce RTX™ 2080 AERO 8G avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      },
+      "powerW": {
+        "value": 215.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-AERO-8G/Specification",
+        "checkedAt": "2026-11-10T22:00:40.022Z"
+      }
+    }
+  },
+  "import-gpu-cdbb78c8553c": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 Ti AERO ITX 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 Ti AERO ITX 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 Ti AERO ITX 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1830 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1536 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "12 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) DL-DVI-D"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "120 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "178 x 126 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "570 g / 906 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "3"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 178.0,
+      "heightMm": 126.0,
+      "thicknessMm": 41.0,
+      "powerW": 120.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 Ti AERO ITX 6G OC",
+      "description": "Carte graphique GeForce® GTX 1660 Ti AERO ITX 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "lengthMm": {
+        "value": 178.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "heightMm": {
+        "value": 126.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "powerW": {
+        "value": 120.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      }
+    }
+  },
+  "import-gpu-6bfb68924401": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1650 AERO ITX 4G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1650 AERO ITX 4G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1650 AERO ITX 4G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1650"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1740 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "896 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "8 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "4GB GDDR5"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "128-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 1(v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) DL-DVI-D x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "75 W"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "300 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "170 x 111 x 38 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "375 g / 696 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "3"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 4,
+      "lengthMm": 170.0,
+      "heightMm": 111.0,
+      "thicknessMm": 38.0,
+      "powerW": 75.0,
+      "recommendedPsuW": 300.0,
+      "manufacturerModel": "GeForce® GTX 1650 AERO ITX 4G OC",
+      "description": "Carte graphique GeForce® GTX 1650 AERO ITX 4G OC avec 4 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "lengthMm": {
+        "value": 170.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "heightMm": {
+        "value": 111.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "thicknessMm": {
+        "value": 38.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "powerW": {
+        "value": 75.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "recommendedPsuW": {
+        "value": 300.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-AERO-ITX-4G-OC/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      }
+    }
+  },
+  "import-gpu-57608a23dba8": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX™ 2070 AERO ITX 8G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX™ 2070 AERO ITX 8G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX™ 2070 AERO ITX 8G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2070 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1620 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "2304 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "175 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "174 x 127 x 42 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "590 g / 1047 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 174.0,
+      "heightMm": 127.0,
+      "thicknessMm": 42.0,
+      "powerW": 175.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce® RTX™ 2070 AERO ITX 8G",
+      "description": "Carte graphique GeForce® RTX™ 2070 AERO ITX 8G avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 174.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 127.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 42.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-ITX-8G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-7e61075a2740": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 SEA HAWK X",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 SEA HAWK X ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 SEA HAWK X"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1860 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "2944 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory Size",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "245 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "Card: 268 x 114 x 41 mm Cooler: 154 x 120 x 52 mm Tube: 320 x 10.3 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1370 g / 2355 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5 NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 41.0,
+      "powerW": 245.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 SEA HAWK X",
+      "description": "Carte graphique GeForce RTX™ 2080 SEA HAWK X avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "powerW": {
+        "value": 245.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z"
+      }
+    }
+  },
+  "import-gpu-97e96c16c87d": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti VENTUS 11G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti VENTUS 11G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti VENTUS 11G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1545 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 2"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 112 x 50 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1106 g / 1598 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 268.0,
+      "heightMm": 112.0,
+      "thicknessMm": 50.0,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti VENTUS 11G",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti VENTUS 11G avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 112.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-8ff03ee35e3b": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2080 SUPER™ SEA HAWK X",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2080 SUPER™ SEA HAWK X ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2080 SUPER™ SEA HAWK X"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX 2080 SUPER™"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1845 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "3072 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "15.5 Gbps"
+          },
+          {
+            "label": "Memory Size",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) USB Type-C x 1"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "Card: 268 x 114 x 41 mm Cooler: 154 x 120 x 52 mm Tube: 320 x 10.3 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1370 g / 2355 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLINK™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "5"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680 x 4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 41.0,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce® RTX 2080 SUPER™ SEA HAWK X",
+      "description": "Carte graphique GeForce® RTX 2080 SUPER™ SEA HAWK X avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-SEA-HAWK-X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      }
+    }
+  },
+  "import-gpu-a38d04232e29": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 5070 Ti 16G VENTUS 3X",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 5070 Ti 16G VENTUS 3X ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Marketing Name",
+            "value": "GeForce RTX™ 5070 Ti 16G VENTUS 3X"
+          },
+          {
+            "label": "Model Name",
+            "value": "G507T-16V3"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 5070 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express® Gen 5"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Extreme Performance: 2467 MHz (MSI Center) Boost: 2452 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "8960 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "28 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "16GB GDDR7"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v2.1b) HDMI™ x 1 (As specified in HDMI™ 2.1b: up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "Y"
+          },
+          {
+            "label": "Power consumption",
+            "value": "300W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "16-pin x 1 (ATX 3.1 PSU recommended)"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "750W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "303 x 121 x 49 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1073 g / 1566 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 Ultimate"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.6"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680 x 4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 16,
+      "lengthMm": 303.0,
+      "heightMm": 121.0,
+      "thicknessMm": 49.0,
+      "powerW": 300.0,
+      "recommendedPsuW": 750.0,
+      "manufacturerModel": "GeForce RTX™ 5070 Ti 16G VENTUS 3X",
+      "description": "Carte graphique GeForce RTX™ 5070 Ti 16G VENTUS 3X avec 16 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "lengthMm": {
+        "value": 303.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "heightMm": {
+        "value": 121.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "thicknessMm": {
+        "value": 49.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "powerW": {
+        "value": 300.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      },
+      "recommendedPsuW": {
+        "value": 750.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X/Specification",
+        "checkedAt": "2026-11-10T13:26:01Z"
+      }
+    }
+  },
+  "import-gpu-d85ee557923d": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX™ 2060 AERO ITX 6G OC",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX™ 2060 AERO ITX 6G OC ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "MSI — annonce du modèle et ventilation",
+        "url": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX™ 2060 AERO ITX 6G OC"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1710 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "175 x 126 x 43 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "540 g / 997 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      },
+      {
+        "title": "Ventilation publiée par MSI",
+        "rows": [
+          {
+            "label": "Déclaration constructeur pour le modèle exact",
+            "value": "single high-performance fan"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 175.0,
+      "heightMm": 126.0,
+      "thicknessMm": 43.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce® RTX™ 2060 AERO ITX 6G OC",
+      "description": "Carte graphique GeForce® RTX™ 2060 AERO ITX 6G OC avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented",
+      "fanCount": 1
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 126.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 43.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G-OC/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "fanCount": {
+        "value": 1,
+        "sourceURL": "https://event.msi.com/edm/Newsletter/201901.html",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-a1fa91ae2983": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2080 SUPER™ VENTUS",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2080 SUPER™ VENTUS ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:00:39.549Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2080 SUPER™ VENTUS"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2080 SUPER™"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1815 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "3072 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "15.5 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "250 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1, 6-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "268 x 114 x 50 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1046 g / 1538 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 268.0,
+      "heightMm": 114.0,
+      "thicknessMm": 50.0,
+      "powerW": 250.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce® RTX 2080 SUPER™ VENTUS",
+      "description": "Carte graphique GeForce® RTX 2080 SUPER™ VENTUS avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      },
+      "lengthMm": {
+        "value": 268.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      },
+      "heightMm": {
+        "value": 114.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      },
+      "thicknessMm": {
+        "value": 50.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      },
+      "powerW": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SUPER-VENTUS/Specification",
+        "checkedAt": "2026-11-10T22:04:21.254974+00:00"
+      }
+    }
+  },
+  "import-gpu-d41bb5dbed89": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX™ 2060 AERO ITX 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX™ 2060 AERO ITX 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX™ 2060 AERO ITX 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1680 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "1920 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "160 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "500 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "175 x 126 x 43 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "540 g / 997 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 175.0,
+      "heightMm": 126.0,
+      "thicknessMm": 43.0,
+      "powerW": 160.0,
+      "recommendedPsuW": 500.0,
+      "manufacturerModel": "GeForce® RTX™ 2060 AERO ITX 6G",
+      "description": "Carte graphique GeForce® RTX™ 2060 AERO ITX 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "lengthMm": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "heightMm": {
+        "value": 126.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "thicknessMm": {
+        "value": 43.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "powerW": {
+        "value": 160.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      },
+      "recommendedPsuW": {
+        "value": 500.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T21:59:47.615Z"
+      }
+    }
+  },
+  "import-gpu-6b16abb0754a": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® RTX 2060 SUPER™ ARMOR",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® RTX 2060 SUPER™ ARMOR ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:00:38.604Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® RTX 2060 SUPER™ ARMOR"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® RTX 2060 SUPER™"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1650 MHz"
+          },
+          {
+            "label": "CUDA® CORES",
+            "value": "2176 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "8GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "256-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "175 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "550 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "250 x 129 x 44 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "809 g / 1290 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "4"
+          },
+          {
+            "label": "VR Ready",
+            "value": "Y"
+          },
+          {
+            "label": "G-SYNC® technology",
+            "value": "Y"
+          },
+          {
+            "label": "Adaptive Vertical Sync",
+            "value": "Y"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 8,
+      "lengthMm": 250.0,
+      "heightMm": 129.0,
+      "thicknessMm": 44.0,
+      "powerW": 175.0,
+      "recommendedPsuW": 550.0,
+      "manufacturerModel": "GeForce® RTX 2060 SUPER™ ARMOR",
+      "description": "Carte graphique GeForce® RTX 2060 SUPER™ ARMOR avec 8 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      },
+      "lengthMm": {
+        "value": 250.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      },
+      "heightMm": {
+        "value": 129.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      },
+      "thicknessMm": {
+        "value": 44.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      },
+      "powerW": {
+        "value": 175.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      },
+      "recommendedPsuW": {
+        "value": 550.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-ARMOR/Specification",
+        "checkedAt": "2026-11-10T22:04:21.784277+00:00"
+      }
+    }
+  },
+  "import-gpu-12abbc728ffa": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce RTX™ 2080 Ti LIGHTNING",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce RTX™ 2080 Ti LIGHTNING ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce RTX™ 2080 Ti LIGHTNING"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce RTX™ 2080 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1575 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "4352 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "14 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "11GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "352-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort x 3 (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "350 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 3"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "650 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "328 x 143 x 63 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "1852 g / 4116 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Multi-GPU Technology",
+            "value": "NVIDIA® NVLink™ (SLI-Ready), 2-way;recommend 4 slot (80 mm) NVLink™ Bridge"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 11,
+      "lengthMm": 328.0,
+      "heightMm": 143.0,
+      "thicknessMm": 63.0,
+      "powerW": 350.0,
+      "recommendedPsuW": 650.0,
+      "manufacturerModel": "GeForce RTX™ 2080 Ti LIGHTNING",
+      "description": "Carte graphique GeForce RTX™ 2080 Ti LIGHTNING avec 11 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 11,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "lengthMm": {
+        "value": 328.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "heightMm": {
+        "value": 143.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "thicknessMm": {
+        "value": 63.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "powerW": {
+        "value": 350.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      },
+      "recommendedPsuW": {
+        "value": 650.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+        "checkedAt": "2026-11-10T22:00:39.076Z"
+      }
+    }
+  },
+  "import-gpu-c8de880000e8": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "GeForce® GTX 1660 Ti AERO ITX 6G",
+    "mpn": "",
+    "identityNote": "Modèle fabricant exact GeForce® GTX 1660 Ti AERO ITX 6G ; SKU commercial non publié dans cette source, laissé inconnu.",
+    "sources": [
+      {
+        "name": "MSI — fiche officielle",
+        "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications officielles MSI — contrôle individuel",
+        "rows": [
+          {
+            "label": "Model Name",
+            "value": "GeForce® GTX 1660 Ti AERO ITX 6G"
+          },
+          {
+            "label": "Graphics Processing Unit",
+            "value": "NVIDIA® GeForce® GTX 1660 Ti"
+          },
+          {
+            "label": "Interface",
+            "value": "PCI Express x16 3.0"
+          },
+          {
+            "label": "Core Clocks",
+            "value": "Boost: 1770 MHz"
+          },
+          {
+            "label": "CUDA ® CORES",
+            "value": "1536 Units"
+          },
+          {
+            "label": "Memory Speed",
+            "value": "12 Gbps"
+          },
+          {
+            "label": "Memory",
+            "value": "6GB GDDR6"
+          },
+          {
+            "label": "Memory Bus",
+            "value": "192-bit"
+          },
+          {
+            "label": "Output",
+            "value": "DisplayPort (v1.4a) HDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b) DL-DVI-D"
+          },
+          {
+            "label": "HDCP Support",
+            "value": "2.2"
+          },
+          {
+            "label": "Power consumption",
+            "value": "120 W"
+          },
+          {
+            "label": "Power connectors",
+            "value": "8-pin x 1"
+          },
+          {
+            "label": "Recommended PSU",
+            "value": "450 W"
+          },
+          {
+            "label": "Card Dimension (mm)",
+            "value": "178 x 126 x 41 mm"
+          },
+          {
+            "label": "Weight (Card / Package)",
+            "value": "570 g / 906 g"
+          },
+          {
+            "label": "DirectX Version Support",
+            "value": "12 API"
+          },
+          {
+            "label": "OpenGL Version Support",
+            "value": "4.5"
+          },
+          {
+            "label": "Afterburner OC",
+            "value": "Y"
+          },
+          {
+            "label": "Maximum Displays",
+            "value": "3"
+          },
+          {
+            "label": "Digital Maximum Resolution",
+            "value": "7680x4320"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "capacityGB": 6,
+      "lengthMm": 178.0,
+      "heightMm": 126.0,
+      "thicknessMm": 41.0,
+      "powerW": 120.0,
+      "recommendedPsuW": 450.0,
+      "manufacturerModel": "GeForce® GTX 1660 Ti AERO ITX 6G",
+      "description": "Carte graphique GeForce® GTX 1660 Ti AERO ITX 6G avec 6 Go de mémoire vidéo. Caractéristiques contrôlées dans les fiches officielles MSI ; le SKU commercial et les champs non publiés restent à confirmer.",
+      "detailLevel": "documented"
+    },
+    "offers": [],
+    "notes": [
+      "Nom complet, capacité, variante OC, mémoire, finition et révision comparés individuellement. Aucun prix n’est associé sans référence commerciale exacte."
+    ],
+    "fieldEvidence": {
+      "capacityGB": {
+        "value": 6,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "lengthMm": {
+        "value": 178.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "heightMm": {
+        "value": 126.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "thicknessMm": {
+        "value": 41.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "powerW": {
+        "value": 120.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      },
+      "recommendedPsuW": {
+        "value": 450.0,
+        "sourceURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-AERO-ITX-6G/Specification",
+        "checkedAt": "2026-11-10T22:00:38.139Z"
+      }
+    }
+  }
+}

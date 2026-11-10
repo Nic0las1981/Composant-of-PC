@@ -1,0 +1,196 @@
+{
+  "import-ssd-d8546f98e015": {
+    "reason": "Plusieurs références Inland distinctes avec ou sans dissipateur correspondent à la capacité et au nom de famille ; l’archive ne contient pas le discriminant mécanique permettant de choisir un MPN. Audit antérieur conservé.",
+    "evidenceFiles": [
+      "../storage-inland/review.json",
+      "../storage-inland/documents.json"
+    ],
+    "researchSourceURLs": [],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-4df3b6c6b2ea": {
+    "reason": "Plusieurs références Inland distinctes avec ou sans dissipateur correspondent à la capacité et au nom de famille ; l’archive ne contient pas le discriminant mécanique permettant de choisir un MPN. Audit antérieur conservé.",
+    "evidenceFiles": [
+      "../storage-inland/review.json",
+      "../storage-inland/documents.json"
+    ],
+    "researchSourceURLs": [],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-195af8da4a63": {
+    "reason": "Plusieurs références Inland distinctes avec ou sans dissipateur correspondent à la capacité et au nom de famille ; l’archive ne contient pas le discriminant mécanique permettant de choisir un MPN. Audit antérieur conservé.",
+    "evidenceFiles": [
+      "../storage-inland/review.json",
+      "../storage-inland/documents.json"
+    ],
+    "researchSourceURLs": [],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-c75f6cec4fcf": {
+    "reason": "La fiche officielle PX700 révision 1.3 et la page actuelle ne publient que les capacités 1, 2 et 4 To. Aucun MPN 512 Go vérifiable ; ni dérivation du code 1 To, ni conclusion universelle d’inexistence.",
+    "evidenceFiles": [
+      "goodram-px700.json"
+    ],
+    "researchSourceURLs": [
+      "https://www.goodram.com/wp-content/uploads/datasheet-goodram-ssd-px700-eng-1.3.pdf",
+      "https://www.goodram.com/en/products/goodram-px700-ssd-2/",
+      "https://www.avxperten.dk/files/187860/mmo_116693739_1699016989_1302_23303.pdf",
+      "https://objects.icecat.biz/objects/mmo_116693741_1698924231_386_1745.pdf",
+      "https://pc-builder.io/storage/goodram-px700-p57927"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-920781bf2686": {
+    "reason": "Le nom MP600 500 Go ne distingue pas le modèle original de la révision R2, qui possèdent des références et caractéristiques distinctes. Aucun MPN choisi sans preuve de révision.",
+    "evidenceFiles": [
+      "../memory-storage/corsair-ssd-catalog.json",
+      "../memory-storage/corsair-storage-identities.json"
+    ],
+    "researchSourceURLs": [
+      "https://www.corsair.com/us/en/p/data-storage/cssd-f500gbmp600/force-series-gen-4-pcie-mp600-500gb-nvme-m-2-ssd-cssd-f500gbmp600",
+      "https://help.corsair.com/hc/en-us/articles/360060189152-SSD-What-are-the-endurance-ratings-for-Corsair-SSDs",
+      "https://www.corsair.com/us/en/p/data-storage/cssd-f500gbmp600r2/force-series-gen-4-pcie-mp600-500gb-nvme-m-2-ssd-cssd-f500gbmp600r2"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-83b4de1fe4f2": {
+    "reason": "L’archive donne CSSD-F4000GBMP600PHX. Le fabricant documente CSSD-F4000GBMP600PHXT (PRO XT Hydro X à waterblock) ; la lettre terminale ne peut pas être ajoutée sans preuve d’identité. Une mention marchande tronquée ne lève pas l’ambiguïté.",
+    "evidenceFiles": [
+      "corsair-phx-final.json"
+    ],
+    "researchSourceURLs": [
+      "https://www.corsair.com/us/en/p/data-storage/cssd-f4000gbmp600phxt/mp600-pro-xt-hydro-x-edition-4tb-gen4-pcie-x4-m-2-nvme-ssd-cssd-f4000gbmp600phxt",
+      "https://www.knsneva.ru/product/ssd-disk-corsair-mp600-pro-xt-hydro-x-edition-4tb-cssd-f4000gbmp600phx/",
+      "https://global.microless.com/product/corsair-mp600-pro-xt-hydro-x-edition-4tb-internal-ssd-3d-tlc-nand-up-to-7100mb-s-read-up-to-6800mb-s-write-pcie-gen-4-0-x4-interface-m-2-2280-form-factor-3000-tbw-black-cssd-f4000gbmp600phxt/?offer_id=171822",
+      "https://www.knsufa.ru/catalog/komplektuyuschie/ssd/corsair/_obem-ssd_4-tb/",
+      "https://www.corsair.com/us/en/c/data-storage?filter-capacity=4tb"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-31730d66406b": {
+    "reason": "Le PDF officiel LEGEND 800 GOLD du 13 septembre 2024 contient une ligne de performances 500 Go, mais le tableau de commande et les capacités déclarées ne listent que 1 et 2 To. Aucun MPN 500 Go admis tant que cette contradiction n’est pas résolue.",
+    "evidenceFiles": [
+      "adata-gold500-final.json"
+    ],
+    "researchSourceURLs": [
+      "https://webapi3.adata.com/storage/downloadfile/datasheet_legend_800_gold_pcie_gen4_x4_m2_2280_ssd_20240913.pdf",
+      "https://www.adata.com/us/consumer/category/ssds/solid-state-drives-legend-800-gold/",
+      "https://pcpartpicker.com/product/wdCZxr/adata-legend-800-gold-500-gb-m2-2280-pcie-40-x4-nvme-solid-state-drive-sleg-800g-500gcs-s38",
+      "https://pc-builder.io/storage/adata-legend-800-gold-p52177",
+      "https://webapi3.adata.com/storage/downloadfile/datasheet_legend_800_pcie_gen4_x4_m2_2280_ssd_20240531.pdf"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-dda2c0eb60e3": {
+    "reason": "La fiche originale LEGEND 840 distingue uniquement 512 Go et 1 To ; la recherche exacte 2 To ne fournit pas de référence fabricant ou marchande concordante. Aucun code 2 To construit.",
+    "evidenceFiles": [
+      "adata-8402-final.json",
+      "adata-840.json"
+    ],
+    "researchSourceURLs": [
+      "https://www.adata.com/us/news/916/",
+      "https://www.amazon.com/ADATA-Legend-Internal-Gaming-ALEG-840-2TCS/dp/B09H8687FN",
+      "https://webapi3.adata.com/storage/downloadfile/ADATA_SSD_TBW_EN_20241021.pdf",
+      "https://webapi3.adata.com/storage/downloadfile/ADATA%20SSD%20TBW_EN_20220511.pdf",
+      "https://webapi3.adata.com.cn/storage/downloadfile/adata_ssd_tbw_en_new.pdf",
+      "https://www.adata.com/us/consumer/solid-state-drives-LEGEND-840/?tab=specification",
+      "https://api.cenoteka.rs/uploads/2023/07/informacije-o-proizvodu-a-data-ssd-512gb-aleg-840-512gcs-64a1bbbacba5d.pdf",
+      "https://webapi3.adata.com/storage/downloadfile/devicessup/PS5_Compatibility_LEGEND_840_SSD.pdf",
+      "https://www.digitalcitizen.life/adata-legend-840-review/",
+      "https://global.channelonline.com/turbotek/storesite/Products/overview/M023404246"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-8a6d506a9d78": {
+    "reason": "Les mentions XD85 et leurs codes proviennent de miroirs de comparateurs. Aucune source fabricant ou fiche marchande exacte retrouvée ; les résultats officiels UD85 désignent une autre famille et ne sont pas substitués.",
+    "evidenceFiles": [
+      "sp-xd85-final.json",
+      "sp-xd85.json"
+    ],
+    "researchSourceURLs": [
+      "https://us.pc-builder.io/storage/silicon-power-xd85-p60830",
+      "https://eshop.silicon-power.com/en/products/ud85",
+      "https://media.distrelec.com/Web/Downloads/_t/ds/UD85_eng_tds.pdf",
+      "https://www.redcorp.com/en/product/ssd-pci-e/silicon-power/ssd-ud85-1tb-m-2-pci-e-4-0-3d-nand-nvme-sp01kgbp44ud8505/m9532598",
+      "https://itsystems.vn/store/sp/o-cung-ssd-silicon-power-ud85-500gb-1tb-m-2/",
+      "https://silicon-power.com/web/us/product-UD85",
+      "https://e-catalog.com/SILICON-POWER-SP500GBP44UD8505.htm",
+      "https://www.mwave.com.au/products/silicon-power-ud85-1tb-m2-nvme-pcie-gen-40-ssd-ac61408"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-0155a8c426dd": {
+    "reason": "Les mentions XD85 et leurs codes proviennent de miroirs de comparateurs. Aucune source fabricant ou fiche marchande exacte retrouvée ; les résultats officiels UD85 désignent une autre famille et ne sont pas substitués.",
+    "evidenceFiles": [
+      "sp-xd85-final.json",
+      "sp-xd85.json"
+    ],
+    "researchSourceURLs": [
+      "https://us.pc-builder.io/storage/silicon-power-xd85-p60830",
+      "https://eshop.silicon-power.com/en/products/ud85",
+      "https://media.distrelec.com/Web/Downloads/_t/ds/UD85_eng_tds.pdf",
+      "https://www.redcorp.com/en/product/ssd-pci-e/silicon-power/ssd-ud85-1tb-m-2-pci-e-4-0-3d-nand-nvme-sp01kgbp44ud8505/m9532598",
+      "https://itsystems.vn/store/sp/o-cung-ssd-silicon-power-ud85-500gb-1tb-m-2/",
+      "https://silicon-power.com/web/us/product-UD85",
+      "https://e-catalog.com/SILICON-POWER-SP500GBP44UD8505.htm",
+      "https://www.mwave.com.au/products/silicon-power-ud85-1tb-m2-nvme-pcie-gen-40-ssd-ac61408"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-49d203a9b96a": {
+    "reason": "Les mentions XD85 et leurs codes proviennent de miroirs de comparateurs. Aucune source fabricant ou fiche marchande exacte retrouvée ; les résultats officiels UD85 désignent une autre famille et ne sont pas substitués.",
+    "evidenceFiles": [
+      "sp-xd85-final.json",
+      "sp-xd85.json"
+    ],
+    "researchSourceURLs": [
+      "https://us.pc-builder.io/storage/silicon-power-xd85-p60830",
+      "https://eshop.silicon-power.com/en/products/ud85",
+      "https://media.distrelec.com/Web/Downloads/_t/ds/UD85_eng_tds.pdf",
+      "https://www.redcorp.com/en/product/ssd-pci-e/silicon-power/ssd-ud85-1tb-m-2-pci-e-4-0-3d-nand-nvme-sp01kgbp44ud8505/m9532598",
+      "https://itsystems.vn/store/sp/o-cung-ssd-silicon-power-ud85-500gb-1tb-m-2/",
+      "https://silicon-power.com/web/us/product-UD85",
+      "https://e-catalog.com/SILICON-POWER-SP500GBP44UD8505.htm",
+      "https://www.mwave.com.au/products/silicon-power-ud85-1tb-m2-nvme-pcie-gen-40-ssd-ac61408"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-fa5275e6e86b": {
+    "reason": "Les mentions XD85 et leurs codes proviennent de miroirs de comparateurs. Aucune source fabricant ou fiche marchande exacte retrouvée ; les résultats officiels UD85 désignent une autre famille et ne sont pas substitués.",
+    "evidenceFiles": [
+      "sp-xd85-final.json",
+      "sp-xd85.json"
+    ],
+    "researchSourceURLs": [
+      "https://us.pc-builder.io/storage/silicon-power-xd85-p60830",
+      "https://eshop.silicon-power.com/en/products/ud85",
+      "https://media.distrelec.com/Web/Downloads/_t/ds/UD85_eng_tds.pdf",
+      "https://www.redcorp.com/en/product/ssd-pci-e/silicon-power/ssd-ud85-1tb-m-2-pci-e-4-0-3d-nand-nvme-sp01kgbp44ud8505/m9532598",
+      "https://itsystems.vn/store/sp/o-cung-ssd-silicon-power-ud85-500gb-1tb-m-2/",
+      "https://silicon-power.com/web/us/product-UD85",
+      "https://e-catalog.com/SILICON-POWER-SP500GBP44UD8505.htm",
+      "https://www.mwave.com.au/products/silicon-power-ud85-1tb-m2-nvme-pcie-gen-40-ssd-ac61408"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  },
+  "import-ssd-20af8d6c3435": {
+    "reason": "Les sources presse décrivent l’ancien AI TOP UD, mais la page fabricant n’est plus disponible. La référence actuelle AI TOP 100E 1 To est distincte (notamment performances) et ne doit pas remplacer UD ; une preuve fabricant ou distributeur exacte reste nécessaire.",
+    "evidenceFiles": [
+      "gigabyte-ai1.json",
+      "gigabyte-official-final.json"
+    ],
+    "researchSourceURLs": [
+      "https://www.techpowerup.com/328073/gigabyte-silently-introduces-ai-top-ultra-durable-1-tb-m-2-2280-ssd",
+      "https://www.tomshardware.com/pc-components/ssds/gigabytes-new-ai-ssd-stays-true-to-the-ultra-durable-monicker-with-a-100-000-tbw-endurance-rating-ai-top-ud-ssd-is-a-budget-version-of-the-ai-top-100e-series",
+      "https://e-catalog.com/GIGABYTE-AITOPUD1TB-G.htm",
+      "https://news.qq.com/rain/a/20241024A0A83500",
+      "https://chopen.net/gigabyte-vypystila-nvme-nakopitel-ai-top-ud-ssd-1tb-s-resyrsom-perezapisi-bolee-100-tys-terabait/",
+      "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+      "https://www.gigabyte.com/SSD/AI-TOP-Capable",
+      "https://www.gigabyte.com/be/SSD/AI100E1TB",
+      "https://www.gigabyte.com/SSD/GIGABYTE-UD-PRO-SSD-1TB",
+      "https://www.gigabyte.com/AI-TOP-PC/GIGABYTE-AI-TOP-ATOM/sp"
+    ],
+    "reviewedAt": "2026-11-10T22:16:44.941500+00:00"
+  }
+}

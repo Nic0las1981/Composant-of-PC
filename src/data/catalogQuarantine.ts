@@ -112,13 +112,6 @@ export const catalogQuarantine:Record<string,{badMPN:string;reason:string;source
       "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-4-to-pci-express-4-0-3d-nand-nvme"
     ]
   },
-  "import-ssd-4b370adc4f5c": {
-    "badMPN": "K01TBM2SP0-C7T",
-    "reason": "Génération d’interface contradictoire : archive Klevv CRAS C715 déclarée PCIe 4.0 ×4 ; tableau primaire K01TBM2SP0-C7T explicitement PCI Express 3.0 et lignes PCIe x4. L’identité et la description doivent être réconciliées avant admission.",
-    "sourceURLs": [
-      "https://www.pccomponentes.fr/disque-dur-klevv-cras-c715-1-tb-m-2-nvme-3200-mb-s-x4"
-    ]
-  },
   "import-ssd-6144efc9c504": {
     "badMPN": "CT1000E100SSD8-T",
     "reason": "Code constructeur distinct : l’archive nomme explicitement CT1000E100SSD8 ; la page marchand et l’offre portent CT1000E100SSD8-T. Aucune preuve fabricant ne confirme l’équivalence du suffixe -T (conditionnement ou révision).",
