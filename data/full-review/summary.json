@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-11-10T10:02:59.491493+00:00",
+  "total": 10564,
+  "searched": 10564,
+  "pending": 0,
+  "statuses": {
+    "primary_match": 348,
+    "search_unreadable": 74,
+    "no_exact_match": 10114,
+    "ambiguous_variants": 14,
+    "conflicting_reference": 13,
+    "access_failed": 1
+  },
+  "additionalPrimaryRecords": 273,
+  "amazon": {
+    "searched": 60,
+    "mpnObservedPages": 36,
+    "confirmedFrenchOffers": 0
+  },
+  "methods": {
+    "integrity": "All variants checked for data integrity separately.",
+    "primary": "Direct PcComponentes searches followed by at most two closest primary product pages; strict identity rules; ambiguous or inconsistent MPNs excluded.",
+    "amazon": "Search plus primary product-page reads for 60 MPNs. Bundles, selected variants, seller and delivery-country uncertainty prevent importing an unconfirmed price."
+  }
+}

@@ -34,8 +34,8 @@ test("only explicitly matched public reports gain source provenance, never merch
   }
 });
 
-test("an import without an explicit EUR report stays unpriced rather than free or converted from dollars", () => {
-  const imported = catalog.filter((component) => component.source && !getMarketObservation(component));
+test("an import without an explicit EUR report or direct primary record stays unpriced", () => {
+  const imported = catalog.filter((component) => component.source && !getMarketObservation(component) && !getVerifiedProduct(component));
   assert.ok(imported.length >= 1000);
   for (const component of imported) {
     assert.equal(getReferencePrice(component), null, component.id);

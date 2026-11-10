@@ -5,3 +5,8 @@ dist/
 *.tsbuildinfo
 .DS_Store
 release/
+data/full-review/input.json
+data/full-review/reviews.jsonl
+data/full-review/*probe*.jsonl
+data/full-review/reviews-before-reparse-*.jsonl
+__pycache__/

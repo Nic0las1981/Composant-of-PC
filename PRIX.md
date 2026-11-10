@@ -4,6 +4,8 @@ Le site distingue les relevés directs, les signalements publics, les estimation
 
 ## Relevés directs du 10 novembre 2026
 
+Le [contrôle étendu](docs/FULL-CATALOG-REVIEW.md) documente les recherches des 10 564 variantes, les nouveaux relevés PcComponentes et les pages Amazon.fr consultées. Les comptes ci-dessous décrivent la première sélection manuelle.
+
 **162 références**, **183 relevés** auprès de PcComponentes, Fnac, LDLC et des fabricants. **61 références** avaient une offre neuve disponible admissible au moment du bilan ; **87 relevés** étaient des derniers prix historiques. Ces comptes sont un état daté, pas un engagement de stock.
 
 Chaque offre conserve son MPN, le site, le vendeur réel (y compris marketplace), la condition, le montant TTC affiché, la disponibilité de la variante principale, les frais connus ou leurs limites et l’heure de consultation. Les données fabricants priment pour les corrections techniques. Aucun résultat de recherche seul ne prouve un prix.

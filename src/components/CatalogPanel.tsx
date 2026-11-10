@@ -19,6 +19,8 @@ import { getMarketFeedState, refreshMarketFeed } from '../lib/marketFeed';
 import './catalog-panel.css';
 import VerifiedProductPanel from './VerifiedProductPanel';
 import { verifiedProducts } from '../data/verifiedCatalog';
+import {catalogControlSummary} from '../data/catalogControl';
+import CatalogControlNotice from './CatalogControlNotice';
 
 export interface CatalogPanelProps {
   category: CategoryId;
@@ -322,7 +324,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
       </div>
       {results.length > 0 && <div className="cp-pagination"><span>{visibleResults.length} sur {results.length} modèles affichés</span>{visibleCount < results.length && <button type="button" className="cp-button cp-secondary" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>Afficher {Math.min(PAGE_SIZE, results.length - visibleCount)} composants de plus<ArrowRight size={14} /></button>}</div>}
       {results.length === 0 && <div className="cp-empty"><SlidersHorizontal size={30} aria-hidden="true" /><h3>Aucun composant trouvé</h3><p>Essayez une autre recherche ou élargissez vos filtres.</p><button type="button" className="cp-button cp-primary" onClick={resetFilters}>Réinitialiser les filtres</button></div>}
-      <div className="cp-list-footer"><p><Info size={13} aria-hidden="true" />{Object.keys(verifiedProducts).length} références contrôlées auprès des marchands et fabricants sur {catalog.length} variantes. Les autres conservent leur provenance initiale. {pricingPolicy.description}</p>{selected && <button type="button" className="cp-text-button" onClick={() => onRemove(category)}><Trash2 size={14} aria-hidden="true" />Retirer ce composant</button>}</div>
+      <div className="cp-list-footer"><p><Info size={13} aria-hidden="true" />Contrôle individuel : {catalogControlSummary.searched} sur {catalogControlSummary.total} variantes recherchées. {Object.keys(verifiedProducts).length} références documentées par des pages primaires. Les correspondances ambiguës et recherches non concluantes sont signalées dans chaque fiche. {pricingPolicy.description}</p>{selected && <button type="button" className="cp-text-button" onClick={() => onRemove(category)}><Trash2 size={14} aria-hidden="true" />Retirer ce composant</button>}</div>
     </>}
 
     {view === 'detail' && detail && details && <>
@@ -338,6 +340,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
         <div><strong><Info size={15} />{pricing.label}</strong><p>{pricing.description} Comparez la même référence, capacité et finition.</p></div>
         <div className="cp-offer-links">{pricing.searchLinks.map((link) => <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" title={`${link.label} (nouvel onglet)`}>{link.label}<ArrowUpRight size={14} /></a>)}</div>
       </section>}
+      <CatalogControlNotice component={detail} />
       <VerifiedProductPanel component={detail} />
       {marketObservation && <section className="cp-market-observation" aria-label="Prix signalé par une source publique" data-market="DE" data-reported-amount={marketObservation.amount}>
         <div className="cp-market-heading"><div><span>Signalement public · Allemagne</span><strong>{euro(marketObservation.amount)}</strong></div><span className="cp-market-unverified">Non revérifié auprès du marchand</span></div>

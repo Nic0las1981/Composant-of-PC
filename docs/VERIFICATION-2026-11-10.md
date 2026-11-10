@@ -1,5 +1,7 @@
 # Vérification des références et relevés marchands — 10 novembre 2026
 
+> Ce bilan décrit la première sélection de 162 références. Le [contrôle ultérieur de tout le catalogue](FULL-CATALOG-REVIEW.md) étend cette sélection et fournit les comptes à jour.
+
 Le site conserve **10 564 variantes**. **162 références** ont des pages primaires acceptées, **183 offres ou derniers prix** sont documentés et **26 références** ont aussi une fiche fabricant consultée. Au bilan du 10 novembre, **61 références** disposent d’une offre neuve disponible admissible et **87 relevés** sont historiques. **10 402 variantes n’ont pas de vérification individuelle complète auprès des sources demandées**. Elles gardent leur provenance initiale et ne sont pas déclarées vérifiées.
 
 Les pages ont été consultées via Firecrawl sans cache demandé (`maxAge: 0`), après recherche des références chez PcComponentes, Fnac, LDLC et les fabricants. Les extraits de recherche servent uniquement à découvrir les pages. Le manifeste retient les correspondances examinées ; les pages et dates sont conservées dans `data/evidence/`. Le bilan `data/catalog-verification-report.json` distingue les archives non contrôlées individuellement des références initiales sans correspondance exacte acceptée.

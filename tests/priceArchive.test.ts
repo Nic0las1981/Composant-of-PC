@@ -9,6 +9,7 @@ import { analyzeBuild } from "../src/lib/compatibility.ts";
 import { withMemoryQuantity } from "../src/lib/memory.ts";
 import { getPricingInfo, getReferencePrice, formatComponentPrice } from "../src/data/pricing.ts";
 import { getMarketObservation } from "../src/lib/marketObservations.ts";
+import { getVerifiedProduct } from "../src/lib/verifiedOffers.ts";
 
 interface SourceRow {
   id: string;
@@ -98,7 +99,7 @@ test("zero, negative and non-finite archive values cannot become free or valid o
 });
 
 test("archive amounts never enter EUR component prices, total budgets or RAM kit purchases", () => {
-  for (const component of catalog.filter(component => getPriceArchive(component) && !getMarketObservation(component))) {
+  for (const component of catalog.filter(component => getPriceArchive(component) && !getMarketObservation(component) && !getVerifiedProduct(component))) {
     assert.equal(getReferencePrice(component), null, component.id);
     assert.equal(formatComponentPrice(component), "Prix non renseigné", component.id);
     const info = getPricingInfo(component);
@@ -108,11 +109,11 @@ test("archive amounts never enter EUR component prices, total budgets or RAM kit
     assert.equal(info.source, null);
     assert.equal(info.status, "unknown");
   }
-  const gpu = catalog.find(component => component.category === "gpu" && getPriceArchive(component) && !getMarketObservation(component))!;
+  const gpu = catalog.find(component => component.category === "gpu" && getPriceArchive(component) && !getMarketObservation(component) && !getVerifiedProduct(component))!;
   const gpuBuild = analyzeBuild({ ...blankSelection(), gpu: gpu.id });
   assert.equal(gpuBuild.totalKnown, 0);
   assert.equal(gpuBuild.unpricedCount, 1);
-  const ram = catalog.find(component => component.category === "ram" && component.memorySticks === 2 && getPriceArchive(component))!;
+  const ram = catalog.find(component => component.category === "ram" && component.memorySticks === 2 && getPriceArchive(component) && !getVerifiedProduct(component))!;
   const ramBuild = analyzeBuild(withMemoryQuantity({ ...blankSelection(), ram: ram.id }, 3));
   assert.equal(ramBuild.memory.purchases[0].kits, 2);
   assert.equal(ramBuild.memory.purchases[0].price, null);

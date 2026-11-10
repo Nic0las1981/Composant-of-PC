@@ -22,6 +22,11 @@ with ZipFile(release / 'forge-sources.zip', 'w', ZIP_DEFLATED, compresslevel=9) 
         item = root / name
         for path in sorted(item.rglob('*')) if item.is_dir() else [item]:
             if path.is_file():
+                relative=path.relative_to(root).as_posix()
+                if relative.startswith('data/full-review/') and (path.name=='input.json' or path.name.endswith('.jsonl')):
+                    continue
+                if '__pycache__' in path.parts:
+                    continue
                 archive.write(path, Path('forge-sources') / path.relative_to(root))
 
 hashes = []
