@@ -17,6 +17,8 @@ match=helpers['variant_match'];norm=helpers['norm']
 input_path=DIR/'input.json'
 inputs=json.loads(input_path.read_text() if input_path.exists() else gzip.decompress((DIR/'input.json.gz').read_bytes()).decode());by_id={c['id']:c for c in inputs}
 manual_ids={r['componentId'] for r in json.loads((ROOT/'data/verified-source-manifest.json').read_text())}
+prior_ids_path=ROOT/'data/individual-review/existing-bulk-ids.json'
+prior_ids=set(json.loads(prior_ids_path.read_text())) if prior_ids_path.exists() else None
 market=json.loads((ROOT/'data/market-observations.json').read_text())
 market_ids={r['component']['id'] for r in market['records']}
 reviews={}
@@ -70,6 +72,10 @@ for key,ids in by_mpn.items():
 
 for id,pages in candidates.items():
  if id in conflicting:continue
+ if prior_ids is not None and id not in prior_ids:
+  outcomes[id]['status']='candidate_pending_review'
+  rejections.append({'componentId':id,'reason':'Nouvelle correspondance candidate : revue individuelle requise avant intégration.'})
+  continue
  c=by_id[id];p=pages[0]['product'];mpn=str(p.get('mpn') or p.get('model')).strip()
  offers=[];sources=[];seen_urls=set()
  for page in pages:

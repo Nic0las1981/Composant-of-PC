@@ -8562,315 +8562,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
       "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
     ]
   },
-  "import-psu-a59c760d52e4": {
-    "mpn": "306-7ZP8C16-CE0",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mag-a650gl-unite-d-alimentation-d-energie-650-w-20-plus-4-pin-atx-atx-noir",
-        "checkedAt": "2026-11-10T09:32:42Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "650 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Courant d'entrée maximum (@110 V)",
-            "value": "10 A"
-          },
-          {
-            "label": "Courant d'entrée maximum (@220 V)",
-            "value": "5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "648 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "54 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "20 A"
-          },
-          {
-            "label": "Efficacité",
-            "value": "90%"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-courant, Sur-alimentation, Surtension, Court-circuit"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "20+4 pin ATX"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "6"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteur EPS power (8-pin)",
-            "value": "Non"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteur CPU power (4+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteur ATX (24-pin)",
-            "value": "Non"
-          },
-          {
-            "label": "Connecteur ATX power (20+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteur de lecteur de disquette",
-            "value": "Non"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Bronze"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Éclairage",
-            "value": "Non"
-          },
-          {
-            "label": "Bouton marche/arrêt intégré",
-            "value": "Oui"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Code du système harmonisé",
-            "value": "84733020"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "306-7ZP8C16-CE0"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Digital Universe FR",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mag-a650gl-unite-d-alimentation-d-energie-650-w-20-plus-4-pin-atx-atx-noir",
-        "productName": "MSI MAG A650GL unité d'alimentation d'énergie 650 W 20+4 pin ATX ATX Noir",
-        "mpn": "306-7ZP8C16-CE0",
-        "amount": 114.6,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:42Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-170191d8a62f": {
-    "mpn": "PS-SPS-0600MNSAWE-1",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-600w-semi-modulaire",
-        "checkedAt": "2026-11-10T09:32:42Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Dimensions",
-            "value": "150 mm (L) x 86 mm (H) x 140 mm (P)."
-          },
-          {
-            "label": "Haute fiabilité",
-            "value": "MTBF > 100 000 heures."
-          },
-          {
-            "label": "Système de refroidissement Ventilateur 140 mm",
-            "value": "1800 tr/min ±10 %"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-SPS-0600MNSAWE-1"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-600w-semi-modulaire",
-        "productName": "Thermaltake Smart SE2 600W semi-modulaire",
-        "mpn": "PS-SPS-0600MNSAWE-1",
-        "amount": 67.79,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:42Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-bd1a77678c4e": {
-    "mpn": "PS-SPS-0700MNSAWE-1",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-700w-modulaire",
-        "checkedAt": "2026-11-10T09:32:42Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Efficacité de 87 %",
-            "value": "offre jusqu'à 87 % d'efficacité à une charge de 20 à 100 % dans des conditions de charge réelles pour réduire les coûts électriques et promettre les pertes d'énergie les plus faibles. Économiser le gaspillage inutile d'énergie et de protection de l'environnement."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-SPS-0700MNSAWE-1"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-700w-modulaire",
-        "productName": "Thermaltake Smart SE2 700W Modulaire",
-        "mpn": "PS-SPS-0700MNSAWE-1",
-        "amount": 75.25,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:42Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
   "import-psu-30d0c61edddd": {
     "mpn": "306-7ZP7C11-CE0",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
@@ -9646,241 +9337,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
         "shipping": 0.0,
         "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
         "checkedAt": "2026-11-10T09:32:47Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-477902e370e5": {
-    "mpn": "R-PL750D-FC0B-EU-V2",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-atx-750w-deepcool-pl750-d",
-        "checkedAt": "2026-11-10T09:32:41Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "750 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50/60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "10 - 5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "750 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "15 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "62,5 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "3 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "16 ms"
-          },
-          {
-            "label": "Efficacité",
-            "value": "85%"
-          },
-          {
-            "label": "délai de déclenchement du signal Power Good",
-            "value": "100 - 150 ms"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "No load operation, Sur-courant, Sur-alimentation, Surtension, Surchauffe, Surge & inrush protection (SIP), Protection contre les surtensions, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "20+4 pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "55 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "8"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "450,550,650,750 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "2"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "3"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
-          },
-          {
-            "label": "Connecteur CPU power (4+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteur ATX power (20+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Bronze"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.0"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "HYB"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Certification",
-            "value": "CE/FCC/CCC/RCM/EAC/CAN ICES-003(B)/NMB-003(B) /TUV-RH"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Emplacement du ventilateur",
-            "value": "Haut"
-          },
-          {
-            "label": "Bouton marche/arrêt intégré",
-            "value": "Oui"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 40 °C"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Conformité à la durabilité",
-            "value": "Oui"
-          },
-          {
-            "label": "Certificats de durabilité",
-            "value": "ErP, RoHS, Triman, WEEE"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "R-PL750D-FC0B-EU-V2"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Digital Universe FR",
-        "url": "https://www.pccomponentes.fr/alimentation-atx-750w-deepcool-pl750-d",
-        "productName": "ALIMENTATION ATX 750W DEEPCOOL PL750-D",
-        "mpn": "R-PL750D-FC0B-EU-V2",
-        "amount": 78.94,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:41Z"
       }
     ],
     "notes": [
@@ -24163,73 +23619,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
       "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
     ]
   },
-  "import-psu-e11ee9db91b6": {
-    "mpn": "CP-9020265-EU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-1000w-cybenetics-platinum-hx1000i-shift-icue-link-modulaire",
-        "checkedAt": "2026-11-10T09:32:45Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Innovations technologiques",
-            "value": "L'intégration du iCUE LINK System Hub dans l'alimentation simplifie la gestion de la connectique et permet de synchroniser jusqu'à 24 périphériques. L'accès latéral grâce aux connecteurs SHIFT facilite le montage et le câblage même dans les configurations les plus exigeantes."
-          },
-          {
-            "label": "Efficacité premium certifiée Cybenetics Platinum",
-            "value": "Profitez d'un rendement jusqu'à 91 %, synonyme de consommation maîtrisée, de températures basses et de fonctionnement silencieux, même à pleine charge. Cette alimentation offre une stabilité indispensable pour les tâches intensives, le gaming haute performance ou la création professionnelle."
-          },
-          {
-            "label": "Compatibilité et évolutivité avancées",
-            "value": "Native ATX 3.1, supporte PCIe 5.1 et le nouveau câble 12V-2x6 pour GPU Nvidia RTX série 50/40. Les condensateurs japonais 105°C et le ventilateur 140 mm FDB garantissent une fiabilité hors pair et un silence optimal grâce au mode Zero RPM."
-          },
-          {
-            "label": "Modularité extrême",
-            "value": "Connectique totalement modulaire avec câbles Type 5 en PVC estampé et peignes intégrés pour une gestion de câble professionnelle et un aspect épuré. Expérience de montage simplifiée : ne connectez que ce dont vous avez besoin."
-          },
-          {
-            "label": "Contrôle digital avancé",
-            "value": "Grâce au logiciel iCUE, créez vos profils de ventilation personnalisés, surveillez tensions/puissances ou ajustez les rails OCP selon vos besoins."
-          },
-          {
-            "label": "Sortie +5 V25 A (max combiné avec +3,3 V",
-            "value": "150 W)"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "CP-9020265-EU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-1000w-cybenetics-platinum-hx1000i-shift-icue-link-modulaire",
-        "productName": "Fuente de Alimentación Corsair 1000W Cybenetics Platinum HX1000i SHIFT iCUE LINK Modulaire",
-        "mpn": "CP-9020265-EU",
-        "amount": 242.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:45Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
   "import-psu-e5ad24f362a9": {
     "mpn": "306-7ZPFX11-CE0",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
@@ -24493,13 +23882,13 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
     ]
   },
   "import-psu-42eabb5729ff": {
-    "mpn": "RM750e 750W Modulare 80+ Gold Attivo ATX Nero \" Renewed\"",
+    "mpn": "CP-9020231-EU",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
     "sources": [
       {
         "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-rm750e-750w-certificacion-80-plus-gold-modular",
-        "checkedAt": "2026-11-10T09:32:42Z",
+        "url": "https://www.pccomponentes.fr/corsair-rm-white-series-rm750-750w-80-plus-or-complet-modulaire",
+        "checkedAt": "2026-11-10T09:32:32Z",
         "kind": "retailer"
       }
     ],
@@ -24508,418 +23897,156 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
         "title": "Caractéristiques PcComponentes",
         "rows": [
           {
-            "label": "Q1",
-            "value": "Cette alimentation est-elle compatible avec tous les boîtiers ATX ?"
+            "label": "ALIMENTATION SILENCIEUX CERTIFIÉE GOLD",
+            "value": "Les blocs d'alimentation CORSAIR RM Series à très faible bruit et entièrement modulaires avec plusieurs connecteurs EPS12V fournissent une alimentation efficace à votre PC avec la certification 80 PLUS Gold ; de même, ils disposent de toutes les connexions nécessaires pour supporter les améliorations des PC les plus exigeants."
           },
           {
-            "label": "Q2",
-            "value": "Quel est l'avantage du câble modulaire ?"
+            "label": "DISPONIBLE EN NOIR OU BLANC",
+            "value": "Votre truc est plutôt discret ou minimalisme moderne ? Les blocs d'alimentation de la série RM sont disponibles en noir et blanc pour correspondre au style de votre configuration."
           },
           {
-            "label": "Q3",
-            "value": "Comment la certification 80 PLUS Gold impacte-t-elle la consommation ?"
+            "label": "OPTIMISÉ POUR UN FONCTIONNEMENT PRATIQUEMENT BRUIT",
+            "value": "un ventilateur à roulement à billes de 140 mm avec une courbe spécialement calculée garantit que même à pleine puissance, le bruit du ventilateur est réduit au minimum."
           },
           {
-            "label": "Q4",
-            "value": "Quelle est la durée de la garantie et le service après-vente ?"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "RM750e 750W Modulare 80+ Gold Attivo ATX Nero \" Renewed\""
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "INSTYLEANDJOY",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-rm750e-750w-certificacion-80-plus-gold-modular",
-        "productName": "Fuente de Alimentación Corsair RM750e 750W Certificación 80+ Gold modular",
-        "mpn": "RM750e 750W Modulare 80+ Gold Attivo ATX Nero \" Renewed\"",
-        "amount": 153.0,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:42Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-3f738cbd0207": {
-    "mpn": "90YE00W4-B0NA00",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1000p-gaming-white-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-blanc",
-        "checkedAt": "2026-11-10T09:46:13Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "1000 W"
+            "label": "HAUTE EFFICACITÉ",
+            "value": "Avec une efficacité maximale de plus de 90 %, RM produit moins de bruit et de chaleur, ce qui signifie moins de temps à s'inquiéter et plus de temps passé à jouer."
           },
           {
-            "label": "Tension d'entrée AC",
+            "label": "MODE VENTILATEUR SANS RPM",
+            "value": "à des charges faibles et moyennes, le ventilateur de refroidissement est complètement désactivé pour un fonctionnement pratiquement silencieux. Lorsque le niveau d'activité augmente, le ventilateur se met en marche pour s'assurer que la température des composants critiques est maintenue à distance."
+          },
+          {
+            "label": "VOTRE CONFIGURATION, À VOTRE MANIÈRE",
+            "value": "Toutes les alimentations CORSAIR entièrement modulaires sont compatibles avec une grande variété d'accessoires CORSAIR. Des câbles gainés individuellement dans une grande variété de combinaisons de couleurs aux câbles GPU micro-fit 12 broches et aux câbles de carte mère 12VO, vous pouvez compléter votre configuration à votre guise."
+          },
+          {
+            "label": "Pleine puissance",
+            "value": "750 W"
+          },
+          {
+            "label": "Tension d'entrée CA",
             "value": "100 - 240 V"
           },
           {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
+            "label": "Fréquence d'entrée CA",
+            "value": "47 - 63 Hz"
           },
           {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "130 W"
+            "label": "Courant d'entrée",
+            "value": "10 - 5A"
+          },
+          {
+            "label": "Puissance combinée (3,3 V)",
+            "value": "150 W"
           },
           {
             "label": "Puissance combinée (+12 V)",
-            "value": "1000 W"
+            "value": "750 W"
           },
           {
-            "label": "Puissance combinée (+5V)",
-            "value": "130 W"
+            "label": "Puissance combinée (+5 V)",
+            "value": "150 W"
           },
           {
             "label": "Puissance combinée (-12V)",
             "value": "3,6 W"
           },
           {
-            "label": "Puissance combinée (+5Vsb)",
+            "label": "Puissance combinée (+5 VSB)",
             "value": "15 W"
           },
           {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "25 A"
+            "label": "Courant de sortie maximal (+3,3 V)",
+            "value": "20 A"
           },
           {
-            "label": "Courant de sortie max (+12V)",
-            "value": "83,3 A"
+            "label": "Courant de sortie maximal (+12V)",
+            "value": "62,5 A"
           },
           {
-            "label": "Courant de sortie max (+5V)",
-            "value": "25 A"
+            "label": "Courant de sortie maximal (+5V)",
+            "value": "20 A"
           },
           {
-            "label": "Courant de sortie max (-12V)",
+            "label": "Courant de sortie maximal (-12V)",
             "value": "0,3 A"
           },
           {
-            "label": "Courant de sortie max (+5Vsb)",
+            "label": "Courant de sortie maximal (+5Vsb)",
             "value": "3 A"
           },
           {
-            "label": "Dispositifs de protection électrique",
-            "value": "Surchauffe, Sur-courant, Sur-alimentation, Surtension, Court-circuit, Sous-alimentation"
+            "label": "Alimentation de la carte mère",
+            "value": "ATX 24 broches"
           },
           {
-            "label": "Connecteur de la carte mère",
-            "value": "20+4 pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
+            "label": "Longueur du câble d'alimentation de la carte mère",
             "value": "61 cm"
           },
           {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "6"
-          },
-          {
             "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,120 mm"
+            "value": "750 850 mm"
           },
           {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "3"
+            "label": "Connecteurs d'alimentation périphériques (4 broches) (Molex)",
+            "value": "5"
           },
           {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "400,150 mm"
+            "label": "Longueur du câble d'alimentation périphérique (Molex)",
+            "value": "750 mm"
           },
           {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
+            "label": "Connecteur d'alimentation EPS (4+4 broches)",
+            "value": "Oui"
+          },
+          {
+            "label": "Connecteurs d'alimentation PCI Express (6 + 2 broches)",
             "value": "4"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
           },
           {
             "label": "Longueur du câble d'alimentation PCI Express",
             "value": "75 cm"
           },
           {
-            "label": "Connecteur CPU power (4+4 pin)",
+            "label": "Connecteur d'alimentation CPU (4 + 4 broches)",
             "value": "Oui"
           },
           {
-            "label": "longueur du câble de puissance CPU",
-            "value": "100 cm"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Platinum"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.1"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "120000 h"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Blanc"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Semi-passive"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Emplacement du ventilateur",
-            "value": "Haut"
-          },
-          {
-            "label": "Câbles inclus",
-            "value": "UC, PCIe, SATA, Peripheral (Molex)"
-          },
-          {
-            "label": "Largeur",
-            "value": "160 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "1,81 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "320 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "200 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "108 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "2,91 kg"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "90YE00W4-B0NA00"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "ZOOMICI FR",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1000p-gaming-white-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-blanc",
-        "productName": "ASUS ROG -STRIX-1000P-GAMING-WHITE unité d'alimentation d'énergie 1000 W 20+4 pin ATX ATX Blanc",
-        "mpn": "90YE00W4-B0NA00",
-        "amount": 321.22,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:46:13Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-1340230865fc": {
-    "mpn": "PS-TPD-0850FNFAPE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
-        "checkedAt": "2026-11-10T09:57:53Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "850 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50/60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "10 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "849,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "70,8 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "2,5 A"
-          },
-          {
-            "label": "Efficacité",
-            "value": "70%"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "60 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "8"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "150,500 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "4"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "150,500 mm"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
-          },
-          {
-            "label": "Connecteur ATX (24-pin)",
-            "value": "Oui"
+            "label": "Longueur du câble d'alimentation du processeur",
+            "value": "65 cm"
           },
           {
             "label": "Type de câblage",
-            "value": "Entièrement modulaire"
+            "value": "Modulaire"
           },
           {
             "label": "Certification 80 PLUS",
-            "value": "80 PLUS Platinum"
+            "value": "80 PLUS Or"
           },
           {
-            "label": "Utilité",
+            "label": "Objectif",
             "value": "PC"
           },
           {
-            "label": "Facteur de forme de l'unité d'alimentation",
+            "label": "Facteur de forme de l'alimentation (PSU)",
             "value": "ATX"
           },
           {
             "label": "Version ATX",
-            "value": "3.0"
-          },
-          {
-            "label": "Mode silencieux",
-            "value": "Oui"
+            "value": "2.4"
           },
           {
             "label": "Technologie de roulement",
-            "value": "FDB"
+            "value": "Fusil"
           },
           {
-            "label": "Temps moyen entre pannes",
+            "label": "temps moyen entre pannes",
             "value": "100000 h"
           },
           {
             "label": "Couleur du produit",
-            "value": "Noir"
+            "value": "blanc"
           },
           {
             "label": "Type de refroidissement",
@@ -24927,338 +24054,46 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
           },
           {
             "label": "Diamètre du ventilateur",
-            "value": "12 cm"
+            "value": "14 cm"
           },
           {
             "label": "Nombre de ventilateurs",
             "value": "1 ventilateur(s)"
           },
           {
-            "label": "Bouton marche/arrêt intégré",
+            "label": "Interrupteur marche/arrêt intégré",
             "value": "Oui"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 45 °C"
-          },
-          {
-            "label": "Température hors fonctionnement",
-            "value": "-40 - 70 °C"
-          },
-          {
-            "label": "Humidité relative de fonctionnement (H-H)",
-            "value": "5 - 85%"
-          },
-          {
-            "label": "Taux d'humidité relative (stockage)",
-            "value": "5 - 95%"
-          },
-          {
-            "label": "Câbles inclus",
-            "value": "PCIe, Peripheral (Molex), SATA"
-          },
-          {
-            "label": "Largeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPD-0850FNFAPE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Tecno Out",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
-        "productName": "Alimentation Thermaltake Tough Power Pf3 850w 80 Platine",
-        "mpn": "PS-TPD-0850FNFAPE-3",
-        "amount": 132.97,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:53Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-a21832774532": {
-    "mpn": "90YE00P0-B0NA00",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1200w-gold-aura-edition-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
-        "checkedAt": "2026-11-10T09:57:52Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "1200 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "120 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "1200 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "120 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "15 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "22 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "100 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "22 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "3 A"
-          },
-          {
-            "label": "Efficacité",
-            "value": "80%"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-alimentation, Surtension, Surcharge, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "20+4 pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "60 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "5"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,520,640 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "4"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "150,300,400,550 mm"
-          },
-          {
-            "label": "Connecteur PCI Express power (8-pin)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "70 cm"
-          },
-          {
-            "label": "Connecteur CPU power (4+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "longueur du câble de puissance CPU",
-            "value": "65 cm"
-          },
-          {
-            "label": "Connecteur ATX power (20+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Gold"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.0"
-          },
-          {
-            "label": "Mode silencieux",
-            "value": "Oui"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "Roulement à billes"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "13,5 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Éclairage",
-            "value": "Oui"
-          },
-          {
-            "label": "Bouton marche/arrêt intégré",
-            "value": "Oui"
-          },
-          {
-            "label": "Câbles inclus",
-            "value": "Secteur, UC, PCIe, Peripheral (Molex), SATA"
-          },
-          {
-            "label": "Largeur",
-            "value": "180 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
           },
           {
             "label": "Poids",
-            "value": "3,23 kg"
+            "value": "1,57 kg"
           },
           {
-            "label": "Manuel d'utilisation",
-            "value": "Oui"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "386 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "242 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "129 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "3,73 kg"
+            "label": "Câbles inclus",
+            "value": "CPU, PATA, PCIe, SATA"
           }
         ]
       }
     ],
     "patch": {
-      "manufacturerPartNumber": "90YE00P0-B0NA00"
+      "manufacturerPartNumber": "CP-9020231-EU"
     },
     "offers": [
       {
         "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1200w-gold-aura-edition-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
-        "productName": "ASUS ROG STRIX 1200W Gold Aura Edition unité d'alimentation d'énergie 20+4 pin ATX Noir",
-        "mpn": "90YE00P0-B0NA00",
-        "amount": 300.88,
+        "seller": "VISOTECNIC",
+        "url": "https://www.pccomponentes.fr/corsair-rm-white-series-rm750-750w-80-plus-or-complet-modulaire",
+        "productName": "Corsair RM White Series RM750 750W 80 Plus Or Complet Modulaire",
+        "mpn": "CP-9020231-EU",
+        "amount": 185.92,
         "currency": "EUR",
         "market": "FR",
         "condition": "new",
         "availability": "in_stock",
         "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:52Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-368f4dd8bfe5": {
-    "mpn": "ETV850G",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "checkedAt": "2026-11-10T09:58:14Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "ETV850G"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
-        "mpn": "ETV850G",
-        "amount": 149.11,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:14Z"
+        "shipping": 9.95,
+        "shippingNote": "Frais affichés : 9.95 € ; destination et conditions à confirmer.",
+        "checkedAt": "2026-11-10T09:32:32Z"
       }
     ],
     "notes": [
@@ -25516,120 +24351,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
       "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
     ]
   },
-  "import-psu-bcffdd504f97": {
-    "mpn": "PS-LTP-0650NHSANE-1",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-litepower-rvb-650w",
-        "checkedAt": "2026-11-10T09:57:49Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "10 LED RVB préinstallées",
-            "value": "Les 10 LED RVB sont préinstallées sur le ventilateur de 120 mm. Capable d'afficher 7 couleurs (rouge, vert, bleu, jaune, violet, bleu clair et blanc), 3 modes d'éclairage dont Pulse, Full Light et RGB Cycle, et un mode LED éteint."
-          },
-          {
-            "label": "Un seul bouton pour la couleur souhaitée",
-            "value": "il n'a jamais été aussi simple d'ajouter un attrait personnel à votre construction en appuyant simplement sur un bouton d'éclairage RVB ! Il existe également une fonction de mémoire intégrée pour enregistrer la couleur appliquée et garantir la même sélection de couleur à chaque démarrage de votre PC."
-          },
-          {
-            "label": "Ventilateur à roulement hydraulique Ultra Quite de 120 mm",
-            "value": "doté d'un ventilateur à roulement hydraulique de 120 mm avec contrôle intelligent du régime pour garantir des performances de refroidissement supérieures et un fonctionnement silencieux."
-          },
-          {
-            "label": "PFC actif",
-            "value": "empêche la distorsion harmonique tout en économisant plus d'énergie et en offrant plus de stabilité pour répondre aux normes environnementales les plus élevées."
-          },
-          {
-            "label": "États prêts pour Intel C6/C7",
-            "value": "la série Litepower RGB a été optimisée pour fonctionner avec toutes les générations de processeurs Intel afin d'obtenir des économies d'énergie maximales."
-          },
-          {
-            "label": "Système de refroidissement Ventilateur 120 mm",
-            "value": "2 000 ± 10 % RPM"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-LTP-0650NHSANE-1"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-litepower-rvb-650w",
-        "productName": "Thermaltake Litepower RVB 650W",
-        "mpn": "PS-LTP-0650NHSANE-1",
-        "amount": 63.43,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:49Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-de94b44d0526": {
-    "mpn": "ETV850G-W",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
-        "checkedAt": "2026-11-10T09:58:20Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "L'alimentation comprend des mesures avancées",
-            "value": "protection contre les surtensions (OVP), protection contre les courts-circuits (SCP), protection contre les surtensions (OPP), protection contre les sous-tensions (UVP) et protection contre les surchauffes (OTP). Cela minimise le risque de dommages électriques en cas d’incident ou de panne externe."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "ETV850G-W"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
-        "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
-        "mpn": "ETV850G-W",
-        "amount": 162.66,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:20Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
   "import-psu-983bfd87af7a": {
     "mpn": "GP-UD850GM PG5",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
@@ -25877,212 +24598,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
       "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
     ]
   },
-  "import-psu-ea4797e42dba": {
-    "mpn": "ETV750G",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
-        "checkedAt": "2026-11-10T09:58:39Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "ETV750G"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
-        "productName": "Alimentation modulaire Enermax 750 W 80PLUS Gold Revolution D.F.12 avec ventilateur 120 mm DFR",
-        "mpn": "ETV750G",
-        "amount": 146.77,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:39Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-253e0ee14556": {
-    "mpn": "CP-9020300-EU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fonte-d-alimentation-corsair-rm1000x-shift-1000w-gold-modulaire-atx-3-1-12v-2x6",
-        "checkedAt": "2026-11-10T09:57:06Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Gestion intelligente et flexible du câblage",
-            "value": "Grâce à l'interface de câblage latérale innovante et entièrement modulaire, installez et mettez à niveau votre configuration PC plus vite et de façon plus nette. Les câbles PVC ultra-flexibles avec peignes bas profil facilitent la gestion interne tout en réduisant l'encombrement."
-          },
-          {
-            "label": "Compatibilité avancée GPU nouvelle génération",
-            "value": "Livrée avec un câble 12V-2x6 natif, la RM1000x Shift alimente efficacement les cartes graphiques haut de gamme, compatibles PCIe 5.1 et prêtes pour les GeForce RTX série 50 et équivalentes."
-          },
-          {
-            "label": "Efficacité et silence premium",
-            "value": "Certifiée Cybenetics Gold (jusqu'à 89 % d'efficacité), elle minimise les pertes d'énergie et assure une alimentation homogène, même sous forte charge. Le ventilateur 140 mm à roulement dynamique fluide, entièrement contrôlable (Zero RPM et potentiomètre manuel), garantit un fonctionnement silencieux, même en pleine charge."
-          },
-          {
-            "label": "Fiabilité industrielle",
-            "value": "Intègre uniquement des condensateurs japonais 105°C pour une durabilité maximale et offre une garantie constructeur de 10 ans. Idéale pour les PC gaming, stations de travail avancées ou créateurs de contenu exigeants."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "CP-9020300-EU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-fonte-d-alimentation-corsair-rm1000x-shift-1000w-gold-modulaire-atx-3-1-12v-2x6",
-        "productName": "Fonte d'Alimentation Corsair RM1000x Shift 1000W Gold Modulaire ATX 3.1 12V-2x6",
-        "mpn": "CP-9020300-EU",
-        "amount": 189.9,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:06Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-2851a25c3a9a": {
-    "mpn": "PS-LTP-0550NPCNEU-2",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
-        "checkedAt": "2026-11-10T09:57:55Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Système de refroidissement Ventilateur de 120 mm",
-            "value": "1 800 ± 10 % tr/min"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-LTP-0550NPCNEU-2"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
-        "productName": "Thermaltake Litepower 550W",
-        "mpn": "PS-LTP-0550NPCNEU-2",
-        "amount": 50.1,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:55Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-6cbf00e12f4a": {
-    "mpn": "FOCUS-SPX-750",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-750-w-80-plus-platinum-focus-spx-750-modulaire-4-pcie-advanced-protection",
-        "checkedAt": "2026-11-10T09:59:05Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Stabilité extrême pour les charges exigeantes",
-            "value": "avec 750 W de puissance réelle et une architecture avancée, cette alimentation garantit une alimentation stable même avec des cartes graphiques et des processeurs haute puissance. Idéal pour les configurations de jeu, les postes de travail d'édition ou les environnements de création de contenu où la fiabilité de la tension est essentielle."
-          },
-          {
-            "label": "Efficacité supérieure certifiée",
-            "value": "La prestigieuse certification 80 PLUS Platinum garantit une efficacité énergétique maximale, une perte de chaleur réduite et une consommation d'énergie plus faible. Cela se traduit par une facture énergétique optimisée et une durée de vie plus longue pour vos composants."
-          },
-          {
-            "label": "Connectivité complète et modularité totale",
-            "value": "ses 4 connecteurs PCIe permettent d'alimenter des configurations multi-GPU de nouvelle génération, tandis que sa conception entièrement modulaire facilite un assemblage propre et améliore le flux d'air interne, simplifiant ainsi la maintenance et les futures mises à niveau."
-          },
-          {
-            "label": "Protections avancées intégrées",
-            "value": "Comprend une protection active contre les surcharges, les courts-circuits et les surtensions, garantissant l'intégrité et la sécurité de votre matériel contre les surtensions et les conditions défavorables."
-          },
-          {
-            "label": "Conception silencieuse et optimisée",
-            "value": "le ventilateur de 92 mm avec refroidissement actif maintient les températures internes sous contrôle sans sacrifier le silence, idéal pour les environnements de travail silencieux ou de streaming."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "FOCUS-SPX-750"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Topbiz",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-750-w-80-plus-platinum-focus-spx-750-modulaire-4-pcie-advanced-protection",
-        "productName": "Alimentation Seasonic 750 W 80 PLUS Platinum FOCUS SPX-750 modulaire 4 PCIe Advanced Protection",
-        "mpn": "FOCUS-SPX-750",
-        "amount": 175.85,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:59:05Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
   "import-psu-6c16a725fe72": {
     "mpn": "R-PL800D-FC0B-EU-V2",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
@@ -26135,28 +24650,210 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
     ]
   },
   "import-psu-feef4831cc69": {
-    "mpn": "CP-9020299-EU",
+    "mpn": "CP-9020232-EU",
     "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
     "sources": [
       {
         "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-corsair-rm850x-shift-850w-certification-gold-modulaire-acces-lateral",
-        "checkedAt": "2026-11-10T09:32:41Z",
+        "url": "https://www.pccomponentes.fr/corsair-rm-white-series-rm850-850w-80-plus-or-complet-modulaire",
+        "checkedAt": "2026-11-10T09:32:30Z",
         "kind": "retailer"
       }
     ],
-    "groups": [],
+    "groups": [
+      {
+        "title": "Caractéristiques PcComponentes",
+        "rows": [
+          {
+            "label": "ALIMENTATION SILENCIEUX CERTIFIÉE GOLD",
+            "value": "Les blocs d'alimentation CORSAIR RM Series à très faible bruit et entièrement modulaires avec plusieurs connecteurs EPS12V fournissent une alimentation efficace à votre PC avec la certification 80 PLUS Gold ; de même, ils disposent de toutes les connexions nécessaires pour supporter les améliorations des PC les plus exigeants."
+          },
+          {
+            "label": "DISPONIBLE EN NOIR OU BLANC",
+            "value": "Votre truc est plutôt discret ou minimalisme moderne ? Les blocs d'alimentation de la série RM sont disponibles en noir et blanc pour correspondre au style de votre configuration."
+          },
+          {
+            "label": "OPTIMISÉ POUR UN FONCTIONNEMENT PRATIQUEMENT BRUIT",
+            "value": "un ventilateur à roulement à billes de 140 mm avec une courbe spécialement calculée garantit que même à pleine puissance, le bruit du ventilateur est réduit au minimum."
+          },
+          {
+            "label": "HAUTE EFFICACITÉ",
+            "value": "Avec une efficacité maximale de plus de 90 %, RM produit moins de bruit et de chaleur, ce qui signifie moins de temps à s'inquiéter et plus de temps passé à jouer."
+          },
+          {
+            "label": "MODE VENTILATEUR SANS RPM",
+            "value": "à des charges faibles et moyennes, le ventilateur de refroidissement est complètement désactivé pour un fonctionnement pratiquement silencieux. Lorsque le niveau d'activité augmente, le ventilateur se met en marche pour s'assurer que la température des composants critiques est maintenue à distance."
+          },
+          {
+            "label": "VOTRE CONFIGURATION, À VOTRE MANIÈRE",
+            "value": "Toutes les alimentations CORSAIR entièrement modulaires sont compatibles avec une grande variété d'accessoires CORSAIR. Des câbles gainés individuellement dans une grande variété de combinaisons de couleurs aux câbles GPU micro-fit 12 broches et aux câbles de carte mère 12VO, vous pouvez compléter votre configuration à votre guise."
+          },
+          {
+            "label": "Pleine puissance",
+            "value": "850 W"
+          },
+          {
+            "label": "Tension d'entrée CA",
+            "value": "100 - 240 V"
+          },
+          {
+            "label": "Fréquence d'entrée CA",
+            "value": "47 - 63 Hz"
+          },
+          {
+            "label": "Courant d'entrée",
+            "value": "10 - 5A"
+          },
+          {
+            "label": "Puissance combinée (3,3 V)",
+            "value": "150 W"
+          },
+          {
+            "label": "Puissance combinée (+12 V)",
+            "value": "850 W"
+          },
+          {
+            "label": "Puissance combinée (+5 V)",
+            "value": "150 W"
+          },
+          {
+            "label": "Puissance combinée (-12V)",
+            "value": "3,6 W"
+          },
+          {
+            "label": "Puissance combinée (+5 VSB)",
+            "value": "15 W"
+          },
+          {
+            "label": "Courant de sortie maximal (+3,3 V)",
+            "value": "20 A"
+          },
+          {
+            "label": "Courant de sortie maximal (+12V)",
+            "value": "70,8 A"
+          },
+          {
+            "label": "Courant de sortie maximal (+5V)",
+            "value": "20 A"
+          },
+          {
+            "label": "Courant de sortie maximal (-12V)",
+            "value": "0,3 A"
+          },
+          {
+            "label": "Courant de sortie maximal (+5Vsb)",
+            "value": "3 A"
+          },
+          {
+            "label": "Alimentation de la carte mère",
+            "value": "ATX 24 broches"
+          },
+          {
+            "label": "Longueur du câble d'alimentation de la carte mère",
+            "value": "61 cm"
+          },
+          {
+            "label": "Longueur du câble d'alimentation SATA",
+            "value": "750 850 mm"
+          },
+          {
+            "label": "Connecteurs d'alimentation périphériques (4 broches) (Molex)",
+            "value": "5"
+          },
+          {
+            "label": "Longueur du câble d'alimentation périphérique (Molex)",
+            "value": "750 mm"
+          },
+          {
+            "label": "Connecteur d'alimentation EPS (4+4 broches)",
+            "value": "Oui"
+          },
+          {
+            "label": "Connecteurs d'alimentation PCI Express (6 + 2 broches)",
+            "value": "4"
+          },
+          {
+            "label": "Longueur du câble d'alimentation PCI Express",
+            "value": "75 cm"
+          },
+          {
+            "label": "Connecteur d'alimentation CPU (4 + 4 broches)",
+            "value": "Oui"
+          },
+          {
+            "label": "Longueur du câble d'alimentation du processeur",
+            "value": "65 cm"
+          },
+          {
+            "label": "Type de câblage",
+            "value": "Modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "80 PLUS Or"
+          },
+          {
+            "label": "Objectif",
+            "value": "PC"
+          },
+          {
+            "label": "Facteur de forme de l'alimentation (PSU)",
+            "value": "ATX"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.4"
+          },
+          {
+            "label": "Technologie de roulement",
+            "value": "Fusil"
+          },
+          {
+            "label": "temps moyen entre pannes",
+            "value": "100000 h"
+          },
+          {
+            "label": "Couleur du produit",
+            "value": "blanc"
+          },
+          {
+            "label": "Type de refroidissement",
+            "value": "Actif"
+          },
+          {
+            "label": "Diamètre du ventilateur",
+            "value": "14 cm"
+          },
+          {
+            "label": "Nombre de ventilateurs",
+            "value": "1 ventilateur(s)"
+          },
+          {
+            "label": "Interrupteur marche/arrêt intégré",
+            "value": "Oui"
+          },
+          {
+            "label": "Poids",
+            "value": "1,65 kg"
+          },
+          {
+            "label": "Câbles inclus",
+            "value": "CPU, PATA, PCIe, SATA"
+          }
+        ]
+      }
+    ],
     "patch": {
-      "manufacturerPartNumber": "CP-9020299-EU"
+      "manufacturerPartNumber": "CP-9020232-EU"
     },
     "offers": [
       {
         "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-corsair-rm850x-shift-850w-certification-gold-modulaire-acces-lateral",
-        "productName": "Alimentation Corsair RM850x Shift 850W Certification Gold modulaire accès latéral",
-        "mpn": "CP-9020299-EU",
-        "amount": 151.99,
+        "seller": "ZOOMICI FR",
+        "url": "https://www.pccomponentes.fr/corsair-rm-white-series-rm850-850w-80-plus-or-complet-modulaire",
+        "productName": "Corsair RM White Series RM850 850W 80 Plus Or Complet Modulaire",
+        "mpn": "CP-9020232-EU",
+        "amount": 166.84,
         "currency": "EUR",
         "market": "FR",
         "condition": "new",
@@ -26164,44 +24861,7 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
         "priceKind": "current",
         "shipping": 0.0,
         "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:41Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-21602e1ac1a9": {
-    "mpn": "ETV850G",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "checkedAt": "2026-11-10T09:58:14Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "ETV850G"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
-        "mpn": "ETV850G",
-        "amount": 149.11,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:14Z"
+        "checkedAt": "2026-11-10T09:32:30Z"
       }
     ],
     "notes": [
@@ -26684,2242 +25344,6 @@ export const verifiedBulk: Record<string,VerifiedProduct> = {
         "shipping": 0.0,
         "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
         "checkedAt": "2026-11-10T09:57:53Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-690a5429e7ae": {
-    "mpn": "PS-TPX-0750FNFAGE-1",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
-        "checkedAt": "2026-11-10T09:32:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPX-0750FNFAGE-1"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
-        "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
-        "mpn": "PS-TPX-0750FNFAGE-1",
-        "amount": 129.07,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:44Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-0f044264000e": {
-    "mpn": "ETV850G",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "checkedAt": "2026-11-10T09:58:14Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "ETV850G"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
-        "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
-        "mpn": "ETV850G",
-        "amount": 149.11,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:14Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-bf6490eb1171": {
-    "mpn": "PS-TPD-1200FNFAGE-H",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-a3-unite-d-alimentation-d-energie-1200-w-24-pin-atx-atx-noir",
-        "checkedAt": "2026-11-10T09:57:49Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "1200 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50/60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "10 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "1200 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "100 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "15 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "100 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "20 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "3 A"
-          },
-          {
-            "label": "Efficacité",
-            "value": "90%"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-courant, Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "60 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "12"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "150,500 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "4"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "150,500 mm"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
-          },
-          {
-            "label": "Connecteur ATX (24-pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Gold"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.0"
-          },
-          {
-            "label": "Mode silencieux",
-            "value": "Oui"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "FDB"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Bouton marche/arrêt intégré",
-            "value": "Oui"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 45 °C"
-          },
-          {
-            "label": "Température hors fonctionnement",
-            "value": "-40 - 70 °C"
-          },
-          {
-            "label": "Humidité relative de fonctionnement (H-H)",
-            "value": "5 - 85%"
-          },
-          {
-            "label": "Taux d'humidité relative (stockage)",
-            "value": "5 - 95%"
-          },
-          {
-            "label": "Câbles inclus",
-            "value": "PCIe, Peripheral (Molex), SATA"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPD-1200FNFAGE-H"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "MEGA STORE",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-a3-unite-d-alimentation-d-energie-1200-w-24-pin-atx-atx-noir",
-        "productName": "Thermaltake TOUGHPOWER GF A3 unité d'alimentation d'énergie 1200 W 24-pin ATX ATX Noir",
-        "mpn": "PS-TPD-1200FNFAGE-H",
-        "amount": 254.24,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:49Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-b2043f515137": {
-    "mpn": "SRP-CGX651-A5A32SF-W",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
-        "checkedAt": "2026-11-10T09:32:37Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Connectivité multiple",
-            "value": "doté de ports CPU dédiés, de plusieurs voies PCIe pour les graphiques hautes performances et de connecteurs SATA pour le stockage, il couvre l'ensemble des besoins avancés sans compromettre les connexions robustes ou la distribution d'alimentation."
-          },
-          {
-            "label": "Protection complète",
-            "value": "Ses systèmes de protection contre les surtensions, les sous-tensions, les surintensités et les courts-circuits maximisent la sécurité de vos composants les plus exigeants, garantissant un fonctionnement ininterrompu en cas d'incident."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "SRP-CGX651-A5A32SF-W"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
-        "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
-        "mpn": "SRP-CGX651-A5A32SF-W",
-        "amount": 100.34,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:37Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-49931078b5f5": {
-    "mpn": "SPS-630MPCBEU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se-630w-modulaire",
-        "checkedAt": "2026-11-10T10:00:04Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "SPS-630MPCBEU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/thermaltake-smart-se-630w-modulaire",
-        "productName": "Thermaltake Smart SE 630W modulaire",
-        "mpn": "SPS-630MPCBEU",
-        "amount": 49.57,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "out_of_stock",
-        "priceKind": "current",
-        "shipping": 5.25,
-        "shippingNote": "Frais affichés : 5.25 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T10:00:04Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-f79ad3abab9b": {
-    "mpn": "90YE00V3-B0NA00",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-thor-1000p3-gaming-atx-3-1-1000w-80-plus-platine",
-        "checkedAt": "2026-11-10T09:57:26Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "1000 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "125 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "1000 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "125 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "15 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "30 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "83,33 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "25 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "3 A"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-courant, Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-alimentation"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "20+4 pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "61 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "7"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,120 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "6"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "400,150 mm"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "4"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (16 broches)",
-            "value": "1"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "75 cm"
-          },
-          {
-            "label": "Connecteur CPU power (4+4 pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "longueur du câble de puissance CPU",
-            "value": "100 cm"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Platinum"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.1"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "DBB"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "120000 h"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Emplacement du ventilateur",
-            "value": "Haut"
-          },
-          {
-            "label": "Éclairage",
-            "value": "Oui"
-          },
-          {
-            "label": "Câbles inclus",
-            "value": "UC, PCIe, SATA, Peripheral (Molex)"
-          },
-          {
-            "label": "Largeur",
-            "value": "190 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "2,37 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "379 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "241 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "127 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "5,08 kg"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "90YE00V3-B0NA00"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-thor-1000p3-gaming-atx-3-1-1000w-80-plus-platine",
-        "productName": "Asus Rog Thor 1000p3 Gaming/atx 3.1 1000w/80+ Platine",
-        "mpn": "90YE00V3-B0NA00",
-        "amount": 377.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:26Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-60b2418bdbec": {
-    "mpn": "PS-SPD-0550NNFABE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-bx3-550w-80-or",
-        "checkedAt": "2026-11-10T09:57:24Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "550 W"
-          },
-          {
-            "label": "Puissance de crête",
-            "value": "550 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "100 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50/60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "12 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "550 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "15 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "18 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "54,2 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "18 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "3 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "150 ms"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "80 PLUS Bronze"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "3.1"
-          },
-          {
-            "label": "Mode silencieux",
-            "value": "Oui"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "5 - 45 °C"
-          },
-          {
-            "label": "Température hors fonctionnement",
-            "value": "-40 - 55 °C"
-          },
-          {
-            "label": "Humidité relative de fonctionnement (H-H)",
-            "value": "20 - 85%"
-          },
-          {
-            "label": "Taux d'humidité relative (stockage)",
-            "value": "10 - 95%"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "PS-SPD-0550NNFABE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-bx3-550w-80-or",
-        "productName": "Alimentation Thermaltake Smart Bx3 550w 80 Or",
-        "mpn": "PS-SPD-0550NNFABE-3",
-        "amount": 56.9,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:24Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-f57a6adb660c": {
-    "mpn": "SRP-CGX651-A5A32SF-W",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
-        "checkedAt": "2026-11-10T09:32:37Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Connectivité multiple",
-            "value": "doté de ports CPU dédiés, de plusieurs voies PCIe pour les graphiques hautes performances et de connecteurs SATA pour le stockage, il couvre l'ensemble des besoins avancés sans compromettre les connexions robustes ou la distribution d'alimentation."
-          },
-          {
-            "label": "Protection complète",
-            "value": "Ses systèmes de protection contre les surtensions, les sous-tensions, les surintensités et les courts-circuits maximisent la sécurité de vos composants les plus exigeants, garantissant un fonctionnement ininterrompu en cas d'incident."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "SRP-CGX651-A5A32SF-W"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
-        "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
-        "mpn": "SRP-CGX651-A5A32SF-W",
-        "amount": 100.34,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:37Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-2a3f6bdc6d93": {
-    "mpn": "MPW-7001-ACBN-BEU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
-        "checkedAt": "2026-11-10T09:58:40Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "700 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "200 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "47 - 63 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "648 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "19 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "54 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "17 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "2,5 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "10 ms"
-          },
-          {
-            "label": "Efficacité",
-            "value": "75%"
-          },
-          {
-            "label": "délai de déclenchement du signal Power Good",
-            "value": "100 - 500 ms"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "55 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "5"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "3"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur EPS power (8-pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "2"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "62 cm"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "Non"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "2.41"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "Housse"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Certification",
-            "value": "ErP 2014 Lot 3"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 40 °C"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "1,45 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "190 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "245 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "95 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "1,82 kg"
-          },
-          {
-            "label": "Conformité à la durabilité",
-            "value": "Oui"
-          },
-          {
-            "label": "Certificats de durabilité",
-            "value": "CE, UKCA"
-          },
-          {
-            "label": "Casier principal (externe) par palette",
-            "value": "64 pièce(s)"
-          },
-          {
-            "label": "Largeur du casier principal (externe)",
-            "value": "260 mm"
-          },
-          {
-            "label": "Longueur du casier principal (externe)",
-            "value": "503 mm"
-          },
-          {
-            "label": "Hauteur du casier principal (externe)",
-            "value": "220 mm"
-          },
-          {
-            "label": "Produit par casier principal (externe)",
-            "value": "5 pièce(s)"
-          },
-          {
-            "label": "Longueur du câble EPS",
-            "value": "67 cm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "MPW-7001-ACBN-BEU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
-        "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
-        "mpn": "MPW-7001-ACBN-BEU",
-        "amount": 91.92,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:40Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-de62431149a5": {
-    "mpn": "ERV750G-AHG-MAC",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-enermax-atx-revolution-iii-750w-gold-modulaire-silencieuse",
-        "checkedAt": "2026-11-10T09:57:51Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Es pour vous si",
-            "value": "Vous recherchez une alimentation robuste, fiable et efficace pour votre configuration gaming, avec un excellent rapport qualité/prix."
-          },
-          {
-            "label": "Non pour vous si",
-            "value": "Vous n’avez pas besoin d’une alimentation modulaire ou si votre configuration est moins exigeante en termes de puissance."
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "ERV750G-AHG-MAC"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "ENERMAX24h",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-enermax-atx-revolution-iii-750w-gold-modulaire-silencieuse",
-        "productName": "Alimentation Enermax ATX Revolution III 750W Gold Modulaire Silencieuse",
-        "mpn": "ERV750G-AHG-MAC",
-        "amount": 79.9,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 10.0,
-        "shippingNote": "Frais affichés : 10 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:51Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-343ecd8ebd38": {
-    "mpn": "FOCUS-SPX-650",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
-        "checkedAt": "2026-11-10T09:57:26Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "FOCUS-SPX-650"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Topbiz",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
-        "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
-        "mpn": "FOCUS-SPX-650",
-        "amount": 146.8,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:57:26Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-773c1429b141": {
-    "mpn": "MPW-7001-ACBN-BEU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
-        "checkedAt": "2026-11-10T09:58:40Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "700 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "200 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "47 - 63 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "648 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "19 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "54 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "17 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "2,5 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "10 ms"
-          },
-          {
-            "label": "Efficacité",
-            "value": "75%"
-          },
-          {
-            "label": "délai de déclenchement du signal Power Good",
-            "value": "100 - 500 ms"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "55 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "5"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "3"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur EPS power (8-pin)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "2"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "62 cm"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "Non"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC"
-          },
-          {
-            "label": "Facteur de forme de l'unité d'alimentation",
-            "value": "ATX"
-          },
-          {
-            "label": "Version ATX",
-            "value": "2.41"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "Housse"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Certification",
-            "value": "ErP 2014 Lot 3"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 40 °C"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "1,45 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "190 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "245 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "95 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "1,82 kg"
-          },
-          {
-            "label": "Conformité à la durabilité",
-            "value": "Oui"
-          },
-          {
-            "label": "Certificats de durabilité",
-            "value": "CE, UKCA"
-          },
-          {
-            "label": "Casier principal (externe) par palette",
-            "value": "64 pièce(s)"
-          },
-          {
-            "label": "Largeur du casier principal (externe)",
-            "value": "260 mm"
-          },
-          {
-            "label": "Longueur du casier principal (externe)",
-            "value": "503 mm"
-          },
-          {
-            "label": "Hauteur du casier principal (externe)",
-            "value": "220 mm"
-          },
-          {
-            "label": "Produit par casier principal (externe)",
-            "value": "5 pièce(s)"
-          },
-          {
-            "label": "Longueur du câble EPS",
-            "value": "67 cm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "MPW-7001-ACBN-BEU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
-        "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
-        "mpn": "MPW-7001-ACBN-BEU",
-        "amount": 91.92,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:40Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-2168004617b4": {
-    "mpn": "SST-EX1200R-PL",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-1200-w-certifiee-platinum-sst-ex1200r-pl-pcie-gen5-sfx-l",
-        "checkedAt": "2026-11-10T09:32:37Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "SST-EX1200R-PL"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Tecno Out",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-1200-w-certifiee-platinum-sst-ex1200r-pl-pcie-gen5-sfx-l",
-        "productName": "Alimentation Seasonic 1200 W certifiée Platinum SST-EX1200R-PL PCIe Gen5 SFX-L",
-        "mpn": "SST-EX1200R-PL",
-        "amount": 460.05,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:37Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-b861866775d5": {
-    "mpn": "MPW-6001-ACBN-BEU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
-        "checkedAt": "2026-11-10T09:58:23Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "600 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "200 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50 - 60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "4.5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "552 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "19 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "46 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "17 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "2,5 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "10 ms"
-          },
-          {
-            "label": "Efficacité",
-            "value": "75%"
-          },
-          {
-            "label": "délai de déclenchement du signal Power Good",
-            "value": "100 - 500 ms"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "55 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "5"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "3"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "550,700,400 mm"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "2"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "62 cm"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "Non"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC/serveur"
-          },
-          {
-            "label": "Version ATX",
-            "value": "2.41"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "Housse"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Certification",
-            "value": "ErP 2014 Lot 3, TUV, CCC, EAC"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 40 °C"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "1,4 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "190 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "245 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "95 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "1,78 kg"
-          },
-          {
-            "label": "Conformité à la durabilité",
-            "value": "Oui"
-          },
-          {
-            "label": "Certificats de durabilité",
-            "value": "CE, UKCA"
-          },
-          {
-            "label": "Produits par palette",
-            "value": "64 pièce(s)"
-          },
-          {
-            "label": "Largeur du casier principal (externe)",
-            "value": "260 mm"
-          },
-          {
-            "label": "Longueur du casier principal (externe)",
-            "value": "503 mm"
-          },
-          {
-            "label": "Hauteur du casier principal (externe)",
-            "value": "220 mm"
-          },
-          {
-            "label": "Produit par casier principal (externe)",
-            "value": "5 pièce(s)"
-          },
-          {
-            "label": "Longueur du câble EPS",
-            "value": "55 cm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "MPW-6001-ACBN-BEU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
-        "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
-        "mpn": "MPW-6001-ACBN-BEU",
-        "amount": 83.47,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:23Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-97bf9a69042d": {
-    "mpn": "PS-TPT-1000FNFAGE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "checkedAt": "2026-11-10T09:58:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPT-1000FNFAGE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
-        "mpn": "PS-TPT-1000FNFAGE-3",
-        "amount": 151.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:44Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-91c81b0bffcd": {
-    "mpn": "PS-TPX-0750FNFAGE-1",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
-        "checkedAt": "2026-11-10T09:32:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPX-0750FNFAGE-1"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
-        "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
-        "mpn": "PS-TPX-0750FNFAGE-1",
-        "amount": 129.07,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:32:44Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-866bd9ded250": {
-    "mpn": "PS-TPT-1000FNFAGE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "checkedAt": "2026-11-10T09:58:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPT-1000FNFAGE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
-        "mpn": "PS-TPT-1000FNFAGE-3",
-        "amount": 151.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:44Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-8c4a5ac00448": {
-    "mpn": "PS-TPT-1000FNFAGE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "checkedAt": "2026-11-10T09:58:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPT-1000FNFAGE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
-        "mpn": "PS-TPT-1000FNFAGE-3",
-        "amount": 151.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:44Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-91d9929724e2": {
-    "mpn": "MPW-6001-ACBN-BEU",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
-        "checkedAt": "2026-11-10T09:58:23Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [
-      {
-        "title": "Caractéristiques PcComponentes",
-        "rows": [
-          {
-            "label": "Puissance totale",
-            "value": "600 W"
-          },
-          {
-            "label": "Tension d'entrée AC",
-            "value": "200 - 240 V"
-          },
-          {
-            "label": "Fréquence d'entrée AC",
-            "value": "50 - 60 Hz"
-          },
-          {
-            "label": "Courant d'entrée",
-            "value": "4.5 A"
-          },
-          {
-            "label": "Type de Correcteur de Factueur de Puissance (CFP)",
-            "value": "Actif"
-          },
-          {
-            "label": "Puissance combinée (+3,3 V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (+12 V)",
-            "value": "552 W"
-          },
-          {
-            "label": "Puissance combinée (+5V)",
-            "value": "110 W"
-          },
-          {
-            "label": "Puissance combinée (-12V)",
-            "value": "3,6 W"
-          },
-          {
-            "label": "Puissance combinée (+5Vsb)",
-            "value": "12,5 W"
-          },
-          {
-            "label": "Courant de sortie max (+3.3V)",
-            "value": "19 A"
-          },
-          {
-            "label": "Courant de sortie max (+12V)",
-            "value": "46 A"
-          },
-          {
-            "label": "Courant de sortie max (+5V)",
-            "value": "17 A"
-          },
-          {
-            "label": "Courant de sortie max (-12V)",
-            "value": "0,3 A"
-          },
-          {
-            "label": "Courant de sortie max (+5Vsb)",
-            "value": "2,5 A"
-          },
-          {
-            "label": "Temps de maintien",
-            "value": "10 ms"
-          },
-          {
-            "label": "Efficacité",
-            "value": "75%"
-          },
-          {
-            "label": "délai de déclenchement du signal Power Good",
-            "value": "100 - 500 ms"
-          },
-          {
-            "label": "Dispositifs de protection électrique",
-            "value": "Sur-alimentation, Surtension, Surchauffe, Court-circuit, Sous-tension"
-          },
-          {
-            "label": "Connecteur de la carte mère",
-            "value": "24-pin ATX"
-          },
-          {
-            "label": "Longueur de câble d'alimentation de carte-mère",
-            "value": "55 cm"
-          },
-          {
-            "label": "Nombre de câbles d'alimentation SATA",
-            "value": "5"
-          },
-          {
-            "label": "Longueur du câble d'alimentation SATA",
-            "value": "400,550,700 mm"
-          },
-          {
-            "label": "Connecteur Molex de périphérique (4-broches)",
-            "value": "3"
-          },
-          {
-            "label": "Longueur du câble d'alimentation du périphérique (Molex)",
-            "value": "550,700,400 mm"
-          },
-          {
-            "label": "Connecteur électrique EPS (4+4 broches)",
-            "value": "Oui"
-          },
-          {
-            "label": "Connecteurs d'alimentation PCI Express (6 +2 pin)",
-            "value": "2"
-          },
-          {
-            "label": "Longueur du câble d'alimentation PCI Express",
-            "value": "62 cm"
-          },
-          {
-            "label": "Type de câblage",
-            "value": "Non-modulaire"
-          },
-          {
-            "label": "Certification 80 PLUS",
-            "value": "Non"
-          },
-          {
-            "label": "Utilité",
-            "value": "PC/serveur"
-          },
-          {
-            "label": "Version ATX",
-            "value": "2.41"
-          },
-          {
-            "label": "Technologie de roulement",
-            "value": "Housse"
-          },
-          {
-            "label": "Temps moyen entre pannes",
-            "value": "100000 h"
-          },
-          {
-            "label": "Certification",
-            "value": "ErP 2014 Lot 3, TUV, CCC, EAC"
-          },
-          {
-            "label": "Couleur du produit",
-            "value": "Noir"
-          },
-          {
-            "label": "Type de refroidissement",
-            "value": "Actif"
-          },
-          {
-            "label": "Diamètre du ventilateur",
-            "value": "12 cm"
-          },
-          {
-            "label": "Nombre de ventilateurs",
-            "value": "1 ventilateur(s)"
-          },
-          {
-            "label": "Température d'opération",
-            "value": "0 - 40 °C"
-          },
-          {
-            "label": "Largeur",
-            "value": "150 mm"
-          },
-          {
-            "label": "Profondeur",
-            "value": "140 mm"
-          },
-          {
-            "label": "Hauteur",
-            "value": "86 mm"
-          },
-          {
-            "label": "Poids",
-            "value": "1,4 kg"
-          },
-          {
-            "label": "Largeur du colis",
-            "value": "190 mm"
-          },
-          {
-            "label": "Profondeur du colis",
-            "value": "245 mm"
-          },
-          {
-            "label": "Hauteur du colis",
-            "value": "95 mm"
-          },
-          {
-            "label": "Poids du paquet",
-            "value": "1,78 kg"
-          },
-          {
-            "label": "Conformité à la durabilité",
-            "value": "Oui"
-          },
-          {
-            "label": "Certificats de durabilité",
-            "value": "CE, UKCA"
-          },
-          {
-            "label": "Produits par palette",
-            "value": "64 pièce(s)"
-          },
-          {
-            "label": "Largeur du casier principal (externe)",
-            "value": "260 mm"
-          },
-          {
-            "label": "Longueur du casier principal (externe)",
-            "value": "503 mm"
-          },
-          {
-            "label": "Hauteur du casier principal (externe)",
-            "value": "220 mm"
-          },
-          {
-            "label": "Produit par casier principal (externe)",
-            "value": "5 pièce(s)"
-          },
-          {
-            "label": "Longueur du câble EPS",
-            "value": "55 cm"
-          }
-        ]
-      }
-    ],
-    "patch": {
-      "manufacturerPartNumber": "MPW-6001-ACBN-BEU"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "Icoza",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
-        "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
-        "mpn": "MPW-6001-ACBN-BEU",
-        "amount": 83.47,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:23Z"
-      }
-    ],
-    "notes": [
-      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité."
-    ]
-  },
-  "import-psu-f64e7fc82981": {
-    "mpn": "PS-TPT-1000FNFAGE-3",
-    "identityNote": "Correspondance marchande contrôlée par modèle, capacité, kit et finition lorsqu’ils sont renseignés. Le MPN est celui de la page produit consultée.",
-    "sources": [
-      {
-        "name": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "checkedAt": "2026-11-10T09:58:44Z",
-        "kind": "retailer"
-      }
-    ],
-    "groups": [],
-    "patch": {
-      "manufacturerPartNumber": "PS-TPT-1000FNFAGE-3"
-    },
-    "offers": [
-      {
-        "retailer": "PcComponentes",
-        "seller": "PcComponentes",
-        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
-        "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
-        "mpn": "PS-TPT-1000FNFAGE-3",
-        "amount": 151.99,
-        "currency": "EUR",
-        "market": "FR",
-        "condition": "new",
-        "availability": "in_stock",
-        "priceKind": "current",
-        "shipping": 0.0,
-        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
-        "checkedAt": "2026-11-10T09:58:44Z"
       }
     ],
     "notes": [

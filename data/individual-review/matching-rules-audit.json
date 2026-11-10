@@ -1,0 +1,3526 @@
+{
+  "scope": "Offline revalidation of the frozen primary pages only; no search or price refresh; no runtime catalogue files modified.",
+  "baselineCommit": "6ef79a3d9a993426f45327a71d0fbf2965d8eb6f",
+  "changes": [
+    "RAM Overclocking/OC spelling alias only",
+    "Explicit PSU 80 PLUS/Cybenetics certification attributes",
+    "Mixed finishes require all source product colors; lighting colors excluded",
+    "Capacity-normalized discovery ranking (tested separately; cannot fetch unseen pages offline)"
+  ],
+  "newUnadmittedCandidates": 34,
+  "newCandidatesByCategory": {
+    "ram": 5,
+    "psu": 28,
+    "gpu": 1
+  },
+  "newlyRejectedPreviouslyMatched": 36,
+  "newCandidates": [
+    {
+      "id": "import-ram-8b162aa67690",
+      "category": "ram",
+      "name": "Pro Overclocking 32 Go (2 × 16 Go) DDR5-6000 CL36 · Blanc",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6000-mhz-32-go-2-x-16-go-cl36-intel-xmp-3-0-et-amd-expo-blanc",
+          "checkedAt": "2026-11-10T09:26:13Z",
+          "productName": "Crucial Pro OC DDR5 6000 MHz 32 Go 2 x 16 Go CL36 Intel XMP 3.0 et AMD EXPO Blanc",
+          "mpn": "CP2K16G60C36U5W",
+          "previousPageReasons": [
+            "Modèle différent : overclocking"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6000-mhz-32-go-2-x-16-go-cl36-intel-xmp-3-0-et-amd-expo-blanc",
+          "productName": "Crucial Pro OC DDR5 6000 MHz 32 Go 2 x 16 Go CL36 Intel XMP 3.0 et AMD EXPO Blanc",
+          "mpn": "CP2K16G60C36U5W",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6000-mhz-32-go-2-x-16-go-cl36-intel-xmp-3-0-et-amd-expo",
+          "productName": "Crucial Pro OC DDR5 6000 MHz 32 Go 2 x 16 Go CL36 Intel XMP 3.0 et AMD EXPO",
+          "mpn": "CP2K16G60C36U5B",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Finition complète non confirmée dans le titre ou la caractéristique couleur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-ram-a8127ab26767",
+      "category": "ram",
+      "name": "Viper Elite II 32 Go (2 × 16 Go) DDR4-3200 CL18 · Rouge / Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/patriot-viper-elite-ii-ddr4-3200-mhz-32-go-2-x-16-go-cl18",
+          "checkedAt": "2026-11-10T09:26:06Z",
+          "productName": "Patriot Viper Elite II DDR4 3200 MHz 32 Go 2 x 16 Go CL18",
+          "mpn": "PVE2432G320C8K",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/patriot-viper-elite-ii-ddr4-3200-mhz-32-go-2-x-16-go-cl18",
+          "productName": "Patriot Viper Elite II DDR4 3200 MHz 32 Go 2 x 16 Go CL18",
+          "mpn": "PVE2432G320C8K",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/patriot-viper-elite-ii-ddr4-3200-mhz-32-go-cl18",
+          "productName": "Patriot Viper Elite II DDR4 3200 MHz 32 Go CL18",
+          "mpn": "PVE2432G320C8",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Composition exacte du kit non confirmée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-ram-6963588ccfaf",
+      "category": "ram",
+      "name": "FURY Renegade 48 Go (1 × 48 Go) DDR5-6000 CL32 · Argent / Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-48go-1x48go-ddr5-6000mhz-cl32-argent-noir-xmp-3-0",
+          "checkedAt": "2026-11-10T09:27:46Z",
+          "productName": "Mémoire RAM Kingston FURY Renegade 48Go 1x48Go DDR5 6000MHz CL32 Argent/Noir XMP 3.0",
+          "mpn": "KF560C32RS-48",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-48go-1x48go-ddr5-6000mhz-cl32-argent-noir-xmp-3-0",
+          "productName": "Mémoire RAM Kingston FURY Renegade 48Go 1x48Go DDR5 6000MHz CL32 Argent/Noir XMP 3.0",
+          "mpn": "KF560C32RS-48",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-96go-2x48go-ddr5-6400mhz-cl32-xmp-argent-noir",
+          "productName": "Mémoire RAM Kingston FURY Renegade 96Go 2x48Go DDR5 6400MHz CL32 XMP Argent/Noir",
+          "mpn": "KF564C32RSK2-96",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Génération ou débit mémoire non confirmé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-4fc19805ad78",
+      "category": "psu",
+      "name": "V850 SFX GOLD · 850 W · SFX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-v850-sfx-850w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:32:32Z",
+          "productName": "Cooler Master V850 SFX 850W 80 Plus Gold Modulaire",
+          "mpn": "MPY-8501-SFHAGV-EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-v850-sfx-850w-80-plus-gold-modulaire",
+          "productName": "Cooler Master V850 SFX 850W 80 Plus Gold Modulaire",
+          "mpn": "MPY-8501-SFHAGV-EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bd6fa2bc5474",
+      "category": "psu",
+      "name": "P450B · 450 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-p450b-450w-80-plus-bronze",
+          "checkedAt": "2026-11-10T09:32:35Z",
+          "productName": "Gigabyte P450B 450W 80 Plus Bronze",
+          "mpn": "GP-P450B",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-p450b-450w-80-plus-bronze",
+          "productName": "Gigabyte P450B 450W 80 Plus Bronze",
+          "mpn": "GP-P450B",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-9aec764fe199",
+      "category": "psu",
+      "name": "MWE Bronze V2 · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-650-bronze-v2-650w-80-plus-bronze",
+          "checkedAt": "2026-11-10T09:32:39Z",
+          "productName": "Cooler Master MWE 650 Bronze V2 650W 80 Plus Bronze",
+          "mpn": "MPE-6501-ACABW-BEU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-650-bronze-v2-650w-80-plus-bronze",
+          "productName": "Cooler Master MWE 650 Bronze V2 650W 80 Plus Bronze",
+          "mpn": "MPE-6501-ACABW-BEU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-a7ac761a0e01",
+      "category": "psu",
+      "name": "ROG THOR 1600T Gaming · 1600 W · ATX · 80 PLUS Titanium · Entièrement modulaire · Argent / Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/asus-rog-thor-1600t-gaming-1600w-80-plus-titane-modulaire",
+          "checkedAt": "2026-11-10T09:32:30Z",
+          "productName": "ASUS ROG Thor 1600T Gaming 1600W 80 Plus Titane Modulaire",
+          "mpn": "90YE00K0-B0NA00",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/asus-rog-thor-1600t-gaming-1600w-80-plus-titane-modulaire",
+          "productName": "ASUS ROG Thor 1600T Gaming 1600W 80 Plus Titane Modulaire",
+          "mpn": "90YE00K0-B0NA00",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-asus-rog-thor-1600t3-gaming-evo-1600w-80-plus-titanium-modulaire-oled",
+          "productName": "Source d'Alimentation ASUS ROG THOR-1600T3-GAMING-EVO 1600W 80 PLUS Titanium modulaire OLED",
+          "mpn": "90YE00VB-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 1600t"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b422c015b487",
+      "category": "psu",
+      "name": "MPG A850G PCIE5 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/msi-mpg-a850g-pcie5-850w-80-plus-or-complet-modulaire",
+          "checkedAt": "2026-11-10T09:32:34Z",
+          "productName": "MSI MPG A850G PCIE5 850W 80 Plus Or Complet Modulaire",
+          "mpn": "MPG A850G PCIE5",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/msi-mpg-a850g-pcie5-850w-80-plus-or-complet-modulaire",
+          "productName": "MSI MPG A850G PCIE5 850W 80 Plus Or Complet Modulaire",
+          "mpn": "MPG A850G PCIE5",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mpg-a850gs-pcie5-atx-3-1-pcie-5-1-850-w-80-plus-gold-modulaire",
+          "productName": "MSI MPG A850GS PCIE5 ATX 3.1 PCIe 5.1 850 W 80 Plus Gold Modulaire",
+          "mpn": "306-7ZPFZ11-CE0",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : a850g"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-a92896f7672c",
+      "category": "psu",
+      "name": "Power Zone 2 · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-850w-80-plus-platinum-modulaire",
+          "checkedAt": "2026-11-10T09:32:35Z",
+          "productName": "Be quiet Power Zone 2 850W 80 PLUS Platinum Modulaire",
+          "mpn": "BP007EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-850w-80-plus-platinum-modulaire",
+          "productName": "Be quiet Power Zone 2 850W 80 PLUS Platinum Modulaire",
+          "mpn": "BP007EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-be-quiet-power-zone-2-1200w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación be quiet! Power Zone 2 1200W 80 PLUS Platinum modulaire",
+          "mpn": "BP030EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Puissance contradictoire dans le titre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-5f769dddab93",
+      "category": "psu",
+      "name": "TUF Gaming 650B · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/asus-tuf-gaming-650b-80-plus-bronze-650w",
+          "checkedAt": "2026-11-10T09:32:40Z",
+          "productName": "Asus TUF Gaming 650B 80 Plus Bronze 650W",
+          "mpn": "90YE00D1-B0NA00",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/asus-tuf-gaming-650b-80-plus-bronze-650w",
+          "productName": "Asus TUF Gaming 650B 80 Plus Bronze 650W",
+          "mpn": "90YE00D1-B0NA00",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-asus-tuf-gaming-650w-bronze-evo-80-plus-bronze-modulaire",
+          "productName": "Alimentation Asus TUF Gaming 650W Bronze EVO 80 PLUS Bronze modulaire",
+          "mpn": "90YE00D6-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : 650b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-ram-2745c98bf08a",
+      "category": "ram",
+      "name": "FURY Renegade 96 Go (2 × 48 Go) DDR5-6400 CL32 · Argent / Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-96go-2x48go-ddr5-6400mhz-cl32-xmp-argent-noir",
+          "checkedAt": "2026-11-10T09:27:35Z",
+          "productName": "Mémoire RAM Kingston FURY Renegade 96Go 2x48Go DDR5 6400MHz CL32 XMP Argent/Noir",
+          "mpn": "KF564C32RSK2-96",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-96go-2x48go-ddr5-6400mhz-cl32-xmp-argent-noir",
+          "productName": "Mémoire RAM Kingston FURY Renegade 96Go 2x48Go DDR5 6400MHz CL32 XMP Argent/Noir",
+          "mpn": "KF564C32RSK2-96",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-48go-1x48go-ddr5-6000mhz-cl32-argent-noir-xmp-3-0",
+          "productName": "Mémoire RAM Kingston FURY Renegade 48Go 1x48Go DDR5 6000MHz CL32 Argent/Noir XMP 3.0",
+          "mpn": "KF560C32RS-48",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Génération ou débit mémoire non confirmé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-ram-ac69dcad3ed4",
+      "category": "ram",
+      "name": "Aegis 8 Go (2 × 4 Go) DDR4-2133 CL15 · Noir / Rouge",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gskill-aegis-ddr4-2133-mhz-pc4-17000-8-go-2-x-4-go-cl15",
+          "checkedAt": "2026-11-10T09:27:49Z",
+          "productName": "G.Skill Aegis DDR4 2133 MHz PC4-17000 8 Go 2 x 4 Go CL15",
+          "mpn": "F4-2133C15D-8GIS",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gskill-aegis-ddr4-2133-mhz-pc4-17000-8-go-2-x-4-go-cl15",
+          "productName": "G.Skill Aegis DDR4 2133 MHz PC4-17000 8 Go 2 x 4 Go CL15",
+          "mpn": "F4-2133C15D-8GIS",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/g-skill-aegis-ddr4-2133-pc4-17000-4-go-cl15",
+          "productName": "G. Skill Aegis DDR4 2133 PC4-17000 4 Go CL15",
+          "mpn": "F4-2133C15S-4GIS",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Composition exacte du kit non confirmée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-gpu-605632301293",
+      "category": "gpu",
+      "name": "TITAN OC Arc A750 · 8 Go · Bleu / Noir · 306 mm",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/sparkle-technology-intel-arc-a750-titan-oc-edition-8-go-gddr6",
+          "checkedAt": "2026-11-10T09:30:38Z",
+          "productName": "Sparkle Technology Intel Arc A750 TITAN OC Edition 8 Go GDDR6",
+          "mpn": "1A1-S00393400G",
+          "previousPageReasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/sparkle-technology-intel-arc-a750-titan-oc-edition-8-go-gddr6",
+          "productName": "Sparkle Technology Intel Arc A750 TITAN OC Edition 8 Go GDDR6",
+          "mpn": "1A1-S00393400G",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/carte-graphique-sparkle-technology-sa750rw-8goc-intel-arc-a750-8-go-gddr6",
+          "productName": "Sparkle Technology SA750RW-8GOC Intel Arc A750 8 Go GDDR6",
+          "mpn": "1A1-S00413600G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : titan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-04845e4f4b8b",
+      "category": "psu",
+      "name": "1000 GQ · 1000 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/evga-gq-1000w-80-plus-or-semi-modulaire",
+          "checkedAt": "2026-11-10T09:57:04Z",
+          "productName": "EVGA GQ 1000W 80 Plus Or Semi Modulaire",
+          "mpn": "210-GQ-1000-V2",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/evga-gq-1000w-80-plus-or-semi-modulaire",
+          "productName": "EVGA GQ 1000W 80 Plus Or Semi Modulaire",
+          "mpn": "210-GQ-1000-V2",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-47ae507ce992",
+      "category": "psu",
+      "name": "AORUS ELITE P850 · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-gigabyte-850-w-80-plus-platinum-aorus-elite-p850-w-pcie-5-0",
+          "checkedAt": "2026-11-10T09:57:05Z",
+          "productName": "Alimentation modulaire GIGABYTE 850 W 80 PLUS Platinum AORUS ELITE P850 W PCIe 5.0",
+          "mpn": "GP-AE850PM PG5 EU",
+          "previousPageReasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-gigabyte-850-w-80-plus-platinum-aorus-elite-p850-w-pcie-5-0",
+          "productName": "Alimentation modulaire GIGABYTE 850 W 80 PLUS Platinum AORUS ELITE P850 W PCIe 5.0",
+          "mpn": "GP-AE850PM PG5 EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-3f7709be66e0",
+      "category": "psu",
+      "name": "Power Zone 2 · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-1000w-80-plus-platinum-modulaire",
+          "checkedAt": "2026-11-10T09:57:06Z",
+          "productName": "Be quiet Power Zone 2 1000W 80 PLUS Platinum Modulaire",
+          "mpn": "BP008EU",
+          "previousPageReasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-1000w-80-plus-platinum-modulaire",
+          "productName": "Be quiet Power Zone 2 1000W 80 PLUS Platinum Modulaire",
+          "mpn": "BP008EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-be-quiet-power-zone-2-1200w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación be quiet! Power Zone 2 1200W 80 PLUS Platinum modulaire",
+          "mpn": "BP030EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Puissance contradictoire dans le titre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-01e3e8ba588f",
+      "category": "psu",
+      "name": "Power Zone 2 · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-750w-80-plus-platinum-modulaire",
+          "checkedAt": "2026-11-10T09:57:07Z",
+          "productName": "Be quiet Power Zone 2 750W 80 PLUS Platinum Modulaire",
+          "mpn": "BP006EU",
+          "previousPageReasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-750w-80-plus-platinum-modulaire",
+          "productName": "Be quiet Power Zone 2 750W 80 PLUS Platinum Modulaire",
+          "mpn": "BP006EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-be-quiet-power-zone-2-1200w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación be quiet! Power Zone 2 1200W 80 PLUS Platinum modulaire",
+          "mpn": "BP030EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Puissance contradictoire dans le titre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-30118133eb56",
+      "category": "psu",
+      "name": "C1200 · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-nzxt-c1200-gold-atx-3-1-pcie-5-1-1200-w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:32:35Z",
+          "productName": "NZXT C1200 Gold ATX 3.1 PCIe 5.1 1200 W 80 Plus Gold Modulaire",
+          "mpn": "PA-2G2BB-EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-nzxt-c1200-gold-atx-3-1-pcie-5-1-1200-w-80-plus-gold-modulaire",
+          "productName": "NZXT C1200 Gold ATX 3.1 PCIe 5.1 1200 W 80 Plus Gold Modulaire",
+          "mpn": "PA-2G2BB-EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-nzxt-c1200-gold-atx-31-pcie-51-1200-w-80-plus-gold-modulaire-blanc",
+          "productName": "NZXT C1200 Gold ATX 3.1 PCIe 5.1 1200 W 80 Plus Gold Modulaire Blanc",
+          "mpn": "PA-2G2BW-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Finition du titre différente ou multiple"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-a41789c53cb1",
+      "category": "psu",
+      "name": "CX750 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/corsair-cx750-750-w-80-plus-bronze",
+          "checkedAt": "2026-11-10T09:32:41Z",
+          "productName": "Corsair CX750 750W 80 Plus Bronze",
+          "mpn": "CP-9020279-EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/corsair-cx750-750-w-80-plus-bronze",
+          "productName": "Corsair CX750 750W 80 Plus Bronze",
+          "mpn": "CP-9020279-EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-c41db36e8cae",
+      "category": "psu",
+      "name": "HX1000i · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/corsair-hxi-series-hx1000i-1000w-80-plus-platine-modulaire",
+          "checkedAt": "2026-11-10T09:32:36Z",
+          "productName": "Corsair HXi Series HX1000i 1000W 80 Plus Platine Modulaire",
+          "mpn": "CP-9020259-EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/corsair-hxi-series-hx1000i-1000w-80-plus-platine-modulaire",
+          "productName": "Corsair HXi Series HX1000i 1000W 80 Plus Platine Modulaire",
+          "mpn": "CP-9020259-EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-1000w-cybenetics-platinum-hx1000i-shift-icue-link-modulaire",
+          "productName": "Fuente de Alimentación Corsair 1000W Cybenetics Platinum HX1000i SHIFT iCUE LINK Modulaire",
+          "mpn": "CP-9020265-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Révision alimentation différente : shift"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-4406089f07b3",
+      "category": "psu",
+      "name": "TR2 S · 600 W · ATX · 80 PLUS · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-tr2-s-600-w-80-plus",
+          "checkedAt": "2026-11-10T09:57:02Z",
+          "productName": "Thermaltake TR2 S 600 W 80 Plus",
+          "mpn": "PS-TRS-0600NPCWEU-2",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-tr2-s-600-w-80-plus",
+          "productName": "Thermaltake TR2 S 600 W 80 Plus",
+          "mpn": "PS-TRS-0600NPCWEU-2",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-6f42f2d8e160",
+      "category": "psu",
+      "name": "Pure Power 13 M · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-pure-power-13-m-750w-80-plus-gold-atx-noir",
+          "checkedAt": "2026-11-10T09:57:24Z",
+          "productName": "Alimentation be quiet! Pure Power 13 M 750W 80 PLUS Gold ATX Noir",
+          "mpn": "BP026EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-pure-power-13-m-750w-80-plus-gold-atx-noir",
+          "productName": "Alimentation be quiet! Pure Power 13 M 750W 80 PLUS Gold ATX Noir",
+          "mpn": "BP026EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-682d3c3138c0",
+      "category": "psu",
+      "name": "P550B · 550 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-p550b-550w-80-plus-bronze",
+          "checkedAt": "2026-11-10T09:57:27Z",
+          "productName": "Gigabyte P550B 550W 80 Plus Bronze",
+          "mpn": "GP-P550B",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-p550b-550w-80-plus-bronze",
+          "productName": "Gigabyte P550B 550W 80 Plus Bronze",
+          "mpn": "GP-P550B",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-e9f88483f2eb",
+      "category": "psu",
+      "name": "P850GM · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-gp-p850gm-850-w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:57:27Z",
+          "productName": "Gigabyte GP-P850GM 850 W 80 Plus Gold modulaire",
+          "mpn": "GP-P850GM",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-gp-p850gm-850-w-80-plus-gold-modulaire",
+          "productName": "Gigabyte GP-P850GM 850 W 80 Plus Gold modulaire",
+          "mpn": "GP-P850GM",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-96a0be71b294",
+      "category": "psu",
+      "name": "FOCUS PLUS 850 Gold · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "ambiguous_variants",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-seasonic-focus-gx-850-blanc-atx-3-pcie-5-1-850-w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:25:23Z",
+          "productName": "Seasonic Focus GX-850 Blanc ATX 3 PCIe 5.1 850 W 80 Plus Gold Modulaire",
+          "mpn": "FOCUS-GX-850-V4-WHITE",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-seasonic-focus-850fm-850w-80-plus-gold-semimodulaire",
+          "productName": "Seasonic Focus 850FM 850W 80 Plus Gold Semimodulaire",
+          "mpn": "SSR-850FM",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modularité alimentation différente"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-seasonic-focus-gx-850-blanc-atx-3-pcie-5-1-850-w-80-plus-gold-modulaire",
+          "productName": "Seasonic Focus GX-850 Blanc ATX 3 PCIe 5.1 850 W 80 Plus Gold Modulaire",
+          "mpn": "FOCUS-GX-850-V4-WHITE",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-304b8dace598",
+      "category": "psu",
+      "name": "FOCUS Plus 750 Gold · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "ambiguous_variants",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-seasonic-focus-gx-750-atx-3-pcie-5-1-750-w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:26:10Z",
+          "productName": "Seasonic Focus GX-750 ATX 3 PCIe 5.1 750 W 80 Plus Gold Modulaire",
+          "mpn": "FOCUS-GX-750-V4",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-seasonic-focus-gx-750-atx-3-pcie-5-1-750-w-80-plus-gold-modulaire",
+          "productName": "Seasonic Focus GX-750 ATX 3 PCIe 5.1 750 W 80 Plus Gold Modulaire",
+          "mpn": "FOCUS-GX-750-V4",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-750-w-80-plus-gold-focus-sgx-750-supplements-format-hybride-sfx-atx",
+          "productName": "Alimentation Seasonic 750 W 80 PLUS Gold FOCUS SGX-750, Suppléments : format hybride SFX/ATX",
+          "mpn": "FOCUS-SGX-750",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Révision alimentation différente : sfx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-225fe502cdf3",
+      "category": "psu",
+      "name": "MWE Bronze V2 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-750-bronze-v2-750w-80-plus-bronze",
+          "checkedAt": "2026-11-10T09:32:48Z",
+          "productName": "Cooler Master MWE 750 Bronze V2 750W 80 Plus Bronze",
+          "mpn": "MPE-7501-ACABW-BEU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-750-bronze-v2-750w-80-plus-bronze",
+          "productName": "Cooler Master MWE 750 Bronze V2 750W 80 Plus Bronze",
+          "mpn": "MPE-7501-ACABW-BEU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-gold-750-v2-750w-80-plus-gold-modulaire",
+          "productName": "Cooler Master MWE Gold 750 V2 750W 80 Plus Gold Modulaire",
+          "mpn": "MPE-7501-AFAAG-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : bronze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-fbc7537b3ed1",
+      "category": "psu",
+      "name": "Pure Power 13 M · 550 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-pure-power-13-m-550w-80-plus-gold-active-cooling-noir",
+          "checkedAt": "2026-11-10T09:32:46Z",
+          "productName": "Alimentation be quiet! Pure Power 13 M 550W 80 PLUS Gold Active Cooling Noir",
+          "mpn": "BP024EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-pure-power-13-m-550w-80-plus-gold-active-cooling-noir",
+          "productName": "Alimentation be quiet! Pure Power 13 M 550W 80 PLUS Gold Active Cooling Noir",
+          "mpn": "BP024EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-d796345ad16f",
+      "category": "psu",
+      "name": "Pure Power 12 · 550 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-550-w-certification-80-plus-gold-pure-power-12-atx-3-1-pcie-5-1-protection-avancee",
+          "checkedAt": "2026-11-10T09:32:38Z",
+          "productName": "Alimentation Be quiet 550 W Certification 80 PLUS Gold Pure Power 12 ATX 3.1 PCIe 5.1 Protection avancée",
+          "mpn": "BP001EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-550-w-certification-80-plus-gold-pure-power-12-atx-3-1-pcie-5-1-protection-avancee",
+          "productName": "Alimentation Be quiet 550 W Certification 80 PLUS Gold Pure Power 12 ATX 3.1 PCIe 5.1 Protection avancée",
+          "mpn": "BP001EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-be-quiet-pure-power-13-m-550w-80-plus-gold-active-cooling-noir",
+          "productName": "Alimentation be quiet! Pure Power 13 M 550W 80 PLUS Gold Active Cooling Noir",
+          "mpn": "BP024EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-84ecdb32d1e3",
+      "category": "psu",
+      "name": "UD1000GM PG5 · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-ud1000gm-pg5-1000w-80-plus-or-complet-modulaire",
+          "checkedAt": "2026-11-10T09:57:52Z",
+          "productName": "Gigabyte UD1000GM PG5 1000W 80 Plus Or Complet Modulaire",
+          "mpn": "GP-UD1000GM PG5",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-ud1000gm-pg5-1000w-80-plus-or-complet-modulaire",
+          "productName": "Gigabyte UD1000GM PG5 1000W 80 Plus Or Complet Modulaire",
+          "mpn": "GP-UD1000GM PG5",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-gigabyte-1000w-80-plus-gold-ud1000gm-pg5-v2-ice-entierement-modulaire-blanche",
+          "productName": "Alimentation GIGABYTE 1000W 80 PLUS Gold UD1000GM PG5 V2 ICE entièrement modulaire blanche",
+          "mpn": "GP-UD1000GM PG5 ICE EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Révision alimentation différente : ice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-e811b877a843",
+      "category": "psu",
+      "name": "Toughpower PF3 · 1050 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf3-1050w-80-plus-platinum-entierement-modulaire",
+          "checkedAt": "2026-11-10T09:58:39Z",
+          "productName": "Thermaltake TOUGHPOWER PF3 1050W 80 Plus Platinum entièrement modulaire",
+          "mpn": "PS-TPD-1050FNFAPE-3",
+          "previousPageReasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf3-1050w-80-plus-platinum-entierement-modulaire",
+          "productName": "Thermaltake TOUGHPOWER PF3 1050W 80 Plus Platinum entièrement modulaire",
+          "mpn": "PS-TPD-1050FNFAPE-3",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b18e1ba94fff",
+      "category": "psu",
+      "name": "PW400 · 400 W · ATX · 80 PLUS · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-pw400-400w-80-plus-standard",
+          "checkedAt": "2026-11-10T09:59:25Z",
+          "productName": "Gigabyte PW400 400W 80 Plus Standard",
+          "mpn": "GP-PW400",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/gigabyte-pw400-400w-80-plus-standard",
+          "productName": "Gigabyte PW400 400W 80 Plus Standard",
+          "mpn": "GP-PW400",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-c027d16bdf86",
+      "category": "psu",
+      "name": "MWE GOLD 750 V2 · 750 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-gold-750-v2-750w-80-plus-gold-modulaire",
+          "checkedAt": "2026-11-10T09:32:34Z",
+          "productName": "Cooler Master MWE Gold 750 V2 750W 80 Plus Gold Modulaire",
+          "mpn": "MPE-7501-AFAAG-EU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/cooler-master-mwe-gold-750-v2-750w-80-plus-gold-modulaire",
+          "productName": "Cooler Master MWE Gold 750 V2 750W 80 Plus Gold Modulaire",
+          "mpn": "MPE-7501-AFAAG-EU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-c0c342c80bb5",
+      "category": "psu",
+      "name": "MWE BRONZE 750 V3 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "no_exact_match",
+      "newStatus": "primary_match",
+      "admission": "requires_individual_review",
+      "previousIntegratedMPN": null,
+      "pages": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-cooler-master-750-w-certification-80-plus-bronze-mwe-bronze-750-v3-ventilateur-silencieux-et-cablage-plat-en-supplement",
+          "checkedAt": "2026-11-10T09:57:04Z",
+          "productName": "Bloc d'alimentation Cooler Master 750 W, certification 80 Plus Bronze, MWE Bronze 750 V3, ventilateur silencieux et câblage plat en supplément",
+          "mpn": "MPE-7501-ACABW-3BEU",
+          "previousPageReasons": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-cooler-master-750-w-certification-80-plus-bronze-mwe-bronze-750-v3-ventilateur-silencieux-et-cablage-plat-en-supplement",
+          "productName": "Bloc d'alimentation Cooler Master 750 W, certification 80 Plus Bronze, MWE Bronze 750 V3, ventilateur silencieux et câblage plat en supplément",
+          "mpn": "MPE-7501-ACABW-3BEU",
+          "acceptedNow": true,
+          "reasonsNow": [
+            "Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page."
+          ]
+        }
+      ]
+    }
+  ],
+  "rejectedPreviousMatches": [
+    {
+      "id": "import-psu-a59c760d52e4",
+      "category": "psu",
+      "name": "MAG A650GL · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "306-7ZP8C16-CE0",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-msi-mag-a650gl-650w-certificacion-80-plus-gold-modular",
+          "productName": "Fuente de Alimentación MSI MAG A650GL 650W Certificación 80+ Gold modular",
+          "mpn": "MAG A650GL",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Finition complète non confirmée dans le titre ou la caractéristique couleur"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mag-a650gl-unite-d-alimentation-d-energie-650-w-20-plus-4-pin-atx-atx-noir",
+          "productName": "MSI MAG A650GL unité d'alimentation d'énergie 650 W 20+4 pin ATX ATX Noir",
+          "mpn": "306-7ZP8C16-CE0",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Certification alimentation différente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-170191d8a62f",
+      "category": "psu",
+      "name": "Smart · 600 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPS-0600MNSAWE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-w3-600w-80-plus-atx-3-1-non-modulaire",
+          "productName": "Alimentation Thermaltake Smart W3 600W 80 PLUS ATX 3.1 non modulaire",
+          "mpn": "PS-SPW-0600NNFAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-600w-semi-modulaire",
+          "productName": "Thermaltake Smart SE2 600W semi-modulaire",
+          "mpn": "PS-SPS-0600MNSAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bd1a77678c4e",
+      "category": "psu",
+      "name": "Smart · 700 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPS-0700MNSAWE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-w3-700w-80-plus-atx-3-1-non-modulaire",
+          "productName": "Alimentation Thermaltake Smart W3 700W 80 PLUS ATX 3.1 Non-Modulaire",
+          "mpn": "PS-SPW-0700NNFAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-700w-modulaire",
+          "productName": "Thermaltake Smart SE2 700W Modulaire",
+          "mpn": "PS-SPS-0700MNSAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-477902e370e5",
+      "category": "psu",
+      "name": "PL750D · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "R-PL750D-FC0B-EU-V2",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-atx-750w-deepcool-pl750-d",
+          "productName": "ALIMENTATION ATX 750W DEEPCOOL PL750-D",
+          "mpn": "R-PL750D-FC0B-EU-V2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : pl750d"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-deepcool-pn750d-750w-80-plus-gold-non-modulaire",
+          "productName": "Alimentation DeepCool PN750D 750W 80 PLUS Gold non modulaire",
+          "mpn": "R-PN750D-FC0B-EU-V2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : pl750d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-e11ee9db91b6",
+      "category": "psu",
+      "name": "HX1000 Platinum · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "CP-9020265-EU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-1000w-cybenetics-platinum-hx1000i-shift-icue-link-modulaire",
+          "productName": "Fuente de Alimentación Corsair 1000W Cybenetics Platinum HX1000i SHIFT iCUE LINK Modulaire",
+          "mpn": "CP-9020265-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : hx1000"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/corsair-hxi-series-hx1000i-1000w-80-plus-platine-modulaire",
+          "productName": "Corsair HXi Series HX1000i 1000W 80 Plus Platine Modulaire",
+          "mpn": "CP-9020259-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : platinum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-3f738cbd0207",
+      "category": "psu",
+      "name": "ROG STRIX 1000P GAMING · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00W4-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1000p-gaming-white-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-blanc",
+          "productName": "ASUS ROG -STRIX-1000P-GAMING-WHITE unité d'alimentation d'énergie 1000 W 20+4 pin ATX ATX Blanc",
+          "mpn": "90YE00W4-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 1000p"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-asus-rog-strix-1000p-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación ASUS ROG Strix 1000P 1000W 80 PLUS Platinum modulaire",
+          "mpn": "90YE00W7-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : gaming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-1340230865fc",
+      "category": "psu",
+      "name": "Toughpower PF3-L · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPD-0850FNFAPE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
+          "productName": "Alimentation Thermaltake Tough Power Pf3 850w 80 Platine",
+          "mpn": "PS-TPD-0850FNFAPE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Suffixe court alimentation absent du titre"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-gf1-argb-850w-80-plus-gold-entierement-modulaire",
+          "productName": "Thermaltake Toughpower GF1 ARGB 850W 80 Plus Gold entièrement modulaire",
+          "mpn": "PS-TPD-0850F3FAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : pf3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-a21832774532",
+      "category": "psu",
+      "name": "ROG Strix Aura Edition · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00P0-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1200w-gold-aura-edition-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
+          "productName": "ASUS ROG STRIX 1200W Gold Aura Edition unité d'alimentation d'énergie 20+4 pin ATX Noir",
+          "mpn": "90YE00P0-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-368f4dd8bfe5",
+      "category": "psu",
+      "name": "REVOLUTION D.F. 2 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 2"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bcffdd504f97",
+      "category": "psu",
+      "name": "Litepower · 650 W · ATX · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-LTP-0650NHSANE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-rvb-650w",
+          "productName": "Thermaltake Litepower RVB 650W",
+          "mpn": "PS-LTP-0650NHSANE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
+          "productName": "Thermaltake Litepower 550W",
+          "mpn": "PS-LTP-0550NPCNEU-2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-de94b44d0526",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-ea4797e42dba",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV750G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
+          "productName": "Alimentation modulaire Enermax 750 W 80PLUS Gold Revolution D.F.12 avec ventilateur 120 mm DFR",
+          "mpn": "ETV750G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2851a25c3a9a",
+      "category": "psu",
+      "name": "Litepower · 550 W · ATX · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-LTP-0550NPCNEU-2",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
+          "productName": "Thermaltake Litepower 550W",
+          "mpn": "PS-LTP-0550NPCNEU-2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-253e0ee14556",
+      "category": "psu",
+      "name": "RM1000 · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "CP-9020300-EU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-corsair-rme-rm1000e-1000w-certifie-cybenetics-platinum-modulaire",
+          "productName": "Alimentation Corsair RMe RM1000e 1000W Certifié Cybenetics Platinum Modulaire",
+          "mpn": "CP-9020337-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : rm1000"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fonte-d-alimentation-corsair-rm1000x-shift-1000w-gold-modulaire-atx-3-1-12v-2x6",
+          "productName": "Fonte d'Alimentation Corsair RM1000x Shift 1000W Gold Modulaire ATX 3.1 12V-2x6",
+          "mpn": "CP-9020300-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : rm1000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-21602e1ac1a9",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-6cbf00e12f4a",
+      "category": "psu",
+      "name": "FOCUS Plus Platinum · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "FOCUS-SPX-750",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-750-w-80-plus-platinum-focus-spx-750-modulaire-4-pcie-advanced-protection",
+          "productName": "Alimentation Seasonic 750 W 80 PLUS Platinum FOCUS SPX-750 modulaire 4 PCIe Advanced Protection",
+          "mpn": "FOCUS-SPX-750",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-690a5429e7ae",
+      "category": "psu",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPX-0750FNFAGE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
+          "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
+          "mpn": "PS-TPX-0750FNFAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf1-750w-80-plus-platinum-modulaire",
+          "productName": "Thermaltake Toughpower PF1 750W 80 Plus Platinum modulaire",
+          "mpn": "PS-TPD-0750FNFAPE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-0f044264000e",
+      "category": "psu",
+      "name": "Revolution D.F. X · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bf6490eb1171",
+      "category": "psu",
+      "name": "Toughpower GF A3 ATX 3.0 · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPD-1200FNFAGE-H",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-a3-unite-d-alimentation-d-energie-1200-w-24-pin-atx-atx-noir",
+          "productName": "Thermaltake TOUGHPOWER GF A3 unité d'alimentation d'énergie 1200 W 24-pin ATX ATX Noir",
+          "mpn": "PS-TPD-1200FNFAGE-H",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 30"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-3-1200w-pcie-gen-5-0-80-plus-or-complet-modulaire",
+          "productName": "Thermaltake Toughpower GF 3 1200W PCIe Gen 5.0 80 Plus Or Complet Modulaire",
+          "mpn": "PS-TPD-1200FNFAGE-4",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : a3, atx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b2043f515137",
+      "category": "psu",
+      "name": "X · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SRP-CGX651-A5A32SF-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
+          "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
+          "mpn": "SRP-CGX651-A5A32SF-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f79ad3abab9b",
+      "category": "psu",
+      "name": "ROG Thor P3 Gaming · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00V3-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-thor-1000p3-gaming-atx-3-1-1000w-80-plus-platine",
+          "productName": "Asus Rog Thor 1000p3 Gaming/atx 3.1 1000w/80+ Platine",
+          "mpn": "90YE00V3-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : p3"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-asus-rog-thor-1000p3-1000w-80-plus-platinum-modulaire",
+          "productName": "Source d'alimentation ASUS ROG THOR 1000P3 1000W 80 PLUS Platinum modulaire",
+          "mpn": "90YE00V8-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : gaming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-60b2418bdbec",
+      "category": "psu",
+      "name": "Smart · 550 W · ATX · 80 PLUS Bronze · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPD-0550NNFABE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-bx3-550w-80-or",
+          "productName": "Alimentation Thermaltake Smart Bx3 550w 80 Or",
+          "mpn": "PS-SPD-0550NNFABE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-bx1-550w-80-plus-bronze",
+          "productName": "Thermaltake Smart BX1 550W 80 Plus Bronze",
+          "mpn": "PS-SPD-0550NNSABE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-49931078b5f5",
+      "category": "psu",
+      "name": "Smart SE · 630 W · ATX · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SPS-630MPCBEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se-630w-modulaire",
+          "productName": "Thermaltake Smart SE 630W modulaire",
+          "mpn": "SPS-630MPCBEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f57a6adb660c",
+      "category": "psu",
+      "name": "G · 650 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SRP-CGX651-A5A32SF-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
+          "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
+          "mpn": "SRP-CGX651-A5A32SF-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2a3f6bdc6d93",
+      "category": "psu",
+      "name": "Elite NEX N700 230V · 700 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-7001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n700"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-de62431149a5",
+      "category": "psu",
+      "name": "REVOLUTION X't II · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ERV750G-AHG-MAC",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-enermax-atx-revolution-iii-750w-gold-modulaire-silencieuse",
+          "productName": "Alimentation Enermax ATX Revolution III 750W Gold Modulaire Silencieuse",
+          "mpn": "ERV750G-AHG-MAC",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
+          "productName": "Alimentation modulaire Enermax 750 W 80PLUS Gold Revolution D.F.12 avec ventilateur 120 mm DFR",
+          "mpn": "ETV750G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : ii"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-343ecd8ebd38",
+      "category": "psu",
+      "name": "FOCUS Plus Platinum · 650 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "FOCUS-SPX-650",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-773c1429b141",
+      "category": "psu",
+      "name": "Elite NEX N700 · 700 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-7001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n700"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2168004617b4",
+      "category": "psu",
+      "name": "Platinum · 1200 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SST-EX1200R-PL",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-1200-w-certifiee-platinum-sst-ex1200r-pl-pcie-gen5-sfx-l",
+          "productName": "Alimentation Seasonic 1200 W certifiée Platinum SST-EX1200R-PL PCIe Gen5 SFX-L",
+          "mpn": "SST-EX1200R-PL",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b861866775d5",
+      "category": "psu",
+      "name": "Elite NEX N600 · 600 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-6001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n600"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/boitiers-pc-boitier-cooler-master-elite-600-e600-wgnn-s01-tour-atx-verre-trempe-blanc",
+          "productName": "Boîtier Cooler Master Elite 600 E600-WGNN-S01 Tour ATX Verre Trempé Blanc",
+          "mpn": "E600-WGNN-S01",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : nex, n600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-97bf9a69042d",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-91c81b0bffcd",
+      "category": "psu",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPX-0750FNFAGE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
+          "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
+          "mpn": "PS-TPX-0750FNFAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf1-750w-80-plus-platinum-modulaire",
+          "productName": "Thermaltake Toughpower PF1 750W 80 Plus Platinum modulaire",
+          "mpn": "PS-TPD-0750FNFAPE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-866bd9ded250",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-8c4a5ac00448",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Bronze · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-91d9929724e2",
+      "category": "psu",
+      "name": "Elite NEX N600 230V · 600 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-6001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n600"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f64e7fc82981",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Silver · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    }
+  ],
+  "previousBulkToWithdraw": [
+    {
+      "id": "import-psu-a59c760d52e4",
+      "category": "psu",
+      "name": "MAG A650GL · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "306-7ZP8C16-CE0",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-msi-mag-a650gl-650w-certificacion-80-plus-gold-modular",
+          "productName": "Fuente de Alimentación MSI MAG A650GL 650W Certificación 80+ Gold modular",
+          "mpn": "MAG A650GL",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Finition complète non confirmée dans le titre ou la caractéristique couleur"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mag-a650gl-unite-d-alimentation-d-energie-650-w-20-plus-4-pin-atx-atx-noir",
+          "productName": "MSI MAG A650GL unité d'alimentation d'énergie 650 W 20+4 pin ATX ATX Noir",
+          "mpn": "306-7ZP8C16-CE0",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Certification alimentation différente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-170191d8a62f",
+      "category": "psu",
+      "name": "Smart · 600 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPS-0600MNSAWE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-w3-600w-80-plus-atx-3-1-non-modulaire",
+          "productName": "Alimentation Thermaltake Smart W3 600W 80 PLUS ATX 3.1 non modulaire",
+          "mpn": "PS-SPW-0600NNFAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-600w-semi-modulaire",
+          "productName": "Thermaltake Smart SE2 600W semi-modulaire",
+          "mpn": "PS-SPS-0600MNSAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bd1a77678c4e",
+      "category": "psu",
+      "name": "Smart · 700 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPS-0700MNSAWE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-w3-700w-80-plus-atx-3-1-non-modulaire",
+          "productName": "Alimentation Thermaltake Smart W3 700W 80 PLUS ATX 3.1 Non-Modulaire",
+          "mpn": "PS-SPW-0700NNFAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se2-700w-modulaire",
+          "productName": "Thermaltake Smart SE2 700W Modulaire",
+          "mpn": "PS-SPS-0700MNSAWE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-477902e370e5",
+      "category": "psu",
+      "name": "PL750D · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "R-PL750D-FC0B-EU-V2",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-atx-750w-deepcool-pl750-d",
+          "productName": "ALIMENTATION ATX 750W DEEPCOOL PL750-D",
+          "mpn": "R-PL750D-FC0B-EU-V2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : pl750d"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-deepcool-pn750d-750w-80-plus-gold-non-modulaire",
+          "productName": "Alimentation DeepCool PN750D 750W 80 PLUS Gold non modulaire",
+          "mpn": "R-PN750D-FC0B-EU-V2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : pl750d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-e11ee9db91b6",
+      "category": "psu",
+      "name": "HX1000 Platinum · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "CP-9020265-EU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-corsair-1000w-cybenetics-platinum-hx1000i-shift-icue-link-modulaire",
+          "productName": "Fuente de Alimentación Corsair 1000W Cybenetics Platinum HX1000i SHIFT iCUE LINK Modulaire",
+          "mpn": "CP-9020265-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : hx1000"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/corsair-hxi-series-hx1000i-1000w-80-plus-platine-modulaire",
+          "productName": "Corsair HXi Series HX1000i 1000W 80 Plus Platine Modulaire",
+          "mpn": "CP-9020259-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : platinum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-3f738cbd0207",
+      "category": "psu",
+      "name": "ROG STRIX 1000P GAMING · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00W4-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1000p-gaming-white-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-blanc",
+          "productName": "ASUS ROG -STRIX-1000P-GAMING-WHITE unité d'alimentation d'énergie 1000 W 20+4 pin ATX ATX Blanc",
+          "mpn": "90YE00W4-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 1000p"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-asus-rog-strix-1000p-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación ASUS ROG Strix 1000P 1000W 80 PLUS Platinum modulaire",
+          "mpn": "90YE00W7-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : gaming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-1340230865fc",
+      "category": "psu",
+      "name": "Toughpower PF3-L · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPD-0850FNFAPE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
+          "productName": "Alimentation Thermaltake Tough Power Pf3 850w 80 Platine",
+          "mpn": "PS-TPD-0850FNFAPE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Suffixe court alimentation absent du titre"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-gf1-argb-850w-80-plus-gold-entierement-modulaire",
+          "productName": "Thermaltake Toughpower GF1 ARGB 850W 80 Plus Gold entièrement modulaire",
+          "mpn": "PS-TPD-0850F3FAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : pf3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-a21832774532",
+      "category": "psu",
+      "name": "ROG Strix Aura Edition · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00P0-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1200w-gold-aura-edition-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
+          "productName": "ASUS ROG STRIX 1200W Gold Aura Edition unité d'alimentation d'énergie 20+4 pin ATX Noir",
+          "mpn": "90YE00P0-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-368f4dd8bfe5",
+      "category": "psu",
+      "name": "REVOLUTION D.F. 2 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 2"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bcffdd504f97",
+      "category": "psu",
+      "name": "Litepower · 650 W · ATX · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-LTP-0650NHSANE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-rvb-650w",
+          "productName": "Thermaltake Litepower RVB 650W",
+          "mpn": "PS-LTP-0650NHSANE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
+          "productName": "Thermaltake Litepower 550W",
+          "mpn": "PS-LTP-0550NPCNEU-2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-de94b44d0526",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-ea4797e42dba",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV750G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
+          "productName": "Alimentation modulaire Enermax 750 W 80PLUS Gold Revolution D.F.12 avec ventilateur 120 mm DFR",
+          "mpn": "ETV750G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-253e0ee14556",
+      "category": "psu",
+      "name": "RM1000 · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "CP-9020300-EU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-corsair-rme-rm1000e-1000w-certifie-cybenetics-platinum-modulaire",
+          "productName": "Alimentation Corsair RMe RM1000e 1000W Certifié Cybenetics Platinum Modulaire",
+          "mpn": "CP-9020337-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : rm1000"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fonte-d-alimentation-corsair-rm1000x-shift-1000w-gold-modulaire-atx-3-1-12v-2x6",
+          "productName": "Fonte d'Alimentation Corsair RM1000x Shift 1000W Gold Modulaire ATX 3.1 12V-2x6",
+          "mpn": "CP-9020300-EU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : rm1000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2851a25c3a9a",
+      "category": "psu",
+      "name": "Litepower · 550 W · ATX · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-LTP-0550NPCNEU-2",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-litepower-550w",
+          "productName": "Thermaltake Litepower 550W",
+          "mpn": "PS-LTP-0550NPCNEU-2",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-6cbf00e12f4a",
+      "category": "psu",
+      "name": "FOCUS Plus Platinum · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "FOCUS-SPX-750",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-750-w-80-plus-platinum-focus-spx-750-modulaire-4-pcie-advanced-protection",
+          "productName": "Alimentation Seasonic 750 W 80 PLUS Platinum FOCUS SPX-750 modulaire 4 PCIe Advanced Protection",
+          "mpn": "FOCUS-SPX-750",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-21602e1ac1a9",
+      "category": "psu",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-690a5429e7ae",
+      "category": "psu",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPX-0750FNFAGE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
+          "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
+          "mpn": "PS-TPX-0750FNFAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf1-750w-80-plus-platinum-modulaire",
+          "productName": "Thermaltake Toughpower PF1 750W 80 Plus Platinum modulaire",
+          "mpn": "PS-TPD-0750FNFAPE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-0f044264000e",
+      "category": "psu",
+      "name": "Revolution D.F. X · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ETV850G",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-pour-ventilateur-enermax-850-w-80plus-gold-revolution-d-f-12-dfr",
+          "productName": "Alimentation modulaire pour ventilateur Enermax 850 W 80PLUS Gold Revolution D.F.12 DFR",
+          "mpn": "ETV850G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-bloc-d-alimentation-enermax-850-w-80plus-gold-revolution-d-f-12-avec-options-modulaires-blanc",
+          "productName": "Bloc d'alimentation Enermax 850 W 80PLUS Gold Revolution D.F.12 avec options modulaires, blanc",
+          "mpn": "ETV850G-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-bf6490eb1171",
+      "category": "psu",
+      "name": "Toughpower GF A3 ATX 3.0 · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPD-1200FNFAGE-H",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-a3-unite-d-alimentation-d-energie-1200-w-24-pin-atx-atx-noir",
+          "productName": "Thermaltake TOUGHPOWER GF A3 unité d'alimentation d'énergie 1200 W 24-pin ATX ATX Noir",
+          "mpn": "PS-TPD-1200FNFAGE-H",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : 30"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-3-1200w-pcie-gen-5-0-80-plus-or-complet-modulaire",
+          "productName": "Thermaltake Toughpower GF 3 1200W PCIe Gen 5.0 80 Plus Or Complet Modulaire",
+          "mpn": "PS-TPD-1200FNFAGE-4",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : a3, atx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b2043f515137",
+      "category": "psu",
+      "name": "X · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SRP-CGX651-A5A32SF-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
+          "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
+          "mpn": "SRP-CGX651-A5A32SF-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-49931078b5f5",
+      "category": "psu",
+      "name": "Smart SE · 630 W · ATX · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SPS-630MPCBEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-se-630w-modulaire",
+          "productName": "Thermaltake Smart SE 630W modulaire",
+          "mpn": "SPS-630MPCBEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f79ad3abab9b",
+      "category": "psu",
+      "name": "ROG Thor P3 Gaming · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "90YE00V3-B0NA00",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-thor-1000p3-gaming-atx-3-1-1000w-80-plus-platine",
+          "productName": "Asus Rog Thor 1000p3 Gaming/atx 3.1 1000w/80+ Platine",
+          "mpn": "90YE00V3-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : p3"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-asus-rog-thor-1000p3-1000w-80-plus-platinum-modulaire",
+          "productName": "Source d'alimentation ASUS ROG THOR 1000P3 1000W 80 PLUS Platinum modulaire",
+          "mpn": "90YE00V8-B0NA00",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : gaming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-60b2418bdbec",
+      "category": "psu",
+      "name": "Smart · 550 W · ATX · 80 PLUS Bronze · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-SPD-0550NNFABE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-bx3-550w-80-or",
+          "productName": "Alimentation Thermaltake Smart Bx3 550w 80 Or",
+          "mpn": "PS-SPD-0550NNFABE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-smart-bx1-550w-80-plus-bronze",
+          "productName": "Thermaltake Smart BX1 550W 80 Plus Bronze",
+          "mpn": "PS-SPD-0550NNSABE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f57a6adb660c",
+      "category": "psu",
+      "name": "G · 650 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SRP-CGX651-A5A32SF-W",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-seasonic-650-w-80-plus-gold-core-gx-650v2-atx3-1-blanche-avec-options-avancees",
+          "productName": "Alimentation modulaire Seasonic 650 W 80+ Gold Core GX-650V2/ATX3.1, blanche, avec options avancées",
+          "mpn": "SRP-CGX651-A5A32SF-W",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2a3f6bdc6d93",
+      "category": "psu",
+      "name": "Elite NEX N700 230V · 700 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-7001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n700"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-de62431149a5",
+      "category": "psu",
+      "name": "REVOLUTION X't II · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "ERV750G-AHG-MAC",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-enermax-atx-revolution-iii-750w-gold-modulaire-silencieuse",
+          "productName": "Alimentation Enermax ATX Revolution III 750W Gold Modulaire Silencieuse",
+          "mpn": "ERV750G-AHG-MAC",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-modulaire-enermax-750-w-80plus-gold-revolution-d-f-12-avec-ventilateur-120-mm-dfr",
+          "productName": "Alimentation modulaire Enermax 750 W 80PLUS Gold Revolution D.F.12 avec ventilateur 120 mm DFR",
+          "mpn": "ETV750G",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : ii"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-343ecd8ebd38",
+      "category": "psu",
+      "name": "FOCUS Plus Platinum · 650 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "FOCUS-SPX-650",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-650-w-80-plus-platinum-focus-spx-650-sfx-adaptateur-modulaire-sfx-atx",
+          "productName": "Alimentation Seasonic 650 W 80 PLUS Platinum FOCUS SPX-650 SFX Adaptateur modulaire SFX-ATX",
+          "mpn": "FOCUS-SPX-650",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-773c1429b141",
+      "category": "psu",
+      "name": "Elite NEX N700 · 700 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-7001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n700"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-2168004617b4",
+      "category": "psu",
+      "name": "Platinum · 1200 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "SST-EX1200R-PL",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-seasonic-1200-w-certifiee-platinum-sst-ex1200r-pl-pcie-gen5-sfx-l",
+          "productName": "Alimentation Seasonic 1200 W certifiée Platinum SST-EX1200R-PL PCIe Gen5 SFX-L",
+          "mpn": "SST-EX1200R-PL",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-b861866775d5",
+      "category": "psu",
+      "name": "Elite NEX N600 · 600 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-6001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n600"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/boitiers-pc-boitier-cooler-master-elite-600-e600-wgnn-s01-tour-atx-verre-trempe-blanc",
+          "productName": "Boîtier Cooler Master Elite 600 E600-WGNN-S01 Tour ATX Verre Trempé Blanc",
+          "mpn": "E600-WGNN-S01",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : nex, n600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-97bf9a69042d",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-91c81b0bffcd",
+      "category": "psu",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Câbles fixes",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPX-0750FNFAGE-1",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-thermaltake-toughpower-xt-750w-80-plus-gold-modulaire-silencieuse",
+          "productName": "Source d'alimentation Thermaltake Toughpower XT 750W 80+ Gold modulaire silencieuse",
+          "mpn": "PS-TPX-0750FNFAGE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/thermaltake-toughpower-pf1-750w-80-plus-platinum-modulaire",
+          "productName": "Thermaltake Toughpower PF1 750W 80 Plus Platinum modulaire",
+          "mpn": "PS-TPD-0750FNFAPE-1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-866bd9ded250",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-8c4a5ac00448",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Bronze · Entièrement modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-91d9929724e2",
+      "category": "psu",
+      "name": "Elite NEX N600 230V · 600 W · ATX · Câbles fixes · Noir",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "MPW-6001-ACBN-BEU",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 600 bloc d&#39;alimentation 600 W 24 broches ATX Noir",
+          "mpn": "MPW-6001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Identifiant alimentation différent : n600"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+          "productName": "Cooler Master Elite NEX 230V 700 bloc d&#39;alimentation 700 W 24 broches ATX ATX Noir",
+          "mpn": "MPW-7001-ACBN-BEU",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Modèle différent : n600"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-f64e7fc82981",
+      "category": "psu",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Silver · Semi-modulaire",
+      "previousStatus": "primary_match",
+      "newStatus": "no_exact_match",
+      "admission": "revalidation_only",
+      "previousIntegratedMPN": "PS-TPT-1000FNFAGE-3",
+      "pages": [],
+      "pageAudit": [
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-toughpower-gt-1000w-80-plus-gold-full-modulaire-atx",
+          "productName": "Alimentation Thermaltake Toughpower GT 1000W 80+ Gold Full Modulaire ATX",
+          "mpn": "PS-TPT-1000FNFAGE-3",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        },
+        {
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-thermaltake-toughpower-pt-1000w-80-plus-platinum-modulaire",
+          "productName": "Fuente de Alimentación Thermaltake Toughpower PT 1000W 80 PLUS Platinum modulaire",
+          "mpn": "PSTPP1000FNFAPE1",
+          "acceptedNow": false,
+          "reasonsNow": [
+            "Gamme alimentation sans identifiant ou génération précise"
+          ]
+        }
+      ]
+    }
+  ],
+  "retainedPreviousBulkIds": [
+    "cooler-ak620",
+    "mb-z790-strix-a",
+    "cooler-ek-nucleus360",
+    "import-ram-3ccb40456e29",
+    "import-ram-05c2e1f6b09f",
+    "import-ram-1ad5c9da263f",
+    "import-ram-58e5fad402dc",
+    "import-ram-d53747aafc02",
+    "import-ram-b12c1d626177",
+    "import-ram-712a9d1470ad",
+    "import-ram-35d61ae330ac",
+    "import-ram-636234fbc149",
+    "import-ram-82569bcd2c1b",
+    "import-ram-73438bcd3fb9",
+    "import-ram-3c4e0957afac",
+    "import-ram-a015bc02173d",
+    "import-ram-4e3c3b649542",
+    "import-ram-b0177b4578e7",
+    "import-ram-2ce0b7b7af8c",
+    "import-ram-aa91eb8893c3",
+    "import-ram-60f4729a4911",
+    "import-ram-0c106df5cd40",
+    "import-ram-966393672ba8",
+    "import-ram-3ab87f2c00e5",
+    "import-ram-ddfe1be90d5e",
+    "import-ram-92ac0ce82dcf",
+    "import-ram-4e66706f7fcd",
+    "import-ram-e0e0cd2f9fe6",
+    "import-ram-9db0de70cb7c",
+    "import-ram-a38a2c0f0e31",
+    "import-ram-625a5a6addd7",
+    "import-ram-8539506bda5c",
+    "import-ram-f4d62bde5511",
+    "import-ram-f07fb9b0ab0c",
+    "import-ram-b2b1a177c65b",
+    "import-ram-10bc9b33e29b",
+    "import-ram-4b234e3d5ff6",
+    "import-ram-e0469b879f22",
+    "import-ram-0b2a57daa587",
+    "import-ram-6d441cc7bd0b",
+    "import-ram-8e67b50b1c23",
+    "import-ram-c2f3419aca3d",
+    "import-ssd-d059db5a3f51",
+    "import-ssd-dcaebe5aecd1",
+    "import-ssd-11a66d856cca",
+    "import-ssd-e88ae69bc436",
+    "import-ssd-de421ed9b197",
+    "import-ssd-c9c3d1d09c9c",
+    "import-ssd-176f5b4040fa",
+    "import-ssd-bb1b4ea220f5",
+    "import-ssd-8f1752cabb69",
+    "import-ssd-dc0ae58837c8",
+    "import-ssd-01c097994185",
+    "import-ssd-902b0987653a",
+    "import-ssd-6ca905a1499e",
+    "import-ssd-6bbac873bdfa",
+    "import-ssd-f7312fe35474",
+    "import-ssd-02e6a22aea14",
+    "import-ssd-a5fdbad3ac4a",
+    "import-ssd-2bc9d95f0ce4",
+    "import-ssd-af0ab1572ccd",
+    "import-ssd-c684100ebdf8",
+    "import-ssd-0b8f380d7488",
+    "import-ssd-a56f9a7de0e6",
+    "import-ssd-0e78b87cff71",
+    "import-ssd-46e9471a0c01",
+    "import-ssd-7b1e45749f0e",
+    "import-ssd-83fd413ea5ca",
+    "import-ssd-99ffa47a53fe",
+    "import-ssd-f063b26ed6fc",
+    "import-gpu-6cccbff5d201",
+    "import-gpu-8c0a0071ac63",
+    "import-gpu-81bddf961454",
+    "import-gpu-7fcdecad409a",
+    "import-gpu-0bce7f6787ac",
+    "import-mb-6ecf603dcf17",
+    "import-mb-fa102e9bb495",
+    "import-mb-f21cafa250ed",
+    "import-mb-477af06ae340",
+    "import-mb-8417950742eb",
+    "import-mb-d94a6b51b0a6",
+    "import-psu-30d0c61edddd",
+    "import-psu-a49714a69eec",
+    "import-psu-2b26699c4723",
+    "import-ram-9d7c790d0b06",
+    "import-ram-35a8b703de23",
+    "import-ram-fa5bf5f68b8c",
+    "import-ram-b60b603f9f5d",
+    "import-ram-bf43243c4318",
+    "import-ram-d8d2a376aefb",
+    "import-ram-cd65a2c74610",
+    "import-ram-184b297c0c04",
+    "import-ram-5a9c57372530",
+    "import-ram-d9d314ba116a",
+    "import-ram-f3fb845d15d1",
+    "import-ram-b90897521810",
+    "import-ram-4c94b9316ce9",
+    "import-ram-511dc74ff480",
+    "import-ram-28a6b5057b5c",
+    "import-ram-c4d943b15b62",
+    "import-ram-d999dd2d0479",
+    "import-ram-9851f935db67",
+    "import-ram-d208c28e203f",
+    "import-ram-d02794a046c0",
+    "import-ram-941c4d8ee3be",
+    "import-ram-c5c195f066ce",
+    "import-ram-eb5672d697a5",
+    "import-ram-3c1eb7f791c7",
+    "import-ram-c3d27e61fb2e",
+    "import-ram-a8018bbe3462",
+    "import-ram-174e87d87b3c",
+    "import-ram-24ddfabdc525",
+    "import-ram-10a4b67fc690",
+    "import-ram-72cab5c1260d",
+    "import-ram-fac6ecba6be3",
+    "import-ram-26ab5263c773",
+    "import-ram-e9f79c45b52b",
+    "import-ram-4a707979fbc9",
+    "import-ram-304f9c735002",
+    "import-ram-2938f4294b13",
+    "import-ram-b5d2314d5b43",
+    "import-ram-cdfb1ca5094d",
+    "import-ram-70d5c39c3427",
+    "import-ram-6691b42f6370",
+    "import-ram-758ff31e3927",
+    "import-ram-4aac2921932c",
+    "import-ram-31a969c2f7be",
+    "import-ram-cf7af084abb1",
+    "import-ram-f1079b9bf20e",
+    "import-ram-7137606b4ace",
+    "import-ram-a67556685a67",
+    "import-ram-00417721659d",
+    "import-ram-767a8a17d8f2",
+    "import-ram-7f6bbcc5a4e3",
+    "import-ram-902cd68d7ec3",
+    "import-ram-ac5608d295da",
+    "import-ram-3a82bdfb013b",
+    "import-ram-8a12c5a401d6",
+    "import-ram-4a5a8ca71ee9",
+    "import-ram-08c9f04051b4",
+    "import-ram-f2a249326fb1",
+    "import-ram-c8bdfc51631b",
+    "import-ram-2b3699a8943f",
+    "import-ram-43517bcea6ff",
+    "import-ram-f5cb405cf0f8",
+    "import-ram-9a26ae449e60",
+    "import-ram-fd1644860ae4",
+    "import-ram-ad337abacf82",
+    "import-ram-94a1c762d22a",
+    "import-ram-365c3c131d46",
+    "import-ram-f6936d419d06",
+    "import-ram-1f19ddfe0bfc",
+    "import-ram-34559a3ed51b",
+    "import-ram-a0f314dadb84",
+    "import-ram-b0751d2e43ca",
+    "import-ram-090c1ca9a8a1",
+    "import-ram-9546d1a4fd74",
+    "import-ram-f9fdd78ae88c",
+    "import-ram-a6df62d3cedb",
+    "import-ram-96f0dfa514ce",
+    "import-ram-b7341bceb0fd",
+    "import-ram-c07e737283e4",
+    "import-ram-0ead46dd8301",
+    "import-ram-299d6bbf2cab",
+    "import-ram-e932b83b6b01",
+    "import-ram-f4b69e56140d",
+    "import-ssd-519b67109b3b",
+    "import-ssd-6144efc9c504",
+    "import-ssd-66cfea72bd0a",
+    "import-ssd-678c05d278b5",
+    "import-ssd-31ed125f9462",
+    "import-ssd-210a5eb30987",
+    "import-ssd-c4c64b6f7db5",
+    "import-ssd-8b3a6dcd4615",
+    "import-ssd-872e3e37b2e5",
+    "import-ssd-cddd12f21712",
+    "import-ssd-3803960b866d",
+    "import-ssd-6c1113df22d3",
+    "import-ssd-025b07fbf95a",
+    "import-ssd-76f61214afab",
+    "import-ssd-2dd777179947",
+    "import-ssd-4b370adc4f5c",
+    "import-ssd-41a91f39b86f",
+    "import-ssd-289f4649eeca",
+    "import-ssd-b01d403b1678",
+    "import-ssd-1d1336e10df0",
+    "import-ssd-08ce7343f550",
+    "import-ssd-37f44667aafa",
+    "import-ssd-cc68a9e7c2f1",
+    "import-ssd-65e1fde226d8",
+    "import-ssd-01d2a58463a6",
+    "import-ssd-c1b3e0fcc739",
+    "import-ssd-da9e7bd71b8b",
+    "import-ssd-2bd76f389bae",
+    "import-ssd-3025f52141b4",
+    "import-ssd-e4d379f71962",
+    "import-ssd-920781bf2686",
+    "import-ssd-a246ff4c6b8d",
+    "import-ssd-fd531c07a9db",
+    "import-ssd-b5760a34b49c",
+    "import-ssd-a41ba62a3664",
+    "import-ssd-7d57137df60e",
+    "import-ssd-986992c87e51",
+    "import-ssd-b97811d8a0ba",
+    "import-gpu-aa93d14edf47",
+    "import-gpu-136df777b30c",
+    "import-gpu-d10ffd9fa674",
+    "import-gpu-71fa373440dc",
+    "import-gpu-51453ff87c78",
+    "import-gpu-3ad8d960c072",
+    "import-gpu-e4555e51530f",
+    "import-gpu-3249dc8ebba1",
+    "import-gpu-cad23268683d",
+    "import-gpu-25c05d58bfbb",
+    "import-gpu-e2fbd9598349",
+    "import-gpu-f7e9922c039e",
+    "import-gpu-c8d44f8e285c",
+    "import-gpu-f08fba7c8e52",
+    "import-gpu-0e0b87df35f4",
+    "import-mb-a41853ff94ef",
+    "import-mb-9a8382af9cf3",
+    "import-mb-b9cafbb40c19",
+    "import-mb-b7ab2dae4f2d",
+    "import-mb-481b745d3d17",
+    "import-mb-fcc33592f0ce",
+    "import-psu-96f28a7f2861",
+    "import-psu-236867823d29",
+    "import-psu-9767fc1c34d6",
+    "import-psu-e5ad24f362a9",
+    "import-psu-2be5c9ba113a",
+    "import-psu-42eabb5729ff",
+    "import-psu-9c4f029a33c1",
+    "import-psu-983bfd87af7a",
+    "import-psu-6c16a725fe72",
+    "import-psu-feef4831cc69",
+    "import-psu-a79f6ee475a6",
+    "import-psu-bfc0aa423b0c"
+  ],
+  "notes": [
+    "The importer must still exclude conflicting identities and preserve individual manufacturer corrections.",
+    "Existing stock/prices keep their original checkedAt; a fresh publication must not reset their 24-hour freshness.",
+    "New candidates remain retailer matches; the rules do not turn them into manufacturer-verified references."
+  ]
+}

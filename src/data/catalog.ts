@@ -3,6 +3,7 @@ import { catalogImported } from "./catalogImported.ts";
 import { legacyVariantMetadata } from "./legacyVariants.ts";
 import { catalogOemMemory } from "./catalogOemMemory.ts";
 import { verifiedProducts } from "./verifiedCatalog.ts";
+import {extractVerifiedCompatibility} from '../lib/verifiedCompatibility.ts';
 
 export type CategoryId =
   | "cpu"
@@ -2065,6 +2066,7 @@ catalog.push(...catalogImported);
 catalog.push(...catalogOemMemory);
 for (const component of catalog) Object.assign(component, legacyVariantMetadata[component.id] ?? {});
 for (const component of catalog) Object.assign(component, verifiedProducts[component.id]?.patch ?? {});
+for (const component of catalog) Object.assign(component, extractVerifiedCompatibility(component,verifiedProducts[component.id]).patch);
 
 export const defaultSelection: Selection = {
   cpu: "cpu-7800x3d",

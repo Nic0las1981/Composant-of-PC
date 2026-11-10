@@ -1,3 +1,4 @@
+import {individualBoardProfiles,individualGpuProfiles,individualRamProfiles,individualStorageProfiles,individualPsuProfiles} from './individualVisualProfiles';
 import type { CategoryId, Component, FormFactor, Socket } from "./catalog.ts";
 import {
   importedRamProfiles,
@@ -33,6 +34,7 @@ interface BaseVisualProfile {
   rgb: boolean;
   /** Schematic envelopes are display-only and are never manufacturer specs. */
   fidelity?: "reconstructed" | "schematic";
+  design?: "steel-legend-b850" | "steel-legend-rx9060xt" | "crucial-pro-overclocking" | "samsung-9100-pro" | "power-zone-2";
 }
 
 export interface CaseVisualProfile extends BaseVisualProfile {
@@ -408,6 +410,7 @@ export const caseProfiles: Record<string, CaseVisualProfile> = {
 
 export const gpuProfiles: Record<string, GpuVisualProfile> = {
   ...importedGpuProfiles,
+  ...individualGpuProfiles,
   ...gpuProfileExpansion,
   "gpu-4070s": {
     id: "gpu-4070s",
@@ -997,6 +1000,7 @@ export const coolerProfiles: Record<string, CoolerVisualProfile> = {
 
 export const ramProfiles: Record<string, RamVisualProfile> = {
   ...importedRamProfiles,
+  ...individualRamProfiles,
   ...ramProfileExpansion,
   "ram-ddr5-32": {
     id: "ram-ddr5-32",
@@ -1171,6 +1175,7 @@ export const ramProfiles: Record<string, RamVisualProfile> = {
 
 export const boardProfiles: Record<string, BoardVisualProfile> = {
   ...importedBoardProfiles,
+  ...individualBoardProfiles,
   ...boardProfileExpansion,
   "mb-b650": {
     id: "mb-b650",
@@ -1344,6 +1349,7 @@ export const boardProfiles: Record<string, BoardVisualProfile> = {
 
 export const psuProfiles: Record<string, PsuVisualProfile> = {
   ...importedPsuProfiles,
+  ...individualPsuProfiles,
   ...psuProfileExpansion,
   "psu-rm750e": {
     id: "psu-rm750e",
@@ -1677,6 +1683,7 @@ export const cpuProfiles: Record<string, CpuVisualProfile> = {
 
 export const storageProfiles: Record<string, StorageVisualProfile> = {
   ...importedStorageProfiles,
+  ...individualStorageProfiles,
   ...storageProfileExpansion,
   "ssd-990-1": {
     id: "ssd-990-1",
@@ -1855,7 +1862,44 @@ function lookup<T extends VisualProfile>(
   component: ProfileInput,
 ): T | undefined {
   const id = profileId(component);
-  return id && Object.hasOwn(profiles, id) ? profiles[id] : undefined;
+  const profile = id && Object.hasOwn(profiles, id) ? profiles[id] : undefined;
+  if (!profile || typeof component !== "object" || component === null) return profile;
+  if (component.category !== profile.category) return undefined;
+  // Enriched physical metadata flows one way into rendering. Never mutate the
+  // shared templates or promote a generic reconstruction into a reviewed model.
+  const patch: Record<string,number> = {};
+  const dimension = (key: "lengthMm"|"widthMm"|"heightMm"|"depthMm"|"thicknessMm"|"fanSizeMm"|"radiatorThicknessMm"|"radiatorSizeMm") => {
+    const value = component[key];
+    if (typeof value === "number" && Number.isFinite(value) && value > 0 && value !== Reflect.get(profile,key)) patch[key] = value;
+  };
+  const count = (source: "fanCount"|"memorySlots"|"memorySticks", target: string, allowZero = false) => {
+    const value = component[source];
+    if (typeof value === "number" && Number.isInteger(value) && value >= (allowZero ? 0 : 1) && value !== Reflect.get(profile,target)) patch[target] = value;
+  };
+  switch (profile.category) {
+    case "gpu":
+      dimension("lengthMm"); dimension("heightMm"); dimension("thicknessMm");
+      dimension("fanSizeMm"); count("fanCount","fanCount",true); break;
+    case "storage":
+      dimension("lengthMm"); dimension("widthMm"); dimension("heightMm"); break;
+    case "psu":
+      dimension("widthMm"); dimension("heightMm"); dimension("depthMm"); dimension("fanSizeMm"); break;
+    case "case":
+      dimension("widthMm"); dimension("heightMm"); dimension("depthMm");
+      dimension("fanSizeMm"); count("fanCount","fanCount",true); break;
+    case "motherboard":
+      dimension("widthMm"); dimension("heightMm"); count("memorySlots","slots"); break;
+    case "ram":
+      dimension("lengthMm"); dimension("heightMm"); dimension("thicknessMm"); count("memorySticks","sticks"); break;
+    case "cooler":
+      dimension("widthMm"); dimension("heightMm"); dimension("depthMm");
+      dimension("fanSizeMm"); count("fanCount","fanCount",true);
+      if (profile.kind === "aio") {dimension("radiatorSizeMm"); dimension("radiatorThicknessMm");}
+      break;
+    // CPU width/height/depth cannot safely be inferred from generic package
+    // dimensions: package footprint and vertical thickness use different axes.
+  }
+  return Object.keys(patch).length ? {...profile,...patch} : profile;
 }
 export const getCaseProfile = (component?: ProfileInput) =>
   lookup(caseProfiles, component);

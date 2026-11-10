@@ -1,0 +1,5910 @@
+{
+  "scope": "Audit of the published 435-source baseline before the individual manufacturer pass; read-only analysis, no new network collection.",
+  "totalVariants": 10564,
+  "originalExplicitMPNs": 167,
+  "finishGroups": 9221,
+  "groupsWithMultipleFinishIDs": 1185,
+  "existingMPNAliasGroups": {
+    "samsung:mzv9s2t0bw": [
+      "ssd-990evo-2",
+      "import-ssd-c684100ebdf8"
+    ],
+    "deepcool:rak620bknnmtg1": [
+      "cooler-ak620",
+      "cooler-ak620-zero-dark"
+    ],
+    "adata:ax5u6000c3016gslabrbk": [
+      "import-ram-58e5fad402dc",
+      "import-ram-ddfe1be90d5e"
+    ],
+    "gigabyte:ag4731tbn": [
+      "import-ssd-e88ae69bc436",
+      "import-ssd-8b3a6dcd4615"
+    ],
+    "corsair:cssdf0500gbmp600gs": [
+      "import-ssd-902b0987653a",
+      "import-ssd-920781bf2686"
+    ],
+    "msi:9117c96001": [
+      "import-mb-fa102e9bb495",
+      "import-mb-fcc33592f0ce"
+    ],
+    "msi:3067zp7c11ce0": [
+      "import-psu-30d0c61edddd",
+      "import-psu-2be5c9ba113a"
+    ],
+    "g.skill:f56400j3239g16gx2tz5k": [
+      "import-ram-d208c28e203f",
+      "import-ram-43517bcea6ff"
+    ],
+    "g.skill:f56000j3636f16gx2tz5k": [
+      "import-ram-26ab5263c773",
+      "import-ram-f4b69e56140d"
+    ],
+    "g.skill:f56000j3040g32gx2tz5k": [
+      "import-ram-758ff31e3927",
+      "import-ram-b7341bceb0fd"
+    ],
+    "corsair:cssdf2000gbmp600cxt": [
+      "import-ssd-c4c64b6f7db5",
+      "import-ssd-986992c87e51"
+    ],
+    "corsair:cssdf2000gbmp600pnh": [
+      "import-ssd-3803960b866d",
+      "import-ssd-3025f52141b4"
+    ],
+    "adata:aleg960m1tcs": [
+      "import-ssd-025b07fbf95a",
+      "import-ssd-cc68a9e7c2f1"
+    ],
+    "corsair:cssdf1000gbmp600pxt": [
+      "import-ssd-289f4649eeca",
+      "import-ssd-a246ff4c6b8d"
+    ],
+    "sabrent:sb213q2tb": [
+      "import-ssd-da9e7bd71b8b",
+      "import-ssd-7d57137df60e"
+    ],
+    "adata:aleg960m4tcs": [
+      "import-ssd-fd531c07a9db",
+      "import-ssd-a41ba62a3664"
+    ],
+    "xfx:rx96ts316w7": [
+      "import-gpu-aa93d14edf47",
+      "import-gpu-71fa373440dc"
+    ],
+    "zotac:zta30610h10mlhr": [
+      "import-gpu-3ad8d960c072",
+      "import-gpu-3249dc8ebba1",
+      "import-gpu-c8d44f8e285c"
+    ],
+    "gainward:ne75090s19r5gb2020p": [
+      "import-gpu-cad23268683d",
+      "import-gpu-e2fbd9598349"
+    ],
+    "thermaltake:pstpd0850fnfape3": [
+      "import-psu-1340230865fc",
+      "import-psu-bfc0aa423b0c"
+    ],
+    "enermax:etv850g": [
+      "import-psu-368f4dd8bfe5",
+      "import-psu-21602e1ac1a9",
+      "import-psu-0f044264000e"
+    ],
+    "thermaltake:pstpx0750fnfage1": [
+      "import-psu-690a5429e7ae",
+      "import-psu-91c81b0bffcd"
+    ],
+    "seasonic:srpcgx651a5a32sfw": [
+      "import-psu-b2043f515137",
+      "import-psu-f57a6adb660c"
+    ],
+    "cooler master:mpw7001acbnbeu": [
+      "import-psu-2a3f6bdc6d93",
+      "import-psu-773c1429b141"
+    ],
+    "cooler master:mpw6001acbnbeu": [
+      "import-psu-b861866775d5",
+      "import-psu-91d9929724e2"
+    ],
+    "thermaltake:pstpt1000fnfage3": [
+      "import-psu-97bf9a69042d",
+      "import-psu-866bd9ded250",
+      "import-psu-8c4a5ac00448",
+      "import-psu-f64e7fc82981"
+    ]
+  },
+  "searchOutcomesByCategory": {
+    "case": {
+      "primary_match": 5,
+      "search_unreadable": 12,
+      "no_exact_match": 3
+    },
+    "cooler": {
+      "primary_match": 11,
+      "no_exact_match": 9,
+      "search_unreadable": 4,
+      "ambiguous_variants": 1
+    },
+    "cpu": {
+      "primary_match": 19,
+      "search_unreadable": 4,
+      "no_exact_match": 3
+    },
+    "gpu": {
+      "search_unreadable": 16,
+      "no_exact_match": 2433,
+      "primary_match": 23,
+      "conflicting_reference": 2
+    },
+    "motherboard": {
+      "primary_match": 23,
+      "no_exact_match": 1476,
+      "search_unreadable": 4
+    },
+    "psu": {
+      "primary_match": 57,
+      "search_unreadable": 16,
+      "no_exact_match": 1737,
+      "conflicting_reference": 5,
+      "ambiguous_variants": 4,
+      "access_failed": 1
+    },
+    "ram": {
+      "primary_match": 133,
+      "search_unreadable": 11,
+      "no_exact_match": 3719,
+      "ambiguous_variants": 1
+    },
+    "storage": {
+      "primary_match": 77,
+      "no_exact_match": 734,
+      "search_unreadable": 7,
+      "ambiguous_variants": 8,
+      "conflicting_reference": 6
+    }
+  },
+  "rejectionCountsByReason": {
+    "Comparaison du MPN explicite": 84,
+    "Suffixe de variante différent": 1427,
+    "Modèle différent": 13886,
+    "Débit testé différent dans le titre": 265,
+    "Révision différente ou absente de la ligne archivée": 126,
+    "Marque non confirmée": 5,
+    "Latence CAS différente dans le titre": 553,
+    "Génération ou débit mémoire non confirmé": 1512,
+    "Finition du titre différente ou multiple": 60,
+    "Composition exacte du kit non confirmée": 112,
+    "Composition différente dans le titre": 715,
+    "Finition non confirmée dans le titre ou la caractéristique couleur": 359,
+    "Finition multiple ou ambiguë à contrôler": 519,
+    "Latence CAS testée non confirmée": 51,
+    "Capacité exacte non confirmée": 188,
+    "Génération PCIe différente dans le titre": 5,
+    "Puce graphique ou suffixe différent": 93,
+    "Chipset différent dans le titre": 11,
+    "Puissance contradictoire dans le titre": 81,
+    "Puissance non confirmée": 5,
+    "MPN commun à plusieurs identités différentes du catalogue": 13
+  },
+  "missingCompatibilityFields": {
+    "heightMm": 4257,
+    "thicknessMm": 2447,
+    "memorySpeedMTs": 27,
+    "casLatency": 27,
+    "memoryProfile": 3858,
+    "memoryVoltageV": 3825,
+    "fanCount": 14,
+    "fanSizeMm": 14,
+    "widthMm": 1810,
+    "depthMm": 1810,
+    "powerW": 2444,
+    "recommendedPsuW": 2444,
+    "m2Slots": 1479,
+    "memoryType": 395
+  },
+  "mixedFinishVariants": {
+    "ram": 1327,
+    "gpu": 962,
+    "motherboard": 961,
+    "psu": 148
+  },
+  "selectedExamples": [
+    {
+      "id": "import-ram-8b162aa67690",
+      "query": "Crucial Pro Overclocking DDR5 6000 CL36 2x16 Blanc",
+      "pages": [
+        {
+          "title": "Crucial Pro OC DDR5 6000 MHz 32 Go 2 x 16 Go CL36 Intel XMP 3.0 et AMD EXPO Blanc",
+          "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6000-mhz-32-go-2-x-16-go-cl36-intel-xmp-3-0-et-amd-expo-blanc",
+          "reasons": [
+            "Modèle différent : overclocking"
+          ]
+        },
+        {
+          "title": "Crucial Pro OC DDR5 6000 MHz 32 Go 2 x 16 Go CL36 Intel XMP 3.0 et AMD EXPO",
+          "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6000-mhz-32-go-2-x-16-go-cl36-intel-xmp-3-0-et-amd-expo",
+          "reasons": [
+            "Modèle différent : overclocking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-ssd-8a91162ac077",
+      "query": "Samsung 9100 PRO 2000 Go",
+      "pages": [
+        {
+          "title": "Samsung 9100 PRO SSD NVMe M.2 PCIe 5.0 1 To",
+          "url": "https://www.pccomponentes.fr/disque-dur-samsung-9100-pro-ssd-nvme-m-2-pcie-5-0-1-to",
+          "reasons": [
+            "Capacité exacte non confirmée"
+          ]
+        },
+        {
+          "title": "SSD Samsung 9100 Pro 1 To M.2 PCIe 5.0 14 700 Mo/s NVMe 2.0 + cryptage AES 256 bits",
+          "url": "https://www.pccomponentes.fr/disque-dur-ssd-samsung-9100-pro-1-to-m-2-pcie-5-0-14-700-mo-s-nvme-2-0-plus-cryptage-aes-256-bits",
+          "reasons": [
+            "Capacité exacte non confirmée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-gpu-a682aa002297",
+      "query": "ASRock Steel Legend OC Radeon RX 9060 XT 8 Blanc / Gris",
+      "pages": [
+        {
+          "title": "Tarjeta Graphique Asrock Radeon RX 9060 XT Steel Legend 16GB GDDR6 PCIe 5.0 OC",
+          "url": "https://www.pccomponentes.fr/carte-graphique-tarjeta-graphique-asrock-radeon-rx-9060-xt-steel-legend-16gb-gddr6-pcie-5-0-oc",
+          "reasons": [
+            "Capacité exacte non confirmée"
+          ]
+        },
+        {
+          "title": "Carte graphique d'overclocking Asrock Radeon RX 9070 XT Steel Legend Dark 16 Go GDDR6 RDNA 3",
+          "url": "https://www.pccomponentes.fr/carte-graphique-d-overclocking-asrock-radeon-rx-9070-xt-steel-legend-dark-16-go-gddr6-rdna-3",
+          "reasons": [
+            "Modèle différent : 9060"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-mb-fd057324a4a8",
+      "query": "ASRock B850 Steel Legend WiFi",
+      "pages": [
+        {
+          "title": "Carte mère Asrock B850 AMD B850 AM5 ATX Steel Legend WiFi DDR5 PCIe 5.0 RAID",
+          "url": "https://www.pccomponentes.fr/carte-mere-asrock-b850-amd-b850-am5-atx-steel-legend-wifi-ddr5-pcie-5-0-raid",
+          "reasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        },
+        {
+          "title": "Carte mère Asrock B850M Steel Legend WiFi B850 AM5 Micro ATX Overclock DDR5 WiFi RAID",
+          "url": "https://www.pccomponentes.fr/carte-mere-asrock-b850m-steel-legend-wifi-b850-am5-micro-atx-overclock-ddr5-wifi-raid",
+          "reasons": [
+            "Finition multiple ou ambiguë à contrôler"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "import-psu-3f7709be66e0",
+      "query": "be quiet! Power Zone 2 1000 W",
+      "pages": [
+        {
+          "title": "Be quiet Power Zone 2 1000W 80 PLUS Platinum Modulaire",
+          "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-power-zone-2-1000w-80-plus-platinum-modulaire",
+          "reasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        },
+        {
+          "title": "Fuente de Alimentación be quiet! Power Zone 2 1200W 80 PLUS Platinum modulaire",
+          "url": "https://www.pccomponentes.fr/alimentation-pc-fuente-de-alimentacion-be-quiet-power-zone-2-1200w-80-plus-platinum-modulaire",
+          "reasons": [
+            "Suffixe de variante différent : platinum"
+          ]
+        }
+      ]
+    }
+  ],
+  "strictExistingEvidenceExtraction": {
+    "references": 131,
+    "fields": 343,
+    "rows": [
+      {
+        "id": "gpu-7800xt",
+        "category": "gpu",
+        "mpn": "11330-02-20G",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00569953.html",
+            "checkedAt": "2026-11-10T08:45:34.321Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Sapphire-11330-02-20G-Pulse-graphique-Radeon/dp/B0CFWM1LNH",
+            "checkedAt": "2026-11-10T09:32:34.424Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "powerW",
+            "values": [
+              266
+            ],
+            "existing": 263
+          }
+        ]
+      },
+      {
+        "id": "gpu-6600",
+        "category": "gpu",
+        "mpn": "11310-01-20G",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00463619.html",
+            "checkedAt": "2026-11-10T08:45:32.634Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Sapphire-11310-01-20G-Pulse-Radeon-graphique/dp/B09JHRQY4Y",
+            "checkedAt": "2026-11-10T09:32:37.971Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "powerW",
+            "values": [
+              170
+            ],
+            "existing": 132
+          }
+        ]
+      },
+      {
+        "id": "ram-ddr5-64",
+        "category": "ram",
+        "mpn": "F5-6000J3040G32GX2-FX5",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00594985.html",
+            "checkedAt": "2026-11-10T08:49:57.262Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/G-skill-Flare-X5-Ddr5-Kit/dp/B0CGQ3KS8X",
+            "checkedAt": "2026-11-10T09:32:35.341Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "EXPO"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "EXPO",
+            "group": "Timings",
+            "label": "Compatible AMD EXPO",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-ddr4-32",
+        "category": "ram",
+        "mpn": "CMK32GX4M2Z3600C18",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-lpx-cmk32gx4m2z3600c18-module-de-memoire-32-go-2-x-16-go-ddr4-3600-mhz",
+            "checkedAt": "2026-11-10T08:56:40.679Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/Corsair-Vengeance-3600MHz-PC4-28800-Optimized/dp/B082DH1FZR",
+            "checkedAt": "2026-11-10T09:32:44.693Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.35,
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.35,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire de tension",
+            "sourceValue": "1.35 V"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Module XMP d'Intel®",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-ddr5-32-white",
+        "category": "ram",
+        "mpn": "CMH32GX5M2B6000Z30W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-corsair-vengeance-rgb-ddr5-blanc-6000-mhz-32-go-2-x-16-go-cl30-double-intel-xmp-3-0-et-amd-expo",
+            "checkedAt": "2026-11-10T08:56:40.672Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/CORSAIR-Vengeance-6000MHz-Compatible-CMH32GX5M2B6000Z30W/dp/B0DPJ9DJ3D",
+            "checkedAt": "2026-11-10T09:32:45.346Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.4,
+          "memoryProfile": "EXPO/XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.4,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension de la mémoire",
+            "sourceValue": "1,4 V"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "EXPO/XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "EXPO/XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "AMD EXPO (profils étendus pour l'overclocking)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-990-1",
+        "category": "storage",
+        "mpn": "MZ-V9S1T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00653106.html",
+            "checkedAt": "2026-11-10T08:42:58.422Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Samsung",
+            "url": "https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-plus-gen4-nvme-ssd-1tb-sku-mz-v9s1t0b-am/",
+            "checkedAt": "2026-11-10T08:47:21.390Z",
+            "kind": "manufacturer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Samsung-Interne-Vitesse-bureautique-MZ-V9S1T0BW/dp/B0DGH2FH7T",
+            "checkedAt": "2026-11-10T09:32:45.055Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.15,
+          "widthMm": 22.15,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-sn850-2",
+        "category": "storage",
+        "mpn": "WDS200T2X0E",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00512212.html",
+            "checkedAt": "2026-11-10T08:45:32.512Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/WD_BLACK-SN850X-2280-gaming-jusqu%C3%A0/dp/B0B7CMZ3QH",
+            "checkedAt": "2026-11-10T09:32:50.829Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-p3-1",
+        "category": "storage",
+        "mpn": "CT1000P3PSSD8",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00503990.html",
+            "checkedAt": "2026-11-10T08:45:32.519Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Crucial-CT1000P3PSSD8/dp/B0BG83287J",
+            "checkedAt": "2026-11-10T09:32:50.374Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.4
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.4,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-990-4",
+        "category": "storage",
+        "mpn": "MZ-V9P4T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00574041.html",
+            "checkedAt": "2026-11-10T08:45:37.460Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/Samsung-Internal-Capacity-Management-MZ-V9P4T0BW/dp/B0CBYZ6DD1",
+            "checkedAt": "2026-11-10T09:32:49.418Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-980pro-1",
+        "category": "storage",
+        "mpn": "MZ-V8P1T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00383678.html",
+            "checkedAt": "2026-11-10T08:45:38.527Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Samsung-Internal-Solid-State-MZ-V8P1T0BW/dp/B08GS7748F",
+            "checkedAt": "2026-11-10T09:32:51.195Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.15,
+          "widthMm": 22.15,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-990pro-2",
+        "category": "storage",
+        "mpn": "MZ-V9P2T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00512964.html",
+            "checkedAt": "2026-11-10T08:45:32.400Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/Samsung-990-2000GB-7450MB-MZ-V9P2T0BW/dp/B0BXX1JJH8",
+            "checkedAt": "2026-11-10T09:32:51.211Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-sn770-1",
+        "category": "storage",
+        "mpn": "WDS100T3X0E",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00482501.html",
+            "checkedAt": "2026-11-10T08:45:32.615Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/WD_BLACK-Interne-Vitesse-lecture-performance/dp/B09QV692XY",
+            "checkedAt": "2026-11-10T09:32:56.362Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.38 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-t500-2",
+        "category": "storage",
+        "mpn": "CT2000T500SSD8",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00579092.html",
+            "checkedAt": "2026-11-10T08:45:32.581Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/Crucial-Compatible-Internal-Microsoft-DirectStorage/dp/B0CK2TC9XQ",
+            "checkedAt": "2026-11-10T09:32:51.889Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.3
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.3 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.3 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.3,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.3 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-kc3000-2",
+        "category": "storage",
+        "mpn": "SKC3000D/2048G",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00465958.html",
+            "checkedAt": "2026-11-10T08:45:38.138Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.5
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 3.5 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 3.5 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.5,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 3.5 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-nv2-2",
+        "category": "storage",
+        "mpn": "SNV2S/2000G",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00513152.html",
+            "checkedAt": "2026-11-10T08:45:33.236Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.2
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.2 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.2 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.2,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.2 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-p3-2",
+        "category": "storage",
+        "mpn": "CT2000P3PSSD8",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00503991.html",
+            "checkedAt": "2026-11-10T08:45:36.119Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.4
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.4,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Hauteur: 2.4 mm · Profondeur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-990evo-2",
+        "category": "storage",
+        "mpn": "MZ-V9S2T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00653108.html",
+            "checkedAt": "2026-11-10T08:45:32.425Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.15,
+          "widthMm": 22.15,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.15,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22.15 mm · Hauteur: 2.38 mm · Profondeur: 80.15 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-ak620",
+        "category": "cooler",
+        "mpn": "R-AK620-BKNNMT-G-1",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/deepcool-ak620-zero-dark-ventilateur-cpu-120-mm-noir",
+            "checkedAt": "2026-11-10T09:25:31Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 2
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 Ventilateur(s)"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-nhd15",
+        "category": "cooler",
+        "mpn": "NOCTUA NH-D15 CH.BK",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00280162.html",
+            "checkedAt": "2026-11-10T08:45:34.752Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 140,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "140 mm"
+          }
+        ],
+        "conflicts": [
+          {
+            "field": "heightMm",
+            "values": [
+              170
+            ],
+            "existing": 165
+          }
+        ]
+      },
+      {
+        "id": "cooler-l9a",
+        "category": "cooler",
+        "mpn": "NH-L9A-AM5",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00540616.html",
+            "checkedAt": "2026-11-10T08:45:33.864Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/-/en/Noctua-NH-L9a-AM5-Low-Height-Ventirad-Performance/dp/B0BNL8ZM1T",
+            "checkedAt": "2026-11-10T09:32:56.475Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 92
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 92,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "92 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-peerless",
+        "category": "cooler",
+        "mpn": "PA120SE",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00581740.html",
+            "checkedAt": "2026-11-10T08:45:34.102Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "120 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-darkrockpro5",
+        "category": "cooler",
+        "mpn": "BK036",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00576680.html",
+            "checkedAt": "2026-11-10T08:45:36.755Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 135
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 135,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "135 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-h100i240",
+        "category": "cooler",
+        "mpn": "CW-9060068-WW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00545178.html",
+            "checkedAt": "2026-11-10T08:45:38.582Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "120 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-h150i360",
+        "category": "cooler",
+        "mpn": "CW-9060070-WW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00542077.html",
+            "checkedAt": "2026-11-10T08:45:36.223Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "120 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-ls520240",
+        "category": "cooler",
+        "mpn": "R-LS520-BKAMNT-G-1",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00515836.html",
+            "checkedAt": "2026-11-10T08:45:35.721Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "120 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "cooler-ls720360",
+        "category": "cooler",
+        "mpn": "FC-DC-LS720-BK",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00515840.html",
+            "checkedAt": "2026-11-10T08:45:37.495Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Spécifications techniques",
+            "label": "Diamètre ventilateur",
+            "sourceValue": "120 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-a550",
+        "category": "psu",
+        "mpn": "306-7ZP2A11-CE0",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00553942.html",
+            "checkedAt": "2026-11-10T08:45:36.109Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-rm850e",
+        "category": "psu",
+        "mpn": "CP-9020296-EU",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00663406.html",
+            "checkedAt": "2026-11-10T08:45:34.264Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/CORSAIR-Alimentation-enti%C3%A8rement-modulaire-silencieuse/dp/B0DMTN5WLB",
+            "checkedAt": "2026-11-10T09:33:00.123Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-a650",
+        "category": "psu",
+        "mpn": "306-7ZP2B11-CE0",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00460057.html",
+            "checkedAt": "2026-11-10T08:45:36.405Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-pp12-650",
+        "category": "psu",
+        "mpn": "BN342",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00540383.html",
+            "checkedAt": "2026-11-10T08:45:38.230Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/quiet-dAlimentation-Certification-Alimentation-enti%C3%A8rement/dp/B0BT33WJ38",
+            "checkedAt": "2026-11-10T09:32:58.279Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-pp12-850",
+        "category": "psu",
+        "mpn": "BN344",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00540385.html",
+            "checkedAt": "2026-11-10T08:45:34.393Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-pp12-1000",
+        "category": "psu",
+        "mpn": "BN345",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00540386.html",
+            "checkedAt": "2026-11-10T08:45:34.822Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 160 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-rm1000e",
+        "category": "psu",
+        "mpn": "CP-9020297-EU",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00663407.html",
+            "checkedAt": "2026-11-10T08:45:39.026Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "psu-focus850",
+        "category": "psu",
+        "mpn": "FOCUS-GX-850-V4",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00647652.html",
+            "checkedAt": "2026-11-10T08:45:36.080Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques physiques",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Hauteur: 86 mm · Largeur: 150 mm · Longueur: 140 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "case-q300l",
+        "category": "case",
+        "mpn": "MCB-Q300L-KANN-S00",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00246492.html",
+            "checkedAt": "2026-11-10T08:45:34.222Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Cooler-Master-MasterBox-Micro-ATX-MCB-Q300L-KANN-S00/dp/B0785GRMPG",
+            "checkedAt": "2026-11-10T09:33:06.012Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "maxCoolerHeightMm",
+            "values": [
+              157
+            ],
+            "existing": 159
+          },
+          {
+            "field": "heightMm",
+            "values": [
+              378
+            ],
+            "existing": 387
+          },
+          {
+            "field": "depthMm",
+            "values": [
+              378
+            ],
+            "existing": 387
+          }
+        ]
+      },
+      {
+        "id": "mb-z790-strix-a",
+        "category": "motherboard",
+        "mpn": "90MB1E00-M0EAY0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/asus-rog-strix-z790-a-gaming-wifi?refurbished",
+            "checkedAt": "2026-11-10T09:25:29Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "maxMemoryGB",
+            "values": [
+              128
+            ],
+            "existing": 192
+          }
+        ]
+      },
+      {
+        "id": "gpu-6650xt-pulse",
+        "category": "gpu",
+        "mpn": "11319-03-20G",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00498065.html",
+            "checkedAt": "2026-11-10T08:56:33.315Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "powerW",
+            "values": [
+              176
+            ],
+            "existing": 180
+          }
+        ]
+      },
+      {
+        "id": "ram-fury-ddr5-32-6000",
+        "category": "ram",
+        "mpn": "KF560C36BBEK2-32",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00519268.html",
+            "checkedAt": "2026-11-10T08:49:57.330Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "EXPO"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "EXPO",
+            "group": "Timings",
+            "label": "Compatible AMD EXPO",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-fury-ddr5-16-5200",
+        "category": "ram",
+        "mpn": "KF552C40BBK2-16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/kingston-fury-beast-ddr5-5-200-mhz-16-go-2-x-8-go-cl40",
+            "checkedAt": "2026-11-10T08:56:40.536Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "Amazon.fr — MPN relevé, offre non confirmée",
+            "url": "https://www.amazon.fr/Kingston-Beast-2x8Go-5200MT-M%C3%A9moire/dp/B09T97ZSVB",
+            "checkedAt": "2026-11-10T09:33:06.705Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.25,
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.25,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension mémoire",
+            "sourceValue": "1,25 V"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-fury-ddr5-64-6000",
+        "category": "ram",
+        "mpn": "KF560C36BBEK2-64",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00541369.html",
+            "checkedAt": "2026-11-10T08:49:58.272Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "EXPO"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "EXPO",
+            "group": "Timings",
+            "label": "Compatible AMD EXPO",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-delta-ddr5-32",
+        "category": "ram",
+        "mpn": "FF3D532G6000HC30DC01",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-groupe-d-equipe-t-force-delta-rvb-ddr5-6000-mhz-32-go-2x16-go-cl30",
+            "checkedAt": "2026-11-10T08:56:40.989Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.35,
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.35,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension mémoire",
+            "sourceValue": "1,35 V"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-ripjaws-ddr4-16-3600",
+        "category": "ram",
+        "mpn": "F4-3600C18D-16GVK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-ripjaws-v-ddr4-3600-mhz-16-go-2-x-8-go-cl18",
+            "checkedAt": "2026-11-10T08:56:40.381Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.35,
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.35,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension mémoire",
+            "sourceValue": "1,35 V"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ram-vulcan-ddr4-32",
+        "category": "ram",
+        "mpn": "TLZGD432G3200HC16FDC01",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/team-group-t-force-vulcan-z-ddr4-3200mhz-pc4-25600-32go-2x16go-cl16-gris",
+            "checkedAt": "2026-11-10T08:56:40.452Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.35
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.35,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension mémoire",
+            "sourceValue": "1,35 V"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "ssd-980-1",
+        "category": "storage",
+        "mpn": "MZ-V8V1T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00410684.html",
+            "checkedAt": "2026-11-10T08:45:37.787Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "lengthMm",
+            "values": [
+              80.15
+            ],
+            "existing": 80
+          },
+          {
+            "field": "widthMm",
+            "values": [
+              22.15
+            ],
+            "existing": 22
+          }
+        ]
+      },
+      {
+        "id": "ssd-p5plus-2",
+        "category": "storage",
+        "mpn": "CT2000P5PSSD8",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00455503.html",
+            "checkedAt": "2026-11-10T08:45:35.841Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "heightMm",
+            "values": [
+              2.3
+            ],
+            "existing": 2.4
+          }
+        ]
+      },
+      {
+        "id": "ssd-firecuda530-2",
+        "category": "storage",
+        "mpn": "ZP2000GM3A013",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00456351.html",
+            "checkedAt": "2026-11-10T08:45:37.473Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "lengthMm",
+            "values": [
+              80.15
+            ],
+            "existing": 80
+          },
+          {
+            "field": "widthMm",
+            "values": [
+              22.15
+            ],
+            "existing": 22
+          }
+        ]
+      },
+      {
+        "id": "ssd-980pro-2",
+        "category": "storage",
+        "mpn": "MZ-V8P2T0BW",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00408323.html",
+            "checkedAt": "2026-11-10T08:45:36.887Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "lengthMm",
+            "values": [
+              80.15
+            ],
+            "existing": 80
+          },
+          {
+            "field": "widthMm",
+            "values": [
+              22.15
+            ],
+            "existing": 22
+          }
+        ]
+      },
+      {
+        "id": "psu-straight-power12-1000",
+        "category": "psu",
+        "mpn": "BN338",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00557980.html",
+            "checkedAt": "2026-11-10T08:45:38.738Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "depthMm",
+            "values": [
+              160
+            ],
+            "existing": 180
+          }
+        ]
+      },
+      {
+        "id": "case-pop-air-rgb",
+        "category": "case",
+        "mpn": "FD-C-POR1A-07",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00698786.html",
+            "checkedAt": "2026-11-10T08:45:37.737Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "heightMm",
+            "values": [
+              454
+            ],
+            "existing": 473.5
+          },
+          {
+            "field": "depthMm",
+            "values": [
+              473.5
+            ],
+            "existing": 454
+          }
+        ]
+      },
+      {
+        "id": "case-xt-pro-ultra",
+        "category": "case",
+        "mpn": "PH-XT523P1_DBK01",
+        "sources": [
+          {
+            "name": "LDLC",
+            "url": "https://www.ldlc.com/fiche/PB00607378.html",
+            "checkedAt": "2026-11-10T08:45:36.302Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {},
+        "evidence": [],
+        "conflicts": [
+          {
+            "field": "depthMm",
+            "values": [
+              440
+            ],
+            "existing": 450
+          }
+        ]
+      },
+      {
+        "id": "import-ram-3ccb40456e29",
+        "category": "ram",
+        "mpn": "F5-6000J3636F16GX2-FX5",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-flare-x5-ddr5-6000-mhz-32-go-2-x-16-go-cl36-noir",
+            "checkedAt": "2026-11-10T09:26:05Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-1ad5c9da263f",
+        "category": "ram",
+        "mpn": "F4-3200C16D-16GVGB",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-ripjaws-v-ddr4-3200-mhz-pc4-25600-16-go-2-x-8-go-cl16",
+            "checkedAt": "2026-11-10T09:26:11Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-712a9d1470ad",
+        "category": "ram",
+        "mpn": "5U6000C3016G-DTLABBK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-adata-xpg-lancer-blade-ddr5-6000-mhz-32-go-2-x-16-go-cl30-noir-intel-xmp",
+            "checkedAt": "2026-11-10T09:26:12Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-2ce0b7b7af8c",
+        "category": "ram",
+        "mpn": "CP2K16G64C38U5B",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-crucial-pro-oc-ddr5-6400-mhz-32-go-2-x-16-go-cl38-intel-xmp-3-0-et-amd-expo",
+            "checkedAt": "2026-11-10T09:26:51Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryVoltageV": 1.35
+        },
+        "evidence": [
+          {
+            "field": "memoryVoltageV",
+            "value": 1.35,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Tension de la mémoire",
+            "sourceValue": "1,35 V"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-3ab87f2c00e5",
+        "category": "ram",
+        "mpn": "F4-3200C16Q-64GVK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-ripjaws-v-ddr4-3200-mhz-pc4-25600-64-go-4-x-16-go-cl16",
+            "checkedAt": "2026-11-10T09:26:03Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-9db0de70cb7c",
+        "category": "ram",
+        "mpn": "CMK16GX4M1A2400C14",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-lpx-ddr4-2400-pc4-19200-16gb-cl14",
+            "checkedAt": "2026-11-10T09:27:47Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Module XMP d'Intel®",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-d059db5a3f51",
+        "category": "storage",
+        "mpn": "S78-440Q550-P83",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-msi-spatium-m461-ssd-2-to-nvme-m-2-gen4x4",
+            "checkedAt": "2026-11-10T09:28:33Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.15
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 2,15 mm · Hauteur: 80 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 2,15 mm · Hauteur: 80 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.15,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 2,15 mm · Hauteur: 80 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-11a66d856cca",
+        "category": "storage",
+        "mpn": "LSD10Z001TG8",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-kioxia-exceria-plus-g3-1-to-ssd-m-2-2280-pcie-gen4-x4",
+            "checkedAt": "2026-11-10T09:28:35Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.2,
+          "widthMm": 22.1,
+          "heightMm": 2.63
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22,1 mm · Profondeur: 80,2 mm · Hauteur: 2,63 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22,1 mm · Profondeur: 80,2 mm · Hauteur: 2,63 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.63,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22,1 mm · Profondeur: 80,2 mm · Hauteur: 2,63 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-de421ed9b197",
+        "category": "storage",
+        "mpn": "SNV3S/500G",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-kingston-technology-nv3-500-go-m-2-pci-express-4-0-nvme-3d-nand",
+            "checkedAt": "2026-11-10T09:28:30Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.8
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,8 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,8 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.8,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,8 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-6ca905a1499e",
+        "category": "storage",
+        "mpn": "SLEG-860-500GCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-860-sleg-860-500gcs-disque-ssd-500-go-m-2-pci-express-4-0-nvme-3d-nand",
+            "checkedAt": "2026-11-10T09:28:56Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.13
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.13,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-af0ab1572ccd",
+        "category": "storage",
+        "mpn": "MZ-VAP1T0BW",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-samsung-9100-pro-ssd-nvme-m-2-pcie-5-0-1-to",
+            "checkedAt": "2026-11-10T09:28:29Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.2,
+          "widthMm": 22.1,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-c684100ebdf8",
+        "category": "storage",
+        "mpn": "MZ-V9S2T0BW",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-ssd-samsung-990-evo-plus-2-to-7-250-mo-s-nvme-pcie-5-0-x2-nvme-2-0-nand",
+            "checkedAt": "2026-11-10T09:29:24Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.2,
+          "widthMm": 22.1,
+          "heightMm": 2.38
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22.1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.38,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80,2 mm · Profondeur: 2,38 mm · Hauteur: 22,1 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-a56f9a7de0e6",
+        "category": "storage",
+        "mpn": "SP01KGBP44UD8505",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-silicon-power-ud85-m-2-1000-go-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:29:24Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 8
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 8 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 8 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 8,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 8 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-7b1e45749f0e",
+        "category": "storage",
+        "mpn": "S78-440L980-P83",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-msi-spatium-m450-ssd-1-to-m-2-nvme-pcie-4-0",
+            "checkedAt": "2026-11-10T09:29:26Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.15
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22mm · Profondeur: 80mm · Hauteur: 2.15mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22mm · Profondeur: 80mm · Hauteur: 2.15mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.15,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22mm · Profondeur: 80mm · Hauteur: 2.15mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-99ffa47a53fe",
+        "category": "storage",
+        "mpn": "SP500GBP44UD8505",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/silicon-power-ud85-m2-500-go-pci-express-40-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:29:27Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.5
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.5,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-f063b26ed6fc",
+        "category": "storage",
+        "mpn": "SP250GBP44UD8505",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-silicon-power-ud85-m-2-250-go-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:29:50Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.5
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.5,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,5 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-6cccbff5d201",
+        "category": "gpu",
+        "mpn": "RX-66XL8LFDQ",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/xfx-speedster-swft-210-amd-radeon-rx-6600-8-go-gddr6?refurbished",
+            "checkedAt": "2026-11-10T09:29:55Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 550,
+          "thicknessMm": 41,
+          "heightMm": 131
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 550,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "550 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 41,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 241 mm · Hauteur: 131 mm · Largeur: 41 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 131,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 241 mm · Hauteur: 131 mm · Largeur: 41 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-8c0a0071ac63",
+        "category": "gpu",
+        "mpn": "11349-03-20G",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-sapphire-pulse-amd-radeontm-rx-9070-gaming-16-go-double-hdmi-double-dp",
+            "checkedAt": "2026-11-10T09:29:56Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 650,
+          "thicknessMm": 51.5,
+          "heightMm": 120.2
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 650,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimum supportée",
+            "sourceValue": "650 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 51.5,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 280 mm · Profondeur: 51,5 mm · Hauteur: 120,2 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 120.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 280 mm · Profondeur: 51,5 mm · Hauteur: 120,2 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-7fcdecad409a",
+        "category": "gpu",
+        "mpn": "NE75090019R5-GB2020G",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-palit-geforce-rtx-5090-gamerock-32-go-gddr7-reflex-2-rtx-ai-dlss4",
+            "checkedAt": "2026-11-10T09:30:42Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "recommendedPsuW": 1000,
+          "powerW": 575,
+          "thicknessMm": 70.4,
+          "heightMm": 150
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 Ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 1000,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "1 000 W"
+          },
+          {
+            "field": "powerW",
+            "value": 575,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation électrique (max)",
+            "sourceValue": "575 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 70.4,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 331,9 mm · Profondeur: 70,4 mm · Hauteur: 150 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 331,9 mm · Profondeur: 70,4 mm · Hauteur: 150 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-0bce7f6787ac",
+        "category": "gpu",
+        "mpn": "SA770R-16GOC",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-sparkle-roc-edition-oc-intel-arc-a770-16-go-gddr6",
+            "checkedAt": "2026-11-10T09:31:10Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 650,
+          "powerW": 225,
+          "thicknessMm": 51,
+          "heightMm": 131
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 Ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 650,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "650 W"
+          },
+          {
+            "field": "powerW",
+            "value": 225,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation électrique",
+            "sourceValue": "225 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 51,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 281 mm · Profondeur: 51 mm · Hauteur: 131 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 131,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 281 mm · Profondeur: 51 mm · Hauteur: 131 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-6ecf603dcf17",
+        "category": "motherboard",
+        "mpn": "911-7E24-001",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/msi-b650m-gaming-plus-wifi?refurbished",
+            "checkedAt": "2026-11-10T09:23:36Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "m2Slots": 2
+        },
+        "evidence": [
+          {
+            "field": "m2Slots",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "2"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-fa102e9bb495",
+        "category": "motherboard",
+        "mpn": "911-7C96-001",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/msi-a520m-a-pro",
+            "checkedAt": "2026-11-10T09:31:59Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "m2Slots": 1
+        },
+        "evidence": [
+          {
+            "field": "m2Slots",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "1"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-f21cafa250ed",
+        "category": "motherboard",
+        "mpn": "A-X870I AORUS PRO ICE",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-x870i-aorus-pro-ice",
+            "checkedAt": "2026-11-10T09:31:59Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-x870i-aorus-pro-ice?refurbished",
+            "checkedAt": "2026-11-10T09:32:09Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 2
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "2"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-477af06ae340",
+        "category": "motherboard",
+        "mpn": "90MB1M00-M0EAY0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/asus-b650e-max-gaming-wifi-w",
+            "checkedAt": "2026-11-10T09:32:02Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-8417950742eb",
+        "category": "motherboard",
+        "mpn": "9MX87EG7-00-G10",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-x870-eagle-wifi7-carte-mere-amd-x870-emplacement-am5-atx",
+            "checkedAt": "2026-11-10T09:32:02Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-d94a6b51b0a6",
+        "category": "motherboard",
+        "mpn": "9AB85IPRO-00-G10",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-b850i-aorus-pro",
+            "checkedAt": "2026-11-10T09:32:07Z",
+            "kind": "retailer"
+          },
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-b850i-aorus-pro?refurbished",
+            "checkedAt": "2026-11-10T09:32:13Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 2
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "2"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-a59c760d52e4",
+        "category": "psu",
+        "mpn": "306-7ZP8C16-CE0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mag-a650gl-unite-d-alimentation-d-energie-650-w-20-plus-4-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:32:42Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-30d0c61edddd",
+        "category": "psu",
+        "mpn": "306-7ZP7C11-CE0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mpg-a1000g-pcie5-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:32:33Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 135,
+          "fanCount": 1
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 135,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "13,5 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-a49714a69eec",
+        "category": "psu",
+        "mpn": "BP002EU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-be-quiet-pure-power-12-650w-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
+            "checkedAt": "2026-11-10T09:32:38Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 86 mm · Profondeur: 160 mm · Hauteur: 150 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 86 mm · Profondeur: 160 mm · Hauteur: 150 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 86 mm · Profondeur: 160 mm · Hauteur: 150 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-2b26699c4723",
+        "category": "psu",
+        "mpn": "R-PN850M-FC0B-EU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-deepcool-pn850m-unite-dalimentation-denergie-850-w-20-4-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:32:47Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-477902e370e5",
+        "category": "psu",
+        "mpn": "R-PL750D-FC0B-EU-V2",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-atx-750w-deepcool-pl750-d",
+            "checkedAt": "2026-11-10T09:32:41Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-4c94b9316ce9",
+        "category": "ram",
+        "mpn": "F5-5600J3636C16GX2-FX5",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-flare-x5-ddr5-5600-mhz-32-go-2-x-16-go-cl36-noir",
+            "checkedAt": "2026-11-10T09:26:10Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-c4d943b15b62",
+        "category": "ram",
+        "mpn": "CMP32GX5M2X7000C34W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-dominator-titanium-ddr5-7000-mhz-32-go-2-x-16-go-cl34-xmp-blanc",
+            "checkedAt": "2026-11-10T09:26:54Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-d999dd2d0479",
+        "category": "ram",
+        "mpn": "F5-6000J3238F16GX2-RS5K",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-ripjaws-s5-ddr5-6000-mhz-32-go-2-x-16-go-cl32-noir",
+            "checkedAt": "2026-11-10T09:27:32Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-d208c28e203f",
+        "category": "ram",
+        "mpn": "F5-6400J3239G16GX2-TZ5K",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6400-mhz-32-go-2-x-16-go-cl32-noir",
+            "checkedAt": "2026-11-10T09:27:35Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-c5c195f066ce",
+        "category": "ram",
+        "mpn": "CMK32GX4M2D3000C16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-lpx-ddr4-3000-mhz-32-go-2x16-go-cl16",
+            "checkedAt": "2026-11-10T09:33:48Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-eb5672d697a5",
+        "category": "ram",
+        "mpn": "CMK16GX4M2D3000C16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-lpx-ddr4-3000-pc4-24000-16-go-2x8-go-cl16",
+            "checkedAt": "2026-11-10T09:28:06Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-3c1eb7f791c7",
+        "category": "ram",
+        "mpn": "CMP32GX5M2B6400C32W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-dominator-titanium-ddr5-6400-mhz-32-go-2-x-16-go-cl32-xmp-blanc",
+            "checkedAt": "2026-11-10T09:26:51Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-174e87d87b3c",
+        "category": "ram",
+        "mpn": "KF556C36BWEAK2-32",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/kingston-fury-beast-rgb-white-ddr5-5600mhz-32gb-2x16gb-cl36",
+            "checkedAt": "2026-11-10T09:33:08Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "EXPO"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "EXPO",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profils étendus d'AMD pour l'overclocking (EXPO)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-26ab5263c773",
+        "category": "ram",
+        "mpn": "F5-6000J3636F16GX2-TZ5K",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6000-mhz-32-go-2x16-go-cl36",
+            "checkedAt": "2026-11-10T09:33:50Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-2938f4294b13",
+        "category": "ram",
+        "mpn": "F5-5600J3636C16GX2-TZ5RK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-rgb-ddr5-5600-mhz-32-go-2x16-go-cl36",
+            "checkedAt": "2026-11-10T09:34:08Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-7137606b4ace",
+        "category": "ram",
+        "mpn": "CMT64GX5M2B5200C40W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-dominator-platinum-rgb-ddr5-5200-mhz-64-go-2x32-go-cl40-blanc",
+            "checkedAt": "2026-11-10T09:33:07Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-08c9f04051b4",
+        "category": "ram",
+        "mpn": "CMN32GX4M2Z3200C16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-rgb-rt-ddr4-3200-mhz-32-go-2-x-16-go-cl16",
+            "checkedAt": "2026-11-10T09:33:28Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-43517bcea6ff",
+        "category": "ram",
+        "mpn": "F5-6400J3239G16GX2-TZ5K",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6400-mhz-32-go-2-x-16-go-cl32-noir",
+            "checkedAt": "2026-11-10T09:27:35Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-9a26ae449e60",
+        "category": "ram",
+        "mpn": "F5-5600J4040C16GX2-TZ5RK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-rgb-ddr5-5600-mhz-32-go-2x16-go-cl40",
+            "checkedAt": "2026-11-10T09:23:37Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-365c3c131d46",
+        "category": "ram",
+        "mpn": "F5-6000J3238F16GX2-RS5W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-ripjaws-s5-ddr5-6000-mhz-32-go-2-x-16-go-cl32-blanc",
+            "checkedAt": "2026-11-10T09:33:08Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-a0f314dadb84",
+        "category": "ram",
+        "mpn": "CMW32GX4M2A2666C16W",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-rgb-pro-ddr4-2666-mhz-pc4-21300-32-go-2-x-16-go-cl16-blanc",
+            "checkedAt": "2026-11-10T09:26:13Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-b0751d2e43ca",
+        "category": "ram",
+        "mpn": "CMN16GX4M2Z3200C16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/corsair-vengeance-rgb-rt-ddr4-3200-mhz-16-go-2-x-8-go-cl16",
+            "checkedAt": "2026-11-10T09:33:49Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-f9fdd78ae88c",
+        "category": "ram",
+        "mpn": "AX5U6000C3032G-SLABBK",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-carte-mere-adata-xpg-lancer-blade-ddr5-6000-mhz-32-go-cl30-noir",
+            "checkedAt": "2026-11-10T09:26:49Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "EXPO/XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "EXPO/XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profils",
+            "sourceValue": "INTEL XMP (version 3.0), AMD EXPO"
+          },
+          {
+            "field": "memoryProfile",
+            "value": "EXPO/XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profils",
+            "sourceValue": "INTEL XMP (version 3.0), AMD EXPO"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-e932b83b6b01",
+        "category": "ram",
+        "mpn": "KF432C16RB12/16",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-kingston-fury-renegade-ddr4-noir-3200-mhz-16-go-cl16",
+            "checkedAt": "2026-11-10T09:26:53Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Module XMP d'Intel®",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ram-f4b69e56140d",
+        "category": "ram",
+        "mpn": "F5-6000J3636F16GX2-TZ5K",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6000-mhz-32-go-2x16-go-cl36",
+            "checkedAt": "2026-11-10T09:33:50Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "memoryProfile": "XMP"
+        },
+        "evidence": [
+          {
+            "field": "memoryProfile",
+            "value": "XMP",
+            "group": "Caractéristiques PcComponentes",
+            "label": "Profil de mémoire Intel® Extreme (XMP)",
+            "sourceValue": "Oui"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-66cfea72bd0a",
+        "category": "storage",
+        "mpn": "LNQ790X001T-RNNNG",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-disque-ssd-lexar-nq790-1-to-7-000-mo-s-nvme-pcie-4-0-m-2-gen4",
+            "checkedAt": "2026-11-10T09:29:25Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.45
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,45 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,45 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.45,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,45 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-678c05d278b5",
+        "category": "storage",
+        "mpn": "SLEG-860-2000GCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-860-sleg-860-2000gcs-disque-ssd-2-to-m-2-pci-express-4-0-nvme-3d-nand",
+            "checkedAt": "2026-11-10T09:43:31Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 3.13
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 3.13,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 3,13 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-6c1113df22d3",
+        "category": "storage",
+        "mpn": "CSSD-F2000GBMP600PXT",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-corsair-mp600-pro-xt-ssd-2-to-gen4-pcie-x4-nvme-m-2",
+            "checkedAt": "2026-11-10T09:28:35Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 23,
+          "heightMm": 19
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23 mm · Profondeur: 80 mm · Hauteur: 19 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 23,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23 mm · Profondeur: 80 mm · Hauteur: 19 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 19,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23 mm · Profondeur: 80 mm · Hauteur: 19 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-025b07fbf95a",
+        "category": "storage",
+        "mpn": "ALEG-960M-1TCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-1000-go-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:28:52Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.6,
+          "widthMm": 23.2,
+          "heightMm": 10.7
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 23.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 10.7,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-37f44667aafa",
+        "category": "storage",
+        "mpn": "SLEG-900-512GCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-900-colorbox-512-go-ssd-pcie-gen-4",
+            "checkedAt": "2026-11-10T09:29:31Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.05
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 2,05 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 2,05 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.05,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 22 mm · Profondeur: 80 mm · Hauteur: 2,05 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-cc68a9e7c2f1",
+        "category": "storage",
+        "mpn": "ALEG-960M-1TCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-1000-go-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:28:52Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.6,
+          "widthMm": 23.2,
+          "heightMm": 10.7
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 23.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 10.7,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-65e1fde226d8",
+        "category": "storage",
+        "mpn": "SP01KGBP44XS7005",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-silicon-power-xs70-m-2-1000-go-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:29:27Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 24.6,
+          "heightMm": 10.8
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 24,6 mm · Profondeur: 80 mm · Hauteur: 10,8 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 24.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 24,6 mm · Profondeur: 80 mm · Hauteur: 10,8 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 10.8,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 24,6 mm · Profondeur: 80 mm · Hauteur: 10,8 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-c1b3e0fcc739",
+        "category": "storage",
+        "mpn": "S78-440L1D0-P83",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-msi-spatium-m461-ssd-1-to-nvme-m-2-gen4x4",
+            "checkedAt": "2026-11-10T09:43:33Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80,
+          "widthMm": 22,
+          "heightMm": 2.15
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,15 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 22,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,15 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 2.15,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 80 mm · Profondeur: 22 mm · Hauteur: 2,15 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-fd531c07a9db",
+        "category": "storage",
+        "mpn": "ALEG-960M-4TCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-4-to-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:43:50Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.6,
+          "widthMm": 23.2,
+          "heightMm": 10.7
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 23.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 10.7,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-ssd-a41ba62a3664",
+        "category": "storage",
+        "mpn": "ALEG-960M-4TCS",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-4-to-pci-express-4-0-3d-nand-nvme",
+            "checkedAt": "2026-11-10T09:43:50Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "lengthMm": 80.6,
+          "widthMm": 23.2,
+          "heightMm": 10.7
+        },
+        "evidence": [
+          {
+            "field": "lengthMm",
+            "value": 80.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 23.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 10.7,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 23,2 mm · Profondeur: 80,6 mm · Hauteur: 10,7 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-136df777b30c",
+        "category": "gpu",
+        "mpn": "GV-N5090WF3OC-32GD",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-gigabyte-geforce-rtx-5090-windforce-oc-32-go-gddr7-reflex-2-rtx-ai-dlss4",
+            "checkedAt": "2026-11-10T09:44:52Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "recommendedPsuW": 1000,
+          "thicknessMm": 65,
+          "heightMm": 150
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 1000,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimum supportée",
+            "sourceValue": "1000 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 65,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 342 mm · Profondeur: 65 mm · Hauteur: 150 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 342 mm · Profondeur: 65 mm · Hauteur: 150 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-51453ff87c78",
+        "category": "gpu",
+        "mpn": "ZT-B50900B-10P",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-zotac-gaming-geforce-rtx-5090-amp-extreme-infinity-32-go-gddr7-reflex-2-rtx-ai-dlss4",
+            "checkedAt": "2026-11-10T09:30:44Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "fanSizeMm": 100,
+          "recommendedPsuW": 1000,
+          "powerW": 600,
+          "thicknessMm": 69.6,
+          "heightMm": 137.5
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 Ventilateur(s)"
+          },
+          {
+            "field": "fanSizeMm",
+            "value": 100,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "10 cm"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 1000,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "1 000 W"
+          },
+          {
+            "field": "powerW",
+            "value": 600,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation électrique (max)",
+            "sourceValue": "600 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 69.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 332,1 mm · Profondeur: 69,6 mm · Hauteur: 137,5 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 137.5,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 332,1 mm · Profondeur: 69,6 mm · Hauteur: 137,5 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-3ad8d960c072",
+        "category": "gpu",
+        "mpn": "ZT-A30610H-10MLHR",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/zotac-gaming-geforce-rtx-3060-ti-twin-edge-oc-lhr-8-go-gddr6",
+            "checkedAt": "2026-11-10T09:30:00Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 650,
+          "powerW": 200,
+          "thicknessMm": 38.2,
+          "heightMm": 115.6
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 650,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "650 W"
+          },
+          {
+            "field": "powerW",
+            "value": 200,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation d'énergie",
+            "sourceValue": "200 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 38.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 222,1 mm · Hauteur: 115,6 mm · Largeur: 38,2 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 115.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 222,1 mm · Hauteur: 115,6 mm · Largeur: 38,2 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-e4555e51530f",
+        "category": "gpu",
+        "mpn": "NE75090S19R5-GB2020G",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-palit-geforce-rtx-5090-gamerock-oc-32-go-gddr7-reflex-2-rtx-ai-dlss4",
+            "checkedAt": "2026-11-10T09:30:46Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "recommendedPsuW": 1000,
+          "powerW": 600,
+          "thicknessMm": 70.4,
+          "heightMm": 150
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 Ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 1000,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "1 000 W"
+          },
+          {
+            "field": "powerW",
+            "value": 600,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation électrique (max)",
+            "sourceValue": "600 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 70.4,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 331,9 mm · Profondeur: 70,4 mm · Hauteur: 150 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur: 331,9 mm · Profondeur: 70,4 mm · Hauteur: 150 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-3249dc8ebba1",
+        "category": "gpu",
+        "mpn": "ZT-A30610H-10MLHR",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/zotac-gaming-geforce-rtx-3060-ti-twin-edge-oc-lhr-8-go-gddr6",
+            "checkedAt": "2026-11-10T09:30:00Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 650,
+          "powerW": 200,
+          "thicknessMm": 38.2,
+          "heightMm": 115.6
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 650,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "650 W"
+          },
+          {
+            "field": "powerW",
+            "value": 200,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation d'énergie",
+            "sourceValue": "200 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 38.2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 222,1 mm · Hauteur: 115,6 mm · Largeur: 38,2 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 115.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Profondeur: 222,1 mm · Hauteur: 115,6 mm · Largeur: 38,2 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-cad23268683d",
+        "category": "gpu",
+        "mpn": "NE75090S19R5-GB2020P",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-gainward-geforce-rtx-5090-phantom-gs",
+            "checkedAt": "2026-11-10T09:46:32Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "thicknessMm": 69.9,
+          "heightMm": 145.6
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 ventilateur(s)"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 69.9,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 331,9 mm · Profondeur: 69,9 mm · Hauteur: 145,6 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 145.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 331,9 mm · Profondeur: 69,9 mm · Hauteur: 145,6 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-25c05d58bfbb",
+        "category": "gpu",
+        "mpn": "GV-N3090TURBO-24GD",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-geforce-rtx-3090-turbo-24-go-gddr6x",
+            "checkedAt": "2026-11-10T09:30:41Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 1,
+          "recommendedPsuW": 750
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 750,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "750 W"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-e2fbd9598349",
+        "category": "gpu",
+        "mpn": "NE75090S19R5-GB2020P",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-gainward-geforce-rtx-5090-phantom-gs",
+            "checkedAt": "2026-11-10T09:46:32Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 3,
+          "thicknessMm": 69.9,
+          "heightMm": 145.6
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "3 ventilateur(s)"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 69.9,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 331,9 mm · Profondeur: 69,9 mm · Hauteur: 145,6 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 145.6,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 331,9 mm · Profondeur: 69,9 mm · Hauteur: 145,6 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-c8d44f8e285c",
+        "category": "gpu",
+        "mpn": "ZT-A30610H-10MLHR",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/zotac-gaming-geforce-rtx-3060-ti-twin-edge-oc-lhr-8-go-gddr6",
+            "checkedAt": "2026-11-10T09:30:00Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 650,
+          "powerW": 200
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 650,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimale du système",
+            "sourceValue": "650 W"
+          },
+          {
+            "field": "powerW",
+            "value": 200,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Consommation d'énergie",
+            "sourceValue": "200 W"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-gpu-f08fba7c8e52",
+        "category": "gpu",
+        "mpn": "NE7506TT19P1-GB2062B",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-graphique-gainward-geforce-rtx-5060-ti-ghost-oc-nvidia-8-go-gddr7",
+            "checkedAt": "2026-11-10T09:31:12Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 2,
+          "recommendedPsuW": 600,
+          "thicknessMm": 40.1,
+          "heightMm": 126.3
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 2,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "2 ventilateur(s)"
+          },
+          {
+            "field": "recommendedPsuW",
+            "value": 600,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Alimentation minimum supportée",
+            "sourceValue": "600 W"
+          },
+          {
+            "field": "thicknessMm",
+            "value": 40.1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 262,1 mm · Profondeur: 40,1 mm · Hauteur: 126,3 mm"
+          },
+          {
+            "field": "heightMm",
+            "value": 126.3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Longueur du produit: 262,1 mm · Profondeur: 40,1 mm · Hauteur: 126,3 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-a41853ff94ef",
+        "category": "motherboard",
+        "mpn": "9MB85EL7-00-G10",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-b850-aorus-elite-wifi7",
+            "checkedAt": "2026-11-10T09:52:15Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-b9cafbb40c19",
+        "category": "motherboard",
+        "mpn": "9MX87GX7-00-G10",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/gigabyte-x870-gaming-x-wifi7-carte-mere-amd-x870-emplacement-am5-atx",
+            "checkedAt": "2026-11-10T09:52:17Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-b7ab2dae4f2d",
+        "category": "motherboard",
+        "mpn": "9MB85GLE-00-G10",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/carte-mere-gigabyte-b850-atx-am5-b850-eagle-ice-8-plus-2-plus-2-phases-ddr5-pcie-5-0-lan-2-5gbe",
+            "checkedAt": "2026-11-10T09:53:05Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "maxMemoryPerSlotGB": 64,
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "maxMemoryPerSlotGB",
+            "value": 64,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Mémoire interne maximale par emplacement",
+            "sourceValue": "64 Go"
+          },
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-481b745d3d17",
+        "category": "motherboard",
+        "mpn": "90MB1LZ0-M0EAY0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/asus-x870-max-gaming-wifi7-w-pcie-5-0",
+            "checkedAt": "2026-11-10T09:52:43Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "m2Slots": 3
+        },
+        "evidence": [
+          {
+            "field": "m2Slots",
+            "value": 3,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "3"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-mb-fcc33592f0ce",
+        "category": "motherboard",
+        "mpn": "911-7C96-001",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/msi-a520m-a-pro",
+            "checkedAt": "2026-11-10T09:32:03Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "m2Slots": 1
+        },
+        "evidence": [
+          {
+            "field": "m2Slots",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre d'emplacements M.2 (M)",
+            "sourceValue": "1"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-96f28a7f2861",
+        "category": "psu",
+        "mpn": "306-7ZP9B11-CE0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-carte-mere-msi-mag-a1000gl-pcie5",
+            "checkedAt": "2026-11-10T09:57:03Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 135,
+          "fanCount": 1
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 135,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "13,5 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-236867823d29",
+        "category": "psu",
+        "mpn": "PS-SPD-0750MNFABE-3",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-semi-modulaire-thermaltake-smart-bm3-750w-80-bronze",
+            "checkedAt": "2026-11-10T09:57:04Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-2be5c9ba113a",
+        "category": "psu",
+        "mpn": "306-7ZP7C11-CE0",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-msi-mpg-a1000g-pcie5-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:32:33Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 135,
+          "fanCount": 1
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 135,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "13,5 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-3f738cbd0207",
+        "category": "psu",
+        "mpn": "90YE00W4-B0NA00",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1000p-gaming-white-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-blanc",
+            "checkedAt": "2026-11-10T09:46:13Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 160 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 160 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 160 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-1340230865fc",
+        "category": "psu",
+        "mpn": "PS-TPD-0850FNFAPE-3",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
+            "checkedAt": "2026-11-10T09:57:53Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-a21832774532",
+        "category": "psu",
+        "mpn": "90YE00P0-B0NA00",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-strix-1200w-gold-aura-edition-unite-d-alimentation-d-energie-20-plus-4-pin-atx-noir",
+            "checkedAt": "2026-11-10T09:57:52Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 135,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 180
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 135,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "13,5 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 180 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 180 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 180,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 180 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-9c4f029a33c1",
+        "category": "psu",
+        "mpn": "GP-UD1300GM PG5",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-atx-1300w-gigabyte-ud1300gm-pg5",
+            "checkedAt": "2026-11-10T09:57:28Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 160
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 160 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 160 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 160,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 160 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-983bfd87af7a",
+        "category": "psu",
+        "mpn": "GP-UD850GM PG5",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-gigabyte-gp-ud850gm-pg5-unite-d-alimentation-d-energie-850-w-20-plus-4-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:57:23Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 85,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 85,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 85 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 85 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 85 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-a79f6ee475a6",
+        "category": "psu",
+        "mpn": "GP-UD1600PM PG5 EU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-gigabyte-ud1600pm-pg5-ai-top-unite-d-alimentation-d-energie-1600-w-20-plus-4-pin-atx-noir",
+            "checkedAt": "2026-11-10T09:58:14Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 190
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 190 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 190 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 190,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 190 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-bfc0aa423b0c",
+        "category": "psu",
+        "mpn": "PS-TPD-0850FNFAPE-3",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-tough-power-pf3-850w-80-platine",
+            "checkedAt": "2026-11-10T09:57:53Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 140 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-bf6490eb1171",
+        "category": "psu",
+        "mpn": "PS-TPD-1200FNFAGE-H",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-thermaltake-toughpower-gf-a3-unite-d-alimentation-d-energie-1200-w-24-pin-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:57:49Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-f79ad3abab9b",
+        "category": "psu",
+        "mpn": "90YE00V3-B0NA00",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-asus-rog-thor-1000p3-gaming-atx-3-1-1000w-80-plus-platine",
+            "checkedAt": "2026-11-10T09:57:26Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 190
+        },
+        "evidence": [
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 190 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 190 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 190,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 190 mm · Profondeur: 150 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-60b2418bdbec",
+        "category": "psu",
+        "mpn": "PS-SPD-0550NNFABE-3",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-thermaltake-smart-bx3-550w-80-or",
+            "checkedAt": "2026-11-10T09:57:24Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-2a3f6bdc6d93",
+        "category": "psu",
+        "mpn": "MPW-7001-ACBN-BEU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:58:40Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-773c1429b141",
+        "category": "psu",
+        "mpn": "MPW-7001-ACBN-BEU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-700-bloc-d-alimentation-700-w-24-broches-atx-atx-noir",
+            "checkedAt": "2026-11-10T09:58:40Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-b861866775d5",
+        "category": "psu",
+        "mpn": "MPW-6001-ACBN-BEU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+            "checkedAt": "2026-11-10T09:58:23Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      },
+      {
+        "id": "import-psu-91d9929724e2",
+        "category": "psu",
+        "mpn": "MPW-6001-ACBN-BEU",
+        "sources": [
+          {
+            "name": "PcComponentes",
+            "url": "https://www.pccomponentes.fr/alimentation-pc-cooler-master-elite-nex-230v-600-bloc-d-alimentation-600-w-24-broches-atx-noir",
+            "checkedAt": "2026-11-10T09:58:23Z",
+            "kind": "retailer"
+          }
+        ],
+        "patch": {
+          "fanSizeMm": 120,
+          "fanCount": 1,
+          "heightMm": 86,
+          "widthMm": 150,
+          "depthMm": 140
+        },
+        "evidence": [
+          {
+            "field": "fanSizeMm",
+            "value": 120,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Diamètre du ventilateur",
+            "sourceValue": "12 cm"
+          },
+          {
+            "field": "fanCount",
+            "value": 1,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Nombre de ventilateurs",
+            "sourceValue": "1 ventilateur(s)"
+          },
+          {
+            "field": "heightMm",
+            "value": 86,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "widthMm",
+            "value": 150,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          },
+          {
+            "field": "depthMm",
+            "value": 140,
+            "group": "Caractéristiques PcComponentes",
+            "label": "Dimensions produit — axes normalisés",
+            "sourceValue": "Largeur: 150 mm · Profondeur: 140 mm · Hauteur: 86 mm"
+          }
+        ],
+        "conflicts": []
+      }
+    ]
+  },
+  "recommendations": [
+    "Do not treat a completed search as a completed technical record: track identity, field-level evidence, offers and visual reference separately.",
+    "Persist manufacturer MPN/GTIN with aliases; only share fields between exact same-MPN IDs after conflicting capacity, kit, finish and revision checks. Do not merge by family name.",
+    "Cross-store discovery should start with manufacturer MPN, then exact product page. Mixed colours such as white/grey describe a single physical design, not necessarily multiple variants; manufacturer imagery can resolve these current automatic false negatives.",
+    "Continue each pending SKU with manufacturer page/manual and then seller offers until either documented or a specific missing discriminator is recorded; two loosely-ranked search candidates are not an exhaustive review.",
+    "Fill compatibility fields from explicit category-specific labels and units. Text-only technical groups do not feed the compatibility engine.",
+    "Replace the opaque detailLevel flag with the list of missing fields relevant to the selected build; complete dimensions do not validate price, BIOS, QVL or a precise radiator assembly.",
+    "Keep GPU TBP separate from recommended system PSU and CPU TDP separate from electrical budget. Keep SPD/VPP distinct from tested RAM voltage and on-die ECC distinct from host ECC.",
+    "Build shared visual geometry for manufacturer chassis/family, then use per-SKU dimensions, fan count, finish and photographic landmarks. Reuse shapes only when visual evidence confirms shared hardware."
+  ]
+}

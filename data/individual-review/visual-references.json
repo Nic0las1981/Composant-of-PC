@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-10",
+  "method": "Model-specific SVG and 3D reconstructions from inspected product photographs. All coordinates and unsourced fine geometry are illustration only; never transferred to compatibility fields.",
+  "profiles": [
+    {
+      "ids": [
+        "import-mb-fd057324a4a8"
+      ],
+      "design": "steel-legend-b850",
+      "inspectedPhoto": "https://img.pccomponentes.com/articles/1088/10888285/1141-placa-base-asrock-b850-amd-b850-am5-atx-steel-legend-wifi-ddr5-pcie-50-raid.jpg",
+      "dimensions": "305 × 244 mm manufacturer",
+      "observed": "White/light grey PCB, white angular I/O cover, upper VRM sink, four black DIMM sockets, two reinforced PCIe sockets, M.2 shields below socket and across bottom, RGB strip below lower shield."
+    },
+    {
+      "ids": [
+        "import-gpu-a682aa002297",
+        "import-gpu-a12582346528"
+      ],
+      "design": "steel-legend-rx9060xt",
+      "inspectedPhoto": "https://img.pccomponentes.com/articles/1090/10901288/1873-tarjeta-grafica-asrock-radeon-rx-9060-xt-steel-legend-16gb-gddr6-oc.jpg",
+      "dimensions": "298 × 131 × 51 mm manufacturer for both 8 GB and 16 GB",
+      "approximateFields": {
+        "fanSizeMm": "90 mm display estimate from proportions, not a manufacturer diameter"
+      },
+      "observed": "16 GB reference photograph used for the shared external chassis, never for capacity or price. White/silver angular shroud, three translucent ARGB fans, central ASRock hub, Steel Legend side illumination, dark fin stack, 8-pin connector. Backplate: diamond/silver markings and open grille at distal half, inspected by scene agent.",
+      "inspectedBackplatePhotoBySceneAgent": "https://img.pccomponentes.com/articles/1090/10901288/6197-tarjeta-grafica-asrock-radeon-rx-9060-xt-steel-legend-16gb-gddr6-oc-opiniones.jpg"
+    },
+    {
+      "ids": [
+        "import-ram-8b162aa67690"
+      ],
+      "design": "crucial-pro-overclocking",
+      "inspectedPhoto": "https://media.ldlc.com/r1600/ld/products/00/06/26/51/LD0006265190.jpg",
+      "manufacturerPhoto": "https://assets.micron.com/adobe/assets/urn:aaid:aem:057d854f-aaa8-42df-a6a8-4c782e5fc5ed/renditions/transformpng-1500-1500.png/as/crucial-ddr5-pro-overclocking-white-kit-dynamic-right-view.png",
+      "approximateFields": {
+        "heightMm": "35 mm approximate reconstruction, independent reviews measure 34.9–35 mm; no manufacturer dimension claimed",
+        "lengthMm": "133 mm nominal UDIMM display envelope, not a measured heatspreader length",
+        "thicknessMm": "8 mm display envelope estimated from photograph; not manufacturer data"
+      },
+      "measurementSources": [
+        "https://pcinq.com/crucial-pro-overclocking-ddr5-6000-32gb-kit-review",
+        "https://www.tomshardware.com/pc-components/ram/crucial-pro-overclocking-ddr5-6000-c36-2x16gb-review"
+      ],
+      "observed": "Two white modules with continuous faceted aluminium heatspreaders, shallow triangular ends, grey central Crucial branding, black PCB and gold edge contacts, no lighting."
+    },
+    {
+      "ids": [
+        "import-ssd-8a91162ac077",
+        "import-ssd-af0ab1572ccd",
+        "import-ssd-40f0be19dbba"
+      ],
+      "design": "samsung-9100-pro",
+      "inspectedPhoto": "https://media.ldlc.com/r1600/ld/products/00/06/22/81/LD0006228158.jpg",
+      "dimensions": "80.15 × 22.15 × 2.38 mm manufacturer for bare 1, 2 and 4 TB",
+      "manufacturerSource": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_9100_PRO_Datasheet_Rev.2.0.pdf",
+      "observed": "Bare black M.2 PCB, long black front label, white Samsung/9100 and red PRO lettering, two large NAND packages towards mounting end, silver controller near connector. No heatsink borrowed from other variant. The confirmed common bare enclosure is shared across independently identified 1/2/4 TB models; chip-package details remain illustrative, never a capacity claim."
+    },
+    {
+      "ids": [
+        "import-psu-3f7709be66e0",
+        "import-psu-01e3e8ba588f",
+        "import-psu-a92896f7672c"
+      ],
+      "design": "power-zone-2",
+      "inspectedPhoto": "https://www.bequiet.com/admin/ImageServer.php?ID=56154a60093@be-quiet.net&omitPreview=true&.jpg",
+      "dimensions": "160 × 150 × 86 mm enclosure; 140 mm fan manufacturer for 750, 850 and 1000 W",
+      "manufacturerSource": "https://www.bequiet.com/fr/powersupply/5583",
+      "observed": "Matte black rectangular enclosure with squared mesh over fan, grey POWER ZONE 2 stripe, black side specification label and modular connector panel. Connectors drawn schematically; not a cable pinout. Manufacturer confirms the shared external dimensions for all three wattages; each uses its own power label and technical record.",
+      "manufacturerSources": [
+        "https://www.bequiet.com/fr/powersupply/5583",
+        "https://www.bequiet.com/fr/powersupply/5584",
+        "https://www.bequiet.com/fr/powersupply/5585"
+      ]
+    }
+  ]
+}

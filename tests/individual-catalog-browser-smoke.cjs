@@ -1,0 +1,13 @@
+const {chromium}=require('playwright');
+const {execFileSync}=require('node:child_process');
+const assert=require('node:assert/strict');
+const {openCatalogProductDetail}=require('./catalog-test-helpers.cjs');
+const targets=JSON.parse(execFileSync(process.execPath,['--import','tsx','--input-type=module','-e',`
+import{getComponent,categories}from './src/data/catalog.ts';import{getVisualProfile}from './src/data/visualProfiles.ts';
+console.log(JSON.stringify(['import-mb-fd057324a4a8','import-gpu-a682aa002297','import-ram-8b162aa67690','import-ssd-8a91162ac077','import-psu-3f7709be66e0'].map(id=>{const c=getComponent(id);return{id,name:c.name,mpn:c.manufacturerPartNumber,label:categories.find(v=>v.id===c.category).label,design:getVisualProfile(c).design}})));
+`],{encoding:'utf8'}));
+(async()=>{const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});const errors=[];try{
+for(const width of [1440,390]){const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'});await context.route('https://raw.githubusercontent.com/**',r=>r.abort());const page=await context.newPage();page.setDefaultTimeout(45000);page.on('pageerror',e=>errors.push(e.message));await page.goto(process.env.FORGE_TEST_URL||'http://127.0.0.1:4173/',{waitUntil:'domcontentloaded'});await page.getByRole('heading',{name:'Votre PC. Vos règles.',exact:true}).waitFor();
+for(const target of targets){await page.getByRole('button',{name:'Choisir '+target.label,exact:true}).click();await openCatalogProductDetail(page,target.name);const dialog=page.getByRole('dialog');assert.equal(await dialog.locator('.cp-detail-art svg').getAttribute('data-model-design'),target.design);const review=page.getByRole('region',{name:'État du contrôle de la référence',exact:true});assert.equal(await review.getAttribute('data-control-status'),'individual_review');assert.ok((await review.textContent()).includes(target.mpn));const source=page.getByRole('region',{name:'Références et offres vérifiées',exact:true});assert.ok((await source.textContent()).includes(target.mpn));if(target.id.includes('gpu')){assert.match(await review.textContent(),/puissance de référence/);assert.equal(await source.getByText('Retenu dans le budget',{exact:true}).count(),0);}assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.keyboard.press('Escape');}
+console.log('PASS five individual sheets, sourced MPN, specific icons, unavailable GPU, responsive '+width+'px');await context.close();}
+assert.deepEqual(errors,[]);}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

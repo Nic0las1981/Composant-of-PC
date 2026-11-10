@@ -325,7 +325,9 @@ function Assembly({
       ]
     : [
         boardPosition[0] + ((gpu?.heightMm || 134) * MM) / 2 + 0.035,
-        boardPosition[1] - board.heightMm * MM * 0.28,
+        board.design === "steel-legend-b850"
+          ? boardPosition[1] - board.heightMm * MM * .13 - (gpu?.thicknessMm ?? 51) * MM * .6
+          : boardPosition[1] - board.heightMm * MM * 0.28,
         -d / 2 + 0.18 + ((gpu?.lengthMm || 267) * MM) / 2,
       ];
   const psuPosition: V3 = sandwich
@@ -752,6 +754,11 @@ export default function PcScene(props: PcSceneProps) {
       data-case-id={props.components.case?.id || ""}
       data-gpu-model={gpu?.id || ""}
       data-gpu-fans={gpu?.fanCount || 0}
+      data-gpu-design={gpu?.design || "general"}
+      data-board-design={getBoardProfile(props.components.motherboard)?.design || "general"}
+      data-ram-design={ramModules.map(module => module.profile.design || "general").join(",")}
+      data-storage-design={getStorageProfile(props.components.storage)?.design || "general"}
+      data-psu-design={getPsuProfile(props.components.psu)?.design || "general"}
       data-cooler-model={cooler?.kind || ""}
       data-hover-category={hover?.category || ""}
       data-hover-slot={hover?.slotLabel || ""}

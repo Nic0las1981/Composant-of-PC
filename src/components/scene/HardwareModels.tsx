@@ -22,6 +22,8 @@ import {
   type BoxInstance,
 } from "./HardwarePrimitives";
 
+import {CrucialHeatspreader, Samsung9100Surface, SteelLegendBoardDetails, SteelLegendGpuShroud, PowerZoneGrille} from "./IndividualHardwareDetails";
+
 type Vec3 = [number, number, number];
 type Props<T> = { component: Component; profile: T };
 
@@ -95,7 +97,7 @@ export function getBoardAnchors(profile: BoardVisualProfile): {
       h * (profile.formFactor === "Mini-ITX" ? 0.07 : 0.12),
       w * 0.32,
     ],
-    storage: [0.045, -h * 0.2, -w * 0.05],
+    storage: profile.design === "steel-legend-b850" ? [0.08, -h * 0.04, -w * 0.12] : [0.045, -h * 0.2, -w * 0.05],
   };
 }
 
@@ -211,6 +213,7 @@ export function MotherboardModel({
   const h = profile.heightMm * MM,
     w = profile.widthMm * MM;
   const anchors = getBoardAnchors(profile);
+  const steelLegend = profile.design === "steel-legend-b850";
   const bits = useMemo<BoxInstance[]>(() => {
     const list: BoxInstance[] = [];
     for (let i = 0; i < 10; i++)
@@ -234,12 +237,13 @@ export function MotherboardModel({
       });
     return list;
   }, [h, w]);
-  const pcieCount =
+  const pcieCount = steelLegend ? 2 :
     profile.formFactor === "Mini-ITX"
       ? 1
       : profile.formFactor === "Micro-ATX"
         ? 2
         : 3;
+  const pcieY = (slot: number) => steelLegend ? -h * (slot === 0 ? 0.13 : 0.425) : -h * 0.16 - slot * 0.27;
   const traces = useMemo<BoxInstance[]>(
     () =>
       Array.from({ length: 5 }, (_, i) => ({
@@ -273,7 +277,7 @@ export function MotherboardModel({
       }));
     }).flat(),
     ...Array.from({ length: pcieCount }, (_, slot) => Array.from({ length: 31 }, (_, pin) => ({
-      position: [0.084, -h * 0.16 - slot * 0.27, -w * 0.345 + pin * w * 0.016] as Vec3,
+      position: [0.084, pcieY(slot), -w * 0.345 + pin * w * 0.016] as Vec3,
       size: [0.003, 0.014, 0.007] as Vec3,
     }))).flat(),
   ], [profile, pcieCount, h, w]);
@@ -315,7 +319,7 @@ export function MotherboardModel({
         </group>)}
       </group>
       <HardwareLabel
-        text={component.brand.toUpperCase()}
+        text={steelLegend ? "ASRock" : component.brand.toUpperCase()}
         position={[0.167, h * 0.33, -w * 0.4]}
         width={w * 0.12}
         height={h * 0.12}
@@ -364,7 +368,7 @@ export function MotherboardModel({
         </group>
       ))}
       {Array.from({ length: pcieCount }, (_, i) => (
-        <group key={i} position={[0.047, -h * 0.16 - i * 0.27, -w * 0.1]}>
+        <group key={i} position={[0.047, pcieY(i), -w * 0.1]}>
           <MetalBox
             size={[0.06, 0.055, w * 0.57]}
             color={i === 0 ? "#8a9296" : "#282e32"}
@@ -394,7 +398,8 @@ export function MotherboardModel({
         size={[0.12, 0.36, 0.072]}
         color="#171a1f"
       />
-      {profile.rgb && (component.brand === "ASUS" ?
+      {steelLegend && <SteelLegendBoardDetails profile={profile} />}
+      {profile.rgb && !steelLegend && (component.brand === "ASUS" ?
         <RGBStrip position={[0.175, h * 0.31, -w * 0.405]} size={[h * 0.2, 0.025, 0.018]} rotation={[0, 0, Math.PI / 2]} phase={0.45} /> :
         <RGBStrip position={[0.14, -h * 0.43, w * 0.29]} size={[w * 0.21, 0.022, 0.014]} rotation={[0, Math.PI / 2, 0]} phase={0.45} />)}
       <mesh position={[0.055, -h * 0.29, -w * 0.32]} rotation={[0, 0, Math.PI / 2]}>
@@ -423,7 +428,19 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
     shape.lineTo(l / 2, w / 2 - edge); shape.lineTo(l / 2 - edge, w / 2);
     shape.lineTo(-l / 2 + edge, w / 2); shape.lineTo(-l / 2, w / 2 - edge);
     shape.lineTo(-l / 2, -w / 2 + edge); shape.closePath();
-    if (profile.fanLayout === "flow-through") {
+    if (profile.design === "steel-legend-rx9060xt") {
+      const openings = [
+        [[-.46,-.38],[-.15,-.38],[-.29,-.08],[-.46,-.08]],
+        [[-.46,-.01],[-.34,-.01],[-.20,.30],[-.46,.30]],
+        [[-.30,-.01],[-.14,-.32],[-.14,.12],[-.19,.20]],
+        [[-.44,.36],[-.18,.36],[-.13,.22],[-.27,.22]],
+      ];
+      for (const points of openings) {
+        const opening = new THREE.Path();
+        points.forEach(([x,y],index) => index ? opening.lineTo(x*l,y*w) : opening.moveTo(x*l,y*w));
+        opening.closePath(); shape.holes.push(opening);
+      }
+    } else if (profile.fanLayout === "flow-through") {
       const radius = Math.min(profile.fanSizeMm * MM * 0.48, w * 0.44, l / (profile.fanCount * 2) * 0.95);
       const opening = new THREE.Path();
       opening.absarc(-(l / 2 - radius - 0.04), 0, radius * 0.93, 0, Math.PI * 2, true);
@@ -442,7 +459,7 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
     for (let i = 0; i < uv.count; i++) uv.setXY(i, position.getX(i) / l + 0.5, position.getY(i) / w + 0.5);
     uv.needsUpdate = true;
     return result;
-  }, [profile.lengthMm, profile.heightMm, profile.fanLayout, profile.fanSizeMm, profile.fanCount]);
+  }, [profile.lengthMm, profile.heightMm, profile.fanLayout, profile.fanSizeMm, profile.fanCount, profile.design]);
   useEffect(() => () => geometry.dispose(), [geometry]);
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
@@ -455,6 +472,14 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
       c.fillStyle = y % 9 === 0 ? "#ffffff05" : "#00000006";
       c.fillRect(0, y, 1024, 1);
     }
+    if (profile.design === "steel-legend-rx9060xt") {
+      c.strokeStyle="#b8bfbd"; c.lineWidth=12;
+      c.beginPath(); c.moveTo(30,35);c.lineTo(475,35);c.lineTo(580,120);c.lineTo(920,120);c.lineTo(1000,50);c.stroke();
+      c.beginPath();c.moveTo(25,470);c.lineTo(450,470);c.lineTo(570,390);c.lineTo(930,390);c.stroke();
+      c.lineWidth=17;c.beginPath();c.moveTo(530,175);c.lineTo(610,255);c.lineTo(530,335);c.lineTo(450,255);c.closePath();c.stroke();
+      c.fillStyle="#a1aaa8";c.font="700 40px Arial";c.fillText("AMD RADEON",720,260,280);
+      c.font="500 24px Arial";c.fillText("ASRock",310,470,150);
+    } else {
     c.strokeStyle = "#a5b2b56b";
     c.lineWidth = 3;
     c.strokeRect(16, 16, 992, 480);
@@ -466,11 +491,12 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
     c.fillStyle = "#9ba7ab";
     c.font = "500 21px Arial";
     c.fillText(component.name, 100, 292, 680);
+    }
     const map = new THREE.CanvasTexture(canvas);
     map.colorSpace = THREE.SRGBColorSpace;
     map.anisotropy = 4;
     return map;
-  }, [component.name, component.brand, profile.backplateColor]);
+  }, [component.name, component.brand, profile.backplateColor, profile.design]);
   useEffect(() => () => texture.dispose(), [texture]);
   return (
     <mesh
@@ -488,6 +514,7 @@ function GpuBackplate({ component, profile }: Props<GpuVisualProfile>) {
 }
 
 export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
+  const steelLegend = profile.design === "steel-legend-rx9060xt";
   const length = profile.lengthMm * MM,
     width = profile.heightMm * MM,
     height = profile.thicknessMm * MM;
@@ -512,8 +539,8 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
   const faceRails = useMemo<BoxInstance[]>(() => [
     ...[-1, 1].map(side => ({ position: [side * width * 0.46, -height * 0.43, 0] as Vec3,
       size: [width * 0.08, height * 0.17, length] as Vec3 })),
-    ...Array.from({ length: profile.fanCount + 1 }, (_, i) => ({
-      position: [0, -height * 0.43, -length * 0.47 + i * length * 0.94 / profile.fanCount] as Vec3,
+    ...Array.from({ length: Math.max(1, profile.fanCount) + 1 }, (_, i) => ({
+      position: [0, -height * 0.43, -length * 0.47 + i * length * 0.94 / Math.max(1, profile.fanCount)] as Vec3,
       size: [width * 0.88, height * 0.17, Math.min(length * 0.035, 0.09)] as Vec3,
     })),
   ], [width, height, length, profile.fanCount]);
@@ -554,7 +581,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
       <GpuBackplate component={component} profile={profile} />
       <Fasteners positions={screws} axis="y" radius={0.016} color="#818a8b" />
       <BoxInstances items={sideRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />
-      <BoxInstances items={faceRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />
+      {steelLegend ? <SteelLegendGpuShroud profile={profile} /> : <BoxInstances items={faceRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />}
       <MetalBox
         position={[width * 0.49, 0, 0]}
         size={[0.035, height * 0.3, length * 0.67]}
@@ -583,6 +610,7 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
             0,
           ]}
           color={metal}
+          bladeColor={steelLegend ? "#d5e9e3" : undefined}
           rgb={profile.rgb && profile.fanRgb === true}
           hubLabel={
             component.brand === "Sapphire"
@@ -591,18 +619,18 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
                 ? "ASUS"
                 : component.brand === "MSI"
                   ? "MSI"
-                  : "G"
+                  : component.brand === "ASRock" ? "ASRock" : "G"
           }
         />
       ))}
       <HardwareLabel
         text={label}
-        position={[width * 0.515, 0, -length * 0.04]}
-        width={length * 0.59}
+        position={[width * 0.515, steelLegend ? height * 0.16 : 0, steelLegend ? length * 0.32 : -length * 0.04]}
+        width={length * (steelLegend ? 0.25 : 0.59)}
         height={Math.min(0.14, height * 0.43)}
-        color={profile.rgb ? profile.accent : "#d4d7d9"}
+        color={steelLegend ? "#58676b" : profile.rgb ? profile.accent : "#d4d7d9"}
       />
-      {profile.rgb && (
+      {profile.rgb && !steelLegend && (
         <RGBStrip
           position={[width * 0.512, -height * 0.31, component.brand === "ASUS" ? -length * 0.32 : -length * 0.1]}
           size={[length * (component.brand === "ASUS" ? 0.17 : 0.62), 0.022, 0.015]}
@@ -626,12 +654,13 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
       />
       <BoxInstances items={bracket} color="#22282b" />
       <MetalBox
-        position={[width * 0.18, height * 0.55, -length * 0.21]}
+        position={[width * (steelLegend ? .43 : .18), height * (steelLegend ? .35 : .55), -length * (steelLegend ? .02 : .21)]}
         size={[0.19, 0.095, 0.16]}
         color="#14191c"
         metalness={0.1}
       />
-      <MetalBox position={[width * 0.18, height * 0.603, -length * 0.21]} size={[0.155, 0.013, 0.125]} color="#080c0e" roughness={0.85} metalness={0.05} />
+      <MetalBox position={[width * (steelLegend ? .43 : .18), height * (steelLegend ? .403 : .603), -length * (steelLegend ? .02 : .21)]} size={[0.155, 0.013, 0.125]} color="#080c0e" roughness={0.85} metalness={0.05} />
+      {steelLegend && <BoxInstances items={Array.from({length:8},(_,pin)=>({position:[width*.43+(Math.floor(pin/2)-1.5)*.031,height*.414,-length*.02+(pin%2-.5)*.044] as Vec3,size:[.022,.004,.027] as Vec3}))} color="#667174" metalness={.5}/>}
       {[0, 1, 2].map((port) => <group key={port} position={[width * (0.25 - port * 0.24), -height * 0.12, -length * 0.528]}>
         <MetalBox size={[width * 0.17, height * 0.22, 0.019]} color="#202729" metalness={0.15} />
         <MetalBox position={[0, 0, -0.011]} size={[width * 0.12, height * 0.075, 0.008]} color="#b4ab80" metalness={0.75} />
@@ -785,6 +814,7 @@ export function RamModel({
     t = profile.thicknessMm * MM;
   const count = singleModule ? 1 : Math.max(1, profile.sticks);
   const capacity = moduleCapacityGB ?? (component.capacityGB && component.memorySticks ? component.capacityGB / component.memorySticks : undefined);
+  const crucialPro = profile.design === "crucial-pro-overclocking";
   const documentedBare = profile.hasHeatspreader === false;
   const bareModule = documentedBare || (profile.hasHeatspreader === undefined
     && !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name));
@@ -860,12 +890,13 @@ export function RamModel({
           <BoxInstances items={chips} color="#161d21" roughness={0.76} metalness={0.08} />
           {bareModule && <><BoxInstances items={surfaceParts} color="#a89976" metalness={0.25} roughness={0.6} />
             <BoxInstances items={packageMarks} color="#68716c" metalness={0.05} roughness={0.8} /></>}
-          {!bareModule && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
+          {crucialPro && <CrucialHeatspreader profile={profile} />}
+          {!bareModule && !crucialPro && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
           <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
-          {!bareModule && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
+          {!bareModule && !crucialPro && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
           {rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
-            !bareModule && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />}
-          {!bareModule && <HardwareLabel
+            !bareModule && !crucialPro && <MetalBox position={[h * 0.47, 0, 0]} size={[0.022, l * 0.91, t * 0.94]} color={profile.heatspreaderColor} roughness={0.45} />}
+          {!bareModule && !crucialPro && <HardwareLabel
             text={component.brand.toUpperCase()}
             position={[h * (profile.rgb ? 0.534 : 0.503), 0, 0]}
             rotation={[0, Math.PI / 2, Math.PI / 2]}
@@ -873,7 +904,7 @@ export function RamModel({
             height={0.075}
             color={profile.rgb ? "#334b47" : "#b6bdc0"}
           />}
-          <HardwareLabel
+          {!crucialPro && <HardwareLabel
             text={documentedBare ? [component.brand.toUpperCase(), details.partNumber].filter(Boolean).join(" ") : family.toUpperCase()}
             subtext={documentedBare ? moduleLabel : [component.memoryType, capacityText].filter(Boolean).join(" · ")}
             position={[h * 0.04, 0, bareModule ? Math.min(0.019, t * 0.4) : t * 0.527]}
@@ -882,7 +913,7 @@ export function RamModel({
             height={h * 0.31}
             color={documentedBare ? "#263632" : bareModule ? "#d4dec9" : "#aeb9ba"}
             background={documentedBare ? "#f2f3e9" : bareModule ? "#24382a" : undefined}
-          />
+          />}
         </group>;
       })}
     </group>
@@ -949,6 +980,7 @@ export function StorageModel({
   component,
   profile,
 }: Props<StorageVisualProfile>) {
+  const samsung9100 = profile.design === "samsung-9100-pro" && !profile.hasHeatsink;
   const w = profile.widthMm * MM,
     l = profile.lengthMm * MM,
     h = profile.heightMm * MM;
@@ -971,7 +1003,7 @@ export function StorageModel({
         roughness={0.7}
         metalness={0.2}
       />
-      {profile.hasHeatsink ? (
+      {samsung9100 ? <Samsung9100Surface profile={profile} /> : profile.hasHeatsink ? (
         <>
           <MetalBox
             position={[-h * 0.1, 0, -l * 0.04]}
@@ -993,14 +1025,14 @@ export function StorageModel({
         </>
       )}
       <BoxInstances items={contactFingers} color="#c2a45b" roughness={0.3} />
-      <HardwareLabel
+      {!samsung9100 && <HardwareLabel
         text={component.brand.toUpperCase()}
         subtext={component.name}
         position={[surfaceX, 0, -l * 0.14]}
         width={l * 0.6}
         height={w * 0.7}
         color="#e2e4e3"
-      />
+      />}
       <mesh position={[0.012, 0, -l * 0.46]} rotation={[0, Math.PI / 2, 0]}>
         <ringGeometry args={[0.012, 0.026, 16]} />
         <meshStandardMaterial color="#9b9990" metalness={0.7} />
@@ -1010,6 +1042,7 @@ export function StorageModel({
 }
 
 export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
+  const powerZone = profile.design === "power-zone-2";
   const w = profile.widthMm * MM,
     h = profile.heightMm * MM,
     d = profile.depthMm * MM;
@@ -1033,9 +1066,9 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
           -h * 0.19 + Math.floor(i / 4) * h * 0.39,
           d * 0.509,
         ],
-        size: [w * 0.15, h * 0.24, 0.026],
+        size: [w * (powerZone && i === 7 ? 0.21 : powerZone && i > 4 ? 0.12 : 0.15), h * (powerZone && i < 2 ? 0.18 : 0.24), 0.026],
       })),
-    [w, h, d, knownModular, semiModular],
+    [w, h, d, knownModular, semiModular, powerZone],
   );
   const fixedBundles = useMemo<Vec3[][]>(() => Array.from({ length: 4 }, (_, i) => [
     [-w * 0.32 + i * 0.026, -h * 0.3, d * 0.51],
@@ -1045,14 +1078,22 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   ] as Vec3[]), [w, h, d]);
   return (
     <group>
-      <MetalBox size={[w, h, d]} color={profile.color} roughness={0.39} />
+      {powerZone ? <group name="power-zone-2-open-shell">
+        <MetalBox position={[0,-h*.49,0]} size={[w,.02,d]} color={profile.color} roughness={.55}/>
+        {[-1,1].map(side=><group key={side}>
+          <MetalBox position={[side*w*.49,0,0]} size={[.02,h,d]} color={profile.color} roughness={.55}/>
+          <MetalBox position={[0,0,side*d*.49]} size={[w,h,.02]} color={profile.color} roughness={.55}/>
+          <MetalBox position={[side*w*.465,h*.495,0]} size={[w*.07,.015,d]} color={profile.color}/>
+          <MetalBox position={[0,h*.495,side*d*.465]} size={[w,.015,d*.07]} color={profile.color}/>
+        </group>)}
+      </group> : <MetalBox size={[w, h, d]} color={profile.color} roughness={0.39} />}
       <group position={[0, h * 0.505, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 1, 0.12]}>
         <HardwareFan
           radius={Math.min(profile.fanSizeMm * MM * 0.45, w * 0.42, d * 0.42)}
           color="#15191c"
         />
       </group>
-      <BoxInstances items={grille} color="#5e6368" metalness={0.7} />
+      {powerZone ? <PowerZoneGrille profile={profile}/> : <BoxInstances items={grille} color="#5e6368" metalness={0.7} />}
       <MetalBox
         position={[w * 0.504, 0, 0]}
         size={[0.008, h * 0.72, d * 0.77]}
@@ -1069,6 +1110,9 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
         color="#c4c7c6"
       />
       {plugs.length > 0 && <BoxInstances items={plugs} color="#070b0d" finish="plastic" metalness={0.05} />}
+      {powerZone && plugs.map((plug,index)=><group key={index} name="power-zone-modular-socket" position={plug.position}>
+        <BoxInstances items={Array.from({length:index === 7 ? 18 : index < 2 ? 5 : 8},(_,pin)=>({position:[(Math.floor(pin/2)-(index===7?4:index<2?1:1.5))*.025,(pin%2-.5)*.026,.015] as Vec3,size:[.015,.018,.007] as Vec3}))} color="#5e6566" roughness={.55}/>
+      </group>)}
       {(fixedWiring || semiModular) && <>
         <MetalBox position={[-w * 0.28, -h * 0.3, d * 0.507]} size={[w * 0.19, h * 0.16, 0.025]} color="#141a1c" finish="plastic" metalness={0.02} roughness={0.85} />
         {fixedBundles.map((points, i) => <Tube key={i} points={points} radius={0.016} color="#20282c" finish="plastic" />)}

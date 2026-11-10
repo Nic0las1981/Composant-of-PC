@@ -1,25 +1,26 @@
 {
-  "generatedAt": "2026-11-10T10:03:03.227Z",
+  "generatedAt": "2026-11-10T10:39:13.452Z",
   "variants": 10564,
-  "reviewedReferences": 435,
+  "reviewedReferences": 425,
   "datedOffers": 458,
-  "referencesWithEligibleOffer": 328,
-  "historicalOffers": 87,
-  "manufacturerCheckedReferences": 26,
+  "referencesWithEligibleOffer": 316,
+  "historicalOffers": 88,
+  "manufacturerCheckedReferences": 53,
   "individualControl": {
-    "generatedAt": "2026-11-10T10:02:59.491493+00:00",
+    "generatedAt": "2026-11-10T10:39:05.598563+00:00",
     "total": 10564,
     "searched": 10564,
     "pending": 0,
     "statuses": {
-      "primary_match": 348,
+      "primary_match": 312,
       "search_unreadable": 74,
-      "no_exact_match": 10114,
-      "ambiguous_variants": 14,
-      "conflicting_reference": 13,
+      "no_exact_match": 10122,
+      "ambiguous_variants": 13,
+      "candidate_pending_review": 34,
+      "conflicting_reference": 8,
       "access_failed": 1
     },
-    "additionalPrimaryRecords": 273,
+    "additionalPrimaryRecords": 237,
     "amazon": {
       "searched": 60,
       "mpnObservedPages": 36,
@@ -293,7 +294,7 @@
       "name": "FOCUS GX-750",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "ambiguous_variants",
       "originalSource": null
     },
     {
@@ -316,14 +317,6 @@
       "id": "import-ram-23d5bd7fb588",
       "name": "Vengeance RGB 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir",
       "brand": "Corsair",
-      "category": "ram",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
-    },
-    {
-      "id": "import-ram-58c3e94a3f4e",
-      "name": "Pro Overclocking 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir",
-      "brand": "Crucial",
       "category": "ram",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
@@ -505,14 +498,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
-      "id": "import-ram-e9b342e3f3c5",
-      "name": "Pro Overclocking 16 Go (1 × 16 Go) DDR5-6000 CL36 · Noir",
-      "brand": "Crucial",
-      "category": "ram",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
-    },
-    {
       "id": "import-ram-21b86202a653",
       "name": "T-Force Vulcan Z 8 Go (1 × 8 Go) DDR4-3200 CL16 · Noir",
       "brand": "TeamGroup",
@@ -612,14 +597,6 @@
       "id": "import-ram-0862d9fd96c3",
       "name": "T-Create Expert 32 Go (2 × 16 Go) DDR5-6000 CL30 · Blanc",
       "brand": "TeamGroup",
-      "category": "ram",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
-    },
-    {
-      "id": "import-ram-8b162aa67690",
-      "name": "Pro Overclocking 32 Go (2 × 16 Go) DDR5-6000 CL36 · Blanc",
-      "brand": "Crucial",
       "category": "ram",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
@@ -796,14 +773,6 @@
       "id": "import-ram-493e78fe363f",
       "name": "XPG GAMMIX D10 8 Go (1 × 8 Go) DDR4-3200 CL16 · Noir",
       "brand": "ADATA",
-      "category": "ram",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
-    },
-    {
-      "id": "import-ram-7db0c2b525fd",
-      "name": "Pro Overclocking 16 Go (1 × 16 Go) DDR5-6000 CL36 · Blanc",
-      "brand": "Crucial",
       "category": "ram",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
@@ -1417,14 +1386,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
-      "id": "import-ram-3348a1bc60b5",
-      "name": "Pro Overclocking 64 Go (2 × 32 Go) DDR5-6400 CL40 · Noir",
-      "brand": "Crucial",
-      "category": "ram",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
-    },
-    {
       "id": "import-ram-062be4d8192d",
       "name": "Viper Elite 5 RGB 32 Go (2 × 16 Go) DDR5-6000 CL30 · Blanc",
       "brand": "Patriot",
@@ -1829,7 +1790,7 @@
       "name": "Viper Elite II 32 Go (2 × 16 Go) DDR4-3200 CL18 · Rouge / Noir",
       "brand": "Patriot",
       "category": "ram",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
@@ -3469,7 +3430,7 @@
       "name": "FURY Renegade 48 Go (1 × 48 Go) DDR5-6000 CL32 · Argent / Noir",
       "brand": "Kingston",
       "category": "ram",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
@@ -3633,14 +3594,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
     },
     {
-      "id": "import-ssd-40f0be19dbba",
-      "name": "9100 PRO 4 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
       "id": "import-ssd-16175b31bb50",
       "name": "CRAS C910 1 To · PCIe 4.0 ×4",
       "brand": "Klevv",
@@ -3660,14 +3613,6 @@
       "id": "import-ssd-fce4564cace1",
       "name": "WD_Black SN850X 8 To · PCIe 4.0 ×4",
       "brand": "Western Digital",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
-      "id": "import-ssd-8a91162ac077",
-      "name": "9100 PRO 2 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
       "category": "storage",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
@@ -3878,14 +3823,6 @@
       "brand": "Sabrent",
       "category": "storage",
       "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
-      "id": "import-ssd-68a791765862",
-      "name": "9100 PRO 8 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
-      "category": "storage",
-      "status": "ambiguous_variants",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
     },
     {
@@ -5044,14 +4981,6 @@
       "id": "import-ssd-ed01111e3d51",
       "name": "Rocket 4 Plus G 4 To · PCIe 4.0 ×4",
       "brand": "Sabrent",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
-      "id": "import-ssd-20d71b94902f",
-      "name": "9100 PRO w/Heatsink 8 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
       "category": "storage",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
@@ -9289,6 +9218,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
     },
     {
+      "id": "import-psu-a59c760d52e4",
+      "name": "MAG A650GL · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "MSI",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-00a7d0a38cdd",
       "name": "MWE Gold 850 - V2 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "Cooler Master",
@@ -9325,13 +9262,21 @@
       "name": "ROG THOR 1600T Gaming · 1600 W · ATX · 80 PLUS Titanium · Entièrement modulaire · Argent / Noir",
       "brand": "ASUS",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
       "id": "import-psu-58e755e29d61",
       "name": "RM850 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc / Noir",
       "brand": "Corsair",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-170191d8a62f",
+      "name": "Smart · 600 W · ATX · 80 PLUS · Câbles fixes",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -9373,7 +9318,7 @@
       "name": "V850 SFX GOLD · 850 W · SFX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "Cooler Master",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -9449,6 +9394,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-bd1a77678c4e",
+      "name": "Smart · 700 W · ATX · 80 PLUS · Câbles fixes",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-96868ff4a7ec",
       "name": "TUF Gaming 1000G · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "ASUS",
@@ -9493,7 +9446,7 @@
       "name": "MPG A850G PCIE5 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "MSI",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -9593,14 +9546,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
-      "id": "import-psu-a92896f7672c",
-      "name": "Power Zone 2 · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
       "id": "import-psu-5c9e09114893",
       "name": "Pure Power 11 · 400 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
       "brand": "be quiet!",
@@ -9613,7 +9558,7 @@
       "name": "P450B · 450 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -9893,7 +9838,7 @@
       "name": "MWE Bronze V2 · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Cooler Master",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -9973,7 +9918,7 @@
       "name": "TUF Gaming 650B · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "ASUS",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -10004,6 +9949,14 @@
       "id": "import-psu-02721dc715c2",
       "name": "Leadex III Gold UP · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "Super Flower",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-477902e370e5",
+      "name": "PL750D · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "brand": "DeepCool",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -12309,7 +12262,7 @@
       "name": "FURY Renegade 96 Go (2 × 48 Go) DDR5-6400 CL32 · Argent / Noir",
       "brand": "Kingston",
       "category": "ram",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
@@ -16989,7 +16942,7 @@
       "name": "Aegis 8 Go (2 × 4 Go) DDR4-2133 CL15 · Noir / Rouge",
       "brand": "G.Skill",
       "category": "ram",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/memory.json"
     },
     {
@@ -36473,14 +36426,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
     },
     {
-      "id": "import-ssd-f649264ac77b",
-      "name": "9100 PRO w/Heatsink 4 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
       "id": "import-ssd-35717bc5b23a",
       "name": "T705 1 To · PCIe 5.0 ×4",
       "brand": "Crucial",
@@ -36548,14 +36493,6 @@
       "id": "import-ssd-a5cc5c3d6571",
       "name": "T-FORCE G70 PRO Graphene 2 To · PCIe 4.0 ×4",
       "brand": "TeamGroup",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
-      "id": "import-ssd-75da0010ebfd",
-      "name": "9100 PRO w/Heatsink 2 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
       "category": "storage",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
@@ -36708,14 +36645,6 @@
       "id": "import-ssd-4ad2fe67a772",
       "name": "MP600 ELITE 1 To · PCIe 4.0 ×4",
       "brand": "Corsair",
-      "category": "storage",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
-    },
-    {
-      "id": "import-ssd-2540e1a7589f",
-      "name": "9100 PRO w/Heatsink 1 To · PCIe 5.0 ×4",
-      "brand": "Samsung",
       "category": "storage",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/internal-hard-drive.json"
@@ -40297,14 +40226,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/video-card.json"
     },
     {
-      "id": "import-gpu-a12582346528",
-      "name": "Steel Legend OC RX 9060 XT · 16 Go · Blanc / Gris · 298 mm",
-      "brand": "ASRock",
-      "category": "gpu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/video-card.json"
-    },
-    {
       "id": "import-gpu-baff7f257f68",
       "name": "GAMING OC RX 9060 XT · 8 Go · Noir · 281 mm",
       "brand": "Gigabyte",
@@ -41100,14 +41021,6 @@
       "id": "import-gpu-73caefb9f1b7",
       "name": "ARGB EPIC-X RGB OC RTX 5070 · 12 Go · Noir · 300 mm",
       "brand": "PNY",
-      "category": "gpu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/video-card.json"
-    },
-    {
-      "id": "import-gpu-a682aa002297",
-      "name": "Steel Legend OC RX 9060 XT · 8 Go · Blanc / Gris · 298 mm",
-      "brand": "ASRock",
       "category": "gpu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/video-card.json"
@@ -52637,7 +52550,7 @@
       "name": "TITAN OC Arc A750 · 8 Go · Bleu / Noir · 306 mm",
       "brand": "Sparkle",
       "category": "gpu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/video-card.json"
     },
     {
@@ -57225,14 +57138,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
     },
     {
-      "id": "import-mb-f97d16ba7ec7",
-      "name": "B650 GAMING X AX V2",
-      "brand": "Gigabyte",
-      "category": "motherboard",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
-    },
-    {
       "id": "import-mb-82e1fe8a5c55",
       "name": "ROG STRIX X870-A GAMING WIFI",
       "brand": "ASUS",
@@ -57377,14 +57282,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
     },
     {
-      "id": "import-mb-f98c4e920c3e",
-      "name": "MAG X870E TOMAHAWK WIFI",
-      "brand": "MSI",
-      "category": "motherboard",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
-    },
-    {
       "id": "import-mb-6a30fcfdd15b",
       "name": "X870 Pro RS WiFi",
       "brand": "ASRock",
@@ -57395,14 +57292,6 @@
     {
       "id": "import-mb-fd3a4a854786",
       "name": "B850M AORUS ELITE WIFI6E ICE",
-      "brand": "Gigabyte",
-      "category": "motherboard",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
-    },
-    {
-      "id": "import-mb-9aee885ce2d1",
-      "name": "X870 AORUS ELITE WIFI7",
       "brand": "Gigabyte",
       "category": "motherboard",
       "status": "no_exact_match",
@@ -57628,14 +57517,6 @@
       "id": "import-mb-c6c1b540f386",
       "name": "B550 AORUS ELITE AX V2",
       "brand": "Gigabyte",
-      "category": "motherboard",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
-    },
-    {
-      "id": "import-mb-fd057324a4a8",
-      "name": "B850 Steel Legend WiFi",
-      "brand": "ASRock",
       "category": "motherboard",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/motherboard.json"
@@ -67933,7 +67814,7 @@
       "name": "1000 GQ · 1000 W · ATX · 80 PLUS Gold · Semi-modulaire",
       "brand": "EVGA",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68013,7 +67894,7 @@
       "name": "AORUS ELITE P850 · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68113,14 +67994,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
-      "id": "import-psu-f6b165c597a9",
-      "name": "Pure Power 13 M · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
       "id": "import-psu-49715064317f",
       "name": "Toughpower GT · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Beige",
       "brand": "Thermaltake",
@@ -68148,22 +68021,6 @@
       "id": "import-psu-9c3ca966eb11",
       "name": "MPG A850GS PCIE5 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "MSI",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
-      "id": "import-psu-3f7709be66e0",
-      "name": "Power Zone 2 · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
-      "id": "import-psu-01e3e8ba588f",
-      "name": "Power Zone 2 · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -68369,14 +68226,6 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
-      "id": "import-psu-6f42f2d8e160",
-      "name": "Pure Power 13 M · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
       "id": "import-psu-b3ff23bbe367",
       "name": "SuperNOVA 850 G3 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "EVGA",
@@ -68405,7 +68254,7 @@
       "name": "C1200 · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "NZXT",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68420,6 +68269,14 @@
       "id": "import-psu-5960772c86d7",
       "name": "V850 SFX GOLD · 850 W · SFX · 80 PLUS Gold · Entièrement modulaire · Blanc",
       "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-e11ee9db91b6",
+      "name": "HX1000 Platinum · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "brand": "Corsair",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -68445,7 +68302,7 @@
       "name": "CX750 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes",
       "brand": "Corsair",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68468,14 +68325,6 @@
       "id": "import-psu-00b4ba9a94ef",
       "name": "C850 (2024) · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc",
       "brand": "NZXT",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
-      "id": "import-psu-bd748fa8d566",
-      "name": "Pure Power 13 M · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -68677,7 +68526,7 @@
       "name": "P550B · 550 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68693,7 +68542,7 @@
       "name": "FOCUS Gold · 650 W · ATX · 80 PLUS Gold · Semi-modulaire",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "conflicting_reference",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68725,7 +68574,7 @@
       "name": "HX1000i · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
       "brand": "Corsair",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68757,7 +68606,7 @@
       "name": "P850GM · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68941,7 +68790,7 @@
       "name": "FOCUS PLUS 850 Gold · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "ambiguous_variants",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -68965,7 +68814,7 @@
       "name": "TR2 S · 600 W · ATX · 80 PLUS · Câbles fixes · Noir",
       "brand": "Thermaltake",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -69189,7 +69038,7 @@
       "name": "FOCUS Plus 750 Gold · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "ambiguous_variants",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -69365,20 +69214,12 @@
       "name": "MWE Bronze V2 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Cooler Master",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
       "id": "import-psu-a0baf34cf82c",
       "name": "System Power 10 · 850 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
-      "id": "import-psu-fbc7537b3ed1",
-      "name": "Pure Power 13 M · 550 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "be quiet!",
       "category": "psu",
       "status": "no_exact_match",
@@ -69489,6 +69330,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-3f738cbd0207",
+      "name": "ROG STRIX 1000P GAMING · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "brand": "ASUS",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-a9317c50094b",
       "name": "PF700 230V · 700 W · ATX · 80 PLUS · Câbles fixes · Noir",
       "brand": "DeepCool",
@@ -69509,7 +69358,7 @@
       "name": "Pure Power 12 · 550 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
       "brand": "be quiet!",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -69604,6 +69453,14 @@
       "id": "import-psu-dcb8d6875c7d",
       "name": "XPG KYBER · 750 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
       "brand": "ADATA",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-1340230865fc",
+      "name": "Toughpower PF3-L · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -69897,6 +69754,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-a21832774532",
+      "name": "ROG Strix Aura Edition · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "ASUS",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-6f0a7fc1341c",
       "name": "SuperNOVA 750 G5 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir / Vert",
       "brand": "EVGA",
@@ -69957,15 +69822,7 @@
       "name": "UD1000GM PG5 · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
-      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
-    },
-    {
-      "id": "import-psu-a3469b3b7281",
-      "name": "Pure Power 13 M · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
-      "brand": "be quiet!",
-      "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -70020,6 +69877,14 @@
       "id": "import-psu-0b55ec07e744",
       "name": "SuperNOVA 850 P2 · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
       "brand": "EVGA",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-368f4dd8bfe5",
+      "name": "REVOLUTION D.F. 2 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "Enermax",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -70197,7 +70062,7 @@
       "name": "HX1200i · 1200 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
       "brand": "Corsair",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "ambiguous_variants",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -70997,7 +70862,7 @@
       "name": "FOCUS · 650 W · ATX · 80 PLUS Gold · Semi-modulaire · Noir",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "conflicting_reference",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -71020,6 +70885,14 @@
       "id": "import-psu-dd6782d17116",
       "name": "TX850M Gold · 850 W · ATX · 80 PLUS Gold · Semi-modulaire",
       "brand": "Corsair",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-bcffdd504f97",
+      "name": "Litepower · 650 W · ATX · Câbles fixes",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -71124,6 +70997,14 @@
       "id": "import-psu-7e42f06d2330",
       "name": "AX860 · 860 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
       "brand": "Corsair",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-de94b44d0526",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc",
+      "brand": "Enermax",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -71577,6 +71458,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-ea4797e42dba",
+      "name": "Revolution D.F. 12 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "Enermax",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-fe14a33b8977",
       "name": "CSK · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir / Jaune",
       "brand": "Antec",
@@ -71717,7 +71606,7 @@
       "name": "Toughpower PF3 · 1050 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "Thermaltake",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -72037,13 +71926,21 @@
       "name": "Straight Power 11 1000W · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "be quiet!",
       "category": "psu",
-      "status": "conflicting_reference",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
       "id": "import-psu-92044a71b9af",
       "name": "G12 GC · 850 W · ATX · 80 PLUS Gold · Câbles fixes · Noir / Bleu",
       "brand": "Seasonic",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-253e0ee14556",
+      "name": "RM1000 · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "brand": "Corsair",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -72084,6 +71981,14 @@
       "id": "import-psu-13591a55eb26",
       "name": "Straight Power 11 · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "be quiet!",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-2851a25c3a9a",
+      "name": "Litepower · 550 W · ATX · Câbles fixes",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -72212,6 +72117,14 @@
       "id": "import-psu-05bc944f24b1",
       "name": "MWE White V2 230V · 750 W · ATX · 80 PLUS · Câbles fixes · Noir / Blanc",
       "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-6cbf00e12f4a",
+      "name": "FOCUS Plus Platinum · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "brand": "Seasonic",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -72537,6 +72450,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-21602e1ac1a9",
+      "name": "Revolution D.F. 12 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "Enermax",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-f0f128e3d7a5",
       "name": "Leadex Titanium · 1600 W · ATX · 80 PLUS Titanium · Entièrement modulaire · Noir",
       "brand": "Super Flower",
@@ -72637,7 +72558,7 @@
       "name": "PW400 · 400 W · ATX · 80 PLUS · Câbles fixes · Noir",
       "brand": "Gigabyte",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -72693,7 +72614,7 @@
       "name": "Straight Power 11 · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "be quiet!",
       "category": "psu",
-      "status": "conflicting_reference",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -72913,6 +72834,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-690a5429e7ae",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-ffd968fd9e66",
       "name": "G800 · 800 W · ATX · 80 PLUS · Câbles fixes",
       "brand": "Corsair",
@@ -72924,6 +72853,14 @@
       "id": "import-psu-d54670d6fafc",
       "name": "HX1050 · 1050 W · ATX · 80 PLUS Gold · Semi-modulaire",
       "brand": "Corsair",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-0f044264000e",
+      "name": "Revolution D.F. X · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "Enermax",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -73029,7 +72966,7 @@
       "name": "MWE GOLD 750 V2 · 750 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
       "brand": "Cooler Master",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -73201,6 +73138,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-bf6490eb1171",
+      "name": "Toughpower GF A3 ATX 3.0 · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-235d83e39651",
       "name": "CX450M (2021) · 450 W · ATX · 80 PLUS Bronze · Semi-modulaire · Noir",
       "brand": "Corsair",
@@ -73213,7 +73158,7 @@
       "name": "Smart · 750 W · ATX · 80 PLUS Bronze · Câbles fixes",
       "brand": "Thermaltake",
       "category": "psu",
-      "status": "ambiguous_variants",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -73292,6 +73237,14 @@
       "id": "import-psu-7061477df71b",
       "name": "Straight Power 11 · 650 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "be quiet!",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-b2043f515137",
+      "name": "X · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "brand": "Seasonic",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -73873,6 +73826,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-49931078b5f5",
+      "name": "Smart SE · 630 W · ATX · Semi-modulaire",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-f9a8a57fd7bb",
       "name": "TX550M · 550 W · ATX · 80 PLUS Bronze · Semi-modulaire",
       "brand": "Corsair",
@@ -73909,7 +73870,7 @@
       "name": "FOCUS · 650 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "Seasonic",
       "category": "psu",
-      "status": "conflicting_reference",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -74205,7 +74166,7 @@
       "name": "TR2 S · 650 W · ATX · 80 PLUS · Câbles fixes",
       "brand": "Thermaltake",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "ambiguous_variants",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -74245,7 +74206,7 @@
       "name": "MWE BRONZE 750 V3 · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Cooler Master",
       "category": "psu",
-      "status": "no_exact_match",
+      "status": "candidate_pending_review",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -74377,6 +74338,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-f79ad3abab9b",
+      "name": "ROG Thor P3 Gaming · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "brand": "ASUS",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-4e0e232469e8",
       "name": "DQ750M-V3L · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
       "brand": "DeepCool",
@@ -74388,6 +74357,14 @@
       "id": "import-psu-892f2e6720ff",
       "name": "X · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "Seasonic",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-60b2418bdbec",
+      "name": "Smart · 550 W · ATX · 80 PLUS Bronze · Câbles fixes",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -74556,6 +74533,14 @@
       "id": "import-psu-b255ec689857",
       "name": "XG750 Plus · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
       "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-f57a6adb660c",
+      "name": "G · 650 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "brand": "Seasonic",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -74748,6 +74733,14 @@
       "id": "import-psu-16a6c67d7826",
       "name": "GreenMax Plus · 550 W · ATX · 80 PLUS Bronze · Câbles fixes",
       "brand": "Gigabyte",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-2a3f6bdc6d93",
+      "name": "Elite NEX N700 230V · 700 W · ATX · Câbles fixes · Noir",
+      "brand": "Cooler Master",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -75173,7 +75166,7 @@
       "name": "Smart · 750 W · ATX · 80 PLUS Bronze · Semi-modulaire",
       "brand": "Thermaltake",
       "category": "psu",
-      "status": "ambiguous_variants",
+      "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
@@ -76361,6 +76354,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-de62431149a5",
+      "name": "REVOLUTION X't II · 750 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "brand": "Enermax",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-d6332c43e589",
       "name": "Leadex Titanium · 850 W · ATX · 80 PLUS Titanium · Entièrement modulaire · Noir",
       "brand": "Super Flower",
@@ -76548,6 +76549,14 @@
       "id": "import-psu-aa1c9c280a73",
       "name": "System Power U9 · 700 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "be quiet!",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-343ecd8ebd38",
+      "name": "FOCUS Plus Platinum · 650 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "brand": "Seasonic",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -76924,6 +76933,14 @@
       "id": "import-psu-686ec99660c3",
       "name": "NeoECO Classic · 550 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
       "brand": "Antec",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-773c1429b141",
+      "name": "Elite NEX N700 · 700 W · ATX · Câbles fixes · Noir",
+      "brand": "Cooler Master",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -77473,8 +77490,24 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-2168004617b4",
+      "name": "Platinum · 1200 W · ATX · 80 PLUS Platinum · Entièrement modulaire",
+      "brand": "Seasonic",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-23a1ac380ea8",
       "name": "Elite NEX N500 230V · 500 W · ATX · Câbles fixes · Noir",
+      "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-b861866775d5",
+      "name": "Elite NEX N600 · 600 W · ATX · Câbles fixes · Noir",
       "brand": "Cooler Master",
       "category": "psu",
       "status": "no_exact_match",
@@ -79009,6 +79042,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-97bf9a69042d",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS · Câbles fixes",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-2dff35ae146b",
       "name": "NeoECO 550 Gold · 550 W · ATX · 80 PLUS Gold · Semi-modulaire · Noir",
       "brand": "Antec",
@@ -79172,6 +79213,14 @@
       "id": "import-psu-a513eec7c803",
       "name": "HALE82N 650W · 650 W · ATX · 80 PLUS Bronze · Câbles fixes",
       "brand": "NZXT",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-91c81b0bffcd",
+      "name": "Toughpower · 750 W · ATX · 80 PLUS Gold · Câbles fixes",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -79348,6 +79397,14 @@
       "id": "import-psu-f28d9ce7b9f8",
       "name": "Leadex Gold · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
       "brand": "Super Flower",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-866bd9ded250",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Gold · Semi-modulaire",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
@@ -79563,6 +79620,14 @@
     {
       "id": "import-psu-9782c4543a04",
       "name": "Toughpower XT · 575 W · ATX · 80 PLUS Bronze · Entièrement modulaire",
+      "brand": "Thermaltake",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-8c4a5ac00448",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Bronze · Entièrement modulaire",
       "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
@@ -79809,6 +79874,14 @@
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
     },
     {
+      "id": "import-psu-91d9929724e2",
+      "name": "Elite NEX N600 230V · 600 W · ATX · Câbles fixes · Noir",
+      "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
       "id": "import-psu-289980c51b4c",
       "name": "Elite NEX White W700 · 700 W · ATX · 80 PLUS · Câbles fixes · Noir",
       "brand": "Cooler Master",
@@ -79940,6 +80013,14 @@
       "id": "import-psu-716e1c553036",
       "name": "GXII · 550 W · ATX · 80 PLUS Bronze · Câbles fixes",
       "brand": "Cooler Master",
+      "category": "psu",
+      "status": "no_exact_match",
+      "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"
+    },
+    {
+      "id": "import-psu-f64e7fc82981",
+      "name": "Toughpower · 1000 W · ATX · 80 PLUS Silver · Semi-modulaire",
+      "brand": "Thermaltake",
       "category": "psu",
       "status": "no_exact_match",
       "originalSource": "https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/data/json/power-supply.json"

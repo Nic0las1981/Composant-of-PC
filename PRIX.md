@@ -1,5 +1,7 @@
 # Prix : estimations, signalements publics et archives
 
+La [revue individuelle et visuelle du catalogue](docs/INDIVIDUAL-REVIEW.md) corrige les fiches, les correspondances ambiguës et les icônes/modèles 3D. Les comptes antérieurs ci-dessous sont des bilans datés.
+
 Le site distingue les relevés directs, les signalements publics, les estimations et les archives. Aucun achat n’est effectué sur FORGE.
 
 ## Relevés directs du 10 novembre 2026

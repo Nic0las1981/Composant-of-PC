@@ -1,5 +1,7 @@
 # Contrôle de toutes les variantes — 10 novembre 2026
 
+La [revue individuelle et visuelle du catalogue](INDIVIDUAL-REVIEW.md) corrige les fiches, les correspondances ambiguës et les icônes/modèles 3D. Les comptes antérieurs ci-dessous sont des bilans datés.
+
 <!-- COUNTS:START -->
 - **10 564 variantes recherchées sur 10 564**  aucune recherche en attente.
 - **435 références documentées par des pages primaires** : 162 dossiers manuels conservés et 273 nouveaux dossiers marchands.

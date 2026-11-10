@@ -93,6 +93,21 @@ def number(text_value):
     try:return float(str(text_value).replace(',','.'))
     except (ValueError,TypeError):return None
 
+def candidate_score(c,candidate):
+    """Rank discovery only; this never establishes identity or an offer."""
+    title=candidate.get('name','');normalized=norm(title)
+    score=sum(token in normalized for token in re.findall(r'[a-z0-9]{2,}',query(c).lower()))
+    capacity=c.get('capacityGB') or (c.get('originalRecord') or {}).get('memory')
+    if capacity and c['category'] in ['storage','gpu','ram']:
+        observed={float(value.replace(',','.'))*(1000 if unit.lower() in ['tb','to'] else 1) for value,unit in re.findall(r'\b(\d+(?:[.,]\d+)?)\s*(GB|Go|TB|To)\b',title,re.I)}
+        kits={(int(count),int(size)) for count,size in re.findall(r'\b(\d+)\s*[x×]\s*(\d+)\s*(?:GB|Go)\b',title,re.I)}
+        if c['category']=='ram':observed|={count*size for count,size in kits}
+        if observed:score+=25 if capacity in observed else -25
+        if c['category']=='ram' and c.get('memorySticks'):
+            expected=(c['memorySticks'],capacity/c['memorySticks'])
+            if kits:score+=15 if expected in kits else -15
+    return score
+
 def variant_match(c,p):
     """Conservative identity gate; a candidate is never silently substituted."""
     title=p.get('name','');description=text(p.get('description',''))
@@ -105,6 +120,11 @@ def variant_match(c,p):
     original=r.get('name') or c['brand']+' '+c['name']
     expected=re.sub(r'\s+\d+\s+GB$','',original)
     if category=='gpu':expected+=' '+r.get('chipset','')
+    # RAM product names use both the written form and the same OC abbreviation.
+    # This alias does not relax GPU factory-OC identity.
+    if category=='ram':
+        expected=re.sub(r'\boverclocking\b','OC',expected,flags=re.I)
+        tn=norm(re.sub(r'\boverclocking\b','OC',title,flags=re.I))
     # Every significant model word must exist in the primary title, not in an ad.
     words=re.findall(r'[a-z0-9]+',unicodedata.normalize('NFKD',expected).encode('ascii','ignore').decode().lower())
     ignored={'amd','nvidia','geforce','radeon','edition','series','western','digital','g','skill','sea','sonic'}
@@ -113,6 +133,35 @@ def variant_match(c,p):
     brand=norm(c['brand']);actual_brand=p.get('brand',{})
     actual_brand=actual_brand.get('name','') if isinstance(actual_brand,dict) else str(actual_brand)
     if brand not in norm(title+' '+actual_brand):return False,['Marque non confirmée']
+    if category=='psu':
+        # Generic families (Smart, FOCUS, Toughpower, X, G...) identify several
+        # generations. An anonymous archive row cannot select one by wattage.
+        model_text=re.sub(r'(?<=\w)\.(?=\w)','',expected)
+        title_text=re.sub(r'(?<=\w)\.(?=\w)','',title)
+        # PX-450 is one model discriminator; a 450 W quote on a PX-500 page
+        # cannot satisfy it. Keep letter-only suffixes such as PF3-L separate.
+        model_text=re.sub(r'(?<=[A-Za-z])-(?=\d)','',model_text)
+        title_text=re.sub(r'(?<=[A-Za-z])-(?=\d)','',title_text)
+        model_tokens=re.findall(r'\b[a-z0-9]+\b',model_text.lower())
+        title_tokens=set(re.findall(r'\b[a-z0-9]+\b',title_text.lower()))
+        model_ids=[word for word in model_tokens if any(ch.isdigit() for ch in word)]
+        if not model_ids:return False,['Gamme alimentation sans identifiant ou génération précise']
+        for identifier in model_ids:
+            alternatives={identifier,identifier+'w'} if identifier.isdigit() else {identifier}
+            if not alternatives & title_tokens:return False,['Identifiant alimentation différent : '+identifier]
+        if any(len(word)==1 and word.isalpha() and word not in title_tokens for word in model_tokens):return False,['Suffixe court alimentation absent du titre']
+        for suffix in ['shift','pg5','sfx','ice','dark','ii','iii','iv','s']:
+            if (suffix in model_tokens)!=(suffix in title_tokens):return False,['Révision alimentation différente : '+suffix]
+        if r.get('type')=='ATX' and re.search(r'\bSFX(?:-L)?\b',title,re.I):return False,['Format alimentation différent']
+        efficiency=str(r.get('efficiency') or '').lower()
+        tiers={'gold':'gold','or':'gold','platinum':'platinum','platine':'platinum','titanium':'titanium','titane':'titanium','bronze':'bronze','silver':'silver','argent':'silver'}
+        observed={tiers[tier.lower()] for tier in re.findall(r'80\s*(?:PLUS|\+)\s*(Gold|Or|Platinum|Platine|Titanium|Titane|Bronze|Silver|Argent)\b',whole,re.I)}
+        if efficiency and observed and observed!={efficiency}:return False,['Certification alimentation différente']
+        modular=r.get('modular')
+        modular_rows='\n'.join(line for line in str(p.get('technicalText','')).splitlines() if re.match(r'^\s*(?:Type de câblage|Modularité|Modulaire)\b',line,re.I))
+        cabling=title+'\n'+modular_rows
+        actual_modular='Semi' if re.search(r'\bsemi[ -]?modul',cabling,re.I) else 'No' if re.search(r'\bnon[ -]?modul|\bcâbles fixes\b',cabling,re.I) else 'Full' if re.search(r'\bmodul(?:aire|ar)',cabling,re.I) else None
+        if modular in ['Full','Semi','No'] and actual_modular and actual_modular!=modular:return False,['Modularité alimentation différente']
     if category=='gpu':
         chip_pattern=r'\b(RTX|GTX|GT|RX)\s*(\d{3,4})(?:\s*(Ti|Super|XTX|XT))?(?:\s*(Super))?'
         expected_chips={norm(''.join(parts)) for parts in re.findall(chip_pattern,str(r.get('chipset','')),re.I)}
@@ -129,6 +178,11 @@ def variant_match(c,p):
     for token in ['evo','neo','super','xtx','xt','ti','oc','rgb','max','wifi','ax','v2','ii','iii','sl','lpx','titanium','platinum','royal','pro','plus','se','le']:
         expect=bool(re.search(r'\b'+token+r'\b',expected,re.I))
         actual=bool(re.search(r'\b'+token+r'\b',title,re.I))
+        # In PSU titles, 80 PLUS/Cybenetics efficiency classes are attributes,
+        # not necessarily suffixes of the commercial model name.
+        if category=='psu' and not expect and actual:
+            if token=='plus' and re.search(r'\b80\s*PLUS\b',title,re.I):continue
+            if token in ['platinum','titanium'] and re.search(r'\b(?:80\s*(?:PLUS|\+)|Cybenetics)\s+'+token+r'\b',title,re.I):continue
         if expect!=actual and (category in ['motherboard','gpu'] or token in ['rgb','neo','sl','lpx','titanium','platinum','royal','pro','plus','se','le']):return False,['Suffixe de variante différent : '+token]
     if category=='psu' and re.search(r'\b20\d{2}\b',title) and not re.search(r'\b20\d{2}\b',expected):return False,['Révision annuelle absente de la ligne archivée']
     if category=='storage':
@@ -167,14 +221,14 @@ def variant_match(c,p):
     finish=(c.get('finishName') or '').lower()
     if finish:
         color_words={'noir':['noir','black'],'blanc':['blanc','white'],'argent':['argent','silver'],'gris':['gris','gray','grey'],'rouge':['rouge','red'],'bleu':['bleu','blue']}
-        expected_color=next((k for k in color_words if finish==k),None)
-        # Mixed or unspecified finishes must be resolved explicitly, not guessed.
-        if not expected_color:return False,['Finition multiple ou ambiguë à contrôler']
+        expected_colors=set(re.split(r'\s*[/,]\s*',finish))
+        if not expected_colors or not expected_colors<=color_words.keys():return False,['Finition multiple ou ambiguë à contrôler']
         title_colors={key for key,words in color_words.items() if any(re.search(r'\b'+w+r'\b',title,re.I) for w in words)}
-        if title_colors and title_colors!={expected_color}:return False,['Finition du titre différente ou multiple']
-        color_rows='\n'.join(line for line in str(p.get('technicalText','')).splitlines() if re.match(r'^\s*(?:Couleur|Coloris|Color)\b',line,re.I))
-        color_evidence=title if title_colors else color_rows
-        if not any(re.search(r'\b'+w+r'\b',color_evidence,re.I) for w in color_words[expected_color]):return False,['Finition non confirmée dans le titre ou la caractéristique couleur']
+        if title_colors-expected_colors:return False,['Finition du titre différente ou multiple']
+        color_rows='\n'.join(line for line in str(p.get('technicalText','')).splitlines() if re.match(r'^\s*(?:Couleur(?:\s+du\s+(?:produit|radiateur))?|Coloris|Color)\s*:?\s*(?:noir|black|blanc|white|argent|silver|gris|gr[ae]y|rouge|red|bleu|blue)\b',line,re.I))
+        row_colors={key for key,words in color_words.items() if any(re.search(r'\b'+w+r'\b',color_rows,re.I) for w in words)}
+        if title_colors!=expected_colors and row_colors!=expected_colors:return False,['Finition complète non confirmée dans le titre ou la caractéristique couleur']
+        if row_colors and row_colors!=expected_colors:return False,['Couleurs techniques contradictoires ou incomplètes']
     return True,['Modèle, caractéristiques discriminantes et finition concordants ; MPN relevé sur la page.']
 
 async def main(args):
@@ -224,11 +278,11 @@ async def main(args):
             result={'componentId':c['id'],'query':q,'searchedAt':response['checkedAt'],'searchURL':search_url,'httpStatus':response['httpStatus'],'searchSHA256':response.get('sha256'),'candidateCount':len(candidates),'status':'no_exact_match','primaryPages':[]}
             if response.get('error') or response['httpStatus']!=200:result['status']='access_failed';result['error']=response.get('error')
             elif not any(str(row.get('@type','')).lower()=='itemlist' for row in jsonld(response.get('html',''))):result['status']='search_unreadable'
-            # Inspect the primary pages of up to three closest title candidates.
+            # Inspect a bounded set of discovery candidates; capacity and kit
+            # matching affect ranking but still require the primary-page gate.
             scored=[]
             for candidate in candidates:
-                words=set(re.findall('[a-z0-9]+',norm(q)))
-                score=sum(token in norm(candidate.get('name','')) for token in re.findall(r'[a-z0-9]{2,}',q.lower()))
+                score=candidate_score(c,candidate)
                 scored.append((score,candidate))
             for _,candidate in sorted(scored,key=lambda row:row[0],reverse=True)[:args.candidates]:
                 url=candidate['url'];host=urlparse(url).hostname

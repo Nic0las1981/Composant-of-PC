@@ -1,3 +1,4 @@
+import {getMissingCompatibilityFields,hasPartialCompatibility} from './componentCoverage.ts';
 import { catalog, categories, getComponent } from "../data/catalog.ts";
 import type { CategoryId, Component, Selection } from "../data/catalog.ts";
 import { getReferencePrice } from "../data/pricing.ts";
@@ -109,10 +110,10 @@ function analyzeBuildInternal(
       recommendations.push({ id, title, description, category, componentId: safeComponentId });
   };
 
-  const partial = Object.values(selected).filter(component => component?.detailLevel === "partial");
+  const partial = Object.values(selected).filter((component): component is Component => !!component && hasPartialCompatibility(component));
   if (partial.length) add({
     id: "catalog-partial", severity: "warning", title: "Fiches techniques partielles",
-    description: `Certaines caractéristiques de ${partial.map(component => component!.name).join(", ")} ne sont pas renseignées. Les contrôles portent sur les données disponibles ; vérifiez les modèles exacts avant achat.`,
+    description: `Données à compléter : ${partial.map(component => `${component.name} (${getMissingCompatibilityFields(component).map(field => field.label).join(", ")})`).join(" ; ")}. Les contrôles utilisent les valeurs renseignées.`,
   });
   if (cpu && motherboard && (!cpu.socket || !motherboard.socket)) add({
     id: "socket-unknown", severity: "warning", title: "Socket à vérifier",

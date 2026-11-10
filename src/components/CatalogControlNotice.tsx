@@ -1,6 +1,8 @@
 import type {Component} from '../data/catalog.ts';
 import {catalogControlOutcomes} from '../data/catalogControl.ts';
 import {getVerifiedProduct} from '../lib/verifiedOffers.ts';
+import {individualProducts} from '../data/individualCatalog.ts';
+import {getMissingCompatibilityFields} from '../lib/componentCoverage.ts';
 
 const descriptions: Record<string,string> = {
   primary_match:'Une page produit correspond aux critères distinctifs de cette référence. Les sources et les offres admissibles sont indiquées ci-dessous.',
@@ -11,11 +13,21 @@ const descriptions: Record<string,string> = {
   access_failed:'La source n’a pas pu être consultée. Le prix et les caractéristiques non documentées restent à confirmer.',
   collector_error:'Le contrôle de cette référence doit être repris ; aucune nouvelle donnée n’est validée.',
   pending:'La recherche individuelle de cette variante est encore en cours.',
+  candidate_pending_review:'Une nouvelle page candidate a été trouvée. Sa référence et ses caractéristiques doivent être revues individuellement avant de retenir son prix.',
 };
 export default function CatalogControlNotice({component}:{component:Component}) {
   const control=catalogControlOutcomes[component.id];
   if (!control) return null;
   const verified=getVerifiedProduct(component);
+  const individual=individualProducts[component.id];
+  if(individual){
+    const missing=getMissingCompatibilityFields(component);
+    return <section className="cp-control-notice" aria-label="État du contrôle de la référence" data-control-status="individual_review">
+      <strong>Fiche revue individuellement · {individual.mpn}</strong>
+      <p>Les caractéristiques confirmées ci-dessous alimentent les contrôles de compatibilité.</p>
+      {missing.length>0?<p>À confirmer : {missing.map(field=>field.label).join(', ')}.</p>:<p>Les champs nécessaires aux contrôles de ce composant sont renseignés. Les contraintes de montage de l’ensemble restent vérifiées séparément.</p>}
+    </section>;
+  }
   return <section className="cp-control-notice" aria-label="État du contrôle de la référence" data-control-status={control.status}>
     <strong>{verified ? 'Référence documentée par une page primaire' : 'Référence à confirmer'}</strong>
     <p>{descriptions[control.status] ?? 'Le contrôle de cette variante reste à confirmer.'}</p>

@@ -1,5 +1,7 @@
 # FORGE — Configurateur PC 3D
 
+La [revue individuelle et visuelle du catalogue](docs/INDIVIDUAL-REVIEW.md) corrige les fiches, les correspondances ambiguës et les icônes/modèles 3D. Les comptes antérieurs ci-dessous sont des bilans datés.
+
 Application en français pour composer un PC, vérifier les compatibilités matérielles et estimer son équilibre selon l’usage et la résolution.
 
 Site public : https://nic0las1981.github.io/Composant-of-PC/

@@ -1,0 +1,85 @@
+TECHNICAL SPECIFICATIONS
+                                                               Samsung SSD 9100 PRO
+Usage Application                                                           Client PCs, PlayStation® 5
+     Interface                                                              PCIe® 5.0 x4, NVMe™ 2.0
+                                   Capacity1)                         1TB                      2TB                      4TB                     8TB
+                                   Controller                                              Samsung in-house Controller
+                            NAND Flash Memory                                                   Samsung V-NAND TLC
+    Hardware
+   Information                  Cache Memory                   1GB LPDDR4X      2GB LPDDR4X       4GB LPDDR4X        8GB LPDDR4X
+                                                                      1TB/2TB/4TB : Max 80.15 x Max 22.15 x Max 2.38 (mm)
+                                  Dimension2)
+                                                                          8TB : Max 80.15 x Max 22.15 x Max 3.88 (mm)
+                                 Form Factor                                               M.2 (2280)
+                               Sequential Read                  14,700 MB/s              14,700 MB/s              14,800 MB/s              14,800 MB/s
+
+   Performance                 Sequential Write                 13,300 MB/s              13,400 MB/s              13,400 MB/s              13,400 MB/s
+   (Up to.)3) 4) 5)     QD 256            Ran. Read              1,850 KIOPS             1,850 KIOPS              2,200 KIOPS              2,200 KIOPS
+                       Thread 32                                 2,600 KIOPS             2,600 KIOPS              2,600 KIOPS              2,600 KIOPS
+                                          Ran. Write
+                        Active6)7)            Read                   7.6 W                    8.1 W                    9.0 W                   10.5 W
+     Power               (Avg.)              Write                   7.2 W                    7.9 W                    8.2 W                   8.8 W
+  Consumption             Idle          PS3(APST on)                4.0 mW                  4.8 mW                   6.5 mW                   9.3 mW
+                        (Typical)         PS4 (L1.2)                3.3 mW                  4.0 mW                   5.7 mW                   8.6 mW
+                                                                                             0°C to 70°C
+                                          Operating
+                          Temp.                                   (Measured by S.M.A.R.T. Temperature Proper airflow recommended)
+                                       Non-Operating                                        -40°C to 85°C
+
+    Reliability                    Humidity                                                 5% to 95% non-condensing
+                          Shock        Non-Operating                                 1,500G(Gravity), duration: 0.5ms, 3 axis
+                        Vibration      Non-Operating                                               20~2,000Hz, 20G
+                                     MTBF                                                          1.5 million hours
+                                      TBW                           600 TB                  1,200 TB                 2,400 TB                4,800 TB
+    Warranty8)
+                                     Period                                                          5 years limited
+   Supporting
+                                                      TRIM (Required OS support), Garbage Collection, S.M.A.R.T
+    Features
+  Data Security                          AES 256-bit Full Disk Encryption, TCG/Opal V2.0, Encrypted Drive (IEEE1667)
+1) 1GB = 1,000,000,000 bytes by IDEMA. A certain portion of capacity may be used for system file and maintenance use, thus the actual available capacity
+   may differ from the labeled capacity.
+2) The 8TB model complies PCI-SIG® D5 standard specification. Please check the specifications of the host device before installation.
+3) 9100 PRO is backward compatible with PCIe 4.0 x4 and 3.0 x4.
+4) Sequential and random performance measurements are based on FIO 3.33. Performance may vary based on SSD’s firmware version, system
+   hardware & configuration. Test System: AMD Ryzen 9 7950X 16-Core Processor CPU@4.50GHz, DDR5 4800MHz 16GBx2, OS-Ubuntu 22.04.2,
+   Chipset-ASRock-X670E-Taichi.
+5) Sequential and random write performance was measured with Intelligent TurboWrite technology being activated. Intelligent TurboWrite operates only
+   within a specific data transfer size. For detailed information, please contact your local service center.
+6) Active power consumption is measured on FIO 3.33 with AMD Ryzen 5 7600 6-Core Processor CPU@3.80GHz, DDR5 4800MHz 16GBx2, OS-Ubuntu
+   22.04.3 LTS, Chipset-ASUS ProArt X670E-CREATOR WIFI STCOM.
+7) Sufficient power is required for the stable operation of high-capacity SSDs, including the host device. To minimize system errors, please ensure the host
+   device’s power consumption requirements are met.
+8) All documented endurance test results are in compliance with JESD218 Standards. Please visit www.jedec.org for detailed information on JESD218
+   Standards. TBW means Terabytes Written, Warranty provides coverage for the stated time period or the TBW, whichever comes first. Please refer to the
+   detailed warranty statement here at http://www.samsung.com/samsungssd
+
+
+
+
+Revision 2.0
+
+                                                                               3
+Data Sheet                                                                                                       SAMSUNG PROPRIETARY
+
+PRODUCT LINEUP
+     Density               Model Name                                     Box Contents                                 Model Code
+       1TB                                                      Samsung SSD 9100 PRO 1TB                             MZ-VAP1T0BW
+                           MZ-VAP1T0
+   (1,000GB*)                                                      Warranty Statement                               MZ-VAP1T0B/AM
+       2TB                                                      Samsung SSD 9100 PRO 2TB                             MZ-VAP2T0BW
+                           MZ-VAP2T0
+   (2,000GB*)                                                      Warranty Statement                               MZ-VAP2T0B/AM
+       4TB                                                      Samsung SSD 9100 PRO 4TB                             MZ-VAP4T0BW
+                           MZ-VAP4T0
+   (4,000GB*)                                                      Warranty Statement                               MZ-VAP4T0B/AM
+       8TB                                                      Samsung SSD 9100 PRO 8TB                             MZ-VAP8T0BW
+                           MZ-VAP8T0
+   (8,000GB*)                                                      Warranty Statement                               MZ-VAP8T0B/AM
+* GB: 1GB = 1,000,000,000 bytes. The actual usable capacity may be less than the labeled capacity.
+
+  For more information, including but not limited to the warranty provided for this product, and to download the latest
+software & manuals, please visit www.samsung.com/ssd and www.samsungssd.com.
+
+
+

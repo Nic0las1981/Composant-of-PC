@@ -1,4 +1,5 @@
 import { useId } from 'react';
+import IndividualProductArt from './IndividualProductArt';
 import type { Component } from '../data/catalog';
 import { getVisualProfile } from '../data/visualProfiles';
 
@@ -100,7 +101,7 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'gpu': {
       const p = profile?.category === 'gpu' ? profile : undefined;
-      const count = p?.fanCount || 3;
+      const count = p?.fanCount ?? 3;
       const width = p ? Math.min(93, Math.max(65, p.lengthMm*.27)) : 89;
       const depth = Math.min(35, 23+(p?.thicknessMm || 50)*.13);
       const left = (120-width-12)/2;
@@ -434,7 +435,8 @@ export default function ProductArt({ category, brand, className, component, deta
     default:
       artwork = <rect x="35" y="20" width="50" height="50" rx="9" fill={paint('graphite')} stroke="#607056" />;
   }
-  return <svg className={className} viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-component-id={component?.id} data-visual-kind={profile && 'kind' in profile ? profile.kind : category} data-art-detail={detailed?'high':'standard'}>
+  if(profile?.design && component) artwork=<IndividualProductArt component={component} profile={profile} detailed={detailed} paint={paint} fan={fan}/>;
+  return <svg data-model-design={profile?.design} className={className} viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-component-id={component?.id} data-visual-kind={profile && 'kind' in profile ? profile.kind : category} data-art-detail={detailed?'high':'standard'}>
     <defs>
       <linearGradient id={`${id}-rgb`} x1="0" y1="0" x2="1" y2=".7" gradientUnits="objectBoundingBox">{rainbow}</linearGradient>
       <linearGradient id={`${id}-rgb-line`} x1="0" y1="0" x2="90" y2="0" gradientUnits="userSpaceOnUse">{rainbow}</linearGradient>
