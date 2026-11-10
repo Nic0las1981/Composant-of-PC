@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-a5f44f660656",
+  "expectedName": "SUPRIM X RTX 4090 · 24 Go · Noir / Argent · 336 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM X",
+    "price": null,
+    "chipset": "GeForce RTX 4090",
+    "memory": 24,
+    "core_clock": 2235,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 336
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:32+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-24G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-SUPRIM-X-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

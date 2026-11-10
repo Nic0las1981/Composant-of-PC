@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-f533e62b398b",
+  "expectedName": "VANGUARD SOC RTX 5070 Ti · 16 Go · Noir / Argent · 357 mm",
+  "originalRecord": {
+    "name": "MSI VANGUARD SOC",
+    "price": 859.99,
+    "chipset": "GeForce RTX 5070 Ti",
+    "memory": 16,
+    "core_clock": 2300,
+    "boost_clock": 2602,
+    "color": "Black / Silver",
+    "length": 357
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:24+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VANGUARD-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-VANGUARD-SOC-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-VANGUARD-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VANGUARD-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-0fbe999ccd9f",
+  "expectedName": "TWIN FAN RTX 3060 Ti LHR · 8 Go · Noir · 230 mm",
+  "originalRecord": {
+    "name": "MSI TWIN FAN",
+    "price": null,
+    "chipset": "GeForce RTX 3060 Ti LHR",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1665,
+    "color": "Black",
+    "length": 230
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:19+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-8G-TWIN-FAN/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-TWIN-FAN-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-TWIN-FAN/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/TWIN-FAN/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

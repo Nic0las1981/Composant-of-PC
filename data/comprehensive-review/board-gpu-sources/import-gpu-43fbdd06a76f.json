@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-43fbdd06a76f",
+  "expectedName": "EXPERT RTX 4080 SUPER · 16 Go · Copper / Noir · 312 mm",
+  "originalRecord": {
+    "name": "MSI EXPERT",
+    "price": 1989,
+    "chipset": "GeForce RTX 4080 SUPER",
+    "memory": 16,
+    "core_clock": 2210,
+    "boost_clock": 2625,
+    "color": "Copper / Black",
+    "length": 312
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:34+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-16G-EXPERT/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-EXPERT-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-EXPERT/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/EXPERT/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-c99ceafac1c2",
+  "expectedName": "RX 5700 8G · 8 Go · Argent / Noir · 270 mm",
+  "originalRecord": {
+    "name": "MSI RX 5700 8G",
+    "price": null,
+    "chipset": "Radeon RX 5700",
+    "memory": 8,
+    "core_clock": 1465,
+    "boost_clock": 1725,
+    "color": "Silver / Black",
+    "length": 270
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RX-5700-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

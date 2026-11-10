@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-37a49296034c",
+  "expectedName": "GAMING RX 6650 XT · 8 Go · Argent / Noir · 278 mm",
+  "originalRecord": {
+    "name": "MSI GAMING",
+    "price": null,
+    "chipset": "Radeon RX 6650 XT",
+    "memory": 8,
+    "core_clock": 2055,
+    "boost_clock": 2635,
+    "color": "Silver / Black",
+    "length": 278
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:03+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-8G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-GAMING-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-b83ff73f8864",
+  "expectedName": "GAMING RX 6700 XT · 12 Go · Noir / Argent · 279 mm",
+  "originalRecord": {
+    "name": "MSI GAMING",
+    "price": null,
+    "chipset": "Radeon RX 6700 XT",
+    "memory": 12,
+    "core_clock": 2321,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 279
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:05+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-12G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-GAMING-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

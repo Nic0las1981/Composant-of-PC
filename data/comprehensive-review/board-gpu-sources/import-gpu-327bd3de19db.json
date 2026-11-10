@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-327bd3de19db",
+  "expectedName": "VENTUS 2X RTX 4070 Ti SUPER · 16 Go · Argent / Noir · 242 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X",
+    "price": null,
+    "chipset": "GeForce RTX 4070 Ti SUPER",
+    "memory": 16,
+    "core_clock": 2340,
+    "boost_clock": 2625,
+    "color": "Silver / Black",
+    "length": 242
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:33+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-VENTUS-2X-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

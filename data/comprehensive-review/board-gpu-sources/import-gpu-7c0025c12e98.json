@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7c0025c12e98",
+  "expectedName": "GAMING RTX 5050 · 8 Go · Noir · 202 mm",
+  "originalRecord": {
+    "name": "MSI GAMING",
+    "price": null,
+    "chipset": "GeForce RTX 5050",
+    "memory": 8,
+    "core_clock": 2317,
+    "boost_clock": 2587,
+    "color": "Black",
+    "length": 202
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-8G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-GAMING-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

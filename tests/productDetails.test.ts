@@ -17,7 +17,7 @@ test("AIO radiator dimensions and pump height are distinct from an air cooler cl
   assert.equal(aio["Radiateur : format nominal"], "240 mm");
   assert.equal(aio["Radiateur : dimensions (L × l)"], "275 × 123 mm");
   assert.equal(aio["Radiateur : épaisseur"], "30 mm hors ventilateurs");
-  assert.equal(aio["Hauteur du bloc pompe"], "55 mm");
+  assert.equal(aio["Hauteur du bloc pompe"], "55,97 mm");
   assert.equal(aio["Habillage de la pompe"], "Écran LCD");
   assert.equal(aio["Ventilateurs"], "2 × 120 mm");
   assert.ok(!Object.hasOwn(aio, "Hauteur du ventirad"));
@@ -78,10 +78,10 @@ test("radiator support distinguishes unavailable mounts from unknown information
   assert.ok(!Object.hasOwn(partial, "Radiateur : côté"));
 });
 
-test("CPU thermal specification is not replaced by the power estimate", () => {
+test("CPU thermal specification does not create an undocumented electrical maximum", () => {
   const cpu = rowsFor(getComponent("cpu-7600")!);
   assert.equal(cpu["Puissance annoncée"], "65 W TDP");
-  assert.equal(cpu["Puissance retenue pour l’estimation"], "88 W");
+  assert.equal(cpu["Puissance retenue pour l’estimation"], undefined);
   assert.equal(cpu["Cœurs et threads"], "6 cœurs · 12 threads");
   assert.equal(cpu["Mémoire prise en charge"], "DDR5");
 });
@@ -145,10 +145,10 @@ test("known GPU memory capacity does not imply an undocumented GDDR generation",
 test("combined expansion specs keep each fact under the correct label", () => {
   const cpu = rowsFor(getComponent("cpu-5700x3d")!);
   assert.equal(cpu["Puissance annoncée"], "105 W de base");
-  assert.equal(cpu["Puissance retenue pour l’estimation"], "142 W");
+  assert.equal(cpu["Puissance retenue pour l’estimation"], undefined);
   assert.equal(cpu["Cache"], "96 Mo de cache L3");
   assert.equal(cpu["Circuit graphique"], "sans circuit graphique");
-  assert.equal(cpu["Dimensions (l × L × ép.)"], "40 × 40 × 4,2 mm");
+  assert.equal(cpu["Dimensions (l × L × ép.)"], undefined);
   const ram = rowsFor(getComponent("ram-fury-ddr5-32-6000")!);
   assert.equal(ram["Composition du kit"], "2 × 16 Go");
   assert.equal(ram["Latence CAS"], "CL36");
@@ -156,7 +156,7 @@ test("combined expansion specs keep each fact under the correct label", () => {
   assert.equal(psu["Certification annoncée"], "80 PLUS Gold");
   assert.equal(psu["Norme électrique annoncée"], "ATX 3.0");
   assert.equal(psu["Connecteur graphique annoncé"], "connecteur 12VHPWR");
-  const board = rowsFor(getComponent("mb-b550m-pro4")!);
+  const board = rowsFor({ ...sparse("motherboard"), specs: ["Ethernet 1 Gb/s · HDMI et DisplayPort"] });
   assert.equal(board["Réseau annoncé"], "Ethernet 1 Gb/s");
   assert.equal(board["Autres équipements"], "HDMI et DisplayPort");
   const ssd = rowsFor(getComponent("ssd-970evo-1")!);
@@ -167,12 +167,26 @@ test("combined expansion specs keep each fact under the correct label", () => {
 
 test("a digital air cooler does not imply RGB fans or a watercooling pump", () => {
   const digital = rowsFor(getComponent("cooler-ak620-digital")!);
-  assert.equal(digital["Type"], "Ventirad double tour");
+  assert.equal(digital["Type"], "Ventirad");
   assert.equal(digital["Éclairage des ventilateurs"], "Sans RGB");
   assert.equal(digital["Affichage"], "Écran de température");
   assert.equal(digital["Habillage"], "éclairage ARGB sur le capot");
   assert.ok(!Object.hasOwn(digital, "Hauteur du bloc pompe"));
   assert.ok(!Object.hasOwn(digital, "Habillage de la pompe"));
+});
+
+test("rendering dimensions never become manufacturer specifications", () => {
+  // Known visual profiles remain available, but removing sourced measurements
+  // must also remove the corresponding technical rows.
+  const cpu = rowsFor({ ...getComponent("cpu-5700x3d")!, widthMm: undefined, heightMm: undefined, depthMm: undefined });
+  assert.equal(cpu["Dimensions (l × L × ép.)"], undefined);
+  const ram = rowsFor({ ...getComponent("ram-ddr5-32")!, heightMm: undefined });
+  assert.equal(ram["Hauteur des barrettes"], undefined);
+  const gpu = rowsFor({ ...getComponent("gpu-4070s")!, lengthMm: undefined, heightMm: undefined, thicknessMm: undefined, fanCount: undefined, fanSizeMm: undefined });
+  for (const label of ["Longueur", "Hauteur", "Épaisseur", "Ventilateurs"]) assert.equal(gpu[label], undefined, label);
+  const aio = rowsFor({ ...getComponent("cooler-kraken240")!, radiatorLengthMm: undefined, radiatorWidthMm: undefined, fanRgb: undefined });
+  assert.equal(aio["Radiateur : dimensions (L × l)"], undefined);
+  assert.equal(aio["Éclairage des ventilateurs"], undefined);
 });
 
 test("catalogue details are grouped, unique and never leak internal performance scores", () => {

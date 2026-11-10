@@ -1,0 +1,807 @@
+{
+  "import-psu-9ce8a79434a7": {
+    "mpn": "SST-DA850R-GMA",
+    "identityNote": "Le PDF constructeur distingue explicitement SST-DA850R-GMA (Noir) de la variante blanche avec suffixe -WWW. La puissance et la finition correspondent à la ligne originale du catalogue. Ne pas confondre DAxxxR-GMA et DAxxxR-GM.",
+    "sources": [
+      {
+        "name": "SilverStone — fiche PDF du modèle exact",
+        "url": "https://www.silverstonetek.com/upload/sstedm/da850r-gma/DA850R%20Gold%20Product%20Sheet-EN.pdf",
+        "checkedAt": "2026-11-10T11:23:48.439Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — modèle, variantes et connecteurs",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/da850r_gma/",
+        "checkedAt": "2026-11-10T11:27:23.399Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SST-DA850R-GMA",
+      "detailLevel": "documented",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanCount": 1,
+      "fanSizeMm": 120,
+      "description": "SilverStone Decathlon DA850R-GMA noir, référence SST-DA850R-GMA. Bloc ATX entièrement modulaire de 850 W, certifié 80 PLUS Gold. La fiche fabricant annonce ATX 3.0 et PCIe 5.0 avec connecteur 12V-2x6. Boîtier de 140 mm de profondeur et ventilateur 120 mm semi-passif.",
+      "specs": [
+        "850 W",
+        "80 PLUS Gold",
+        "ATX 3.0 · PCIe 5.0",
+        "Modulaire · 12V-2x6",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "SST-DA850R-GMA"
+      ]
+    },
+    "groups": [
+      {
+        "title": "SilverStone — fiche du modèle et de sa finition",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SST-DA850R-GMA"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "850 W"
+          },
+          {
+            "label": "Finition",
+            "value": "Noir"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (PS2)"
+          },
+          {
+            "label": "Normes documentées",
+            "value": "ATX 3.0 · PCIe 5.0"
+          },
+          {
+            "label": "Rendement certifié",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Dimensions L × H × P",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Refroidissement",
+            "value": "Ventilateur 120 mm · fonctionnement semi-passif"
+          },
+          {
+            "label": "Poids fabricant",
+            "value": "2,13 kg"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "850 W combinés déclarés"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "100 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 Vrms · 47–63 Hz"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0–50 °C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP · OPP · OVP · SCP · OTP · UVP"
+          }
+        ]
+      },
+      {
+        "title": "Connecteurs",
+        "rows": [
+          {
+            "label": "Carte mère",
+            "value": "1 × 24/20 broches"
+          },
+          {
+            "label": "Processeur",
+            "value": "2 × 8/4 broches EPS/ATX12V"
+          },
+          {
+            "label": "Carte graphique",
+            "value": "4 × 8/6 broches PCIe et 1 × 12V-2x6"
+          },
+          {
+            "label": "Périphériques",
+            "value": "8 × SATA et 4 × Molex 4 broches"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "La norme ATX 3.0 est celle du PDF constructeur lu. Certaines pages locales indexées annoncent aussi ATX 3.1 ; aucune évolution matérielle n’est déduite de ces différences de présentation.",
+      "Aucun prix actuel français neuf en stock n’a été confirmé pour cette référence et cette finition.",
+      "Le fabricant exclut les câbles modulaires PP05-E et PP06 pour les DA750R-GMA et DA850R-GMA, y compris les variantes blanches -WWW."
+    ]
+  },
+  "import-psu-6ff1fd44501b": {
+    "mpn": "SST-DA850R-GMA-WWW",
+    "identityNote": "Le PDF constructeur distingue explicitement SST-DA850R-GMA-WWW (Blanc) de la variante noire sans suffixe. La puissance et la finition correspondent à la ligne originale du catalogue. Ne pas confondre DAxxxR-GMA et DAxxxR-GM.",
+    "sources": [
+      {
+        "name": "SilverStone — fiche PDF du modèle exact",
+        "url": "https://www.silverstonetek.com/upload/sstedm/da850r-gma/DA850R%20Gold%20Product%20Sheet-EN.pdf",
+        "checkedAt": "2026-11-10T11:23:48.439Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PcComponentes",
+        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-silverstone-da850r-850w-80-plus-gold-modulaire-blanche",
+        "checkedAt": "2026-11-10T11:24:41.579491+00:00",
+        "kind": "retailer"
+      },
+      {
+        "name": "SilverStone — modèle, variantes et connecteurs",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/da850r_gma/",
+        "checkedAt": "2026-11-10T11:27:23.399Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SST-DA850R-GMA-WWW",
+      "detailLevel": "documented",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanCount": 1,
+      "fanSizeMm": 120,
+      "description": "SilverStone Decathlon DA850R-GMA blanc, référence SST-DA850R-GMA-WWW. Bloc ATX entièrement modulaire de 850 W, certifié 80 PLUS Gold. La fiche fabricant annonce ATX 3.0 et PCIe 5.0 avec connecteur 12V-2x6. Boîtier de 140 mm de profondeur et ventilateur 120 mm semi-passif.",
+      "specs": [
+        "850 W",
+        "80 PLUS Gold",
+        "ATX 3.0 · PCIe 5.0",
+        "Modulaire · 12V-2x6",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "SST-DA850R-GMA-WWW"
+      ]
+    },
+    "groups": [
+      {
+        "title": "SilverStone — fiche du modèle et de sa finition",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SST-DA850R-GMA-WWW"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "850 W"
+          },
+          {
+            "label": "Finition",
+            "value": "Blanc"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (PS2)"
+          },
+          {
+            "label": "Normes documentées",
+            "value": "ATX 3.0 · PCIe 5.0"
+          },
+          {
+            "label": "Rendement certifié",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Dimensions L × H × P",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Refroidissement",
+            "value": "Ventilateur 120 mm · fonctionnement semi-passif"
+          },
+          {
+            "label": "Poids fabricant",
+            "value": "2,13 kg"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "850 W combinés déclarés"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "100 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 Vrms · 47–63 Hz"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0–50 °C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP · OPP · OVP · SCP · OTP · UVP"
+          }
+        ]
+      },
+      {
+        "title": "Connecteurs",
+        "rows": [
+          {
+            "label": "Carte mère",
+            "value": "1 × 24/20 broches"
+          },
+          {
+            "label": "Processeur",
+            "value": "2 × 8/4 broches EPS/ATX12V"
+          },
+          {
+            "label": "Carte graphique",
+            "value": "4 × 8/6 broches PCIe et 1 × 12V-2x6"
+          },
+          {
+            "label": "Périphériques",
+            "value": "8 × SATA et 4 × Molex 4 broches"
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "retailer": "PcComponentes",
+        "seller": "Digital Universe FR",
+        "url": "https://www.pccomponentes.fr/alimentation-pc-source-d-alimentation-silverstone-da850r-850w-80-plus-gold-modulaire-blanche",
+        "productName": "Source d'alimentation SilverStone DA850R 850W 80 PLUS Gold modulaire blanche",
+        "mpn": "SST-DA850R-GMA-WWW",
+        "amount": 224.71,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": 0.0,
+        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+        "checkedAt": "2026-11-10T11:24:41.579491+00:00"
+      }
+    ],
+    "notes": [
+      "La norme ATX 3.0 est celle du PDF constructeur lu. Certaines pages locales indexées annoncent aussi ATX 3.1 ; aucune évolution matérielle n’est déduite de ces différences de présentation.",
+      "Le fabricant exclut les câbles modulaires PP05-E et PP06 pour les DA750R-GMA et DA850R-GMA, y compris les variantes blanches -WWW."
+    ]
+  },
+  "import-psu-3dd670f97215": {
+    "mpn": "SST-DA750R-GMA",
+    "identityNote": "Le PDF constructeur distingue explicitement SST-DA750R-GMA (Noir) de la variante blanche avec suffixe -WWW. La puissance et la finition correspondent à la ligne originale du catalogue. Ne pas confondre DAxxxR-GMA et DAxxxR-GM.",
+    "sources": [
+      {
+        "name": "SilverStone — fiche PDF du modèle exact",
+        "url": "https://www.silverstonetek.com/upload/sstedm/da750r-gma/DA750R%20Gold%20Product%20Sheet-EN.pdf",
+        "checkedAt": "2026-11-10T11:23:48.917Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — modèle, variantes et connecteurs",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/da750r_gma/",
+        "checkedAt": "2026-11-10T11:27:24.423Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SST-DA750R-GMA",
+      "detailLevel": "documented",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanCount": 1,
+      "fanSizeMm": 120,
+      "description": "SilverStone Decathlon DA750R-GMA noir, référence SST-DA750R-GMA. Bloc ATX entièrement modulaire de 750 W, certifié 80 PLUS Gold. La fiche fabricant annonce ATX 3.0 et PCIe 5.0 avec connecteur 12V-2x6. Boîtier de 140 mm de profondeur et ventilateur 120 mm semi-passif.",
+      "specs": [
+        "750 W",
+        "80 PLUS Gold",
+        "ATX 3.0 · PCIe 5.0",
+        "Modulaire · 12V-2x6",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "SST-DA750R-GMA"
+      ]
+    },
+    "groups": [
+      {
+        "title": "SilverStone — fiche du modèle et de sa finition",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SST-DA750R-GMA"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "750 W"
+          },
+          {
+            "label": "Finition",
+            "value": "Noir"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (PS2)"
+          },
+          {
+            "label": "Normes documentées",
+            "value": "ATX 3.0 · PCIe 5.0"
+          },
+          {
+            "label": "Rendement certifié",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Dimensions L × H × P",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Refroidissement",
+            "value": "Ventilateur 120 mm · fonctionnement semi-passif"
+          },
+          {
+            "label": "Poids fabricant",
+            "value": "2,08 kg"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "750 W combinés déclarés"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "100 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 Vrms · 47–63 Hz"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0–50 °C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP · OPP · OVP · SCP · OTP · UVP"
+          }
+        ]
+      },
+      {
+        "title": "Connecteurs",
+        "rows": [
+          {
+            "label": "Carte mère",
+            "value": "1 × 24/20 broches"
+          },
+          {
+            "label": "Processeur",
+            "value": "2 × 8/4 broches EPS/ATX12V"
+          },
+          {
+            "label": "Carte graphique",
+            "value": "4 × 8/6 broches PCIe et 1 × 12V-2x6"
+          },
+          {
+            "label": "Périphériques",
+            "value": "8 × SATA et 4 × Molex 4 broches"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "La norme ATX 3.0 est celle du PDF constructeur lu. Certaines pages locales indexées annoncent aussi ATX 3.1 ; aucune évolution matérielle n’est déduite de ces différences de présentation.",
+      "Aucun prix actuel français neuf en stock n’a été confirmé pour cette référence et cette finition.",
+      "Le fabricant exclut les câbles modulaires PP05-E et PP06 pour les DA750R-GMA et DA850R-GMA, y compris les variantes blanches -WWW."
+    ]
+  },
+  "import-psu-71ed5bfaffca": {
+    "mpn": "SST-DA750R-GMA-WWW",
+    "identityNote": "Le PDF constructeur distingue explicitement SST-DA750R-GMA-WWW (Blanc) de la variante noire sans suffixe. La puissance et la finition correspondent à la ligne originale du catalogue. Ne pas confondre DAxxxR-GMA et DAxxxR-GM.",
+    "sources": [
+      {
+        "name": "SilverStone — fiche PDF du modèle exact",
+        "url": "https://www.silverstonetek.com/upload/sstedm/da750r-gma/DA750R%20Gold%20Product%20Sheet-EN.pdf",
+        "checkedAt": "2026-11-10T11:23:48.917Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "PcComponentes",
+        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-silverstone-da750r-gold-750w-certifie-80-plus-gold-modulaire",
+        "checkedAt": "2026-11-10T11:24:42.521569+00:00",
+        "kind": "retailer"
+      },
+      {
+        "name": "SilverStone — modèle, variantes et connecteurs",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/da750r_gma/",
+        "checkedAt": "2026-11-10T11:27:24.423Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SST-DA750R-GMA-WWW",
+      "detailLevel": "documented",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanCount": 1,
+      "fanSizeMm": 120,
+      "description": "SilverStone Decathlon DA750R-GMA blanc, référence SST-DA750R-GMA-WWW. Bloc ATX entièrement modulaire de 750 W, certifié 80 PLUS Gold. La fiche fabricant annonce ATX 3.0 et PCIe 5.0 avec connecteur 12V-2x6. Boîtier de 140 mm de profondeur et ventilateur 120 mm semi-passif.",
+      "specs": [
+        "750 W",
+        "80 PLUS Gold",
+        "ATX 3.0 · PCIe 5.0",
+        "Modulaire · 12V-2x6",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "SST-DA750R-GMA-WWW"
+      ]
+    },
+    "groups": [
+      {
+        "title": "SilverStone — fiche du modèle et de sa finition",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SST-DA750R-GMA-WWW"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "750 W"
+          },
+          {
+            "label": "Finition",
+            "value": "Blanc"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (PS2)"
+          },
+          {
+            "label": "Normes documentées",
+            "value": "ATX 3.0 · PCIe 5.0"
+          },
+          {
+            "label": "Rendement certifié",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Dimensions L × H × P",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Refroidissement",
+            "value": "Ventilateur 120 mm · fonctionnement semi-passif"
+          },
+          {
+            "label": "Poids fabricant",
+            "value": "2,08 kg"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "750 W combinés déclarés"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "100 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 Vrms · 47–63 Hz"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0–50 °C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP · OPP · OVP · SCP · OTP · UVP"
+          }
+        ]
+      },
+      {
+        "title": "Connecteurs",
+        "rows": [
+          {
+            "label": "Carte mère",
+            "value": "1 × 24/20 broches"
+          },
+          {
+            "label": "Processeur",
+            "value": "2 × 8/4 broches EPS/ATX12V"
+          },
+          {
+            "label": "Carte graphique",
+            "value": "4 × 8/6 broches PCIe et 1 × 12V-2x6"
+          },
+          {
+            "label": "Périphériques",
+            "value": "8 × SATA et 4 × Molex 4 broches"
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "retailer": "PcComponentes",
+        "seller": "ZOOMICI FR",
+        "url": "https://www.pccomponentes.fr/alimentation-pc-alimentation-silverstone-da750r-gold-750w-certifie-80-plus-gold-modulaire",
+        "productName": "Alimentation SilverStone DA750R Gold 750W Certifié 80 PLUS Gold modulaire",
+        "mpn": "SST-DA750R-GMA-WWW",
+        "amount": 150.56,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": 0.0,
+        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+        "checkedAt": "2026-11-10T11:24:42.521569+00:00"
+      }
+    ],
+    "notes": [
+      "La norme ATX 3.0 est celle du PDF constructeur lu. Certaines pages locales indexées annoncent aussi ATX 3.1 ; aucune évolution matérielle n’est déduite de ces différences de présentation.",
+      "Le fabricant exclut les câbles modulaires PP05-E et PP06 pour les DA750R-GMA et DA850R-GMA, y compris les variantes blanches -WWW."
+    ]
+  },
+  "import-psu-639e323be26c": {
+    "mpn": "ST75F-GS-V3",
+    "identityNote": "ST75F-GS-V3 est explicitement nommé dans la garantie constructeur Europe. La page officielle propose le même manuel pour V3.0 / V3.1 ; le nom archivé V3 ne distingue pas ces deux révisions mineures. Seules les données communes explicitement documentées dans ce manuel sont retenues.",
+    "sources": [
+      {
+        "name": "SilverStone — manuel Strider Gold S V3",
+        "url": "https://www.silverstonetek.com/upload/downloads/Manual/power/en-st55f-gs-st65f-gs-st75f-gs-v3-manual.pdf",
+        "checkedAt": "2026-11-10T11:24:38.467Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — garantie Europe et référence V3",
+        "url": "https://www.silverstonetek.com/en/page/warranty",
+        "checkedAt": "2026-11-10T11:24:39.002Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — correspondance du manuel aux révisions V3.0 / V3.1",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/ST75F-GS/",
+        "checkedAt": "2026-11-10T11:27:23.914Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "ST75F-GS-V3",
+      "detailLevel": "documented",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "fanCount": 1,
+      "description": "SilverStone Strider Gold S ST75F-GS-V3, alimentation ATX de 750 W entièrement modulaire, certifiée 80 PLUS Gold. Manuel constructeur V3 : 150 × 86 × 140 mm, ventilateur 120 mm, rail +12 V 744 W et fonctionnement continu jusqu’à 40 °C.",
+      "specs": [
+        "750 W",
+        "80 PLUS Gold",
+        "Entièrement modulaire",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "Révision V3",
+        "ST75F-GS-V3"
+      ]
+    },
+    "groups": [
+      {
+        "title": "Données constructeur de la révision V3",
+        "rows": [
+          {
+            "label": "Puissance continue",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX12V / EPS12V PS/2"
+          },
+          {
+            "label": "Certification",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Câbles",
+            "value": "100 % modulaires"
+          },
+          {
+            "label": "Dimensions W × H × D",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm · bruit minimal 18 dBA"
+          },
+          {
+            "label": "Puissance +12 V",
+            "value": "744 W · 62 A"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "100 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 V AC · 47–63 Hz"
+          },
+          {
+            "label": "Température en service",
+            "value": "0–40 °C"
+          },
+          {
+            "label": "Garantie Europe",
+            "value": "5 ans pour les achats après le 1er mai 2020"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "V3.0 et V3.1 partagent le manuel officiel utilisé. La révision mineure de l’article archivé reste inconnue ; le nombre exact de connecteurs et la révision numérique ATX ne sont pas déduits de la fiche qui affiche les révisions les plus récentes.",
+      "Le fabricant indique une incompatibilité des câbles ATX 24 broches PP05-E / PP06 avec V3.0.",
+      "Aucun prix actuel français neuf en stock confirmé."
+    ]
+  },
+  "import-psu-c80562043859": {
+    "mpn": "ST85F-GS-V2",
+    "identityNote": "La référence ST85F-GS-V2 est nommée dans la garantie constructeur Europe et dans le manuel officiel V2. La page ST85F-GS distingue explicitement V1 et V2 ; les dimensions, rails et connecteurs ci-dessous proviennent des lignes V2. La finition noire est celle du fabricant.",
+    "sources": [
+      {
+        "name": "SilverStone — tableau distinct ST85F-GS V1 / V2",
+        "url": "https://www.silverstonetek.com/en/product/info/power-supplies/ST85F-GS/",
+        "checkedAt": "2026-11-10T11:27:22.910Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — manuel ST85F-GS V2",
+        "url": "https://www.silverstonetek.com/upload/downloads/Manual/power/en-st85f-gs-v2-manual.pdf",
+        "checkedAt": "2026-11-10T11:26:27.125Z",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "SilverStone — garantie Europe et référence V2",
+        "url": "https://www.silverstonetek.com/en/page/warranty",
+        "checkedAt": "2026-11-10T11:24:39.002Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "ST85F-GS-V2",
+      "detailLevel": "documented",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "fanCount": 1,
+      "description": "SilverStone Strider Gold S ST85F-GS-V2, alimentation ATX noire de 850 W entièrement modulaire, certifiée 80 PLUS Gold. La révision V2 mesure 150 × 86 × 140 mm, avec un ventilateur de 120 mm, six prises PCIe 8/6 broches et deux prises EPS 8/4 broches.",
+      "specs": [
+        "850 W",
+        "80 PLUS Gold",
+        "Entièrement modulaire",
+        "150 × 86 × 140 mm",
+        "Ventilateur 120 mm",
+        "Révision V2",
+        "ST85F-GS-V2"
+      ]
+    },
+    "groups": [
+      {
+        "title": "Données constructeur de la révision V2",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "ST85F-GS-V2"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "850 W"
+          },
+          {
+            "label": "Finition",
+            "value": "Noir"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Câbles",
+            "value": "100 % modulaires"
+          },
+          {
+            "label": "Dimensions L × H × P",
+            "value": "150 × 86 × 140 mm"
+          },
+          {
+            "label": "Poids",
+            "value": "1,55 kg"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm · bruit minimal 18 dBA"
+          },
+          {
+            "label": "Puissance +12 V",
+            "value": "850 W · 70,9 A maximum déclaré"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "120 W combinés"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 V AC · 47–63 Hz"
+          },
+          {
+            "label": "Température en service",
+            "value": "0–40 °C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP · OPP · OVP · OTP · UVP · SCP"
+          },
+          {
+            "label": "Garantie Europe",
+            "value": "5 ans pour les achats après le 1er mai 2020"
+          }
+        ]
+      },
+      {
+        "title": "Connecteurs de la révision V2",
+        "rows": [
+          {
+            "label": "Carte mère",
+            "value": "1 × 24/20 broches"
+          },
+          {
+            "label": "Processeur",
+            "value": "2 × 8/4 broches EPS/ATX12V"
+          },
+          {
+            "label": "Carte graphique",
+            "value": "6 × 8/6 broches PCIe"
+          },
+          {
+            "label": "Périphériques",
+            "value": "8 × SATA et 6 × Molex 4 broches"
+          },
+          {
+            "label": "Lecteur de disquettes",
+            "value": "2 × 4 broches"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "La profondeur de 150 mm, le poids de 2,5 kg et le rail +12 V de 840 W concernent V1 ; ils ne sont pas appliqués à cette référence V2.",
+      "La révision numérique ATX et une prise 16 broches native ne sont pas supposées.",
+      "Aucun prix actuel français neuf en stock confirmé."
+    ]
+  }
+}

@@ -78,7 +78,8 @@ test('manufacturer corrections reach compatibility metadata without turning TDP 
   assert.equal(getComponent('mb-b650')!.maxMemoryGB, 256);
   assert.equal(getComponent('ram-ddr5-32')!.memoryProfile, 'EXPO/XMP');
   assert.equal(getComponent('ram-ddr5-32')!.memoryVoltageV, 1.4);
-  assert.equal(getComponent('cpu-7600')!.powerW, 88);
+  assert.equal(getComponent('cpu-7600')!.powerW, undefined);
+  assert.equal(getComponent('cpu-14600kf')!.powerW, 181);
   assert.match(verifiedProducts['cpu-7800x3d'].notes.join(' '), /AM4.*AM5/);
 });
 

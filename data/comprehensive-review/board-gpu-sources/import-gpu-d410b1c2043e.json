@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-d410b1c2043e",
+  "expectedName": "VENTUS 3X OC RTX 4070 Ti · 12 Go · Argent / Noir · 308 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X OC",
+    "price": 1249,
+    "chipset": "GeForce RTX 4070 Ti",
+    "memory": 12,
+    "core_clock": 2310,
+    "boost_clock": 2655,
+    "color": "Silver / Black",
+    "length": 308
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:34+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-12G-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-3X-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

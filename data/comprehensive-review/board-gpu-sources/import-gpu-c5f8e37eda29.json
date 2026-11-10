@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-c5f8e37eda29",
+  "expectedName": "VENTUS 2X RTX 5070 · 12 Go · Gris / Noir · 236 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X",
+    "price": null,
+    "chipset": "GeForce RTX 5070",
+    "memory": 12,
+    "core_clock": 2160,
+    "boost_clock": 2527,
+    "color": "Gray / Black",
+    "length": 236
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:06+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-VENTUS-2X-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

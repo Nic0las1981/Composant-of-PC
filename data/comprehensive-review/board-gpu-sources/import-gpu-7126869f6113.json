@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7126869f6113",
+  "expectedName": "GAMING X TRIO RTX 3060 · 12 Go · Noir · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X TRIO",
+    "price": 656.98,
+    "chipset": "GeForce RTX 3060 12GB",
+    "memory": 12,
+    "core_clock": 1320,
+    "boost_clock": 1852,
+    "color": "Black",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:41+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-12G-GAMING-X-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-GAMING-X-TRIO-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-GAMING-X-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-31d7509750ea",
+  "expectedName": "VENTUS 2X RTX 3050 · 8 Go · Noir · 235 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X",
+    "price": null,
+    "chipset": "GeForce RTX 3050 8GB",
+    "memory": 8,
+    "core_clock": 1550,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 235
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:39+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-8G-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-VENTUS-2X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

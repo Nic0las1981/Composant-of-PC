@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ecbd0195bbda",
+  "expectedName": "GAMING Z TRIO RX 6800 · 16 Go · Argent / Noir · 324 mm",
+  "originalRecord": {
+    "name": "MSI GAMING Z TRIO",
+    "price": null,
+    "chipset": "Radeon RX 6800",
+    "memory": 16,
+    "core_clock": 1700,
+    "boost_clock": 2155,
+    "color": "Silver / Black",
+    "length": 324
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:59+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-16G-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-GAMING-Z-TRIO-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,5 +1,7 @@
 # Revue individuelle et fidélité visuelle — 10 novembre 2026
 
+Bilan antérieur à la [refonte globale du catalogue](COMPREHENSIVE-REVIEW.md). Les chiffres de cette étape restent conservés pour la traçabilité.
+
 Cette révision approfondit 27 fiches, avec 37 relevés de prix, et corrige le moteur de compatibilité. Le catalogue complet de 10 564 variantes n'est pas encore vérifié individuellement. `data/individual-review/progress.json` conserve le résultat et les champs manquants de chaque identifiant ; une recherche automatique ne compte pas comme une fiche terminée.
 
 ## Fiches approfondies

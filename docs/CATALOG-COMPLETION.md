@@ -1,0 +1,41 @@
+# Complétude vérifiable de chaque référence
+
+Le registre `data/comprehensive-review/identity-audit.json` contient une entrée pour chacun des 10 564 identifiants. Le script `scripts/audit-catalog-completion.ts` le recalcule depuis le catalogue effectivement intégré. Il ne modifie ni référence, ni prix, ni sauvegarde.
+
+Une fiche possède quatre dossiers indépendants : identité commerciale exacte, caractéristiques sourcées, offre datée admissible, et référence photographique utilisée pour sa reconstruction. Le fait de disposer de dimensions ou d’une icône ne prouve pas le MPN. Une source fabricant ne valide pas automatiquement toutes les valeurs héritées de l’archive.
+
+`src/lib/catalogCompletion.ts` définit une liste finie des informations nécessaires à une fiche par catégorie : capacités et interfaces, limites et connectique, paramètres électriques, dimensions et caractéristiques propres au produit. La liste dépasse les seuls champs utilisés actuellement par le moteur de compatibilité. Les détails non garantis par le fabricant pour un même MPN, comme certaines révisions de puces mémoire, ne deviennent pas artificiellement des obligations universelles.
+
+Les états sont `identity_missing`, `source_missing`, `technical_missing` et `ready`. **`ready` concerne uniquement cette liste de caractéristiques documentées.** Prix et qualité visuelle conservent leurs propres états ; `completeForUserRequest` exige également une offre actuelle admissible et une reconstruction avec référence inspectée. Chaque champ distingue valeur absente, valeur héritée non prouvée, preuve enregistrée et contradiction. Un « non applicable » nécessite une source et une explication explicites.
+
+Cette liste finie ne garantit pas la compatibilité d’une configuration : le moteur de compatibilité conserve ses propres règles, limites et contrôles. Les expressions « non publié par le fabricant », « non confirmé » ou « à vérifier » restent des données absentes. Les variantes de libellés français/anglais sont reconnues par catégorie ; les lignes combinées ne couvrent plusieurs champs que lorsque chaque fait apparaît explicitement. Les capacités décimales équivalentes, comme 2 To et 2000 Go, ne créent pas de fausse contradiction.
+
+La provenance distingue `sourceScope: 'record'` (les références associées au dossier, sans attribution certaine à une ligne) et `sourceScope: 'field'` (lien explicitement associé au champ). Pour ajouter une attribution précise, fournir `sourceMap.fields[fieldKey]` ou `sourceMap.groups[groupTitle]` à `getCatalogCompletion`, avec des URL déjà enregistrées dans `product.sources`. Une valeur supplémentaire utilise `facts[fieldKey] = { value, sourceURL, checkedAt }`. Les URL inconnues du dossier sont ignorées ; un ensemble de sources ne devient pas automatiquement une preuve fabricant pour chaque caractéristique.
+
+Une résolution individuelle peut être conservée dans `VerifiedProduct.fieldEvidence` ou dans `src/data/catalogFieldEvidence.ts`, lié à un ID et son MPN exact. Les cinq descriptions de la B850 Steel Legend WiFi ont ainsi été rapprochées du manuel ASRock : stockage, PCIe, réseau filaire, audio et support CPU. Le texte complet du manuel, ses restrictions, son URL et sa date sont conservés. Cette résolution ne crée aucune règle générale assimilant des descriptions différentes.
+
+## Ce qui manque réellement à l’archive
+
+Le code du [collecteur original](https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/src/scraper.ts) n’enregistre que le texte du nom, un prix USD et les colonnes du tableau de produits. Il ne conserve ni lien vers la fiche PCPartPicker, ni identifiant produit PCPartPicker, ni MPN, GTIN, révision ou photo. La [table des champs](https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/API.md) et [le sérialiseur](https://github.com/docyx/pc-part-dataset/blob/c52a04ca9465c83997ed335f7767b09a2005dd26/src/serialization-map.json) le confirment. Les données archivées sont distribuées sous licence MIT.
+
+Certains noms contiennent cependant encore un code de modèle ou de pièce. Le fichier `data/comprehensive-review/name-reference-candidates.json` isole 66 lignes candidates : 35 GPU, 20 alimentations, 9 cartes mères et 2 SSD. Par exemple, les noms PNY VCG508016TFXPB1 et Crucial CT1000E100SSD8 permettent une recherche directe par code. Ce repérage n’est pas une validation d’identité ; les variantes et caractéristiques d’archive restent à confronter à la fiche fabricant. Ces candidats sont transmis aux collectes spécialisées pour vérification.
+
+Les indices de ligne et empreintes de notre snapshot identifient une ligne d’archive, pas un SKU fabricant. Un exemple concret est « Thermaltake Smart 600 W » : famille, puissance et couleur ne permettent pas de choisir entre les générations W3, BX et SE. Le rapprochement doit rester ouvert tant qu’une référence précise n’est pas retrouvée. Répéter la même recherche marchande ne reconstitue pas l’information qui a été perdue.
+
+Le regroupement d’identités n’est autorisé que pour la même marque et le même MPN exact, avec preuve fabricant et sans contradiction de capacité, kit, finition, dimensions ou révision. Il faut aussi confirmer séparément le raccordement de chaque ligne d’archive : la même erreur de rapprochement appliquée deux fois ne prouve pas un doublon. Les identifiants de sauvegarde restent conservés comme alias. La ponctuation des MPN n’est pas supprimée. Le registre liste des candidats à regrouper, mais ne transforme aucun groupe en alias prouvé automatiquement. Les collisions bloquent la complétude au lieu de transférer un prix entre variantes.
+
+## Traitement à l’échelle du catalogue
+
+1. **Registre fabricant par MPN.** Partir d’une fiche officielle ou d’un PDF de famille donnant explicitement plusieurs SKU. La fiche européenne be quiet! Pure Power 13 M déjà conservée fournit plusieurs puissances et codes BP distincts dans une seule source. Chaque ligne du catalogue est ensuite raccordée à son code précis ; seules les caractéristiques réellement communes sont partagées.
+2. **Parcours des variantes depuis une fiche validée.** LDLC expose des identifiants de fiches dans ses sélecteurs `data-url-id`. Ce graphe permet de découvrir les capacités et couleurs voisines sans refaire une recherche générale pour chacune. Chaque nouvelle page doit confirmer son propre MPN via sa fiche principale ; le prix du sélecteur ne constitue pas une offre.
+3. **Sources fabricant par famille.** Les pages Crucial par numéro de pièce, les tableaux de capacités Samsung, les manuels ASRock et les fiches techniques be quiet! déjà enregistrés donnent des chemins directs pour compléter des familles. La liste des variantes est une piste de découverte ; le raccordement repose toujours sur MPN, capacité, kit, révision et finition.
+4. **Deux collectes séparées.** Les caractéristiques sont relativement stables et peuvent être conservées avec leur source et leur révision. Les offres doivent être rafraîchies par MPN exact et vendeur, avec date, état, disponibilité et destination. Une offre périmée ne nécessite pas de refaire la recherche des dimensions.
+5. **Visuels par châssis vérifié.** Un même boîtier extérieur peut servir à plusieurs capacités uniquement si les photos et dimensions constructeur confirment ce partage. Les caractéristiques électriques et les prix restent propres à chaque SKU. Toute dimension d’illustration conserve son statut approximatif.
+6. **Exceptions identifiables.** Les familles sans numéro de pièce, les révisions ambiguës et les produits retirés de la vente sont conservés dans une file explicite par ID avec le discriminant manquant. Ils ne sont ni supprimés silencieusement, ni remplacés par un modèle actuel de nom voisin.
+
+Ces chemins sont utilisables avec les preuves déjà réunies. L’audit du dépôt amont ne révèle aucun fichier caché contenant les milliers de MPN manquants et n’établit pas l’existence d’un flux public universel couvrant toutes les marques et générations. Le registre permet de mesurer les travaux terminés et les blocages exacts, sans compter une simple tentative de recherche comme une fiche achevée.
+
+```sh
+node --import tsx scripts/audit-catalog-completion.ts
+node --import tsx --test tests/catalogCompletion.test.ts
+```

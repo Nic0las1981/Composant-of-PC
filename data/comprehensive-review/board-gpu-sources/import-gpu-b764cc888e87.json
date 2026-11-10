@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-b764cc888e87",
+  "expectedName": "VENTUS RTX 2060 SUPER · 8 Go · Noir / Argent · 231 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS",
+    "price": null,
+    "chipset": "GeForce RTX 2060 SUPER",
+    "memory": 8,
+    "core_clock": 1470,
+    "boost_clock": 1650,
+    "color": "Black / Silver",
+    "length": 231
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:57+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-8G-VENTUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-VENTUS-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-VENTUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

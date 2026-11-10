@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ce89e995a0f9",
+  "expectedName": "GeForce RTX 2060 VENTUS GP 12G OC · 12 Go · Gris / Noir · 231 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 2060 VENTUS GP 12G OC",
+    "price": null,
+    "chipset": "GeForce RTX 2060 12GB",
+    "memory": 12,
+    "core_clock": 1470,
+    "boost_clock": 1695,
+    "color": "Gray / Black",
+    "length": 231
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:33+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-12GB-12G-VENTUS-GP-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-12GB-VENTUS-GP-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-12GB-VENTUS-GP-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-GP-12G-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

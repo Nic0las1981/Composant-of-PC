@@ -23,6 +23,13 @@ export interface VerifiedOffer {
   shippingNote: string;
   checkedAt: string;
 }
+export interface VerifiedFieldEvidence {
+  value: unknown;
+  sourceURL: string;
+  checkedAt: string;
+  notApplicable?: boolean;
+  reason?: string;
+}
 export interface VerifiedProduct {
   mpn: string;
   identityNote: string;
@@ -31,4 +38,5 @@ export interface VerifiedProduct {
   patch: Partial<Component>;
   offers: VerifiedOffer[];
   notes: string[];
+  fieldEvidence?: Record<string, VerifiedFieldEvidence>;
 }

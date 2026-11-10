@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-be1277fd83d7",
+  "expectedName": "GAMING TRIO RTX 3080 Ti · 12 Go · Noir / Argent · 324 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO",
+    "price": null,
+    "chipset": "GeForce RTX 3080 Ti",
+    "memory": 12,
+    "core_clock": 1365,
+    "boost_clock": 1695,
+    "color": "Black / Silver",
+    "length": 324
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:01+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-12G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-GAMING-TRIO-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

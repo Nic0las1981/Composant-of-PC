@@ -1,0 +1,60 @@
+{
+  "componentId": "import-gpu-c2442bbf8415",
+  "expectedName": "GAMING RTX 2060 SUPER · 8 Go · Noir / Argent · 248 mm",
+  "originalRecord": {
+    "name": "MSI GAMING",
+    "price": null,
+    "chipset": "GeForce RTX 2060 SUPER",
+    "memory": 8,
+    "core_clock": 1470,
+    "boost_clock": 1650,
+    "color": "Black / Silver",
+    "length": 248
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:55+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-8G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-GAMING-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-GAMING/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-GAMING/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-GAMING/Specification",
+  "httpStatus": 200,
+  "sha256": "fa8b1c57fa4b61a9383f06177a47457a8963584e7e81e787e025f2d799831a40",
+  "status": "specification_fetched",
+  "text": "GeForce RTX 2060 SUPER GAMING\nGraphics Cards\nGeForce RTX 2060 SUPER™ GAMING\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX 2060 SUPER™ GAMING\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nAfterburner OC\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 2060 SUPER™ GAMING\nGraphics Processing Unit\nNVIDIA® GeForce® RTX 2060 SUPER™\nInterface\nPCI Express x16 3.0\nCore Clocks\nBoost: 1650 MHz\nCUDA® CORES\n2176 Units\nMemory Speed\n14 Gbps\nMemory\n8GB GDDR6\nMemory Bus\n256-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)\nHDCP Support\n2.2\nPower consumption\n175 W\nPower connectors\n8-pin x 1\nRecommended PSU\n550 W\nCard Dimension (mm)\n248 x 128 x 52 mm\nWeight (Card / Package)\n981 g / 1579 g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.5\nAfterburner OC\nY\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 248.0,
+    "heightMm": 128.0,
+    "thicknessMm": 52.0,
+    "capacityGB": 8,
+    "powerW": 175.0,
+    "recommendedPsuW": 550.0,
+    "manufacturerPartNumber": "GeForce RTX™ 2060 SUPER™ GAMING",
+    "description": "Carte graphique MSI GAMING RTX 2060 SUPER avec 8 Go. Dimensions constructeur : 248 × 128 × 52 mm. Consommation annoncée par le constructeur : 175 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 248 × 128 × 52 mm",
+      "Consommation carte : 175 W",
+      "Alimentation système conseillée : 550 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

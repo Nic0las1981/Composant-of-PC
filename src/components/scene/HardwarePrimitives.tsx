@@ -93,6 +93,9 @@ export function BoxInstances({
 }) {
   const ref = useRef<THREE.InstancedMesh>(null);
   const surface = useHardwareSurface(visualFinish(finish, metalness));
+  const rounded = items.length > 0 && items.every(item => Math.min(...item.size) >= .018 && Math.max(...item.size) > .08);
+  const instanceGeometry=useMemo(()=>rounded ? new RoundedBoxGeometry(1,1,1,1,.025) : new THREE.BoxGeometry(1,1,1),[rounded]);
+  useEffect(()=>()=>instanceGeometry.dispose(),[instanceGeometry]);
   useLayoutEffect(() => {
     if (!ref.current) return;
     const object = new THREE.Object3D();
@@ -109,11 +112,10 @@ export function BoxInstances({
   return (
     <instancedMesh
       ref={ref}
-      args={[undefined, undefined, items.length]}
+      args={[instanceGeometry, undefined, items.length]}
       castShadow
       receiveShadow
     >
-      <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial
         color={color}
         metalness={metalness}
@@ -292,12 +294,22 @@ function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
     shape.bezierCurveTo(0.82, 0.17, 0.67, 0.23, 0.51, 0.15);
     shape.bezierCurveTo(0.35, 0.09, 0.26, 0.07, 0.17, 0.07);
     shape.closePath();
-    return new THREE.ExtrudeGeometry(shape, {
-      depth: 0.025,
-      bevelEnabled: false,
-      curveSegments: 6,
+    const blade = new THREE.ExtrudeGeometry(shape, {
+      depth: 0.018,
+      bevelEnabled: true,
+      bevelSize: .003,
+      bevelThickness: .002,
+      bevelSegments: 1,
+      curveSegments: 10,
       steps: 1,
     });
+    const vertices=blade.getAttribute("position");
+    for(let i=0;i<vertices.count;i++){
+      const x=vertices.getX(i),y=vertices.getY(i);
+      vertices.setZ(i,vertices.getZ(i)+y*(.32+.2*x)+.035*x*x);
+    }
+    blade.computeVertexNormals();
+    return blade;
   }, []);
   useEffect(() => () => geometry.dispose(), [geometry]);
   useLayoutEffect(() => {
@@ -436,9 +448,9 @@ export function HardwareFan({
       <mesh position={[0, 0, 0.039]}>
         <circleGeometry args={[radius * 0.13, 16]} />
         <meshStandardMaterial
-          color="#777f85"
-          metalness={0.85}
-          roughness={0.25}
+          color={color}
+          metalness={0.12}
+          roughness={0.52}
         />
       </mesh>
       {hubLabel && (

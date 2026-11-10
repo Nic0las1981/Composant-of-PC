@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-3ce7daaa5915",
+  "expectedName": "VENTUS 3X OC RTX 3080 Ti · 12 Go · Noir / Argent · 305 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X OC",
+    "price": 1345,
+    "chipset": "GeForce RTX 3080 Ti",
+    "memory": 12,
+    "core_clock": 1365,
+    "boost_clock": 1695,
+    "color": "Black / Silver",
+    "length": 305
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:30+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-12G-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-VENTUS-3X-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

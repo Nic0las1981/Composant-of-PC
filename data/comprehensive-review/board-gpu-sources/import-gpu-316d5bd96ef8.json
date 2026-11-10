@@ -1,0 +1,60 @@
+{
+  "componentId": "import-gpu-316d5bd96ef8",
+  "expectedName": "MECH OC RX 5700 · 8 Go · Noir · 232 mm",
+  "originalRecord": {
+    "name": "MSI MECH OC",
+    "price": null,
+    "chipset": "Radeon RX 5700",
+    "memory": 8,
+    "core_clock": 1515,
+    "boost_clock": 1750,
+    "color": "Black",
+    "length": 232
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:46+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-8G-MECH-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH-OC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH-OC/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH-OC/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH-OC/Specification",
+  "httpStatus": 200,
+  "sha256": "bbd9567c162ab859939d53b6d8cbc286a451abf9841f5c76bc62f9cd11c3bcea",
+  "status": "specification_fetched",
+  "text": "Radeon RX 5700 MECH OC\nGraphics Cards\nRadeon RX 5700 MECH OC\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nRadeon RX 5700 MECH OC\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMulti-GPU Technology\nAfterburner OC\nMaximum Displays\nVR Ready\nDigital Maximum Resolution\nModel Name\nRadeon RX 5700 MECH OC\nGraphics Processing Unit\nRadeon™ RX 5700\nInterface\nPCI Express 4.0\nCore Clocks\nBoost: Up to 1750 MHzGame: Up to 1675 MHzBase: 1515 MHz(Game Clock is the expected GPU clock when running typical gaming applications, set to typical TGP (Total Graphics Power). Actual individual game clock results may vary.)\nCUDA® CORES\n2304 Units\nMemory Speed\n14Gbps\nMemory\n8GB GDDR6\nMemory Bus\n256-bit\nOutput\nDisplayPort x 3 (v1.4) / HDMI™ 2.0b x 1\nHDCP Support\nY\nPower consumption\n180 W\nPower connectors\n8-pin x 1\nRecommended PSU\n750W\nCard Dimension (mm)\n232x 126 x 46 mm\nWeight (Card / Package)\n788g / 1232g\nDirectX Version Support\n12\nOpenGL Version Support\n4.6\nMulti-GPU Technology\nY (Bridgeless)(DX12)\nAfterburner OC\nY\nMaximum Displays\n4\nVR Ready\nY\nDigital Maximum Resolution\n7680x4320\n© AMD, and the AMD Arrow logo, Radeon, FreeSync, and combinations thereof are trademarks of Advanced Micro Devices, Inc. DirectX and Microsoft are registered trademarks of Microsoft Corporation in the US and other jurisdictions. PCI Express is a registered trademark of PCI-SIG Corporation. Vulkan and the Vulkan logo are trademarks of the Khronos Group Inc. Other product names are for identification purposes only and may be trademarks of their respective companies.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.\n‘Boost Clock Frequency’ is the maximum frequency achievable on the GPU running a bursty workload. Boost clock achievability, frequency, and sustainability will vary based on several factors, including but not limited to: thermal conditions and variation in applications and workloads. ‘Game Frequency’ is the expected GPU clock when running typical gaming applications, set to typical TGP (Total Graphics Power). Actual individual game clock results may vary. © 2026 Micro-Star Int'l Co.Ltd. MSI is a registered trademark of Micro-Star Int'l Co.Ltd. All rights reserved.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 232.0,
+    "heightMm": 126.0,
+    "thicknessMm": 46.0,
+    "capacityGB": 8,
+    "powerW": 180.0,
+    "recommendedPsuW": 750.0,
+    "manufacturerPartNumber": "Radeon RX 5700 MECH OC",
+    "description": "Carte graphique MSI MECH OC RX 5700 avec 8 Go. Dimensions constructeur : 232 × 126 × 46 mm. Consommation annoncée par le constructeur : 180 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 232 × 126 × 46 mm",
+      "Consommation carte : 180 W",
+      "Alimentation système conseillée : 750 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

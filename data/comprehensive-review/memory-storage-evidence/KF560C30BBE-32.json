@@ -1,0 +1,21 @@
+{
+  "url": "https://www.kingston.com/datasheets/KF560C30BBE-32.pdf",
+  "checkedAt": "2026-11-10T11:02:12.385Z",
+  "raw_content": "KINGSTON\nFURY\nDDR5\nBEAST\n\n## DESCRIPTION\n\n| CL(IDD) | 40 cycles |\n| --- | --- |\n| Row Cycle Time (tRCmin) | 48ns(min.) |\n| Refresh to Active/Refresh Command Time (tRFCmin) | 295ns(min.) |\n| Row Active Time (tRASmin) | 32ns(min.) |\n| UL Rating | 94 V - 0 |\n| Operating Temperature | o C to +85 o C 0 |\n| Storage Temperature | o C to +100 o C -55 |\n\nKingston FURY KF560C30BBE-32 is a 4G x 64-bit (32GB) \nDDR5-6000 CL30 SDRAM (Synchronous DRAM) 2Rx8, memory \nmodule, based on sixteen 2G x 8-bit FBGA components per module.  \nThe module supports AMD® EXPO v1.1 and Intel® Extreme \nMemory Profiles (Intel® XMP) 3.0.  Each module has been \ntested to run at DDR5-6000 at a low latency timing of 30-36-36 at \n1.4V.  The SPDs are programmed to JEDEC standard latency \nDDR5-4800 timing of 40-39-39 at 1.1V.  Each 288-pin DIMM \nuses gold contact fingers.  The JEDEC standard electrical \nand mechanical specifications are as follows:\n\n## DEFAULT SPECIFICATIONS\n\n• EXPO Profile #0: DDR5-6000 CL30-36-36 @1.4V\n\n## FACTORY TIMING PARAMETERS\n\n• Default (JEDEC): DDR5-4800 CL40-39-39 @1.1V\n\n• EXPO Profile #1: DDR5-5600 CL40-40-40 @1.25V\n\n• XMP Profile #1:  DDR5-6000 CL30-36-36 @1.4V\n\n• XMP Profile #2:  DDR5-5600 CL40-40-40 @1.25V\n\n• On-Die ECC\n\n• Height 1.37” (34.9mm), w/heatsink\n\n• VDDSPD = 1.8V to 2.0V\n\n• VDDQ = 1.1V Typical\n\n• VPP = 1.8V Typical\n\n## DEFAULT FEATURES\n\n• Power Supply: VDD = 1.1V Typical\n\n[Image: Im3]**Document No. 4811293A    02/15/24     Page 1**\n\n---\n\n## MODULE WITH HEAT SPREADER\n\n133.35 mm\n34.9 mm\n\n## MODULE DIMENSIONS\n\n...\n\nAll measurements are in millimeters.\n\n(Tolerances on all dimensions are ±0.15 unless otherwise specified)\n\nThe product images shown are for illustration purposes only and may not be an exact representation of the product. \nKingston reserves the right to change any information at anytime without notice.\n\n## FOR MORE INFORMATION, GO TO KINGSTON.COM\n\nAll Kingston products are tested to meet our published specifications. Some motherboards or system configurations may not operate at \nthe published Kingston FURY memory speeds and timing settings. Kingston does not recommend that any user attempt to run their \ncomputers faster than the published speed. Overclocking or modifying your system timing may result in damage to computer components.\n\n[Image: Im2]**Document No. 4811293A     Page 2**",
+  "metadata": {
+    "scrapeId": "01a1c51f-394b-71dd-bfbf-18f693bde0d7",
+    "sourceURL": "https://www.kingston.com/datasheets/KF560C30BBE-32.pdf",
+    "url": "https://www.kingston.com/datasheets/KF560C30BBE-32.pdf",
+    "statusCode": 200,
+    "numPages": 2,
+    "totalPages": 2,
+    "title": "KF560C30BBE-32",
+    "contentType": "application/pdf",
+    "proxyUsed": "basic",
+    "cacheState": "miss",
+    "indexId": "2b4a14ca-7804-4225-907c-51f94d23f463",
+    "creditsUsed": 2,
+    "concurrencyLimited": false
+  },
+  "extractedTextSha256": "e665a4d36d0a91d36764827fb1c5277ae4460fac999d3da9f92b13a78da17f5b"
+}

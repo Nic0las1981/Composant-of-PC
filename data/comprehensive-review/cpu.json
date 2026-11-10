@@ -1,0 +1,2711 @@
+{
+  "checkedAt": "2026-11-10T11:36:48.635157+00:00",
+  "summary": {
+    "reviewed": 26,
+    "manufacturerPages": 26,
+    "amdElectricalValuesCleared": 20,
+    "intelMtpDocumented": 6,
+    "statusCounts": {
+      "documented_except_ppt": 20,
+      "documented": 6
+    }
+  },
+  "records": [
+    {
+      "id": "cpu-7800x3d",
+      "mpn": "100-100000910WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "checkedAt": "2026-11-10T08:50:35.086714+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 120
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+          "sourceLabel": "ECC Support"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:50:35.076160+00:00",
+        "2026-11-10T08:50:35.114923+00:00",
+        "2026-11-10T08:50:35.077430+00:00"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7600",
+      "mpn": "100-100001015BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "checkedAt": "2026-11-10T08:43:48.750Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.428Z",
+        "2026-11-10T08:47:43.204Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5600",
+      "mpn": "100-100000927BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+        "checkedAt": "2026-11-10T11:32:30.318694+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:47:42.430Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-14600kf",
+      "mpn": "BX8071514600KF",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:32:30.415395+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 181,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 181
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence boost E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Fréquence de base E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236778/intel-core-i5-processor-14600kf-24m-cache-up-to-5-30-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/processeurs-processeur-intel-core-i5-14600kf-14-coeurs-3-5-ghz-base-5-3-ghz-turbo-overclocking-socket-lga-1700",
+          "sourceLabel": "Graphiques intégrés"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:47:43.123Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    },
+    {
+      "id": "cpu-5700x",
+      "mpn": "100-100000926WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+        "checkedAt": "2026-11-10T11:32:30.253110+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.394Z",
+        "2026-11-10T08:47:42.927Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5800x3d",
+      "mpn": "100-100000651WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+        "checkedAt": "2026-11-10T08:43:49.064Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x3d.html",
+          "sourceLabel": "ECC Support"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:49:57.591Z"
+      ],
+      "notes": [
+        "La page AMD actuelle mentionne le conditionnement 100-100000651POF. Seules ses caractéristiques du processeur Ryzen 7 5800X3D sont reprises ; aucun accessoire de ce conditionnement n’est attribué au WOF vendu ici.",
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5900x",
+      "mpn": "100-100000061WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+        "checkedAt": "2026-11-10T08:43:48.492Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5900x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.ldlc.com/fiche/PB00387536.html",
+          "sourceLabel": "Type de contrôleur mémoire"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.862Z",
+        "2026-11-10T08:47:42.486Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7700x",
+      "mpn": "100-100000591WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+        "checkedAt": "2026-11-10T08:43:48.916Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.539Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7900x",
+      "mpn": "100-100000589WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "checkedAt": "2026-11-10T08:43:48.804Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 230
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:59.515Z",
+        "2026-11-10T08:47:43.425Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7950x",
+      "mpn": "100-100000514WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+        "checkedAt": "2026-11-10T08:43:48.512Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 230
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.263Z",
+        "2026-11-10T08:47:42.687Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-9800x3d",
+      "mpn": "100-100001084WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "checkedAt": "2026-11-10T08:43:48.420Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 162
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:59.297Z",
+        "2026-11-10T08:47:43.125Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-12400f",
+      "mpn": "BX8071512400F",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:33:16.613905+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 117,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 117
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134587/intel-core-i512400f-processor-18m-cache-up-to-4-40-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/processeurs-processeur-intel-core-i5-12400f-6-coeurs-2-5-ghz-4-4-ghz-turbo-socket-lga1700-box",
+          "sourceLabel": "Contrôleur graphique intégré"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.618Z",
+        "2026-11-10T08:47:43.576Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    },
+    {
+      "id": "cpu-13600kf",
+      "mpn": "BX8071513600KF",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:33:16.650630+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 181,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 181
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence boost E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Fréquence de base E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/intel-core-i5-13600kf-processeur-24-mo-smart-cache-boite",
+          "sourceLabel": "Contrôleur graphique intégré"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.574Z",
+        "2026-11-10T08:47:44.368Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    },
+    {
+      "id": "cpu-14700kf",
+      "mpn": "BX8071514700KF",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:33:16.620549+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 253,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 253
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence boost E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Fréquence de base E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/236789/intel-core-i7-processor-14700kf-33m-cache-up-to-5-60-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/processeurs-processeur-intel-core-i7-14700kf-20-coeurs-3-4-ghz-base-5-6-ghz-turbo-overclocking-lga1700",
+          "sourceLabel": "Contrôleur graphique intégré"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:43:00.060Z",
+        "2026-11-10T08:47:43.512Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    },
+    {
+      "id": "cpu-5500",
+      "mpn": "100-100000457BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+        "checkedAt": "2026-11-10T11:32:30.275075+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.622Z",
+        "2026-11-10T08:47:44.445Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5600x",
+      "mpn": "100-100000065BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+        "checkedAt": "2026-11-10T08:43:48.723Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.pccomponentes.fr/processeurs-amd-ryzen-5-5600x-3-7-ghz",
+          "sourceLabel": "Type de contrôleur mémoire"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.689Z",
+        "2026-11-10T08:47:42.376Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5700x3d",
+      "mpn": "100-100001503WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "checkedAt": "2026-11-10T11:32:30.309930+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "sourceLabel": "ECC Support"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.508Z",
+        "2026-11-10T08:47:42.808Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-5950x",
+      "mpn": "100-100000059WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+        "checkedAt": "2026-11-10T08:43:49.262Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.pccomponentes.fr/processeurs-amd-ryzen-9-5950x-3-4-ghz?refurbished",
+          "sourceLabel": "Type de contrôleur mémoire"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:43:00.220Z",
+        "2026-11-10T08:47:42.692Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7500f",
+      "mpn": "100-000000597",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+        "checkedAt": "2026-11-10T08:43:48.965Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.392Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7600x",
+      "mpn": "100-100000593WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+        "checkedAt": "2026-11-10T08:43:48.507Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 142
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.373Z",
+        "2026-11-10T08:47:43.494Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7700",
+      "mpn": "100-100000592BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+        "checkedAt": "2026-11-10T08:43:48.678Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.449Z",
+        "2026-11-10T08:47:42.967Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-7900",
+      "mpn": "100-100000590BOX",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+        "checkedAt": "2026-11-10T08:43:48.907Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:59.144Z",
+        "2026-11-10T08:47:43.310Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-9600x",
+      "mpn": "100-100001405WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+        "checkedAt": "2026-11-10T08:43:50.266Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.242Z",
+        "2026-11-10T08:47:42.921Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-9700x",
+      "mpn": "100-100001404WOF",
+      "manufacturerSource": {
+        "name": "AMD — caractéristiques du modèle exact",
+        "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+        "checkedAt": "2026-11-10T08:43:48.755Z",
+        "kind": "manufacturer"
+      },
+      "status": "documented_except_ppt",
+      "missing": [
+        "PPT non publié"
+      ],
+      "electricalBudget": {
+        "valueW": null,
+        "kind": "unknown_ppt",
+        "oldValueW": 88
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "# of CPU Cores"
+        },
+        "Threads": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "# of Threads"
+        },
+        "Fréquence de base": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Base Clock"
+        },
+        "Fréquence boost": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Max. Boost Clock"
+        },
+        "Cache L1": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "L1 Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "L2 Cache"
+        },
+        "Cache L3": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "L3 Cache"
+        },
+        "TDP nominal": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Default TDP"
+        },
+        "Socket": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "CPU Socket"
+        },
+        "Contrôleur mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "System Memory Type"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Memory Channels"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Max. Memory"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Graphics Model"
+        },
+        "Cœurs graphiques": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Graphics Core Count"
+        },
+        "Fréquence graphique": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Graphics Frequency"
+        },
+        "Température maximale": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Max. Operating Temperature (Tjmax)"
+        },
+        "Architecture CPU": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Processor Architecture"
+        },
+        "Interface PCIe": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "PCI Express® Version"
+        },
+        "Prise en charge ECC": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "ECC Support"
+        },
+        "Multiplicateur débloqué": {
+          "url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+          "sourceLabel": "Unlocked for Overclocking"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:59.933Z"
+      ],
+      "notes": [
+        "Le TDP constructeur décrit une enveloppe thermique. Aucune limite électrique PPT du modèle n’est publiée dans les sources consultées : la valeur électrique précédente est retirée et le budget reste partiel. Aucun coefficient TDP → PPT n’est appliqué."
+      ]
+    },
+    {
+      "id": "cpu-12600kf",
+      "mpn": "BX8071512600KF",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:33:16.612921+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 150,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 150
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence boost E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Fréquence de base E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/intel-core-i5-12600kf-processeur-20-mo-smart-cache-boite",
+          "sourceLabel": "Contrôleur graphique intégré"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:42:58.410Z",
+        "2026-11-10T08:47:40.776Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    },
+    {
+      "id": "cpu-13700kf",
+      "mpn": "BX8071513700KF",
+      "manufacturerSource": {
+        "name": "Intel — caractéristiques du modèle exact",
+        "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+        "checkedAt": "2026-11-10T11:33:16.633235+00:00",
+        "kind": "manufacturer"
+      },
+      "status": "documented",
+      "missing": [],
+      "electricalBudget": {
+        "valueW": 253,
+        "kind": "manufacturer_mtp",
+        "oldValueW": 253
+      },
+      "fieldSources": {
+        "Cœurs": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Total Cores"
+        },
+        "Cœurs P": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "# of Performance-cores"
+        },
+        "Cœurs E": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "# of Efficient-cores"
+        },
+        "Threads": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Total Threads"
+        },
+        "Fréquence boost": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Max Turbo Frequency"
+        },
+        "Fréquence boost P-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Performance-core Max Turbo Frequency"
+        },
+        "Fréquence boost E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Max Turbo Frequency"
+        },
+        "Fréquence de base": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Performance-core Base Frequency"
+        },
+        "Fréquence de base E-core": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Efficient-core Base Frequency"
+        },
+        "Cache L3": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Cache"
+        },
+        "Cache L2": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Total L2 Cache"
+        },
+        "Puissance de base du processeur (PBP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Processor Base Power"
+        },
+        "Puissance électrique maximale Turbo (MTP)": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Maximum Turbo Power"
+        },
+        "Capacité mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Max Memory Size (dependent on memory type)"
+        },
+        "Canaux mémoire": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Max # of Memory Channels"
+        },
+        "Bande passante mémoire maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Max Memory Bandwidth"
+        },
+        "Interface PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "PCI Express Revision"
+        },
+        "Lignes PCIe": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Max # of PCI Express Lanes"
+        },
+        "Socket": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Sockets Supported"
+        },
+        "Température maximale": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "TJUNCTION"
+        },
+        "Dimensions du boîtier CPU": {
+          "url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html",
+          "sourceLabel": "Package Size"
+        },
+        "Graphiques intégrés": {
+          "url": "https://www.pccomponentes.fr/intel-core-i7-13700kf-processeur-30-mo-smart-cache-boite?refurbished",
+          "sourceLabel": "Contrôleur graphique intégré"
+        }
+      },
+      "offerDatesPreserved": [
+        "2026-11-10T08:43:00.118Z",
+        "2026-11-10T08:47:43.454Z"
+      ],
+      "notes": [
+        "Puissance de base (PBP) et Maximum Turbo Power (MTP) sont publiés séparément par Intel. Le budget électrique utilise le MTP documenté, pas le PBP ; les réglages de carte mère peuvent modifier les limites."
+      ]
+    }
+  ]
+}

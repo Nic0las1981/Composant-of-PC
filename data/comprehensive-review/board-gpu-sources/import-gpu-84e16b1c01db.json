@@ -1,0 +1,40 @@
+{
+  "componentId": "import-gpu-84e16b1c01db",
+  "expectedName": "GeForce RTX 3070 SUPRIM X 8G · 8 Go · Noir / Argent · 335 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3070 SUPRIM X 8G",
+    "price": null,
+    "chipset": "GeForce RTX 3070",
+    "memory": 8,
+    "core_clock": 1500,
+    "boost_clock": 1920,
+    "color": "Black / Silver",
+    "length": 335
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:43+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-8G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-SUPRIM-X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

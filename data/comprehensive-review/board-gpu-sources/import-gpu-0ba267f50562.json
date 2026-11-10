@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-0ba267f50562",
+  "expectedName": "GeForce RTX 3080 GAMING TRIO 10G · 10 Go · Noir · 323 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3080 GAMING TRIO 10G",
+    "price": null,
+    "chipset": "GeForce RTX 3080 10GB",
+    "memory": 10,
+    "core_clock": 1440,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:02+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-10G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-GAMING-TRIO-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-GAMING-TRIO-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

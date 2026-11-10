@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-58f6a0b81c2a",
+  "expectedName": "VENTUS GP RTX 2080 · 8 Go · Argent / Noir · 255 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS GP",
+    "price": null,
+    "chipset": "GeForce RTX 2080",
+    "memory": 8,
+    "core_clock": 1710,
+    "boost_clock": null,
+    "color": "Silver / Black",
+    "length": 255
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:12+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-8G-VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-GP-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-b31969ff8de5",
+  "expectedName": "GAMING Z TRIO RTX 3070 LHR · 8 Go · Noir / Argent · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING Z TRIO",
+    "price": 948.99,
+    "chipset": "GeForce RTX 3070 LHR",
+    "memory": 8,
+    "core_clock": 1500,
+    "boost_clock": 1845,
+    "color": "Black / Silver",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:47+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-8G-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-GAMING-Z-TRIO-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

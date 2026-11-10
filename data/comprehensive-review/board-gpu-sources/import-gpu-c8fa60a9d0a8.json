@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-c8fa60a9d0a8",
+  "expectedName": "SLIM STALKER 2 EDITION RTX 4070 Ti SUPER · 16 Go · Vert / Orange · 307 mm",
+  "originalRecord": {
+    "name": "MSI SLIM STALKER 2 EDITION",
+    "price": null,
+    "chipset": "GeForce RTX 4070 Ti SUPER",
+    "memory": 16,
+    "core_clock": 2340,
+    "boost_clock": 2625,
+    "color": "Green / Orange",
+    "length": 307
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:46+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-SLIM-STALKER-2-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-SLIM-STALKER-2-EDITION-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-SLIM-STALKER-2-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SLIM-STALKER-2-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

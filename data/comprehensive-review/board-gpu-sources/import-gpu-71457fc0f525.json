@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-71457fc0f525",
+  "expectedName": "RX 6600 XT MECH 2X 8G OC · 8 Go · Noir / Argent · 235 mm",
+  "originalRecord": {
+    "name": "MSI RX 6600 XT MECH 2X 8G OC",
+    "price": 648,
+    "chipset": "Radeon RX 6600 XT",
+    "memory": 8,
+    "core_clock": 1968,
+    "boost_clock": 2602,
+    "color": "Black / Silver",
+    "length": 235
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:19+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6600-XT-8G-MECH-2X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6600-XT-MECH-2X-OC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6600-XT-MECH-2X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RX-6600-XT-MECH-2X-8G-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

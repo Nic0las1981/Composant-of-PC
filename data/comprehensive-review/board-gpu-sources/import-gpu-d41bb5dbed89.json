@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-d41bb5dbed89",
+  "expectedName": "AERO ITX RTX 2060 · 6 Go · Noir / Blanc · 175 mm",
+  "originalRecord": {
+    "name": "MSI AERO ITX",
+    "price": null,
+    "chipset": "GeForce RTX 2060",
+    "memory": 6,
+    "core_clock": 1365,
+    "boost_clock": 1680,
+    "color": "Black / White",
+    "length": 175
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:15+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-6G-AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

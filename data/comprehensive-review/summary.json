@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-10T11:45:44.925Z",
+  "total": 10564,
+  "statuses": {
+    "identity_missing": 9502,
+    "ready": 100,
+    "source_missing": 5,
+    "technical_missing": 957
+  },
+  "pricing": {
+    "current": 295,
+    "no_current_eligible_offer": 107,
+    "offer_missing": 10162
+  },
+  "visual": {
+    "reference_missing": 10554,
+    "reference_reviewed": 10
+  },
+  "completeForUserRequest": 7,
+  "byCategory": {
+    "cpu": {
+      "ready": 6,
+      "technical_missing": 20
+    },
+    "motherboard": {
+      "identity_missing": 1019,
+      "ready": 60,
+      "technical_missing": 424
+    },
+    "gpu": {
+      "identity_missing": 2285,
+      "technical_missing": 189
+    },
+    "ram": {
+      "identity_missing": 3717,
+      "ready": 19,
+      "source_missing": 5,
+      "technical_missing": 123
+    },
+    "storage": {
+      "identity_missing": 749,
+      "ready": 4,
+      "technical_missing": 79
+    },
+    "cooler": {
+      "ready": 1,
+      "technical_missing": 24
+    },
+    "psu": {
+      "identity_missing": 1732,
+      "ready": 3,
+      "technical_missing": 85
+    },
+    "case": {
+      "ready": 7,
+      "technical_missing": 13
+    }
+  },
+  "provenAliasGroups": 0,
+  "manufacturerAliasCandidates": 1,
+  "conflictingMPNGroups": 0,
+  "indistinguishableArchiveGroups": 0
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-547a414f04ee",
+  "expectedName": "VENTUS XS OC RTX 2060 · 6 Go · Argent / Noir · 205 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS XS OC",
+    "price": null,
+    "chipset": "GeForce RTX 2060",
+    "memory": 6,
+    "core_clock": 1365,
+    "boost_clock": 1710,
+    "color": "Silver / Black",
+    "length": 205
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:48+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-6G-VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-OC-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-2ef4482c2fc8",
+  "expectedName": "EVOKE RX 5700 XT · 8 Go · Or · 254 mm",
+  "originalRecord": {
+    "name": "MSI EVOKE",
+    "price": null,
+    "chipset": "Radeon RX 5700 XT",
+    "memory": 8,
+    "core_clock": 1630,
+    "boost_clock": 1905,
+    "color": "Gold",
+    "length": 254
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:12+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-XT-8G-EVOKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-XT-EVOKE-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-XT-EVOKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/EVOKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

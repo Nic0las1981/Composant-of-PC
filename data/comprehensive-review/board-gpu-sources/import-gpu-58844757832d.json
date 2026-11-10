@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-58844757832d",
+  "expectedName": "GAMING RTX 5060 Ti · 8 Go · Noir · 247 mm",
+  "originalRecord": {
+    "name": "MSI GAMING",
+    "price": null,
+    "chipset": "GeForce RTX 5060 Ti",
+    "memory": 8,
+    "core_clock": 2410,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:18+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-GAMING-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

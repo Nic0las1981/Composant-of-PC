@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-95a025cc62f2",
+  "expectedName": "SUPRIM RTX 3080 12GB LHR · 12 Go · Argent / Noir · 336 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM",
+    "price": null,
+    "chipset": "GeForce RTX 3080 12GB LHR",
+    "memory": 12,
+    "core_clock": 1260,
+    "boost_clock": 1830,
+    "color": "Silver / Black",
+    "length": 336
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:20+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-12G-SUPRIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-SUPRIM-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-SUPRIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

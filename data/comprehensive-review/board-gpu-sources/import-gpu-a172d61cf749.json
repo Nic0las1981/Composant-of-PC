@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-a172d61cf749",
+  "expectedName": "VENTUS 2X OC RTX 4060 Ti · 16 Go · Noir · 199 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X BLACK OC",
+    "price": 479.99,
+    "chipset": "GeForce RTX 4060 Ti",
+    "memory": 16,
+    "core_clock": 2310,
+    "boost_clock": 2625,
+    "color": "Black",
+    "length": 199
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-16G-VENTUS-2X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-OC-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

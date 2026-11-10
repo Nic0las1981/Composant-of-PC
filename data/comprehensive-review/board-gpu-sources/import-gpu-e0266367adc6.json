@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-e0266367adc6",
+  "expectedName": "SUPRIM SE RTX 3090 Ti · 24 Go · Noir · 338 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM SE",
+    "price": null,
+    "chipset": "GeForce RTX 3090 Ti",
+    "memory": 24,
+    "core_clock": 1560,
+    "boost_clock": 1875,
+    "color": "Black",
+    "length": 338
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:20+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-Ti-24G-SUPRIM-SE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-Ti-SUPRIM-SE-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-Ti-SUPRIM-SE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM-SE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

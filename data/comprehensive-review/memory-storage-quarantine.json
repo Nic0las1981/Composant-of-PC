@@ -1,0 +1,233 @@
+[
+  {
+    "id": "import-ssd-de421ed9b197",
+    "badMPN": "SNV3S/500G",
+    "catalogName": "NV3 4 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 4000,
+    "reason": "La capacité publiée diffère de celle de l’archive ; identité à réconcilier avant disponibilité. Des valeurs de sources divergent ; elles restent visibles dans le rapport et ne sont pas remplacées arbitrairement.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-kingston-technology-nv3-500-go-m-2-pci-express-4-0-nvme-3d-nand"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-01c097994185",
+    "badMPN": "SDSSDE61-2T00-G25",
+    "catalogName": "Extreme 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "La fiche primaire identifie un support externe/USB ou SATA : incompatible avec un emplacement M.2 NVMe.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/sandisk-extreme-portable-2000-go-noir"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-a5fdbad3ac4a",
+    "badMPN": "SDSSDE61-500G-G25",
+    "catalogName": "Extreme 500 Go · PCIe 4.0 ×4",
+    "catalogCapacityGB": 500,
+    "reason": "La fiche primaire identifie un support externe/USB ou SATA : incompatible avec un emplacement M.2 NVMe.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/sandisk-extreme-portable-500-go-noir"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-c684100ebdf8",
+    "badMPN": "MZ-V9S2T0BW",
+    "catalogName": "990 EVO Plus 4 To · PCIe 5.0 ×2",
+    "catalogCapacityGB": 4000,
+    "reason": "La capacité publiée diffère de celle de l’archive ; identité à réconcilier avant disponibilité. Des valeurs de sources divergent ; elles restent visibles dans le rapport et ne sont pas remplacées arbitrairement.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-ssd-samsung-990-evo-plus-2-to-7-250-mo-s-nvme-pcie-5-0-x2-nvme-2-0-nand"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-b5760a34b49c",
+    "badMPN": "STKL1000400",
+    "catalogName": "Game Drive 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "La fiche primaire identifie un support externe/USB ou SATA : incompatible avec un emplacement M.2 NVMe.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/seagate-game-drive-firecuda-disque-dur-externe-1000-go-noir"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-b97811d8a0ba",
+    "badMPN": "STKL2000400",
+    "catalogName": "Game Drive 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "La fiche primaire identifie un support externe/USB ou SATA : incompatible avec un emplacement M.2 NVMe.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/seagate-game-drive-firecuda-disque-dur-externe-2000-go-noir"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute a USB drive or another capacity."
+  },
+  {
+    "id": "import-ssd-da9e7bd71b8b",
+    "badMPN": "SB-213Q-2TB",
+    "catalogName": "Rocket 4.0 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "Format incompatible : archive Sabrent Rocket 4.0 M.2-2280 ; page SB-213Q-2TB Rocket Q4 explicitement M.2 2230 (22 × 30 mm). La capacité identique ne valide pas la référence.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-disco-duro-sabrent-rocket-q4-2tb-m2-ssd-pcie-40-nvme-smart"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-7d57137df60e",
+    "badMPN": "SB-213Q-2TB",
+    "catalogName": "Rocket Q4 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "Format incompatible : archive Sabrent Rocket Q4 M.2-2280 ; page SB-213Q-2TB explicitement M.2 2230 (22 × 30 mm).",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-disco-duro-sabrent-rocket-q4-2tb-m2-ssd-pcie-40-nvme-smart"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-986992c87e51",
+    "badMPN": "CSSD-F2000GBMP600CXT",
+    "catalogName": "MP600 CORE 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "Variante différente : archive Corsair MP600 CORE ; page et MPN CSSD-F2000GBMP600CXT correspondent au MP600 CORE XT. La variante XT existe séparément au catalogue.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-corsair-mp600-core-xt-2-to-gen4-pcie-x4-nvme-m-2"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ram-ddfe1be90d5e",
+    "badMPN": "AX5U6000C3016G-SLABRBK",
+    "catalogName": "XPG LANCER RGB 16 Go (1 × 16 Go) DDR5-6000 CL30 · Noir",
+    "catalogCapacityGB": 16,
+    "reason": "Variante différente : archive ADATA XPG LANCER RGB ; page et MPN AX5U6000C3016G-SLABRBK correspondent au XPG Lancer Blade RGB. La variante Blade possède une entrée distincte ; aucune équivalence de référence n’est démontrée.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/memoire-ram-adata-xpg-lancer-blade-rgb-16go-1x16go-ddr5-6000mhz-cl30-amd-expo-noir"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-8b3a6dcd4615",
+    "badMPN": "AG4731TB N",
+    "catalogName": "AORUS Gen4 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "Génération commerciale différente : archive Gigabyte AORUS Gen4 ; page AG4731TB N explicitement AORUS Gen4 7300. Le modèle 7300 existe séparément au catalogue.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-gigabyte-aorus-gen4-7300-1tb-m-2-nvme-7300mb-s-cache-ddr4"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-920781bf2686",
+    "badMPN": "CSSD-F0500GBMP600GS",
+    "catalogName": "MP600 500 Go · PCIe 4.0 ×4",
+    "catalogCapacityGB": 500,
+    "reason": "Variante différente : archive Corsair MP600 ; page et MPN CSSD-F0500GBMP600GS correspondent au MP600 GS. Les modèles MP600 et MP600 GS ne sont pas interchangeables.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-corsair-mp600-gs-500-go-m-2-gen4-pcie-x4-nvme"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-3025f52141b4",
+    "badMPN": "CSSD-F2000GBMP600PNH",
+    "catalogName": "MP600 PRO 2 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 2000,
+    "reason": "Variante de refroidissement différente : archive Corsair MP600 PRO ; page et MPN CSSD-F2000GBMP600PNH correspondent au MP600 PRO NH. La variante NH possède une entrée distincte.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-corsair-mp600-pro-nh-2-to-m-2-gen4-pcie-x4-nvme"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-cc68a9e7c2f1",
+    "badMPN": "ALEG-960M-1TCS",
+    "catalogName": "Legend 960 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "Variante différente : archive ADATA Legend 960 ; page et MPN ALEG-960M-1TCS correspondent au LEGEND 960 MAX avec dissipateur. Le modèle MAX possède une entrée distincte.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-1000-go-pci-express-4-0-3d-nand-nvme"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-a246ff4c6b8d",
+    "badMPN": "CSSD-F1000GBMP600PXT",
+    "catalogName": "MP600 PRO 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "Variante différente : archive Corsair MP600 PRO ; page et MPN CSSD-F1000GBMP600PXT correspondent au MP600 PRO XT. La variante XT possède une entrée distincte.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-corsair-mp600-pro-xt-ssd-1-to-gen4-pcie-x4-nvme-m-2"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-fd531c07a9db",
+    "badMPN": "ALEG-960M-4TCS",
+    "catalogName": "Legend 960 4 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 4000,
+    "reason": "Variante différente : archive ADATA Legend 960 ; page et MPN ALEG-960M-4TCS correspondent au LEGEND 960 MAX avec dissipateur. Le modèle MAX possède une entrée distincte.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-adata-legend-960-max-m-2-4-to-pci-express-4-0-3d-nand-nvme"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-4b370adc4f5c",
+    "badMPN": "K01TBM2SP0-C7T",
+    "catalogName": "CRAS C715 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "Génération d’interface contradictoire : archive Klevv CRAS C715 déclarée PCIe 4.0 ×4 ; tableau primaire K01TBM2SP0-C7T explicitement PCI Express 3.0 et lignes PCIe x4. L’identité et la description doivent être réconciliées avant admission.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-klevv-cras-c715-1-tb-m-2-nvme-3200-mb-s-x4"
+    ],
+    "action": "Quarantine prior reference match, sources and offers. Preserve the archived component; do not substitute another size, family, revision or cooling variant."
+  },
+  {
+    "id": "import-ssd-6144efc9c504",
+    "badMPN": "CT1000E100SSD8-T",
+    "catalogName": "CT1000E100SSD8 1 To · PCIe 4.0 ×4",
+    "catalogCapacityGB": 1000,
+    "reason": "Code constructeur distinct : l’archive nomme explicitement CT1000E100SSD8 ; la page marchand et l’offre portent CT1000E100SSD8-T. Aucune preuve fabricant ne confirme l’équivalence du suffixe -T (conditionnement ou révision).",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/disque-dur-crucial-ct1000e100ssd8-t-1tb-m-2-pcie-4-0-nvme-5000mo-s-haute-performance"
+    ],
+    "action": "Quarantine this unproven reference equivalence; preserve the explicit archived code CT1000E100SSD8."
+  },
+  {
+    "id": "import-ram-43517bcea6ff",
+    "badMPN": "F5-6400J3239G16GX2-TZ5K",
+    "catalogName": "Trident Z 32 Go (2 × 16 Go) DDR5-6400 CL32 · Noir",
+    "catalogCapacityGB": 32,
+    "reason": "Identité ambiguë : l’archive nomme G.Skill Trident Z, sans le suffixe 5 ; le MPN et la page produit appartiennent au Trident Z5, déjà présent séparément au catalogue. Le DDR5, la capacité, les timings et la couleur compatibles ne prouvent pas que ce nom court représente la même référence. L’alias doit être confirmé avant tout transfert de prix ou de caractéristiques.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6400-mhz-32-go-2-x-16-go-cl32-noir"
+    ],
+    "action": "Quarantine the unproven short-name identity only. Preserve the independently identified Trident Z5 entry."
+  },
+  {
+    "id": "import-ram-f4b69e56140d",
+    "badMPN": "F5-6000J3636F16GX2-TZ5K",
+    "catalogName": "Trident Z 32 Go (2 × 16 Go) DDR5-6000 CL36 · Noir",
+    "catalogCapacityGB": 32,
+    "reason": "Identité ambiguë : l’archive nomme G.Skill Trident Z, sans le suffixe 5 ; le MPN et la page produit appartiennent au Trident Z5, déjà présent séparément au catalogue. Le DDR5, la capacité, les timings et la couleur compatibles ne prouvent pas que ce nom court représente la même référence. L’alias doit être confirmé avant tout transfert de prix ou de caractéristiques.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z5-ddr5-6000-mhz-32-go-2x16-go-cl36"
+    ],
+    "action": "Quarantine the unproven short-name identity only. Preserve the independently identified Trident Z5 entry."
+  },
+  {
+    "id": "import-ram-b7341bceb0fd",
+    "badMPN": "F5-6000J3040G32GX2-TZ5K",
+    "catalogName": "Trident Z 64 Go (2 × 32 Go) DDR5-6000 CL30 · Noir",
+    "catalogCapacityGB": 64,
+    "reason": "Identité ambiguë : l’archive nomme G.Skill Trident Z, sans le suffixe 5 ; le MPN et la page produit appartiennent au Trident Z5, déjà présent séparément au catalogue. Le DDR5, la capacité, les timings et la couleur compatibles ne prouvent pas que ce nom court représente la même référence. L’alias doit être confirmé avant tout transfert de prix ou de caractéristiques.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/memoire-ram-g-skill-trident-z-f5-6000j3040g32gx2-tz5k-64gb-2x32gb-ddr5-6000mhz-cl30-xmp-noir"
+    ],
+    "action": "Quarantine the unproven short-name identity only. Preserve the independently identified Trident Z5 entry."
+  }
+]

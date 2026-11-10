@@ -1,0 +1,40 @@
+{
+  "componentId": "import-gpu-8eac19daf9bf",
+  "expectedName": "Radeon RX 5500 XT GAMING 4G · 4 Go · Noir / Rouge · 247 mm",
+  "originalRecord": {
+    "name": "MSI Radeon RX 5500 XT GAMING 4G",
+    "price": null,
+    "chipset": "Radeon RX 5500 XT",
+    "memory": 4,
+    "core_clock": 1647,
+    "boost_clock": 1845,
+    "color": "Black / Red",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:15+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5500-XT-4G-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5500-XT-GAMING-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5500-XT-GAMING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

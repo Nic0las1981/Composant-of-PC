@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-9b44184e696d",
+  "expectedName": "AERO RTX 2070 · 8 Go · Noir / Vert · 268 mm",
+  "originalRecord": {
+    "name": "MSI AERO",
+    "price": null,
+    "chipset": "GeForce RTX 2070",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1620,
+    "color": "Black / Green",
+    "length": 268
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:03+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-8G-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

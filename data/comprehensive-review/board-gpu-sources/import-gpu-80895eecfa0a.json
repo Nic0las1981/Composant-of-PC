@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-80895eecfa0a",
+  "expectedName": "GAMING X RTX 3050 · 6 Go · Noir · 205 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X",
+    "price": 194.99,
+    "chipset": "GeForce RTX 3050 6GB",
+    "memory": 6,
+    "core_clock": 1040,
+    "boost_clock": 1507,
+    "color": "Black",
+    "length": 205
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:27+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-6G-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-GAMING-X-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

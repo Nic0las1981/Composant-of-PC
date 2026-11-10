@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-b2844f4941c0",
+  "expectedName": "VENTUS 3X OC RTX 5060 Ti · 8 Go · Argent / Noir · 306 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X OC",
+    "price": null,
+    "chipset": "GeForce RTX 5060 Ti",
+    "memory": 8,
+    "core_clock": 2410,
+    "boost_clock": 2617,
+    "color": "Silver / Black",
+    "length": 306
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:52+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-VENTUS-3X-OC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

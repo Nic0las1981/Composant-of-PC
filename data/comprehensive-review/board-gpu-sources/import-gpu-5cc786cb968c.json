@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-5cc786cb968c",
+  "expectedName": "RTX 3090 SUPRIM X 24G · 24 Go · Argent · 336 mm",
+  "originalRecord": {
+    "name": "MSI RTX 3090 SUPRIM X 24G",
+    "price": 1658,
+    "chipset": "GeForce RTX 3090",
+    "memory": 24,
+    "core_clock": 1395,
+    "boost_clock": 1875,
+    "color": "Silver",
+    "length": 336
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:35+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-24G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-SUPRIM-X-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RTX-3090-SUPRIM-X-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

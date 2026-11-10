@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-2724bbb5d9e3",
+  "expectedName": "MECH RX 5700 · 8 Go · Noir · 232 mm",
+  "originalRecord": {
+    "name": "MSI MECH",
+    "price": null,
+    "chipset": "Radeon RX 5700",
+    "memory": 8,
+    "core_clock": 1465,
+    "boost_clock": 1725,
+    "color": "Black",
+    "length": 232
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:05+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-8G-MECH/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-5700-MECH/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MECH/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,60 @@
+{
+  "componentId": "import-gpu-8ce4cadcf4f8",
+  "expectedName": "GAMING X GTX 1650 SUPER · 4 Go · Noir / Argent · 248 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X",
+    "price": 379,
+    "chipset": "GeForce GTX 1650 SUPER",
+    "memory": 4,
+    "core_clock": 1530,
+    "boost_clock": 1755,
+    "color": "Black / Silver",
+    "length": 248
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:44+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-4G-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-GAMING-X-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-GAMING-X/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-GAMING-X/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-GAMING-X/Specification",
+  "httpStatus": 200,
+  "sha256": "74df8878817614e2236523172807bdd18f2e9e88834d8daf8761e2c87947e421",
+  "status": "specification_fetched",
+  "text": "GeForce GTX 1650 SUPER GAMING X\nGraphics Cards\nGeForce GTX 1650 SUPER™ GAMING X\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce GTX 1650 SUPER™ GAMING X\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce® GTX 1650 SUPER™ GAMING X\nGraphics Processing Unit\nNVIDIA® GeForce® GTX 1650 SUPER™\nInterface\nPCI Express x16 3.0\nCore Clocks\nBoost:1755MHz\nCUDA® CORES\n1280 Units\nMemory Speed\n12 Gbps\nMemory\n4GB GDDR6\nMemory Bus\n128-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)\nHDCP Support\n2.2\nPower consumption\n100 W\nPower connectors\n6-pin x 1\nRecommended PSU\n350 W\nCard Dimension (mm)\n248 x 127 x 44 mm\nWeight (Card / Package)\n742 g / 1371 g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.6\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. All Rights Reserved. NVIDIA, the NVIDIA logo, GeForce, GeForce GTX, G-SYNC, NVIDIA GPU Boost, and NVLink are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyright are the property of their respective owners.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 248.0,
+    "heightMm": 127.0,
+    "thicknessMm": 44.0,
+    "capacityGB": 4,
+    "powerW": 100.0,
+    "recommendedPsuW": 350.0,
+    "manufacturerPartNumber": "GeForce® GTX 1650 SUPER™ GAMING X",
+    "description": "Carte graphique MSI GAMING X GTX 1650 SUPER avec 4 Go. Dimensions constructeur : 248 × 127 × 44 mm. Consommation annoncée par le constructeur : 100 W.",
+    "specs": [
+      "4 Go de mémoire vidéo",
+      "Dimensions : 248 × 127 × 44 mm",
+      "Consommation carte : 100 W",
+      "Alimentation système conseillée : 350 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

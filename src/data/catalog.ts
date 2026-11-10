@@ -4,6 +4,7 @@ import { legacyVariantMetadata } from "./legacyVariants.ts";
 import { catalogOemMemory } from "./catalogOemMemory.ts";
 import { verifiedProducts } from "./verifiedCatalog.ts";
 import {extractVerifiedCompatibility} from '../lib/verifiedCompatibility.ts';
+import {catalogQuarantine} from './catalogQuarantine.ts';
 
 export type CategoryId =
   | "cpu"
@@ -98,6 +99,13 @@ export interface Component {
   coolingType?: "air" | "aio";
   radiatorSizeMm?: 120 | 240 | 280 | 360 | 420;
   radiatorThicknessMm?: number;
+  radiatorLengthMm?: number;
+  radiatorWidthMm?: number;
+  heatpipeCount?: number;
+  pumpDisplay?: "lcd" | "rgb-ring" | "logo";
+  fanRgb?: boolean;
+  storageHeatsink?: boolean;
+  sidePanel?: "glass" | "acrylic" | "vented";
   radiatorSupport?: { top: number[]; front: number[]; side?: number[] };
 }
 
@@ -2067,6 +2075,14 @@ catalog.push(...catalogOemMemory);
 for (const component of catalog) Object.assign(component, legacyVariantMetadata[component.id] ?? {});
 for (const component of catalog) Object.assign(component, verifiedProducts[component.id]?.patch ?? {});
 for (const component of catalog) Object.assign(component, extractVerifiedCompatibility(component,verifiedProducts[component.id]).patch);
+for (const component of catalog) {
+  if (catalogQuarantine[component.id] && !verifiedProducts[component.id]) {
+    component.price=0;
+    component.priceStatus='unknown';
+    component.detailLevel='partial';
+    delete component.manufacturerPartNumber;
+  }
+}
 
 export const defaultSelection: Selection = {
   cpu: "cpu-7800x3d",

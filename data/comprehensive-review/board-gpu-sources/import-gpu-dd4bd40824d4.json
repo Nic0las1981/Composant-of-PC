@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-dd4bd40824d4",
+  "expectedName": "VENTUS 3X E1 OC RTX 4070 · 12 Go · Argent / Noir · 308 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X E1 OC",
+    "price": 1145,
+    "chipset": "GeForce RTX 4070",
+    "memory": 12,
+    "core_clock": 1920,
+    "boost_clock": 2520,
+    "color": "Silver / Black",
+    "length": 308
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:57+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-12G-VENTUS-3X-E1-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-VENTUS-3X-E1-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-VENTUS-3X-E1-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-E1-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

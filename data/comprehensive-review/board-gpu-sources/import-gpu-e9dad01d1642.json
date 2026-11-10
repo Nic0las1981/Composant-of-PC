@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-e9dad01d1642",
+  "expectedName": "Gaming X NV Edition RTX 4060 · 8 Go · 247 mm",
+  "originalRecord": {
+    "name": "MSI Gaming X NV Edition",
+    "price": null,
+    "chipset": "GeForce RTX 4060",
+    "memory": 8,
+    "core_clock": 1830,
+    "boost_clock": 2610,
+    "color": null,
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:18+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-8G-Gaming-X-NV-Edition/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Gaming-X-NV-Edition-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Gaming-X-NV-Edition/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Gaming-X-NV-Edition/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

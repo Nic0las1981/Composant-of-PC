@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-a9cb124e49b7",
+  "expectedName": "AERO RTX 2080 Ti · 11 Go · Noir · 268 mm",
+  "originalRecord": {
+    "name": "MSI AERO",
+    "price": null,
+    "chipset": "GeForce RTX 2080 Ti",
+    "memory": 11,
+    "core_clock": 1350,
+    "boost_clock": 1545,
+    "color": "Black",
+    "length": 268
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:16+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-11G-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-AERO-11G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

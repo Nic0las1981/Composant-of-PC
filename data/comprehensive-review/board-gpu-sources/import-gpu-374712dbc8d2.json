@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-374712dbc8d2",
+  "expectedName": "SHADOW 3X RTX 5080 · 16 Go · Noir · 303 mm",
+  "originalRecord": {
+    "name": "MSI SHADOW 3X",
+    "price": null,
+    "chipset": "GeForce RTX 5080",
+    "memory": 16,
+    "core_clock": 2300,
+    "boost_clock": 2625,
+    "color": "Black",
+    "length": 303
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:07+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-SHADOW-3X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-SHADOW-3X-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-SHADOW-3X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SHADOW-3X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

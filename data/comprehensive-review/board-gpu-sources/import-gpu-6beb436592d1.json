@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-6beb436592d1",
+  "expectedName": "GT LP GTX 1650 G5 · 4 Go · Noir · 168 mm",
+  "originalRecord": {
+    "name": "MSI GT LP",
+    "price": null,
+    "chipset": "GeForce GTX 1650 G5",
+    "memory": 4,
+    "core_clock": 1485,
+    "boost_clock": 1665,
+    "color": "Black",
+    "length": 168
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:06+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-4G-GT-LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-GT-LP-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-GT-LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GT-LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

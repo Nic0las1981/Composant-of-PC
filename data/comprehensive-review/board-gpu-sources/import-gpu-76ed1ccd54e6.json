@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-76ed1ccd54e6",
+  "expectedName": "GeForce GTX 1650 SUPER · 4 Go · Noir / Argent · 180 mm",
+  "originalRecord": {
+    "name": "MSI GeForce GTX 1650 SUPER",
+    "price": 419,
+    "chipset": "GeForce GTX 1650 SUPER",
+    "memory": 4,
+    "core_clock": 1530,
+    "boost_clock": 1740,
+    "color": "Black / Silver",
+    "length": 180
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:18+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-SUPER/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

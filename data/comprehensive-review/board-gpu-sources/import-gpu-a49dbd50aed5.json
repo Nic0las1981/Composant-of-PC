@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-a49dbd50aed5",
+  "expectedName": "LP RTX 3050 · 6 Go · Noir · 174 mm",
+  "originalRecord": {
+    "name": "MSI LP",
+    "price": null,
+    "chipset": "GeForce RTX 3050 6GB",
+    "memory": 6,
+    "core_clock": 1040,
+    "boost_clock": 1470,
+    "color": "Black",
+    "length": 174
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:20+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-6G-LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-LP-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/LP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

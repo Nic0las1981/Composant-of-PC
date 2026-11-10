@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-8cf8f763ca02",
+  "expectedName": "VENTUS 2X E OC RTX 4070 · 12 Go · Argent / Noir · 245 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X E OC",
+    "price": 1398.88,
+    "chipset": "GeForce RTX 4070",
+    "memory": 12,
+    "core_clock": 1920,
+    "boost_clock": 2520,
+    "color": "Silver / Black",
+    "length": 245
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:34+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-12G-VENTUS-2X-E-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-VENTUS-2X-E-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-VENTUS-2X-E-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X-E-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

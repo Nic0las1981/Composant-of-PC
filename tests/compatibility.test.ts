@@ -5,14 +5,16 @@ import type { Selection } from '../src/data/catalog.ts';
 import { getReferencePrice } from '../src/data/pricing.ts';
 import { analyzeBuild, getCandidateIssues } from '../src/lib/compatibility.ts';
 
-test('default build is complete and compatible with power headroom', () => {
+test('default build is assembled but cannot certify power headroom without a sourced CPU maximum', () => {
   const result = analyzeBuild(defaultSelection);
-  assert.equal(result.status, 'compatible');
+  assert.equal(result.status, 'warning');
   assert.equal(result.selectedCount, 8);
   assert.equal(result.warnings.filter(w => w.severity === 'error').length, 0);
   assert.ok(result.totalKnown > 0);
   assert.ok(result.unpricedCount > 0, 'Retired or unavailable offers make the default budget partial');
-  assert.ok(result.power.capacity >= result.power.recommended);
+  assert.equal(result.power.complete, false);
+  assert.equal(result.power.recommended, 0);
+  assert.ok(result.warnings.some(w=>w.id==='power-unknown'));
   assert.equal(result.balance.limiter, 'balanced');
 });
 
@@ -45,7 +47,7 @@ test('a taller cooler fits the larger case but not the default case', () => {
 test('insufficient PSU is distinct from recommended headroom', () => {
   const underLoad = analyzeBuild({ ...defaultSelection, cpu: 'cpu-14600kf', gpu: 'gpu-4080s', psu: 'psu-a550' });
   assert.ok(underLoad.warnings.some(w => w.id === 'psu-insufficient' && w.severity === 'error'));
-  const lowHeadroom = analyzeBuild({ ...defaultSelection, psu: 'psu-a550' });
+  const lowHeadroom = analyzeBuild({ ...defaultSelection, cpu:'cpu-14600kf', motherboard:'mb-b760', ram:'ram-ddr4-32', psu: 'psu-a550' });
   assert.ok(lowHeadroom.warnings.some(w => w.id === 'psu-headroom' && w.severity === 'warning'));
 });
 
@@ -69,8 +71,9 @@ test('incomplete and invalid selections cannot appear fully compatible', () => {
 test('CPU cooler socket and thermal recommendations are independent', () => {
   const wrongSocket = analyzeBuild({ ...defaultSelection, cpu: 'cpu-14600kf', cooler: 'cooler-l9a' });
   assert.ok(wrongSocket.warnings.some(w => w.id === 'cooler-socket'));
-  const weakCooling = analyzeBuild({ ...defaultSelection, cooler: 'cooler-l9a' });
+  const weakCooling = analyzeBuild({ ...defaultSelection, cpu:'cpu-14600kf', motherboard:'mb-b760', ram:'ram-ddr4-32', cooler: 'cooler-l9i-17xx' });
   assert.ok(weakCooling.warnings.some(w => w.id === 'cooler-power'));
+  assert.ok(!weakCooling.warnings.some(w=>w.id==='cooler-socket'));
 });
 
 test('creation use recommends additional memory and Intel BIOS needs checking', () => {

@@ -56,7 +56,9 @@ export function getReferencePrice(component: Component): number | null {
   if (verified) return verified.amount;
   const reported = getIndicativeMarketObservation(component);
   if (reported) return reported.amount;
-  if (getVerifiedProduct(component)?.offers.length) return null;
+  // A documented identity with no eligible offer cannot inherit a legacy
+  // estimate, including when a wrong retail SKU has just been corrected.
+  if (getVerifiedProduct(component)) return null;
   return component.priceStatus === "unknown" || !Number.isFinite(component.price) || component.price <= 0
     ? null : component.price;
 }

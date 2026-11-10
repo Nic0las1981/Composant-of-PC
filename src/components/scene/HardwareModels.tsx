@@ -20,9 +20,12 @@ import {
   RGBStrip,
   Tube,
   type BoxInstance,
+  useHardwareSurface,
 } from "./HardwarePrimitives";
 
 import {CrucialHeatspreader, Samsung9100Surface, SteelLegendBoardDetails, SteelLegendGpuShroud, PowerZoneGrille} from "./IndividualHardwareDetails";
+
+import {CircuitPackages, M2Board, CpuContactField, FanWireClips, VentilatedPsuShell, AxialShroud} from "./CircuitDetails";
 
 type Vec3 = [number, number, number];
 type Props<T> = { component: Component; profile: T };
@@ -214,6 +217,7 @@ export function MotherboardModel({
     w = profile.widthMm * MM;
   const anchors = getBoardAnchors(profile);
   const steelLegend = profile.design === "steel-legend-b850";
+  const socketHeight=component.socket === "LGA1700" ? .54 : .42;
   const bits = useMemo<BoxInstance[]>(() => {
     const list: BoxInstance[] = [];
     for (let i = 0; i < 10; i++)
@@ -327,15 +331,18 @@ export function MotherboardModel({
       />
       <MetalBox
         position={[anchors.cpu[0] - 0.01, anchors.cpu[1], anchors.cpu[2]]}
-        size={[0.055, 0.42, 0.42]}
+        size={[0.055, socketHeight, 0.42]}
         color="#747c80"
         roughness={0.23}
       />
       <MetalBox
         position={[anchors.cpu[0] + 0.019, anchors.cpu[1], anchors.cpu[2]]}
-        size={[0.014, 0.35, 0.35]}
+        size={[0.014, socketHeight*.83, 0.35]}
         color="#151a1d"
       />
+      <group name="socket-contact-field" position={[anchors.cpu[0]+.029,anchors.cpu[1],anchors.cpu[2]]} rotation={[0,Math.PI,0]}>
+        <CpuContactField width={.32} height={socketHeight*.72} depth={.006} pins={false}/>
+      </group>
       <Tube points={[
         [anchors.cpu[0] + 0.034, anchors.cpu[1] - 0.2, anchors.cpu[2] + 0.218],
         [anchors.cpu[0] + 0.041, anchors.cpu[1] + 0.18, anchors.cpu[2] + 0.218],
@@ -581,7 +588,9 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
       <GpuBackplate component={component} profile={profile} />
       <Fasteners positions={screws} axis="y" radius={0.016} color="#818a8b" />
       <BoxInstances items={sideRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />
-      {steelLegend ? <SteelLegendGpuShroud profile={profile} /> : <BoxInstances items={faceRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />}
+      {steelLegend ? <SteelLegendGpuShroud profile={profile} /> : profile.fanCount > 0
+        ? <AxialShroud length={length} width={width} height={height} fans={profile.fanCount} radius={fanRadius} span={fanSpan} color={metal} reverseLast={profile.fanLayout === "flow-through"}/>
+        : <BoxInstances items={faceRails} color={metal} finish="paint" metalness={0.3} roughness={0.48} />}
       <MetalBox
         position={[width * 0.49, 0, 0]}
         size={[0.035, height * 0.3, length * 0.67]}
@@ -725,6 +734,8 @@ export function CoolerModel({
         metalness={0.87}
         roughness={0.3}
       />
+      {!low && <FanWireClips height={h} width={w} depth={d} fanCount={profile.fanCount}/>}
+      <Fasteners positions={[-1,1].flatMap(y=>[-1,1].map(z=>[-h*.425,y*w*.17,z*d*.12] as Vec3))} radius={.013}/>
       {pipePoints.map((points, i) => (
         <Tube
           key={i}
@@ -734,7 +745,7 @@ export function CoolerModel({
         />
       ))}
       {low ? (
-        <HardwareFan
+        profile.fanCount > 0 && <HardwareFan
           radius={profile.fanSizeMm * MM * 0.48}
           position={[h * 0.2, 0, 0]}
           rotation={[0, Math.PI / 2, 0]}
@@ -755,7 +766,7 @@ export function CoolerModel({
               roughness={0.3}
             />
           ))}
-          <HardwareFan
+          {profile.fanCount > 0 && <HardwareFan
             radius={profile.fanSizeMm * MM * 0.47}
             position={[h * 0.07, 0, d * (profile.fanCount > 1 ? 0.43 : -0.055)]}
             frame
@@ -769,7 +780,7 @@ export function CoolerModel({
                   ? "DC"
                   : "TR"
             }
-          />
+          />}
           {profile.fanCount > 1 && (
             <HardwareFan
               radius={profile.fanSizeMm * MM * 0.47}
@@ -891,7 +902,7 @@ export function RamModel({
           {bareModule && <><BoxInstances items={surfaceParts} color="#a89976" metalness={0.25} roughness={0.6} />
             <BoxInstances items={packageMarks} color="#68716c" metalness={0.05} roughness={0.8} /></>}
           {crucialPro && <CrucialHeatspreader profile={profile} />}
-          {!bareModule && !crucialPro && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.4} />)}
+          {!bareModule && !crucialPro && [-1, 1].map((side) => <MetalBox key={side} position={[h * 0.085, 0, side * t * 0.38]} size={[h * 0.76, l * 0.97, t * 0.24]} color={profile.heatspreaderColor} roughness={0.44} bevel={.002} />)}
           <BoxInstances items={contacts} color="#c3a75f" roughness={0.36} />
           {!bareModule && !crucialPro && <BoxInstances items={ridges} color={profile.heatspreaderColor} roughness={0.24} />}
           {rgb ? <RGBStrip position={[h * 0.51, 0, 0]} size={[l * 0.91, 0.034, t * 0.98]} rotation={[0, 0, Math.PI / 2]} phase={index * 0.13} /> :
@@ -925,6 +936,7 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
     h = profile.heightMm * MM,
     d = profile.depthMm * MM;
   const am5 = profile.socket === "AM5";
+  const nickel=useHardwareSurface("brushed");
   const heatspreader = useMemo(() => {
     const outline = new THREE.Shape();
     const points = [
@@ -942,6 +954,7 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
     Array.from({ length: 5 }, (_, i) => ({ position: [-d * .015, side * h * .43, (i - 2) * w * .13] as Vec3, size: [d * .19, h * .025, w * .065] as Vec3 }))), [w, h, d]);
   return (
     <group>
+      <CpuContactField width={w} height={h} depth={d} pins={profile.socket === "AM4"}/>
       <MetalBox
         position={[-d * 0.3, 0, 0]}
         size={[d * 0.45, h, w]}
@@ -950,8 +963,8 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
         metalness={0.12}
       />
       {am5 ? <mesh geometry={heatspreader} position={[-d * .23, 0, 0]} rotation={[0, Math.PI / 2, 0]} castShadow>
-        <meshStandardMaterial color="#bfc6c5" metalness={.62} roughness={.4} />
-      </mesh> : <MetalBox position={[d * 0.12, 0, 0]} size={[d * 0.76, h * 0.84, w * 0.84]} color="#bfc4c5" roughness={0.4} metalness={0.62} />}
+        <meshStandardMaterial color="#bfc6c5" metalness={.82} roughness={.31} roughnessMap={nickel?.texture} bumpMap={nickel?.texture} bumpScale={.0006} envMapIntensity={1.1}/>
+      </mesh> : <MetalBox position={[d * 0.12, 0, 0]} size={[d * 0.76, h * 0.84, w * 0.84]} color="#bfc4c5" roughness={0.31} metalness={0.82} finish="brushed" bevel={.004} />}
       <BoxInstances items={capacitors} color="#b5a974" metalness={0.45} roughness={0.6} />
       <HardwareLabel
         text={component.brand === "AMD" ? "AMD RYZEN" : "intel CORE"}
@@ -988,7 +1001,7 @@ export function StorageModel({
     Array.from({ length: 15 }, (_, i) => ({
       position: [0.009, -w * 0.39 + i * w * 0.055, l * 0.46] as Vec3,
       size: [0.004, w * 0.035, 0.065] as Vec3,
-    })).filter((_, i) => i !== 3 && i !== 4), [w, l]);
+    })).filter(finger => finger.position[1] + finger.size[1] / 2 <= -w * .34 || finger.position[1] - finger.size[1] / 2 >= -w * .2), [w, l]);
   const fins = useMemo<BoxInstance[]>(() =>
     Array.from({ length: 7 }, (_, i) => ({
       position: [h * 0.18, -w * 0.42 + i * w * 0.14, -l * 0.04] as Vec3,
@@ -997,12 +1010,8 @@ export function StorageModel({
   const surfaceX = profile.hasHeatsink ? h * 0.51 : h * 0.25 + 0.013;
   return (
     <group>
-      <MetalBox
-        size={[Math.min(h * 0.5, 0.016), w, l]}
-        color="#222f2a"
-        roughness={0.7}
-        metalness={0.2}
-      />
+      <M2Board width={w} length={l} thickness={Math.min(h*.5,.016)} color="#222f2a"/>
+      {!profile.hasHeatsink && !samsung9100 && <CircuitPackages width={w} length={l}/>}
       {samsung9100 ? <Samsung9100Surface profile={profile} /> : profile.hasHeatsink ? (
         <>
           <MetalBox
@@ -1033,8 +1042,8 @@ export function StorageModel({
         height={w * 0.7}
         color="#e2e4e3"
       />}
-      <mesh position={[0.012, 0, -l * 0.46]} rotation={[0, Math.PI / 2, 0]}>
-        <ringGeometry args={[0.012, 0.026, 16]} />
+      <mesh position={[0.012, 0, -l * 0.5]} rotation={[0, Math.PI / 2, 0]}>
+        <ringGeometry args={[0.0145, 0.026, 20, 1, Math.PI/2, Math.PI]} />
         <meshStandardMaterial color="#9b9990" metalness={0.7} />
       </mesh>
     </group>
@@ -1086,13 +1095,13 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
           <MetalBox position={[side*w*.465,h*.495,0]} size={[w*.07,.015,d]} color={profile.color}/>
           <MetalBox position={[0,h*.495,side*d*.465]} size={[w,.015,d*.07]} color={profile.color}/>
         </group>)}
-      </group> : <MetalBox size={[w, h, d]} color={profile.color} roughness={0.39} />}
-      <group position={[0, h * 0.505, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 1, 0.12]}>
+      </group> : <VentilatedPsuShell width={w} height={h} depth={d} color={profile.color}/>}
+      {component.fanCount !== 0 && <group position={[0, h * 0.505, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 1, 0.12]}>
         <HardwareFan
           radius={Math.min(profile.fanSizeMm * MM * 0.45, w * 0.42, d * 0.42)}
           color="#15191c"
         />
-      </group>
+      </group>}
       {powerZone ? <PowerZoneGrille profile={profile}/> : <BoxInstances items={grille} color="#5e6368" metalness={0.7} />}
       <MetalBox
         position={[w * 0.504, 0, 0]}
@@ -1123,6 +1132,7 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
         color="#0b0e12"
         metalness={0.1}
       />
+      <BoxInstances items={[-1,0,1].map(i=>({position:[-w*.2+i*w*.07,-h*.12+(i===0?h*.06:-h*.035),-d*.53] as Vec3,size:[w*.018,h*.07,.015] as Vec3}))} color="#b8bcb5" metalness={.8}/>
       <MetalBox
         position={[w * 0.21, -h * 0.12, -d * 0.52]}
         size={[w * 0.12, h * 0.22, 0.04]}

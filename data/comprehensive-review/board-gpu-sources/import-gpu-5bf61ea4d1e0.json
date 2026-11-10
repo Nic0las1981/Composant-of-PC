@@ -1,0 +1,55 @@
+{
+  "componentId": "import-gpu-5bf61ea4d1e0",
+  "expectedName": "MECH 2X RX 6700 XT · 12 Go · Noir / Argent · 247 mm",
+  "originalRecord": {
+    "name": "MSI MECH 2X",
+    "price": 738,
+    "chipset": "Radeon RX 6700 XT",
+    "memory": 12,
+    "core_clock": 2321,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:42+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-12G-MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-MECH-2X-12G/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-MECH-2X-12G/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/Radeon-RX-6700-XT-MECH-2X-12G/Specification",
+  "httpStatus": 200,
+  "sha256": "03a6e74e9ba70ccb752d389e3533c393810f7264e451aa503df6a48597680741",
+  "status": "specification_fetched",
+  "text": "Radeon™ RX 6700 XT MECH 2X 12G | Graphics Card | MSI Global\nGraphics Cards\nRadeon™ RX 6700 XT MECH 2X 12G\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nRadeon™ RX 6700 XT MECH 2X 12G\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nStream Processors\nCore Clocks\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMulti-GPU Technology\nAfterburner OC\nMaximum Displays\nVR Ready\nDigital Maximum Resolution\nModel Name\nRX 6700 XT MECH 2X 12G\nGraphics Processing Unit\nRadeon™ RX 6700 XT\nInterface\nPCI Express® Gen 4\nStream Processors\n2560 Units\nCore Clocks\nBoost: Up to 2581 MHz / Game: Up to 2424 MHz\nMemory Speed\n16 Gbps\nMemory\n12GB GDDR6\nMemory Bus\n192-bit\nOutput\nDisplayPort x 3 (v1.4) / HDMI™ x 1 (Supports 4K@120Hz/8K@60Hz and VRR as specified in HDMI™ 2.1)\nHDCP Support\nY\nPower consumption\n230 W\nPower connectors\n8-pin x 2\nRecommended PSU\n650 W\nCard Dimension (mm)\n247 x 131 x 51 mm\nWeight (Card / Package)\n921 g / 1393 g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.6\nMulti-GPU Technology\nY\nAfterburner OC\nY\nMaximum Displays\n4\nVR Ready\nY\nDigital Maximum Resolution\n7680 x 4320\n© AMD, and the AMD Arrow logo, Radeon, FreeSync, and combinations thereof are trademarks of Advanced Micro Devices, Inc. DirectX and Microsoft are registered trademarks of Microsoft Corporation in the US and other jurisdictions. PCI Express is a registered trademark of PCI-SIG Corporation. Vulkan and the Vulkan logo are trademarks of the Khronos Group Inc. Other product names are for identification purposes only and may be trademarks of their respective companies.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.\n‘Boost Clock Frequency’ is the maximum frequency achievable on the GPU running a bursty workload. Boost clock achievability, frequency, and sustainability will vary based on several factors, including but not limited to: thermal conditions and variation in applications and workloads. ‘Game Frequency’ is the expected GPU clock when running typical gaming applications, set to typical TGP (Total Graphics Power). Actual individual game clock results may vary. © 2026 Micro-Star Int'l Co.Ltd. MSI is a registered trademark of Micro-Star Int'l Co.Ltd. All rights reserved.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 247.0,
+    "heightMm": 131.0,
+    "thicknessMm": 51.0,
+    "capacityGB": 12,
+    "powerW": 230.0,
+    "recommendedPsuW": 650.0,
+    "manufacturerPartNumber": "RX 6700 XT MECH 2X 12G",
+    "description": "Carte graphique MSI MECH 2X RX 6700 XT avec 12 Go. Dimensions constructeur : 247 × 131 × 51 mm. Consommation annoncée par le constructeur : 230 W.",
+    "specs": [
+      "12 Go de mémoire vidéo",
+      "Dimensions : 247 × 131 × 51 mm",
+      "Consommation carte : 230 W",
+      "Alimentation système conseillée : 650 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

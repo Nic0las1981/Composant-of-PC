@@ -2,6 +2,8 @@
 import type { VerifiedProduct } from "./verifiedTypes.ts";
 import {verifiedBulk} from "./verifiedBulk.ts";
 import {individualProducts} from "./individualCatalog.ts";
+import {comprehensiveProducts} from "./comprehensiveCatalog.ts";
+import {isQuarantinedReference} from "./catalogQuarantine.ts";
 export const manuallyReviewedProducts: Record<string, VerifiedProduct> = {
   "cpu-5600": {
     "mpn": "100-100000927BOX",
@@ -28322,4 +28324,4 @@ export const manuallyReviewedProducts: Record<string, VerifiedProduct> = {
     "notes": []
   }
 };
-export const verifiedProducts: Record<string, VerifiedProduct> = {...verifiedBulk,...manuallyReviewedProducts,...individualProducts};
+export const verifiedProducts: Record<string, VerifiedProduct> = Object.fromEntries(Object.entries({...verifiedBulk,...manuallyReviewedProducts,...individualProducts,...comprehensiveProducts}).filter(([id,p])=>!isQuarantinedReference(id,p.mpn)));

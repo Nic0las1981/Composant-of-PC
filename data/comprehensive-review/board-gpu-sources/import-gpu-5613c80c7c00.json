@@ -1,0 +1,55 @@
+{
+  "componentId": "import-gpu-5613c80c7c00",
+  "expectedName": "VENTUS RTX 2080 · 8 Go · Argent / Noir · 268 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS",
+    "price": 735,
+    "chipset": "GeForce RTX 2080",
+    "memory": 8,
+    "core_clock": 1515,
+    "boost_clock": 1710,
+    "color": "Silver / Black",
+    "length": 268
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:52+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-8G-VENTUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-VENTUS-8G/Specification",
+  "httpStatus": 200,
+  "sha256": "89238ee692fe1f61187ec792a30c54658d1ee649d6edf4b30501570a403dd2fd",
+  "status": "specification_fetched",
+  "text": "Specification GeForce RTX 2080 VENTUS 8G | MSI Global - The Leading Brand in High-end Gaming & Professional Creation\nGraphics Cards\nGeForce RTX 2080 VENTUS 8G\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX 2080 VENTUS 8G\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMulti-GPU Technology\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 2080 VENTUS 8G\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 2080\nInterface\nPCI Express x16 3.0\nCore Clocks\n1710 MHz\nCUDA® CORES\n2944 Units\nMemory Speed\n14 Gbps\nMemory\n8GB GDDR6\nMemory Bus\n256-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1(Supports 4K@60Hz as specified in HDMI™ 2.0b)\nUSB Type-C x 1\nHDCP Support\n2.2\nPower consumption\n215 W\nPower connectors\n8-pin x 1, 6-pin x 1\nRecommended PSU\n650 W\nCard Dimension (mm)\n268 x 114 x 42 mm\nWeight (Card / Package)\n955 g / 1447 g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.5\nMulti-GPU Technology\nNVIDIA® NVLink™ (SLI-Ready), 2-way\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 268.0,
+    "heightMm": 114.0,
+    "thicknessMm": 42.0,
+    "capacityGB": 8,
+    "powerW": 215.0,
+    "recommendedPsuW": 650.0,
+    "manufacturerPartNumber": "GeForce RTX™ 2080 VENTUS 8G",
+    "description": "Carte graphique MSI VENTUS RTX 2080 avec 8 Go. Dimensions constructeur : 268 × 114 × 42 mm. Consommation annoncée par le constructeur : 215 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 268 × 114 × 42 mm",
+      "Consommation carte : 215 W",
+      "Alimentation système conseillée : 650 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "componentId": "import-gpu-aad2c3162527",
+  "expectedName": "GeForce RTX 3070 VENTUS 3X · 8 Go · Noir / Argent · 305 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3070 VENTUS 3X",
+    "price": 534.19,
+    "chipset": "GeForce RTX 3070",
+    "memory": 8,
+    "core_clock": 1500,
+    "boost_clock": 1725,
+    "color": "Black / Silver",
+    "length": 305
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:46+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-8G-VENTUS-3X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-VENTUS-3X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-VENTUS-3X/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-VENTUS-3X/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-VENTUS-3X/Specification",
+  "httpStatus": 200,
+  "sha256": "e6d8aad5e4899394faef4cc4a9fd974206bd2b6e94cc030ba98abf0d4697ab60",
+  "status": "specification_fetched",
+  "text": "GeForce RTX™ 3070 VENTUS 3X\nGraphics Cards\nGeForce RTX™ 3070 VENTUS 3X\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX™ 3070 VENTUS 3X\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 3070 VENTUS 3X\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 3070\nInterface\nPCI Express® Gen 4\nCore Clocks\n1725 MHz\nCUDA® CORES\n5888 Units\nMemory Speed\n14 Gbps\nMemory\n8GB GDDR6\nMemory Bus\n256-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1 (Supports 4K@120Hz as specified in HDMI™ 2.1)\nHDCP Support\nY\nPower consumption\n220 W\nPower connectors\n8-pin x 2\nRecommended PSU\n650 W\nCard Dimension (mm)\n305 x 121 x 52 mm\nWeight (Card / Package)\n991.6g / 1586.6g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.6\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680 x 4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 305.0,
+    "heightMm": 121.0,
+    "thicknessMm": 52.0,
+    "capacityGB": 8,
+    "powerW": 220.0,
+    "recommendedPsuW": 650.0,
+    "manufacturerPartNumber": "GeForce RTX™ 3070 VENTUS 3X",
+    "description": "Carte graphique MSI GeForce RTX 3070 VENTUS 3X avec 8 Go. Dimensions constructeur : 305 × 121 × 52 mm. Consommation annoncée par le constructeur : 220 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 305 × 121 × 52 mm",
+      "Consommation carte : 220 W",
+      "Alimentation système conseillée : 650 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

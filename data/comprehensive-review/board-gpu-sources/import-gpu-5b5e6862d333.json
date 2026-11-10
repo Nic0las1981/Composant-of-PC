@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-5b5e6862d333",
+  "expectedName": "DUKE RTX 2080 · 8 Go · Noir · 314 mm",
+  "originalRecord": {
+    "name": "MSI DUKE",
+    "price": 735,
+    "chipset": "GeForce RTX 2080",
+    "memory": 8,
+    "core_clock": 1515,
+    "boost_clock": 1845,
+    "color": "Black",
+    "length": 314
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:54+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-8G-DUKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-DUKE-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-DUKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/DUKE/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

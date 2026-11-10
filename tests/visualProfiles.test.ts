@@ -92,7 +92,7 @@ test("hardware geometry changes with GPU model and air cooler type", () => {
 test("lighting follows selected products instead of adding RGB to every component", () => {
   const rgbRam = Object.values(ramProfiles).filter((p) => p.rgb);
   assert.ok(rgbRam.length >= 4);
-  assert.ok(rgbRam.every((p) => /RGB/i.test(getComponent(p.id)?.name || "")));
+  assert.ok(rgbRam.every((p) => getComponent(p.id)?.rgb === true || /RGB/i.test(getComponent(p.id)?.name || "")), "RGB must be explicitly documented or named; a shortened archive title may omit the RGB suffix");
   assert.equal(ramProfiles["ram-ddr5-64"].rgb, false);
   assert.equal(gpuProfiles["gpu-4070s"].rgb, false);
   assert.equal(gpuProfiles["gpu-4080s"].rgb, true);

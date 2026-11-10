@@ -1867,34 +1867,53 @@ function lookup<T extends VisualProfile>(
   if (component.category !== profile.category) return undefined;
   // Enriched physical metadata flows one way into rendering. Never mutate the
   // shared templates or promote a generic reconstruction into a reviewed model.
-  const patch: Record<string,number> = {};
-  const dimension = (key: "lengthMm"|"widthMm"|"heightMm"|"depthMm"|"thicknessMm"|"fanSizeMm"|"radiatorThicknessMm"|"radiatorSizeMm") => {
+  const patch: Record<string,number|boolean|string> = {};
+  const dimension = (key: "lengthMm"|"widthMm"|"heightMm"|"depthMm"|"thicknessMm"|"fanSizeMm"|"radiatorThicknessMm"|"radiatorSizeMm"|"radiatorLengthMm"|"radiatorWidthMm") => {
     const value = component[key];
     if (typeof value === "number" && Number.isFinite(value) && value > 0 && value !== Reflect.get(profile,key)) patch[key] = value;
   };
-  const count = (source: "fanCount"|"memorySlots"|"memorySticks", target: string, allowZero = false) => {
+  const count = (source: "fanCount"|"memorySlots"|"memorySticks"|"heatpipeCount", target: string, allowZero = false) => {
     const value = component[source];
     if (typeof value === "number" && Number.isInteger(value) && value >= (allowZero ? 0 : 1) && value !== Reflect.get(profile,target)) patch[target] = value;
   };
+  const flag = (source: "rgb"|"fanRgb"|"storageHeatsink"|"memoryHeatspreader", target: string = source) => {
+    const value = component[source];
+    if (typeof value === "boolean" && value !== Reflect.get(profile,target)) patch[target] = value;
+  };
+  const choice = (source: "pumpDisplay"|"sidePanel"|"psuFormat"|"formFactor", target: string, allowed: readonly string[]) => {
+    const value = component[source];
+    if (typeof value === "string" && allowed.includes(value) && value !== Reflect.get(profile,target)) patch[target] = value;
+  };
+  flag("rgb");
   switch (profile.category) {
     case "gpu":
       dimension("lengthMm"); dimension("heightMm"); dimension("thicknessMm");
-      dimension("fanSizeMm"); count("fanCount","fanCount",true); break;
+      dimension("fanSizeMm"); count("fanCount","fanCount",true); flag("fanRgb"); break;
     case "storage":
-      dimension("lengthMm"); dimension("widthMm"); dimension("heightMm"); break;
+      dimension("lengthMm"); dimension("widthMm"); dimension("heightMm"); flag("storageHeatsink","hasHeatsink"); break;
     case "psu":
-      dimension("widthMm"); dimension("heightMm"); dimension("depthMm"); dimension("fanSizeMm"); break;
+      dimension("widthMm"); dimension("heightMm"); dimension("depthMm"); dimension("fanSizeMm");
+      choice("psuFormat","format",["ATX","SFX"]); break;
     case "case":
       dimension("widthMm"); dimension("heightMm"); dimension("depthMm");
-      dimension("fanSizeMm"); count("fanCount","fanCount",true); break;
+      dimension("fanSizeMm"); count("fanCount","fanCount",true); flag("fanRgb");
+      choice("sidePanel","sidePanel",["glass","acrylic","vented"]);
+      if (component.sidePanel === "glass" || component.sidePanel === "acrylic" || component.sidePanel === "vented") {
+        const glass = component.sidePanel === "glass";
+        if (glass !== profile.glass) patch.glass = glass;
+      }
+      break;
     case "motherboard":
-      dimension("widthMm"); dimension("heightMm"); count("memorySlots","slots"); break;
+      dimension("widthMm"); dimension("heightMm"); count("memorySlots","slots");
+      choice("formFactor","formFactor",["ATX","Micro-ATX","Mini-ITX"]); break;
     case "ram":
-      dimension("lengthMm"); dimension("heightMm"); dimension("thicknessMm"); count("memorySticks","sticks"); break;
+      dimension("lengthMm"); dimension("heightMm"); dimension("thicknessMm"); count("memorySticks","sticks");
+      flag("memoryHeatspreader","hasHeatspreader"); break;
     case "cooler":
       dimension("widthMm"); dimension("heightMm"); dimension("depthMm");
-      dimension("fanSizeMm"); count("fanCount","fanCount",true);
-      if (profile.kind === "aio") {dimension("radiatorSizeMm"); dimension("radiatorThicknessMm");}
+      dimension("fanSizeMm"); count("fanCount","fanCount",true); count("heatpipeCount","heatpipes",true); flag("fanRgb");
+      choice("pumpDisplay","pumpDisplay",["lcd","rgb-ring","logo"]);
+      if (profile.kind === "aio") {dimension("radiatorSizeMm"); dimension("radiatorThicknessMm"); dimension("radiatorLengthMm"); dimension("radiatorWidthMm");}
       break;
     // CPU width/height/depth cannot safely be inferred from generic package
     // dimensions: package footprint and vertical thickness use different axes.

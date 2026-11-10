@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-d959186950d8",
+  "expectedName": "GAMING TRIO RTX 2070 SUPER · 8 Go · Noir · 328 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO",
+    "price": null,
+    "chipset": "GeForce RTX 2070 SUPER",
+    "memory": 8,
+    "core_clock": 1605,
+    "boost_clock": 1770,
+    "color": "Black",
+    "length": 328
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:04+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-8G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-SUPER-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

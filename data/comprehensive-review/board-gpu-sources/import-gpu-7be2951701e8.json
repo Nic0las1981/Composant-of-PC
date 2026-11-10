@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7be2951701e8",
+  "expectedName": "VENTUS 3X E RTX 4070 Ti · 12 Go · Argent / Noir · 308 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X E",
+    "price": null,
+    "chipset": "GeForce RTX 4070 Ti",
+    "memory": 12,
+    "core_clock": 2310,
+    "boost_clock": 2625,
+    "color": "Silver / Black",
+    "length": 308
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:16+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-12G-VENTUS-3X-E/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-3X-E-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-3X-E/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-E/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

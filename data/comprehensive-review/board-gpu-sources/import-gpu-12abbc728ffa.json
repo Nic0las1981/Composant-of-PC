@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-12abbc728ffa",
+  "expectedName": "LIGHTNING RTX 2080 Ti · 11 Go · Or / Noir · 328 mm",
+  "originalRecord": {
+    "name": "MSI LIGHTNING",
+    "price": null,
+    "chipset": "GeForce RTX 2080 Ti",
+    "memory": 11,
+    "core_clock": 1350,
+    "boost_clock": 1575,
+    "color": "Gold / Black",
+    "length": 328
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-11G-LIGHTNING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING-11G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-LIGHTNING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/LIGHTNING/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

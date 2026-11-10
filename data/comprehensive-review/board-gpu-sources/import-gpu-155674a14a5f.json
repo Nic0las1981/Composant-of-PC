@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-155674a14a5f",
+  "expectedName": "VENTUS 3X PLUS RTX 3080 12GB LHR · 12 Go · Noir / Gris · 305 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X PLUS",
+    "price": null,
+    "chipset": "GeForce RTX 3080 12GB LHR",
+    "memory": 12,
+    "core_clock": 1260,
+    "boost_clock": 1710,
+    "color": "Black / Gray",
+    "length": 305
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:04+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-12G-VENTUS-3X-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-VENTUS-3X-PLUS-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-VENTUS-3X-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

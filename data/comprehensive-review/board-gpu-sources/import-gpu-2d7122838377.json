@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-2d7122838377",
+  "expectedName": "LP OC RTX 3050 · 6 Go · Noir · 174 mm",
+  "originalRecord": {
+    "name": "MSI LP OC",
+    "price": 219.98,
+    "chipset": "GeForce RTX 3050 6GB",
+    "memory": 6,
+    "core_clock": 1040,
+    "boost_clock": 1492,
+    "color": "Black",
+    "length": 174
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:26+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-6G-LP-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-LP-OC-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-6GB-LP-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/LP-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-c2f551844a06",
+  "expectedName": "Radeon RX 6800XT 16G · 16 Go · Noir / Argent · 267 mm",
+  "originalRecord": {
+    "name": "MSI Radeon RX 6800XT 16G",
+    "price": null,
+    "chipset": "Radeon RX 6800 XT",
+    "memory": 16,
+    "core_clock": 1825,
+    "boost_clock": 2250,
+    "color": "Black / Silver",
+    "length": 267
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:01+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-XT-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-XT-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800-XT/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6800XT-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

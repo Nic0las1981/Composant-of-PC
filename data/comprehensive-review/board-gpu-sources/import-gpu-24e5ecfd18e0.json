@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-24e5ecfd18e0",
+  "expectedName": "GAMING TRIO PLUS RTX 3080 10GB LHR · 10 Go · Noir · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO PLUS",
+    "price": null,
+    "chipset": "GeForce RTX 3080 10GB LHR",
+    "memory": 10,
+    "core_clock": 1440,
+    "boost_clock": 1755,
+    "color": "Black",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:19+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-10G-GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-GAMING-TRIO-PLUS-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

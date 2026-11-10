@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-d8177b7fc776",
+  "expectedName": "D6 AERO ITX OC GTX 1650 G6 · 4 Go · Noir / Blanc · 170 mm",
+  "originalRecord": {
+    "name": "MSI D6 AERO ITX OC",
+    "price": null,
+    "chipset": "GeForce GTX 1650 G6",
+    "memory": 4,
+    "core_clock": 1410,
+    "boost_clock": 1620,
+    "color": "Black / White",
+    "length": 170
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:03+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-4G-D6-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-D6-AERO-ITX-OC-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-D6-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/D6-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

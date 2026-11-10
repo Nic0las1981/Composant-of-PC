@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-2c7d79b99d10",
+  "expectedName": "SUPRIM LIQUID SOC RTX 5090 · 32 Go · Noir / Argent · 280 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM LIQUID SOC",
+    "price": 3229,
+    "chipset": "GeForce RTX 5090",
+    "memory": 32,
+    "core_clock": 2010,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 280
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:24+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-32G-SUPRIM-LIQUID-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-SUPRIM-LIQUID-SOC-32G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-SUPRIM-LIQUID-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM-LIQUID-SOC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

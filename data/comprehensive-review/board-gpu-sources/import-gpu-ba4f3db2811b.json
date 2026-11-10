@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ba4f3db2811b",
+  "expectedName": "RTX 3060 Ventus 3X 12G OC · 12 Go · Noir · 316 mm",
+  "originalRecord": {
+    "name": "MSI RTX 3060 Ventus 3X 12G OC",
+    "price": 569.99,
+    "chipset": "GeForce RTX 3060 12GB",
+    "memory": 12,
+    "core_clock": 1320,
+    "boost_clock": 1807,
+    "color": "Black",
+    "length": 316
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:18+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-12G-Ventus-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-Ventus-3X-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-Ventus-3X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RTX-3060-Ventus-3X-12G-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

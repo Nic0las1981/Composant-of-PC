@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-72bc0c80dafb",
+  "expectedName": "AERO RTX 4070 Ti SUPER · 16 Go · Noir · 263 mm",
+  "originalRecord": {
+    "name": "MSI AERO",
+    "price": null,
+    "chipset": "GeForce RTX 4070 Ti SUPER",
+    "memory": 16,
+    "core_clock": 2340,
+    "boost_clock": 2610,
+    "color": "Black",
+    "length": 263
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:03+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-AERO-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-d7ba2a2dccd4",
+  "expectedName": "RTX 4090 GAMING SLIM 24G · 24 Go · Noir · 322 mm",
+  "originalRecord": {
+    "name": "MSI RTX 4090 GAMING SLIM 24G",
+    "price": 3070,
+    "chipset": "GeForce RTX 4090",
+    "memory": 24,
+    "core_clock": 2235,
+    "boost_clock": 2535,
+    "color": "Black",
+    "length": 322
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:40+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-24G-GAMING-SLIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-GAMING-SLIM-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-GAMING-SLIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RTX-4090-GAMING-SLIM-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

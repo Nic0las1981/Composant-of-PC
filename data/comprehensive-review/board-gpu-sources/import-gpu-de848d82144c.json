@@ -1,0 +1,40 @@
+{
+  "componentId": "import-gpu-de848d82144c",
+  "expectedName": "Radeon RX 6900 XT GAMING Z TRIO 16G · 16 Go · Argent / Noir · 324 mm",
+  "originalRecord": {
+    "name": "MSI Radeon RX 6900 XT GAMING Z TRIO 16G",
+    "price": 799.99,
+    "chipset": "Radeon RX 6900 XT",
+    "memory": 16,
+    "core_clock": 1825,
+    "boost_clock": 2425,
+    "color": "Silver / Black",
+    "length": 324
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:51+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6900-XT-16G-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6900-XT-GAMING-Z-TRIO-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6900-XT-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

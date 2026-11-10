@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-04557f451328",
+  "expectedName": "SHADOW 2X RTX 5050 · 8 Go · Noir · 197 mm",
+  "originalRecord": {
+    "name": "MSI SHADOW 2X",
+    "price": null,
+    "chipset": "GeForce RTX 5050",
+    "memory": 8,
+    "core_clock": 2317,
+    "boost_clock": 2587,
+    "color": "Black",
+    "length": 197
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-8G-SHADOW-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-SHADOW-2X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5050-SHADOW-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SHADOW-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

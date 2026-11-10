@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-12889533aded",
+  "expectedName": "MECH 2X RX 6500 XT · 4 Go · Noir / Argent · 172 mm",
+  "originalRecord": {
+    "name": "MSI MECH 2X",
+    "price": null,
+    "chipset": "Radeon RX 6500 XT",
+    "memory": 4,
+    "core_clock": 2310,
+    "boost_clock": 2815,
+    "color": "Black / Silver",
+    "length": 172
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:59+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6500-XT-4G-MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6500-XT-MECH-2X-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6500-XT-MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

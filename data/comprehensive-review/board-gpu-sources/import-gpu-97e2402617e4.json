@@ -1,0 +1,60 @@
+{
+  "componentId": "import-gpu-97e2402617e4",
+  "expectedName": "GeForce RTX 3060 Ti GAMING X · 8 Go · Noir / Argent · 278 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3060 Ti GAMING X",
+    "price": null,
+    "chipset": "GeForce RTX 3060 Ti",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1770,
+    "color": "Black / Silver",
+    "length": 278
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:17+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-8G-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X/Specification",
+  "httpStatus": 200,
+  "sha256": "7942401c39511ff4a70c463d0a08d4a37b97266ffe82ab348c4aa1b102165275",
+  "status": "specification_fetched",
+  "text": "GeForce RTX 3060 Ti GAMING X\nGraphics Cards\nGeForce RTX 3060 Ti GAMING X\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX 3060 Ti GAMING X\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 3060 Ti GAMING X\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 3060 Ti\nInterface\nPCI Express® Gen 4\nCore Clocks\nBoost: 1770 MHz\nCUDA® CORES\n4864\nMemory Speed\n14 Gbps\nMemory\n8GB GDDR6\nMemory Bus\n256-bIt\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1 (Supports 4K 120Hz HDR, 8K 60Hz and Variable Refresh Rate as specified in HDMI™ 2.1)\nHDCP Support\nY\nPower consumption\n220W\nPower connectors\n8-pin x 1 + 6-pin x 1\nRecommended PSU\n600W\nCard Dimension (mm)\n278 x 131 x 51 mm\nWeight (Card / Package)\n1007g / 1596g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.6\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 278.0,
+    "heightMm": 131.0,
+    "thicknessMm": 51.0,
+    "capacityGB": 8,
+    "powerW": 220.0,
+    "recommendedPsuW": 600.0,
+    "manufacturerPartNumber": "GeForce RTX™ 3060 Ti GAMING X",
+    "description": "Carte graphique MSI GeForce RTX 3060 Ti GAMING X avec 8 Go. Dimensions constructeur : 278 × 131 × 51 mm. Consommation annoncée par le constructeur : 220 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 278 × 131 × 51 mm",
+      "Consommation carte : 220 W",
+      "Alimentation système conseillée : 600 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

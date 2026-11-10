@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7e61075a2740",
+  "expectedName": "SEA HAWK X RTX 2080 · 8 Go · Noir / Argent · 268 mm",
+  "originalRecord": {
+    "name": "MSI SEA HAWK X",
+    "price": 795,
+    "chipset": "GeForce RTX 2080",
+    "memory": 8,
+    "core_clock": 1515,
+    "boost_clock": 1860,
+    "color": "Black / Silver",
+    "length": 268
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:12+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-8G-SEA-HAWK-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-SEA-HAWK-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SEA-HAWK-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

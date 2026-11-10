@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-cea2722f3e5c",
+  "expectedName": "SUPRIM X RTX 3080 Ti · 12 Go · Noir / Argent · 336 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM X",
+    "price": 1325,
+    "chipset": "GeForce RTX 3080 Ti",
+    "memory": 12,
+    "core_clock": 1365,
+    "boost_clock": 1845,
+    "color": "Black / Silver",
+    "length": 336
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:43+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-12G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-SUPRIM-X-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ff29e40c4ff4",
+  "expectedName": "GeForce RTX 3070 Ventus 3X 8G LHR RTX 3070 LHR · 8 Go · Noir · 305 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3070 Ventus 3X 8G LHR",
+    "price": null,
+    "chipset": "GeForce RTX 3070 LHR",
+    "memory": 8,
+    "core_clock": 1500,
+    "boost_clock": 1725,
+    "color": "Black",
+    "length": 305
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:13+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-8G-Ventus-3X-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-Ventus-3X-LHR-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-Ventus-3X-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-Ventus-3X-8G-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

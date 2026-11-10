@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-134b96f384c3",
+  "expectedName": "GAMING X TRIO 8GD6X RTX 3060 Ti · 8 Go · Noir · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X TRIO 8GD6X",
+    "price": null,
+    "chipset": "GeForce RTX 3060 Ti",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1845,
+    "color": "Black",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:01+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-8G-GAMING-X-TRIO-8GD6X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X-TRIO-8GD6X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-GAMING-X-TRIO-8GD6X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X-TRIO-8GD6X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

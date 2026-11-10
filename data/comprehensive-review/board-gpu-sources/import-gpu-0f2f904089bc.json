@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-0f2f904089bc",
+  "expectedName": "VENTUS 2X RTX 5060 · 8 Go · Argent / Noir · 197 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 2X",
+    "price": null,
+    "chipset": "GeForce RTX 5060",
+    "memory": 8,
+    "core_clock": 2280,
+    "boost_clock": 2512,
+    "color": "Silver / Black",
+    "length": 197
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:05+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-VENTUS-2X-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

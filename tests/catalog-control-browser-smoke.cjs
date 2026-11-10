@@ -6,11 +6,14 @@ const targets=JSON.parse(execFileSync(process.execPath,['--import','tsx','--inpu
 import {catalog,categories} from './src/data/catalog.ts';
 import {verifiedBulk} from './src/data/verifiedBulk.ts';
 import {verifiedProducts} from './src/data/verifiedCatalog.ts';
+import {comprehensiveProducts} from './src/data/comprehensiveCatalog.ts';
+import {individualProducts} from './src/data/individualCatalog.ts';
+import {catalogQuarantine} from './src/data/catalogQuarantine.ts';
 import {catalogControlOutcomes} from './src/data/catalogControl.ts';
 const counts=new Map();for(const c of catalog)counts.set(c.name,(counts.get(c.name)||0)+1);
 const statuses=['primary_match','no_exact_match','ambiguous_variants','conflicting_reference'];
 console.log(JSON.stringify(statuses.map(status=>{
-const c=catalog.find(c=>counts.get(c.name)===1 && catalogControlOutcomes[c.id]?.status===status && (status==='primary_match'?verifiedBulk[c.id]:!verifiedProducts[c.id]));
+const c=catalog.find(c=>counts.get(c.name)===1 && !comprehensiveProducts[c.id] && !individualProducts[c.id] && !catalogQuarantine[c.id] && catalogControlOutcomes[c.id]?.status===status && (status==='primary_match'?verifiedBulk[c.id]:!verifiedProducts[c.id]));
 if(!c)throw Error('Missing representative '+status);
 return {name:c.name,status,label:categories.find(cat=>cat.id===c.category).label,mpn:verifiedBulk[c.id]?.mpn};
 })));

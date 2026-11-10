@@ -1,0 +1,23 @@
+{
+  "componentId": "import-mb-b53d8a62ba68",
+  "originalName": "ASRock AB350M-HDV",
+  "candidateCodes": [
+    "AB350M-HDV"
+  ],
+  "checkedAt": "2026-11-10T11:26:39+00:00",
+  "attempts": [
+    {
+      "url": "https://www.asrock.com/mb/AMD/AB350M-HDV/index.asp",
+      "httpStatus": 200,
+      "bytes": 212
+    }
+  ],
+  "exactModel": "AB350M-HDV",
+  "status": "primary_document_not_found",
+  "verificationState": "unconfirmed",
+  "confirmedFields": {},
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ]
+}

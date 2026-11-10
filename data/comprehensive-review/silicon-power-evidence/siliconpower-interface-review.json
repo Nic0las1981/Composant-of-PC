@@ -1,0 +1,34 @@
+{
+  "catalogId": "import-ssd-a56f9a7de0e6",
+  "conclusion": "SP01KGBP44UD8505 est UD85 1TB, PCIe Gen4 x4 NVMe1.4. US85 est une famille distincte PCIe Gen5 x4, dont le 1TB porte SP01KGBP54US8505.",
+  "source": {
+    "url": "https://www.silicon-power.com/product-detail/PCIe-Gen4-x4-UD85",
+    "checkedAt": "2026-11-10T11:32:30.810519+00:00",
+    "quote": "SP01KGBP44UD8505 1TB 3600MB/s 2800MB/s Add to compare SP02KGBP44UD8505 2TB 3600MB/s 2800MB/s Add to compare SP04KGBP44UD8505 4TB 3600MB/s 2800MB/s Add to compare Capacity 250GB, 500GB, 1TB, 2TB, 4TB Dimensions 22.0mm x 80.0mm x 3.5mm Interface PCIe Gen4 x4 Weight 8g Performance Read(max.) 250GB: 3300MB/s 500GB: 3600MB/s 1TB: 3600MB/s 2TB: 3600MB/s 4TB: 3600MB/s Performance Write(max.) 250GB: 1300MB/s 500GB: 2400MB/s 1TB: 2800MB/s 2TB: 2800MB/s 4T"
+  },
+  "confirmed": {
+    "manufacturerPartNumber": "SP01KGBP44UD8505",
+    "model": "UD85",
+    "capacityGB": 1000,
+    "interface": "PCIe Gen4 x4",
+    "nvmeVersion": "1.4",
+    "readMaxMBs": 3600,
+    "writeMaxMBs": 2800,
+    "lengthMm": 80,
+    "widthMm": 22,
+    "heightMm": 3.5
+  },
+  "comparison": {
+    "url": "https://www.silicon-power.com/product-detail/US85",
+    "checkedAt": "2026-11-10T11:32:31.909417+00:00",
+    "quote": "SP01KGBP54US8505 1TB 10300MB/s 8300MB/s Add to compare SP02KGBP54US8505 2TB 10300MB/s 8600MB/s Add to compare Capacity 1TB / 2TB Dimensions 80mm (l) x 22mm (w) x 3mm (h) Interface PCIe Gen5 x4 Weight 9g Form Factor M.2 PCIe 2280 SSD Performance Read(max.) 10300MB/s (1TB, 2TB) Per",
+    "manufacturerPartNumber": "SP01KGBP54US8505",
+    "model": "US85",
+    "interface": "PCIe Gen5 x4"
+  },
+  "evidenceFiles": [
+    "/tmp/siliconpower-ud85-family.json",
+    "/tmp/siliconpower-ud85-exact.json",
+    "/tmp/siliconpower-us85-distinct.json"
+  ]
+}

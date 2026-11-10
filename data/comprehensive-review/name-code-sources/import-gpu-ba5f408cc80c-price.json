@@ -1,0 +1,111 @@
+{
+  "componentId": "import-gpu-ba5f408cc80c",
+  "manufacturerMPN": "VCG50508SFXPB1",
+  "page": {
+    "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8gb-gddr6-reflex-2-rtx-ai-dlss4",
+    "checkedAt": "2026-11-10T09:48:31Z",
+    "httpStatus": 200,
+    "sha256": "35090c09db1075aaba69343417838067777e6ec3fe6ce67092a8964191015243",
+    "digestScope": "response_prefix_through_product_data",
+    "name": "Carte Graphique PNY GeForce RTX 5050 8GB GDDR6 Reflex 2 RTX AI DLSS4",
+    "match": false,
+    "reasons": [
+      "Modèle différent : vcg50508sfxpb1"
+    ],
+    "product": {
+      "name": "Carte Graphique PNY GeForce RTX 5050 8GB GDDR6 Reflex 2 RTX AI DLSS4",
+      "mpn": "VCG50508SFXPB1",
+      "model": "VCG50508SFXPB1",
+      "productID": "VCG50508SFXPB1",
+      "sku": "10967835",
+      "gtin13": "4718006459741",
+      "brand": {
+        "@type": "Brand",
+        "name": "PNY"
+      },
+      "description": "   Ce qui rend ce produit unique               Ray Tracing Avancé Éclairage, reflets et ombres photoréalistes grâce à des cœurs dédiés qui calculent le lancer de rayons en temps réel.                 Génération de Frames par IA L'IA génère des frames supplémentaires pour doubler ou tripler les performances tout en conservant une qualité visuelle quasi intacte.                IA et Création de Contenu Cœurs spécialisés qui accélèrent les tâches d'intelligence artificielle, le montage vidéo et la création de contenu professionnel",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "EUR",
+        "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8gb-gddr6-reflex-2-rtx-ai-dlss4",
+        "price": "667.77",
+        "priceValidUntil": "2026-11-11",
+        "offeredBy": {
+          "@type": "Organization",
+          "name": "FTT Distribution GmbH"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0.00",
+            "currency": "EUR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "FR",
+            "postalCodeRange": {
+              "@type": "PostalCodeRangeSpecification",
+              "postalCodeBegin": "01000",
+              "postalCodeEnd": "95880"
+            }
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "businessDays": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "https://schema.org/Monday",
+                "https://schema.org/Tuesday",
+                "https://schema.org/Wednesday",
+                "https://schema.org/Thursday",
+                "https://schema.org/Friday"
+              ]
+            },
+            "cutoffTime": "20:00:00+02:00"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "FR",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnFees": "https://schema.org/FreeReturn",
+          "returnMethod": "https://schema.org/ReturnByMail"
+        }
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8gb-gddr6-reflex-2-rtx-ai-dlss4",
+      "technicalText": "Ce qui rend ce produit unique"
+    }
+  },
+  "offer": {
+    "retailer": "PcComponentes",
+    "seller": "FTT Distribution GmbH",
+    "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8gb-gddr6-reflex-2-rtx-ai-dlss4",
+    "productName": "Carte Graphique PNY GeForce RTX 5050 8GB GDDR6 Reflex 2 RTX AI DLSS4",
+    "mpn": "VCG50508SFXPB1",
+    "amount": 667.77,
+    "currency": "EUR",
+    "market": "FR",
+    "condition": "new",
+    "availability": "in_stock",
+    "priceKind": "current",
+    "shipping": 0.0,
+    "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+    "checkedAt": "2026-11-10T09:48:31Z"
+  }
+}

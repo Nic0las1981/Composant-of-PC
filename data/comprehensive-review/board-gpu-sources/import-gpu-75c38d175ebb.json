@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-75c38d175ebb",
+  "expectedName": "GAMING TRIO PLUS RTX 3080 12GB LHR · 12 Go · Noir / Gris · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO PLUS",
+    "price": null,
+    "chipset": "GeForce RTX 3080 12GB LHR",
+    "memory": 12,
+    "core_clock": 1260,
+    "boost_clock": 1755,
+    "color": "Black / Gray",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:03+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-12G-GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-GAMING-TRIO-PLUS-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-12GB-LHR-GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

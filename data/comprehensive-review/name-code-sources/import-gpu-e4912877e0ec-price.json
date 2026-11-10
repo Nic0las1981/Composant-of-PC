@@ -1,0 +1,118 @@
+{
+  "componentId": "import-gpu-e4912877e0ec",
+  "manufacturerMPN": "VCG50508DFXPB1",
+  "page": {
+    "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8-go-gddr6-ai-dlss4-reflex-2-rtx-ray-tracing-avance",
+    "checkedAt": "2026-11-10T09:48:12Z",
+    "httpStatus": 200,
+    "sha256": "d6e346f37b10d2da1371ebdee2097b2f3e2af7f069c2dc32e171c36e788f45ec",
+    "digestScope": "response_prefix_through_product_data",
+    "name": "Carte graphique PNY GeForce RTX 5050 8 Go GDDR6 AI DLSS4 Reflex 2 RTX Ray Tracing avancé",
+    "match": false,
+    "reasons": [
+      "Modèle différent : vcg50508dfxpb1"
+    ],
+    "product": {
+      "name": "Carte graphique PNY GeForce RTX 5050 8 Go GDDR6 AI DLSS4 Reflex 2 RTX Ray Tracing avancé",
+      "mpn": "VCG50508DFXPB1",
+      "model": "VCG50508DFXPB1",
+      "productID": "VCG50508DFXPB1",
+      "sku": "10977876",
+      "gtin13": "4718006459734",
+      "brand": {
+        "@type": "Brand",
+        "name": "PNY"
+      },
+      "description": "    Ce qui rend ce produit unique               Ray Tracing Avancé Éclairage, reflets et ombres photoréalistes grâce à des cœurs dédiés qui calculent le lancer de rayons en temps réel.                 Génération de Frames par IA L'IA génère des frames supplémentaires pour doubler ou tripler les performances tout en conservant une qualité visuelle quasi intacte.                IA et Création de Contenu Cœurs spécialisés qui accélèrent les tâches d'intelligence artificielle, le montage vidéo et la création de contenu professionnel",
+      "offers": {
+        "@type": "AggregateOffer",
+        "highPrice": "529",
+        "lowPrice": "489.74",
+        "offerCount": "3",
+        "priceCurrency": "EUR",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "EUR",
+          "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8-go-gddr6-ai-dlss4-reflex-2-rtx-ray-tracing-avance",
+          "price": "489.74",
+          "priceValidUntil": "2026-11-11",
+          "offeredBy": {
+            "@type": "Organization",
+            "name": "You Get - Innovation and Technology FR"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0.00",
+              "currency": "EUR"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "FR",
+              "postalCodeRange": {
+                "@type": "PostalCodeRangeSpecification",
+                "postalCodeBegin": "01000",
+                "postalCodeEnd": "95880"
+              }
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 3,
+                "maxValue": 3,
+                "unitCode": "DAY"
+              },
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 3,
+                "maxValue": 3,
+                "unitCode": "DAY"
+              },
+              "businessDays": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "https://schema.org/Monday",
+                  "https://schema.org/Tuesday",
+                  "https://schema.org/Wednesday",
+                  "https://schema.org/Thursday",
+                  "https://schema.org/Friday"
+                ]
+              },
+              "cutoffTime": "20:00:00+02:00"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "FR",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 30,
+            "returnFees": "https://schema.org/FreeReturn",
+            "returnMethod": "https://schema.org/ReturnByMail"
+          }
+        }
+      },
+      "itemCondition": "https://schema.org/NewCondition",
+      "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8-go-gddr6-ai-dlss4-reflex-2-rtx-ray-tracing-avance",
+      "technicalText": "Ce qui rend ce produit unique"
+    }
+  },
+  "offer": {
+    "retailer": "PcComponentes",
+    "seller": "You Get - Innovation and Technology FR",
+    "url": "https://www.pccomponentes.fr/carte-graphique-pny-geforce-rtx-5050-8-go-gddr6-ai-dlss4-reflex-2-rtx-ray-tracing-avance",
+    "productName": "Carte graphique PNY GeForce RTX 5050 8 Go GDDR6 AI DLSS4 Reflex 2 RTX Ray Tracing avancé",
+    "mpn": "VCG50508DFXPB1",
+    "amount": 489.74,
+    "currency": "EUR",
+    "market": "FR",
+    "condition": "new",
+    "availability": "in_stock",
+    "priceKind": "current",
+    "shipping": 0.0,
+    "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+    "checkedAt": "2026-11-10T09:48:12Z"
+  }
+}

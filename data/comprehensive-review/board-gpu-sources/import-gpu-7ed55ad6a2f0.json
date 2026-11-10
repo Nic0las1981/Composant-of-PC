@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7ed55ad6a2f0",
+  "expectedName": "MSI RTX 2070 Ventus 8G Video Card · 8 Go · Argent / Noir · 226 mm",
+  "originalRecord": {
+    "name": "MSI MSI RTX 2070 Ventus 8G Video Card",
+    "price": 659,
+    "chipset": "GeForce RTX 2070",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1620,
+    "color": "Silver / Black",
+    "length": 226
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:38+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-8G-MSI-Ventus-Video-Card/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-MSI-Ventus-Video-Card-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2070-MSI-Ventus-Video-Card/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MSI-RTX-2070-Ventus-8G-Video-Card/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-8cb1407534c8",
+  "expectedName": "GAMING SLIM MLG RTX 4070 SUPER · 12 Go · Noir / Rouge · 307 mm",
+  "originalRecord": {
+    "name": "MSI GAMING SLIM MLG",
+    "price": null,
+    "chipset": "GeForce RTX 4070 SUPER",
+    "memory": 12,
+    "core_clock": 1980,
+    "boost_clock": 2490,
+    "color": "Black / Red",
+    "length": 307
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:09+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-12G-GAMING-SLIM-MLG/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-GAMING-SLIM-MLG-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-GAMING-SLIM-MLG/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-SLIM-MLG/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

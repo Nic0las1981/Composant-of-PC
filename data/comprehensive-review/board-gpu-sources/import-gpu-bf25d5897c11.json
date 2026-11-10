@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-bf25d5897c11",
+  "expectedName": "ARMOR OC GTX 1660 Ti · 6 Go · Noir / Blanc · 243 mm",
+  "originalRecord": {
+    "name": "MSI ARMOR OC",
+    "price": 592.33,
+    "chipset": "GeForce GTX 1660 Ti",
+    "memory": 6,
+    "core_clock": 1500,
+    "boost_clock": 1860,
+    "color": "Black / White",
+    "length": 243
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:41+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-6G-ARMOR-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-OC-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-ARMOR-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/ARMOR-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

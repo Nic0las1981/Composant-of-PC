@@ -24,7 +24,7 @@ test("only explicitly matched public reports gain source provenance, never merch
       assert.match(info.label, /signalé.*confirmer/i);
       continue;
     }
-    const unknown = component.priceStatus === "unknown" || Boolean(getVerifiedProduct(component)?.offers.length);
+    const unknown = component.priceStatus === "unknown" || Boolean(getVerifiedProduct(component));
     assert.equal(info.status, unknown ? "unknown" : "estimate", component.id);
     assert.equal(info.checkedAt, null, component.id);
     assert.equal(info.source, null, component.id);
@@ -57,7 +57,7 @@ test("old, future or not-in-stock reports are excluded from the indicative EUR r
     const observation = getMarketObservation(component)!;
     if (observation.availabilityReported !== "in_stock") {
       assert.equal(getIndicativeMarketObservation(component), null);
-      assert.equal(getReferencePrice(component), component.priceStatus === "unknown" ? null : component.price);
+      assert.equal(getReferencePrice(component), component.priceStatus === "unknown" || getVerifiedProduct(component) ? null : component.price);
     }
   }
   const before = analyzeBuild({ ...defaultSelection, cpu: null });

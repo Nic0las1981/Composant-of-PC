@@ -1,0 +1,26 @@
+[
+  {
+    "id": "import-psu-9767fc1c34d6",
+    "badMPN": "SGX 650",
+    "reason": "Le MPN SGX 650 identifie une alimentation SFX-L, distincte de la FOCUS Plus 650 Gold ATX de la ligne catalogue.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/seasonic-focus-sgx-650-650w-80-plus-or-modulaire"
+    ]
+  },
+  {
+    "id": "import-psu-2be5c9ba113a",
+    "badMPN": "306-7ZP7C11-CE0",
+    "reason": "Le catalogue MPG A1000G sans PCIE5 ne distingue pas la révision. Le MPN et la page retenus sont ceux de MPG A1000G PCIE5, déjà liée à un autre ID exact.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/alimentation-pc-msi-mpg-a1000g-pcie5-unite-d-alimentation-d-energie-1000-w-20-plus-4-pin-atx-atx-noir"
+    ]
+  },
+  {
+    "id": "cooler-ak620",
+    "badMPN": "R-AK620-BKNNMT-G-1",
+    "reason": "Le suffixe -1 correspond au AK620 ZERO DARK ; le AK620 standard porte R-AK620-BKNNMT-G sans suffixe. Correction fabricant intégrée avec une référence différente.",
+    "sourceUrls": [
+      "https://www.pccomponentes.fr/deepcool-ak620-zero-dark-ventilateur-cpu-120-mm-noir"
+    ]
+  }
+]

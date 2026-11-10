@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-fea4b6f01850",
+  "expectedName": "GeForce RTX 3070 LHR 8GB SUPRIM x GODZILLA · 8 Go · Rouge / Noir · 335 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3070 LHR 8GB SUPRIM x GODZILLA",
+    "price": null,
+    "chipset": "GeForce RTX 3070 LHR",
+    "memory": 8,
+    "core_clock": 1500,
+    "boost_clock": 1920,
+    "color": "Red / Black",
+    "length": 335
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:13+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-8G-SUPRIM-x-GODZILLA/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-SUPRIM-x-GODZILLA-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-SUPRIM-x-GODZILLA/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-LHR-8GB-SUPRIM-x-GODZILLA/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

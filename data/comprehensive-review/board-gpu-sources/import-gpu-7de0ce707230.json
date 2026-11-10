@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-7de0ce707230",
+  "expectedName": "VENTUS XS OC GTX 1650 G5 · 4 Go · Noir / Blanc · 170 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS XS OC",
+    "price": null,
+    "chipset": "GeForce GTX 1650 G5",
+    "memory": 4,
+    "core_clock": 1485,
+    "boost_clock": 1740,
+    "color": "Black / White",
+    "length": 170
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:20+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-4G-VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-VENTUS-XS-OC-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-XS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

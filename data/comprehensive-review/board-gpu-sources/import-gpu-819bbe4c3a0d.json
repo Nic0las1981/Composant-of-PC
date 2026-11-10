@@ -1,0 +1,57 @@
+{
+  "componentId": "import-gpu-819bbe4c3a0d",
+  "expectedName": "GeForce RTX 3090 GAMING X TRIO 24G · 24 Go · Noir · 335 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3090 GAMING X TRIO 24G",
+    "price": 1695.99,
+    "chipset": "GeForce RTX 3090",
+    "memory": 24,
+    "core_clock": 1395,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 335
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:22+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-24G-GAMING-X-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-GAMING-X-TRIO-24G/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-GAMING-X-TRIO-24G/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-GAMING-X-TRIO-24G/Specification",
+  "httpStatus": 200,
+  "sha256": "05c2b546f4c0b9359cbacbe259149073658265d592767b95937804fc2b2a02b5",
+  "status": "specification_fetched",
+  "text": "MSI GeForce RTX 3090 GAMING X TRIO 24G\nGraphics Cards\nGeForce RTX™ 3090 GAMING X TRIO 24G\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX™ 3090 GAMING X TRIO 24G\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nNVLink Support\nMulti-GPU Technology\nMaximum Displays\nVR Ready\nG-SYNC® technology\nAdaptive Vertical Sync\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 3090 GAMING X TRIO 24G\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 3090\nInterface\nPCI Express® Gen 4\nCore Clocks\nBoost:1785 MHz\nCUDA® CORES\n10496 Units\nMemory Speed\n19.5 Gbps\nMemory\n24GB GDDR6X\nMemory Bus\n384-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1 (Supports 4K@120Hz as specified in HDMI™ 2.1)\nHDCP Support\nY\nPower consumption\n370W\nPower connectors\n8-pin x 3\nRecommended PSU\n750 W\nCard Dimension (mm)\n323 x 140 x 56mm\nWeight (Card / Package)\n1565 g / 2370 g\nDirectX Version Support\n12 API\nOpenGL Version Support\n4.6\nNVLink Support\nY\nMulti-GPU Technology\nY\nMaximum Displays\n4\nVR Ready\nY\nG-SYNC® technology\nY\nAdaptive Vertical Sync\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 323.0,
+    "heightMm": 140.0,
+    "thicknessMm": 56.0,
+    "capacityGB": 24,
+    "name": "GeForce RTX 3090 GAMING X TRIO 24G · 24 Go · Noir · 323 mm",
+    "variantGroupName": "GeForce RTX 3090 GAMING X TRIO 24G · 24 Go · 323 mm",
+    "powerW": 370.0,
+    "recommendedPsuW": 750.0,
+    "manufacturerPartNumber": "GeForce RTX™ 3090 GAMING X TRIO 24G",
+    "description": "Carte graphique MSI GeForce RTX 3090 GAMING X TRIO 24G avec 24 Go. Dimensions constructeur : 323 × 140 × 56 mm. Consommation annoncée par le constructeur : 370 W.",
+    "specs": [
+      "24 Go de mémoire vidéo",
+      "Dimensions : 323 × 140 × 56 mm",
+      "Consommation carte : 370 W",
+      "Alimentation système conseillée : 750 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

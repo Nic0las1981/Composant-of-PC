@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-6da01b72ce5f",
+  "expectedName": "GAMING Z TRIO RTX 3060 Ti LHR · 8 Go · Noir / Gris · 323 mm",
+  "originalRecord": {
+    "name": "MSI GAMING Z TRIO",
+    "price": null,
+    "chipset": "GeForce RTX 3060 Ti LHR",
+    "memory": 8,
+    "core_clock": 1410,
+    "boost_clock": 1845,
+    "color": "Black / Gray",
+    "length": 323
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:51+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-8G-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-GAMING-Z-TRIO-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-LHR-GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-Z-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

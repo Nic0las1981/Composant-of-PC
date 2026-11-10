@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-a61f4e436c29",
+  "expectedName": "GAMING TRIO RX 6950 XT · 16 Go · Argent / Noir · 325 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO",
+    "price": null,
+    "chipset": "Radeon RX 6950 XT",
+    "memory": 16,
+    "core_clock": 1890,
+    "boost_clock": 2324,
+    "color": "Silver / Black",
+    "length": 325
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:13+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6950-XT-16G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6950-XT-GAMING-TRIO-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6950-XT-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

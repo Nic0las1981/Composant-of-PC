@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-b7e737c7f78c",
+  "expectedName": "AERO ITX OC RTX 3060 · 12 Go · Noir / Argent · 172 mm",
+  "originalRecord": {
+    "name": "MSI AERO ITX OC",
+    "price": null,
+    "chipset": "GeForce RTX 3060 12GB",
+    "memory": 12,
+    "core_clock": 1320,
+    "boost_clock": 1792,
+    "color": "Black / Silver",
+    "length": 172
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:50+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-12G-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-AERO-ITX-OC-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-12GB-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

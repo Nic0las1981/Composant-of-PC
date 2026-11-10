@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-bf1bc4f8b628",
+  "expectedName": "GeForce RTX 3080 SEA HAWK X 10G LHR RTX 3080 10GB LHR · 10 Go · Noir / Argent · 271 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3080 SEA HAWK X 10G LHR",
+    "price": null,
+    "chipset": "GeForce RTX 3080 10GB LHR",
+    "memory": 10,
+    "core_clock": 1440,
+    "boost_clock": 1785,
+    "color": "Black / Silver",
+    "length": 271
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:06+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-10G-SEA-HAWK-X-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-SEA-HAWK-X-LHR-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-SEA-HAWK-X-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-SEA-HAWK-X-10G-LHR/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

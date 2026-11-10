@@ -6,6 +6,8 @@ import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeom
 import { MM, type CaseVisualProfile } from "../../data/visualProfiles";
 import { BoxInstances, HardwareFan, RGBStrip, useHardwareSurface, type BoxInstance } from "./HardwarePrimitives";
 
+import { useSceneAnimation } from "./SceneAnimation";
+
 type Vec3 = [number, number, number];
 const noRaycast = () => {};
 
@@ -41,9 +43,11 @@ function Metal({
   rotation?: Vec3;
 }) {
   const surface = useHardwareSurface("paint");
+  const radius=Math.min(.004,Math.min(...size)*.16);
+  const geometry=useMemo(()=>new RoundedBoxGeometry(...size,1,radius),[...size,radius]);
+  useEffect(()=>()=>geometry.dispose(),[geometry]);
   return (
-    <mesh position={position} rotation={rotation} castShadow receiveShadow>
-      <boxGeometry args={size} />
+    <mesh position={position} rotation={rotation} geometry={geometry} castShadow receiveShadow>
       <meshStandardMaterial
         color={color}
         metalness={0.16}
@@ -430,16 +434,17 @@ function SidePanel({
   exploded,
 }: CaseModelProps & { width: number; height: number; depth: number }) {
   const ref = useRef<THREE.Group>(null);
+  const animated = useSceneAnimation();
   const start = width / 2;
   const target = start + (exploded ? 0.95 : 0);
   useFrame((_, delta) => {
     if (ref.current)
-      ref.current.position.x = THREE.MathUtils.damp(
+      ref.current.position.x = animated ? THREE.MathUtils.damp(
         ref.current.position.x,
         target,
         8,
         delta,
-      );
+      ) : target;
   });
   const ghost = openSide && !exploded;
   return (

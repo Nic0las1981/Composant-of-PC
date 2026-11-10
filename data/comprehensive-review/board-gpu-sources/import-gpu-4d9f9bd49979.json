@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-4d9f9bd49979",
+  "expectedName": "GAMING X GTX 1650 G5 · 4 Go · Noir · 245 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X",
+    "price": 345,
+    "chipset": "GeForce GTX 1650 G5",
+    "memory": 4,
+    "core_clock": 1485,
+    "boost_clock": 1860,
+    "color": "Black",
+    "length": 245
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:43+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-4G-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-GAMING-X-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G5-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

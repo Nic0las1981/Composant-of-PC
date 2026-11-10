@@ -17,6 +17,7 @@ export default function IndividualProductArt({component,profile,detailed,paint,f
     {Array.from({length:53},(_,j)=><path key={j} d={`M${4+j*1.5} 35.2v2.5`} stroke="#82703f" strokeWidth=".4"/>)}
     <path d="M2 1 5-1h81l2 2v28l-2 2H4Z" fill={white?'#ccd0cd':'#161b19'} stroke="#8f9994" strokeWidth=".4"/>
     <path d="M1 1h84v26l-3 1v5H4v-5l-3-1Z" fill={white?'#eceeea':'#343936'} stroke={white?'#fafbf8':'#78817c'} strokeWidth=".55"/>
+    <path d="M7 9h71l4 18v5H4v-5Z" fill={paint('brushed')} opacity=".09"/>
     <path d="M2 2h81l-5 7H7Z" fill={white?'#fafbf8':'#4d5550'}/>
     <path d="M2 2 7 9 2 27Zm81 0-5 7 5 18Z" fill={white?'#d3d8d3':'#272e2b'}/>
     <path d="M4 28h78v4H4Z" fill={white?'#cdd3cd':'#252c28'}/>
@@ -48,6 +49,7 @@ export default function IndividualProductArt({component,profile,detailed,paint,f
   <path d="M12 9 94-2l4 4-82 11Z" fill="#222c2d"/>
   {Array.from({length:detailed?40:25},(_,i)=><path key={i} d={`M${15+i*1.95} ${8-i*.26}l2 2`} stroke="#78827e" strokeWidth=".4"/>)}
   <path d="M13 15 105 3v35L13 50Z" fill="#e7eae6" stroke="#a9b2af" strokeWidth=".65"/>
+  <path d="M14 15 104 3M14 49l90-12" stroke="#fff" strokeWidth=".3" opacity=".7"/>
   <path d="M4 7 13 15v35L4 42Z" fill="#b7c0bb" stroke="#667570" strokeWidth=".5"/>
   <g transform="matrix(1,-.13,0,1,13,15)">
    <path d="M1 3h88v29H1Z" fill="#aab4b0"/>
@@ -97,7 +99,7 @@ export default function IndividualProductArt({component,profile,detailed,paint,f
   {[47,54].map(y=><rect key={y} x="55" y={y} width="3" height="5" fill="#2a3527"/>)}
  </g>;
  if(profile.design==='power-zone-2')return <g data-model-art="power-zone-2" transform="translate(7 5)">
-  <path d="M8 29 57 13l44 22-49 17Z" fill="#353b36" stroke="#7a857a" strokeWidth=".65"/>
+  <path d="M8 29 57 13l44 22-49 17Z" fill={paint('shell-surface')} stroke="#7a857a" strokeWidth=".65"/>
   <g transform="matrix(1,-.326,.88,.44,12,29)">
    <path d="M3 3h39v38H3Z" fill="#111815"/>
    <circle cx="22" cy="22" r="18" fill="#19231d"/>
@@ -106,8 +108,9 @@ export default function IndividualProductArt({component,profile,detailed,paint,f
    <rect x="3" y="42" width="39" height="3" fill="#949d90"/>
    <text x="22" y="44.2" fill="#2b362c" textAnchor="middle" fontFamily="Arial,sans-serif" fontSize="2.4" fontWeight="700">POWER ZONE 2</text>
   </g>
-  <path d="M8 29 52 52v29L8 57Z" fill="#252e27" stroke="#677464" strokeWidth=".6"/>
+  <path d="M8 29 52 52v29L8 57Z" fill={paint('shell-surface')} stroke="#677464" strokeWidth=".6"/>
   <path d="M52 52 101 35v29L52 81Z" fill="#1f2822" stroke="#677464" strokeWidth=".6"/>
+  <path d="M9 29 52 51.3 100 35M53 52v27" stroke="#b1b9b2" strokeWidth=".3" opacity=".6"/>
   <g transform="matrix(1,.52,0,1,12,34)">
    <rect width="35" height="21" fill="#171e18" stroke="#71806b" strokeWidth=".4"/>
    <text x="2" y="5" fill="#e7ede2" fontFamily="Arial,sans-serif" fontSize="3.4" fontWeight="700">be<tspan fill="#e49a56"> quiet!</tspan></text>

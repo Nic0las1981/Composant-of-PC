@@ -1,0 +1,40 @@
+{
+  "componentId": "import-gpu-bc290d1a5f64",
+  "expectedName": "GeForce RTX 3090 GAMING TRIO 24G · 24 Go · Noir · 335 mm",
+  "originalRecord": {
+    "name": "MSI GeForce RTX 3090 GAMING TRIO 24G",
+    "price": null,
+    "chipset": "GeForce RTX 3090",
+    "memory": 24,
+    "core_clock": 1395,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 335
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:13+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-24G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-GAMING-TRIO-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3090-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

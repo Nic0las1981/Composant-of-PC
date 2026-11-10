@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-cb014579ead7",
+  "expectedName": "GAMING TRIO OC RTX 5080 · 16 Go · Blanc / Argent · 338 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO OC",
+    "price": 1867.62,
+    "chipset": "GeForce RTX 5080",
+    "memory": 16,
+    "core_clock": 2300,
+    "boost_clock": null,
+    "color": "White / Silver",
+    "length": 338
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:26+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-GAMING-TRIO-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-GAMING-TRIO-OC-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-GAMING-TRIO-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

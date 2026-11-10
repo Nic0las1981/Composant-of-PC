@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-f2256478f596",
+  "expectedName": "AERO ITX OC RTX 3050 · 8 Go · Noir / Argent · 172 mm",
+  "originalRecord": {
+    "name": "MSI AERO ITX OC",
+    "price": null,
+    "chipset": "GeForce RTX 3050 8GB",
+    "memory": 8,
+    "core_clock": 1550,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 172
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:58+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-8G-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-AERO-ITX-OC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-8GB-AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO-ITX-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-5a5f4c2578fa",
+  "expectedName": "MECH 2X RX 6750 XT · 12 Go · Argent / Noir · 249 mm",
+  "originalRecord": {
+    "name": "MSI MECH 2X",
+    "price": null,
+    "chipset": "Radeon RX 6750 XT",
+    "memory": 12,
+    "core_clock": 2150,
+    "boost_clock": 2600,
+    "color": "Silver / Black",
+    "length": 249
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:52+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6750-XT-12G-MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6750-XT-MECH-2X-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6750-XT-MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MECH-2X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

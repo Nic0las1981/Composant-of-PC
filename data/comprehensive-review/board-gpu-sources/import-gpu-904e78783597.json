@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-904e78783597",
+  "expectedName": "GAMING X GTX 1660 SUPER · 6 Go · Noir · 247 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X",
+    "price": 258.44,
+    "chipset": "GeForce GTX 1660 SUPER",
+    "memory": 6,
+    "core_clock": 1530,
+    "boost_clock": 1830,
+    "color": "Black",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:27+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-6G-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-GAMING-X-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

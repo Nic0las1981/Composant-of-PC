@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ae832418723f",
+  "expectedName": "GAMING Z RTX 2060 · 6 Go · Noir / Gris · 247 mm",
+  "originalRecord": {
+    "name": "MSI GAMING Z",
+    "price": 916.69,
+    "chipset": "GeForce RTX 2060",
+    "memory": 6,
+    "core_clock": 1365,
+    "boost_clock": 1830,
+    "color": "Black / Gray",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:35+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-6G-GAMING-Z/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z-6G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-GAMING-Z/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-Z/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

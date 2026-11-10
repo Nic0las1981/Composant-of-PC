@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-46e085edf239",
+  "expectedName": "SUPRIM X RTX 3080 10GB LHR · 10 Go · Noir / Argent · 336 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM X",
+    "price": 1145,
+    "chipset": "GeForce RTX 3080 10GB LHR",
+    "memory": 10,
+    "core_clock": 1440,
+    "boost_clock": 1920,
+    "color": "Black / Silver",
+    "length": 336
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:09+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-10G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-SUPRIM-X-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

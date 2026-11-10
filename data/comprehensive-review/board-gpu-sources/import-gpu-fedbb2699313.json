@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-fedbb2699313",
+  "expectedName": "MECH 2X CLASSIC RX 7600 · 8 Go · Noir / Argent · 235 mm",
+  "originalRecord": {
+    "name": "MSI MECH 2X CLASSIC",
+    "price": null,
+    "chipset": "Radeon RX 7600",
+    "memory": 8,
+    "core_clock": 1720,
+    "boost_clock": 2655,
+    "color": "Black / Silver",
+    "length": 235
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:10+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-7600-8G-MECH-2X-CLASSIC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-7600-MECH-2X-CLASSIC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-7600-MECH-2X-CLASSIC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MECH-2X-CLASSIC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

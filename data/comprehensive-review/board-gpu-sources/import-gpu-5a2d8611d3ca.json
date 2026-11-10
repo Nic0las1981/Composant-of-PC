@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-5a2d8611d3ca",
+  "expectedName": "VANGUARD SOC LAUNCH EDITION RTX 5090 · 32 Go · Noir / Argent · 357 mm",
+  "originalRecord": {
+    "name": "MSI VANGUARD SOC LAUNCH EDITION",
+    "price": 3062.98,
+    "chipset": "GeForce RTX 5090",
+    "memory": 32,
+    "core_clock": 2010,
+    "boost_clock": null,
+    "color": "Black / Silver",
+    "length": 357
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:25+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-32G-VANGUARD-SOC-LAUNCH-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-VANGUARD-SOC-LAUNCH-EDITION-32G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5090-VANGUARD-SOC-LAUNCH-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VANGUARD-SOC-LAUNCH-EDITION/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,109 @@
+{
+  "import-ssd-d0d28414b576": {
+    "mpn": "WDS100T1XHE-00AFY0",
+    "identityNote": "Le code WDS100T1XHE présent dans l’archive correspond au modèle SN850 1 To avec dissipateur ; le PDF Western Digital publie sa référence complète WDS100T1XHE-00AFY0. Le SN850X et les modèles sans dissipateur sont distincts.",
+    "sources": [
+      {
+        "name": "Western Digital / Sandisk — fiche technique SN850",
+        "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/western-digital/product/internal-drives/wd-black-ssd/data-sheet-wd-black-sn850-nvme-ssd.pdf",
+        "checkedAt": "2026-11-10T11:25:27.162Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Données fabricant SN850 1 To avec dissipateur",
+        "rows": [
+          {
+            "label": "Référence complète",
+            "value": "WDS100T1XHE-00AFY0"
+          },
+          {
+            "label": "Capacité",
+            "value": "1 To"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen4 x4 · NVMe"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm ± 0,20 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "23,40 mm ± 0,20 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "8,80 mm ± 0,20 mm"
+          },
+          {
+            "label": "Vitesse en lecture",
+            "value": "Jusqu’à 7 000 Mo/s"
+          },
+          {
+            "label": "Vitesse en écriture",
+            "value": "Jusqu’à 5 300 Mo/s"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "Jusqu’à 1 000 000 IOPS"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "Jusqu’à 720 000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Garantie limitée",
+            "value": "5 ans ou limite de 600 TBW, au premier seuil atteint"
+          },
+          {
+            "label": "Dissipateur thermique",
+            "value": "Oui, intégré au modèle XHE"
+          },
+          {
+            "label": "Éclairage",
+            "value": "RGB personnalisable via WD_BLACK Dashboard sous Windows"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "WDS100T1XHE-00AFY0",
+      "name": "WD_BLACK SN850 1 To avec dissipateur",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 23.4,
+      "heightMm": 8.8,
+      "storageHeatsink": true,
+      "rgb": true,
+      "detailLevel": "partial",
+      "specs": [
+        "1 To · WDS100T1XHE-00AFY0",
+        "M.2 2280 · PCIe 4.0 ×4 · NVMe",
+        "Lecture jusqu’à 7 000 Mo/s · écriture 5 300 Mo/s",
+        "600 TBW · garantie limitée 5 ans",
+        "Dissipateur intégré · 80 × 23,4 × 8,8 mm"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Données de la fiche fabricant édition 10/2021. Les performances maximales dépendent du système. Aucun prix marchand de cette référence exacte n’a été confirmé.",
+      "Type NAND et cache DRAM non précisés dans ce document ; ils ne sont pas repris du SN850X."
+    ]
+  }
+}

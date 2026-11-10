@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-18bef9471025",
+  "expectedName": "GAMING X SLIM RTX 4070 · 12 Go · Blanc · 307 mm",
+  "originalRecord": {
+    "name": "MSI GAMING X SLIM",
+    "price": 2522.19,
+    "chipset": "GeForce RTX 4070",
+    "memory": 12,
+    "core_clock": 1920,
+    "boost_clock": 2625,
+    "color": "White",
+    "length": 307
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:59+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-12G-GAMING-X-SLIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-SLIM-12G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-SLIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-X-SLIM/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

@@ -1,0 +1,50 @@
+{
+  "componentId": "import-gpu-5abb0853a7e6",
+  "expectedName": "GAMING OC RTX 5060 Ti · 8 Go · Noir · 247 mm",
+  "originalRecord": {
+    "name": "MSI GAMING OC",
+    "price": 379.99,
+    "chipset": "GeForce RTX 5060 Ti",
+    "memory": 8,
+    "core_clock": 2410,
+    "boost_clock": null,
+    "color": "Black",
+    "length": 247
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:30+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING-OC/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING-OC/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING-OC/Specification",
+  "httpStatus": 200,
+  "sha256": "bb06bbf3af618f564b6d21dcdbc38da4b1d0400b840c18ebb2d58c884816b7ac",
+  "status": "specification_fetched",
+  "text": "MSI GeForce RTX™ 5060 Ti 8G GAMING OC\nGraphics Cards\nGeForce RTX™ 5060 Ti 8G GAMING OC\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX™ 5060 Ti 8G GAMING OC\nProduct Specifications\nDatasheet\nMarketing Name\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMaximum Displays\nG-SYNC® technology\nDigital Maximum Resolution\nMarketing Name\nGeForce RTX™ 5060 Ti 8G GAMING OC\nModel Name\nG506T-8GC\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 5060 Ti\nInterface\nPCI Express® Gen 5 x16 (uses x8)\nCore Clocks\nExtreme Performance: 2662 MHz (MSI Center)\nBoost: 2647 MHz\nCUDA® CORES\n4608 Units\nMemory Speed\n28 Gbps\nMemory\n8GB GDDR7\nMemory Bus\n128-bit\nOutput\nDisplayPort x 3 (v2.1b)\nHDMI™ x 1 (As specified in HDMI™ 2.1b: up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR)\nHDCP Support\nY\nPower consumption\n180 W\nPower connectors\n16-pin x 1 (ATX 3.1 PSU recommended)\nRecommended PSU\n600 W\nCard Dimension (mm)\n247 x 135 x 51 mm\nWeight (Card / Package)\n768 g / 1219 g\nDirectX Version Support\n12 Ultimate\nOpenGL Version Support\n4.6\nMaximum Displays\n4\nG-SYNC® technology\nY\nDigital Maximum Resolution\n7680 x 4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nThis product’s packaging is made from FSC™ certified material. By choosing this product, you help take care of the world’s forests. Learn more: www.fsc.org\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 247.0,
+    "heightMm": 135.0,
+    "thicknessMm": 51.0,
+    "capacityGB": 8,
+    "powerW": 180.0,
+    "recommendedPsuW": 600.0,
+    "manufacturerPartNumber": "G506T-8GC",
+    "description": "Carte graphique MSI GAMING OC RTX 5060 Ti avec 8 Go. Dimensions constructeur : 247 × 135 × 51 mm. Consommation annoncée par le constructeur : 180 W.",
+    "specs": [
+      "8 Go de mémoire vidéo",
+      "Dimensions : 247 × 135 × 51 mm",
+      "Consommation carte : 180 W",
+      "Alimentation système conseillée : 600 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

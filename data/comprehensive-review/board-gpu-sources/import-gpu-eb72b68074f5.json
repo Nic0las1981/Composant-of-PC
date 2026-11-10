@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-eb72b68074f5",
+  "expectedName": "AERO ITX RX 6400 · 4 Go · Noir / Gris · 172 mm",
+  "originalRecord": {
+    "name": "MSI AERO ITX",
+    "price": null,
+    "chipset": "Radeon RX 6400",
+    "memory": 4,
+    "core_clock": 1923,
+    "boost_clock": null,
+    "color": "Black / Gray",
+    "length": 172
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:00+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6400-4G-AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6400-AERO-ITX-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6400-AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/AERO-ITX/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

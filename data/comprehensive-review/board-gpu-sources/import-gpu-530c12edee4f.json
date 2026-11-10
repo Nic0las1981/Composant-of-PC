@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-530c12edee4f",
+  "expectedName": "INSPIRE 3X OC PLUS RTX 5070 Ti · 16 Go · Or / Noir · 288 mm",
+  "originalRecord": {
+    "name": "MSI INSPIRE 3X OC PLUS",
+    "price": 1010,
+    "chipset": "GeForce RTX 5070 Ti",
+    "memory": 16,
+    "core_clock": 2300,
+    "boost_clock": 2497,
+    "color": "Gold / Black",
+    "length": 288
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:24+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-INSPIRE-3X-OC-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-INSPIRE-3X-OC-PLUS-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-INSPIRE-3X-OC-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/INSPIRE-3X-OC-PLUS/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

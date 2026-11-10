@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-11-10T11:41:11.531Z",
+  "reviewed": 25,
+  "aio": 14,
+  "air": 11,
+  "products": [
+    {
+      "id": "cooler-phantom",
+      "name": "Phantom Spirit 120 SE",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-ak620",
+      "name": "AK620",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-nhd15",
+      "name": "NH-D15 chromax.black",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-l9a",
+      "name": "NH-L9a-AM5",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-peerless",
+      "name": "Peerless Assassin 120 SE",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-darkrockpro5",
+      "name": "Dark Rock Pro 5",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-h100i240",
+      "name": "iCUE H100i ELITE CAPELLIX XT",
+      "mpn": "CW-9060068-WW",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 277,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/evidence/retailer-cooler-h100i240.json"
+    },
+    {
+      "id": "cooler-h150i360",
+      "name": "iCUE H150i ELITE CAPELLIX XT",
+      "mpn": "CW-9060070-WW",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 397,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/evidence/retailer-cooler-h150i360.json"
+    },
+    {
+      "id": "cooler-lfiii240",
+      "name": "Liquid Freezer III 240",
+      "mpn": "ACFRE00134A",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 277,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 38,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/arctic-240.json"
+    },
+    {
+      "id": "cooler-lfiii280",
+      "name": "Liquid Freezer III 280",
+      "mpn": "ACFRE00135A",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 317,
+      "radiatorWidthMm": 138,
+      "radiatorThicknessMm": 38,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/arctic-280.json"
+    },
+    {
+      "id": "cooler-lfiii360",
+      "name": "Liquid Freezer III 360",
+      "mpn": "ACFRE00136A",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 398,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 38,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/arctic-360.json"
+    },
+    {
+      "id": "cooler-kraken240",
+      "name": "Kraken 240 (2023)",
+      "mpn": "RL-KN240-B1",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 275,
+      "radiatorWidthMm": 123,
+      "radiatorThicknessMm": 30,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/kraken2023.json"
+    },
+    {
+      "id": "cooler-kraken360",
+      "name": "Kraken 360 (2023)",
+      "mpn": "RL-KN360-B1",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 394,
+      "radiatorWidthMm": 121,
+      "radiatorThicknessMm": 30,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/kraken2023.json"
+    },
+    {
+      "id": "cooler-ls520240",
+      "name": "LS520",
+      "mpn": "R-LS520-BKAMNT-G-1",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 282,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/evidence/retailer-cooler-ls520240.json"
+    },
+    {
+      "id": "cooler-ls720360",
+      "name": "LS720",
+      "mpn": "FC-DC-LS720-BK",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 402,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/evidence/retailer-cooler-ls720360.json"
+    },
+    {
+      "id": "cooler-nhd15-g2",
+      "name": "NH-D15 G2",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-nhd12l",
+      "name": "NH-D12L",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-l9i-17xx",
+      "name": "NH-L9i-17xx chromax.black",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-ak620-digital",
+      "name": "AK620 DIGITAL",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-ak620-zero-dark",
+      "name": "AK620 ZERO DARK",
+      "status": "not_applicable_air_cooler"
+    },
+    {
+      "id": "cooler-lfiii420",
+      "name": "Liquid Freezer III 420",
+      "mpn": "ACFRE00137A",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 458,
+      "radiatorWidthMm": 138,
+      "radiatorThicknessMm": 38,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/arctic-420.json"
+    },
+    {
+      "id": "cooler-lfiii360-argb-white",
+      "name": "Liquid Freezer III 360 A-RGB White",
+      "mpn": "ACFRE00152A",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 398,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 38,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/arctic-360-white.json"
+    },
+    {
+      "id": "cooler-h170i-lcd-420",
+      "name": "iCUE H170i ELITE LCD XT",
+      "mpn": "CW-9060076-WW",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 457,
+      "radiatorWidthMm": 140,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/evidence/retailer-cooler-h170i-lcd-420.json"
+    },
+    {
+      "id": "cooler-ek-nucleus360",
+      "name": "Nucleus AIO CR360 Lux D-RGB",
+      "mpn": "3831109851685",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 400,
+      "radiatorWidthMm": 124,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/ek-nucleus-cr360.json"
+    },
+    {
+      "id": "cooler-silentloop2-360",
+      "name": "Silent Loop 2 360 mm",
+      "mpn": "BW012",
+      "status": "source_dimensions_confirmed",
+      "radiatorLengthMm": 394,
+      "radiatorWidthMm": 120,
+      "radiatorThicknessMm": 27,
+      "evidence": "data/comprehensive-review/power-chassis-evidence/bequiet-silentloop2-360.json"
+    }
+  ]
+}

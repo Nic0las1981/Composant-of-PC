@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-46dd412bf6c1",
+  "expectedName": "VANGUARD OC RTX 5070 Ti · 16 Go · Noir · 357 mm",
+  "originalRecord": {
+    "name": "MSI VANGUARD OC",
+    "price": null,
+    "chipset": "GeForce RTX 5070 Ti",
+    "memory": 16,
+    "core_clock": 2300,
+    "boost_clock": 2580,
+    "color": "Black",
+    "length": 357
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:02+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VANGUARD-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-VANGUARD-OC-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-VANGUARD-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VANGUARD-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

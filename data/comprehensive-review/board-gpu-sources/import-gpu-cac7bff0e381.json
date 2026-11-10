@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-cac7bff0e381",
+  "expectedName": "VENTUS 3X PLUS OC RTX 3080 10GB LHR · 10 Go · Noir · 305 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS 3X PLUS OC",
+    "price": 1717.75,
+    "chipset": "GeForce RTX 3080 10GB LHR",
+    "memory": 10,
+    "core_clock": 1440,
+    "boost_clock": 1740,
+    "color": "Black",
+    "length": 305
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:55+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-10G-VENTUS-3X-PLUS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-VENTUS-3X-PLUS-OC-10G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-10GB-LHR-VENTUS-3X-PLUS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-3X-PLUS-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

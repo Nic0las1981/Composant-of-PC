@@ -100,6 +100,40 @@ function getSceneRamModules(components: SelectedComponents, board: BoardVisualPr
 const add = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
 const noRaycast = () => {};
 
+/** Static builds only need a shadow refresh when the physical assembly changes. */
+function ShadowRefresh({ animated, signature }: { animated: boolean; signature: string }) {
+  const { gl } = useThree();
+  const remaining = useRef(2);
+  useEffect(() => {
+    remaining.current = 2;
+    gl.shadowMap.needsUpdate = true;
+  }, [gl, signature]);
+  useEffect(() => {
+    gl.shadowMap.autoUpdate = animated;
+    gl.shadowMap.needsUpdate = true;
+    return () => { gl.shadowMap.autoUpdate = true; };
+  }, [gl, animated]);
+  useFrame(() => {
+    if (remaining.current > 0) {
+      gl.shadowMap.needsUpdate = true;
+      remaining.current--;
+    }
+  });
+  return null;
+}
+
+/** Aggregate render cost for browser regression checks; no retained scene objects. */
+function RenderMetrics({ report }: { report: (calls: number, triangles: number, geometries: number) => void }) {
+  const elapsed = useRef(0);
+  useFrame(({ gl }, delta) => {
+    elapsed.current += delta;
+    if (elapsed.current < .5) return;
+    elapsed.current = 0;
+    report(gl.info.render.calls, gl.info.render.triangles, gl.info.memory.geometries);
+  });
+  return null;
+}
+
 function Highlight({ size }: { size: V3 }) {
   const box = useMemo(
     () =>
@@ -572,7 +606,9 @@ function CameraRig({
       profile.heightMm * MM,
       ((profile.widthMm + profile.depthMm) * MM * 0.68) / Math.max(0.8, aspect),
     );
-    const distance = dimension * 2.32 * (exploded ? 1.35 : 1);
+    // Exploded offsets use fixed scene units, so a percentage alone clips small cases.
+    const framedDimension = dimension + (exploded ? 1.8 : 0);
+    const distance = framedDimension * 2.32;
     const direction =
       view === "side"
         ? new THREE.Vector3(1, 0.04, 0.01)
@@ -787,6 +823,8 @@ export default function PcScene(props: PcSceneProps) {
           >
             <SceneAnimationProvider animated={props.animated !== false && !props.paused}>
             <HardwareSurfaceProvider>
+            <ShadowRefresh animated={props.animated !== false && !props.paused} signature={`${Object.values(props.components).map(c=>c?.id).join(":")}:${props.exploded}:${props.openSide}:${ramModules.map(slot=>`${slot.index}-${slot.component.id}`).join(",")}`}/>
+            <RenderMetrics report={(calls,triangles,geometries)=>{if(container.current){container.current.dataset.renderCalls=String(calls);container.current.dataset.renderTriangles=String(triangles);container.current.dataset.renderGeometries=String(geometries);}}}/>
             <ambientLight intensity={0.3} />
             <hemisphereLight args={["#edf2f7", "#252a2b", 0.7]} />
             <directionalLight
@@ -794,7 +832,7 @@ export default function PcScene(props: PcSceneProps) {
               intensity={2.35}
               color="#fff8ee"
               castShadow
-              shadow-mapSize={[1024, 1024]}
+              shadow-mapSize={[1536, 1536]}
               shadow-bias={-0.00015}
               shadow-normalBias={0.008}
               shadow-camera-near={0.1}
@@ -851,8 +889,8 @@ export default function PcScene(props: PcSceneProps) {
                 scale={12}
                 blur={1.8}
                 far={5}
-                resolution={256}
-                frames={80}
+                resolution={384}
+                frames={props.animated === false ? 2 : 80}
               />
             </Suspense>
             <CameraRig

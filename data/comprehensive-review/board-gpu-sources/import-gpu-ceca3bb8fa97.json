@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-ceca3bb8fa97",
+  "expectedName": "RTX 4070 Ti SUPER 16G VENTUS 3X BLACK OC · 16 Go · 322 mm",
+  "originalRecord": {
+    "name": "MSI RTX 4070 Ti SUPER 16G VENTUS 3X BLACK OC",
+    "price": null,
+    "chipset": "GeForce RTX 4070 Ti SUPER",
+    "memory": 16,
+    "core_clock": 2340,
+    "boost_clock": 2655,
+    "color": null,
+    "length": 322
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:19+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-3X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-VENTUS-3X-BLACK-OC-16G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-VENTUS-3X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RTX-4070-Ti-SUPER-16G-VENTUS-3X-BLACK-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

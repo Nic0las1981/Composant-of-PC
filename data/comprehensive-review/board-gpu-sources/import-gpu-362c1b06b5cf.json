@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-362c1b06b5cf",
+  "expectedName": "RTX 4090 GAMING X TRIO CLASSIC 24G · 24 Go · Noir · 337 mm",
+  "originalRecord": {
+    "name": "MSI RTX 4090 GAMING X TRIO CLASSIC 24G",
+    "price": null,
+    "chipset": "GeForce RTX 4090",
+    "memory": 24,
+    "core_clock": 2235,
+    "boost_clock": 2610,
+    "color": "Black",
+    "length": 337
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:53+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-24G-GAMING-X-TRIO-CLASSIC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-GAMING-X-TRIO-CLASSIC-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-GAMING-X-TRIO-CLASSIC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/RTX-4090-GAMING-X-TRIO-CLASSIC-24G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

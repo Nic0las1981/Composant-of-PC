@@ -3,6 +3,9 @@ import {catalogControlOutcomes} from '../data/catalogControl.ts';
 import {getVerifiedProduct} from '../lib/verifiedOffers.ts';
 import {individualProducts} from '../data/individualCatalog.ts';
 import {getMissingCompatibilityFields} from '../lib/componentCoverage.ts';
+import {catalogQuarantine} from '../data/catalogQuarantine.ts';
+import {comprehensiveProducts} from '../data/comprehensiveCatalog.ts';
+import {getCatalogCompletion} from '../lib/catalogCompletion.ts';
 
 const descriptions: Record<string,string> = {
   primary_match:'Une page produit correspond aux critères distinctifs de cette référence. Les sources et les offres admissibles sont indiquées ci-dessous.',
@@ -19,13 +22,20 @@ export default function CatalogControlNotice({component}:{component:Component}) 
   const control=catalogControlOutcomes[component.id];
   if (!control) return null;
   const verified=getVerifiedProduct(component);
-  const individual=individualProducts[component.id];
-  if(individual){
+  const quarantine=catalogQuarantine[component.id];
+  if(quarantine&&!verified)return <section className="cp-control-notice" aria-label="État du contrôle de la référence" data-control-status="identity_conflict">
+    <strong>Référence exacte à identifier</strong><p>{quarantine.reason}</p><p>La fiche et le prix du produit différent ont été écartés. Les données de cette variante restent à confirmer.</p>
+  </section>;
+  const individual=comprehensiveProducts[component.id]??individualProducts[component.id];
+  if(individual&&verified){
     const missing=getMissingCompatibilityFields(component);
+    const completion=getCatalogCompletion(component,verified);
+    const undocumented=completion.technical.fields.filter(field=>field.state!=='documented');
     return <section className="cp-control-notice" aria-label="État du contrôle de la référence" data-control-status="individual_review">
-      <strong>Fiche revue individuellement · {individual.mpn}</strong>
+      <strong>Fiche technique sourcée · {verified.mpn}</strong>
       <p>Les caractéristiques confirmées ci-dessous alimentent les contrôles de compatibilité.</p>
       {missing.length>0?<p>À confirmer : {missing.map(field=>field.label).join(', ')}.</p>:<p>Les champs nécessaires aux contrôles de ce composant sont renseignés. Les contraintes de montage de l’ensemble restent vérifiées séparément.</p>}
+      {undocumented.length>0&&<details><summary>Caractéristiques restant à documenter</summary><p>{undocumented.map(field=>field.label+(field.state==='conflicting'?' (sources divergentes)':'')).join(' · ')}.</p></details>}
     </section>;
   }
   return <section className="cp-control-notice" aria-label="État du contrôle de la référence" data-control-status={control.status}>

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-3fc430cf8664",
+  "expectedName": "GAMING TRIO RTX 2080 · 8 Go · 327 mm",
+  "originalRecord": {
+    "name": "MSI GAMING TRIO",
+    "price": null,
+    "chipset": "GeForce RTX 2080",
+    "memory": 8,
+    "core_clock": 1515,
+    "boost_clock": 1800,
+    "color": null,
+    "length": 327
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:11+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-8G-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-GAMING-TRIO-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GAMING-TRIO/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

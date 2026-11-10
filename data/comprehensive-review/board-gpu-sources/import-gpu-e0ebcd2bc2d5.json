@@ -1,0 +1,55 @@
+{
+  "componentId": "import-gpu-e0ebcd2bc2d5",
+  "expectedName": "SUPRIM X RTX 4070 Ti · 12 Go · Noir / Argent · 338 mm",
+  "originalRecord": {
+    "name": "MSI SUPRIM X",
+    "price": 1298,
+    "chipset": "GeForce RTX 4070 Ti",
+    "memory": 12,
+    "core_clock": 2310,
+    "boost_clock": 2790,
+    "color": "Black / Silver",
+    "length": 338
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:49+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-12G-SUPRIM-X/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPRIM-X-12G/Specification",
+      "httpStatus": 200,
+      "status": "specification_fetched"
+    }
+  ],
+  "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPRIM-X-12G/Specification",
+  "resolvedURL": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPRIM-X-12G/Specification",
+  "httpStatus": 200,
+  "sha256": "ea4a2365b68ab144026791ddf4529ceb4da31b43d3fae5cf21fb4ff478a83ea0",
+  "status": "specification_fetched",
+  "text": "MSI GeForce RTX™ 4070 Ti SUPRIM X 12G\nGraphics Cards\nGeForce RTX™ 4070 Ti SUPRIM X 12G\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nWHERE TO BUY\nOVERVIEW\nSPECIFICATIONS\nGALLERY\nSUPPORT\nBLOGS\nAWARDS\nGeForce RTX™ 4070 Ti SUPRIM X 12G\nProduct Specifications\nDatasheet\nModel Name\nGraphics Processing Unit\nInterface\nCore Clocks\nCUDA® CORES\nMemory Speed\nMemory\nMemory Bus\nOutput\nHDCP Support\nPower consumption\nPower connectors\nRecommended PSU\nCard Dimension (mm)\nWeight (Card / Package)\nDirectX Version Support\nOpenGL Version Support\nMaximum Displays\nG-SYNC® technology\nDigital Maximum Resolution\nModel Name\nGeForce RTX™ 4070 Ti SUPRIM X 12G\nGraphics Processing Unit\nNVIDIA® GeForce RTX™ 4070 Ti\nInterface\nPCI Express® Gen 4\nCore Clocks\nExtreme Performance: 2790 MHz (MSI Center)\nBoost: 2775 MHz (GAMING & SILENT Mode)\nCUDA® CORES\n7680 Units\nMemory Speed\n21 Gbps\nMemory\n12GB GDDR6X\nMemory Bus\n192-bit\nOutput\nDisplayPort x 3 (v1.4a)\nHDMI™ x 1 (Supports 4K@120Hz HDR, 8K@60Hz HDR, and Variable Refresh Rate as specified in HDMI™ 2.1a)\nHDCP Support\nY\nPower consumption\n285 W\nPower connectors\n16-pin x 1\nRecommended PSU\n750 W\nCard Dimension (mm)\n338 x 142 x 73 mm\nWeight (Card / Package)\n2019g / 3224g\nDirectX Version Support\n12 Ultimate\nOpenGL Version Support\n4.6\nMaximum Displays\n4\nG-SYNC® technology\nY\nDigital Maximum Resolution\n7680x4320\n© 2026 NVIDIA Corporation. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and G-SYNC are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.\nThe terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.\nAll images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.",
+  "verificationState": "manufacturer_specifications_confirmed",
+  "verificationBlockers": [
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {
+    "lengthMm": 338.0,
+    "heightMm": 142.0,
+    "thicknessMm": 73.0,
+    "capacityGB": 12,
+    "powerW": 285.0,
+    "recommendedPsuW": 750.0,
+    "manufacturerPartNumber": "GeForce RTX™ 4070 Ti SUPRIM X 12G",
+    "description": "Carte graphique MSI SUPRIM X RTX 4070 Ti avec 12 Go. Dimensions constructeur : 338 × 142 × 73 mm. Consommation annoncée par le constructeur : 285 W.",
+    "specs": [
+      "12 Go de mémoire vidéo",
+      "Dimensions : 338 × 142 × 73 mm",
+      "Consommation carte : 285 W",
+      "Alimentation système conseillée : 750 W"
+    ],
+    "detailLevel": "documented"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-133189b5b010",
+  "expectedName": "MECH 2X OC RX 6650 XT · 8 Go · Argent / Noir · 235 mm",
+  "originalRecord": {
+    "name": "MSI MECH 2X OC",
+    "price": null,
+    "chipset": "Radeon RX 6650 XT",
+    "memory": 8,
+    "core_clock": 2055,
+    "boost_clock": null,
+    "color": "Silver / Black",
+    "length": 235
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:22+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-8G-MECH-2X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-MECH-2X-OC-8G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Radeon-RX-6650-XT-MECH-2X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/MECH-2X-OC/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

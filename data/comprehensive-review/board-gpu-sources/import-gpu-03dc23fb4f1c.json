@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-03dc23fb4f1c",
+  "expectedName": "VENTUS GP RTX 2080 Ti · 11 Go · Argent / Noir · 268 mm",
+  "originalRecord": {
+    "name": "MSI VENTUS GP",
+    "price": null,
+    "chipset": "GeForce RTX 2080 Ti",
+    "memory": 11,
+    "core_clock": 1350,
+    "boost_clock": 1545,
+    "color": "Silver / Black",
+    "length": 268
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:02:02+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-11G-VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP-11G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/VENTUS-GP/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}

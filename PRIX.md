@@ -1,6 +1,6 @@
 # Prix : estimations, signalements publics et archives
 
-La [revue individuelle et visuelle du catalogue](docs/INDIVIDUAL-REVIEW.md) corrige les fiches, les correspondances ambiguës et les icônes/modèles 3D. Les comptes antérieurs ci-dessous sont des bilans datés.
+La [refonte globale des visuels et la vérification des fiches](docs/COMPREHENSIVE-REVIEW.md) couvre les huit catégories et recense les données encore manquantes pour chaque variante. Les comptes antérieurs ci-dessous sont des bilans datés.
 
 Le site distingue les relevés directs, les signalements publics, les estimations et les archives. Aucun achat n’est effectué sur FORGE.
 
@@ -12,7 +12,7 @@ Le [contrôle étendu](docs/FULL-CATALOG-REVIEW.md) documente les recherches des
 
 Chaque offre conserve son MPN, le site, le vendeur réel (y compris marketplace), la condition, le montant TTC affiché, la disponibilité de la variante principale, les frais connus ou leurs limites et l’heure de consultation. Les données fabricants priment pour les corrections techniques. Aucun résultat de recherche seul ne prouve un prix.
 
-La priorité du budget est : relevé direct admissible, puis signalement public admissible. Le relevé direct doit être neuf, disponible, correspondant au MPN exact et vieux d’au plus 24 h ; une date future est exclue. Les frais ne sont jamais ajoutés au montant produit. Le choix du prix produit le plus faible ne prétend pas comparer les totaux livrés. Un retrait de la vente, une rupture, un reconditionnement ou une expiration n’est pas remplacé par l’ancienne estimation du produit contrôlé. Les états restent visibles dans la fiche.
+La priorité du budget est : relevé direct admissible, puis signalement public admissible. Le relevé direct doit être neuf, disponible, correspondant au MPN exact et vieux d’au plus 24 h ; une date future est exclue. Les frais ne sont jamais ajoutés au montant produit. Le choix du prix produit le plus faible ne prétend pas comparer les totaux livrés. Une référence documentée sans offre admissible, un retrait de la vente, une rupture, un reconditionnement ou une expiration ne reprennent jamais l’ancienne estimation du produit contrôlé. Les états restent visibles dans la fiche.
 
 Les relevés sont intégrés au build. « Actualiser les relevés » continue de concerner uniquement le registre public allemand ; cela ne revérifie pas les boutiques. Une nouvelle collecte et publication sont nécessaires pour actualiser les relevés directs. Les onglets ouverts recalculent le budget aux échéances et à leur retour au premier plan.
 

@@ -1,0 +1,45 @@
+{
+  "componentId": "import-gpu-11a98619f8a5",
+  "expectedName": "Ventus XS OCV1 GTX 1650 G6 · 4 Go · Noir / Argent · 179 mm",
+  "originalRecord": {
+    "name": "MSI Ventus XS OCV1",
+    "price": 245,
+    "chipset": "GeForce GTX 1650 G6",
+    "memory": 4,
+    "core_clock": 1410,
+    "boost_clock": 1620,
+    "color": "Black / Silver",
+    "length": 179
+  },
+  "brand": "MSI",
+  "checkedAt": "2026-11-10T11:01:40+00:00",
+  "attempts": [
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-4G-Ventus-XS-OCV1/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-Ventus-XS-OCV1-4G/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1650-G6-Ventus-XS-OCV1/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.msi.com/Graphics-Card/Ventus-XS-OCV1/Specification",
+      "status": "fetch_unavailable",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "status": "fetch_unavailable",
+  "verificationState": "unconfirmed",
+  "verificationBlockers": [
+    "manufacturer_document_unavailable",
+    "no_confirmed_current_in_stock_new_offer"
+  ],
+  "confirmedFields": {}
+}
