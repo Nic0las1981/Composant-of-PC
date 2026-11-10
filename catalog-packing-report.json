@@ -39,10 +39,10 @@
     },
     {
       "file": "src/data/catalogQuarantine.ts",
-      "sourceSHA256": "a756e613a9a4fe177a9ec521640e8cbc5ac36312b374dc3f15fe1f2000fff0f5",
+      "sourceSHA256": "77cc637a54035466440b49cfbba547840b27d3eec5500f74ea677a18237826c0",
       "literals": 1,
-      "sourceBytes": 23030,
-      "packedModuleBytes": 14671
+      "sourceBytes": 22575,
+      "packedModuleBytes": 14271
     },
     {
       "file": "src/data/comprehensiveBoardGpu.ts",
@@ -129,6 +129,20 @@
       "packedModuleBytes": 2839004
     },
     {
+      "file": "src/data/deepGpuFollowupCatalog.ts",
+      "sourceSHA256": "a23e76dcf4c1e4934863979c7fead23ecc0527e820e7d2e0132a9dea8a43b070",
+      "literals": 1,
+      "sourceBytes": 664087,
+      "packedModuleBytes": 195308
+    },
+    {
+      "file": "src/data/deepMemoryFollowupCatalog.ts",
+      "sourceSHA256": "cec3ef2995f3d070c206fe285e6ff1b8f810dd56d06a94ce06e6ff9f13e38cdc",
+      "literals": 2,
+      "sourceBytes": 2803779,
+      "packedModuleBytes": 615379
+    },
+    {
       "file": "src/data/deepMemoryStorageCatalog.ts",
       "sourceSHA256": "9b1751e59608ebe868006d854f2403ae801001f4ab370944358c4a64a6a0e568",
       "literals": 2,
@@ -185,6 +199,13 @@
       "packedModuleBytes": 60215
     },
     {
+      "file": "src/data/deepPowerFollowupCatalog.ts",
+      "sourceSHA256": "f3640f689d3efc3eecb219eadd886c3a607a8c154b3487c49087388bbfc014a3",
+      "literals": 1,
+      "sourceBytes": 223774,
+      "packedModuleBytes": 73420
+    },
+    {
       "file": "src/data/deepPowerNicheCatalog.ts",
       "sourceSHA256": "aa1ad82910e091b36416624bc153c06511160fca5ab3ea835320209332986366",
       "literals": 1,
@@ -200,10 +221,10 @@
     },
     {
       "file": "src/data/deepPriceCatalog.ts",
-      "sourceSHA256": "b641f724a13b6bcf9ef48b03e658659ae1773bd38185b54003964dd97b1d3bf8",
+      "sourceSHA256": "963b275e82a3ba61baae2a71063432258bf8374c07414674f9129e58f96b3d16",
       "literals": 1,
-      "sourceBytes": 1518138,
-      "packedModuleBytes": 500450
+      "sourceBytes": 1545891,
+      "packedModuleBytes": 509813
     },
     {
       "file": "src/data/deepStorageBoardsCatalog.ts",
@@ -211,6 +232,13 @@
       "literals": 1,
       "sourceBytes": 720181,
       "packedModuleBytes": 168266
+    },
+    {
+      "file": "src/data/deepStorageFollowupCatalog.ts",
+      "sourceSHA256": "92635b309a2539007ebb912771a737ddca163a6c0bf8db0a1f17f5bf7b155dab",
+      "literals": 1,
+      "sourceBytes": 590221,
+      "packedModuleBytes": 157858
     },
     {
       "file": "src/data/deepStorageInlandCatalog.ts",
@@ -263,10 +291,17 @@
     },
     {
       "file": "src/data/manufacturerImageAssets.ts",
-      "sourceSHA256": "411af19cfdb00b008ef0d9ac065329ad5e74989f024d2893776626028ff2c17a",
+      "sourceSHA256": "7ef61cdc00c248cee7f77602410f39e9e35ce447769dda957c8a3b5d160b1822",
       "literals": 1,
-      "sourceBytes": 654628,
-      "packedModuleBytes": 478226
+      "sourceBytes": 654686,
+      "packedModuleBytes": 478280
+    },
+    {
+      "file": "src/data/memoryAppearanceAssignments.ts",
+      "sourceSHA256": "9a01b3fec8df94a58d1331b674365ec763d971a4fd02e79da178c30df9746ba1",
+      "literals": 2,
+      "sourceBytes": 30903,
+      "packedModuleBytes": 27398
     },
     {
       "file": "src/data/verifiedBulk.ts",
