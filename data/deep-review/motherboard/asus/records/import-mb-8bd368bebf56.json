@@ -1,0 +1,267 @@
+{
+  "review": {
+    "id": "import-mb-8bd368bebf56",
+    "name": "PRIME B650M-A AX6 II",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "sha256": "e61b6943a21eb047d830bd27876244d1fa301cf3c0d80d119295c241814a19ae",
+        "bytes": 340733,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B650M-A AX6 II",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/3f10d0d2-bc08-4801-9fb5-386551d04ccf/",
+      "https://dlcdnwebimgs.asus.com/gain/16b9e5b1-3305-4c26-af21-41644344c991/"
+    ],
+    "sections": [
+      "Model",
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B650M-A AX6 II",
+    "identityNote": "Modèle ASUS PRIME B650M-A AX6 II confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 3,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME B650M-A AX6 II",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\nSupports up to AMD 170W CPU\n* Refer to www.asus.com for CPU support list.\nAMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B650 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM slots, max. 192GB, DDR5 7600+(OC)/7200(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/6200(OC)/6000(OC)/5800(OC)/5600(OC)/5400(OC)/5200/5000/4800 ECC and Non-ECC, Un-buffered Memory*\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nOptiMem II\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x HDMI™ port***\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\n** Supports max. 8K@60Hz as specified in DisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n 1 x PCIe 4.0 x16 slot (supports x16 mode)  \n 3 x PCIe 4.0 x16 slots (support x1 mode) \nAMD Ryzen™ 8000 Series Desktop Processors\n 1 x PCIe 4.0 x16 slot (supports x8/x4 mode)** \n 3 x PCIe 4.0 x16 slots (support x1 mode)*** \n * Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n ** Specifications vary by CPU types. \n *** PCIEX16_4 slot will be disabled with some 8000 Series processors.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode) \nAMD Ryzen™ 8000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode) \nAMD B650 Chipset\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode) \n M.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode) \n 4 x SATA 6Gb/s ports \n * AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 1Gb Ethernet"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.3*\n* The Bluetooth version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 8 ports)\n2 x USB 10Gbps ports (1 x Type-A +1 x USB Type-C®)\n2 x USB 5Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 9 ports)\n1 x USB 5Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C®)\n2 x USB 5Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMI™ port\n1 x Wi-Fi Module\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks \n1 x BIOS FlashBack™ button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1 pin)\n1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\nAura Sync\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 2+\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- TurboV EVO\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nMiscellaneous\n1 x ASUS Wi-Fi moving antenna\n1 x I/O shield \n2 x Screw packages for M.2 SSD\nDocumentation\n1 x Quick start guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/3f10d0d2-bc08-4801-9fb5-386551d04ccf/"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://dlcdnwebimgs.asus.com/gain/16b9e5b1-3305-4c26-af21-41644344c991/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "formFactor": {
+        "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "boardDimensions": {
+        "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "chipset": {
+        "value": "AMD B650 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode) \nAMD Ryzen™ 8000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode) \nAMD B650 Chipset\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode) \n M.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode) \n 4 x SATA 6Gb/s ports \n * AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n 1 x PCIe 4.0 x16 slot (supports x16 mode)  \n 3 x PCIe 4.0 x16 slots (support x1 mode) \nAMD Ryzen™ 8000 Series Desktop Processors\n 1 x PCIe 4.0 x16 slot (supports x8/x4 mode)** \n 3 x PCIe 4.0 x16 slots (support x1 mode)*** \n * Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n ** Specifications vary by CPU types. \n *** PCIEX16_4 slot will be disabled with some 8000 Series processors.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C®)\n2 x USB 5Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMI™ port\n1 x Wi-Fi Module\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks \n1 x BIOS FlashBack™ button",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1 pin)\n1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 1Gb Ethernet\nWi-Fi 6 (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth® v5.3*\n* The Bluetooth version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\nSupports up to AMD 170W CPU\n* Refer to www.asus.com for CPU support list.\nAMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-ax6-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:39+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B650M-A AX6 II"
+  }
+}

@@ -1,0 +1,2092 @@
+{
+  "SN850X": {
+    "source": "3e70a7f9fc21f87f",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "SANDISK TLC 3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Chiffrement": "TCG OPAL 2.01"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T2X0E",
+        "read": 7300,
+        "write": 6300,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T2X0E",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T2X0E",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 2400,
+        "dimensions": [
+          80,
+          22,
+          3.88
+        ]
+      },
+      "8000": {
+        "capacity": 8000,
+        "mpn": "WDS800T2X0E",
+        "read": 7200,
+        "write": 6600,
+        "endurance": 4800,
+        "dimensions": [
+          80,
+          22,
+          3.88
+        ]
+      }
+    }
+  },
+  "SN850X heatsink": {
+    "source": "3e70a7f9fc21f87f",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "SANDISK TLC 3D NAND",
+    "dimensions": [
+      80,
+      23.4,
+      8.9
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Chiffrement": "TCG OPAL 2.01"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T2XHE",
+        "read": 7300,
+        "write": 6300,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T2XHE",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T2XHE",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 2400,
+        "dimensions": [
+          80,
+          24.46,
+          10.31
+        ]
+      },
+      "8000": {
+        "capacity": 8000,
+        "mpn": "WDS800T2XHE",
+        "read": 7200,
+        "write": 6600,
+        "endurance": 4800,
+        "dimensions": [
+          80,
+          24.46,
+          10.31
+        ]
+      }
+    }
+  },
+  "SN8100": {
+    "source": "3e283a26b9e0e75c",
+    "interface": "PCIe 5.0 x4 NVMe 2.0",
+    "nand": "TLC 3D CBA NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "DRAM": "Présente",
+      "Chiffrement": "TCG OPAL 2.02"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T1X0M-00CMT0",
+        "read": 14900,
+        "write": 11000,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T1X0M-00CMT0",
+        "read": 14900,
+        "write": 14000,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T1X0M-00CMT0",
+        "read": 14900,
+        "write": 14000,
+        "endurance": 2400
+      }
+    }
+  },
+  "SN8100 heatsink": {
+    "source": "9ec8b69877de1517",
+    "interface": "PCIe 5.0 x4 NVMe 2.0",
+    "nand": "TLC 3D CBA NAND",
+    "dimensions": [
+      80,
+      25,
+      9.76
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "DRAM": "Présente",
+      "Chiffrement": "TCG OPAL 2.02"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T1XHM-00CMT0",
+        "read": 14900,
+        "write": 11000,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T1XHM-00CMT0",
+        "read": 14900,
+        "write": 14000,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T1XHM-00CMT0",
+        "read": 14900,
+        "write": 14000,
+        "endurance": 2400
+      }
+    }
+  },
+  "SN7100": {
+    "source": "a226104f857a6d2d",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "Western Digital TLC 3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G4X0E-00CJA0",
+        "read": 6800,
+        "write": 5800,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T4X0E-00CJA0",
+        "read": 7250,
+        "write": 6900,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T4X0E-00CJA0",
+        "read": 7250,
+        "write": 6900,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T4X0E-00CJA0",
+        "read": 7000,
+        "write": 6700,
+        "endurance": 2400
+      }
+    }
+  },
+  "SN850P": {
+    "source": "a40a9a9f0e43a113",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      24.46,
+      9.89
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Licence": "PlayStation 5 officielle"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDBBYV0010BNC-WRSN",
+        "read": 7300,
+        "write": 6300,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDBBYV0020BNC-WRSN",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDBBYV0040BNC-WRSN",
+        "read": 7300,
+        "write": 6600,
+        "endurance": 2400
+      }
+    }
+  },
+  "SN5000": {
+    "source": "1515e2b2d00e557c",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "Western Digital 3D NAND TLC",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G4B0E",
+        "read": 5000,
+        "write": 4000,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T4B0E",
+        "read": 5150,
+        "write": 4900,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T4B0E",
+        "read": 5150,
+        "write": 4850,
+        "endurance": 900
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "WDS400T4B0E",
+        "read": 5500,
+        "write": 5000,
+        "endurance": 1200,
+        "nand": "Western Digital 3D NAND QLC"
+      }
+    }
+  },
+  "SN580": {
+    "source": "123d61e10a1ca576",
+    "interface": "PCIe 4.0 NVMe 1.4b",
+    "nand": "Western Digital TLC",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Format détaillé": "M.2 2280-S3-M, simple face, clé M",
+      "Sécurité": "TCG Pyrite 2.01 ; ATA Security Passthrough over NVMe"
+    },
+    "variants": {
+      "250": {
+        "capacity": 250,
+        "mpn": "WDS250G3B0E",
+        "read": 4000,
+        "write": 2000,
+        "endurance": 150,
+        "interface": "PCIe 4.0 x4 NVMe 1.4b",
+        "fieldSources": {
+          "interfaceGeneration": "afd00ea3420cbfde"
+        }
+      },
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G3B0E",
+        "read": 4000,
+        "write": 3600,
+        "endurance": 300,
+        "interface": "PCIe 4.0 x4 NVMe 1.4b",
+        "fieldSources": {
+          "interfaceGeneration": "8ff6fbde560b97ca"
+        }
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T3B0E",
+        "read": 4150,
+        "write": 4150,
+        "endurance": 600,
+        "interface": "PCIe 4.0 x4 NVMe 1.4b",
+        "fieldSources": {
+          "interfaceGeneration": "564f6f4cc6480773"
+        }
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T3B0E",
+        "read": 4150,
+        "write": 4150,
+        "endurance": 900,
+        "interface": "PCIe 4.0 x4 NVMe 1.4b",
+        "fieldSources": {
+          "interfaceGeneration": "f804893d60068caf"
+        }
+      }
+    }
+  },
+  "SN3000": {
+    "source": "ae3593828a843cb0",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "Western Digital QLC 3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 3,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G4G0E",
+        "read": 5000,
+        "write": 4100,
+        "endurance": 100
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T4G0E",
+        "read": 5000,
+        "write": 4200,
+        "endurance": 150
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T4G0E",
+        "read": 5000,
+        "write": 4200,
+        "endurance": 250
+      }
+    }
+  },
+  "SN850": {
+    "source": "1106cac721a01805",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G1X0E-00AFY0",
+        "read": 7000,
+        "write": 4100,
+        "endurance": 300,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "c77b5d88596c71cb"
+        }
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T1X0E-00AFY0",
+        "read": 7000,
+        "write": 5300,
+        "endurance": 600,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "d13cf4b7984764d9"
+        }
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T1X0E-00AFY0",
+        "read": 7000,
+        "write": 5100,
+        "endurance": 1200,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "4604e116db9351e5"
+        }
+      }
+    }
+  },
+  "SN850 heatsink": {
+    "source": "1106cac721a01805",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      23.4,
+      8.8
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Éclairage": "RGB configurable sous Windows"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T1XHE-00AFY0",
+        "read": 7000,
+        "write": 5300,
+        "endurance": 600,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "6f4b6e828e64e1ff"
+        }
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T1XHE-00AFY0",
+        "read": 7000,
+        "write": 5100,
+        "endurance": 1200,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "4112ffb6c1c6172b"
+        }
+      }
+    }
+  },
+  "SN750 SE": {
+    "source": "ee3072550673f36e",
+    "interface": "PCIe 4.0 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "250": {
+        "capacity": 250,
+        "mpn": "WDS250G1B0E-00B3V0",
+        "read": 3200,
+        "write": 1000,
+        "endurance": 200,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "2535d6c96c88f20a",
+          "interfaceGeneration": "2535d6c96c88f20a"
+        },
+        "interface": "PCIe 4.0 x4 NVMe"
+      },
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G1B0E-00B3V0",
+        "read": 3600,
+        "write": 2000,
+        "endurance": 300,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "b3cd8182f7dc7562",
+          "interfaceGeneration": "b3cd8182f7dc7562"
+        },
+        "interface": "PCIe 4.0 x4 NVMe"
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T1B0E-00B3V0",
+        "read": 3600,
+        "write": 2830,
+        "endurance": 600,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "7ed4ac3fef19d1a1",
+          "interfaceGeneration": "7ed4ac3fef19d1a1"
+        },
+        "interface": "PCIe 4.0 x4 NVMe"
+      }
+    }
+  },
+  "SanDisk Extreme": {
+    "source": "3fb43b5537942719",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "SSD interne M.2 SDSSDX3N : les anciennes correspondances avec les SSD USB portables SanDisk Extreme sont exclues."
+    ],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "SDSSDX3N-500G-G26",
+        "read": 5000,
+        "write": 4000,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "SDSSDX3N-1T00-G26",
+        "read": 5150,
+        "write": 4900,
+        "endurance": 600,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "f3e2c22972682edf"
+        }
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "SDSSDX3N-2T00-G26",
+        "read": 5150,
+        "write": 4850,
+        "endurance": 1200
+      }
+    }
+  },
+  "SN740 Pyrite": {
+    "source": "73fd2dfd488db360",
+    "interface": "PCIe 4.0 x4 NVMe 1.4b",
+    "nand": "Western Digital TLC 3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Référence de modèle M.2 2280 et protocole de sécurité identifiés. Les suffixes OEM de commande/firmware non publiés ne sont pas inventés."
+    ],
+    "extra": {
+      "Sécurité": "TCG Pyrite 2.01 ; ATA Security passthrough over NVMe"
+    },
+    "variants": {
+      "256": {
+        "capacity": 256,
+        "mpn": "",
+        "read": 4000,
+        "write": 2000,
+        "endurance": 200
+      },
+      "512": {
+        "capacity": 512,
+        "mpn": "",
+        "read": 5000,
+        "write": 4000,
+        "endurance": 300
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "",
+        "read": 5150,
+        "write": 4900,
+        "endurance": 400
+      },
+      "2048": {
+        "capacity": 2048,
+        "mpn": "",
+        "read": 5150,
+        "write": 4850,
+        "endurance": 500
+      }
+    }
+  },
+  "SN740 Opal": {
+    "source": "73fd2dfd488db360",
+    "interface": "PCIe 4.0 x4 NVMe 1.4b",
+    "nand": "Western Digital TLC 3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Référence de modèle M.2 2280 et protocole de sécurité identifiés. Les suffixes OEM de commande/firmware non publiés ne sont pas inventés."
+    ],
+    "extra": {
+      "Sécurité": "TCG Opal 2.01 ; ATA Security passthrough over NVMe"
+    },
+    "variants": {
+      "256": {
+        "capacity": 256,
+        "mpn": "",
+        "read": 4000,
+        "write": 2000,
+        "endurance": 200
+      },
+      "512": {
+        "capacity": 512,
+        "mpn": "",
+        "read": 5000,
+        "write": 4000,
+        "endurance": 300
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "",
+        "read": 5150,
+        "write": 4900,
+        "endurance": 400
+      },
+      "2048": {
+        "capacity": 2048,
+        "mpn": "",
+        "read": 5150,
+        "write": 4850,
+        "endurance": 500
+      }
+    }
+  },
+  "Platinum P41": {
+    "source": "93c812c964d5e1dd",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "SK hynix 176 couches 3D TLC NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Construction": "M.2 2280 simple face",
+      "Chiffrement": "AES 256-bit, TCG Pyrite",
+      "MTBF": "1,5 million d’heures"
+    },
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "",
+        "read": 7000,
+        "write": 4700,
+        "endurance": 500
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": 7000,
+        "write": 6500,
+        "endurance": 750
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": 7000,
+        "write": 6500,
+        "endurance": 1200
+      }
+    }
+  },
+  "P44 Pro": {
+    "source": "6be163347d3abaa6",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND, 176 couches",
+    "dimensions": [
+      80,
+      22,
+      null
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Chiffrement": "AES 256-bit, TCG Pyrite",
+      "MTBF": "1,6 million d’heures"
+    },
+    "variants": {
+      "512": {
+        "capacity": 512,
+        "mpn": "SSDPFKKW512H7X1",
+        "read": 7000,
+        "write": 4700,
+        "endurance": 500,
+        "identitySource": "solidigm-p44-api"
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "SSDPFKKW010X7X1",
+        "read": 7000,
+        "write": 6500,
+        "endurance": 750,
+        "identitySource": "solidigm-p44-api"
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "SSDPFKKW020X7X1",
+        "read": 7000,
+        "write": 6500,
+        "endurance": 1200,
+        "identitySource": "solidigm-p44-api"
+      }
+    },
+    "sources": [
+      "solidigm-p44-api"
+    ],
+    "fieldSources": {
+      "nand": "solidigm-p44-api"
+    }
+  },
+  "SN770": {
+    "source": "219b632d10b8bbb4",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "250": {
+        "capacity": 250,
+        "mpn": "WDS250G3X0E",
+        "read": 4000,
+        "write": 2000,
+        "endurance": 200,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "a4876f15dfedf9c0"
+        }
+      },
+      "500": {
+        "capacity": 500,
+        "mpn": "WDS500G3X0E",
+        "read": 5000,
+        "write": 4000,
+        "endurance": 300,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "ae61445ea20632c0"
+        }
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T3X0E",
+        "read": 5150,
+        "write": 4900,
+        "endurance": 600,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "f5ea1fb5e7e87318"
+        }
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "WDS200T3X0E",
+        "read": 5150,
+        "write": 4850,
+        "endurance": 1200,
+        "nand": "3D TLC NAND",
+        "fieldSources": {
+          "nand": "1ec0e346db7a12b7"
+        }
+      }
+    }
+  },
+  "SN570": {
+    "source": "b8f569ff176a5d3b",
+    "interface": "PCIe 3.0 x4 NVMe",
+    "nand": "TLC NAND",
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDS100T3B0C",
+        "read": 3500,
+        "write": 3000,
+        "endurance": 600
+      }
+    }
+  },
+  "P41 Plus": {
+    "source": "761725b88d98f82f",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": "3D NAND, 144 couches",
+    "dimensions": [
+      80,
+      22,
+      null
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "512": {
+        "capacity": 512,
+        "mpn": "SSDPFKNU512GZX1",
+        "read": 3500,
+        "write": 1625,
+        "endurance": 200,
+        "identitySource": "solidigm-p41-api"
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "SSDPFKNU010TZX1",
+        "read": 4125,
+        "write": 2950,
+        "endurance": 400,
+        "identitySource": "solidigm-p41-api"
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "SSDPFKNU020TZX1",
+        "read": 4125,
+        "write": 3325,
+        "endurance": 800,
+        "identitySource": "solidigm-p41-api"
+      }
+    },
+    "sources": [
+      "solidigm-p41-api"
+    ]
+  },
+  "FireCuda 530": {
+    "source": "99d37bfce411c70f",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500GM3A013",
+        "read": 7000,
+        "write": 3000,
+        "endurance": 640
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A013",
+        "read": 7300,
+        "write": 6000,
+        "endurance": 1275
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A013",
+        "read": 7300,
+        "write": 6900,
+        "endurance": 2550,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "ZP4000GM3A013",
+        "read": 7250,
+        "write": 6900,
+        "endurance": 5100,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      }
+    }
+  },
+  "FireCuda 530R": {
+    "source": "adf2c44bf65c4303",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Pour la longueur du module nu, le manuel mécanique 207963200 indique 80,15 mm ; la fiche commerciale DS7 indique 80,85 mm. Les dimensions du manuel sont retenues et la divergence est conservée."
+    ],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A063",
+        "read": 7400,
+        "write": 7000,
+        "endurance": 1100
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A063",
+        "read": 7400,
+        "write": 6900,
+        "endurance": 2400,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "ZP4000GM3A063",
+        "read": 7400,
+        "write": 6800,
+        "endurance": 5050,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      }
+    },
+    "dimensionSource": "328fa7ffb25892f7"
+  },
+  "FireCuda 530R heatsink": {
+    "source": "fd9518387a02fe86",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.85,
+      24.22,
+      11.1
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A073",
+        "read": 7400,
+        "write": 7000,
+        "endurance": 1100
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A073",
+        "read": 7400,
+        "write": 6900,
+        "endurance": 2400
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "ZP4000GM3A073",
+        "read": 7400,
+        "write": 6800,
+        "endurance": 5050
+      }
+    }
+  },
+  "FireCuda 540": {
+    "source": "3ad0589e35f4ca31",
+    "interface": "PCIe 5.0 x4 NVMe 2.0",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      3.58
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A004",
+        "read": 9500,
+        "write": 8500,
+        "endurance": 1000
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A004",
+        "read": 10000,
+        "write": 10000,
+        "endurance": 2000
+      }
+    }
+  },
+  "FireCuda 540 heatsink": {
+    "source": "58545a463e83eb1b",
+    "interface": "PCIe 5.0 x4 NVMe 2.0",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      24.35,
+      20.29
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Finition": "Plaques blanche et noire interchangeables"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A014",
+        "read": 9500,
+        "write": 8500,
+        "endurance": 1000
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A014",
+        "read": 10000,
+        "write": 10000,
+        "endurance": 2000
+      }
+    }
+  },
+  "FireCuda 520": {
+    "source": "cdb240a1741d9a84",
+    "interface": "PCIe 4.0 x4 NVMe 1.3",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      3.58
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Première génération GM30002. La version 2.0 GV30012 possède des vitesses, une endurance et une épaisseur différentes."
+    ],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500GM30002",
+        "read": 5000,
+        "write": 2500,
+        "endurance": 850
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM30002",
+        "read": 5000,
+        "write": 4400,
+        "endurance": 1800
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM30002",
+        "read": 5000,
+        "write": 4400,
+        "endurance": 3600
+      }
+    }
+  },
+  "FireCuda 520 Rev 2.0": {
+    "source": "ab4181702374ffc7",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Révision 2.0 GV30012 ; les données de la première génération GM30002 ne sont pas réutilisées."
+    ],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500GV30012",
+        "read": 5000,
+        "write": 3900,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GV30012",
+        "read": 5000,
+        "write": 4850,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GV30012",
+        "read": 4850,
+        "write": 4750,
+        "endurance": 1200
+      }
+    }
+  },
+  "BarraCuda 520": {
+    "source": "85598163630a0a44",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": null,
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 3,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "512": {
+        "capacity": 512,
+        "mpn": "ZP512CM3A002",
+        "read": 5000,
+        "write": 3800,
+        "endurance": 200
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "ZP1024CM3A002",
+        "read": 5000,
+        "write": 3200,
+        "endurance": 250
+      },
+      "2048": {
+        "capacity": 2048,
+        "mpn": "ZP2048CM3A002",
+        "read": 5000,
+        "write": 4200,
+        "endurance": 450
+      },
+      "4096": {
+        "capacity": 4096,
+        "mpn": "ZP4096CM3A002",
+        "read": 5000,
+        "write": 4200,
+        "endurance": 900
+      }
+    }
+  },
+  "BarraCuda 530": {
+    "source": "51acb04f4716b17a",
+    "interface": "PCIe 4.0 x4 NVMe 2.0",
+    "nand": null,
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "512": {
+        "capacity": 512,
+        "mpn": "ZP512CM3A003",
+        "read": 7200,
+        "write": 4300,
+        "endurance": 300
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "ZP1024CM3A003",
+        "read": 7400,
+        "write": 6100,
+        "endurance": 600
+      },
+      "2048": {
+        "capacity": 2048,
+        "mpn": "ZP2048CM3A003",
+        "read": 7400,
+        "write": 6400,
+        "endurance": 1200
+      }
+    }
+  },
+  "Barracuda PCIe": {
+    "source": "5f57e79fa348b2f2",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": null,
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 3,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "250": {
+        "capacity": 250,
+        "mpn": "ZP250CV3A002",
+        "read": 3200,
+        "write": 1300,
+        "endurance": 150
+      },
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500CV3A002",
+        "read": 3600,
+        "write": 2400,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000CV3A002",
+        "read": 3600,
+        "write": 2800,
+        "endurance": 600,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000CV3A002",
+        "read": 3600,
+        "write": 2750,
+        "endurance": 1200,
+        "dimensions": [
+          80.15,
+          22.15,
+          3.58
+        ]
+      }
+    }
+  },
+  "IronWolf 525": {
+    "source": "c114142126d8e9be",
+    "interface": "PCIe 4.0 x4 NVMe 1.3",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      22.15,
+      3.58
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Usage": "NAS ; Seagate IronWolf Health Management",
+      "MTBF": "1,8 million d’heures"
+    },
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500NM30002",
+        "read": 5000,
+        "write": 2500,
+        "endurance": 700
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000NM30002",
+        "read": 5000,
+        "write": 4400,
+        "endurance": 1400
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000NM30002",
+        "read": 5000,
+        "write": 4400,
+        "endurance": 2800
+      }
+    },
+    "dimensionSource": "d222bdd232c0599e"
+  },
+  "Lightsaber Collection FireCuda": {
+    "source": "51e19a6321768558",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      25,
+      19
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Éclairage": "RGB, câble LED fourni de 40 cm"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A053",
+        "read": 7300,
+        "write": 6000,
+        "endurance": 1275
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A033",
+        "read": 7300,
+        "write": 6900,
+        "endurance": 2550
+      }
+    }
+  },
+  "Beskar Ingot Drive Special Edition FireCuda": {
+    "source": "491716e1b031c354",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      24.2,
+      9.84
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [
+      "La fiche technique DS2095 donne 24,2 × 9,84 mm pour la largeur et la hauteur. Le guide d’installation générique indique 22,9 × 18,25 mm : divergence conservée ; les cotes du tableau propre aux MPN sont retenues."
+    ],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500GM3A033",
+        "read": 7000,
+        "write": 3000,
+        "endurance": 640
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A033",
+        "read": 7300,
+        "write": 6000,
+        "endurance": 1275
+      }
+    },
+    "fieldSources": {
+      "length": "44c554abebbdd8e2"
+    }
+  },
+  "FireCuda 530 heatsink": {
+    "source": "ba7e3daeaa4b6d62",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      80.15,
+      24.2,
+      9.84
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "ZP500GM3A023",
+        "read": 7000,
+        "write": 3000,
+        "endurance": 640
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "ZP1000GM3A023",
+        "read": 7300,
+        "write": 6000,
+        "endurance": 1275
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "ZP2000GM3A023",
+        "read": 7300,
+        "write": 6900,
+        "endurance": 2550,
+        "dimensions": [
+          80.15,
+          24.2,
+          10.39
+        ]
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "ZP4000GM3A023",
+        "read": 7250,
+        "write": 6900,
+        "endurance": 5100,
+        "dimensions": [
+          80.15,
+          24.2,
+          11.04
+        ]
+      }
+    }
+  },
+  "Game Drive": {
+    "source": "bf416be8b946d6ab",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      null,
+      null,
+      null
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [
+      "Pour les capacités 1 et 2 To, le nom d’archive ne départage pas Game Drive M.2 GP304001 et Game Drive PS5 NVMe GP300001. Les dimensions, débits, endurance et MPN propres à une révision restent inconnus. Le 4 To est documenté dans le tableau GP304001. Les anciennes correspondances USB/HDD sont exclues."
+    ],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": null,
+        "write": null,
+        "endurance": null
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": null,
+        "write": null,
+        "endurance": null
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "ZP4000GP3A4001",
+        "read": 7250,
+        "write": 6900,
+        "endurance": 5100,
+        "dimensions": [
+          80.15,
+          24.2,
+          11.04
+        ]
+      }
+    },
+    "sources": [
+      "d07e3b64060022db"
+    ]
+  },
+  "SN850 Call of Duty Edition": {
+    "source": "86686909324ddb81",
+    "interface": "PCIe 4.0 x4 NVMe",
+    "nand": null,
+    "dimensions": [
+      80,
+      22,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Édition Call of Duty: Black Ops Cold War. Aucune disponibilité actuelle du jeu ou des points promotionnels n’est garantie."
+    ],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "WDBB2F0010BNC-WRSN",
+        "read": 7000,
+        "write": 5300,
+        "endurance": 600
+      }
+    },
+    "sources": [
+      "05d8710b590ab500"
+    ],
+    "fieldSources": {
+      "endurance": "05d8710b590ab500",
+      "warranty": "05d8710b590ab500"
+    }
+  },
+  "Platinum P51": {
+    "source": "bcdba6d30e5945ca",
+    "interface": "PCIe 5.0 x4 NVMe",
+    "nand": "3D TLC NAND",
+    "dimensions": [
+      null,
+      null,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [
+      "Fiches de revendeurs coréens correspondant à chaque capacité. Les maxima de la gamme ne sont pas appliqués au modèle 1 To. Le MPN commercial et les dimensions exactes du PCB ne sont pas établis."
+    ],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": 14700,
+        "write": 12900,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": 14700,
+        "write": 13400,
+        "endurance": 1200,
+        "source": "dd291410b567920e",
+        "interface": "PCIe 5.0 x4 NVMe 2.0"
+      }
+    },
+    "sources": [
+      "fa88b07341102e3e"
+    ]
+  },
+  "EXCERIA PLUS G3": {
+    "source": "ac7db194afc44fa8",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "BiCS FLASH TLC",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.63
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": 5000,
+        "write": 3900,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": 5000,
+        "write": 3900,
+        "endurance": 1200
+      }
+    }
+  },
+  "EXCERIA PLUS G4": {
+    "source": "7cccc150e0916ab0",
+    "interface": "PCIe 5.0 x4 NVMe 2.0c",
+    "nand": "BiCS FLASH TLC",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.38
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": 10000,
+        "write": 7900,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": 10000,
+        "write": 8200,
+        "endurance": 1200
+      }
+    }
+  },
+  "EXCERIA PRO": {
+    "source": "5418a50fafb853e6",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "BiCS FLASH TLC",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "",
+        "read": 7300,
+        "write": 6400,
+        "endurance": 400
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "",
+        "read": 7300,
+        "write": 6400,
+        "endurance": 800
+      }
+    }
+  },
+  "EXCERIA heatsink": {
+    "source": "ea26a4e18bd729a4",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "BiCS FLASH TLC",
+    "dimensions": [
+      80.65,
+      24.7,
+      11.2
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {},
+    "variants": {
+      "1024": {
+        "capacity": 1024,
+        "mpn": "",
+        "read": 6200,
+        "write": 4900,
+        "endurance": 600
+      },
+      "2048": {
+        "capacity": 2048,
+        "mpn": "",
+        "read": 6200,
+        "write": 4900,
+        "endurance": 1200
+      },
+      "4096": {
+        "capacity": 4096,
+        "mpn": "",
+        "read": 6200,
+        "write": 4800,
+        "endurance": 2400
+      }
+    }
+  },
+  "BG5": {
+    "source": "eccbda83984346b3",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "BiCS FLASH TLC, 112 couches",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": null,
+    "notes": [
+      "Cotes maximales : 80 ± 0,15 × 22 ± 0,15 mm et hauteur maximale 2,23 mm. La variante 2230 est exclue. La durée de garantie OEM n’est pas publiée dans cette fiche."
+    ],
+    "extra": {
+      "Sécurité": "Modèle standard non SED",
+      "Construction": "M.2 2280-S2 simple face"
+    },
+    "variants": {
+      "256": {
+        "capacity": 256,
+        "mpn": "KBG50ZNV256G",
+        "read": 3400,
+        "write": 1900,
+        "endurance": 150
+      },
+      "512": {
+        "capacity": 512,
+        "mpn": "KBG50ZNV512G",
+        "read": 3500,
+        "write": 2700,
+        "endurance": 300
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "KBG50ZNV1T02",
+        "read": 3500,
+        "write": 2900,
+        "endurance": 600
+      }
+    }
+  },
+  "BG5 SED": {
+    "source": "eccbda83984346b3",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "BiCS FLASH TLC, 112 couches",
+    "dimensions": [
+      80.15,
+      22.15,
+      2.23
+    ],
+    "heatsink": false,
+    "warranty": null,
+    "notes": [
+      "Cotes maximales : 80 ± 0,15 × 22 ± 0,15 mm et hauteur maximale 2,23 mm. La variante 2230 est exclue. La durée de garantie OEM n’est pas publiée dans cette fiche."
+    ],
+    "extra": {
+      "Sécurité": "TCG Opal 2.01 (SED)",
+      "Construction": "M.2 2280-S2 simple face"
+    },
+    "variants": {
+      "256": {
+        "capacity": 256,
+        "mpn": "KBG5AZNV256G",
+        "read": 3400,
+        "write": 1900,
+        "endurance": 150
+      },
+      "512": {
+        "capacity": 512,
+        "mpn": "KBG5AZNV512G",
+        "read": 3500,
+        "write": 2700,
+        "endurance": 300
+      },
+      "1024": {
+        "capacity": 1024,
+        "mpn": "KBG5AZNV1T02",
+        "read": 3500,
+        "write": 2900,
+        "endurance": 600
+      }
+    }
+  },
+  "Micron 3400": {
+    "source": "48b12fb2a30a11c5",
+    "interface": "PCIe 4.0 NVMe 1.4",
+    "nand": "Micron 176 couches 3D TLC NAND",
+    "dimensions": [
+      80,
+      22,
+      null
+    ],
+    "heatsink": null,
+    "warranty": null,
+    "notes": [
+      "Le codage constructeur 1T0 représente 1024 Go, commercialisés comme 1 To. Version de sécurité OEM et suffixe de commande non identifiés. Hauteur, dissipateur et garantie OEM non publiés dans le document retenu."
+    ],
+    "extra": {},
+    "variants": {
+      "1024": {
+        "capacity": 1024,
+        "mpn": "",
+        "read": 6600,
+        "write": 5000,
+        "endurance": 600
+      }
+    }
+  },
+  "Micron 7400 PRO": {
+    "source": "a85e89cf9992dcab",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "Micron 96 couches 3D TLC NAND",
+    "dimensions": [
+      80,
+      22,
+      null
+    ],
+    "heatsink": null,
+    "warranty": 5,
+    "notes": [
+      "M.2 2280 de 480 Go. Les versions M.2 22110, U.3 et E1.S sont exclues. Endurance publiée : 800 To en écritures aléatoires 4K et 3800 To en séquentiel 128K ; la valeur 4K est retenue. Suffixe OEM, dissipateur et hauteur non établis."
+    ],
+    "extra": {
+      "Endurance séquentielle 128K": "3800 To écrits",
+      "Protection coupure de courant": "Présente"
+    },
+    "variants": {
+      "480": {
+        "capacity": 480,
+        "mpn": "",
+        "read": 4400,
+        "write": 530,
+        "endurance": 800
+      }
+    },
+    "sources": [
+      "f6420c6264068d81",
+      "2991c1a0a02c0b88"
+    ],
+    "fieldSources": {}
+  },
+  "MTE245S": {
+    "source": "ec4ebb7d24df56bc",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.42
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Dissipateur détaillé": "Film graphène",
+      "Construction": "Simple face",
+      "DRAM": "Absente"
+    },
+    "variants": {
+      "250": {
+        "capacity": 250,
+        "mpn": "TS250GMTE245S",
+        "read": 3200,
+        "write": 1400,
+        "endurance": 150
+      },
+      "500": {
+        "capacity": 500,
+        "mpn": "TS500GMTE245S",
+        "read": 4800,
+        "write": 2800,
+        "endurance": 300
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "TS1TMTE245S",
+        "read": 5300,
+        "write": 4000,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "TS2TMTE245S",
+        "read": 5300,
+        "write": 4600,
+        "endurance": 1200
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "TS4TMTE245S",
+        "read": 5300,
+        "write": 4000,
+        "endurance": 2400
+      }
+    },
+    "identitySource": "e10961edbb1cc1d2"
+  },
+  "MTE255S": {
+    "source": "e66871cb2e6356e9",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND",
+    "dimensions": [
+      80,
+      22,
+      2.42
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Dissipateur détaillé": "Film graphène",
+      "Construction": "Simple face",
+      "DRAM": "Absente"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "TS1TMTE255S",
+        "read": 7400,
+        "write": 5200,
+        "endurance": 600
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "TS2TMTE255S",
+        "read": 7400,
+        "write": 6500,
+        "endurance": 1200
+      }
+    },
+    "identitySource": "b96d8874b6ccf4f9"
+  },
+  "MTE240S": {
+    "source": "affbcad9c474eb96",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND",
+    "dimensions": [
+      80,
+      22,
+      3.77
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Dissipateur détaillé": "Film graphène",
+      "Construction": "Double face",
+      "DRAM": "Présente"
+    },
+    "variants": {
+      "500": {
+        "capacity": 500,
+        "mpn": "TS500GMTE240S",
+        "read": 3800,
+        "write": 3200,
+        "endurance": 850
+      },
+      "1000": {
+        "capacity": 1000,
+        "mpn": "TS1TMTE240S",
+        "read": 3800,
+        "write": 3200,
+        "endurance": 1700
+      }
+    },
+    "identitySource": "ec43175c7a2e9166"
+  },
+  "250S": {
+    "source": "c6b0e7f9d9ab7998",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND",
+    "dimensions": [
+      80,
+      22,
+      3.77
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Dissipateur détaillé": "Film graphène",
+      "Construction": "Double face",
+      "DRAM": "Présente"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "TS1TMTE250S",
+        "read": 7200,
+        "write": 6200,
+        "endurance": 780
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "TS2TMTE250S",
+        "read": 7100,
+        "write": 6500,
+        "endurance": 1560
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "TS4TMTE250S",
+        "read": 7500,
+        "write": 6700,
+        "endurance": 3120
+      }
+    }
+  },
+  "250H": {
+    "source": "37e45f3fdc60865a",
+    "interface": "PCIe 4.0 x4 NVMe 1.4",
+    "nand": "3D NAND",
+    "dimensions": [
+      80,
+      23.1,
+      9.2
+    ],
+    "heatsink": true,
+    "warranty": 5,
+    "notes": [],
+    "extra": {
+      "Dissipateur détaillé": "Dissipateur à ailettes",
+      "Construction": "Double face",
+      "DRAM": "Présente"
+    },
+    "variants": {
+      "1000": {
+        "capacity": 1000,
+        "mpn": "TS1TMTE250H",
+        "read": 7200,
+        "write": 6200,
+        "endurance": 780
+      },
+      "2000": {
+        "capacity": 2000,
+        "mpn": "TS2TMTE250H",
+        "read": 7100,
+        "write": 6500,
+        "endurance": 1560
+      },
+      "4000": {
+        "capacity": 4000,
+        "mpn": "TS4TMTE250H",
+        "read": 7500,
+        "write": 6700,
+        "endurance": 3120
+      }
+    }
+  }
+}

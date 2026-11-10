@@ -1,0 +1,262 @@
+{
+  "review": {
+    "id": "import-mb-449e9adff92a",
+    "name": "PRIME X670E-PRO WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "sha256": "4aafb9f19e318874fa344d59af413a27dbdbc87dcd8e29f9f206067e0dbc2c54",
+        "bytes": 355808,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME X670E-PRO WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/25c02cba-dbea-4503-bbce-71c132348f06/"
+    ],
+    "sections": [
+      "Model",
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME X670E-PRO WIFI",
+    "identityNote": "Modèle ASUS PRIME X670E-PRO WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 4,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME X670E-PRO WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.\nAMD Socket AM5 for AMD Ryzen™ 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X670"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 192GB, DDR5 8000+(OC)/ 7800(OC)/ 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 ECC & Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nOptiMem II\n* Supported memory types, data rate(Speed), and number of DRAM module vary depending on the CPU and memory configuration, for more information refer to www.asus.com for memory support list. \n** Non-ECC, Un-buffered DDR5 Memroy supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x HDMI® port***  \n* Graphics specifications may vary between CPU types.\n** Supports max. 8K@60Hz as specified in DisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot (support x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot (support x8/x4 mode)**\nAMD X670 Chipset\n-1 x PCIe 4.0 x16 slot (supports x4 mode)\n-1 x PCIe 4.0 x4 slots\n* Please check PCIe bifurcation table at https://www.asus.com/support/FAQ/1037507/.\n**Specifications vary by CPU types.\nAMD Ryzen™ 7000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot\nAMD X670 Chipset\n-1 x PCIe 4.0 x16 slot (supports x4 mode)\n-1 x PCIe 4.0 x4 slots\n* Please check PCIe bifurcation table at https://www.asus.com/support/FAQ/1037507/."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n\nAMD X670 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)**\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** M.2_2 slot shares bandwidth with SATA6G_1&2. When M.2_2 runs at PCIe x4 mode, SATA6G_1&2 will be disabled.\nTotal supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD X670 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)**\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** M.2_2 slot shares bandwidth with SATA6G_1&2. When M.2_2 runs at PCIe x4 mode, SATA6G_1&2 will be disabled."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between countries."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 10 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n4 x USB 3.2 Gen 2 ports (3 x Type-A + 1 x USB Type-C®)\n5 x USB 3.2 Gen 1 ports (4 x Type-A + 1 x USB Type-C®)\nFront USB (Total 9 ports)\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n- Supports up to 32-Bit/192 kHz playback*\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n4 x USB 3.2 Gen 2 ports (3 x Type-A, 1 x USB Type-C®)\n5 x USB 3.2 Gen 1 ports (4 x Type-A, 1 x USB Type-C®)\n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Realtek 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\n1 x W_PUMP+ header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connectors\nStorage related\n4 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS button\n1 x COM Port header\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP)\n1 x Power button \n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™  header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards \n- LANGuard\n- Overvoltage Protection\n- Safeslot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-Connector\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Clear CMOS button\n- ProCool\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- AURA Sync\n- Fan Xpert 4 (with AI Cooling II)\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Easy Optimization\n- TPU\n- DIGI+ VRM\n- Turbo app\n- PC Cleaner\nASUS CPU-Z\nDTS:X® Ultra\nMyAsus\nNorton Anti-virus software (Free Trial version) \nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nFlexKey"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nMiscellaneous\n1 x ASUS Wi-Fi moving antenna\n2 x Rubber packages for M.2 \n2 x Screw packages for M.2 SSD\n1 x Q-connector\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/25c02cba-dbea-4503-bbce-71c132348f06/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "chipset": {
+        "value": "AMD X670",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n\nAMD X670 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)**\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** M.2_2 slot shares bandwidth with SATA6G_1&2. When M.2_2 runs at PCIe x4 mode, SATA6G_1&2 will be disabled.\nTotal supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nAMD X670 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)**\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** M.2_2 slot shares bandwidth with SATA6G_1&2. When M.2_2 runs at PCIe x4 mode, SATA6G_1&2 will be disabled.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot (support x16 mode)\nAMD Ryzen™ 8000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot (support x8/x4 mode)**\nAMD X670 Chipset\n-1 x PCIe 4.0 x16 slot (supports x4 mode)\n-1 x PCIe 4.0 x4 slots\n* Please check PCIe bifurcation table at https://www.asus.com/support/FAQ/1037507/.\n**Specifications vary by CPU types.\nAMD Ryzen™ 7000 Series Desktop Processors*\n-1 x PCIe 5.0 x16 slot\nAMD X670 Chipset\n-1 x PCIe 4.0 x16 slot (supports x4 mode)\n-1 x PCIe 4.0 x4 slots\n* Please check PCIe bifurcation table at https://www.asus.com/support/FAQ/1037507/.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n4 x USB 3.2 Gen 2 ports (3 x Type-A, 1 x USB Type-C®)\n5 x USB 3.2 Gen 1 ports (4 x Type-A, 1 x USB Type-C®)\n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Realtek 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\n1 x W_PUMP+ header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connectors\nStorage related\n4 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS button\n1 x COM Port header\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP)\n1 x Power button \n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™  header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between countries.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "audio": {
+        "value": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n- Supports up to 32-Bit/192 kHz playback*\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.\nAMD Socket AM5 for AMD Ryzen™ 7000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x670e-pro-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:25+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME X670E-PRO WIFI"
+  }
+}

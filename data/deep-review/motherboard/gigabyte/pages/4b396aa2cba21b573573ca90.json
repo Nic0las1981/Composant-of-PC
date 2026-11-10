@@ -1,0 +1,161 @@
+{
+  "requestedURL": "https://www.gigabyte.com/Motherboard/B650M-C-rev-10/sp",
+  "checkedAt": "2026-11-10T13:26:35+00:00",
+  "attempts": [
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B650M-C-rev-10/sp",
+      "status": 200,
+      "resolvedURL": "https://www.gigabyte.com/Motherboard/B650M-C-rev-10/sp",
+      "bytes": 605640
+    }
+  ],
+  "url": "https://www.gigabyte.com/Motherboard/B650M-C-rev-10/sp",
+  "httpStatus": 200,
+  "sha256": "91049b9f784892059425bea1bc98c9764e92502439ec3b38d9f34b61a47499c6",
+  "title": "B650M C (Rev. 1.0)",
+  "model": "B650M C",
+  "revision": "1.0",
+  "sections": {
+    "CPU": "AMD Socket AM5, support for: AMD Ryzen™ 7000 Series Processors (Please refer \"CPU Support List\" for more information.)",
+    "Chipset": "AMD B650",
+    "Memory": "Support for DDR5 8000(OC)/ 7800(OC)/ 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800 MT/s memory modules 4 x DDR5 DIMM sockets supporting up to 256 GB (64 GB single DIMM capacity) of system memory Dual channel memory architecture Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory module (The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to \"Memory Support List\" for more information.)",
+    "Onboard Graphics": "Integrated Graphics Processor: 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.1 version and HDCP 2.3. ** Support native HDMI 2.1 TMDS compatible ports. (Graphics specifications may vary depending on CPU support.)",
+    "Audio": "Realtek ® Audio CODEC High Definition Audio 2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings",
+    "LAN": "Realtek ® GbE LAN chip (1 Gbps/100 Mbps)",
+    "Wireless Communication module": "AzureWave Wi-Fi AW-CB304NF (Realtek ® RTL8821CE) WIFI 802.11 a, b, g, n, ac, supporting 2.4/5 GHz Dual-Band BLUETOOTH 4.2 Support for 11ac wireless standard and up to 433 Gbps data rate (Actual data rate may vary depending on environment and equipment.)",
+    "Expansion Slots": "CPU: 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16 (PCIEX16) * For optimum performance, if only one PCI Express graphics card is to be installed, be sure to install it in the PCIEX16 slot. 1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x1 (PCIEX1_1) Chipset: 2 x PCI Express x16 slots, supporting PCIe 3.0 and running at x1 (PCIEX1_2, PCIEX1_3)",
+    "Storage Interface": "CPU: 1 x M.2 connector (Socket 3, M key, type 25110/22110/2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU) Chipset: 2 x M.2 connectors (Socket 3, M key, type 2260 PCIe 3.0 x1 SSD support) (M2X_SB, M2Y_SB) 4 x SATA 6Gb/s connectors RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices RAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+    "USB": "CPU: 1 x USB Type-C ® port on the back panel, with USB 3.2 Gen 1 support 1 x USB 3.2 Gen 2 Type-A port (red) on the back panel 2 x USB 3.2 Gen 1 ports on the back panel 1 x USB 2.0/1.1 port on the back panel Chipset: 1 x USB Type-C ® port with USB 3.2 Gen 2 support, available through the internal USB header 4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header) 4 x USB 2.0/1.1 ports available through the internal USB headers Chipset + USB 2.0 Hub: 4 x USB 2.0/1.1 ports available through the internal USB headers",
+    "Internal I/O Connectors": "1 x 24-pin ATX main power connector 1 x 8-pin ATX 12V power connector 1 x CPU fan header 3 x system fan headers 1 x addressable LED strip header 1 x RGB LED strip header 3 x M.2 Socket 3 connectors 4 x SATA 6Gb/s connectors 1 x front panel header 1 x front panel audio header 1 x USB Type-C ® header, with USB 3.2 Gen 2 support 1 x USB 3.2 Gen 1 header 4 x USB 2.0/1.1 headers 1 x reset button 1 x reset jumper 1 x Clear CMOS jumper",
+    "Back Panel Connectors": "1 x PS/2 keyboard/mouse port 2 x SMA antenna connectors (1T1R) 1 x USB Type-C ® port, with USB 3.2 Gen 1 support 1 x USB 3.2 Gen 2 Type-A port (red) 4 x USB 3.2 Gen 1 ports 1 x USB 2.0/1.1 port 1 x HDMI port 1 x Q-Flash Plus button 1 x RJ-45 port 3 x audio jacks",
+    "I/O Controller": "iTE ® I/O Controller Chip",
+    "H/W Monitoring": "Voltage detection Temperature detection Fan speed detection Water cooling flow rate detection Fan fail warning Fan speed control * Whether the fan speed control function is supported will depend on the fan you install..",
+    "BIOS": "1 x 256 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+    "Unique Features": "Support for GIGABYTE Control Center (GCC) * Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. Support for Q-Flash Support for Q-Flash Plus",
+    "Bundled Software": "Norton ® Internet Security (OEM version) LAN bandwidth management software",
+    "Operating System": "Support for Windows 11 64-bit Support for Windows 10 64-bit",
+    "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm"
+  },
+  "sectionItems": {
+    "CPU": [
+      "AMD Socket AM5, support for: AMD Ryzen™ 7000 Series Processors"
+    ],
+    "Chipset": [
+      "AMD B650"
+    ],
+    "Memory": [
+      "Support for DDR5 8000(OC)/ 7800(OC)/ 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800 MT/s memory modules",
+      "4 x DDR5 DIMM sockets supporting up to 256 GB (64 GB single DIMM capacity) of system memory",
+      "Dual channel memory architecture",
+      "Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules",
+      "Support for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory module"
+    ],
+    "Onboard Graphics": [
+      "1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.1 version and HDCP 2.3. ** Support native HDMI 2.1 TMDS compatible ports."
+    ],
+    "Audio": [
+      "Realtek ® Audio CODEC",
+      "High Definition Audio",
+      "2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings"
+    ],
+    "LAN": [
+      "Realtek ® GbE LAN chip (1 Gbps/100 Mbps)"
+    ],
+    "Wireless Communication module": [
+      "WIFI 802.11 a, b, g, n, ac, supporting 2.4/5 GHz Dual-Band",
+      "BLUETOOTH 4.2",
+      "Support for 11ac wireless standard and up to 433 Gbps data rate"
+    ],
+    "Expansion Slots": [
+      "1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16 (PCIEX16) * For optimum performance, if only one PCI Express graphics card is to be installed, be sure to install it in the PCIEX16 slot.",
+      "1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x1 (PCIEX1_1)",
+      "2 x PCI Express x16 slots, supporting PCIe 3.0 and running at x1 (PCIEX1_2, PCIEX1_3)"
+    ],
+    "Storage Interface": [
+      "1 x M.2 connector (Socket 3, M key, type 25110/22110/2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU)",
+      "2 x M.2 connectors (Socket 3, M key, type 2260 PCIe 3.0 x1 SSD support) (M2X_SB, M2Y_SB)",
+      "4 x SATA 6Gb/s connectors"
+    ],
+    "USB": [
+      "1 x USB Type-C ® port on the back panel, with USB 3.2 Gen 1 support",
+      "1 x USB 3.2 Gen 2 Type-A port (red) on the back panel",
+      "2 x USB 3.2 Gen 1 ports on the back panel",
+      "1 x USB 2.0/1.1 port on the back panel",
+      "1 x USB Type-C ® port with USB 3.2 Gen 2 support, available through the internal USB header",
+      "4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header)",
+      "4 x USB 2.0/1.1 ports available through the internal USB headers",
+      "4 x USB 2.0/1.1 ports available through the internal USB headers"
+    ],
+    "Internal I/O Connectors": [
+      "1 x 24-pin ATX main power connector",
+      "1 x 8-pin ATX 12V power connector",
+      "1 x CPU fan header",
+      "3 x system fan headers",
+      "1 x addressable LED strip header",
+      "1 x RGB LED strip header",
+      "3 x M.2 Socket 3 connectors",
+      "4 x SATA 6Gb/s connectors",
+      "1 x front panel header",
+      "1 x front panel audio header",
+      "1 x USB Type-C ® header, with USB 3.2 Gen 2 support",
+      "1 x USB 3.2 Gen 1 header",
+      "4 x USB 2.0/1.1 headers",
+      "1 x reset button",
+      "1 x reset jumper",
+      "1 x Clear CMOS jumper"
+    ],
+    "Back Panel Connectors": [
+      "1 x PS/2 keyboard/mouse port",
+      "2 x SMA antenna connectors (1T1R)",
+      "1 x USB Type-C ® port, with USB 3.2 Gen 1 support",
+      "1 x USB 3.2 Gen 2 Type-A port (red)",
+      "4 x USB 3.2 Gen 1 ports",
+      "1 x USB 2.0/1.1 port",
+      "1 x HDMI port",
+      "1 x Q-Flash Plus button",
+      "1 x RJ-45 port",
+      "3 x audio jacks"
+    ],
+    "I/O Controller": [
+      "iTE ® I/O Controller Chip"
+    ],
+    "H/W Monitoring": [
+      "Voltage detection",
+      "Temperature detection",
+      "Fan speed detection",
+      "Water cooling flow rate detection",
+      "Fan fail warning",
+      "Fan speed control * Whether the fan speed control function is supported will depend on the fan you install.."
+    ],
+    "BIOS": [
+      "1 x 256 Mbit flash",
+      "Use of licensed AMI UEFI BIOS",
+      "PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0"
+    ],
+    "Unique Features": [
+      "Support for GIGABYTE Control Center (GCC) * Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.",
+      "Support for Q-Flash",
+      "Support for Q-Flash Plus"
+    ],
+    "Bundled Software": [
+      "Norton ® Internet Security (OEM version)",
+      "LAN bandwidth management software"
+    ],
+    "Operating System": [
+      "Support for Windows 11 64-bit",
+      "Support for Windows 10 64-bit"
+    ],
+    "Form Factor": [
+      "Micro ATX Form Factor; 24.4cm x 24.4cm"
+    ]
+  },
+  "imageURLs": [
+    "https://static.gigabyte.com/StaticFile/Image/Global/20145cd54ad4e62058a1ddb922cbafbe/ProductRemoveBg/33960"
+  ],
+  "revisionURLs": [
+    "https://www.gigabyte.com/Motherboard/B650M-C-rev-10"
+  ],
+  "manualURLs": [],
+  "status": "official_specifications",
+  "manufacturerAliases": []
+}

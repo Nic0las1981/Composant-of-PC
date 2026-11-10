@@ -1,0 +1,271 @@
+{
+  "review": {
+    "id": "import-mb-6f3d3ca45c92",
+    "name": "PRIME B550M-A AC",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "sha256": "67d6b3e513be48192a12f31d0cbca21045b39ec7b7fea5f34db22777e827bf72",
+        "bytes": 341537,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B550M-A AC",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/a153ae97-c99f-4c09-a653-fe25756f9fc4/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Bluetooth",
+      "Audio",
+      "USB Ports",
+      "Software Features",
+      "ASUS Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B550M-A AC",
+    "identityNote": "Modèle ASUS PRIME B550M-A AC confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME B550M-A AC",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 4866(O.C)/4800(O.C.)/4600(O.C)/4466(O.C.)/4400(O.C)/4333(O.C.)/4266(O.C.)/4200(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3333(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz Un-buffered Memory *\nDual Channel Memory Architecture \nECC Memory (ECC mode) support varies by CPU.\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists), and memory frequency support depends on the CPU types."
+          },
+          {
+            "label": "Graphic",
+            "value": "1  x D-Sub \n1  x DVI-D \n1  x HDMI 2.1(4K@60HZ)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode) \nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 (x16 mode) \nAMD B550 Chipset\n2 x PCIe 3.0 x1"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slot(s) and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support\n4 x SATA 6Gb/s port(s), \nSupport Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8111H 1Gb Ethernet"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac\nSupports dual band frequency 2.4/5 GHz\nSupports PCIe interface"
+          },
+          {
+            "label": "Bluetooth",
+            "value": "Bluetooth® 5.0"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC *\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback\nAudio Feature :\n- LED-illuminated design \n- Audio Shielding\n- Dedicated audio PCB layers\n- Premium Japanese audio capacitors\n* Choose the chassis with HD audio module in front panel to support 8-channel audio output."
+          },
+          {
+            "label": "USB Ports",
+            "value": "Rear USB Port ( Total 6  ) \n2 x USB 3.2 Gen 2 port(s)(2 x Type-A)\n4 x USB 3.2 Gen 1 port(s)(4 x Type-A)\nFront USB Port ( Total 6  ) \n2 x USB 3.2 Gen 1 port(s)(2 x Type-A)\n4 x USB 2.0 port(s)(4 x Type-A)"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\nAI Suite 3\n- Performance And Power Saving Utility\n TurboV EVO\n EPU \n Digi+ VRM\n Fan Xpert 2+\n- EZ update\nASUS CPU-Z\nAI Charger \nDAEMON Tools\nNorton Anti-virus software (Free Trial for 60 days) \nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "ASUS 5X PROTECTION III\n- ASUS DIGI+ VRM\n- ASUS LANGuard\n- ASUS Overvoltage Protection\n- ASUS SafeSlot Core\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design \n- ASUS Q-DIMM\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum heatsink design\nAURA Sync\n- Standard RGB headers\n- Addressable Gen 2 RGB header\nASUS Lighting Control"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/mouse combo port(s)\n1 x DVI-D\n1 x D-Sub\n1 x HDMI\n1 x LAN (RJ45) port(s)\n2 x USB 3.2 Gen 2 (teal blue) (2 x Type-A) \n4 x USB 3.2 Gen 1 (blue) Type-A \n3 x Audio jack(s)\n1 x ASUS Wi-Fi Module"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x CPU Fan connector(s) \n1 x CPU OPT Fan connector(s) \n2 x Chassis Fan connector(s) \n2 x Aura RGB Strip Headers\n1 x Addressable Gen 2 header(s)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s) \n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x SPI TPM header\n4 x SATA 6Gb/s connector(s)\n1 x S/PDIF out header(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x COM port header\n1 x Speaker connector"
+          },
+          {
+            "label": "Accessoires",
+            "value": "I/O Shield\n2 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\nUser manual\n1 x Wi-Fi moving antenna\n1 x M.2 SSD screw package(s)"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor \n9.6  inch x 9.6  inch ( 24.4  cm x 24.4  cm )"
+          },
+          {
+            "label": "Note",
+            "value": "*A chassis with an HD audio module in the front panel is required to support 7.1-channel audio output."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/a153ae97-c99f-4c09-a653-fe25756f9fc4/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor \n9.6  inch x 9.6  inch ( 24.4  cm x 24.4  cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor \n9.6  inch x 9.6  inch ( 24.4  cm x 24.4  cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slot(s) and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support\n4 x SATA 6Gb/s port(s), \nSupport Raid 0, 1, 10",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode) \nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 (x16 mode) \nAMD B550 Chipset\n2 x PCIe 3.0 x1",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/mouse combo port(s)\n1 x DVI-D\n1 x D-Sub\n1 x HDMI\n1 x LAN (RJ45) port(s)\n2 x USB 3.2 Gen 2 (teal blue) (2 x Type-A) \n4 x USB 3.2 Gen 1 (blue) Type-A \n3 x Audio jack(s)\n1 x ASUS Wi-Fi Module",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "internalIO": {
+        "value": "1 x CPU Fan connector(s) \n1 x CPU OPT Fan connector(s) \n2 x Chassis Fan connector(s) \n2 x Aura RGB Strip Headers\n1 x Addressable Gen 2 header(s)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s) \n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x SPI TPM header\n4 x SATA 6Gb/s connector(s)\n1 x S/PDIF out header(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x COM port header\n1 x Speaker connector",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8111H 1Gb Ethernet",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC *\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback\nAudio Feature :\n- LED-illuminated design \n- Audio Shielding\n- Dedicated audio PCB layers\n- Premium Japanese audio capacitors\n* Choose the chassis with HD audio module in front panel to support 8-channel audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *\n* Refer to www.asus.com for CPU support list\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B550M-A AC"
+  }
+}

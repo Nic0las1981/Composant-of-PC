@@ -1,0 +1,357 @@
+{
+  "review": {
+    "id": "import-mb-bd8240eeb73e",
+    "name": "MEG Z690 UNIFY",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+    "sections": [
+      "Socket",
+      "DDR5 Memory",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x4",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DirectX",
+      "SLI",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Dimension",
+      "Processor",
+      "Memory",
+      "Expansion Slots",
+      "Multi-GPU",
+      "USB",
+      "Storage",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth",
+      "Internal connectors",
+      "LED Features",
+      "Back panel ports",
+      "Dimensions",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1635323934c84d73d3516013dd2f32c71b2f881017.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MEG Z690 UNIFY",
+    "identityNote": "Modèle MSI MEG Z690 UNIFY confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 192,
+      "m2Slots": 5,
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "MEG Z690 UNIFY",
+      "description": "Carte mère MSI MEG Z690 UNIFY. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket LGA1700",
+        "4 emplacements DDR5",
+        "Mémoire maximale documentée : 192 Go",
+        "5 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "1700"
+          },
+          {
+            "label": "DDR5 Memory",
+            "value": "6666+(OC) , 6600(OC) , 6400(OC) , 6200(OC) , 6000(OC) , 5800(OC) , 5600(JEDEC) , 5400(JEDEC) , 5200(JEDEC) , 5000(JEDEC) , 4800(JEDEC) MHz"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® Z690 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "192"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E x4",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "5"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices 1\n\n Supports RAID 0, RAID 1, RAID 5 and RAID 10 for M.2 NVMe storage devices\n\n SATAA & SATAB do not support RAID function."
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E module"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen2x2, Type C), 4(Gen1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen2x2, Type C), 7(Gen2, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "7.1-Channel High Definition Audio+ Optical S/PDIF (Realtek® ALC4080 Codec)"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "SLI",
+            "value": "Y"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Dimension",
+            "value": "12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n Please go to www.msi.com to get the newest support status as new processors are released.\n\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR5 memory slots, support up to 192GB 1\n Supports 1R 5600 MHz (by JEDEC & POR)\n\n Max. overclocking frequency:\n 1DPC 1R Max speed up to 6666+ MHz\n\n 1DPC 2R Max speed up to 6000+ MHz\n\n 2DPC 1R Max speed up to 6000+ MHz\n\n 2DPC 2R Max speed up to 5600+ MHz\n Supports Intel® XMP 3.0 OC\n\n Supports Dual Controller Dual-Channel mode\n\n Supports non-ECC, un-buffered memory\n\n Please refer to www.msi.com for more information on compatible memory.\n\n See supported memory\nDDR5 Memory: 6666+(OC) , 6600(OC) , 6400(OC) , 6200(OC) , 6000(OC) , 5800(OC) , 5600(JEDEC) , 5400(JEDEC) , 5200(JEDEC) , 5000(JEDEC) , 4800(JEDEC) MHz\nDIMM Slots: 4\nMax Memory (GB): 192\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCIe x16 slots (From CPU)\n Support PCIe 5.0\n\n Support x16/ x0, x8/ x8\n\n 1x PCIe x4 slot (From Z690 Chipset)\n Supports PCIe 3.0 x4"
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports AMD® CrossFire™ Technology\n\n Supports NVIDIA® SLI™ Technology"
+          },
+          {
+            "label": "USB",
+            "value": "Intel® Z690 Chipset\n 2x USB 3.2 Gen2x2 20Gbps ports ( 1 Type-C port on the back panel, 1 Type-C internal connector)\n\n 3x USB 3.2 Gen2 10Gbps Type-A ports on the back panel\n\n 2x USB 2.0 Type-A port on the back panel\n\n\n Hub GL3590\n 4x USB 3.2 Gen2 10Gbps ports on the back panel\n\n\n Hub ASM1074\n 4x USB 3.2 Gen1 5Gbps ports available through internal USB connectors\n\n\n Hub GL850G\n 4x USB 2.0 ports available through internal USB connectors"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA 6Gb/s ports\n SATA5~8 (From Z690 Chipset)\n\n SATAA~B (From ASMedia ASM1061)\n\n 5x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\n Supports 2260/ 2280 storage devices\n\n M2_2 slot (From Z690 Chipset)\n Supports PCIe 4.0 x4\n\n Supports 2260/ 2280 storage devices\n\n M2_3 slot (From Z690 Chipset)\n Supports PCIe 4.0x4\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280/ 22110 storage devices\n\n M2_4 slot (From Z690 Chipset)\n Supports PCIe 3.0x4\n\n Supports 2260/ 2280 storage devices\n\n M2_5 slot (From Z690 Chipset)\n Supports PCIe 4.0x4\n\n Supports 2260/ 2280 storage devices\n\n M2_2~5 supports Intel® Optane™ Memory\n\n Supports Intel® Smart Response Technology for Intel Core™ processors"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC4080 Codec\n\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "2x Intel® I225-V 2.5Gbps LAN controllers"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth",
+            "value": "Intel® Wi-Fi 6E\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.3 2 , FIPS, FISMA\n\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in Windows 11.\n\n Bluetooth 5.3 will be ready in Windows 10 version 21H1 and Windows 11."
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 5x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2x2 20Gbps Type-C port\n\n 2x USB 3.2 Gen 1 5Gbps connector (supports additional 4 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal Sensors connector\n\n 1x Water flow connector\n\n 1x V-check point\n\n 1x TPM module connector\n\n 1x Tuning controller connector\n\n 1x Debug port connector\n\n 1x TBT connector (Supports RTD3)"
+          },
+          {
+            "label": "LED Features",
+            "value": "1x 2-Digit Debug Code LED\n\n 4x EZ Debug LED\n\n 1x 4-pin RGB LED connector\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin JCORSAIR LED connector"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "Clear CMOS Button\n\n PS/2 Keyboard / Mouse Port\n\n 2.5G LAN\n\n 2.5G LAN\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 5x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2x2 20Gbps Type-C port\n\n 2x USB 3.2 Gen 1 5Gbps connector (supports additional 4 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal Sensors connector\n\n 1x Water flow connector\n\n 1x V-check point\n\n 1x TPM module connector\n\n 1x Tuning controller connector\n\n 1x Debug port connector\n\n 1x TBT connector (Supports RTD3)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: Clear CMOS Button\n\n PS/2 Keyboard / Mouse Port\n\n 2.5G LAN\n\n 2.5G LAN\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "WiFi & Bluetooth: Intel® Wi-Fi 6E module"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1635323934c84d73d3516013dd2f32c71b2f881017.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "m2": {
+        "value": 5,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "chipset": {
+        "value": "Intel® Z690 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA 6Gb/s ports\n SATA5~8 (From Z690 Chipset)\n\n SATAA~B (From ASMedia ASM1061)\n\n 5x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\n Supports 2260/ 2280 storage devices\n\n M2_2 slot (From Z690 Chipset)\n Supports PCIe 4.0 x4\n\n Supports 2260/ 2280 storage devices\n\n M2_3 slot (From Z690 Chipset)\n Supports PCIe 4.0x4\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280/ 22110 storage devices\n\n M2_4 slot (From Z690 Chipset)\n Supports PCIe 3.0x4\n\n Supports 2260/ 2280 storage devices\n\n M2_5 slot (From Z690 Chipset)\n Supports PCIe 4.0x4\n\n Supports 2260/ 2280 storage devices\n\n M2_2~5 supports Intel® Optane™ Memory\n\n Supports Intel® Smart Response Technology for Intel Core™ processors",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "pcie": {
+        "value": "2x PCIe x16 slots (From CPU)\n Support PCIe 5.0\n\n Support x16/ x0, x8/ x8\n\n 1x PCIe x4 slot (From Z690 Chipset)\n Supports PCIe 3.0 x4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: Clear CMOS Button\n\n PS/2 Keyboard / Mouse Port\n\n 2.5G LAN\n\n 2.5G LAN\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n Optical S/PDIF-Out",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 5x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2x2 20Gbps Type-C port\n\n 2x USB 3.2 Gen 1 5Gbps connector (supports additional 4 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal Sensors connector\n\n 1x Water flow connector\n\n 1x V-check point\n\n 1x TPM module connector\n\n 1x Tuning controller connector\n\n 1x Debug port connector\n\n 1x TBT connector (Supports RTD3)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "network": {
+        "value": "2x Intel® I225-V 2.5Gbps LAN controllers\nWiFi & Bluetooth: Intel® Wi-Fi 6E module\nIntel® Wi-Fi 6E module",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC4080 Codec\n\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n Please go to www.msi.com to get the newest support status as new processors are released.\n\n See supported processors\n1700",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-Z690-UNIFY/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      }
+    }
+  }
+}

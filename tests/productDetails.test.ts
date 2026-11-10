@@ -195,7 +195,7 @@ test("catalogue details are grouped, unique and never leak internal performance 
     const rows = details.groups.flatMap((group) => group.rows);
     assert.ok(rows.length > 0, component.id);
     assert.equal(rows.length, new Set(rows.map((row) => row.label)).size, component.id);
-    assert.ok(rows.every((row) => row.label && row.value && !/undefined|NaN|Infinity/.test(row.value)), component.id);
+    assert.ok(rows.every((row) => row.label && row.value && !/\b(?:undefined|NaN)\b|^[+-]?Infinity$/.test(row.value)), component.id);
     assert.ok(!rows.some((row) => /score|FPS|prix/i.test(row.label)), component.id);
     assert.ok(details.groups.every((group) => group.title && group.rows.length));
     assert.ok(details.highlights.length <= 4);

@@ -1,0 +1,346 @@
+{
+  "review": {
+    "id": "import-mb-feab973769cc",
+    "name": "X470 GAMING M7 AC",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.1 ports (Front)",
+      "USB 3.1 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DirectX",
+      "SLI",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Slots",
+      "Multi-GPU",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "X470 GAMING M7 AC",
+    "identityNote": "Modèle MSI X470 GAMING M7 AC confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 304.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "X470 GAMING M7 AC",
+      "description": "Carte mère MSI X470 GAMING M7 AC. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® X470 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3(16,0) (8,8), Gen2(4)"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "3"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "RAID",
+            "value": "AMD® X470 Chipset\n\nSupports RAID 0, RAID 1 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.1 ports (Front)",
+            "value": "1(Gen2, Type C), 4(Gen1, Type A)"
+          },
+          {
+            "label": "USB 3.1 ports (Rear)",
+            "value": "1(Gen2, Type C), 1(Gen2, Type A), 4(Gen1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC1220 Codec"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "SLI",
+            "value": "Y"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bitSupport for Windows® 7 64-bit* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 1st, 2nd and 3rd Gen AMD® Ryzen™/ Ryzen™ with Radeon™ Vega Graphics / 2nd Gen AMD® Ryzen™ with Radeon™ Graphics and Athlon™ with Radeon™ Vega Graphics Desktop Processors for Socket AM4\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DDR4 memory slots, support up to 128GB *ComboPI 1.0.0.3-based and above BIOS are required.\n Supports DDR4 1866/ 2133/ 2400/ 2667 Mhz by JEDEC, and 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600 Mhz by A-XMP OC MODE1\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\nA-series/ Athlon™ processors support up to 2400 MHz. And the supporting frequency of memory varies with installed processor.\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2 x PCIe 3.0 x16 slots (PCIE_2, PCIE_4)\n 1st, 2nd and 3rd Gen AMD Ryzen™ processors supportx16/x0, x8/x8 mode\n\n Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with adeon™ Graphics processors support x8/x0 mode\n\n Athlon™ with Radeon™ Vega Graphics processors support x4/x0 mode\n\n 1 x PCIe 2.0 x16 slot (PCIE_6, supports x4 mode)1\n\n 3 x PCIe 2.0 x1 slots\n\nPCI_E3 slot will be unavailable when installing PCIe card in PCI_E5 slot\n\n PCI_E6 slot will be unavailable when installing M.2 PCIe SSD in M2_2 slot."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "1st, 2nd and 3rd Gen AMD Ryzen™ Processors\n Supports 2-Way NVIDIA® SLI™ Technology\n\n Supports 3-Way AMD® CrossFire™ Technology\n\n Ryzen™ with Radeon™ Vega Graphics, 2nd Gen AMD Ryzen™ with Radeon™ Graphics and Athlon™ with Radeon™ Vega Graphics Desktop Processors\n Supports 2-Way AMD® CrossFire™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD® X470 Chipset\n\n6 x SATA 6Gb/s ports1\n\n 2 x M.2 ports (Key M) \n M2_1 slot (from AMD® processor) Supports PCIe 3.0 x4 (AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors)\n\n M2_2 slot (from AMD® X470 Chipset) supports PCIe 2.0 x4 and SATA 6Gb/s 2242/ 2260 /2280 storage devices2\n\nSATA3 port will be unavailable when installing SATA M.2 SSD in M2_2 slot.\n\n PCI_E6 slot will be unavailable when installing PCIe M.2 SSD in M2_2 slot."
+          },
+          {
+            "label": "USB",
+            "value": "ASMedia® ASM1143 Chipset\n\n1x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-C port through the internal USB connector\n\nAMD® X470 Chipset\n\n1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-C port on the back panel\n\n 1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-A port on the back panel\n\n 4 x USB 3.1 Gen1 (SuperSpeed USB) ports through the internal USB connectors\n\n 6 x USB 2.0 (High-speed USB) ports (2 Type-A ports on the back panel, 4 ports available through the internal USB connectors)\n\nAMD® CPU\n\n4x USB 3.1 Gen1 (SuperSpeed USB) Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Killer™ E2500 Gigabit LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel® Dual Band Wireless-AC 8265 card\n\nThe Wireless card is pre-install in the M2_3 (M.2 Key E) slot.\n\n Supports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n Supports Dual Mode Bluetooth® 2.1, 2.1+EDR, 3.0, 4.0, BLE, 4.2"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX 12V power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin PUMP fan connector (supports up to 2A)\n\n 4x 4-pin system fan connectors\n\n 2x 5050 RGB LED strip 12V connectors\n\n 1x WS2812B Individually Addressable RGB LED strip 5V connector\n\n 1x CORSAIR connector y1x TPM module connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors y1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x GAME BOOST knob\n\n 1x Power button\n\n 1x Reset button\n\n 1x 2-Digit Debug Code LED"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "Clear CMOS Button\n\n PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n Intel® WiFi/ Bluetooth Module\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n USB 3.1 Gen2 Type A+C\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "12 in. x 9.6 in. (30.4 cm x 24.4 cm)\n\n ATX Form Factor"
+          },
+          {
+            "label": "Mounting",
+            "value": "9 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 10 64-bit\n\n Support for Windows® 7 64-bit\n* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX 12V power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin PUMP fan connector (supports up to 2A)\n\n 4x 4-pin system fan connectors\n\n 2x 5050 RGB LED strip 12V connectors\n\n 1x WS2812B Individually Addressable RGB LED strip 5V connector\n\n 1x CORSAIR connector y1x TPM module connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors y1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x GAME BOOST knob\n\n 1x Power button\n\n 1x Reset button\n\n 1x 2-Digit Debug Code LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: Clear CMOS Button\n\n PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n Intel® WiFi/ Bluetooth Module\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n USB 3.1 Gen2 Type A+C\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel® Dual Band Wireless-AC 8265 card\n\nThe Wireless card is pre-install in the M2_3 (M.2 Key E) slot.\n\n Supports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n Supports Dual Mode Bluetooth® 2.1, 2.1+EDR, 3.0, 4.0, BLE, 4.2"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\n12 in. x 9.6 in. (30.4 cm x 24.4 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\n12 in. x 9.6 in. (30.4 cm x 24.4 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "chipset": {
+        "value": "AMD® X470 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD® X470 Chipset\n\n6 x SATA 6Gb/s ports1\n\n 2 x M.2 ports (Key M) \n M2_1 slot (from AMD® processor) Supports PCIe 3.0 x4 (AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors)\n\n M2_2 slot (from AMD® X470 Chipset) supports PCIe 2.0 x4 and SATA 6Gb/s 2242/ 2260 /2280 storage devices2\n\nSATA3 port will be unavailable when installing SATA M.2 SSD in M2_2 slot.\n\n PCI_E6 slot will be unavailable when installing PCIe M.2 SSD in M2_2 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "pcie": {
+        "value": "2 x PCIe 3.0 x16 slots (PCIE_2, PCIE_4)\n 1st, 2nd and 3rd Gen AMD Ryzen™ processors supportx16/x0, x8/x8 mode\n\n Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with adeon™ Graphics processors support x8/x0 mode\n\n Athlon™ with Radeon™ Vega Graphics processors support x4/x0 mode\n\n 1 x PCIe 2.0 x16 slot (PCIE_6, supports x4 mode)1\n\n 3 x PCIe 2.0 x1 slots\n\nPCI_E3 slot will be unavailable when installing PCIe card in PCI_E5 slot\n\n PCI_E6 slot will be unavailable when installing M.2 PCIe SSD in M2_2 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: Clear CMOS Button\n\n PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n Intel® WiFi/ Bluetooth Module\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n USB 3.1 Gen2 Type A+C\n\n Optical S/PDIF-Out",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX 12V power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin PUMP fan connector (supports up to 2A)\n\n 4x 4-pin system fan connectors\n\n 2x 5050 RGB LED strip 12V connectors\n\n 1x WS2812B Individually Addressable RGB LED strip 5V connector\n\n 1x CORSAIR connector y1x TPM module connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors y1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x GAME BOOST knob\n\n 1x Power button\n\n 1x Reset button\n\n 1x 2-Digit Debug Code LED",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "network": {
+        "value": "1 x Killer™ E2500 Gigabit LAN controller\nWireless LAN & Bluetooth®: Intel® Dual Band Wireless-AC 8265 card\n\nThe Wireless card is pre-install in the M2_3 (M.2 Key E) slot.\n\n Supports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n Supports Dual Mode Bluetooth® 2.1, 2.1+EDR, 3.0, 4.0, BLE, 4.2",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports 1st, 2nd and 3rd Gen AMD® Ryzen™/ Ryzen™ with Radeon™ Vega Graphics / 2nd Gen AMD® Ryzen™ with Radeon™ Graphics and Athlon™ with Radeon™ Vega Graphics Desktop Processors for Socket AM4\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/X470-GAMING-M7-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      }
+    }
+  }
+}

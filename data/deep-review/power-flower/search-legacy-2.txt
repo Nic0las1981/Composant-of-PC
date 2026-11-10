@@ -1,0 +1,1677 @@
+Title: Cybenetics - Super Flower Leadex Titanium 1600W
+URL: https://gzhls.at/blob/ldb/4/1/a/3/f5a917c2c94dfcc07985a71739fde8de73af.pdf
+Published: N/A
+Author: N/A
+Highlights:
+### Anex Super Flower Leadex Titanium 1600W
+
+##### Lab ID#: SF16002220 Report: 23PS2220AReceipt Date: Jul 31, 2023 Test Date: Aug 18, 2023 Report Date: Aug 22, 2023
+
+| DUT INFORMATION | |
+| --- | --- |
+| Brand | Super Flower |
+| Manufacturer (OEM) | Super Flower |
+| Series | Leadex |
+| Model Number | SF-1600 |
+| Serial Number | S2307199003 |
+| DUT Notes | |
+
+| DUT SPECIFICATIONS | |
+| --- | --- |
+| Rated Voltage (Vrms) | 115-240 |
+| Rated Current (Arms) | 17 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1600 |
+| Type | ATX12V |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZFF142512D) |
+| Semi-Passive Operation | ✓ |
+| Cable Design | Fully Modular |
+
+...
+
+### Anex Super Flower Leadex Titanium 1600W
+
+| RESULTS | |
+| --- | --- |
+| Temperature Range (°C /°F) | 30-32 / 86-89.6 |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+| ATX v3.0 PSU Power Excursion | ✓ |
+
+| 230V | |
+| --- | --- |
+| Average Efficiency | 92.647% |
+| Average Efficiency 5VSB | 77.434% |
+| Standby Power Consumption (W) | 0.2235000 |
+| Average PF | 0.966 |
+| Avg Noise Output | 39.94 dB(A) |
+| Efficiency Rating (ETA) | SILVER |
+| Noise Rating (LAMBDA) | Standard+ |
+
+| 115V | |
+| --- | --- |
+| Average Efficiency | 91.082% |
+| Efficiency With 10W (≤500W) or 2% (>500W) | 75.688 |
+| Average Efficiency 5VSB | 79.481% |
+| Standby Power Consumption (W) | 0.1003000 |
+| Average PF | 0.995 |
+| Avg Noise Output | 39.79 dB(A) |
+| Efficiency Rating (ETA) | TITANIUM |
+| Noise Rating (LAMBDA) | Standard+ |
+
+| POWER SPECIFICATIONS | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| Max. Power | Amps | 24 | 24 | 133.3 | 3 | 0.5 |
+| | Watts | 120 | | 1599.6 | 15 | 6 |
+| Total Max. Power (W) | | 1600 | | | | |
+
+...
+
+### Anex Super Flower Leadex Titanium 1600W
+
+##### CABLES AND CONNECTORS Modular Cables
+
+| Description | Cable Count | Connector Count (Total) | Gauge | In Cable Capacitors |
+| --- | --- | --- | --- | --- |
+| ATX connector 24 pin (600mm) | 1 | 1 | 16-22AWG | Yes |
+| 4+4 pin EPS12V (750mm) | 2 | 2 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm+150mm) | 5 | 10 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm) | 4 | 4 | 16-22AWG | Yes |
+| 12+2 pin PCIe (600mm) (600W) | 1 | 1 | 16-24AWG | No |
+| SATA (550mm+100mm+100mm+100mm) | 3 | 12 | 18-20AWG | No |
+| SATA (550mm+100mm) / 4-pin Molex (+100mm+100mm) | 1 | 2 / 2 | 18AWG | No |
+| 4-pin Molex (550mm+100mm+100mm) | 1 | 3 | 18AWG | No |
+| FDD Adapter (100mm) | 2 | 2 | 20AWG | No |
+| AC Power Cord (1680mm) - C19 coupler | 1 | 1 | 16AWG | - |
+
+...
+
+### Anex Super Flower Leadex Titanium 1600W
+
+| General Data | |
+| --- | --- |
+| Manufacturer (OEM) | Super Flower |
+| PCB Type | Double-Sided |
+| Primary Side | |
+| Transient Filter | 5x Y caps, 5x X caps, 2x CM chokes, 1x MOV (TVR14511) |
+| Inrush Protection | NTC Thermistor SCK-254R7 (4.7 Ohm) & Relay |
+| Bridge Rectifier(s) | Bridgeless Design - 1x US30K80R & 8x Infineon FETs |
+| APFC MOSFETs | 8x Infineon FETs |
+| APFC Boost Diode | 4x Infineon IDH08G65C5 (650V, 8A @ 145°C) |
+| Bulk Cap(s) | 4x Nippon Chemi-Con (400 V, 2x 330 uF, 2x 470 uF, 1600 uF combined, 105°C, KMW) |
+| Main Switchers | 4x Infineon IPB60R099C6 (650V, 24A @ 100°C, Rds(on): 0.099Ohm) |
+| APFC Controller | SF29603 |
+| Resonant Controller | S9602 |
+| Topology | Primary side: Bridgeless PFC & Full-Bridge LLC & Resonant Converter Secondary side: Synchronous Rectification & DC-DC converters |
+| Secondary Side | |
+| +12V MOSFETs | 8x Infineon BSC027N04LSG (40V, 88A @ 100°C, Rds(on): 2.7mOhm) |
+| 5V & 3.3V | DC-DC Converters: 8x Infineon BSC0906NS (30V, 40A @ 100°C, Rds(on): 4.5mOhm) PWM Controllers: 2x |
+| Filtering Capacitors | Electrolytic: 10x Nippon Chemi-Con (105°C, W), 5x Nippon Chemi-Con (4-10,000 @ 105°C, KY), 20x Rubycon (3-5,000 @ 105°C, ML), 11x Rubycon (6-10000 @ 105°C, ZLH) Polymer: 12x Chemi-Con |
+| Supervisor IC | JTC113 & LM324ADG |
+| Fan Model | ZIC ZFF142512D (140mm, 12V, 0.65A, Fluid Dynamic Bearing Fan) |
+| 5VSB Circuit | |
+| Rectifier | 1x PFR20L60CT SBR (60V, 20A) |
+| Standby PWM Controller | 29604 |
+
+...
+
+### Anex Super Flower Leadex Titanium 1600W
+
+---
+
+Title: Sản Phẩm - SUPER FLOWER
+URL: https://superflower.com.vn/cua-hang/
+Published: N/A
+Author: N/A
+Highlights:
+# Sản Phẩm 
+
+ 
+
+ 
+
+## Nguồn Máy Tính 1000W Super Flower Leadex Titanium (80 Plus Titanium) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính 1600W Super Flower Leadex Titanium (80 Plus Titanium) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính 750W Super Flower Leadex III Gold ARGB White (80 Plus Gold) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex III Gold 750W ARGB Black (80 Plus Gold) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex Platinum 1200W PCIe 5.0 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex Platinum 1600W PCIe 5.0 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex Platinum 2000W PCIe 5.0 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex VI Platinum Pro 850W PCIe 5.0 (BK) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower LEADEX VII Platinum PRO 1000W ATX 3.1 Black 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower LEADEX VII Platinum PRO 1000W ATX 3.1 White 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower LEADEX VII Platinum PRO 1200W ATX 3.1 (Black) 
+
+ 
+
+ 
+
+## Nguồn Máy Tính Super Flower Leadex VII XG 1000W 80 Plus Gold ATX 3.1 Black 
+
+ 3948 Ray Court 
+
+##### San Francisco 
+
+ 933 Harry Place 
+
+##### Rome 
+
+ 614 White Oak Drive 
+
+##### Athens 
+
+ 2648 Pallet Street 
+
+##### Paris 
+
+ 676 Ottis Street 
+
+##### London 
+
+ 2132 Nuzum Court
+
+---
+
+Title: Cybenetics - Super Flower Leadex VII XG 1000W
+URL: https://gzhls.at/blob/ldb/a/3/e/6/6f2c5f1a3cffc11362ed7a5ebd337b4f68ca.pdf
+Published: N/A
+Author: N/A
+Highlights:
+### Anex Super Flower Leadex VII XG 1000W
+
+##### Lab ID#: SF10002122 Report: 23PS2122AReceipt Date: Dec 24, 2022 Test Date: Jan 26, 2023 Report Date: Jan 30, 2023
+
+| DUT INFORMATION | |
+| --- | --- |
+| Brand | Super Flower |
+| Manufacturer (OEM) | Super Flower |
+| Series | |
+| Model Number | SF-1000F14XG |
+| Serial Number | S2212199002 |
+| DUT Notes | |
+
+| DUT SPECIFICATIONS | |
+| --- | --- |
+| Rated Voltage (Vrms) | 100-240 |
+| Rated Current (Arms) | 15 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1000 |
+| Type | ATX12V |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZIC ZFF142512D) |
+| Semi-Passive Operation | ✓ (selectable) |
+| Cable Design | Fully Modular |
+
+...
+
+### Anex Super Flower Leadex VII XG 1000W
+
+| RESULTS | |
+| --- | --- |
+| Temperature Range (°C /°F) | 30-32 / 86-89.6 |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+| ATX v3.0 PSU Power Excursion | ✓ |
+
+| 230V | |
+| --- | --- |
+| Average Efficiency | 92.225% |
+| Average Efficiency 5VSB | 79.027% |
+| Standby Power Consumption (W) | 0.1194000 |
+| Average PF | 0.953 |
+| Avg Noise Output | 29.34 dB(A) |
+| Efficiency Rating (ETA) | PLATINUM |
+| Noise Rating (LAMBDA) | A |
+
+| 115V | |
+| --- | --- |
+| Average Efficiency | 90.133% |
+| Efficiency With 10W (≤500W) or 2% (>500W) | 71.355 |
+| Average Efficiency 5VSB | 79.817% |
+| Standby Power Consumption (W) | 0.0691000 |
+| Average PF | 0.989 |
+| Avg Noise Output | 30.31 dB(A) |
+| Efficiency Rating (ETA) | PLATINUM |
+| Noise Rating (LAMBDA) | Standard++ |
+
+| POWER SPECIFICATIONS | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| Max. Power | Amps | 20 | 20 | 83.3 | 3 | 0.5 |
+| | Watts | 100 | | 999.6 | 15 | 6 |
+| Total Max. Power (W) | | 1000 | | | | |
+
+...
+
+### Anex Super Flower Leadex VII XG 1000W
+
+| General Data | - |
+| --- | --- |
+| Manufacturer (OEM) | Super Flower |
+| PCB Type | Double Sided |
+| Primary Side | - |
+| Transient Filter | 4x Y caps, 3x X caps, 2x CM chokes, 1x MOV |
+| Inrush Protection | NTC Thermistor SCK-0512 (5 Ohm) & Relay |
+| Bridge Rectifier(s) | 2x Shindengen U30K80R (800V, 30A @ 97°C) |
+
+...
+
+| Supervisor IC | JTC113 |
+| Fan Model | ZIC ZFF142512D (140mm, 12V, 0.65A, Fluid Dynamic Bearing Fan) |
+
+---
+
+Title: Cybenetics Test - Super Flower Leadex III 850W rev.1
+URL: https://www.cybenetics.com/evaluations/psus/298/
+Published: N/A
+Author: N/A
+Highlights:
+Super Flower Leadex III 850W rev.1
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus
+
+Super Flower Leadex III 850W rev.1
+
+Serial Number Lab ID 298 Certification ID 25298
+
+- Test Result Report ID: 
+- Certificate Issue Date: Feb 26, 2018
+
+| | 115V | 230V |
+| --- | --- | --- |
+| Scheme: ETA-EMI PSU | | |
+
+| 115V | 230V | |
+| --- | --- | --- |
+| | | Scheme: LAMBDA PSU |
+
+Aristeidis Bitziopoulos, Certification Body General Manager
+
+...
+
+### DUT Information(Non-accredited measurements)
+
+| Product Identification Details | |
+| --- | --- |
+| Brand | Super Flower |
+| Model | Leadex III 850W rev.1 |
+| OEM/ODM | Super Flower |
+| Serial Number | |
+| Product Specifications | |
+| Manufacturer-Provided Information | |
+| Rated Voltage (Vrms) | 100-240 |
+| Rated Current (Arms) | 10 |
+| Rated Frequency (Hz) | 50-60 |
+| Rated Power (W) | 850 |
+| Operating Temperature (Continuous Full Load) (°C) | |
+| Type | ATX12V |
+| Cable Design | Fully Modular |
+| Warranty | - |
+| Cybenetics Measurements | |
+| Dimensions (W x H x D) | |
+| Weight | |
+| Cooling | 130mm Fluid Dynamic Bearing Fan (S1282412L) |
+| Semi-Passive Operation | ✓ (selectable) |
+| Cybenetics Testing Information | |
+| Lab ID | 298 |
+| Date of receipt | Feb 12, 2018 |
+| Testing Date | Feb 23, 2018 |
+| Report Issued Date | Feb 26, 2018 |
+| Engineer Name | - |
+| Authorized By the Laboratory Technical Manager | Aristeidis Bitziopoulos |
+| Signature | |
+
+...
+
+### Power Specifications
+
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max. Power | Amps | 20 | 20 | 70.8 | 3 | 0.5 |
+| | Watts | 100 | | 849.6 | 15 | 6 |
+| Total Max. Power (W) | | 850 | | | | |
+
+...
+
+### Temperature & Compliance Info
+
+| Temperature Range (°C /°F) | 28-32 / 82.4-89.6 |
+| --- | --- |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+
+---
+
+Title: Cybenetics - Super Flower Leadex VII XP 1000W
+URL: https://gzhls.at/blob/ldb/0/8/0/6/b9fae586ae76070afd0c60c24c1509039b30.pdf
+Published: N/A
+Author: N/A
+Highlights:
+### Anex Super Flower Leadex VII XP 1000W
+
+##### Lab ID#: SF10002194 Report: 23PS2194AReceipt Date: Jun 9, 2023 Test Date: Jun 14, 2023 Report Date: Jun 15, 2023
+
+| DUT INFORMATION | |
+| --- | --- |
+| Brand | Super Flower |
+| Manufacturer (OEM) | Super Flower |
+| Series | Leadex VII |
+| Model Number | SF-1000F14XP |
+| Serial Number | |
+| DUT Notes | |
+
+| DUT SPECIFICATIONS | |
+| --- | --- |
+| Rated Voltage (Vrms) | 100-240 |
+| Rated Current (Arms) | 15 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1000 |
+| Type | ATX12V |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZFF142512D) |
+| Semi-Passive Operation | ✓ (selectable) |
+| Cable Design | Fully Modular |
+
+...
+
+### Anex Super Flower Leadex VII XP 1000W
+
+| RESULTS | |
+| --- | --- |
+| Temperature Range (°C /°F) | 30-32 / 86-89.6 |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+| ATX v3.0 PSU Power Excursion | ✓ |
+
+| 230V | |
+| --- | --- |
+| Average Efficiency | 92.347% |
+| Average Efficiency 5VSB | 78.202% |
+| Standby Power Consumption (W) | 0.1050000 |
+| Average PF | 0.952 |
+| Avg Noise Output | 33.13 dB(A) |
+| Efficiency Rating (ETA) | PLATINUM |
+| Noise Rating (LAMBDA) | Standard++ |
+
+| 115V | |
+| --- | --- |
+| Average Efficiency | 90.573% |
+| Efficiency With 10W (≤500W) or 2% (>500W) | 71.308 |
+| Average Efficiency 5VSB | 79.355% |
+| Standby Power Consumption (W) | 0.0640000 |
+| Average PF | 0.989 |
+| Avg Noise Output | 32.37 dB(A) |
+| Efficiency Rating (ETA) | PLATINUM |
+| Noise Rating (LAMBDA) | Standard++ |
+
+| POWER SPECIFICATIONS | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| Max. Power | Amps | 20 | 20 | 83.3 | 3 | 0.5 |
+| | Watts | 100 | | 999.6 | 15 | 6 |
+| Total Max. Power (W) | | 1000 | | | | |
+
+---
+
+Title: Super Flower Leadex Silver SF-850F14MT - купить блок питания: цены, отзывы, характеристики > стоимость в магазинах Казахстана: Алмата, Нур-Султан (Астана), Шымкент
+URL: https://e-katalog.kz/SUPER-FLOWER-SF-850F14MT.htm
+Published: N/A
+Author: Valerii Lenko
+Highlights:
+Super Flower Leadex Silver SF-850F14MT - купить блок питания: цены, отзывы, характеристики > стоимость в магазинах Казахстана: Алмата, Нур-Султан (Астана), Шымкент
+
+# Блок питания Super Flower Leadex Silver SF-850F14MT
+
+| Фото 6 | Товар устарел 104 659 тг. Мощность: 850; Система охлаждения: активная; Питание MB/CPU: 24+8+8(4+4); в списокмои списки добавить в сравнение |
+| --- | --- |
+
+| |
+| --- |
+
+Super Flower Leadex Silver SF-850F14MT
+
+104 659 тг.
+
+Super Flower Leadex Silver SF-850F14MT
+
+80+ Silver
+
+650 Вт
+
+750 Вт
+
+850 Вт
+
+| Основное | |
+| --- | --- |
+| Мощность | 850 Вт |
+| Форм-фактор | ATX |
+| | |
+| | |
+| Характеристики | |
+| Тип PFC | активная |
+| КПД | 90 % |
+| Система охлаждения | активная |
+| Диаметр вентилятора | 140 мм |
+| Сертификат | 80+ Silver |
+| Стандарт ATX 12В v. | 2.2 |
+| Стандарт EPS 12В v. | 2.92 |
+| | |
+| | |
+| Коннекторы питания | |
+| Питание MB/CPU | 24+8+8(4+4) pin |
+| SATA | 12 шт |
+| MOLEX | 4 шт |
+| PCIe 6pin | 2 шт |
+| PCIe 8pin (6+2) | 4 шт |
+| Floppy | |
+| Система кабелей | модульная |
+
+| Общее | |
+| --- | --- |
+| Защита от перенапряжения (OVP) | |
+| Защита от избыточного тока (OPP) | |
+| Защита от короткого замыкания (SCP) | |
+| Габариты (ВхШхГ) | 86x150x165 мм |
+| Официальный сайт | super-flower.com.tw |
+| Дата добавления на E-Katalog | февраль 2021 |
+
+Информация в описании модели носит справочный характер. Всегда перед покупкой уточняйте у менеджера интернет-магазина характеристики и комплектацию товара Каталог Super Flower 2026 - новинки, хиты продаж и самые актуальные модели Super Flower.
+
+---
+
+Title: Super Flower Leadex Titanium 1600W 80+ Titanium, 10 Years Warranty,  ECO Fanless & Silent Mode, Full Modular Power Supply, Dual Ball Bearing Fan, SF-1600F14HT - Newegg.com
+URL: https://www.newegg.com/super-flower-leadex-titanium-atx12v-eps12v-1600w-80-plus-titanium-certified-power-supplies-black/p/1HU-024C-00014
+Published: 2021-06-04T03:39:24.000Z
+Author: N/A
+Highlights:
+Super Flower Leadex Titanium 1600W 80+ Titanium, 10 Years Warranty, ECO Fanless & Silent Mode, Full Modular Power Supply, Dual Ball Bearing Fan, SF-1600F14HT - Newegg.com
+
+888-482-6678 (+18884826678) sales@neweggbusiness.com
+
+Out of stock 
+
+This item is currently out of stock and it may or may not be restocked.
+
+Out of Stock 
+
+ Sold by Newegg
+
+Shipped by Newegg
+
+# Super Flower Leadex Titanium 1600W 80+ Titanium, 10 Years Warranty, ECO Fanless & Silent Mode, Full Modular Power Supply, Dual Ball Bearing Fan, SF-1600F14HT
+
+(13)(3) Write a Review
+
+- Full Modular 
+- +3.3V@24A, +5V@24A, [email protected], [email protected], +5Vsb@3A
+- 10 Years Warranty
+- This item requires a specially designated medical grade power cord, therefore, please refer to the following term : 
+- 1. Please purchase the PSU from Super Flower official seller store (Medical grade power cord included). 
+- 2. Do not use this item purchased from other countries.
+
+🔥Don't forget your OS, we have Windows 11 OEM, Download and USB versions available
+
+Any questions? Ask Celeste SM will help you find out quickly.
+
+ 
+
+Features Leadex Titanium series PSU are 80+ Titanium certified with 100% fully modular cable design, our R&D team's latest innovation, a brilliant idea to maximize PSU cables & connectors management to have the best cable routing solution, also increase case chassis air flow to have the best cooling for your system. Leadex series PSU provides high efficiency & stable power output and comes with a 14cm two-way thermal control intelligent cooling fan to ensure your professional PC system will work under heavy load, also capable of powering your PC system equipped with NVIDIA® SLI or ATI CrossFireX setup. -100% Full Modular Cabling Design For Easy Cable Management -80 PLUS ® Titanium Certified, 90% 92% 94% 90% Efficiency At 10% 20% 50% 100% Rated Load -Full Range Auto Voltage Detection Design 100V~240V (Active PFC) -Comply With ATX 12V v 2.2, EPS 12V v 2.91 & SSI EPS 12V v 2.92 Specification -Comply With Energy Star Standard & EuP (Energy Using Products) Regulation -Over Voltage Protection / Over Current Protection / Over Power Protection / Short Circuit Protection/Under Voltage Protection / Over Temperature Protection/Low Voltage Protection -Support All Intel/AMD Multi-Core CPU & ATX/BTX Compatible Motherboards -Support NVIDIA® SLI & ATI CrossFireX High-Performance Graphic Card -More than 2, 000 times On/Off test -Unleaded Green Materials with RoHS/WEEE Compliance -Perfect For Professional & High-Performance Gaming System -Exclusive Patents (Taiwan & China Patents Approved, USA, Germany & Japan Patents Pending) 1. ECO Intelligent Thermal Control System 2. Multi Patent Pending Extreme High-Efficiency Main Transformer
+
+## Learn more about the Detailed Specifications
+
+General
+
+| Brand | Super Flower |
+| --- | --- |
+| Series | Leadex Titanium |
+
+Model
+
+| Part Number | SF-1600F14HT |
+| --- | --- |
+
+Details
+
+| Color | Black |
+| --- | --- |
+| Type | ATX12V / EPS12V |
+| Maximum Power | 1600w |
+| Fans | 1 |
+| PFC | Active |
+| Max PSU Length | 220 mm |
+| Modular | Full Modular |
+| Energy-Efficient | 80 PLUS TITANIUM Certified |
+
+Additional Information
+
+| First Listed on Newegg | February 06, 2020 |
+| --- | --- |
+
+...
+
+#### Manufacturer Contact Info
+
+- Manufacturer Product Page
+- Manufacturer Website
+- Support Phone: 88629085366 ext 103
+- Support Email: info@super-flower.com.tw
+- View other products from Super Flower
+
+---
+
+Title: Cybenetics Test - Super Flower Leadex III Gold 750W rev.1
+URL: https://www.cybenetics.com/evaluations/psus/636/cert/en/
+Published: N/A
+Author: N/A
+Highlights:
+Super Flower Leadex III Gold 750W rev.1
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus
+
+Super Flower Leadex III Gold 750W rev.1
+
+Serial Number S1901188886 Lab ID 636 Certification ID 25636
+
+- Test Result Report ID: 
+- Certificate Issue Date: Feb 21, 2019
+
+| | 115V | 230V |
+| --- | --- | --- |
+| Scheme: ETA-EMI PSU | | |
+
+| 115V | 230V | |
+| --- | --- | --- |
+| | | Scheme: LAMBDA PSU |
+
+Aristeidis Bitziopoulos, Certification Body General Manager
+
+...
+
+### DUT Information(Non-accredited measurements)
+
+| Product Identification Details | |
+| --- | --- |
+| Brand | Super Flower |
+| Model | Leadex III Gold 750W rev.1 |
+| OEM/ODM | Super Flower |
+| Serial Number | S1901188886 |
+| Product Specifications | |
+| Manufacturer-Provided Information | |
+| Rated Voltage (Vrms) | 100-240 |
+| Rated Current (Arms) | 10 |
+| Rated Frequency (Hz) | 50-60 |
+| Rated Power (W) | 750 |
+| Operating Temperature (Continuous Full Load) (°C) | |
+| Type | ATX12V |
+| Cable Design | Fully Modular |
+| Warranty | - |
+| Cybenetics Measurements | |
+| Dimensions (W x H x D) | |
+| Weight | |
+| Cooling | 130mm Fluid Dynamic Bearing (S1282412L) |
+| Semi-Passive Operation | ✓ (selectable) |
+| Cybenetics Testing Information | |
+| Lab ID | 636 |
+| Date of receipt | Feb 5, 2019 |
+| Testing Date | Feb 17, 2019 |
+| Report Issued Date | Feb 21, 2019 |
+| Engineer Name | - |
+| Authorized By the Laboratory Technical Manager | Aristeidis Bitziopoulos |
+| Signature | |
+
+...
+
+### Power Specifications
+
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max. Power | Amps | 20 | 20 | 62.4 | 3 | 0.5 |
+| | Watts | 100 | | 748.8 | 15 | 6 |
+| Total Max. Power (W) | | 750 | | | | |
+
+### Temperature & Compliance Info
+
+| Temperature Range (°C /°F) | 28-32 / 82.4-89.6 |
+| --- | --- |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+
+---
+
+Title: super flower
+URL: https://linkedin.com/company/super-flower
+Published: N/A
+Author: N/A
+Highlights:
+# Super Flower
+
+Super Flower is a Computer Hardware Manufacturing company. Super Flower is a global leader in high-end power supplies and PC cases. With 30+ years of R&D excellence and numerous international patents, we deliver stable, durable, and high-efficiency power solutions. Explore our premium PSU lineup and professional OEM/ODM services. Super Flower employs 9 people (+28.6% YoY, +2 people), founded in 1991. Headquartered in Lawrence, Massachusetts, United States.
+
+## About
+
+Founded in 1991, Super Flower Computer Inc. has dedicated itself to the research, development, and manufacturing of high- performance power supply units (PSUs) and computer chassis. Headquartered in Xinzhuang, Taipei, we expanded our manufacturing capabilities in 2006 by establishing Jing Hua Electronic Co., Ltd. in Dongguan, China, to aggressively address the global high-end power supply market.
+
+...
+
+- Industry: Computer Hardware Manufacturing
+- Type: Privately held
+- Headquarters: Lawrence, United States
+- Founded Year: 1991
+- Homepage: super-flower.com.tw
+- Aliases: Super Flower Computer Inc., super flower, super flower computer inc, super flower computer, inc.
+- LinkedIn: linkedin.com/company/super-flower
+
+---
+
+Title: Super Flower 1600W Platinum and Titanium PSUs Available in Europe | TechPowerUp
+URL: https://www.techpowerup.com/209068/super-flower-1600w-platinum-and-titanium-psus-available-in-europe
+Published: 2015-01-21T05:00:41.000Z
+Author: Press Release by btarunr
+Highlights:
+Wednesday, January 21st 2015
+
+# Super Flower 1600W Platinum and Titanium PSUs Available in Europe
+
+ Press Release 
+
+ by 
+
+btarunr (btarunr@techpowerup.com)
+
+ Jan 21st, 2015 08:30 Discuss (6 Comments) 
+
+The first 1600W power supplies listed from the multi-award winning Super Flower, featuring the latest "Titanium" and "Platinum" Rated efficiency, bringing a new standard to power supplies, are now available. Super Flower, one of the worlds leading power supply manufacturers have added the Leadex 1600W to their range, offering up to 94% efficiency with class leading features, as well as offering a huge 1600W capacity, one of the highest wattage with multiple certifications in the market.. The Super Flower Leadex 1600W Power Supply features a fully modular design, 140mm silent DBB Fan, full Japanese 105°C capacitors, ECO Intelligent Thermal control system, a huge amount of connectors and single rail design. The 1600W comes in the Titanium, Platinum and Gold certification. As always with the Leadex models, the power supplies are fully modular for easy cable management, and so you don't use more cables than you need to. The connectors include the popular patented Install Crystal Clear Cube Connectors with LED.
+
+ 
+
+Super Flower power supplies are perfect for gamers and enthusiasts and now with the higher wattage seamlessly powering high performance graphics cards in SLI / CrossFire without breaking a sweat. Proven by multiple awards, Super Flower is the choice of power supply for all users. All power supplies come with a 5 Year warranty SuperFlower Leadex Titanium 1600W Fully Modular "80 Plus Titanium" Features
+
+- 100% Full Modular Cabling Design For Easy Cable Management /
+- 80 PLUS Titanium Certified, 92% 94% 90% Efficiency At 20% 50% 100% Rated Load
+- Full Range Auto Voltage Detection Design 100V~240V (Active PFC)
+- Comply With ATX 12V. V2.2, EPS 12V. V2.91 & SSI EPS 12V. V2.92 Specification
+- Comply With Energy Star Standard & EuP (Energy Using Products) Regulation
+- Over Voltage Protection / Over Current Protection / Over Power Protection / Short Circuit Protection / Under Voltage Protection
+- Support All Intel/AMD Multi-Core CPU & ATX/BTX Compatible Motherboards
+- Support NVIDIA SLI & ATI CrossFireX High Performance Graphic Card
+- Patented Easy To Use & Install Crystal Clear Cube Connectors with LED
+- More than 2,000 times On/Off test
+- Unleaded Green Materials with RoHS/WEEE Compliance
+- Perfect For Professional & High Performance Gaming System
+
+Specfications:
+
+- Dimensions: 150 x 86 x 220 mm (W x H x D)
+- Fan: 140 mm DBB(automatic control, semi-passive)
+- Colour: Black (power supply, fan)
+- Fully Modular Design
+- Efficiency: max. 94% (115V), 80 Plus Titanium certificate
+- Active PFC
+- 3.3V: 24 A
+- + 5V: 24 A
+- + 3.3V & + 5V combined: 120 W
+- + 12V: 1,599.6 W / 133.3 A
+- - 12V: 6 W / 0.5 A
+- + 5VSB: 15 W / 3.0 A
+- Safety: cTUVus/TUV/CB/CE/FCC/C-Tick/BSMI/RoHS/CCC
+
+Connectors
+
+- 1 x 20+4-Pin ATX12V/EPS12V
+- 1 x 8-Pin EPS12V
+- x 4+4-Pin ATX12V/EPS12V
+- 9 x 6+2-Pin-PCIe
+- 5 x 6-Pin-PCIe
+- 14 x SATA
+- 5 x 4-Pin-Molex
+- 2 x Floppy
+- Warranty: 5yr
+
+SuperFlower Leadex Platinum 1600W Fully Modular "80 Plus Platinum" Features
+
+- 100% Full Modular Cabling Design For Easy Cable Management /
+- 80 PLUS Platinum Certified, 90% 92% 89% Efficiency At 20% 50% 100% Rated Load
+- Full Range Auto Voltage Detection Design 100V~240V (Active PFC)
+- Comply With ATX 12V. V2.2, EPS 12V. V2.91 & SSI EPS 12V. V2.92 Specification
+- Comply With Energy Star Standard & EuP (Energy Using Products) Regulation
+- Over Voltage Protection / Over Current Protection / Over Power Protection / Short Circuit Protection / Under Voltage Protection
+- Support All Intel/AMD Multi-Core CPU & ATX/BTX Compatible Motherboards
+- Support NVIDIA SLI & ATI CrossFireX High Performance Graphic Card
+- Patented Easy To Use & Install Crystal Clear Cube Connectors with LED
+- More than 2,000 times On/Off test
+- Unleaded Green Materials with RoHS/WEEE Compliance
+- Perfect For Professional & High Performance Gaming System
+
+...
+
+- Fully Modular Design
+- Efficiency: max. 94% (115V), 80 Plus Titanium certificate
+
+...
+
+SuperFlower Leadex Gold 1600W Fully Modular "80 Plus Gold" Features
+
+- 100% Full Modular Cabling Design For Easy Cable Management /
+- 80 PLUS Gold Certified, 87% 90% 87% Efficiency At 20% 50% 100% Rated Load
+- Full Range Auto Voltage Detection Design 100V~240V (Active PFC)
+- Comply With ATX 12V. V2.2, EPS 12V. V2.91 & SSI EPS 12V. V2.92 Specification
+- Comply With Energy Star Standard & EuP (Energy Using Products) Regulation
+- Over Voltage Protection / Over Current Protection / Over Power Protection / Short Circuit Protection / Under Voltage Protection
+- Support All Intel/AMD Multi-Core CPU & ATX/BTX Compatible Motherboards
+- Support NVIDIA SLI & ATI CrossFireX High Performance Graphic Card
+- Patented Easy To Use & Install Crystal Clear Cube Connectors with LED
+- More than 2,000 times On/Off test
+- Unleaded Green Materials with RoHS/WEEE Compliance
+- Perfect For Professional & High Performance Gaming System
+
+Specfications:
+
+- Dimensions: 150 x 86 x 220 mm (W x H x D)
+- Fan: 140 mm DBB(automatic control, semi-passive)
+- Colour: Black (power supply, fan)
+- Fully Modular Design
+- Efficiency: max. 94% (115V), 80 Plus Titanium certificate
+- Active PFC
+- 3.3V: 24 A
+- + 5V: 24 A
+- + 3.3V & + 5V combined: 120 W
+- + 12V: 1,599.6 W / 133.3 A
+- - 12V: 6 W / 0.5 A
+- + 5VSB: 15 W / 3.0 A
+- Safety: cTUVus/TUV/CB/CE/FCC/C-Tick/BSMI/RoHS/CCC
+
+Connectors
+
+- 1 x 20+4-Pin ATX12V/EPS12V
+- 1 x 8-Pin EPS12V
+- x 4+4-Pin ATX12V/EPS12V
+- 9 x 6+2-Pin-PCIe
+- 5 x 6-Pin-PCIe
+- 14 x SATA
+- 5 x 4-Pin-Molex
+- 2 x Floppy
+- Warranty: 5yr
+
+---
+
+Title: Super Flower
+URL: https://device.report/super-flower
+Published: N/A
+Author: device.report
+Highlights:
+Super Flower Manuals, Certifications & Device Specifications
+
+# Super Flower
+
+## Models, manuals & certifications
+
+Browse 20 Super Flower device records, including 5 certification records, 1 manual, 14 specification listings. Find model numbers, documents, certification...
+
+## Manuals & product documents
+
+Open Super Flower product manuals, guides, and reference documents in the inline viewer.
+
+DOC
+
+Datasheet 2024-02-27
+
+### 2BE5U Remote Controller
+
+2BE5U, 2BE5U Remote Controller, Remote Controller, Controller
+
+## Models & certification records
+
+Compare model numbers and open the source record for each device.
+
+| Device Name | Model | Type | Date |
+| --- | --- | --- | --- |
+| SWITCHING POWER SUPPLY | 330-0224-000 | ERAC | 2018-07-03 |
+| ELVPSU Switching Power Supply | AT-WWWXXXX | ERAC | 0001-01-01 |
+| ELVPSU Switching Power Supply | SF-WWWXXXX SERIES | ERAC | 0001-01-01 |
+| ELVPSU Switching Power Supply | TS-WWWXXXX | ERAC | 0001-01-01 |
+| ELVPSU Switching Power Supply | TT-WWWXXXX | ERAC | 0001-01-01 |
+| Super Flower Leadex III ATX 3.1 1000W | ‎SF-1000F14GE | Specs | 0000-00-00 |
+| SUPER FLOWER Leadex Platinum Special Edition 1000W 80 Plus Plati | SF-1000F14MP | Specs | 0000-00-00 |
+| Super Flower Leadex VII XG 1000W 80+ Gold | ‎SF-1000F14XG | Specs | 0000-00-00 |
+| Super Flower Leadex VII XP PRO 1000W 80+ Platinum | SF-1000F14XP | Specs | 0000-00-00 |
+| Super Flower Leadex VII XP PRO 1200W 80+ Platinum | ‎SF-1200F14XP | Specs | 0000-00-00 |
+| Super Flower Leadex VII XP 1200W 80+ Platinum | ‎SF-1200F14XP (WH) | Specs | 0000-00-00 |
+| Super Flower Leadex III ATX 3.1 1300W | ‎SF-1300F14GE | Specs | 0000-00-00 |
+| Super Flower Leadex VII XG 1300W 80+ Gold | ‎SF-1300F14XG | Specs | 0000-00-00 |
+| Super Flower Leadex III Gold 650W 80+ Gold | SF-650F14HG | Specs | 0000-00-00 |
+| Super Flower Leadex III ATX 3.1 750W Cybenetics Gold Certified | ‎SF-750F14GE | Specs | 0000-00-00 |
+| Super Flower Leadex III ATX 3.1 850W Cybenetics Gold Certified | ‎SF-850F14GE | Specs | 0000-00-00 |
+| Super Flower Leadex III Gold 850W 80+ Gold | SF-850F14HG | Specs | 0000-00-00 |
+| Super Flower Leadex VII XG 850W 80+ Gold White | SF-850F14XG(WH) | Specs | 0000-00-00 |
+| Super Flower Leadex VII XP PRO 850W 80+ Platinum | ‎SF-850F14XP | Specs | 0000-00-00 |
+
+brands included: Super-flower, Super Flower, Super Flower Computer.
+
+ DOC 
+
+Document 1 page 128.26 KB 2015-02-02
+
+Document 1 page 192.4 KB 2013-03-07
+
+Document 1 page 120.44 KB 2014-02-13
+
+Document 1 page 117.53 KB 2013-11-14
+
+Document 1 page 124.03 KB 2015-06-12
+
+Document 1 page 128.59 KB 2015-02-02
+
+Document 1 page 121.32 KB 2013-10-08
+
+Document 1 page 130.48 KB 2015-02-02
+
+Document 1 page 122.69 KB 2015-06-12
+
+---
+
+Title: Super Flower Leadex Titanium 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply (SF-1600F14HT) - PCPartPicker
+URL: https://ie.pcpartpicker.com/product/2BcRsY/super-flower-leadex-titanium-1600-w-80-titanium-certified-fully-modular-btx-power-supply-sf-1600f14ht
+Published: N/A
+Author: Dan149
+Highlights:
+Super Flower Leadex Titanium 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply (SF-1600F14HT) - PCPartPicker
+
+# Super Flower Leadex Titanium 1600 W 80+ Titanium Certified Fully Modular ATX Power Supply
+
+ (4 Ratings, 5.0 Average) 
+
+ 
+
+###### User Ratings
+
+- (4 Ratings, 5.0 Average)
+
+| 5 Star | 100% |
+| --- | --- |
+| 4 Star | 0% |
+| 3 Star | 0% |
+| 2 Star | 0% |
+| 1 Star | 0% |
+
+## Wattage: 1600 W
+
+- 750 W
+- 850 W
+- 1000 W
+- 1600 W
+- 2800 W
+
+## PCIe 16-pin 12VHPWR/12V-2x6 Connectors: 0
+
+- 0
+- 4
+
+## PCIe 6+2-pin Connectors: 9
+
+- 0
+- 2
+- 5
+
+## SATA Connectors: 14
+
+- 10
+- 12
+- 14
+- 16
+
+## AMP/Molex 4-pin Connectors: 5
+
+- 4
+- 5
+- 6
+
+## Specifications
+
+### Manufacturer
+
+ Super Flower 
+
+### Part #
+
+ SF-1600F14HT 
+
+### Type
+
+ ATX 
+
+### Efficiency Rating
+
+ 80+ Titanium 
+
+### Wattage
+
+ 1600 W 
+
+### Length
+
+ 220 mm 
+
+### Modular
+
+ Full 
+
+### Color
+
+ Black 
+
+### Fanless
+
+### ATX 4-pin Connectors
+
+ 2 
+
+ 9 
+
+ 14
+
+---
+
+Title: Super Flower Leadex Titanium 1600W (ATX v3.1)
+URL: https://www.cybenetics.com/evaluations/psus/2220/
+Published: N/A
+Author: N/A
+Highlights:
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus
+
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+- Test Result Report ID: 23PS2220A
+- Certificate Issue Date: Aug 22, 2023
+
+| | 115V | 230V |
+| --- | --- | --- |
+| Scheme: ETA-EMI PSU | | |
+
+| 115V | 230V | |
+| --- | --- | --- |
+| | | Scheme: LAMBDA PSU |
+
+ Outside Validation Scope 
+
+Aristeidis Bitziopoulos, Certification Body General Manager
+
+## General Information
+
+### Test Equipment
+
+| Electronic Loads | Chroma 63601-5 x2 Chroma 63600-2 Chroma 63640-80-80 x10 Chroma 63610-80-20 |
+| --- | --- |
+| AC Sources | Chroma 6530, APM SP300VAC4000W-P, GW Instek ASR-3500 |
+| Power Analyzers | Rohde & Schwarz HMC8015 & NPA701 |
+| Oscilloscopes | Picoscope 4444, Siglent SDS2104X PLUS |
+| Sound Analyzer | Bruel & Kjaer 2270 G4 |
+| Microphone | Bruel & Kjaer Type 4955-A |
+| Temperature Logger | Picoscope TC-08 |
+| Tachometer | UNI-T UT372 |
+| Multimeters | Keysight 34465A |
+| EMI Analyzer | TekBox TBMR-110M-EU |
+| Isolation Transformer | 4kVA |
+| UPS | FSP Champ Tower 3kVA, CyberPower OLS3000E 3kVA |
+| Testing Methodology | Cybenetics PSU Test Protocol |
+
+### DUT Information(Non-accredited measurements)
+
+| Product Identification Details | |
+| --- | --- |
+| Brand | Super Flower |
+| Model | Leadex Titanium 1600W (ATX v3.1) |
+| OEM/ODM | Super Flower |
+| Serial Number | S2307199003 |
+| Product Specifications | |
+| Manufacturer-Provided Information | |
+| Rated Voltage (Vrms) | 115-240 |
+| Rated Current (Arms) | 17 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1600 |
+| Operating Temperature (Continuous Full Load) (°C) | |
+| Type | ATX12V |
+| Cable Design | Fully Modular |
+| Warranty | - |
+| Cybenetics Measurements | |
+| Dimensions (W x H x D) | |
+| Weight | |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZFF142512D) |
+| Semi-Passive Operation | ✓ |
+| Cybenetics Testing Information | |
+| Lab ID | SF16002220 |
+| Date of receipt | Jul 31, 2023 |
+| Testing Date | Aug 18, 2023 |
+| Report Issued Date | Aug 22, 2023 |
+| Engineer Name | - |
+| Authorized By the Laboratory Technical Manager | Aristeidis Bitziopoulos |
+| Signature | |
+
+### Cables and Connectors(Non-accredited measurements)
+
+| Modular Cables | | | | |
+| --- | --- | --- | --- | --- |
+| Description | Cable Count | Connector Count (Total) | Gauge | In Cable Capacitors |
+| ATX connector 24 pin (600mm) | 1 | 1 | 16-22AWG | Yes |
+| 4+4 pin EPS12V (750mm) | 2 | 2 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm+150mm) | 5 | 10 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm) | 4 | 4 | 16-22AWG | Yes |
+| 12+2 pin PCIe (600mm) (600W) | 1 | 1 | 16-24AWG | No |
+| SATA (550mm+100mm+100mm+100mm) | 3 | 12 | 18-20AWG | No |
+| SATA (550mm+100mm) / 4-pin Molex (+100mm+100mm) | 1 | 2 / 2 | 18AWG | No |
+| 4-pin Molex (550mm+100mm+100mm) | 1 | 3 | 18AWG | No |
+| FDD Adapter (100mm) | 2 | 2 | 20AWG | No |
+| AC Power Cord (1680mm) - C19 coupler | 1 | 1 | 16AWG | - |
+
+### Power Specifications
+
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max. Power | Amps | 24 | 24 | 133.3 | 3 | 0.5 |
+| | Watts | 120 | | 1599.6 | 15 | 6 |
+| Total Max. Power (W) | | 1600 | | | | |
+
+### Parts Description
+
+| General Data | |
+| --- | --- |
+| Manufacturer (OEM) | Super Flower |
+| PCB Type | Double-Sided |
+| Primary Side | |
+| Transient Filter | 5x Y caps, 5x X caps, 2x CM chokes, 1x MOV (TVR14511) |
+| Inrush Protection | NTC Thermistor SCK-254R7 (4.7 Ohm) & Relay |
+| Bridge Rectifier(s) | Bridgeless Design - 1x US30K80R & 8x Infineon FETs |
+| APFC MOSFETs | 8x Infineon FETs |
+| APFC Boost Diode | 4x Infineon IDH08G65C5 (650V, 8A @ 145°C) |
+| Bulk Cap(s) | 4x Nippon Chemi-Con (400 V, 2x 330 uF, 2x 470 uF, 1600 uF combined, 105°C, KMW) |
+| Main Switchers | 4x Infineon IPB60R099C6 (650V, 24A @ 100°C, Rds(on): 0.099Ohm) |
+| APFC Controller | SF29603 |
+| Resonant Controller | S9602 |
+| Topology | Primary side: Bridgeless PFC & Full-Bridge LLC & Resonant Converter Secondary side: Synchronous Rectification & DC-DC converters |
+| Secondary Side | |
+| +12V MOSFETs | 8x Infineon BSC027N04LSG (40V, 88A @ 100°C, Rds(on): 2.7mOhm) |
+| 5V & 3.3V | DC-DC Converters: 8x Infineon BSC0906NS (30V, 40A @ 100°C, Rds(on): 4.5mOhm) PWM Controllers: 2x |
+| Filtering Capacitors | Electrolytic: 10x Nippon Chemi-Con (105°C, W), 5x Nippon Chemi-Con (4-10,000 @ 105°C, KY), 20x Rubycon (3-5,000 @ 105°C, ML), 11x Rubycon (6-10000 @ 105°C, ZLH) Polymer: 12x Chemi-Con |
+| Supervisor IC | JTC113 & LM324ADG |
+| Fan Model | ZIC ZFF142512D (140mm, 12V, 0.65A, Fluid Dynamic Bearing Fan) |
+| 5VSB Circuit | |
+| Rectifier | 1x PFR20L60CT SBR (60V, 20A) |
+| Standby PWM Controller | 29604 |
+
+...
+
+| --- | --- |
+
+...
+
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+
+...
+
+### Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+Power specifications label
+
+All data and graphs included in this test report can be used by any individual on the following conditions: › It should be mentioned that the test results are provided by Cybenetics › The link to the original test results document should be provided in any case
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus www.cybenetics.com - info@cybenetics.com
+
+---
+
+Title: By Flow (itsflow_._) | [“Flow’s PSU Tier List”]
+URL: https://flowidright.github.io/psutierlist/
+Published: N/A
+Author: N/A
+Highlights:
+# Flow's PSU Tier List
+
+## A PSU Tier List made by Flow with no affiliate links for everyone to enjoy.
+
+### By Flow (itsflow_._)
+
+#### Revision 1.0
+
+This tier list does not include:
+
+• Any D/E/F tier units
+
+• Any speculative units
+
+• Any PSU that is not ATX
+
+...
+
+### • A+ Tier
+
+Adata XPG - Core Reactor (All), Cybercore (All), Fusion
+
+Asrock - Taichi
+
+Be Quiet! - Dark Power Pro (All)
+
+Chieftec - PowerPlay
+
+Cooler Master - V-Series Gold i multi/Gold V2, X Silent (all), XG (all)
+
+Corsair - AX.(Grey Label), AX-i.(Grey Label), HX (all), HX-i 2023/2022, RM-i.(all), RM-x (all)
+
+Deepcool - PXG
+
+EVGA - G6 850/1000w, G7, P6 850/1000w, T2
+
+FSP - Hydro PTM Pro ATX 3.0/3.1, PTM X Pro (all), Ti Pro
+
+Montech - Titan Gold
+
+NZXT - C Series Gold ATX 3.0/Gold ATX 3.1/Platinum
+
+Silverstone - Hela R Platinum 1200w
+
+Super Flower - Leadex Titanium, Leadex VII (all)
+
+Thermaltake - Toughpower iRGB Plus Platinum, Toughpower iRGB Plus Titanium 1600w, Toughpower GF1 (all EXCEPT GF1 2024), Toughpower GF3 Premium 750~1200w, TF1
+
+...
+
+Silverstone - Hela R Platinum 850/1300/2050w, Hela Platinum 2050w, Nightjar ATX Platinum
+
+Super Flower - Leadex Gold SE, Leadex Platinum, Leadex Platinum SE, Leadex II, Leadex III Gold UP 650~850w
+
+...
+
+Phanteks - AMP, AMP White, Revolt X
+
+Super Flower - Leadex Gold, Leadex III ARGB/HG/PRO ARGB, Leadex V (all), Leadex VI Platinum Pro
+
+...
+
+Super Flower - Combat SG, Legion GX Pro, Leadex III Super Bronze Pro
+
+...
+
+Super Flower - Platinum King
+
+...
+
+### • C Tier
+
+...
+
+SAMA - Armor, GT, XF
+
+Sharkoon - WPM Gold Zero
+
+Silverstone - Viva Bronze
+
+Super Flower - Leadex Silver
+
+---
+
+Title: Super Flower Leadex Titanium 1600W (ATX v3.1)
+URL: https://www.cybenetics.com/evaluations/psus/2220/en/
+Published: N/A
+Author: N/A
+Highlights:
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus
+
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+- Test Result Report ID: 23PS2220A
+- Certificate Issue Date: Aug 22, 2023
+
+| | 115V | 230V |
+| --- | --- | --- |
+| Scheme: ETA-EMI PSU | | |
+
+| 115V | 230V | |
+| --- | --- | --- |
+| | | Scheme: LAMBDA PSU |
+
+ Outside Validation Scope 
+
+Aristeidis Bitziopoulos, Certification Body General Manager
+
+## General Information
+
+### Test Equipment
+
+| Electronic Loads | Chroma 63601-5 x2 Chroma 63600-2 Chroma 63640-80-80 x10 Chroma 63610-80-20 |
+| --- | --- |
+| AC Sources | Chroma 6530, APM SP300VAC4000W-P, GW Instek ASR-3500 |
+| Power Analyzers | Rohde & Schwarz HMC8015 & NPA701 |
+| Oscilloscopes | Picoscope 4444, Siglent SDS2104X PLUS |
+| Sound Analyzer | Bruel & Kjaer 2270 G4 |
+| Microphone | Bruel & Kjaer Type 4955-A |
+| Temperature Logger | Picoscope TC-08 |
+| Tachometer | UNI-T UT372 |
+| Multimeters | Keysight 34465A |
+| EMI Analyzer | TekBox TBMR-110M-EU |
+| Isolation Transformer | 4kVA |
+| UPS | FSP Champ Tower 3kVA, CyberPower OLS3000E 3kVA |
+| Testing Methodology | Cybenetics PSU Test Protocol |
+
+### DUT Information(Non-accredited measurements)
+
+| Product Identification Details | |
+| --- | --- |
+| Brand | Super Flower |
+| Model | Leadex Titanium 1600W (ATX v3.1) |
+| OEM/ODM | Super Flower |
+| Serial Number | S2307199003 |
+| Product Specifications | |
+| Manufacturer-Provided Information | |
+| Rated Voltage (Vrms) | 115-240 |
+| Rated Current (Arms) | 17 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1600 |
+| Operating Temperature (Continuous Full Load) (°C) | |
+| Type | ATX12V |
+| Cable Design | Fully Modular |
+| Warranty | - |
+| Cybenetics Measurements | |
+| Dimensions (W x H x D) | |
+| Weight | |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZFF142512D) |
+| Semi-Passive Operation | ✓ |
+| Cybenetics Testing Information | |
+| Lab ID | SF16002220 |
+| Date of receipt | Jul 31, 2023 |
+| Testing Date | Aug 18, 2023 |
+| Report Issued Date | Aug 22, 2023 |
+| Engineer Name | - |
+| Authorized By the Laboratory Technical Manager | Aristeidis Bitziopoulos |
+| Signature | |
+
+### Cables and Connectors(Non-accredited measurements)
+
+| Modular Cables | | | | |
+| --- | --- | --- | --- | --- |
+| Description | Cable Count | Connector Count (Total) | Gauge | In Cable Capacitors |
+| ATX connector 24 pin (600mm) | 1 | 1 | 16-22AWG | Yes |
+| 4+4 pin EPS12V (750mm) | 2 | 2 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm+150mm) | 5 | 10 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm) | 4 | 4 | 16-22AWG | Yes |
+| 12+2 pin PCIe (600mm) (600W) | 1 | 1 | 16-24AWG | No |
+| SATA (550mm+100mm+100mm+100mm) | 3 | 12 | 18-20AWG | No |
+| SATA (550mm+100mm) / 4-pin Molex (+100mm+100mm) | 1 | 2 / 2 | 18AWG | No |
+| 4-pin Molex (550mm+100mm+100mm) | 1 | 3 | 18AWG | No |
+| FDD Adapter (100mm) | 2 | 2 | 20AWG | No |
+| AC Power Cord (1680mm) - C19 coupler | 1 | 1 | 16AWG | - |
+
+### Power Specifications
+
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max. Power | Amps | 24 | 24 | 133.3 | 3 | 0.5 |
+| | Watts | 120 | | 1599.6 | 15 | 6 |
+| Total Max. Power (W) | | 1600 | | | | |
+
+### Parts Description
+
+| General Data | |
+| --- | --- |
+| Manufacturer (OEM) | Super Flower |
+| PCB Type | Double-Sided |
+| Primary Side | |
+| Transient Filter | 5x Y caps, 5x X caps, 2x CM chokes, 1x MOV (TVR14511) |
+| Inrush Protection | NTC Thermistor SCK-254R7 (4.7 Ohm) & Relay |
+| Bridge Rectifier(s) | Bridgeless Design - 1x US30K80R & 8x Infineon FETs |
+| APFC MOSFETs | 8x Infineon FETs |
+| APFC Boost Diode | 4x Infineon IDH08G65C5 (650V, 8A @ 145°C) |
+| Bulk Cap(s) | 4x Nippon Chemi-Con (400 V, 2x 330 uF, 2x 470 uF, 1600 uF combined, 105°C, KMW) |
+| Main Switchers | 4x Infineon IPB60R099C6 (650V, 24A @ 100°C, Rds(on): 0.099Ohm) |
+| APFC Controller | SF29603 |
+| Resonant Controller | S9602 |
+| Topology | Primary side: Bridgeless PFC & Full-Bridge LLC & Resonant Converter Secondary side: Synchronous Rectification & DC-DC converters |
+| Secondary Side | |
+| +12V MOSFETs | 8x Infineon BSC027N04LSG (40V, 88A @ 100°C, Rds(on): 2.7mOhm) |
+| 5V & 3.3V | DC-DC Converters: 8x Infineon BSC0906NS (30V, 40A @ 100°C, Rds(on): 4.5mOhm) PWM Controllers: 2x |
+| Filtering Capacitors | Electrolytic: 10x Nippon Chemi-Con (105°C, W), 5x Nippon Chemi-Con (4-10,000 @ 105°C, KY), 20x Rubycon (3-5,000 @ 105°C, ML), 11x Rubycon (6-10000 @ 105°C, ZLH) Polymer: 12x Chemi-Con |
+| Supervisor IC | JTC113 & LM324ADG |
+| Fan Model | ZIC ZFF142512D (140mm, 12V, 0.65A, Fluid Dynamic Bearing Fan) |
+| 5VSB Circuit | |
+| Rectifier | 1x PFR20L60CT SBR (60V, 20A) |
+| Standby PWM Controller | 29604 |
+
+...
+
+| --- | --- |
+
+...
+
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+
+...
+
+### Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+Power specifications label
+
+All data and graphs included in this test report can be used by any individual on the following conditions: › It should be mentioned that the test results are provided by Cybenetics › The link to the original test results document should be provided in any case
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus www.cybenetics.com - info@cybenetics.com
+
+---
+
+Title: super flower computer
+URL: https://linkedin.com/company/super-flower-computer
+Published: N/A
+Author: N/A
+Highlights:
+Computer is a Retail company. Super Flower Computer employs 3 people. Headquartered in
+...
+Plesk is a hosting control panel with simple and secure web server and website management tools. It was specially designed to help it specialists manage web
+
+---
+
+Title: Super Flower Leadex Titanium 1600W (ATX v3.1)
+URL: https://www.cybenetics.com/evaluations/psus/2220/ch/
+Published: N/A
+Author: N/A
+Highlights:
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus
+
+Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+- Test Result Report ID: 23PS2220A
+- Certificate Issue Date: Aug 22, 2023
+
+| | 115V | 230V |
+| --- | --- | --- |
+| Scheme: ETA-EMI PSU | | |
+
+| 115V | 230V | |
+| --- | --- | --- |
+| | | Scheme: LAMBDA PSU |
+
+ Outside Validation Scope 
+
+Aristeidis Bitziopoulos, Certification Body General Manager
+
+## General Information
+
+### Test Equipment
+
+| Electronic Loads | Chroma 63601-5 x2 Chroma 63600-2 Chroma 63640-80-80 x10 Chroma 63610-80-20 |
+| --- | --- |
+| AC Sources | Chroma 6530, APM SP300VAC4000W-P, GW Instek ASR-3500 |
+| Power Analyzers | Rohde & Schwarz HMC8015 & NPA701 |
+| Oscilloscopes | Picoscope 4444, Siglent SDS2104X PLUS |
+| Sound Analyzer | Bruel & Kjaer 2270 G4 |
+| Microphone | Bruel & Kjaer Type 4955-A |
+| Temperature Logger | Picoscope TC-08 |
+| Tachometer | UNI-T UT372 |
+| Multimeters | Keysight 34465A |
+| EMI Analyzer | TekBox TBMR-110M-EU |
+| Isolation Transformer | 4kVA |
+| UPS | FSP Champ Tower 3kVA, CyberPower OLS3000E 3kVA |
+| Testing Methodology | Cybenetics PSU Test Protocol |
+
+### DUT Information(Non-accredited measurements)
+
+| Product Identification Details | |
+| --- | --- |
+| Brand | Super Flower |
+| Model | Leadex Titanium 1600W (ATX v3.1) |
+| OEM/ODM | Super Flower |
+| Serial Number | S2307199003 |
+| Product Specifications | |
+| Manufacturer-Provided Information | |
+| Rated Voltage (Vrms) | 115-240 |
+| Rated Current (Arms) | 17 |
+| Rated Frequency (Hz) | 60-50 |
+| Rated Power (W) | 1600 |
+| Operating Temperature (Continuous Full Load) (°C) | |
+| Type | ATX12V |
+| Cable Design | Fully Modular |
+| Warranty | - |
+| Cybenetics Measurements | |
+| Dimensions (W x H x D) | |
+| Weight | |
+| Cooling | 140mm Fluid Dynamic Bearing Fan (ZFF142512D) |
+| Semi-Passive Operation | ✓ |
+| Cybenetics Testing Information | |
+| Lab ID | SF16002220 |
+| Date of receipt | Jul 31, 2023 |
+| Testing Date | Aug 18, 2023 |
+| Report Issued Date | Aug 22, 2023 |
+| Engineer Name | - |
+| Authorized By the Laboratory Technical Manager | Aristeidis Bitziopoulos |
+| Signature | |
+
+### Cables and Connectors(Non-accredited measurements)
+
+| Modular Cables | | | | |
+| --- | --- | --- | --- | --- |
+| Description | Cable Count | Connector Count (Total) | Gauge | In Cable Capacitors |
+| ATX connector 24 pin (600mm) | 1 | 1 | 16-22AWG | Yes |
+| 4+4 pin EPS12V (750mm) | 2 | 2 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm+150mm) | 5 | 10 | 16-22AWG | Yes |
+| 6+2 pin PCIe (750mm) | 4 | 4 | 16-22AWG | Yes |
+| 12+2 pin PCIe (600mm) (600W) | 1 | 1 | 16-24AWG | No |
+| SATA (550mm+100mm+100mm+100mm) | 3 | 12 | 18-20AWG | No |
+| SATA (550mm+100mm) / 4-pin Molex (+100mm+100mm) | 1 | 2 / 2 | 18AWG | No |
+| 4-pin Molex (550mm+100mm+100mm) | 1 | 3 | 18AWG | No |
+| FDD Adapter (100mm) | 2 | 2 | 20AWG | No |
+| AC Power Cord (1680mm) - C19 coupler | 1 | 1 | 16AWG | - |
+
+### Power Specifications
+
+| Rail | | 3.3V | 5V | 12V | 5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max. Power | Amps | 24 | 24 | 133.3 | 3 | 0.5 |
+| | Watts | 120 | | 1599.6 | 15 | 6 |
+| Total Max. Power (W) | | 1600 | | | | |
+
+### Parts Description
+
+| General Data | |
+| --- | --- |
+| Manufacturer (OEM) | Super Flower |
+| PCB Type | Double-Sided |
+| Primary Side | |
+| Transient Filter | 5x Y caps, 5x X caps, 2x CM chokes, 1x MOV (TVR14511) |
+| Inrush Protection | NTC Thermistor SCK-254R7 (4.7 Ohm) & Relay |
+| Bridge Rectifier(s) | Bridgeless Design - 1x US30K80R & 8x Infineon FETs |
+| APFC MOSFETs | 8x Infineon FETs |
+| APFC Boost Diode | 4x Infineon IDH08G65C5 (650V, 8A @ 145°C) |
+| Bulk Cap(s) | 4x Nippon Chemi-Con (400 V, 2x 330 uF, 2x 470 uF, 1600 uF combined, 105°C, KMW) |
+| Main Switchers | 4x Infineon IPB60R099C6 (650V, 24A @ 100°C, Rds(on): 0.099Ohm) |
+| APFC Controller | SF29603 |
+| Resonant Controller | S9602 |
+| Topology | Primary side: Bridgeless PFC & Full-Bridge LLC & Resonant Converter Secondary side: Synchronous Rectification & DC-DC converters |
+| Secondary Side | |
+| +12V MOSFETs | 8x Infineon BSC027N04LSG (40V, 88A @ 100°C, Rds(on): 2.7mOhm) |
+| 5V & 3.3V | DC-DC Converters: 8x Infineon BSC0906NS (30V, 40A @ 100°C, Rds(on): 4.5mOhm) PWM Controllers: 2x |
+| Filtering Capacitors | Electrolytic: 10x Nippon Chemi-Con (105°C, W), 5x Nippon Chemi-Con (4-10,000 @ 105°C, KY), 20x Rubycon (3-5,000 @ 105°C, ML), 11x Rubycon (6-10000 @ 105°C, ZLH) Polymer: 12x Chemi-Con |
+| Supervisor IC | JTC113 & LM324ADG |
+| Fan Model | ZIC ZFF142512D (140mm, 12V, 0.65A, Fluid Dynamic Bearing Fan) |
+| 5VSB Circuit | |
+| Rectifier | 1x PFR20L60CT SBR (60V, 20A) |
+| Standby PWM Controller | 29604 |
+
+## Test Results
+
+### Temperature & Compliance Info
+
+| Temperature Range (°C /°F) | 28-32 / 82.4-89.6 |
+| --- | --- |
+| ErP Lot 3/6 Ready | ✓ |
+| (EU) No 617/2013 Compliance | ✓ |
+| ALPM (Alternative Low Power Mode) compatible | ✓ |
+| ATX v3.1 PSU Power Excursion | ✓ |
+
+### Performance Summary
+
+| Accredited | |
+| --- | --- |
+
+...
+
+### Super Flower Leadex Titanium 1600W (ATX v3.1)
+
+CYBENETICS LTD Syrou 6, Latsia, 2231, Nicosia Cyprus www.cybenetics.com - info@cybenetics.com
+
+---
+
+Title: shenzhen huaxia guangda electronic co.,ltd.
+URL: https://linkedin.com/company/shenzhen-huaxia-guangda-electronic-co.-ltd.
+Published: N/A
+Author: N/A
+Highlights:
+Ltd. employs 6 people (+20.0% YoY, +1 person), founded in 2008.
+...
+.Ltd.Specialize in researching,manufacturing and
+selling all kinds of DC Fan,AC Fan,DC Blower fan. We ... including
+ program, quality controlling, new products development and so on
+
+---
+
+Title: High-performance GaN Portfolio | Electronic Design
+URL: https://www.electronicdesign.com/pai-asset/6ad23e0eb65736f5c602b3e1
+Published: N/A
+Author: N/A
+Highlights:
+# High-performance GaN Portfolio
+
+%PDF-1.7 % 135 0 obj <> endobj xref 135 ... 00000 n ... 00000 n 0000074932 00000 n 0000079957 00000 n ... n 0000080354 00000 n 0000080470 00000 ... 00000 n 0000080625
+
+---
+
+Title: Solar Equipment List - CA Energy Commission
+URL: https://solarequipment.energy.ca.gov/home/inverterbatterylist?page=25&sort=NominalVoltage&sortdir=DESC
+Published: N/A
+Author: State of California
+Highlights:
+equipment lists as a condition for complying with Title 20 appliance efficiency standards or for installing equipment in California. Some utilities or local governments may use the Energy Commission’s solar equipment lists during their interconnection or
+
+---
+
+Title: Product Leaflet: LED-HL [~H7], 6.000 K, Fahrzeugscheinwerferlampe
+URL: https://www.documents.philips.com/assets/20230215/653e9519dfad437cbd92afaa0069e225.pdf
+Published: N/A
+Author: Philips CLS
+Highlights:
+### Helle, weiße LED-Scheinwerferlampen für eine High-End-Optik
+
+Die Philips X-tremeUltinon LED [~H7] bietet Premium LUXEON LEDs mit 6.500 K. Unsere patentierte SafeBeam-Technologie bringt 200 % helleres Licht genau dort, wo Sie es benötigen. Besonders
+
+---
+
+Title: Access the Official Journal - EUR-Lex - European Union
+URL: https://eur-lex.europa.eu/oj/direct-access.html
+Published: N/A
+Author: N/A
+Highlights:
+The Official Journal of the European Union is the official publication (gazette) for EU legal acts, other acts and official information from EU institutions, bodies, offices and agencies.
+...
+Official Journal in its PDF format. See more in this video with
+
+---
+
+Title: golden green odyssey
+URL: https://linkedin.com/company/golden-green-odyssey
+Published: N/A
+Author: N/A
+Highlights:
+Golden Green Odyssey is a Retail Recyclable Materials & Used Merchandise company. Golden Green is one of Australia’s largest specialist gold buyers, offering a simple and convenient service to convert unwanted gold and silver into cash either in-store or via our express mail-in service. Golden Green Odyssey employs 8 people (+60.0% YoY, +3 people).
+
+---
+
+Title: San Francisco International Airport | SFO Official Site
+URL: https://www.flysfo.com/
+Published: N/A
+Author: N/A
+Highlights:
+San Francisco International Airport | SFO Official Site
+
+Book parking early using our online booking system. Save time, pay online. Enjoy contactless entry and exit.
+...
+Dianne Feinstein International Terminal G
+
+Near Gate G7
+
+ Monday - Sunday: 8:00
+
+---
+
+Title: City of Los Angeles: Home
+URL: https://lacity.gov/
+Published: N/A
+Author: N/A
+Highlights:
+Home | City of Los Angeles
+
+# Home
+
+Request City Services
+
+Trash pickup, graffiti removal, street issues & more
+
+Meetings & Agendas
+
+City
+...
+## City of Los Angeles
+
+ 200 N Spring St. Los Angeles, CA 90012 Call 311 or 213-473-3231 TDD Service Call 7-1-1

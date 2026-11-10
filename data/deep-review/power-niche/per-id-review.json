@@ -1,0 +1,592 @@
+{
+  "total": 46,
+  "documented": 46,
+  "records": [
+    {
+      "id": "import-psu-fc8146bd490f",
+      "name": "CENTURY II · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH Century II 850W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/century-ii-850w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-88404d54d770",
+      "name": "CENTURY II · 1050 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH Century II 1050W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/century-ii-1050w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-ba5e23e89b19",
+      "name": "APX · 650 W · ATX · 80 PLUS · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH APX 650W",
+      "technicalRows": 25,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=408&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-e651ccbdc22c",
+      "name": "CENTURY II · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH Century II 1200W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/century-ii-1200w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-7d4bf7685b85",
+      "name": "APX · 750 W · ATX · 80 PLUS · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH APX 750W",
+      "technicalRows": 25,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=407&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-6efba3774134",
+      "name": "APX · 550 W · ATX · 80 PLUS · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH APX 550W",
+      "technicalRows": 25,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=409&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-19a9efbf18c7",
+      "name": "TITAN PLA · 1200 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN PLA 1200W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/titan-pla-1200w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-dddc05af20f2",
+      "name": "TITAN PLA · 850 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN PLA 850W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/titan-pla-850w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-5fc213a47378",
+      "name": "TITAN PLA · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN PLA 1000W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/titan-pla-1000w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-f5496ac5e3d6",
+      "name": "CENTURY G5 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH CENTURY G5 850W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=369&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-8ffdfcc15658",
+      "name": "TITAN PLA · 750 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Blanc",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN PLA 750W",
+      "technicalRows": 29,
+      "sourceURLs": [
+        "https://www.montechpc.com/titan-pla-750w"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-ed00624a124a",
+      "name": "TITAN GOLD 1000W · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN GOLD 1000W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=329&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-38d39f7628bc",
+      "name": "TITAN GOLD 850W · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN GOLD 850W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=327&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-15065658b41a",
+      "name": "CENTURY G5 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH CENTURY G5 750W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=370&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-f8729ebc41bf",
+      "name": "TITAN GOLD 1200W · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN GOLD 1200W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=330&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-c7e8b42fa381",
+      "name": "TITAN GOLD 750W · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH TITAN GOLD 750W",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=326&s_ok2="
+      ],
+      "notes": [
+        "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+      ]
+    },
+    {
+      "id": "import-psu-260309a2e581",
+      "name": "CENTURY · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH CENTURY 650",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=185&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-bf69b45692d0",
+      "name": "GAMMA II · 750 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH GAMMA II 750",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=47&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-32f8cfbc5a9a",
+      "name": "GAMMA II · 650 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH GAMMA II 650",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=46&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-5aaf77b4e4d7",
+      "name": "GAMMA II · 550 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH GAMMA II 550",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=45&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-94ae22c93bc3",
+      "name": "CENTURY · 550 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH CENTURY 550",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=186&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-c27212880608",
+      "name": "CENTURY · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "MONTECH CENTURY 850",
+      "technicalRows": 30,
+      "sourceURLs": [
+        "https://www.telon.com.tw/en/products_detail.php?nid=175&s_ok2="
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-12cc854046f1",
+      "name": "XPG Core Reactor II · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 650 W",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-fc4111745161",
+      "name": "XPG Core Reactor II VE · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II VE 750 W",
+      "technicalRows": 15,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf"
+      ],
+      "notes": [
+        "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+      ]
+    },
+    {
+      "id": "import-psu-6cc0843c6e75",
+      "name": "XPG Core Reactor II · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 850 W",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-debc68a80d1b",
+      "name": "XPG CYBERCORE · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir / Argent",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CYBERCORE 1000 W",
+      "technicalRows": 13,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_cybercore_qsg.pdf",
+        "https://www.xpg.com/en/news/963",
+        "https://www.xpg.com/np/xpg/pc-components-CYBERCORE?tab=faq"
+      ],
+      "notes": [
+        "L’extraction du manuel original ne restitue pas toutes ses pages mécaniques et de câbles. Ces valeurs ne sont pas copiées depuis le CYBERCORE II."
+      ]
+    },
+    {
+      "id": "import-psu-5d436e556d8b",
+      "name": "XPG PYLON · 550 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG PYLON 550 W",
+      "technicalRows": 22,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf"
+      ],
+      "notes": [
+        "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+      ]
+    },
+    {
+      "id": "import-psu-9bd991bb9a3e",
+      "name": "XPG PYLON · 650 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG PYLON 650 W",
+      "technicalRows": 22,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf"
+      ],
+      "notes": [
+        "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+      ]
+    },
+    {
+      "id": "import-psu-842467d40eb9",
+      "name": "XPG Core Reactor II VE · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II VE 650 W",
+      "technicalRows": 15,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf"
+      ],
+      "notes": [
+        "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+      ]
+    },
+    {
+      "id": "import-psu-3f25a0d3e514",
+      "name": "XPG Core Reactor II · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 750 W",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-32ab1e4438e0",
+      "name": "XPG PYLON · 750 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG PYLON 750 W",
+      "technicalRows": 22,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf"
+      ],
+      "notes": [
+        "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+      ]
+    },
+    {
+      "id": "import-psu-972048b2f907",
+      "name": "XPG Core Reactor II VE · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II VE 850 W",
+      "technicalRows": 15,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf"
+      ],
+      "notes": [
+        "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+      ]
+    },
+    {
+      "id": "import-psu-dcb8d6875c7d",
+      "name": "XPG KYBER · 750 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG KYBER 750 W",
+      "technicalRows": 19,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf"
+      ],
+      "notes": [
+        "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409."
+      ]
+    },
+    {
+      "id": "import-psu-3b151f77d8c7",
+      "name": "XPG CYBERCORE · 1300 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir / Argent",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CYBERCORE 1300 W",
+      "technicalRows": 18,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_cybercore_qsg.pdf",
+        "https://www.xpg.com/en/news/963",
+        "https://www.xpg.com/np/xpg/pc-components-CYBERCORE?tab=faq"
+      ],
+      "notes": [
+        "L’extraction du manuel original ne restitue pas toutes ses pages mécaniques et de câbles. Ces valeurs ne sont pas copiées depuis le CYBERCORE II."
+      ]
+    },
+    {
+      "id": "import-psu-caadcf139c4a",
+      "name": "XPG KYBER · 850 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG KYBER 850 W",
+      "technicalRows": 19,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf"
+      ],
+      "notes": [
+        "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409."
+      ]
+    },
+    {
+      "id": "import-psu-4888c400d1a3",
+      "name": "XPG Core Reactor II · 1000 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 1000 W",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-aa1e050cce37",
+      "name": "XPG Core Reactor II · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Blanc",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 850 W White",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-56712dd4a3f7",
+      "name": "XPG CORE Reactor 850 · 850 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CORE Reactor 850",
+      "technicalRows": 20,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf"
+      ],
+      "notes": [
+        "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+      ]
+    },
+    {
+      "id": "import-psu-71d3431ea6f9",
+      "name": "XPG CORE Reactor 750 · 750 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CORE Reactor 750",
+      "technicalRows": 20,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf"
+      ],
+      "notes": [
+        "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+      ]
+    },
+    {
+      "id": "import-psu-64fa3faf0589",
+      "name": "XPG Core Reactor II · 1200 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG Core Reactor II 1200 W",
+      "technicalRows": 16,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf"
+      ],
+      "notes": [
+        "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+      ]
+    },
+    {
+      "id": "import-psu-4f5f1fce3a8d",
+      "name": "XPG CORE Reactor 650 · 650 W · ATX · 80 PLUS Gold · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CORE Reactor 650",
+      "technicalRows": 20,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf"
+      ],
+      "notes": [
+        "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+      ]
+    },
+    {
+      "id": "import-psu-5c67c792f337",
+      "name": "XPG CYBERCORE II · 1000 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CYBERCORE II 1000 W",
+      "technicalRows": 20,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/cybercore_ii_datasheet.pdf"
+      ],
+      "notes": [
+        "Les cellules du tableau PCIe/SATA/Molex du PDF extrait sont incohérentes (quantités câbles/prises). Leurs totaux ne sont pas validés."
+      ]
+    },
+    {
+      "id": "import-psu-6b9e65fb17b3",
+      "name": "XPG KYBER · 650 W · ATX · 80 PLUS Gold · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG KYBER 650 W",
+      "technicalRows": 21,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-psu-b1bc25a94ae8",
+      "name": "XPG CYBERCORE II · 1300 W · ATX · 80 PLUS Platinum · Entièrement modulaire · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG CYBERCORE II 1300 W",
+      "technicalRows": 20,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/cybercore_ii_datasheet.pdf"
+      ],
+      "notes": [
+        "Les cellules du tableau PCIe/SATA/Molex du PDF extrait sont incohérentes (quantités câbles/prises). Leurs totaux ne sont pas validés."
+      ]
+    },
+    {
+      "id": "import-psu-7270869091dc",
+      "name": "XPG FUSION 1600 · 1600 W · ATX · 80 PLUS Titanium · Entièrement modulaire · Noir / Argent",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG FUSION 1600",
+      "technicalRows": 19,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/xpg_fusion_1600_titanium_psu_datasheet_202509.pdf"
+      ],
+      "notes": [
+        "La référence d’archive ne précise pas la révision. Le document 202509 décrit ATX 3.1 et 12V-2x6 ; ces détails ne sont pas appliqués à un ancien exemplaire non identifié."
+      ]
+    },
+    {
+      "id": "import-psu-2208e5c6b41c",
+      "name": "XPG PYLON · 450 W · ATX · 80 PLUS Bronze · Câbles fixes · Noir",
+      "state": "manufacturer_model_documented",
+      "manufacturerModel": "XPG PYLON 450 W",
+      "technicalRows": 22,
+      "sourceURLs": [
+        "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf"
+      ],
+      "notes": [
+        "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+      ]
+    }
+  ]
+}

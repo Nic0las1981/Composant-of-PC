@@ -1,0 +1,36 @@
+{
+  "id": "import-ssd-f37e0ff096d2",
+  "brand": "MSI",
+  "name": "SPATIUM M482 Eco-Pack 2 To · PCIe 4.0 ×4",
+  "state": "primary_unconfirmed",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M482-PCIe-4.0-NVMe-M.2/Specification",
+        "checkedAt": "2026-11-10T14:36:11+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M482-PCIe-4.0-NVMe-M.2/Specification",
+        "sha256": "a758785274b1006fa5d55cc3fee5508b08c1f8abbc60e0145d8e6c5328046069",
+        "bytes": 60982,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M482 PCIe 4.0 NVMe M.2",
+      "state": "model_variant_mismatch"
+    },
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M482-PCIe-4.0-NVMe-M.2/Overview/Specification",
+        "checkedAt": "2026-11-10T14:36:15+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "title": ""
+    }
+  ],
+  "blocker": "La référence Eco-Pack/Bulk est retrouvée dans PCPartPicker. Son ancienne page MSI Store renvoie 404 et la page actuelle ne prouve pas ce conditionnement ; aucune assimilation automatique au produit boîte.",
+  "followupEvidenceFiles": [
+    "variant-searches/ecobulk-followup.json",
+    "variant-pages/msi-ecopack.json",
+    "variant-pages/m482store.json"
+  ]
+}

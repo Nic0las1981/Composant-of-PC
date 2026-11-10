@@ -10,3 +10,10 @@ data/full-review/reviews.jsonl
 data/full-review/*probe*.jsonl
 data/full-review/reviews-before-reparse-*.jsonl
 __pycache__/
+# Raw HTTP/PDF cache bodies remain in the workspace. Compact provenance,
+# extracted specifications and SHA-256 metadata are versioned alongside scripts.
+data/deep-review/**/*.html.gz
+data/deep-review/**/*.pdf
+data/deep-review/storage-other/proofs/image-tables/*.jpg
+data/deep-review/prices/input.json
+data/deep-review/prices/incomplete-response-attempts.jsonl

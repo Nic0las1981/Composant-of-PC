@@ -1,0 +1,227 @@
+{
+  "review": {
+    "id": "import-mb-bb5c7e666c41",
+    "name": "B760M PG Riptide",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+          "checkedAt": "2026-11-10T13:59:08+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+          "httpStatus": 200,
+          "sha256": "c17a7ce4a240dd01b5ea2e60663ab93ffcd93f3bbb1ebea1c6e0898fbd76bb66",
+          "bytes": 3081752,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock B760M PG Riptide motherboard",
+        "modelNames": [
+          "B760M PG Riptide"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+      "checkedAt": "2026-11-10T13:59:08+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+      "httpStatus": 200,
+      "sha256": "c17a7ce4a240dd01b5ea2e60663ab93ffcd93f3bbb1ebea1c6e0898fbd76bb66"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock B760M PG Riptide motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • Micro ATX Form Factor\n\n\n                                           th    th   th                TM\n                CPU           • Supports 14 , 13 & 12 Gen Intel® Core Processors\n                                (LGA1700)\n                              • Supports Intel® Hybrid Technology\n                              • Supports Intel® Turbo Boost Max 3.0 Technology\n                              • Supports Intel® Thermal Velocity Boost (TVB)\n                              • Supports Intel® Adaptive Boost Technology (ABT)\n                              • Supports ASRock Hyper BCLK Engine\n\n\n                Chipset       • Intel® B760\n\n\n                Memory        • Dual Channel DDR5 Memory Technology\n                              • 4 x DDR5 DIMM Slots\n                              • Supports DDR5 non-ECC, un-buffered memory up to\n                                 7200+(OC)*\n                              • Max. capacity of system memory: 128GB\n                              • Supports Intel® Extreme Memory Profile (XMP) 3.0\n                             * Please refer to Memory Support List on ASRock's website for\n                             more information. (http://www.asrock.com/)\n\n\n                Expansion     CPU:\n                Slot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\n                              Chipset:\n                              • 1 x PCIe 4.0 x1 Slot (PCIE2)*\n                              • 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\n                                WiFi module and Intel® CNVio/CNVio2 (Integrated WiFi/\n                                BT)\n\n\n                             * Supports NVMe SSD as boot disks\n\n\n                Graphics      • Intel® UHD Graphics Built-in Visuals and the VGA outputs\n                                can be supported only with processors which are GPU\nEnglish\n\n\n\n\n                                integrated.\n                                        e\n                              • Intel® X Graphics Architecture (Gen 12)\n                              • 1 x HDMI 2.1 TMDS Compatible, supports HDCP 2.3 and\n                                max. resolution up to 4K 60Hz\n\n\n          2\n\f                                                                      B760M PG Riptide\n\n\n\n\n             • 1 x DisplayPort 1.4 with DSC (compressed), supports HDCP\n               2.3 and max. resolution up to 8K 60Hz / 5K 120Hz\n\n\nAudio        • 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n             • Nahimic Audio\n\n\nLAN          • 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n             • Dragon RTL8125BG\n             • Supports Phantom Gaming LAN Software\n               - Smart Auto Adjust Bandwidth Control\n               - Visual User Friendly UI\n               - Visual Network Usage Statistics\n               - Optimized Default Setting for Game, Browser, and\n                 Streaming Modes\n               - User Customized Priority Control\n\n\nUSB           • 2 x USB 3.2 Gen1 Type-C (1 Rear, 1 Front)\n              • 5 x USB 3.2 Gen1 Type-A (3 Rear, 2 Front)\n              • 6 x USB 2.0 (4 Rear, 2 Front)\n             * All USB ports support ESD Protection\n\n\nRear Panel   • 2 x Antenna Mounting Points\nI/O          • 1 x PS/2 Mouse/Keyboard Port\n             • 1 x HDMI Port\n             • 1 x DisplayPort 1.4\n             • 1 x USB 3.2 Gen1 Type-C Port\n             • 3 x USB 3.2 Gen1 Type-A Ports\n             • 4 x USB 2.0 Ports\n             • 1 x RJ-45 LAN Port\n             • HD Audio Jacks: Line in / Front Speaker / Microphone\n\n\nStorage      CPU:\n             • 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\n               PCIe Gen4x4 (64 Gb/s) mode*\n             Chipset:\n                                                                                     English\n\n\n\n\n             • 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280\n               PCIe Gen4x4 (64 Gb/s) mode*\n             • 4 x SATA3 6.0 Gb/s Connectors\n\n\n\n                                                                                 3\n\f                           * Supports Intel® Volume Management Device (VMD)\n                           * Supports NVMe SSD as boot disks\n\n\n              RAID         • Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA\n                             storage devices\n\n\n              Connector    •   1 x SPI TPM Header\n                           •   1 x Chassis Intrusion and Speaker Header\n                           •   1 x RGB LED Header*\n                           •   3 x Addressable LED Headers**\n                           •   1 x CPU Fan Connector (4-pin)***\n                           •   1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\n                               Speed Control)****\n                            • 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\n                               Speed Control)*****\n                            • 1 x 24 pin ATX Power Connector\n                            • 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\n                               tor)\n                            • 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\n                               tor)\n                            • 1 x Front Panel Audio Connector\n                            • 1 x USB 2.0 Header (Supports 2 USB 2.0 ports)\n                            • 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n                            • 1 x Front Panel Type C USB 3.2 Gen1 Header\n                           * Supports in total up to 12V/3A, 36W LED Strip\n                           ** Support in total up to 5V/3A, 15W LED Strip\n                           *** CPU_FAN1 supports the fan power up to 1A (12W).\n                           **** CPU_FAN2/WP supports the fan power up to 2A (24W).\n                           ***** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n                           ***** CPU_FAN2/WP and CHA_FAN1~3/WP can auto detect\n                           if 3-pin or 4-pin fan is in use.\n\n\n              BIOS         • AMI UEFI Legal BIOS with GUI support\n              Feature\nEnglish\n\n\n\n\n              OS           • Microsoft® Windows® 10 64-bit / 11 64-bit\n\n\n              Certifica-   • FCC, CE\n              tions        • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n          4\n\f                                                                                                      B760M PG Riptide\n\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n               Please realize that there is a certain risk involved with overclocking, including\n               adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n               third-party overclocking tools. Overclocking may affect your system’s stability, or\n               even cause damage to the components and devices of your system. It should be done\n               at your own risk and expense. We are not responsible for possible damage caused by\n               overclocking.\n\n\n\n\n                                                                                                                     English\n\n\n\n\n                                                                                                                 5\n\f              ",
+      "modelNames": [
+        "B760M PG Riptide"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "B760M PG Riptide",
+    "identityNote": "Modèle ASRock B760M PG Riptide confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "B760M PG Riptide",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• Micro ATX Form Factor\nth    th   th                TM"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports 14 , 13 & 12 Gen Intel® Core Processors\n(LGA1700)\n• Supports Intel® Hybrid Technology\n• Supports Intel® Turbo Boost Max 3.0 Technology\n• Supports Intel® Thermal Velocity Boost (TVB)\n• Supports Intel® Adaptive Boost Technology (ABT)\n• Supports ASRock Hyper BCLK Engine"
+          },
+          {
+            "label": "Chipset",
+            "value": "• Intel® B760"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR5 Memory Technology\n• 4 x DDR5 DIMM Slots\n• Supports DDR5 non-ECC, un-buffered memory up to\n7200+(OC)*\n• Max. capacity of system memory: 128GB\n• Supports Intel® Extreme Memory Profile (XMP) 3.0\n* Please refer to Memory Support List on ASRock's website for\nmore information. (http://www.asrock.com/)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n• 1 x PCIe 4.0 x1 Slot (PCIE2)*\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module and Intel® CNVio/CNVio2 (Integrated WiFi/\nBT)\n* Supports NVMe SSD as boot disks"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Intel® UHD Graphics Built-in Visuals and the VGA outputs\ncan be supported only with processors which are GPU\nintegrated.\ne\n• Intel® X Graphics Architecture (Gen 12)\n• 1 x HDMI 2.1 TMDS Compatible, supports HDCP 2.3 and\nmax. resolution up to 4K 60Hz\n• 1 x DisplayPort 1.4 with DSC (compressed), supports HDCP\n2.3 and max. resolution up to 8K 60Hz / 5K 120Hz"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n• Nahimic Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Dragon RTL8125BG\n• Supports Phantom Gaming LAN Software\n- Smart Auto Adjust Bandwidth Control\n- Visual User Friendly UI\n- Visual Network Usage Statistics\n- Optimized Default Setting for Game, Browser, and\nStreaming Modes\n- User Customized Priority Control"
+          },
+          {
+            "label": "USB",
+            "value": "• 2 x USB 3.2 Gen1 Type-C (1 Rear, 1 Front)\n• 5 x USB 3.2 Gen1 Type-A (3 Rear, 2 Front)\n• 6 x USB 2.0 (4 Rear, 2 Front)\n* All USB ports support ESD Protection"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 2 x Antenna Mounting Points\nI/O          • 1 x PS/2 Mouse/Keyboard Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4\n• 1 x USB 3.2 Gen1 Type-C Port\n• 3 x USB 3.2 Gen1 Type-A Ports\n• 4 x USB 2.0 Ports\n• 1 x RJ-45 LAN Port\n• HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports Intel® Volume Management Device (VMD)\n* Supports NVMe SSD as boot disks"
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA\nstorage devices"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "•   1 x SPI TPM Header\n•   1 x Chassis Intrusion and Speaker Header\n•   1 x RGB LED Header*\n•   3 x Addressable LED Headers**\n•   1 x CPU Fan Connector (4-pin)***\n•   1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)****\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)*****\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen1 Header\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n**** CPU_FAN2/WP supports the fan power up to 2A (24W).\n***** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n***** CPU_FAN2/WP and CHA_FAN1~3/WP can auto detect\nif 3-pin or 4-pin fan is in use."
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with GUI support\nFeature"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit / 11 64-bit\nCertifica-   • FCC, CE\ntions        • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may affect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "formFactor": {
+        "value": "• Micro ATX Form Factor\nth    th   th                TM",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "chipset": {
+        "value": "• Intel® B760",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "storagePorts": {
+        "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports Intel® Volume Management Device (VMD)\n* Supports NVMe SSD as boot disks",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "pcie": {
+        "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n• 1 x PCIe 4.0 x1 Slot (PCIE2)*\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module and Intel® CNVio/CNVio2 (Integrated WiFi/\nBT)\n* Supports NVMe SSD as boot disks",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "rearIO": {
+        "value": "• 2 x Antenna Mounting Points\nI/O          • 1 x PS/2 Mouse/Keyboard Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4\n• 1 x USB 3.2 Gen1 Type-C Port\n• 3 x USB 3.2 Gen1 Type-A Ports\n• 4 x USB 2.0 Ports\n• 1 x RJ-45 LAN Port\n• HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "internalIO": {
+        "value": "•   1 x SPI TPM Header\n•   1 x Chassis Intrusion and Speaker Header\n•   1 x RGB LED Header*\n•   3 x Addressable LED Headers**\n•   1 x CPU Fan Connector (4-pin)***\n•   1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)****\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)*****\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen1 Header\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n**** CPU_FAN2/WP supports the fan power up to 2A (24W).\n***** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n***** CPU_FAN2/WP and CHA_FAN1~3/WP can auto detect\nif 3-pin or 4-pin fan is in use.",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "network": {
+        "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Dragon RTL8125BG\n• Supports Phantom Gaming LAN Software\n- Smart Auto Adjust Bandwidth Control\n- Visual User Friendly UI\n- Visual Network Usage Statistics\n- Optimized Default Setting for Game, Browser, and\nStreaming Modes\n- User Customized Priority Control",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n• Nahimic Audio",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports 14 , 13 & 12 Gen Intel® Core Processors\n(LGA1700)\n• Supports Intel® Hybrid Technology\n• Supports Intel® Turbo Boost Max 3.0 Technology\n• Supports Intel® Thermal Velocity Boost (TVB)\n• Supports Intel® Adaptive Boost Technology (ABT)\n• Supports ASRock Hyper BCLK Engine\nBIOS: • AMI UEFI Legal BIOS with GUI support\nFeature",
+        "sourceURL": "https://download.asrock.com/Manual/B760M%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      }
+    },
+    "manufacturerModel": "B760M PG Riptide"
+  }
+}

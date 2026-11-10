@@ -1,0 +1,3510 @@
+[
+  {
+    "id": "import-gpu-b26c38a5ca3b",
+    "original": {
+      "name": "PowerColor Reaper",
+      "price": 501.39,
+      "chipset": "Radeon RX 9060 XT",
+      "memory": 16,
+      "core_clock": 2220,
+      "boost_clock": 3230,
+      "color": "Black",
+      "length": 200
+    },
+    "currentExtractorMatches": [
+      "RX9060XT 16G-A"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Reaper AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-A",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail248.htm",
+        "dimensions": "200mm*100mm*39mm 220mm*120mm*40mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-76f8b8d1e1d2",
+    "original": {
+      "name": "PowerColor RX7800XT 16G-P",
+      "price": 599.99,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2430,
+      "color": "Black",
+      "length": 260
+    },
+    "currentExtractorMatches": [
+      "RX7800XT 16G-P"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-P",
+        "rejection": "exact_part_number_present_in_archive",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail38.htm",
+        "dimensions": "260mm*109mm*50mm274mm*125mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-7b72fe78ceb5",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": 859.99,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2400,
+      "boost_clock": 3010,
+      "color": "Black",
+      "length": 327
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail211.htm",
+        "dimensions": "327mm*128mm*49mm 340mm*142mm*49mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-c5ce36988782",
+    "original": {
+      "name": "PowerColor Reaper",
+      "price": 669.99,
+      "chipset": "Radeon RX 9070",
+      "memory": 16,
+      "core_clock": 2070,
+      "boost_clock": 2520,
+      "color": "Black",
+      "length": 289
+    },
+    "currentExtractorMatches": [
+      "RX9070 16G-A"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Reaper AMD Radeon™ RX 9070 16GB GDDR6",
+        "mpn": "RX9070 16G-A",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail215.htm",
+        "dimensions": "289mm*111mm*41mm304mm*127mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2070MHz(Game)1 up to 2520MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Reaper AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-A",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail212.htm",
+        "dimensions": "289mm*111mm*41mm 304mm*127mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2400MHz(Game)1 up to 2970MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-dac9bf1a93ba",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": 1174.08,
+      "chipset": "Radeon RX 7900 XTX",
+      "memory": 24,
+      "core_clock": 2300,
+      "boost_clock": 2525,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "RX7900XTX 24G-L/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-L/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail72.htm",
+        "dimensions": "320mm*118.5mm*62mm 338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2270MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      },
+      {
+        "model": "AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail73.htm",
+        "dimensions": "287mm*123.2mm*51.25 mm 300mm*137mm*51.25 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2300MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail63.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2270MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-835acd4d38f6",
+    "original": {
+      "name": "PowerColor Fighter OC",
+      "price": 110.49,
+      "chipset": "Radeon RX 6500 XT",
+      "memory": 4,
+      "core_clock": 2310,
+      "boost_clock": null,
+      "color": "Black",
+      "length": 191
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6500 XT 4GB GDDR6",
+        "mpn": "AXRX 6500XT 4GBD6-DH/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail48.htm",
+        "dimensions": "191mm*126mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2650MHz(Game)1up to 2820MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-f07e8d81f93a",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": 539,
+      "chipset": "Radeon RX 5700 XT",
+      "memory": 8,
+      "core_clock": 1605,
+      "boost_clock": 1905,
+      "color": "Black / Red",
+      "length": 300
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 XT 8GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT  8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail78.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT (Limited Edition) 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHEP/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail77.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 8GB GDDR6",
+        "mpn": "AXRX 5700 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail82.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1610MHz(Base) Up to 1725MHz(Game)1 Up to 1750MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail196.htm",
+        "dimensions": "251.2mm*132.8mm*53.6mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2428MHz(Game)1 up to 2607MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2382MHz(Game)1 up to 2593MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-3004c7fd387e",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": 345,
+      "chipset": "Radeon RX 6600",
+      "memory": 8,
+      "core_clock": 1626,
+      "boost_clock": 2491,
+      "color": "Black",
+      "length": 200
+    },
+    "currentExtractorMatches": [
+      "AXRX 6600 8GBD6-3DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6600 8GB GDDR6",
+        "mpn": "AXRX 6600 8GBD6-3DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail23.htm",
+        "dimensions": "200mm*111mm*39mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2044MHz(Game)1 up to 2491MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Fighter AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DH",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail198.htm",
+        "dimensions": "200mm*111mm*39mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2359MHz(Game)1 up to 2589MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-fba094ba61b8",
+    "original": {
+      "name": "PowerColor RX 7900 XT 20G",
+      "price": 998.59,
+      "chipset": "Radeon RX 7900 XT",
+      "memory": 20,
+      "core_clock": 2000,
+      "boost_clock": 2400,
+      "color": "Black",
+      "length": 276
+    },
+    "currentExtractorMatches": [
+      "RX7900XT 20G"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G",
+        "rejection": "exact_part_number_present_in_archive",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail122.htm",
+        "dimensions": "276.4mm*112.65mm*51.25 mm290mm*128mm*51.25 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2000MHz(Game)1 up to 2400MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail120.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2130MHz(Game)1 up to 2500MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2025MHz(Game)1 up to 2395MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-00ff70a20560",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": 825,
+      "chipset": "Radeon RX 6700 XT",
+      "memory": 12,
+      "core_clock": 2321,
+      "boost_clock": 2622,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700XT 12GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail66.htm",
+        "dimensions": "320mm*130mm*50mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2514MHz(Game)1 up to 2622MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2433MHz(Game)1 up to 2615MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7700 XT 12GB GDDR6",
+        "mpn": "RX7700XT 12G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail40.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2276MHz(Game)1 up to 2599MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2226MHz(Game)1 up to 2584MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6750 XT 12GB GDDR6",
+        "mpn": "AXRX 6750XT 12GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail133.htm",
+        "dimensions": "320mm*130mm*50mm 335mm*146mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2633MHz(Game)1 up to 2713MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2593MHz(Game)1 up to 2689MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-26b430faf71a",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": null,
+      "chipset": "Radeon RX 6750 XT",
+      "memory": 12,
+      "core_clock": 2150,
+      "boost_clock": 2600,
+      "color": "Black",
+      "length": 230
+    },
+    "currentExtractorMatches": [
+      "AXRX 6750XT 12GBD6-3DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6750 XT 12GB GDDR6",
+        "mpn": "AXRX 6750XT 12GBD6-3DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail128.htm",
+        "dimensions": "230mm*112mm*45mm 243mm*124mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2495MHz(Game)1 up to 2600MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-e58fc2208ff6",
+    "original": {
+      "name": "PowerColor Red Devil Ultimate",
+      "price": 769.99,
+      "chipset": "Radeon RX 6900 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2425,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "AXRX 6900 XTU 16GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT Ultimate 16GB GDDR6",
+        "mpn": "AXRX 6900 XTU 16GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail172.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2235MHz(Game)1up to 2425MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2135MHz(Game)1up to 2335MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6",
+        "mpn": "AXRX 6900 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail175.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6900 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail174.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Liquid Devil AMD Radeon™ RX 6900 XT Ultimate 16GB GDDR6",
+        "mpn": "AXRX 6900 XTU 16GBD6-W2DHC/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail171.htm",
+        "dimensions": "266mm*162mm*42 mm278mm*180mm*42 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2305MHz(Game)1up to 2480MHz(Boost)2 Engine Clock(Unleaseh) up to 2375MHz(Game)1up to 2525MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-122343065fad",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": 325.61,
+      "chipset": "Radeon RX 7600",
+      "memory": 8,
+      "core_clock": 1720,
+      "boost_clock": 2655,
+      "color": "Black",
+      "length": 212
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 7600 8GB GDDR6",
+        "mpn": "RX7600 8G-F/V2",
+        "rejection": "archived_length_conflict",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail230.htm",
+        "dimensions": "241mm*116mm*49mm253mm*132mm*49mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2250MHz(Game)1 up to 2655MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Fighter AMD Radeon™ RX 7600 8GB GDDR6",
+        "mpn": "RX7600 8G-F",
+        "rejection": "archived_length_conflict",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail110.htm",
+        "dimensions": "200mm*111mm*39mm212mm*129mm*39mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2250MHz(Game)1 up to 2655MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-27b281ab7780",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": 864.91,
+      "chipset": "Radeon RX 6800 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2340,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6",
+        "mpn": "AXRX 6800 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail193.htm",
+        "dimensions": "320mm*135mm*62 mm 332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1 up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1 up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail194.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail180.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-c2f8a8c88923",
+    "original": {
+      "name": "PowerColor Reaper",
+      "price": 799.99,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2400,
+      "boost_clock": 2970,
+      "color": "Black / Red",
+      "length": 289
+    },
+    "currentExtractorMatches": [
+      "RX9070XT 16G-A"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Reaper AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-A",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail212.htm",
+        "dimensions": "289mm*111mm*41mm 304mm*127mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2400MHz(Game)1 up to 2970MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Reaper AMD Radeon™ RX 9070 16GB GDDR6",
+        "mpn": "RX9070 16G-A",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail215.htm",
+        "dimensions": "289mm*111mm*41mm304mm*127mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2070MHz(Game)1 up to 2520MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-a132ecb8284a",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": 819.99,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2460,
+      "boost_clock": 3060,
+      "color": "Black / Red",
+      "length": 340
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail210.htm",
+        "dimensions": "340mm*132mm*69mm 352mm*149mm*69mm(with bracket)",
+        "clocks": {}
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 XT 16GB GDDR6 Limited Edition",
+        "mpn": "RX9070XT 16G-E/OC/LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail219.htm",
+        "dimensions": "340mm*132mm*69mm352mm*149mm*69mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2520MHz(Game)1 up to 3060MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2460MHz(Game)1 up to 3010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 16GB GDDR6",
+        "mpn": "RX9070 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail213.htm",
+        "dimensions": "340mm*132mm*69mm352mm*149mm*69mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2210MHz(Game)1 up to 2700MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2170MHz(Game)1 up to 2650MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-e72906a4975f",
+    "original": {
+      "name": "PowerColor Hellhound Spectral",
+      "price": 839.99,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2400,
+      "boost_clock": 3010,
+      "color": "White",
+      "length": 327
+    },
+    "currentExtractorMatches": [
+      "RX9070XT 16G-L/OC/WHITE"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-L/OC/WHITE",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail232.htm",
+        "dimensions": "327mm*128mm*49mm340mm*142mm*49mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2460MHz(Game)1 up to 3010MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2400MHz(Game)1 up to 2970MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail254.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail36.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail211.htm",
+        "dimensions": "327mm*128mm*49mm 340mm*142mm*49mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-dc08f5a5a8a6",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": 399.98,
+      "chipset": "Radeon RX 9060 XT",
+      "memory": 16,
+      "core_clock": 2220,
+      "boost_clock": 3310,
+      "color": "Black",
+      "length": 310
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail249.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-12f1d33786f8",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": 677.54,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2520,
+      "color": "Black",
+      "length": 322
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail31.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Sakura AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC/SAKURA",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail35.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-952c5159b6d6",
+    "original": {
+      "name": "PowerColor Reaper",
+      "price": 299.99,
+      "chipset": "Radeon RX 9060 XT",
+      "memory": 8,
+      "core_clock": 2220,
+      "boost_clock": 3130,
+      "color": "Black",
+      "length": 200
+    },
+    "currentExtractorMatches": [
+      "RX9060XT 8G-A"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Reaper AMD Radeon™ RX 9060 XT 8GB GDDR6",
+        "mpn": "RX9060XT 8G-A",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail250.htm",
+        "dimensions": "200mm*100mm*39mm 220mm*120mm*40mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-e46a1ae5550c",
+    "original": {
+      "name": "PowerColor Red Devil E/OC",
+      "price": 1043.99,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2460,
+      "boost_clock": 3060,
+      "color": "White",
+      "length": 340
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil Spectral White AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-E/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail231.htm",
+        "dimensions": "340mm*132mm*69mm 352mm*149mm*69mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2520MHz(Game)1 up to 3060MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2460MHz(Game)1 up to 3010MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-88778117b600",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": 699.99,
+      "chipset": "Radeon RX 9070",
+      "memory": 16,
+      "core_clock": 2070,
+      "boost_clock": 2590,
+      "color": "Black",
+      "length": 327
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 9070 16GB GDDR6",
+        "mpn": "RX9070 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail214.htm",
+        "dimensions": "327mm*128mm*41mm340mm*142mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2120MHz(Game)1 up to 2590MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2070MHz(Game)1 up to 2520MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-440f4a3e1dd6",
+    "original": {
+      "name": "PowerColor Fighter OC",
+      "price": 708.4,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2475,
+      "color": "Black",
+      "length": 290
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-F/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail33.htm",
+        "dimensions": "290mm*111mm*50mm303mm*128mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2489ebf5726e",
+    "original": {
+      "name": "PowerColor Hellhound Sakura OC",
+      "price": null,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2520,
+      "color": "White / Pink",
+      "length": 322
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Sakura AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC/SAKURA",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail35.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-02f28f4ef400",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": null,
+      "chipset": "Radeon RX 9060 XT",
+      "memory": 16,
+      "core_clock": 2220,
+      "boost_clock": 3310,
+      "color": "White",
+      "length": 310
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail254.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail249.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-0c5cf50da380",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": 365.72,
+      "chipset": "Radeon RX 9060 XT",
+      "memory": 8,
+      "core_clock": 2220,
+      "boost_clock": 3310,
+      "color": "Black",
+      "length": 310
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 9060 XT 8GB GDDR6",
+        "mpn": "RX9060XT 8G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail251.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-3688d9dcb40a",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": 789,
+      "chipset": "Radeon RX 6700 XT",
+      "memory": 12,
+      "core_clock": 2321,
+      "boost_clock": 2581,
+      "color": "Black",
+      "length": 228
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700XT 12GBD6-3DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail69.htm",
+        "dimensions": "228*109*39mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2424MHz(Game)1 up to 2581MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-M3DH",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail70.htm",
+        "dimensions": "266.7*110.15*39.75mm",
+        "clocks": {
+          "Engine Clock(OC)": "2424MHz(Game)1 /up to 2321MHz (Base) / up to 2581MHz(Boost)2 *Note:Game Clock is the expected GPU clock when running typical gaming applications, set"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-5f369a716c26",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2565,
+      "color": "Black",
+      "length": 332
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail32.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2254MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7800 XT 16GB GDDR6 BP Edition",
+        "mpn": "RX7800XT 16G-E/OC/BP",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail256.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2254MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "RX7800XT 16G-E/OC/LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail39.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2254MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d3b4a3fdf5ad",
+    "original": {
+      "name": "PowerColor Red Dragon",
+      "price": 529,
+      "chipset": "Radeon RX 5700 XT",
+      "memory": 8,
+      "core_clock": 1650,
+      "boost_clock": 1905,
+      "color": "Black",
+      "length": 240
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 XT 8GBD6-3DHR/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 XT 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHR/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail79.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1650MHz (Base) up to 1795MHz(Game)1 up to 1905MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 8GB GDDR6",
+        "mpn": "AXRX 5700 8GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail83.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1565MHz(Base) Up to 1720MHz(Game)1 Up to 1750MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT  8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail78.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5500 XT 8GB GDDR6",
+        "mpn": "AXRX 5500 XT 8GBD6-DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail92.htm",
+        "dimensions": "227mm*120mm*42mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1685MHz(Base) up to 1737MHz(Game)1 up to 1845MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-14c32dcbd0a9",
+    "original": {
+      "name": "PowerColor Red Dragon OC",
+      "price": 995,
+      "chipset": "Radeon RX 6800 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2310,
+      "color": "Black",
+      "length": 310
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Dragon AMD Radeon™ RX 6800 XT 16GB GDDR6",
+        "mpn": "AXRX 6800 XT 16GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail192.htm",
+        "dimensions": "310mm*135mm*54 mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2065MHz(Game)1up to 2310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Dragon AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail179.htm",
+        "dimensions": "310mm*135mm*54 mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1950MHz(Game)1up to 2170MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-61dd6613d667",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": 998.99,
+      "chipset": "Radeon RX 7900 XT",
+      "memory": 20,
+      "core_clock": 2000,
+      "boost_clock": 2500,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "RX7900XT 20G-L/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-L/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail120.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2130MHz(Game)1 up to 2500MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2025MHz(Game)1 up to 2395MHz(Boost)2"
+        }
+      },
+      {
+        "model": "AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail122.htm",
+        "dimensions": "276.4mm*112.65mm*51.25 mm290mm*128mm*51.25 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2000MHz(Game)1 up to 2400MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail75.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2130MHz(Game)1 up to 2500MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2025MHz(Game)1 up to 2395MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-7a197b3b9b7d",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition OC",
+      "price": 1050,
+      "chipset": "Radeon RX 9070 XT",
+      "memory": 16,
+      "core_clock": 2460,
+      "boost_clock": 3060,
+      "color": "Black",
+      "length": 340
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 XT 16GB GDDR6 Limited Edition",
+        "mpn": "RX9070XT 16G-E/OC/LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8571428571428571,
+        "url": "https://www.powercolor.com/product-detail219.htm",
+        "dimensions": "340mm*132mm*69mm352mm*149mm*69mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2520MHz(Game)1 up to 3060MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2460MHz(Game)1 up to 3010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail210.htm",
+        "dimensions": "340mm*132mm*69mm 352mm*149mm*69mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b0ac661356bb",
+    "original": {
+      "name": "PowerColor Hellhound Spectral",
+      "price": null,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2520,
+      "color": "White",
+      "length": 322
+    },
+    "currentExtractorMatches": [
+      "RX7800XT 16G-L/OC/WHITE"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC/WHITE",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail36.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail232.htm",
+        "dimensions": "327mm*128mm*49mm340mm*142mm*49mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2460MHz(Game)1 up to 3010MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2400MHz(Game)1 up to 2970MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 9060 XT 16GB GDDR6",
+        "mpn": "RX9060XT 16G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail254.htm",
+        "dimensions": "310mm*100mm*40mm330mm*120mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2740MHz(Game)1 up to 3310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2620MHz(Game)1 up to 3230MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail31.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-78446241bb5e",
+    "original": {
+      "name": "PowerColor RX7700XT 12G-P",
+      "price": 551.18,
+      "chipset": "Radeon RX 7700 XT",
+      "memory": 12,
+      "core_clock": 1700,
+      "boost_clock": 2544,
+      "color": "Black",
+      "length": 260
+    },
+    "currentExtractorMatches": [
+      "RX7700XT 12G-P"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor AMD Radeon™ RX 7700 XT 12GB GDDR6",
+        "mpn": "RX7700XT 12G-P",
+        "rejection": "exact_part_number_present_in_archive",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail44.htm",
+        "dimensions": "260mm*109mm*50mm274mm*125mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2171MHz(Game)1 up to 2544MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-184dc80ec1f5",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": null,
+      "chipset": "Radeon RX 7900 XTX",
+      "memory": 24,
+      "core_clock": 2300,
+      "boost_clock": 2565,
+      "color": "Black",
+      "length": 338
+    },
+    "currentExtractorMatches": [
+      "RX7900XTX 24G-E/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-E/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail71.htm",
+        "dimensions": "338mm*135mm*73mm 348mm*147mm*73mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2395MHz(Game)1 up to 2565MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 XTX 24GB GDDR6 Limited Edition",
+        "mpn": "RX7900XTX 24G-E/OC/LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail106.htm",
+        "dimensions": "338mm*135mm*73mm348mm*147mm*73mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2395MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Liquid Devil AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-W/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail64.htm",
+        "dimensions": "288mm*163mm*28mm300mm*180mm*28mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2455MHz(Game)1 up to 2615MHz(Boost)2 Engine Clock(Unleaseh) up to 2475MHz(Game)1 up to 2585MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-f1ef8dfaed2d",
+    "original": {
+      "name": "PowerColor Hellhound Spectral",
+      "price": null,
+      "chipset": "Radeon RX 7900 XTX",
+      "memory": 24,
+      "core_clock": 2300,
+      "boost_clock": 2525,
+      "color": "White",
+      "length": 338
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-L/OC/WHITE",
+        "rejection": "archived_length_conflict",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail63.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2270MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail72.htm",
+        "dimensions": "320mm*118.5mm*62mm 338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2270MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-69f123fdc421",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": null,
+      "chipset": "Radeon RX 6600 XT",
+      "memory": 8,
+      "core_clock": 1968,
+      "boost_clock": 2589,
+      "color": "Black",
+      "length": 200
+    },
+    "currentExtractorMatches": [
+      "AXRX 6600XT 8GBD6-3DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail198.htm",
+        "dimensions": "200mm*111mm*39mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2359MHz(Game)1 up to 2589MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Fighter AMD Radeon™ RX 6600 8GB GDDR6",
+        "mpn": "AXRX 6600 8GBD6-3DH",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail23.htm",
+        "dimensions": "200mm*111mm*39mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2044MHz(Game)1 up to 2491MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-349b1ebd233b",
+    "original": {
+      "name": "PowerColor Fighter OC",
+      "price": null,
+      "chipset": "Radeon RX 7700 XT",
+      "memory": 12,
+      "core_clock": 1700,
+      "boost_clock": 2584,
+      "color": "Black",
+      "length": 290
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 7700 XT 12GB GDDR6",
+        "mpn": "RX7700XT 12G-F/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail42.htm",
+        "dimensions": "290mm*111mm*50mm303mm*128mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2226MHz(Game)1 up to 2584MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-c3142b4feb12",
+    "original": {
+      "name": "PowerColor ITX",
+      "price": 149.8,
+      "chipset": "Radeon RX 6500 XT",
+      "memory": 4,
+      "core_clock": 2310,
+      "boost_clock": null,
+      "color": "Black",
+      "length": 165
+    },
+    "currentExtractorMatches": [
+      "AXRX 6500XT 4GBD6-DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor AMD Radeon™ RX 6500 XT ITX 4GB GDDR6",
+        "mpn": "AXRX 6500XT 4GBD6-DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail49.htm",
+        "dimensions": "165mm*125mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2610MHz(Game)1up to 2815MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-fb9de9fc7801",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": null,
+      "chipset": "Radeon RX 6700 XT",
+      "memory": 12,
+      "core_clock": 2321,
+      "boost_clock": 2581,
+      "color": "Black",
+      "length": 305
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700XT 12GBD6-3DHL"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DHL",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail67.htm",
+        "dimensions": "305mm*132mm*50mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2424MHz(Game)1 up to 2581MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-M3DH",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail70.htm",
+        "dimensions": "266.7*110.15*39.75mm",
+        "clocks": {
+          "Engine Clock(OC)": "2424MHz(Game)1 /up to 2321MHz (Base) / up to 2581MHz(Boost)2 *Note:Game Clock is the expected GPU clock when running typical gaming applications, set"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DHLV2",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail65.htm",
+        "dimensions": "305mm*132mm*50mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2424MHz(Game)1 up to 2581MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-465d3584053c",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": 599,
+      "chipset": "Radeon RX 6600 XT",
+      "memory": 8,
+      "core_clock": 1968,
+      "boost_clock": 2607,
+      "color": "Black",
+      "length": 251
+    },
+    "currentExtractorMatches": [
+      "AXRX 6600XT 8GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail196.htm",
+        "dimensions": "251.2mm*132.8mm*53.6mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2428MHz(Game)1 up to 2607MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2382MHz(Game)1 up to 2593MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail29.htm",
+        "dimensions": "251.2*132.8*53.6mm263.6*150.8*53.6mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2523MHz(Game)1 up to 2694MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2447MHz(Game)1 up to 2669MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT  8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail78.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b02f7a67ab47",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": null,
+      "chipset": "Radeon RX 6650 XT",
+      "memory": 8,
+      "core_clock": 2055,
+      "boost_clock": 2635,
+      "color": "Black",
+      "length": 200
+    },
+    "currentExtractorMatches": [
+      "AXRX 6650XT 8GBD6-3DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail25.htm",
+        "dimensions": "200*111*39mm212*129*39mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-f6814de62e36",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": 779.99,
+      "chipset": "Radeon RX 9070",
+      "memory": 16,
+      "core_clock": 2170,
+      "boost_clock": 2700,
+      "color": "Black / Red",
+      "length": 340
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 16GB GDDR6",
+        "mpn": "RX9070 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail213.htm",
+        "dimensions": "340mm*132mm*69mm352mm*149mm*69mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2210MHz(Game)1 up to 2700MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2170MHz(Game)1 up to 2650MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 9070 XT 16GB GDDR6",
+        "mpn": "RX9070XT 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail210.htm",
+        "dimensions": "340mm*132mm*69mm 352mm*149mm*69mm(with bracket)",
+        "clocks": {}
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-c849ec8a1c32",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": null,
+      "chipset": "Radeon RX 7600 XT",
+      "memory": 16,
+      "core_clock": 1720,
+      "boost_clock": 2755,
+      "color": "Black",
+      "length": 217
+    },
+    "currentExtractorMatches": [
+      "RX7600XT 16G-F"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 7600 XT 16GB GDDR6",
+        "mpn": "RX7600XT 16G-F",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail107.htm",
+        "dimensions": "217mm*118mm*39mm232mm*132mm*42mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2470MHz(Game)1 up to 2755MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-f5285ef328cb",
+    "original": {
+      "name": "PowerColor AXRX 5700XT 8GBD6-3DH",
+      "price": null,
+      "chipset": "Radeon RX 5700 XT",
+      "memory": 8,
+      "core_clock": 1605,
+      "boost_clock": 1905,
+      "color": "Black",
+      "length": 230
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 XT 8GBD6-3DH"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-6fb2f16e88ca",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": null,
+      "chipset": "Radeon RX 7900 GRE",
+      "memory": 16,
+      "core_clock": 1270,
+      "boost_clock": 2366,
+      "color": "Black",
+      "length": 322
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 GRE 16GB GDDR6",
+        "mpn": "RX7900GRE 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail185.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2013MHz(Game)1 up to 2366MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1927MHz(Game)1 up to 2293MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2fee4014e84a",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 6950 XT",
+      "memory": 16,
+      "core_clock": 1890,
+      "boost_clock": 2435,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6950 XT 16GB GDDR6",
+        "mpn": "AXRX 6950 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail125.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2226MHz(Game)1up to 2435MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2116MHz(Game)1up to 2324MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-184aa70badfa",
+    "original": {
+      "name": "PowerColor Fighter OC",
+      "price": null,
+      "chipset": "Radeon RX 6800",
+      "memory": 16,
+      "core_clock": 1700,
+      "boost_clock": 2155,
+      "color": "Black",
+      "length": 300
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DH/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail178.htm",
+        "dimensions": "300mm*120mm*50 mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1925MHz(Game)1up to 2155MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1815MHz(Game)1up to 2150MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2a7af8bf7576",
+    "original": {
+      "name": "PowerColor Hellhound Spectral",
+      "price": null,
+      "chipset": "Radeon RX 6700 XT",
+      "memory": 12,
+      "core_clock": 2321,
+      "boost_clock": 2581,
+      "color": "White",
+      "length": 305
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700XT 12GBD6-3DHLV2"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DHLV2",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail65.htm",
+        "dimensions": "305mm*132mm*50mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2424MHz(Game)1 up to 2581MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 6700 XT 12GB GDDR6",
+        "mpn": "AXRX 6700XT 12GBD6-3DHL",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail67.htm",
+        "dimensions": "305mm*132mm*50mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2424MHz(Game)1 up to 2581MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-164ce5cc5a50",
+    "original": {
+      "name": "PowerColor Fighter OC",
+      "price": null,
+      "chipset": "Radeon RX 7900 GRE",
+      "memory": 16,
+      "core_clock": 1270,
+      "boost_clock": 2293,
+      "color": "Black",
+      "length": 303
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 7900 GRE 16GB GDDR6",
+        "mpn": "RX7900GRE 16G-F/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail186.htm",
+        "dimensions": "290mm*111mm*50mm303mm*128mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1927MHz(Game)1 up to 2293MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-fd44beef2e8b",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": null,
+      "chipset": "Radeon RX 6600 XT",
+      "memory": 8,
+      "core_clock": 1968,
+      "boost_clock": 2593,
+      "color": "Black",
+      "length": 220
+    },
+    "currentExtractorMatches": [
+      "AXRX 6600XT 8GBD6-3DHL/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DHL/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail197.htm",
+        "dimensions": "220mm*132mm*45mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2382MHz(Game)1 up to 2593MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2359MHz(Game)1 up to 2589MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 6600 8GB GDDR6",
+        "mpn": "AXRX 6600 8GBD6-3DHL",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail24.htm",
+        "dimensions": "220mm*132mm*45mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2044MHz(Game)1 up to 2491MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-542e639bed8e",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 6750 XT",
+      "memory": 12,
+      "core_clock": 2593,
+      "boost_clock": 2713,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6750 XT 12GB GDDR6",
+        "mpn": "AXRX 6750XT 12GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail133.htm",
+        "dimensions": "320mm*130mm*50mm 335mm*146mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2633MHz(Game)1 up to 2713MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2593MHz(Game)1 up to 2689MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-fc0ddee64cb8",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": null,
+      "chipset": "Radeon RX 7900 XT",
+      "memory": 20,
+      "core_clock": 2000,
+      "boost_clock": 2500,
+      "color": "White",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-L/OC/WHITE",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail75.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2130MHz(Game)1 up to 2500MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2025MHz(Game)1 up to 2395MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail120.htm",
+        "dimensions": "320mm*118.5mm*62mm338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2130MHz(Game)1 up to 2500MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2025MHz(Game)1 up to 2395MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-49269cc4c31c",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": null,
+      "chipset": "Radeon RX 7900 XT",
+      "memory": 20,
+      "core_clock": 2000,
+      "boost_clock": 2535,
+      "color": "Black",
+      "length": 338
+    },
+    "currentExtractorMatches": [
+      "RX7900XT 20G-E/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 XT 20GB GDDR6",
+        "mpn": "RX7900XT 20G-E/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail115.htm",
+        "dimensions": "338mm*135mm*73mm348mm*147mm*73mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2175MHz(Game)1 up to 2535MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2075MHz(Game)1 up to 2450MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d8b0abdf0871",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": null,
+      "chipset": "Radeon RX 7700 XT",
+      "memory": 12,
+      "core_clock": 1700,
+      "boost_clock": 2599,
+      "color": "Black",
+      "length": 332
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7700 XT 12GB GDDR6",
+        "mpn": "RX7700XT 12G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail41.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2276MHz(Game)1 up to 2599MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2226MHz(Game)1 up to 2584MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b8c92a54f88e",
+    "original": {
+      "name": "PowerColor RX7900XTX 24G",
+      "price": null,
+      "chipset": "Radeon RX 7900 XTX",
+      "memory": 24,
+      "core_clock": 2300,
+      "boost_clock": 2500,
+      "color": "Black",
+      "length": 287
+    },
+    "currentExtractorMatches": [
+      "RX7900XTX 24G"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G",
+        "rejection": "exact_part_number_present_in_archive",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail73.htm",
+        "dimensions": "287mm*123.2mm*51.25 mm 300mm*137mm*51.25 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 2300MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail72.htm",
+        "dimensions": "320mm*118.5mm*62mm 338mm*147mm*62mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2270MHz(Game)1 up to 2500MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-5f0abadcd550",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": 729.99,
+      "chipset": "Radeon RX 6900 XT",
+      "memory": 16,
+      "core_clock": 2015,
+      "boost_clock": 2340,
+      "color": "Black",
+      "length": 332
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6",
+        "mpn": "AXRX 6900 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail175.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6900 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail174.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT Ultimate 16GB GDDR6",
+        "mpn": "AXRX 6900 XTU 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail172.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2235MHz(Game)1up to 2425MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2135MHz(Game)1up to 2335MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-82789e5e7634",
+    "original": {
+      "name": "PowerColor Red Dragon OC",
+      "price": null,
+      "chipset": "Radeon RX 6800",
+      "memory": 16,
+      "core_clock": 1700,
+      "boost_clock": 2170,
+      "color": "Black",
+      "length": 310
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Dragon AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail179.htm",
+        "dimensions": "310mm*135mm*54 mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1950MHz(Game)1up to 2170MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Dragon AMD Radeon™ RX 6800 XT 16GB GDDR6",
+        "mpn": "AXRX 6800 XT 16GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail192.htm",
+        "dimensions": "310mm*135mm*54 mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2065MHz(Game)1up to 2310MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2be53553f284",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition",
+      "price": null,
+      "chipset": "Radeon RX 7900 XTX",
+      "memory": 24,
+      "core_clock": 2300,
+      "boost_clock": 2565,
+      "color": "Black",
+      "length": 338
+    },
+    "currentExtractorMatches": [
+      "RX7900XTX 24G-E/OC/LIMITED"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 XTX 24GB GDDR6 Limited Edition",
+        "mpn": "RX7900XTX 24G-E/OC/LIMITED",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail106.htm",
+        "dimensions": "338mm*135mm*73mm348mm*147mm*73mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2395MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2330MHz(Game)1 up to 2525MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 XTX 24GB GDDR6",
+        "mpn": "RX7900XTX 24G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail71.htm",
+        "dimensions": "338mm*135mm*73mm 348mm*147mm*73mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2395MHz(Game)1 up to 2565MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-62c7caa0aa5a",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": null,
+      "chipset": "Radeon RX 7600",
+      "memory": 8,
+      "core_clock": 1720,
+      "boost_clock": 2655,
+      "color": "Black",
+      "length": 234
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7600 8GB GDDR6",
+        "mpn": "RX7600 8G-L/OC",
+        "rejection": "archived_length_conflict",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail112.htm",
+        "dimensions": "223mm*132mm*45mm 234mm*149mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2280MHz(Game)1 up to 2695MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2250MHz(Game)1 up to 2655MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-7dc3dda17a36",
+    "original": {
+      "name": "PowerColor Hellhound Sakura OC Limited",
+      "price": null,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2520,
+      "color": "White / Pink",
+      "length": 322
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Sakura AMD Radeon™ RX 7800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "RX7800XT 16G-L/OC/SAKURA LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail34.htm",
+        "dimensions": "322mm*134mm*50mm 332mm*147mm*50mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2213MHz(Game)1 up to 2520MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2124MHz(Game)1 up to 2430MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-dc08d2bd9ce9",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": 495,
+      "chipset": "Radeon RX 6600",
+      "memory": 8,
+      "core_clock": 1626,
+      "boost_clock": 2491,
+      "color": "Black / White",
+      "length": 220
+    },
+    "currentExtractorMatches": [
+      "AXRX 6600 8GBD6-3DHL"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 6600 8GB GDDR6",
+        "mpn": "AXRX 6600 8GBD6-3DHL",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail24.htm",
+        "dimensions": "220mm*132mm*45mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2044MHz(Game)1 up to 2491MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 6600 XT 8GB GDDR6",
+        "mpn": "AXRX 6600XT 8GBD6-3DHL/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.75,
+        "url": "https://www.powercolor.com/product-detail197.htm",
+        "dimensions": "220mm*132mm*45mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2382MHz(Game)1 up to 2593MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2359MHz(Game)1 up to 2589MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-a37a2debe23a",
+    "original": {
+      "name": "PowerColor Fighter",
+      "price": null,
+      "chipset": "Radeon RX 6700",
+      "memory": 10,
+      "core_clock": 1941,
+      "boost_clock": 2495,
+      "color": "Black",
+      "length": 228
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700 10GBD6-3DH/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Fighter AMD Radeon™ RX 6700 10GB GDDR6",
+        "mpn": "AXRX 6700 10GBD6-3DH/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail119.htm",
+        "dimensions": "228*109*32mm",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2330MHz(Game)1 up to 2495MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-8c570a45b363",
+    "original": {
+      "name": "PowerColor Red Dragon",
+      "price": 569,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1620,
+      "color": "Black / Silver",
+      "length": 240
+    },
+    "currentExtractorMatches": [
+      "AXRX 5600 XT 6GBD6-3DHR/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5600 XT 6GB GDDR6",
+        "mpn": "AXRX 5600 XT 6GBD6-3DHR/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail88.htm",
+        "dimensions": "240mm*118mm*40mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 1560MHz(Game)1 up to 1620MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5600 XT 6GB GDDR6",
+        "mpn": "AXRX 5600 XT 6GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail87.htm",
+        "dimensions": "240mm*118mm*52mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 1660MHz(Game)1 up to 1750MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-ae697dd5c659",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 7900 GRE",
+      "memory": 16,
+      "core_clock": 1270,
+      "boost_clock": 2391,
+      "color": "Black / Red",
+      "length": 345
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7900 GRE 16GB GDDR6",
+        "mpn": "RX7900GRE 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail183.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2052MHz(Game)1 up to 2391MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1972MHz(Game)1 up to 2333MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d2d7f8ef2c64",
+    "original": {
+      "name": "PowerColor Hellhound",
+      "price": null,
+      "chipset": "Radeon RX 6650 XT",
+      "memory": 8,
+      "core_clock": 2055,
+      "boost_clock": 2689,
+      "color": "Black",
+      "length": 220
+    },
+    "currentExtractorMatches": [
+      "AXRX 6650XT 8GBD6-3DHL/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHL/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail28.htm",
+        "dimensions": "220mm*132mm*45mm232mm*150mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Sakura AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHLV3/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail26.htm",
+        "dimensions": "220*132*45mm232*150*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHLV2/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail27.htm",
+        "dimensions": "220*132*45mm232*150*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d29341517869",
+    "original": {
+      "name": "PowerColor Hellhound OC",
+      "price": null,
+      "chipset": "Radeon RX 7600 XT",
+      "memory": 16,
+      "core_clock": 1720,
+      "boost_clock": 2810,
+      "color": "Black",
+      "length": 220
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound AMD Radeon™ RX 7600 XT 16GB GDDR6",
+        "mpn": "RX7600XT 16G-L/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail109.htm",
+        "dimensions": "220mm*133mm*45mm 233mm*148mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2539MHz(Game)1 up to 2810MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2470MHz(Game)1 up to 2755MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-e7d63aeca442",
+    "original": {
+      "name": "PowerColor Hellhound Spectral White",
+      "price": null,
+      "chipset": "Radeon RX 6650 XT",
+      "memory": 8,
+      "core_clock": 2055,
+      "boost_clock": 2689,
+      "color": "White",
+      "length": 220
+    },
+    "currentExtractorMatches": [
+      "AXRX 6650XT 8GBD6-3DHLV2/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHLV2/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail27.htm",
+        "dimensions": "220*132*45mm232*150*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHL/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail28.htm",
+        "dimensions": "220mm*132mm*45mm232mm*150mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-f270dc6a06a3",
+    "original": {
+      "name": "PowerColor Low Profile",
+      "price": null,
+      "chipset": "Radeon RX 6400",
+      "memory": 4,
+      "core_clock": 1923,
+      "boost_clock": null,
+      "color": "Black / Silver",
+      "length": 155
+    },
+    "currentExtractorMatches": [
+      "AXRX 6400 LP 4GBD6-DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor AMD Radeon™ RX 6400 Low Profile 4GB GDDR6",
+        "mpn": "AXRX 6400 LP 4GBD6-DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail51.htm",
+        "dimensions": "155mm*120mm*18mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2039MHz(Game)1 up to 2321MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-3f68afb9c93f",
+    "original": {
+      "name": "PowerColor Hellhound Sakura",
+      "price": null,
+      "chipset": "Radeon RX 6650 XT",
+      "memory": 8,
+      "core_clock": 2055,
+      "boost_clock": 2689,
+      "color": "White / Pink",
+      "length": 220
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Hellhound Sakura AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHLV3/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail26.htm",
+        "dimensions": "220*132*45mm232*150*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound Spectral White AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHLV2/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail27.htm",
+        "dimensions": "220*132*45mm232*150*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Hellhound AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHL/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail28.htm",
+        "dimensions": "220mm*132mm*45mm232mm*150mm*45mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2486MHz(Game)1 up to 2689MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2410MHz(Game)1 up to 2635MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-589a1fa8f5ab",
+    "original": {
+      "name": "PowerColor Red Dragon",
+      "price": null,
+      "chipset": "Radeon RX 5500 XT",
+      "memory": 8,
+      "core_clock": 1737,
+      "boost_clock": 1845,
+      "color": "Black",
+      "length": 227
+    },
+    "currentExtractorMatches": [
+      "AXRX 5500 XT 8GBD6-DHR/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5500 XT 8GB GDDR6",
+        "mpn": "AXRX 5500 XT 8GBD6-DHR/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail92.htm",
+        "dimensions": "227mm*120mm*42mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1685MHz(Base) up to 1737MHz(Game)1 up to 1845MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 XT 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail79.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1650MHz (Base) up to 1795MHz(Game)1 up to 1905MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-2f5aada89c61",
+    "original": {
+      "name": "PowerColor AXRX 5600XT 6GBD6-3DH/OC",
+      "price": null,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1620,
+      "color": "Black",
+      "length": 230
+    },
+    "currentExtractorMatches": [
+      "AXRX 5600 XT 6GBD6-3DH/OC"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-f97f0185fcfc",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition OC",
+      "price": null,
+      "chipset": "Radeon RX 7800 XT",
+      "memory": 16,
+      "core_clock": 1295,
+      "boost_clock": 2565,
+      "color": "Black",
+      "length": 332
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "RX7800XT 16G-E/OC/LIMITED",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8571428571428571,
+        "url": "https://www.powercolor.com/product-detail39.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2254MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 7800 XT 16GB GDDR6",
+        "mpn": "RX7800XT 16G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail32.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2254MHz(Game)1 up to 2565MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2169MHz(Game)1 up to 2475MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-11ae350b416d",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": 1819.67,
+      "chipset": "Radeon RX 6650 XT",
+      "memory": 8,
+      "core_clock": 2055,
+      "boost_clock": 2694,
+      "color": "Black",
+      "length": 251
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6650 XT 8GB GDDR6",
+        "mpn": "AXRX 6650XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail29.htm",
+        "dimensions": "251.2*132.8*53.6mm263.6*150.8*53.6mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2523MHz(Game)1 up to 2694MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2447MHz(Game)1 up to 2669MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-0a94b57b786f",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": null,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1750,
+      "color": "Black / Silver",
+      "length": 240
+    },
+    "currentExtractorMatches": [
+      "AXRX 5600 XT 6GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5600 XT 6GB GDDR6",
+        "mpn": "AXRX 5600 XT 6GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail87.htm",
+        "dimensions": "240mm*118mm*52mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 1660MHz(Game)1 up to 1750MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5600 XT 6GB GDDR6",
+        "mpn": "AXRX 5600 XT 6GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail88.htm",
+        "dimensions": "240mm*118mm*40mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 1560MHz(Game)1 up to 1620MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-fb2310bac4e4",
+    "original": {
+      "name": "PowerColor AXRX 6800XT 16GBD6-M2DHC",
+      "price": null,
+      "chipset": "Radeon RX 6800 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2250,
+      "color": "Black / Silver",
+      "length": 267
+    },
+    "currentExtractorMatches": [
+      "AXRX 6800 XT 16GBD6-M2DHC"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-1a05414231d1",
+    "original": {
+      "name": "PowerColor AXRX 5700XT 8GBD6-M3DH",
+      "price": null,
+      "chipset": "Radeon RX 5700 XT",
+      "memory": 8,
+      "core_clock": 1605,
+      "boost_clock": 1905,
+      "color": "Silver",
+      "length": 270
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 XT 8GBD6-M3DH"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-e88aa8f9fc04",
+    "original": {
+      "name": "PowerColor AXRX 6700XT 12GBD6-M3DH",
+      "price": null,
+      "chipset": "Radeon RX 6700 XT",
+      "memory": 12,
+      "core_clock": 2321,
+      "boost_clock": 2581,
+      "color": "Silver / Black",
+      "length": 267
+    },
+    "currentExtractorMatches": [
+      "AXRX 6700XT 12GBD6-M3DH"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-1bb7b25a619e",
+    "original": {
+      "name": "PowerColor AXRX 5500 XT 4GBD6-3DH",
+      "price": null,
+      "chipset": "Radeon RX 5500 XT",
+      "memory": 4,
+      "core_clock": 1717,
+      "boost_clock": 1845,
+      "color": "Black",
+      "length": 180
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-4c92268e3758",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition",
+      "price": null,
+      "chipset": "Radeon RX 6800 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2340,
+      "color": "Black / Red",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "AXRX 6800 XT 16GBD6-2DHCE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail194.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6",
+        "mpn": "AXRX 6800 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail193.htm",
+        "dimensions": "320mm*135mm*62 mm 332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1 up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1 up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail181.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6900 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail174.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b27a7f9e5f76",
+    "original": {
+      "name": "PowerColor AXRX 5700 8GBD6-3DH/OC",
+      "price": null,
+      "chipset": "Radeon RX 5700",
+      "memory": 8,
+      "core_clock": 1515,
+      "boost_clock": 1750,
+      "color": "Black",
+      "length": 230
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 8GBD6-3DH/OC"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-30407e14bdde",
+    "original": {
+      "name": "PowerColor Red Dragon",
+      "price": null,
+      "chipset": "Radeon RX 5700",
+      "memory": 8,
+      "core_clock": 1565,
+      "boost_clock": 1750,
+      "color": "Black",
+      "length": 240
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 8GBD6-3DHR/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 8GB GDDR6",
+        "mpn": "AXRX 5700 8GBD6-3DHR/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail83.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1565MHz(Base) Up to 1720MHz(Game)1 Up to 1750MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 XT 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail79.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1650MHz (Base) up to 1795MHz(Game)1 up to 1905MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-8cac60637fb0",
+    "original": {
+      "name": "PowerColor AXRX 6900XT 16GBD6-M2DHC",
+      "price": null,
+      "chipset": "Radeon RX 6900 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": null,
+      "color": "Black / Silver",
+      "length": 267
+    },
+    "currentExtractorMatches": [
+      "AXRX 6900 XT 16GBD6-M2DHC"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-b15ac9383c17",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 6800",
+      "memory": 16,
+      "core_clock": 1700,
+      "boost_clock": 2190,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail180.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6",
+        "mpn": "AXRX 6800 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail193.htm",
+        "dimensions": "320mm*135mm*62 mm 332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1 up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1 up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail181.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d223009e9d03",
+    "original": {
+      "name": "PowerColor ITX",
+      "price": null,
+      "chipset": "Radeon RX 6400",
+      "memory": 4,
+      "core_clock": 1923,
+      "boost_clock": null,
+      "color": "Black / Silver",
+      "length": 165
+    },
+    "currentExtractorMatches": [
+      "AXRX 6400 4GBD6-DH"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor AMD Radeon™ RX 6400 ITX 4GB GDDR6",
+        "mpn": "AXRX 6400 4GBD6-DH",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail50.htm",
+        "dimensions": "165mm*125mm*40mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2039MHz(Game)1up to 2321MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-531faaf5d48a",
+    "original": {
+      "name": "PowerColor Red Devil",
+      "price": null,
+      "chipset": "Radeon RX 5700",
+      "memory": 8,
+      "core_clock": 1610,
+      "boost_clock": 1750,
+      "color": "Black / Red",
+      "length": 300
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 8GBD6-3DHE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 8GB GDDR6",
+        "mpn": "AXRX 5700 8GBD6-3DHE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail82.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1610MHz(Base) Up to 1725MHz(Game)1 Up to 1750MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT  8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8,
+        "url": "https://www.powercolor.com/product-detail78.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Devil Radeon™ RX 5700 XT (Limited Edition) 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHEP/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail77.htm",
+        "dimensions": "300mm*132mm*53mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1770MHz (Base) up to 1905MHz(Game)1 up to 2010MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-b219a1d50318",
+    "original": {
+      "name": "PowerColor Red Devil OC",
+      "price": null,
+      "chipset": "Radeon RX 7700 XT",
+      "memory": 12,
+      "core_clock": 1700,
+      "boost_clock": 2599,
+      "color": "Black",
+      "length": 332
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 7700 XT 12GB GDDR6",
+        "mpn": "RX7700XT 12G-E/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail40.htm",
+        "dimensions": "332mm*135mm*52mm 345mm*151mm*52mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2276MHz(Game)1 up to 2599MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2226MHz(Game)1 up to 2584MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-247b16fbf6f3",
+    "original": {
+      "name": "PowerColor Red Dragon",
+      "price": null,
+      "chipset": "Radeon RX 5500 XT",
+      "memory": 8,
+      "core_clock": 1685,
+      "boost_clock": 1845,
+      "color": "Black / Silver",
+      "length": 227
+    },
+    "currentExtractorMatches": [
+      "AXRX 5500 XT 8GBD6-DHR/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5500 XT 8GB GDDR6",
+        "mpn": "AXRX 5500 XT 8GBD6-DHR/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail92.htm",
+        "dimensions": "227mm*120mm*42mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1685MHz(Base) up to 1737MHz(Game)1 up to 1845MHz(Boost)2"
+        }
+      },
+      {
+        "model": "PowerColor Red Dragon Radeon™ RX 5700 XT 8GB GDDR6",
+        "mpn": "AXRX 5700 XT 8GBD6-3DHR/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail79.htm",
+        "dimensions": "240mm*132mm*41mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "1650MHz (Base) up to 1795MHz(Game)1 up to 1905MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-7c295e2d6408",
+    "original": {
+      "name": "PowerColor ITX 2DH",
+      "price": null,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1620,
+      "color": "Black",
+      "length": 175
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "PowerColor Radeon™ RX 5600 XT ITX 6GB GDDR6",
+        "mpn": "AXRX 5600 XT ITX 6GBD6-2DH",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail90.htm",
+        "dimensions": "175mm*110mm*40mm",
+        "clocks": {
+          "Engine Clock(STD/Silent)": "up to 1560MHz(Game)1 up to 1620MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-d9ff8be89a50",
+    "original": {
+      "name": "PowerColor AXRX-6800-16GBD6-M2DHC",
+      "price": null,
+      "chipset": "Radeon RX 6800",
+      "memory": 16,
+      "core_clock": 1700,
+      "boost_clock": 2105,
+      "color": "Black / Silver",
+      "length": 267
+    },
+    "currentExtractorMatches": [
+      "AXRX 6800 16GBD6-M2DHC"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-dfd2a2bdc4f6",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition OC",
+      "price": null,
+      "chipset": "Radeon RX 6800",
+      "memory": 16,
+      "core_clock": 1700,
+      "boost_clock": 2190,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail181.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail194.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 16GB GDDR6",
+        "mpn": "AXRX 6800 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.6666666666666666,
+        "url": "https://www.powercolor.com/product-detail180.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 1980MHz(Game)1up to 2190MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 1905MHz(Game)1up to 2140MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-cb423852ecda",
+    "original": {
+      "name": "PowerColor D6-3DHV2/OC",
+      "price": null,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1620,
+      "color": "Black",
+      "length": 230
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-0904272c2308",
+    "original": {
+      "name": "PowerColor Red Devil Limited Edition",
+      "price": null,
+      "chipset": "Radeon RX 6900 XT",
+      "memory": 16,
+      "core_clock": 1825,
+      "boost_clock": 2340,
+      "color": "Black",
+      "length": 320
+    },
+    "currentExtractorMatches": [
+      "AXRX 6900 XT 16GBD6-2DHCE/OC"
+    ],
+    "closePrimaryCandidates": [
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6900 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_model_capacity_finish",
+        "score": 1.0,
+        "url": "https://www.powercolor.com/product-detail174.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT 16GB GDDR6",
+        "mpn": "AXRX 6900 XT 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.8333333333333334,
+        "url": "https://www.powercolor.com/product-detail175.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2105MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6800 XT 16GB GDDR6 Limited Edition",
+        "mpn": "AXRX 6800 XT 16GBD6-2DHCE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail194.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2090MHz(Game)1up to 2340MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2015MHz(Game)1up to 2250MHz(Boost)2"
+        }
+      },
+      {
+        "model": "Red Devil AMD Radeon™ RX 6900 XT Ultimate 16GB GDDR6",
+        "mpn": "AXRX 6900 XTU 16GBD6-3DHE/OC",
+        "rejection": "exact_variant_name_not_equal",
+        "score": 0.7142857142857143,
+        "url": "https://www.powercolor.com/product-detail172.htm",
+        "dimensions": "320mm*135mm*62 mm332mm*153mm*62 mm(with bracket)",
+        "clocks": {
+          "Engine Clock(OC)": "up to 2235MHz(Game)1up to 2425MHz(Boost)2",
+          "Engine Clock(STD/Silent)": "up to 2135MHz(Game)1up to 2335MHz(Boost)2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "import-gpu-aa634d0aa93e",
+    "original": {
+      "name": "PowerColor ITX 2DH",
+      "price": null,
+      "chipset": "Radeon RX 5700",
+      "memory": 8,
+      "core_clock": 1465,
+      "boost_clock": 1725,
+      "color": "Black",
+      "length": 175
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-392ed9b6da52",
+    "original": {
+      "name": "PowerColor AXRX 5600 ITX 6GBD6-2DH",
+      "price": null,
+      "chipset": "Radeon RX 5600 XT",
+      "memory": 6,
+      "core_clock": 1247,
+      "boost_clock": 1620,
+      "color": "Black",
+      "length": 175
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-5f6315880ff9",
+    "original": {
+      "name": "PowerColor AXRX 5700 8GBD6-M3DH",
+      "price": null,
+      "chipset": "Radeon RX 5700",
+      "memory": 8,
+      "core_clock": 1465,
+      "boost_clock": 1725,
+      "color": "Silver",
+      "length": 270
+    },
+    "currentExtractorMatches": [
+      "AXRX 5700 8GBD6-M3DH"
+    ],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-0cb8e95e4742",
+    "original": {
+      "name": "PowerColor AXRX 5500XT 8GBD6-DH/OC",
+      "price": null,
+      "chipset": "Radeon RX 5500 XT",
+      "memory": 8,
+      "core_clock": 1647,
+      "boost_clock": 1845,
+      "color": "Black",
+      "length": 240
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  },
+  {
+    "id": "import-gpu-a0346ff5d8ac",
+    "original": {
+      "name": "PowerColor D6-DH/OC",
+      "price": null,
+      "chipset": "Radeon RX 5500 XT",
+      "memory": 4,
+      "core_clock": 1607,
+      "boost_clock": 1845,
+      "color": "Black",
+      "length": 240
+    },
+    "currentExtractorMatches": [],
+    "closePrimaryCandidates": []
+  }
+]

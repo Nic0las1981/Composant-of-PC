@@ -1,0 +1,63 @@
+{
+  "id": "import-ssd-153587f6454b",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2 2TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:11+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:11+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification",
+    "sha256": "3dbe739d86af27e46fd18e1bdec32ab705c4a597c089c84b7ca19a0a7edd18d8",
+    "bytes": 64411,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2",
+    "Capacity": "2TB",
+    "Controller": "PHISON E27T / PHISON E33",
+    "Flash Memory": "3D NAND",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4 x4, NVMe 1.4",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)",
+    "Sequential Read up to (MB/s)": "6000",
+    "Sequential Write up to (MB/s)": "5000",
+    "Random Read 4KB up to (IOPS)": "950,000",
+    "Random Write 4KB up to (IOPS)": "950,000",
+    "Maximum Operating Power (W)": "4.5",
+    "Idle Power PS3 (mW)": "50",
+    "Low Power L1.2 (mW)": "5",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "640",
+    "Mean Time Between Failure (MTBF)": "Up to 1,500,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS Support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm End to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nPyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1737102023fd61c4080a398deab322ad3b1db9be1c.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification",
+        "checkedAt": "2026-11-10T14:36:11+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification",
+        "sha256": "3dbe739d86af27e46fd18e1bdec32ab705c4a597c089c84b7ca19a0a7edd18d8",
+        "bytes": 64411,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2",
+      "selectedColumn": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2 2TB"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "review": {
+    "id": "import-mb-b5a2a4eea344",
+    "name": "PRIME B550-PLUS AC-HES",
+    "state": "technical_table_missing",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "checkedAt": "2026-11-10T13:26:09+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "sha256": "d3d738a22ee359b00b7b4aaff620936d929b3a46d69abc65b47ef04ae5dceb48",
+        "bytes": 335585,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "checkedAt": "2026-11-10T13:30:31+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "sha256": "748850be5d46fc232c26b158eff0116e7a3807c678945c23521a75f9300bbc7b",
+        "bytes": 291125,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/",
+        "sha256": "0d3ad771b24fa5ed33c95e493698d902e727cd7ee07d65d2e5a528bd6177a88e",
+        "bytes": 551768,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/ca-en/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "checkedAt": "2026-11-10T14:00:33+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/ca-en/motherboards-components/motherboards/prime/prime-b550-plus-ac-hes/techspec/",
+        "sha256": "2f0b61f8debc5c1a004f1d97b18116658a0fa2641e88d0e29340d93061c2b5f4",
+        "bytes": 275111,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

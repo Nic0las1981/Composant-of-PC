@@ -1,12 +1,13 @@
 import type {Component,CategoryId} from '../data/catalog.ts';
 import type {VerifiedProduct,VerifiedFieldEvidence} from '../data/verifiedTypes.ts';
+import {matchesProductIdentity} from '../data/verifiedTypes.ts';
 import {catalogFieldEvidence} from '../data/catalogFieldEvidence.ts';
 import {isCurrentVerifiedOffer} from './verifiedOffers.ts';
 
 export type CompletionStatus='identity_missing'|'source_missing'|'technical_missing'|'ready';
 export interface TechnicalRequirement {key:string;label:string;componentKey?:keyof Component;rowLabels:string[]}
 export type FieldEvidence=VerifiedFieldEvidence;
-export interface VisualCompletionInput {profileId?:string;fidelity?:string;referenceURLs?:string[];approximateFields?:string[]}
+export interface VisualCompletionInput {profileId?:string;fidelity?:string;referenceURLs?:string[];approximateFields?:string[];inspection?:'visually-inspected'|'manufacturer-catalogue'}
 export interface FieldCompletion {key:string;label:string;state:'missing'|'present_unverified'|'documented'|'conflicting';value?:unknown;proof?:'explicit_patch'|'technical_row'|'supplied_evidence';sourceURLs:string[];sourceScope?:'field'|'record'}
 export interface CompletionSourceMap {fields?:Record<string,string[]>;groups?:Record<string,string[]>}
 const norm=(value:string)=>value.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -32,7 +33,7 @@ export const catalogTechnicalRequirements:Record<CategoryId,TechnicalRequirement
 const aliases:Partial<Record<CategoryId,Record<string,string[]>>>={
  cpu:{socket:['CPU Socket','Processor Socket','Support du processeur'],cores:['Nombre de core','Total Cores','# of CPU Cores'],threads:['Total Threads','# of Threads'],baseClock:['Fréquence CPU','Processor Base Frequency','Base Clock'],boostClock:['Fréquence en mode Turbo','Max Turbo Frequency','Max. Boost Clock'],cache:['Total L3 Cache','L3 Cache'],thermalPower:['Default TDP','Puissance de base du processeur (PBP)'],electricalPower:['Puissance électrique maximale Turbo (MTP)'],memory:['Memory Types'],memoryChannels:['Type de contrôleur mémoire','Max # of Memory Channels'],graphics:['Processor Graphics','Graphics Model']},
  motherboard:{socket:['Support du processeur','Socket de processeur (réceptable de processeur)'],chipset:['Carte mère chipset'],formFactor:['Elément de forme de carte mère','Form Factor'],memorySlots:['Nombre de logements pour mémoire','Memory Slots'],memoryCapacity:['Maximum Memory','Maximum Memory Capacity'],m2:['M.2 Slots'],storagePorts:['Connecteurs Disques','Stockage SATA','Stockage et restrictions','Storage'],pcie:['PCIe','PCIe et partage des lignes','Slots PCIe physiques','Expansion Slots'],rearIO:['Connecteurs panneau arrière','Back Panel Ports','Rear I/O Ports'],internalIO:['Connecteurs additionnels','Internal I/O Connectors','Internal Connectors'],network:['Nombre de ports/Contrôleur Ethernet','Contrôleur de réseau local (LAN)','LAN Controller'],audio:['Audio Codec'],cpuSupport:['Processeurs / socket','Socket et processeurs','CPU'],boardDimensions:['Format et dimensions','Dimensions de la carte mère']},
- gpu:{gpuChip:['Graphics Processing Unit'],vram:['Memory Size','Taille mémoire'],vramType:['Memory Type'],memoryBus:['Memory Bus'],interface:['Interface PCIe','Bus Standard'],length:['Longueur','Length'],height:['Hauteur','Height'],thickness:['Épaisseur','Thickness'],boostClock:['Fréquences constructeur','Fréquence boost maximale déclarée','Boost Clock'],boardPower:['Consommation annoncée de la carte','Power Consumption','Total Board Power'],psu:['Alimentation système recommandée','Recommended PSU'],powerConnectors:['Connecteurs d’alimentation','Connecteur d’alimentation','Power Connectors'],displayOutputs:['Output','Display Outputs'],fans:['Number of Fans']},
+ gpu:{gpuChip:['Graphics Processing Unit','Graphics Engine','Graphic Engine','Graphics Processing','Chipset'],vram:['Memory Size','Taille mémoire'],vramType:['Memory Type','DRAM Type'],memoryBus:['Memory Bus','Memory Interface','Memory Interface Width'],interface:['Interface PCIe','Bus Standard','Bus Support','Card Bus','Bus'],length:['Longueur','Length'],height:['Hauteur','Height'],thickness:['Épaisseur','Thickness'],boostClock:['Fréquences constructeur','Fréquence boost maximale déclarée','Boost Clock','Boost Clock (MHz)','Boost Speed'],boardPower:['Consommation annoncée de la carte','Power Consumption','Total Board Power','Graphics Card Power'],psu:['Alimentation système recommandée','Recommended PSU','Minimum Recommended System Power','Recommended System Power','Minimum Power Supply Requirement','Minimum System Power Requirement (W)'],powerConnectors:['Connecteurs d’alimentation','Connecteur d’alimentation','Power Connectors','Power Connector','Supplementary Power Connectors'],displayOutputs:['Output','Display Outputs','Standard Display Connectors','Connectivity'],fans:['Number of Fans','Ventilateurs']},
  ram:{capacity:['Capacité totale','Capacité du kit','Capacité mémoire','Memory Size','Capacity'],kit:['Nombre de barrettes','Modules','Conception de la mémoire (modules x taille)','Disposition de la mémoire (modules x taille)','Memory Configuration'],generation:['Memory Type','Type'],rate:['Fréquence(s) Mémoire','Norme mémoire','Fréquence','Vitesse','Vitesse d’horloge de la mémoire','Vitesse d’horloge mémoire','Débit de transfert des données de mémoire','Tested Speed'],cas:['CAS Latency','Latence CAS (CL)','Tested Latency'],voltage:['Tension','Voltage','Mémoire de tension','Tension de la mémoire','Tested Voltage','Ces timings sont supportés avec une tension minimale de :','Ces timings sont compatibles avec une tension minimale de'],profile:['Profils supportés','Profil(s) supporté(s)','Performance Profile'],moduleType:['Format mémoire','Type de module mémoire','Module Type'],hostEcc:['ECC','Host ECC','System ECC'],height:['Hauteur avec dissipateur','Module Height'],heatspreader:['Radiateur','Refroidissement','Type de refroidissement','Système de refroidissement','Heat Spreader']},
  storage:{capacity:['SSD, capacité','SSD Capacity','Storage Capacity'],interface:['Interface avec l’ordinateur','Interface interne','SSD Interface'],interfaceGeneration:['Interface avec l’ordinateur','Interface interne','Interface'],formFactor:['Facteur de forme','Facteur de forme du disque SSD','Format de Disque','Form Factor'],read:['Sequential Read','Sequential Read Speed'],write:['Sequential Write','Sequential Write Speed'],nand:['Type de mémoire','Mémoire flash','NAND Flash'],endurance:['Endurance (TBW)','Classement TBW','Total Bytes Written'],warranty:['Limited Warranty','Warranty'],heatsink:['Heatsink']},
  psu:{power:['Puissance continue','Continuous Power','Total Power'],format:['PSU Form Factor'],height:['Hauteur','Height'],width:['Largeur','Width'],depth:['Profondeur','Depth'],atx:['Normes document V1/25','ATX Version'],efficiency:['Norme(s) 80 PLUS / Cybenetics','Efficiency Rating'],modularity:['Modulaire','Modular'],rail12v:['+12V Rail','Combined +12V'],connectors:['Connecteur(s) alimentation','Power Connectors'],fan:['Taille de ventilateur','Fan Size'],protections:['Protection Functions'],warranty:['Warranty','Garantie fabricant','Garantie constructeur']},
@@ -79,11 +80,18 @@ function combinedRow(category:CategoryId,key:string,label:string,value:string):s
   }
   if(l==='refroidissement'&&key==='heatsink'&&/^module nu\b/i.test(value))return value;
  }
- if(category==='gpu'&&l==='memoirevideo'){
-  if(key==='vram'&&(match=v.match(/\b(\d+)\s*(?:Go|GB)\b/i)))return `${match[1]} GB`;
-  if(key==='vramType'&&(match=v.match(/\bGDDR[34567]X?\b/i)))return match[0];
-  if(key==='memoryBus'&&(match=v.match(/\bbus\s*(\d+)\s*bits?\b/i)))return `${match[1]} bits`;
+ if(category==='gpu'){
+  if(['memoirevideo','videosmemory','videomemory','memory','memorysizebus','standardmemoryconfig'].includes(l)){
+   if(key==='vram'&&(match=v.match(/\b(\d+)\s*(?:Go|GB)\b/i)))return `${match[1]} GB`;
+   if(key==='vramType'&&(match=v.match(/\b(?:GDDR[34567]X?|HBM[23]e?|DDR[345])\b/i)))return match[0];
+   if(key==='memoryBus'&&(match=v.match(/\b(\d+)\s*[- ]?bits?\b/i)))return `${match[1]} bits`;
+  }
+  if(['engineclock','coreclocks'].includes(l)&&key==='boostClock'&&/boost/i.test(v)&&/\d+\s*MHz/i.test(v))return v;
+  if(l==='interface'&&key==='displayOutputs'&&/HDMI|DisplayPort|DVI|VGA/i.test(v))return v;
+  if(l==='systemrequirement'&&key==='powerConnectors'&&(match=v.match(/\b\d+\s*[x×]\s*\d+[- ]pin\s+(?:Power )?Connector\.?/i)))return match[0];
+  if(l==='coolertype'&&key==='fans'&&(match=v.match(/^([1-4])\s+Fans?$/i)))return match[1];
  }
+
  return undefined;
 }
 
@@ -106,6 +114,7 @@ function scalarKey(category:CategoryId,key:string,value:string):string{
 }
 function eligibleRow(category:CategoryId,key:string,value:string):boolean{
  if(!present(value))return false;
+ if(category==='gpu'&&key==='interface'&&!/PCI[- ]?(?:e|express)/i.test(value.replace(/[®™]/g,'')))return false;
  if(category==='ram'&&key==='hostEcc'&&/on[ -]?die|sur matrice/i.test(value))return false;
  if(category==='ram'&&key==='moduleType'&&!/\b(?:[ULRSCE]DIMM|non[- ]?enregistree?|unbuffered|unregistered|registered|buffered)\b/i.test(value))return false;
  if(category==='psu'&&key==='efficiency'&&!/(?:bronze|silver|gold|platinum|titanium|80\s*plus|cybenetics|%)/i.test(value))return false;
@@ -119,15 +128,17 @@ const validSource=(url:string,date:string)=>/^https:\/\//.test(url)&&Number.isFi
 
 export function getCatalogCompletion(component:Component,product?:VerifiedProduct,options:{facts?:Record<string,FieldEvidence>;visual?:VisualCompletionInput;now?:number;identityConflict?:boolean;sourceMap?:CompletionSourceMap}={}){
  const mpnKey=(value:string)=>value.trim().toUpperCase();
- const identityKnown=present(component.manufacturerPartNumber)&&!options.identityConflict;
- const identityMatches=identityKnown&&Boolean(product)&&mpnKey(component.manufacturerPartNumber!)===mpnKey(product!.mpn);
+ const identityMatches=!options.identityConflict&&matchesProductIdentity(component,product);
  const sources=identityMatches?product!.sources.filter(s=>validSource(s.url,s.checkedAt)):[];
+ const documentedModel=identityMatches&&product?.identityKind==='manufacturer-model'&&sources.some(source=>source.kind==='manufacturer');
+ const identityKnown=(present(component.manufacturerPartNumber)&&!options.identityConflict)||documentedModel;
  const registeredURLs=sources.map(s=>s.url);
  const scopedURLs=(urls:string[]|undefined)=>urls?.filter(url=>registeredURLs.includes(url))??[];
  const fields:FieldCompletion[]=catalogTechnicalRequirements[component.category].map(requirement=>{
   const base:FieldCompletion={key:requirement.key,label:requirement.label,state:'missing',sourceURLs:[]};
   const reviewed=catalogFieldEvidence[component.id];
   const fact=options.facts?.[requirement.key]??product?.fieldEvidence?.[requirement.key]??(reviewed&&product&&mpnKey(reviewed.mpn)===mpnKey(product.mpn)?reviewed.fields[requirement.key]:undefined);
+  if(identityMatches&&fact&&'conflicting' in fact&&fact.conflicting&&sources.some(source=>source.url===fact.sourceURL)&&validSource(fact.sourceURL,fact.checkedAt))return {...base,state:'conflicting',value:fact.value,proof:'supplied_evidence',sourceURLs:[fact.sourceURL],sourceScope:'field'};
   if(identityMatches&&fact&&sources.some(source=>source.url===fact.sourceURL)&&validSource(fact.sourceURL,fact.checkedAt)&&(present(fact.value)||(fact.notApplicable&&Boolean(fact.reason?.trim()))))return {...base,state:'documented',value:fact.notApplicable?{notApplicable:true,reason:fact.reason}:fact.value,proof:'supplied_evidence',sourceURLs:[fact.sourceURL],sourceScope:'field'};
   const value=requirement.componentKey?component[requirement.componentKey]:undefined;
   if(present(value)){base.value=value;base.state='present_unverified';}
@@ -159,9 +170,9 @@ export function getCatalogCompletion(component:Component,product?:VerifiedProduc
   return base;
  });
  const status:CompletionStatus=!identityKnown?'identity_missing':!identityMatches||!sources.length?'source_missing':fields.some(f=>f.state!=='documented')?'technical_missing':'ready';
- const offers=identityMatches?product!.offers.filter(o=>mpnKey(o.mpn)===mpnKey(product!.mpn)&&isCurrentVerifiedOffer(o,options.now??Date.now())):[];
+ const offers=identityMatches&&product!.mpn&&product!.identityKind!=='manufacturer-model'?product!.offers.filter(o=>mpnKey(o.mpn)===mpnKey(product!.mpn)&&isCurrentVerifiedOffer(o,options.now??Date.now())):[];
  const visual=options.visual;const references=(visual?.referenceURLs??[]).filter(url=>/^https:\/\//.test(url));
- const visualStatus=references.length&&visual?.fidelity==='reconstructed'?'reference_reviewed':references.length?'reference_only':'reference_missing';
+ const visualStatus=references.length&&visual?.fidelity==='reconstructed'&&visual.inspection!=='manufacturer-catalogue'?'reference_reviewed':references.length?'reference_only':'reference_missing';
  const pricing={status:offers.length?'current' as const:identityMatches&&product!.offers.length?'no_current_eligible_offer' as const:'offer_missing' as const,eligibleOffers:offers.length};
- return {id:component.id,status,identity:{mpn:component.manufacturerPartNumber??null,matchedPrimaryRecord:Boolean(identityMatches&&sources.length),manufacturerSource:sources.some(s=>s.kind==='manufacturer'),conflict:Boolean(options.identityConflict)},technical:{documented:fields.filter(f=>f.state==='documented').length,total:fields.length,fields},pricing,visual:{status:visualStatus,profileId:visual?.profileId??null,fidelity:visual?.fidelity??null,referenceURLs:references,approximateFields:visual?.approximateFields??[]},completeForUserRequest:status==='ready'&&pricing.status==='current'&&visualStatus==='reference_reviewed'};
+ return {id:component.id,status,identity:{mpn:component.manufacturerPartNumber??null,manufacturerModel:documentedModel?product!.manufacturerModel:null,kind:documentedModel?'manufacturer-model':present(component.manufacturerPartNumber)?'mpn':'unresolved',matchedPrimaryRecord:Boolean(identityMatches&&sources.length),manufacturerSource:sources.some(s=>s.kind==='manufacturer'),conflict:Boolean(options.identityConflict)},technical:{documented:fields.filter(f=>f.state==='documented').length,total:fields.length,fields},pricing,visual:{status:visualStatus,profileId:visual?.profileId??null,fidelity:visual?.fidelity??null,referenceURLs:references,approximateFields:visual?.approximateFields??[]},completeForUserRequest:status==='ready'&&pricing.status==='current'&&visualStatus==='reference_reviewed'};
 }

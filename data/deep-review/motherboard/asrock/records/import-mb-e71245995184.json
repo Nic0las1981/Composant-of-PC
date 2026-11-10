@@ -1,0 +1,60 @@
+{
+  "review": {
+    "id": "import-mb-e71245995184",
+    "name": "B660M-ITX/eDP",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/B660M-ITXac.pdf",
+          "checkedAt": "2026-11-10T14:11:15+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/B660M-ITXac.pdf",
+          "httpStatus": 200,
+          "sha256": "a9e7d72d85ed539479445ff2b5d1dc5744d820507c23801bd8bae557de408357",
+          "bytes": 4132968,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock B660M-ITX/ac motherboard",
+        "modelNames": [
+          "B660M-ITX/ac"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/H610M-ITXeDP.pdf",
+          "checkedAt": "2026-11-10T14:11:17+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/H610M-ITXeDP.pdf",
+          "httpStatus": 200,
+          "sha256": "85ae55cfbc858b6c39d9a1c2edb2e161a6289e9074fbfaa8e9f1ec97d4ee374c",
+          "bytes": 3613202,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock H610M-ITX/eDP motherboard",
+        "modelNames": [
+          "H610M-ITX/eDP"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/B660M-STX.pdf",
+          "checkedAt": "2026-11-10T14:11:18+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/B660M-STX.pdf",
+          "httpStatus": 200,
+          "sha256": "da0e41c49a114dc828ead581f71cbd4d69d3303ac6780b6503accc6021870315",
+          "bytes": 2745384,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:12+00:00",
+      "url": "https://download.asrock.com/Manual/B660M-ITXeDP.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

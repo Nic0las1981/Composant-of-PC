@@ -1,0 +1,49 @@
+{
+  "review": {
+    "id": "import-mb-615870265322",
+    "name": "TUF B350M-PLUS GAMING",
+    "state": "primary_manual_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/TUF_B360M-PLUS_GAMING/E13794_TUF_B360M-PLUS_GAMING_UM_web.pdf",
+          "checkedAt": "2026-11-10T14:09:24+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/TUF_B360M-PLUS_GAMING/E13794_TUF_B360M-PLUS_GAMING_UM_web.pdf",
+          "httpStatus": 200,
+          "sha256": "e1b7dab68fa62e8487a06c40644ced250bb38d9efb68fbdc760445283bb0166a",
+          "bytes": 1250763,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM TUF B360M-PLUS GAMING"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_B450M-PLUS_GAMING/E14211_TUF_B450M-PLUS_GAMING_UM_WEB.pdf",
+          "checkedAt": "2026-11-10T14:09:25+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_B450M-PLUS_GAMING/E14211_TUF_B450M-PLUS_GAMING_UM_WEB.pdf",
+          "httpStatus": 200,
+          "sha256": "5f01fd784f3156d388cebd3f3ef6dce75480caa9dead7037c0531c4464c29570",
+          "bytes": 3082722,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM TUF B450M-PLUS GAMING"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550M-PLUS/E17265_TUF_GAMING_B550M-PLUS_UM_v2_WEB.pdf?model=TUF+GAMING+B550M-PLUS",
+          "checkedAt": "2026-11-10T14:09:28+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550M-PLUS/E17265_TUF_GAMING_B550M-PLUS_UM_v2_WEB.pdf?model=TUF+GAMING+B550M-PLUS",
+          "httpStatus": 200,
+          "sha256": "eb31b351974ce557a94b51fb7373bff27224aea39b58c9d78decd4916d740b35",
+          "bytes": 2374505,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM TUF GAMING B550M-PLUS"
+      }
+    ]
+  },
+  "product": null
+}

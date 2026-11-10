@@ -1,0 +1,246 @@
+{
+  "review": {
+    "id": "import-mb-e717e29c91cb",
+    "name": "X570GTA",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+          "checkedAt": "2026-11-10T13:46:34+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20191025.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191009_3.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191009_4.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191025_1.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "963",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X570GTA",
+    "identityNote": "Modèle Biostar X570GTA confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X570GTA",
+      "detailLevel": "partial",
+      "maxMemoryGB": 128
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X570GTA — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd and 2nd Gen Ryzen/3rd, 2nd and 1st Gen Ryzen with Radeon Vega Graphics Processors\n \nSupports AMD AM4 Socket for 4th Gen (Vermeer) processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2667\n \nSupports Dual Channel DDR4 2933(OC)/ 3200(OC)/ 3600(OC)/ 4000+(OC) \n \n4 x DDR4 DIMM Memory Slot, Max. Supports up to 128 GB Memory \n \nEach DIMM supports non-ECC and ECC Un-buffered 8/ 16/ 32 GB DDR4 module\n \n* DDR4 - 2667 only for Ryzen CPU\n \n* Please refer to www.biostar.com.tw for Memory support list"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA III Connector (6Gb/s): Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (Key M) Slot : \n \nSupports SATA III (6.0Gb/s) SSD \n \nSupports PCI-E 4.0 x4 (64Gb/s) speed, which depends only on Ryzen 3rd Gen Matisse\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC887\n \n7.1 Channels, High Definition Audio"
+          },
+          {
+            "label": "USB",
+            "value": "8x USB 3.1 Gen1 (5Gb/s) port (4 on rear I/Os and 4 via internal headers)\n \n6x USB 2.0 port (2 on rear I/Os and 4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCIe 3.0 x1 Slot\n \n1x PCIe 3.0 x16 Slot: Supports x4 mode (PEX16_2) : \n \nSupports x4 lanes with AMD® Ryzen™ 2nd and 3rd Gen processors\n \n1x PCIe 4.0 x16 Slot (PEX16_1)* Note : \n \nSupports x16 (x16, x8) lanes with AMD® Ryzen™ 2nd and 3rd Gen processors\n \nSupports x8 lanes with AMD® Ryzen™ with Radeon Vega Graphics processors\n \n* According to different CPUs will have different speeds\n \n* Note: PCIe 4.0 speed only for AMD® Ryzen™ 3rd Gen Matisse \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1x PS/2 Keyboard Port\n \n1x HDMI® Port\n \n1x VGA Port\n \n1x LAN port\n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n2x USB 2.0 Port\n \n3x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "6x SATA III (6.0Gb/s) Connectors\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports)\n \n1x 8-Pin Power Connector \n \n1x 24-Pin Power Connector\n \n1x CPU Fan Connector \n \n1x System Fan Connector \n \n1x System Fan Connector (Southbridge Heatsink Fan Header : This connector is only available for Southbridge Heatsink Fan) \n \n1x Front Panel Header\n \n1x Front Audio Header \n \n1x Clear CMOS Header\n \n1x COM Port Header \n \n2x LED Header (12V/ 5V)"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor Dimension: 305mm x 243mm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice"
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT EVO Utility\nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x User Manual"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\nSupports Solid capacitor\nA.I FAN\nIron Slot Protection\nPCIe M.2 4.0"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191025.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191009_3.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191009_4.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191025_1.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor Dimension: 305mm x 243mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor Dimension: 305mm x 243mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA III Connector (6Gb/s): Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (Key M) Slot : \n \nSupports SATA III (6.0Gb/s) SSD \n \nSupports PCI-E 4.0 x4 (64Gb/s) speed, which depends only on Ryzen 3rd Gen Matisse\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "pcie": {
+        "value": "2x PCIe 3.0 x1 Slot\n \n1x PCIe 3.0 x16 Slot: Supports x4 mode (PEX16_2) : \n \nSupports x4 lanes with AMD® Ryzen™ 2nd and 3rd Gen processors\n \n1x PCIe 4.0 x16 Slot (PEX16_1)* Note : \n \nSupports x16 (x16, x8) lanes with AMD® Ryzen™ 2nd and 3rd Gen processors\n \nSupports x8 lanes with AMD® Ryzen™ with Radeon Vega Graphics processors\n \n* According to different CPUs will have different speeds\n \n* Note: PCIe 4.0 speed only for AMD® Ryzen™ 3rd Gen Matisse \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "rearIO": {
+        "value": "1x PS/2 Keyboard Port\n \n1x HDMI® Port\n \n1x VGA Port\n \n1x LAN port\n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n2x USB 2.0 Port\n \n3x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "internalIO": {
+        "value": "6x SATA III (6.0Gb/s) Connectors\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports)\n \n1x 8-Pin Power Connector \n \n1x 24-Pin Power Connector\n \n1x CPU Fan Connector \n \n1x System Fan Connector \n \n1x System Fan Connector (Southbridge Heatsink Fan Header : This connector is only available for Southbridge Heatsink Fan) \n \n1x Front Panel Header\n \n1x Front Audio Header \n \n1x Clear CMOS Header\n \n1x COM Port Header \n \n2x LED Header (12V/ 5V)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "network": {
+        "value": "RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "audio": {
+        "value": "ALC887\n \n7.1 Channels, High Definition Audio",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd and 2nd Gen Ryzen/3rd, 2nd and 1st Gen Ryzen with Radeon Vega Graphics Processors\n \nSupports AMD AM4 Socket for 4th Gen (Vermeer) processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:34+00:00"
+      }
+    }
+  }
+}

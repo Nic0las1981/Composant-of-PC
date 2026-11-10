@@ -1,0 +1,173 @@
+{
+  "id": "import-ssd-eb1372b0d38f",
+  "brand": "Acer",
+  "manufacturerModel": "Predator GM7000 PCIe4.0 M.2 SSD 2 TB",
+  "source": {
+    "name": "Acer / BIWIN — fiche officielle, capacité exacte",
+    "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/",
+    "checkedAt": "2026-11-10T14:36:41+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/",
+    "checkedAt": "2026-11-10T14:36:41+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/",
+    "sha256": "7ab858a5654643a82a4b977bc74b374b8b0b9cf409d15d54c25a18394ffe0c13",
+    "bytes": 87021,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "Predator GM7000 PCIe4.0 M.2 SSD",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen 4.0 x 4, NVMe 1.4",
+    "Capacity": "2 TB",
+    "DRAM Cache": "2 GB",
+    "Sequential Read speed": "7400 MB/s",
+    "Sequential Write speed": "6700 MB/s",
+    "Max. Random Read Speed (IOPS)": "1300 K",
+    "Max. Random Write Speed (IOPS)": "1100 K",
+    "Operating Power Consumption(Read)": "5.09 W",
+    "Operating Power Consumption (Write)": "6.27 W",
+    "Idle Power Consumption": "1.09 W",
+    "Operating Temperature": "0 ℃ to 70 ℃ / 32 ℉ to 158 ℉",
+    "Non-operating Temperature": "-40 °C to 85 °C / -40 °F to 185 °F",
+    "Warranty": "5-Year / 1500 TBW"
+  },
+  "images": [
+    "https://www.predatorstorage.com/wp-content/uploads/2024/12/4TB-1024x1024.png"
+  ],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/",
+        "checkedAt": "2026-11-10T14:36:41+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/",
+        "sha256": "7ab858a5654643a82a4b977bc74b374b8b0b9cf409d15d54c25a18394ffe0c13",
+        "bytes": 87021,
+        "status": "fetched"
+      },
+      "title": "Predator GM7000 PCIe4.0 M.2 SSD",
+      "publishedCapacities": [
+        512,
+        1000,
+        2000,
+        4000
+      ]
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "GM7000 M.2 SSD adopts a 12 nm controller with a compact PCB layout specifically to achieve lower power consumption and temperatures. Additionally, the GM7000 features a custom-made graphene-laced foam pad featuring higher thermal conductivity, dissipating heat and reducing operating temperature significantly (by about 18°C)– even under heavy workloads. Better heat management makes the GM7000 SSD more reliable, and with that stability comes better speed."
+  },
+  "additionalSources": [
+    {
+      "name": "Predator / BIWIN — GM7000 sans radiateur, PDF mars 2026, page 2",
+      "url": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "checkedAt": "2026-11-10T14:45:43+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "additionalGroups": [
+    {
+      "title": "PDF constructeur GM7000 — capacité exacte, page 2",
+      "rows": [
+        {
+          "label": "Interface et protocole",
+          "value": "PCIe Gen 4.0 x 4, NVMe 1.4"
+        },
+        {
+          "label": "Weight",
+          "value": "9.8 g ± 1 g"
+        },
+        {
+          "label": "MTBF",
+          "value": "≤ 1,500,000 hours"
+        },
+        {
+          "label": "Operating Temperature",
+          "value": "0 °C to 70 °C"
+        },
+        {
+          "label": "Non-operating Temperature",
+          "value": "-40 °C to 85 °C"
+        },
+        {
+          "label": "Shock Resistance",
+          "value": "1500 G / 0.5 ms"
+        },
+        {
+          "label": "Vibration Resistance",
+          "value": "6.0667G RMS (20–2000 Hz)"
+        },
+        {
+          "label": "Certifications",
+          "value": "CE, FCC, RoHS, BSMI, KCC, VCCI, RCM"
+        },
+        {
+          "label": "Cache DRAM",
+          "value": "2 GB"
+        },
+        {
+          "label": "Lecture séquentielle",
+          "value": "7400 MB/s"
+        },
+        {
+          "label": "Écriture séquentielle",
+          "value": "6700 MB/s"
+        },
+        {
+          "label": "Max. Random Read Speed",
+          "value": "1300 K IOPS"
+        },
+        {
+          "label": "Max. Random Write Speed",
+          "value": "1100 K IOPS"
+        },
+        {
+          "label": "Operating Power Consumption (Read)",
+          "value": "5.09 W"
+        },
+        {
+          "label": "Operating Power Consumption (Write)",
+          "value": "6.27 W"
+        },
+        {
+          "label": "Idle Power Consumption",
+          "value": "1.09 W"
+        },
+        {
+          "label": "Dimensions constructeur",
+          "value": "80.00 x 22.00 x 5.90 mm (Double side)"
+        },
+        {
+          "label": "Garantie limitée",
+          "value": "5-Year / 1500 TBW"
+        }
+      ]
+    }
+  ],
+  "patch": {
+    "lengthMm": 80,
+    "widthMm": 22,
+    "heightMm": 5.9
+  },
+  "extraFieldEvidence": {
+    "length": {
+      "value": 80,
+      "sourceURL": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "checkedAt": "2026-11-10T14:45:43+00:00"
+    },
+    "width": {
+      "value": 22,
+      "sourceURL": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "checkedAt": "2026-11-10T14:45:43+00:00"
+    },
+    "height": {
+      "value": 5.9,
+      "sourceURL": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "checkedAt": "2026-11-10T14:45:43+00:00"
+    }
+  }
+}

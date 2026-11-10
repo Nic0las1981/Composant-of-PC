@@ -1,0 +1,286 @@
+{
+  "review": {
+    "id": "mb-b650e-strix-f",
+    "name": "ROG STRIX B650E-F GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "sha256": "c9234fb51f79f91c4a709ef51e397a0c9ff62600d263d814d1605bb9d0abbf5b",
+        "bytes": 222998,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX B650E-F GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/566A4DF8-85E5-4958-9CEE-21F4629E53AB"
+    ],
+    "sections": [
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "90MB1BQ0-M0EAY1",
+    "identityNote": "Modèle ASUS ROG STRIX B650E-F GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "LDLC",
+        "url": "https://www.ldlc.com/fiche/PB00521000.html",
+        "checkedAt": "2026-11-10T08:45:34.041Z",
+        "kind": "retailer"
+      },
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "maxMemoryGB": 192,
+      "maxMemoryPerSlotGB": 48,
+      "manufacturerPartNumber": "90MB1BQ0-M0EAY1",
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AM5 Socket for AMD Ryzen™ 9000& 8000 & 7000 Desktop Processorss*\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B650"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 192GB, DDR5 8000+(OC)/7800(OC)/7600(OC)/7200(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/ 6200(OC)/\n6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 ECC and Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports AMD EXTended Profiles for Overclocking (EXPO™)\nOptiMem II\n* Supported memory types, data rate(Speed), and number of DRAM module vary depending on the CPU and memory configuration, for more information refer to www.asus.com for memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort*\n1 x HDMI® port**\n* Supports max. 8K@60Hz as specified in DisplayPort 1.4. \n**Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot\n\nAMD Ryzen™ 8000 Series Desktop Processors1 x PCIe 4.0 x16 slot (support x8/x4 mode)*\n\nAMD B650 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)**\n2 x PCIe 4.0/3.0 x1 slots\n*Specification vary by CPU types.*\n** PCIe 4.0 x16 slot (supports x4 mode) from AMD B650 Chipset shares bandwidth with M.2_3."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\n\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280(supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280(supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4/x2 mode)**\n\nAMD B650 Chipset\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)***\n4 x SATA 6Gb/s port\n\n* AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** Specification vary by CPU types.\n*** M.2_3 slot shares bandwidth with PCIe 4.0 x16 slot (supports x4 mode) When M.2_3 slot is operating in PCIe mode, PCIe 4.0 x16 slot will be disabled."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.2\n* Wi-Fi 6E 6GHz regulatory may vary between countries, and function will be\nready in Windows 11 or later."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 12 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n4 x USB 3.2 Gen 1 port (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers supports additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n - Impedance sense for front and rear headphone outputs\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\nAudio Features\n- SupremeFX Shielding Technology \n- Savitech SV3H712 AMP\n- Premium audio capacitors\n- Audio cover"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® I225-V 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers supports additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™header\n1 x COM_DEBUGheader"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme Engine Digi+\n- 5K Black Metallic Capacitors \nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-LED\n- Q-DIMM\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- ProCool\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- GameFirst VI\n- ROG CPU-Z\n- Sonic Studio III + Sonic Studio Virtual Mixer + Sonic Suite Companion\n- Sonic Radar III\n- DTS® Sound Unbound \n- Anti-virus software\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (60 days free trial) \n- AURA Creator\n- AURA Sync\n- Fan Xpert 4\n- Power Saving\n- Two-Way AI Noise Cancellation\nAI Suite 3\n- TPU\n- DIGI+ VRM\n- Turbo app\n- PC Cleaner\nMyAsus\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nFlexKey"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nAdditional Cooling Kit\n1 x Thermal pad for M.2\nMiscellaneous\n1 x ASUS Wi-Fi moving antennas \n1 x Cable ties pack\n1 x M.2 Q-Latch package\n1 x ROG key chain\n1 x ROG Strix stickers\n1 x ROG Strix thank you card\n2 x M.2 Rubber Packages\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit, Windows® 11 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/566A4DF8-85E5-4958-9CEE-21F4629E53AB"
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "retailer": "LDLC",
+        "seller": "LDLC",
+        "url": "https://www.ldlc.com/fiche/PB00521000.html",
+        "productName": "ASUS ROG STRIX B650E-F GAMING WIFI",
+        "mpn": "90MB1BQ0-M0EAY1",
+        "amount": 324.95,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "discontinued",
+        "priceKind": "last_known",
+        "shipping": null,
+        "shippingNote": "Frais de livraison non renseignés ; total livré à confirmer.",
+        "checkedAt": "2026-11-10T08:45:34.041Z"
+      }
+    ],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "chipset": {
+        "value": "AMD B650",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\n\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280(supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280(supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4/x2 mode)**\n\nAMD B650 Chipset\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)***\n4 x SATA 6Gb/s port\n\n* AMD RAID Xpert Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.\n** Specification vary by CPU types.\n*** M.2_3 slot shares bandwidth with PCIe 4.0 x16 slot (supports x4 mode) When M.2_3 slot is operating in PCIe mode, PCIe 4.0 x16 slot will be disabled.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot\n\nAMD Ryzen™ 8000 Series Desktop Processors1 x PCIe 4.0 x16 slot (support x8/x4 mode)*\n\nAMD B650 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)**\n2 x PCIe 4.0/3.0 x1 slots\n*Specification vary by CPU types.*\n** PCIe 4.0 x16 slot (supports x4 mode) from AMD B650 Chipset shares bandwidth with M.2_3.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® I225-V 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers supports additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™header\n1 x COM_DEBUGheader",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5GHz frequency band\nBluetooth v5.2\n* Wi-Fi 6E 6GHz regulatory may vary between countries, and function will be\nready in Windows 11 or later.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n - Impedance sense for front and rear headphone outputs\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\nAudio Features\n- SupremeFX Shielding Technology \n- Savitech SV3H712 AMP\n- Premium audio capacitors\n- Audio cover",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM5 Socket for AMD Ryzen™ 9000& 8000 & 7000 Desktop Processorss*\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:25:58+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX B650E-F GAMING WIFI"
+  }
+}

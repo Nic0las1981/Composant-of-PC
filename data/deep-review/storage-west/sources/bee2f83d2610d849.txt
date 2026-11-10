@@ -1,0 +1,114 @@
+                                                           Client SSDs
+           Leveraging state-of-the-art BiCS FLASH™ 3D flash memory with in-house designed controllers and firmware,
+           KIOXIA client SSDs come in a variety of form factors. They also offer a variety of capacities, performance and
+           security options, and are well-suited for mobile computing, desktop PCs and workstations.
+
+
+
+
+                                                M.2 2280               M.2 2280                       M.2 2230                 M.2 2280
+
+                                             XG6 Series          XG6-P Series                                BG5 Series
+                                                   PCIe® / NVMe™ SSD                                      PCIe® / NVMe™ SSD
+
+
+                                                                  Product image may differ from the actual product.
+
+
+
+
+XG6 Series
+Utilizing 96-layer BiCS FLASH™ 3D flash memory, the XG6 Series is available in an M.2 2280, single-sided form factor with a PCIe® Gen3 x4 interface, supporting the NVMe™
+command set. This provides a powerful combination power efficiency and high performance, consuming 4.7 W or less with over 3,000 MB/s sequential read performance,
+respectively. The XG6 Series offers a Self-encrypting Drive (SED) option that supports TCG Opal version 2.01, under a different model number.
+                                                                         *1                                             *2                                            *3
+                                                                                       Performance (up to)                   Typical Power Operating      Dimensions       Typical   Power Supply
+                  Security                                 User Capacity
+Model Number                 Interface    Form Factor                         Sequential Read        Sequential Write        Consumption Temperature      H/W/L           Weight      Voltage
+                  Feature                                      (GB)
+                                                                                  (MB/s)                 (MB/s)                   (W)        (˚C)            (mm)            (g)         (V)
+
+KXG60ZNV256G                                                    256                3,050                  1,550                  4.0                                        7.0
+
+                              PCIe®                                                                                                                      2.23max / 22 /
+KXG60ZNV512G         −                     M.2 2280             512                3,100                  2,800                  4.1         0 to 85                                      3.3
+                             Gen3 x4                                                                                                                          80
+                                                                                                                                                                            7.3
+KXG60ZNV1T02                                                   1,024               3,180                  2,960                  4.7
+
+
+
+
+XG6-P Series
+Utilizing 96-layer BiCS FLASH™ 3D flash memory, the XG6-P Series is available in capacities up to 2,048 GB and has higher sequential write bandwidth than the previous
+generation. This series is designed for high-end workstations, gaming systems and for cost-optimized composable data center infrastructures. The XG6-P Series offers a
+Self-encrypting Drive (SED) option that supports TCG Opal version 2.01, under a different model number.
+                                                                         *1                                             *2                                            *3
+                                                                                       Performance (up to)                   Typical Power Operating      Dimensions       Typical   Power Supply
+                  Security                                 User Capacity
+ Model Number                Interface    Form Factor                         Sequential Read        Sequential Write        Consumption Temperature      H/W/L           Weight      Voltage
+                  Feature                                      (GB)
+                                                                                  (MB/s)                 (MB/s)                   (W)        (˚C)            (mm)            (g)         (V)
+
+                               PCIe®                                                                                                                     2.23max / 22 /
+KXG60PNV2T04         −                     M.2 2280            2,048               3,180                  2,920                  4.7          0 to 85                        7.3          3.3
+                              Gen3 x4                                                                                                                         80
+
+
+
+
+                                                                                                                                   Copyright © 2021 KIOXIA Europe GmbH. All rights reserved.
+                                                                                                                                              Client SSD | Data Sheet | Rev. 2.0 | Version 11/2021
+   BG5 Series
+   In a compact form factor and based on 112- layer BiCS FLASH™ 3D flash memory, the BG5 Series is designed for thin and light performance-oriented use cases, such as
+   ultra-mobile PCs, IoT devices and data center server boot. Available in capacities up to 1,024 GB, this series features Host Memory Buffer (HMB), PCIe® Gen4 x4 interface
+   and supports the NVMe™ command set. The BG5 Series offers a Self-encrypting Drive (SED) option that supports TCG Opal version 2.01, under a different model number.
+                                                                                         *1                                              *2                                                  *3
+                                                                                                          Performance (up to)                 Typical Power Operating           Dimensions        Maximum      Power Supply
+                           Security                                       User Capacity
+    Model Number                        Interface      Form Factor                             Sequential Read        Sequential Write        Consumption Temperature           H/W/L             Weight        Voltage
+                           Feature                                            (GB)
+                                                                                                   (MB/s)                 (MB/s)                   (W)        (˚C)                 (mm)             (g)            (V)
+
+   KBG50ZNS256G                                                                256                   3,400                  1,900                  4.0                                               2.8
+
+                                          PCIe®                                                                                                                                 2.23max / 22
+   KBG50ZNS512G                -                         M.2 2230              512                                          2,700                  4.1            0 to 85                            2.9             3.3
+                                         Gen4 x4                                                                                                                                    / 30
+                                                                                                     3,500
+   KBG50ZNS1T02                                                               1,024                                         2,900                  4.3                                               3.0
+
+
+   KBG50ZNV256G                                                                256                   3,400                  1,900                  4.0                                               5.8
+
+                                          PCIe®                                                                                                                                 2.23max / 22
+   KBG50ZNV512G                -                         M.2 2280              512                                          2,700                  4.1            0 to 85                            5.9             3.3
+                                         Gen4 x4                                                                                                                                    / 80
+                                                                                                     3,500
+   KBG50ZNV1T02                                                               1,024                                         2,900                  4.3                                               6.0
+
+
+
+
+*1 : Definition of capacity: KIOXIA defines a megabyte (MB) as 1,000,000 bytes, a gigabyte (GB) as                 All information provided in this catalog is subject to change without any prior notice. For the latest and
+    1,000,000,000 bytes and a terabyte (TB) as 1,000,000,000,000 bytes. A computer operating system,however,       detail specification, please send an inquiry through the “Contact us” form in each region’s website,
+     reports storage capacity using powers of 2 for the definition of 1GB = 2^30 = 1,073,741,824 bytes             https://business. kioxia.com/
+     and therefore shows less storage capacity. Available storage capacity (including examples of various
+     media files) will vary based on file size, formatting, settings, software and operating system, such as       Product availability may vary by country. Please contact your local KIOXIA support for further information.
+     Microsoft Operating System and/or pre-installed software applications, or media content. Actual formatted
+     capacity may vary.                                                                                            The following trademarks, service and/or company names – PCIe, PCI-SIG, NVMe, NVM Express, Inc. – are
+*2 : Read and write speed may vary depending on various factors such as host devices, software (drivers, OS        not applied, registered, created and/or owned by KIOXIA Europe GmbH or by affiliated KIOXIA group compa-
+     etc.), and read/write conditions.                                                                             nies. However, they may be applied, registered, created and/or owned by third parties in various jurisdictions
+*3 : Dimensions represent the nominal values.                                                                      and therefore protected against unauthorized use.
+
+- Optional security feature compliant drives are not available in all countries due to export control and local
+  regulations.
+
+
+
+
+                                                                                                                                                         Copyright © 2021 KIOXIA Europe GmbH. All rights reserved.
+                                                                                                                                                                   Client SSD | Data Sheet | Rev. 2.0 | Version 11/2021
+
+business.kioxia.com
+

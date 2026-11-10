@@ -1,0 +1,1924 @@
+Title: ST50F-ES / ST40F-ES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-ST50-40F-EF-Manual.pdf
+Published: N/A
+Author: jacky
+Highlights:
+High efficiency with 80Plus certification 24hour continuous power output with 40 C operating temperature Class-leading single +12V rail Multiple protection circuitry Silent running 120mm fan with 18dBA PCI-E 8pin and PCI-E 6pin connector support ATX 12V 2.3 support Active PFC circuitry
+
+### Power for everything you need
+
+November, 2009 NO.G1121
+
+## ST50F-ES / ST40F-ES
+
+#### Strider Essential Series
+
+o
+
+| | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| | | | | Strider Essential Series | |
+| 1.GENERSAL 1.1. Scope This specification defines the performance characteristics of a single phase 500 and 400 watts, 5 output power supply. This specification also defines worldwide safety and electromagnetic compatibility requirements for the power supply which is intended for use in computer products. 2.INPUT CHARACTERISTICS 2.1. Input Voltage 2.1.1 ST50F-ES | SPECIFICATION SilverStone Essential Plus ST50F-ES ST40F-ES ATX12V 2.3 Switching Power Supply With Active PFC PS/2 Nominal Voltage | Voltage Variation Range | 2.2 Input Frequency 2.2.1 ST50F-ES Nominal Frequency 50-60 Hz 2.2.2 ST40F-ES Nominal Frequency 50-60 Hz * The power supply must operate at above frequency with 103.5 - 253VACrms input voltage range. 2.3 Max. Input AC Current 2.3.1 ST50F-ES Max. Input Current 6.5A 2.3.2 ST40F-ES Max. Input Current 5.5A | Frequency Variation Range 47 Hz to 63 Hz Frequency Variation Range 47 Hz to 63 Hz Measuring Range 103.5 - 253 Vrms Measuring Range 103.5 - 253 Vrms | |
+| 2.1.1 ST40F-ES | 115-230 Vrms Nominal Voltage | 103.5 - 253 Vrms Voltage Variation Range | 2.4 Inrush Current The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and over the specified | | |
+| | 115-230 Vrms | 103.5 - 253 Vrms | temperature range. The peak inrush current shall be less than the ratings of its critical components (including input fuse, bulk rectifiers, and surge limiting device). | | |
+| 01 | | | | | 02 |
+| | | | | | |
+
+ST50F-ES, ST40F-ES provides an efficiency of >80% when measured at full load under 115V/60Hz and 230V/50Hz condition.
+
+Maximum continuous total DC output power should not exceed 500W. 
+Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 120W. 
+Maximum combined load on +12V outputs shall not exceed 400W. 
+When the 12V output is maximum rating, 5V must reach 3A, the output voltage 
+can be within the specification. 
+When the 5V output is maximum rating, 12V output rating must reach 11A, the 
+output voltage can be within the specification. 
+Output 
+Voltage 
+1. +5V 0.2A 
+2. +3.3V 0.1A 
+4. +12V 
+5. -12V 
+6. +5Vs 
+
+0.6A 
+0.0A 
+0.0A 
+20.0A 
+24.0A 
+34.0A 
+0.3A 
+2.5A 
+
+±5% ±5% ±5% ±10% ±5%
+
+100mV 
+100mV 
+150mV 
+150mV 
+100mV 
+
+Load 
+MIN Peak Regulation Range 
+MAX 
+
+Ripple P-P Max
+
+##### 2.5 Efficiency
+
+3.1 Normal Operation Output 
+3.1.1 ST50F-ES 
+
+#### 3. OUTPUT CHARACTERISTICS
+
+##### Strider Essential Series STRIDER ST1000 STRIDER ST1000-NV
+
+Maximum continuous total DC output power should not exceed 400W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 300W. When the 12V output is maximum rating, 5V must reach 3A, the output voltage can be within the specification. When the 5V output is maximum rating, 12V output rating must reach 9A, the output voltage can be within the specification. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+The PSON# signal is required to remotely turn on/off the power supply, PSON# is an active low signal that turns on the output power rails. When this is not pulled low by the system, or left open, the outputs (except the +5VSB) turn off. This signal is pulled to a standby voltage by a pull-up resistor internal to the power supply.
+
+TTL level "H" 2.0 V - 5.25 V "L" 0.0 V – 1.0 V
+
+Output 
+Voltage 
+1. +5V 0.2A 
+2. +3.3V 0.1A
+
+...
+
++12V 
+5. -12V 
+6. +5Vs
+
+...
+
+5. ... 6. ENVIRONMENTS 6.1 Temperature and Humidity 6.1.1 Operating o Temperature 0 to 40 C Relative Humidity 20 to 90 % 6.1.2 Storage o Temperature -40 to 70 C Relative Humidity 20 to 95 % noncondensing 6.2 Altitude The power supply can operate normally at any altitude between 0 to 10000 feet.
+
+---
+
+Title: ST85F-PT
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st85f-pt-manual.pdf
+Published: N/A
+Author: oscar.chen
+Highlights:
+#### ST85F-PT
+
+##### STRIDER PLATINUM SERIES
+
+World’s smallest 80 PLUS Platinum, full-modular ATX power supplies
+
+High efficiency with 80 PLUS Platinum certification Compact design with a depth of 140mm for easy integration 100% modular cables 24/7 continuous power output with 40℃ operating temperature Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise Ultra silent 120mm fan with intelligent semi-fanless operation
+
+o
+
+### SPECIFICATION
+
+## SilverStone Strider Platinum
+
+## SST-ST85F-PT
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Platinum PS/2
+
+1.1 Scope
+
+This specification defines the performance characteristics of a single phase 750, 650, 550 watts, 5 output power supply. This specification also defines worldwide safety and electromagnetic compatibility requirements for the power supply which is intended for use in computer products.
+
+Nominal Voltage 100-240 Vrms
+
+Voltage Variation Range 90 - 264 Vrms
+
+1. General
+
+2.1 Input Voltage
+
+2.2 Input Frequency
+
+* The power supply must operate at above frequency with 90-264 VACrms input voltage range.
+
+2. Input Characteristics
+
+Nominal Frequency 50-60 Hz
+
+Frequency Variation Range 47 Hz to 63 Hz
+
+2.3 Max. Input AC Current
+
+3.1 Normal Operation Output
+
+3. Output characteristics
+
+Max. Input Current
+
+2.4 Inrush Current 
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase 
+of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and 
+over the specified temperature range. The peak inrush current shall be less than the ratings of its critical 
+components (including input fuse, bulk rectifiers, and surge limiting device). 
+2.5 Efficiency 
+ST85F-PT provides an efficiency of 90% minimum when measured at 20% load , provides an efficiency of 92% 
+minimum when measured at 50% load, provides an efficiency of 89% minimum when measured at 100% load, 
+under 115V/60Hz and 230V/50Hz condition. 
+
+Maximum continuous total DC output power should not exceed 850W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 850W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+3.2 Remote On/Off Controlled mode 
+The PSON# signal is required to remotely turn on/off the power supply, PSON# is an active low signal that 
+turns on the output power rails. When this is not pulled low by the system, or left open, the outputs (except 
+the +5VSB) turn off. This signal is pulled to a standby voltage by a pull-up resistor internal to the power 
+supply. 
+TTL level "H" 2.0 V – 5.25 V 
+"L" 0.0 V – 1.0 V 
+
+12A
+
+Measuring Range 90 - 264 Vrms
+
+Output Voltage 
+1. +5V 
+2. +12V 
+3. –12V 
+4. +5Vs 
+5. +3.3V 
+
+Load MIN 
+0.2A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+70.9A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.5 Hold-up Time
+
+3.3 Regulation The cross regulation defined as follows, the output regulation should be within the specified range.
+
+3.4 Rise Time DC output rise time is less than 20 mS at nominal line and full load.
+
+DC +5V, +3.3V ,12V output maintains at least 16mS after power off which hold within 70% loads under 230V/50Hz condition.
+
+3.6 5VSB 
+5VSB is requierd for the implementation of PS-ON described above. 5VSB is a standby voltage that may 
+be used to power circuits that require power input during the powered-down state of all power rails. The 
+5 VSB pin should deliver 5V ±5% at a minimum of 3.0 A for PC board circuits to operate. Conversely, PC 
+board should draw no more than 3.0A maximum form this pin. This power may be used to operate circuits 
+such as soft power control. 
+
+Load Light Load. Typical Load Full Load
+
++5V 2.49A 6.22A 12.43A +3.3V 2.49A 6.22A 12.43A +12V 12.18A 30.45A 60.90A -12V 0.05A 0.13A 0.26A +5Vsb 0.52A 1.29A 2.58A
+
+...
+
+4.1 Input Protection
+
+The +5V/+12V/+3.3V DC output are protected against the under voltage condition . range value can't be exceed 3.3~3.7V at 5V terminal and 8.5~9.5V at 12V, 2.0~2.4V at 3.3V.
+
+4.2 Output Protection
+
+4.2.1 Under voltage protection
+
+The +12V/ DC output are protected against the over voltage condition . Maximum value can't be over 15.5V at 12V.
+
+4.2.2 Over Voltage Protection
+
+...
+
+6.1 Temperature and Humidity
+
+6. Environments
+
+6.1.1 Operating Temperature 0 to 40C Relative Humidity 20 to 90 %
+
+o
+
+Frequency 5-55-10 Hz
+
+Duration 30 minutes
+
+Amplitude 0.35 mm
+
+6.2 Altitude The power supply can operate normally at any altitude between 0 to 10000 feet.
+
+...
+
+8.1 Safety Requirement
+
+The AC leakage current is less than 3.5mA when the power supply connect to 264Vac/50Hz .
+
+8.2 Leakage Current
+
+The insulation resistance should be not less than 30M ohm after applying of 500VDC for 1 minute.
+
+...
+
+The power supply with active power factor correction, and meet the EN61000-3-2 standards, The power factor is greater than 0.9 at 230V/50Hz, Max. load.
+
+13. Power Factor
+
+150 mm (W) × 86 mm (H) × 140mm (D)
+
+14. Mechanical Specification
+
+The MTBF of the power should be 100,000 hours min.
+
+10. MTBF
+
+11.1 Input Voltage
+
+Applying 220Vac.
+
+11.2 Test Condition
+
+Applying 75% loads for the power supply in 45 (+/-5) C chamber for 4 hours.
+
+11.
+
+---
+
+Title: STRIDER PLATINUM SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-ST75F-PT-ST65F-PT-ST55F-PT-Manual.pdf
+Published: N/A
+Author: shadow
+Highlights:
+##### ST75F-PT / ST65F-PT / ST55F-PT
+
+### STRIDER PLATINUM SERIES
+
+World’s smallest 80 PLUS Platinum, full-modular ATX power supplies
+
+Compact design with a depth of 140mm for easy integration 
+High efficiency with 80 PLUS Platinum certification 
+100% modular cables 
+24/7 continuous power output with 40C operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Ultra silent 120mm fan with intelligent semi-fanless operation 
+
+o
+
+#### SPECIFICATION
+
+## SilverStone Strider Platinum
+
+| | | SST-ST75F-PT | |
+| --- | --- | --- | --- |
+| | | SST-ST65F-PT | |
+| | | SST-ST55F-PT | |
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Platinum PS/2
+
+1. General
+
+1.1 Scope This specification defines the performance characteristics of a single phase 750, 650, 550 watts, 5 output power supply. This specification also defines worldwide safety and electromagnetic compatibility requirements for the power supply which is intended for use in computer products.
+
+2. Input Characteristics
+
+2.1 Input Voltage
+
+Nominal Voltage 100-240 Vrms
+
+Voltage Variation Range 90 - 264 Vrms
+
+2.2 Input Frequency
+
+Nominal Frequency 50-60 Hz
+
+Frequency Variation Range 47 Hz to 63 Hz
+
+* The power supply must operate at above frequency with 90-264 VACrms input voltage range.
+
+2.3 Max. Input AC Current
+
+3.1 Normal Operation Output
+
+3. Output characteristics
+
+Max. Input Current
+
+ST75F-PT
+
+ST75F-PT
+
+ST65F-PT
+
+ST55F-PT
+
+2.4 Inrush Current 
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase 
+of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and 
+over the specified temperature range. The peak inrush current shall be less than the ratings of its critical 
+components (including input fuse, bulk rectifiers, and surge limiting device). 
+2.5 Efficiency 
+ST75G-PT, ST65F-PT, ST55F-PT provides an efficiency of 89% minimum when measured at full load under 
+115V/60Hz and 230V/50Hz condition. 
+
+Maximum continuous total DC output power should not exceed750W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 750W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+10A
+
+Measuring Range 90 - 264 Vrms
+
+Max. Input Current 10A
+
+Measuring Range 90 - 264 Vrms
+
+Max. Input Current 8A
+
+Measuring Range 90 - 264 Vrms
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.2A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+62.5A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.2 Remote On/Off Controlled mode 
+The PSON# signal is required to remotely turn on/off the power supply, PSON# is an active low signal that 
+turns on the output power rails. When this is not pulled low by the system, or left open, the outputs (except 
+the +5VSB) turn off. This signal is pulled to a standby voltage by a pull-up resistor internal to the power 
+supply. 
+TTL level "H" 2.0 V – 5.25 V 
+"L" 0.0 V – 1.0 V 
+
+ST65F-PT
+
+Maximum continuous total DC output power should not exceed650W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 650W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+54.2A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±53% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+ST55F-PT
+
+Maximum continuous total DC output power should not exceed550W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 105W. Maximum combined load on +12V outputs shall not exceed 550W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+20A 
+45.9A 
+0.3A 
+3.0A 
+20.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.3 Regulation
+
+...
+
+| | 2.38A | | | 2.38A | | 8.93A | | 0.05A | | 0.49A | | |
+| | Typical Load | | 5.96A | | | 5.96A | | 22.32A | | 0.12A | | 1.24A | | |
+| | Full Load | | 11.92A | | | 11.92A | | 44.65A | | 0.25A | | 2.47A | | |
+
+...
+
+RATE of 1/OCTAVE/Min.
+
+Temperature 0 to 40C Relative Humidity 20 to 90 %
+
+...
+
+13. Power Factor
+
+150 mm (W) × 86 mm (H) × 140mm (D)
+
+14.
+
+...
+
+The MTBF of the power should be 100,000 hours min.
+
+---
+
+Title: <5354313230302D47285031333129BBA1A9FAAED12DABCAADB1ABCAA9B32E6169>
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-Strider-Gold-Manual.pdf
+Published: N/A
+Author: jacky
+Highlights:
+October, 2010 NO.G11212840 STRIDER GOLD ST1200-G / ST1000-G / ST85F-G / ST75F-G The perfect balance of performance, efficiency, and quality
+
+## SPECIFICATION
+
+STRIDER GOLD SERIES 
+SST-ST1200-G 
+SST-ST1000-G 
+SST-ST85F-G 
+SST-ST75F-G 
+
+### ATX12V / EPS 12V Switching Power Supply With Active PFC 80 PLUS Gold PS/2
+
+This specification describes the requirements of 750W, 850W, 1000W, 1200W switching power supply with an stretch ATX form-factor and EPS12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics .
+
+...
+
+#### 2. DC OUTPUT
+
+##### 2.1 DC voltage regulation
+
+1.Maximum continuous total DC output power should not exceed 750W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 62A (744W). 
+4.Maximum peak total DC output power should not exceed 850W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+2.2 Load ranges 
+2.2.1: (ST75F-G Load Range)
+
+...
+
+2.2.2: (ST85F-G Load Range) Parameter +3.3V +5V +12V -12V +5VSB
+
+03 
+1.Maximum continuous total DC output power should not exceed 1000W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 83A (996W). 
+4.Maximum peak total DC output power should not exceed 1100W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+1.Maximum continuous total DC output power should not exceed 850W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 70A (840W). 
+4.Maximum peak total DC output power should not exceed 950W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+
+2.2.3: (ST1000-G Load Range) Parameter +3.3V +5V +12V -12V +5VSB
+
+1.Maximum continuous total DC output power should not exceed 1200W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 100A (1200W). 
+4.Maximum peak total DC output power should not exceed 1300W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A.
+
+---
+
+Title: STRIDER ESSENTIAL SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st50f-es230_st40f-es230-manual.pdf
+Published: N/A
+Author: oscar.chen
+Highlights:
+#### ST50F-ES230/ST40F-ES230/ST30F-ES230
+
+## STRIDER ESSENTIAL SERIES
+
+### Power for everything you need
+
+High efficiency with 80 PLUS certification 24/7 continuous power output with 40℃ operating temperature Class-leading single +12V rail Active PFC Circuitry PCI-E 8pin and PCI-E 6pin connector support Silent running 120mm fan with 18dBA
+
+##### SPECIFICATION
+
+### SilverStone Strider Essential
+
+| | | ST50F-ES230 | |
+| --- | --- | --- | --- |
+| | | ST40F-ES230 | |
+| | | ST30F-ES230 | |
+
+ATX12V Switching Power Supply With Active PFC PS/2
+
+1. INPUT:
+
+1.1 VOLTAGE
+
+MINIMUM NOMINAL MAXIMUM UNITS 180 200-240 264 Vrms
+
+1.2 FREQUENCY
+
+47Hz ~ 63Hz
+
+1.3 CURRENT 4.0A max.(ST50F-ES230), 3.0A max.(ST40F-ES230, ST30F-ES230),
+
+1.4 INRUSH CURRENT 150A max. when ac input 230Vac and 25 C cold start.
+
+| ST50F-ES230 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Loading | | | | | +12V | | | | | +5V | | | +3.3V | | | -12V | | | | +5Vsb | | | | Efficiency | | | | | |
+| | | 20% | | | | 6.53A | | | | | 2.22A | | | 2.36A | | | 0.05A | | | | | 0.43A | | | | 82% | | | | |
+| | | 50% | | | | 16.32A | | | | | 5.56A | | | 5.89A | | | 0.13A | | | | | 1.07A | | | | 85% | | | | |
+| | 100% | | | | | 32.64A | | | | 11.12A | | | | 11.78A | | | 0.26A | | | | | 2.15A | | | | 82% | | | | |
+| ST40F-ES230 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+...
+
+1.5 POWER EFFICIENCY
+
+1.6 LEAKAGE CURRENT 3.5mA max.
+
+1.7 POWER FACTOR PF > 0.95 at 230Vac input and full load
+
+2. OUTPUT:
+
+ST50F-ES230
+
++5V 17.0A 0.5A --+3.3V 18.0A 0.3A --
+
+Voltage 
+Max load* 
+Min load 
+Peak load 
+Combined power* 
+Regulation*** 
+Ripple & Noise** 
+
++12V 38.0A 1.0A ----+5,-5% 120mV
+
+-12V 
+0.3A 
+0.0A 
+-- 
+-- 
++10,-10% 
+120mV 
+
++5Vsb 2.5A 0.0A 3.0A --+5,-5% 50mV
+
+110W +5,-5% 50mV +5,-5% 50mV
+
+ST40F-ES230
+
+* ‧ The continuous total output power is 500W max. 
+‧ The combined power of +5V and +3.3V is 110W max. 
+‧ When +5V load is over 15A, +12V min load is 4A. 
+‧ When +12V load is over 30A, +5V min load is 4A. 
+‧ Peak currents may last up to 12 seconds with not more than one occurrence per minute. 
+** Add 0.1uF and 10uF capacitors across output terminal during ripple & noise test. 
+*** LOAD REGULATION TEST TABLE:
+
+...
+
+8.
+
+---
+
+Title: STRIDER PLATINUM SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st1000-pts-st1200-pts-manual.pdf
+Published: N/A
+Author: shadow
+Highlights:
+##### SST-ST1200-PTS
+
+#### STRIDER PLATINUM SERIES
+
+Compact design with a depth of 140mm for easy integration High efficiency with 80 PLUS Platinum certification 100% modular cables 24/7 continuous power output with 40℃ operating temperature Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise Built-in silent & durable hybrid ceramic bearing (HYB) fan FF122 magnetized fan filter included
+
+SST-ST1000-PTS The world’s smallest kilowatt-level ATX power supply
+
+### SPECIFICATION
+
+## SilverStone Strider Platinum
+
+## SST-ST1200-PTS
+
+## SST-ST1000-PTS
+
+##### ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Platinum PS/2
+
+This specification describes the requirements of 1000W, 1200Watts switching power supply with an stretch ATX form-factor and EPS 12V, +5V standby voltage,remote on/off control,full range line input capability and forced air cooling characteristics.
+
+...
+
+AC INPUT
+
+1.1 AC input requirements The input voltage, current, and frequency requirements for continuous operation are stated below. Table 1 AC Input Line Requirements
+
+| Parameter | Min. | Nom. | Max. | Unit |
+| --- | --- | --- | --- | --- |
+| Vin( Full range ) | 90 | 100 --- 240 | 264 | VACrms |
+| Vin Frequency | 47 | 60 ------ 50 | 63 | Hz |
+| Iin(1000W) Table 2 AC Input Line Requirements | | 12 --------- 6 | | Arms |
+| Parameter | Min. | Nom. | Max. | Unit |
+| Vin( Full range ) | 100 | 115---240 | 264 | VACrms |
+| Vin Frequency | 47 | 60------50 | 63 | Hz |
+
+Iin(1200W) 12--------6 Arms
+
+...
+
+2. DC OUTPUT
+
+2.1 DC voltage regulation
+
+| Parameter | Range | Min | Nom. | Max | Unit |
+| --- | --- | --- | --- | --- | --- |
+| +3.3V | +/-3％ | +3.20 | +3.30 | +3.39 | Volts |
+| +5V | +/-3％ | +4.85 | +5.00 | +5.15 | Volts |
+| +12V | +/-3％ | +11.64 | +12.00 | +12.36 | Volts |
+| -12V | +/-10％ | -10.8 | -12.00 | -13.2 | Volts |
+| +5VSB | +/-5％ | +4.75 | +5.00 | +5.25 | Volts |
+| Note:1>Voltage tolerance is requied at main connector and S-ATA connector(if used) 2.2 Load ranges 2.2.1:(1000 Watts Load Range) | | | | | |
+| Parameter | Min(optional) | Nom. | Max | Peak | Unit |
+| +3.3V | 0 | - | 25 | - | Amps |
+| +5V | 0 | - | 22 | - | Amps |
+| +12V | 0.15 | - | 83 | - | Amps |
+| -12V | 0 | - | 0.3 | - | Amps |
+
+...
+
+2.Maximum continuous total DC output power should not exceed 1000W.
+
+---
+
+Title: STRIDER TITANIUM SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-ST80F-TI-ST70F-TI-ST60F-TI-Manual.pdf
+Published: N/A
+Author: shadow
+Highlights:
+ST80F-TI / ST70F-TI / ST60F-TI
+
+## STRIDER TITANIUM SERIES
+
+World’s smallest 80 PLUS Titanium, full-modular ATX power supplies
+
+High efficiency with 80 PLUS Titanium certification Compact design with a depth of 150mm for easy integration 100% modular cables 24/7 continuous power output with 40C operating temperature Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise All Japanese capacitors Ultra silent 120mm fan with 18dBA minimum
+
+...
+
+##### SPECIFICATION
+
+#### SilverStone Strider Titanium
+
+### ST80F-TI ST70F-TI ST60F-TI
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Titanium PS/2
+
+This specification describes the requirements of 600,700,800 Watts switching power supply with an stretch ATX form-factor and EPS 12V, +5V standby voltage ,remote on/off control, full range line input capability and forced air cooling characteristics.
+
+---
+
+Title: Manual-ST1500-TI_ST1300-TI_ST1100-TI-V1.ai
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st1500-ti-manual.pdf
+Published: N/A
+Author: oscar.chen
+Highlights:
+#### ST1500-TI/ST1300-TI/ST1100-TI
+
+##### STRIDER TITANIUM SERIES
+
+Premium, full-modular 80 PLUS Titanium power supplies
+
+Top-level efficiency with 80 PLUS Titanium certification 
+All Japanese capacitors 
+100% modular cables 
+24/7 continuous power output with 50℃ operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Dual EPS 8pin with multiple PCI-E 8 / 6pin connectors support 
+Ultra silent 135mm fan with intelligent semi-fanless operation 
+
+### SPECIFICATION
+
+## SilverStone Strider Titanium
+
+## ST1500-TI
+
+## ST1300-TI
+
+## ST1100-TI
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Titanium PS/2
+
+Table 1 AC Input Line Requirements Parameter Vin( Full range ) Vin Frequency Iin(ST1100-TI) Iin(ST1300-TI) Iin(ST1500-TI)
+
+Min. 90 47
+
+Max. 264 63
+
+Nom. 
+100 --- 240 
+60 --- 50 
+12.0 --- 6.0 
+15.0 --- 7.5 
+17.6 --- 8.8 
+
+Unit VACrms Hz Arms Arms Arms
+
+This specification describes the requirements of 1100W,1300W,1500Watts switching power supply with an stretch ATX form-factor and EPS 12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics.
+
+The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+Power factor correction (PF)>0.90 at full load.
+
+---
+
+Title: SilverStone
+URL: https://www.silverstonetek.com/en/page/PSU-comparison
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+| Series | Product Name | Form Factor (depth) | Wattage | Certification | Fan size (operation) | Cable Configuration | PP05-E/PP06 support |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SFX Series | SX800-LTI | SFX-L (130mm) | 800W | Titanium | 120mm (semi-fanless) | Fully modular | Yes |
+| | SX1000R Platinum | SFX-L (130mm) | 1000W | Platinum | 120mm (semi-fanless) | Fully modular | No |
+| | SX1000 Platinum | SFX-L (130mm) | 1000W | Platinum | 120mm (semi-fanless) | Fully modular | No |
+| | SX750 Platinum | SFX (100mm) | 750W | Platinum | 92mm (semi-fanless) | Fully modular | No |
+| | SX700-LPT | SFX-L (130mm) | 700W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | SX700-PT | SFX (100mm) | 700W | Platinum | 92mm | Fully modular | Yes |
+| | SX750-G | SFX (100mm) | 750W | Gold | 92mm | Fully modular | No |
+| | SX700-G | SFX (100mm) | 700W | Gold | 92mm | Fully modular | Yes |
+| | SX650-G | SFX (100mm) | 650W | Gold | 92mm | Fully modular | Yes |
+
+...
+
+| | SX500-G | SFX (100mm) | 500W | Gold | 92mm | Fully modular | Yes |
+| | SX550 | SFX (100mm) | 500W | Gold | 80mm | Fixed | No |
+| | SX500-LG | SFX-L (130mm) | 500W | Gold | 120mm | Fully modular | Yes |
+| | ST45SF-G | SFX (100mm) | 450W | Gold | 80mm | Fully modular | Yes |
+
+...
+
+| HELA Series | HELA 2050 Platinum | ATX (180mm) | 2050W | Platinum | 135mm (semi-fanless) | Fully modular | Except 6+2Pin PCIE cable |
+
+...
+
+| | HELA 850R Platinum | ATX (140mm) | 850W | Platinum | 120mm (semi-fanless) | Fully modular | Except 6+2Pin PCIE cable |
+
+...
+
+| | VIVA 550 Bronze | ATX (140mm) | 550W | Bronze | 120mm | Fixed | No |
+| Strider Titanium Series | ST1500-TI | ATX (180mm) | 1500W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1300-TI | ATX (180mm) | 1300W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1100-TI | ATX (180mm) | 1100W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST80F-TI | ATX (150mm) | 800W | Titanium | 120mm | Fully modular | Yes |
+| | ST70F-TI | ATX (150mm) | 700W | Titanium | 120mm | Fully modular | Yes |
+| | ST60F-TI | ATX (150mm) | 600W | Titanium | 120mm | Fully modular | Yes |
+| Strider Platinum Series | ST1200-PTS | ATX (140mm) | 1200W | Platinum | 120mm | Fully modular | Yes |
+| | ST1000-PTS | ATX (140mm) | 1000W | Platinum | 120mm | Fully modular | Yes |
+| | ST1200-PT | ATX (180mm) | 1200W | Platinum | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1000-PT | ATX (180mm) | 1000W | Platinum | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST85F-PT | ATX (140mm) | 850W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST75F-PT | ATX (140mm) | 750W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST65F-PT | ATX (140mm) | 650W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST55F-PT | ATX (140mm) | 550W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| Strider Gold Evolution Series | ST1200-G | ATX (180mm) | 1200W | Gold | 140mm | Fully modular | Yes |
+| | ST1000-G | ATX (180mm) | 1000W | Gold | 140mm | Fully modular | Yes |
+| Strider Gold S Series | ST1500-GS | ATX (180mm) | 1500W | Gold | 140mm | Fully modular | Yes |
+| | ST85F-GS | ATX (150mm) | 850W | Gold | 120mm | Fully modular | Yes |
+| | ST85F-GS V2 | ATX (140mm) | 850W | Gold | 120mm | Fully modular | Yes |
+| | ST75F-GS V3 | ATX (140mm) | 750W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST75F-GS V2 | ATX (140mm) | 750W | Gold | 120mm | Fully modular | Yes |
+| | ST65F-GS | ATX (140mm) | 650W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST65F-G | ATX (140mm) | 650W | Gold | 120mm | Fully modular | Yes |
+| | ST55F-GS | ATX (140mm) | 550W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST55F-G | ATX (140mm) | 550W | Gold | 120mm | Fully modular | Yes |
+| Strider Plus Series | ST1500 | ATX (220mm) | 1500W | Silver | 140mm | Fully modular | Yes |
+| | ST1000-P | ATX (160mm) | 1000W | Silver | 140mm | Fully modular | Yes |
+| | ST85F-P | ATX (160mm) | 850W | Silver | 140mm | Fully modular | Yes |
+| | ST75F-P | ATX (160mm) | 750W | Silver | 140mm | Fully modular | Yes |
+| | ST60F-PS | ATX (140mm) | 650W | Silver | 120mm | Fully modular | Yes |
+| | ST75F-PB | ATX (140mm) | 750W | Bronze | 120mm | Fully modular | Yes |
+| | ST70F-PB | ATX (140mm) | 700W | Bronze | 120mm | Fully modular | Yes |
+| | ST65F-PB | ATX (140mm) | 650W | Bronze | 120mm | Fully modular | Yes |
+| | ST60F-PB | ATX (140mm) | 600W | Bronze | 120mm | Fully modular | Yes |
+| | ST55F-PB | ATX (140mm) | 550W | Bronze | 120mm | Fully modular | Yes |
+| | ST50F-PB | ATX (140mm) | 500W | Bronze | 120mm | Fully modular | Yes |
+
+...
+
+| | ST600P | ATX (140mm) | 600W | 230V EU | 120mm | Fixed | No |
+| | ST500P | ATX (140mm) | 500W | 230V EU | 120mm | Fixed | No |
+| Essential Series | ET750-HG | ATX (160mm) | 750W | Gold | 140mm | semi-modular | Yes |
+| | ET650-HG | ATX (160mm) | 650W | Gold | 140mm | semi-modular | Yes |
+| | ET550-HG | ATX (160mm) | 550W | Gold | 140mm | semi-modular | Yes |
+| | ET700-MG | ATX (165mm) | 700W | Gold | 135mm | Fully modular | No |
+| | ET600-MG | ATX (165mm) | 600W | Gold | 135mm | Fully modular | No |
+| | ET500-MG | ATX (165mm) | 500W | Gold | 135mm | Fully modular | No |
+| | ET750-G | ATX (140mm) | 750W | Gold | 120mm | Fixed | No |
+| | ET650-G | ATX (140mm) | 650W | Gold | 120mm | Fixed | No |
+| | ET550-G | ATX (140mm) | 550W | Gold | 120mm | Fixed | No |
+| | ST70F-ESG | ATX (140mm) | 700W | Gold | 120mm | Fixed | No |
+| | ST60F-ESG | ATX (140mm) | 600W | Gold | 120mm | Fixed | No |
+| | ST60F-ESG | ATX (140mm) | 600W | Gold | 120mm | Fixed | No |
+| | ST50F-ESG | ATX (140mm) | 500W | Gold | 120mm | Fixed | No |
+| | ST75F-ESS | ATX (140mm) | 750W | Silver | 120mm | Fixed | No |
+| | ET750-B | ATX (140mm) | 750W | Bronze | 120mm | Fixed | No |
+| | ET650-B | ATX (140mm) | 650W | Bronze | 120mm | Fixed | No |
+| | ET550-B | ATX (140mm) | 550W | Bronze | 120mm | Fixed | No |
+| | ET500 | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ET500-B | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ET450-B | ATX (140mm) | 450W | Bronze | 120mm | Fixed | No |
+| | ST70F-ESB | ATX (140mm) | 700W | Bronze | 120mm | Fixed | No |
+| | ST60F-ESB | ATX (140mm) | 600W | Bronze | 120mm | Fixed | No |
+| | ST50F-ESB | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ST40F-ESB | ATX (140mm) | 400W | Bronze | 120mm | Fixed | No |
+| | ST70F-ES | ATX (140mm) | 700W | Standard | 120mm | Fixed | No |
+| | ST50F-ES | ATX (140mm) | 500W | Standard | 120mm | Fixed | No |
+| | ST70F-ES230 | ATX (140mm) | 700W | 230V Standard | 120mm | Fixed | No |
+| | ST65F-ES230 | ATX (140mm) | 650W | 230V Standard | 120mm | Fixed | No |
+| | ST60F-ES230 | ATX (140mm) | 600W | 230V Standard | 120mm | Fixed | No |
+| | ST50F-ES230 | ATX (140mm) | 500W | 230V Standard | 120mm | Fixed | No |
+| | ST45F-ES230 | ATX (140mm) | 450W | 230V Standard | 120mm | Fixed | No |
+| | ST40F-ES230 | ATX (140mm) | 400W | 230V Standard | 120mm | Fixed | No |
+| Nightjar Series | NJ700 | ATX (170mm) | 700W | Titanium | None (fully fanless) | Fully modular | No |
+
+---
+
+Title: World’s smallest
+URL: https://www.silverstonetek.com/upload/sstedm/st75f-gs/st75f-gs_st65f-g_st55f-g_edm_en.pdf
+Published: N/A
+Author: oscar.chen
+Highlights:
+Model Name. SST-ST75F-GS SST-ST65F-G SST-ST55F-G www.silverstonetek.com
+
+## World’s smallest
+
+750W / 650W / 550W 750W / 650W / 550W
+
+Special Features
+
+Compact design with a depth of 140mm for easy integration 
+80 PLUS Gold certification 
+100% modular cables 
+24/7 continuous power output with 40 C operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Silent running 120mm fan with 18dBA minimum
+
+...
+
+| Specifications | |
+| --- | --- |
+| Model No. SST-ST75F-GS / SST-ST65F-G / SST-ST55F-G | Color Black (lead-free paint) |
+| Max DC output 750W / 650W / 550W | Cooling System Single 120mm silent fan |
+| Active PFC（PF>0.95 at full load） PFC | Noise Level 18 dBA minimum |
+| 87% ~ 90%（20% to 100% loading） Efficiency | Dimension 150 mm (W) × 86 mm (H) × 140 mm (D) |
+| MTBF 100,000 hours | Weight 2.1 kg (ST75F-GS) / 2.0 kg (ST65F-G) / 1.9g (ST55F-G) |
+| Operating temperature 0°C ~ 40°C | Form Factor ATX |
+
+---
+
+Title: ST1000-PT
+URL: https://www.silverstonetek.com/en/product/info/power-supplies/ST1000-PT/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+ST1000-PT
+
+ST1000-PT
+
+- High efficiency with 80 PLUS Platinum certification
+- 139mm Air Penetrator fan with intelligent semi-fanless operation
+- FF141 magnetized fan filter included
+- 100% modular cables
+- 24/7 continuous power output with 40℃ operating temperature
+- Strict ±3% voltage regulation and low ripple & noise
+- Dual EPS 8pin with multiple individual one-on-one PCI-E 8/6pin connectors
+
+ 
+
+VERSION
+
+| 1.Designed for 80 PLUS Platinum level of efficiency to reduce wasted heat and save on electricity. | 2.100% moudlar cable design for use with short cable kit such as SilverStone’s PP05-E or for easy removal in a case with cable routed and tied down. |
+| --- | --- |
+| | |
+| 3.Flat cables have much greater flexibility to allow for tighter folding and management of cables. | 4.Ultra-quiet 139mm fan with intelligent RPM control guarantees cool performance and silent operation with minimum of 18dBA during fan operation. The fanless mode operation deactivates when PSU’s loading reaches 40%. |
+| | |
+| 5.Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking. | 6.±3% regulation and low ripple & noise performance for high stability. |
+| | |
+| 7.The included | |
+| Installation guide: Please make sure the power supply fan and FF141 can be easily attached to any steel power supply surface. | |
+
+Product Specifications
+
+Product No. SST-ST1000-PT
+
+Color Black（Lead-Free Paint）
+
+Max. DC Output 1000W (Peak 1050W)
+
+Power density 431W per liter
+
+Load Range
+
+| Output | +3.3V | +5V | +12V | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- |
+| Max.(Amps) | 25A | 22A | 83A | 2.5A | 0.3A |
+| Peak (Amps) | / | / | / | / | / |
+| Min.(Amps) | 0.1A | 0.2A | 0.15A | 0A | 0A |
+| Range (%) | ±3% | ±3% | ±3% | ±5% | ±10% |
+| Line Reg.(%) | ±1% | ±1% | ±1% | ±1% | ±1% |
+| Ripple(mVp-p) | 50mV | 50mV | 120mV | 50mV | 120mV |
+
+Combined +3.3V & +5V 120W
+
+Combined +12V 996W
+
+Input Voltage 90V~264V
+
+Input Frequency Range 47Hz~63Hz
+
+PFC Active PFC（PF>0.9 at full load）
+
+Efficiency 89%~92% at 20%~100% loading
+
+MTBF 100,000 hours
+
+Operating temperature 0°C ~ 40°C
+
+Protection
+
+Over current protection Over power protection Over voltage protection Short circuit protection Under voltage protection Over temperature protection
+
+Connectors
+
+1 x 24 / 20-Pin motherboard connector（550mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（750mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（550mm） 6 x 8 / 6-Pin PCIE connector（"550mm" x 6） 16 x SATA connector（"600mm / 150mm / 150mm / 150mm" x 4） 6 x 4-Pin Peripheral connector（"600mm / 150mm / 150mm" x 2） 2 x 4-Pin Floppy connector（"600mm / 150mm / 150mm / 150mm" x 2）
+
+Cooling System Single 139mm silent fan
+
+Noise Level 0 ~ 36 dBA
+
+Certification 80 PLUS Platinum
+
+Form factor ATX
+
+Dimension 150 mm (W) x 86 mm (H) x 180 mm (D)
+
+Weight 3.3 kg
+
+Other GPU Support list
+
+* If you want to connect four SSDs on one SATA cable, please note that the total +5V output of each cable cannot exceed 5A. We recommend installing on two independent SATA cables to avoid overloading on the cables. 
+
+ * Power supply connector overuse definition A single PCIe 8pin cable and connector’s maximum current rating is 12.5A, which is 150W (+12V x 12.5A). So SilverStone’s warranty will not cover damages or malfunction resulting from the use of a graphics card or expansion card with a single PCIe 8pin connector that exceeds standard 225W total power draw (150W from PCIe 8pin connector + 75W from PCIe motherboard slot). Similarly, a graphics card or expansion card with dual PCIe 8pin connectors that exceed 375W total power draw (300W from two PCIe 8pin connectors + 75W from PCIe motherboard slot) will also not be covered under warranty. Peripheral (molex) or SATA connector’s maximum current rating is 5A, which is 60W (+12V x 5A) or 25W (+5V x 5A). Please ensure connected devices are operating under these limits. SilverStone’s warranty will not cover damages or malfunction resulting from usages exceeding these connectors and their associated cables. 24pin motherboard connector’s maximum current rating for its dual +12V metal pins are 5A each, which totals 120W (+12V x 5A x 2). Please ensure +12V drawing devices connected to the motherboard are operating under these limits. SilverStone’s warranty will not cover damages or malfunction resulting from usages exceeding these connectors and their associated cables. 
+
+ ● Specifications presented on this page contains most recent revisions and may differ from those printed on retail boxes or manuals. 
+
+File Download
+
+| Describe | Version | File Size | Download |
+| --- | --- | --- | --- |
+| Describe ST1000-PT High resolution photos | Version | File Size 13.51 MB | Download |
+| Describe ST1000-PT Manual | Version V1.0 | File Size 126.43 KB | Download |
+| Describe Restricted substance declaration | Version V1.0 | File Size 391.02 KB | Download |
+| Describe Multilanguage installation manual | Version V1.0 | File Size 21.56 MB | Download |
+| Describe Warranty Information | Version | File Size | Download |
+| Describe ST1000-PT Product Sheet (st1000pt_st1200pt_edm_en.pdf) | Version | File Size 167.55 KB | Download |
+
+How to properly connect PCIe cables to high power consumption graphics cards?
+
+3. How to Jump Start your power supply (Paper clip test)
+
+---
+
+Title: <5354313230302D472D45766F285031333529BBA1A9FAAED12DABCAADB1ABCAA9B32E6169>
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-Strider-Gold-Evo-Manual.pdf
+Published: N/A
+Author: paul.chen
+Highlights:
+July, 2011 
+NO.G11214420 
+
+## STRIDER GOLD EVOLUTION
+
+The perfect balance of performance, efficiency, and quality
+
+#### ST1200-G Evolution ST1000-G Evolution ST85F-G Evolution ST75F-G Evolution
+
+#### 2. DC OUTPUT
+
+##### 2.1 DC voltage regulation
+
+Parameter Range Min. Nom. Max. Unit +3.3V +/-3% +3.20 +3.30 +3.40 Volts +5V +/-3% +4.85 +5.00 +5.15 Volts +12V +/-3% +11.64 +12.00 +12.36 Volts -12V +/-10% -13.20 -12.00 -10.80 Volts +5VSB +/-3% +4.85 +5.00 +5.15 Volts
+
+### SPECIFICATION STRIDER GOLD EVOLUTION SERIES SST-ST1200-G Evolution SST-ST1000-G Evolution SST-ST85F-G Evolution SST-ST75F-G Evolution
+
+### ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Gold PS/2
+
+2.2 Load ranges 
+2.2.1: (ST75F-G Evolution Load Range) 
+
+This specification describes the requirements of 750W、850W、1000W、1200W switching power supply with an stretch ATX form-factor and EPS12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics.
+
+1. AC INPUT 
+1.1 AC input requirements 
+
+The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+Table 1 AC Input Line Requirements
+
+| Parameter +3.3V | Min. 0.3 | Max. 22 | Unit Amps |
+| --- | --- | --- | --- |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 62 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+| 1.Maximum continuous total DC output power should not exceed 750W. 2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 150W. 3.Maximum current for +12V outputs shall be 62A(744W). 4.Maximum peak total DC output power should not exceed 850W. 5.Peak power and current loading shall be supported for a minimum of 12 second. 6.When +12V is load to 28A , -12V minimum load is 0.02A. 2.2.2: (ST85F-G Evolution Load Range) | | | |
+| Parameter | Min. | Max. | Unit |
+| +3.3V | 0.3 | 22 | Amps |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 70 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+
+| Parameter | Min. | Nom. | Max. | Unit |
+| --- | --- | --- | --- | --- |
+| Vin( Full range ) | 90 | 100-240 | 264 | VACrms |
+| Vin(Full range,1200W) | 103 | 115-240 | 264 | VACrms |
+| Vin Frequency | 47 | 60-50 | 63 | Hz |
+| Iin(750W) | | 9.5-4.8 | | Arms |
+| Iin(850W) | | 11-5.5 | | Arms |
+| Iin(1000W,1200W) | | 12-6 | | Arms |
+
+---
+
+Title: Legacy Products∣SilverStone
+URL: https://www.silverstonetek.com/en/legacy/power-supplies/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+SX550 
+
+ ST80F-TI 
+
+ ST60F-TI 
+
+ ST50F-P 
+
+ ST40F-ES 
+
+ GM600-G 
+
+ GM500-G 
+
+ GM400-S 
+
+ ST55F-G (v1.x) 
+
+ ST65F-G (v1.x) 
+
+ ST75F-GS (v1.x) 
+
+ ST60F
+...
+ST70EF 
+
+ ST75F-P 
+
+ ST85F-P 
+
+ ST1000-P
+
+---
+
+Title: ST65F-G (v1.x)
+URL: https://www.silverstonetek.com/en/legacy/info/power-supplies/ST65F-G(v1x)/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+ST65F-G (v1.x)
+
+ST65F-G (v1.x)
+
+- Compact design with a depth of 140mm for easy integration
+- 80Plus Gold certification with higher efficiency 87%~90% at 20%~100% loading
+- 100% modular cables
+- 650W (700W peak power) 24hour fully continuous power output with 40℃ operating temperature
+- Class-leading single +12V rail with 54A
+- Strict ±3% voltage regulation and low ripple & noise
+- Silent running 120mm fan with 18dBA minimum
+
+- Product Description
+- Product Specifications
+- File Download
+- Q & A
+
+| 1. | Designed for 80 PLUS Gold level of efficiency to reduce wasted heat and save on electricity. |
+| --- | --- |
+| 2. | 100% modular cable design for use with short cable kit such as SilverStone’s PP05 or for easy removal in a case with cable routed and tied down. |
+| 3. | 140mm depth sets new standard for high wattage PSUs with modular cables. |
+| 4. | Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking. |
+| 5. | ±3% regulation and low ripple & noise performance for high stability. |
+| 6. | Built-in 120mm fan has excellent airflow and low noise, perfect for quiet home or office use. |
+
+Product Specifications
+
+Product No. SST-ST65F-G (v1.x)
+
+Color Black (lead-free paint)
+
+Max. DC Output 650W(Peak 700W)
+
+Power density 360W per liter
+
+Load Range
+
+| Output | +3.3V | +5V | +12V | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- |
+| Max.(Amps) | 22A | 20A | 54A | 2.5A | 0.3A |
+| Peak (Amps) | / | / | 57A | 3.5A | / |
+| Min.(Amps) | 0.2A | 0.2A | 0.3A | 0A | 0A |
+| Range (%) | ±3% | ±3% | ±3% | ±5% | ±10% |
+| Line Reg.(%) | ±1% | ±1% | ±1% | ±1% | ±1% |
+| Ripple(mVp-p) | 50mV | 50mV | 120mV | 50mV | 120mV |
+
+Combined +3.3V & +5V 150W
+
+Combined +12V 648W / 54A
+
+Input Voltage 90V~264V
+
+Input Frequency Range 47Hz ~ 63Hz
+
+PFC Active PFC.（PF>0.95 at Full Load）
+
+Efficiency 87%~90% at 20%~100% loading
+
+MTBF 100,000 hours at 25°C（at Full Load）
+
+Operating temperature 0°C ~ 40°C
+
+Protection
+
+Over current protection Over power protection Over voltage protection Over temperature protection Under voltage protection Short circuit protection No Load Protection
+
+Connectors
+
+1 x 24 / 20-Pin motherboard connector（550mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（550mm） 2 x 8 / 6-Pin PCIE connector（550mm） 2 x 6-Pin PCIE connector（550mm / 150mm） 8 x SATA connector（500mm / 150mm / 150mm） 6 x 4-Pin Peripheral connector （500mm / 150mm / 150mm） 2 x 4-Pin Floppy connector（500mm / 150mm / 150mm / 150mm）
+
+Cooling System Single 120mm silent fan
+
+Noise Level 18 dBA minimum
+
+Certification 80 PLUS Gold
+
+Dimension 150 mm (W) x 86 mm (H) x 140 mm (D)
+
+Weight 2.35kg
+
+Other GPU Support list
+
+...
+
+| Describe Multilanguage installation manual | Version V1.0 | File Size 21.56 MB | Download |
+
+---
+
+Title: ST75F-GS (v1.x)
+URL: https://www.silverstonetek.com/en/legacy/info/power-supplies/ST75F-GS(v1x)/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+ST75F-GS (v1.x)
+
+ST75F-GS (v1.x)
+
+- Compact design with a depth of 150mm for easy integration
+- 80 PLUS Gold certification
+- 100% modular cables
+- 24/7 continuous power output with 40℃ operating temperature
+- Class-leading single +12V rail
+- Strict ±3% voltage regulation and low ripple & noise
+- Silent running 120mm fan with 18dBA minimum
+
+- Product Description
+- Product Specifications
+- File Download
+- Q & A
+
+| 1. | Designed for 80 PLUS Gold level of efficiency to reduce wasted heat and save on electricity. |
+| --- | --- |
+| 2. | 100% modular cable design for use with short cable kit such as SilverStone’s PP05-E for easy removal in a case with cable routed and tied down. |
+| 3. | Strider Gold S PSUs are the first power supply models in the world to include flat 24pin cables. This cable offer much greater flexibility for tighter folding and superior cable management. |
+| 4. | 150mm depth sets new standard for high wattage PSUs with modular cables. |
+| 5. | Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking. |
+| 6. | ±3% regulation and low ripple & noise performance for high stability |
+| 7. | Built-in 120mm fan has excellent airflow and low noise, perfect for quiet home or office use. |
+
+Product Specifications
+
+Product No. SST-ST75F-GS (v1.x)
+
+Color Black (lead-free paint)
+
+Max. DC Output 750W (Peak 800W)
+
+Power density 388W per liter
+
+Load Range
+
+| Output | +3.3V | +5V | +12V | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- |
+| Max.(Amps) | 22A | 25A | 62A | 3.5A | 0.3A |
+| Min.(Amps) | 0.5A | 0.3A | 1A | 0.1A | 0A |
+| Range (%) | ±3% | ±3% | ±3% | ±5% | ±10% |
+| Line Reg.(%) | ±1% | ±1% | ±1% | ±1% | ±1% |
+| Ripple(mVp-p) | 50mV | 50mV | 120mV | 50mV | 120mV |
+
+Combined +3.3V & +5V 150W
+
+Combined +12V 744W
+
+Input Voltage 90V~264V
+
+Input Frequency Range 47Hz ~ 63Hz
+
+PFC Active PFC.（PF>0.95 at Full Load）
+
+Efficiency 88%~91% at 20%~100% loading
+
+MTBF 100,000 hours
+
+Operating temperature 0°C ~ 40°C
+
+Protection
+
+Over current protection Over power protection Over voltage protection Over temperature protection Under voltage protection Short circuit protection
+
+Connectors
+
+1 x 24 / 20-Pin motherboard connector（550mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（750mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（550mm） 4 x 8 / 6-Pin PCIE connector（550mm） 8 x SATA connector（”600mm / 150mm / 150mm / 150mm” x 2） 6 x 4-Pin Peripheral connector （”600mm / 150mm / 150mm” x 2） 2 x 4-Pin Floppy connector（”600mm / 150mm / 150mm / 150mm” x 2）
+
+Cooling System Single 120mm silent fan
+
+Noise Level 18 dBA minimum
+
+Certification 80 PLUS Gold
+
+Form factor ATX
+
+Dimension 150 mm (W) x 86 mm (H) x 150 mm (D)
+
+Weight 2.5 kg
+
+---
+
+Title: Tech Talk∣SilverStone
+URL: https://www.silverstonetek.com/en/tech-talk/wh_PSU_connector_design
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+# 2 nd generation connector design
+
+2 nd generation connector design came out in year 2009, it added blue connectors to clearly indicate them as PCI Express connectors. the 4pin peripheral (molex) connector on PSUs modular interface was removed in favor of a custom 6pin design that can be shared between peripheral 4pin and SATA cables, this greatly improved flexibility in connector usage.
+
+ Pictured: SST-ST1500-TI
+
+In many 2 nd generation connector design PSUs, a 4-pin or 6-pin sense wire (dependent on the wattage) is included out-of-the-box for the 24-pin ATX cable, which is the PSU’s voltage sense feature, allowing the PSU to monitor voltages on the 24-pin ATX cable and to improve the power quality of the PSU. What sets 2 nd generation connector design apart is the unified definition of all PSU models. this allowed for same cables or cable kit to be used across all SilverStone PSUs, a unique concept that stood out among PSU brands with varied cable definitions at the time.
+
+## 2 nd Generation connector design power supplies
+
+| Legacy | | Active | | |
+| --- | --- | --- | --- | --- |
+| ST50F-P | ST75F-G-E | ST45SF-G | ST80F-TI | SX500-G |
+| ST55F-G | ST75F-GS | ST50F-PB | ST85F-GS | SX500-LG |
+| ST60F | ST85F-G | ST55F-G | ST85F-PT | SX600-G |
+| ST60F-P | ST85F-G-E | ST55F-GS | ST1000-G-E | SX650-G |
+| ST65F-G | ST1000-G | ST55F-PB | ST1000-PT | SX700-G |
+| ST70F | ST1200-G | ST55F-PT | ST1000-PTS | SX700-PT |
+| ST75F-G | SX500-LG | ST60F-PB | ST1100-TI | SX700-LPT |
+| | | ST60F-TI | ST1200-PT | SX800-LTI |
+| | | ST65F-G | ST1200-PTS | ZM1350 |
+| | | ST65F-GS | ST1300-TI | ET550-HG (Semi-Modular) |
+| | | ST65F-PB | ST1500 (black connectors) | ET650-HG (Semi-Modular) |
+| | | ST65F-PT | ST1500-GS | ET750-HG (Semi-Modular) |
+| | | ST70F-TI | ST1500-TI | |
+
+---
+
+Title: st85f
+URL: https://www.silverstonetek.com/en/legacy/info/power-supplies/st85f/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+st85f
+
+st85f
+
+- Dual +12V with continuous 64A combined output
+- 100% modular cables with cable bag
+- Supports dual PCI-E 8 pin connectors & quad PCI-E 6 pin connectors
+- Silent running 135mm fan
+- Supports for ATX 12V 2.2 & EPS 12V
+- Active PFC
+- Efficiency greater than 80%
+
+VERSION
+
+Product Specifications
+
+Product No. SST-st85f
+
+Color black (lead-free paint)
+
+Max. DC Output 850W (peak 900W)
+
+Power density 366W per liter
+
+Load Range
+
+| Output | +3.3V | +5V | +12V1 | +12V2 | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| Max.(Amps) | 25A | 30A | 35A | 35A | 3.0A | 0.5A |
+| Peak (Amps) | / | / | 40A | 40A | 3.5A | / |
+| Min.(Amps) | 0.8A | 0.5A | 1.0A | 1.0A | 0.1 | 0 |
+| Range (%) | -5/-4% | -5/-4% | -5/-4% | -5/-4% | -5/-3% | -5/-5% |
+| Ripple(mVp-p) | 50mV | 50mV | 120mV | 120mV | 50mV | 120mV |
+
+Combined +3.3V & +5V 180W
+
+Combined +12V 64A /768W( Peak 70A / 840W)
+
+Input Voltage 90V ~ 264V ( Auto Range )
+
+Input Frequency Range 47Hz ~ 63Hz
+
+PFC Active PFC (PF>0.95 at full load)
+
+Efficiency >80%
+
+MTBF 100,000 hours at 25°C , full load
+
+Operating temperature 0 ~ 40°C
+
+Protection
+
+Over current protection, Over power protection, Over voltage protection, Short circuit, No load operation, Under voltage protection.
+
+Connectors
+
+1 x 24-pin motherboard connector (550mm) 1 x 8-pin EPS12V connector (550mm) 1 x 4-pin ATX12V connector (550mm) 1 x 6-pin AUX connector (550mm) 2 x 8-pin PCI-E connector (550mm) 4 x 6-pin PCI-E connector (550mm) 2 x triple SATA connector (500mm +250mm + 250mm) 2 x Dual 4-pin IDE power connectors (500mm + 250mm) 2 x Dual 4-pin IDE & single floppy power connectors (500mm + 250mm + 150mm)
+
+Cooling System Single 135mm ball bearing fan
+
+Noise Level 20 dBA minimum
+
+Certification CrossFire / 80 PLUS
+
+Form factor ATX PS/2
+
+Dimension 150 mm (W) x 86 mm (H) x 180 mm (D)
+
+Weight 2.9 kg
+
+Other GPU Support list
+
+ ● Specifications presented on this page contains most recent revisions and may differ from those printed on retail boxes or manuals. 
+
+| Describe | Version | File Size | Download |
+| --- | --- | --- | --- |
+| Describe ST85F Manual | Version V1.0 | File Size 3.72 MB | Download |
+| Describe Restricted substance declaration | Version V1.0 | File Size 391.02 KB | Download |
+| Describe Multilanguage installation manual | Version V1.0 | File Size 21.56 MB | Download |
+| Describe Warranty Information | Version | File Size | Download |
+
+---
+
+Title: ST1500-TI
+URL: https://www.silverstonetek.com/upload/sstedm/st1500-ti/st1500-ti-edm-en.pdf
+Published: N/A
+Author: N/A
+Highlights:
+### STRIDER
+
+#### TITANIUM SERIES 1500W
+
+## ST1500-TI
+
+##### Premium, full-modular 80 PLUS Titanium power supplies Premium, full-modular 80 PLUS Titanium power supplies
+
+##### Premium, full-modular 80 PLUS Titanium power supplies
+
+MB 24/20P
+
+CPU 4+4P
+
+PCI-E 6+2P
+
+#### x 1 x 2 x 8
+
+SATA Peripheral 4P
+
+Floppy 4P
+
+#### x 16 x 6
+
+#### x 1
+
+Top-level efficiency with 80 PLUS Titanium certification 
+All Japanese capacitors 
+100% modular cables 
+24/7 continuous power output with 50℃ operating temperature 
+
+Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise Dual EPS 8pin with multiple PCI-E 8 / 6pin connectors support Ultra silent 135mm fan with intelligent semi-fanless operation
+
+Load range
+
++3.3V +5V +12V1 +5VSB -12V
+
+Max.(Amps) Min.(Amps) Range (%) Line reg.(%) Ripple(mVp-p)
+
+125A 0.15A ±3% ±1% 120mV
+
+0.3A 0A ±10% ±1% 120mV
+
+...
+
+0°C ~ 50°C Operating temperature
+
+SST-ST1500-TI Model No. 1500W (Peak 1600W) Max DC output
+
+---
+
+Title: SilverStone's warranty
+URL: https://www.silverstonetek.com/en/page/warranty
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+### Warranty length
+
+ Some models have different warranty years depending on the region, please refer to the specifications of each region for details : For the power supplies and all-in-one liquid cooling products that purchased after 1st of November, 2020, have the following basic warranty period : 
+
+| Power Supply |
+| --- |
+
+| ATX | Certification | Model |
+| --- | --- | --- |
+| Two year warranty | Bronze | ST50F-PB, ST60F-PB, ST70F-PB |
+| | Silver | ST60F-PS, ST75F-P, ST85F-P, ST1000-P, ST1500, ZM1350 |
+| | Gold | ST55F-G, ST65F-G, ST75F-G-E, ST85F-G-E, ST1000-G-E, ST1200-G-E, ST1000-G |
+| Three year warranty | White | ST550-EF、ST650-EF-WBW、ST650-EFA、ST650-EFA-WBW、ST750-EF、 ST40F-ES230, ST45F-ES230, ST50F-ES230, ST60F-ES230, ST70F-ES230, ST500-P, ST600-P, ST700-P |
+| | Bronze | VA550-B, VA650-B, VA750-B AT650R-BF, AT650R-BF-WBW, AT750R-BF,AT850R-BF,AT550-BF,AT650-BF,AT750-BF ET450-B, ET500, ET500-B, ET500-ARGB, ET550-B, ET650-B, ET750-B, ST55F-PB, ST65F-PB, ST75F-PB, ST70F-ESB, |
+| | Gold | VA650-G, VA750-G, DA550-G, DA650-G, DA750-G, DA850-G, DA1000-GH, DA1650-G, DA1000R-GM, DA750R-GM, DA850R-GM, DA750R-GMA, DA750R-GMA-WWW, DA850R-GMA, DA850R-GMA-WWW, DA1000R-GM-WWW, ET550-G, ET650-G, ET750-G, ET500-MG, ET600-MG, ET700-MG, ET550-HG, ET650-HG, ET750-HG, ST55F-GS, ST65F-GS, ST75F-GS, ST85F-GS, ST1500-GS TR650R-GF,TR750R-GF,TR850R-GF,TR1000R-GM,TR1000R-GM-WWW TR650R-GM,TR750R-GM,TR850R-GM |
+| Five year warranty | | |
+| | Platinum | HA2500R-PM HA2050-PT, HA2050R-PM, HA750R-PM, HA850R-PM, HA850R-PMA, HA1200R-PM, HA1300R-PM,HA1650R-PM ST55F-PT, ST65F-PT, ST75F-PT, ST85F-PT, ST1000-PT, ST1200-PT ST1000-PTS, ST1200-PTS HA1000R-PM,HA1200R-PMA HA3000R-PM |
+| | Titanium | ZU1650R-TM ST60F-TI, ST70F-TI, ST80F-TI, ST1100-TI, ST1300-TI, ST1500-TI NJ600, NJ700 |
+
+---
+
+Title: ST1100-TI
+URL: https://www.silverstonetek.com/cn/product/info/power-supplies/ST1100-TI/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+ST1100-TI
+
+ST1100-TI
+
+- 80 PLUS钛金牌认证的超高效率
+- 全日系电解电容
+- 100%模块化线材
+- 在50℃操作温度下，能连续7天24小时满载不间断输出
+- 领先同级产品的单组+12V输出设计
+- 严格的±3%电压稳定度与极低噪声，提供绝对稳定的电源平台
+- 双EPS 8pin及多组PCI-E 8 / 6pin接头
+- 智能型无风扇运转135mm静音风扇
+
+...
+
+产品规格
+
+产品型号 SST-ST1100-TI
+
+颜色 黑 (无铅烤漆)
+
+最大DC供电 1100W (峰值1200W)
+
+功率密度 每公升474W
+
+负载范围
+
+| 输出 | +3.3V | +5V | +12V1 | +12V2 | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| 最大电流 (安培数) | 25A | 22A | 92A | / | 3.0A | 0.3A |
+| 瞬间最大电流 (安培数) | / | / | / | / | / | / |
+| 最小电流 (安培数) | 0A | 0A | 0.15A | / | 0A | 0A |
+| 电压误差 (%) | ±3% | ±3% | ±3% | / | ±5% | ±10% |
+| 电压稳定度 (%) | ±1% | ±1% | ±1% | / | ±1% | ±1% |
+| 电压噪声 (mVp-p) | 50mV | 50mV | 120mV | / | 50mV | 120mV |
+
+总+3.3V & +5V 输出 120W
+
+总+12V输出 1100W
+
+输入电压 90 ~ 264 Vrms
+
+输入频率 47Hz ~ 63Hz
+
+主动式功率校正 主动式PFC (全载时PF>0.9)
+
+效率 10% ~ 100% 负载时可达90% ~ 94%
+
+平均故障间隔 100,000小时
+
+操作温度 0 ~ 50°C
+
+---
+
+Title: ST1300-TI
+URL: https://www.silverstonetek.com/cn/product/info/power-supplies/ST1300-TI/
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+ST1300-TI
+
+ST1300-TI
+
+- 80 PLUS钛金牌认证的超高效率
+- 全日系电解电容
+- 100%模块化线材
+- 在50℃操作温度下，能连续7天24小时满载不间断输出
+- 领先同级产品的单组+12V输出设计
+- 严格的±3%电压稳定度与极低噪声，提供绝对稳定的电源平台
+- 双EPS 8pin及多组PCI-E 8 / 6pin接头
+
+...
+
+产品规格
+
+产品型号 SST-ST1300-TI
+
+颜色 黑 (无铅烤漆)
+
+最大DC供电 1300W (峰值1400W)
+
+功率密度 每公升560W
+
+负载范围
+
+| 输出 | +3.3V | +5V | +12V1 | +12V2 | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- | --- |
+| 最大电流 (安培数) | 25A | 22A | 108A | / | 3.0A | 0.3A |
+| 瞬间最大电流 (安培数) | / | / | / | / | / | / |
+| 最小电流 (安培数) | 0A | 0A | 0.15A | / | 0A | 0A |
+| 电压误差 (%) | ±3% | ±3% | ±3% | / | ±5% | ±10% |
+| 电压稳定度 (%) | ±1% | ±1% | ±1% | / | ±1% | ±1% |
+| 电压噪声 (mVp-p) | 50mV | 50mV | 120mV | / | 50mV | 120mV |
+
+总+3.3V & +5V 输出 120W
+
+总+12V输出 1296W
+
+输入电压 90 ~ 264 Vrms
+
+输入频率 47Hz ~ 63Hz
+
+主动式功率校正 主动式PFC (全载时PF>0.9)
+
+效率 10% ~ 100% 负载时可达90% ~ 94%
+
+平均故障间隔 100,000小时
+
+操作温度 0 ~ 50°C
+
+---
+
+Title: ST1100-TI
+URL: https://www.silverstonetek.com/upload/sstedm/st1100-ti/st1100-ti-edm-cn.pdf
+Published: N/A
+Author: shadow
+Highlights:
+## STRIDER
+
+TITANIUM SERIES 1100W
+
+ST1100-TI 高性能，全模块化80PLUS钛金牌电源供应器 高性能，全模块化80PLUS钛金牌电源供应器 高性能，全模块化80PLUS钛金牌电源供应器
+
+MB 24/20P
+
+CPU 4+4P
+
+PCI-E 6+2P
+
+x 1 x 2 x 8
+
+SATA Peripheral 4P
+
+Floppy 4P
+
+x 16 x 6
+
+x 1
+
+80 PLUS钛金牌认证的超高效率 
+全日系电容 
+100%模块化线材 
+在50℃操作温度下，能连续7天24小时满载不间断输出 
+领先同级产品的单组+12V输出设计 
+严格的±3%电压稳定度与极低噪声，提供绝对稳定的电源平台 
+双EPS 8pin及多组PCI-E 8 / 6pin接头 
+智能型无风扇运转135mm静音风扇 
+
+负载范围
+
++3.3V +5V +12V1 +5VSB -12V
+
+...
+
+型号 
+SST-ST1100-TI 
+最大DC供电 
+1100W (峰值1200W) 
+
+| 颜色 | 黑 (无铅烤漆) |
+| --- | --- |
+| 冷却系统 | 单135mm 静音风扇 |
+| 噪音 | 0 ~ 36 dBA |
+| 尺寸 | 150 mm (宽) × 86 mm (高) × 180 mm (深) |
+| 重量 | 3.96 kg |
+| 尺寸规格 | ATX |
+
+| 总+3.3V, +5V输出 | 120W | 冷却系统 |
+| --- | --- | --- |
+| 总+12V输出 | 1100W | 噪音 |
+| 输入电压 | 90 ~ 264 Vrms | 尺寸 |
+| 输入频率 | 47Hz ~ 63Hz | 重量 |
+| 主动式功率校正 | 主动式PFC (全载时PF>0.9) | 尺寸规格 |
+| 效率 | 10% ~ 100%负载时可达90% ~ 94% | 认证 |
+
+---
+
+Title: 關於我們 - 公司∣SilverStone銀欣科技
+URL: https://www.silverstonetek.com/tw/page/about
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+- 2016.07
+
+發佈Strider Platinum系列 ST1000-PT與 ST1200-PT，專為長時間滿載挖礦運算設計之大瓦數白金牌電源。
+
+...
+
+- 2012.08
+
+銀欣科技發表市場上體積最小且獲得80 PLUS金牌認證的全模組化ATX電源供應器，Strider Gold 系列「 ST65F-G和 ST55F-G」。
+
+...
+
+- 2010.09
+
+銀欣科技推出尺寸最小的ATX模組化電源供應器 ST50F-P。
+
+---
+
+Title: SilverStone
+URL: https://www.silverstonetek.com/en/page/about
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+- 2016.07
+
+Strider Platinum ST1000-PT and ST1200-PT released, the first SilverStone power supplies designed for 24/7 mining or calculation duty.
+
+...
+
+- 2012.08
+
+SilverStone releases Strider Gold ST65F-G and ST55F-G, the smallest PS2 (ATX) power supplies to include full modular cables and 80 PLUS Gold.
+
+...
+
+SilverStone releases the smallest ATX modular power supply in the world with the Strider Plus ST50F-P.
+
+---
+
+Title: SilverStone
+URL: https://www.silverstonetek.com/en/page/PSU-comparison?location=GB
+Published: N/A
+Author: SilverStone Technology
+Highlights:
+| Series | Product Name | Form Factor (depth) | Wattage | Certification | Fan size (operation) | Cable Configuration | PP05-E/PP06 support |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SFX Series | SX800-LTI | SFX-L (130mm) | 800W | Titanium | 120mm (semi-fanless) | Fully modular | Yes |
+| | SX1000R Platinum | SFX-L (130mm) | 1000W | Platinum | 120mm (semi-fanless) | Fully modular | No |
+| | SX1000 Platinum | SFX-L (130mm) | 1000W | Platinum | 120mm (semi-fanless) | Fully modular | No |
+| | SX750 Platinum | SFX (100mm) | 750W | Platinum | 92mm (semi-fanless) | Fully modular | No |
+| | SX700-LPT | SFX-L (130mm) | 700W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | SX700-PT | SFX (100mm) | 700W | Platinum | 92mm | Fully modular | Yes |
+| | SX750-G | SFX (100mm) | 750W | Gold | 92mm | Fully modular | No |
+| | SX700-G | SFX (100mm) | 700W | Gold | 92mm | Fully modular | Yes |
+| | SX650-G | SFX (100mm) | 650W | Gold | 92mm | Fully
+
+...
+
+| | SX500-G | SFX (100mm) | 500W | Gold | 92mm | Fully modular | Yes |
+| | SX550 | SFX (100mm) | 500W | Gold | 80mm | Fixed | No |
+| | SX500-LG | SFX-L (130mm) | 500W | Gold | 120mm | Fully modular | Yes |
+| | ST45SF-G | SFX (100mm) | 450W | Gold | 80mm | Fully modular | Yes |
+
+...
+
+| HELA Series | HELA 2050 Platinum | ATX (180mm) | 2050W | Platinum | 135mm (semi-fanless) | Fully modular | Except 6+2Pin PCIE cable |
+
+...
+
+| | HELA 850R Platinum | ATX (140mm) | 850W | Platinum | 120mm (semi-fanless) | Fully modular | Except 6+2Pin PCIE cable |
+
+...
+
+| | VIVA 550 Bronze | ATX (140mm) | 550W | Bronze | 120mm | Fixed | No |
+| Strider Titanium Series | ST1500-TI | ATX (180mm) | 1500W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1300-TI | ATX (180mm) | 1300W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1100-TI | ATX (180mm) | 1100W | Titanium | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST80F-TI | ATX (150mm) | 800W | Titanium | 120mm | Fully modular | Yes |
+| | ST70F-TI | ATX (150mm) | 700W | Titanium | 120mm | Fully modular | Yes |
+| | ST60F-TI | ATX (150mm) | 600W | Titanium | 120mm | Fully modular | Yes |
+| Strider Platinum Series | ST1200-PTS | ATX (140mm) | 1200W | Platinum | 120mm | Fully modular | Yes |
+| | ST1000-PTS | ATX (140mm) | 1000W | Platinum | 120mm | Fully modular | Yes |
+| | ST1200-PT | ATX (180mm) | 1200W | Platinum | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST1000-PT | ATX (180mm) | 1000W | Platinum | 140mm (semi-fanless) | Fully modular | Yes |
+| | ST85F-PT | ATX (140mm) | 850W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST75F-PT | ATX (140mm) | 750W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST65F-PT | ATX (140mm) | 650W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| | ST55F-PT | ATX (140mm) | 550W | Platinum | 120mm (semi-fanless) | Fully modular | Yes |
+| Strider Gold Evolution Series | ST1200-G | ATX (180mm) | 1200W | Gold | 140mm | Fully modular | Yes |
+| | ST1000-G | ATX (180mm) | 1000W | Gold | 140mm | Fully modular | Yes |
+| Strider Gold S Series | ST1500-GS | ATX (180mm) | 1500W | Gold | 140mm | Fully modular | Yes |
+| | ST85F-GS | ATX (150mm) | 850W | Gold | 120mm | Fully modular | Yes |
+| | ST85F-GS V2 | ATX (140mm) | 850W | Gold | 120mm | Fully modular | Yes |
+| | ST75F-GS V3 | ATX (140mm) | 750W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST75F-GS V2 | ATX (140mm) | 750W | Gold | 120mm | Fully modular | Yes |
+| | ST65F-GS | ATX (140mm) | 650W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST65F-G | ATX (140mm) | 650W | Gold | 120mm | Fully modular | Yes |
+| | ST55F-GS | ATX (140mm) | 550W | Gold | 120mm | Fully modular | Except 24 pin cable |
+| | ST55F-G | ATX (140mm) | 550W | Gold | 120mm | Fully modular | Yes |
+| Strider Plus Series | ST1500 | ATX (220mm) | 1500W | Silver | 140mm | Fully modular | Yes |
+| | ST1000-P | ATX (160mm) | 1000W | Silver | 140mm | Fully modular | Yes |
+| | ST85F-P | ATX (160mm) | 850W | Silver | 140mm | Fully modular | Yes |
+| | ST75F-P | ATX (160mm) | 750W | Silver | 140mm | Fully modular | Yes |
+| | ST60F-PS | ATX (140mm) | 650W | Silver | 120mm | Fully modular | Yes |
+| | ST75F-PB | ATX (140mm) | 750W | Bronze | 120mm | Fully modular | Yes |
+| | ST70F-PB | ATX (140mm) | 700W | Bronze | 120mm | Fully modular | Yes |
+| | ST65F-PB | ATX (140mm) | 650W | Bronze | 120mm | Fully modular | Yes |
+| | ST60F-PB | ATX (140mm) | 600W | Bronze | 120mm | Fully modular | Yes |
+| | ST55F-PB | ATX (140mm) | 550W | Bronze | 120mm | Fully modular | Yes |
+| | ST50F-PB | ATX (140mm) | 500W | Bronze | 120mm | Fully modular | Yes |
+
+...
+
+| | ST600P | ATX (140mm) | 600W | 230V EU | 120mm | Fixed | No |
+| | ST500P | ATX (140mm) | 500W | 230V EU | 120mm | Fixed | No |
+| Essential Series | ET750-HG | ATX (160mm) | 750W | Gold | 140mm | semi-modular | Yes |
+| | ET650-HG | ATX (160mm) | 650W | Gold | 140mm | semi-modular | Yes |
+| | ET550-HG | ATX (160mm) | 550W | Gold | 140mm | semi-modular | Yes |
+| | ET700-MG | ATX (165mm) | 700W | Gold | 135mm | Fully modular | No |
+| | ET600-MG | ATX (165mm) | 600W | Gold | 135mm | Fully modular | No |
+| | ET500-MG | ATX (165mm) | 500W | Gold | 135mm | Fully modular | No |
+| | ET750-G | ATX (140mm) | 750W | Gold | 120mm | Fixed | No |
+| | ET650-G | ATX (140mm) | 650W | Gold | 120mm | Fixed | No |
+| | ET550-G | ATX (140mm) | 550W | Gold | 120mm | Fixed | No |
+| | ST70F-ESG | ATX (140mm) | 700W | Gold | 120mm | Fixed | No |
+| | ST60F-ESG | ATX (140mm) | 600W | Gold | 120mm | Fixed | No |
+| | ST60F-ESG | ATX (140mm) | 600W | Gold | 120mm | Fixed | No |
+| | ST50F-ESG | ATX (140mm) | 500W | Gold | 120mm | Fixed | No |
+| | ST75F-ESS | ATX (140mm) | 750W | Silver | 120mm | Fixed | No |
+| | ET750-B | ATX (140mm) | 750W | Bronze | 120mm | Fixed | No |
+| | ET650-B | ATX (140mm) | 650W | Bronze | 120mm | Fixed | No |
+| | ET550-B | ATX (140mm) | 550W | Bronze | 120mm | Fixed | No |
+| | ET500 | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ET500-B | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ET450-B | ATX (140mm) | 450W | Bronze | 120mm | Fixed | No |
+| | ST70F-ESB | ATX (140mm) | 700W | Bronze | 120mm | Fixed | No |
+| | ST60F-ESB | ATX (140mm) | 600W | Bronze | 120mm | Fixed | No |
+| | ST50F-ESB | ATX (140mm) | 500W | Bronze | 120mm | Fixed | No |
+| | ST40F-ESB | ATX (140mm) | 400W | Bronze | 120mm | Fixed | No |
+| | ST70F-ES | ATX (140mm) | 700W | Standard | 120mm | Fixed | No |
+| | ST50F-ES | ATX (140mm) | 500W | Standard | 120mm | Fixed | No |
+| | ST70F-ES230 | ATX (140mm) | 700W | 230V Standard | 120mm | Fixed | No |
+| | ST65F-ES230 | ATX (140mm) | 650W | 230V Standard | 120mm | Fixed | No |
+| | ST60F-ES230 | ATX (140mm) | 600W | 230V Standard | 120mm | Fixed | No |
+| | ST50F-ES230 | ATX (140mm) | 500W | 230V Standard | 120mm | Fixed | No |
+| | ST45F-ES230 | ATX (140mm) | 450W | 230V Standard | 120mm | Fixed | No |
+| | ST40F-ES230 | ATX (140mm) | 400W | 230V Standard | 120mm | Fixed | No |
+| Nightjar Series | NJ700 | ATX (170mm) | 700W | Titanium | None (fully fanless) | Fully modular | No |

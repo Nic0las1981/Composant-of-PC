@@ -1,0 +1,238 @@
+{
+  "review": {
+    "id": "import-mb-cdd89669efd6",
+    "name": "A620MS-E",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": "6.0",
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+          "checkedAt": "2026-11-10T13:46:31+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E_45_BOX_mmnW.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-Top_9JHo.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-45R_CBEP.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-IO_81AB.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "RAID",
+          "Form Factor",
+          "Operating System",
+          "ACCESSORIES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "1183",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "A620MS-E",
+    "identityNote": "Modèle Biostar A620MS-E confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 221.0,
+      "manufacturerPartNumber": "A620MS-E",
+      "detailLevel": "partial",
+      "maxMemoryGB": 128
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR A620MS-E — révision 6.0",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD A620A"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Socket AM5 support AMD Ryzen™ 9000 / 8000 / 7000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen 9000 / 8000 / 7000 Series Processors:\n \nSupports Dual Channel DDR5 - 8000+(OC) MT/s, Non-ECC, Un-buffered Memory\n \n2 x DDR5 DIMM Memory Slot, Max. Supports up to 128 GB Memory\n \nSupport Intel® Extreme Memory Profile (XMP) memory modules and AMD EXTended Profiles for \nOverclocking (EXPO) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total support 1 x M.2 Socket and 2 x SATA (6Gb/s) ports\n \nAMD Ryzen 9000 / 8000 / 7000 Series Processors\n \n1 x M.2 (Key M2) Socket (M2M_CPU):\n \nSupport M.2 Type 2242/2260/2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n2 x SATA III Connector (6Gb/s):\n \nSupports AHCI & RAID 0, 1, 10\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC897\n \n7.1 Channels, High Definition Audio, Hi-Fi (Front)"
+          },
+          {
+            "label": "USB",
+            "value": "6 x USB 3.2 (Gen1) port\n \n(4 on rear I/O and 2 via internal header)\n \n6 x USB 2.0 port\n \n(2 on rear I/O and 4 via internal header)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen 9000 / 8000 / 7000 Series Processors\n \n1 x PCIe 4.0 x16 Slot (x16 mode)\n \nAMD A620A Chipset\n \n1 x PCIe 3.0 x1 Slot (x1 mode)\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x WiFi Antenna Ports\n \n4 x USB 3.2 (Gen1) Ports\n \n2 x USB 2.0 Ports\n \n1 x Gigabit LAN port\n \n3 x Audio Jack\n \n1 x SMART BIOS UPDATE Button\n \n1 x SMART BIOS USB Port\n \n1 x HDMI® Port\n \n1 x DP Port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x SATA III Connector (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n1 x USB 3.2 (Gen1) Header\n \n(each header supports 2 USB 3.2 (Gen1) ports)\n \n2 x USB 2.0 Header\n \n(each header supports 2 USB 2.0 ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n* M.2 (E Key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, 1, 10 for SATA storage devices"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 22.1cm x 24.4cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / Windows 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "2 x SATA Cable\n1 x I/O Shield\n1 x WiFi antenna accessories(Wi-Fi accessories are optional, contact your local dealer to purchase.) \n1 x M.2 Anchor"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E_45_BOX_mmnW.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-Top_9JHo.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-45R_CBEP.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-IO_81AB.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 22.1cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 22.1cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "chipset": {
+        "value": "AMD A620A",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "storagePorts": {
+        "value": "Total support 1 x M.2 Socket and 2 x SATA (6Gb/s) ports\n \nAMD Ryzen 9000 / 8000 / 7000 Series Processors\n \n1 x M.2 (Key M2) Socket (M2M_CPU):\n \nSupport M.2 Type 2242/2260/2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n2 x SATA III Connector (6Gb/s):\n \nSupports AHCI & RAID 0, 1, 10\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen 9000 / 8000 / 7000 Series Processors\n \n1 x PCIe 4.0 x16 Slot (x16 mode)\n \nAMD A620A Chipset\n \n1 x PCIe 3.0 x1 Slot (x1 mode)\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "rearIO": {
+        "value": "2 x WiFi Antenna Ports\n \n4 x USB 3.2 (Gen1) Ports\n \n2 x USB 2.0 Ports\n \n1 x Gigabit LAN port\n \n3 x Audio Jack\n \n1 x SMART BIOS UPDATE Button\n \n1 x SMART BIOS USB Port\n \n1 x HDMI® Port\n \n1 x DP Port",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "internalIO": {
+        "value": "2 x SATA III Connector (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n1 x USB 3.2 (Gen1) Header\n \n(each header supports 2 USB 3.2 (Gen1) ports)\n \n2 x USB 2.0 Header\n \n(each header supports 2 USB 2.0 ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n* M.2 (E Key) Wi-Fi card is not provided",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC897\n \n7.1 Channels, High Definition Audio, Hi-Fi (Front)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket AM5 support AMD Ryzen™ 9000 / 8000 / 7000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list.",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+        "checkedAt": "2026-11-10T13:46:31+00:00"
+      }
+    }
+  }
+}

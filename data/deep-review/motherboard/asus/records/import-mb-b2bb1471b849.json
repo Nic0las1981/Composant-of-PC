@@ -1,0 +1,262 @@
+{
+  "review": {
+    "id": "import-mb-b2bb1471b849",
+    "name": "ROG STRIX X870-I GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "sha256": "485ab2100bfe50fa76371e5187938069ba3ef050aaf680791690ecefcd6a56d1",
+        "bytes": 220334,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX X870-I GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/0A8FE0D3-1B07-4299-91B5-3137F89238EA"
+    ],
+    "sections": [
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX X870-I GAMING WIFI",
+    "identityNote": "Modèle ASUS ROG STRIX X870-I GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 2,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "ROG STRIX X870-I GAMING WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X870"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM slots, max. 128GB, DDR5\nSupports up to \n8400+MT/s(OC) with Ryzen™ 9000 Series Processors,\n8600+MT/s(OC) with Ryzen™ 8000 Series Processors,\n8000+MT/s(OC) with Ryzen™ 7000 Series Processors,\nECC and Non-ECC Un-buffered DIMM*\"\nDual channel memory architecture \nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory\nconfiguration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/download-center/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI™ port**\n2 x USB4® (40Gbps) ports support USB Type-C® display outputs***\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\n** Supports 4K@60Hz as specified in HDMI 2.1.\n*** Supports max. 4K@60Hz as specified in DisplayPort 1.4a\n**** VGA resolution support depends on processors' or graphic cards' resolution."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)*\n\n* Specifications vary by CPU types.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 2 x M.2 slots and 2 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2280(supports PCIe 5.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2280(supports PCIe 4.0 x4 mode)\n\nAMD X870 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4)\n2 x SATA 6Gb/s ports***\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1\n*** Install ROG FPS Card to support 2 x SATA 6Gb/s ports."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 7*\n2x2 Wi-Fi 7 (802.11be) \nSupports 2.4/5/6GHz frequency band**\nSupport Wi-Fi 7 320MHz bandwidth, up to 6.5Gbpstransfer rate.\nBluetooth® v5.4***\n*Wi-Fi features may vary depending on the operating system\nFor Windows 11, Wi-Fi 7 will require24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E. \nFor Windows 10, please note that no driver is available, refer to the Wi-Fi chipset vendor's website for details.\n** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n*** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.\""
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 10 ports)\n2 x USB4® (40Gbps) port(s)(2 x USB Type-C®) \n5 x USB 10Gbps port(s) (4 x Type-A + 1 x USB Type-C®)\n3 x USB 2.0 port(s) (3 x Type-A)\nFront USB (Total 3 ports)\n1 x USB 10Gbps connector (supports USB Type-C®)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n* USB Type-C® power delivery output: max. 5V/3A\nROG STRIX HIVE II(Total 2 ports)\n2 x USB 10Gbps port ( 1 x Type-A + 1 x USB Type-C®) \nROG FPS Card (Total 3 ports)\n2 x USB 2.0 headers additional 3 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG Strix Hive II Audio Features\n- ROG Hyper-Grounding Technology\n- ESS® SABRE9260Q DAC \n- Silver-plated audio jacks\n- Dedicated audio PCB layers"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB4® (40Gbps)(2 x USB Type-C®) \n5 x USB 10Gbps port(s) (4 x Type-A + 1 x USB Type-C®, 1 port supports ROG STRIX HIVE II)\n3 x USB 2.0 port(s) (2 x Type-A) \n1 x HDMI™ port\n1 x Wi-Fi module\n1 x Intel® 2.5Gb Ethernet port\n1 x BIOS FlashBack™ button \n1 x Clear CMOS button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin AIO Pump header(s)\n1 x 4-pin Chassis Fan header(s)\nPower Related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V CPU Power connector\nStorage Related \n2 x M.2 slots (Key M) \nUSB\n1 x USB 10Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header support(s) 2\nadditional USB 5Gbps ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x 2-pin Power Button header\n1 x Thermal Sensor header\n2 x USB Type-C® connectors to install ROG FPS card\nROG FPS card\n2 x SATA 6Gb/s ports\n1 x CPU Over Voltage jumper\n1 x Front Panel header\n1 x Alteration PCIe Mode switch\n2 x USB 2.0 headers support 3\nadditional USB 2.0 ports"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release Slim (with PCIe SafeSlot)\n- Q-Antenna\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- Aluminum backplate\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Clear CMOS button\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAura Sync\n- Addressable Gen 2 header(s)\nROG STRIX HIVE II\n1 x USB Type-C® connects to motherboard\n2 x USB 10Gbps port ( 1 x Type-A + 1 x USB Type-C®) \n1 x Headphone jack with mic in\n1 x Power button \n1 x FlexKey button \n1 x Volume control knob with mute button Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- ROG CPU-Z\n- Dolby Atmos\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 (60 days free trial) \n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)\n- GameFirst\n- HWiNFO\n- Power Saving\nASUS Driver Hub\nASUS GlideX\nAdobe Creative Cloud (Free Trial)\nNorton 360 for Gamers (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI\nBIOS EZ Mode\n- ASUS\nMyHotkey\nFlexKey\nDynamic OC Switcher"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n1 x Panel cable\n1 x ROG USB2.0 splitter cable\n2 x SATA 6Gb/s cables \nROG FPS Card\n1 x ROG FPS Card\nROG STRIX HIVE II\n1 x ROG STRIX HIVE II\n1 x USB Type-C® power connection cable\nMiscellaneous\n1 x ASUS WiFi Q-Antenna\n1 x Cable ties package\n1 x M.2 Q-Latch package(s)\n1 x ROG key chain\n1 x ROG Strix stickers\n1 x M.2 rubber package(s)\nDocumentation\n1 x Quick start guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch (17 cm x 17 cm)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/0A8FE0D3-1B07-4299-91B5-3137F89238EA"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "formFactor": {
+        "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch (17 cm x 17 cm)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch (17 cm x 17 cm)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "chipset": {
+        "value": "AMD X870",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 2 x M.2 slots and 2 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2280(supports PCIe 5.0 x4 mode)\nAMD Ryzen™ 8000 Series Desktop Processors*\nM.2_1 slot (Key M), type 2280(supports PCIe 4.0 x4 mode)\n\nAMD X870 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4)\n2 x SATA 6Gb/s ports***\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/10 and SATA RAID 0/1\n*** Install ROG FPS Card to support 2 x SATA 6Gb/s ports.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)*\n\n* Specifications vary by CPU types.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB4® (40Gbps)(2 x USB Type-C®) \n5 x USB 10Gbps port(s) (4 x Type-A + 1 x USB Type-C®, 1 port supports ROG STRIX HIVE II)\n3 x USB 2.0 port(s) (2 x Type-A) \n1 x HDMI™ port\n1 x Wi-Fi module\n1 x Intel® 2.5Gb Ethernet port\n1 x BIOS FlashBack™ button \n1 x Clear CMOS button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin AIO Pump header(s)\n1 x 4-pin Chassis Fan header(s)\nPower Related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V CPU Power connector\nStorage Related \n2 x M.2 slots (Key M) \nUSB\n1 x USB 10Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header support(s) 2\nadditional USB 5Gbps ports\nMiscellaneous\n2 x Addressable Gen 2 headers\n1 x 2-pin Power Button header\n1 x Thermal Sensor header\n2 x USB Type-C® connectors to install ROG FPS card\nROG FPS card\n2 x SATA 6Gb/s ports\n1 x CPU Over Voltage jumper\n1 x Front Panel header\n1 x Alteration PCIe Mode switch\n2 x USB 2.0 headers support 3\nadditional USB 2.0 ports",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 7*\n2x2 Wi-Fi 7 (802.11be) \nSupports 2.4/5/6GHz frequency band**\nSupport Wi-Fi 7 320MHz bandwidth, up to 6.5Gbpstransfer rate.\nBluetooth® v5.4***\n*Wi-Fi features may vary depending on the operating system\nFor Windows 11, Wi-Fi 7 will require24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E. \nFor Windows 10, please note that no driver is available, refer to the Wi-Fi chipset vendor's website for details.\n** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n*** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.\"",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "audio": {
+        "value": "ROG Strix Hive II Audio Features\n- ROG Hyper-Grounding Technology\n- ESS® SABRE9260Q DAC \n- Silver-plated audio jacks\n- Dedicated audio PCB layers",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:37+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX X870-I GAMING WIFI"
+  }
+}

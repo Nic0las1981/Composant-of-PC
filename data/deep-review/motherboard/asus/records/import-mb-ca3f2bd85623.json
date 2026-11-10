@@ -1,0 +1,268 @@
+{
+  "review": {
+    "id": "import-mb-ca3f2bd85623",
+    "name": "ROG STRIX X670E-E GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:41:49+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "sha256": "37ed25b4e6f476ef6c69dc8ab6d6e73d1f2b7c2f7a40bdde72814e572731eece",
+        "bytes": 225883,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX X670E-E GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/BADFA920-702B-451B-9592-8279ACD6857B"
+    ],
+    "sections": [
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX X670E-E GAMING WIFI",
+    "identityNote": "Modèle ASUS ROG STRIX X670E-E GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 4,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG STRIX X670E-E GAMING WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ Desktop Processors*\n* Refer to www.asus.com for CPU support\nlist."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X670"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 192GB, DDR5 \n8000+(OC)/7800(OC)/7600(OC)/7200(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200/ 5000/ 4800 ECC and Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture \nSupports AMD EXTended Profiles for Overclocking (EXPO™)\nOptiMem II \n* Supported memory types, data rate(Speed),\nand number of DRAM module vary depending on the CPU and memory configuration, for more information refer to www.asus.com for memory support list. \n* Non-ECC, Un-buffered DDR5 Memory supports\nOn-Die ECC function"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x HDMI® port***\n**Supports max. 8K@60Hz as specified in DisplayPort 1.4. \n***Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ Desktop Processors\n2 x PCIe 5.0 x16 slots (supports x16 or x8/x4 modes)\nAMD X670 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\n\nAMD Ryzen™ Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280  (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode))\n\nAMD X670 Chipset\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n \n*AMD RAIDXpert2 Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between\ncountries, and function will be ready in Windows 11 or later.\n **The Bluetooth version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 13 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n12 x USB 3.2 Gen 2 ports (10 x Type-A + 2 x\nUSB Type-C®)\n\nFront USB (Total 9 ports)\n1 x USB 3.2 Gen 2x2 connector \n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX 7.1 Surround Sound High\nDefinition Audio CODEC ALC4080\n- Impedance sense for front and rear\nheadphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback\noutput and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\n\nAudio Features\n- Audio Shielding\n- Savitech SV3H712 AMP  \n- Gold-plated audio jacks\n- Rear optical S/PDIF out port \n- Premium audio capacitors\n- Audio cover\n* A chassis with an HD audio module in the\nfront panel is required to support 7.1 Surround Sound audio output.\n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x Type-C®)\n12 x USB 3.2 Gen 2 ports (10 x Type-A, 2 x USB\nType-C®) \n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n5 x Gold-plated audio jacks*\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™  button \n1 x Clear CMOS button \n*The rear panel Lime (Line out) port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n5 x 4-pin Chassis Fan header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connector\nStorage related\n4 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports\nadditional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Alteration Mode Switch\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP) \n1 x Start button\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™ header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme Engine Digi+\n- 5K Black Metallic Capacitors \nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-Code\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA\n[white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink backplate\n- M.2 heatsink\n- VRM heatsink design\n- Massive M.2 Heatsink\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Clear CMOS button\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- GameFirst VI\n- ROG CPU-Z\n- Sonic Studio III + Sonic Studio Virtual\nMixer + Sonic Suite Companion\n- Sonic Radar III\n- DTS® Sound Unbound \n- Anti-virus software\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (60 days free trial) \n- AURA Creator\n- AURA Sync\n- Fan Xpert 4 (with AI Cooling II)\n- Power Saving\n- Two-Way AI Noise Cancellation\nAI Suite 3\n - TPU \n- DIGI+ VRM\n- Turbo app \n- PC Cleaner\nMyAsus\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nDynamic OC Switcher\nFlexKey"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 MbFlash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables2x SATA 6Gb/s cables \nAdditional Cooling Kit\n1 x Thermal pad for M.2\nMiscellaneous\n1 x ASUS Wi-Fi moving antennas \n1 x Cable ties pack\n1 x Massive M.2 Heatsink\n1 x M.2 Q-Latch package for M.2 backplate\n1 x M.2 Q-Latch package\n1 x ROG Graphics card holder\n2 x Rubber Packages for M.2 \n1 x Rubber Package for M.2 backplate\n1 x ROG key chain\n1 x ROG Strix sticker\n1 x ROG Strix thank you card\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows®11 64-bit, Windows 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/BADFA920-702B-451B-9592-8279ACD6857B"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "chipset": {
+        "value": "AMD X670",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 4 x M.2 slots and 4 x SATA 6Gb/s ports*\n\nAMD Ryzen™ Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280  (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 5.0 x4 mode))\n\nAMD X670 Chipset\nM.2_4 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n \n*AMD RAIDXpert2 Technology supports both NVMe RAID 0/1/10 and SATA RAID 0/1/10.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ Desktop Processors\n2 x PCIe 5.0 x16 slots (supports x16 or x8/x4 modes)\nAMD X670 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x Type-C®)\n12 x USB 3.2 Gen 2 ports (10 x Type-A, 2 x USB\nType-C®) \n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n5 x Gold-plated audio jacks*\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™  button \n1 x Clear CMOS button \n*The rear panel Lime (Line out) port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n5 x 4-pin Chassis Fan header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connector\nStorage related\n4 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports\nadditional 2 USB 3.2 Gen 1 ports\n3 x USB 2.0 headers support additional 6 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Alteration Mode Switch\n1 x CPU Over Voltage jumper\n1 x Front Panel Audio header (AAFP) \n1 x Start button\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™ header",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between\ncountries, and function will be ready in Windows 11 or later.\n **The Bluetooth version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX 7.1 Surround Sound High\nDefinition Audio CODEC ALC4080\n- Impedance sense for front and rear\nheadphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback\noutput and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\n\nAudio Features\n- Audio Shielding\n- Savitech SV3H712 AMP  \n- Gold-plated audio jacks\n- Rear optical S/PDIF out port \n- Premium audio capacitors\n- Audio cover\n* A chassis with an HD audio module in the\nfront panel is required to support 7.1 Surround Sound audio output.\n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ Desktop Processors*\n* Refer to www.asus.com for CPU support\nlist.\nBIOS: 256 MbFlash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX X670E-E GAMING WIFI"
+  }
+}

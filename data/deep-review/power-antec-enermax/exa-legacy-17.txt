@@ -1,0 +1,167 @@
+# USER’S MANUAL
+URL: https://www.manuallib.com/download/pdf16/ANTEC-SIGNATURE-SERIES-SG-650-SG-850-POWER-SUPPLY-MANUAL.PDF
+Author: awang
+
+USER’S MANUAL
+
+Antec Signature Series SG-650 and SG-850 Power Supply
+
+A New Level of Quality The Signature Series is Antec’s premium line of high-end performance power supplies. Combining cutting-edge technology, rigid testing, and impeccable style, the Signature series is the ultimate choice in power supplies. Some of the design features in this premium quality PSU have never been seen before in a consumer power supply. Every Signature series power supply has been personally tested by our engineers, and comes with a signed document guaranteeing its quality performance.
+
+Standards and Features 
+The Signature Series Power Supply Unit (PSU) is compatible with ATX12V v2.3 and 
+EPS12V v2.91 specifications. The Signature PSU features Universal Input, which 
+automatically senses when you connect the power supply to any AC power source 
+between 100~240V without having to worry about setting a voltage switch. 
+This power supply also features Active PFC, which improves the power factor value of 
+the power supply by altering the input current wave shape and thus helps transmission 
+across the power grid. 
+Components and Design 
+Antec has selected only the best quality Japanese capacitors enhancing the unit’s 
+stability and increasing the MTBF of the Signature. The component choice has been 
+expanded by the use of two double-layer circuit boards, which allow for heavier-duty 
+components and more space between them for better airflow. The fan is a top-quality 
+Japanese made PWM fan. 
+DC to DC 
+The Signature uses DC-to-DC conversion for the 5V and 3.3V rails. The DC-to-DC Voltage 
+Regulation module is the most advanced design, usually found on high-end motherboards, 
+to step down DC voltage. This module operates at 85% efficiency, as opposed to a 
+traditional Magnetic Amplifiers that only operate at 75% efficiency. Another benefit is 
+that the transient response time is almost 100 times faster, to provide unbeatably stable 
+power output in response to changing loads. 
+
+System Protection 
+A variety of industrial-grade safety circuitry will help protect your computer: OVP (Over 
+Voltage Protection), SCP (Short Circuit Protection), and OCP (Over Current Protection). 
+Sometimes the PSU will “latch” into a protected state. This means that you will need to 
+clear the fault and turn the power off to the PSU before it will function again. There are 
+no user-replaceable fuses in your Signature Series PSU. 
+Special Quiet Computing™ PWM fan operation 
+Another innovation in your Signature is the introduction of pulse width modulation 
+(PWM) fan technology. A PWM fan can spin much more slowly and be quieter than a 
+voltage-controlled fan. The Signature uses a Japanese PWM fan that can spin as slow as 
+400 RPM or as fast as 4000 RPM, depending on load and ambient temperature. It should 
+be nearly inaudible when your computer is idling, and the Signature will vary the fan 
+speed depending on the load of your computer. 
+80 PLUS® Bronze Certification 
+80 PLUS® Certification is the latest independent standard in power supply efficiency. 
+This means that the PSU will generate less heat so it stays cooler, runs more quietly, 
+and lasts longer. The Signature series exceeds the basic 80 PLUS® standard and lowers 
+your operating costs while protecting the environment. 
+
+SLI Certification Signature power supplies have been SLI Certified by NVIDIA Corporation for use with pairs of high-end graphics cards for superior parallel graphics processing.
+
+Advanced Hybrid Cable Management System 
+The Signature Series uses Advanced Hybrid Cable Management. Cables that are important 
+or mandatory are connected directly to the PSU. There are also modular connectors on 
+the back of the PSU to add additional cables as needed. Using only the power cables 
+you need will reduce clutter and improve airflow inside your case. For the list of connected 
+and optional cables, see the following table. 
+
+Table 1 Cable Quantity Power Connectors Part Name Description
+
+N/A Power supply Direct cabling
+
+24-pin (20+4) main 
+connector 
+4-Pin ATX 12V 
+8-pin EPS 12V 
+SG-650: 1 x 8-pin 
+(6+2) PCI-E 
+SG-850: 2 x 8-pin 
+(6+2) PCI-E 
+3 x Molex 
++ 1 x Floppy 
+3 x SATA 
+
+2 Molex connector w/ cable
+
+Includes three Molex connectors
+
+2
+
+Serial ATA connector w/ cable
+
+Includes three Serial ATA connectors
+
+SG-650 x 1 cable PCI Express connector w/ cable
+
+Includes one PCI Express connector
+
+SG-850 x 2 cable
+
+Installation: Install the Signature PSU into your case with the four screws provided. Connect the 24-pin Main Power Connector to your motherboard. If your motherboard uses a 20-pin connector, detach the 4-pin section on the 24-pin connector. Note: The detachable 4-pin section cannot be used in place of a 4-pin +12V connector.
+
+1
+
+2
+
+1 2
+
+Connect the 8-pin or 4-pin connector for the CPU. 
+Note: Please also refer to your motherboard user guide for any special instructions. 
+Connect the cables from cable pack to the socket on the power supply as needed. 
+If you are going to plug additional PCI-E cables into the PSU, they should go into the 
+red sockets. If the red sockets are not being used for PCI-E, then they can be used 
+for any other type of cable supplied in the pack that accompanied the PSU. 
+Connect the AC power cord to the power supply AC inlet and turn the switch to the 
+“|” position. 
+
+3
+
+4
+
+5
+
+3a
+
+4 5
+
+3b
+
+| Output — SG-650 | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Voltage | +3.3V | +5V | +12V1 | +12V2 | +12V3 | | -12V | +5VSB |
+| Maximum Load | 25A | 25A | 22A | 22A | | 25A | 0.5A | 3A |
+| Minimum Load | 0A | 0A | 0A | 0A | | 0A | 0A | 0A |
+| Regulation | ±3% | ±3% | ±3% | ±3% | ±3% | | ±7% | ±3% |
+| Ripple & Noise (mV) | 50 | 50 | 120 | 120 | | 120 | 120 | 50 |
+| Combined max. | 140W | | | 516W (43A) | | | N/A | N/A |
+| Total Power | | | 650W continuous output @ 50°C | | | | | |
+| Output — SG-850 | | | | | | | | |
+| Voltage | +3.3V | +5V | +12V1 | +12V2 | +12V3 | +12V4 | -12V | +5VSB |
+| Maximum Load | 25A | 25A | 22A | 22A | 25A | 25A | 0.5A | 3A |
+| Minimum Load | 0A | 0A | 0A | 0A | 0A | 0A | 0A | 0A |
+| Regulation | ±3% | ±3% | ±3% | ±3% | ±3% | ±3% | ±6% | ±3% |
+| Ripple & Noise (mV) | 50 | 50 | 120 | 120 | 120 | 120 | 120 | 50 |
+| Combined max. | 160W | | | 780W (65A) | | | N/A | N/A |
+| Total Power | | | 850W continuous output @ 50°C | | | | | |
+| Safety: UL/CUL, TUV, CE, CB, CCC, FCC Class B, C-Tick | | | | | | | | |
+| Protections: Over Voltage Protection, Short Circuit Protection, Over Current Protection | | | | | | | | |
+| MTBF: 100K Hours Min At Max. Load 230Vac And 25° Ambient Conditions. | | | | | | | | |
+| | | | 6 | | | | | |
+
+Antec, Inc. 
+47900 Fremont Blvd. 
+Fremont, CA 94538 
+USA 
+tel: 510-770-1200 
+fax: 510-770-1288 
+Antec Europe B.V. 
+Stuttgartstraat 12 
+3047 AS Rotterdam 
+The Netherlands 
+tel: +31 (0) 10 462-2060 
+fax: +31 (0) 10 437-1752 
+Customer Support: 
+US & Canada 
+1-800-22ANTEC 
+customersupport@antec.com 
+Europe 
++31 (0) 10 462-2060 
+europe.techsupport@antec.com 
+
+www.antec.com
+
+© Copyright 2008 Antec, Inc. All rights reserved. 
+All trademarks are the property of their respective owners. Reproduction in whole or in part without written permission is prohibited.

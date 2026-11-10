@@ -1,0 +1,226 @@
+{
+  "review": {
+    "id": "import-mb-e1ff965a205c",
+    "name": "H610M-HDV/M.2 R2.0",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+          "checkedAt": "2026-11-10T13:59:08+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+          "httpStatus": 200,
+          "sha256": "c06234bb3120d80ed9001acde4a87071d1b262fa462368b7b92113a49937a828",
+          "bytes": 3622512,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock H610M-HDV/M.2 R2.0 / H610M-HVS/M.2\nR2.0 motherboard",
+        "modelNames": [
+          "H610M-HDV/M.2 R2.0",
+          "H610M-HVS/M.2 R2.0"
+        ],
+        "sharedManual": true
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+      "checkedAt": "2026-11-10T13:59:08+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+      "httpStatus": 200,
+      "sha256": "c06234bb3120d80ed9001acde4a87071d1b262fa462368b7b92113a49937a828"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock H610M-HDV/M.2 R2.0 / H610M-HVS/M.2\nR2.0 motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • Micro ATX Form Factor\n                              • Solid Capacitor design\n\n                                           th    th   th               TM\n                CPU           • Supports 14 , 13 & 12 Gen Intel® Core Processors\n                                (LGA1700)\n                              • 6+1+1 Power Phase design\n                              • Supports Intel® Hybrid Technology\n                              • Supports Intel® Turbo Boost Max 3.0 Technology\n\n\n                Chipset       • Intel® H610\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 2 x DDR4 DIMM Slots\n                              • Supports DDR4 non-ECC, un-buffered memory up to 3200*\n                             * Please refer to Memory Support List on ASRock's website for\n                             more information. (http://www.asrock.com/)\n                              • Supports ECC UDIMM memory modules (operate in non-\n                                 ECC mode)\n                              • Max. capacity of system memory: 64GB\n                              • Supports Intel® Extreme Memory Profile (XMP) 2.0\n\n\n                Expansion    CPU:\n                Slot          • 1 x PCIe 4.0 x16 Slot (PCIE2), supports x16 mode*\n                             Chipset:\n                              • 1 x PCIe 3.0 x1 Slot (PCIE1)*\n\n                             * Supports NVMe SSD as boot disks\n\n\n                 Graphics     • Intel® UHD Graphics Built-in Visuals and the VGA outputs\n                                can be supported only with processors which are GPU\n                                integrated.\n                                       e\n                             • Intel® X Graphics Architecture (Gen 12)\n                             H610M-HDV/M.2 R2.0:\nEnglish\n\n\n\n\n                             • Three graphics output options: D-Sub, HDMI and\n                               DisplayPort 1.4\n                             • Supports HDMI 2.1 TMDS Compatible with max. resolution\n                               up to 4K x 2K (4096x2160) @ 60Hz\n\n\n          2\n\f                                                              H610M-HDV/M.2 R2.0\n                                                              H610M-HVS/M.2 R2.0\n\n\n             • Supports DisplayPort 1.4 with DSC (compressed) max.\n               resolution up to 8K (7680x4320) @ 60Hz / 5K (5120x3200) @\n               120Hz\n             • Supports D-Sub with max. resolution up to 1920x1200 @\n               60Hz\n             • Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible and\n               DisplayPort 1.4 Ports\n             H610M-HVS/M.2 R2.0:\n             • Dual graphics output: support HDMI and D-Sub ports by\n               independent display controllers\n             • Supports HDMI 2.1 TMDS Compatible with max. resolution\n               up to 4K x 2K (4096x2160) @ 60Hz\n             • Supports D-Sub with max. resolution up to 1920x1200 @\n               60Hz\n             • Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible Port\n\n\nAudio        • 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n             • Supports Surge Protection\n\n\nLAN          •   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n             •   1 x Realtek RTL8111H\n             •   Supports Wake-On-LAN\n             •   Supports Lightning/ESD Protection\n             •   Supports Energy Efficient Ethernet 802.3az\n             •   Supports PXE\n\n\nRear Panel   • 1 x PS/2 Mouse/Keyboard Port\nI/O          • 2 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n             • 4 x USB 2.0 Ports (Supports ESD Protection)\n             • 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\n               LED)\n             • HD Audio Jacks: Line in / Front Speaker / Microphone\n             H610M-HDV/M.2 R2.0:\n             • 1 x D-Sub Port\n             • 1 x HDMI Port\n             • 1 x DisplayPort 1.4\n                                                                                English\n\n\n\n\n             H610M-HVS/M.2 R2.0:\n             • 1 x D-Sub Port\n             • 1 x HDMI Port\n\n\n                                                                            3\n\f              Storage     Chipset:\n                          • 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n                            2242/2260/2280 PCIe Gen3x4 (32 Gb/s) mode*\n                          • 4 x SATA3 6.0 Gb/s Connectors\n\n                          * Supports NVMe SSD as boot disks\n                          * Supports ASRock U.2 Kit\n\n\n              Connector    • 1 x SPI TPM Header\n                           • 1 x Chassis Intrusion and Speaker Header\n                           • 1 x CPU Fan Connector (4-pin)\n                          * The CPU Fan Connector supports the CPU fan of maximum\n                          1A (12W) fan power.\n                           • 1 x Chassis/Water Pump Fan Connector (4-pin) (Smart Fan\n                             Speed Control)\n                          * The Chassis/Water Pump Fan supports the water cooler fan of\n                          maximum 2A (24W) fan power.\n                          * CHA_FAN1/WP can auto detect if 3-pin or 4-pin fan is in use.\n                           • 1 x 24 pin ATX Power Connector\n                           • 1 x 8 pin 12V Power Connector\n                           • 1 x Front Panel Audio Connector\n                           • 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\n                             ESD Protection)\n                           • 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n                             (Supports ESD Protection)\n\n\n              BIOS        •   AMI UEFI Legal BIOS with multilingual GUI support\n              Feature     •   ACPI 6.0 Compliant wake up events\n                          •   SMBIOS 2.7 Support\n                          •   CPU Core/Cache, CPU Core/Cache Load-Line, CPU GT,\n                              CPU GT Load-Line, DRAM, +0.82V PCH, +1.05V PCH,\n                              VCCIN AUX, +1.8V PROC, +1.05V PROC Voltage Multi-\n                              adjustment\n\n\n              Hardware    • Fan Tachometer: CPU, Chassis/Water Pump Fans\n              Monitor     • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nEnglish\n\n\n\n\n                            ture): CPU, Chassis/Water Pump Fans\n                          • Fan Multi-Speed Control: CPU, Chassis/Water Pump Fans\n                          • CASE OPEN detection\n\n\n          4\n\f                                                                                           H610M-HDV/M.2 R2.0\n                                                                                           H610M-HVS/M.2 R2.0\n\n\n                            • Voltage monitoring: CPU Vcore, DRAM, +0.82V PCH,\n                              +1.05V PCH, VCCIN AUX, VCCSA, +1.05V PROC, +12V,\n                                +5V, +3.3V\n\n\n    OS                      • Microsoft® Windows® 10 64-bit / 11 64-bit\n\n\n    Certifica-              • FCC, CE\n    tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n               Please realize that there is a certain risk involved with overclocking, including\n               adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n               third-party overclocking tools. Overclocking may affect your system’s stability, or\n               even cause damage to the components and devices of your system. It should be done\n               at your own risk and expense. We are not responsible for possible damage caused by\n               overclocking.\n\n\n\n\n                                                                                                             English\n\n\n\n\n                                                                                                         5\n\f              ",
+      "modelNames": [
+        "H610M-HDV/M.2 R2.0",
+        "H610M-HVS/M.2 R2.0"
+      ],
+      "sharedManual": true
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "H610M-HDV/M.2 R2.0",
+    "identityNote": "Modèle ASRock H610M-HDV/M.2 R2.0 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "m2Slots": 1,
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "H610M-HDV/M.2 R2.0",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• Micro ATX Form Factor\n• Solid Capacitor design\nth    th   th               TM"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports 14 , 13 & 12 Gen Intel® Core Processors\n(LGA1700)\n• 6+1+1 Power Phase design\n• Supports Intel® Hybrid Technology\n• Supports Intel® Turbo Boost Max 3.0 Technology"
+          },
+          {
+            "label": "Chipset",
+            "value": "• Intel® H610"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 2 x DDR4 DIMM Slots\n• Supports DDR4 non-ECC, un-buffered memory up to 3200*\n* Please refer to Memory Support List on ASRock's website for\nmore information. (http://www.asrock.com/)\n• Supports ECC UDIMM memory modules (operate in non-\nECC mode)\n• Max. capacity of system memory: 64GB\n• Supports Intel® Extreme Memory Profile (XMP) 2.0"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE2), supports x16 mode*\nChipset:\n• 1 x PCIe 3.0 x1 Slot (PCIE1)*\n* Supports NVMe SSD as boot disks"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Intel® UHD Graphics Built-in Visuals and the VGA outputs\ncan be supported only with processors which are GPU\nintegrated.\ne\n• Intel® X Graphics Architecture (Gen 12)\n• Three graphics output options: D-Sub, HDMI and\nDisplayPort 1.4\n• Supports HDMI 2.1 TMDS Compatible with max. resolution\nup to 4K x 2K (4096x2160) @ 60Hz\n• Supports DisplayPort 1.4 with DSC (compressed) max.\nresolution up to 8K (7680x4320) @ 60Hz / 5K (5120x3200) @\n120Hz\n• Supports D-Sub with max. resolution up to 1920x1200 @\n60Hz\n• Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible and\nDisplayPort 1.4 Ports\n• Dual graphics output: support HDMI and D-Sub ports by\nindependent display controllers\n• Supports HDMI 2.1 TMDS Compatible with max. resolution\nup to 4K x 2K (4096x2160) @ 60Hz\n• Supports D-Sub with max. resolution up to 1920x1200 @\n60Hz\n• Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible Port"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n• Supports Surge Protection"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "•   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n•   1 x Realtek RTL8111H\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 1 x PS/2 Mouse/Keyboard Port\nI/O          • 2 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n• 4 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Line in / Front Speaker / Microphone\n• 1 x D-Sub Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4\n• 1 x D-Sub Port\n• 1 x HDMI Port"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Chipset:\n• 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n2242/2260/2280 PCIe Gen3x4 (32 Gb/s) mode*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x SPI TPM Header\n• 1 x Chassis Intrusion and Speaker Header\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x Chassis/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CHA_FAN1/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\nESD Protection)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n(Supports ESD Protection)"
+          },
+          {
+            "label": "BIOS",
+            "value": "•   AMI UEFI Legal BIOS with multilingual GUI support\nFeature     •   ACPI 6.0 Compliant wake up events\n•   SMBIOS 2.7 Support\n•   CPU Core/Cache, CPU Core/Cache Load-Line, CPU GT,\nCPU GT Load-Line, DRAM, +0.82V PCH, +1.05V PCH,\nVCCIN AUX, +1.8V PROC, +1.05V PROC Voltage Multi-\nadjustment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "• Fan Tachometer: CPU, Chassis/Water Pump Fans\nMonitor     • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nture): CPU, Chassis/Water Pump Fans\n• Fan Multi-Speed Control: CPU, Chassis/Water Pump Fans\n• CASE OPEN detection\n• Voltage monitoring: CPU Vcore, DRAM, +0.82V PCH,\n+1.05V PCH, VCCIN AUX, VCCSA, +1.05V PROC, +12V,\n+5V, +3.3V"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit / 11 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may affect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur.",
+      "Manuel commun à plusieurs modèles explicitement nommés : les clauses conditionnelles identifiant chaque modèle restent présentes, sans les attribuer automatiquement aux autres variantes."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "formFactor": {
+        "value": "• Micro ATX Form Factor\n• Solid Capacitor design\nth    th   th               TM",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "chipset": {
+        "value": "• Intel® H610",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "storagePorts": {
+        "value": "Chipset:\n• 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n2242/2260/2280 PCIe Gen3x4 (32 Gb/s) mode*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "pcie": {
+        "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE2), supports x16 mode*\nChipset:\n• 1 x PCIe 3.0 x1 Slot (PCIE1)*\n* Supports NVMe SSD as boot disks",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "rearIO": {
+        "value": "• 1 x PS/2 Mouse/Keyboard Port\nI/O          • 2 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n• 4 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Line in / Front Speaker / Microphone\n• 1 x D-Sub Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4\n• 1 x D-Sub Port\n• 1 x HDMI Port",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x SPI TPM Header\n• 1 x Chassis Intrusion and Speaker Header\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x Chassis/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CHA_FAN1/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\nESD Protection)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n(Supports ESD Protection)",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "network": {
+        "value": "•   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n•   1 x Realtek RTL8111H\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n• Supports Surge Protection",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports 14 , 13 & 12 Gen Intel® Core Processors\n(LGA1700)\n• 6+1+1 Power Phase design\n• Supports Intel® Hybrid Technology\n• Supports Intel® Turbo Boost Max 3.0 Technology\nBIOS: •   AMI UEFI Legal BIOS with multilingual GUI support\nFeature     •   ACPI 6.0 Compliant wake up events\n•   SMBIOS 2.7 Support\n•   CPU Core/Cache, CPU Core/Cache Load-Line, CPU GT,\nCPU GT Load-Line, DRAM, +0.82V PCH, +1.05V PCH,\nVCCIN AUX, +1.8V PROC, +1.05V PROC Voltage Multi-\nadjustment",
+        "sourceURL": "https://download.asrock.com/Manual/H610M-HVSM.2%20R2.0.pdf",
+        "checkedAt": "2026-11-10T13:59:08+00:00"
+      }
+    },
+    "manufacturerModel": "H610M-HDV/M.2 R2.0"
+  }
+}

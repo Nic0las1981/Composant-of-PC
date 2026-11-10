@@ -1,0 +1,14 @@
+{
+  "brand": "ASUS",
+  "url": "https://www.asus.com/robots.txt",
+  "kind": "index",
+  "checkedAt": "2026-11-10T13:24:16Z",
+  "requestedURL": "https://www.asus.com/robots.txt",
+  "contentFile": "data/deep-review/gpu/sources/3784164252396f6ac272.html.gz",
+  "status": 200,
+  "contentType": "text/plain",
+  "sha256": "ab9948183b688e5d0bd9e7e4aa92c063288e360a7d08972fa660cb0ef0356811",
+  "bytes": 480,
+  "links": [],
+  "text": "User-agent: *\r\n\r\nDisallow: /*SearchKey\r\nDisallow: /*searchKey\r\n\r\nDisallow: /*Knowledge-Search\r\nDisallow: /*knowledge-search\r\nDisallow: /*Product-Search\r\nDisallow: /*product-search\r\n\r\nDisallow: /*overviewpath=*\r\nDisallow: /*SubSeries=*,*\r\nDisallow: /*Spec=*,*\r\nDisallow: /*Series=*,*\r\nDisallow: /*Category=*,*\r\nDisallow: /*SubSpec=*,*\r\n\r\nSitemap: https://www.asus.com/sitemap.xml\r\nSitemap: https://www.asus.com/business/sitemap.xml\r\nSitemap: https://www.asus.com/proart/sitemap.xml"
+}

@@ -1,0 +1,50 @@
+{
+  "review": {
+    "id": "import-mb-8c1a253ca7e0",
+    "name": "PRIME B450M-K",
+    "state": "exact_model_not_confirmed",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:46+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "sha256": "382b1744a4cc4c57177c964ddb27e9370af3b4a1cff320957e0be97b94376530",
+        "bytes": 327501,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "checkedAt": "2026-11-10T13:30:38+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/prime/",
+        "sha256": "2db00033731b3ff2166cf58d23cac0ea76fe7c20a55c09e82b2dd4925bec9a23",
+        "bytes": 498602,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "checkedAt": "2026-11-10T14:00:40+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "sha256": "01e0ea2bce55c1eb35c767ec6e3b073f0ad88214bddb8567a54b52f72ce2f402",
+        "bytes": 294171,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/ca-en/motherboards-components/motherboards/prime/prime-b450m-k/techspec/",
+        "checkedAt": "2026-11-10T14:00:43+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/ca-en/motherboards-components/motherboards/prime/",
+        "sha256": "077fab7b7544dba921d69ae4c511bf5c3bc50e190e06a9615712ab4ab8c25d2b",
+        "bytes": 493680,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

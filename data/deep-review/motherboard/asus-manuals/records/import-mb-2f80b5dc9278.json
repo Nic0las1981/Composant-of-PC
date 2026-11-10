@@ -1,0 +1,49 @@
+{
+  "review": {
+    "id": "import-mb-2f80b5dc9278",
+    "name": "PRIME B350M-E",
+    "state": "primary_manual_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-K/E12609_PRIME_B350M-K_UM_WEB_032917.pdf",
+          "checkedAt": "2026-11-10T14:09:20+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-K/E12609_PRIME_B350M-K_UM_WEB_032917.pdf",
+          "httpStatus": 200,
+          "sha256": "179653c86080755e65fbe09b48bedbf10f56ec922dd117891c36e7f6ea8030b5",
+          "bytes": 2892407,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME B350M-K"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/E12722_PRIME_B350M-A_UM_web_v3_web_only.pdf?model=PRIME+B350M-A",
+          "checkedAt": "2026-11-10T14:09:22+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/E12722_PRIME_B350M-A_UM_web_v3_web_only.pdf?model=PRIME+B350M-A",
+          "httpStatus": 200,
+          "sha256": "45bec3d79d4b43a8279a2722ab008ab6520c403e8ca170635c891c46f87dbd63",
+          "bytes": 3453787,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME B350M-A"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350-PLUS/E13723_PRIME_B350-PLUS_UM_V3_WEB_20171114.pdf?model=PRIME+B350-PLUS",
+          "checkedAt": "2026-11-10T14:09:23+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350-PLUS/E13723_PRIME_B350-PLUS_UM_V3_WEB_20171114.pdf?model=PRIME+B350-PLUS",
+          "httpStatus": 200,
+          "sha256": "9ecbeaa8aaac7d23e7bd506f221beba04c6e4c52e97fd38ed6eada8e57806161",
+          "bytes": 3403025,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME B350-PLUS"
+      }
+    ]
+  },
+  "product": null
+}

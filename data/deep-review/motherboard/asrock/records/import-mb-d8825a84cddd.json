@@ -1,0 +1,230 @@
+{
+  "review": {
+    "id": "import-mb-d8825a84cddd",
+    "name": "A620AM-HVS",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock A620AM-HVS motherboard",
+        "modelNames": [
+          "A620AM-HVS"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:10+00:00",
+      "url": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+      "sha256": "de637adc3be1834476b573e1179080d1a532b8de4541d4c8ee009eeeaabe763a"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock A620AM-HVS motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • Micro ATX Form Factor\n                              • 2oz Copper PCB\n\n\n                CPU           • Supports AMD Socket AM5 RyzenTM 9000, 8000 and 7000\n                                 Series Processors*\n                             * Please refer to CPU Support List on ASRock's website for more\n                             information. (http://www.asrock.com/)\n                             * The availability of expansion slots may vary by CPU. Please\n                             refer to PCIe/M.2 Bandwidth Table for details. (http://www.\n                             asrock.com/)\n\n\n                Chipset       • AMD A620A\n\n\n                Memory        • Dual Channel DDR5 Memory Technology\n                              • 2 x DDR5 DIMM Slots\n                              • Supports DDR5 non-ECC, un-buffered memory up to\n                                 6800+(OC)*\n                              • Max. capacity of system memory: 128GB\n                              • Supports Extreme Memory Profile (XMP) and EXTended\n                                 Profiles for Overclocking (EXPO) memory modules\n                             * Please refer to Memory Support List on ASRock's website for\n                             more information. (http://www.asrock.com/)\n\n\n                Expansion     CPU:\n                Slot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\n                              Chipset:\n                              • 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE3)*\n                              • 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\n                                WiFi module\n\n\n                             * PCIE1 will run at Gen4x16 with 9000 and 7000 series\n                             processors, Gen4x8 with 8000 (Phoenix 1) series processors and\n                             Gen4x4 with 8000 (Phoenix 2) series processors.\n                             * Supports NVMe SSD as boot disks\nEnglish\n\n\n\n\n                              • 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n\n\n                 Graphics     •    Integrated AMD RDNATM graphics (Actual support may\n                                   vary by CPU)\n          2\n\f                                                                        A620AM-HVS\n\n\n\n\n             • 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR,\n               HDCP 2.3 and max. resolution up to 4K 120Hz\n             • 1 x D-Sub, supports max. resolution up to Full HD\n               (1920x1080) 60Hz\n\n\nAudio        • 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n\n\nLAN          • Gigabit LAN 10/100/1000 Mb/s\n             • Realtek RTL8111H\n\n\nUSB           CPU:\n              • 3 x USB 3.2 Gen1 Type-A (Rear (USB32_2, USB32_34))\n              Chipset:\n              • 1 x USB 3.2 Gen1 Type-C (Front)\n              • 3 x USB 3.2 Gen1 Type-A (1 Rear (USB32_1), 2 Front)\n              • 8 x USB 2.0 (4 Rear (USB_1234), 4 Front)\n             * All USB ports support ESD Protection\n\n\nRear Panel   •   2 x Antenna Mounting Points\nI/O          •   1 x D-Sub Port\n             •   1 x HDMI Port\n             •   4 x USB 3.2 Gen1 Type-A Ports\n             •   4 x USB 2.0 Ports\n             •   1 x RJ-45 LAN Port\n             •   1 x BIOS Flashback Button\n             •   HD Audio Jacks: Line in / Front Speaker / Microphone\n\n\nStorage      CPU:\n             • 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\n               PCIe Gen4x4 (64 Gb/s) mode*\n             Chipset:\n             • 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n               2260/2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*\n             • 2 x SATA3 6.0 Gb/s Connectors\n                                                                                  English\n\n\n\n\n             * M2_1 is the first priority for M.2 installation.\n             * Supports NVMe SSD as boot disks\n\n\n\n\n                                                                              3\n\f              RAID          • Supports RAID 0 and RAID 1 for SATA storage devices\n                            • Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe\n                              storage devices*\n                           * Requires additional M.2 NVMe expansion cards to support\n                           RAID 10\n\n\n              Connector    •   1 x Power LED and Speaker Header\n                           •   1 x RGB LED Header*\n                           •   3 x Addressable LED Headers**\n                           •   1 x CPU Fan Connector (4-pin) (Smart Fan Speed Con-\n                               trol)***\n                            • 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\n                               trol)***\n                            • 1 x 24 pin ATX Power Connector\n                            • 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\n                               tor)\n                            • 1 x Front Panel Audio Connector\n                            • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n                            • 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n                            • 1 x Front Panel Type C USB 3.2 Gen1 Header\n                           * Supports in total up to 12V/3A, 36W LED Strip\n                           ** Support in total up to 5V/3A, 15W LED Strip\n                           *** CPU_FAN1 supports the fan power up to 1A (12W).\n                           *** CHA_FAN1~3/WP support the fan power up to 3A (36W).\n                           *** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\n                           in use.\n\n\n              BIOS         • AMI UEFI Legal BIOS with GUI support\n              Feature\n\n\n              OS           • Microsoft® Windows® 10 64-bit / 11 64-bit\n\n\n              Certifica-   • FCC, CE\n              tions        • ErP/EuP ready (ErP/EuP ready power supply is required)\nEnglish\n\n\n\n\n          4\n\f                                                                                                      A620AM-HVS\n\n\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n               Please realize that there is a certain risk involved with overclocking, including\n               adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n               third-party overclocking tools. Overclocking may affect your system’s stability, or\n               even cause damage to the components and devices of your system. It should be done\n               at your own risk and expense. We are not responsible for possible damage caused by\n               overclocking.\n\n\n\n\n                                                                                                                English\n\n\n\n\n                                                                                                            5\n\f              ",
+      "modelNames": [
+        "A620AM-HVS"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "A620AM-HVS",
+    "identityNote": "Modèle ASRock A620AM-HVS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 128,
+      "socket": "AM5",
+      "formFactor": "Micro-ATX",
+      "m2Slots": 2,
+      "manufacturerPartNumber": "A620AM-HVS",
+      "description": "Carte mère ASRock A620AM-HVS. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM5",
+        "2 emplacements DDR5",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• Micro ATX Form Factor\n• 2oz Copper PCB"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD Socket AM5 RyzenTM 9000, 8000 and 7000\nSeries Processors*\n* Please refer to CPU Support List on ASRock's website for more\ninformation. (http://www.asrock.com/)\n* The availability of expansion slots may vary by CPU. Please\nrefer to PCIe/M.2 Bandwidth Table for details. (http://www.\nasrock.com/)"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD A620A"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR5 Memory Technology\n• 2 x DDR5 DIMM Slots\n• Supports DDR5 non-ECC, un-buffered memory up to\n6800+(OC)*\n• Max. capacity of system memory: 128GB\n• Supports Extreme Memory Profile (XMP) and EXTended\nProfiles for Overclocking (EXPO) memory modules\n* Please refer to Memory Support List on ASRock's website for\nmore information. (http://www.asrock.com/)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n• 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE3)*\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module\n* PCIE1 will run at Gen4x16 with 9000 and 7000 series\nprocessors, Gen4x8 with 8000 (Phoenix 1) series processors and\nGen4x4 with 8000 (Phoenix 2) series processors.\n* Supports NVMe SSD as boot disks\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "•    Integrated AMD RDNATM graphics (Actual support may\nvary by CPU)\n• 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR,\nHDCP 2.3 and max. resolution up to 4K 120Hz\n• 1 x D-Sub, supports max. resolution up to Full HD\n(1920x1080) 60Hz"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "• Gigabit LAN 10/100/1000 Mb/s\n• Realtek RTL8111H"
+          },
+          {
+            "label": "USB",
+            "value": "CPU:\n• 3 x USB 3.2 Gen1 Type-A (Rear (USB32_2, USB32_34))\nChipset:\n• 1 x USB 3.2 Gen1 Type-C (Front)\n• 3 x USB 3.2 Gen1 Type-A (1 Rear (USB32_1), 2 Front)\n• 8 x USB 2.0 (4 Rear (USB_1234), 4 Front)\n* All USB ports support ESD Protection"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "•   2 x Antenna Mounting Points\nI/O          •   1 x D-Sub Port\n•   1 x HDMI Port\n•   4 x USB 3.2 Gen1 Type-A Ports\n•   4 x USB 2.0 Ports\n•   1 x RJ-45 LAN Port\n•   1 x BIOS Flashback Button\n•   HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n2260/2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*\n• 2 x SATA3 6.0 Gb/s Connectors\n* M2_1 is the first priority for M.2 installation.\n* Supports NVMe SSD as boot disks"
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0 and RAID 1 for SATA storage devices\n• Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe\nstorage devices*\n* Requires additional M.2 NVMe expansion cards to support\nRAID 10"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "•   1 x Power LED and Speaker Header\n•   1 x RGB LED Header*\n•   3 x Addressable LED Headers**\n•   1 x CPU Fan Connector (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen1 Header\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n*** CHA_FAN1~3/WP support the fan power up to 3A (36W).\n*** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\nin use."
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with GUI support\nFeature"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit / 11 64-bit\nCertifica-   • FCC, CE\ntions        • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may affect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Capacité mémoire indiquée dans le manuel ; les évolutions de BIOS et la liste de compatibilité fabricant peuvent modifier cette limite. Les restrictions de lignes PCIe/M.2 selon le processeur restent applicables.",
+      "m2Slots compte les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et les sockets SATA seuls sont exclus.",
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "formFactor": {
+        "value": "• Micro ATX Form Factor\n• 2oz Copper PCB",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "chipset": {
+        "value": "• AMD A620A",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "storagePorts": {
+        "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Ultra M.2 Socket (M2_2, Key M), supports type\n2260/2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*\n• 2 x SATA3 6.0 Gb/s Connectors\n* M2_1 is the first priority for M.2 installation.\n* Supports NVMe SSD as boot disks",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "pcie": {
+        "value": "CPU:\nSlot          • 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*\nChipset:\n• 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE3)*\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module\n* PCIE1 will run at Gen4x16 with 9000 and 7000 series\nprocessors, Gen4x8 with 8000 (Phoenix 1) series processors and\nGen4x4 with 8000 (Phoenix 2) series processors.\n* Supports NVMe SSD as boot disks\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "rearIO": {
+        "value": "•   2 x Antenna Mounting Points\nI/O          •   1 x D-Sub Port\n•   1 x HDMI Port\n•   4 x USB 3.2 Gen1 Type-A Ports\n•   4 x USB 2.0 Ports\n•   1 x RJ-45 LAN Port\n•   1 x BIOS Flashback Button\n•   HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "internalIO": {
+        "value": "•   1 x Power LED and Speaker Header\n•   1 x RGB LED Header*\n•   3 x Addressable LED Headers**\n•   1 x CPU Fan Connector (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen1 Header\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n*** CHA_FAN1~3/WP support the fan power up to 3A (36W).\n*** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\nin use.",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "network": {
+        "value": "• Gigabit LAN 10/100/1000 Mb/s\n• Realtek RTL8111H",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD Socket AM5 RyzenTM 9000, 8000 and 7000\nSeries Processors*\n* Please refer to CPU Support List on ASRock's website for more\ninformation. (http://www.asrock.com/)\n* The availability of expansion slots may vary by CPU. Please\nrefer to PCIe/M.2 Bandwidth Table for details. (http://www.\nasrock.com/)\nBIOS: • AMI UEFI Legal BIOS with GUI support\nFeature",
+        "sourceURL": "https://download.asrock.com/Manual/A620AM-HVS.pdf",
+        "checkedAt": "2026-11-10T11:01:10+00:00"
+      }
+    },
+    "manufacturerModel": "A620AM-HVS"
+  }
+}

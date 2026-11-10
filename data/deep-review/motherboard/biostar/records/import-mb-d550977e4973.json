@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-d550977e4973",
+    "name": "X470GT8",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+          "checkedAt": "2026-11-10T13:46:33+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20180403.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180412_4.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180412_5.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180403_3.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "909",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X470GT8",
+    "identityNote": "Modèle Biostar X470GT8 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "formFactor": "ATX",
+      "heightMm": 244.0,
+      "widthMm": 305.0,
+      "manufacturerPartNumber": "X470GT8",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X470GT8 — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X470"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Support Dual Channel DDR4 1866/ 2133/ 2400/ 2667/ 2933(OC)/ 3200(OC) MHz\n4 x DDR4 DIMM Memory Slot\nMax. Supports up to 64GB Memory\n* DDR4 2667 for AMD Ryzen CPU\n※Athlon 200GE does not support ECC DDR4 memory module."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6 x SATA III Connectors (6GB/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU typesSupport Hot-Plug in AHCI mode\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector(32Gb/s)\n* Specifications vary by CPU typesSupport both PCIE NAND for PCIE SSD and SATA NAND for SATA SSD\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel i211AT - Gigabit Ethernet PHY"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC1220 8-Channel Blu-ray Audio\nSupport Blu-ray Audio\nSupport SPDIF_out\nSupport Biostar Hi-Fi"
+          },
+          {
+            "label": "USB",
+            "value": "1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n2 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2 x PCI-E 3.0 x16 Slots\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot (x4)\n* Specifications vary by CPU types3 x PCI-E 2.0 x1 Slots\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 Keyboard/Mouse\n1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n1 x DisplayPort Connector\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n5 x Audio Jacks\n1 x S/PDIF Out Port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x USB 3.1 Gen1 Headers\n2 x USB 2.0 Headers (each header support 2 USB 2.0 ports)\n6 x SATA III Connectors (6Gb/s) (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector\n1 x Front Audio Header\n1 x Front Panel Header\n2 x CPU Fan Connector\n3 x System Fan Connector\n1 x LN2 Switch\n2 x 5050 LED Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU1/ CPU2/ System1/ System2/ System3(PWM FAN) Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(x64) / 11(x64)\nSupport Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only"
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT EVO Utility\nBullGuard\nSmart Ear headphone Utility"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\nVIVID LED ARMOR\n5050 LED FUN ZONE\nDigital Power+\nLightning Charger\nM.2 Cooling Protection\nDual BIOS\nIron Slot Protection"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180403.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180412_4.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180412_5.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180403_3.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "storagePorts": {
+        "value": "6 x SATA III Connectors (6GB/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU typesSupport Hot-Plug in AHCI mode\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector(32Gb/s)\n* Specifications vary by CPU typesSupport both PCIE NAND for PCIE SSD and SATA NAND for SATA SSD\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "pcie": {
+        "value": "2 x PCI-E 3.0 x16 Slots\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot (x4)\n* Specifications vary by CPU types3 x PCI-E 2.0 x1 Slots\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 Keyboard/Mouse\n1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n1 x DisplayPort Connector\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n5 x Audio Jacks\n1 x S/PDIF Out Port",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "internalIO": {
+        "value": "2 x USB 3.1 Gen1 Headers\n2 x USB 2.0 Headers (each header support 2 USB 2.0 ports)\n6 x SATA III Connectors (6Gb/s) (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector\n1 x Front Audio Header\n1 x Front Panel Header\n2 x CPU Fan Connector\n3 x System Fan Connector\n1 x LN2 Switch\n2 x 5050 LED Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "network": {
+        "value": "Intel i211AT - Gigabit Ethernet PHY",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC1220 8-Channel Blu-ray Audio\nSupport Blu-ray Audio\nSupport SPDIF_out\nSupport Biostar Hi-Fi",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      }
+    }
+  }
+}

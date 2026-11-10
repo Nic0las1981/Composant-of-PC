@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-10T16:17:26.955Z",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error fetching URL(s): https://hkftp.zotac.com/External/VGA/GTX/1650/Brochure/ZT-T16500F-10L-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/GTX/1650/Brochure/ZT-T16500H-10L-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/GTX/1650/Brochure/ZT-T16520F-10L-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/GTX/1650/Brochure/ZT-T16520J-10L-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/GTX/1660/Brochure/ZT-T16600K-10M-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/RTX2080/brochure/ZT-T20800H-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/RTX2080Ti/brochure/ZT-T20810B-10P-brochure.pdf: CRAWL_TIMEOUT"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

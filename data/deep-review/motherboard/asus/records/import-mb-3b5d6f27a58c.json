@@ -1,0 +1,261 @@
+{
+  "review": {
+    "id": "import-mb-3b5d6f27a58c",
+    "name": "ROG STRIX Z790-I GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "sha256": "002f89efe20b06a004d9148dfdab249749b098aa3c78b1118ba763e9445b0b14",
+        "bytes": 233311,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX Z790-I GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/A312CAD5-7165-486E-B111-8B49F6353F7A"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX Z790-I GAMING WIFI",
+    "identityNote": "Modèle ASUS ROG STRIX Z790-I GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 2,
+      "maxMemoryGB": 96,
+      "m2Slots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "ROG STRIX Z790-I GAMING WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® Z790 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM, Max. 96GB, DDR5\n7600(OC)/7400(OC)/7200(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/\n5600/ 5400/ 5200/ 5000/ 4800MHz Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture \nSupports Intel® Extreme Memory Profile\n(XMP)\nOptiMem II\n* We recommend active airflow to ensure beter memory performance\n* Supported memory types, data rate(Speed),\nand number of DRAM modules vary depending on the CPU and memory configuration,\nfor more information refer to www.asus.com for memory support list.\n* Non-ECC, Un-buffered DDR5 Memory supports On-Die ECC function"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI® port***  \n2 x Intel® Thunderbolt™ 4 ports (USB\nType-C®) support DisplayPort and Thunderbolt™ video outputs**** \n* Graphics specifications may vary between\nCPU types. Please refer to www.intel.com for any updates. \n*** Supports 4K@60Hz as specified in HDMI\n2.1.  \n**** VGA resolution support depends on\nprocessors' or graphic cards' resolution."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® 14th & 13th & 12th Gen Processors*\n1 x PCIe 5.0 x16 slot (supportsx16 or x8/x8 mode) \n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.\nA resolution support depends on processors'\nor graphic cards' resolution."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slots and 2 x SATA\n6Gb/s ports\nIntel® 14th & 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2280 (supports\nPCIe 5.0 x4 mode// PCIe 4.0 x4 mode)***\nM.2_2 slot (Key M), type 2242/2260/2280\n(supports PCIe 4.0 x4 mode)\n2 x SATA 6Gb/s ports****\n*** M.2_1 comes from Intel® Z790 Chipset\nwhen switched to PCIe 4.0 x4 mode \n**** Install ROG FPS-II Card to support 2 x\nSATA 6Gb/s ports.\n\n2 x SATA 6Gb/s ports****\n*AMD RAIDXpert2 Technology supports both\nNVMe RAID 0/1 and SATA RAID 0/1.\n**** Install ROG FPS-II Card to support 2 x\nSATA 6Gb/s ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.3\n* WiFi 6E 6GHz regulatory may vary between\ncountries, and function will be ready in Windows 11 or later."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 9 ports)\n2 x Thunderbolt™ 4 port(s) (2 x USB\nType-C®)\n1 x USB 3.2 Gen 2x2 port(s) (1 x USB\nType-C®)\n3 x USB 3.2 Gen 2 port(s) (3 x Type-A)\n1 x USB 3.2 Gen 1 port(s) (1 x Type-A)\n2 x USB 2.0 port(s) (2 x Type-A) \nFront USB (Total 3 ports)\n1 x USB 3.2 Gen 2x2 connector supports 1\nUSB Type-C® \n1 x USB 3.2 Gen 1 header(s) support(s) 2\nadditional USB 3.2 Gen 1 ports\nROG STRIX HIVE (Total 2 ports)\n1 x USB 3.2 Gen 2 port ( 1 x USB Type-C®) \n1 x USB 2.0 port(s) (1 x Type-A) \nROG FPS-II Card (Total 3 ports)\n2 x USB 2.0 header(s) additional 3 USB 2.0\nports**"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG High Definition Audio CODEC ALC4050\n - Supports: Jack-detection\n - High quality 118 dB SNR stereo playback output and 94 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\nAudio Features\n- ROG Hyper-Grounding Technology\n- ESS® SABRE9260Q DAC\n- Silver-plated audio jacks\n- Optical S/PDIF out port & USB Type-C®  port with indepent power solution\n*** All audio functions on ROG STRIX Z790-I GAMING WIFI are supported through the ROG STRIX HIVE."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n1 x USB 3.2 Gen 2x2 port(s) (1 x USB\nType-C®)\n3 x USB 3.2 Gen 2 port(s) (3 x Type-A)\n(supports ROG STRIX HIVE)\n1 x USB 3.2 Gen 1 port(s) (1 x Type-A)\n2 x USB 2.0 port(s) (2 x Type-A) \n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n1 x Clear CMOS button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin AIO Pump header(s)\n1 x 4-pin Chassis Fan header(s)\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \nUSB\n1 x USB 3.2 Gen 2x2 connector (support(s)\nUSB Type-C® ) \n1 x USB 3.2 Gen 1 header(s) support(s) 2\nadditional USB 3.2 Gen 1 ports\nMiscellaneous\n1 x Addressable Gen 2 header(s)\n1 x Aura RGB header(s)\n1 x Thermal Sensor header\n2 x USB Type-C® connectors to Install ROG\nFPS-II card\nROG FPS-II card\n2 x SATA 6Gb/s ports\n1 x CPU Over Voltage jumper\n1 x Thermal Sensor header\n1 x Front Panel header\n1 x Alternative PCIe Mode switch\n2 x USB 2.0 header(s) support(s) additional\n3 USB 2.0 ports"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme Engine Digi+\n- 5K Black Metallic Capacitors \nASUS Q-Design\n- M.2 Q-Latch\n- Q-DIMM\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink backplate\n- M.2 heatsink \n- VRM heatsink design\nASUS EZ DIY\n- Clear CMOS button\n- CPU Socket lever protector\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAura Sync\n- Aura RGB header(s)\n- Addressable Gen 2 header(s)\nROG STRIX HIVE\n1 x USB Type-C® connects to Motherboard\n1 x USB 3.2 Gen 2 port(s) (1 x USB Type-C®)\n1 x USB 2.0 port(s) (1 x Type-A with BIOS\nFlashBack™) \n1 x Headphone jack with Mic in\n1 x Mic in jack with Optical S/PDIF out\n1 x AI OC button\n1 x FlexKey button \n1 x BIOS FlashBack™  button \n1 x Volume Control Knob with Mute Button\nQ-LED (CPU [red], DRAM [yellow], VGA\n[white], Boot Device [yellow green])"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- GameFirst VI\n- ROG CPU-Z\n- Sonic Studio III + Sonic Studio Virtual\nMixer + Sonic Suite Companion\n- Sonic Radar III\n- DTS® Sound Unbound \nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (60 days free trial) \n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)\n- Power Saving\n- Two-Way AI Noise Cancellation\nAI Suite 3\n- Easy Optimization with AI Overclocking \n- TPU\n- DIGI+ VRM\n- Turbo app\n- PC Cleaner\nMyAsus\nNorton 360 for Gamers \nWinRAR\nUEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nFlexKey\nMemTest86"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \n1 x ROG USB2.0 splitter cable\n1 x Panel Cable\nROG FPS-II Card\n1 x ROG FPS-II Card\nROG STRIX HIVE\n1 x ROG STRIX HIVE\n1 x USB Type-C® power connection cable\nAdditional Cooling Kit\n1 x Thermal pad for M.2\nMiscellaneous\n1 x ASUS Wi-Fi moving antennas \n1 x Cable ties pack\n1 x Rubber Package(s) for M.2\n1 x Q-Latch package(s) for M.2\n1 x ROG key chain\n1 x ROG Strix stickers\n1 x ROG Strix thank you card\nInstallation Media\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch( 17cm x 17cm)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/A312CAD5-7165-486E-B111-8B49F6353F7A"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "memoryCapacity": {
+        "value": 96,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "formFactor": {
+        "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch( 17cm x 17cm)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini-ITX Form Factor\n6.7 inch x 6.7 inch( 17cm x 17cm)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "chipset": {
+        "value": "Intel® Z790 Chipset",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slots and 2 x SATA\n6Gb/s ports\nIntel® 14th & 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2280 (supports\nPCIe 5.0 x4 mode// PCIe 4.0 x4 mode)***\nM.2_2 slot (Key M), type 2242/2260/2280\n(supports PCIe 4.0 x4 mode)\n2 x SATA 6Gb/s ports****\n*** M.2_1 comes from Intel® Z790 Chipset\nwhen switched to PCIe 4.0 x4 mode \n**** Install ROG FPS-II Card to support 2 x\nSATA 6Gb/s ports.\n\n2 x SATA 6Gb/s ports****\n*AMD RAIDXpert2 Technology supports both\nNVMe RAID 0/1 and SATA RAID 0/1.\n**** Install ROG FPS-II Card to support 2 x\nSATA 6Gb/s ports",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "pcie": {
+        "value": "Intel® 14th & 13th & 12th Gen Processors*\n1 x PCIe 5.0 x16 slot (supportsx16 or x8/x8 mode) \n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.\nA resolution support depends on processors'\nor graphic cards' resolution.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "rearIO": {
+        "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n1 x USB 3.2 Gen 2x2 port(s) (1 x USB\nType-C®)\n3 x USB 3.2 Gen 2 port(s) (3 x Type-A)\n(supports ROG STRIX HIVE)\n1 x USB 3.2 Gen 1 port(s) (1 x Type-A)\n2 x USB 2.0 port(s) (2 x Type-A) \n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n1 x Clear CMOS button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin AIO Pump header(s)\n1 x 4-pin Chassis Fan header(s)\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \nUSB\n1 x USB 3.2 Gen 2x2 connector (support(s)\nUSB Type-C® ) \n1 x USB 3.2 Gen 1 header(s) support(s) 2\nadditional USB 3.2 Gen 1 ports\nMiscellaneous\n1 x Addressable Gen 2 header(s)\n1 x Aura RGB header(s)\n1 x Thermal Sensor header\n2 x USB Type-C® connectors to Install ROG\nFPS-II card\nROG FPS-II card\n2 x SATA 6Gb/s ports\n1 x CPU Over Voltage jumper\n1 x Thermal Sensor header\n1 x Front Panel header\n1 x Alternative PCIe Mode switch\n2 x USB 2.0 header(s) support(s) additional\n3 USB 2.0 ports",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.3\n* WiFi 6E 6GHz regulatory may vary between\ncountries, and function will be ready in Windows 11 or later.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "audio": {
+        "value": "ROG High Definition Audio CODEC ALC4050\n - Supports: Jack-detection\n - High quality 118 dB SNR stereo playback output and 94 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\nAudio Features\n- ROG Hyper-Grounding Technology\n- ESS® SABRE9260Q DAC\n- Silver-plated audio jacks\n- Optical S/PDIF out port & USB Type-C®  port with indepent power solution\n*** All audio functions on ROG STRIX Z790-I GAMING WIFI are supported through the ROG STRIX HIVE.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-i-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:26:43+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX Z790-I GAMING WIFI"
+  }
+}

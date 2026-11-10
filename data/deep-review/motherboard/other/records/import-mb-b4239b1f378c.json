@@ -1,0 +1,202 @@
+{
+  "review": {
+    "id": "import-mb-b4239b1f378c",
+    "name": "CVN X570M GAMING FROZEN V14",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "CVN X570M GAMING FROZEN V14",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=816&mid=84",
+          "checkedAt": "2026-11-10T14:10:29+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=816&mid=84",
+          "sha256": "86a01e519a5e4fb5156abdd02e9f0521a2d4f029674c9d721227098d8660791e",
+          "bytes": 85629,
+          "status": "fetched"
+        },
+        "api": {
+          "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+          "checkedAt": "2026-11-10T14:10:33+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+          "sha256": "e0ac22f5028499630f7c7da1b0ae86042ffb9284a159605c07047402c2e555f1",
+          "bytes": 5078,
+          "status": "fetched"
+        }
+      },
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=816&mid=84",
+          "checkedAt": "2026-11-10T14:10:29+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=816&mid=84",
+          "sha256": "86a01e519a5e4fb5156abdd02e9f0521a2d4f029674c9d721227098d8660791e",
+          "bytes": 85629,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "CVN X570M GAMING FROZEN V14",
+        "sections": [
+          "Power management",
+          "Hardware monitoring",
+          "Memory",
+          "Form Factor",
+          "Graphics card support",
+          "Chipset",
+          "CPU",
+          "BIOS",
+          "I/O connections",
+          "Audio",
+          "Expansion Slots",
+          "LAN",
+          "Product family",
+          "Storage"
+        ]
+      }
+    ],
+    "photos": [
+      "https://www.colorful.cn/uploads/image/2020/06/20200611141233045518.jpg"
+    ]
+  },
+  "product": {
+    "mpn": "CVN X570M GAMING FROZEN V14",
+    "identityNote": "Modèle Colorful CVN X570M GAMING FROZEN V14 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "Colorful — API publique de spécifications du modèle exact",
+        "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Colorful — fiche produit associée à l’API",
+        "url": "https://www.colorful.cn/home/product?id=816&mid=84",
+        "checkedAt": "2026-11-10T14:10:29+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "CVN X570M GAMING FROZEN V14",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — Colorful",
+        "rows": [
+          {
+            "label": "Power management",
+            "value": "支持ACPI S3/S4/S5/G3，支持PS2鼠标/键盘开机，USB鼠标/键盘唤醒，支持定时开机、来电开机、网络S5唤醒"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "CPU风扇转速可控，CPU温度监视，及各组电压监视"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4个DDR4内存条插槽，支持双通道。搭载二代锐龙处理器：支持DDR4 2933/2800/2666/ 2400/2133MHZ规格内存；搭载三代锐龙处理器：支持DDR4 4000+(OC)/3800(OC)/3600(OC)/3200/3000/2933/2800/2666/2400/2133MHZ规格内存( 温馨提示：内存超频频率还取决于搭配CPU和内存本身超频性能。)"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "245mm*245mm mATX"
+          },
+          {
+            "label": "Graphics card support",
+            "value": "1个PCI Express4.0 x16插槽，1个PCI Express4.0 x4插槽, 支持2-Way AMD CrossFire™技术。"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "支持AM4接口的AMD Ryzen™ 2000/3000系列处理器及Ryzen 3 5100、Ryzen 5 5500、Ryzen 7 5700、Ryzen 7 PRO 4700、Ryzen 5 4500、Ryzen 3 4100、Ryzen 7 5800X3D (*上述规格仅供参考，请访问七彩虹官网查询最新的处理器支持列表)"
+          },
+          {
+            "label": "BIOS",
+            "value": "256M UEFI，BIOS语言支持中文简体，英语，韩语"
+          },
+          {
+            "label": "I/O connections",
+            "value": "IO:1个PS2键盘和鼠标通用端口、2个USB2.0接口、1个HDMI接口、1个DP接口、6个USB3.1 GEN1 接口（5个TYPE-A和1个TYPE-C）、1个千兆网络接口、1组6孔八声道音频接口。板载：1个COM插针，2个USB2.0扩展插针，1个USB3.1 GEN1 TYPE-A扩展插针，2个5V 3Pin RGB风扇插针，2个12V 4Pin RGB风扇插针"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC892"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1个PCI Express4.0 x16插槽，1个PCI Express4.0 x4插槽,1个PCI Express4.0 x1插槽"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL8111H 千兆"
+          },
+          {
+            "label": "Product family",
+            "value": "AMD系列,CVN系列"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "提供6个SATA3.0 6Gb/s硬盘接口，2个M.2插槽（支持SATA和PCIe 4.0x4总线的SSD）"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.colorful.cn/uploads/image/2020/06/20200611141233045518.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "formFactor": {
+        "value": "245mm*245mm mATX",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "storagePorts": {
+        "value": "提供6个SATA3.0 6Gb/s硬盘接口，2个M.2插槽（支持SATA和PCIe 4.0x4总线的SSD）",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "pcie": {
+        "value": "1个PCI Express4.0 x16插槽，1个PCI Express4.0 x4插槽,1个PCI Express4.0 x1插槽",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "network": {
+        "value": "RTL8111H 千兆",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "audio": {
+        "value": "ALC892",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      },
+      "cpuSupport": {
+        "value": "支持AM4接口的AMD Ryzen™ 2000/3000系列处理器及Ryzen 3 5100、Ryzen 5 5500、Ryzen 7 5700、Ryzen 7 PRO 4700、Ryzen 5 4500、Ryzen 3 4100、Ryzen 7 5800X3D (*上述规格仅供参考，请访问七彩虹官网查询最新的处理器支持列表)\nBIOS: 256M UEFI，BIOS语言支持中文简体，英语，韩语",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=816",
+        "checkedAt": "2026-11-10T14:10:33+00:00"
+      }
+    },
+    "manufacturerModel": "CVN X570M GAMING FROZEN V14"
+  }
+}

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "import-ssd-d8546f98e015",
+    "name": "Performance Plus 1 To · PCIe 4.0 ×4",
+    "state": "blocked_multiple_manufacturer_part_numbers",
+    "candidates": [
+      {
+        "mpn": "1TB NVME PERF",
+        "url": "https://www.microcenter.com/product/631074/inland-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-internal-solid-state-drive",
+        "retailerSKU": "202044"
+      },
+      {
+        "mpn": "1TB PER W/O",
+        "url": "https://www.microcenter.com/product/642169/inland-performance-plus-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "retailerSKU": "329474"
+      }
+    ],
+    "missingIdentityDiscriminants": [
+      "Exact manufacturer part number / original heatsink version"
+    ]
+  },
+  {
+    "id": "import-ssd-4df3b6c6b2ea",
+    "name": "Performance Plus 2 To · PCIe 4.0 ×4",
+    "state": "blocked_multiple_manufacturer_part_numbers",
+    "candidates": [
+      {
+        "mpn": "2TB PER W/O",
+        "url": "https://www.microcenter.com/product/642168/inland-performance-plus-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssdthe",
+        "retailerSKU": "329466"
+      },
+      {
+        "mpn": "2TB NVME PERF",
+        "url": "https://www.microcenter.com/product/631080/inland-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-internal-solid-state-drive",
+        "retailerSKU": "202051"
+      }
+    ],
+    "missingIdentityDiscriminants": [
+      "Exact manufacturer part number / original heatsink version"
+    ]
+  },
+  {
+    "id": "import-ssd-1d59b3493634",
+    "name": "TN450 500 Go · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "500GB TN450",
+    "urls": [
+      "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-226f33626176",
+    "name": "Performance Plus 8 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "8TB PER PLUS W/",
+    "urls": [
+      "https://www.microcenter.com/product/651927/inland-performance-plus-8tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-3be5e55dc92c",
+    "name": "Performance Plus 4 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "4TB PER PLUS W/",
+    "urls": [
+      "https://www.microcenter.com/product/647867/inland-performance-plus-4tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": [
+      {
+        "label": "Random Write 4K",
+        "sourceValue": "Up to 950,00 IOPS",
+        "reason": "ambiguous_numeric_format_in_primary_source"
+      }
+    ]
+  },
+  {
+    "id": "import-ssd-3cf5c8638530",
+    "name": "QN450 1 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB QN450",
+    "urls": [
+      "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-cab56ed2ce67",
+    "name": "QN450 2 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "2TB QN450",
+    "urls": [
+      "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-b7e6ae415940",
+    "name": "Performance 500 Go · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "500GB NVME PERF",
+    "urls": [
+      "https://www.microcenter.com/support/608457/inland-performance-500gb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive,-read-write-speed-up-to-4500-mbps-and-2200-mbps,-bac"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-dc9be1a60112",
+    "name": "Gaming Performance Plus 8 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "8TB PER+ SSD HS",
+    "urls": [
+      "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-931895bbeb53",
+    "name": "Gaming Performance Plus 4 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "4TB PER+ SSD HS",
+    "urls": [
+      "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-bef354f7d98c",
+    "name": "TN450 1 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB TN450",
+    "urls": [
+      "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-78b79a537b8b",
+    "name": "TN470 1 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB TN470",
+    "urls": [
+      "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-a9e8d9ce33e8",
+    "name": "TN470 2 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "2TB TN470",
+    "urls": [
+      "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-deb11aa6119e",
+    "name": "Gaming Performance Plus 2 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "2TB PER+ SSD HS",
+    "urls": [
+      "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-e59b50a02686",
+    "name": "Gaming Performance Plus 1 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB PER+ SSD HS",
+    "urls": [
+      "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": [
+      {
+        "label": "Write Speed",
+        "sourceValue": "Up to 5,5000MBps",
+        "reason": "ambiguous_numeric_format_in_primary_source"
+      }
+    ]
+  },
+  {
+    "id": "import-ssd-e9147a775c93",
+    "name": "TD510 2 To · PCIe 5.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "2TB TD510 NVME",
+    "urls": [
+      "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-9e17505a60cb",
+    "name": "1TB Performance 1 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB PER NO HEAT",
+    "urls": [
+      "https://www.microcenter.com/product/639627/inland-performance-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer",
+      "controller"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-8836225f694e",
+    "name": "TN450 2 To · PCIe 4.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "2TB TN450",
+    "urls": [
+      "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  },
+  {
+    "id": "import-ssd-195af8da4a63",
+    "name": "Performance 2 To · PCIe 4.0 ×4",
+    "state": "blocked_multiple_manufacturer_part_numbers",
+    "candidates": [
+      {
+        "mpn": "2TB PER W/O SSD",
+        "url": "https://www.microcenter.com/product/642167/inland-performance-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "retailerSKU": "329458"
+      },
+      {
+        "mpn": "2TB NVME PERFRM",
+        "url": "https://www.microcenter.com/support/659992/inland-performance-2tb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive",
+        "retailerSKU": "510917"
+      },
+      {
+        "mpn": "2TB NVME PERFRM",
+        "url": "https://www.microcenter.com/support/608456/inland-performance-2tb-ssd-3d-nand-m2-2280-pcie-nvme-40-x4-internal-solid-state-drive",
+        "retailerSKU": "953901"
+      }
+    ],
+    "missingIdentityDiscriminants": [
+      "Exact manufacturer part number / original heatsink version"
+    ]
+  },
+  {
+    "id": "import-ssd-7159f0beb482",
+    "name": "1TB TD510 NVME 1 To · PCIe 5.0 ×4",
+    "state": "primary_specs_enriched",
+    "mpn": "1TB TD510",
+    "urls": [
+      "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd"
+    ],
+    "missingFields": [
+      "assembled_ssd_height_mm",
+      "current_France_EUR_offer"
+    ],
+    "discardedAmbiguousValues": []
+  }
+]

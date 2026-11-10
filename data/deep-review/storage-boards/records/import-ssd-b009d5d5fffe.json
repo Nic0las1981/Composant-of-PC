@@ -1,0 +1,59 @@
+{
+  "id": "import-ssd-b009d5d5fffe",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AI TOP 100E SSD 1TB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+    "checkedAt": "2026-11-10T14:36:14+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+    "checkedAt": "2026-11-10T14:36:14+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+    "sha256": "5112570b6c1910163f9918ce92e8fdb97e90458893689cb19b16cc06f756e53b",
+    "bytes": 580471,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 4.0x4, NVMe 1.4",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "1024GB",
+    "NAND": "3D NAND Flash",
+    "External DDR Cache": "LPDDR4 1GB",
+    "Sequential Read speed": "Up to 7,200 MB/s",
+    "Sequential Write speed": "Up to 6,500 MB/s",
+    "Dimension": "80 x 22 x 3.5 mm",
+    "Mean time between failure (MTBF)": "1.6 million hours",
+    "Max. Operating Power": "Read: 10.8W; Write: 11.0W",
+    "Power Consumption (Idle, PS3)": "30mW",
+    "Power Consumption(PS4, L1.2)": "3mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 109,500TBW.\n\n 2. Limited warranty based on 5 years or 109,500TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n *TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n 3. When the usage of an NVME SSD as indicated by the \"\"Percentage Used\"\" (SMART ID: 05) reaches 100 means out of warranty. (A new unused product will show the number of 0)\n\n 4. When the usage of an NVME SSD as indicated by the \"Data units written\" (SMART ID: 07) reaches “36C0000000” (Hexadecimal) means out of warranty.",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n • Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n • Speeds based on internal testing. Actual performance may vary.\n\n • 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Published model code": "AI100E1TB / AI100E1TB-2B"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+        "checkedAt": "2026-11-10T14:36:14+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+        "sha256": "5112570b6c1910163f9918ce92e8fdb97e90458893689cb19b16cc06f756e53b",
+        "bytes": 580471,
+        "status": "fetched"
+      },
+      "title": "AI TOP 100E SSD 1TB",
+      "capacityNomenclatureNote": "La capacité commerciale du titre et la valeur GB du tableau constructeur sont conservées séparément."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "requestedURL": "https://www.gigabyte.com/Motherboard/B450M-K-rev-10/sp",
+  "checkedAt": "2026-11-10T13:25:19+00:00",
+  "attempts": [
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B450M-K-rev-10/sp",
+      "status": 200,
+      "resolvedURL": "https://www.gigabyte.com/Motherboard/B450M-K-rev-10/sp",
+      "bytes": 605687
+    }
+  ],
+  "url": "https://www.gigabyte.com/Motherboard/B450M-K-rev-10/sp",
+  "httpStatus": 200,
+  "sha256": "3c2b292b5af3b6906b0d06c939dcdcbdcef8efbb0158456640ccf41584fd01a6",
+  "title": "B450M K (Rev. 1.0)",
+  "model": "B450M K",
+  "revision": "1.0",
+  "sections": {
+    "CPU": "AMD Socket AM4, support for: AMD Ryzen™ 5000 Series Processors/ AMD Ryzen™ 5000 G-Series Processors/ AMD Ryzen™ 4000 G-Series Processors/ 3rd Generation AMD Ryzen™ processors/ 2nd Generation AMD Ryzen™ processors/ 1st Generation AMD Ryzen™ processors/ 2nd Generation Ryzen™ with Radeon™ Vega Graphics processors/ 1st Generation Ryzen™ with Radeon™ Vega Graphics processors/ Athlon™ with Radeon™ Vega Graphics Processors (Please refer \"CPU Support List\" for more information.)",
+    "Chipset": "AMD B450",
+    "Memory": "Support for DDR4 3600(O.C.)/3466(O.C.)/2933/2667/2400/2133 MHz memory modules 2 x DDR4 DIMM sockets supporting up to 64 GB (32 GB single DIMM capacity) of system memory Dual channel memory architecture Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode) Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for Extreme Memory Profile (XMP) memory modules (Please refer \"Memory Support List\" for more information.)",
+    "Onboard Graphics": "Integrated Graphics Processor: 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.0 version and HDCP 2.2. Maximum shared memory of 16 GB",
+    "Audio": "Realtek ® Audio CODEC High Definition Audio 2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.",
+    "LAN": "Realtek ® GbE LAN chip (1 Gbps/ 100 Mbps)",
+    "Expansion Slots": "CPU: 1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x16* * Actual support may vary by CPU. Chipset: 1 x PCI Express x1 slot, supporting PCIe 2.0 and running at x1",
+    "Storage Interface": "1 x M.2 connector (Socket 3, M key, type 22110/2280/2260/2242 SATA and PCIe 3.0 x4/x2 (Note) SSD support) * Refer to \"2-7 Internal Connectors,\" for the installation notices for the M.2 connector. 4 x SATA 6Gb/s connectors RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices RAID 0, RAID 1, and RAID 10 support for SATA storage devices (Note) Supports only M.2 SATA SSDs when using an Athlon™ with Radeon™ Vega Graphics Processors.",
+    "USB": "Chipset: 2 x USB 3.2 Gen 1 ports available through the internal USB header 6 x USB 2.0/1.1 ports (2 ports on the back panel, 4 ports available through the internal USB headers) CPU: 4 x USB 3.2 Gen 1 ports on the back panel",
+    "Internal I/O Connectors": "1 x 24-pin ATX main power connector 1 x 8-pin ATX 12V power connector 1 x CPU fan header 1 x system fan header 1 x M.2 Socket 3 connector 4 x SATA 6Gb/s connectors 1 x front panel header 1 x front panel audio header 1 x USB 3.2 Gen 1 header 2 x USB 2.0/1.1 headers 1 x Trusted Platform Module (TPM) header (2x6 pin, for the GC-TPM2.0_S module only) 1 x speaker header 1 x Clear CMOS jumper 1 x chassis intrusion header",
+    "Back Panel Connectors": "1 x PS/2 keyboard port 1 x PS/2 mouse port 1 x HDMI 2.0 port 4 x USB 3.2 Gen 1 ports 2 x USB 2.0/1.1 ports 1 x RJ-45 port 3 x audio jacks",
+    "I/O Controller": "iTE ® I/O Controller Chip",
+    "H/W Monitoring": "Voltage detection Temperature detection Fan speed detection Fan fail warning Fan speed control * Whether the fan speed control function is supported will depend on the cooler you install.",
+    "BIOS": "1 x 128 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+    "Unique Features": "Support for APP Center * Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. @BIOS EasyTune Smart Backup System Information Viewer Support for Q-Flash Support for Xpress Install",
+    "Bundled Software": "Norton ® Internet Security (OEM version) LAN bandwidth management software",
+    "Operating System": "Support for Windows 11 64-bit Support for Windows 10 64-bit Support for Windows 7 64-bit * To support Windows 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU. * Please download the \"Windows USB Installation Tool\" from GIGABYTE's website and install it before installing Windows 7.",
+    "Form Factor": "Micro ATX Form Factor; 24.4cm x 19.5cm",
+    "Remark": "Due to different Linux support condition provided by chipset vendors, please download Linux driver from chipset vendors' website or 3rd party website. Most hardware/software vendors may no longer offer drivers to support Win9X/ME/2000/XP. If drivers are available from the vendors, we will update them on the GIGABYTE website."
+  },
+  "sectionItems": {
+    "CPU": [
+      "AMD Socket AM4, support for: AMD Ryzen™ 5000 Series Processors/ AMD Ryzen™ 5000 G-Series Processors/ AMD Ryzen™ 4000 G-Series Processors/ 3rd Generation AMD Ryzen™ processors/ 2nd Generation AMD Ryzen™ processors/ 1st Generation AMD Ryzen™ processors/ 2nd Generation Ryzen™ with Radeon™ Vega Graphics processors/ 1st Generation Ryzen™ with Radeon™ Vega Graphics processors/ Athlon™ with Radeon™ Vega Graphics Processors"
+    ],
+    "Chipset": [
+      "AMD B450"
+    ],
+    "Memory": [
+      "Support for DDR4 3600(O.C.)/3466(O.C.)/2933/2667/2400/2133 MHz memory modules",
+      "2 x DDR4 DIMM sockets supporting up to 64 GB (32 GB single DIMM capacity) of system memory",
+      "Dual channel memory architecture",
+      "Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode)",
+      "Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules",
+      "Support for Extreme Memory Profile (XMP) memory modules"
+    ],
+    "Onboard Graphics": [
+      "1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.0 version and HDCP 2.2.",
+      "Maximum shared memory of 16 GB"
+    ],
+    "Audio": [
+      "Realtek ® Audio CODEC",
+      "High Definition Audio",
+      "2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings."
+    ],
+    "LAN": [
+      "Realtek ® GbE LAN chip (1 Gbps/ 100 Mbps)"
+    ],
+    "Expansion Slots": [
+      "CPU: 1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x16* * Actual support may vary by CPU.",
+      "Chipset: 1 x PCI Express x1 slot, supporting PCIe 2.0 and running at x1"
+    ],
+    "Storage Interface": [
+      "1 x M.2 connector (Socket 3, M key, type 22110/2280/2260/2242 SATA and PCIe 3.0 x4/x2 (Note) SSD support) * Refer to \"2-7 Internal Connectors,\" for the installation notices for the M.2 connector.",
+      "4 x SATA 6Gb/s connectors"
+    ],
+    "USB": [
+      "2 x USB 3.2 Gen 1 ports available through the internal USB header",
+      "6 x USB 2.0/1.1 ports (2 ports on the back panel, 4 ports available through the internal USB headers)",
+      "4 x USB 3.2 Gen 1 ports on the back panel"
+    ],
+    "Internal I/O Connectors": [
+      "1 x 24-pin ATX main power connector",
+      "1 x 8-pin ATX 12V power connector",
+      "1 x CPU fan header",
+      "1 x system fan header",
+      "1 x M.2 Socket 3 connector",
+      "4 x SATA 6Gb/s connectors",
+      "1 x front panel header",
+      "1 x front panel audio header",
+      "1 x USB 3.2 Gen 1 header",
+      "2 x USB 2.0/1.1 headers",
+      "1 x Trusted Platform Module (TPM) header (2x6 pin, for the GC-TPM2.0_S module only)",
+      "1 x speaker header",
+      "1 x Clear CMOS jumper",
+      "1 x chassis intrusion header"
+    ],
+    "Back Panel Connectors": [
+      "1 x PS/2 keyboard port",
+      "1 x PS/2 mouse port",
+      "1 x HDMI 2.0 port",
+      "4 x USB 3.2 Gen 1 ports",
+      "2 x USB 2.0/1.1 ports",
+      "1 x RJ-45 port",
+      "3 x audio jacks"
+    ],
+    "I/O Controller": [
+      "iTE ® I/O Controller Chip"
+    ],
+    "H/W Monitoring": [
+      "Voltage detection",
+      "Temperature detection",
+      "Fan speed detection",
+      "Fan fail warning",
+      "Fan speed control * Whether the fan speed control function is supported will depend on the cooler you install."
+    ],
+    "BIOS": [
+      "1 x 128 Mbit flash",
+      "Use of licensed AMI UEFI BIOS",
+      "PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0"
+    ],
+    "Unique Features": [
+      "Support for APP Center * Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. @BIOS EasyTune Smart Backup System Information Viewer",
+      "Support for Q-Flash",
+      "Support for Xpress Install"
+    ],
+    "Bundled Software": [
+      "Norton ® Internet Security (OEM version)",
+      "LAN bandwidth management software"
+    ],
+    "Operating System": [
+      "Support for Windows 11 64-bit",
+      "Support for Windows 10 64-bit",
+      "Support for Windows 7 64-bit * To support Windows 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU. * Please download the \"Windows USB Installation Tool\" from GIGABYTE's website and install it before installing Windows 7."
+    ],
+    "Form Factor": [
+      "Micro ATX Form Factor; 24.4cm x 19.5cm"
+    ],
+    "Remark": [
+      "Due to different Linux support condition provided by chipset vendors, please download Linux driver from chipset vendors' website or 3rd party website.",
+      "Most hardware/software vendors may no longer offer drivers to support Win9X/ME/2000/XP. If drivers are available from the vendors, we will update them on the GIGABYTE website."
+    ]
+  },
+  "imageURLs": [
+    "https://static.gigabyte.com/StaticFile/Image/Global/ca4c96e4070c6d0eea3f4ce7033bfb12/ProductRemoveBg/32491"
+  ],
+  "revisionURLs": [
+    "https://www.gigabyte.com/Motherboard/B450M-K-rev-10",
+    "https://www.gigabyte.com/Motherboard/B450M-K-rev-20"
+  ],
+  "manualURLs": [],
+  "status": "official_specifications",
+  "manufacturerAliases": []
+}

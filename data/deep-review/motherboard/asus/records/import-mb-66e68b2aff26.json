@@ -1,0 +1,261 @@
+{
+  "review": {
+    "id": "import-mb-66e68b2aff26",
+    "name": "PRIME B760-PLUS D4",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "sha256": "1777cd76d4bf24c44f728cd0697130f44056f9f84b6bf2d70dbb6e65cd3a9287",
+        "bytes": 351877,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B760-PLUS D4",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/f98487b5-00fb-4c4f-8790-a7386c22e297/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B760-PLUS D4",
+    "identityNote": "Modèle ASUS PRIME B760-PLUS D4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME B760-PLUS D4",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B760 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 5066(OC)/5000(OC)/4800(OC)/4600(OC)/4400(OC)/4266(OC)/4000(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)/3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nOptiMem\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x VGA port \n1 x HDMI® port***  \n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n** Supports max. 4K@60Hz as specified in DisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI® 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)\n1 x PCIe 5.0 x16 slot\nIntel® B760 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n2 x PCIe 3.0 x1 slots\nNote: To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel® B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 2.5Gb Ethernet"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Vertical M.2 slot only (Key E, CNVi & PCIe)*\n* Wi-Fi module is sold separately."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 6 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n1 x USB 3.2 Gen 1 port (1 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 1 connector (supports USB Type-C®)\n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n1 x USB 3.2 Gen 1 port (1 x Type-A)\n2 x USB 2.0 ports (2 x Type-A) \n1 x DisplayPort\n1 x VGA port\n1 x HDMI® port\n1 x Vertical M.2 slot (Key E)\n1 x Realtek 2.5Gb Ethernet port\n3 x Audio jacks"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 connector (supports USB Type-C® ) \n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thunderbolt™ (USB4®) header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink \n- VRM heatsink design\nASUS EZ DIY\n- ProCool\nAura Sync\n- Aura RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 2+\n- Power Saving\nAI Suite 3\n- DIGI+ VRM\n- PC Cleaner\nASUS CPU-Z \nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nMiscellaneous\n1 x I/O Shield \n1 x M.2 Rubber Package\n2 x Screw Packages for M.2 SSD\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/f98487b5-00fb-4c4f-8790-a7386c22e297/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B760 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel® B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "pcie": {
+        "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)\n1 x PCIe 5.0 x16 slot\nIntel® B760 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n2 x PCIe 3.0 x1 slots\nNote: To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n1 x USB 3.2 Gen 1 port (1 x Type-A)\n2 x USB 2.0 ports (2 x Type-A) \n1 x DisplayPort\n1 x VGA port\n1 x HDMI® port\n1 x Vertical M.2 slot (Key E)\n1 x Realtek 2.5Gb Ethernet port\n3 x Audio jacks",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 connector (supports USB Type-C® ) \n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thunderbolt™ (USB4®) header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 2.5Gb Ethernet\nVertical M.2 slot only (Key E, CNVi & PCIe)*\n* Wi-Fi module is sold separately.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B760-PLUS D4"
+  }
+}

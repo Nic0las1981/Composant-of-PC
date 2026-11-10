@@ -1,0 +1,196 @@
+{
+  "review": {
+    "id": "import-mb-c47058215a5d",
+    "name": "Challenger B760ITX D5 WIFI",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "MS-Challenger B760ITX D5 WIFI",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+          "checkedAt": "2026-11-10T14:10:37+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+          "sha256": "60d121646933a845938a739b801971e8a87040f4e12c7f8682744b6f9d3df80a",
+          "bytes": 207217,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "MS-Challenger B760ITX D5 WIFI",
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Expansion Slots",
+          "SSD additional statement",
+          "USB",
+          "LAN",
+          "Audio",
+          "Internal IO",
+          "Operating System",
+          "Form Factor"
+        ]
+      }
+    ],
+    "photos": [
+      "http://www.maxsun.com/cdn/shop/files/B760ITX_D5_WIFI.png?v=1742979852&width=2048"
+    ]
+  },
+  "product": {
+    "mpn": "Challenger B760ITX D5 WIFI",
+    "identityNote": "Modèle MAXSUN Challenger B760ITX D5 WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MAXSUN — spécifications officielles du modèle",
+        "url": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 2,
+      "maxMemoryGB": 96,
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "Challenger B760ITX D5 WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MAXSUN",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "INTEL B760 High Speed Chipset"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR5, Maximum Memory Capacity 96GB\n Support 4800 MHz /XMP/OC/memory frequencies\nSupports Intel® XMP 2.0 OC\nSupports Dual-Controller Dual-Channel mode"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "2* DP1.4 display ports supporting up to 4096x2160@60Hz resolution\n1*HDMl 2.0 display interface, support up to 4096x2160@60Hz resolution\n1* HDMl 1.4 display interface, support up to 4096x2160@30Hz resolution"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 5.0 x16 slot"
+          },
+          {
+            "label": "SSD additional statement",
+            "value": "1x M.2_SSD_A Front Socket M.2 slot with Gen4 x4 support\n1x M.2_SSD_B backside slot M.2 slot with Gen4 x4 support\n4x SATA 3.0 ports"
+          },
+          {
+            "label": "USB",
+            "value": "Onboard USB pins (5 ports total)\nRear USB ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "2.5Gb+1Gb dual LAN ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8-pin Power Connector(CPU_PWR)\n1x CPU Fan\n3x System Fan\n1x M.2 slots (Key-M)\n4x SATA 6Gb/s ports\n1x CLR_CMOS\n1x 4-Pin BUZZER\n1x Front Audio\n1x COM Port"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 10 64-bit, Windows® 11 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ITX\n170mm x 170mm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "http://www.maxsun.com/cdn/shop/files/B760ITX_D5_WIFI.png?v=1742979852&width=2048"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "memoryCapacity": {
+        "value": 96,
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "formFactor": {
+        "value": "ITX\n170mm x 170mm",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "boardDimensions": {
+        "value": "ITX\n170mm x 170mm",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "chipset": {
+        "value": "INTEL B760 High Speed Chipset",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 5.0 x16 slot",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "internalIO": {
+        "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8-pin Power Connector(CPU_PWR)\n1x CPU Fan\n3x System Fan\n1x M.2 slots (Key-M)\n4x SATA 6Gb/s ports\n1x CLR_CMOS\n1x 4-Pin BUZZER\n1x Front Audio\n1x COM Port",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "network": {
+        "value": "2.5Gb+1Gb dual LAN ports",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700",
+        "sourceURL": "https://www.maxsun.com/products/challenger-b760itx-d5-wifi",
+        "checkedAt": "2026-11-10T14:10:37+00:00"
+      }
+    },
+    "manufacturerModel": "MS-Challenger B760ITX D5 WIFI"
+  }
+}

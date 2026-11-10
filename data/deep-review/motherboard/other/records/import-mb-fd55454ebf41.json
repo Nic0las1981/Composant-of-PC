@@ -1,0 +1,231 @@
+{
+  "review": {
+    "id": "import-mb-fd55454ebf41",
+    "name": "CVN B550M GAMING FROZEN V14",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "CVN B550M GAMING FROZEN V14",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://en.colorful.cn/kr/home/product?id=893&mid=84",
+          "checkedAt": "2026-11-10T14:10:38+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorfulgroup.com/kr/Error/NotFound",
+          "sha256": "e0f2334c95a901460b0b4b826668293ddc802fcba69ac36edc0a4d242d6bd739",
+          "bytes": 398,
+          "status": "fetched"
+        },
+        "state": "public_api_route_unavailable"
+      },
+      {
+        "source": {
+          "url": "https://www.colorfulgroup.com/en/home/product?id=893&mid=84",
+          "checkedAt": "2026-11-10T14:20:37+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorfulgroup.com/en/home/product?id=893&mid=84",
+          "sha256": "ca2e7db70e54481d6707b8f3d6b55789d0b01b0cf0f73ce4952e1970fecfe0e4",
+          "bytes": 60770,
+          "status": "fetched"
+        },
+        "api": {
+          "url": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+          "checkedAt": "2026-11-10T14:20:38+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+          "sha256": "6ba783e12b18b12bcefbd660f4221cfbeea9cbbd6a3549339e82414e11304be7",
+          "bytes": 4575,
+          "status": "fetched"
+        }
+      },
+      {
+        "source": {
+          "url": "https://www.colorfulgroup.com/en/home/product?id=893&mid=84",
+          "checkedAt": "2026-11-10T14:20:37+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorfulgroup.com/en/home/product?id=893&mid=84",
+          "sha256": "ca2e7db70e54481d6707b8f3d6b55789d0b01b0cf0f73ce4952e1970fecfe0e4",
+          "bytes": 60770,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "CVN B550M GAMING FROZEN V14",
+        "sections": [
+          "CPU",
+          "Form Factor",
+          "Other Features",
+          "LAN",
+          "Memory",
+          "Storage",
+          "I/O connections",
+          "Graphics Support",
+          "Expansion Slots",
+          "BIOS",
+          "Motherboard Series",
+          "Audio",
+          "Power Management",
+          "Chipset",
+          "Hardware Monitor"
+        ]
+      }
+    ],
+    "photos": [
+      "https://www.colorfulgroup.com/EN/uploads/image/2020/06/20200623141529213735.jpg"
+    ]
+  },
+  "product": {
+    "mpn": "CVN B550M GAMING FROZEN V14",
+    "identityNote": "Modèle Colorful CVN B550M GAMING FROZEN V14 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "Colorful — API publique de spécifications du modèle exact",
+        "url": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Colorful — fiche produit associée à l’API",
+        "url": "https://www.colorfulgroup.com/en/home/product?id=893&mid=84",
+        "checkedAt": "2026-11-10T14:20:37+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "CVN B550M GAMING FROZEN V14",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — Colorful",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Socket AM4 and 3rd Generation AMD Ryzen ™ processors"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "245 x 245 mm mATX"
+          },
+          {
+            "label": "Other Features",
+            "value": "support the shutdown charging function(Only the PS2+USB ports on the back panel)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1000M LAN，Provides 10/100/1000Mb Ethernet"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 DIMM slots，support dual channel DDR4-4000+(OC)/3800(OC)/3600(OC)/3200/3000/2933/2800/2666/2400/2133 MHz"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4*SATA3.0 6Gb/s ports"
+          },
+          {
+            "label": "I/O connections",
+            "value": "IO:1*PS2,2*USB2.0,1*HDMI,1*DVI,4*USB3.1 GEN1（3*TYPE-A & 1*TYPE-C）,1*RJ45 1000M LAN,1*6audio ports.Onboard：1*COM,2*USB2.0,1*USB3.1 GEN1 TYPE-A"
+          },
+          {
+            "label": "Graphics Support",
+            "value": "1*PCI Express4.0X16 slot"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1*PCI Express 3.0x4 slot，1*PCI Express3.0x1,2*M.2 slots"
+          },
+          {
+            "label": "BIOS",
+            "value": "128M UEFI"
+          },
+          {
+            "label": "Motherboard Series",
+            "value": "AMD chipset,CVN series"
+          },
+          {
+            "label": "Audio",
+            "value": "8-Channel High Definition audio CODEC"
+          },
+          {
+            "label": "Power Management",
+            "value": "10 Power Phase，support 125W processors"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Hardware Monitor",
+            "value": "CPU Fan speed Controlled，SYSTEM Fan speed Monitoring,CPU Temperature Monitoring，System Temperature Monitoring，and Voltage monitoring"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.colorfulgroup.com/EN/uploads/image/2020/06/20200623141529213735.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "formFactor": {
+        "value": "245 x 245 mm mATX",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "storagePorts": {
+        "value": "4*SATA3.0 6Gb/s ports",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "pcie": {
+        "value": "1*PCI Express 3.0x4 slot，1*PCI Express3.0x1,2*M.2 slots",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "network": {
+        "value": "1000M LAN，Provides 10/100/1000Mb Ethernet",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "audio": {
+        "value": "8-Channel High Definition audio CODEC",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Socket AM4 and 3rd Generation AMD Ryzen ™ processors\nBIOS: 128M UEFI",
+        "sourceURL": "https://www.colorfulgroup.com/en/Home/GetAttrbuteValue?mid=84&id=893",
+        "checkedAt": "2026-11-10T14:20:38+00:00"
+      }
+    },
+    "manufacturerModel": "CVN B550M GAMING FROZEN V14"
+  }
+}

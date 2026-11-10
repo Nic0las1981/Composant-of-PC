@@ -1,0 +1,267 @@
+{
+  "review": {
+    "id": "import-mb-ff9f90189203",
+    "name": "ROG STRIX B660-A GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T13:42:31+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "sha256": "da65e2f175285be85a8a8ce4b4d648b8db9b2f070205b6c27f6861abed39268d",
+        "bytes": 207325,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX B660-A GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/C87AFF02-3935-4A86-A1A5-A3F385B9AA01"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX B660-A GAMING WIFI",
+    "identityNote": "Modèle ASUS ROG STRIX B660-A GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG STRIX B660-A GAMING WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B660 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR5  6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture \nOptiMem II\n* Supported memory types, data rate(Speed), and number of DRAM module vary depending on the CPU and memory configuration, for more information refer to www.asus.com for memory support list.  *Actual memory data rate depends on the CPU types and DRAM modules, for more information refer to www.asus.com for memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x HDMI® port***  \n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n** Supports max. 4K@60Hz as specified in DisplayPort 1.4\n***Supports 4K@60Hz as specified in HDMI 2.1\n**** VGA resolution support depends on processors' or graphic cards' resolution."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)*\n1 x PCIe 5.0 x16 slot***\nIntel® B660 Chipset**\n1 x PCIe 3.0 x16 slot*** (max x4)\n2 x PCIe 3.0 x1 slots\n* Please check PCIe bifurcation table in Chapter 1 // support site.\n** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280/22110 \n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nIntel® B660 Chipset** \nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode)\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6\n2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5GHz frequency band\nBluetooth v5.2"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 9 ports)\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n1 x USB 3.2 Gen 2 port (1 x USB Type-A)\n3 x USB 3.2 Gen 1 ports (2 x USB Type-A+1 x USB Type-C®)\n4 x USB 2.0 ports (4 x USB Type-A) \nFront USB (Total 6 ports)\n1 x USB 3.2 Gen 2 connector (1 x USB Type-C®)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n1 x USB 2.0 10-1 pin header + 1 USB 2.0 4 pin header support additional 3 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\"\nAudio Features \n-SupremeFX Shielding Technology\n- Savitech SV3H712 AMP  \n- Premium audio capacitors\n- Audio cover\n\n** A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output. \n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n1 x USB 3.2 Gen 2 port (1 x USB Type-A)\n3 x USB 3.2 Gen 1 ports (2 x USB Type-A + 1 x USB Type-C®)\n4 x USB 2.0 ports (4 x USB Type-A) \n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related \n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related \n1 x 24-pin Main Power connector\n1 x 8-pin 12V Power connector\n1 x 4-pin +12V Power connector\nStorage related \n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB \n1 x USB 3.2 Gen 2 connector (support USB Type-C®) \n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n1 x USB 2.0 10-1pin header + 1 USB 2.0 4pin header support additional 3 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™  header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme Engine Digi+\n- 5K Black Metallic Capacitors \nASUS Q-Design\n- M.2 Q-Latch\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink \n- VRM heatsink design \nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- CPU Socket lever protector\n- ProCool \n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- ROG AURA sync Armor\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- GameFirst VI\n- ROG CPU-Z\n- Sonic Studio III + Sonic Studio Virtual Mixer + Sonic Suite Companion\n- Sonic Radar III\n- DTS® Sound Unbound \n- Anti-virus software\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (60 days free trial) \n- AURA Creator\n- AURA Sync\n- Fan Xpert 4 \n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Performance And Power Saving Utility\n - TurboV EVO\n -EPU \nDIGI+ VRM\nASUS CPU-Z\nMyAsus\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nMemTest86"
+          },
+          {
+            "label": "BIOS",
+            "value": "192 (128+64) Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n4 x SATA 6Gb/s cables \nMiscellaneous\n1 x Cable ties pack\n1 x M.2 Rubber Package\n1 x M.2 Q-Latch package\n1 x ROG key chain\n1 x ROG Strix sticker\n1 x ROG Strix thank you card\nInstallation Media\n1 x Support DVD\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/C87AFF02-3935-4A86-A1A5-A3F385B9AA01"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B660 Chipset",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 3 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280/22110 \n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nIntel® B660 Chipset** \nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x2 mode)\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "pcie": {
+        "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)*\n1 x PCIe 5.0 x16 slot***\nIntel® B660 Chipset**\n1 x PCIe 3.0 x16 slot*** (max x4)\n2 x PCIe 3.0 x1 slots\n* Please check PCIe bifurcation table in Chapter 1 // support site.\n** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n1 x USB 3.2 Gen 2 port (1 x USB Type-A)\n3 x USB 3.2 Gen 1 ports (2 x USB Type-A + 1 x USB Type-C®)\n4 x USB 2.0 ports (4 x USB Type-A) \n1 x DisplayPort\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Intel® 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™  button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related \n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related \n1 x 24-pin Main Power connector\n1 x 8-pin 12V Power connector\n1 x 4-pin +12V Power connector\nStorage related \n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB \n1 x USB 3.2 Gen 2 connector (support USB Type-C®) \n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n1 x USB 2.0 10-1pin header + 1 USB 2.0 4pin header support additional 3 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\n1 x Thermal Sensor header\n1 x Thunderbolt™  header",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nASUS LANGuard\nWi-Fi 6\n2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) \nSupports 2.4/5GHz frequency band\nBluetooth v5.2",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\"\nAudio Features \n-SupremeFX Shielding Technology\n- Savitech SV3H712 AMP  \n- Premium audio capacitors\n- Audio cover\n\n** A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output. \n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 192 (128+64) Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b660-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:42:32+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX B660-A GAMING WIFI"
+  }
+}

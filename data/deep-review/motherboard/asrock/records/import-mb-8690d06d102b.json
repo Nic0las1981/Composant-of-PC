@@ -1,0 +1,133 @@
+{
+  "review": {
+    "id": "import-mb-8690d06d102b",
+    "name": "X470D4U2-2T",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock Rack X470D4U2-2T motherboard",
+        "modelNames": [
+          "X470D4U2-2T"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:09+00:00",
+      "url": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+      "sha256": "03a97ecbc9329067f09b401550bfda59af39e58cbd327e74b8a529ba72541b2f"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock Rack X470D4U2-2T motherboard",
+      "specificationExcerpt": "1.2 Specifications\n                X470D4U2-2T\n                MB Physical Status\n                Form Factor          micro-ATX\n                Dimension            9.6'' x 9.6'' (24.4 cm x 24.4 cm)\n                Processor System\n                CPU                  AMD AM4 Socket Ryzen Series CPUs (Raven Ridge and\n                                     Pinnacle Ridge) and Ryzen 7nm CPUs\n                Socket               AM4 PGA 1331\n                Chipset              AMD X470\n                System Memory\n                Capacity             - 4 x 288-pin DDR4 DIMM slots\n                                     - Support up to 32GB DDR4 ECC/UDIMM\n\n\n                                     - One DIMM: 1R DIMM @2667MT/s; 2R/2DR DIMM\n                                     @2400MT/s\n                                     - Two DIMMs: (2) 1R DIMM @2133 MT/s; (2) 2R/2DR DIMM\n                                     @1866MT/s; 1R and 2R/2DR DIMM each @1866MT/s\n                Type                 - Dual Channel DDR4 memory technology\n                                     - Support DDR4 ECC/UDIMM\n                                     *Conditionally supports ECC error reporting function.\n                DIMM Size Per        - ECC/UDIMM: 32GB, 16GB, 8GB\n                DIMM\n                DIMM Frequency       - ECC/UDIMM: 2666/2400/2133 MHz\n                Voltage              1.2V\n                Expansion Slot\n                PCIe 3.0 x 16        PCIE6: Gen3 x16 link (splittable in x4/4/4/4); auto switch to x8\n                                     link when PCIE4 is occupied.\n                                     PCIE4: Gen3 x8 link\n                PCIe 2.0 x 1         PCIE5: Gen2 x1 link\n                Storage\n                SATA Controller      6 x SATA3 6.0 Gb/s (1x SATA DOM port), support RAID 0, 1,\n                                     10\n                M.2 Slot             2 (2242/2260/2280/22110, supports SATA3 and PCIe 3.0 x2 or\n                                     supports PCIe 2.0 x4 only)\n                Ethernet\n                Interface            10000/1000 /100 /10 Mbps\n                LAN Controller       - 2 x RJ45 10G base-T by Intel® X550-AT2\nEnglish\n\n\n\n\n                                     - 1 x RJ45 Dedicated IPMI LAN port by RTL8211E\n\n                                     - Supports Wake-On-LAN\n                                     - Supports Energy Efficient Ethernet 802.3az\n                                     - Supports Dual LAN with Teaming function\n                                     - Supports PXE\n          2                          - LAN3 supports NCSI\n\f                                                                          X470D4U2-2T\n\n\n\nManagement\nBMC Controller       ASPEED AST2500\nIPMI Dedicated       1 x Realtek RTL8211E for dedicated management GLAN\nGLAN\nFeatures             Watch Dog\nGraphics\nController           ASPEED AST2500\nVRAM                 DDR4 256MB\nRear Panel I/O\nVGA Port             1 x D-Sub\nSerial Port          1 x COM port\nUSB 3.1 (Gen1)       2\nPort\nLAN Port             - 2 x RJ45 10 Gigabit Ethernet LAN ports\n                     - 1 x RJ45 Dedicated IPMI LAN port\n                     - LAN Ports with LED (ACT/LINK LED and SPEED LED)\nUID                  1\nInternal Connector\nAuxiliary Panel      1 (includes chassis intrusion, location button & LED, front\nHeader               LAN LED, system fault, and BMC alert)\nTPM Header           1\nIPMB Header          1\nFan Header           6 Fans x 4-pin (FAN1(CPU)/FAN2~FAN6(5Front))\nATX Power            1 x (24-pin) + 1 x (8-pin)\nUSB 3.1 Gen1         1 (supports 2 USB 3.1 Gen1 ports)\nHeader\nM.2                  2(M2_1: 2242/2260/2280/22110, PCIE(X4);\n                     M2_2:2242/2260/2280/22110, SATA/PCIE(X2))\nSATA DOM             1\nBMC_SMB1             1\nPSU_SMB1             1\n80 debug port LED    1\nBuzzer               1\nClear CMOS           1 (short pad)\nOH/FanFail LED       6 (only Fan Fail LED)\nFront Panel          1 (RST, PWRBTN, HDDLED, PWRLED)\nSystem BIOS\nBIOS Type            16MB AMI UEFI Legal BIOS\nBIOS Features        - Plug and Play (PnP)\n                     - ACPI 2.0 Compliance Wake Up Events\n                                                                                            English\n\n\n\n\n                     - SMBIOS 2.8 Support\n                     - ASRock Rack Instant Flash\n\n\n\n\n                                                                                        3\n\f               Hardware Monitor\n               Temperature                 - CPU/DDR/LAN Temperature Sensing\n                                           - MB/Card Side Temperature Sensing\n               Fan                         - Fan Tachometer\n                                           - Quiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\n                                            Temperature)\n                                           - Fan Multi-Speed Control\n               Voltage                     Voltage Monitoring: +12V, +5V, +3.3V, CPU Vcore, DRAM,\n                                           1.05V_PCH, +BAT, 3VSB, 5VSB\n               Support OS\n               OS                          Microsoft® Windows®:\n                                           Windows 10 (64 bit)\n\n                                           Linux®:\n                                           - UBuntu 16.04.4 (64 bit)\n                                           - RedHat Enterprise Linux Server 7.3 (64bit) / 7.4 (64bit)\n\n                                           * Please refer to our website for the latest OS support list.\n                                           * The Linux system doesn’t support Raid mode.\n                                           * Supports UEFI BOOT only.\n               Environment\n               Temperature                 Operation temperature: 10°C ~ 35°C / Non operation\n                                           temperature: -40°C ~ 70°C\n              NOTE: Please refer to our website for the latest specifications.\n\n\n                       This motherboard supports Wake from on Board LAN. To use this function, please make\n                       sure that the “Wake on Magic Packet from power off state” is enabled in Device Manager\n                       > Intel® Ethernet Connection > Power Management. And the “PCI Devices Power On” is\n                       enabled in UEFI SETUP UTILITY > Advanced > ACPI Configuration. After that, onboard\n                       LAN3&4 can wake up S5 under OS.\n\n\n\n                       If you install Intel® LAN utility or Marvell SATA utility, this motherboard may fail Win-\n                       dows® Hardware Quality Lab (WHQL) certification tests. If you install the drivers only, it\n                       will pass the WHQL tests.\nEnglish\n\n\n\n\n          4\n\f                                                                                X470D4U2-2T\n\n\n\n",
+      "modelNames": [
+        "X470D4U2-2T"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "pcie",
+      "network",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X470D4U2-2T",
+    "identityNote": "Modèle ASRock X470D4U2-2T confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "manufacturerPartNumber": "X470D4U2-2T",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "CPU                  AMD AM4 Socket Ryzen Series CPUs (Raven Ridge and\nPinnacle Ridge) and Ryzen 7nm CPUs\nSocket               AM4 PGA 1331\nChipset              AMD X470"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Capacity             - 4 x 288-pin DDR4 DIMM slots\n- Support up to 32GB DDR4 ECC/UDIMM\n- One DIMM: 1R DIMM @2667MT/s; 2R/2DR DIMM\n@2400MT/s\n- Two DIMMs: (2) 1R DIMM @2133 MT/s; (2) 2R/2DR DIMM\n@1866MT/s; 1R and 2R/2DR DIMM each @1866MT/s\nType                 - Dual Channel DDR4 memory technology\n- Support DDR4 ECC/UDIMM\n*Conditionally supports ECC error reporting function.\nDIMM Size Per        - ECC/UDIMM: 32GB, 16GB, 8GB\nDIMM\nDIMM Frequency       - ECC/UDIMM: 2666/2400/2133 MHz\nVoltage              1.2V"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "PCIe 3.0 x 16        PCIE6: Gen3 x16 link (splittable in x4/4/4/4); auto switch to x8\nlink when PCIE4 is occupied.\nPCIE4: Gen3 x8 link\nPCIe 2.0 x 1         PCIE5: Gen2 x1 link\nStorage\nSATA Controller      6 x SATA3 6.0 Gb/s (1x SATA DOM port), support RAID 0, 1,\nM.2 Slot             2 (2242/2260/2280/22110, supports SATA3 and PCIe 3.0 x2 or\nsupports PCIe 2.0 x4 only)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Interface            10000/1000 /100 /10 Mbps\nLAN Controller       - 2 x RJ45 10G base-T by Intel® X550-AT2\n- 1 x RJ45 Dedicated IPMI LAN port by RTL8211E\n- Supports Wake-On-LAN\n- Supports Energy Efficient Ethernet 802.3az\n- Supports Dual LAN with Teaming function\n- Supports PXE\n2                          - LAN3 supports NCSI\nManagement\nBMC Controller       ASPEED AST2500\nIPMI Dedicated       1 x Realtek RTL8211E for dedicated management GLAN\nGLAN\nFeatures             Watch Dog"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Controller           ASPEED AST2500\nVRAM                 DDR4 256MB\nRear Panel I/O\nVGA Port             1 x D-Sub\nSerial Port          1 x COM port\nUSB 3.1 (Gen1)       2\nPort\nLAN Port             - 2 x RJ45 10 Gigabit Ethernet LAN ports\n- 1 x RJ45 Dedicated IPMI LAN port\n- LAN Ports with LED (ACT/LINK LED and SPEED LED)\nUID                  1\nInternal Connector\nAuxiliary Panel      1 (includes chassis intrusion, location button & LED, front\nHeader               LAN LED, system fault, and BMC alert)\nTPM Header           1\nIPMB Header          1\nFan Header           6 Fans x 4-pin (FAN1(CPU)/FAN2~FAN6(5Front))\nATX Power            1 x (24-pin) + 1 x (8-pin)\nUSB 3.1 Gen1         1 (supports 2 USB 3.1 Gen1 ports)\nHeader\nM.2                  2(M2_1: 2242/2260/2280/22110, PCIE(X4);\nM2_2:2242/2260/2280/22110, SATA/PCIE(X2))\nSATA DOM             1\nBMC_SMB1             1\nPSU_SMB1             1\n80 debug port LED    1\nBuzzer               1\nClear CMOS           1 (short pad)\nOH/FanFail LED       6 (only Fan Fail LED)\nFront Panel          1 (RST, PWRBTN, HDDLED, PWRLED)"
+          },
+          {
+            "label": "BIOS",
+            "value": "BIOS Type            16MB AMI UEFI Legal BIOS\nBIOS Features        - Plug and Play (PnP)\n- ACPI 2.0 Compliance Wake Up Events\n- SMBIOS 2.8 Support\n- ASRock Rack Instant Flash\nHardware Monitor\nTemperature                 - CPU/DDR/LAN Temperature Sensing\n- MB/Card Side Temperature Sensing\nFan                         - Fan Tachometer\n- Quiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\nTemperature)\n- Fan Multi-Speed Control\nVoltage                     Voltage Monitoring: +12V, +5V, +3.3V, CPU Vcore, DRAM,\n1.05V_PCH, +BAT, 3VSB, 5VSB"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "OS                          Microsoft® Windows®:\nWindows 10 (64 bit)\nLinux®:\n- UBuntu 16.04.4 (64 bit)\n- RedHat Enterprise Linux Server 7.3 (64bit) / 7.4 (64bit)\n* Please refer to our website for the latest OS support list.\n* The Linux system doesn’t support Raid mode.\n* Supports UEFI BOOT only."
+          },
+          {
+            "label": "Environment",
+            "value": "Temperature                 Operation temperature: 10°C ~ 35°C / Non operation\ntemperature: -40°C ~ 70°C\nNOTE: Please refer to our website for the latest specifications.\nThis motherboard supports Wake from on Board LAN. To use this function, please make\nsure that the “Wake on Magic Packet from power off state” is enabled in Device Manager\n> Intel® Ethernet Connection > Power Management. And the “PCI Devices Power On” is\nenabled in UEFI SETUP UTILITY > Advanced > ACPI Configuration. After that, onboard\nLAN3&4 can wake up S5 under OS.\nIf you install Intel® LAN utility or Marvell SATA utility, this motherboard may fail Win-\ndows® Hardware Quality Lab (WHQL) certification tests. If you install the drivers only, it\nwill pass the WHQL tests."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "pcie": {
+        "value": "PCIe 3.0 x 16        PCIE6: Gen3 x16 link (splittable in x4/4/4/4); auto switch to x8\nlink when PCIE4 is occupied.\nPCIE4: Gen3 x8 link\nPCIe 2.0 x 1         PCIE5: Gen2 x1 link\nStorage\nSATA Controller      6 x SATA3 6.0 Gb/s (1x SATA DOM port), support RAID 0, 1,\nM.2 Slot             2 (2242/2260/2280/22110, supports SATA3 and PCIe 3.0 x2 or\nsupports PCIe 2.0 x4 only)",
+        "sourceURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "network": {
+        "value": "Interface            10000/1000 /100 /10 Mbps\nLAN Controller       - 2 x RJ45 10G base-T by Intel® X550-AT2\n- 1 x RJ45 Dedicated IPMI LAN port by RTL8211E\n- Supports Wake-On-LAN\n- Supports Energy Efficient Ethernet 802.3az\n- Supports Dual LAN with Teaming function\n- Supports PXE\n2                          - LAN3 supports NCSI\nManagement\nBMC Controller       ASPEED AST2500\nIPMI Dedicated       1 x Realtek RTL8211E for dedicated management GLAN\nGLAN\nFeatures             Watch Dog",
+        "sourceURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "cpuSupport": {
+        "value": "CPU                  AMD AM4 Socket Ryzen Series CPUs (Raven Ridge and\nPinnacle Ridge) and Ryzen 7nm CPUs\nSocket               AM4 PGA 1331\nChipset              AMD X470\nBIOS: BIOS Type            16MB AMI UEFI Legal BIOS\nBIOS Features        - Plug and Play (PnP)\n- ACPI 2.0 Compliance Wake Up Events\n- SMBIOS 2.8 Support\n- ASRock Rack Instant Flash\nHardware Monitor\nTemperature                 - CPU/DDR/LAN Temperature Sensing\n- MB/Card Side Temperature Sensing\nFan                         - Fan Tachometer\n- Quiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\nTemperature)\n- Fan Multi-Speed Control\nVoltage                     Voltage Monitoring: +12V, +5V, +3.3V, CPU Vcore, DRAM,\n1.05V_PCH, +BAT, 3VSB, 5VSB",
+        "sourceURL": "https://download.asrock.com/Manual/X470D4U2-2T.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      }
+    },
+    "manufacturerModel": "X470D4U2-2T"
+  }
+}

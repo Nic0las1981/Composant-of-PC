@@ -1,0 +1,72 @@
+{
+  "id": "import-ssd-6a3a2aa9f922",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AORUS Gen4 SSD 2TB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:15+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:15+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp",
+    "sha256": "d9aab3f611118ea8389d1565d32b2153d7a194063a1e4f974f91989368c58333",
+    "bytes": 585963,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 4.0x4, NVMe 1.3",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "2000GB",
+    "NAND": "3D TLC NAND Flash",
+    "External DDR Cache": "DDR4 2GB",
+    "Sequential Read speed": "Up to 5000 MB/s",
+    "Sequential Write speed": "Up to 4400 MB/s",
+    "Random Read IOPS": "up to 750k",
+    "Random Write IOPS": "up to 700k",
+    "Dimension": "80 x 22 x 2.3 mm",
+    "Mean time between failure (MTBF)": "1.77 million hours",
+    "Power Consumption (Active)": "Average: R : 6.5W; W : 6.6W",
+    "Power Consumption (Idle)": "21.1mw",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 3600TBW.\n\n2. Limited warranty based on 5 years or 3600TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into an SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"Percentage Used\" (SMART ID: 05) in SMART page of \"GIGABYTE SSD toolbox\" reaches 100 means out of warranty. (A new unused product will show the number of 0.)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Published model code": "GP-AG42TB"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000E-SSD-2TB/sp",
+        "checkedAt": "2026-11-10T14:36:13+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000E-SSD-2TB/sp",
+        "sha256": "d40a6d85d05d1132c779aea38306233503347fb28f9f38cf6eae00909a538d89",
+        "bytes": 574167,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 7000E SSD 2TB",
+      "state": "model_variant_mismatch"
+    },
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp",
+        "checkedAt": "2026-11-10T14:36:15+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp",
+        "sha256": "d9aab3f611118ea8389d1565d32b2153d7a194063a1e4f974f91989368c58333",
+        "bytes": 585963,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 SSD 2TB"
+    }
+  ]
+}

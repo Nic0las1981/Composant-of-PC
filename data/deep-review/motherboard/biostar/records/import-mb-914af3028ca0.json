@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-914af3028ca0",
+    "name": "B350GTX",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": "1.0",
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+          "checkedAt": "2026-11-10T14:00:31+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20191114.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191113_2.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191113_3.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20191113_1.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "969",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "B350GTX",
+    "identityNote": "Modèle Biostar B350GTX confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "formFactor": "Micro-ATX",
+      "heightMm": 238.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B350GTX",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR B350GTX — révision 1.0",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD B350"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/2133/2400/2667/2933(OC)/3200(OC)\n \n4 x DDR4 DIMM Memory Slot, Max. Supports up to 64 GB Memory\n \nEach DIMM supports non-ECC 8/16 GB DDR4 module\n \n* DDR4 - 2667 only for Ryzen CPU.\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (32Gb/s) : Supports PCI-E & SATA SSD\n \n* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU is 16Gb/s.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL 8118AS\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability\n \nSupport Super LAN Surge Protection"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC887\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front)"
+          },
+          {
+            "label": "USB",
+            "value": "2x USB 3.1 Gen2 (10Gb/s) port (2 on rear I/Os)\n \n6x USB 3.1 Gen1 (5Gb/s) port (4 on rear I/Os and 2 via internal headers)\n \n4x USB 2.0 port (4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCIe 2.0 x1 Slot\n \n1x PCIe 2.0 x16 Slot (x4)\n \n1x PCIe 3.0 x16 Slot (When using APU, the bandwidth is x8 speed)\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1x PS/2 Keyboard\n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x LAN port\n \n2x USB 3.1 Gen2 (10Gb/s) Port\n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n3x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4x SATA III 6.0Gb/s Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports)\n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n1x CPU Fan Connector\n \n2x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n1x S/PDIF out Connector\n \n1x COM Port Header\n \n2x 5050 LED Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU / System Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 7(64bit) / 10(64bit) / 11(64bit)\n * Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT Utility\nFLY.NET\nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x Quick Guide"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\n5050 LED FUN ZONE\nSupports PURO Hi-Fi\nDual BIOS\nSupports 100% Solid capacitor\nBIO-FLASHER\nSupports BIOS Online Update"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191114.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191113_2.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191113_3.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20191113_1.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "chipset": {
+        "value": "AMD B350",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "storagePorts": {
+        "value": "4x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (32Gb/s) : Supports PCI-E & SATA SSD\n \n* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU is 16Gb/s.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "pcie": {
+        "value": "2x PCIe 2.0 x1 Slot\n \n1x PCIe 2.0 x16 Slot (x4)\n \n1x PCIe 3.0 x16 Slot (When using APU, the bandwidth is x8 speed)\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "rearIO": {
+        "value": "1x PS/2 Keyboard\n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x LAN port\n \n2x USB 3.1 Gen2 (10Gb/s) Port\n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n3x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "internalIO": {
+        "value": "4x SATA III 6.0Gb/s Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports)\n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n1x CPU Fan Connector\n \n2x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n1x S/PDIF out Connector\n \n1x COM Port Header\n \n2x 5050 LED Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL 8118AS\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability\n \nSupport Super LAN Surge Protection",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "audio": {
+        "value": "ALC887\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T14:00:31+00:00"
+      }
+    }
+  }
+}

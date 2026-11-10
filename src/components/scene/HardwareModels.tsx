@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import type { Component } from "../../data/catalog";
+import { coolerAppearances } from "../../data/hardwareAppearance";
+import { CoolerFan } from "./NoctuaFan";
 import { getMemoryDetails } from "../../lib/memoryDetails";
 import {
   MM,
@@ -25,7 +27,7 @@ import {
 
 import {CrucialHeatspreader, Samsung9100Surface, SteelLegendBoardDetails, SteelLegendGpuShroud, PowerZoneGrille} from "./IndividualHardwareDetails";
 
-import {CircuitPackages, M2Board, CpuContactField, FanWireClips, VentilatedPsuShell, AxialShroud} from "./CircuitDetails";
+import {CircuitPackages, M2Board, CpuContactField, FanWireClips, VentilatedPsuShell, AxialShroud, CpuSubstrate} from "./CircuitDetails";
 
 type Vec3 = [number, number, number];
 type Props<T> = { component: Component; profile: T };
@@ -341,7 +343,7 @@ export function MotherboardModel({
         color="#151a1d"
       />
       <group name="socket-contact-field" position={[anchors.cpu[0]+.029,anchors.cpu[1],anchors.cpu[2]]} rotation={[0,Math.PI,0]}>
-        <CpuContactField width={.32} height={socketHeight*.72} depth={.006} pins={false}/>
+        <CpuContactField width={.32} height={socketHeight*.72} depth={.006} pins={false} socketHoles={component.socket === "AM4"}/>
       </group>
       <Tube points={[
         [anchors.cpu[0] + 0.034, anchors.cpu[1] - 0.2, anchors.cpu[2] + 0.218],
@@ -533,9 +535,9 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
   const fanSpan = profile.fanCount > 1 ? length / 2 - fanRadius - 0.04 : 0;
   const fins = useMemo<BoxInstance[]>(
     () =>
-      Array.from({ length: 38 }, (_, i) => ({
-        position: [0, 0, -length * 0.46 + (i * length * 0.92) / 37],
-        size: [width * 0.93, height * 0.7, 0.009],
+      Array.from({ length: 64 }, (_, i) => ({
+        position: [0, 0, -length * 0.46 + (i * length * 0.92) / 63],
+        size: [width * 0.93, height * 0.7, 0.003],
       })),
     [length, width, height],
   );
@@ -678,132 +680,88 @@ export function GpuModel({ component, profile }: Props<GpuVisualProfile>) {
   );
 }
 
-export function CoolerModel({
-  component,
-  profile,
-}: Props<CoolerVisualProfile>) {
-  const h = profile.heightMm * MM,
-    w = profile.widthMm * MM,
-    d = profile.depthMm * MM;
+export function CoolerModel({ component, profile }: Props<CoolerVisualProfile>) {
+  const h = profile.heightMm * MM, w = profile.widthMm * MM, d = profile.depthMm * MM;
   const low = profile.kind === "low-profile";
-  const fins = useMemo<BoxInstance[]>(() => {
-    if (low)
-      return Array.from({ length: 22 }, (_, i) => ({
-        position: [-h * 0.17, 0, -d * 0.46 + (i * d * 0.92) / 21],
-        size: [h * 0.5, w * 0.94, 0.01],
-      }));
-    return [-1, 1].flatMap((side) =>
-      Array.from({ length: 39 }, (_, i) => ({
-        position: [-h * 0.35 + (i * h * 0.77) / 38, 0, side * d * 0.235],
-        size: [0.009, w * 0.96, d * 0.34],
-      })),
-    );
-  }, [h, w, d, low]);
-  const pipePoints = useMemo<Vec3[][]>(
-    () =>
-      Array.from({ length: profile.heatpipes }, (_, i) => {
-        const y = (i - (profile.heatpipes - 1) / 2) * w * 0.095;
-        if (low)
-          return [
-            [-h * 0.37, y, -d * 0.3],
-            [-h * 0.12, y, -d * 0.37],
-            [h * 0.04, y, -d * 0.13],
-            [h * 0.04, y, d * 0.3],
-          ] as Vec3[];
-        return [
-          [h * 0.44, y, -d * 0.23],
-          [-h * 0.33, y, -d * 0.23],
-          [-h * 0.49, y, 0],
-          [-h * 0.33, y, d * 0.23],
-          [h * 0.44, y, d * 0.23],
-        ] as Vec3[];
-      }),
-    [profile.heatpipes, h, w, d, low],
-  );
-  return (
-    <group>
-      <MetalBox
-        position={[-h * 0.46, 0, 0]}
-        size={[Math.min(0.08, h * 0.2), w * 0.44, d * 0.35]}
-        color="#b3b8bb"
-        roughness={0.16}
-      />
-      <BoxInstances
-        items={fins}
-        color={profile.finColor}
-        metalness={0.87}
-        roughness={0.3}
-      />
-      {!low && <FanWireClips height={h} width={w} depth={d} fanCount={profile.fanCount}/>}
-      <Fasteners positions={[-1,1].flatMap(y=>[-1,1].map(z=>[-h*.425,y*w*.17,z*d*.12] as Vec3))} radius={.013}/>
-      {pipePoints.map((points, i) => (
-        <Tube
-          key={i}
-          points={points}
-          radius={0.019}
-          color={component.id === "cooler-nhd15" ? "#464a4b" : "#b0b1ab"}
-        />
-      ))}
-      {low ? (
-        profile.fanCount > 0 && <HardwareFan
-          radius={profile.fanSizeMm * MM * 0.48}
-          position={[h * 0.2, 0, 0]}
-          rotation={[0, Math.PI / 2, 0]}
-          frame
-          color={profile.fanColor}
-          bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
-          rgb={profile.fanRgb}
-          hubLabel="N"
-        />
-      ) : (
-        <>
-          {[-1, 1].map((side) => (
-            <MetalBox
-              key={side}
-              position={[h * 0.45, 0, side * d * 0.235]}
-              size={[0.018, w, d * 0.36]}
-              color={profile.color}
-              roughness={0.3}
-            />
-          ))}
-          {profile.fanCount > 0 && <HardwareFan
-            radius={profile.fanSizeMm * MM * 0.47}
-            position={[h * 0.07, 0, d * (profile.fanCount > 1 ? 0.43 : -0.055)]}
-            frame
-            color={profile.fanColor}
-            bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
-            rgb={profile.fanRgb}
-            hubLabel={
-              component.brand === "Noctua"
-                ? "N"
-                : component.brand === "DeepCool"
-                  ? "DC"
-                  : "TR"
-            }
-          />}
-          {profile.fanCount > 1 && (
-            <HardwareFan
-              radius={profile.fanSizeMm * MM * 0.47}
-              position={[h * 0.07, 0, -d * 0.055]}
-              frame
-              color={profile.fanColor}
-              bladeColor={component.brand === "Noctua" ? (/chromax/i.test(component.name) ? "#252b2d" : "#7d5236") : undefined}
-              rgb={profile.fanRgb}
-            />
-          )}
-          {profile.pumpDisplay === "lcd" && <PumpScreen width={Math.min(w, d) * 0.62} position={[h * 0.475, 0, 0]} brand={component.brand} rectangular />}
-          {profile.rgb && !profile.fanRgb && [-1, 1].map(side => <RGBStrip key={side} position={[h * 0.469, side * w * .45, 0]} size={[d * .78, .018, .013]} rotation={[0, Math.PI / 2, 0]} phase={side > 0 ? .2 : .65} />)}
-          <HardwareLabel
-            text={component.brand.toUpperCase()}
-            position={[h * 0.465, 0, d * 0.23]}
-            width={d * 0.29}
-            height={w * 0.22}
-            color={component.id === "cooler-nhd15" ? "#91999b" : "#727b7e"}
-          />
-        </>
-      )}
-    </group>
-  );
+  const appearance = coolerAppearances[component.id];
+  const noctua = component.brand === "Noctua";
+  const black = /chromax|ZERO DARK/i.test(component.name) || component.brand === "be quiet!";
+  const covered = appearance?.capStyle === "deepcool-grid" || appearance?.capStyle === "digital-bridge" || appearance?.capStyle === "dark-rock";
+  // Fin-stack placement is a visual reconstruction within the sourced envelope.
+  // The central opening accommodates the supplied 25 mm Noctua fan CAD.
+  const fanDepth = (low ? 14 : 25) * MM;
+  const frontReserve = profile.fanCount > 1 ? fanDepth : 0;
+  const coreDepth = d - frontReserve;
+  const gap = Math.min(28 * MM, coreDepth * .31);
+  const asymmetric = component.id === "cooler-nhd12l";
+  const rearDepth = (coreDepth - gap) * (asymmetric ? .62 : .5);
+  const frontDepth = coreDepth - gap - rearDepth;
+  const rearZ = -d / 2 + rearDepth / 2;
+  const middleZ = -d / 2 + rearDepth + gap / 2;
+  const frontZ = d / 2 - frontReserve - frontDepth / 2;
+  const frontFanZ = d / 2 - fanDepth / 2;
+  const towers = useMemo(() => [
+    { z: rearZ, depth: rearDepth, width: w },
+    { z: frontZ, depth: frontDepth, width: w * (asymmetric ? .86 : 1) },
+  ], [rearZ, rearDepth, frontZ, frontDepth, w, asymmetric]);
+  const fins = useMemo<BoxInstance[]>(() => low
+    ? Array.from({ length: 27 }, (_, i) => ({
+      position: [-h * .17, 0, -d * .46 + i * d * .92 / 26] as Vec3,
+      size: [Math.max(.04, h - fanDepth - .04), w * .96, .006] as Vec3,
+    }))
+    : towers.flatMap(tower => Array.from({ length: 45 }, (_, i) => ({
+      position: [-h * .32 + i * h * .75 / 44, 0, tower.z] as Vec3,
+      size: [.006, tower.width * (noctua && i < 8 ? .78 : .96), tower.depth] as Vec3,
+    }))), [low, h, w, d, fanDepth, towers, noctua]);
+  const pipePoints = useMemo<Vec3[][]>(() => Array.from({ length: profile.heatpipes }, (_, i) => {
+    const y = (i - (profile.heatpipes - 1) / 2) * w * .095;
+    return low ? [
+      [-h * .37, y, -d * .3], [-h * .15, y, -d * .37],
+      [-h * .08, y, -d * .13], [-h * .08, y, d * .3],
+    ] : [
+      [h * .455, y, rearZ], [-h * .31, y, rearZ], [-h * .47, y, 0],
+      [-h * .31, y, frontZ], [h * .455, y, frontZ],
+    ];
+  }), [profile.heatpipes, h, w, d, low, rearZ, frontZ]);
+  const capGrid = useMemo<BoxInstance[]>(() => covered ? towers.flatMap(tower =>
+    Array.from({ length: 11 }, (_, i) => ({ position: [h * .465, -w * .43 + i * w * .086, tower.z] as Vec3,
+      size: [.006, .006, tower.depth * .88] as Vec3 }))) : [], [covered, towers, h, w]);
+  return <group name="cooler-dimensional-reconstruction" userData={{ coolerAppearance: appearance?.capStyle, finStackFidelity: "reconstructed" }}>
+    <MetalBox position={[-h * .46, 0, 0]} size={[Math.min(.08, h * .2), w * .44, d * .35]} color="#b3b8bb" roughness={.18}/>
+    <BoxInstances items={fins} color={profile.finColor} metalness={.84} roughness={.33}/>
+    <Fasteners positions={[-1, 1].flatMap(y => [-1, 1].map(z => [-h * .425, y * w * .17, z * d * .12] as Vec3))} radius={.013}/>
+    {pipePoints.map((points, i) => <Tube key={i} points={points} radius={3 * MM} color={black ? "#35393a" : "#b7bbb7"}/>)}
+    {!low && !covered && towers.map((tower, side) => <group key={side}>
+      {Array.from({ length: profile.heatpipes }, (_, i) => <mesh key={i} position={[h * .455, (i - (profile.heatpipes - 1) / 2) * w * .095, tower.z]} rotation={[0, 0, Math.PI / 2]}>
+        <cylinderGeometry args={[.014, .023, .025, 8]}/><meshStandardMaterial color={black ? "#424646" : "#b7bbb7"} metalness={.83} roughness={.3}/>
+      </mesh>)}
+    </group>)}
+    {!low && <FanWireClips height={h} width={w} depth={d} fanCount={profile.fanCount} fanCenters={profile.fanCount > 1 ? [frontFanZ, middleZ] : [middleZ]}/>}
+    {low ? profile.fanCount > 0 && <CoolerFan component={component} radius={profile.fanSizeMm * MM * .48} depth={fanDepth}
+      position={[h / 2 - fanDepth / 2, 0, 0]} rotation={[0, Math.PI / 2, 0]} frame color={profile.fanColor}
+      bladeColor={noctua ? black ? "#252b2d" : "#7d5236" : undefined} bladeCount={appearance?.bladeCount} rgb={profile.fanRgb} hubLabel="N"/>
+      : <>
+        {appearance?.capStyle !== "exposed-fins" && towers.map((tower, i) => <MetalBox key={i}
+          position={[h * .45, 0, tower.z]} size={[covered ? .035 : .009, tower.width, tower.depth]}
+          color={appearance?.capStyle === "thermalright-plate" ? "#333739" : profile.color} roughness={.48}/>) }
+        {appearance?.capStyle === "deepcool-grid" && <BoxInstances items={capGrid} color="#171c1f" metalness={.12} roughness={.65}/>}
+        {profile.fanCount > 0 && <CoolerFan component={component} radius={profile.fanSizeMm * MM * .47} depth={fanDepth}
+          position={[h * .065, 0, profile.fanCount > 1 ? frontFanZ : middleZ]} frame={appearance?.fanFrame !== "round"}
+          color={profile.fanColor} bladeColor={noctua ? black ? "#252b2d" : "#7d5236" : undefined}
+          bladeCount={appearance?.bladeCount} rgb={profile.fanRgb} hubLabel={noctua ? "N" : component.brand === "DeepCool" ? "DC" : "TR"}/>}
+        {profile.fanCount > 1 && <CoolerFan component={component} radius={(component.id === "cooler-darkrockpro5" ? 135 : profile.fanSizeMm) * MM * .47} depth={fanDepth}
+          position={[h * .065, 0, middleZ]} frame={appearance?.fanFrame !== "round"} color={profile.fanColor}
+          bladeColor={noctua ? black ? "#252b2d" : "#7d5236" : undefined} bladeCount={appearance?.bladeCount} rgb={profile.fanRgb}/>}
+        {appearance?.capStyle === "digital-bridge" && <>
+          <MetalBox position={[h * .478, 0, (rearZ + frontZ) / 2]} size={[.036, w, coreDepth]} color="#151a1d" roughness={.2}/>
+          <PumpScreen width={w * .68} position={[h * .503, 0, (rearZ + frontZ) / 2]} brand={component.brand} rectangular size={[coreDepth * .88, w * .88]}/>
+        </>}
+        {appearance?.capStyle === "dark-rock" && <MetalBox position={[h * .478, 0, (rearZ + frontZ) / 2]} size={[.042, w, coreDepth]} color="#202629" roughness={.57}/>}
+        {profile.rgb && !profile.fanRgb && [-1, 1].map(side => <RGBStrip key={side} position={[h * .502, side * w * .45, (rearZ + frontZ) / 2]} size={[coreDepth * .9, .018, .013]} rotation={[0, Math.PI / 2, 0]} phase={side > 0 ? .2 : .65}/>) }
+        {appearance?.capStyle !== "exposed-fins" && appearance?.capStyle !== "digital-bridge" && <HardwareLabel text={component.brand.toUpperCase()}
+          position={[h * .485, 0, frontZ]} width={frontDepth * .8} height={w * .16} color="#9aa3a3"/>}
+      </>}
+  </group>;
 }
 
 export function RamModel({
@@ -831,6 +789,7 @@ export function RamModel({
     && !profile.rgb && /ValueRAM|ValueSelect|Signature Line|Premier|Crucial Basics/i.test(component.name));
   const rgb = profile.rgb && (!documentedBare || component.rgb === true);
   const details = getMemoryDetails(component);
+  const sodimm = details.physicalFormat === "SO-DIMM";
   const pcbGeometry = useMemo(() => {
     const edge = Math.min(h * 0.045, l * 0.009);
     const keyY = -l * 0.43 + (component.memoryType === "DDR5" ? 18 : 16) * l * 0.86 / 35;
@@ -860,9 +819,9 @@ export function RamModel({
   );
   const chips = useMemo<BoxInstance[]>(() => [-1, 1].flatMap((side) =>
     Array.from({ length: 8 }, (_, i) => ({
-      position: [-h * 0.03, -l * 0.36 + i * l * 0.103, side * Math.min(0.012, t * 0.25)] as Vec3,
-      size: [h * 0.46, l * 0.072, Math.min(0.01, t * 0.18)] as Vec3,
-    }))), [h, l, t]);
+      position: [sodimm ? (Math.floor(i / 4) - .5) * h * .42 : -h * .03, -l * .36 + (sodimm ? i % 4 : i) * l * (sodimm ? .24 : .103), side * Math.min(.012, t * .25)] as Vec3,
+      size: [h * (sodimm ? .32 : .46), l * (sodimm ? .18 : .072), Math.min(.01, t * .18)] as Vec3,
+    }))), [h, l, t, sodimm]);
   const ridges = useMemo<BoxInstance[]>(() => [-1, 1].flatMap((side) =>
     Array.from({ length: 5 }, (_, i) => ({
       position: [h * 0.08, side * l * (0.31 + i * 0.035), t * 0.505] as Vec3,
@@ -955,13 +914,7 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
   return (
     <group>
       <CpuContactField width={w} height={h} depth={d} pins={profile.socket === "AM4"}/>
-      <MetalBox
-        position={[-d * 0.3, 0, 0]}
-        size={[d * 0.45, h, w]}
-        color={component.brand === "Intel" ? "#354b44" : "#243b2c"}
-        roughness={0.72}
-        metalness={0.12}
-      />
+      <CpuSubstrate width={w} height={h} depth={d} intel={profile.socket === "LGA1700"}/>
       {am5 ? <mesh geometry={heatspreader} position={[-d * .23, 0, 0]} rotation={[0, Math.PI / 2, 0]} castShadow>
         <meshStandardMaterial color="#bfc6c5" metalness={.82} roughness={.31} roughnessMap={nickel?.texture} bumpMap={nickel?.texture} bumpScale={.0006} envMapIntensity={1.1}/>
       </mesh> : <MetalBox position={[d * 0.12, 0, 0]} size={[d * 0.76, h * 0.84, w * 0.84]} color="#bfc4c5" roughness={0.31} metalness={0.82} finish="brushed" bevel={.004} />}
@@ -974,17 +927,10 @@ export function CpuModel({ component, profile }: Props<CpuVisualProfile>) {
         height={h * 0.48}
         color="#343b3d"
       />
-      {am5 &&
-        [-1, 1].flatMap((y) =>
-          [-1, 1].map((z) => (
-            <MetalBox
-              key={`${y}${z}`}
-              position={[d * 0.43, y * h * 0.4, z * w * 0.4]}
-              size={[0.018, 0.04, 0.04]}
-              color="#4d5854"
-            />
-          )),
-        )}
+      {am5 && <BoxInstances items={[-1,1].flatMap(y=>[-1,1].flatMap(z=>[0,1,2].map(i=>({
+        position:[-d*.02,y*h*.39,z*w*.39+(i-1)*w*.04] as Vec3,
+        size:[d*.15,h*.025,w*.018] as Vec3,
+      }))))} color="#958d71" metalness={.35} roughness={.7}/>}
     </group>
   );
 }
@@ -994,29 +940,45 @@ export function StorageModel({
   profile,
 }: Props<StorageVisualProfile>) {
   const samsung9100 = profile.design === "samsung-9100-pro" && !profile.hasHeatsink;
+  // A documented total height below 4 mm leaves room for a film/spreader,
+  // not a tower of fins. This is a rendering distinction, not a NAND or
+  // cooling-performance claim (e.g. Transcend graphene MTE240S–255S).
+  const thinSpreader = profile.hasHeatsink && profile.heightMm <= 4;
   const w = profile.widthMm * MM,
     l = profile.lengthMm * MM,
     h = profile.heightMm * MM;
+  const pcbThickness = Math.min(h * .7, 1.6 * MM);
+  // Keep the documented total height as the outer envelope. The internal
+  // split between base and fins remains an illustrative reconstruction.
+  const topX = h - pcbThickness / 2;
+  const baseHeight = Math.min(.6 * MM, h * .14);
+  const finHeight = Math.max(.1 * MM, h - pcbThickness - baseHeight);
+  // M.2 heatsink overhang must not widen the standardized PCB edge connector.
+  const pcbWidth = Math.min(w, 22.15 * MM);
   const contactFingers = useMemo<BoxInstance[]>(() =>
     Array.from({ length: 15 }, (_, i) => ({
-      position: [0.009, -w * 0.39 + i * w * 0.055, l * 0.46] as Vec3,
-      size: [0.004, w * 0.035, 0.065] as Vec3,
-    })).filter(finger => finger.position[1] + finger.size[1] / 2 <= -w * .34 || finger.position[1] - finger.size[1] / 2 >= -w * .2), [w, l]);
+      position: [Math.min(1.6 * MM, h * .7) / 2 + .0005, -pcbWidth * .39 + i * pcbWidth * .055, l * 0.46] as Vec3,
+      size: [.001, pcbWidth * .035, Math.min(.065, l * .082)] as Vec3,
+    })).filter(finger => finger.position[1] + finger.size[1] / 2 <= -pcbWidth * .34 || finger.position[1] - finger.size[1] / 2 >= -pcbWidth * .2), [pcbWidth, l, h]);
   const fins = useMemo<BoxInstance[]>(() =>
     Array.from({ length: 7 }, (_, i) => ({
-      position: [h * 0.18, -w * 0.42 + i * w * 0.14, -l * 0.04] as Vec3,
-      size: [h * 0.62, w * 0.06, l * 0.86] as Vec3,
-    })), [h, w, l]);
-  const surfaceX = profile.hasHeatsink ? h * 0.51 : h * 0.25 + 0.013;
+      position: [topX - finHeight / 2, -w * 0.42 + i * w * 0.14, -l * 0.04] as Vec3,
+      size: [finHeight, w * 0.06, l * 0.86] as Vec3,
+    })), [topX, finHeight, w, l]);
+  const surfaceX = profile.hasHeatsink ? topX + .0005 : h * 0.65;
   return (
     <group>
-      <M2Board width={w} length={l} thickness={Math.min(h*.5,.016)} color="#222f2a"/>
-      {!profile.hasHeatsink && !samsung9100 && <CircuitPackages width={w} length={l}/>}
-      {samsung9100 ? <Samsung9100Surface profile={profile} /> : profile.hasHeatsink ? (
+      <M2Board width={pcbWidth} length={l} thickness={pcbThickness} color="#222f2a"/>
+      {(!profile.hasHeatsink || thinSpreader) && !samsung9100 && <CircuitPackages width={pcbWidth} length={l} depth={h}/>}
+      {samsung9100 ? <Samsung9100Surface profile={profile} /> : thinSpreader ? (
+        <group name="thin-ssd-heatspreader" userData={{ illustrativeSurface: true, totalHeightMm: profile.heightMm }}>
+          <MetalBox position={[topX - h * .05, 0, -l * .04]} size={[h * .1, w * .94, l * .86]} color={profile.color} roughness={.72} metalness={.14} />
+        </group>
+      ) : profile.hasHeatsink ? (
         <>
           <MetalBox
-            position={[-h * 0.1, 0, -l * 0.04]}
-            size={[h * 0.22, w * 0.95, l * 0.86]}
+            position={[pcbThickness / 2 + baseHeight / 2, 0, -l * 0.04]}
+            size={[baseHeight, w * 0.95, l * 0.86]}
             color={profile.color}
           />
           <BoxInstances items={fins} color={profile.color} roughness={0.35} />
@@ -1024,13 +986,13 @@ export function StorageModel({
       ) : (
         <>
           <MetalBox
-            position={[h * 0.25, 0, -l * 0.14]}
-            size={[0.022, w * 0.79, l * 0.67]}
+            position={[h * 0.62, 0, -l * 0.14]}
+            size={[h * .03, w * 0.79, l * 0.67]}
             color={profile.labelColor}
             roughness={0.58}
             metalness={0.1}
           />
-          <MetalBox position={[0.014, 0, l * 0.28]} size={[0.018, w * 0.64, l * 0.13]} color="#11171a" roughness={0.8} />
+          <MetalBox position={[h * .46, 0, l * 0.28]} size={[h * .22, w * 0.64, l * 0.13]} color="#11171a" roughness={0.8} />
         </>
       )}
       <BoxInstances items={contactFingers} color="#c2a45b" roughness={0.3} />
@@ -1042,7 +1004,7 @@ export function StorageModel({
         height={w * 0.7}
         color="#e2e4e3"
       />}
-      <mesh position={[0.012, 0, -l * 0.5]} rotation={[0, Math.PI / 2, 0]}>
+      <mesh position={[Math.min(h*.7,1.6*MM)/2+.001, 0, -l * 0.5]} rotation={[0, Math.PI / 2, 0]}>
         <ringGeometry args={[0.0145, 0.026, 20, 1, Math.PI/2, Math.PI]} />
         <meshStandardMaterial color="#9b9990" metalness={0.7} />
       </mesh>
@@ -1119,6 +1081,10 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
         color="#c4c7c6"
       />
       {plugs.length > 0 && <BoxInstances items={plugs} color="#070b0d" finish="plastic" metalness={0.05} />}
+      {!powerZone && plugs.length > 0 && <BoxInstances items={plugs.flatMap(plug=>Array.from({length:6},(_,i)=>({
+        position:[plug.position[0]+(Math.floor(i/2)-1)*plug.size[0]*.27,plug.position[1]+(i%2-.5)*plug.size[1]*.4,plug.position[2]+.015] as Vec3,
+        size:[plug.size[0]*.18,plug.size[1]*.24,.005] as Vec3,
+      })))} color="#485154" metalness={.35} roughness={.55}/>}
       {powerZone && plugs.map((plug,index)=><group key={index} name="power-zone-modular-socket" position={plug.position}>
         <BoxInstances items={Array.from({length:index === 7 ? 18 : index < 2 ? 5 : 8},(_,pin)=>({position:[(Math.floor(pin/2)-(index===7?4:index<2?1:1.5))*.025,(pin%2-.5)*.026,.015] as Vec3,size:[.015,.018,.007] as Vec3}))} color="#5e6566" roughness={.55}/>
       </group>)}
@@ -1143,7 +1109,7 @@ export function PsuModel({ component, profile }: Props<PsuVisualProfile>) {
   );
 }
 
-function PumpScreen({ width, position, brand, rectangular = false }: { width: number; position: Vec3; brand: string; rectangular?: boolean }) {
+function PumpScreen({ width, position, brand, rectangular = false, size }: { width: number; position: Vec3; brand: string; rectangular?: boolean; size?: [number, number] }) {
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
     canvas.width = 512;
@@ -1178,6 +1144,12 @@ function PumpScreen({ width, position, brand, rectangular = false }: { width: nu
     ctx.fillStyle = "#88a9b4";
     ctx.font = "500 22px Arial";
     ctx.fillText(rectangular ? "D I G I T A L   C O O L I N G" : "L I Q U I D   C O O L I N G", 256, 302, 360);
+    if (rectangular) {
+      ctx.fillStyle = "#080d10"; ctx.fillRect(0, 0, 512, 512);
+      ctx.fillStyle = "#cbe6e2"; ctx.font = "600 100px monospace"; ctx.fillText("— °C", 256, 185, 420);
+      ctx.fillStyle = "#80cbbb"; ctx.font = "500 76px monospace"; ctx.fillText("— %", 256, 300, 400);
+      ctx.fillStyle = "#71948d"; ctx.font = "500 28px Arial"; ctx.fillText(brand.toUpperCase(), 256, 420, 380);
+    }
     const map = new THREE.CanvasTexture(canvas);
     map.colorSpace = THREE.SRGBColorSpace;
     map.anisotropy = 4;
@@ -1186,7 +1158,7 @@ function PumpScreen({ width, position, brand, rectangular = false }: { width: nu
   useEffect(() => () => texture.dispose(), [texture]);
   return (
     <mesh position={position} rotation={[0, Math.PI / 2, 0]}>
-      {rectangular ? <planeGeometry args={[width * 1.3, width]} /> : <circleGeometry args={[width / 2, 48]} />}
+      {rectangular ? <planeGeometry args={size ?? [width * 1.3, width]} /> : <circleGeometry args={[width / 2, 48]} />}
       <meshBasicMaterial map={texture} toneMapped={false} />
     </mesh>
   );
@@ -1268,6 +1240,73 @@ function BraidedHose({ points, color }: { points: Vec3[]; color: string }) {
       <meshStandardMaterial map={texture} bumpMap={texture} bumpScale={0.0013} roughness={0.84} metalness={0.04} />
     </mesh>
   );
+}
+
+/** Rounded light guide follows the inspected pump face; no invented display readout. */
+function PumpLightFrame({ width:w, height:h, position, thickness = .016 }: {width:number;height:number;position:Vec3;thickness?:number}) {
+  const geometry = useMemo(() => {
+    const rounded = (shape:THREE.Shape|THREE.Path, width:number, height:number, r:number) => {
+      shape.moveTo(-width/2+r,-height/2);shape.lineTo(width/2-r,-height/2);shape.quadraticCurveTo(width/2,-height/2,width/2,-height/2+r);
+      shape.lineTo(width/2,height/2-r);shape.quadraticCurveTo(width/2,height/2,width/2-r,height/2);
+      shape.lineTo(-width/2+r,height/2);shape.quadraticCurveTo(-width/2,height/2,-width/2,height/2-r);
+      shape.lineTo(-width/2,-height/2+r);shape.quadraticCurveTo(-width/2,-height/2,-width/2+r,-height/2);shape.closePath();
+    };
+    const shape=new THREE.Shape();rounded(shape,w,h,Math.min(w,h)*.17);
+    const hole=new THREE.Path();rounded(hole,w-thickness*2,h-thickness*2,Math.max(.01,Math.min(w,h)*.17-thickness));shape.holes.push(hole);
+    const g = new THREE.ShapeGeometry(shape,10);
+    const uv = g.getAttribute("uv"), positions = g.getAttribute("position");
+    for (let i=0;i<uv.count;i++) uv.setXY(i, positions.getX(i)/w+.5, positions.getY(i)/h+.5);
+    return g;
+  },[w,h,thickness]);
+  const texture=useMemo(()=>{const canvas=document.createElement('canvas');canvas.width=canvas.height=128;const ctx=canvas.getContext('2d')!;
+    const gradient=ctx.createLinearGradient(0,0,128,128);['#e788d0','#9c92e7','#73dbe4','#a2e4b5','#ead783','#e788d0'].forEach((c,i)=>gradient.addColorStop(i/5,c));ctx.fillStyle=gradient;ctx.fillRect(0,0,128,128);
+    const map=new THREE.CanvasTexture(canvas);map.colorSpace=THREE.SRGBColorSpace;return map;},[]);
+  useEffect(()=>()=>{geometry.dispose();},[geometry]);useEffect(()=>()=>texture.dispose(),[texture]);
+  return <mesh name="pump-rounded-light-guide" position={position} rotation={[0,Math.PI/2,0]} geometry={geometry}>
+    <meshStandardMaterial map={texture} emissiveMap={texture} emissive="#ffffff" emissiveIntensity={.75} roughness={.38} metalness={.02}/>
+  </mesh>;
+}
+
+function PumpBody({ component, profile, width:w, height:h, depth:d }: Props<CoolerVisualProfile> & {width:number;height:number;depth:number}) {
+  const shape=coolerAppearances[component.id]?.pumpShape;
+  const color=profile.pumpColor||profile.color;
+  const radius=Math.min(w,h)*.46, face=d*.515;
+  const nickel=useHardwareSurface('brushed');
+  const spokes=useMemo<BoxInstance[]>(()=>Array.from({length:28},(_,i)=>{const a=i*Math.PI*2/28;return{
+    position:[face+.014,Math.cos(a)*radius*.71,Math.sin(a)*radius*.71] as Vec3,
+    size:[.028,radius*.43,.014] as Vec3,rotation:[a,0,0] as Vec3,
+  };}),[face,radius]);
+  const capellix=shape==='capellix';
+  const octagon=useMemo(()=>{
+    const s=new THREE.Shape(),cut=Math.min(w,h)*.13;
+    [[-w/2+cut,-h/2],[w/2-cut,-h/2],[w/2,-h/2+cut],[w/2,h/2-cut],[w/2-cut,h/2],[-w/2+cut,h/2],[-w/2,h/2-cut],[-w/2,-h/2+cut]].forEach(([x,y],i)=>i?s.lineTo(x,y):s.moveTo(x,y));s.closePath();
+    return new THREE.ExtrudeGeometry(s,{depth:d,bevelEnabled:true,bevelThickness:.006,bevelSize:.006,bevelSegments:1});
+  },[w,h,d]);
+  useEffect(()=>()=>octagon.dispose(),[octagon]);
+  if(shape==='arctic-vrm')return <group name="arctic-radial-vrm-pump">
+    <mesh rotation={[0,0,Math.PI/2]}><cylinderGeometry args={[radius,radius*.94,d,48]}/><meshStandardMaterial color={color} roughness={.5} metalness={.1}/></mesh>
+    <mesh position={[face-.008,0,0]} rotation={[0,Math.PI/2,0]}><circleGeometry args={[radius*.95,48]}/><meshStandardMaterial color="#172027" roughness={.7}/></mesh>
+    <BoxInstances items={spokes} color={color} metalness={.08} roughness={.56}/>
+    <mesh position={[face+.025,0,0]} rotation={[0,Math.PI/2,0]}><circleGeometry args={[radius*.43,40]}/><meshStandardMaterial color={color} roughness={.5}/></mesh>
+    {profile.rgb&&<mesh position={[face+.02,0,0]} rotation={[0,Math.PI/2,0]}><torusGeometry args={[radius*.9,.018,8,48]}/><meshStandardMaterial color="#b2e8dc" emissive="#91d5d8" emissiveIntensity={.7}/></mesh>}
+    <HardwareLabel text="ARCTIC" position={[face+.03,0,0]} width={radius*.67} height={radius*.23} color={profile.rgb?'#45656d':'#bac4c6'}/>
+  </group>;
+  if(shape==='kraken-round')return <group name="kraken-cylindrical-lcd-pump">
+    <mesh rotation={[0,0,Math.PI/2]}><cylinderGeometry args={[radius,radius,d,64]}/><meshStandardMaterial color={color} roughness={.42} metalness={.08}/></mesh>
+    <mesh position={[face,0,0]} rotation={[0,Math.PI/2,0]}><circleGeometry args={[radius*.96,64]}/><meshPhysicalMaterial color="#090d11" roughness={.12} clearcoat={1}/></mesh>
+    <PumpScreen width={radius*1.06} position={[face+.002,0,0]} brand={component.brand}/>
+  </group>;
+  return <group name={`pump-${shape||'reconstructed'}`}>
+    {capellix?<mesh geometry={octagon} position={[-d/2,0,0]} rotation={[0,Math.PI/2,0]} castShadow><meshStandardMaterial color={color} roughness={.44} metalness={.1}/></mesh>:
+      <MetalBox size={[d,w,h]} color={shape==='deepcool-infinity'?'#a2abad':color} bevel={Math.min(w,h)*.11} roughness={shape==='deepcool-infinity'?.3:.5} metalness={shape==='deepcool-infinity'?.7:.13}/>}
+    <MetalBox position={[face,0,0]} size={[.01,w*.84,h*.84]} color={shape==='silent-loop'?'#6f777a':'#0e1419'} bevel={Math.min(w,h)*.085} finish={shape==='silent-loop'?'brushed':'plastic'} roughness={shape==='silent-loop'?.37:.18}/>
+    {shape==='silent-loop'&&<mesh position={[face+.007,0,0]} rotation={[0,Math.PI/2,0]}><planeGeometry args={[h*.73,w*.74]}/><meshStandardMaterial color="#858e91" map={nickel?.texture} roughness={.4} metalness={.8}/></mesh>}
+    {profile.rgb&&shape!=='corsair-lcd'&&<PumpLightFrame width={h*.88} height={w*.88} position={[face+.012,0,0]} thickness={shape==='silent-loop'?.008:.02}/>}
+    {shape==='deepcool-infinity'&&[.67,.48].map((ratio,i)=><PumpLightFrame key={ratio} width={h*ratio} height={w*ratio} position={[face+.014+i*.001,0,0]} thickness={.006}/>)}
+    {shape==='corsair-lcd'||profile.pumpDisplay==='lcd'?<PumpScreen width={Math.min(w,h)*.72} position={[face+.018,0,0]} brand={component.brand}/>:
+      <HardwareLabel text={component.brand.toUpperCase()} position={[face+.022,0,0]} width={h*(capellix?.48:.58)} height={w*.2} color={shape==='deepcool-infinity'?'#81deca':'#d1dadc'}/>}
+    {capellix&&<BoxInstances items={Array.from({length:40},(_,i)=>({position:[face+.013,-w*.35+(i%8)*w*.1,-h*.34+Math.floor(i/8)*h*.045] as Vec3,size:[.006,w*.025,h*.025] as Vec3}))} color="#2d3c3e" roughness={.6} metalness={.02}/>}
+  </group>;
 }
 
 /** Pump and radiator positions use assembly coordinates, with physical centers.
@@ -1392,11 +1431,8 @@ export function AioCoolingModel({
     thickness,
     length,
   ]);
-  const pumpColor = profile.pumpColor || profile.color;
   const arctic = component.brand.toLowerCase().includes("arctic");
-  const rounded = profile.pumpDisplay === "lcd" || arctic;
-  const face = pumpDepth * 0.52;
-  const radius = Math.min(pumpWidth, pumpHeight) * 0.46;
+  const appearance = coolerAppearances[component.id];
   return (
     <group>
       <group name="aio-radiator-core" position={radiatorPosition} rotation={rotation}>
@@ -1417,9 +1453,11 @@ export function AioCoolingModel({
             key={i}
             frame
             radius={fanRadius}
+            depth={25 * MM}
+            bladeCount={appearance?.bladeCount}
             position={[
               0,
-              -thickness * 0.52 - 0.055,
+              -thickness * 0.52 - 12.5 * MM,
               (i - (profile.fanCount - 1) / 2) * fanDistance,
             ]}
             rotation={[Math.PI / 2, 0, 0]}
@@ -1458,89 +1496,7 @@ export function AioCoolingModel({
           roughness={0.25}
         />
         <Fasteners positions={pumpBolts} radius={0.023} color="#aeb8bc" />
-        {rounded ? (
-          <mesh rotation={[0, 0, Math.PI / 2]} castShadow>
-            <cylinderGeometry args={[radius, radius, pumpDepth, 48]} />
-            <meshStandardMaterial
-              color={pumpColor}
-              roughness={0.3}
-              metalness={0.38}
-            />
-          </mesh>
-        ) : (
-          <MetalBox
-            size={[pumpDepth, pumpWidth, pumpHeight]}
-            color={pumpColor}
-            roughness={0.3}
-          />
-        )}
-        {rounded && <mesh position={[face - 0.012, 0, 0]} rotation={[0, Math.PI / 2, 0]}>
-          <torusGeometry args={[radius * 0.96, 0.008, 8, 56]} />
-          <meshStandardMaterial color="#747b7d" metalness={0.72} roughness={0.28} />
-        </mesh>}
-        {profile.pumpDisplay === "lcd" ? (
-          <PumpScreen width={radius * 1.83} position={[face + 0.005, 0, 0]} brand={component.brand} />
-        ) : (
-          <>
-            {profile.pumpDisplay === "rgb-ring" && (
-              <>
-                {[-1, 1].map((side) => (
-                  <group key={side}>
-                    <RGBStrip position={[face, side * pumpWidth * 0.42, 0]} size={[pumpHeight * 0.86, 0.025, 0.018]} rotation={[0, Math.PI / 2, 0]} phase={side > 0 ? 0.1 : 0.6} />
-                    <RGBStrip position={[face, 0, side * pumpHeight * 0.42]} size={[pumpWidth * 0.86, 0.018, 0.025]} rotation={[0, 0, Math.PI / 2]} phase={side > 0 ? 0.35 : 0.85} />
-                  </group>
-                ))}
-                {component.brand === "DeepCool" &&
-                  [1, 2].map((i) => (
-                    <group key={i}>
-                      {[-1, 1].map((side) => (
-                        <group key={side}>
-                          <MetalBox
-                            position={[
-                              face + 0.002,
-                              side * pumpWidth * (0.35 - i * 0.07),
-                              0,
-                            ]}
-                            size={[0.008, 0.009, pumpHeight * (0.7 - i * 0.14)]}
-                            color={i === 1 ? "#80d9ed" : "#ad88ed"}
-                            emissive={i === 1 ? "#4895a7" : "#6a4a96"}
-                          />
-                          <MetalBox
-                            position={[
-                              face + 0.002,
-                              0,
-                              side * pumpHeight * (0.35 - i * 0.07),
-                            ]}
-                            size={[0.008, pumpWidth * (0.7 - i * 0.14), 0.009]}
-                            color={i === 1 ? "#80d9ed" : "#ad88ed"}
-                            emissive={i === 1 ? "#4895a7" : "#6a4a96"}
-                          />
-                        </group>
-                      ))}
-                    </group>
-                  ))}
-              </>
-            )}
-            {arctic && (
-              <HardwareFan
-                radius={radius * 0.72}
-                position={[face, 0, 0]}
-                rotation={[0, Math.PI / 2, 0]}
-                color="#1b2429"
-                hubLabel="A"
-              />
-            )}
-            {!arctic && (
-              <HardwareLabel
-                text={component.brand.toUpperCase()}
-                position={[face + 0.006, 0, 0]}
-                width={pumpHeight * 0.68}
-                height={pumpWidth * 0.23}
-                color="#dbe5e7"
-              />
-            )}
-          </>
-        )}
+        <PumpBody component={component} profile={profile} width={pumpWidth} height={pumpHeight} depth={pumpDepth}/>
         {[-1, 1].map((side) => (
           <HoseFitting key={side} position={[pumpDepth * 0.06, side * pumpWidth * 0.2, pumpHeight * 0.51]} />
         ))}

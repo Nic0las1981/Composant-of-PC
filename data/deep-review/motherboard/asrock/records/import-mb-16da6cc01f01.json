@@ -1,0 +1,223 @@
+{
+  "review": {
+    "id": "import-mb-16da6cc01f01",
+    "name": "X370 Pro4",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+          "checkedAt": "2026-11-10T13:59:31+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+          "httpStatus": 200,
+          "sha256": "a94c716dee0abae078fad4cd9dd5d16d8a0b71a0781d82c51660c2073a6dbf2e",
+          "bytes": 4524682,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock X370 Pro4 motherboard",
+        "modelNames": [
+          "X370 Pro4"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+      "checkedAt": "2026-11-10T13:59:31+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+      "httpStatus": 200,
+      "sha256": "a94c716dee0abae078fad4cd9dd5d16d8a0b71a0781d82c51660c2073a6dbf2e"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock X370 Pro4 motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • ATX Form Factor\n                              • Solid Capacitor design\n\n\n                CPU           • Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\n                                and Ryzen Series CPUs (Matisse, Picasso, Summit Ridge,\n                                Raven Ridge and Pinnacle Ridge)\n                              • Digi Power design\n                              • 9 Power Phase design\n\n\n                Chipset       • AMD Promontory X370\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs (Matisse) support DDR4\n                                 3200/2933/2667/2400/2133 ECC & non-ECC, un-buffered\n                                 memory*\n                              • AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n                                 3200+(OC)/2933(OC)/2667/2400/2133 ECC & non-ECC, un-\n                                 buffered memory*\n                              • AMD Ryzen series CPUs (Picasso) support DDR4\n                                 2933/2667/2400/2133 non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Summit Ridge) support DDR4\n                                 3200+(OC)/2933(OC)/2667/2400/2133 ECC & non-ECC, un-\n                                 buffered memory*\n                              • AMD Ryzen series CPUs (Raven Ridge) support DDR4\n                                 3200+(OC)/2933/2667/2400/2133 non-ECC, un-buffered\n                                 memory*\n                                         th\n                              • AMD 7 Gen A-Series APUs support DDR4 2400/2133 non-\n                                 ECC, un-buffered memory*\n                             * For Ryzen Series CPUs (Picasso and Raven Ridge), ECC is only\n                             supported with PRO CPUs.\n                             * Please refer to Memory Support List on ASRock’s website for\n                             more information. (http://www.asrock.com/)\n                             * Please refer to page 22 for the table for AMD non-XMP mem-\nEnglish\n\n\n\n\n                             ory frequency support. For more details, please refer to the QVL\n                             on ASRock’s website.\n                              • Max. capacity of system memory: 64GB\n                              • 15μ Gold Contact in DIMM Slots\n\n          2\n\f                                                                                X370 Pro4\n\n\n\n\nExpansion   AMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle\nSlot        Ridge)\n            • 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\n              x16 (PCIE2) / x4 (PCIE4))*\n            AMD 7th A-Series APUs\n            • 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n              (PCIE2) / x2 (PCIE4))*\n            AMD Ryzen series CPUs (Picasso, Raven Ridge)\n            • 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n              (PCIE2) / x4 (PCIE4))*\n            AMD Athlon series CPUs\n            • 2 x PCI Express 3.0 x16 Slots (single at x4 (PCIE2); dual at x4\n              (PCIE2) / x2 (PCIE4))*\n\n\n            * Supports NVMe SSD as boot disks\n            * If M2_1 is occupied, PCIE4 will be disabled.\n             • 4 x PCI Express 2.0 x1 Slots\n                                                  TM               TM\n             • Supports AMD Quad CrossFireX and CrossFireX **\n            ** This feature is only supported with Ryzen Series CPUs\n            (Matisse, Summit Ridge, Pinnacle Ridge, Picasso and Raven\n            Ridge).\n\n\n                                        TM\nGraphics     • Integrated AMD Radeon Vega Series Graphics in Ryzen\n                Series APU*\n                                        TM\n             • Integrated AMD Radeon R-Series Graphics in A-series\n                APU*\n            * Actual support may vary by CPU\n             • DirectX 12, Pixel Shader 5.0\n             • Shared memory default 2GB. Max Shared memory supports\n                up to 16GB.\n            * The Max shared memory 16GB requires 32GB system memory\n            installed.\n             • Three graphics output options: D-Sub, DVI-D and HDMI\n             • Supports Triple Monitor\n             • Supports HDMI 1.4 with max. resolution up to 4K x 2K\n                (4096x2160) @ 24Hz / (3840x2160) @ 30Hz\n                                                                                            English\n\n\n\n\n             • Supports DVI-D with max. resolution up to 1920x1200 @\n                60Hz\n             • Supports D-Sub with max. resolution up to 1920x1200 @\n                60Hz\n\n\n                                                                                       3\n\f                           • Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\n                             HBR (High Bit Rate Audio) with HDMI 1.4 Port (Compliant\n                             HDMI monitor is required)\n                           • Supports HDCP 1.4 with DVI-D and HDMI 1.4 Ports\n                           • Supports Full HD 1080p Blu-ray (BD) playback with DVI-D\n                             and HDMI 1.4 Ports\n\n\n              Audio        • 7.1 CH HD Audio with Content Protection (Realtek ALC892\n                             Audio Codec)\n                           • Premium Blu-ray Audio support\n                           • Supports Surge Protection\n                           • ELNA Audio Caps\n\n\n              LAN          •   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n                           •   Realtek RTL8111GR\n                           •   Supports Wake-On-LAN\n                           •   Supports Lightning/ESD Protection\n                           •   Supports LAN Cable Detection\n                           •   Supports Energy Efficient Ethernet 802.3az\n                           •   Supports PXE\n\n\n              Rear Panel   • 1 x PS/2 Mouse/Keyboard Port\n              I/O          • 1 x D-Sub Port\n                           • 1 x DVI-D Port\n                           • 1 x HDMI Port\n                           • 2 x USB 2.0 Ports (Supports ESD Protection)\n                           • 1 x USB 3.2 Gen1 Type-C Port (Supports ESD Protection)\n                           • 5 x USB 3.2 Gen1 Ports (Supports ESD Protection (Supports\n                             ESD Protection)\n                           • 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\n                             LED)\n                           • HD Audio Jacks: Line in / Front Speaker / Microphone\n\n\n              Storage       • 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\n                              RAID 1 and RAID 10), NCQ, AHCI and Hot Plug*\nEnglish\n\n\n\n\n                            • 2 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061, sup-\n                              port NCQ, AHCI and Hot Plug\n                           * M2_2 and SATA3_3 share lanes. If either one of them is in use,\n                           the other one will be disabled.\n\n\n          4\n\f                                                                          X370 Pro4\n\n\n\n\n            • 1 x Ultra M.2 Socket (M2_1), supports M Key type\n              2242/2260/2280 M.2 PCI Express module up to Gen3 x4 (32\n                Gb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and\n                Pinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and\n                Athlon series APU)**\n            ** If M2_1 is occupied, PCIE4 will be disabled.\n            ** Supports NVMe SSD as boot disks\n            ** Supports ASRock U.2 Kit\n             • 1 x M.2 Socket (M2_2), supports M Key type\n                2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\n\n\nConnector    • 1 x COM Port Header\n             • 1 x TPM Header\n             • 1 x Power LED and Speaker Header\n             • 1 x RGB LED Header\n            * Supports up to 12V/3A, 36W LED Strip\n             • 1 x AMD Fan LED Header\n             • 1 x CPU Fan Connector (4-pin)\n            * The CPU Fan Connector supports the CPU fan of maximum\n            1A (12W) fan power.\n             • 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed\n                Control)\n            * CHA_FAN2 and CHA_FAN3 can auto detect if 3-pin or 4-pin\n            fan is in use.\n             • 1 x 24 pin ATX Power Connector\n             • 1 x 8 pin 12V Power Connector\n             • 1 x Front Panel Audio Connector\n             • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD\n                Protection)\n             • 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n                (Supports ESD Protection)\n\n\nBIOS        • AMI UEFI Legal BIOS with multilingual GUI support\nFeature     • Supports “Plug and Play”\n            • ACPI 5.1 compliance wake up events\n            • Supports jumperfree\n                                                                                      English\n\n\n\n\n            • SMBIOS 2.3 support\n            • DRAM Voltage multi-adjustment\n\n\n\n\n                                                                                 5\n\f                  Hardware                •   CPU/Chassis temperature sensing\n                  Monitor                 •   CPU/Chassis Fan Tachometer\n                                          •   CPU/Chassis Quiet Fan\n                                          •   CPU/Chassis Fan multi-speed control\n                                          •   Voltage monitoring: +12V, +5V, +3.3V, Vcore\n\n\n                  OS                      • Microsoft® Windows® 10 64-bit\n\n\n                  Certifica-              • FCC, CE\n                  tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n              * For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n                            Please realize that there is a certain risk involved with overclocking, including adjust-\n                            ing the setting in the BIOS, applying Untied Overclocking Technology, or using third-\n                            party overclocking tools. Overclocking may affect your system’s stability, or even cause\n                            damage to the components and devices of your system. It should be done at your own\n                            risk and expense. We are not responsible for possible damage caused by overclocking.\nEnglish\n\n\n\n\n          6\n\f                         X370 Pro4\n\n\n\n",
+      "modelNames": [
+        "X370 Pro4"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X370 Pro4",
+    "identityNote": "Modèle ASRock X370 Pro4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "m2Slots": 1,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X370 Pro4",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor\n• Solid Capacitor design"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\nand Ryzen Series CPUs (Matisse, Picasso, Summit Ridge,\nRaven Ridge and Pinnacle Ridge)\n• Digi Power design\n• 9 Power Phase design"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD Promontory X370"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs (Matisse) support DDR4\n3200/2933/2667/2400/2133 ECC & non-ECC, un-buffered\nmemory*\n• AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n3200+(OC)/2933(OC)/2667/2400/2133 ECC & non-ECC, un-\nbuffered memory*\n• AMD Ryzen series CPUs (Picasso) support DDR4\n2933/2667/2400/2133 non-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Summit Ridge) support DDR4\n3200+(OC)/2933(OC)/2667/2400/2133 ECC & non-ECC, un-\nbuffered memory*\n• AMD Ryzen series CPUs (Raven Ridge) support DDR4\n3200+(OC)/2933/2667/2400/2133 non-ECC, un-buffered\nmemory*\nth\n• AMD 7 Gen A-Series APUs support DDR4 2400/2133 non-\nECC, un-buffered memory*\n* For Ryzen Series CPUs (Picasso and Raven Ridge), ECC is only\nsupported with PRO CPUs.\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n* Please refer to page 22 for the table for AMD non-XMP mem-\nory frequency support. For more details, please refer to the QVL\non ASRock’s website.\n• Max. capacity of system memory: 64GB\n• 15μ Gold Contact in DIMM Slots"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle\nSlot        Ridge)\n• 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\nx16 (PCIE2) / x4 (PCIE4))*\nAMD 7th A-Series APUs\n• 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n(PCIE2) / x2 (PCIE4))*\nAMD Ryzen series CPUs (Picasso, Raven Ridge)\n• 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n(PCIE2) / x4 (PCIE4))*\nAMD Athlon series CPUs\n• 2 x PCI Express 3.0 x16 Slots (single at x4 (PCIE2); dual at x4\n(PCIE2) / x2 (PCIE4))*\n* Supports NVMe SSD as boot disks\n* If M2_1 is occupied, PCIE4 will be disabled.\n• 4 x PCI Express 2.0 x1 Slots\nTM               TM\n• Supports AMD Quad CrossFireX and CrossFireX **\n** This feature is only supported with Ryzen Series CPUs\n(Matisse, Summit Ridge, Pinnacle Ridge, Picasso and Raven\nRidge).\nTM"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD Radeon Vega Series Graphics in Ryzen\nSeries APU*\nTM\n• Integrated AMD Radeon R-Series Graphics in A-series\nAPU*\n* Actual support may vary by CPU\n• DirectX 12, Pixel Shader 5.0\n• Shared memory default 2GB. Max Shared memory supports\nup to 16GB.\n* The Max shared memory 16GB requires 32GB system memory\ninstalled.\n• Three graphics output options: D-Sub, DVI-D and HDMI\n• Supports Triple Monitor\n• Supports HDMI 1.4 with max. resolution up to 4K x 2K\n(4096x2160) @ 24Hz / (3840x2160) @ 30Hz\n• Supports DVI-D with max. resolution up to 1920x1200 @\n60Hz\n• Supports D-Sub with max. resolution up to 1920x1200 @\n60Hz\n• Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\nHBR (High Bit Rate Audio) with HDMI 1.4 Port (Compliant\nHDMI monitor is required)\n• Supports HDCP 1.4 with DVI-D and HDMI 1.4 Ports\n• Supports Full HD 1080p Blu-ray (BD) playback with DVI-D\nand HDMI 1.4 Ports"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio with Content Protection (Realtek ALC892\nAudio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• ELNA Audio Caps"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "•   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n•   Realtek RTL8111GR\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports LAN Cable Detection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 1 x PS/2 Mouse/Keyboard Port\nI/O          • 1 x D-Sub Port\n• 1 x DVI-D Port\n• 1 x HDMI Port\n• 2 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x USB 3.2 Gen1 Type-C Port (Supports ESD Protection)\n• 5 x USB 3.2 Gen1 Ports (Supports ESD Protection (Supports\nESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "• 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug*\n• 2 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061, sup-\nport NCQ, AHCI and Hot Plug\n* M2_2 and SATA3_3 share lanes. If either one of them is in use,\nthe other one will be disabled.\n• 1 x Ultra M.2 Socket (M2_1), supports M Key type\n2242/2260/2280 M.2 PCI Express module up to Gen3 x4 (32\nGb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and\nPinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and\nAthlon series APU)**\n** If M2_1 is occupied, PCIE4 will be disabled.\n** Supports NVMe SSD as boot disks\n** Supports ASRock U.2 Kit\n• 1 x M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x RGB LED Header\n* Supports up to 12V/3A, 36W LED Strip\n• 1 x AMD Fan LED Header\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed\nControl)\n* CHA_FAN2 and CHA_FAN3 can auto detect if 3-pin or 4-pin\nfan is in use.\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD\nProtection)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n(Supports ESD Protection)"
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with multilingual GUI support\nFeature     • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• DRAM Voltage multi-adjustment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "•   CPU/Chassis temperature sensing\nMonitor                 •   CPU/Chassis Fan Tachometer\n•   CPU/Chassis Quiet Fan\n•   CPU/Chassis Fan multi-speed control\n•   Voltage monitoring: +12V, +5V, +3.3V, Vcore"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including adjust-\ning the setting in the BIOS, applying Untied Overclocking Technology, or using third-\nparty overclocking tools. Overclocking may affect your system’s stability, or even cause\ndamage to the components and devices of your system. It should be done at your own\nrisk and expense. We are not responsible for possible damage caused by overclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor\n• Solid Capacitor design",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "chipset": {
+        "value": "• AMD Promontory X370",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "storagePorts": {
+        "value": "• 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug*\n• 2 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061, sup-\nport NCQ, AHCI and Hot Plug\n* M2_2 and SATA3_3 share lanes. If either one of them is in use,\nthe other one will be disabled.\n• 1 x Ultra M.2 Socket (M2_1), supports M Key type\n2242/2260/2280 M.2 PCI Express module up to Gen3 x4 (32\nGb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and\nPinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and\nAthlon series APU)**\n** If M2_1 is occupied, PCIE4 will be disabled.\n** Supports NVMe SSD as boot disks\n** Supports ASRock U.2 Kit\n• 1 x M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle\nSlot        Ridge)\n• 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\nx16 (PCIE2) / x4 (PCIE4))*\nAMD 7th A-Series APUs\n• 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n(PCIE2) / x2 (PCIE4))*\nAMD Ryzen series CPUs (Picasso, Raven Ridge)\n• 2 x PCI Express 3.0 x16 Slots (single at x8 (PCIE2); dual at x8\n(PCIE2) / x4 (PCIE4))*\nAMD Athlon series CPUs\n• 2 x PCI Express 3.0 x16 Slots (single at x4 (PCIE2); dual at x4\n(PCIE2) / x2 (PCIE4))*\n* Supports NVMe SSD as boot disks\n* If M2_1 is occupied, PCIE4 will be disabled.\n• 4 x PCI Express 2.0 x1 Slots\nTM               TM\n• Supports AMD Quad CrossFireX and CrossFireX **\n** This feature is only supported with Ryzen Series CPUs\n(Matisse, Summit Ridge, Pinnacle Ridge, Picasso and Raven\nRidge).\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "rearIO": {
+        "value": "• 1 x PS/2 Mouse/Keyboard Port\nI/O          • 1 x D-Sub Port\n• 1 x DVI-D Port\n• 1 x HDMI Port\n• 2 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x USB 3.2 Gen1 Type-C Port (Supports ESD Protection)\n• 5 x USB 3.2 Gen1 Ports (Supports ESD Protection (Supports\nESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x RGB LED Header\n* Supports up to 12V/3A, 36W LED Strip\n• 1 x AMD Fan LED Header\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed\nControl)\n* CHA_FAN2 and CHA_FAN3 can auto detect if 3-pin or 4-pin\nfan is in use.\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD\nProtection)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n(Supports ESD Protection)",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "network": {
+        "value": "•   PCIE x1 Gigabit LAN 10/100/1000 Mb/s\n•   Realtek RTL8111GR\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports LAN Cable Detection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio with Content Protection (Realtek ALC892\nAudio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• ELNA Audio Caps",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\nand Ryzen Series CPUs (Matisse, Picasso, Summit Ridge,\nRaven Ridge and Pinnacle Ridge)\n• Digi Power design\n• 9 Power Phase design\nBIOS: • AMI UEFI Legal BIOS with multilingual GUI support\nFeature     • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• DRAM Voltage multi-adjustment",
+        "sourceURL": "https://download.asrock.com/Manual/X370%20Pro4.pdf",
+        "checkedAt": "2026-11-10T13:59:31+00:00"
+      }
+    },
+    "manufacturerModel": "X370 Pro4"
+  }
+}

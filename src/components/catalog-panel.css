@@ -119,6 +119,10 @@
 .catalog-panel .cp-detail-intro > h3 { font-size: 26px; line-height: 1.3; margin: 8px 0 12px; letter-spacing: -.7px; }
 .catalog-panel .cp-detail-intro > p { font-size: 13px; line-height: 1.7; color: #b1bdab; margin: 0 0 18px; }
 .catalog-panel .cp-detail-highlights { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.catalog-panel .cp-detail-art .cp-photo-caption { display: none; }
+.catalog-panel .cp-detail-art:has([data-art-mode="manufacturer-photo"]) .cp-photo-caption { display: block; }
+.catalog-panel .cp-detail-art:has([data-art-mode="manufacturer-photo"]) .cp-illustration-caption { display: none; }
+.catalog-panel .cp-photo-caption a { color: #c1e7a0; text-underline-offset: 3px; }
 .catalog-panel .cp-detail-highlights > span { padding: 6px 9px; border: 1px solid #3a4933; background: #252e22; border-radius: 5px; color: #c0d4b0; font-size: 11px; }
 .catalog-panel .cp-detail-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 10px; margin-top: auto; margin-bottom: 18px; }
 .catalog-panel .cp-detail-price > strong { font-size: 29px; letter-spacing: -.8px; }
@@ -144,6 +148,9 @@
 .catalog-panel .cp-notice-error { color: #ffb7a8; border-color: #70443c; background: #352724; }
 .catalog-panel .cp-notice-error p { color: #d9bab1; }
 .catalog-panel .cp-notice-warning { color: #edcf99; border-color: #605333; background: #302d22; }
+.catalog-panel .cp-spec-search { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 20px 0 16px; }
+.catalog-panel .cp-spec-search .cp-search { flex: 1 1 320px; }
+.catalog-panel .cp-spec-search > span, .catalog-panel .cp-spec-empty { color: #b9c8ae; font-size: 12px; }
 .catalog-panel .cp-detail-specs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
 .catalog-panel .cp-detail-specs section { border: 1px solid #35402e; border-radius: 10px; padding: 18px; background: #1d221b; }
 .catalog-panel .cp-detail-specs h3 { font-size: 14px; margin: 0 0 12px; }

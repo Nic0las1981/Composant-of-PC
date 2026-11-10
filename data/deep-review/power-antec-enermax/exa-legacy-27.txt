@@ -1,0 +1,864 @@
+# INDEX
+URL: https://www.enermaxjapan.com/support_manual_dl/PRO87+_manual.pdf
+Author: market
+
+### INDEX
+
+Precaution Notice ... 1
+
+ENERMAX PRO87+ series Power Supply Specification ... 2
+
+ENGLISH ... 3 日本语 ... 7 한 국 어 ... 11 中文 ... 15 繁体中文 ... 19 ไทย ... 23
+
+##### Precaution Notice
+
+Only a technician, authorized by ENERMAX, is allowed to perform maintenance service! Warranty is subject to void under unauthorized attempt to open the power case or modification of any kinds, even attempted only, of the power supply or its components!
+
+ENERMAX will not be responsible for damages caused by following situations: 
+z Opening of the PSU case and/or modification of any component or cable without ENERMAX’ 
+written authorization. 
+z Ignoring connector’s wrong insertion prevention design by attaching a connector to a device in 
+wrong orientation. 
+z Connecting too many devices to one cable unit by using additional adaptor (Y cables). 
+z Damage caused by natural phenomena or uncontrollable forces, such as lightning, flooding, fire, 
+earthquake, etc. 
+
+This ENERMAX Technology Corporation product is warranted to be free from defects in material and workmanship for a period of five (5) years from the date of purchase. ENERMAX Technology Corporation agrees to repair or replace the product, at its own option and at no charge, if, during the warranty period, it is returned to nearest ENERMAX Technology Corporation subsidiary/agent with all shipping charges prepaid and bearing a return merchandize authorization (RMA) number, and if inspection reveals that the product is defective. Charges for removing or installing the product are excluded under the terms of this warranty agreement. This warranty shall not apply to any product, which has been subject to connection to a faulty power source, alteration, negligence, or accident, or to any product, which has been installed other than in accordance with these instructions. In no event shall ENERMAX Technology Corporation, or its subsidiaries, or agents be liable for damages for a breach of warranty in an amount exceeding the purchase price of this product!
+
+If you are uncertain whether or not your ENERMAX PSU is defective, please contact your 
+dealer/reseller for support! 
+Web Site: www.enermax.com Forum: forum.enermax.com 
+E-mail: enermax@enermax.com.tw 
+ENERMAX Technology Corporation, 15F-2, No. 888, Jing-Guo Road, Taoyuan City (330), 
+Taiwan (R.O.C.) 
+Tel. +886-3-316-1675 
+Fax. +886-3-346-6640 
+©2009 ENERMAX Technology Corporation. All rights reserved. Specifications are subject to change without 
+prior notice. Actual product and accessories may differ from illustrations. Omissions and printing errors 
+excepted. Content of delivery might differ in different countries or areas. Some trademarks may be claimed as 
+the property of others. Reproduction in any manner without the written permission of ENERMAX is strictly 
+forbidden. 
+
+##### ENERMAX PRO87+ Series Power Supply Specification
+
+| | EPG500AWT | EPG600AWT | EPG700AWT |
+| --- | --- | --- | --- |
+| AC Input Voltage | (Maximum range:90-265VAC, 47-63Hz) | 100-240VAC, 50-60Hz | |
+| AC Input Current | 6.5 – 3A | 8 – 3.5A | 9 – 4A |
+| | DC Output | | |
+| | Rated Combined | Rated Combined | Rated Combined |
+| 3.3V 5V | 0-20A 100W 0-20A | 0-24A 120W 0-24A | 0-24A 120W 0-24A |
+| 12V1 | 0-25A | 0-25A | 0-25A |
+| | 492W | 600W | 696W |
+| 12V2 | 0-25A | 0-25A | 0-25A |
+| | | | (58A) |
+| 12V3 | (41A) 0-25A | (50A) 0-25A | 0-25A |
+| -12V | 0-0.5A 6W | 0-0.5A 6W 0-0.5A | 6W |
+| 5Vsb | 0-3A 15W | 0-3A 15W | 0-3A 15W |
+| Total Power | 500W | 600W | 700W |
+| Peak Power | 550W | 660W | 770W |
+| | Protection Circuit | | |
+| | DC Rail | OCP trigger range | |
+| 30 – 40A Over Current Protection | 3.3V 5V | 30 – 40A | |
+| | 12V | 30 – 40A | |
+| | DC Rail | OVP trigger range | |
+| 5.7-6.5V Over Voltage Protection | 3.3V 5V | 3.7-4.1V | |
+| | 12V | 13.1-14.5V | |
+| | DC Rail | UVP trigger range | |
+| (DC) | 3.3V | 2.0 – 2.4V | |
+| Under Voltage Protection | 5V | 3.3 – 3.7V | |
+| | 12V | 8.5 – 9.5V | |
+| (AC) Under Voltage Protection | Activated when AC input voltage < 70VAC. | | |
+| Over Power Protection | Activated when output power > 120 ~150% of rated max load. | | |
+| Over Temperature Protection | Activated when PSU heat sink > 90 ~ 120 | oC. | |
+| Short Circuit Protection | Activated when any DC rails short-circuited. | | |
+| Surge & Inrush Protection | Sustain 2KV surge stroke. Sustain up to 48A inrush current @ 240VAC at cold start. | | |
+| | ENVIRONMENT | | |
+| Temperature | Operation ambient: 0~50 Storage ambient: -40~70 | oC (for full rated output) oC | |
+| Humidity | Operation: to 85% relative humidity, non-condensing at 25 Storage: to 95% relative humidity, non-condensing at 50 | | oC oC |
+| | OTHERS | | |
+| Cooling | One 13.9cm twister bearing fan, speed auto controlled. | | |
+| MTBF | > 100,000 hours at 70% of full rated load, 230VAC/50Hz, 25 (MIL-HDBK-217F standard) | | oC |
+| Dimension | 150 (w) x 86 (h) x 160 (d) mm | | |
+| Weight | 2.35kg ±150g | | |
+| Safety | UL/cUL(Level 6), TUV, CCC, GOST, CB, BSMI | | |
+| EMC | CE, FCC, KCC | | |
+
+## User’s Manual
+
+Dear customer,
+
+Thank you for choosing this ENERMAX PRO87+ power supply unit (PSU)! Please read this manual carefully and follow its instructions before installing the PSU.
+
+We would like to draw your attention that a computer required very specific conditions to work best for you without failing. To avoid failures and to increase lifetime of the system, we suggest that:
+
+z Your system is NOT located near a radiator or any other heat producing device. 
+z Your system is NOT located near a magnetic device. 
+z Your system is NOT located in a moist and/or dusty and/or vibrating environment. 
+z Your system is NOT exposed to direct sunshine. 
+z Your system is sufficiently cooled by additional fans. 
+z If you use AC extension cables, please make sure it can support all connected appliances’ 
+potential peak power draw. Or redistribute other high power consumption equipment, such as 
+laser printers or monitors to other AC wall outlets. Exceeding the extension cable’s loading 
+capacity could trigger its circuit breaker and cut off the power. 
+z If you want to add the UPS (Uninterruptible Power Supply) for your system, please choose 
+adequate Watts/VA capacity UPS. Ex. 
+
+| PSU Model | Suggested minimum UPS output power capacity (Based on efficiency & PFC at respective load) |
+| --- | --- |
+| EPG500AWT | 600W / 1000VA |
+| EPG600AWT | 700W / 1100VA |
+| EPG700AWT | 800W / 1200VA |
+
+* If you intend to add other appliance powered by the same UPS, such as monitor or printer, please use higher capacity UPS according to all connected devices’ rated power draw. * Please do not mistake VA capacity as Watts, or use insufficient power UPS. This would result in less UPS battery runtime or the inability to power the system in battery mode.
+
+COMPATIBILITY
+
+ENERMAX PRO87+ series is compliant with: 
+z Intel ATX12V Power Supply Design Guide v2.3 specification and downward compatible with 
+v2.0, v2.01 and v2.2 
+z ATX System Design Guide v2.2, v2.1 
+z BTX/ EEB/ CEB/EPS12V 
+This PSU does not support MB with ISA expansion slot, which might require –5V power. –5V has 
+been cancelled from Intel ATX12V v1.3 specification onwards. 
+
+ENGLISH
+
+NAME OF PARTS
+
+1Output cable: Please check “Cables & 
+Connectors” section. 
+2 13.9cm fan. # 1 
+3 Honeycomb air vent. # 1 
+4 ON/OFF switch: (I=ON, O=OFF). # 2 
+5 AC Inlet. # 2 
+6 CordGuard. # 3 
+
+#1 To ensure best system cooling, do not block PSU fan’s air in-take and air vent area. 
+This PSU offers a special HeatGuard function. When the system is turned off, or goes into ACPI 
+S3/S4 sleep mode, the PSU fan will keep dissipating the remaining heat for 30 ~ 60 seconds and 
+prolonging system lifetime. 
+#2 When assembling or maintaining the system, please remove AC cord from AC inlet, or turn 
+ON/OFF switch into “OFF” position. 
+#3 AC cord can get loose in many ways. The ENERMAX CordGuard lock can fix your AC cord tightly to the 
+PSU, so that it will not be easily detached and avoid shut-downs of your PC. The following is CordGuard 
+installation: 
+
+| ① | Set your PSU into the chassis, and please make sure the I/O switch is on “O” position. | ② Press two sides of the CordGuard lock together, and set it into CordGuard holder near the AC inlet. |
+| --- | --- | --- |
+| ③ | Plug the AC cord into your PSU. | ④ Lock CordGuard to latch onto AC cord. |
+| 1. 2. | CordGuard is for AC cords supplied with ENERMAX CordGuard-compatible PSUs. Other AC cords may be incompatible. When assembling or maintaining the system, please remove AC cord from AC inlet, or turn I/O switch into “O” position. | |
+
+ENGLISH
+
+CONNECTOR TYPES
+
+24P Mainboard For new generations of ATX/EEB/CEB server/workstation MB.
+
+8P CPU +12V (700W) 
+Supports multi-CPU server/workstation systems and some single socket 
+systems. 
+4+4P (8P) CPU +12V, in combined mode 
+8-pin configuration supports multi-CPU server/workstation systems and 
+some single extreme CPU systems. 
+4+4P (8P) CPU +12V, in split mode 
+4-pin configuration supports certain single CPU systems. Some multi-CPU 
+workstation/server system might also need this extra 4-pin 12V connector. 
+Please use the connector with “12V” marking. 
+
+6+2P (8P) PCI Express, in combined mode 
+8-pin configuration supports latest extreme graphic cards, which require 
+8-pin PCI-E connector. 
+
+6+2P (8P) PCI Express, in split mode / 6P PCI Express 6-pin configuration supports most performance PCI-E graphic cards, which require 6-pin PCI-E connector.
+
+SATA # 1 
+For SATA/SAS drives. 
+4P Molex # 2 
+For IDE/SCSI/SAS drives or some AGP graphic card with traditional 4P 
+power in socket. 
+FDD 
+For floppy drive or certain add-on card. 
+#1 Some SATA drives might accept SATA or 4P Molex power. Normally, use either one of 
+power connector to power the driver, BUT NOT BOTH! Please check the drive’s manual 
+or details. 
+#2 Some MB might require this connector to share the +12V current from 24-pin Mainboard 
+connector to PCI-E slot. If your MB already supports 24-pin Mainboard connector, you 
+may not need to add the 4P Molex connector on it. Please check the MB’s manual for details. 
+
+ENGLISH
+
+BOOTING YOUR SYSTEM
+
+Before booting your system, please check that: 
+1. Main power connector (24P) is properly connected. 
+2. CPU +12V power connector (4 or 8-pin configuration), and/or a 4P Molex connector (if required 
+by MB) is properly connected. 
+3. All other needed connectors are properly connected. 
+4. AC cord is properly connected to wall outlet and PSU AC inlet. 
+5. Close your system chassis. 
+6. Turn on the PSU by switching the ON/OFF switch to “ON”, and your system is ready. 
+
+PROTECTION, SAFETY & SECURITY
+
+This ENERMAX PSU features multiple protections. In case of most abnormal situations, the power 
+supply will automatically turn off to avoid potential danger to itself and other PC components. It is 
+usually a malfunction of components or user’s negligence to trigger off a protection event. In such 
+circumstance, please check your PC devices and working environment for malfunction: 
+1. Turn I/O switch of power supply into “O” position, or disconnect AC cord from wall plug and power supply AC inlet. 
+2. Check PSU for temperature by simply touching it. If it is very hot, this can be caused by malfunction of case fans or the PSU fan itself and/or wrong positioning of your PC. 
+3. Wait some minutes until PSU cools off. 
+4. Reconnect AC cord to wall plug and power supply AC inlet. 
+5. Turn I/O switch of power supply into “I” position, and reboot your system. 
+6. Check, if all fans are working. 
+7. Contact technical support of the respective manufacturer of the component which you think might be the cause to the problem. (e.g. MB, GPU or PSU) 
+
+If you have any question or need support, please contact your reseller or nearest ENERMAX subsidiary/agent or ENERMAX headquarter service center.
+
+Web Site: www.enermax.com Forum: forum.enermax.com E-mail: enermax@enermax.com.tw
+
+©2009 ENERMAX Technology Corporation. All rights reserved. Specifications are subject to change without prior notice. Actual product and accessories may differ from illustrations. Omissions and printing errors excepted. Content of delivery might differ in different countries or areas. Some trademarks may be claimed as the property of others. Reproduction in any manner without the written permission of ENERMAX is strictly forbidden.
+
+ENGLISH
+
+#### 取扱説明書
+
+ご挨拶
+
+この度は ENERMAX 電源ユニットをお買い上げいただき、誠にありがとうございます。電 源ユニットを設置する前に、本マニュアルをよくお読みの上、正しくお使いください。
+
+コンピュータは非常に壊れやすいシステムで、故障なく最適な動作を続けるには特定の条 件が必要になります。コンピュータの故障を避け、寿命を延ばすために、次の推奨事項に 留意してください。
+
+z コンピュータをラジエーターやその他の熱を発生する装置の近くに置かない。 
+z コンピュータを磁気が発生する装置の近くに置かない。 
+z コンピュータを湿気や埃、振動のある環境に置かない。 
+z コンピュータを直射日光にさらさない。 
+z PC ファンを追加してコンピュータを十分に冷却する。 
+z 複数の AC 延長ケーブルを使って、電源を取る場合は、同じ延長ケーブル内でレーザープリ 
+ンタ、モニター等、他の高電力消費装置を使用したり、延長ケーブルの安全電流負荷基準を 
+超えることのないようにしてください。 
+z 追加 UPS（無停電電源装置）を経由して電源を取る場合、接続デバイスの電力供給のため、 
+十分なワット数とＶＡ出力の UPS を選んでください。 
+
+| 型番 | 最高電力推奨(W/VA) |
+| --- | --- |
+| EPG500AWT | 600W / 1000VA |
+| EPG600AWT | 700W / 1100VA |
+| EPG700AWT | 800W / 1200VA |
+
+* 同じ UPS からモニターやプリンターなどの高電力消費装置を接続する場合、UPS の容量は更に大 
+きなものを使用してください。 
+* VA とワット数を間違えないよう、また、不十分な容量の UPS を使用されないようご注意ください。 
+UPS バッテリーモード時にシステムが動作しない原因となります。 
+
+互換性
+
+ENERMAX PRO87+ 電源ユニットシリーズは、以下に準拠しています。 
+z 『Intel ATX12V Power Supply Design Guide(電源ユニットデザインガイド)』v2.3 の仕様、および 
+v2.2,v2.01, v2.0 との下位互換 
+z 『ATX System Design Guide (ATX システムデザインガイド)』v2.2, v2.1 
+z BTX/ EEB/ CEB/EPS12V 
+
+お使いの MB に ISA バスがある場合、本電源ユニットには一部の ISA デバイスをサポートするた めの -5v レールがないため、バスを完全にサポートできない可能性があります。このレールは ATX12V v1.3 より廃止されました。
+
+日本语 部品名
+
+①出力ケーブル：「ケーブルとコネクタ」 
+の項を参照してください 
+②13.9cm ファン # 1 
+③ハニカム構造 # 1 
+④I/O スイッチ:電源 I/O（オン/オフ） 
+スイッチ (I=ON、O=OFF) # 2 
+⑤AC インレット # 2 
+⑥コードガード # 3 
+
+#1 効率よく電源ユニットを冷却させるため、ファン部分や排出口が遮蔽物などにより遮られること の無いよう設置してください。 本電源ユニットは独自の HeatGuard（冷却システム）を搭載しております。システムをシャット ダウンした後や、ACPI S3 /S4 のスリープモードに移行した後、システムの余熱を取り除きハー ドの寿命を延ばす為、30~60 秒の間電源ユニットのファンが回転を続けます。
+
+#2 システムアセンブリまたはメンテナンスを行う場合、AC コードを AC インレットから取り外す または I/O スイッチを“O”位置（オフ）にする。
+
+#3 通常の AC コードは抜けてしまう心配があります。ENERMAX 電源独自の「コードガード」は AC コードをしっかりと固定させ、抜け落ちにより、PC がシャットダウンしてしまうことを防止 します。
+
+| ①電源をケースに設置し、I/O O”になっているのを確認してください。 | スイッチが” ②コードガードの両端を電源の コード AC 接続口上部に設置してください。 |
+| --- | --- |
+| コードを インレットに差し込んで AC ③AC ください。 | コードを抑えながらコードガードを ④AC セットし、しっかりと固定してください。 |
+| 1.コードガードはコードガード対応 ユニットには取り付けることが出来ません。 2.システムを組みなおしたりメンテナンスを行う際は ドを抜いてください。 | 電源ユニット専用です。非対応の電源 ENERMAX コー I/O スイッチを”O”にし、AC |
+
+日本语
+
+コネクタ類
+
+24P メインボード 
+新世代の ATX / BTX PC、およびデュアル CPU の EEB / CEB サーバー / 
+ワークステーションボードをサポートします。 
+8 ピン CPU +12V (700W) 
+マルチ CPU サーバー / ワークステーションシステムと、一部のシングル 
+CPU PC システム をサポートします。 
+4+4P (8P) CPU +12V、コンバインモード 
+8 ピン構成では、マルチ CPU サーバー / ワークステーションシステムと、 
+一部のシングル CPU PC システムをサポートします。 
+4+4P (8P) CPU +12V、スプリットモード 
+4 ピン構成では、ほとんどのシングル CPU システムをサポートします。 
+また、一部のマルチ CPU を使用したサーバー / ワークステーションシステ 
+ムでは、この拡張 4 ピンコネクタを使用するものもあります。 
+※「+ 12V」のマーキングあるコネクタを使用してください。 
+
+6+2P (8P) PCI Express、コンバインモード 
+8 ピン構成の PCI Express グラフィックカード用。 
+
+6+2P (8P) PCI Express、スプリットモード / 6P PCI Express 6 ピン構成の PCI Express グラフィックカード用。
+
+SATA 電源コネクタ # 1 
+SATA/SAS ドライブ用。 
+4P Molex 電源コネクタ # 2 
+IDE/SCSI/SAS ドライブまたは、4 ピン電源ソケットを必要とする一部の AGP 
+グラフィックカード用。 
+
+FDD 電源コネクタ フロッピーディスクドライブ用。
+
+#1 一部の SATA ドライブは、SATA と 4PMolex の 2 種類を接続することが可能です。そのようなドライブの 
+場合、一種類の電源コネクタのみを接続してください。ドライブの取扱説明書を参照してください。 
+#2 一部 20 ピンのメインコネクタを持つマザーボードは、グラフィックカード用に 4 ピン Molex コネクタを使用 
+する場合がございます。24 ピンのメインコネクタを持つマザーボードの場合は 4 ピン Molex コネクタを使 
+用しなくても問題はありません。詳細はマザーボードの取扱説明書をご確認ください。 
+
+日本语
+
+システムの起動 
+電源を入れる前に、以下のことを再度ご確認ください。 
+1.メイン電源コネクタ 24 ピンは適切に接続されているか。 
+2.CPU +12V 電源コネクタ(4 ピンあるいは 8 ピンの構成)は適切に接続されているか、または 4 ピン 
+Molex 電源コネクタ(MB に必要される場合)は適切に接続されているか。 
+3.その他の電源コネクタは適切に接続されているか。 
+4.AC コードは適切にコンセントと電源ユニット AC インレットに接続されているか。 
+5.PC のサイドパネルは閉じているか。 
+6.I/O スイッチが「I」に設定されており、PC の起動準備が完了しているか。 
+保護、安全、およびセキュリティ 
+ENERMAX PRO87+ 電源ユニットには、いくつかの保護機能が搭載されています。異常な状況で、 
+電源やその他のコンピュータ コンポーネントへの危険を回避するために、自動的に電源が切れる 
+ようになっています。保護機能が働いたとき、ほとんどの場合、コンポーネントの不具合やユーザ 
+ーの不注意が原因です。このような場合、いったん電源を切り、各デバイスとの接続を外して、コ 
+ンピュータ デバイスや作業環境に不具合がないか確認してください。 
+1.電源ユニットの I/O スイッチを「O」にします。またはコンセントや電源ユニットの AC 入力の AC 
+コードを取り外します。 
+2.電源ユニットに触って温度を確認します。非常に高温になっている場合は、ケースのファンや 
+電源ユニットのファンの不具合や、コンピュータの不適切な置き場所 (本マニュアルの冒頭に 
+ある推奨事項を確認してください) が原因で熱くなった可能性があります。 
+3.電源ユニットの熱が冷めるまでしばらく待ちます。 
+4.AC コードをコンセントおよび電源ユニットの AC 入力に再度、接続します。 
+5.電源ユニットの I/O スイッチを「I」にします。 
+6.全てのファンが作動していることを確認します。 
+7.問題の原因であると考えられるコンポーネント(MB、GPU、HDD、電源ユニットなど)のメーカー 
+各社のテクニカル サポートに連絡します。 
+
+ご質問やサポートについては、ご購入元または ENERMAX 販売代理店または当社サポートにお問 い合わせください。
+
+Web Site: www.enermax.com Forum: forum.enermax.com E-mail: enermax@enermax.com.tw
+
+安全上のご注意 危険防止のため、電源ユニットを開けることは絶対におやめください。 無断で電源ユニットを開けると保証対象外となりサポート受付が不可能となります。
+
+本書に記載されている事項は事前通告無しに変更されることがあります。 
+© 2009 すべての著作権は ENERMAX Technology Corporation にあります。 
+ENERMAX からの書面による許可なく本書の複写、転載を禁じます。 
+
+日本语
+
+#### 사용자 매뉴얼
+
+®
+
+80 PLUS
+
+GOLD 인증과 92% 이상 효율 설계의 ENERMAX PRO87+ 파워서플라이를 선택해 주셔서 감사 드립니다. 시스템에 설치하기에 앞서 본 매뉴얼의 내용을 숙지하시 고 지시사항을 준수하여 주시기 바랍니다.
+
+현재의 PC는 장애 없는 최적의 운영을 위해서, 특수한 조건이 요구될 정도로 주변 환 
+경에 매우 민감하게 반응하고 있습니다. 이러한 장애/손상을 미연에 방지하고 PC를 오 
+래 사용하기 위해, 다음의 사항을 권장합니다. 
+z PC의 주변에 열을 발생시키는 가전도구를 멀리하시는 것이 좋습니다. 
+z PC의 주변에 자기(Magnetic) 장치를 놓지 마십시요. 
+z PC를 습기, 먼지가 많고 진동이 있는 곳에 놓지 마십시요. 
+z PC를 직사광선에 노출시키지 마십시요. 
+z PC에 팬 등을 추가하여 냉각성능을 강화하는 것이 좋습니다. 
+z 멀티탭을 사용하는 경우 멀티탭의 최대 전력양을 확인하십시요. 레이저 프린터나 모니터 
+등과 같은 전력 소모가 높은 장치들은 다른 멀티탭에 분산 설치하는 것을 권장합니다. 멀 
+티탭의 최대 부하 용량을 초과하면 전력이 중단되거나 쇼트가 발생할 수 있습니다. 
+z UPS(무정전전원공급장치)를 사용하기 위해선 W/VA가 적정한 용량인지를 확인하십시오. 
+
+| PSU Model | 권장 최소 UPS 전력 용량 (각 부하별 효율과 PFC 기준) |
+| --- | --- |
+| EPG500AWT | 600W / 1000VA |
+| EPG600AWT | 700W / 1100VA |
+| EPG700AWT | 800W / 1200VA |
+
+* 모니터나 프린터와 같이 동일 UPS에서 전원을 공급 받는 기타 장치를 추가하시려면, 모 든 연결 장치의 정격 전력을 충분히 지원하는 높은 용량의 UPS를 사용하십시오 * VA와 W의 용량을 혼동하지 마시고, UPS 전력이 부족한 경우 사용하지 마십시오. UPS 배터리 실행시간이 짧거나 배터리 모드에서는 시스템을 시작할 수 없습니다.
+
+호환성
+
+ENERMAX PRO87+ 즈는 다음 사항을 준수합니다. 
+Intel ATX12V Power Supply Design Guide v2.3 규격 및 v2.0/v2.01/v2.2 하향 호환 
+z ATX System Design Guide v2.2, v2.1 
+z BTX/ EEB/ CEB/ EPS12V 
+
+ISA 확장 슬롯을 위해 -5V 전압을 필요로 하는 메인보드는 지원하지 않습니다. 구형의 ISA 버 스 규격은 Intel ATX12V v1.3 규격 이후 더 이상 사용되지 않습니다.
+
+각 부위별 설명
+
+① 출력 케이블: “케이블 및 커넥터” 
+항목 참조 
+② 139mm 팬 
+
+# 1 # 1
+
+③ 벌집모양 공기 통풍구
+
+# 2
+
+④ I/O 스위치: (I=ON, O=OFF)
+
+# 2
+
+⑤ AC 소켓
+
+# 3
+
+⑥ CordGuard
+
+#1 파워서플라이 팬의 공기 흡입/배출이 원활하도록 주의하여 주십시요. 
+PRO87+ 시리즈는 특별히 HeatGuard 기능을 제공합니다. 시스템이 종료되거나 
+ACPI S3/S4 수면 상태가 되면, 파워서플라이 팬의 구동을 통해 시스템 내부 잔열을 
+30~60초간 배출하여 시스템의 수명을 연장시킵니다. 
+#2 시스템 조립/유지보수 시 AC 코드를 벽면 소켓에서 분리하거나 I/O스위치를 ‘O’로 
+설정하십시요. 
+#3 AC코드가 파워서플라이 소켓에 비정상적이거나 헐겁게 연결될 경우, 사용 중 전원 
+공급이 중단될 수 있습니다. CordGuard는 AC코드와 파워서플라이를 단단히 고정시 
+켜 이러한 위험성을 사전에 방지합니다. 
+
+| ① 설치하고 | 파워서플라이를 컴퓨터 케이스에 I/O 스위치를 “O” 로 설정합니다. | ② | CordGuard 의 양쪽 lock 을 누른 상태에서 CordGuard 홀더에 삽입합니다. |
+| --- | --- | --- | --- |
+| ③ | AC 코드를 파워서플라이에 연결합니다. | ④ | CordGuard 를 아래로 내려 AC 코드를 확실히 고정시킵니다. |
+| 1. 2. | CordGuard 는 ENERMAX 파워서플라이에서 제공하는 cord 와 는 호환이 되지 않을 수 있습니다. 시스템을 구성할 떄 AC cord 를 제거하거나 I/O 스위치를 | | AC 코드와 호환됩니다. 다른 AC “O” 에 위치시키십시오. |
+
+한 국 어 커넥터 타입
+
+| 24핀 메인보드 커넥터 차세대 최신 ATX/EEB/CEB 서버/워크스테이션 메인보드 지원. | |
+| --- | --- |
+| 8P CPU +12V 커넥터 (700W) 멀티 CPU 서버/워크스테이션 시스템과 일부 싱글 소켓 시스템 지원. | |
+| 조합형 8(4+4)핀 CPU +12V 커넥터 멀티 CPU 서버/워크스테이션과 일부 싱글 CPU 시스템 지원. 분리형 8(4+4) 핀 CPU +12V 커넥터 4핀 구성은 일부 싱글 CPU 시스템 지원. 일부 멀티 CPU 워크스테이션/서버 시스템은 별도의 4핀 12V 커넥터 를 요구할 수 있습니다. “12V” 표기가 되어 있는 커넥터를 사용 하십 시요. | |
+| 조합형 8(6+2)핀 PCI Express 커넥터 8핀 PCI-E 커넥터를 요구하는 최신 고사양 그래픽 카드 지원. 분리형 8(6+2)핀 PCI Express 커넥터 / 6P PCI Express 커넥터 6핀 PCI-E 커넥터를 요구하는 대부분의 고사양 그래픽 카드 지원. | |
+| SATA 커넥터 SATA/SAS 인터페이스 장치용 | # 1 |
+| 4P Molex 커넥터 IDE/SCSI/SAS 장치와 4핀을 통해 보조전원을 요구하는 일부 AGP 그래픽 카드용 | # 2 |
+| FDD 커넥터 플로피디스크용 | |
+
+#1 일부 SATA 드라이브는 SATA 또는 4P Molex 사용이 가능합니다. 이러한 SATA 드라이브를 사 
+용할 경우 반드시 SATA 또는 4핀 Molex 중 한 가지만 선택 하십시요. 자세한 사항은 관련 드라 
+이브의 매뉴얼을 참조하십시요. 
+#2 일부 메인보드는 24핀 메인보드 커넥터로부터 PCI-E 슬롯을 위해 +12V 전류를 요구할 수 있습 
+니다. 사용하고 있는 메인보드가 24핀 메인보드 타입이면 이 4핀 Molex 커넥터를 별도로 연결 
+할 필요가 없습니다. 자세한 사항은 메인보드 매뉴얼을 참조해 주십시요. 
+
+시스템 부팅(BOOTING) 단계
+
+시스템을 부팅하기 전에 다음 사항을 점검해 주십시요: 
+1. 메인보드 전원 커넥터 (24핀)가 정확히 연결되어 있는지 확인합니다. 
+2. CPU용 4핀/8핀 +12V 전원 커넥터 또는 4핀 Molex 커넥터(메인보드가 필요한 경우)가 
+정확히 연결되어 있는지 확인합니다. 
+3. 기타 필요한 다른 모든 커넥터가 정확히 연결되어 있는지 확인합니다. 
+4. AC 코드가 벽면 콘센트와 파워서플라이 AC 소켓에 정확히 연결되어 있는지 확인합니다. 
+5. PC 케이스를 닫습니다. 
+6. 파워서플라이 후면의 I/O 스위치를 ‘I’로 설정하고 시스템을 구동합니다. 
+
+보호, 안전 및 보안
+
+ENERMAX PRO87+ 파워서플라이는 위험상황에 대비해 다양한 보호기능을 제공합니다. 비정상적인 상황이 발생했을 경우, 파워서플라이는 자동으로 전원공급을 중단하여 파워서플라이 및 PC 부품의 손상을 미연에 방지하도록 설계되어 있습니다.통상 부품장애나 사용자 부주의 등에 의해 보호기능이 활성화되며, 이와 같은 상황이 발생했을 경우 다음과 같이 전원 스위치를 끈 상태에서 케이블을 분리하여 PC 장치와
+
+작업환경의 장애여부를 확인하십시요.
+
+1. 파워서플라이의 I/O 스위치 확인 (‘O’로 설정). 
+2. 벽부형 콘센트와 파워서플라이로부터 AC 코드 분리. 
+3. 파워서플라이를 손으로 만져 온도를 확인하십시요. 매우 뜨거운 상태면 케이스 팬이나 파워서플라이 팬 자체의 장애 및 잘못된 PC 위치가 원인일 수 있습니다. (본 매뉴얼 시 작 부분의 권고를 참조하십시요.) 
+4. 파워서플라이의 열이 충분히 식을 때까지 기다립니다. 
+5. AC 코드를 벽부형 콘센트와 파워 서플라이 AC 소켓에 다시 연결합니다. 
+6. 파워서플라이의 I/O 스위치를 켭니다(‘I’로 설정). 
+7. 모든 팬이 정상 작동하는지 확인합니다. 
+8. 위 사항을 점검 후, 문제의 원인이 되었거나 이상이 발생한 제품에 대해서 해당 제조사 의 기술지원부에 문의하시기 바랍니다. 
+
+ENERMAX 파워서플라이를 사용함에 있어, 기타 문의 사항이 있으시면 고객서비스센터로 연락주십시요. 항상 친절히 모시겠습니다. 감사합니다 !!
+
+>> CS센터 
+㈜씨엠코포레이션 
+TEL. 080-719-2581(무료통화) FAX. (02)715-2525 
+support@compumart.co.kr www.cm-korea.co.kr 
+Family site : www.enermax.com mania.enermax.co.kr www.compumart.co.kr 
+
+©2009 ENERMAX Technology Corporation. All rights reserved. Specifications are subject to change without prior notice. Actual product and accessories may differ from illustrations. Omissions and printing errors excepted. Content of delivery might differ in different countries or areas. Some trademarks may be claimed as the property of others. Reproduction in any manner without the written permission of ENERMAX is strictly forbidden.
+
+使用说明书 亲爱的使用者：
+
+感谢您选购 ENERMAX (安耐美)电源供应器。安装本产品前，敬请详读此使用手册，并依照 说明安装。
+
+在此提醒您，计算机需要在良好的环境下运作，否则将容易受损、严重影响您的工作及宝贵资 料。为预防上述风险并确保您计算机系统的寿命，我们提出以下建议：
+
+z 计算机不得置于热源附近； 
+z 计算机不得靠近磁性物体附近； 
+z 计算机不应放置于潮湿、多灰尘、震动频繁的环境； 
+z 计算机应避免阳光直射； 
+z 计算机应安装足够的散热设备； 
+z 若您欲使用多功能转换插座，请先确认此插座可承受所连接电器的最大功率，或把其它的 
+高耗电设备，如激光打印机、显示器等置于其它插座上。若超出插座可承受的最大功率则 
+可能导致插座被烧毁。 
+z 若您需要加装 UPS (不断电系统)供应系统用电，请选用足够 W/VA 容值输出，例如： 
+
+| 电源供应器型号 | 最低 输出电力建议值 UPS (依各负载的效率与 PFC 而定) |
+| --- | --- |
+| EPG500AWT | 600W / 1000VA |
+| EPG600AWT | 700W / 1100VA |
+| EPG700AWT | 800W / 1200VA |
+
+*若您欲于同一 UPS 上提供其它电器(如显示器、打印机等)用电，请根据连接 装置的额定功率，选用较高性能的 UPS。 *请勿混淆 UPS 的输出 VA 与 W 数值，或使用输出功率较低的 UPS。这可能 会使 UPS 在电池模式下的运作时间大幅缩短，或无法正常给系统供电。
+
+兼容性 
+本电源供应器兼容于: 
+z Intel ATX12V 电源供应器设计指导书 2.3 版规格, 并向下兼容 2.2 版及 2.01 版 
+z ATX 系统设计指导 2.2 版及 2.1 版 
+z BTX/EEB/CEB/EPS12V 
+
+本电源供应器不支持-5V 主板之 ISA 扩展槽, -5V 电源在现在的系统上已无需求, Intel 于 ATX12V 1.3 版之后已全面取消。
+
+中文
+
+外观结构
+
+1输出线材：请参阅“线材及连接头” 
+说明。 
+2 13.9 厘米风扇。# 1 
+3 蜂窝状散热孔。# 1 
+4 ON/OFF 开关：电源供应器独立开关 
+(I=开，O=关)。# 2 
+5 AC 交流电插座。# 2 
+
+6 CordGuard 电源线扣。# 3
+
+#1 为确保系统拥有最佳散热性能,请勿遮挡电源供应器的风扇进气口与散热孔区域。 
+本电源供应器具备 HeatGuard 功能：当系统关机后或进入 ACPI S3/S4 休眠状态时，电源供 
+应器风扇将持续运作 30~60 秒，可协助系统排除余热，延长系统使用寿命。 
+#2 当您要组装或维护系统时,请将 AC 电源线从插座中拔出,或是将 I/O 开关切换到”O” 
+档位置。 
+#3 电源线在使用过程中，可能会因各种原因而松脱。 ENERMAX(安耐美)的「电源线扣」可 
+将您的电源线紧扣在电源供应器上，避免因电源线松脱而导致您的系统异常关机。 
+
+| ① ON/OFF | 将电源供应器安装在机箱上，并确认 开关已切换至“关”的位置（O=关）。 | 请同时按压「电源线扣」的两侧，将其扣在 ② 交流电插座附近的卡扣上。 AC |
+| --- | --- | --- |
+| ③ | 将电源线插入 交流电插座中。 AC | ④ 将「电源线扣」扣在电源线上。 |
+| 1. 2. | 此「电源线扣」适用于 的电源线。 组装或维修系统时，请将电源线从 | ENERMAX(安耐美)电源产品提供的电源线，可能不适用其它厂商 交流电插座上移除，并将开关切换至“关”的位置。 AC |
+
+中文
+
+连接头说明
+
+24P Mainboard 支持大多数新款 ATX/EEB/CEB 服务器/工作站主机板。
+
+8P CPU +12V (700W) 支持多重 CPU 服务器/工作站及部分单 CPU 插座主机板。
+
+4+4P (8P) CPU +12V, 合并模式 8 针设定支持部分多重 CPU 服务器/工作站及部分单 CPU 主机板。
+
+4+4P (8P) CPU +12V, 分离模式 4 针设定支持部分单 CPU 主机板。部分多重 CPU 服务器/工作站主机板 可能需求此额外的 12V 连接头。请使用有加印 “12V” 字样的插头。
+
+6+2P (8P) PCI Express, 合并模式 
+8 针设定支持最新需要 8P PCI-E 用电的显示卡。 
+
+6+2P (8P) PCI Express, 分离模式 / 6P PCI Express 6 针设定支持大多需要 6P PCI-E 用电的显示卡。
+
+SATA # 1
+
+供应 SATA/SAS 接口的周边电力。 
+4P Molex (大 4P) # 2 
+供应 IDE/SCSI/SAS 等接口的周边及部分 AGP 显示卡的电力。 
+FDD 
+供应 FLOPPY 或特定接口的周边电力。 
+#1 部分 SATA 接口周边可能同时具备 SATA 或 4P Molex (大 4P)插座。一般而言，仅需 
+连接其中一种电源接头即可，但不可同时使用。请参阅您的周边说明书了解用电需求。 
+#2 部分主机板可能需要额外电源插头，以用来分摊 20 针主机板电源插座的+12V 电流 
+给予 PCI-E 扩充槽用。若您的主机板已经支持 24 针插座，您可以不用添加此 4P Molex 
+(大 4P)电源插座。请参阅您的主机板说明书了解用电需求。 
+
+中文
+
+开启系统
+
+开启系统之前，请做以下确认动作：
+
+1. 主电源连接头(24 针插头) 确认是否已经连接；
+
+2. CPU +12V 电源连接头 (4 针或 8 针) 确认是否已经连接；或一个 4P Molex (大 4P)连接头 
+(如果主机板需要) 确认是否已经连接； 
+3. 其它连接头确认是否已经连接； 
+
+4. AC 交流电源线是否确实连接于(墙壁)电源插座及电源供应器 AC 插座；
+
+5. 装入机箱，关闭计算机侧板； 
+6. 将 I/O 开关切至 I 档，即开启电源供应器，此时您的系统已准备就绪。 
+
+安全保护线路
+
+本电源供应器具备多重保护线路,在异常状况下,电源供应器会自动关闭,保护计算机硬件器材 及电源供应器本身,避免危险。保护装置的激活,通常由计算机组件的故障,或是使用者的疏忽而 引起。若保护激活而强制切断电源时,请检查您的计算机组件状态,及使用环境。建议您由以下 步骤进行检查:
+
+1. 关闭电源供应器 I/O 开关(按下”O”),或将 AC 线材拔出于墙壁插座及电源供应器。 
+2. 检查电源供应器外壳的温度是否过热,如果是,可能是电源供应器散热风扇或是机箱散热风 
+扇故障,或是计算机放置在不恰当的环境。(请参阅前段安装系统建议说明) 
+3. 等待数分钟,让电源供应器冷却。 
+4. 重新连接 AC 电源插头到电源供应器。 
+
+5. 将电源供应器 I/O 开关打开(按下”I”) 。
+
+6. 检查是否所有风扇正常运转。 
+7. 连络可能引起故障组件(如主机板、显示卡、硬盘、电源供应器)的制造商或是服务中心,寻 
+求技术支持。 
+
+如果您有任何问题或需要支持，敬请联络您的产品经销商 ，或是 ENERMAX(安耐美)服务中心, 拨打我们的客服热线或者给我们发邮件。
+
+Web Site: www.enermax.cn Forum: forum.enermax.com 
+E-mail: service@enermax.cn 客服热线: 400-820-2533 
+©2009 ENERMAX Technology Corporation 版权所有。本手册内容如有任何变更，恕不另行通知。实际 
+产品与配件可能与手册中所示不同。遗漏与印刷错误亦同。产品的内容可能依国家、区域而不同。本 
+手册提及的部分商标可能所属其原有企业集团。本手册内容未经 ENERMAX 书面许可，严禁任何形式 
+的的非法复制。 
+
+中文
+
+使用說明書 親愛的使用者：
+
+感謝您選購 ENERMAX(安耐美)電源供應器。安裝本產品前，敬請詳讀此使用手冊，並依照指 示安裝。
+
+在此提醒您，電腦需要在良好的環境下運作，否則將容易受損、嚴重影響您的工作及寶貴資料。 為預防上述風險並確保您電腦系統的壽命，我們提出以下建議：
+
+z 電腦不得置於熱暖爐、或發熱器材附近； 
+z 電腦不得靠近磁性器材附近； 
+z 電腦不應放置於潮濕、多灰塵、震動頻繁之環境； 
+z 電腦應避免陽光直射； 
+z 電腦應裝置足夠系統散熱風扇； 
+z 若您欲使用多孔電源延長線，請先確認此線可承受所連接供應電器的尖峰電力，或分配其 
+他高耗電設備，例如雷射印表機、螢幕等插頭於其他插座上。若超出延長線的供電負載， 
+可能啟動過負載斷路器，並切斷電源。 
+z 若您需要加裝 UPS (不斷電系統)共應系統用電，請選用足夠 W/VA 容值輸出，例如： 
+
+| 電源供應器型號 | 最低 輸出電力建議值 UPS (依各負載的效率與 PFC 而定) |
+| --- | --- |
+| EPG500AWT | 600W / 1000VA |
+| EPG600AWT | 700W / 1100VA |
+| EPG700AWT | 800W / 1200VA |
+
+*若您欲於同一 UPS 提供其他電器(如螢幕與印表機等)用電，請根據連接裝置 的額定功率，選用較高性能的 UPS。 *請勿混淆 UPS 之輸出 VA 與 W 數值，或使用輸出功率較低之 UPS。這可能 會使 UPS 在電池模式下的運作時間大幅縮短，或無法正常供電給系統。
+
+相容性 
+本電源供應器相容於: 
+z Intel ATX12V 電源供應器設計指導書 2.3 版規格, 並向下相容 2.2 版及 2.01 版 
+z ATX 系統設計指導 2.2 版及 2.1 版 
+z BTX/EEB/CEB/EPS12V 
+
+本電源供應器不支援需要-5V 用電之具備 ISA 擴充槽主機板，-5V 電源于現今系統已無需求， Intel 於 ATX12V 1.3 版之後取消之。
+
+繁体中文 外觀結構
+
+①輸出線材：請參閱”線材及連接頭”說明。 
+②13.9 公分風扇。 # 1 
+③蜂巢狀散熱孔。 # 1 
+④ON/OFF 開關：電源供應器獨立開關 
+(I=開，O=關)。 # 2 
+⑤AC 交流電插座。 # 2 
+
+⑥CordGuard 電源線扣。 # 3
+
+#1 為確保系統擁有最佳散熱表現，請勿遮蔽電源供應器之風扇進氣口與散熱孔區域。 
+本電源供應器具備 HeatGuard 功能：當系統關機後或進入 ACPI S3/S4 休眠狀態時，電源供 
+應器風扇將持續運作 30 至 60 秒，協助系統排除餘熱，延長系統使用生命。 
+#2 當您要組裝或維修系統時，請將 AC 電源線移除，或是將 I/O 開關切換到”O”位置。 
+
+#3 電源線於使用過程中，可能會因各種狀況而鬆脫。保銳科技(安耐美)「電源線扣」可將您 的電源線緊扣於電源供應器，避免因電源線鬆脫而使您的系統異常關機。
+
+| ① ON/OFF | 將電源供應器安裝於機殼上，並確認 開關已切換至“關”的位置（O=關）。 | 請同時按壓電源線扣的兩側，將其扣於 ② AC 交流電插座附近的卡榫上。 |
+| --- | --- | --- |
+| ③ | 將電源線插入 交流電插座中。 AC | ④ 將「電源線扣」扣於電源線上。 |
+| 1. 2. | 此「電源線扣」適用於 的電源線。 組裝或維修系統時，請將電源線從 | ENERMAX(安耐美)電源產品提供之電源線，可能不適用其他廠商 交流電插座上移除，或將開關切換至“關”的位置。 AC |
+
+連接頭說明
+
+24P Mainboard 支援大多數新款 ATX/EEB/CEB 伺服器/工作站主機板。
+
+8P CPU +12V (700W) 支援多重 CPU 伺服器/工作站及部分單 CPU 插座主機板。
+
+4+4P (8P) CPU +12V, 合併模式 8 針設定支援部分多重 CPU 伺服器/工作站及部分單 CPU 主機板。
+
+4+4P (8P) CPU +12V, 分離模式 4 針設定支援部分單 CPU 主機板。部分多重 CPU 伺服器/工作站主機板可 能需求此額外的 12V 連接頭。 請使用有加印 “12V” 字樣之插頭。
+
+6+2P (8P) PCI Express, 合併模式 
+8 針設定支援最新需要 8P PCI-E 用電之顯示卡。 
+
+6+2P (8P) PCI Express, 分離模式 / 6P PCI Express 6 針設定支援大多需要 6P PCI-E 用電之顯示卡。
+
+SATA # 1
+
+供應 SATA/SAS 介面周邊電力。
+
+4P Molex # 2
+
+供應 IDE/SCSI/SAS 等介面周邊及部分 AGP 顯示卡之電力。
+
+FDD 供應 FLOPPY 或特定介面周邊電力。
+
+#1 部分 SATA 介面周邊可能同時具備 SATA 或 4P Molex 插座。一般而言，僅需連接其 
+中一種電源接頭即可，但不可同時使用。請參閱您的周邊說明書瞭解用電需求。 
+#2 部分主機板可能需要此額外電源插頭，以利分攤 20 針主機板電源插座之+12V 電流 
+給予 PCI-E 擴充槽用。若您的主機板已經支援 24 針插座，您可以不用添加此 4P Molex 
+電源插座。請參閱您的主機板說明書瞭解用電需求。 
+
+啟動系統
+
+啟動系統之前，請做以下確認動作： 
+1. 主電源連接頭(24 針插頭) 是否安裝確實； 
+2. CPU +12V 電源連接頭 (4 針或 8 針) 是否安裝確實；或一個 4P Molex 連接頭 (如果主機 
+板需要) 是否安裝確實； 
+3. 其他連接頭是否安裝正確； 
+
+4. AC 交流電源線是否確實連接於(牆壁)電源插座及電源供應器 AC 插座；
+
+5. 裝回機殼側版，關閉電腦機殼； 
+6. 將 ON/OFF 開關切至 ON 的位置，即啟動電源供應器，此時您的系統已準備就緒。 
+
+安全保護線路 
+本電源供應器具備多重保護線路，在異常狀況下，電源供應器將會自動關閉，保護電腦硬體器 
+材及電源供應器本體，避免危險。保護裝置之啟動，通常由電腦元件之故障,或是使用者無意 
+之的疏失而引起。若保護啟動而強制切斷電源時，請檢查您的電腦元件狀態，及使用環境。建 
+議您由以下步驟進行檢查: 
+1. 關閉電源供應器 I/O 開關(按下”O”),或將 AC 線材拔除於牆壁插座及電源供應器。 
+2. 檢查電源供應器外殼的溫度是否非常燙，如果是，可能是電源供應器散熱風扇或是機殼散 
+熱風扇故障，或是電腦放置在不恰當的環境。(請參閱前段安裝系統建議說明) 
+3. 等待數分鐘，讓電源供應器冷卻。 
+4. 重新連接 AC 電源插頭到電源供應器。 
+5. 將電源供應器 I/O 開關打開(按下”I”) 。 
+6. 檢查是否所有風扇正常運轉。 
+7. 連絡可能引起故障阻件(如主機板、顯示卡、硬碟、電源供應器)的製造商或是服務中心， 
+尋求技術支援。 
+
+如果您有任何問題或需要支援，敬請聯絡您的產品經銷商 ，或是 ENERMAX(安耐美)服務 中心。
+
+Web Site: www.enermax.com Forum: forum.enermax.com E-mail: support-tw@enermax.com.tw
+
+©2009 ENERMAX Technology Corporation 版權所有。本手冊內容如有任何變更，恕不另行通知。實際 產品與配件可能與手冊中所示不同。遺漏與印刷錯誤亦同。產品之內容可能依國家、區域而不同。本 手冊提及之部分商標可能所屬其原有企業集團。本手冊內容未經 ENERMAX 書面許可，嚴禁任何形式 的的非法複製。
+
+คู มื อการใช งาน เรี ยนลู กค าผู มี อุ ปการคุ ณ
+
+ขอขอบคุ ณที่ ท านเลื อกซื้ ออุ ปกรณ จ ายไฟ (PSU) ENERMAX PRO87+! 
+โปรดอ านคู มื อฉบั บนี้ อย างละเอี ยด และปฏิ บั ติ ตามข อแนะนํา ก อนติ ดต้ งใช ั  งาน 
+PSU 
+ขอให ท านใส ใจ ปรั บสภาพคอมพิ วเตอร ให อยู ในสภาพเหมาะสมเป นพิ เศษ 
+เพื่ อให สามารถใช งานได อย างดี ที่ สุ ด โดยไม มี ป ญหาการทํางาน 
+ดั งน้ นเพ ั ื่ อช วยป องกั นป ญหา และยื ดอายุ การใช งานของระบบ 
+ควรปฏิ บั ติ ตามข้ นตอนด ั ั งนี้ 
+z ไม ควรติ ดต้ งระบบของท ั  านไว ใกล กั บอุ ปกรณ ที่ แผ รั งสี หรื ออุ ปกรณ ทําความร 
+อนอื่ นๆ 
+z ไม ควรติ ดต้ งระบบของท ั  านไว ใกล กั บอุ ปกรณ แม เหล็ ก 
+z ไม ควรติ ดต้ งระบบของท ั  านไว ในจุ ดที่ ม ีค วามชื้ น และ/หรื อฝุ น 
+และ/หรื อแรงสั่ นสะเทื อน 
+z ไม ควรให ระบบของท านกระทบกั บแสงแดดโดยตรง 
+z ระบบของท านมี การระบายความร อนได เพี ยงพอด วยพั ดลมที่ ติ ดต้ งเพ ั ิ่ มเติ ม 
+z ถ าใช สายต อระบบไฟกระแสสลั บ โปรดตรวจสอบให แน ใจว า 
+สามารถรองรั บกระแสไฟสู งสุ ด ของอุ ปกรณ ที่ ต อเชื่ อมอย ูไ ด ท้ งหมด ั 
+ไม เช นน้ นควรเส ั ี ยบปล๊ กอ ั ุ ปกรณ ที่ กิ นไฟสู ง เช น เครื่ องพิ มพ เลเซอร 
+หรื อจอภาพ กั บ ปล๊ กสว ั ิ ต ไฟตั วอื่ น 
+การใช กระแสไฟเกิ นกว ากําลั งที่ สายต อจะรั บได อาจทําให อุ ปกรณ ตั ดไฟทํางาน 
+และตั ดกระแสไฟเข าเครื่ องได 
+z ถ าต องการเพิ่ ม UPS (Uninterruptible Power Supply) กั บระบบของท าน ขอให เลื อก 
+UPS ที่ มี กําลั งวั ตต /แรงดั นไฟสู งพอ เช น 
+
+| รุ นของ PSU | กําลั งไฟข้ ที่ แนะนํา (ตามประสิ | นต ั ําท ่ ี่ จ ายออกจาก UPS ทธิ ภาพและ PFC ของโหลด) |
+| --- | --- | --- |
+| EPG500AWT | | 600W / 1000VA |
+| EPG600AWT | | 700W / 1100VA |
+| EPG700AWT | | 800W / 1200VA |
+
+* ถ าต องการเพิ่ มอุ ปกรณ อื่ น ที่ ใช ไฟร วมกั บ UPS ตั วเดี ยวกั น ขอให ใช UPS ที่ มี กําลั งไฟสู ง สามารถรองรั บอุ ปกรณ ที่ ต อเชื่ อมได ท้ งหมด ั * อย าเข าใจผิ ดระหว าง VA และวั ตต หรื อใช UPS ที่ มี กําลั งไฟสู งไม พอ เพราะอาจทําให แบตเตอรี่ ใน UPS มี ระยะเวลาการทํางานลดลง หรื อทําให กําลั งไฟของระบบไม เสถี ยร เมื่ ออยู ในโหมดแบตเตอรี่
+
+ไทย
+
+ความสามารถในการใช งานร วมกั น 
+*PSU ของ ENERMAX รุ น PRO87+ series สามารถใช งานได กั บ ATX12V 
+เป นมาตรฐานซึ่ งเข ากั บการออกแบบ V2.3 ได และเข ากั บมาตรฐานที่ ตํากว ่  าได ซึ่ งเป น 
+V2.2,V2.01และV1.3ตามลําดั บ และชนิ ดของ M/B BTX/EEB/CEB/EPS12V PSUรุ นนี้ ไม 
+support M/Bที่ มี SLOT แบบ ISA รุ นเก าที่ ใช ไฟ -5V ไฟ -5Vถู กยกเลิ กหลั งจาก Inter 
+ATX12V V1.3 
+
+ชื่ อของชิ้ นส วนต างๆ
+
+1.สายจ ายไฟ: โปรดตรวจสอบในส วนของ 
+“สายไฟและข้ วต ั  อ” 
+2. พั ดลมขนาด 13.9 ซม # 1 
+3. ช องระบายความร อนแบบรั งผึ้ ง # 1 
+4. สวิ ตช เป ด/ป ด: (I=เป ด, O=ป ด) # 2 
+5. ช องรั บไฟกระแสสลั บ # 2 
+6. CordGuard # 3 
+
+#1 เพื่ อให ระบบสามารถระบายความร อนได อย างมี ประสิ ทธิ ภาพสู งสุ ด 
+โปรดอย าวางสิ่ งของกี ดขวางช องดู ดลมของพั ดลม PSU และบริ เวณช องระบายความร อน 
+อุ ปกรณ PSU นี้ มี ฟ งก ชั่ นพิ เศษ HeatGuard เมื่ อระบบถู กป ด 
+หรื อเข าสู โหมดพั ก ACPI S3/S4 พั ดลม PSU 
+จะทําหน าที่ ระบายความร อนที่ เหลื ออยู ต อไปอี ก 30 ~ 60 วิ นาที 
+เพื่ อช วยยื ดอายุ การทํางานของระบบ 
+#2 เมื่ อท านต องการประกอบหรื อตรวจสอบระบบ กรุ ณาถอดสาย AC cord ออกจาก AC inlet 
+หรื อปรั บ switch ให อย ูใ นตําแหน ง “0” ก อนดําเนิ นการทุ กคร้ ง ั 
+#3 มี หลายป จจั ยที่ ทําให สาย AC หลุ ดออกจาก PSU การติ ดต้ ง CordGuardสาม ั ารถช วยใหสาย 
+AC ติ ดกั บ PSU อย างเหนี ยวแน น หลี กเลี่ ยงสาย AC หลุ ดออกจาก PSU ซึ่ งจะทําให PC 
+shut-down 
+① ก อนนําเอาอุ ปกรณ ติ ดต้ งเข ั  าไปใน 
+PSU 
+และโปรดตรวจสอบให แน ใจว าสวิ ทซ อยู 
+ที่ ตําแหน ง OFF ( O=ป ด) 
+
+② กดก านขาล็ อคท้ งสองของ CordGuard ั เข าด วยกั น และติ ดต้ ง CordGuard ั ในตําแหน งช อง AC
+
+ไทย
+
+③ เสี ยบสาย AC เข าไปในช อง PSU ④ ล็ อค CordGuard เข ากั บสาย AC
+
+1. CordGuard เหมาะสําหรั บผลิ ตภั ณฑ ของ ENERMAX เท าน้ น แต ั  อาจจะไม เหมาะสําหรั บผลิ ตภั ณท อื่ น 
+2. ควรถอดสาย AC ออก จากปล๊ กไฟ ท ั ุ กคร้ ง ก ั  อนซ อมแซมระบบ หรื อตรวจสอบให แน ใจว าสวิ ทช อ ยู ในตําแหน ง OFF 
+
+ชนิ ดของข้ วต ั  อ เมนบอร ด 24P สําหรั บเมนบอร ดของเซิ ร ฟเวอร /เวิ ร คสเตชั่ น ATX/EEB/CEB รุ นใหม ๆ 8P CPU +12V (700W) รองรั บระบบของเซิ ร ฟเวอร /เวิ ร คสเตชั่ นที่ ใช CPU หลายตั ว และ socket เดี ยวบางอั น 4+4P (8P) CPU +12V, ในโหมดผสมผสาน การกําหนดค าเป น 8 pin รองรั บระบบเซิ ร ฟเวอร /เวิ ร คสเตชั่ นที่ มี CPU หลายตั ว และระบบที่ มี CPU ประสิ ทธิ ภาพสู งเพี ยงตั วเดี ยวได 4+4P (8P) CPU +12V, ในโหมดแยก การกําหนดค าเป น 4 pin รองรั บระบบที่ มี CPU ตั วเดี ยวได บางระบบ ระบบเวิ ร คสเตชั่ น/เซิ ร ฟเวอร ที่ มี CPU หลายตั วอาจต องใช ข้ วต ั  อ 12V แบบ 4 pin เพิ่ มเติ ม โปรดใช ข้ วต ั  อที่ มี เครื่ องหมายระบุ ว า “12V” 6+2P (8P) PCI Express, in combined mode การกําหนดค าเป น 8 pin รองรั บกราฟ กการ ดที่ มี ประสิ ทธิ ภาพสู งรุ นล าสุ ด ซึ่ งต องใช ข้ วต ั  อ PCI-E แบบ 8 pin 6+2P (8P) PCI Express, in split mode / 6P PCI Express การกําหนดค าเป น 6 pin รองรั บกราฟ กการ ด PCI-E ที่ มี ประสิ ทธิ ภาพส วนใหญ ซึ่ งต องใช ข้ วต ั  อ PCI-E แบบ 6 pin
+
+SATA #1 
+สําหรั บไดร ฟ SATA/SAS 
+4P Molex #2 
+สําหรั บไดร ฟ IDE/SCSI/SAS หรื อกราฟ กการ ด AGP บางรุ น 
+ที่ ใช กําลั งไฟ 4P แบบปกติ ในช องเสี ยบ 
+
+ไทย
+
+FDD 
+สําหรั บ FLOPPY DRIVES หรื อการ ดสําหรั บเสี ยบเพิ่ มบางอย าง 
+#1 ไดร ฟ SATA บางตั วใช กําลั งไฟ SATA หรื อ 4P Molex 
+ปกติ จะใช ข้ วต ั  อระบบไฟอย างใดอย างหนึ่ ง เพื่ อจ ายไฟให ไดรเวอร 
+แต ไม ใช ข้ วต ั  อสองอั นพร อมกั น! โปรดดู รายละเอี ยดจากคู มื อการใช งานไดร ฟ 
+#2 เมนบอร ดบางตั วต องใช ข้ วต ั  อนี้ เพื่ อใช กระแสไฟ +12V 
+จากข้ วต ั  อระหว างเมนบอร ด 24 pin กั บช องเสี ยบ PCI-E 
+ถ าเมนบอร ดของท านรองรั บข้ วต ั  อเมนบอร ดแบบ 24 pin อยู แล ว 
+ท านอาจไม ต องเพิ่ มข้ วต ั  อ 4P Molex อี ก 
+โปรดดู รายละเอี ยดจากคู มื อการใช เมนบอร ด 
+การบู ทระบบของท าน 
+ควรเช็ คและตรวจสอบสิ่ งเหล านี้ ก อนที่ คุ ณจะบู ตเครื่ อง 
+1. Connector 24Pin เชื่ อมต อเข าที่ อย างถู กต องเหมาะสม 
+2. ข้ วต ั  อระบบไฟ +12V ของ CPU (กําหนดค าเป น 4 หรื อ 8 Pin) และ/หรื อข้ วต ั  อ 4P Molex 
+(ถ าต องใช กั บเมนบอร ด) เชื่ อมต อเข าที่ อย างถู กต องเหมาะสม 
+3. ข้ วต ั  อที่ จําเป นอื่ นๆ ท้ งหมด ม ั ี การเชื่ อมต อเข าที่ อย างถู กต องเหมาะสม 
+4. สายไฟกระแสตรงเชื่ อมต อกั บปล๊ กไฟ และช ั  องต อไฟกระแสสลั บของ PSU แล วหรื อยั ง 
+5. ป ดฝา CASE ของเครื่ องให เรี ยบร อย 
+6. เป ด PSU โดยกดสวิ ตช เป ด/ป ด ไปที่ ตําแหน ง “เป ด” ระบบของท านก็ พร อมใช งาน 
+การป องกั นอั นตราย ความปลอดภั ย และความเสถี ยร 
+Power supply ของ ENERMAX จะมี การป องกั นไฟฟ าสถิ ต 
+ถ าเครื่ องคอมพิ วเตอร ทํางานผิ ดปกติ Power supply จะตั ดการทํางานอั ตโนมั ติ 
+เพื่ อที่ ป องกั นอุ ปกรร ต างๆที่ อยู ภายในเครื่ องไม ให เกิ ดความเสี ยหายเนื่ องจากถ าผู ใ 
+ช งานกดผิ ด หรื อ มี อุ ปกรร ใดเสี ยหายระบบจะตั ดการทํางานทั นที 
+ถ ามี ป ญหานี้ เกิ ดขึ้ นกรุ ณาเช็ คคอมพิ วเตอร ของคุ ณด วย 
+1. ป ดสวิ ด Power Supply หรื อ ถอดสาย Connector AC ออก 
+2. เช็ คดู อุ ณหภู มิ ของ PSU ว าสู งเกิ นไปหรื อเปล าบางที อาจจะเกิ ดจากพั ดลมของ PSU 
+และพั ดลมของตั ว CASE มี ป ญหา หรื อว าต้ ง เคร ั ื่ องคอมพิ วเตอร 
+อยู ในพื้ นที่ ที่ ไม เหมาะสม 
+3. รอสั กพั กให Power supply ให อุ ณหภู มิ ลดลง 
+4. เอา connector AC ต อเข

@@ -1,0 +1,162 @@
+{
+  "requestedURL": "https://www.gigabyte.com/Motherboard/B450-I-AORUS-PRO-WIFI-rev-10/sp",
+  "checkedAt": "2026-11-10T13:25:34+00:00",
+  "attempts": [
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B450-I-AORUS-PRO-WIFI-rev-10/sp",
+      "status": 200,
+      "resolvedURL": "https://www.gigabyte.com/Motherboard/B450-I-AORUS-PRO-WIFI-rev-10/sp",
+      "bytes": 605719
+    }
+  ],
+  "url": "https://www.gigabyte.com/Motherboard/B450-I-AORUS-PRO-WIFI-rev-10/sp",
+  "httpStatus": 200,
+  "sha256": "2ef00fd76a6880273e465a2774fa63ba078bf10395a41c5ed7eb42a0649176b8",
+  "title": "B450 I AORUS PRO WIFI (Rev. 1.0)",
+  "model": "B450 I AORUS PRO WIFI",
+  "revision": "1.0",
+  "sections": {
+    "CPU": "AM4 Socket: Supports AMD Ryzen™ 5000 series / Ryzen™ 5000 G-Series/ 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 1st Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ 1st Gen Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors (Please refer \"CPU Support List\" for more information.)",
+    "Chipset": "AMD B450",
+    "Memory": "2 x DDR4 DIMM sockets supporting up to 64 GB (32 GB single DIMM capacity) of system memory Dual channel memory architecture Support for DDR4 3600(O.C.)/3466(O.C.)/3200(O.C.)/2933/2667/2400/2133 MHz memory modules Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules * ECC is only supported with AMD Ryzen™ and Athlon™ of PRO-series CPU. Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for Extreme Memory Profile (XMP) memory modules (Please refer \"Memory Support List\" for more information.)",
+    "Onboard Graphics": "Integrated Graphics Processor: 1 x DisplayPort, supporting a maximum resolution of 4096x2304@60 Hz * Support for DisplayPort 1.2 version. 2 x HDMI ports, supporting a maximum resolution of 4096x2160@60 Hz (Note) * Support for HDMI 2.0 version and HDCP 2.2. (Note) * One of HDMI function is limited if using an AMD Athlon™ 200-series APU. Support for up to 3 displays at the same time Maximum shared memory of 16 GB (Note) Actual support may vary by CPU.",
+    "Audio": "Realtek ® ALC1220-VB codec High Definition Audio 2/4/5.1/7.1-channel * To configure 7.1-channel audio, you have to use an HD front panel audio module and enable the multi-channel audio feature through the audio driver. Support for S/PDIF Out",
+    "LAN": "Intel ® GbE LAN chip (10/100/1000 Mbit)",
+    "Wireless Communication module": "Wi-Fi 802.11a/b/g/n/ac, supporting 2.4/5 GHz Dual-Band BLUETOOTH 5 Support for 11ac 160 MHz wireless standard and up to 1.73 Gbps data rate * Actual data rate may vary depending on environment and equipment. ** Intel WIFI driver only support for Win10-64bit",
+    "Expansion Slots": "1 x PCI Express x16 slot, running at x16 (Note) (The PCIEX16 slot conforms to PCI Express 3.0 standard.) 1 x M.2 Socket 1 connector for the wireless communication module (M2_WIFI) (Note) Actual support may vary by CPU.",
+    "Storage Interface": "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280 SATA and PCIe 3.0 x4/x2 SSD support) 4 x SATA 6Gb/s connectors Support for RAID 0, RAID 1, and RAID 10",
+    "USB": "Chipset: 2 x USB 3.1 Gen 2 Type-A ports (red) on the back panel 2 x USB 3.1 Gen 1 ports available through the internal USB header 2 x USB 2.0/1.1 ports available through the internal USB header Integrated in the APU: 4 x USB 3.1 Gen 1 ports on the back panel",
+    "Internal I/O Connectors": "1 x 24-pin ATX main power connector 1 x 8-pin ATX 12V power connector 1 x CPU fan header 1 x system fan header 1 x digital LED strip header 1 x CPU cooler LED strip/RGB LED strip header 4 x SATA 6Gb/s connectors 1 x M.2 Socket 3 connector 1 x front panel header 1 x front panel audio header 1 x S/PDIF Out header 1 x speaker header 1 x USB 3.1 Gen 1 header 1 x USB 2.0/1.1 header 1 x Trusted Platform Module (TPM) header (2x6 pin, for the GC-TPM2.0_S module only) 1 x Clear CMOS jumper 1 x chassis intrusion header",
+    "Back Panel Connectors": "1 x DisplayPort 2 x HDMI ports 2 x USB 3.1 Gen 2 Type-A ports (red) 4 x USB 3.1 Gen 1 ports 1 x RJ-45 port 2 x SMA antenna connectors (2T2R) 3 x audio jacks",
+    "I/O Controller": "iTE ® I/O Controller Chip",
+    "H/W Monitoring": "Voltage detection Temperature detection Fan speed detection Overheating warning Fan fail warning Fan speed control * Whether the fan speed control function is supported will depend on the cooler you install.",
+    "BIOS": "1 x 128 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+    "Unique Features": "Support for APP Center * Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. 3D OSD AutoGreen Cloud Station EasyTune Fast Boot Game Boost ON/OFF Charge RGB Fusion Smart Backup Smart Keyboard Smart TimeLock Smart HUD Smart Survey System Information Viewer USB Blocker V-Tuner Support for Q-Flash Support for Xpress Install",
+    "Bundled Software": "Norton ® Internet Security (OEM version) cFosSpeed",
+    "Operating System": "Support for Windows 10 64-bit Support for Windows 7 64-bit * To support Windows 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU. * Intel WIFI driver only support for Win10-64bit * Please download the \"Windows USB Installation Tool\" from GIGABYTE's website and install it before installing Windows 7.",
+    "Form Factor": "Mini-ITX Form Factor; 17.0cm x 17.0cm",
+    "Remark": "Due to different Linux support condition provided by chipset vendors, please download Linux driver from chipset vendors' website or 3rd party website. Most hardware/software vendors may no longer offer drivers to support Win9X/ME/2000/XP. If drivers are available from the vendors, we will update them on the GIGABYTE website."
+  },
+  "sectionItems": {
+    "CPU": [
+      "AM4 Socket: Supports AMD Ryzen™ 5000 series / Ryzen™ 5000 G-Series/ 3rd Gen Ryzen™/ 2nd Gen Ryzen™/ 1st Gen Ryzen™/ 2nd Gen Ryzen™ with Radeon™ Vega Graphics/ 1st Gen Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors"
+    ],
+    "Chipset": [
+      "AMD B450"
+    ],
+    "Memory": [
+      "2 x DDR4 DIMM sockets supporting up to 64 GB (32 GB single DIMM capacity) of system memory",
+      "Dual channel memory architecture",
+      "Support for DDR4 3600(O.C.)/3466(O.C.)/3200(O.C.)/2933/2667/2400/2133 MHz memory modules",
+      "Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules * ECC is only supported with AMD Ryzen™ and Athlon™ of PRO-series CPU.",
+      "Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules",
+      "Support for Extreme Memory Profile (XMP) memory modules"
+    ],
+    "Onboard Graphics": [
+      "1 x DisplayPort, supporting a maximum resolution of 4096x2304@60 Hz * Support for DisplayPort 1.2 version.",
+      "2 x HDMI ports, supporting a maximum resolution of 4096x2160@60 Hz (Note) * Support for HDMI 2.0 version and HDCP 2.2. (Note) * One of HDMI function is limited if using an AMD Athlon™ 200-series APU."
+    ],
+    "Audio": [
+      "Realtek ® ALC1220-VB codec",
+      "High Definition Audio",
+      "2/4/5.1/7.1-channel * To configure 7.1-channel audio, you have to use an HD front panel audio module and enable the multi-channel audio feature through the audio driver.",
+      "Support for S/PDIF Out"
+    ],
+    "LAN": [
+      "Intel ® GbE LAN chip (10/100/1000 Mbit)"
+    ],
+    "Wireless Communication module": [
+      "Wi-Fi 802.11a/b/g/n/ac, supporting 2.4/5 GHz Dual-Band",
+      "BLUETOOTH 5",
+      "Support for 11ac 160 MHz wireless standard and up to 1.73 Gbps data rate * Actual data rate may vary depending on environment and equipment. ** Intel WIFI driver only support for Win10-64bit"
+    ],
+    "Expansion Slots": [
+      "1 x PCI Express x16 slot, running at x16 (Note) (The PCIEX16 slot conforms to PCI Express 3.0 standard.)",
+      "1 x M.2 Socket 1 connector for the wireless communication module (M2_WIFI)"
+    ],
+    "Storage Interface": [
+      "1 x M.2 connector (Socket 3, M key, type 2242/2260/2280 SATA and PCIe 3.0 x4/x2 SSD support)",
+      "4 x SATA 6Gb/s connectors",
+      "Support for RAID 0, RAID 1, and RAID 10"
+    ],
+    "USB": [
+      "2 x USB 3.1 Gen 2 Type-A ports (red) on the back panel",
+      "2 x USB 3.1 Gen 1 ports available through the internal USB header",
+      "2 x USB 2.0/1.1 ports available through the internal USB header",
+      "4 x USB 3.1 Gen 1 ports on the back panel"
+    ],
+    "Internal I/O Connectors": [
+      "1 x 24-pin ATX main power connector",
+      "1 x 8-pin ATX 12V power connector",
+      "1 x CPU fan header",
+      "1 x system fan header",
+      "1 x digital LED strip header",
+      "1 x CPU cooler LED strip/RGB LED strip header",
+      "4 x SATA 6Gb/s connectors",
+      "1 x M.2 Socket 3 connector",
+      "1 x front panel header",
+      "1 x front panel audio header",
+      "1 x S/PDIF Out header",
+      "1 x speaker header",
+      "1 x USB 3.1 Gen 1 header",
+      "1 x USB 2.0/1.1 header",
+      "1 x Trusted Platform Module (TPM) header (2x6 pin, for the GC-TPM2.0_S module only)",
+      "1 x Clear CMOS jumper",
+      "1 x chassis intrusion header"
+    ],
+    "Back Panel Connectors": [
+      "1 x DisplayPort",
+      "2 x HDMI ports",
+      "2 x USB 3.1 Gen 2 Type-A ports (red)",
+      "4 x USB 3.1 Gen 1 ports",
+      "1 x RJ-45 port",
+      "2 x SMA antenna connectors (2T2R)",
+      "3 x audio jacks"
+    ],
+    "I/O Controller": [
+      "iTE ® I/O Controller Chip"
+    ],
+    "H/W Monitoring": [
+      "Voltage detection",
+      "Temperature detection",
+      "Fan speed detection",
+      "Overheating warning",
+      "Fan fail warning",
+      "Fan speed control * Whether the fan speed control function is supported will depend on the cooler you install."
+    ],
+    "BIOS": [
+      "1 x 128 Mbit flash",
+      "Use of licensed AMI UEFI BIOS",
+      "PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0"
+    ],
+    "Unique Features": [
+      "Support for APP Center * Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. 3D OSD AutoGreen Cloud Station EasyTune Fast Boot Game Boost ON/OFF Charge RGB Fusion Smart Backup Smart Keyboard Smart TimeLock Smart HUD Smart Survey System Information Viewer USB Blocker V-Tuner",
+      "Support for Q-Flash",
+      "Support for Xpress Install"
+    ],
+    "Bundled Software": [
+      "Norton ® Internet Security (OEM version)",
+      "cFosSpeed"
+    ],
+    "Operating System": [
+      "Support for Windows 10 64-bit",
+      "Support for Windows 7 64-bit * To support Windows 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU. * Intel WIFI driver only support for Win10-64bit * Please download the \"Windows USB Installation Tool\" from GIGABYTE's website and install it before installing Windows 7."
+    ],
+    "Form Factor": [
+      "Mini-ITX Form Factor; 17.0cm x 17.0cm"
+    ],
+    "Remark": [
+      "Due to different Linux support condition provided by chipset vendors, please download Linux driver from chipset vendors' website or 3rd party website.",
+      "Most hardware/software vendors may no longer offer drivers to support Win9X/ME/2000/XP. If drivers are available from the vendors, we will update them on the GIGABYTE website."
+    ]
+  },
+  "imageURLs": [
+    "https://static.gigabyte.com/StaticFile/Image/Global/65382c2b2fe5ab4c8c984caf95729748/ProductRemoveBg/21281"
+  ],
+  "revisionURLs": [
+    "https://www.gigabyte.com/Motherboard/B450-I-AORUS-PRO-WIFI-rev-10"
+  ],
+  "manualURLs": [],
+  "status": "official_specifications",
+  "manufacturerAliases": []
+}

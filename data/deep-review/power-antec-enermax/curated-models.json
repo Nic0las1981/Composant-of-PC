@@ -1,0 +1,2653 @@
+[
+  {
+    "targets": [
+      "import-psu-cc67bae39cf4"
+    ],
+    "model": "REVOLUTION X’t 430W",
+    "src": "exa-archive-8",
+    "props": {
+      "power": 430,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OVP, OTP, OPP, SCP, SIP",
+      "rail12v": "420 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX430AWT"
+  },
+  {
+    "targets": [
+      "import-psu-f14b05754e18"
+    ],
+    "model": "REVOLUTION X’t 530W",
+    "src": "exa-archive-8",
+    "props": {
+      "power": 530,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OVP, OTP, OPP, SCP, SIP",
+      "rail12v": "516 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX530AWT"
+  },
+  {
+    "targets": [
+      "import-psu-7dd715f4206a"
+    ],
+    "model": "REVOLUTION X’t 630W",
+    "src": "exa-archive-8",
+    "props": {
+      "power": 630,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OVP, OTP, OPP, SCP, SIP",
+      "rail12v": "612 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX630AWT"
+  },
+  {
+    "targets": [
+      "import-psu-be73c29f174d"
+    ],
+    "model": "REVOLUTION X’t 730W",
+    "src": "exa-archive-8",
+    "props": {
+      "power": 730,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OVP, OTP, OPP, SCP, SIP",
+      "rail12v": "720 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX730AWT"
+  },
+  {
+    "targets": [
+      "import-psu-ef94d3efa0a1"
+    ],
+    "model": "Platimax 500W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "492 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EPM500AWT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-e1358ea0d991"
+    ],
+    "model": "Platimax 600W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "600 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EPM600AWT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-b51c75194c20"
+    ],
+    "model": "Platimax 750W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "744 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 12×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EPM750AWT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-5181cadaf1e0"
+    ],
+    "model": "Platimax 850W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "840 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 + 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EPM850EWT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-b7f1ba0ff305"
+    ],
+    "model": "Platimax 1000W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "996 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 + 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EPM1000EWT",
+    "notes": [
+      "Edition OC à un seul rail +12 V de 83 A ; les versions multi-rails de la gamme ne sont pas utilisées."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-451b83701f21"
+    ],
+    "model": "Platimax 1350W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 1350,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1350 W combinés",
+      "connectors": "1×24 broches ; 2×CPU8 + 1×CPU4/RAM ; 8×PCIe6+2 ; 14×SATA ; 10×Molex ; 2×FDD"
+    },
+    "mpn": "EPM1350EWT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-8081194009b7"
+    ],
+    "model": "Platimax 1500W",
+    "src": "exa-pdf-0",
+    "props": {
+      "power": 1500,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1500 W combinés",
+      "connectors": "1×24 broches ; 2×CPU8 + 1×CPU4/RAM ; 10×PCIe6+2 ; 14×SATA ; 10×Molex ; 2×FDD"
+    },
+    "mpn": "EPM1500EGT",
+    "notes": [
+      "Les limites des rails individuels ne sont pas additionnées : la valeur combinée du tableau est utilisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-f6f5c32c0992"
+    ],
+    "model": "MaxTytan 750W",
+    "src": "exa-archive-25",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Titanium",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "atx": "ATX12V 2.4",
+      "warranty": "10 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "750 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EMT750EWT"
+  },
+  {
+    "targets": [
+      "import-psu-8662304f030a"
+    ],
+    "model": "MaxTytan 800W",
+    "src": "exa-archive-25",
+    "props": {
+      "power": 800,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Titanium",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "atx": "ATX12V 2.4",
+      "warranty": "10 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "798 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EMT800EWT"
+  },
+  {
+    "targets": [
+      "import-psu-9f77afdcb0ef"
+    ],
+    "model": "MaxTytan 1050W",
+    "src": "exa-archive-23",
+    "props": {
+      "power": 1050,
+      "format": "ATX",
+      "depth": 200,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Titanium",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "atx": "ATX12V 2.4",
+      "warranty": "10 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1050 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 8×PCIe6+2 ; 16×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EDT1050EWT"
+  },
+  {
+    "targets": [
+      "import-psu-4865a87b95df"
+    ],
+    "model": "MaxTytan 1250W",
+    "src": "exa-archive-23",
+    "props": {
+      "power": 1250,
+      "format": "ATX",
+      "depth": 200,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Titanium",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "atx": "ATX12V 2.4",
+      "warranty": "10 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1248 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 8×PCIe6+2 ; 16×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "EDT1250EWT"
+  },
+  {
+    "targets": [
+      "import-psu-4268ba8360ff"
+    ],
+    "model": "REVOLUTION D.F. 650W",
+    "src": "exa-archive-16",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "protections": "OCP, OVP, UVP, SCP, OPP, OTP",
+      "rail12v": "650 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; adaptateur FDD1"
+    },
+    "mpn": "ERF650AWT"
+  },
+  {
+    "targets": [
+      "import-psu-fc96d71ed6c5"
+    ],
+    "model": "REVOLUTION D.F. 750W",
+    "src": "exa-archive-16",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "protections": "OCP, OVP, UVP, SCP, OPP, OTP",
+      "rail12v": "750 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; adaptateur FDD1"
+    },
+    "mpn": "ERF750EWT"
+  },
+  {
+    "targets": [
+      "import-psu-0d6d3019f750"
+    ],
+    "model": "REVOLUTION D.F. 850W",
+    "src": "exa-archive-16",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "protections": "OCP, OVP, UVP, SCP, OPP, OTP",
+      "rail12v": "850 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 6×PCIe6+2 ; 12×SATA ; 4×Molex ; adaptateur FDD1"
+    },
+    "mpn": "ERF850EWT"
+  },
+  {
+    "targets": [
+      "import-psu-fb11b58edd4f"
+    ],
+    "model": "Platimax D.F. 850W",
+    "src": "exa-archive-12",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "840 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 4×Molex ; adaptateur FDD1"
+    },
+    "mpn": "EPF850EWT"
+  },
+  {
+    "targets": [
+      "import-psu-a092863c9cb4"
+    ],
+    "model": "Platimax D.F. 1050W",
+    "src": "exa-archive-12",
+    "props": {
+      "power": 1050,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing, semi-passif",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1044 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 4×Molex ; adaptateur FDD1"
+    },
+    "mpn": "EPF1050EWT"
+  },
+  {
+    "targets": [
+      "import-psu-b13790751b9a"
+    ],
+    "model": "CYBERBRON 500W",
+    "src": "exa-archive-33",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "protections": "OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "456 W"
+    },
+    "mpn": "ECB500AWT",
+    "notes": [
+      "Les descriptions de couleur noir et noir/argent de l’archive désignent le même code fabricant ; aucune nouvelle finition n’est inventée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-f53004eb2408"
+    ],
+    "model": "CYBERBRON 600W",
+    "src": "exa-archive-33",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "protections": "OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "552 W"
+    },
+    "mpn": "ECB600AWT",
+    "notes": [
+      "Les descriptions de couleur noir et noir/argent de l’archive désignent le même code fabricant ; aucune nouvelle finition n’est inventée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-743eb0114fd0",
+      "import-psu-8c85a26b2a5a"
+    ],
+    "model": "CYBERBRON 700W",
+    "src": "exa-archive-33",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "protections": "OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "648 W"
+    },
+    "mpn": "ECB700EWT",
+    "notes": [
+      "Les descriptions de couleur noir et noir/argent de l’archive désignent le même code fabricant ; aucune nouvelle finition n’est inventée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-443e0ca2e1f7"
+    ],
+    "model": "REVOLUTION ATX 3.0 1000W",
+    "src": "exa-archive-28",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 150,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX 3.0",
+      "protections": "OVP, UVP, OPP, SCP, OTP",
+      "rail12v": "1000 W",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 12×SATA ; 4×Molex ; adaptateur FDD1 ; 1 câble 12VHPWR natif + 1 câble double PCIe8 vers 12VHPWR"
+    },
+    "mpn": "ERA1000EWT",
+    "notes": [
+      "La référence ATX3.0 d’origine est conservée ; la page actuelle ATX3.1 n’est pas transposée à ce modèle. Le tableau compte deux terminaisons12VHPWR : une native, l’autre alimentée par deux prisesPCIe8."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-7b51216ddc8e"
+    ],
+    "model": "REVOLUTION ATX 3.0 1200W",
+    "src": "exa-archive-28",
+    "props": {
+      "power": 1200,
+      "format": "ATX",
+      "depth": 150,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX 3.0",
+      "protections": "OVP, UVP, OPP, SCP, OTP",
+      "rail12v": "1200 W",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 12×SATA ; 4×Molex ; adaptateur FDD1 ; 1 câble 12VHPWR natif + 1 câble double PCIe8 vers 12VHPWR"
+    },
+    "mpn": "ERA1200EWT",
+    "notes": [
+      "La référence ATX3.0 d’origine est conservée ; la page actuelle ATX3.1 n’est pas transposée à ce modèle. Le tableau compte deux terminaisons12VHPWR : une native, l’autre alimentée par deux prisesPCIe8."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-437ec7c0be79"
+    ],
+    "model": "REVOLUTION87+ 550W",
+    "src": "exa-archive-29",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "540 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "ERV550AWT-G"
+  },
+  {
+    "targets": [
+      "import-psu-b2d35c8858bf"
+    ],
+    "model": "REVOLUTION87+ 1000W",
+    "src": "exa-archive-29",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "996 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 + 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "ERV1000EWT-G"
+  },
+  {
+    "targets": [
+      "import-psu-ec2ddb3fa46f"
+    ],
+    "model": "MAXREVO 1350W",
+    "src": "exa-archive-32",
+    "props": {
+      "power": 1350,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "1344 W combinés (112 A), 6 rails",
+      "connectors": "1×24 broches ; 2×CPU8 ; 1×CPU4/RAM ; 8×PCIe6+2 ; 14×SATA ; 10×Molex ; 2×FDD"
+    },
+    "mpn": "EMR1350EWT"
+  },
+  {
+    "targets": [
+      "import-psu-2485451226e3"
+    ],
+    "model": "MODU87+ 800W",
+    "src": "exa-archive-27",
+    "props": {
+      "power": 800,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "792 W combinés, 4 rails"
+    },
+    "mpn": "EMG800EWT",
+    "notes": [
+      "Correction de l’archive : les câbles carte mère et CPU sont fixes ; le bloc est semi-modulaire. La notice ne précise pas le nombre de chaque câble optionnel, celui-ci reste non confirmé."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-3baccb9b4ac2"
+    ],
+    "model": "MODU87+ 900W",
+    "src": "exa-archive-27",
+    "props": {
+      "power": 900,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "900 W combinés, 4 rails"
+    },
+    "mpn": "EMG900EWT",
+    "notes": [
+      "Correction de l’archive : les câbles carte mère et CPU sont fixes ; le bloc est semi-modulaire. La notice ne précise pas le nombre de chaque câble optionnel, celui-ci reste non confirmé."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-14389aef2d96"
+    ],
+    "model": "RevoBron TGA 500W",
+    "src": "exa-archive-18",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "498 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERB500AWT TR"
+  },
+  {
+    "targets": [
+      "import-psu-a7bd14fecc40"
+    ],
+    "model": "RevoBron TGA 700W",
+    "src": "exa-archive-18",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "696 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERB700AWT TR"
+  },
+  {
+    "targets": [
+      "import-psu-0af441606f1d"
+    ],
+    "model": "EDGE EDG650",
+    "src": "exa-legacy-0",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 170,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "fan": "135 mm FDB à LED blanches",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, NLO, SCP, OPP, OTP, SIP",
+      "rail12v": "648 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EDG650"
+  },
+  {
+    "targets": [
+      "import-psu-c580292d642c"
+    ],
+    "model": "TruePower Classic TP-650C",
+    "src": "exa-legacy-8",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm DBB",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO",
+      "rail12v": "648 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 6×SATA ; 5×Molex ; 1×FDD"
+    },
+    "mpn": "TP-650C"
+  },
+  {
+    "targets": [
+      "import-psu-f84cf3549cc7"
+    ],
+    "model": "High Current Gamer HCG-620M",
+    "src": "exa-legacy-2",
+    "props": {
+      "power": 620,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-620M"
+  },
+  {
+    "targets": [
+      "import-psu-d3b0edfac647"
+    ],
+    "model": "High Current Gamer HCG-750M",
+    "src": "exa-legacy-3",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, OTP",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-750M"
+  },
+  {
+    "targets": [
+      "import-psu-dced4dad7c36"
+    ],
+    "model": "High Current Gamer HCG-850M",
+    "src": "exa-legacy-4",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, OTP",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD ; 1×CPU8"
+    },
+    "mpn": "HCG-850M"
+  },
+  {
+    "targets": [
+      "import-psu-04e9d4555a1b"
+    ],
+    "model": "High Current Gamer HCG-900",
+    "src": "exa-legacy-1",
+    "props": {
+      "power": 900,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-900"
+  },
+  {
+    "targets": [
+      "import-psu-ecd98e6c960f"
+    ],
+    "model": "EarthWatts EA-550 Platinum",
+    "src": "exa-legacy-15",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "120 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP",
+      "warranty": "3 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-550 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-854f5ce497e5"
+    ],
+    "model": "EarthWatts EA-650 Platinum",
+    "src": "exa-legacy-14",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "120 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP",
+      "warranty": "3 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-650 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-af71c55090d7",
+      "import-psu-b19fb76a9937"
+    ],
+    "model": "EarthWatts EA-430D Green",
+    "src": "exa-legacy-12",
+    "props": {
+      "power": 430,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "80 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, SCP",
+      "rail12v": "384 W combinés, 2 rails",
+      "connectors": "1×20+4 ; 1×CPU4+4 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-430D Green",
+    "notes": [
+      "Certification Bronze explicite du modèle Green ; la ligne d’archive indiquant seulement 80PLUS est précisée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-dc6815085977"
+    ],
+    "model": "EarthWatts EA-500D Green",
+    "src": "exa-legacy-11",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "80 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, SCP",
+      "rail12v": "444 W combinés, 2 rails",
+      "connectors": "1×20+4 ; 1×CPU4+4 ; 1×PCIe6+2 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-500D Green"
+  },
+  {
+    "targets": [
+      "import-psu-0a0068237ec7"
+    ],
+    "model": "Basiq BP550 PLUS",
+    "src": "exa-legacy-16",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, SCP",
+      "warranty": "3 ans",
+      "connectors": "1×20+4 ; 1×CPU4+4 ; 1×PCIe6+2 ; 1×PCIe6 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "BP550 PLUS"
+  },
+  {
+    "targets": [
+      "import-psu-e70fcc77f607"
+    ],
+    "model": "High Current Pro HCP-850 Platinum",
+    "src": "exa-legacy-18",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 2.32",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO, BOP",
+      "warranty": "7 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD ; câble OC Link"
+    },
+    "mpn": "HCP-850 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-13d8d86ec1a3"
+    ],
+    "model": "High Current Pro HCP-1200",
+    "src": "exa-legacy-19",
+    "props": {
+      "power": 1200,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, SCP, OPP, OTP"
+    },
+    "mpn": "HCP-1200",
+    "notes": [
+      "Correction de l’archive : la notice décrit des câbles fixes et des câbles amovibles, donc un bloc semi-modulaire."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-d300c62f0ba2"
+    ],
+    "model": "DIGIFANLESS 550W",
+    "src": "exa-legacy-21",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "fan": "Sans ventilateur (refroidissement passif)",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "540 W combinés (45 A) ; 2 rails commutables en rail unique via ZDPMS",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD ; liaison ZDPMS"
+    },
+    "mpn": "EDF550AWN"
+  },
+  {
+    "targets": [
+      "import-psu-e188b9394b97"
+    ],
+    "model": "Platimax D.F. 600W",
+    "src": "exa-legacy-30",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "SCP, OVP, UVP, OCP 3.3V/5V, OPP, SIP",
+      "rail12v": "600 W (50 A), rail unique",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EPF600AWT"
+  },
+  {
+    "targets": [
+      "import-psu-77b87943c99d"
+    ],
+    "model": "PRO87+ 500W",
+    "src": "exa-legacy-25",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "492 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 5×Molex ; 1×FDD"
+    },
+    "mpn": "EPG500AWT"
+  },
+  {
+    "targets": [
+      "import-psu-330606b5a762"
+    ],
+    "model": "PRO87+ 600W",
+    "src": "exa-legacy-25",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "600 W combinés",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 7×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EPG600AWT"
+  },
+  {
+    "targets": [
+      "import-psu-bccd03a0e8df"
+    ],
+    "model": "MAXPRO 500W",
+    "src": "exa-extra-6",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Standard 230V EU",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm Twister Bearing",
+      "protections": "OCP +3.3V/+5V/+12V, OVP, OPP, SCP, SIP",
+      "rail12v": "456 W (38 A)",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EMP500AGT"
+  },
+  {
+    "targets": [
+      "import-psu-8a3d6e492d69"
+    ],
+    "model": "REVOLUTION X’t II 550W",
+    "src": "exa-extra-14",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP +3.3V/+5V, OVP, OPP, SCP, SIP",
+      "rail12v": "540 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX550AWT"
+  },
+  {
+    "targets": [
+      "import-psu-2700e240ef4a"
+    ],
+    "model": "REVOLUTION X’t II 650W",
+    "src": "exa-extra-14",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP +3.3V/+5V, OVP, OPP, SCP, SIP",
+      "rail12v": "636 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX650AWT"
+  },
+  {
+    "targets": [
+      "import-psu-de62431149a5"
+    ],
+    "model": "REVOLUTION X’t II 750W",
+    "src": "exa-extra-14",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP +3.3V/+5V, OVP, OPP, SCP, SIP",
+      "rail12v": "744 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERX750AWT"
+  },
+  {
+    "targets": [
+      "import-psu-06ac35d457f0"
+    ],
+    "model": "REVOLUTION DUO 500W",
+    "src": "exa-extra-40",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "100 mm admission + 80 mm extraction, Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "protections": "OCP +3.3V/+5V, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "498 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERD500AWL-F",
+    "extra": {
+      "fanCount": 2
+    },
+    "notes": [
+      "Deux ventilateurs distincts : admission100mm et extraction80mm. Le diamètre principal100mm ne désigne pas deux ventilateurs identiques."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-f5d9aa2795d5"
+    ],
+    "model": "REVOLUTION DUO 600W",
+    "src": "exa-extra-40",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "100 mm admission + 80 mm extraction, Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "protections": "OCP +3.3V/+5V, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "600 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERD600AWL-F",
+    "extra": {
+      "fanCount": 2
+    },
+    "notes": [
+      "Deux ventilateurs distincts : admission100mm et extraction80mm. Le diamètre principal100mm ne désigne pas deux ventilateurs identiques."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-8fdec519f6d5"
+    ],
+    "model": "REVOLUTION DUO 700W",
+    "src": "exa-extra-40",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "100 mm admission + 80 mm extraction, Twister Bearing",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "protections": "OCP +3.3V/+5V, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "696 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERD700AWL-F",
+    "extra": {
+      "fanCount": 2
+    },
+    "notes": [
+      "Deux ventilateurs distincts : admission100mm et extraction80mm. Le diamètre principal100mm ne désigne pas deux ventilateurs identiques."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-c51f65e805c5"
+    ],
+    "model": "TRIATHLOR ECO 800W",
+    "src": "exa-extra-48",
+    "props": {
+      "power": 800,
+      "format": "ATX",
+      "depth": 165,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OVP, OPP, SCP",
+      "rail12v": "780 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 4×PCIe6+2 ; 12×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ETL800EWT-M",
+    "sourceOverrides": {
+      "atx": "exa-legacy-28"
+    },
+    "notes": [
+      "La notice contient une contradiction de diamètre du ventilateur (140mm dans les spécifications, 120mm dans l’illustration) ; ce champ reste non confirmé."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-3af01fa61409"
+    ],
+    "model": "TRIATHLOR ECO 1000W",
+    "src": "exa-extra-48",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 165,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OVP, OPP, SCP",
+      "rail12v": "996 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 12×SATA ; 8×Molex ; 1×FDD"
+    },
+    "mpn": "ETL1000EWT-M",
+    "sourceOverrides": {
+      "atx": "exa-legacy-28"
+    },
+    "notes": [
+      "La notice contient une contradiction de diamètre du ventilateur (140mm dans les spécifications, 120mm dans l’illustration) ; ce champ reste non confirmé."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-1d680dba638c"
+    ],
+    "model": "MARBLEBRON 850W White",
+    "src": "exa-extra-56",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "protections": "OVP, UVP, OPP, OTP, SCP",
+      "rail12v": "840 W (70 A)",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EMB850EWT-W-RGB"
+  },
+  {
+    "targets": [
+      "import-psu-c7a48a13ca35"
+    ],
+    "model": "NeoECO Classic NE650C",
+    "src": "exa-extra-9",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm DBB",
+      "warranty": "3 ans",
+      "protections": "SCP, OVP ; autres protections CircuitShield non détaillées",
+      "rail12v": "600 W (50 A)",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 6×SATA ; 5×Molex ; 1×FDD"
+    },
+    "mpn": "NE650C"
+  },
+  {
+    "targets": [
+      "import-psu-3c01ffdb4d16"
+    ],
+    "model": "EDGE EDG750",
+    "src": "exa-extra-19",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 170,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "fan": "135 mm FDB à LED blanches",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, NLO, SCP, OPP, OTP, SIP",
+      "rail12v": "744 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EDG750"
+  },
+  {
+    "targets": [
+      "import-psu-1b373a0e6dc1"
+    ],
+    "model": "NeoECO Modular NE450M",
+    "src": "exa-extra-49",
+    "props": {
+      "power": 450,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "rail12v": "408 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×PCIe6+2 ; 4×SATA ; 2×Molex"
+    },
+    "mpn": "NE450M"
+  },
+  {
+    "targets": [
+      "import-psu-aea141854ba8"
+    ],
+    "model": "NeoECO Modular NE550M",
+    "src": "exa-extra-35",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "3 ans",
+      "rail12v": "504 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 5×SATA ; 3×Molex"
+    },
+    "mpn": "NE550M"
+  },
+  {
+    "targets": [
+      "import-psu-a3606efce324"
+    ],
+    "model": "High Current Gamer HCG-520",
+    "src": "exa-extra-8",
+    "props": {
+      "power": 520,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP",
+      "rail12v": "40 A sur le rail +12V",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-520"
+  },
+  {
+    "targets": [
+      "import-psu-ff4c824debe3"
+    ],
+    "model": "High Current Pro HCP-750",
+    "src": "exa-extra-22",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "135 mm DBB PWM",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, SCP, OPP, OTP",
+      "rail12v": "744 W combinés (62 A), 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "HCP-750"
+  },
+  {
+    "targets": [
+      "import-psu-230c1525c644"
+    ],
+    "model": "NAXN ENP500AWT",
+    "src": "exa-extra-12",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Standard",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OVP, UVP, SCP, OPP, SIP",
+      "rail12v": "408 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×PCIe6+2 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ENP500AWT"
+  },
+  {
+    "targets": [
+      "import-psu-187158f6c27a"
+    ],
+    "model": "NAXN ENP600AWT",
+    "src": "exa-extra-12",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Standard",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OVP, UVP, SCP, OPP, SIP",
+      "rail12v": "480 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 7×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ENP600AWT"
+  },
+  {
+    "targets": [
+      "import-psu-a0b45f2d8295"
+    ],
+    "model": "NAXN ENP550AWT",
+    "src": "exa-extra-12",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OVP, UVP, SCP, OPP, SIP",
+      "rail12v": "456 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×PCIe6+2 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ENP550AWT",
+    "notes": [
+      "Ce modèle ne porte pas le suffixe-B ; la certification des ENP550AWT-B n’est pas transposée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-0a2dd4ea1215"
+    ],
+    "model": "NAXN ENM750AWT",
+    "src": "exa-extra-12",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OVP, UVP, SCP, OPP, SIP",
+      "rail12v": "648 W combinés (54 A), 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 4×PCIe6+2 ; 10×SATA ; 5×Molex ; 1×FDD"
+    },
+    "mpn": "ENM750AWT"
+  },
+  {
+    "targets": [
+      "import-psu-b21cc2356d41"
+    ],
+    "model": "NE1000G M ATX3.0",
+    "src": "exa-extra-2",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "fan": "120 mm FDB",
+      "atx": "ATX12V 3.0",
+      "warranty": "10 ans (fiche technique constructeur ; offre régionale mentionne1an)",
+      "protections": "OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 1×12VHPWR natif ; 12×SATA ; 4×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Page régionale officielle conservant la révisionATX3.0. La garantie technique annoncée10ans se distingue de la garantie1an affichée par la boutique régionale ; aucune offre commerciale n’est importée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-60192136e6af"
+    ],
+    "model": "High Current Pro HCP-1300 Platinum",
+    "src": "exa-extra-30",
+    "props": {
+      "power": 1300,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 2.32",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO, BOP",
+      "warranty": "7 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 10×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD ; OC Link"
+    },
+    "mpn": "HCP-1300 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-a1809f8a60cf"
+    ],
+    "model": "RevoBron 500W",
+    "src": "fetch-d134f93a5501cd15",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "498 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERB500AWT",
+    "notes": []
+  },
+  {
+    "targets": [
+      "import-psu-3877e470d92c"
+    ],
+    "model": "RevoBron 600W",
+    "src": "fetch-7b8c4462f199765f",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "600 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERB600AWT",
+    "notes": []
+  },
+  {
+    "targets": [
+      "import-psu-1589f82e4701"
+    ],
+    "model": "RevoBron 700W",
+    "src": "fetch-afc5ab11fcaf1756",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, UVP, OPP, SCP, SIP",
+      "rail12v": "696 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "ERB700AWT",
+    "notes": [
+      "Le modèleERB700AWT est identifié par le titre et la table de sortie696W ; la ligne de puissance nominale600W de la page est une coquille non recopiée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-e402afece718"
+    ],
+    "model": "EarthWatts Gold Pro 550W",
+    "src": "fetch-4fd58b98a238defb",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "7 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO",
+      "rail12v": "540 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 3×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Tableau de sortie et dessin coté lus directement dans le PDF constructeur ; dimensions du bloc, sans les câbles."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-794ef15568d8"
+    ],
+    "model": "EarthWatts Gold Pro 650W",
+    "src": "fetch-54b65dfc64aa3713",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "7 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO",
+      "rail12v": "648 W",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 6×SATA ; 3×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Tableau de sortie et dessin coté lus directement dans le PDF constructeur ; dimensions du bloc, sans les câbles."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-d678550c9c19"
+    ],
+    "model": "EarthWatts Gold Pro 750W",
+    "src": "fetch-546be1b5949b8a20",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "7 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO",
+      "rail12v": "744 W",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 8×SATA ; 3×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Tableau de sortie et dessin coté lus directement dans le PDF constructeur ; dimensions du bloc, sans les câbles."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-0ed8f511ff24"
+    ],
+    "model": "NE850G M ATX3.0",
+    "src": "fetch-764091d57a56ef6e",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 3.0",
+      "warranty": "10 ans",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 1×12VHPWR ; 12×SATA ; 4×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Notice originaleATX3.0 du14avril2023. Les pages web actuelles renomméesATX3.1 ne servent pas à compléter les dimensions, ventilateur ou puissance+12V."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-670863b47abb"
+    ],
+    "model": "NE1300G M ATX3.0",
+    "src": "fetch-764091d57a56ef6e",
+    "props": {
+      "power": 1300,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 3.0",
+      "warranty": "10 ans",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 1×12VHPWR ; 12×SATA ; 4×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "Notice originaleATX3.0 du14avril2023. Les pages web actuelles renomméesATX3.1 ne servent pas à compléter les dimensions, ventilateur ou puissance+12V."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-16e39ef45721"
+    ],
+    "model": "NE1000G M White ATX3.0",
+    "src": "exa-extra-1",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "fan": "120 mm FDB",
+      "atx": "ATX12V 3.0",
+      "warranty": "10 ans",
+      "protections": "OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO",
+      "connectors": "1×24 broches ; 2×CPU4+4 ; 4×PCIe6+2 ; 1×12VHPWR ; 12×SATA ; 4×Molex"
+    },
+    "mpn": "",
+    "notes": [
+      "La présentation officielle identifie la versionGoldATX3.0 blanche ; le tableau copié mentionne à tortBronzeATX2.4. Ces deux cellules contradictoires sont remplacées par la présentation et la noticeATX3.0, pas par la révision3.1 actuelle."
+    ],
+    "sourceOverrides": {
+      "atx": "fetch-764091d57a56ef6e",
+      "efficiency": "fetch-764091d57a56ef6e"
+    }
+  },
+  {
+    "targets": [
+      "import-psu-689b19ef73e5"
+    ],
+    "model": "High Current Pro HCP-1000 Platinum",
+    "src": "exa-final-4",
+    "props": {
+      "power": 1000,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 2.32",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO, BOP",
+      "warranty": "7 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 6×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD ; OC Link"
+    },
+    "mpn": "HCP-1000 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-3aefc71aed92"
+    ],
+    "model": "EarthWatts EA-450 Platinum",
+    "src": "exa-extra-34",
+    "props": {
+      "power": 450,
+      "format": "ATX",
+      "efficiency": "80 PLUS Platinum",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "120 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP",
+      "warranty": "3 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-450 Platinum"
+  },
+  {
+    "targets": [
+      "import-psu-0522a5094f64",
+      "import-psu-66d8a69f1f5f"
+    ],
+    "model": "TruePower Quattro TPQ-1200",
+    "src": "exa-legacy-9",
+    "props": {
+      "power": 1200,
+      "format": "ATX",
+      "efficiency": "80 PLUS Silver",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, UVP, SCP",
+      "rail12v": "1200 W combinés (100 A), 6 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×CPU8 ; 4×PCIe6+2 ; 2×PCIe6 ; 11×SATA ; 9×Molex ; 2×FDD"
+    },
+    "mpn": "TPQ-1200",
+    "notes": [
+      "Les deux lignes d’archive partagent ce modèle : la notice confirme un câblage semi-modulaire, pas entièrement modulaire."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-70003312dac4"
+    ],
+    "model": "Signature SG-850",
+    "src": "exa-legacy-17",
+    "props": {
+      "power": 850,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, SCP",
+      "rail12v": "780 W combinés (65 A), 4 rails"
+    },
+    "mpn": "SG-850",
+    "notes": [
+      "Correction du câblage : les cordons carte mère/CPU sont fixes ; les périphériques utilisent les prises modulaires. La notice ne permet pas d’identifier sûrement la répartition6/8broches desPCIe optionnels."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-b98bed7d5f3a"
+    ],
+    "model": "EDGE EDG550",
+    "src": "exa-final-5",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Entièrement modulaire",
+      "atx": "ATX12V 2.4",
+      "protections": "OCP, OVP, SCP, OPP, OTP, SIP, NLO",
+      "warranty": "5 ans",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 8×SATA ; 3×Molex ; 1×FDD"
+    },
+    "mpn": "EDG550"
+  },
+  {
+    "targets": [
+      "import-psu-2318a9ea7b19"
+    ],
+    "model": "LibertyECO II 720W",
+    "src": "exa-archive-9",
+    "props": {
+      "power": 720,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Standard",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "660 W combinés (55 A), 3 rails"
+    },
+    "mpn": "ELT720AWT-ECO II",
+    "notes": [
+      "Les câbles24broches etCPU sont fixes : correction de la mention entièrement modulaire. Le tableau de quantités des câbles doit être relu graphiquement avant confirmation."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-e693dd88c8f5"
+    ],
+    "model": "REVOLUTION85+ Compact 920W",
+    "src": "exa-extra-31",
+    "props": {
+      "power": 920,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "912 W combinés, 4 rails"
+    },
+    "mpn": "ERV920EWT",
+    "notes": [
+      "La notice confirme des câbles natifs et modulaires ; la certificationSilver, le diamètre du ventilateur et les quantités de câbles ne sont pas confirmés par ce document."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-8991be7eaeac"
+    ],
+    "model": "REVOLUTION85+ Compact 1020W",
+    "src": "exa-extra-31",
+    "props": {
+      "power": 1020,
+      "format": "ATX",
+      "depth": 175,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1020 W combinés, 4 rails"
+    },
+    "mpn": "ERV1020EWT",
+    "notes": [
+      "La notice confirme des câbles natifs et modulaires ; la certificationSilver, le diamètre du ventilateur et les quantités de câbles ne sont pas confirmés par ce document."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-c5ba90ce0a2b"
+    ],
+    "model": "Platimax 1200W",
+    "src": "exa-extra-51",
+    "props": {
+      "power": 1200,
+      "format": "ATX",
+      "depth": 180,
+      "width": 150,
+      "height": 86,
+      "modularity": "Entièrement modulaire",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "1200 W combinés (100 A), 6 rails"
+    },
+    "mpn": "EPM1200EWT",
+    "notes": [
+      "NoticePlatimax1200/1350W ; les caractéristiques duPlatimax1500W ne sont pas utilisées. Certification et câblage détaillé encore non établis par le texte de cette notice."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-9ae289a30129"
+    ],
+    "model": "MODU82+ 625W",
+    "src": "exa-extra-37",
+    "props": {
+      "power": 625,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "Rendement82–85% sous115V et84–88% sous230V (notice ; niveau80PLUS non précisé)",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, SCP, OTP",
+      "rail12v": "600 W combinés (50 A), 3 rails"
+    },
+    "mpn": "EMD625AWT",
+    "notes": [
+      "Modèleoriginal2008, distinct duMODU82+II ; cordons carte mère/CPU fixes, périphériques modulaires."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-0b07380df2f0"
+    ],
+    "model": "ECO80+ II 400W",
+    "src": "exa-extra-64",
+    "props": {
+      "power": 400,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "Rendement80–84% sous115V et82–86% sous230V (notice)",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, SCP, OTP",
+      "rail12v": "384 W combinés (32 A), 2 rails"
+    },
+    "mpn": "EES400AWT II",
+    "notes": [
+      "Le document identifie explicitement la révisionII. Les quantités de câbles et la révisionATX ne sont pas transposées depuis l’ancienneECO80+."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-b46e2e4d5208"
+    ],
+    "model": "Triathlor FC 550W",
+    "src": "exa-archive-3",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm Twister Bearing",
+      "protections": "OCP, OVP, UVP DC, OPP, OTP, SCP",
+      "rail12v": "540 W combinés, 2 rails"
+    },
+    "mpn": "ETA550AWT-M",
+    "notes": [
+      "VersionFC à câbles modulaires. La ficheTriathlor550W nonmodulaireETA550AWT et la gammeECO ne sont pas utilisées."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-fe8e182fd893"
+    ],
+    "model": "Triathlor FC 650W",
+    "src": "exa-archive-3",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm Twister Bearing",
+      "protections": "OCP, OVP, UVP DC, OPP, OTP, SCP",
+      "rail12v": "648 W combinés, 2 rails"
+    },
+    "mpn": "ETA650AWT-M",
+    "notes": [
+      "VersionFC à câbles modulaires. La ficheTriathlor550W nonmodulaireETA550AWT et la gammeECO ne sont pas utilisées."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-9d807b31582b"
+    ],
+    "model": "High Current Gamer HCG-520M",
+    "src": "exa-late-0",
+    "props": {
+      "power": 520,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.32",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP",
+      "rail12v": "40 A sur le rail +12V",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-520M"
+  },
+  {
+    "targets": [
+      "import-psu-7823654fb8f5"
+    ],
+    "model": "High Current Gamer HCG-400M",
+    "src": "exa-late-1",
+    "props": {
+      "power": 400,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP"
+    },
+    "mpn": "HCG-400M"
+  },
+  {
+    "targets": [
+      "import-psu-1a3f32b29bdc"
+    ],
+    "model": "High Current Gamer HCG-400",
+    "src": "exa-late-6",
+    "props": {
+      "power": 400,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "fan": "135 mm DBB",
+      "protections": "OVP, SCP, OPP, OCP",
+      "rail12v": "30 A sur le rail +12V",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "HCG-400"
+  },
+  {
+    "targets": [
+      "import-psu-3f3c4d26be8f"
+    ],
+    "model": "TruePower Classic TP-750C",
+    "src": "exa-late-2",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm DBB",
+      "atx": "ATX12V 2.4",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP, NLO",
+      "rail12v": "744 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 6×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "TP-750C"
+  },
+  {
+    "targets": [
+      "import-psu-09a1c22be85b"
+    ],
+    "model": "MODU82+ II 625W",
+    "src": "exa-late-3",
+    "props": {
+      "power": 625,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 85,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, UVP, OPP, OTP, SCP, SIP",
+      "rail12v": "600 W combinés (50 A), 3 rails"
+    },
+    "mpn": "EMD625AWTII",
+    "notes": [
+      "La fiche constructeur indique85mm de hauteur ; la valeur86mm de la première génération n’est pas recopiée. Quantités des câbles à vérifier dans le tableau graphique."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-6e533514bcd8"
+    ],
+    "model": "MODU87+ 700W",
+    "src": "exa-late-5",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 160,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "139 mm Twister Bearing",
+      "atx": "ATX12V 2.3",
+      "warranty": "5 ans",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "696 W combinés (58 A), 3 rails"
+    },
+    "mpn": "EMG700AWT",
+    "notes": [
+      "Câbles natifs carte mère/CPU et câbles modulaires : le bloc est semi-modulaire."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-b21da75c5946"
+    ],
+    "model": "TruePower New TP-550",
+    "src": "exa-legacy-7",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OVP, SCP, OCP",
+      "rail12v": "540 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4 ; 1×CPU8 ; 1×PCIe6+2 ; 1×PCIe6 ; 9×SATA ; 9×Molex ; 1×FDD"
+    },
+    "mpn": "TP-550",
+    "notes": [
+      "Correction de la modularité : la notice décrit des câbles natifs et des cordons amovibles. Le modèleGoldTP-C est une série distincte."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-dfbbea55a77d",
+      "import-psu-19cc548c2b43"
+    ],
+    "model": "TruePower New TP-750",
+    "src": "exa-legacy-6",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OVP, SCP, OCP",
+      "rail12v": "744 W combinés, 4 rails",
+      "connectors": "1×24 broches ; 1×CPU4 ; 1×CPU8 ; 2×PCIe6+2 ; 2×PCIe6 ; 9×SATA ; 9×Molex ; 1×FDD"
+    },
+    "mpn": "TP-750",
+    "notes": [
+      "Correction de la modularité : la notice décrit des câbles natifs et des cordons amovibles. Le modèleGoldTP-C est une série distincte."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-479a66d2d5d9"
+    ],
+    "model": "EarthWatts EA-650 Green",
+    "src": "exa-extra-5",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, SCP, OPP, OTP",
+      "rail12v": "650 W maximum combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 7×SATA ; 5×Molex ; 1×FDD"
+    },
+    "mpn": "EA-650 Green"
+  },
+  {
+    "targets": [
+      "import-psu-702e84f3d329"
+    ],
+    "model": "EarthWatts EA-500D Green",
+    "src": "exa-legacy-11",
+    "props": {
+      "power": 500,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "80 mm",
+      "atx": "ATX12V 2.3",
+      "warranty": "3 ans",
+      "protections": "OCP, OVP, SCP",
+      "rail12v": "444 W combinés, 2 rails",
+      "connectors": "1×20+4 ; 1×CPU4+4 ; 1×PCIe6+2 ; 1×PCIe6 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "EA-500D Green",
+    "notes": [
+      "Le modèleEarthWatts500WBronze correspond à la varianteEA-500DGreen ; l’ancienEA-50080PLUSstandard est distinct."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-22e5c11a4c88"
+    ],
+    "model": "EarthWatts EA-750",
+    "src": "exa-extra-26",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "efficiency": "80 PLUS Standard",
+      "modularity": "Semi-modulaire",
+      "atx": "ATX12V 2.3",
+      "protections": "OVP, SCP, OCP",
+      "connectors": "1×24 broches ; 1×CPU4 ; 1×CPU8 ; 2×PCIe6+2 ; 2×PCIe6 ; 9×SATA ; 9×Molex ; 1×FDD"
+    },
+    "mpn": "EA-750",
+    "notes": [
+      "AncienEA-75080PLUSstandard : la notice établit le câblage semi-modulaire, malgré la valeur fixe de l’archive."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-ccffa8b010bb"
+    ],
+    "model": "EarthWatts EA-750 Green",
+    "src": "exa-final-10",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, SCP, OPP, OTP, SIP",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 9×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "EA-750 Green",
+    "notes": [
+      "La notice espagnole mentionne4rails mais ne nomme que2rails dans la limite combinée ; cette cellule contradictoire n’est pas validée."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-2dff35ae146b"
+    ],
+    "model": "NeoECO Gold 550W semi-modulaire",
+    "src": "exa-late-8",
+    "props": {
+      "power": 550,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "warranty": "7 ans"
+    },
+    "mpn": "",
+    "notes": [
+      "Communiqué originalAntec daté31juillet2019, reproduit parHEXUS. La gamme semi-modulaire550/650/750W est explicitement identifiée ; aucun MP N ni câblage duNeoECOGoldModular2021/2024 n’est repris."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-d12bb22cd274"
+    ],
+    "model": "NeoECO Gold 650W semi-modulaire",
+    "src": "exa-late-8",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "warranty": "7 ans"
+    },
+    "mpn": "",
+    "notes": [
+      "Communiqué originalAntec daté31juillet2019, reproduit parHEXUS. La gamme semi-modulaire550/650/750W est explicitement identifiée ; aucun MP N ni câblage duNeoECOGoldModular2021/2024 n’est repris."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-053de23d7cfa"
+    ],
+    "model": "NeoECO Gold 750W semi-modulaire",
+    "src": "exa-late-8",
+    "props": {
+      "power": 750,
+      "format": "ATX",
+      "efficiency": "80 PLUS Gold",
+      "modularity": "Semi-modulaire",
+      "fan": "120 mm",
+      "warranty": "7 ans"
+    },
+    "mpn": "",
+    "notes": [
+      "Communiqué originalAntec daté31juillet2019, reproduit parHEXUS. La gamme semi-modulaire550/650/750W est explicitement identifiée ; aucun MP N ni câblage duNeoECOGoldModular2021/2024 n’est repris."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-d044cdc8816e"
+    ],
+    "model": "VP600P",
+    "src": "fetch-9eb995d51aa188a6",
+    "props": {
+      "power": 600,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "Rendement annoncé jusqu’à88% ; niveau80PLUS non documenté",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "2 ans",
+      "rail12v": "540 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 5×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "VP600P",
+    "notes": [
+      "VersionVP2014 sansPLUS ; les caractéristiques duVPPLUS2018 ne sont pas transposées."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-424163ae56c4"
+    ],
+    "model": "VP700P",
+    "src": "fetch-ee786958fc35bdee",
+    "props": {
+      "power": 700,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "Rendement annoncé jusqu’à88% ; niveau80PLUS non documenté",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm",
+      "atx": "ATX12V 2.4",
+      "warranty": "2 ans",
+      "rail12v": "636 W combinés, 2 rails",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 4×PCIe6+2 ; 6×SATA ; 4×Molex ; 1×FDD"
+    },
+    "mpn": "VP700P",
+    "notes": [
+      "VersionVP2014 sansPLUS ; les caractéristiques duVPPLUS2018 ne sont pas transposées."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-65412fbe1dc5"
+    ],
+    "model": "VP450P",
+    "src": "extra-antec-1ce01deaaf",
+    "props": {
+      "power": 450,
+      "format": "ATX",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.3",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, SCP, OPP",
+      "warranty": "2 ans"
+    },
+    "mpn": "VP450P"
+  },
+  {
+    "targets": [
+      "import-psu-2892752863cd"
+    ],
+    "model": "TRIATHLOR ECO 450W",
+    "src": "exa-extra-53",
+    "props": {
+      "power": 450,
+      "efficiency": "80 PLUS Bronze",
+      "fan": "120 mm double roulement à billes"
+    },
+    "mpn": "ETL450AWT-M",
+    "notes": [
+      "Page officiellejaponaise dédiée aux modèles450/550/650W. Les dimensions et protections de l’ECO800/1000W ne sont pas transposées ; les champs non exposés restent inconnus."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-a74fc3752b09"
+    ],
+    "model": "TRIATHLOR ECO 550W",
+    "src": "exa-extra-53",
+    "props": {
+      "power": 550,
+      "efficiency": "80 PLUS Bronze",
+      "fan": "120 mm double roulement à billes"
+    },
+    "mpn": "ETL550AWT-M",
+    "notes": [
+      "Page officiellejaponaise dédiée aux modèles450/550/650W. Les dimensions et protections de l’ECO800/1000W ne sont pas transposées ; les champs non exposés restent inconnus."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-2f4aaf870250"
+    ],
+    "model": "TRIATHLOR ECO 650W",
+    "src": "exa-extra-53",
+    "props": {
+      "power": 650,
+      "efficiency": "80 PLUS Bronze",
+      "fan": "120 mm double roulement à billes"
+    },
+    "mpn": "ETL650AWT-M",
+    "notes": [
+      "Page officiellejaponaise dédiée aux modèles450/550/650W. Les dimensions et protections de l’ECO800/1000W ne sont pas transposées ; les champs non exposés restent inconnus."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-8cb53d322f00"
+    ],
+    "model": "High Current Gamer HCG-620",
+    "src": "exa-last-0",
+    "props": {
+      "power": 620,
+      "format": "ATX",
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "135 mm DBB",
+      "protections": "OCP, OVP, UVP, SCP, OPP, SIP, BOP"
+    },
+    "mpn": "HCG-620"
+  },
+  {
+    "targets": [
+      "import-psu-6861ac6b6802"
+    ],
+    "model": "VP650P",
+    "src": "exa-last-4",
+    "props": {
+      "power": 650,
+      "format": "ATX",
+      "modularity": "Câbles fixes",
+      "atx": "ATX12V 2.32",
+      "fan": "120 mm",
+      "protections": "OCP, OVP, SCP, OPP, OTP",
+      "warranty": "2 ans"
+    },
+    "mpn": "VP650P"
+  },
+  {
+    "targets": [
+      "import-psu-24d4513a1804"
+    ],
+    "model": "PRO82+ II 525W",
+    "src": "exa-last-6",
+    "props": {
+      "power": 525,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm double roulement à billes",
+      "atx": "ATX12V 2.3",
+      "protections": "OCP, OVP, UVP AC/DC, OPP, OTP, SCP, SIP",
+      "rail12v": "480 W combinés (40 A), 3 rails"
+    },
+    "mpn": "EPR525AWTII",
+    "sourceOverrides": {
+      "height": "pro82ii-page3",
+      "width": "pro82ii-page3",
+      "depth": "pro82ii-page3",
+      "fan": "pro82ii-page3",
+      "rail12v": "pro82ii-page4"
+    },
+    "notes": [
+      "Fiche constructeur de 2009, révision II. Le tableau des câbles doit être relu graphiquement pour confirmer les quantités ; aucun comptage des modèles 385/425/625 W n’est repris."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-8c22fb9df452"
+    ],
+    "model": "Basiq 430",
+    "src": "exa-last-7",
+    "props": {
+      "power": 430,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "Rendement minimum 70 % à 115 V, pleine charge (fiche constructeur ; certification 80 PLUS non confirmée)",
+      "modularity": "Câbles fixes",
+      "fan": "80 mm",
+      "atx": "ATX12V 2.2",
+      "protections": "OCP, OVP, SCP"
+    },
+    "mpn": "",
+    "notes": [
+      "L’archive mentionnait 80 PLUS ; le document constructeur confirme seulement un rendement minimum de 70 % à pleine charge. Aucun niveau de certification n’est affirmé."
+    ]
+  },
+  {
+    "targets": [
+      "import-psu-fe85172132e3"
+    ],
+    "model": "NeoECO 620C",
+    "src": "exa-last-8",
+    "props": {
+      "power": 620,
+      "format": "ATX",
+      "depth": 140,
+      "width": 150,
+      "height": 86,
+      "efficiency": "80 PLUS Bronze",
+      "modularity": "Câbles fixes",
+      "fan": "120 mm DBB",
+      "warranty": "3 ans au Japon via le distributeur agréé Links",
+      "protections": "OCP, OVP, UVP, SCP, OPP",
+      "rail12v": "576 W (48 A), rail unique",
+      "connectors": "1×24 broches ; 1×CPU4+4 ; 2×PCIe6+2 ; 6×SATA ; 6×Molex ; 1×FDD"
+    },
+    "mpn": "",
+    "notes": [
+      "Documentation technique du distributeur officiel japonais Links, modèle arrêté. La garantie publiée concerne le Japon ; aucune garantie européenne ni référence régionale n’est déduite."
+    ]
+  }
+]

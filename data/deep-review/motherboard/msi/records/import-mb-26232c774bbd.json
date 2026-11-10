@@ -1,0 +1,230 @@
+{
+  "review": {
+    "id": "import-mb-26232c774bbd",
+    "name": "PRO B760M-G",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+    "sections": [
+      "Chipset",
+      "CPU",
+      "Memory",
+      "Onboard Graphics",
+      "Slot",
+      "Audio",
+      "Storage",
+      "RAID",
+      "USB",
+      "LAN",
+      "Internal IO",
+      "LED FEATURE",
+      "BACK PANEL PORTS",
+      "OPERATING SYSTEM",
+      "BOX CONTENT",
+      "PCB Info"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1675304244ff2c4cecb61dc78992ab3ef18bd83ac1.webp"
+    ],
+    "documentedFields": [
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRO B760M-G",
+    "identityNote": "Modèle MSI PRO B760M-G confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 243.84,
+      "widthMm": 220,
+      "manufacturerPartNumber": "PRO B760M-G",
+      "description": "Carte mère MSI PRO B760M-G. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "2 emplacements DDR5",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "INTEL B760"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® ProcessorsLGA 1700"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR5, Maximum Memory Capacity 128GBMemory Support DDR5 6400+(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC)Max. overclocking frequency:\n\n• 1DPC 1R Max speed up to 6400+ MHz\n\n• 1DPC 2R Max speed up to 5600+ MHz\nSupports Intel® XMP 3.0 OC\n\nSupports Dual-Controller Dual-Channel mode\n\nSupports non-ECC, un-buffered memory"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™Support HDMI™ 2.1 with HDR, maximum resolution of 4K 60Hz*1x DisplayPortSupport DP 1.4, maximum resolution of 4K 60Hz*1x VGASupport VGA, maximum resolution of 2048x1536 50Hz, 2048x1280 60Hz, 1920x1200 60Hz*Available only on processors featuring integrated graphics. Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCI-E x16 slot1x PCI-E x1 slotPCI_E1 Gen PCIe 4.0 supports up to (From CPU) PCI_E2 Gen PCIe 4.0 supports up to (From Chipset)"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "2x M.2M.2_1 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260/2242 devices M.2_2 Source (From Chipset) supports up to PCIe 4.0 x4 / SATA mode, supports 2280/2260/2242 devices 4x SATA 6G* SATA7 will be unavailable when installing M.2 SATA SSD in the M2_2 slot."
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "2x USB 2.0 (Rear)4x USB 2.0 (Front)4x USB 5Gbps Type A (Rear)2x USB 5Gbps Type A (Front)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® RTL8125B 2.5Gbps LAN"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x Power Connector(ATX_PWR)1x Power Connector(CPU_PWR)1x CPU Fan2x System Fan2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Com Port (JCOM)2x Addressable V2 RGB LED connector (JARGB_V2)1x RGB LED connector(JRGB)1x TPM pin header(Support TPM 2.0)4x USB 2.0 ports2x USB 5Gbps Type A ports"
+          },
+          {
+            "label": "LED FEATURE",
+            "value": "4x EZ Debug LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "HDMI™\n\nVGA\n\nDisplayPort\n\nKeyboard / Mouse\n\n2.5G LAN\n\nAudio Connectors\n\nUSB 2.0\n\nUSB 3.2 Gen 1 5Gbps (Type-A)"
+          },
+          {
+            "label": "OPERATING SYSTEM",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX220mmx243.84mm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1675304244ff2c4cecb61dc78992ab3ef18bd83ac1.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "formFactor": {
+        "value": "mATX220mmx243.84mm",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX220mmx243.84mm",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "chipset": {
+        "value": "INTEL B760",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "storagePorts": {
+        "value": "2x M.2M.2_1 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260/2242 devices M.2_2 Source (From Chipset) supports up to PCIe 4.0 x4 / SATA mode, supports 2280/2260/2242 devices 4x SATA 6G* SATA7 will be unavailable when installing M.2 SATA SSD in the M2_2 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "pcie": {
+        "value": "1x PCI-E x16 slot1x PCI-E x1 slotPCI_E1 Gen PCIe 4.0 supports up to (From CPU) PCI_E2 Gen PCIe 4.0 supports up to (From Chipset)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "rearIO": {
+        "value": "HDMI™\n\nVGA\n\nDisplayPort\n\nKeyboard / Mouse\n\n2.5G LAN\n\nAudio Connectors\n\nUSB 2.0\n\nUSB 3.2 Gen 1 5Gbps (Type-A)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "internalIO": {
+        "value": "1x Power Connector(ATX_PWR)1x Power Connector(CPU_PWR)1x CPU Fan2x System Fan2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Com Port (JCOM)2x Addressable V2 RGB LED connector (JARGB_V2)1x RGB LED connector(JRGB)1x TPM pin header(Support TPM 2.0)4x USB 2.0 ports2x USB 5Gbps Type A ports",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "network": {
+        "value": "Realtek® RTL8125B 2.5Gbps LAN",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® ProcessorsLGA 1700",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B760M-G/Specification",
+        "checkedAt": "2026-11-10T11:00:34+00:00"
+      }
+    }
+  }
+}

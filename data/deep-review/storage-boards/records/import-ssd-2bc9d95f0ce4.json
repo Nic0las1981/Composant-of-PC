@@ -1,0 +1,57 @@
+{
+  "id": "import-ssd-2bc9d95f0ce4",
+  "brand": "Gigabyte",
+  "manufacturerModel": "GIGABYTE Gen4 4000E SSD 250GB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp",
+    "checkedAt": "2026-11-10T14:36:09+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp",
+    "checkedAt": "2026-11-10T14:36:09+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp",
+    "sha256": "b9cc526b4f8ff21fb42b89e8803f3fec4cdc718064a81706490266a965f42210",
+    "bytes": 579462,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI Express 4.0x4, NVMe 1.4",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "250GB",
+    "External DDR Cache": "N/A",
+    "Sequential Read speed": "Up to 3500 MB/s",
+    "Sequential Write speed": "Up to 1800MB/s",
+    "Dimension": "22 x 2.3 x 80 mm",
+    "Mean time between failure (MTBF)": "1.5 million hours",
+    "Max. Operating Power": "Read: 4200mW\n\nWrite: 4000mW",
+    "Power Consumption (Idle, PS3)": "50mW",
+    "Power Consumption(PS4, L1.2)": "5mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 3 years or 150TBW.\n\n2. Limited warranty based on 3 years or 150TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"\"Percentage Used\"\" (SMART ID: 05) in SMART page of \"\"GIGABYTE SSD toolbox\"\" reaches 100 means out of warranty. (A new unused product will show the number of 0)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Published model code": "G440E250G"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp",
+        "checkedAt": "2026-11-10T14:36:09+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp",
+        "sha256": "b9cc526b4f8ff21fb42b89e8803f3fec4cdc718064a81706490266a965f42210",
+        "bytes": 579462,
+        "status": "fetched"
+      },
+      "title": "GIGABYTE Gen4 4000E SSD 250GB"
+    }
+  ]
+}

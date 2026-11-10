@@ -1,0 +1,80 @@
+[
+  {
+    "id": "import-ram-625a5a6addd7",
+    "badMPN": "CMK32GX5M2B6000Z28",
+    "reason": "La famille RGB archivée et la famille fabricant du MPN ne correspondent pas.",
+    "sourceURL": "https://www.corsair.com/us/en/p/memory/cmk32gx5m2b6000z28/vengeance-32gb-2x16gb-ddr5-dram-6000mts-cl28-amd-expo-intel-xmp-memory-kit-cmk32gx5m2b6000z28",
+    "manufacturerFamily": "VENGEANCE",
+    "archiveFamily": "Vengeance RGB"
+  },
+  {
+    "id": "import-ram-9546d1a4fd74",
+    "badMPN": "F5-6000J3040F16GX2-RS5K",
+    "reason": "Conflit entre caractéristiques d’identité archivées et référence fabricant.",
+    "conflicts": [
+      {
+        "field": "casLatency",
+        "catalog": 40,
+        "manufacturer": 30
+      }
+    ],
+    "sourceUrls": [
+      "https://www.gskill.com/specification/165/377/1649234797/F5-6000J3040F16GX2-RS5K-F5-6000J3040F16GA2-RS5K-Specification"
+    ]
+  },
+  {
+    "id": "import-ram-299d6bbf2cab",
+    "badMPN": "F5-6000J3040F16GX2-TZ5K",
+    "reason": "Conflit entre caractéristiques d’identité archivées et référence fabricant.",
+    "conflicts": [
+      {
+        "field": "casLatency",
+        "catalog": 40,
+        "manufacturer": 30
+      }
+    ],
+    "sourceUrls": [
+      "https://www.gskill.com/specification/165/371/1649667420/F5-6000J3040F16GX2-TZ5K-F5-6000J3040F16GA2-TZ5K-Specification"
+    ]
+  },
+  {
+    "id": "import-ram-775ab8743ba9",
+    "badMPN": "CMK16GX4M1E3200C16",
+    "reason": "La finition fabricant est BLACK ; l’archive Noir / Jaune ne dispose pas d’un alias d’identité démontré. Le SKU noir exact reste associé à son archive Noir.",
+    "sourceUrls": [
+      "https://www.corsair.com/us/en/p/memory/cmk16gx4m1e3200c16/vengeancea-lpx-16gb-1-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-black-cmk16gx4m1e3200c16"
+    ]
+  },
+  {
+    "id": "import-ram-123f0047b70e",
+    "badMPN": "CMK32GX4M2D3000C16",
+    "reason": "La finition fabricant est BLACK ; l’archive Noir / Jaune ne dispose pas d’un alias d’identité démontré. Le SKU noir exact reste associé à son archive Noir.",
+    "sourceUrls": [
+      "https://www.corsair.com/us/en/p/memory/cmk32gx4m2d3000c16/vengeancea-lpx-32gb-2-x-16gb-ddr4-dram-3000mhz-c16-memory-kit-black-cmk32gx4m2d3000c16"
+    ]
+  },
+  {
+    "id": "import-ram-14ed8e0de533",
+    "badMPN": "CMK16GX4M2D3000C16",
+    "reason": "La finition fabricant est BLACK ; l’archive Noir / Jaune ne dispose pas d’un alias d’identité démontré. Le SKU noir exact reste associé à son archive Noir.",
+    "sourceUrls": [
+      "https://www.corsair.com/us/en/p/memory/cmk16gx4m2d3000c16/vengeancea-lpx-16gb-2-x-8gb-ddr4-dram-3000mhz-c16-memory-kit-black-cmk16gx4m2d3000c16"
+    ]
+  },
+  {
+    "id": "import-ram-9ba0b80c9ac4",
+    "badMPN": "CMK128GX4M4D3600C18",
+    "reason": "La finition fabricant est BLACK ; l’archive Noir / Jaune ne dispose pas d’un alias d’identité démontré. Le SKU noir exact reste associé à son archive Noir.",
+    "sourceUrls": [
+      "https://www.corsair.com/us/en/p/memory/cmk128gx4m4d3600c18/vengeancea-lpx-128gb-4-x-32gb-ddr4-dram-3600mhz-c18-memory-kit-black-cmk128gx4m4d3600c18"
+    ]
+  },
+  {
+    "id": "import-ram-bb0182826228",
+    "badMPN": "CMK64GX4M4G4000C18",
+    "reason": "La finition fabricant est BLACK ; l’archive Noir / Jaune ne dispose pas d’un alias d’identité démontré. Le SKU noir exact reste associé à son archive Noir.",
+    "sourceUrls": [
+      "https://www.corsair.com/us/en/p/memory/cmk64gx4m4g4000c18/vengeancea-lpx-64gb-4-x-16gb-ddr4-dram-4000mhz-c18-memory-kit-black-cmk64gx4m4g4000c18"
+    ]
+  }
+]

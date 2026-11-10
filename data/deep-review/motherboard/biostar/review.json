@@ -1,0 +1,5850 @@
+{
+  "summary": {
+    "manufacturer_revision_tables": 106,
+    "primary_unconfirmed": 3
+  },
+  "records": [
+    {
+      "id": "import-mb-efc08d8fdfb5",
+      "name": "B450MHP",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [
+        "heightMm",
+        "widthMm"
+      ],
+      "revisions": [
+        {
+          "revision": "6.3",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1113&pname=B450MHP&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_v63_45_BOX_SVmH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_v63_TOP_tYBP.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_v63-45_sd1l.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP-VER63_IO_mYkL.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1062&pname=B450MHP&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:23+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_45_BOX_HmTA.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP-VER6_rrYy.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP-VER6_39TF.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP-VER6_IRWi.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1110&pname=B450MHP&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_v62_45_BOX_g01o.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_VER62_top_Vrix.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_VER62_45_qRyS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHP_VER62_IO_iTo0.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1113",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1062",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1110",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-0b186f078dc3",
+      "name": "B650MT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1135&pname=B650MT&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT_45_BOX_KZnn.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-TOP_SKkL.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-45_wO9B.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-IO_8uIf.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1135",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-48326804beca",
+      "name": "H610MT-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1148&pname=H610MT-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E_v61_45_BOX_g4bh.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E__VER6_rDEO.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E__VER6_jEtd.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E__VER6_niuS.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1148",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-547c8d58e75f",
+      "name": "B660GTA",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1043&pname=B660GTA&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660GTA_BOX_4aNe.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTA_MB_top_light_OVPK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTA_MB_45_light_hBT8.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTA_MB_IO-update_9DC9.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1043",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3ff29861903d",
+      "name": "B650MP-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1116&pname=B650MP-E%20PRO&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MP-E_PRO_45_BOX_gUyd.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MP-E-PRO-TOP_zsGH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MP-E-PRO-45_yfZs.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MP-E-PRO-IO_ywcl.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1116",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-54de66689250",
+      "name": "B550MX/E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1169&pname=B550MX/E%20PRO&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXE_pro61_45_BOX_9kab.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXE_PRO_6_WmM5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXE_PRO_6_ZbCo.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXE_PRO_6_yrva.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1011&pname=B550MX/E%20PRO&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:23+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXE_pro_45_BOX_wKJB.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_B550MXE_pro_MB_top_KGDw.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_B550MXE_pro_MB_45_op3o.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_B550MXE_pro_MB_IO_emm3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1169",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1011",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-a5f1542701aa",
+      "name": "B450MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.4",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1108&pname=B450MH&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:22+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_v64_45_BOX_Ghnx.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_TOP_V6_esHD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_45_V6_fgd0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_IO_V64_aQoP.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=925&pname=B450MH&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:23+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_box_B7hb.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_TOP_lkwS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_45_EPu3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.3",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=998&pname=B450MH&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_45_BOX_V2ok.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_TOP_V63_OqL0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MH_45_V063_DeeF.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201015_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1108",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "925",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "998",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-61fdf2571433",
+      "name": "A620MS",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1153&pname=A620MS&chipset=AMD%20A620",
+            "checkedAt": "2026-11-10T13:46:23+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS_BOX-1920x1080_MRql.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-TOP-new_9EZf.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-45-new_immN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS-IO_AY7M.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1153",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-14c45dd494ec",
+      "name": "H610MH D5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [
+        "maxMemoryGB"
+      ],
+      "revisions": [
+        {
+          "revision": "6.3",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1131&pname=H610MH%20D5&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:23+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_v6_WELa.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER6_mVrE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER6_t2t9.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER6_0M10.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1105&pname=H610MH%20D5&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_v6_T7G5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER6_MW92.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER6_TQik.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_D5_VER62_IO_Kgwe.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1131",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1105",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-ea748f8028c3",
+      "name": "B760A-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1094&pname=B760A-SILVER&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760A-SILVER_45_BOX_954P.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760A_SILVER_TOP_LrYq.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760A_SILVER_45-2_Eeqf.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760A_SILVER_IO_tC96.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1094",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-1a704f7d4ddd",
+      "name": "A620MP-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1117&pname=A620MP-E%20PRO&chipset=AMD%20A620",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MP-E_PRO_45_BOX_IK8d.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MP-E_PRO_TOP_nAnL.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MP-E-PRO-45_3hTE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MP-E-PRO-IO_NW0F.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1117",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-b1295980a2f9",
+      "name": "B450MX",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=996&pname=B450MX&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20201029.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201029_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201029_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201029_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "996",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-d37c95046887",
+      "name": "A320MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.7",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=999&pname=A320MH&chipset=AMD%20A320",
+            "checkedAt": "2026-11-10T13:46:24+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA320MH_v67_45_BOX_Gh3o.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA320MH_TOP_V67_qeJc.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA320MH_45_V67_u6mN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201021_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "999",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-bf5539897c34",
+      "name": "B650MS2-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1154&pname=B650MS2-E&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-E_BOX-1920x1080_kGsV.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-E-TOP-new_2O7l.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-E-45_R-new_NaOV.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-E-IO_cNWl.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1154",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-ea0a3a571433",
+      "name": "B760MX2-E D4",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1097&pname=B760MX2-E%20D4&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_D4_45_BOX_1kSl.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_D4_VER6_VR8e.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E-D4_VER6_DPI2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_D41_IO_XRQv.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1097",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-aace71aa4139",
+      "name": "B660MXC PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1072&pname=B660MXC%20PRO&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MXC_PRO_45_BOX_kBbe.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MXC_PRO_TOP_U3Q7.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MXC_PRO_45-2_CMmp.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MXC_PRO_IO_suM7.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1072",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f4ee66d602a8",
+      "name": "X870E VALKYRIE",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX870E_VALKYRIE_BOX_9P5j.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_Top-V3_p0uX.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-R45_dvqb.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_IO_3OM8.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1161",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-8c3806060e77",
+      "name": "B350GT5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=872&pname=B350GT5&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB350GT5_45_BOX_MiIF.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_4.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_6.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170222_2.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "872",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-50a98b7ad409",
+      "name": "B450NH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=993&pname=B450NH&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200813.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200813_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200813_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200813_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "993",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-32ee4e9990c8",
+      "name": "B850MT2-E DJ",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1177&pname=B850MT2-E%20DJ&chipset=AMD%20B850",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT2-E_DJ_BOX-1920x1080_L5Gv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT2-E_DJ-Top-19020x1080_Rscq.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT2-E_DJ-R45-1920x1080_FwaX.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT2-E_DJ-IO-1920x1080_nULb.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1177",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-deb076b02f9d",
+      "name": "B760NH-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1103&pname=B760NH-E&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760NH-E_45_BOX_oBw6.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760NH-E_TOP_oqhA.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760NH-E_L45-2_kdnq.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760NH-E_IO_N8BH.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1103",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-0c8fc2c0f3db",
+      "name": "Z690GTA",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1038&pname=Z690GTA&chipset=Intel%20Z690",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690GTA_3Hhv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690GTA_MB_top_light_todH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690GTA_MB_45_light_LSRN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690GTA_MB_IO-update_QssU.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1038",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-5ce1ba72bcb9",
+      "name": "B650EGTQ",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650EGTQ_45_BOX_new_t96i.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_TOP_H11G.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_45_FaNi.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_IO-update_vDPi.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1090",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-1050c06207e4",
+      "name": "B550M-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1000&pname=B550M-SILVER&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20201202.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201202_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201202_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201202_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1000",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-ec1a05aee4b5",
+      "name": "B550MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=994&pname=B550MH&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:25+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_6.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_7.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=987&pname=B550MH&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200811.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200811_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200811_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200811_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "994",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "987",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-05c4e0046a11",
+      "name": "A520MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=995&pname=A520MH&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200831_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=989&pname=A520MH&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200818.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200818_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200818_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200818_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "995",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "989",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-265cbec7c732",
+      "name": "A520MHP",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1162&pname=A520MHP&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bBOX-1920x1080-A520MHP_BIP2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHP-Top_YSdN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHP-45_blHo.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHP-IO_q0bp.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1162",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-09e1216b1f3c",
+      "name": "B550MHP",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1171&pname=B550MHP&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bBOX_B550MHP_ZQVF.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MHP-Top_v1nG.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MHP-45_YJSn.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MHP-IO_SXWJ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1171",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-c2b3249aff5b",
+      "name": "B550T-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1010&pname=B550T-SILVER&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550T-SILVER__45_BOX_StXo.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550T-SILVER_TOP_TxDu.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550T-SILVER_45v3_LUXI.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550T-SILVER_IO_hkfT.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1010",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-bb3558bec396",
+      "name": "X370GTN",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=879&pname=X370GTN&chipset=AMD%20X370",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX370GTN_BOX_2wmv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_3.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170324_4.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170324_5.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "879",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-910925b807cf",
+      "name": "A520MT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1118&pname=A520MT&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:26+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MT_45_BOX_7Jh7.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MT-TOP_9pK7.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MT-45R_RURs.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MT-IO_HaZy.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1118",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-c0d43f6ec03a",
+      "name": "A32M2",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=992&pname=A32M2&chipset=AMD%20A320",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200722.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200722_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200722_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200722_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "992",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-b3842a6c7fc8",
+      "name": "B760M-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [
+        "maxMemoryGB"
+      ],
+      "revisions": [
+        {
+          "revision": "5.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1147&pname=B760M-SILVER&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_45_BOX_NVCc.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_TOP_2xdQ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_45-1_7RkG.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_IO_irxJ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1095&pname=B760M-SILVER&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_45_BOX_7ytK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_TOP_wf8Z.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_45-1_hJTW.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_IO_7jaO.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1147",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1095",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-8a8893b13146",
+      "name": "H610MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1081&pname=H610MH&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_v62_45_BOX_bUJ2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH__VER6_twv5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH__VER6_QzJe.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_VER62_IO_0EJw.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1050&pname=H610MH&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_45_BOX_jFTD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_TOP_7iKv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_45-1_1iby.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_IO_e4Dc.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1066&pname=H610MH&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_45_BOX_5Qtv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_VER6_dn5m.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_VER6_uXQk.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MH_VER6_YBF0.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1081",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1050",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1066",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-5250d8774982",
+      "name": "TB350-BTC",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=882&pname=TB350-BTC&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20170426.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170426_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170420_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170420_2.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "882",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-da77f14026d6",
+      "name": "B550MXC PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1176&pname=B550MXC%20PRO&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_pro_45_BOX_Pt3i.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_VER_6_1nZN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_45-2_VER_6_CXYG.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_IO_s_g62o.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1078&pname=B550MXC%20PRO&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_pro_45_BOX_DeW5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_S_XALc.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_45-2_Ol69.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MXC_PRO_IO_s_WEfU.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1176",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1078",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-12e6f107a858",
+      "name": "Z690 VALKYRIE",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1034&pname=Z690%20VALKYRIE&chipset=Intel%20Z690",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690_VALKYRIE_new_x8NE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690_VALKYRIE_MB_top_light_Su9A.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690_VALKYRIE_MB_45_light_TpbN.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690_VALKYRIE_MB_IO-update-s_UKVf.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1034",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-5a3281f3f895",
+      "name": "B450MX-S",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1109&pname=B450MX-S&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:27+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MX-S_v61_45_BOX_Kuwq.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MX-S-VER6_mWKj.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MX-S-VER6_gPmS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MX-S-VER6_HNRr.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1001&pname=B450MX-S&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20201218.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201218_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201218_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20201218_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1109",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1001",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-525128b26a30",
+      "name": "H610MHP 2.0",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1139&pname=H610MHP%202.0&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_20_45_BOX_oj3N.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_2_hBzK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_2_8Mrm.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_2_PDu0.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1139",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-fb39bbc327d3",
+      "name": "A520MS",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1119&pname=A520MS&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MS_45_BOX_Ou7K.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MS-TOP_z5ZD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MS-45R_OE8B.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MS-IO_Mmpp.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1119",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-8e8669cb3f47",
+      "name": "X670E VALKYRIE",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1079&pname=X670E%20VALKYRIE&chipset=AMD%20X670E",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX670E_VALKYRIE_BOX_5WnE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bX670E_TOP_light_BVtL.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bX670E_45-LIGHT-2s_zKRS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bX670E_IO-update_C5Eq.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1079",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-0577cba6e948",
+      "name": "A320MH PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+            "checkedAt": "2026-11-10T14:00:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA320MH_45_BOX_Aa3d.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_9.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_10.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_11.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "881",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f937488dc72d",
+      "name": "B760MX2-E PRO D4",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1127&pname=B760MX2-E%20PRO%20D4&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_PRO_D4_45_BOX_KjED.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_PRO_D4-TOP_7vjH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_PRO_D4-45_SahU.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_PRO_D4-IO_uhlv.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1127",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-8779a1f51ec8",
+      "name": "B650M-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1091&pname=B650M-SILVER&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M-SILVER_45_BOX_dElG.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M-SILVER_TOP_KM7E.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M-SILVER__45-2_VJVE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M-SILVER_IO_FST8.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1091",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-666fbf78e52c",
+      "name": "B350GT3",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20180313_4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180313_5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180313_6.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170223_10.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "870",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-5d01b6f4c650",
+      "name": "X470GTN",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20180410.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180410_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180410_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180410_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "910",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-7cef8e359f9c",
+      "name": "B660GTN",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660GTN_box_JAkE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_Top_Wq1w.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_45_DJch.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_IO-update_cMQZ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1045",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-067f5bebecfd",
+      "name": "B45M2",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=934&pname=B45M2&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20181226_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20181226.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20181226_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20181226_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "934",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-fafb5053042e",
+      "name": "B550MT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1120&pname=B550MT&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MT_45_BOX_N21w.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MT-TOP_saLf.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MT-45R_l6l7.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550MT-IO_QAHZ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1120",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3562c7f559b9",
+      "name": "B550GTQ",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=985&pname=B550GTQ&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200609.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200521_5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200521_6.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550GTQ_IO-update_OBlP.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "985",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3ef89af7a7be",
+      "name": "B350ET2",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=869&pname=B350ET2&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB350ET2_BOX_brvp.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170217_3.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170214_4.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170214_5.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "869",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-562692b17be0",
+      "name": "B350GTN",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=878&pname=B350GTN&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB350GTN_box_9tLM.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170324_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170324_2.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "878",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-4c9302410b31",
+      "name": "Z790 VALKYRIE",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1089&pname=Z790%20VALKYRIE&chipset=Intel%20Z790",
+            "checkedAt": "2026-11-10T13:46:29+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790_VALKYRIE_45_BOX_Oriu.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790_VALKYRIE_TOP_kAtI.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790_VALKYRIE_45_-2_L_DWmC.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790_VALKYRIE_IO-update-s_Hu5c.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1089",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-80a02800d19a",
+      "name": "X370GT3",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=871&pname=X370GT3&chipset=AMD%20X370",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX370GT3_box_9aDZ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170620_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170223_5.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170223_6.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "871",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-126dd25ea51b",
+      "name": "X570GT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=957&pname=X570GT&chipset=AMD%20X570",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190724_3.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190724.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190724_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190724_2.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "957",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-e08e4a97a893",
+      "name": "Z690MX2-E D4",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1170&pname=Z690MX2-E%20D4&chipset=Intel%20Z690",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690MX2-E_D4_45_BOX_877f.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690MX2-E_D4_TOP_gnu4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690MX2-E_D4_L45-2_DPhQ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690MX2-E_D4_IO_s9WZ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1170",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-6069d2a01d3f",
+      "name": "B450GT3",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20180730.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180718.jpeg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180718_1.jpeg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "926",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-4d82812e8aab",
+      "name": "B550GTA",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=984&pname=B550GTA&chipset=AMD%20B550",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200608.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200521_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200521_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB550GTA_IO-update_UdjS.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "984",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-9c0044bc8e91",
+      "name": "H610MHP",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1082&pname=H610MHP&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_v62_45_BOX_E7CU.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_VER6_CYR0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_VER6_tDfO.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB560MHP_20_IO_fqjJ.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1069&pname=H610MHP&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_45_BOX_CE4D.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_v61_TOP_bl2A.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_v61_45-1_ouAO.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP_v61_IO_y15T.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1082",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1069",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f53226fa9896",
+      "name": "A320MD PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=880&pname=A320MD%20PRO&chipset=AMD%20A320",
+            "checkedAt": "2026-11-10T14:00:28+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA320MD_45_BOX_umv5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_5.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_6.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170329_7.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "880",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f43c814e0318",
+      "name": "B850MT-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1197&pname=B850MT-E%20PRO&chipset=AMD%20B850",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO_BOX-1920x1080_mS1p.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-TOP_lAZX.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-45R_jjTK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-IO_mjjr.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1164&pname=B850MT-E%20PRO&chipset=AMD%20B850",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO_BOX-1920x1080_OYoI.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-TOP_hp0a.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-45R_AJUO.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850MT-E_PRO-IO_Q5pv.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1197",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1164",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-72061d70704a",
+      "name": "B450MHC",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=924&pname=B450MHC&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB450MHC_45_BOX_GsRY.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180717.jpeg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180717_1.jpeg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "924",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-a0d7c8c7e228",
+      "name": "X470GTA",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190717_3.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716_2.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "955",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-b7794c883d01",
+      "name": "X470GTQ",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=956&pname=X470GTQ&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190717_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716_3.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716_4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190716_5.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "956",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-929e8c3e0357",
+      "name": "Z690A VALKYRIE",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1040&pname=Z690A%20VALKYRIE&chipset=Intel%20Z690",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A_VALKYRIE_6OQM.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690A_VALKYRIE_MB_top_light_keZy.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_Z690A_VALKYRIE_45_light_v02C.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A_VALKYRIE_MB_IO-update-s_Bo6x.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1040",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-c876d343e532",
+      "name": "B660MX-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1067&pname=B660MX-E&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_45_BOX_8Knl.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_VER6_vcSx.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_VER6_XT3j.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_VER6_3JV2.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1051&pname=B660MX-E&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_45_BOX_vOXV.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_TOP_T2Dr.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_45-1_e95r.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_IO_1bWR.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1067",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1051",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-be1cca154a7d",
+      "name": "B760MXC PRO 2.0",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1112&pname=B760MXC%20PRO%202.0&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC_PRO_20_45_BOX_IYEn.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC-PRO-20_TOP_Yzqb.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC-PRO-20_45-2_RsuB.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC_PRO_IO_8KRM.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1112",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-cdd89669efd6",
+      "name": "A620MS-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1183&pname=A620MS-E&chipset=AMD%20A620A",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E_45_BOX_mmnW.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-Top_9JHo.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-45R_CBEP.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MS-E-IO_81AB.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1183",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3ab67eca027c",
+      "name": "B760MX2-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [
+        "maxMemoryGB"
+      ],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1130&pname=B760MX2-E&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_61_45_BOX_Anjm.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E__VER6_GHtE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_VER6_kZtt.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E__VER6_sdbL.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1100&pname=B760MX2-E&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_45_BOX_RXlX.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E__VER6_Sfnh.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E_VER6_w7UA.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX2-E__VER6_gkNp.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1130",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1100",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-415e12bb677c",
+      "name": "X370GT7",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=874&pname=X370GT7&chipset=AMD%20X370",
+            "checkedAt": "2026-11-10T13:46:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX370GT7_box_C6tn.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_2.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_3.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "874",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-d6350d006b15",
+      "name": "X370GT5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=873&pname=X370GT5&chipset=AMD%20X370",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bX370GT5_45_BOX_SLlA.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170224_7.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170214_19.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170222_1.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "873",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-db3d665c7d5a",
+      "name": "X470NH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190917.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190906.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190906_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190906_2.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "962",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-4a30a4944e98",
+      "name": "B450GT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=986&pname=B450GT&chipset=AMD%20B450",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20200526.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200526_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200526_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20200526_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "986",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-0c8616f51b9b",
+      "name": "B760MZ-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1096&pname=B760MZ-E%20PRO&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MZ-E_PRO_45_BOX_QmwJ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MZ-E_PRO_TOP_DJaD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MZ-E_PRO_45-2_Rphy.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MZ-E_PRO_IO_eqGW.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1096",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3dd30e59d6ee",
+      "name": "H610MHD D5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.3",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1138&pname=H610MHD%20D5&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHD_D5_45_BOX+_for_jch_Xaqy.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHD_D5_TOP_kyTC.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHD_D5_45_SKHX.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHD_D5_IO_f7tY.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1138",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-ecb94053eb94",
+      "name": "H610MHP-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "1.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1155&pname=H610MHP-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-E-v11_BOX_1920x1080_eSTR.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-Ev6_r3gR.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-Ev6_BIvZ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-Ev6_bdFW.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "1.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1143&pname=H610MHP-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-E_45_BOX_FNjc.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-E_TOP_Y0TZ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-E_45-1_AOau.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHP-E_IO_RkBx.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1155",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1143",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-cc7f991e7fba",
+      "name": "B650M X3D PRO+",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1178&pname=B650M%20X3D%20PRO+&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M_X3D_PRO+_1920x1080_vdzR.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M_X3D_PRO+-TOP_yaA6.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M_X3D_PRO+_45R_BJ5s.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650M_X3D_PRO+-IO_3UeM.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1178",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-3164118f5339",
+      "name": "Z790A-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1088&pname=Z790A-SILVER&chipset=Intel%20Z790",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790A_SILVER_45_BOX_K67y.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790A_SILVER_TOP_qt9L.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ790A_SILVER_45-2_B7X5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760M-SILVER_IO_NYgk.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1088",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-6fe25372e57b",
+      "name": "B350M",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "1.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=970&pname=B350M&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T14:00:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20191120.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191121.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191120_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191121_1.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "970",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f18b50fc17c3",
+      "name": "H610MX-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:32+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_61_45_BOX_U2IK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v6_njj1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v_6_45_Qk2y.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_VER6_u7Ag.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1047&pname=H610MX-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_BOX_OUh8.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_top_KUX4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_gLmV.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610-MX-E_IO_NC9A.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1065",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1047",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-7f3394b14155",
+      "name": "B660T-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1073&pname=B660T-SILVER&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660T-SILVER_box_uzbU.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660T-SILVER_top_prpD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660T-SILVER_45_qWuo.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660T-SILVER_IO_VWG7.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1073",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-d3c70fc052ed",
+      "name": "B650MXC PRO",
+      "state": "primary_unconfirmed",
+      "clearedAmbiguousFields": [],
+      "revisions": [],
+      "attempts": []
+    },
+    {
+      "id": "import-mb-acd4cb6c9614",
+      "name": "B650MT-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1142&pname=B650MT-E%20PRO&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT_45_BOX_6hnV.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-E_PRO_V6_sKlS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-E_PRO_V6_qsLQ.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MT-E_PRO_V6_V6VE.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1142",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-7278241ee8ea",
+      "name": "B840MT-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1182&pname=B840MT-E&chipset=AMD%20B840",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB840MT-E_PRO_BOX_z51G.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB840MT-E-TOP_o5Gj.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB840MT-E-45R_UkNm.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB840MT-E-IO_IE0r.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1182",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-dcbfd66a822e",
+      "name": "A620MHC",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1184&pname=A620MHC&chipset=AMD%20A620A",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MHC_45_BOX_pKsE.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MHC-TOP_MmCM.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MHC-45R_qUkU.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MHC-IO_auvt.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1184",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-999950a248ee",
+      "name": "Hi-Fi B350S1",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=868&pname=Hi-Fi%20B350S1&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T14:00:30+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bHI-FI_B350S1_BOX_mWeP.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170217_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170214_1.jpg",
+            "https://www.biostar.com.tw/upload/Motherboard/b20170214_2.jpg"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "868",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-d550977e4973",
+      "name": "X470GT8",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=909&pname=X470GT8&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20180403.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180412_4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180412_5.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20180403_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "909",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-7a00d5f1d7ee",
+      "name": "X570GT8",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+            "checkedAt": "2026-11-10T13:46:33+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190617.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190617_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190617_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190617_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "952",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-e717e29c91cb",
+      "name": "X570GTA",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=963&pname=X570GTA&chipset=AMD%20X570",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20191025.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191009_3.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191009_4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191025_1.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "963",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-5bd7c86c73e0",
+      "name": "X470MH",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=960&pname=X470MH&chipset=AMD%20X470",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20190823.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190823_1.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190823_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20190823_3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "960",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f5c98fe86fbb",
+      "name": "B660GTQ",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1044&pname=B660GTQ&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660GTQ_box_3kfv.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTQ_MB_top_uOLW.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTQ_45_BQDk.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTQ_IO-update_ODag.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1044",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-9d398a92a947",
+      "name": "Z690A-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": null,
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1046&pname=Z690A-SILVER&chipset=Intel%20Z690",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A-SILVER_DSoD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A_SILVER___TOP_h7mt.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A_SILVER_45-5_GQI9.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bZ690A_SILVER_IO_zTla.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1046",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-d2ad53487a4c",
+      "name": "B660MX-E PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1058&pname=B660MX-E%20PRO&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E_PRO_45_BOX_vDPe.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E-PRO-TOP_7CkF.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E-PRO-45-2_Sb0a.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660MX-E-PRO-IO_vtpf.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1058",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-9c4acc10f3dd",
+      "name": "B760MX-E D4",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1098&pname=B760MX-E%20D4&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX-E_D4_45_BOX_XPFy.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX-E_D4_VER6_qEJa.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX-E_D4_VER6_AwAe.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MX-E_D41_IO_yiVz.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1098",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-fb0ba2f98644",
+      "name": "B760MH D4",
+      "state": "primary_unconfirmed",
+      "clearedAmbiguousFields": [],
+      "revisions": [],
+      "attempts": []
+    },
+    {
+      "id": "import-mb-524acd57fa1c",
+      "name": "B760MXC PRO",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1111&pname=B760MXC%20PRO&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC_PRO_45_BOX_aqJp.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC-PRO_TOP_zpmr.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC-PRO_45-2_XkuK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760MXC-PRO_IO_G7r0.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1111",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-1f4b9eeb5fa9",
+      "name": "A620MT",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1129&pname=A620MT&chipset=AMD%20A620",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MT_45_BOX_T0db.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MT-TOP_EaGu.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MT-45_nFn0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA620MT-IO_5BDg.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1129",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-f72bd2b723fa",
+      "name": "H610MS",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1125&pname=H610MS&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS_v61_45_BOX_EIZD.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS_VER6_G60E.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS__VER6_K0sH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS_VER6_SCNd.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1124&pname=H610MS&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS_v6_45_BOX_uQvC.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS__VER6_IWN2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MS__VER6_2Ty0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT_VER6_1nt3.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1125",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1124",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-a2571d6c212e",
+      "name": "H610MHC 2.0",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1201&pname=H610MHC%202.0&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_BOX_Engr.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-TOP_MVhO.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-R45_4p83.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-IO_EhlA.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        },
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1175&pname=H610MHC%202.0&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_BOX_BtAr.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-TOP_Rw8A.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-R45_kLE8.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC_2_0-IO_rnlk.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1201",
+          "state": "exact_manufacturer_table"
+        },
+        {
+          "sid": "1175",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-31c712911ee2",
+      "name": "B850M-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1163&pname=B850M-SILVER&chipset=AMD%20B850",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB850M-SILVER_BOX-1920x1080_Xzxz.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850M-SILVER-TOP_UOTW.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850M-SILVER-R45_CxC0.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB850M-SILVER-IO_6U0C.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "RAID",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1163",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-e44d0bd7625d",
+      "name": "A520MHK",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "1.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1186&pname=A520MHK&chipset=AMD%20A520",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bBOX-1920x1080-A520MHK_1ZfT.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHK-Top_BmOw.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHK-45_51CH.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bA520MHK-IO_UaG9.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1186",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-914af3028ca0",
+      "name": "B350GTX",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "1.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=969&pname=B350GTX&chipset=AMD%20B350",
+            "checkedAt": "2026-11-10T14:00:31+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/b20191114.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191113_2.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191113_3.png",
+            "https://www.biostar.com.tw/upload/Motherboard/b20191113_1.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "969",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-fdc684fa5c14",
+      "name": "B660M-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1064&pname=B660M-SILVER&chipset=Intel%20B660",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB660M-SILVER_uoPw.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660M_SILVER_TOP_C1iW.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660M_SILVER_45_12BB.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB660M_SILVER_IO_J6xD.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1064",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-9ea126952281",
+      "name": "B760T-SILVER",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "5.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1102&pname=B760T-SILVER&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB760T-SILVER_45_BOX_TQKu.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760T-SILVER_TOP_bJeG.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760T-SILVER_L45-2_3hzU.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB760T-SILVER_IO_xNZ0.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES",
+            "FEATURES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1102",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-e78d4ac24631",
+      "name": "B760MX-E",
+      "state": "primary_unconfirmed",
+      "clearedAmbiguousFields": [],
+      "revisions": [],
+      "attempts": [
+        {
+          "sid": "1098",
+          "state": "model_mismatch",
+          "model": "B760MX-E D4",
+          "expected": "B760MX-E",
+          "source": {
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1098&pname=B760MX-E%20D4&chipset=Intel%20B760",
+            "checkedAt": "2026-11-10T13:46:34+00:00",
+            "httpStatus": 200,
+            "resolvedURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1098&pname=B760MX-E%20D4&chipset=Intel%20B760",
+            "sha256": "1967b485b1deca2584d60be76f2d2ca40c30a8f6bbef5cfb313aaddf1f19994f",
+            "bytes": 5174,
+            "status": "fetched"
+          }
+        }
+      ]
+    },
+    {
+      "id": "import-mb-7ad38524e091",
+      "name": "B650MS2",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1136&pname=B650MS2&chipset=AMD%20B650",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2_45_BOX_1xm8.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-TOP-new_VN1D.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-45-new_E8tn.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bB650MS2-IO_vZi5.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1136",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-e33fcd657cfc",
+      "name": "H610MX2-E D5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.1",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1104&pname=H610MX2-E%20D5&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:35+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX2-E_D5_45_BOX_1fdK.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX2-E_D5_VER6_g8Du.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX2-E_D5_VER6_wa0L.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MX2-E_D5_VER6_mITX.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1104",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-b63d5ee02a34",
+      "name": "H610MHC-E",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.2",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1137&pname=H610MHC-E&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:36+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC-E_45_BOX_AUjw.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC-E_VER6_fZXb.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC-E_VER6_zDq4.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MHC-E_VER6_7130.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "BUNDLE SOFTWARE",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1137",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    },
+    {
+      "id": "import-mb-c0762f35783b",
+      "name": "H610MT-E D5",
+      "state": "manufacturer_revision_tables",
+      "clearedAmbiguousFields": [],
+      "revisions": [
+        {
+          "revision": "6.0",
+          "source": {
+            "name": "BIOSTAR — spécifications officielles",
+            "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1179&pname=H610MT-E%20D5&chipset=Intel%20H610",
+            "checkedAt": "2026-11-10T13:46:36+00:00",
+            "kind": "manufacturer"
+          },
+          "photos": [
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT_E_D5_box_zqoa.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E_D5_Top_cDwS.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT-E_D5_45-2R_nltm.png",
+            "https://www.biostar.com.tw/upload/Motherboard/bH610MT_D5_IO_031X.png"
+          ],
+          "sections": [
+            "Chipset",
+            "CPU",
+            "Memory",
+            "Graphics",
+            "Storage",
+            "LAN",
+            "Audio",
+            "USB",
+            "Expansion Slots",
+            "BACK PANEL PORTS",
+            "Internal IO",
+            "H/W MONITORING",
+            "Form Factor",
+            "Operating System",
+            "ACCESSORIES"
+          ]
+        }
+      ],
+      "attempts": [
+        {
+          "sid": "1179",
+          "state": "exact_manufacturer_table"
+        }
+      ]
+    }
+  ]
+}

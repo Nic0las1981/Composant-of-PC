@@ -1,0 +1,94 @@
+{
+  "id": "import-ssd-d1cc3dfb6be2",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS 1TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "sha256": "de673b2ce39aeef94a6537e53ba7687b7637cf360b4791a8fb3672f2c977d0c6",
+    "bytes": 60905,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS",
+    "Capacity": "1TB",
+    "Controller": "PHISON E18",
+    "Flash Memory": "3D NAND",
+    "DRAM Cache": "1GB DDR4",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4x4, NVMe 1.4",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.40mm (L) x 23.00mm (W) x 20.40mm (H)",
+    "Sequential Read up to (MB/s)": "7400",
+    "Sequential Write up to (MB/s)": "6000",
+    "Random Read 4KB up to (IOPS)": "750,000",
+    "Random Write 4KB up to (IOPS)": "1,000,000",
+    "Maximum Operating Power (W)": "9.5",
+    "Idle Power PS3 (mW)": "40",
+    "Low Power L1.2 (mW)": "3",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "700",
+    "Mean Time Between Failure (MTBF)": "Up to 1,600,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS Support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nAES256/Pyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1683765428fc73d335355874e3d0d7200c58749c37.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification",
+        "checkedAt": "2026-11-10T14:36:18+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification",
+        "sha256": "de673b2ce39aeef94a6537e53ba7687b7637cf360b4791a8fb3672f2c977d0c6",
+        "bytes": 60905,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS",
+      "selectedColumn": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 1TB HS"
+    }
+  ],
+  "additionalSources": [
+    {
+      "name": "MSI — présentation officielle du dissipateur de cette variante",
+      "url": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS",
+      "checkedAt": "2026-11-10T14:55:47+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "SPATIUM M480 PRO sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration.",
+    "installed": true
+  },
+  "extraFieldEvidence": {
+    "heatsink": {
+      "value": "SPATIUM M480 PRO sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration.",
+      "sourceURL": "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS",
+      "checkedAt": "2026-11-10T14:55:47+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Dissipateur de la variante exacte",
+      "rows": [
+        {
+          "label": "Dissipateur fourni",
+          "value": "SPATIUM M480 PRO sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration."
+        }
+      ]
+    }
+  ]
+}

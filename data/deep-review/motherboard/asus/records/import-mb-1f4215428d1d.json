@@ -1,0 +1,50 @@
+{
+  "review": {
+    "id": "import-mb-1f4215428d1d",
+    "name": "TUF GAMING B550-PRO",
+    "state": "technical_table_missing",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "checkedAt": "2026-11-10T13:26:45+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "sha256": "d29cedd5d8677b3b5e50da818a6b4c3c373e762ccca03fd45bff4beec621890a",
+        "bytes": 322609,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "checkedAt": "2026-11-10T13:30:38+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "sha256": "992f66b15c6904c3ff29925ac29a53aaf7507100a51220c4ab8fb32e4eecb7e7",
+        "bytes": 280275,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "checkedAt": "2026-11-10T14:00:40+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/uk/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "sha256": "bcb149c2cb2b825a77b59f6d85b8cb77c0d8fec9ef9756bdd2f1abeda30c9155",
+        "bytes": 291174,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/ca-en/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "checkedAt": "2026-11-10T14:00:44+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/ca-en/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-pro/techspec/",
+        "sha256": "a6c342f0cee402fe15d3e3a3be2933f1a7b6c34f3f87378e5cb6b3e7eec74e7b",
+        "bytes": 260824,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

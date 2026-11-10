@@ -1,0 +1,14 @@
+{
+  "brand": "Sparkle",
+  "url": "https://www.sparkle.com.tw/robots.txt",
+  "kind": "index",
+  "checkedAt": "2026-11-10T13:24:16Z",
+  "requestedURL": "https://www.sparkle.com.tw/robots.txt",
+  "contentFile": "data/deep-review/gpu/sources/03aade32ac429c14c3ae.html.gz",
+  "status": 200,
+  "contentType": "text/plain",
+  "sha256": "4650f9cb12bc7a643cf6cf1e2ad55fad9f71d8298e7dc9e04292b7ebf0dd63b8",
+  "bytes": 234,
+  "links": [],
+  "text": "# robots.txt for nsdi\n\nUser-agent: *\nDisallow: /*crontab/*\nDisallow: /*manager/*\nDisallow: /*datas/captcha/*\nDisallow: /*datas/doc/*\nDisallow: /*datas/import/*\nDisallow: /*datas/ini/*\nDisallow: /*datas/logs/*\nDisallow: /*datas/temp/*\n"
+}

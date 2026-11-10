@@ -1,0 +1,241 @@
+{
+  "review": {
+    "id": "import-mb-a0d7c8c7e228",
+    "name": "X470GTA",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+          "checkedAt": "2026-11-10T13:46:30+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20190717_3.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190716.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190716_1.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190716_2.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "955",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X470GTA",
+    "identityNote": "Modèle Biostar X470GTA confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X470GTA",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X470GTA — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X470"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2667/ 2933(OC)/ 3200(OC) \n \n4 x DDR4 DIMM Memory Slot, Max. Supports up to 64 GB Memory\n \nEach DIMM supports non-ECC 8/16 GB DDR4 module\n \n* DDR4 - 2667 only for Ryzen CPU.\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (M Key): Supports PCI-E 3.0 x4 (32Gb/s) & SATA III (6.0Gb/s) SSD\n \n* M.2 : The bandwidth is depended on CPU.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL 8118AS\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability\nSupport Super LAN Surge Protection"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC892 7.1 Channels, High Definition Audio, Hi-Fi (Front+Rear)"
+          },
+          {
+            "label": "USB",
+            "value": "1x USB 3.1 Gen2 (10Gb/s) Type-C port (1 on rear I/O)\n \n1x USB 3.1 Gen2 (10Gb/s) Type-A port (1 on rear I/O)\n \n8x USB 3.1 Gen1 (5Gb/s) port (4 on rear I/Os and 4 via internal headers) \n \n4x USB 2.0 port (4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCI Slot\n \n2x PCIe 2.0 x1 Slot\n \n1x PCIe 2.0 x16 Slot (x1)\n \n1x PCIe 3.0 x16 Slot (The bandwidth is depended on CPU)\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1x PS/2 Keyboard / Mouse \n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x LAN port\n \n1x USB 3.1 Gen2 (10Gb/s) Type-C Port \n \n1x USB 3.1 Gen2 (10Gb/s) Type-A Port \n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n6x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "6x SATA III 6.0Gb/s Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) \n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n2x CPU Fan Connector\n \n2x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n1x S/PDIF out Connector\n \n1x COM Port Header\n \n2x 5050 LED Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU1 / CPU2 / System1 / System2 Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor Dimension: 305 mm x 244 mm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(x64) / 11(x64)\nSupport Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT Utility\nFLY.NET\nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x User Manual"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190717_3.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190716.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190716_1.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190716_2.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor Dimension: 305 mm x 244 mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor Dimension: 305 mm x 244 mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n \n1x M.2 (M Key): Supports PCI-E 3.0 x4 (32Gb/s) & SATA III (6.0Gb/s) SSD\n \n* M.2 : The bandwidth is depended on CPU.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "pcie": {
+        "value": "2x PCI Slot\n \n2x PCIe 2.0 x1 Slot\n \n1x PCIe 2.0 x16 Slot (x1)\n \n1x PCIe 3.0 x16 Slot (The bandwidth is depended on CPU)\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "rearIO": {
+        "value": "1x PS/2 Keyboard / Mouse \n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x LAN port\n \n1x USB 3.1 Gen2 (10Gb/s) Type-C Port \n \n1x USB 3.1 Gen2 (10Gb/s) Type-A Port \n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n6x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "internalIO": {
+        "value": "6x SATA III 6.0Gb/s Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) \n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n2x CPU Fan Connector\n \n2x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n1x S/PDIF out Connector\n \n1x COM Port Header\n \n2x 5050 LED Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL 8118AS\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability\nSupport Super LAN Surge Protection",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "audio": {
+        "value": "ALC892 7.1 Channels, High Definition Audio, Hi-Fi (Front+Rear)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=955&pname=X470GTA&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      }
+    }
+  }
+}

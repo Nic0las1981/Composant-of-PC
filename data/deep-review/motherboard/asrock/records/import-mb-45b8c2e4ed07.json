@@ -1,0 +1,64 @@
+{
+  "review": {
+    "id": "import-mb-45b8c2e4ed07",
+    "name": "A520M-HDV",
+    "state": "manual_model_mismatch",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/A520M-HDV.pdf",
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A520M-HDV R2.0 / A520M-HVS R2.0\nmotherboard",
+        "modelNames": [
+          "A520M-HDV R2.0",
+          "A520M-HVS R2.0"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A520M-HVS.pdf",
+          "checkedAt": "2026-11-10T14:11:11+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A520M-HVS.pdf",
+          "httpStatus": 200,
+          "sha256": "e958bce093a2650f1470c1f75d67d46545e5a448e351c59b260f5535575e216e",
+          "bytes": 4185225,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A520M-HDV R2.0 / A520M-HVS R2.0\nmotherboard",
+        "modelNames": [
+          "A520M-HDV R2.0",
+          "A520M-HVS R2.0"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Declaration/A520M-HDV/RoHS.pdf",
+          "checkedAt": "2026-11-10T14:11:14+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Declaration/A520M-HDV/RoHS.pdf",
+          "httpStatus": 200,
+          "sha256": "68a1427621bfa40d005ffba93dc9e074585280ef83c72d19b769c6567a6d2a54",
+          "bytes": 132287,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:00:19+00:00",
+      "url": "https://download.asrock.com/Manual/A520M-HDV.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/A520M-HDV.pdf",
+      "sha256": "7d4b08ae64cf67c9f6664abd4df510dcb287639299194f9353b6aa5bf4c57e81"
+    },
+    "proof": {
+      "state": "manual_model_mismatch",
+      "identityExcerpt": "purchasing ASRock A520M-HDV R2.0 / A520M-HVS R2.0\nmotherboard",
+      "modelNames": [
+        "A520M-HDV R2.0",
+        "A520M-HVS R2.0"
+      ]
+    },
+    "documentedFields": []
+  },
+  "product": null
+}

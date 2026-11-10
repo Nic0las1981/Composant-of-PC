@@ -3,6 +3,7 @@ import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {catalog} from '../src/data/catalog.ts';
 import {verifiedProducts} from '../src/data/verifiedCatalog.ts';
 import {getVisualProfile} from '../src/data/visualProfiles.ts';
+import {getProductImage} from '../src/data/productImages.ts';
 import {catalogTechnicalRequirements,getCatalogCompletion} from '../src/lib/catalogCompletion.ts';
 
 const root=new URL('../',import.meta.url),target=new URL('data/comprehensive-review/',root);
@@ -40,8 +41,8 @@ for(const c of catalog){
 const identityFields=['category','capacityGB','memorySticks','memoryType','memorySpeedMTs','casLatency','wattage','socket','finishName','lengthMm','heightMm','thicknessMm'] as const;
 const conflictIds=new Set([...mpnGroups.values()].filter(parts=>identityFields.some(field=>new Set(parts.map(c=>c[field]).filter(v=>v!==undefined)).size>1)).flatMap(parts=>parts.map(c=>c.id)));
 const records=catalog.map(c=>{
- const p=verifiedProducts[c.id],profile=getVisualProfile(c),evidence=visuals.get(c.id);
- const completion=getCatalogCompletion(c,p,{now,identityConflict:conflictIds.has(c.id),visual:{profileId:profile.id,fidelity:profile.fidelity,referenceURLs:[evidence?.inspectedPhoto,evidence?.manufacturerPhoto].filter((v):v is string=>Boolean(v)),approximateFields:Object.keys(evidence?.approximateFields??{})}});
+ const p=verifiedProducts[c.id],profile=getVisualProfile(c),evidence=visuals.get(c.id),photo=getProductImage(c);
+ const completion=getCatalogCompletion(c,p,{now,identityConflict:conflictIds.has(c.id),visual:{profileId:profile.id,fidelity:profile.fidelity,inspection:evidence?.inspectedPhoto?'visually-inspected':photo?.inspection,referenceURLs:[evidence?.inspectedPhoto,evidence?.manufacturerPhoto,photo?.imageURL].filter((v):v is string=>Boolean(v)),approximateFields:Object.keys(evidence?.approximateFields??{})}});
  const fields=completion.technical.fields;
  return {id:c.id,category:c.category,brand:c.brand,name:c.name,status:completion.status,identity:completion.identity,
   technical:{required:fields.length,evidence:Object.fromEntries(fields.filter(f=>f.state==='documented'||f.state==='conflicting').map(f=>[f.key,{proof:f.proof??null,sourceScope:f.sourceScope??'record',...(f.sourceScope==='field'?{sourceURLs:f.sourceURLs}:{})}])),documented:fields.filter(f=>f.state==='documented').map(f=>f.key),presentUnverified:fields.filter(f=>f.state==='present_unverified').map(f=>f.key),missing:fields.filter(f=>f.state==='missing').map(f=>f.key),conflicting:fields.filter(f=>f.state==='conflicting').map(f=>f.key)},

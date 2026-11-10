@@ -1,0 +1,256 @@
+{
+  "review": {
+    "id": "import-mb-126d8f4337af",
+    "name": "PRIME H610M-E D4",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "sha256": "1148b1f5548ec415d6caf6dd07beac7330afad7da14c6d087ef2af8b316a7c39",
+        "bytes": 375648,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME H610M-E D4",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/9457bb86-f547-4ee6-8648-cba3963376b6/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME H610M-E D4",
+    "identityNote": "Modèle ASUS PRIME H610M-E D4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 211.0,
+      "manufacturerPartNumber": "PRIME H610M-E D4",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nIntel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® H610 Chipset\nIntel® H610 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM, Max. 64GB, DDR4 3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\n\nDual Channel Memory Architecture\n\nSupports Intel® Extreme Memory Profile (XMP)\n\n* Actual memory data rate depends on the CPU types and DRAM modules, for more information refer to www.asus.com for the Memory QVL (Qualified Vendors Lists).\n2 x DIMM, Max. 64GB, DDR4 3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\n Dual Channel Memory Architecture\n Supports Intel® Extreme Memory Profile (XMP)\n * Actual memory data rate depends on the CPU types and DRAM modules, for more information refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n 1 x D-Sub port\n 1 x HDMI® port***\n * Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n ** Supports max. 4K@60Hz as specified in DisplayPort 1.4.\n *** Supports 4K@60Hz as specified in HDMI 2.1.\n1 x DisplayPort**\n\n1 x D-Sub port\n\n1 x HDMI® port***\n\n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n\n** Supports max. 4K@60Hz as specified in DisplayPort 1.4.\n\n*** Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel® H610 Chipset\n1 x PCIe 3.0 x1 slot\nIntel® Core™ Processors (14th & 13th & 12th Gen)\n 1 x PCIe 4.0 x16 slot\n Intel® H610 Chipset\n 1 x PCIe 3.0 x1 slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\n\nIntel® H610 Chipset\n\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x2 mode)\n\n4 x SATA 6Gb/s ports\n\nTotal supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\n Intel® H610 Chipset\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x2 mode)\n 4 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 1Gb Ethernet"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 4 ports)\n\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n\n2 x USB 2.0 ports (2 x Type-A)\n\nFront USB (Total 6 ports)\n\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\n\nRear USB (Total 4 ports)\n 2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n Front USB (Total 6 ports)\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n\n- Supports up to 24-Bit/192 kHz playback\n\nAudio Features\n\n- Audio Shielding\n\n- Premium audio capacitors\n\n- Dedicated audio PCB layers\n\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.\nRealtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\n Audio Features\n - Audio Shielding\n - Premium audio capacitors\n - Dedicated audio PCB layers\n * A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n\n2 x USB 2.0 ports (2 x Type-A)\n\n1 x DisplayPort\n\n1 x D-Sub port\n\n1 x HDMI® port\n\n1 x Realtek 1Gb Ethernet port\n\n3 x Audio jacks\n\n1 x PS/2 Keyboard (purple) port\n\n1 x PS/2 Mouse (green) port\n\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n 1 x DisplayPort\n 1 x D-Sub port\n 1 x HDMI® port\n 1 x Realtek 1Gb Ethernet port\n 3 x Audio jacks\n 1 x PS/2 Keyboard (purple) port\n 1 x PS/2 Mouse (green) port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n\n1 x 4-pin CPU Fan header\n\n2 x 4-pin Chassis Fan headers\n\nPower related\n\n1 x 24-pin Main Power connector\n\n1 x 8-pin +12V Power connector\n\nStorage related\n\n2 x M.2 slots (Key M)\n\n4 x SATA 6Gb/s ports\n\nUSB\n\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\n\nMiscellaneous\n\n1 x RGB header\n\n1 x Clear CMOS header\n\n1 x Front Panel Audio header (AAFP)\n\n1 x COM Port header\n\n1 x S/PDIF Out header\n\n1 x Speaker header\n\n1 x SPI TPM header (14-1pin)\n\n1 x 10-1 pin System Panel header\n\nFan and Cooling related\n 1 x 4-pin CPU Fan header\n 2 x 4-pin Chassis Fan headers\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n Storage related\n 2 x M.2 slots (Key M)\n 4 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports\n Miscellaneous\n 1 x RGB header\n 1 x Clear CMOS header\n 1 x Front Panel Audio header (AAFP)\n 1 x COM Port header\n 1 x S/PDIF Out header\n 1 x Speaker header\n 1 x SPI TPM header (14-1pin)\n 1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n\n- DIGI+ VRM\n\n- LANGuard\n\n- Overvoltage Protection\n\n- SafeSlot Core\n\n- Stainless-Steel Back I/O\n\nASUS Q-Design\n\n- Q-DIMM\n\n- Q-Slot\n\nASUS Thermal Solution\n\n- Aluminum heatsink design\n\nASUS Lighting Control\n\n- RGB header\nASUS 5X PROTECTION III\n - DIGI+ VRM\n - LANGuard\n - Overvoltage Protection\n - SafeSlot Core\n - Stainless-Steel Back I/O\n ASUS Q-Design\n - Q-DIMM\n - Q-Slot\n ASUS Thermal Solution\n - Aluminum heatsink design\n ASUS Lighting Control\n - RGB header"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\n\nArmoury Crate\n\nAI Suite 3\n\n- Performance And Power Saving Utility\n\nTurboV EVO\n\nEPU\n\nDIGI+ VRM\n\nFan Xpert 2+\n\nASUS CPU-Z\n\nNorton Anti-virus software (Free Trial version)\n\nWinRAR\n\nUEFI BIOS\n\nASUS EZ DIY\n\n- ASUS CrashFree BIOS 3\n\n- ASUS EZ Flash 3\n\n- ASUS UEFI BIOS EZ Mode\nASUS Exclusive Software\n Armoury Crate\n AI Suite 3\n - Performance And Power Saving Utility\n TurboV EVO\n EPU\n DIGI+ VRM\n Fan Xpert 2+\n ASUS CPU-Z\n IT Management software supported\n - ASUS Control Center Express(ACCE)\n Norton Anti-virus software (Free Trial version)\n WinRAR\n UEFI BIOS\n ASUS EZ DIY\n - ASUS CrashFree BIOS 3\n - ASUS EZ Flash 3\n - ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n\n2 x SATA 6Gb/s cables\n\nMiscellaneous\n\n1 x I/O Shield\n\n1 x M.2 SSD screw package\n\nInstallation Media\n\n1 x Support DVD\n\nDocumentation\n\n1 x User guide\n\n\nCables\n 2 x SATA 6Gb/s cables\n Miscellaneous\n 1 x I/O Shield\n 1 x M.2 SSD screw package\n Installation Media\n 1 x Support DVD\n Documentation\n 1 x ACC Express Activation Key Card\n 1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor\n\n9.6 inch x 8.3 inch ( 24.4 cm x 21.1 cm )\n\nmATX Form Factor\n 9.6 inch x 8.3 inch (24.4 cm x 21.1 cm)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/9457bb86-f547-4ee6-8648-cba3963376b6/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor\n\n9.6 inch x 8.3 inch ( 24.4 cm x 21.1 cm )\n\nmATX Form Factor\n 9.6 inch x 8.3 inch (24.4 cm x 21.1 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor\n\n9.6 inch x 8.3 inch ( 24.4 cm x 21.1 cm )\n\nmATX Form Factor\n 9.6 inch x 8.3 inch (24.4 cm x 21.1 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "chipset": {
+        "value": "Intel® H610 Chipset\nIntel® H610 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\n\nIntel® H610 Chipset\n\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x2 mode)\n\n4 x SATA 6Gb/s ports\n\nTotal supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\n Intel® H610 Chipset\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x2 mode)\n 4 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "pcie": {
+        "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)\n1 x PCIe 4.0 x16 slot\nIntel® H610 Chipset\n1 x PCIe 3.0 x1 slot\nIntel® Core™ Processors (14th & 13th & 12th Gen)\n 1 x PCIe 4.0 x16 slot\n Intel® H610 Chipset\n 1 x PCIe 3.0 x1 slot",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n\n2 x USB 2.0 ports (2 x Type-A)\n\n1 x DisplayPort\n\n1 x D-Sub port\n\n1 x HDMI® port\n\n1 x Realtek 1Gb Ethernet port\n\n3 x Audio jacks\n\n1 x PS/2 Keyboard (purple) port\n\n1 x PS/2 Mouse (green) port\n\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n 1 x DisplayPort\n 1 x D-Sub port\n 1 x HDMI® port\n 1 x Realtek 1Gb Ethernet port\n 3 x Audio jacks\n 1 x PS/2 Keyboard (purple) port\n 1 x PS/2 Mouse (green) port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n\n1 x 4-pin CPU Fan header\n\n2 x 4-pin Chassis Fan headers\n\nPower related\n\n1 x 24-pin Main Power connector\n\n1 x 8-pin +12V Power connector\n\nStorage related\n\n2 x M.2 slots (Key M)\n\n4 x SATA 6Gb/s ports\n\nUSB\n\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\n\nMiscellaneous\n\n1 x RGB header\n\n1 x Clear CMOS header\n\n1 x Front Panel Audio header (AAFP)\n\n1 x COM Port header\n\n1 x S/PDIF Out header\n\n1 x Speaker header\n\n1 x SPI TPM header (14-1pin)\n\n1 x 10-1 pin System Panel header\n\nFan and Cooling related\n 1 x 4-pin CPU Fan header\n 2 x 4-pin Chassis Fan headers\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n Storage related\n 2 x M.2 slots (Key M)\n 4 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports\n Miscellaneous\n 1 x RGB header\n 1 x Clear CMOS header\n 1 x Front Panel Audio header (AAFP)\n 1 x COM Port header\n 1 x S/PDIF Out header\n 1 x Speaker header\n 1 x SPI TPM header (14-1pin)\n 1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 1Gb Ethernet",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n\n- Supports up to 24-Bit/192 kHz playback\n\nAudio Features\n\n- Audio Shielding\n\n- Premium audio capacitors\n\n- Dedicated audio PCB layers\n\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.\nRealtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\n Audio Features\n - Audio Shielding\n - Premium audio capacitors\n - Dedicated audio PCB layers\n * A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nIntel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-e-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:57+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME H610M-E D4"
+  }
+}

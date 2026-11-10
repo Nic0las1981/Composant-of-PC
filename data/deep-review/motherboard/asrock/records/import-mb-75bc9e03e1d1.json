@@ -1,0 +1,227 @@
+{
+  "review": {
+    "id": "import-mb-75bc9e03e1d1",
+    "name": "X570 Creator",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+          "checkedAt": "2026-11-10T13:59:34+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+          "httpStatus": 200,
+          "sha256": "b30b57651cc840de9be68ed23c03b108a6d35a4a4e46fe9bd01f073af6a52c96",
+          "bytes": 5591313,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock X570 Creator motherboard",
+        "modelNames": [
+          "X570 Creator"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+      "checkedAt": "2026-11-10T13:59:34+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+      "httpStatus": 200,
+      "sha256": "b30b57651cc840de9be68ed23c03b108a6d35a4a4e46fe9bd01f073af6a52c96"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock X570 Creator motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • ATX Form Factor\n                              • 2oz Copper PCB\n\n\n                CPU           • Supports AMD AM4 socket Ryzen™ 2000 and 3000 series\n                                processors\n                              • IR Digital PWM\n                              • 14 Power Phase design\n\n\n                Chipset       • AMD X570\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs (Matisse) support DDR4 4666+\n                                 (OC)/4400(OC)/4300(OC)/4266(OC)/4200(OC)/4133\n                                 (OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n                                 3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\n                                 buffered memory*\n                              • AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n                                 3600+(OC)/3466(OC)/3200(OC)/2933/2667/2400/2133 ECC\n                                 & non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Picasso) support DDR4 3466+|\n                                 (OC)/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\n                                 memory*\n                             * For Ryzen Series CPUs (Picasso), ECC is only supported with\n                             PRO CPUs.\n                             * Please refer to Memory Support List on ASRock’s website for\n                             more information. (http://www.asrock.com/)\n                             * Please refer to page 26 for DDR4 UDIMM maximum\n                             frequency support.\n                              • Max. capacity of system memory: 128GB\n                              • 15μ Gold Contact in DIMM Slots\n\n\n                Expansion     AMD Ryzen series CPUs (Matisse)\n                Slot          • 3 x PCI Express 4.0 x16 Slots (PCIE1/PCIE4/PCIE6: single\nEnglish\n\n\n\n\n                                at x16 (PCIE1); dual at x8 (PCIE1) / x8 (PCIE4); triple at x8\n                                (PCIE1) / x8 (PCIE4) / x4 (PCIE6))*\n\n\n\n\n          2\n\f                                                                       X570 Creator\n\n\n\n\n           AMD Ryzen series CPUs (Pinnacle Ridge)\n           • 3 x PCI Express x16 Slots (PCIE1/PCIE4/PCIE6: single at\n               Gen3x16 (PCIE1); dual at Gen3x8 (PCIE1) / Gen3x8 (PCIE4);\n               triple at Gen3x8 (PCIE1) / Gen3x8 (PCIE4) / Gen4x4\n               (PCIE6))*\n            AMD Ryzen series CPUs (Picasso)\n            • 1 x PCI Express x16 Slot (single at Gen3x8 (PCIE1) or\n               Gen4x4 (PCIE6))*\n           * The PCIe bandwidth is dependent on the CPU installed.\n           * Supports NVMe SSD as boot disks\n            • 3 x PCI Express 2.0 x1 Slots\n            • Supports AMD Quad CrossFireXTM, 3-Way CrossFireXTM\n               and CrossFireXTM\n            • Supports NVIDIA® Quad SLITM and SLITM**\n            • Supports NVIDIA® NVLinkTM with dual NVIDIA® GeForce®\n               RTX series graphics cards**\n           ** NVIDIA NVLink Bridge does not come with the package.\n           Please purchase it from NVIDIA® if necessary.\n           ** This feature is only supported with Ryzen Series CPUs\n           (Matisse and Pinnacle Ridge).\n            • 1 x Vertical M.2 Socket (Key E) with the bundled WiFi-\n               802.11ax module (on the rear I/O)\n            • 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n\n\nGraphics    • Integrated AMD RadeonTM Vega Series Graphics in Ryzen\n               Series APU*\n           * Actual support may vary by CPU\n            • DirectX 12, Pixel Shader 5.0\n            • Shared memory default 2GB. Max Shared memory supports\n               up to 16GB.\n           * The Max shared memory 16GB requires 32GB system memory\n           installed.\n            • Supports HDMI 2.0 with max. resolution up to 4K x 2K\n               (4096x2160) @ 60Hz\n            • Supports DisplayPort 1.4 Input with max. resolution up to\n               4K x 2K (4096x2160) @ 120Hz\n                                                                                      English\n\n\n\n\n           * DisplayPort 1.4 Input is used to connect a Type-C Monitor.\n            • Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\n               HBR (High Bit Rate Audio) with HDMI 2.0 Ports (Compliant\n               HDMI monitor is required)\n\n\n                                                                                3\n\f                      • Supports HDR (High Dynamic Range) with HDMI 2.0\n                      • Supports HDCP 2.2 with HDMI 2.0 and DisplayPort 1.4\n                        Ports\n                      • Supports 4K Ultra HD (UHD) playback with HDMI 2.0 and\n                        DisplayPort 1.4 Ports\n                      • Supports Microsoft PlayReady®\n\n\n              Audio   • 7.1 CH HD Audio with Content Protection (Realtek\n                        ALC1220 Audio Codec)\n                      • Premium Blu-ray Audio support\n                      • Supports Surge Protection\n                      • Supports Purity SoundTM 4\n                        - NE5532 Premium Headset Amplifier for Front Panel\n                          Audio Connector (Supports up to 600 Ohm headsets)\n                        - Pure Power-In\n                        - Direct Drive Technology\n                        - PCB Isolate Shielding\n                        - Impedance Sensing on Line Out port\n                        - Individual PCB Layers for R/L Audio Channel\n                        - Gold Audio Jacks\n                        - 15μ Gold Audio Connector\n                      • Supports DTS Connect\n\n\n              LAN     1 x 10 Gigabit LAN 10/100/1000/2500/5000/10000 Mb/s\n                      (AQUANTIA® AQC107):\n                       • Supports Wake-On-LAN\n                       • Supports Lightning/ESD Protection\n                       • Supports PXE\n                       1 x Gigabit LAN 10/100/1000 Mb/s (Intel® I211AT):\n                       • Supports Wake-On-LAN\n                       • Supports Lightning/ESD Protection\n                       • Supports Energy Efficient Ethernet 802.3az\n                       • Supports PXE\nEnglish\n\n\n\n\n          4\n\f                                                                            X570 Creator\n\n\n\n\nWireless     •   Intel® 802.11ax WiFi Module\nLAN          •   Supports IEEE 802.11a/b/g/n/ax\n             • Supports Dual-Band (2.4/5 GHz)\n             • Supports WiFi6 802.11ax (2.4Gbps)\n             • 2 antennas to support 2 (Transmit) x 2 (Receive) diversity\n               technology\n             • Supports Bluetooth 5.0 + High speed class II\n             • Supports MU-MIMO\n\n\nRear Panel    • 2 x Antenna Ports\nI/O           • 1 x PS/2 Mouse/Keyboard Port\n              • 1 x HDMI Port\n              • 1 x DisplayPort 1.4 Input\n              • 1 x Optical SPDIF Out Port\n              • 2 x USB 3.2 Gen2 Type-C Ports (Supports ESD Protection)\n              • 6 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n             * Ultra USB Power is supported on USB3_5_6 ports.\n             * ACPI wake-up function is not supported on USB3_5_6, TB_1\n             and TB_2 ports.\n              • 2 x RJ-45 LAN Ports with LED (ACT/LINK LED and SPEED\n                LED)\n              • 1 x BIOS Flashback Button\n              • HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\n                Front Speaker / Microphone (Gold Audio Jacks)\n\n\nStorage       • 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\n                 RAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n              • 4 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061,\n                 support NCQ, AHCI and Hot Plug\n              • 1 x Hyper M.2 Socket (M2_1), supports M Key type\n                 2260/2280/22110 M.2 PCI Express module up to Gen4x4\n                 (64 Gb/s) (with Matisse) or Gen3x4 (32 Gb/s) (with Pinnacle\n                 Ridge and Picasso)*\n              • 1 x Hyper M.2 Socket (M2_2), supports M Key type\n                 2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\n                 and M.2 PCI Express module up to Gen4x4 (64 Gb/s)*\n                                                                                           English\n\n\n\n\n             * Supports NVMe SSD as boot disks\n             * Supports ASRock U.2 Kit\n\n\n\n\n                                                                                     5\n\f              Connector    • 1 x DisplayPort 1.4 Input (DPIN2)\n                           • 1 x SPI TPM Header\n                           • 1 x Power LED and Speaker Header\n                           • 1 x AMD Fan LED Header\n                          * The AMD Fan LED Header is compatible with a regular RGB\n                          LED stripe.\n                          * The AMD Fan LED Header supports LED strips of maximum\n                          load of 3A (36W) and length up to 2.5M.\n                           • 1 x RGB LED Header\n                          * Supports in total up to 12V/3A, 36W LED Strip\n                           • 1 x Addressable LED Header\n                          * Supports in total up to 5V/3A, 15W LED Strip\n                           • 1 x CPU Fan Connector (4-pin)\n                          * The CPU Fan Connector supports the CPU fan of maximum\n                          1A (12W) fan power.\n                           • 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\n                              Speed Control)\n                          * The CPU/Water Pump Fan supports the water cooler fan of\n                          maximum 2A (24W) fan power.\n                           • 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\n                              Speed Control)\n                          * The Chassis/Water Pump Fan supports the water cooler fan of\n                          maximum 2A (24W) fan power.\n                          * CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\n                          CHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n                           • 1 x 24 pin ATX Power Connector (Hi-Density Power\n                              Connector)\n                           • 1 x 8 pin 12V Power Connector (Hi-Density Power\n                              Connector)\n                           • 1 x 4 pin 12V Power Connector (Hi-Density Power\n                              Connector)\n                           • 1 x Front Panel Audio Connector (15μ Gold Audio\n                              Connector)\n                           • 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\n                              ESD Protection)\n                           • 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n                              (Supports ESD Protection)\nEnglish\n\n\n\n\n                           • 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\n                              Protection)\n                           • 1 x Dr. Debug with LED\n                           • 1 x Power Button with LED\n                           • 1 x Reset Button with LED\n                           • 1 x Clear CMOS Button\n          6\n\f                                                                                                           X570 Creator\n\n\n\n\n    BIOS                    •   AMI UEFI Legal BIOS with GUI support\n    Feature                 •   Supports “Plug and Play”\n                            •   ACPI 5.1 compliance wake up events\n                            •   Supports jumperfree\n                            •   SMBIOS 2.3 support\n                            •   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\n                                VDDP Voltage Multi-adjustment\n\n\n    Hardware                • Temperature Sensing: CPU, CPU/Water Pump, Chassis/Wa-\n    Monitor                   ter Pump Fans\n                            • Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\n                              Pump Fans\n                            • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\n                              ture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n                            • Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\n                              Water Pump Fans\n                            • Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\n                              NB, DRAM, VPPM, PCH 1.05V\n\n\n    OS                      • Microsoft® Windows® 10 64-bit\n\n\n    Certifica-              • FCC, CE\n    tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n             Please realize that there is a certain risk involved with overclocking, including adjusting\n            the setting in the BIOS, applying Untied Overclocking Technology, or using third-party\n            overclocking tools. Overclocking may affect your system’s stability, or even cause damage to\n            the components and devices of your system. It should be done at your own risk and expense.\n            We are not responsible for possible damage caused by overclocking.\n                                                                                                                          English\n\n\n\n\n                                                                                                                    7\n\f                   ",
+      "modelNames": [
+        "X570 Creator"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X570 Creator",
+    "identityNote": "Modèle ASRock X570 Creator confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X570 Creator",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor\n• 2oz Copper PCB"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD AM4 socket Ryzen™ 2000 and 3000 series\nprocessors\n• IR Digital PWM\n• 14 Power Phase design"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs (Matisse) support DDR4 4666+\n(OC)/4400(OC)/4300(OC)/4266(OC)/4200(OC)/4133\n(OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\nbuffered memory*\n• AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n3600+(OC)/3466(OC)/3200(OC)/2933/2667/2400/2133 ECC\n& non-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Picasso) support DDR4 3466+|\n(OC)/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\nmemory*\n* For Ryzen Series CPUs (Picasso), ECC is only supported with\nPRO CPUs.\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n* Please refer to page 26 for DDR4 UDIMM maximum\nfrequency support.\n• Max. capacity of system memory: 128GB\n• 15μ Gold Contact in DIMM Slots"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs (Matisse)\nSlot          • 3 x PCI Express 4.0 x16 Slots (PCIE1/PCIE4/PCIE6: single\nat x16 (PCIE1); dual at x8 (PCIE1) / x8 (PCIE4); triple at x8\n(PCIE1) / x8 (PCIE4) / x4 (PCIE6))*\nAMD Ryzen series CPUs (Pinnacle Ridge)\n• 3 x PCI Express x16 Slots (PCIE1/PCIE4/PCIE6: single at\nGen3x16 (PCIE1); dual at Gen3x8 (PCIE1) / Gen3x8 (PCIE4);\ntriple at Gen3x8 (PCIE1) / Gen3x8 (PCIE4) / Gen4x4\n(PCIE6))*\nAMD Ryzen series CPUs (Picasso)\n• 1 x PCI Express x16 Slot (single at Gen3x8 (PCIE1) or\nGen4x4 (PCIE6))*\n* The PCIe bandwidth is dependent on the CPU installed.\n* Supports NVMe SSD as boot disks\n• 3 x PCI Express 2.0 x1 Slots\n• Supports AMD Quad CrossFireXTM, 3-Way CrossFireXTM\nand CrossFireXTM\n• Supports NVIDIA® Quad SLITM and SLITM**\n• Supports NVIDIA® NVLinkTM with dual NVIDIA® GeForce®\nRTX series graphics cards**\n** NVIDIA NVLink Bridge does not come with the package.\nPlease purchase it from NVIDIA® if necessary.\n** This feature is only supported with Ryzen Series CPUs\n(Matisse and Pinnacle Ridge).\n• 1 x Vertical M.2 Socket (Key E) with the bundled WiFi-\n802.11ax module (on the rear I/O)\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD RadeonTM Vega Series Graphics in Ryzen\nSeries APU*\n* Actual support may vary by CPU\n• DirectX 12, Pixel Shader 5.0\n• Shared memory default 2GB. Max Shared memory supports\nup to 16GB.\n* The Max shared memory 16GB requires 32GB system memory\ninstalled.\n• Supports HDMI 2.0 with max. resolution up to 4K x 2K\n(4096x2160) @ 60Hz\n• Supports DisplayPort 1.4 Input with max. resolution up to\n4K x 2K (4096x2160) @ 120Hz\n* DisplayPort 1.4 Input is used to connect a Type-C Monitor.\n• Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\nHBR (High Bit Rate Audio) with HDMI 2.0 Ports (Compliant\nHDMI monitor is required)\n• Supports HDR (High Dynamic Range) with HDMI 2.0\n• Supports HDCP 2.2 with HDMI 2.0 and DisplayPort 1.4\nPorts\n• Supports 4K Ultra HD (UHD) playback with HDMI 2.0 and\nDisplayPort 1.4 Ports\n• Supports Microsoft PlayReady®"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC1220 Audio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Supports Purity SoundTM 4\n- NE5532 Premium Headset Amplifier for Front Panel\nAudio Connector (Supports up to 600 Ohm headsets)\n- Pure Power-In\n- Direct Drive Technology\n- PCB Isolate Shielding\n- Impedance Sensing on Line Out port\n- Individual PCB Layers for R/L Audio Channel\n- Gold Audio Jacks\n- 15μ Gold Audio Connector\n• Supports DTS Connect"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x 10 Gigabit LAN 10/100/1000/2500/5000/10000 Mb/s\n(AQUANTIA® AQC107):\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports PXE\n1 x Gigabit LAN 10/100/1000 Mb/s (Intel® I211AT):\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports Energy Efficient Ethernet 802.3az\n• Supports PXE"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "•   Intel® 802.11ax WiFi Module\nLAN          •   Supports IEEE 802.11a/b/g/n/ax\n• Supports Dual-Band (2.4/5 GHz)\n• Supports WiFi6 802.11ax (2.4Gbps)\n• 2 antennas to support 2 (Transmit) x 2 (Receive) diversity\ntechnology\n• Supports Bluetooth 5.0 + High speed class II\n• Supports MU-MIMO"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 2 x Antenna Ports\nI/O           • 1 x PS/2 Mouse/Keyboard Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4 Input\n• 1 x Optical SPDIF Out Port\n• 2 x USB 3.2 Gen2 Type-C Ports (Supports ESD Protection)\n• 6 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n* Ultra USB Power is supported on USB3_5_6 ports.\n* ACPI wake-up function is not supported on USB3_5_6, TB_1\nand TB_2 ports.\n• 2 x RJ-45 LAN Ports with LED (ACT/LINK LED and SPEED\nLED)\n• 1 x BIOS Flashback Button\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "• 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 4 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061,\nsupport NCQ, AHCI and Hot Plug\n• 1 x Hyper M.2 Socket (M2_1), supports M Key type\n2260/2280/22110 M.2 PCI Express module up to Gen4x4\n(64 Gb/s) (with Matisse) or Gen3x4 (32 Gb/s) (with Pinnacle\nRidge and Picasso)*\n• 1 x Hyper M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\nand M.2 PCI Express module up to Gen4x4 (64 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x DisplayPort 1.4 Input (DPIN2)\n• 1 x SPI TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n* The AMD Fan LED Header is compatible with a regular RGB\nLED stripe.\n* The AMD Fan LED Header supports LED strips of maximum\nload of 3A (36W) and length up to 2.5M.\n• 1 x RGB LED Header\n* Supports in total up to 12V/3A, 36W LED Strip\n• 1 x Addressable LED Header\n* Supports in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\nCHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector (15μ Gold Audio\nConnector)\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n(Supports ESD Protection)\n• 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\nProtection)\n• 1 x Dr. Debug with LED\n• 1 x Power Button with LED\n• 1 x Reset Button with LED\n• 1 x Clear CMOS Button"
+          },
+          {
+            "label": "BIOS",
+            "value": "•   AMI UEFI Legal BIOS with GUI support\nFeature                 •   Supports “Plug and Play”\n•   ACPI 5.1 compliance wake up events\n•   Supports jumperfree\n•   SMBIOS 2.3 support\n•   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP Voltage Multi-adjustment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "• Temperature Sensing: CPU, CPU/Water Pump, Chassis/Wa-\nMonitor                   ter Pump Fans\n• Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\nPump Fans\n• Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n• Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\nWater Pump Fans\n• Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\nNB, DRAM, VPPM, PCH 1.05V"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including adjusting\nthe setting in the BIOS, applying Untied Overclocking Technology, or using third-party\noverclocking tools. Overclocking may affect your system’s stability, or even cause damage to\nthe components and devices of your system. It should be done at your own risk and expense.\nWe are not responsible for possible damage caused by overclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor\n• 2oz Copper PCB",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "chipset": {
+        "value": "• AMD X570",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "storagePorts": {
+        "value": "• 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 4 x SATA3 6.0 Gb/s Connectors by ASMedia ASM1061,\nsupport NCQ, AHCI and Hot Plug\n• 1 x Hyper M.2 Socket (M2_1), supports M Key type\n2260/2280/22110 M.2 PCI Express module up to Gen4x4\n(64 Gb/s) (with Matisse) or Gen3x4 (32 Gb/s) (with Pinnacle\nRidge and Picasso)*\n• 1 x Hyper M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\nand M.2 PCI Express module up to Gen4x4 (64 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs (Matisse)\nSlot          • 3 x PCI Express 4.0 x16 Slots (PCIE1/PCIE4/PCIE6: single\nat x16 (PCIE1); dual at x8 (PCIE1) / x8 (PCIE4); triple at x8\n(PCIE1) / x8 (PCIE4) / x4 (PCIE6))*\nAMD Ryzen series CPUs (Pinnacle Ridge)\n• 3 x PCI Express x16 Slots (PCIE1/PCIE4/PCIE6: single at\nGen3x16 (PCIE1); dual at Gen3x8 (PCIE1) / Gen3x8 (PCIE4);\ntriple at Gen3x8 (PCIE1) / Gen3x8 (PCIE4) / Gen4x4\n(PCIE6))*\nAMD Ryzen series CPUs (Picasso)\n• 1 x PCI Express x16 Slot (single at Gen3x8 (PCIE1) or\nGen4x4 (PCIE6))*\n* The PCIe bandwidth is dependent on the CPU installed.\n* Supports NVMe SSD as boot disks\n• 3 x PCI Express 2.0 x1 Slots\n• Supports AMD Quad CrossFireXTM, 3-Way CrossFireXTM\nand CrossFireXTM\n• Supports NVIDIA® Quad SLITM and SLITM**\n• Supports NVIDIA® NVLinkTM with dual NVIDIA® GeForce®\nRTX series graphics cards**\n** NVIDIA NVLink Bridge does not come with the package.\nPlease purchase it from NVIDIA® if necessary.\n** This feature is only supported with Ryzen Series CPUs\n(Matisse and Pinnacle Ridge).\n• 1 x Vertical M.2 Socket (Key E) with the bundled WiFi-\n802.11ax module (on the rear I/O)\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "rearIO": {
+        "value": "• 2 x Antenna Ports\nI/O           • 1 x PS/2 Mouse/Keyboard Port\n• 1 x HDMI Port\n• 1 x DisplayPort 1.4 Input\n• 1 x Optical SPDIF Out Port\n• 2 x USB 3.2 Gen2 Type-C Ports (Supports ESD Protection)\n• 6 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n* Ultra USB Power is supported on USB3_5_6 ports.\n* ACPI wake-up function is not supported on USB3_5_6, TB_1\nand TB_2 ports.\n• 2 x RJ-45 LAN Ports with LED (ACT/LINK LED and SPEED\nLED)\n• 1 x BIOS Flashback Button\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x DisplayPort 1.4 Input (DPIN2)\n• 1 x SPI TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n* The AMD Fan LED Header is compatible with a regular RGB\nLED stripe.\n* The AMD Fan LED Header supports LED strips of maximum\nload of 3A (36W) and length up to 2.5M.\n• 1 x RGB LED Header\n* Supports in total up to 12V/3A, 36W LED Strip\n• 1 x Addressable LED Header\n* Supports in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\nCHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector (15μ Gold Audio\nConnector)\n• 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n(Supports ESD Protection)\n• 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\nProtection)\n• 1 x Dr. Debug with LED\n• 1 x Power Button with LED\n• 1 x Reset Button with LED\n• 1 x Clear CMOS Button",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "network": {
+        "value": "1 x 10 Gigabit LAN 10/100/1000/2500/5000/10000 Mb/s\n(AQUANTIA® AQC107):\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports PXE\n1 x Gigabit LAN 10/100/1000 Mb/s (Intel® I211AT):\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports Energy Efficient Ethernet 802.3az\n• Supports PXE\n•   Intel® 802.11ax WiFi Module\nLAN          •   Supports IEEE 802.11a/b/g/n/ax\n• Supports Dual-Band (2.4/5 GHz)\n• Supports WiFi6 802.11ax (2.4Gbps)\n• 2 antennas to support 2 (Transmit) x 2 (Receive) diversity\ntechnology\n• Supports Bluetooth 5.0 + High speed class II\n• Supports MU-MIMO",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC1220 Audio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Supports Purity SoundTM 4\n- NE5532 Premium Headset Amplifier for Front Panel\nAudio Connector (Supports up to 600 Ohm headsets)\n- Pure Power-In\n- Direct Drive Technology\n- PCB Isolate Shielding\n- Impedance Sensing on Line Out port\n- Individual PCB Layers for R/L Audio Channel\n- Gold Audio Jacks\n- 15μ Gold Audio Connector\n• Supports DTS Connect",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD AM4 socket Ryzen™ 2000 and 3000 series\nprocessors\n• IR Digital PWM\n• 14 Power Phase design\nBIOS: •   AMI UEFI Legal BIOS with GUI support\nFeature                 •   Supports “Plug and Play”\n•   ACPI 5.1 compliance wake up events\n•   Supports jumperfree\n•   SMBIOS 2.3 support\n•   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP Voltage Multi-adjustment",
+        "sourceURL": "https://download.asrock.com/Manual/X570%20Creator.pdf",
+        "checkedAt": "2026-11-10T13:59:34+00:00"
+      }
+    },
+    "manufacturerModel": "X570 Creator"
+  }
+}

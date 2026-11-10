@@ -1,0 +1,73 @@
+{
+  "receipt": {
+    "url": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+    "checkedAt": "2026-11-10T14:45:43+00:00",
+    "resolvedURL": "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+    "httpStatus": 200,
+    "sha256": "ce841f2d0edd05da50f0ffeddf3f1bad2ea489c3b68c0708080e62ad93445e67",
+    "bytes": 2444459,
+    "status": "manual_fetched"
+  },
+  "page": 2,
+  "method": "Transcription manuelle après inspection visuelle de la page entière",
+  "shared": {
+    "Interface": "PCIe Gen 4.0 x 4, NVMe 1.4",
+    "Weight": "9.8 g ± 1 g",
+    "MTBF": "≤ 1,500,000 hours",
+    "Operating Temperature": "0 °C to 70 °C",
+    "Non-operating Temperature": "-40 °C to 85 °C",
+    "Shock Resistance": "1500 G / 0.5 ms",
+    "Vibration Resistance": "6.0667G RMS (20–2000 Hz)",
+    "Certifications": "CE, FCC, RoHS, BSMI, KCC, VCCI, RCM"
+  },
+  "columns": {
+    "512": {
+      "DRAM Cache": "1 GB",
+      "Sequential Read speed": "7400 MB/s",
+      "Sequential Write speed": "3400 MB/s",
+      "Max. Random Read Speed": "540 K IOPS",
+      "Max. Random Write Speed": "900 K IOPS",
+      "Operating Power Consumption (Read)": "4.83 W",
+      "Operating Power Consumption (Write)": "4.28 W",
+      "Idle Power Consumption": "0.92 W",
+      "Dimensions": "80.00 x 22.00 x 2.20 mm (Single side)",
+      "Warranty": "5-Year / 375 TBW"
+    },
+    "1000": {
+      "DRAM Cache": "1 GB",
+      "Sequential Read speed": "7400 MB/s",
+      "Sequential Write speed": "6400 MB/s",
+      "Max. Random Read Speed": "1000 K IOPS",
+      "Max. Random Write Speed": "1000 K IOPS",
+      "Operating Power Consumption (Read)": "4.96 W",
+      "Operating Power Consumption (Write)": "5.99 W",
+      "Idle Power Consumption": "0.99 W",
+      "Dimensions": "80.00 x 22.00 x 2.20 mm (Single side)",
+      "Warranty": "5-Year / 750 TBW"
+    },
+    "2000": {
+      "DRAM Cache": "2 GB",
+      "Sequential Read speed": "7400 MB/s",
+      "Sequential Write speed": "6700 MB/s",
+      "Max. Random Read Speed": "1300 K IOPS",
+      "Max. Random Write Speed": "1100 K IOPS",
+      "Operating Power Consumption (Read)": "5.09 W",
+      "Operating Power Consumption (Write)": "6.27 W",
+      "Idle Power Consumption": "1.09 W",
+      "Dimensions": "80.00 x 22.00 x 5.90 mm (Double side)",
+      "Warranty": "5-Year / 1500 TBW"
+    },
+    "4000": {
+      "DRAM Cache": "4 GB",
+      "Sequential Read speed": "7400 MB/s",
+      "Sequential Write speed": "6700 MB/s",
+      "Max. Random Read Speed": "1350 K IOPS",
+      "Max. Random Write Speed": "1150 K IOPS",
+      "Operating Power Consumption (Read)": "5.18 W",
+      "Operating Power Consumption (Write)": "6.29 W",
+      "Idle Power Consumption": "1.1 W",
+      "Dimensions": "80.00 x 22.00 x 5.90 mm (Double side)",
+      "Warranty": "5-Year / 3000 TBW"
+    }
+  }
+}

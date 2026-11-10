@@ -8,6 +8,8 @@ import { getVerifiedProduct } from "./verifiedOffers.ts";
 
 export interface ProductDetailRow {
   label: string;
+  /** Short label within its source group; `label` remains the comparison key. */
+  displayLabel?: string;
   value: string;
 }
 
@@ -43,17 +45,20 @@ export function getProductDetails(component: Component): ProductDetails {
   const rawProfile = getVisualProfile(component);
   const profile = rawProfile?.category === component.category && rawProfile.fidelity !== "schematic" ? rawProfile : undefined;
   const groups: ProductDetails["groups"] = [];
+  const groupsByTitle = new Map<string,ProductDetails['groups'][number]>();
+  const rowLabels = new Set<string>();
   const highlights: string[] = [];
   const advice: string[] = [];
   const spec = (pattern: RegExp) => component.specs.find((value) => pattern.test(value));
   const fragments = component.specs.flatMap((value) => value.split("·").map((part) => part.trim()));
   const part = (pattern: RegExp) => fragments.find((value) => pattern.test(value));
   const match = (pattern: RegExp) => component.specs.map((value) => value.match(pattern)).find(Boolean);
-  const add = (title: string, label: string, value: string | undefined) => {
+  const add = (title: string, label: string, value: string | undefined, displayLabel?: string) => {
     if (!value) return;
-    let group = groups.find((entry) => entry.title === title);
-    if (!group) { group = { title, rows: [] }; groups.push(group); }
-    group.rows.push({ label, value });
+    let group = groupsByTitle.get(title);
+    if (!group) { group = { title, rows: [] }; groups.push(group); groupsByTitle.set(title,group); }
+    group.rows.push({ label, value, ...(displayLabel ? { displayLabel } : {}) });
+    rowLabels.add(label);
   };
   const highlight = (...values: Array<string | undefined>) => {
     highlights.push(...values.filter((value): value is string => Boolean(value)));
@@ -62,10 +67,11 @@ export function getProductDetails(component: Component): ProductDetails {
   const family = getCatalogFamily(component);
   const verified = getVerifiedProduct(component);
   if (verified) {
-    add('Référence vérifiée', 'Référence fabricant (MPN)', verified.mpn);
+    if (verified.identityKind === 'manufacturer-model') add('Modèle constructeur', 'Désignation exacte du modèle', verified.manufacturerModel);
+    else add('Référence vérifiée', 'Référence fabricant (MPN)', verified.mpn);
     for (const group of verified.groups) for (const row of group.rows) {
       const label = `Relevé · ${group.title} · ${row.label}`;
-      if (!groups.some(entry => entry.rows.some(item => item.label === label))) add(`Relevé technique · ${group.title}`, label, row.value);
+      if (!rowLabels.has(label)) add(`Relevé technique · ${group.title}`, label, row.value, row.label);
     }
     advice.push(...verified.notes);
   }

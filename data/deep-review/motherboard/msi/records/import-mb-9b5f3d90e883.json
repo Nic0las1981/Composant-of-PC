@@ -1,0 +1,347 @@
+{
+  "review": {
+    "id": "import-mb-9b5f3d90e883",
+    "name": "MEG X570S ACE MAX",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DirectX",
+      "SLI",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slots",
+      "Multi-GPU",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Audio",
+      "Storage",
+      "Internal connectors",
+      "Back panel ports",
+      "LED Features",
+      "I/O Controller",
+      "Hardware Monitor",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_162907966525e3301894bbdab4e43d1bcf1b0b6f7b.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MEG X570S ACE MAX",
+    "identityNote": "Modèle MSI MEG X570S ACE MAX confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 4,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 305,
+      "widthMm": 244,
+      "manufacturerPartNumber": "MEG X570S ACE MAX",
+      "description": "Carte mère MSI MEG X570S ACE MAX. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "4 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "3"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "8"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "4"
+          },
+          {
+            "label": "RAID",
+            "value": "AMD X570 Chipset\n Supports RAID 0, RAID 1 and RAID 10"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E AX210"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 2, Type C), 4(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen 2x2, Type C), 3(Gen 2, Type A), 4(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "4"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "5+ Optical S/PDIF (Realtek® ALC4082 Codec + ESS SABRE9018Q2C combo DAC)"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "SLI",
+            "value": "Y"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series 4000\n G-Series, 3000 Series, 3000 G-Series, 2000 Series and 2000\n G-Series desktop processors 1\n\n Supports Socket AM4\n Please refer www.msi.com for more information on compatible memory.\n\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR4 memory slots, support up to 128GB\n\n Supports 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC 1\n\n Max frequency by A-XMP OC mode:\n For Ryzen™ 5000 G-Series & 4000 G-Series processors\n 1DPC 1R Max speed up to 5300 MHz (support overclocking up to 5500+ MHz)\n\n 1DPC 2R Max speed up to 4266 MHz\n\n 2DPC 1R Max speed up to 4400 MHz\n\n 2DPC 2R Max speed up to 3600 MHz\n\n For Ryzen™ 5000 Series & 3000 Series processors\n 1DPC 1R Max speed up to 5100 MHz\n\n 1DPC 2R Max speed up to 4000 MHz\n\n 2DPC 1R Max speed up to 4000 MHz\n\n 2DPC 2R Max speed up to 3600 MHz\n\n Supports Dual-Channel mode\n\n Supports non-ECC, un-buffered memory\n \n Please refer to www.msi.com for more information on compatible memory\n \n See supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Supports PCIe 4.0 / PCIe 3.0\n PCIe 4.0 is available only on AMD Ryzen™ 5000 Series and 3000 Series desktop processors\n\n 2x PCIe x16 slots (From processor)\n PCI_E1 & PCI_E2 support x16/ x0, X8/ X8 for AMD Ryzen™ 5000 Series, 5000 G-Series, 4000 G-Series,\n 3000 Series and 2000 Series desktop processors\n\n PCI_E1 & PCI_E2 support x8/ x0 for AMD Ryzen™ 2000 G-Series and 3000 G-Series desktop processors\n\n 1x PCIe x16 slot (From X570 chipset)\n PCI_E4 supports x8 1\n\n 1x PCIe x1 slot (From X570 chipset) 2\n \n PCI_E4, M2_3, M2_4 and SATA5~8 share the same bandwidth.\n\n The PCIe x1 slot and onboard Wi-Fi module share the same bandwidth, you\n can not use both of them simultaneously, and the default setting is the Wi-Fi\n module for the system. Please disable the Onboard Wi-Fi Module Control in\n BIOS if you want to use the PCIe x1 slot."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports NVIDIA® SLI® Technology\n\n Supports AMD CrossFire™ Technology"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125B 2.5 Gbps LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel® Wi-Fi 6E AX210\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 \n\n (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1.\n\n Bluetooth 5.2 will be ready in WIN10 21H1."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC4082 Codec + ESS SABRE9018Q2C Combo DAC/HPA\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "8x SATA 6Gb/s ports (From X570 chipset) 1\n\n 4x M.2 slots (Key M)\n Supports PCIe 4.0 / PCIe 3.0\n PCIe 4.0 is available only on AMD Ryzen™ 5000 Series and 3000 Series desktop processors\n\n Support SATA 6Gbps (For M2_1, M2_3 & M2_4)\n\n M2_1 (From processor)\n Supports 2280/ 22110 storage devices\n\n M2_2 (From X570 chipset)\n Supports 2260/ 2280 storage devices\n\n M2_3 1 (From X570 chipset)\n Supports 2280/ 22110 storage devices\n\n M2_4 1 (From X570 chipset)\n Supports 2260/ 2280 storage devices\n \n PCI_E4, M2_3, M2_4 and SATA5~8 share the same bandwidth."
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 8x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 2x USB 2.0 connectors (support additional 4 USB ports)\n\n 2x USB 3.2 Gen 1 5Gbps connectors (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal sensors connectors\n\n 1x Water Flow Meter connector\n\n 1x Tuning Controller connector"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "Clear CMOS Button\n\n USB 2.0\n\n USB 3.2 Gen 1 5Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "LED Features",
+            "value": "1x 4-pin RGB LED connector\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin CORSAIR connector\n\n 1x EZ LED Control switch\n\n 1x 2-Digit Debug Code LED\n\n 4x EZ Debug LEDs"
+          },
+          {
+            "label": "I/O Controller",
+            "value": "NUVOTON NCT6687D Controller Chip"
+          },
+          {
+            "label": "Hardware Monitor",
+            "value": "CPU/ System/ Chipset temperature detection\n\n CPU/ System/ Pump fan speed detection\n\n CPU/ System/ Pump fan speed control"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 8x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 2x USB 2.0 connectors (support additional 4 USB ports)\n\n 2x USB 3.2 Gen 1 5Gbps connectors (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal sensors connectors\n\n 1x Water Flow Meter connector\n\n 1x Tuning Controller connector"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: Clear CMOS Button\n\n USB 2.0\n\n USB 3.2 Gen 1 5Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel® Wi-Fi 6E AX210\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 \n\n (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1.\n\n Bluetooth 5.2 will be ready in WIN10 21H1.\nWiFi & Bluetooth: Intel® Wi-Fi 6E AX210"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_162907966525e3301894bbdab4e43d1bcf1b0b6f7b.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "storagePorts": {
+        "value": "8x SATA 6Gb/s ports (From X570 chipset) 1\n\n 4x M.2 slots (Key M)\n Supports PCIe 4.0 / PCIe 3.0\n PCIe 4.0 is available only on AMD Ryzen™ 5000 Series and 3000 Series desktop processors\n\n Support SATA 6Gbps (For M2_1, M2_3 & M2_4)\n\n M2_1 (From processor)\n Supports 2280/ 22110 storage devices\n\n M2_2 (From X570 chipset)\n Supports 2260/ 2280 storage devices\n\n M2_3 1 (From X570 chipset)\n Supports 2280/ 22110 storage devices\n\n M2_4 1 (From X570 chipset)\n Supports 2260/ 2280 storage devices\n \n PCI_E4, M2_3, M2_4 and SATA5~8 share the same bandwidth.",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "pcie": {
+        "value": "Supports PCIe 4.0 / PCIe 3.0\n PCIe 4.0 is available only on AMD Ryzen™ 5000 Series and 3000 Series desktop processors\n\n 2x PCIe x16 slots (From processor)\n PCI_E1 & PCI_E2 support x16/ x0, X8/ X8 for AMD Ryzen™ 5000 Series, 5000 G-Series, 4000 G-Series,\n 3000 Series and 2000 Series desktop processors\n\n PCI_E1 & PCI_E2 support x8/ x0 for AMD Ryzen™ 2000 G-Series and 3000 G-Series desktop processors\n\n 1x PCIe x16 slot (From X570 chipset)\n PCI_E4 supports x8 1\n\n 1x PCIe x1 slot (From X570 chipset) 2\n \n PCI_E4, M2_3, M2_4 and SATA5~8 share the same bandwidth.\n\n The PCIe x1 slot and onboard Wi-Fi module share the same bandwidth, you\n can not use both of them simultaneously, and the default setting is the Wi-Fi\n module for the system. Please disable the Onboard Wi-Fi Module Control in\n BIOS if you want to use the PCIe x1 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: Clear CMOS Button\n\n USB 2.0\n\n USB 3.2 Gen 1 5Gbps (Type-A)\n\n Wi-Fi / Bluetooth\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2x2 20Gbps (Type-C)\n\n Optical S/PDIF-Out",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 8x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 2x USB 2.0 connectors (support additional 4 USB ports)\n\n 2x USB 3.2 Gen 1 5Gbps connectors (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 2x 2-pin Thermal sensors connectors\n\n 1x Water Flow Meter connector\n\n 1x Tuning Controller connector",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125B 2.5 Gbps LAN controller\nWireless LAN & Bluetooth®: Intel® Wi-Fi 6E AX210\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 \n\n (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1.\n\n Bluetooth 5.2 will be ready in WIN10 21H1.\nWiFi & Bluetooth: Intel® Wi-Fi 6E AX210\nIntel® Wi-Fi 6E AX210",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC4082 Codec + ESS SABRE9018Q2C Combo DAC/HPA\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series 4000\n G-Series, 3000 Series, 3000 G-Series, 2000 Series and 2000\n G-Series desktop processors 1\n\n Supports Socket AM4\n Please refer www.msi.com for more information on compatible memory.\n\n See supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      }
+    }
+  }
+}

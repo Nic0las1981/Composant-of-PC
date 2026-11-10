@@ -1,0 +1,66 @@
+{
+  "id": "import-ssd-414011e47a8c",
+  "brand": "Acer",
+  "manufacturerModel": "Acer FA200 PCle M.2 SSD 2 TB",
+  "source": {
+    "name": "Acer / BIWIN — fiche officielle, capacité exacte",
+    "url": "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/",
+    "checkedAt": "2026-11-10T14:36:39+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/",
+    "checkedAt": "2026-11-10T14:36:39+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/",
+    "sha256": "c4261784f02cde9838d53d3377d9d4ce3a6694be23a2b7f84839f482ad1c2edd",
+    "bytes": 88432,
+    "status": "fetched"
+  },
+  "rows": {
+    "Product": "Acer FA200 M.2 SSD",
+    "Interface": "PCIe Gen 4 x4, NVMe 2.0",
+    "Form Factor": "M.2 2280",
+    "Capacity": "2 TB",
+    "Sequential Read speed": "7200 MB/s",
+    "Sequential Write speed": "6200 MB/s",
+    "4K Random Read Speed (Up to)": "1000K IOPS",
+    "4K Random Write Speed (Up to)": "800K IOPS",
+    "Dimensions": "80.0 x 22.0 x 2.45 mm",
+    "Weight": "Less than 10 g",
+    "MTBF": "1,500,000 hours",
+    "Operating Temperature": "0 °C - 70 °C",
+    "Storage Temperature": "-40 °C - 85 °C",
+    "Vibration Resistance": "3.1 GRMS (2-500 Hz)",
+    "Shock Resistance": "100 G / 6 ms",
+    "Certifications": "CE, FCC, RoHS, CB, KCC, BSMI, VCCI, RCM",
+    "Warranty": "5-Year/1000 TBW"
+  },
+  "images": [
+    "https://www.acerstorage.com/wp-content/uploads/2025/04/2-acer-fa200-pcle-m.2-ssd-2.png"
+  ],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/",
+        "checkedAt": "2026-11-10T14:36:39+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/",
+        "sha256": "c4261784f02cde9838d53d3377d9d4ce3a6694be23a2b7f84839f482ad1c2edd",
+        "bytes": 88432,
+        "status": "fetched"
+      },
+      "title": "Acer FA200 PCle M.2 SSD",
+      "publishedCapacities": [
+        500,
+        1000,
+        2000,
+        4000
+      ]
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "Equipped with a Thermal Throttle and Power Management system, Acer FA200 can dynamically adjust SSD operating temperatures and power consumption. It also features a high thermal conductivity graphene thermal pad to ensure SSD performance optimization while enhancing device endurance."
+  }
+}

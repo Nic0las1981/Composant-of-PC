@@ -1,0 +1,85 @@
+{
+  "id": "import-ssd-176f5b4040fa",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AORUS Gen4 7300 SSD 2TB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:06+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:06+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp",
+    "sha256": "b336ab1cf11bdc83e30d21d7d2b669aa27110f0f88b417b19c07059f90415f3f",
+    "bytes": 577842,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 4.0 x4, NVMe 1.4",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "2000GB",
+    "NAND": "3D TLC NAND Flash",
+    "External DDR Cache": "DDR4 2GB",
+    "Sequential Read speed": "Up to 7300 MB/s",
+    "Sequential Write speed": "Up to 6850 MB/s",
+    "Dimension": "SSD without Heatsink: 80 x 22 x 3.5 mm (Double Side)\n\nSSD with Heatsink: 80.5 x 23.5 x 11.25 mm",
+    "Mean time between failure (MTBF)": "1.6 million hours",
+    "Max. Operating Power": "Read: 8.1W\n\nWrite: 7.4W",
+    "Power Consumption (Idle, PS3)": "30mW",
+    "Power Consumption(PS4, L1.2)": "3mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 1400TBW.\n\n2. Limited warranty based on 5 years or 1400TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"Percentage Used\" (SMART ID: 05) in SMART page of \"GIGABYTE SSD toolbox\" reaches 100 means out of warranty. (A new unused product will show the number of 0)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Test Configuration": "OS: Windows 11 22H2 (OS build 22621.819)\n\nCPU: AMD Ryzen 9 7950X 16-Core Processor 4.5G\n\nMemory: DDR5 5600 16GBx2\n\nChipset: AM5 X670 (X670E AORUS MASTER)",
+    "Published model code": "AG4732TB"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp",
+        "checkedAt": "2026-11-10T14:36:06+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp",
+        "sha256": "b336ab1cf11bdc83e30d21d7d2b669aa27110f0f88b417b19c07059f90415f3f",
+        "bytes": 577842,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 7300 SSD 2TB"
+    }
+  ],
+  "additionalSources": [
+    {
+      "name": "Gigabyte — présentation officielle du modèle exact",
+      "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB",
+      "checkedAt": "2026-11-10T15:00:14+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "extraFieldEvidence": {
+    "heatsink": {
+      "value": "+ Offered with an optional aluminum Heat Spreaders",
+      "sourceURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB",
+      "checkedAt": "2026-11-10T15:00:14+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Compléments de la présentation constructeur",
+      "rows": [
+        {
+          "label": "Déclaration constructeur",
+          "value": "+ Offered with an optional aluminum Heat Spreaders"
+        }
+      ]
+    }
+  ]
+}

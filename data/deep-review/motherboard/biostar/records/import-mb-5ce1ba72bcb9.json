@@ -1,0 +1,243 @@
+{
+  "review": {
+    "id": "import-mb-5ce1ba72bcb9",
+    "name": "B650EGTQ",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+          "checkedAt": "2026-11-10T13:46:25+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bB650EGTQ_45_BOX_new_t96i.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_TOP_H11G.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_45_FaNi.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_IO-update_vDPi.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "1090",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "B650EGTQ",
+    "identityNote": "Modèle Biostar B650EGTQ confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B650EGTQ",
+      "detailLevel": "partial",
+      "maxMemoryGB": 256
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR B650EGTQ — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD B650E"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Socket AM5 support AMD Ryzen™ 7000 / 8000 / 9000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen 7000 / 8000 / 9000 Series Processors:\n \nSupports Dual Channel DDR5 - 6000+(OC) MT/s, Non-ECC, Un-buffered Memory\n \n4 x DDR5 DIMM Memory Slot, Max. Supports up to 256 GB Memory\n \nSupport Intel Extreme Memory Profile (XMP) memory modules and AMD EXTended Profiles for \nOverclocking (EXPO) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Supports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total support 3 x M.2 Socket and 4 x SATA (6Gb/s) ports\n \nAMD Ryzen 7000 / 8000 / 9000 Series Processors\n \n1 x M.2 (Key M) Socket (M2M_CPU_1) :\n \nSupports M.2 Type 2242/ 2260/ 2280 SSD module\n \nSupports PCIe 5.0 x4 (128Gb/s)/ 4.0 x4 (64Gb/s) - NVMe/ AHCI SSD\n \n1 x M.2 (Key M) Socket (M2M_CPU_2) :\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 5.0 x 4 (128Gb/s) / 4.0 x 4 (64Gb/s) - NVMe / AHCI SSD\n \nAMD B650 Chipset\n \n1 x M.2 (Key M) Socket (M2M_SB) :\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe / AHCI SSD\n \n4 x SATA III Connector (6Gb/s) \n \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8125B\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi"
+          },
+          {
+            "label": "USB",
+            "value": "1 x USB 3.2 Gen2x2 Type-C port (1 on rear I/Os)\n \n5 x USB 3.2 Gen2 port (3 on rear I/Os and 2 via internal headers)\n \n2 x USB 3.2 Gen1 port (2 on rear I/Os)\n \n6 x USB 2.0 port (2 on rear I/Os and 4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen 7000 / 8000 / 9000 Series Processors\n \n1 x PCIe 5.0 x 16 Slot (x16 or x8/x8 mode)\n \nAMD B650 Chipset\n \n1 x PCIe 4.0 x 16 Slot (x4 mode)\n \n1 x PCIe 3.0 x 1 Slot (x1 mode) \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x WiFi Antenna Ports\n \n1 x PS/2 Keyboard/ Mouse Port\n \n1 x BIOS update Button\n \n1 x HDMI® Port\n \n1 x DP Port\n \n1 x USB 3.2 (Gen2x2) Type-C Port\n \n3 x USB 3.2 (Gen2) Type-A Ports\n \n2 x USB 3.2 (Gen1) Type-A Ports\n \n2 x USB 2.0 Type-A Ports\n \n1 x 2.5G LAN port\n \n3 x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n2 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1 x USB 3.2 (Gen2) Header (each header supports 2 USB 3.2 (Gen2) ports)\n \n1 x 4-Pin Power Connector\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n3 x System Fan Connectors\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n2 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n2 x LED Header (5V)\n \n1 x LED Header (12V)\n \n1 x IO LED Header\n \n1 x SB LED Header\n \n* M.2 (E key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nSmart / Manual CPU Fan Control\nCPU/DDR Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10 (64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x DVD Driver\n1 x Quick Guide"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bB650EGTQ_45_BOX_new_t96i.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_TOP_H11G.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_45_FaNi.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bB650E_GTQ_IO-update_vDPi.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "chipset": {
+        "value": "AMD B650E",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "storagePorts": {
+        "value": "Total support 3 x M.2 Socket and 4 x SATA (6Gb/s) ports\n \nAMD Ryzen 7000 / 8000 / 9000 Series Processors\n \n1 x M.2 (Key M) Socket (M2M_CPU_1) :\n \nSupports M.2 Type 2242/ 2260/ 2280 SSD module\n \nSupports PCIe 5.0 x4 (128Gb/s)/ 4.0 x4 (64Gb/s) - NVMe/ AHCI SSD\n \n1 x M.2 (Key M) Socket (M2M_CPU_2) :\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 5.0 x 4 (128Gb/s) / 4.0 x 4 (64Gb/s) - NVMe / AHCI SSD\n \nAMD B650 Chipset\n \n1 x M.2 (Key M) Socket (M2M_SB) :\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe / AHCI SSD\n \n4 x SATA III Connector (6Gb/s) \n \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen 7000 / 8000 / 9000 Series Processors\n \n1 x PCIe 5.0 x 16 Slot (x16 or x8/x8 mode)\n \nAMD B650 Chipset\n \n1 x PCIe 4.0 x 16 Slot (x4 mode)\n \n1 x PCIe 3.0 x 1 Slot (x1 mode) \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "rearIO": {
+        "value": "2 x WiFi Antenna Ports\n \n1 x PS/2 Keyboard/ Mouse Port\n \n1 x BIOS update Button\n \n1 x HDMI® Port\n \n1 x DP Port\n \n1 x USB 3.2 (Gen2x2) Type-C Port\n \n3 x USB 3.2 (Gen2) Type-A Ports\n \n2 x USB 3.2 (Gen1) Type-A Ports\n \n2 x USB 2.0 Type-A Ports\n \n1 x 2.5G LAN port\n \n3 x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "internalIO": {
+        "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n2 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1 x USB 3.2 (Gen2) Header (each header supports 2 USB 3.2 (Gen2) ports)\n \n1 x 4-Pin Power Connector\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n3 x System Fan Connectors\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n2 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n2 x LED Header (5V)\n \n1 x LED Header (12V)\n \n1 x IO LED Header\n \n1 x SB LED Header\n \n* M.2 (E key) Wi-Fi card is not provided",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8125B\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "audio": {
+        "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket AM5 support AMD Ryzen™ 7000 / 8000 / 9000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list.",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memoryCapacity": {
+        "value": 256,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1090&pname=B650EGTQ&chipset=AMD%20B650E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      }
+    }
+  }
+}

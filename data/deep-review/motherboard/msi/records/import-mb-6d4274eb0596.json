@@ -1,0 +1,362 @@
+{
+  "review": {
+    "id": "import-mb-6d4274eb0596",
+    "name": "X370 GAMING M7 ACK",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "U.2",
+      "RAID",
+      "TPM (header)",
+      "USB 3.1 ports (Front)",
+      "USB 3.1 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DirectX",
+      "SLI",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Slots",
+      "Multi-GPU",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1_20170811091329_598d04b994f27.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "X370 GAMING M7 ACK",
+    "identityNote": "Modèle MSI X370 GAMING M7 ACK confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 304.0,
+      "widthMm": 243.0,
+      "manufacturerPartNumber": "X370 GAMING M7 ACK",
+      "description": "Carte mère MSI X370 GAMING M7 ACK. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® X370 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "3"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3(16,0) (8,8), Gen2(4)"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "3"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "U.2",
+            "value": "1"
+          },
+          {
+            "label": "RAID",
+            "value": "AMD® X370 Chipset\n\nSupports RAID 0, RAID 1 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.1 ports (Front)",
+            "value": "1(Gen2, Type C), 4(Gen1, Type A)"
+          },
+          {
+            "label": "USB 3.1 ports (Rear)",
+            "value": "1(Gen2, Type C), 1(Gen2, Type A), 6(Gen1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "3"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC1220 Codec"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "SLI",
+            "value": "Y"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bitSupport for Windows® 7 64-bit* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors for Socket AM4\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DDR4 memory slots, support up to 128GB *ComboPI 1.0.0.3-based and above BIOS are required.\n Supports DDR4 1866/ 2133/ 2400/ 2667(OC)/ 2933(OC)/ 3200(OC)+ Mhz1\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\nA-series / Athlon™ X4 processors support a maximum of 2400 MHz.\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2 x PCIe 3.0 x16 slots (PCIE_2, PCIE_4)1\n\n RYZEN series processors support x16/x0, x8/x8 mode\n\n Ryzen™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 processors support x8/x0 mode\n\n AMD® Athlon™ with Radeon™ Vega Graphics processors support x4/x0 mode\n\n 1 x PCIe 2.0 x16 slot (PCIE_6, supports x4 mode)\n\n 3 x PCIe 2.0 x1 slots\n\nPCI_E6 slot will be unavailable when installing M.2 PCIe SSD in M2_2 slot."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "RYZEN series processor\n Supports 2-Way NVIDIA® SLI™ Technology\n\n Supports 3-Way AMD® CrossFire™ Technology\n\n AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors\n Supports 2-Way AMD® CrossFire™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD® X370 Chipset\n\n6 x SATA 6Gb/s ports1\n\n 2 x M.2 ports (Key M)\n M2_1 slot supports PCIe 3.0 x4 (RYZEN series processor) or PCIe 3.0 x2(AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors) and SATA 6Gb/s 2242/ 2260 /2280/ 22110 storage devices\n\n M2_2 slot supports PCIe 2.0 x4 and SATA 6Gb/s 2242/ 2260 /2280 storage devices\n\n 1 x U.2 port ◦upports PCIe 3.0 x4 (RYZEN series processor) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors) NVMe storage\n\nMaximum support 2x M.2 PCIe SSDs + 6x SATA HDDs or 2x M.2 SATA SSDs + 4x SATA HDDs."
+          },
+          {
+            "label": "USB",
+            "value": "ASMedia® ASM2142 Chipset\n\n1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-C port on the back panel\n\n 1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-A port on the back panel\n\nAMD® X370 Chipset\n\n1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-C port through the internal USB connector\n\n 6 x USB3.1 Gen1(SuperSpeed USB) ports (2 ports on the back panel, 4ports available through the internal USB connectors)\n\n 7 x USB 2.0 (High-speed USB) ports (3 Type-A ports on the back panel, 4 ports available through the internal USB connectors)\n\nAMD® CPU\n\n4 x USB 3.1 Gen1 (SuperSpeed USB) Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Dual Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Killer™ E2500 Gigabit LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Killer™ 1535\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n upports Bluetooth® 4.1"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1 x 24-pin ATX 12V power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2 x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1 x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin PUMP fan connector (supports up to 2A)\n\n 4 x 4-pin system fan connectors\n\n 1 x RGB LED connector\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Flash BIOS button\n\n 1 x Clear CMOS jumper\n\n 1 x 2-Digit Debug Code LED"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n LIGHTNING USB 3.1 Gen2 Type-A\n\n HD Audio Connectors\n\n USB 2.0 Ports\n\n Clear CMOS Button\n\n Flash BIOS Button\n\n VR Ready USB 3.1 Gen1 Ports\n\n LIGHTNING USB 3.1 Gen2 Type-C\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "2 in. x 9.6 in. (30.4 cm x 24.3 cm)\n\n ATX Form Factor"
+          },
+          {
+            "label": "Mounting",
+            "value": "9 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 10 64-bit\n\n Support for Windows® 7 64-bit\n* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1 x 24-pin ATX 12V power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2 x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1 x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin PUMP fan connector (supports up to 2A)\n\n 4 x 4-pin system fan connectors\n\n 1 x RGB LED connector\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Flash BIOS button\n\n 1 x Clear CMOS jumper\n\n 1 x 2-Digit Debug Code LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n LIGHTNING USB 3.1 Gen2 Type-A\n\n HD Audio Connectors\n\n USB 2.0 Ports\n\n Clear CMOS Button\n\n Flash BIOS Button\n\n VR Ready USB 3.1 Gen1 Ports\n\n LIGHTNING USB 3.1 Gen2 Type-C\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Killer™ 1535\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n upports Bluetooth® 4.1"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1_20170811091329_598d04b994f27.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\n2 in. x 9.6 in. (30.4 cm x 24.3 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\n2 in. x 9.6 in. (30.4 cm x 24.3 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "chipset": {
+        "value": "AMD® X370 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD® X370 Chipset\n\n6 x SATA 6Gb/s ports1\n\n 2 x M.2 ports (Key M)\n M2_1 slot supports PCIe 3.0 x4 (RYZEN series processor) or PCIe 3.0 x2(AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors) and SATA 6Gb/s 2242/ 2260 /2280/ 22110 storage devices\n\n M2_2 slot supports PCIe 2.0 x4 and SATA 6Gb/s 2242/ 2260 /2280 storage devices\n\n 1 x U.2 port ◦upports PCIe 3.0 x4 (RYZEN series processor) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors) NVMe storage\n\nMaximum support 2x M.2 PCIe SSDs + 6x SATA HDDs or 2x M.2 SATA SSDs + 4x SATA HDDs.",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "pcie": {
+        "value": "2 x PCIe 3.0 x16 slots (PCIE_2, PCIE_4)1\n\n RYZEN series processors support x16/x0, x8/x8 mode\n\n Ryzen™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 processors support x8/x0 mode\n\n AMD® Athlon™ with Radeon™ Vega Graphics processors support x4/x0 mode\n\n 1 x PCIe 2.0 x16 slot (PCIE_6, supports x4 mode)\n\n 3 x PCIe 2.0 x1 slots\n\nPCI_E6 slot will be unavailable when installing M.2 PCIe SSD in M2_2 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: PS/2 GAMING Device Port\n\n USB 3.1 Gen1 Ports\n\n USB 3.1 Gen1 Ports\n\n Killer™ E2500 Gigabit LAN\n\n LIGHTNING USB 3.1 Gen2 Type-A\n\n HD Audio Connectors\n\n USB 2.0 Ports\n\n Clear CMOS Button\n\n Flash BIOS Button\n\n VR Ready USB 3.1 Gen1 Ports\n\n LIGHTNING USB 3.1 Gen2 Type-C\n\n Optical S/PDIF-Out",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1 x 24-pin ATX 12V power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 2 x USB 3.1 Gen1 connectors (support additional 4 USB 3.1 Gen1 ports)\n\n 1 x USB 3.1 Gen2 connector (supports additional 1 USB 3.1 Gen2 Type C port)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin PUMP fan connector (supports up to 2A)\n\n 4 x 4-pin system fan connectors\n\n 1 x RGB LED connector\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Flash BIOS button\n\n 1 x Clear CMOS jumper\n\n 1 x 2-Digit Debug Code LED",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "network": {
+        "value": "1 x Killer™ E2500 Gigabit LAN controller\nWireless LAN & Bluetooth®: Killer™ 1535\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 867 Mbps speed.\n\n upports Bluetooth® 4.1",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "audio": {
+        "value": "Dual Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics and A-series / Athlon™ X4 Processors for Socket AM4\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/X370-GAMING-M7-ACK/Specification",
+        "checkedAt": "2026-11-10T11:00:35+00:00"
+      }
+    }
+  }
+}

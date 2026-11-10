@@ -1,6 +1,6 @@
 # Prix : estimations, signalements publics et archives
 
-La [refonte globale des visuels et la vérification des fiches](docs/COMPREHENSIVE-REVIEW.md) couvre les huit catégories et recense les données encore manquantes pour chaque variante. Les comptes antérieurs ci-dessous sont des bilans datés.
+La [revue approfondie du catalogue, des images et de la 3D](docs/DEEP-CATALOG-REVIEW.md) donne les chiffres actuels, les sources et les limites pour les huit catégories. Les comptes antérieurs ci-dessous sont des bilans datés.
 
 Le site distingue les relevés directs, les signalements publics, les estimations et les archives. Aucun achat n’est effectué sur FORGE.
 

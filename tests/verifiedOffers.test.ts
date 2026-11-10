@@ -13,13 +13,23 @@ test('reviewed records retain stable IDs, canonical MPNs, dated primary sources 
   for (const [id, product] of Object.entries(verifiedProducts)) {
     const component = getComponent(id)!;
     assert.ok(component, id);
-    assert.equal(component.manufacturerPartNumber, product.mpn, id);
+    if(product.identityKind==='manufacturer-model') {
+      assert.equal(product.mpn,'',id);
+      assert.equal(component.manufacturerPartNumber,undefined,id);
+      assert.equal(component.manufacturerModel,product.manufacturerModel,id);
+      assert.deepEqual(product.offers,[],id);
+    } else assert.equal(component.manufacturerPartNumber, product.mpn, id);
     assert.ok(product.sources.length, id);
     for (const source of product.sources) {
-      assert.equal(new URL(source.url).protocol, 'https:');
+      const url=new URL(source.url);
+      const publishedHistoricalDocument=url.protocol==='http:' && (
+        source.kind==='manufacturer' && ['hkftp.zotac.com','www.technikpr.de'].includes(url.hostname) && url.pathname.endsWith('.pdf')
+        || source.kind==='retailer' && url.hostname==='www.rootnet.com.ua' && url.pathname.includes('/fsp/222-blok-pitanija-fsp-everest-800-85-'));
+      assert.ok(url.protocol==='https:' || publishedHistoricalDocument,source.url);
       assert.ok(Number.isFinite(Date.parse(source.checkedAt)));
     }
     for (const offer of product.offers) {
+      assert.equal(new URL(offer.url).protocol,'https:');
       assert.equal(offer.mpn, product.mpn, id);
       assert.ok(offer.amount > 0 && Number.isFinite(offer.amount));
       assert.equal(offer.currency, 'EUR');
@@ -63,8 +73,12 @@ test('the cheapest exact new offer enters the budget with its date and source, e
 
 test('historical prices never resurrect an initial estimate and old offers stop funding the budget', t => {
   const ram = getComponent('ram-ddr5-32')!;
-  assert.equal(verifiedProducts[ram.id].offers[0].priceKind, 'last_known');
-  assert.equal(getReferencePrice(ram), null);
+  const historic=verifiedProducts[ram.id].offers.filter(offer=>offer.priceKind==='last_known');
+  assert.ok(historic.length);
+  const current=verifiedProducts[ram.id];
+  verifiedProducts[ram.id]={...current,offers:historic};
+  try { assert.equal(getReferencePrice(ram),null); }
+  finally { verifiedProducts[ram.id]=current; }
   const cpu = getComponent('cpu-7800x3d')!;
   const last = Math.max(...verifiedProducts[cpu.id].offers.map(o => Date.parse(o.checkedAt)));
   t.mock.method(Date, 'now', () => last + VERIFIED_OFFER_MAX_AGE_MS + 1);

@@ -26,13 +26,17 @@ test('demonstrated wrong identities never supply the product sheet or a budget p
 test('capacity and internal-drive identities survive rejection of a neighboring retail SKU',()=>{
   const wrong4tb=getComponent('import-ssd-c684100ebdf8')!;
   assert.equal(wrong4tb.capacityGB,4000);
-  assert.equal(getVerifiedProduct(wrong4tb),undefined);
+  assert.equal(getVerifiedProduct(wrong4tb)?.mpn,'MZ-V9S4T0BW');
+  assert.ok(getVerifiedProduct(wrong4tb)?.offers.every(offer=>offer.mpn==='MZ-V9S4T0BW'));
   const correct2tb=getComponent('ssd-990evo-2')!;
   assert.equal(correct2tb.capacityGB,2000);
   assert.equal(getVerifiedProduct(correct2tb)?.mpn,'MZ-V9S2T0BW');
   const internal=getComponent('import-ssd-01c097994185')!;
   assert.equal(internal.storageInterface,'M.2 NVMe');
-  assert.equal(getVerifiedProduct(internal),undefined);
+  const recovered=getVerifiedProduct(internal)!;
+  assert.equal(recovered.mpn,'SDSSDX3N-2T00-G26');
+  assert.ok(recovered.sources.some(source=>source.url.includes('internal-drives/extreme-m2-nvme')));
+  assert.ok(recovered.offers.every(offer=>offer.mpn==='SDSSDX3N-2T00-G26'));
 });
 
 test('corrected references remain usable independently of their rejected predecessors',()=>{
@@ -42,12 +46,16 @@ test('corrected references remain usable independently of their rejected predece
   assert.deepEqual(getVerifiedProduct(cooler)?.offers,[]);
   assert.equal(getReferencePrice(cooler),null,'the corrected cooler cannot reuse a price for ZERO DARK');
   const board=getComponent('import-mb-fcc33592f0ce')!;
-  assert.equal(getVerifiedProduct(board)?.mpn,'A520M PRO');
+  assert.equal(getVerifiedProduct(board)?.manufacturerModel,'A520M PRO');
+  assert.equal(getVerifiedProduct(board)?.mpn,'');
   assert.deepEqual(getVerifiedProduct(board)?.offers,[]);
   assert.ok(getVerifiedProduct(board)?.sources.every(source=>!source.url.includes('a520m-a-pro')));
   for(const c of catalog){
     const product=verifiedProducts[c.id];
-    if(product)assert.equal(c.manufacturerPartNumber,product.mpn,c.id);
+    if(product?.identityKind==='manufacturer-model') {
+      assert.equal(c.manufacturerPartNumber,undefined,c.id);
+      assert.equal(c.manufacturerModel,product.manufacturerModel,c.id);
+    } else if(product)assert.equal(c.manufacturerPartNumber,product.mpn,c.id);
   }
 });
 

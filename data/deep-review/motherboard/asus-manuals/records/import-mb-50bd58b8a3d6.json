@@ -1,0 +1,49 @@
+{
+  "review": {
+    "id": "import-mb-50bd58b8a3d6",
+    "name": "Pro H610M-C-CSM",
+    "state": "primary_manual_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-CS/E22488_PRIME_H610M-CS_UM_WEB.pdf?model=PRIME+H610M-CS",
+          "checkedAt": "2026-11-10T14:09:25+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-CS/E22488_PRIME_H610M-CS_UM_WEB.pdf?model=PRIME+H610M-CS",
+          "httpStatus": 200,
+          "sha256": "2e85aab64cb80b1e0165503c610afa8139405507f1561be373ed11f966f345f3",
+          "bytes": 2209412,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME H610M-CS"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-C_PS_D4/Q20622_PRIME_H610M-C_PS_D4_UM_WEB.pdf",
+          "checkedAt": "2026-11-10T14:09:26+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-C_PS_D4/Q20622_PRIME_H610M-C_PS_D4_UM_WEB.pdf",
+          "httpStatus": 200,
+          "sha256": "54dba28cf87cb1b163a4939003693d07b326f8800f4b82f4368824499e4271ae",
+          "bytes": 8576668,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME H610M-C/PS D4"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/Pro_H610T/J22167_Pro_H610T_UM_WEB.pdf?model=Pro+H610T-CSM",
+          "checkedAt": "2026-11-10T14:09:30+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/Pro_H610T/J22167_Pro_H610T_UM_WEB.pdf?model=Pro+H610T-CSM",
+          "httpStatus": 200,
+          "sha256": "d269e9bddc252ecef5f5869873508abdcffdc4c9e2cd1348ad93ed48c7338035",
+          "bytes": 2736285,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM Pro H610T"
+      }
+    ]
+  },
+  "product": null
+}

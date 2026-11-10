@@ -1,0 +1,412 @@
+{
+  "review": {
+    "id": "import-mb-efe60d5c17fa",
+    "name": "N5 Z690",
+    "state": "exact_color_sku_and_specs",
+    "title": "N5 Z690 Specs",
+    "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+    "checkedAt": "2026-11-10T14:01:46+00:00",
+    "apiURL": "https://support.nzxt.com/api/v2/help_center/articles/search.json?query=N5&locale=en-us",
+    "apiSHA256": "5016178b3faacc06f53ee52561eeeb0d5901b773e3e24ba0e2a6c2c00da2d000",
+    "modelNumberStatement": "N5-Z69XT-B1 (Black)\n\nN5-Z69XT-W1 (White)",
+    "selectedFinish": "Black",
+    "articleUpdatedAt": "2025-06-09T21:32:48Z"
+  },
+  "product": {
+    "mpn": "N5-Z69XT-B1",
+    "identityNote": "NZXT documente N5 Z690 et la référence commerciale N5-Z69XT-B1 pour la finition Black. Les références des autres finitions restent distinctes.",
+    "sources": [
+      {
+        "name": "NZXT — spécifications et références couleur officielles",
+        "url": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "N5-Z69XT-B1",
+      "detailLevel": "partial",
+      "manufacturerModel": "N5 Z690",
+      "memorySlots": 4
+    },
+    "groups": [
+      {
+        "title": "NZXT — General",
+        "rows": [
+          {
+            "label": "Form Factor",
+            "value": "ATX"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® Z690"
+          },
+          {
+            "label": "Socket Type",
+            "value": "Intel® LGA 1700"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Intel® 14th Generation CPUs *\n\nIntel® 13th Generation CPUs *\n\nIntel® 12th Generation CPUs\nSee CPU Support List for more details.\n* Intel® 13th & 14th Generation support may require an additional BIOS update prior to installation."
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Wireless Support",
+            "value": "WiFi 6E, Bluetooth 5.2"
+          },
+          {
+            "label": "Operating System",
+            "value": "Windows® 10 64-bit or newer"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "AMD Quad CrossFireX™ and CrossFireX™ *\n\n* Only supported on PCIe Gen 3 x1 Slots"
+          },
+          {
+            "label": "Additional Features",
+            "value": "Intel® Hybrid Technology\n\nIntel® Turbo Boost Max 3.0 Technology"
+          },
+          {
+            "label": "Warranty",
+            "value": "3 Years"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Memory",
+        "rows": [
+          {
+            "label": "DIMM Type",
+            "value": "DDR4 288-pin"
+          },
+          {
+            "label": "Max Memory Capacity",
+            "value": "128 GB"
+          },
+          {
+            "label": "Memory Architecture",
+            "value": "Dual Channel"
+          },
+          {
+            "label": "Base Frequency Support",
+            "value": "2933 MHz\n\n2800 MHz\n\n2666 MHz\n\n2400 MHz\n\n2133 MHz"
+          },
+          {
+            "label": "Max Memory Speed",
+            "value": "5000+ MHz (Overclock) *\nPlease refer to Memory QVL for more details.\n\n* Supports DDR4 3200 MHz natively"
+          },
+          {
+            "label": "Memory Supported",
+            "value": "Non-ECC un-buffered memory\n\nSupports ECC UDIMM Memory (operates in non-ECC mode)"
+          },
+          {
+            "label": "Intel® XMP 2.0 Support",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Integrated Graphics",
+        "rows": [
+          {
+            "label": "Graphics Controller",
+            "value": "Intel® Xe Graphics"
+          },
+          {
+            "label": "Integrated Graphics Output",
+            "value": "HDMI™ 2.1 TMDS Compatible"
+          },
+          {
+            "label": "Maximum Resolution",
+            "value": "4096 x 2160 @ 60Hz"
+          },
+          {
+            "label": "Additional Features",
+            "value": "HDCP 2.3 Compatible"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Expansion Slots",
+        "rows": [
+          {
+            "label": "PCIe x16 (x16 Mode) Slots",
+            "value": "1"
+          },
+          {
+            "label": "PCIe x16 (x4 Mode) Slots",
+            "value": "1"
+          },
+          {
+            "label": "PCIe x16 (x1 Mode) Slots",
+            "value": "1"
+          },
+          {
+            "label": "PCIe  x1 Slots",
+            "value": "3"
+          },
+          {
+            "label": "PCIe Type",
+            "value": "PCIEX16_1 *\n\nPCIe Gen 5 x16\nPCIEX16_2 *\n\nPCIe Gen 4 x4\nPCIEX16_3 *\n\nPCIe 3.0 x4\nPCIEX1_1, PCIEX1_2\n\nPCIe 3.0 x1\n* Supports NVMe SSD as boot disks"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Storage Support",
+        "rows": [
+          {
+            "label": "M.2 Type 2242/2260/2280 Slots\n(M-Key)",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Type",
+            "value": "M2_1, M2_2\n\nPCIe Gen 4 x4 *\nM2_3\n\nPCIe Gen 4 x4 * orSATA\nM2_4\n\nPCIe 3.0 x4 *\n* Supports Intel® Volume Management Device, Intel® Optane Technology, & NVMe SSD as boot disks"
+          },
+          {
+            "label": "SATA 6Gb/s Ports",
+            "value": "4"
+          },
+          {
+            "label": "RAID Support",
+            "value": "Supports RAID 0/1/5/10 for SATA storage devices\n\nSupports RAID 0/1/5 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "Additional Features",
+            "value": "Intel® Smart Response Technology\n\nIntel® Rapid Storage Technology\n\nIntel® Optane Memory"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Network and Wireless Support",
+        "rows": [
+          {
+            "label": "Onboard LAN Controller",
+            "value": "Realtek® RTL8125BG 2.5G LAN\n\nSupport for Wake-on-LAN\n\nSupports Energy Efficient Ethernet 802.3az"
+          },
+          {
+            "label": "Onboard WLAN (WiFi) Controller",
+            "value": "Intel Dual Band Wireless-AX210 Wi-Fi 6E\n\nSupports WiFi 802.11 a/b/g/n/ac/ax\n\nSupports Bluetooth\n\nSupport for dual band frequency (2.4/5GHz, 6GHz *)\n\nSupports MU-MIMO\n*Wi-Fi 6E (6GHz band) is supported by Microsoft® Windows® 11, availability may vary based on country and region.  A 6GHz compatible router is required for 6E functionality."
+          },
+          {
+            "label": "Bluetooth Version",
+            "value": "Bluetooth V5.2"
+          },
+          {
+            "label": "Included Antenna(s)",
+            "value": "2x \"Pen Type\" RP-SMA Male Compatible"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Integrated Audio",
+        "rows": [
+          {
+            "label": "Audio Controller",
+            "value": "Realtek® ALC897 Codec"
+          },
+          {
+            "label": "Channels",
+            "value": "8-channel High Definition Audio"
+          },
+          {
+            "label": "Playback",
+            "value": "32-bit @ 192,000 Hz DAC"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Rear I/O",
+        "rows": [
+          {
+            "label": "USB 3.2 Gen 2 (Type C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 2 (Type-A)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 1 (Type-A)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 (Type-A)",
+            "value": "2"
+          },
+          {
+            "label": "HDMI™ 2.1",
+            "value": "1"
+          },
+          {
+            "label": "Wireless Antenna",
+            "value": "2 (2T2R)"
+          },
+          {
+            "label": "LAN (RJ45)",
+            "value": "1"
+          },
+          {
+            "label": "5.1-Channel Audio Jacks",
+            "value": "1 x Speaker/Line-Out\n\n1 x Line-In\n\n1 x Microphone"
+          },
+          {
+            "label": "Additional Features",
+            "value": "1 x BIOS Flashback Button"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Internal I/O",
+        "rows": [
+          {
+            "label": "M.2 (M-Key) Slot",
+            "value": "4"
+          },
+          {
+            "label": "M.2 (E-Key) Slot",
+            "value": "1 *\n* For included wireless card"
+          },
+          {
+            "label": "SATA 6Gbps Port",
+            "value": "4"
+          },
+          {
+            "label": "USB 3.2 Gen 2 Header (for Type-C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 1 Header (for Type-A)",
+            "value": "2 (Up to 2 ports per header)"
+          },
+          {
+            "label": "USB 2.0 Header",
+            "value": "1 (Up to 2 ports per header)"
+          },
+          {
+            "label": "Front Panel Audio",
+            "value": "1"
+          },
+          {
+            "label": "4-pin PWM Fan Header",
+            "value": "1 x CPU_FAN (Up to 24W)\n\n1 x AIO_PUMP (Up to 24W)\n\n4 x SYS_FAN (Up to 24W)"
+          },
+          {
+            "label": "NZXT RGB Header",
+            "value": "2 *\n* Supports up to 5 NZXT RGB devices, 40 LEDs total per header."
+          },
+          {
+            "label": "5V ARGB Header",
+            "value": "1 *\n* Supports up to 40 LEDs per header"
+          },
+          {
+            "label": "12V RGB Header",
+            "value": "1 *\n* Supports 5050 RGB LED strips with a maximum power rating of 12V 3A (36W) and length within 2 meters."
+          },
+          {
+            "label": "ATX Power Header",
+            "value": "1 x 24-pin ATX Power\n\n1 x 8-pin ATX 12V Power\n\n1 x 4-pin ATX 12V Power"
+          },
+          {
+            "label": "Additional Features",
+            "value": "1 x POST LEDs\n\n1 x SPI TPM Header"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Product Info",
+        "rows": [
+          {
+            "label": "Model Number",
+            "value": "N5-Z69XT-B1 (Black)\n\nN5-Z69XT-W1 (White)"
+          },
+          {
+            "label": "UPC",
+            "value": "815671016034 (Black)\n\n815671016027 (White)"
+          },
+          {
+            "label": "EAN",
+            "value": "5056547200149 (Black)\n\n5056547200132 (White)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "formFactor": {
+        "value": "ATX",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "chipset": {
+        "value": "Intel® Z690",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2 Type 2242/2260/2280 Slots\n(M-Key): 4\nM.2 Type: M2_1, M2_2\n\nPCIe Gen 4 x4 *\nM2_3\n\nPCIe Gen 4 x4 * orSATA\nM2_4\n\nPCIe 3.0 x4 *\n* Supports Intel® Volume Management Device, Intel® Optane Technology, & NVMe SSD as boot disks\nSATA 6Gb/s Ports: 4\nRAID Support: Supports RAID 0/1/5/10 for SATA storage devices\n\nSupports RAID 0/1/5 for M.2 NVMe storage devices\nAdditional Features: Intel® Smart Response Technology\n\nIntel® Rapid Storage Technology\n\nIntel® Optane Memory",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "rearIO": {
+        "value": "USB 3.2 Gen 2 (Type C): 1\nUSB 3.2 Gen 2 (Type-A): 1\nUSB 3.2 Gen 1 (Type-A): 4\nUSB 2.0 (Type-A): 2\nHDMI™ 2.1: 1\nWireless Antenna: 2 (2T2R)\nLAN (RJ45): 1\n5.1-Channel Audio Jacks: 1 x Speaker/Line-Out\n\n1 x Line-In\n\n1 x Microphone\nAdditional Features: 1 x BIOS Flashback Button",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "internalIO": {
+        "value": "M.2 (M-Key) Slot: 4\nM.2 (E-Key) Slot: 1 *\n* For included wireless card\nSATA 6Gbps Port: 4\nUSB 3.2 Gen 2 Header (for Type-C): 1\nUSB 3.2 Gen 1 Header (for Type-A): 2 (Up to 2 ports per header)\nUSB 2.0 Header: 1 (Up to 2 ports per header)\nFront Panel Audio: 1\n4-pin PWM Fan Header: 1 x CPU_FAN (Up to 24W)\n\n1 x AIO_PUMP (Up to 24W)\n\n4 x SYS_FAN (Up to 24W)\nNZXT RGB Header: 2 *\n* Supports up to 5 NZXT RGB devices, 40 LEDs total per header.\n5V ARGB Header: 1 *\n* Supports up to 40 LEDs per header\n12V RGB Header: 1 *\n* Supports 5050 RGB LED strips with a maximum power rating of 12V 3A (36W) and length within 2 meters.\nATX Power Header: 1 x 24-pin ATX Power\n\n1 x 8-pin ATX 12V Power\n\n1 x 4-pin ATX 12V Power\nAdditional Features: 1 x POST LEDs\n\n1 x SPI TPM Header",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "network": {
+        "value": "Onboard LAN Controller: Realtek® RTL8125BG 2.5G LAN\n\nSupport for Wake-on-LAN\n\nSupports Energy Efficient Ethernet 802.3az\nOnboard WLAN (WiFi) Controller: Intel Dual Band Wireless-AX210 Wi-Fi 6E\n\nSupports WiFi 802.11 a/b/g/n/ac/ax\n\nSupports Bluetooth\n\nSupport for dual band frequency (2.4/5GHz, 6GHz *)\n\nSupports MU-MIMO\n*Wi-Fi 6E (6GHz band) is supported by Microsoft® Windows® 11, availability may vary based on country and region.  A 6GHz compatible router is required for 6E functionality.\nBluetooth Version: Bluetooth V5.2\nIncluded Antenna(s): 2x \"Pen Type\" RP-SMA Male Compatible",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket: Intel® LGA 1700\nIntel® 14th Generation CPUs *\n\nIntel® 13th Generation CPUs *\n\nIntel® 12th Generation CPUs\nSee CPU Support List for more details.\n* Intel® 13th & 14th Generation support may require an additional BIOS update prior to installation.",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37682479388443-N5-Z690-Specs",
+        "checkedAt": "2026-11-10T14:01:46+00:00"
+      }
+    },
+    "identityKind": "mpn",
+    "manufacturerModel": "N5 Z690"
+  }
+}

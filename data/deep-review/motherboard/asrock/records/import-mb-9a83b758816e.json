@@ -1,0 +1,288 @@
+{
+  "review": {
+    "id": "import-mb-9a83b758816e",
+    "name": "Z690-C/D5",
+    "state": "exact_manufacturer_web_table",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Z690%20Steel%20LegendD5.pdf",
+          "checkedAt": "2026-11-10T14:11:14+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Z690%20Steel%20LegendD5.pdf",
+          "httpStatus": 200,
+          "sha256": "ec2fe23e1a3022f25998dbaa5bf2aaa4b4ce7a87d4fd848301f77b60ca1a5bfb",
+          "bytes": 5136959,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock Z690 Steel Legend WiFi 6E/D5 / Z690 Steel\nLegend/D5 motherboard",
+        "modelNames": [
+          "Z690 Steel Legend WiFi 6E/D5",
+          "Z690 Steel Legend/D5"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Z690M%20PG%20RiptideD5.pdf",
+          "checkedAt": "2026-11-10T14:11:15+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Z690M%20PG%20RiptideD5.pdf",
+          "httpStatus": 200,
+          "sha256": "726921ca012cd60360872cc5ddf15eb0228961dc6a12ba5fccd6c81c4848f3c7",
+          "bytes": 4652786,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock Z690M PG Riptide/D5 motherboard",
+        "modelNames": [
+          "Z690M PG Riptide/D5"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Z690%20Taichi.pdf",
+          "checkedAt": "2026-11-10T14:11:16+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Z690%20Taichi.pdf",
+          "httpStatus": 200,
+          "sha256": "7333f41b56600a8138a9b7f82d33af6412b4af6a844f5576bdf4a09735ba3c01",
+          "bytes": 4943415,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock Z690 Taichi motherboard",
+        "modelNames": [
+          "Z690 Taichi"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+          "checkedAt": "2026-11-10T14:16:26.576Z",
+          "contentSHA256": "cdaf5c67a44b3ea837441006029958b2d51ff5937bcc81319a730093c8c3f300"
+        },
+        "state": "exact_manufacturer_web_table"
+      }
+    ],
+    "source": {
+      "url": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+      "checkedAt": "2026-11-10T14:16:26.576Z"
+    },
+    "proof": {
+      "state": "exact_manufacturer_web_table",
+      "identityExcerpt": "# ASRock &gt; Z690-C/D5",
+      "specificationExcerpt": "\nCPU\n\n- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- 9 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology\n\nChipset\n\n- Intel® Z690\n\nMemory\n\n- Dual Channel DDR5 Memory Technology- 4 x DDR5 DIMM Slots- Supports DDR5 non-ECC, un-buffered memory up to 6000+(OC)*- Max. capacity of system memory: 192GB- Supports Intel® Extreme Memory Profile (XMP) 3.0\n\n*Supports DDR5 4400 (1DPC) / 3600 (2DPC) natively.\n\nBIOS\n\n- 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, VDD2, DRAM, VCCIN AUX, +1.8V PROC, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment\n\nGraphics\n\n- Intel® Xe Graphics Architecture (Gen 12)- Supports HDMI 2.1 TMDS Compatible with max. resolution up to 4K x 2K (4096x2160) @ 60Hz- Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible Port\n\n*Intel® UHD Graphics Built-in Visuals and the VGA outputs can be supported only with processors which are GPU integrated.\n\nAudio\n\n- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection\n\nLAN\n\n- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE\n\nWireless LAN\n\n- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Supports Bluetooth + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz band) will be supported by Microsoft® Windows® 11. The availability will depend on the different regulation status of each country and region. It will be activated (for supported countries) through Windows® Update and software updates once available.A 6GHz compatible router is required for 6E functionality.\n\nSlots\n\nCPU:- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*Chipset:- 1 x PCIe 4.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x16 Slot (PCIE5), supports x1 mode*- 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE4)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi(Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Supports NVMe SSD as boot disks\n\nStorage\n\nCPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*- 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2260/2280/22110 SATA3 6.0 Gb/s & PCIe Gen4x4 (64 Gb/s) modes*- 1 x Ultra M.2 Socket (M2_4, Key M), supports type 2280 PCIe Gen3x4 (32 Gb/s) mode*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2, M2_3 or M2_4)Supports Intel® Volume Management Device (VMD)Supports NVMe SSD as boot disksSupports ASRock U.2 Kit\n\nRAID\n\n- Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices- Supports RAID 0, RAID 1 and RAID 5 for M.2 NVMe storage devices\n\nConnector\n\n- 1 x SPI TPM Header- 1 x Power LED and Speaker Header- 1 x RGB LED Header*- 2 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 4 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x 4 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports ESD Protection)- 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s) (Supports ESD Protection)\n\n*Supports in total up to 12V/3A, 36W LED Strip**Support in total up to 5V/3A, 15W LED Strip***The CPU Fan Connector supports the CPU fan of maximum 1A (12W) fan power.****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP and CHA_FAN1~4/WP can auto detect if 3-pin or 4-pin fan is in use.\n\nRear Panel I/O\n\n- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- 1 x BIOS Flashback Button- HD Audio Jacks: Line in / Front Speaker / Microphone\n\nSoftware and UEFI\n\nSoftware- ASRock Motherboard Utility (A-Tuning)- ASRock Polychrome SYNC- ASRock XFast LANUEFI- ASRock EZ Mode- ASRock Full HD UEFI- ASRock My Favorites in UEFI- ASRock Instant Flash- ASRock Easy RAID Installer\n\n*These utilities can be downloaded from ASRock Live Update & APP Shop.\n\nSupport CD\n\n- Drivers, Utilities, AntiVirus Software (Trial Version)\n\nAccessories\n\n- I/O Shield- 2 x SATA Data Cables- 2 x ASRock WiFi 2.4/5/6 GHz Antennas- 4 x Screws for M.2 Sockets\n\nHardware Monitor\n\n- Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Quiet Fan (Auto adjust chassis fan speed by CPU temperature): CPU, CPU/Water Pump, Chassis/Water Pump Fans- Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Voltage monitoring: CPU Vcore, VCCSA, VDD2, +1.05V PROC, +0.82V PCH, ATX+5VSB, VCCIN AUX, PCH, +12V, +5V, +3.3V\n\nForm Factor\n\n- ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm- Solid Capacitor design\n\nOS\n\n- Microsoft® Windows® 10 64-bit / 11 64-bit\n\nCertifications\n\n- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)- CEC Tier II ready\n\n"
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "Z690-C/D5",
+    "identityNote": "Modèle ASRock Z690-C/D5 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 4,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "Z690-C/D5",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- 9 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology"
+          },
+          {
+            "label": "Chipset",
+            "value": "- Intel® Z690"
+          },
+          {
+            "label": "Mémoire",
+            "value": "- Dual Channel DDR5 Memory Technology- 4 x DDR5 DIMM Slots- Supports DDR5 non-ECC, un-buffered memory up to 6000+(OC)*- Max. capacity of system memory: 192GB- Supports Intel® Extreme Memory Profile (XMP) 3.0\n\n*Supports DDR5 4400 (1DPC) / 3600 (2DPC) natively."
+          },
+          {
+            "label": "BIOS",
+            "value": "- 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, VDD2, DRAM, VCCIN AUX, +1.8V PROC, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "- Intel® Xe Graphics Architecture (Gen 12)- Supports HDMI 2.1 TMDS Compatible with max. resolution up to 4K x 2K (4096x2160) @ 60Hz- Supports HDCP 2.3 with HDMI 2.1 TMDS Compatible Port\n\n*Intel® UHD Graphics Built-in Visuals and the VGA outputs can be supported only with processors which are GPU integrated."
+          },
+          {
+            "label": "Audio",
+            "value": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Supports Bluetooth + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz band) will be supported by Microsoft® Windows® 11. The availability will depend on the different regulation status of each country and region. It will be activated (for supported countries) through Windows® Update and software updates once available.A 6GHz compatible router is required for 6E functionality."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "CPU:- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*Chipset:- 1 x PCIe 4.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x16 Slot (PCIE5), supports x1 mode*- 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE4)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi(Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Supports NVMe SSD as boot disks"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*- 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2260/2280/22110 SATA3 6.0 Gb/s & PCIe Gen4x4 (64 Gb/s) modes*- 1 x Ultra M.2 Socket (M2_4, Key M), supports type 2280 PCIe Gen3x4 (32 Gb/s) mode*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2, M2_3 or M2_4)Supports Intel® Volume Management Device (VMD)Supports NVMe SSD as boot disksSupports ASRock U.2 Kit"
+          },
+          {
+            "label": "RAID",
+            "value": "- Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices- Supports RAID 0, RAID 1 and RAID 5 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "- 1 x SPI TPM Header- 1 x Power LED and Speaker Header- 1 x RGB LED Header*- 2 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 4 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x 4 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports ESD Protection)- 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s) (Supports ESD Protection)\n\n*Supports in total up to 12V/3A, 36W LED Strip**Support in total up to 5V/3A, 15W LED Strip***The CPU Fan Connector supports the CPU fan of maximum 1A (12W) fan power.****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP and CHA_FAN1~4/WP can auto detect if 3-pin or 4-pin fan is in use."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- 1 x BIOS Flashback Button- HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Software and UEFI",
+            "value": "Software- ASRock Motherboard Utility (A-Tuning)- ASRock Polychrome SYNC- ASRock XFast LANUEFI- ASRock EZ Mode- ASRock Full HD UEFI- ASRock My Favorites in UEFI- ASRock Instant Flash- ASRock Easy RAID Installer\n\n*These utilities can be downloaded from ASRock Live Update & APP Shop."
+          },
+          {
+            "label": "Support CD",
+            "value": "- Drivers, Utilities, AntiVirus Software (Trial Version)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "- I/O Shield- 2 x SATA Data Cables- 2 x ASRock WiFi 2.4/5/6 GHz Antennas- 4 x Screws for M.2 Sockets"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "- Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Quiet Fan (Auto adjust chassis fan speed by CPU temperature): CPU, CPU/Water Pump, Chassis/Water Pump Fans- Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Voltage monitoring: CPU Vcore, VCCSA, VDD2, +1.05V PROC, +0.82V PCH, ATX+5VSB, VCCIN AUX, PCH, +12V, +5V, +3.3V"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "- ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm- Solid Capacitor design"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "- Microsoft® Windows® 10 64-bit / 11 64-bit"
+          },
+          {
+            "label": "Certifications",
+            "value": "- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)- CEC Tier II ready"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "formFactor": {
+        "value": "- ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "boardDimensions": {
+        "value": "- ATX Form Factor: 12.0-in x 9.6-in, 30.5 cm x 24.4 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "chipset": {
+        "value": "- Intel® Z690",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "storagePorts": {
+        "value": "CPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*- 1 x Hyper M.2 Socket (M2_3, Key M), supports type 2260/2280/22110 SATA3 6.0 Gb/s & PCIe Gen4x4 (64 Gb/s) modes*- 1 x Ultra M.2 Socket (M2_4, Key M), supports type 2280 PCIe Gen3x4 (32 Gb/s) mode*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2, M2_3 or M2_4)Supports Intel® Volume Management Device (VMD)Supports NVMe SSD as boot disksSupports ASRock U.2 Kit",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "pcie": {
+        "value": "CPU:- 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*Chipset:- 1 x PCIe 4.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x16 Slot (PCIE5), supports x1 mode*- 2 x PCIe 3.0 x1 Slots (PCIE2 and PCIE4)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi(Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Supports NVMe SSD as boot disks",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "rearIO": {
+        "value": "- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (ReDriver) (Supports ESD Protection)- 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- 1 x BIOS Flashback Button- HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "internalIO": {
+        "value": "- 1 x SPI TPM Header- 1 x Power LED and Speaker Header- 1 x RGB LED Header*- 2 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 4 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x 4 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 1 x USB 2.0 Header (Supports 2 USB 2.0 ports) (Supports ESD Protection)- 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s) (Supports ESD Protection)\n\n*Supports in total up to 12V/3A, 36W LED Strip**Support in total up to 5V/3A, 15W LED Strip***The CPU Fan Connector supports the CPU fan of maximum 1A (12W) fan power.****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP and CHA_FAN1~4/WP can auto detect if 3-pin or 4-pin fan is in use.",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "network": {
+        "value": "- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE\n- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Supports Bluetooth + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz band) will be supported by Microsoft® Windows® 11. The availability will depend on the different regulation status of each country and region. It will be activated (for supported countries) through Windows® Update and software updates once available.A 6GHz compatible router is required for 6E functionality.",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "audio": {
+        "value": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      },
+      "cpuSupport": {
+        "value": "- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- 9 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology\nBIOS: - 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, VDD2, DRAM, VCCIN AUX, +1.8V PROC, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment",
+        "sourceURL": "https://asrock.com/mb/intel/z690-cd5/index.us.asp",
+        "checkedAt": "2026-11-10T14:16:26.576Z"
+      }
+    },
+    "manufacturerModel": "Z690-C/D5"
+  }
+}

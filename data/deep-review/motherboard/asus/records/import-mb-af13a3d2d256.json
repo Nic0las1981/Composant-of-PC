@@ -1,0 +1,262 @@
+{
+  "review": {
+    "id": "import-mb-af13a3d2d256",
+    "name": "PRIME B550M-K",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "sha256": "792519171d719c15fe67396e7aa049e865235c516ce5d9909891241c3b87aed4",
+        "bytes": 351764,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B550M-K",
+    "photos": [
+      "https://www.asus.com/media/global/gallery/ouwisrs86og8abky_setting_xxx_0_90_end_184.png"
+    ],
+    "sections": [
+      "Model",
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "RAID Support",
+      "Ethernet",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B550M-K",
+    "identityNote": "Modèle ASUS PRIME B550M-K confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME B550M-K",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM4 for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 4866(OC)/4800(OC)/4600(OC)/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)/3200/3000/2933/2800/2666/2400/2133,\nUn-buffered Memory*\nDual Channel Memory Architecture\n* ECC memory (ECC mode) support varies by CPU.\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists), and memory frequency support depends on the CPU types."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x D-Sub port\n1 x DVI-D port\n1 x HDMI™ port**\n* Graphics specifications may vary betweenCPU types.\n** Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD B550 Chipset\n2 x PCIe 3.0 x1 slots"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\nAMD B550 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\n4 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "RAID Support",
+            "value": "Supports both PCIe RAID 0/1/10 and SATA RAID 0/1/10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 1Gb Ethernet"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 6 ports)\n2 x USB 3.2 Gen 2 ports (2 x Type-A)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\nFront USB (Total 6 ports)\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- LED-illuminated audio trace path design\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 2 ports (2 x Type-A)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n1 x D-Sub port\n1 x DVI-D port\n1 x HDMI™ port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 Keyboard/Mouse combo port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM\n- LANGuard\n- Overvoltage Protection\n- SafeSlot Core\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-Slot\nASUS Thermal Solution\n- VRM heatsink design\nASUS Lighting Control"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\nAI Suite 3\n- Performance and Power Saving Utility\n  TurboV EVO\n  EPU\n  DIGI+ VRM\n  Fan Xpert 2+\n- EZ update\nASUS CPU-Z\nAI Charger\nDAEMON Tools\nNorton Anti-virus software (Free Trial version)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables\nMiscellaneous\n1 x I/O Shield\n1 x M.2 SSD screw package\nInstallation Media\n1 x Support DVD\nDocumentation\n1 x User manual"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 11, Windows 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.asus.com/media/global/gallery/ouwisrs86og8abky_setting_xxx_0_90_end_184.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 2 x M.2 slots and 4 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\nAMD B550 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\n4 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD B550 Chipset\n2 x PCIe 3.0 x1 slots",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 2 ports (2 x Type-A)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n1 x D-Sub port\n1 x DVI-D port\n1 x HDMI™ port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 Keyboard/Mouse combo port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x S/PDIF Out header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 1Gb Ethernet",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- LED-illuminated audio trace path design\n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM4 for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors*\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-k/techspec/",
+        "checkedAt": "2026-11-10T13:26:20+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B550M-K"
+  }
+}

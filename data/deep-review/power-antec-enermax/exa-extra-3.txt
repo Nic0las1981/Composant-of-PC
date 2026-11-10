@@ -1,0 +1,682 @@
+# PlatiGemini-說明書
+URL: https://gzhls.at/blob/ldb/c/8/e/d/bcd01d3e8b884c524991f1061644d736107a.pdf
+
+Follow ENERMAX on social media for the latest informa�on and show us your build with hashtag 
+#ENERMAX 
+Facebook: h�ps://www.facebook.com/OfficialENERMAX 
+Instagram: h�ps://www.instagram.com/OfficialENERMAX 
+Twi�er: h�ps://twi�er.com/OfficialENERMAX 
+YouTube: h�ps://www.youtube.com/@OfficialENERMAX 
+
+فارسی
+
+User Manual Benutzerhandbuch Manuel d’utilisateur Manuale dell’Utente 使用說明書 使用说明书
+
+Manual del Usuario
+
+Pуководство для пользователя Podręcznik użytkownika
+
+取扱説明書 사용자 매뉴얼 คู่มือการใช้งาน
+
+##### D E X
+
+Product No�ce 
+Component List 
+Product Introduc�on 
+Test Your PSU Before You Connect to PC System 
+Installa�on-Cable 
+How to Install 12V-2x6 Properly? 
+How to Connect Cable to GPU Properly? 
+Installa�on-PSU 
+Specifica�on 
+Protec�on 
+FAQ 
+
+### 安全注意事項 限用物質含有情況標示聲明書
+
+Only a technician, authorized by ENERMAX, is allowed to perform maintenance service! Warranty is subject to void under unauthorized a�empt to open the power case or modifica�on of any kinds, even a�empted only, of the power supply or its components!
+
+• Opening of the PSU case and/or modifica�on of any component or cable without ENERMAX wri�en authoriza�on. 
+• lgnoring connector’s wrong inser�on preven�on design by a�aching a connector to a device in wrong orienta�on. 
+• Connec�ng too many devices to one cable unit by using addi�onal adaptor (Y cables) . 
+• The serial number label or warranty seal is defaced, modified, or removed. 
+• Damage caused by natural phenomena or uncontrollable forces, such as lightning, flooding, fire, earthquake, etc. 
+
+ENERMAX will not be responsible for damages caused by following situa�ons:
+
+This ENERMAX Technology Corpora�on product is warranted to be free from defects in material and workmanship for a period of five (5) years from the date of purchase. The warranty length may be different in diverse regions based on local policy. ENERMAX Technology Corpora�on agrees to repair or replace the product, at its own op�on and at no charge, if, during the warranty period, it is returned to nearest ENERMAX Technology Corpora�on subsidiary/agent with all shipping charges prepaid and bearing a return merchandize authoriza�on (RMA) number, and if inspec�on reveals that the product is defec�ve. Charges for removing or installing the product are excluded under the terms of this warranty agreement. This warranty shall not apply to any product, which has been subject to connec�on to a faulty power source, altera�on, negligence, or accident, or to any product, which has been installed other than in accordance with these instruc�ons. In no event shall ENERMAX Technology Corpora�on, or its subsidiaries, or agents be liable for damages for a breach of warranty in an amount exceeding the purchase price of this product!
+
+We would like to thank you for your support. Please visit our website at:
+
+Global : Website : h�p://www.enermax.com/en E-mail : enermax@enermax.com.tw
+
+Taoyuan : Website : h�p://www.enermax.com E-mail : support-tw@enermax.com.tw
+
+Germany: Website : h�p://www.enermax.de E-mail : support@enermax.de
+
+Korea : 
+Website : h�p://enermaxkorea.com 
+E-mail : enermax@cynex.co.kr 
+TEL : (02)719-2580, 080-719-2581 FAX : (02) 6713-2654 
+
+If you have any ques�ons or problems with our products, please contact our support team at www.enermax.com/support
+
+Main plug is used as the disconnect device, the disconnect device shall remain ready for opera�ng. 
+Apparatus shall be connected to a MAIINS socket outlet with a protec�ve earthing connec�on. 
+
+#### Product No�ce
+
+#### Component List
+
+A PSU x 1
+
+K PSU Tester x 1
+
+B ATX Motherboard 24 pin x 1
+
+60cm
+
+D CPU 4+4 pin x 2
+
+C ATX12VO Motherboard 10 pin x 1
+
+70cm
+
+E 12V-2x6 12+4 pin x 1
+
+60cm
+
+G SATA (4 connectors) x 2
+
+45cm 15cm 15cm 15cm
+
+H 4P Molex (4 connectors) x 1
+
+45cm 15cm 15cm 15cm
+
+F PCIe 6+2 pin x 3
+
+60cm
+
+I Moun�ng Screws x 4 *The actual cable may vary in different regions.
+
+J AC Cord x 1
+
+60cm
+
+ATX M/B
+
+PCIe CPU
+
+12V-2X6 PCIe 
+12VO M/B 
+
+SATA/4P Molex
+
+Product Introduc�on *The actual product may vary in different regions.
+
+E C B
+
+F D G or H
+
+1. D.F. Switch Bu�on 
+Press to ini�ate the “Dust-Free Rota�on Func�on,” 
+enabling the fan to rotate in reverse for dust 
+removal. 
+2. I/O Switch 
+Individual PSU ON/OFF switch 
+(I=ON, O=OFF) 
+
+#### Product Introduc�on
+
+DE 1.D.F. Knopf
+
+##### 2. I/O Schalter
+
+Drücken, um die „Dust-Free Rota�on Func�on” zu ak�vieren, wodurch der Ven�lator 
+rückwärts dreht, um Staub zu en�ernen. 
+Separater Netzteil An/Aus-Schalter (I=AN, O=AUS) 
+
+RU 1. Кнопка переключателя D.F.
+
+##### 2. Выключатель
+
+Нажмите для активации функции «Вращение без пыли», что позволяет вентилятору вращаться в обратном направлении для удаления пыли. отдельный выключатель БП (I=Вкл., O=Выкл.)
+
+FR 1. L’interrupteur D.F.
+
+##### 2. Bouton I/O
+
+L’interrupteur D.F. est placé à l’arrière de l’alimenta�on permet l’ac�va�on manuelle de la fonc�on DFR™ (Dust Free Rota�on, ou rota�on sans poussière): il fait tourner immédiatement le ven�lateur en sens inverse, éliminant ainsi la poussière accumulée. (I= ON, O=OFF)
+
+IT 1. Pulsante dell'interru�ore D.F. 2. Interru�ore I/O
+
+Premere per a�vare la “Funzione di Rotazione Senza Polvere”, consentendo alla ventola di ruotare al contrario per rimuovere la polvere. Interru�ore di accensione / spegnimento PSU (I=ON,O=OFF)
+
+ES 1. Botón de Interruptor D.F. 2. I/O interruptor
+
+Presiona para iniciar la "Función de Rotación Libre de Polvo", permi�endo que el ven�lador gire en sen�do inverso para eliminar el polvo. Separado interruptor de la fuente por En/Paro (I=En, O=Paro)
+
+JP 1. D.F. スイッチボタン
+
+2. I/Oスイッチ
+
+「 Dust Free Rota�on機能」（自己洗浄機能）を起動することでファンを逆回転させてホコリを取り除きます。 電源 I/O（オン /オフ）スイッチ (I=ON, O=OFF)
+
+TW 1. 逆轉彈塵按鈕
+
+2. I/O開關
+
+按下以啟動「逆轉彈塵」功能，使風扇反轉以去除灰塵。 電源供應器獨立開關 (I=開， O=關 )
+
+CN 1. 逆转弹尘按钮
+
+2. I/O开关
+
+按下以启动「逆转弹尘」功能，使风扇反转以去除灰尘。
+
+电源供应器独立开关(I=开，O=关)
+
+#### Product Introduc�on
+
+PL 1. Przycisk Przełącznika D.F. 2. I/O Switch
+
+Naciśnij, aby uruchomić funkcję “Obrotów Bez Kurzu”, umożliwiając wentylatorowi obracanie się w przeciwnym kierunku w celu usunięcia kurzu. Przełącznik Włączenie/Wyłączenie (I=Włączenie, O=Wyłączenie)
+
+KR 1. D.F.스위치 버튼
+
+2. I/O스위치
+
+“먼지 제거 기능”을 전원공급장치가 작동 중 언제든 D.F. 스위치 버튼 눌러 활성화할 수 있습니다. 먼지 제거 기능은 팬을 역방향으로 회전시켜 먼지를 제거해 주는 에너맥스 특허 기술입니다. PSU On/Off 스위치 (I=ON, O=OFF)
+
+TH 1. ดี.เอฟ. ปุ่มสวิตช์ 2. สวิตช์เปิด/ปิด
+
+กดเพื่อเริ่ม “ฟังก์ชันการหมุนแบบไร้ฝุ่น” ซึ่งจะทำให้พัดลมหมุนย้อนกลับเพื่อกำจัดฝุ่น (I=เปิด, O=ปิด)
+
+86 mm
+
+150 mm 150 mm .1 دکمه کلید D.F. فشار دهید تا 'تابع چرخش بدون گرد و غبار' فعال شود، که به فن
+
+#### Test Your PSU
+
+#### Before You Connect to PC System
+
+1. Take the AC cord and the motherboard cable. 
+2. Insert the 18 pin and 10 pin connectors to the PSU. 
+3. Plug in the 24 pin connectors to the tester. 
+4. Plug in the AC cord and set the I/O switch to “I” to turn on the PSU. 
+5. PSU fan will spin clockwise at the beginning to clean itself and then turn counterclockwise for several 
+seconds, and stop to ac�vate semi-fanless func�on. 
+
+B
+
+J
+
+2
+
+4
+
+#### Test Your PSU
+
+#### Before You Connect to PC System
+
+TW 在連接系統前，測試您的電源供應器。
+
+1. 找到電源線與主板線材。2. 將 18 pin與 10 pin接頭與電源供應器連接。3. 將
+
+24 pin接頭與測試器連接。4. 將電源線插入電源插座，並開啟電源開關。5. 電源供應器的電扇一開始會順時針轉動，以達到自體清潔效果，而後逆時針轉動幾秒鐘，最後停止以啟動智能無風扇功能。
+
+DE Testen Sie Ihr Netzteil, bevor Sie es mit dem PC-System verbinden. 1. Nehmen Sie Netzkabel und Motherboard-Kabel. 2. Stecken Sie die 18-poligen und 10-poligen Anschlüsse in das Netzteil. 3. Stecken Sie den 24-poligen Anschluss in das Testgerät. 4. Stecken Sie das Netzkabel ein und stellen Sie den I/O-Schalter zum Einschalten des Netzteils auf „I“ ein. 5. Der Netzteillü�er dreht sich zu Beginn zur Selbstreinigung im Uhrzeigersinn und dann mehrere Sekunden entgegen dem Uhrzeigersinn und stoppt zur Ak�vierung der semi-lü�erlosen Funk�on.
+
+FR Testez votre bloc d'alimenta�on avant de le connecter au PC. 1. Prenez le cordon d'alimenta�on et le câble de la carte mère. 2. Insérez les connecteurs 18 broches et 10 broches dans le bloc d'alimenta�on. 3. Branchez le connecteur 24 broches sur le testeur. 4. Branchez le cordon d'alimenta�on et me�ez le commutateur E/S sur "I" pour allumer le bloc d'alimenta�on. 5. Le ven�lateur du bloc d'alimenta�on tournera dans le sens des aiguilles d'une montre au début pour le ne�oyage, puis tournera dans le sens inverse des aiguilles d'une montre pendant plusieurs secondes, et finalement s'arrêtera pour ac�ver la demi fonc�on sans-ven�lateur.
+
+IT Testare la PSU prima del collegamento al sistema del PC. 1. Prendere il cavo CA e il cavo della scheda madre. 2. Inserire i conne�ori a 18 e 10 pin nela PSU. 3. Collegare il conne�ore a 24 pin al tester. 4. Collegare il cavo CA e impostare l'interru�ore I/O su "I" per accendere la PSU. 5. La ventola della PSU gira in senso orario all'inizio per pulirsi, quindi ruota in senso an�orario per alcuni secondi e si arresta per a�vare la funzione semi-fanless.
+
+ES Pruebe la fuente de alimentación antes de conectarse al sistema de PC. 1. Tome el cable de CA y el cable de la placa base. 2. Inserte los conectores de 18 y 10 contactos en la fuente de alimentación. 3. Enchufe el conector de 24 contactos en el comprobador. 4. Enchufe el cable de CA y establezca el interruptor de E/S en la posición “I” para encender la fuente de alimentación. 5. El ven�lador de la fuente de alimentación girará en el sen�do de las agujas del reloj al principio para limpiarse y, a con�nuación, girará en el sen�do contrario durante varios segundos y se detendrá para ac�var la función de ausencia parcial de ven�lador.
+
+JP PCへ接続する前に PSUをテストしてください。
+
+1. AC電源ケーブルとマザーボードケーブルを用意します。2. 18ピンと 10ピンのコネクターを 
+PSUへ接続します。3. 24ピンコネクターをテスターへ接続します。4. AC電源コードを接続し、 I/Oスイッチを「 I」へ切り替えて 
+PSUの電源をオンにします。5. PSUは起動時にファンを時計方向に回転させて自身の内部を清掃します。続いてファンを反時計方向へ数秒間回転させてから停止し、セミファンレス機能を有効にします。 
+
+#### Test Your PSU Before You Connect to PC System
+
+CN 在连接系统之前，测试您的电源供应器。
+
+1. 找到电源线与主板线材。2. 将 18 针与 10 针接口与电源供应器连接。3. 将
+
+24针接口与测试仪连接。4. 将电源线插入电源插座，并打开电源开关。5. 电源供应器的电源一开始会顺时针转动，以达到自身清洁效果，而后逆针转动几秒钟，最后停止以启动智能无动力。
+
+PC 시스템에 연결하기 전에 PSU를 테스트하십시오 . 
+1. AC 코드와 마더보드 케이블을 준비합니다 . 
+2. 18핀 및 10핀 커넥터를 PSU에 끼웁니다 . 
+3. 24핀 커넥터를 테스터에 꽂습니다 . 
+4. AC 코드를 꽂고 I/O 스위치를 “I(켜짐 )”로 맞춰 PSU를 켭니다 . 
+
+5. PSU 팬이 처음에는 시계 방향으로 회전하여 자체 청소를 한 다음 몇 초 동안 시계 반대 방향으로회전하다가 멈추면서 세미 팬리스 기능을 활성화합니다 .
+
+.�.�.�.�.�
+
+ทดสอบ PSU ของคุณก่อนที่จะเชื่อมต่อกับระบบพีซี 
+1. ใช้สายไฟ AC และสายเคเบิลเมนบอร์ด 
+2. เสียบขั้วต่อ 18 พินและ 10 พินเข้ากับ PSU 
+3. เสียบขั้วต่อ 24 พินเข้ากับเครื่องทดสอบ 
+4. เสียบสายไฟ AC และตั้งสวิตช์ I/O ไปที่ “I” เพื่อเปิด PSU 
+5. พัดลม PSU จะหมุนตามเข็มนาฬิกาในช่วงเริ่มต้นเพื่อทำความสะอาดตัวเอง จากนั้นจะหมุนทวนเข็มนาฬิกา 
+เป็นเวลาหลายวินาที และหยุดเพื่อเปิดใช้งานฟังก์ชันกึ่งไร้พัดลม 
+
+واحد منبع تغذیھ(PSU(خود را پیش از اتصال بھ کامپیوتر تست کنید. 
+کابل برق AC و کابل مادربورد را بردارید 
+کانکتورھای 18 پین و 10 پین را وارد PSU کنید 
+کانکتور 24 پین را بھ دستگاه تست وصل کنید 
+کابل برق AC را وصل و کلید O/I را در حالت «I «قرار دھید تا PSUروشن شود 
+در ابتدا، فنPSUدر جھت عقربھ ھای ساعت می چرخد تا خود را تمیز کند، سپس چند ثانیھ در 
+خلاف عقربھ ھای ساعت می چرخد و برای فعال سازی عملکرد نیمھ بدون فن متوقف می شود 
+. 
+. 
+. 
+. 
+. 
+
+RU Проверьте блок питания перед подключением к ПК. 1. Возьмите шнур переменного тока и кабель материнской платы. 2. Вставьте 18-контактный и 10-контактный разъемы в блок питания. 3. Вставьте 24-контактный разъем в тестер. 4. Вставьте шнур переменного тока и переведите переключатель I/O в положение I, чтобы включить блок питания. 5. Вентилятор блока питания начнет вращаться по часовой стрелке в целях очистки, затем в течение нескольких секунд будет вращаться против часовой стрелки, после чего остановится для активации полубезвентиляторной функции.
+
+PL Przed podłączeniem do systemu PC, sprawdź swój zasilacz. 1. Przygotuj przewód zasilający i kabel płyty głównej. 2. Włóż do zasilacza złącza 18 pinowe i 10 pinowe. 3. Podłącz do testera złącze 24 pinowe. 4. Podłącz przewód zasilający prądu zmiennego i ustaw przełącznik I/O na “I” w celu włączenia zasilacza. 5. Wentylator zasilacza będzie się początkowo obracał w prawo, aby się oczyścić a następnie, przez kilka sekund, będzie się obracał w lewo i zatrzyma się, aby aktywować funkcję częściowego działania bez wentylatora.
+
+Connect the 24-pin motherboard power.
+
+DE Schließen Sie den 24-poligen Motherboard-Stromanschluss an.
+
+RU Подключите 24-контактное питание материнской платы.
+
+FR Branchez le câble d’alimenta�on 24 broches de la carte-mère. 
+IT Collega l'alimentazione della scheda madre a 24 pin. 
+ES Conecta la alimentación de la placa base de 24 pines. 
+JP 24ピンのマザーボード電源を接続してください。 
+TW 連接 24 pin主板電源。 
+CN 连接 24 pin主板电源。 
+
+PL Podłącz zasilanie płyty głównej 24-pin.
+
+KR 24핀 마더보드 전원을 연결하세요 .
+
+TH ชื่อมต่อสายเมนบอร์ด 24 พิน
+
+ATX Motherboard 24 pin
+
+B
+
+C
+
+مادربرد پین 24 تغذیھ منبع کردن متصل FA
+
+Connect the 10-pin motherboard power.
+
+DE Schließen Sie den 10-poligen Motherboard-Stromanschluss an.
+
+RU Подключите 10-контактное питание материнской платы.
+
+FR Branchez le câble d’alimenta�on 10 broches de la carte-mère. 
+IT Collega l'alimentazione della scheda madre a 10 pin. 
+ES Conecta la alimentación de la placa base de 10 pines. 
+JP 10ピンのマザーボード電源を接続してください。 
+TW 連接 10 pin主板電源。 
+CN 连接 10 pin主板电源。 
+
+PL Podłącz zasilanie płyty głównej 10-pin.
+
+KR 10핀 마더보드 전원을 연결하세요 .
+
+TH ชื่อมต่อสายเมนบอร์ด 10 พิน
+
+ATX12VO Motherboard 10 pin مادربرد پین 10 تغذیھ منبع کردن متصل FA
+
+Connect the 4+4 pin CPU power.
+
+DE Schließen Sie den 4+4-poligen CPU-Stromanschluss an.
+
+RU Подключите 4+4-контактное питание процессора.
+
+FR Branchez le câble d’alimenta�on 4+4 broches pour processeur. 
+IT Collega l'alimentazione CPU a 4+4 pin. 
+ES Conecta la alimentación de la CPU de 4+4 pines. 
+JP 4+4ピンの CPU電源を接続してください。 
+TW 連接�+� pin CPU電源。 
+CN 连接�+� pin CPU电源。 
+
+PL Podłącz zasilanie procesora 4+4 pin.
+
+KR 4+4핀 CPU 전원을 연결하세요. TH เชื่อมต่อสาย CPU 4+4 พิน پین 4+4 یو پی سی نیروی کردن متصل FA
+
+CPU 4+4 pin
+
+D
+
+Connect the 12+4 pin connector to your GPU as required. DE Schließen Sie den 12+4-poligen Anschluss nach Bedarf an Ihre GPU an.
+
+Подключите 12+4-контактный разъем к вашему GPU по мере необходимости.
+
+RU
+
+Branchez le câble d’alimenta�on 12+4 broches à votre carte graphique si nécessaire.
+
+FR
+
+IT Collega il conne�ore a 12+4 pin alla tua GPU secondo le necessità. 
+ES Conecta el conector de 12+4 pines a tu GPU según sea necesario. 
+
+JP 必要に応じて、 12+4ピンのコネクタを GPUに接続してください。
+
+TW 根據您的需求，將��+� pin接頭連接至顯卡。 CN 根据您的需求，将��+� pin接头连接至显卡。
+
+PL Podłącz złącze 12+4 pin do karty graficznej według potrzeb.
+
+KR 필요에 따라 ��+�핀 커넥터를 GPU에 연결하세요. TH เชื่อมต่อ 12+4 พินกับ GPU
+
+12V-2x6 12+4 pin
+
+شما GPU بھ پین 12+4کانکتورتصال ،نیازصورت در FA
+
+E
+
+Connect the SATA as needed.
+
+DE Schließen Sie das SATA bei Bedarf an.
+
+RU Подключите SATA по мере необходимости.
+
+FR Branchez le SATA suivant vos besoins. 
+IT Collega l'SATA secondo necessità. 
+ES Conecta el SATA según sea necesario. 
+
+JP 必要に応じて SATAを接続してください。
+
+TW 根據您的需求，連接SATA接頭。 CN 根据您的需求，连接SATA接头。
+
+PL Podłącz SATA w razie potrzeby.
+
+KR 필요에 따라 SATA를 연결하세요. TH เชื่อมต่อสาย SATA
+
+SATA
+
+نیاز صورت درSATA اتصال FA
+
+Connect the PCIe connectors to your GPU as required .
+
+DE Schließen Sie die PCIe-Anschlüsse nach Bedarf an Ihre GPU an.
+
+RU Подключите разъемы PCIe к вашему GPU по мере необходимости.
+
+FR Branchez les connecteurs PCI-Express à votre carte graphique si nécessaire. 
+IT Collega i conne�ori PCIe alla tua GPU secondo le necessità. 
+ES Conecta los conectores PCIe a tu GPU según sea necesario. 
+
+JP 必要に応じて、 PCIeコネクタを GPUに接続してください。
+
+TW 根據您的需求，將PCIe接頭連接至顯卡。 CN 根据您的需求，将PCIe接头连接至显卡。
+
+PL Podłącz złącza PCIe do karty graficznej według potrzeb.
+
+KR 필요에 따라 PCIe 커넥터를 GPU에 연결하세요 .
+
+TH เชื่อมต่อ PCIe กับ GPU شماGPU بھ PCIe کانکتورھای اتصال ،نیاز صورت در FA
+
+PCIe 6+2 pin
+
+G
+
+F
+
+DE FR IT
+
+Connect the 4P molex to your fans as required.
+
+DE Schließen Sie den 4-poligen Molex-Anschluss nach Bedarf an Ihre Lü�er an.
+
+Подключите 4-контактный разъем Molex к вентиляторам по мере необходимости.
+
+RU
+
+FR Branchez le câble molex 4 broches à vos ven�lateurs suivant vos besoins. 
+IT Collega il molex a 4 pin ai tuoi ventole secondo necessità. 
+ES Conecta el molex de 4P a tus ven�ladores según sea necesario. 
+
+JP 必要に応じて、 4Pモレックスをファンに接続してください。 TW 根據您的需求，將� P molex連接至風扇。 CN 根据您的需求，将� P molex连接至风扇。
+
+PL Podłącz złącze 4P molex do wentylatorów według potrzeb.
+
+KR 필요에 따라 �P 모렉스를 팬에 연결하세요. TH เชื่อมต่อ Molex 4P กับพัดลม
+
+4P Molex
+
+Please only use the modular cables provided in your ENERMAX power supply package. Do NOT use other cables to prevent pin configura�on damage to your system and your power supply.
+
+Warning
+
+P4 شماھای فن بھ مولکس اتصال ،نیازصورت در FA
+
+Bi�e verwenden Sie ausschließlich die modularen Kabel, die diesem Netzteil beiliegen. Andere modulare Kabel haben gegebenenfalls eine abweichende Pinbelegung und können Ihr System und Netzteil beschädigen.
+
+Пожалуйста, используйте модульные кабели которые прилагаются к вашему блоку питания ENERMAX. Не используйте другие модульные кабели для предотвращения повреждений вашего компьютера и блока питания.
+
+U�lisez uniquement les câbles modulaires fournis dans l'emballage de votre alimenta�on Enermax. N'u�lisez jamais d'autres câbles modulaires et ce, afin d'éviter d'abîmer les broches ou endommager votre système et votre alimenta�on. Si prega di u�lizzare solo i cavi modulari forni� nella confezione dell'alimentatore ENERMAX. NON u�lizzare altri cavi modulari per evitare danni al vostro sistema e al vostro alimentatore a causa della diversa configurazione dei pin. Se ruega u�lizar únicamente los cables modulares que están en el embalaje de la fuente de alimentación ENERMAX. NO u�lice otros cables modulares para evitar daños al sistema y a su fuente de alimentación a causa de la diferente configuración de los pines.
+
+付属されている正規の ENERMAX モジュールケーブルだけを使用して下さい。それ以外のケーブルは互換性がない可能性があり、電源ユニットやシステムへの損傷をもたらす恐れがあるため使用しないで下さい。
+
+請依您的 ENERMAX電源供應器包裝隨附的模組線材搭配使用。切勿使用標準配件包之外的模組線材，防止損壞您的系統和電源供應器。
+
+请依您的 ENERMAX电源供应器包装随附的模块线材搭配使用。切勿使用标准配件包之外的模块线材，防止损坏您的系统和电源供应器。
+
+Proszę używać wyłącznie kable modularne, które zostały dostarczone z tym zasilaczem, aby zapobieć uszkodzeniu systemu i zasilacza przez odmienne kolejności pinów.
+
+ENERMAX 에서 제공 하는 모듈케이블만 사용 하십시요 . 
+핀의 형태가 다른 제품을 사용 하시면 사용 중인 시스템 이나 파워스플라이에 치명적 문제가 발생 할 수 있습니다 . 
+추가적인 모쥴케이블이 필요하시면 고객지원센타로 연락 하시기 바랍니다 . 
+กรุณาใช้สายเคเบิ้ลที่ให้มาภายในกล่องอุปกรณ์จ่ายไฟของ Enermax เท่านั้น. อย่าใช้สายเคเบิ้ลอื่นๆ กับอุปกรณ์จ่ายไฟของเรา เพื่อป้องกันความ 
+เสียหายที่อาจจะเกิดขึ้นได้กับอุปกรณ์และระบบของท่าน. 
+دقت مطالعھ بفرمایید و مطابق دستورات آن عمل نمایید 
+
+TH FA
+
+RU PL
+
+Please avoid ver�cally or horizontally cable bending too close to the connectors. We suggest a minimum distance of 35mm from the connectors before bending.
+
+#### How to Install 12V-2x6 Properly?
+
+Fully Inserted NOT Fully Inserted
+
+35mm 35mm
+
+35mm 35mm
+
+Check the power consump�on from the official GPU website before installa�on, and also please see the PCIe slots installa�on instruc�on below.
+
+High-powered GPU are usually ou�i�ed with two or three PCIe power connector slots. ENERMAX prefers the use of two or three separate PCIe cables to connect these cards to your PSU.
+
+#### How to Connect Cable to GPU Properly?
+
+##### 2 PCIe Slots
+
+##### 3 PCIe Slots
+
+#### Installa�on-PSU
+
+A
+
+I
+
+J
+
+Step 1
+
+Step 2
+
+#### Specifica�on
+
+Model
+
+EGN1200P
+
+Spec.
+
+| AC Input Voltage | | 200-240VAC, 50-60Hz (for China) | 100-240VAC, 50-60Hz | | |
+| --- | --- | --- | --- | --- | --- |
+| AC Input Current | | | 15A-8A 8A (for China) | | |
+| | | | ATX3.1 | | |
+| | +3.3V | +5V | +12V | -12V | +5Vsb Total Power |
+| DC Output | Rated 20A | 20A | 100A | 0.4A | 3A |
+| | | | | | 1200W |
+| | Combined 100W | | 1200W | 4.8W | 15W |
+| | | ATX12VO | | | |
+| | | +12V | | +12Vsb | Total Power |
+| DC Output | Rated | 100A | | 1.5A | |
+| | | | | | 1200W |
+| | Combined | 1200W | | 18W | |
+| | | Environment | | | |
+| Temp. | | Non-opera�ng : -40°C to +70°C | Opera�ng : 0°C to +50°C | | |
+| Humidity | Opera�ng : 20% to 85% rela�ve humidity (non-condensing). Non-opera�ng : 5% to 95% rela�ve humidity (non-condensing). | | | | |
+| | | | Others | | |
+| Power Factor | | | >0.95 at full load | | |
+| Cooling | | One 13.5cm Dual-Ball Bearing Fan | | | |
+| MTBF | | | 100K hours minimum | | |
+
+Dimension 150(W)*150(D)*86(H) mm
+
+#### Protec�on
+
+| OCP (Over Current Protec�on) | OCP makes sure that the output of the DC voltage rails remains within safe opera�ng limits. |
+| --- | --- |
+| OVP (Over Voltage Protec�on) | OVP shuts down the PSU when the DC outputs exceed a certain level, which is determined by the PSU manufacturer. |
+| UVP (Under Voltage Protec�on) | UVP shuts off the PSU when the voltage under the certain stander. |
+| OPP (Over Power Protec�on) | OPP shuts off the PSU when the power drawn is between 115% ~ 135% of the rated power. |
+| OTP (Over Temperature Protec�on) | OTP makes sure that the PSU will shut down when the internal temperature reaches a set point. |
+| SCP (Short Circuit Protec�on) | SCP makes sure that the PSU shuts down when the 3.3V, 5V, and 12V rails short to any other rail, or to ground. It also ensures that no damage should occur to the unit, or your PC’s components in the event of a short. |
+
+1. Where is the 4-pin CPU connector? The 8-pin CPU cable can be split into two 4-pin connectors. 
+2. How to connect the PSU to the GPU with 6-pin and 2-pin connectors: Combine the 6-pin and 2-pin connectors into an 8-pin connector before connec�ng them to the GPU. 
+3. How to connect the PSU to the motherboard: For ATX motherboards: Plug in the 18-pin and 14-pin connectors to the PSU and the 24-pin to the motherboard. For ATX12VO motherboards: Plug in the 14-pin connector to the PSU and the 10-pin to the motherboard. 
+4. Why does the PSU fail to power up? Check if the CPU connectors are connected to the motherboard and PSU correctly, if not, the PSU can’t be powered up. 
+5. A�er installing a new GPU, the PC system crashes frequently. The PSU may be inadequate for your new GPU. Please refer to our PSU calculator tool on ENERMAX’s official website. 
+6. The fan doesn’t con�nue spinning a�er the PSU is turned on for several seconds. With the “Dust-free Rota�on(DFR)” func�on, the fan will start spinning clockwise for several seconds in the beginning to clean itself and then turn counterclockwise for a few more seconds. Eventually, it will pause to switch to fanless mode. 
+
+## 請您務必遵循產品安全及操作說明中的指示進行操作，請務必留意產品上及操作說明中的所有警告訊息。 此產品使用於限制區域，為避免人身傷害、電擊、火災或損壞您的裝置，請遵守以下注意事項：安全注意事項
+
+留意修理標識：除說明文件中有特別說明外，請勿自行修理本產品，打開或拆下標有標識 的產品外殼將可能有觸電的危險。 
+這類元件的內部元件若需修理，應由授權服務供應商完成。 
+需修理的損壞類型：如有下列情形之一，請先從電源插座中拔下電源線，並與授權服務供應商聯絡修理事宜： 
+·電源線、延長線或插頭損壞 
+·液體滲入產品或將異物掉進產品內 
+·產品被雨淋或浸入水中 
+·產品掉落或損壞 
+·過熱的警示訊息 
+·當遵循操作說明進行時，仍無法正常作業 
+避開高溫區：應將產品放置在遠離熱源的地方，如：散熱器、暖氣機、火爐或其他會產生高溫的產品 (包括放大器 )。 
+避開潮濕區：切勿將產品置於潮濕環境中使用。 
+避免將異物塞入產品：切勿將異物塞入產品的機殼槽口或其他任何開口處，槽口和開口處專為機體散熱和通風而設計，切勿堵塞 
+或掩蓋。 
+安裝附屬裝置：請勿將產品放置在不穩固的平臺上、貨車、講臺、腳架或之架上，安裝任何附屬裝置均應均需應按照製造廠商的 
+指示進行，且僅可使用製造廠商所建議安裝的附屬裝置。 
+避免在兒童會出現的地方使用 
+a. 
+b. 
+c. 
+d. 
+e. 
+f. 
+g. 
+
+1.一般注意事項：
+
+·將電源線插入一個方便您隨時插拔的接地電源插座中。 
+·請勿讓電源線上的接地插頭失效，接地型插頭設計是一項重要的安全保護功能。 
+·需要切斷電腦的電源時，請將電源線從插座中拔出。 
+·從插座拔下電纜時，切勿直接拖拉電纜及連接線。請用手握住電纜插頭，再從插座中拔出。 
+
+3.正確使用電源線及連接線：
+
+使用正確的外部電源：產品使用的電源類型必須與該產品額定電源標籤上標明的電源類型一致，如果您不知道應使用何種類型電 
+源，請向授權服務供應場或您當地的電力公司查詢，如果產品使用的是電池或其他電源，請參考隨產品附帶的操作說明。 
+選擇正確的電壓：若有提供電壓選擇開關請確保電壓選擇開關已設在您使用的正確電壓類型位置 (115VAC或 230VAC)。 
+使用認可的電源線：如果您的電腦未配備電源線，請購買當地國所認可使用的電源線。電源線必須符合該產品及其額定電源標籤 
+上所標明的額定電流及電壓要求，電源線的額定電壓、電流應大於產品標籤上標明的額定質。此外電源線直徑的最小規格是 0.75 
+公釐 d.2/18AWG，長度應介於�到 6.5英尺 (1.2-2公尺 )之間，如果您對應使用的電纜類型尚有疑問，請與授權服務供應商聯絡。 
+仔細佈置電源線：應將電源線佈置在不易被踩壓的地方，請勿在電纜上放置任何物品，以免電源線被擠壓，尤其應注意保護好電 
+源插頭、插座以及電線與電腦的連介面。 
+超負載：請勿在電源插座、配電盤或便利插座上連接太多的電其而使其超負荷運作，整個系統的負載值不應超過該線路額定值得 
+80%，如果使用配電盤，負載值不應超過配電盤輸入額定值得 80%。 
+注意延長線的額定值：如果您是使用延長線會配電盤，請確保延長線及配電盤符合產品的額定標準，連接到延長線或配電盤上的 
+所有產品的額定電流 (安培 )總和不應超過此延長線或配電盤的額定電流 (安培 )值限制的 80%。 
+a. 
+b. 
+c. 
+d. 
+e. 
+f. 
+
+2.電源線及附屬裝置的安全注意事項：
+
+19 
+4.請勿使用電器用電壓轉換器：切勿嘗試使用電器配用的電壓轉換器為電腦提供電源。 
+5.清潔：清潔前請先從牆上插座中拔下產品的電源線。請勿使用液體清潔劑或氣體清潔劑擦洗。請使用濕布擦拭產品。 
+6.最大操作環境溫度： 40℃。 
+7.電源容許誤差： +10%,-10%。 
+
+電源供應器安裝外殼使用說明：
+
+## 安全注意事項
+
+a. 
+b. 
+
+1. 
+2. 
+3. 
+4. 
+
+輸出 +12V帶有危險能量，組裝前必須先確認電源是否完全斷離，否則會有被電擊的危險。 
+此產品外殼帶有風扇與電器插接器為外露部份，並符合電氣與防火殼要求，其餘外殼部份均不可外露，且週遭需提供外殼防護不 
+可有任何開孔，否則會有被電擊或起火的危險。 
+
+8.組裝時的安全注意事項 :
+
+為了保護使用者及防火的目的，安裝此電源供應器時，必須安裝於符合下列各項要求的外殼中，並且安裝妥善後，才可接上電源。 
+外殼材質須為金屬或鋁製外殼 
+外殼的上方及側邊之圓形開孔，最大內徑不可大於 5mm 
+外殼的上方及側邊之長條型開孔，對角線距離不可大於 5mm；若寬度小於 1mm，則長度不受限制外殼底部不可有開孔 
+外殼底部不可有開孔 
+
+直徑不大於 5mm 對角線不大於 5mm 寬度小於 1mm則長度不限
+
+## 限用物質含有情況標示聲明書
+
+Declara�on of the Presence Condi�on of the Restricted Substances Marking
+
+| | 單元Unit | 鉛Lead (Pb) | 限用物質及其化學符號Restricted substances and its chemical symbols 汞Mercury (Hg) | 鎘Cadmium (Cd) | 六價鉻Hexavalent chromium (Cr +6) | 多溴聯苯Polybrominated biphenyls (PBB) | 多溴二苯醚Polybrominated diphenyl ethers (PBDE) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | 外殼case | ─ | ○ | ○ | ○ | ○ | ○ |
+| | 線材wire | ─ | ○ | ○ | ○ | ○ | ○ |
+| circuit board | 主電路板The main | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 電阻Resistor | ○ | ○ | ○ | ○ | ○ | ○ |
+| 電容Capacitance | | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 二極體Diode | ─ | ○ | ○ | ○ | ○ | ○ |
+| 貼片二極體SMD DIODE | | ─ | ○ | ○ | ○ | ○ | ○ |
+| | 集成電路IC | ─ | ○ | ○ | ○ | ○ | ○ |
+| 變壓器 /線圈Transformer | /coil | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 保險絲FUSE | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 散熱片Heat sinks | ○ | ○ | ○ | ○ | ○ | ○ |
+| 麥拉絕緣片Mylar insula�on slices | | ○ | ○ | ○ | ○ | ○ | ○ |
+| AC開關和插座Switch and socket | | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 風扇Fan | ○ | ○ | ○ | ○ | ○ | ○ |
+| 塑膠零件Plas�c parts | | ○ | ○ | ○ | ○ | ○ | ○ |
+| | 包裝材料Packaging materials | ○ | ○ | ○ | ○ | ○ | ○ |
+| 備考 0.01 wt %”係指限用物質之百分比含量超出百分比含量基準值。Note 1： 備考 2. “○”係指該項限用物質之百分比含量未超出百分比含量基準值。Note 2： 備考 ”係指該項限用物質為排除項目。Note 3： | 1. “超出 0.1 wt %”及 “Exceeding 0.1 wt %” and “exceeding 0.01 wt %” indicate that the percentage content of the restricted substance exceeds the reference percentage value of presence condi�on. “○”indicates that the percentage content of the restricted substance does not exceed the percentage of reference value of presence. 3. “－ ” indicates that the restricted substance corresponds to the exemp�on. The “－ | “超出 | | | | | |
+
+Jan. 2024
+
+© 2024, ENERMAX Technology Corpora�on, 
+2F-1 , No. 888, Jing-Guo Road, Taoyuan City (330) 
+Tel. +886-3-316-1675, Fax. +886-3-346-6640 
+All rights reserved. Actual product and accessories may differ from Illustra�ons. Informa�on in this manual 
+is subject to change without prior no�ce. Prin�ng errors and omissions excepted. All trademarks, registered 
+trademarks and/or product names men�oned are the property of their respec�ve owners.

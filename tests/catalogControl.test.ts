@@ -5,6 +5,7 @@ import {createHash} from 'node:crypto';
 import {catalog} from '../src/data/catalog.ts';
 import {catalogControlSummary,catalogControlOutcomes} from '../src/data/catalogControl.ts';
 import {verifiedBulk} from '../src/data/verifiedBulk.ts';
+import {verifiedProducts} from '../src/data/verifiedCatalog.ts';
 import {getPricingInfo,getReferencePrice} from '../src/data/pricing.ts';
 import {getVerifiedOffer} from '../src/lib/verifiedOffers.ts';
 
@@ -24,7 +25,7 @@ test('every variant has an individual, completed review outcome without claiming
 });
 
 test('new direct prices retain their own EUR primary provenance independently of the USD archive',t=>{
-  const checked=Math.max(...Object.values(verifiedBulk).flatMap(p=>p.offers.map(o=>Date.parse(o.checkedAt))))+1000;
+  const checked=Math.max(...Object.values(verifiedProducts).flatMap(p=>p.offers.map(o=>Date.parse(o.checkedAt))))+1000;
   t.mock.method(Date,'now',()=>checked);
   let tested=0;
   for(const c of catalog.filter(c=>c.source && verifiedBulk[c.id])){

@@ -1,0 +1,243 @@
+{
+  "review": {
+    "id": "import-mb-322b94d2c0ce",
+    "name": "MAG B850M MORTAR",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+    "sections": [
+      "Chipset",
+      "CPU",
+      "Memory",
+      "Onboard Graphics",
+      "Slot",
+      "Audio",
+      "Storage",
+      "Multi-GPU",
+      "RAID",
+      "USB",
+      "LAN",
+      "Internal IO",
+      "LED FEATURE",
+      "BACK PANEL PORTS",
+      "OPERATING SYSTEM",
+      "BOX CONTENT",
+      "PCB Info"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_17428848623951b99eef083c025b1623f10dc19908.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "MAG B850M MORTAR",
+    "identityNote": "Modèle MSI MAG B850M MORTAR confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 256,
+      "m2Slots": 3,
+      "socket": "AM5",
+      "formFactor": "Micro-ATX",
+      "heightMm": 243.84,
+      "widthMm": 243.84,
+      "manufacturerPartNumber": "MAG B850M MORTAR",
+      "description": "Carte mère MSI MAG B850M MORTAR. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM5",
+        "4 emplacements DDR5",
+        "Mémoire maximale documentée : 256 Go",
+        "3 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD B850"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 9000/ 8000/ 7000 Series Desktop ProcessorsSocket AM5"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR5 UDIMM, Maximum Memory Capacity 256GBMemory Support DDR5 8200 - 5600 (OC) MT/s / 5600 - 4800 (JEDEC) MT/sRyzen™ 9000 Series Processors max. overclocking frequency:\n\n• 1DPC 1R Max speed up to 8200+ MT/s\n\n• 1DPC 2R Max speed up to 6400+ MT/s\n\n• 2DPC 1R Max speed up to 6400+ MT/s\n\n• 2DPC 2R Max speed up to 6400+ MT/s\nSupports AMD POR Speed and JEDEC Speed\n\nSupports Memory Overclocking and AMD EXPO™\n\nSupports Dual-Channel mode\n\nSupports Non-ECC, Un-buffered memory\n\nSupports CUDIMM, Clock Driver bypass mode only*\n\n\n\n* CUDIMM support and POR boot frequency may vary by CPU series, with manual overclocking available after boot. Certain CPUs may fail to boot, but future BIOS updates will improve compatibility.\n\n• The DIMM slots on this motherboard only have single-sided latch.\n\n• Memory compatibility and supported speeds can vary depending on the CPU and memory configuration. For detailed information, please refer to the Memory Compatibility List available on the product’s Support page or visit https://www.msi.com/support/."
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™Support HDMI™ 2.1 FRL, maximum resolution of 8K 60Hz**Available only on processors featuring integrated graphics. Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCI-E x16 slot1x PCI-E x4 slotPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU) PCI_E2 Gen PCIe 4.0 supports up to x4 (From Chipset) \n\nPCI_E1 slot\n\n• Supports PCIe 5.0 x16 (For Ryzen™ 9000/ 7000 Series processors)\n\n• Supports PCIe 4.0 x8 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports PCIe 4.0 x4 (For Ryzen™ 8500/ 8300 Series processors)"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC4080 Codec7.1-Channel USB High Performance Audio\n\nSupports up to 32-bit/384kHz playback on front panel\n\nSupports S/PDIF output"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "3x M.2M.2_1 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices M.2_2 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices M.2_3 Source (From Chipset) supports up to PCIe 4.0 x2 , supports 2280 devices 4x SATA 6G\n\nM2_1 slot\n\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors) \n\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8000 Series processors)\n\n\n\n\nM2_2 slot\n\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors) \n\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports up to PCIe 4.0 x2 (For Ryzen™ 8500/ 8300 Series processors)\n\n\n\n\n\nM2_3 slot\n\n• Supports up to PCIe 4.0 x2\n\n\n\n\n** Please refer to the manual for M.2 SSD heatsink restrictions"
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "AMD MULTI-GPU Support"
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0 , RAID 1 and RAID 10 for SATA storage devices\n\n• Supports RAID 0, RAID 1 and RAID 5 for M.2 NVMe storage devices \n\n*RAID 5 configuration is only supported by Ryzen™ 9000 series processors."
+          },
+          {
+            "label": "USB",
+            "value": "4x USB 2.0 (Front)4x USB 5Gbps Type A (Rear)2x USB 5Gbps Type A (Front)3x USB 10Gbps Type A (Rear)1x USB 10Gbps Type C (Rear)1x USB 10Gbps Type C (Front)1x USB 20Gbps Type C (Rear)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® 8126-VB 5G LAN"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x Power Connector(ATX_PWR)2x Power Connector(CPU_PWR)1x Power Connector(PCIE_PWR 8pin)1x CPU Fan1x Combo Fan (Pump_Sys Fan)4x System Fan2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Tuning Controller connector(JDASH)3x Addressable V2 RGB LED connector (JARGB_V2)1x RGB LED connector(JRGB)1x TPM pin header(Support TPM 2.0)4x USB 2.0 ports2x USB 5Gbps Type A ports1x USB 10Gbps Type C ports"
+          },
+          {
+            "label": "LED FEATURE",
+            "value": "4x EZ Debug LED\n\n1x EZ Memory Detection LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Clear CMOS Button\n\n5G LAN\n\nUSB 10Gbps Type-A\n\nUSB 5Gbps Type-A\n\nAudio Connectors\n\nFlash BIOS Button\n\nHDMI™\n\nUSB 10Gbps Type-A\n\nUSB 10Gbps Type-C\n\nUSB 20Gbps Type-C\n\nOptical S/PDIF Out"
+          },
+          {
+            "label": "OPERATING SYSTEM",
+            "value": "Support for Windows® 11 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX243.84mmx243.84mm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_17428848623951b99eef083c025b1623f10dc19908.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "memoryCapacity": {
+        "value": 256,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "formFactor": {
+        "value": "mATX243.84mmx243.84mm",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX243.84mmx243.84mm",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "chipset": {
+        "value": "AMD B850",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "storagePorts": {
+        "value": "3x M.2M.2_1 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices M.2_2 Source (From CPU) supports up to PCIe 5.0 x4 , supports 2280/2260 devices M.2_3 Source (From Chipset) supports up to PCIe 4.0 x2 , supports 2280 devices 4x SATA 6G\n\nM2_1 slot\n\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors) \n\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8000 Series processors)\n\n\n\n\nM2_2 slot\n\n• Supports up to PCIe 5.0 x4 (For Ryzen™ 9000/ 7000 Series processors) \n\n• Supports up to PCIe 4.0 x4 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports up to PCIe 4.0 x2 (For Ryzen™ 8500/ 8300 Series processors)\n\n\n\n\n\nM2_3 slot\n\n• Supports up to PCIe 4.0 x2\n\n\n\n\n** Please refer to the manual for M.2 SSD heatsink restrictions",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "pcie": {
+        "value": "1x PCI-E x16 slot1x PCI-E x4 slotPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU) PCI_E2 Gen PCIe 4.0 supports up to x4 (From Chipset) \n\nPCI_E1 slot\n\n• Supports PCIe 5.0 x16 (For Ryzen™ 9000/ 7000 Series processors)\n\n• Supports PCIe 4.0 x8 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports PCIe 4.0 x4 (For Ryzen™ 8500/ 8300 Series processors)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "rearIO": {
+        "value": "Clear CMOS Button\n\n5G LAN\n\nUSB 10Gbps Type-A\n\nUSB 5Gbps Type-A\n\nAudio Connectors\n\nFlash BIOS Button\n\nHDMI™\n\nUSB 10Gbps Type-A\n\nUSB 10Gbps Type-C\n\nUSB 20Gbps Type-C\n\nOptical S/PDIF Out",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "internalIO": {
+        "value": "1x Power Connector(ATX_PWR)2x Power Connector(CPU_PWR)1x Power Connector(PCIE_PWR 8pin)1x CPU Fan1x Combo Fan (Pump_Sys Fan)4x System Fan2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Tuning Controller connector(JDASH)3x Addressable V2 RGB LED connector (JARGB_V2)1x RGB LED connector(JRGB)1x TPM pin header(Support TPM 2.0)4x USB 2.0 ports2x USB 5Gbps Type A ports1x USB 10Gbps Type C ports",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "network": {
+        "value": "Realtek® 8126-VB 5G LAN",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC4080 Codec7.1-Channel USB High Performance Audio\n\nSupports up to 32-bit/384kHz playback on front panel\n\nSupports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 9000/ 8000/ 7000 Series Desktop ProcessorsSocket AM5",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR/Specification",
+        "checkedAt": "2026-11-10T11:00:33+00:00"
+      }
+    }
+  }
+}

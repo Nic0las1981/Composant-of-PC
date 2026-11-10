@@ -1,0 +1,255 @@
+{
+  "review": {
+    "id": "import-mb-f58863ce9f81",
+    "name": "ROG STRIX B450-F GAMING",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming/spec/",
+        "checkedAt": "2026-11-10T13:41:51+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "sha256": "18192f9020e505ee2cf9e5e9758fd67dc616bfb0ac2af2986db30a6d696ba12f",
+        "bytes": 244567,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX B450-F GAMING",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/6BDDB156-FB29-4D59-A48D-5D386A90D579"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Audio",
+      "USB Ports",
+      "ROG Exclusive Features",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Note",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX B450-F GAMING",
+    "identityNote": "Modèle ASUS ROG STRIX B450-F GAMING confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG STRIX B450-F GAMING",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for 3rd/2nd/1st AMD Ryzen™/2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/Athlon™ with Radeon™ Vega Graphics Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B450"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2800(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory\n4 x DIMM, Max. 128GB, DDR4 3200(O.C.)/3000(O.C.)/2800(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory *\nDual Channel Memory Architecture\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists).\n3rd Gen AMD Ryzen™ Processors"
+          },
+          {
+            "label": "Graphic",
+            "value": "Integrated in the AMD Ryzen™ with Radeon™ Vega Graphics Processors\nMulti-VGA output support : HDMI/DisplayPort ports\n- Supports HDMI 2.0b with maximum resolution of 4096 x 2160 @ 60 Hz\n- Supports DisplayPort 1.2 with max. resolution 4096 x 2160 @ 60 Hz"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "AMD Ryzen™ 2nd Generation/Ryzen™ 1st Generation Processors\nSupports AMD 3-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2 x PCIe 3.0/2.0 x16 (x16 or x8/x4)\nAMD Ryzen™ with Radeon™ Vega Graphics Processor\nAMD B450 chipset\n1 x PCIe 2.0 x16 (max at x4 mode) *1\n3 x PCIe 2.0 x1\nAMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n1 x PCIe 3.0/2.0 x16 (x8 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors :*2\n1 x M.2 Socket 3, , with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)*3\n1 x M.2 Socket 3, , with M key, type 2242/2260/2280/22110 storage devices support (PCIE 3.0 x 4 mode)*4\nAMD Ryzen™ with Radeon™ Vega Graphics Processor :*2\n2 x SATA 6Gb/s port(s)\nAMD B450 chipset :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)*3\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I211-AT, 1 x Gigabit LAN Controller(s)\nAnti-surge LANGuard\nROG GameFirst Technology"
+          },
+          {
+            "label": "Audio",
+            "value": "- Supports up to 32-Bit/192kHz playback *5\nROG SupremeFX8-Channel High Definition Audio CODEC S1220A\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\nAudio Feature :\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Link"
+          },
+          {
+            "label": "USB Ports",
+            "value": "3 x USB 3.1 Gen 1 port(s) (3 at back panel, blue)\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ 1st Generation :\n1 x USB 3.1 Gen 1 port(s) (1 at back panel, , Type-C)\n2 x USB 3.1 Gen 1 port(s)\nAMD B450 chipset :\n2 x USB 3.1 Gen 2 port(s) (2 at back panel, red)\n6 x USB 2.0 port(s) (2 at back panel, , 4 at mid-board)"
+          },
+          {
+            "label": "ROG Exclusive Features",
+            "value": "ROG RAMCache II\nGameFirst IV\nROG CPU-Z\nPre-mounted I/O Shield\nOverwolf"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "- ASUS Grid\nTurbo APP\n- featuring system performance tuning for selected applications\n5-Way Optimization by Dual Intelligent Processors 5\n- Whole system optimization with a single click! 5-Way Optimization tuning key perfectly consolidates TPU, EPU, DIGI+ VRM, Fan Xpert 4, and Turbo App together, providing better CPU performance, efficient power saving, precise digital power control, whole system cooling and even tailor your own app usages.\nTPU\n- Auto Tuning, TurboV, GPU Boost\nFan Xpert4\n- Fan Xpert 4 featuring Fan Auto Tuning function and multiple thermistors selection for optimized system cooling control\nGamer´s Guardian:\n- ESD Guards on LAN, Audio, KBMS and USB3.1/3.0/2.0 ports\n- DRAM Overcurrent Protection\n- Highly Durable components\n- SafeSlot\nASUS EPU :\n- EPU\nAURA :\n- Aura Lighting Control\n- Aura RGB Strip Headers\n- Aura Lighting Effects Synchronization with compatible ASUS ROG devices\nASUS Exclusive Features :\n- AI Suite 3\n- Ai Charger\nASUS EZ DIY :\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\nASUS Q-Design :\n- ASUS Q-Shield\n- ASUS Q-LED (CPU, DRAM, VGA, Boot Device LED)\n- ASUS Q-Slot\n- ASUS Q-DIMM\nDigi+VRM"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/mouse combo port(s)\n1 x DisplayPort\n1 x HDMI\n1 x LAN (RJ45) port(s)\n2 x USB 3.1 Gen 2 (red)Type-A,\n4 x USB 3.1 Gen 1 (blue)\n2 x USB 2.0\n1 x Optical S/PDIF out\n5 x Audio jack(s)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x Aura RGB Strip Headers\n1 x USB 3.1 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.1 Gen 1 port(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (PCIE 3.0 x 4 mode)\n1 x TPM header\n1 x COM port(s) connector(s)\n6 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x System panel(s)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x Replaceable PCH nameplate\n2 x M.2 Screw Package\nUser´s manual\n4 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\n1 x Strix door hanger\n1 x ROG Strix stickers\n1 x Cable ties pack(s)\n1 x Extension Cable for RGB strips (80 cm)"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 7 64-bit *6\nWindows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          },
+          {
+            "label": "Note",
+            "value": "*1 PCIe x16_3 slot shares bandwidth with PCIe x1_2 and PCIe x1_3.\n\n*2 Support StoreMI and NVMe RAID\n\n*3 When the M.2_1 Socket 3 is operating in SATA or PCIE mode, SATA6G_5/6 ports will be disabled.\n\n*4 When the M.2_2 is occupied by M.2 device, PCIe x16_1 will run at x8 mode.\n\n*5 *Due to limitations in HDA bandwidth, 32-Bit/192kHz is not supported for 8-Channel audio.\n\n*6 *Windows 7 64-bit is only supported when using AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/6BDDB156-FB29-4D59-A48D-5D386A90D579"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "chipset": {
+        "value": "AMD B450",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors :*2\n1 x M.2 Socket 3, , with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)*3\n1 x M.2 Socket 3, , with M key, type 2242/2260/2280/22110 storage devices support (PCIE 3.0 x 4 mode)*4\nAMD Ryzen™ with Radeon™ Vega Graphics Processor :*2\n2 x SATA 6Gb/s port(s)\nAMD B450 chipset :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)*3\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "pcie": {
+        "value": "2 x PCIe 3.0/2.0 x16 (x16 or x8/x4)\nAMD Ryzen™ with Radeon™ Vega Graphics Processor\nAMD B450 chipset\n1 x PCIe 2.0 x16 (max at x4 mode) *1\n3 x PCIe 2.0 x1\nAMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n1 x PCIe 3.0/2.0 x16 (x8 mode)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/mouse combo port(s)\n1 x DisplayPort\n1 x HDMI\n1 x LAN (RJ45) port(s)\n2 x USB 3.1 Gen 2 (red)Type-A,\n4 x USB 3.1 Gen 1 (blue)\n2 x USB 2.0\n1 x Optical S/PDIF out\n5 x Audio jack(s)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "internalIO": {
+        "value": "2 x Aura RGB Strip Headers\n1 x USB 3.1 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.1 Gen 1 port(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (PCIE 3.0 x 4 mode)\n1 x TPM header\n1 x COM port(s) connector(s)\n6 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x System panel(s)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "network": {
+        "value": "Intel® I211-AT, 1 x Gigabit LAN Controller(s)\nAnti-surge LANGuard\nROG GameFirst Technology",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "audio": {
+        "value": "- Supports up to 32-Bit/192kHz playback *5\nROG SupremeFX8-Channel High Definition Audio CODEC S1220A\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\nAudio Feature :\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Link",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for 3rd/2nd/1st AMD Ryzen™/2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/Athlon™ with Radeon™ Vega Graphics Processors\n* Refer to www.asus.com for CPU support list",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b450-f-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:41:52+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX B450-F GAMING"
+  }
+}

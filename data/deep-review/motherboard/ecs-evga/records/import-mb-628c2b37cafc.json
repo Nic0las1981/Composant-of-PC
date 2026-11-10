@@ -1,0 +1,198 @@
+{
+  "review": {
+    "state": "exact_manufacturer_table",
+    "source": {
+      "name": "ECS — fiche technique officielle",
+      "url": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+      "checkedAt": "2026-11-10T14:10:43.500Z",
+      "kind": "manufacturer"
+    },
+    "contentSHA256": "feeacb8b76bef9fc7cc131da7f2862e45d6fc1b42927bffec48eee1b3521a4fa",
+    "specificationExcerpt": "# B350AM4-M2｜Motherboard｜Products ｜ECS ELITEGROUP\nURL: https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification\n\nB350AM4-M2｜Motherboard｜Products ｜ECS ELITEGROUP\n\n# B350AM4-M2 \n\nCPU\n\n Supports AMD AM4 socket for AMD Ryzen™ processors and 7 th Gen A-series / Athlon™ Processors\n\n 4+2 Phase Thermal Design Power\n\n 100% Solid capacitor design\n\n Please refer to CPU support list for details\n\nCHIPSET\n\n AMD ® B350\n\nGRAPHICS\n\n Supports DirectX ® 12 Supports HDMI™ & Premium Audio Supports DP 1.2 Supports AMD Dual Graphics\n\nMEMORY\n\n Dual-channel DDR4 Memory architecture \n\n Supports DDR4 2667/2400 non-ECC, Un-buffered SDRAM Memory\n\n 4 X 288-pin DDR4 DIMM socket\n\n ∟ Support up to 64 GB*\n\n * Due to AMD CPU spec limitation, please refer to Memory QVL for more information.\n\nEXPANSION SLOT\n\n 1 X PCI Express X16 Gen 3.0 slot(s)\n\n 1 X PCI Express X16 Gen 2.0 slot(s)\n\n ∟ runs at x2\n\n X PCI Express X1 Gen 2.0 slot(s)\n\n Supports AMD CrossFire™ Technology\n\n 1 X M.2 slot for SSD\n\n ∟ For 2260/2280 SATA/PCIE X2 SSD\n\n 1 X M.2 slot for WLAN card (PCIe Gen 2)\n\nStorage\n\n Support by AMD B350 Express Chipset 4 X Serial ATAIII 6Gb/s RAID0, RAID1,RAID10 configuration\n\nAudio\n\n 6-Channel HD audio CODEC\n\n Compliant with HD audio specification\n\n Realtek ALC662 ‧Realtek ALC662 6-channel High Definition audio CODEC ‧Meets performance requirements for Microsoft WLP 3.08 Vista premium and mobile PCs ‧Six channel DAC supports 16/20/24-bit PCM format for 5.1 channel audio solution ‧Emulation of 26 sound environments to enhance gaming experience ‧Voice Cancellation and Key Shifting in Karaoke mode ‧Compatible with Direct Sound 3D™, A3D™, I3DL2\n\nLAN\n\n RTL 8111GN Gigabit Fast Ethernet Controller Wake-On-LAN\n\nUSB\n\n Support by B350 Express Chipset\n\n 6 X USB 3.2 Gen 1x1 port(s) up to 5Gb/s\n\n---- Back Panel 4 port(s)\n\n---- Onboard 2 port(s)\n\n 5 X USB2.0 port(s) Up to 480 Mb/s\n\n---- Back Panel 2 port(s)\n\n---- Onboard 3 port(s)\n\nREAR PANEL I/O\n\n 1 X PS/2 Keyboard & PS/2 mouse connectors\n\n 1 X Audio port (Line Out/Line In/Mic In) \n\n 1 X RJ-45 port\n\n 1 X HDMI™ port(s)\n\n 1 X Display port\n\n 1 X D-Sub (VGA) port(s)\n\n 4 X USB 3.2 Gen 1x1 Type A port(s)\n\n 2 X USB2.0 port(s)\n\nCONNECTORS & HEADERS\n\n 1 X 24-pin ATX Power Supply connector\n\n 1 X 4-pin Power Connector for Graphics\n\n 1 X 4-pin CPU_FAN connector\n\n 1 X 4-pin SYS_FAN connector\n\n 1 X 4-pin SYS_FAN connector with smart fan\n\n 1 X Front Panel switch/LED header\n\n 1 X Front panel audio header\n\n 1 X Onboard Buzzer\n\n ∟ Support additional 2 USB ports\n\n 1 X USB 3.2 Gen 1x1 header\n\n ∟ Support additional 2 USB ports\n\n 2 X USB 2.0 header\n\n ∟ Support additional 3 USB ports\n\n 4 X SATA III 6Gb/s connector(s)\n\n 1 X CLR_CMOS header\n\n 2 X Serial port header (COM) \n\n 1 X Parallel port header (LPT)\n\nSYSTEM BIOS\n\n AMI BIOS with 128 MB SPI Flash ROM\n\n F7 hot key for boot up devices option\n\n Dual Display\n\n Support ECS EZ BIOS\n\n Plug and Play, STR (S3) / STD (S4) , Hardware monitor, Multi Boot\n\n Multi-Language BIOS\n\n Audio, LAN, can be disabled in BIOS\n\n Supports PgUp clear CMOS Hotkey\n\nFORM FACTOR\n\n mATX Form Factor 244mm(W) x 244mm(H)\n\nOS Support\n\n Windows 10 64-bit\n\nCertifications\n\n CE/FCC Certification ErP/EuP Certification WHCK Certification\n\nBundled Software\n\n ECS Intelligent EZ Utility : eDLU, eSF\n\nArchive Spec(for old product)\n\n Windows 7 64-bit\n\n",
+    "id": "import-mb-628c2b37cafc",
+    "name": "B350AM4-M2"
+  },
+  "product": {
+    "mpn": "B350AM4-M2",
+    "identityNote": "Modèle ECS B350AM4-M2 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ECS — fiche technique officielle",
+        "url": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "B350AM4-M2",
+      "detailLevel": "partial",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "m2Slots": 1,
+      "widthMm": 244,
+      "heightMm": 244
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ECS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 socket for AMD Ryzen™ processors and 7 th Gen A-series / Athlon™ Processors\n\n 4+2 Phase Thermal Design Power\n\n 100% Solid capacitor design\n\n Please refer to CPU support list for details"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD ® B350"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Supports DirectX ® 12 Supports HDMI™ & Premium Audio Supports DP 1.2 Supports AMD Dual Graphics"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Dual-channel DDR4 Memory architecture \n\n Supports DDR4 2667/2400 non-ECC, Un-buffered SDRAM Memory\n\n 4 X 288-pin DDR4 DIMM socket\n\n ∟ Support up to 64 GB*\n\n * Due to AMD CPU spec limitation, please refer to Memory QVL for more information."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 X PCI Express X16 Gen 3.0 slot(s)\n\n 1 X PCI Express X16 Gen 2.0 slot(s)\n\n ∟ runs at x2\n\n X PCI Express X1 Gen 2.0 slot(s)\n\n Supports AMD CrossFire™ Technology\n\n 1 X M.2 slot for SSD\n\n ∟ For 2260/2280 SATA/PCIE X2 SSD\n\n 1 X M.2 slot for WLAN card (PCIe Gen 2)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Support by AMD B350 Express Chipset 4 X Serial ATAIII 6Gb/s RAID0, RAID1,RAID10 configuration"
+          },
+          {
+            "label": "Audio",
+            "value": "6-Channel HD audio CODEC\n\n Compliant with HD audio specification\n\n Realtek ALC662 ‧Realtek ALC662 6-channel High Definition audio CODEC ‧Meets performance requirements for Microsoft WLP 3.08 Vista premium and mobile PCs ‧Six channel DAC supports 16/20/24-bit PCM format for 5.1 channel audio solution ‧Emulation of 26 sound environments to enhance gaming experience ‧Voice Cancellation and Key Shifting in Karaoke mode ‧Compatible with Direct Sound 3D™, A3D™, I3DL2"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL 8111GN Gigabit Fast Ethernet Controller Wake-On-LAN"
+          },
+          {
+            "label": "USB",
+            "value": "Support by B350 Express Chipset\n\n 6 X USB 3.2 Gen 1x1 port(s) up to 5Gb/s\n\n---- Back Panel 4 port(s)\n\n---- Onboard 2 port(s)\n\n 5 X USB2.0 port(s) Up to 480 Mb/s\n\n---- Back Panel 2 port(s)\n\n---- Onboard 3 port(s)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 X PS/2 Keyboard & PS/2 mouse connectors\n\n 1 X Audio port (Line Out/Line In/Mic In) \n\n 1 X RJ-45 port\n\n 1 X HDMI™ port(s)\n\n 1 X Display port\n\n 1 X D-Sub (VGA) port(s)\n\n 4 X USB 3.2 Gen 1x1 Type A port(s)\n\n 2 X USB2.0 port(s)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 X 24-pin ATX Power Supply connector\n\n 1 X 4-pin Power Connector for Graphics\n\n 1 X 4-pin CPU_FAN connector\n\n 1 X 4-pin SYS_FAN connector\n\n 1 X 4-pin SYS_FAN connector with smart fan\n\n 1 X Front Panel switch/LED header\n\n 1 X Front panel audio header\n\n 1 X Onboard Buzzer\n\n ∟ Support additional 2 USB ports\n\n 1 X USB 3.2 Gen 1x1 header\n\n ∟ Support additional 2 USB ports\n\n 2 X USB 2.0 header\n\n ∟ Support additional 3 USB ports\n\n 4 X SATA III 6Gb/s connector(s)\n\n 1 X CLR_CMOS header\n\n 2 X Serial port header (COM) \n\n 1 X Parallel port header (LPT)"
+          },
+          {
+            "label": "BIOS",
+            "value": "AMI BIOS with 128 MB SPI Flash ROM\n\n F7 hot key for boot up devices option\n\n Dual Display\n\n Support ECS EZ BIOS\n\n Plug and Play, STR (S3) / STD (S4) , Hardware monitor, Multi Boot\n\n Multi-Language BIOS\n\n Audio, LAN, can be disabled in BIOS\n\n Supports PgUp clear CMOS Hotkey"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor 244mm(W) x 244mm(H)"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 10 64-bit"
+          },
+          {
+            "label": "Certifications",
+            "value": "CE/FCC Certification ErP/EuP Certification WHCK Certification"
+          },
+          {
+            "label": "Bundled Software",
+            "value": "ECS Intelligent EZ Utility : eDLU, eSF"
+          },
+          {
+            "label": "Archive specifications",
+            "value": "Windows 7 64-bit"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le socket M.2 WLAN ne constitue pas un emplacement SSD. ECS décrit le M.2 du B450AM4-M pour SSD SATA uniquement ; il ne compte pas comme NVMe."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor 244mm(W) x 244mm(H)",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "chipset": {
+        "value": "AMD ® B350",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "storagePorts": {
+        "value": "Support by AMD B350 Express Chipset 4 X Serial ATAIII 6Gb/s RAID0, RAID1,RAID10 configuration",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "pcie": {
+        "value": "1 X PCI Express X16 Gen 3.0 slot(s)\n\n 1 X PCI Express X16 Gen 2.0 slot(s)\n\n ∟ runs at x2\n\n X PCI Express X1 Gen 2.0 slot(s)\n\n Supports AMD CrossFire™ Technology\n\n 1 X M.2 slot for SSD\n\n ∟ For 2260/2280 SATA/PCIE X2 SSD\n\n 1 X M.2 slot for WLAN card (PCIe Gen 2)",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "rearIO": {
+        "value": "1 X PS/2 Keyboard & PS/2 mouse connectors\n\n 1 X Audio port (Line Out/Line In/Mic In) \n\n 1 X RJ-45 port\n\n 1 X HDMI™ port(s)\n\n 1 X Display port\n\n 1 X D-Sub (VGA) port(s)\n\n 4 X USB 3.2 Gen 1x1 Type A port(s)\n\n 2 X USB2.0 port(s)",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "internalIO": {
+        "value": "1 X 24-pin ATX Power Supply connector\n\n 1 X 4-pin Power Connector for Graphics\n\n 1 X 4-pin CPU_FAN connector\n\n 1 X 4-pin SYS_FAN connector\n\n 1 X 4-pin SYS_FAN connector with smart fan\n\n 1 X Front Panel switch/LED header\n\n 1 X Front panel audio header\n\n 1 X Onboard Buzzer\n\n ∟ Support additional 2 USB ports\n\n 1 X USB 3.2 Gen 1x1 header\n\n ∟ Support additional 2 USB ports\n\n 2 X USB 2.0 header\n\n ∟ Support additional 3 USB ports\n\n 4 X SATA III 6Gb/s connector(s)\n\n 1 X CLR_CMOS header\n\n 2 X Serial port header (COM) \n\n 1 X Parallel port header (LPT)",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "network": {
+        "value": "RTL 8111GN Gigabit Fast Ethernet Controller Wake-On-LAN",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "audio": {
+        "value": "6-Channel HD audio CODEC\n\n Compliant with HD audio specification\n\n Realtek ALC662 ‧Realtek ALC662 6-channel High Definition audio CODEC ‧Meets performance requirements for Microsoft WLP 3.08 Vista premium and mobile PCs ‧Six channel DAC supports 16/20/24-bit PCM format for 5.1 channel audio solution ‧Emulation of 26 sound environments to enhance gaming experience ‧Voice Cancellation and Key Shifting in Karaoke mode ‧Compatible with Direct Sound 3D™, A3D™, I3DL2",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 socket for AMD Ryzen™ processors and 7 th Gen A-series / Athlon™ Processors\n\n 4+2 Phase Thermal Design Power\n\n 100% Solid capacitor design\n\n Please refer to CPU support list for details\nBIOS: AMI BIOS with 128 MB SPI Flash ROM\n\n F7 hot key for boot up devices option\n\n Dual Display\n\n Support ECS EZ BIOS\n\n Plug and Play, STR (S3) / STD (S4) , Hardware monitor, Multi Boot\n\n Multi-Language BIOS\n\n Audio, LAN, can be disabled in BIOS\n\n Supports PgUp clear CMOS Hotkey",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor 244mm(W) x 244mm(H)",
+        "sourceURL": "https://www.ecs.com.tw/en/Product/Motherboard/B350AM4-M2/specification",
+        "checkedAt": "2026-11-10T14:10:43.500Z"
+      }
+    }
+  }
+}

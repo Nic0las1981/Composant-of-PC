@@ -1,0 +1,65 @@
+{
+  "id": "import-ssd-a01e163c5a2a",
+  "brand": "Acer",
+  "manufacturerModel": "Predator GM7 PCIe 4.0 SSD 4 TB",
+  "source": {
+    "name": "Acer / BIWIN — fiche officielle, capacité exacte",
+    "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/",
+    "checkedAt": "2026-11-10T14:36:43+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/",
+    "checkedAt": "2026-11-10T14:36:43+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/",
+    "sha256": "7769a933a36fe02c07553854537b3e25f1ba1193f62240b9fd3be4c0aa9a1605",
+    "bytes": 89564,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "Predator GM7 PCIe 4.0 SSD",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen 4.0 x 4, NVMe 2.0",
+    "Capacity": "4 TB",
+    "Sequential Read speed": "7400 MB/s",
+    "Sequential Write speed": "6500 MB/s",
+    "Max. Random Read Speed (IOPS)": "950 K",
+    "Max. Random Write Speed (IOPS)": "980 K",
+    "Operating Power Consumption (Read)": "4.61 W",
+    "Operating Power Consumption (Write)": "5.81 W",
+    "Idle Power Consumption": "0.048 W",
+    "Dimensions": "80.0 × 22.0 × 2.20 mm (Single side)",
+    "Weight": "7g ± 1g",
+    "MTBF": "≤ 1,500,000",
+    "Operating Temperature": "0 °C to 70 °C / 32 °F to 158 °F",
+    "Non-operating Temperature": "-40 °C to 85 °C / -40 °F to 185 °F",
+    "Vibration Resistance": "6.0667 GRMS (20-2000Hz)",
+    "Certifications": "CE, FCC, RoHS, VCCI, RCM, BSMI",
+    "Warranty": "5-Year/2400 TBW"
+  },
+  "images": [
+    "https://www.predatorstorage.com/wp-content/uploads/2024/12/1-predator-gm7-pcie-4.0-ssd.png"
+  ],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/",
+        "checkedAt": "2026-11-10T14:36:43+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/",
+        "sha256": "7769a933a36fe02c07553854537b3e25f1ba1193f62240b9fd3be4c0aa9a1605",
+        "bytes": 89564,
+        "status": "fetched"
+      },
+      "title": "Predator GM7 PCIe 4.0 SSD",
+      "publishedCapacities": [
+        512,
+        1000,
+        2000,
+        4000
+      ]
+    }
+  ]
+}

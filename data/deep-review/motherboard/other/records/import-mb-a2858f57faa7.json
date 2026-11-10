@@ -1,0 +1,209 @@
+{
+  "review": {
+    "id": "import-mb-a2858f57faa7",
+    "name": "CVN B760I FROZEN WIFI V20",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "CVN B760I FROZEN WIFI V20",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/Product?id=921&mid=84",
+          "checkedAt": "2026-11-10T14:10:32+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/Product?id=921&mid=84",
+          "sha256": "1e75729a02a31d419af309f36cb4498864f02c0d673a3e4a1151f065907e561b",
+          "bytes": 86510,
+          "status": "fetched"
+        },
+        "api": {
+          "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+          "checkedAt": "2026-11-10T14:10:35+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+          "sha256": "c5bb331a6a985a14949b0e46e241704d46754fb0a0fe923e5e4277d67b5d7b30",
+          "bytes": 5381,
+          "status": "fetched"
+        }
+      },
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/Product?id=921&mid=84",
+          "checkedAt": "2026-11-10T14:10:32+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/Product?id=921&mid=84",
+          "sha256": "1e75729a02a31d419af309f36cb4498864f02c0d673a3e4a1151f065907e561b",
+          "bytes": 86510,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "CVN B760I FROZEN WIFI V20",
+        "sections": [
+          "Power management",
+          "CPU",
+          "Chipset",
+          "Form Factor",
+          "Storage",
+          "Expansion Slots",
+          "产品系列",
+          "I/O connections",
+          "Hardware monitoring",
+          "Memory",
+          "LAN",
+          "Audio",
+          "BIOS"
+        ]
+      }
+    ],
+    "photos": [
+      "https://www.colorful.cn/uploads/image/2023/02/20230223135834194067.jpg"
+    ]
+  },
+  "product": {
+    "mpn": "CVN B760I FROZEN WIFI V20",
+    "identityNote": "Modèle Colorful CVN B760I FROZEN WIFI V20 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "Colorful — API publique de spécifications du modèle exact",
+        "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Colorful — fiche produit associée à l’API",
+        "url": "https://www.colorful.cn/home/Product?id=921&mid=84",
+        "checkedAt": "2026-11-10T14:10:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "m2Slots": 2,
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "CVN B760I FROZEN WIFI V20",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — Colorful",
+        "rows": [
+          {
+            "label": "Power management",
+            "value": "支持S3、S4，网络S5唤醒，支持定时开机、来电开机"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "支持适配主板LGA 1700插槽的第14代、第13代和第12代Intel® 酷睿™、奔腾®以及赛扬®处理器 |（*请访问七彩虹官网www.colorful.cn查询最新的处理器支持列表）"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel B760"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ITX板型|170mm x 170mm"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "共支持2个M.2插槽和4个SATA 6Gb/s硬盘接口，支持用SATA硬盘设备创建RAID 0，RAID 1，RAID 5，RAID 10磁盘阵列|-M.2_1插槽：支持2280规格M.2 SSD（PCIe 4.0 x4，CPU通道）|-M.2_2插槽：支持2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|（*RAID磁盘阵列的创建步骤详见七彩虹官方的BIOS用户指南）"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1个PCIe 5.0 x16插槽"
+          },
+          {
+            "label": "产品系列",
+            "value": "CVN系列"
+          },
+          {
+            "label": "I/O connections",
+            "value": "后置I/O接口：|-4个USB 2.0接口|-2个USB 3.2 Gen 1 Type-A接口|-1个USB 3.2 Gen 1 Type-C接口|-1个DP 1.2接口，最高支持4K 60Hz的分辨率|-1个HDMI 2.0接口，最高支持4K 60Hz的分辨率|-1个2.5G网络接口|-2个Wi-Fi 6天线接口|-3个音频接口（音频输入/音频输出/麦克风）|-1个清除CMOS按键|板载设备接口：|-1个CPU风扇插针|-1个系统风扇插针|-1个水冷泵插针|-1个USB 2.0插针可扩展2个USB 2.0 Type-A接口|-1个USB 3.2 Gen 1插针可扩展2个USB 3.2 Gen 1 Type-A接口|-1个USB 3.2 Gen 1 Type-C插槽可扩展1个USB 3.2 Gen 1 Type-C接口|-1个5V 3-pin ARGB插针|-1个前置音频插针|-1个前置面板插针|-1个喇叭插针"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "CPU风扇转速可控，系统风扇转速可控，CPU温度监视，System温度监视，及各组电压监视"
+          },
+          {
+            "label": "Mémoire",
+            "value": "提供2条DDR4内存插槽，可支持高达64 GB容量内存 (单一插槽最高支持32 GB容量)|-支持DDR4-4800(OC)/4600(OC)/4400(OC)/4266(OC)/4000(OC)/3733(OC)/3600(OC)/3466(OC)/3200/3000/2933/2800/2666/2400/2133MHz内存|-支持Intel® Extreme Memory Profile (XMP)内存技术|-支持双通道内存技术|（*请访问七彩虹官网www.colorful.cn查询最新的内存兼容性列表）"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL8125 2.5Gbit网卡，AX201/AX200 WiFi 6无线网卡，蓝牙5.2"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC897 高保真解码芯片，支持5.1声道"
+          },
+          {
+            "label": "BIOS",
+            "value": "128M UEFI，支持多国语言"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.colorful.cn/uploads/image/2023/02/20230223135834194067.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "formFactor": {
+        "value": "ITX板型|170mm x 170mm",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "boardDimensions": {
+        "value": "ITX板型|170mm x 170mm",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "chipset": {
+        "value": "Intel B760",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "storagePorts": {
+        "value": "共支持2个M.2插槽和4个SATA 6Gb/s硬盘接口，支持用SATA硬盘设备创建RAID 0，RAID 1，RAID 5，RAID 10磁盘阵列|-M.2_1插槽：支持2280规格M.2 SSD（PCIe 4.0 x4，CPU通道）|-M.2_2插槽：支持2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|（*RAID磁盘阵列的创建步骤详见七彩虹官方的BIOS用户指南）",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "pcie": {
+        "value": "1个PCIe 5.0 x16插槽",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "network": {
+        "value": "RTL8125 2.5Gbit网卡，AX201/AX200 WiFi 6无线网卡，蓝牙5.2",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC897 高保真解码芯片，支持5.1声道",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      },
+      "cpuSupport": {
+        "value": "支持适配主板LGA 1700插槽的第14代、第13代和第12代Intel® 酷睿™、奔腾®以及赛扬®处理器 |（*请访问七彩虹官网www.colorful.cn查询最新的处理器支持列表）\nBIOS: 128M UEFI，支持多国语言",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=921",
+        "checkedAt": "2026-11-10T14:10:35+00:00"
+      }
+    },
+    "manufacturerModel": "CVN B760I FROZEN WIFI V20"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "review": {
+    "id": "import-mb-2b6533068f65",
+    "name": "A520M-HDVP/DASH",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A520M-HDVP.pdf",
+          "checkedAt": "2026-11-10T14:11:17+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A520M-HDVP.pdf",
+          "httpStatus": 200,
+          "sha256": "3a955e595781ecc2d3d30839885b9e80940c607f3b7029b3e785e48a84299932",
+          "bytes": 4440291,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A520M-HDVP motherboard",
+        "modelNames": [
+          "A520M-HDVP"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A520M-HVS.pdf",
+          "checkedAt": "2026-11-10T14:11:18+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A520M-HVS.pdf",
+          "httpStatus": 200,
+          "sha256": "e958bce093a2650f1470c1f75d67d46545e5a448e351c59b260f5535575e216e",
+          "bytes": 4185225,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A520M-HDV R2.0 / A520M-HVS R2.0\nmotherboard",
+        "modelNames": [
+          "A520M-HDV R2.0",
+          "A520M-HVS R2.0"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A520M%20Phantom%20Gaming%204.pdf",
+          "checkedAt": "2026-11-10T14:11:20+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A520M%20Phantom%20Gaming%204.pdf",
+          "httpStatus": 200,
+          "sha256": "c22b98a72d5041a453a1b45ba4d4abecb036c1a5a6ca8fa10b7cb15b95105486",
+          "bytes": 5222890,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A520M Phantom Gaming 4 motherboard",
+        "modelNames": [
+          "A520M Phantom Gaming 4"
+        ]
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:12+00:00",
+      "url": "https://download.asrock.com/Manual/A520M-HDVPDASH.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

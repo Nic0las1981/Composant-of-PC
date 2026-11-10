@@ -1,0 +1,199 @@
+{
+  "review": {
+    "id": "import-mb-0492326290d7",
+    "name": "X570D4U-2L2T",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock Rack X570D4U / X570D4U-2L2T / X570D4U-\n2L2T/BCM motherboard",
+        "modelNames": [
+          "X570D4U",
+          "X570D4U-2L2T",
+          "X570D4U- 2L2T/BCM"
+        ],
+        "sharedManual": true
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:00:59+00:00",
+      "url": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+      "sha256": "e0f10db68560d38d4d677660b9c2774e899947c87cd58db302689dbbcba91921"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock Rack X570D4U / X570D4U-2L2T / X570D4U-\n2L2T/BCM motherboard",
+      "specificationExcerpt": "1.2 Specifications\n                X570D4U\n                X570D4U-2L2T\n                X570D4U-2L2T/BCM\n                Physical Status\n                Form Factor         Micro-ATX\n                Dimension           9.6\" x 9.6\" (244 mm x 244 mm)\n                Processor System\n                CPU                 AMD Ryzen™ 5000, 4000 and 3000 G-Series Desktop\n                                    Processors with Radeon™ Graphics\n                                    AMD Ryzen™ 5000 and 3000 Series Desktop Processors\n                                    AMD Ryzen™ PRO 5000, 4000 and 3000 Series Desktop\n                                    Processors\n                Socket              1 Socket AM4 (PGA 1331)\n                Thermal Design      105W\n                Power (TDP)\n                Chipset             AMD X570\n                System Memory\n                Supported DIMM      4 DIMM slots (2DPC)\n                Quantity\n                Supported Type      DDR4 288-pin ECC*/non-ECC UDIMM\n                Max. Capacity per   32GB\n                DIMM\n                Max. DIMM           3200 MHz**\n                Frequency\n                Voltage             1.2V\n                Note                *For AMD Ryzen™ Desktop Processors with Radeon Graphics, ECC support is\n                                    only with Processors with PRO technologies.\n                                    **AMD Ryzen™ 3000 G-Series Desktop Processors with Radeon™ Graphics\n                                    support up to 2666 MHz\n                Expansion Slot\n                SLOT6               PCIe4.0 x16 [CPU]\n                SLOT5               PCIe4.0 x1 [FCH]\n                SLOT4               PCIe4.0 x8 [CPU]\n                Note                -SLOT6 auto-switch to PCIe4.0 x8 when SLOT4 occupied\n                                    -SLOT6 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\n                                    Series Desktop Processors with Radeon™ Graphics\n                                    -SLOT6 supports PCIe3.0 x8 only when installing AMD Ryzen™ 3000 G-Series\n                                    Desktop Processors with Radeon™ Graphics\n                                    -SLOT5 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and\nEnglish\n\n\n\n\n                                    3000 G-Series Desktop Processors with Radeon™ Graphics\n                                    -SLOT4 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\n                                    Series Desktop Processors with Radeon™ Graphics\n                                    -SLOT4 will not function when installing AMD Ryzen™ 3000 G-Series Desk-\n                                    top Processors with Radeon™ Graphics\"\n\n\n\n          2\n\f                                                                      X570D4U\n                                                                      X570D4U-2L2T\n                                                                      X570D4U-2L2T/BCM\n\nOther PCIe Expansion Connectors\nM.2 slot           1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support\n                   22110/2280/2260/2242 form factor [CPU]\n                   1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support 2280/2260/2242\n                   form factor [FCH]\nNote               -M.2 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and 3000\n                   G-Series Desktop Processors with Radeon™ Graphics\nSATA/SAS Storage\nFCH Built-in        AMD X570 (Up to 10 SATA 6Gb/s):\nStorage             7 SATA 7-pin, 1 SATA DOM, 2 M.2\nEthernet\nAdditional          X570D4U:\nEthernet            Intel® i210: 2 RJ45 (1GbE)\nController\n                    X570D4U-2L2T:\n                    Intel® X550-AT2: 2 RJ45 (10GbE)\n                    Intel® i210: 2 RJ45 (1GbE)\n\n                    X570D4U-2L2T/BCM:\n                    Broadcom BCM57416: 2 RJ45 (10GbE)\n                    Intel® i210: 2 RJ45 (1GbE)\nUSB\nController/Hub      AMD X570\nConnectors/         External:\nheaders             2 Type-A (USB3.2 Gen2)\n                    Internal:\n                    1 header (19-pin, 2 USB3.2 Gen1)\nGraphics\nController          ASPEED AST2500:\n                    1 DB15 (VGA), 1 (15-pin) header\n                    AMD Ryzen™ desktop processors with Radeon™ Graphics:\n                    1 HDMI\nSecurity\nTPM                 1 (17-pin, LPC), 1 (13-pin, SPI)\nRear I/O\nUID button/LED      1 UID button w/ LED\nVideo output        1 DB15 (VGA), 1 HDMI\nSerial port         1 DB9 (COM)\nUSB                 2 Type-A (USB3.2 Gen2)\nRJ45                X570D4U:\n                    2 RJ45 (1GbE), 1 dedicated IPMI\n                                                                                                   English\n\n\n\n\n                    X570D4U-2L2T / X570D4U-2L2T/BCM:\n                    2 RJ45 (10GbE), 2 RJ45 (1GbE), 1 dedicated IPMI\nNote:               -HDMI is only supported by AMD Ryzen™ with Radeon™ Graphics Processors\n\n\n\n                                                                                               3\n\f              Hardware Monitor\n              Temperature         CPU, FCH, DDR, MB, Card Side, LAN Temperature sensing\n              Fan                 Fan Tachometer\n                                  Quiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\n                                  Temperature)\n                                  Fan Multi-Speed Control\"\n              Voltage             3VSB, 5VSB, VCPU, VSOC, VCCM, APU VDDP, PM VDD\n                                  CLDO, PM VDDCR S5, PM VDDCR, BAT, 3V, 5V, 12V\n              Server Management\n              BMC Controller      ASPEED AST2500: IPMI2.0 with iKVM and vMedia support\n              IPMI Dedicated      1 Realtek RTL8211E for dedicated management GLAN\n              GLAN\n              System BIOS\n              BIOS type           32MB AMI UEFI Legal BIOS\n              Features            Plug and Play, ACPI 2.0 compliance wake up events, SMBIOS\n                                  2.8, ASRock Rack instant flash\n              Internal Connectors/Headers\n              PSU connector       1 (24-pin, ATX main power), 1 (8-pin, ATX 12V)\n              Auxiliary panel     1 (includes chassis intrusion, location button & LED, front\n              header              LAN LED, system fault, and BMC alert)\n              System panel        1 (RST, PWRBTN, HDDLED, PWRLED)\n              header\n              LAN3/LAN4 LED X570D4U: N/A\n              header\n                                  X570D4U-2L2T / X570D4U-2L2T/BCM: 1\n              VGA header          1\n              Speaker header      1 (4-pin)\n              Fan header          3 (6-pin), 3 (4-pin)\n              Thermal sensor      1\n              header\n              Buzzer              1\n              TPM header          1 (17-pin, LPC), 1 (13-pin, SPI)\n              SMbus header        1\n              PMbus header        1\n              IPMB header         1\n              Clear CMOS          1 (contact pads)\n              LED Indicators\n              Standby Power       1 (5VSB)\n              LED\n              80 debug port LED 1\n              Fan Fail LED        6\nEnglish\n\n\n\n\n              BMC Heartbeat       1\n              LED\n\n\n\n\n          4\n\f                                                                                        X570D4U\n                                                                                        X570D4U-2L2T\n                                                                                        X570D4U-2L2T/BCM\n\n Support OS\n OS                          Microsoft® Windows®:\n                             Windows 10 (64 bit)\n\n                             Linux®:\n                             - UBuntu 18.04 (64 bit)\n                             - RedHat Enterprise Linux Server 8.1 (64bit)\n\n                             * Please refer to our website for the latest OS support list.\n                             * The Linux system doesn’t support Raid mode.\n                             * Supports UEFI BOOT only.\n Enviroment\n Operating                   10 - 35°C (50 - 95 degF)\n temperature\n Non-operating               -40 - 70°C (-40 - 158degF)\n temperature\nNOTE: Please refer to our website for the latest specifications.\n\n\n\n         This motherboard supports Wake from on Board LAN. To use this function, please make\n         sure that the “Wake on Magic Packet from power off state” is enabled in Device Manager\n         > Intel® Ethernet Connection > Power Management. And the “PCI Devices Power On” is\n         enabled in UEFI SETUP UTILITY > Advanced > ACPI Configuration. After that, onboard\n         LAN3&4 can wake up S5 under OS.\n\n\n\n         If you install Intel® LAN utility or Marvell SATA utility, this motherboard may fail Win-\n         dows® Hardware Quality Lab (WHQL) certification tests. If you install the drivers only, it\n         will pass the WHQL tests.\n\n\n\n\n                                                                                                           English\n\n\n\n\n                                                                                                       5\n\f              ",
+      "modelNames": [
+        "X570D4U",
+        "X570D4U-2L2T",
+        "X570D4U- 2L2T/BCM"
+      ],
+      "sharedManual": true
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "formFactor",
+      "boardDimensions",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X570D4U-2L2T",
+    "identityNote": "Modèle ASRock X570D4U-2L2T confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "X570D4U-2L2T",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "Form Factor         Micro-ATX\nDimension           9.6\" x 9.6\" (244 mm x 244 mm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "CPU                 AMD Ryzen™ 5000, 4000 and 3000 G-Series Desktop\nProcessors with Radeon™ Graphics\nAMD Ryzen™ 5000 and 3000 Series Desktop Processors\nAMD Ryzen™ PRO 5000, 4000 and 3000 Series Desktop\nProcessors\nSocket              1 Socket AM4 (PGA 1331)\nThermal Design      105W\nPower (TDP)\nChipset             AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supported DIMM      4 DIMM slots (2DPC)\nQuantity\nSupported Type      DDR4 288-pin ECC*/non-ECC UDIMM\nMax. Capacity per   32GB\nDIMM\nMax. DIMM           3200 MHz**\nFrequency\nVoltage             1.2V\nNote                *For AMD Ryzen™ Desktop Processors with Radeon Graphics, ECC support is\nonly with Processors with PRO technologies.\n**AMD Ryzen™ 3000 G-Series Desktop Processors with Radeon™ Graphics\nsupport up to 2666 MHz"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "SLOT6               PCIe4.0 x16 [CPU]\nSLOT5               PCIe4.0 x1 [FCH]\nSLOT4               PCIe4.0 x8 [CPU]\nNote                -SLOT6 auto-switch to PCIe4.0 x8 when SLOT4 occupied\n-SLOT6 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\nSeries Desktop Processors with Radeon™ Graphics\n-SLOT6 supports PCIe3.0 x8 only when installing AMD Ryzen™ 3000 G-Series\nDesktop Processors with Radeon™ Graphics\n-SLOT5 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and\n3000 G-Series Desktop Processors with Radeon™ Graphics\n-SLOT4 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\nSeries Desktop Processors with Radeon™ Graphics\n-SLOT4 will not function when installing AMD Ryzen™ 3000 G-Series Desk-\ntop Processors with Radeon™ Graphics\""
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "M.2 slot           1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support\n22110/2280/2260/2242 form factor [CPU]\n1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support 2280/2260/2242\nform factor [FCH]\nNote               -M.2 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and 3000\nG-Series Desktop Processors with Radeon™ Graphics"
+          },
+          {
+            "label": "SATA storage",
+            "value": "FCH Built-in        AMD X570 (Up to 10 SATA 6Gb/s):\nStorage             7 SATA 7-pin, 1 SATA DOM, 2 M.2"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Additional          X570D4U:\nEthernet            Intel® i210: 2 RJ45 (1GbE)\nController\nIntel® X550-AT2: 2 RJ45 (10GbE)\nIntel® i210: 2 RJ45 (1GbE)\nBroadcom BCM57416: 2 RJ45 (10GbE)\nIntel® i210: 2 RJ45 (1GbE)"
+          },
+          {
+            "label": "USB",
+            "value": "Controller/Hub      AMD X570\nConnectors/         External:\nheaders             2 Type-A (USB3.2 Gen2)\nInternal:\n1 header (19-pin, 2 USB3.2 Gen1)"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Controller          ASPEED AST2500:\n1 DB15 (VGA), 1 (15-pin) header\nAMD Ryzen™ desktop processors with Radeon™ Graphics:\n1 HDMI"
+          },
+          {
+            "label": "Security",
+            "value": "TPM                 1 (17-pin, LPC), 1 (13-pin, SPI)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "UID button/LED      1 UID button w/ LED\nVideo output        1 DB15 (VGA), 1 HDMI\nSerial port         1 DB9 (COM)\nUSB                 2 Type-A (USB3.2 Gen2)\nRJ45                X570D4U:\n2 RJ45 (1GbE), 1 dedicated IPMI\nX570D4U-2L2T / X570D4U-2L2T/BCM:\n2 RJ45 (10GbE), 2 RJ45 (1GbE), 1 dedicated IPMI\nNote:               -HDMI is only supported by AMD Ryzen™ with Radeon™ Graphics Processors\nHardware Monitor\nTemperature         CPU, FCH, DDR, MB, Card Side, LAN Temperature sensing\nFan                 Fan Tachometer\nQuiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\nTemperature)\nFan Multi-Speed Control\"\nVoltage             3VSB, 5VSB, VCPU, VSOC, VCCM, APU VDDP, PM VDD\nCLDO, PM VDDCR S5, PM VDDCR, BAT, 3V, 5V, 12V"
+          },
+          {
+            "label": "Server management",
+            "value": "BMC Controller      ASPEED AST2500: IPMI2.0 with iKVM and vMedia support\nIPMI Dedicated      1 Realtek RTL8211E for dedicated management GLAN\nGLAN"
+          },
+          {
+            "label": "BIOS",
+            "value": "BIOS type           32MB AMI UEFI Legal BIOS\nFeatures            Plug and Play, ACPI 2.0 compliance wake up events, SMBIOS\n2.8, ASRock Rack instant flash"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "PSU connector       1 (24-pin, ATX main power), 1 (8-pin, ATX 12V)\nAuxiliary panel     1 (includes chassis intrusion, location button & LED, front\nheader              LAN LED, system fault, and BMC alert)\nSystem panel        1 (RST, PWRBTN, HDDLED, PWRLED)\nheader\nLAN3/LAN4 LED X570D4U: N/A\nheader\nX570D4U-2L2T / X570D4U-2L2T/BCM: 1\nVGA header          1\nSpeaker header      1 (4-pin)\nFan header          3 (6-pin), 3 (4-pin)\nThermal sensor      1\nheader\nBuzzer              1\nTPM header          1 (17-pin, LPC), 1 (13-pin, SPI)\nSMbus header        1\nPMbus header        1\nIPMB header         1\nClear CMOS          1 (contact pads)\nLED Indicators\nStandby Power       1 (5VSB)\nLED\n80 debug port LED 1\nFan Fail LED        6\nBMC Heartbeat       1\nLED"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "OS                          Microsoft® Windows®:\nWindows 10 (64 bit)\nLinux®:\n- UBuntu 18.04 (64 bit)\n- RedHat Enterprise Linux Server 8.1 (64bit)\n* Please refer to our website for the latest OS support list.\n* The Linux system doesn’t support Raid mode.\n* Supports UEFI BOOT only.\nEnviroment\nOperating                   10 - 35°C (50 - 95 degF)\ntemperature\nNon-operating               -40 - 70°C (-40 - 158degF)\ntemperature\nNOTE: Please refer to our website for the latest specifications.\nThis motherboard supports Wake from on Board LAN. To use this function, please make\nsure that the “Wake on Magic Packet from power off state” is enabled in Device Manager\n> Intel® Ethernet Connection > Power Management. And the “PCI Devices Power On” is\nenabled in UEFI SETUP UTILITY > Advanced > ACPI Configuration. After that, onboard\nLAN3&4 can wake up S5 under OS.\nIf you install Intel® LAN utility or Marvell SATA utility, this motherboard may fail Win-\ndows® Hardware Quality Lab (WHQL) certification tests. If you install the drivers only, it\nwill pass the WHQL tests."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur.",
+      "Manuel commun à plusieurs modèles explicitement nommés : les clauses conditionnelles identifiant chaque modèle restent présentes, sans les attribuer automatiquement aux autres variantes."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "formFactor": {
+        "value": "Form Factor         Micro-ATX\nDimension           9.6\" x 9.6\" (244 mm x 244 mm)",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "boardDimensions": {
+        "value": "Form Factor         Micro-ATX\nDimension           9.6\" x 9.6\" (244 mm x 244 mm)",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2 slot           1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support\n22110/2280/2260/2242 form factor [CPU]\n1 M-key (PCIe4.0 x4 or SATA 6Gb/s); support 2280/2260/2242\nform factor [FCH]\nNote               -M.2 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and 3000\nG-Series Desktop Processors with Radeon™ Graphics",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "pcie": {
+        "value": "SLOT6               PCIe4.0 x16 [CPU]\nSLOT5               PCIe4.0 x1 [FCH]\nSLOT4               PCIe4.0 x8 [CPU]\nNote                -SLOT6 auto-switch to PCIe4.0 x8 when SLOT4 occupied\n-SLOT6 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\nSeries Desktop Processors with Radeon™ Graphics\n-SLOT6 supports PCIe3.0 x8 only when installing AMD Ryzen™ 3000 G-Series\nDesktop Processors with Radeon™ Graphics\n-SLOT5 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 and\n3000 G-Series Desktop Processors with Radeon™ Graphics\n-SLOT4 supports PCIe3.0 only when installing AMD Ryzen™ 5000, 4000 G-\nSeries Desktop Processors with Radeon™ Graphics\n-SLOT4 will not function when installing AMD Ryzen™ 3000 G-Series Desk-\ntop Processors with Radeon™ Graphics\"",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "rearIO": {
+        "value": "UID button/LED      1 UID button w/ LED\nVideo output        1 DB15 (VGA), 1 HDMI\nSerial port         1 DB9 (COM)\nUSB                 2 Type-A (USB3.2 Gen2)\nRJ45                X570D4U:\n2 RJ45 (1GbE), 1 dedicated IPMI\nX570D4U-2L2T / X570D4U-2L2T/BCM:\n2 RJ45 (10GbE), 2 RJ45 (1GbE), 1 dedicated IPMI\nNote:               -HDMI is only supported by AMD Ryzen™ with Radeon™ Graphics Processors\nHardware Monitor\nTemperature         CPU, FCH, DDR, MB, Card Side, LAN Temperature sensing\nFan                 Fan Tachometer\nQuiet Fan (Allow Chassis Fan Speed Auto-Adjust by CPU\nTemperature)\nFan Multi-Speed Control\"\nVoltage             3VSB, 5VSB, VCPU, VSOC, VCCM, APU VDDP, PM VDD\nCLDO, PM VDDCR S5, PM VDDCR, BAT, 3V, 5V, 12V",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "internalIO": {
+        "value": "PSU connector       1 (24-pin, ATX main power), 1 (8-pin, ATX 12V)\nAuxiliary panel     1 (includes chassis intrusion, location button & LED, front\nheader              LAN LED, system fault, and BMC alert)\nSystem panel        1 (RST, PWRBTN, HDDLED, PWRLED)\nheader\nLAN3/LAN4 LED X570D4U: N/A\nheader\nX570D4U-2L2T / X570D4U-2L2T/BCM: 1\nVGA header          1\nSpeaker header      1 (4-pin)\nFan header          3 (6-pin), 3 (4-pin)\nThermal sensor      1\nheader\nBuzzer              1\nTPM header          1 (17-pin, LPC), 1 (13-pin, SPI)\nSMbus header        1\nPMbus header        1\nIPMB header         1\nClear CMOS          1 (contact pads)\nLED Indicators\nStandby Power       1 (5VSB)\nLED\n80 debug port LED 1\nFan Fail LED        6\nBMC Heartbeat       1\nLED",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "network": {
+        "value": "Additional          X570D4U:\nEthernet            Intel® i210: 2 RJ45 (1GbE)\nController\nIntel® X550-AT2: 2 RJ45 (10GbE)\nIntel® i210: 2 RJ45 (1GbE)\nBroadcom BCM57416: 2 RJ45 (10GbE)\nIntel® i210: 2 RJ45 (1GbE)",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      },
+      "cpuSupport": {
+        "value": "CPU                 AMD Ryzen™ 5000, 4000 and 3000 G-Series Desktop\nProcessors with Radeon™ Graphics\nAMD Ryzen™ 5000 and 3000 Series Desktop Processors\nAMD Ryzen™ PRO 5000, 4000 and 3000 Series Desktop\nProcessors\nSocket              1 Socket AM4 (PGA 1331)\nThermal Design      105W\nPower (TDP)\nChipset             AMD X570\nBIOS: BIOS type           32MB AMI UEFI Legal BIOS\nFeatures            Plug and Play, ACPI 2.0 compliance wake up events, SMBIOS\n2.8, ASRock Rack instant flash",
+        "sourceURL": "https://download.asrock.com/Manual/X570D4U-2L2T.pdf",
+        "checkedAt": "2026-11-10T11:00:59+00:00"
+      }
+    },
+    "manufacturerModel": "X570D4U-2L2T"
+  }
+}

@@ -1,0 +1,1313 @@
+# DA750R Gold / DA850R Gold
+URL: https://www.silverstonetek.com/downloads/Manual/power/en-da850r-gma-da850r-gma-www-da750r-gma-da750r-gma-www-manual.pdf
+Author: oscar.chen
+
+#### DA750R Gold / DA850R Gold
+
+##### Decathlon Series
+
+80 PLUS Gold 750W/850W ATX 3.0 & PCIe 5.0 Fully Modular Power Supply
+
+80 PLUS Gold efficiency certification Equipped with Gen5 12V-2x6 PCIe connector, meeting Intel ATX 3.0 specification standard Latest PCIe Gen 5 standard to support up to 2X power excursion 24/7 continuous power output with 50℃operating temperature Silent running 120mm fan with advanced semi-fanless operation Compact design with a 140mm depth for easy integration
+
+## SPECIFICATION
+
+### SilverStone Decalthron series
+
+#### SST-DA750R-GMA/ SST-DA750R-GMA-WWW SST-DA850R-GMA/ SST-DA850R-GMA-WWW
+
+Active PFC SWITCHING POWER SUPPLY 80 PLUS Gold certified
+
+750W 
+850W 
+
+This specification describes the requirements of 750w; 850w switching power supply with an stretch form-factor and ATX12V , EPS12V. +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics .
+
+1.AC INPUT
+
+1.1 AC input requirements
+
+The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+Table 1 AC Input Line Requirements
+
+| Parameter | Min. | Nom. | Max. | Unit |
+| --- | --- | --- | --- | --- |
+| Vin | 90 | 100-------240 | 264 | VACrms |
+| Frequency | 47 | 50-------60 | 63 | Hz |
+| 750W ( Iin ) | | 9 ------- 4.5 | | Arms |
+| 850W ( Iin ) | | 10 ------- 5 | | Arms |
+
+1.2 Inrush current regulation
+
+Power factor correction (PF)>0.90 at full load. 50A @ 115Vrms 100 A @ 230Vrms (at 25°C ambient cold start).
+
+2.DC OUTPUT
+
+2.1 DC voltage regulation
+
+Parameter Range Min Nom. Max Unit +3.3V +3/-3％ +3.20 +3.3 +3.40 Volts +5V +3/-3％ +4.85 +5 +5.15 Volts +12V +5/-7％ +11.20 +12 +12.60 Volts -12V +8/-8％ -11.04 -12 -12.96 Volts +5VSB +5/-5％ +4.75 +5 +5.25 Volts
+
+2.2 Load ranges 2.2.1 ( 750 Watts )
+
+| Parameter | Min | Nom. | Max | Unit |
+| --- | --- | --- | --- | --- |
+| +3.3V | 0 | - | 20 | Amps |
+| +5V | 0 | - | 20 | Amps |
+| +12V | 0 | - | 62.5 | Amps |
+| -12V | 0 | - | 0.3 | Amps |
+| +5VSB | 0 | - | 3 | Amps |
+| ( 1 ) Maximum continuous total DC output power should not exceed 750W. ( 2 ) Maximum continuous combined load on +3.3 VDC and +5 VDC outputs shall not exceed 100W. ( 3 ) Maximum combined current for the 12 V outputs shall be 62.5A. 2.2.2 ( 850 Watts ) | | | | |
+| Parameter | Min | Nom. | Max | Unit |
+| +3.3V | 0 | - | 20 | Amps |
+| +5V | 0 | - | 20 | Amps |
+| +12V | 0 | - | 70.8 | Amps |
+| -12V | 0 | - | 0.3 | Amps |
+| +5VSB | 0 | - | 3 | Amps |
+
+( 1 ) Maximum continuous total DC output power should not exceed 850W. ( 2 ) Maximum continuous combined load on +3.3 VDC and +5 VDC outputs shall not exceed 100W. ( 3 ) Maximum combined current for the 12 V outputs shall be 70.8A.
+
+2.3 Output Ripple
+
+2.3.1 Ripple regulation
+
+| Parameter | Ripple & Noise | Unit |
+| --- | --- | --- |
+| +3.3V | 40 | mVp-p |
+| +5V | 40 | mVp-p |
+| +12V | 80 | mVp-p |
+| -12V | 80 | mVp-p |
+| +5VSB | 40 | mVp-p |
+
+2.3.2 Definition
+
+The ripple voltage of the outputs shall be measured at the pins of the output connector when terminated in the load impedance specified in figure 1. Ripple and noise are measured at the connectors with a 0.1uF ceramic capacitor and a 10uF electrolytic capacitor to simulate system loading. Ripple shall be measured under any condition of line voltage, output load, line frequency, operation temperature.
+
+2.3.3 Ripple voltage test circuit
+
+Power Supply V out V return
+
+10uF 0.1uF Load
+
+AC Hot AC Neutral
+
+AC Ground
+
+Scope
+
+Figure 1. Ripple voltage test circuit
+
+2.4 Overshoot
+
+Any overshoot at turn on or turn off shall be less 10% of the normal voltage value.
+
+2.5 Efficiency.
+
+Power supply efficiency typical 87%/20% Loading, 90%/50% Loading, 87%/100% Loading, at normal AC 115V voltage.
+
+2.5.1 Recommended System DC and AC Power Consumption (+5VSB)
+
+| +5VSB | 45mA | 90m A | 1A | Max Load |
+| --- | --- | --- | --- | --- |
+| Efficiency | 45% | 55% | 75% | 75% |
+
+2.5.2 Low Load Efficiency Requirements depend on Overall PSU Size. Comment if these values can be increased to lower overall computer power consumptions at these low loads.
+
+| DC Output Rating (W) | 10W Load | 2% Load |
+| --- | --- | --- |
+| <400W | >75% | |
+| 400W – 500W | >70% | |
+| >500W | - | >70% |
+
+2.6 Remote ON/OFF control 
+When the logic level "PS-ON" is low, the DC outputs are to be enabled. 
+When the logic level is high or open collector, the DC outputs are to be 
+disabled. 
+2.7 Dynamic loading 
+The PSU is subjected to a load change as shown in the table below at a rate 
+of 1A/usec (unless otherwise specified). 
+The frequency of change is set to give the best readability of the deviation and 
+setting time. 
+All other output loads and the AC line voltage are chosen in order to obtain the 
+worst case condition 
+
+| Output | Load Caps [μF] (option) | Current slew rate | Step Load Size ( Intel ) | | Maximum Step Size (A) |
+| --- | --- | --- | --- | --- | --- |
+| 3.3V | 3300 | 1A/μs | 30% of Max Load | | - |
+| 5V | 3300 | 1A/μs | 30% of Max Load | | - |
+| 12V | 6600 | 5A/us | Steps from 100%- | 200% 30% -100% | - |
+| -12V | 300 | 01A/μs | | - | 0.1 |
+| +5VSB | 3300 | 0.1A/μs | | - | 0.5 |
+
+2.7.1 Duty Cycle Definition
+
+3.PROTECTION
+
+3.1 Over current protection
+
+The power supply shall have current limit to prevent the +3.3V,+5Vand +12V outputs from exceeding the values shown in the following Table. If the current limits are exceeded the power supply shall shutdown and latch off.
+
+| Voltage | Over Current Limit (Iout limit) % | | | |
+| --- | --- | --- | --- | --- |
+| +12V | 120% minimum; | | 160% maximum | |
+| +5V | 120% minimum; | | 160% maximum | |
+| +3.3V | 120% minimum; | | 160% maximum | |
+| +5VSB | 120% minimum; | | No damaged | |
+| 3.2 Under voltage protection. In an under voltage fault occurs, the supply will latch all DC outputs into a shutdown state when +12V,+5V & +3.3V outputs under 60% of it's maximum value. 3.3 Over voltage protection | | | | |
+| Output | Minimum | Nominal | Maximum | Unit |
+| +12 VDC | 13.4 | 15.0 | 15.6 | Volts |
+| +5 VDC | 5.74 | 6.3 | 7.0 | Volts |
+| +3.3 VDC | 3.76 | 4.2 | 4.3 | Volts |
+
+3.4 Short circuit
+
+An output short circuit is defined as any output impedance of less than 0.1 ohms. The power supply shall shut down and latch off for shorting the +3.3 VDC,+5 VDC,or+12 VDC rails to return or any other rail. Shorts between main output rails and +5VSB shall not cause any damage to the power supply. The power supply shall either shut down and latch off or fold back for shorting the negative rails.+5VSB must be capable of being shorted indefi nitely, but when the short is removed, the power supply shall recover auto matically or by cycling PS_ON#. The power supply shall be capable of withstanding a continuous short-circuit to the output without damage or overstress to the unit
+
+3.5 Over-power protection
+
+The power supply will be shutdown and latch off when output power is > 
+120%~235%. 
+Current protection must be designed to limit the current to operate within safe 
+operating conditions. 
+Over power protection schemes, where only the voltage output that experi 
+ences the over power event is shut off, may be adequate to maintain safe 
+operation of the power supply and the system; however, damage to the 
+motherboard or other system components may occur. The recommended 
+over power protection scheme is for the power supply to latch into the shut 
+down state. PSU connectors, cables and all other components should not be 
+melted or damaged prior reaching to the OPP trigger. 
+3.6 Over Temperature Protection (OTP) 
+
+The power supply shall include an over-temperature protection sensor, which can trip and shut down the power supply at a preset temperature point. Such an overheated condition is typically the result of internal current overloading or a cooling fan failure. If the protection circuit is non-latching, then it should have hysteresis built in to avoid intermittent tripping. PSU connectors, cables and all other components should not be melted or damaged prior reaching to the OCP trigger. Test condition AC 115/230V.
+
+4.TIMING 4.1 Signal timing drawing
+
+Figure 2. is a reference for signal timing for main power connector signals and rails.
+
+VAC PS_ON#
+
+Outputs +12 VDC +5 VDC +3.3 VDC
+
+95% 
+10% 
+
+PWR_OK
+
+| PWR_OK Sense level=95% of nominal | T0:AC Turn on time | ＜2S |
+| --- | --- | --- |
+| | T1:Power-on time | < 500ms |
+| | T2:Rise time | 0.2-20ms |
+| | T3:PWR_OK delay | 100-150ms |
+| | T4:PWR_OK rise time | < 10ms |
+| | T5:AC loss to PWR_OK hold-up time | > 16ms |
+
+Figure 2. PS-OK Timing Sequence
+
+4.2 Hold up time 
+When the power loss its input power, it shall maintain 16ms in regulation limit 
+at normal input voltage. Tested at 100% of maximum load and over 115V/60Hz 
+or 230V/50Hz AC input. 
+
+5.ENVIRONMENT
+
+5.1 Operation
+
+| Temperature | 0 to 50℃ ( derating from 100% to 80% from 40℃ to 50℃ ) |
+| --- | --- |
+| Relative Humidity | 10 to 90%, non-condensing |
+| 5.2 Shipping and Storage | |
+| Temperature | -20 TO 70 oC |
+| Relative Humidity | 5 to 95%, non-condensing |
+| 5.3 Altitude | |
+| Operating | 10,000FT max |
+| Storage | 50,000FT max |
+
+6.Dimension
+
+150x86x140mm
+
+7.POWER SUPPLY CONNECTOR OVERUSE DEFINITION
+
+EN Power supply connector overuse definition
+
+A single PCIe 8pin cable and connector’s maximum current rating is 
+12.5A, which is 150W (+12V x 12.5A). So SilverStone’s warranty will not 
+cover damages or malfunction resulting from the use of a graphics card 
+or expansion card with a single PCIe 8pin connector that exceeds 
+standard 225W total power draw (150W from PCIe 8pin connector + 
+75W from PCIe motherboard slot). Similarly, a graphics card or 
+expansion card with dual PCIe 8pin connectors that exceed 375W total 
+power draw (300W from two PCIe 8pin connectors + 75W from PCIe 
+motherboard slot) will also not be covered under warranty. 
+Peripheral (molex) or SATA connector’s maximum current rating is 5A, 
+which is 60W (+12V x 5A) or 25W (+5V x 5A). Please ensure connected 
+devices are operating under these limits. SilverStone’s warranty will not 
+cover damages or malfunction resulting from usages exceeding these 
+connectors and their associated cables. 
+24pin motherboard connector’s maximum current rating for its dual 
++12V metal pins are 5A each, which totals 120W (+12V x 5A x 2). 
+Please ensure +12V drawing devices connected to the motherboard are 
+operating under these limits. SilverStone’s warranty will not cover 
+damages or malfunction resulting from usages exceeding these 
+connectors and their associated cables. 
+
+Definition einer Überlastung des DE Netzanschlusses
+
+Die maximale Stromstärke eines einzelnen 8-poligen PCIe-Kabels und Anschlusses beträgt 12,5 A, was 150 W (+12 V x 12,5 A) entspricht. Daher deckt die SilverStone-Garantie keine Schäden oder Fehlfunktionen durch den Einsatz einer Grafikkarte oder Erweiterung skarte mit einem einzigen 8-poligen PCIe-Anschluss ab, die die Standardleistungsaufnahme von insgesamt 225 W übersteigt (150 W vom 8-poligen PCIe-Anschluss + 75 W vom PCIe-Motherboard-Steck platz). Ebenso wird die Verwendung einer Grafikkarte oder Erweiterungskarte mit zwei 8-poligen PCIe-Anschlüssen, die eine Leistungsaufnahme von insgesamt 375 übersteigen (300 W von den beiden 8-poligen PCIe-Anschlüssen + 75 W vom PCIe-Mother board-Steckplatz) nicht durch die Garantie abgedeckt. Der maximale Nennstrom von Peripherie- (Molex) oder SATA-An schluss beträgt 5 A, was 60 W (+12 V x 5 A) oder 25 W (+5 V x 5 A) entspricht. Bitte achten Sie darauf, dass verbundene Geräte unter diesen Grenzwerten arbeiten. Die Garantie von SilverStone deckt keine Schäden oder Fehlfunktionen aufgrund einer Nutzung ab, die diese Anschlüsse und ihre zugehörigen Kabel übersteigt. Der maximale Nennstrom des 24-poligen Motherboard-Anschlusses für seine dualen +12-V-Metallkontakte beträgt jeweils 5 A, was insgesamt 120 W (+12 V x 5 A x 2) ergibt. Bitte stellen Sie sicher, dass mit dem Motherboard verbundene +12-V-Geräte unter diesen Grenzwerten arbeiten. SilverStones Garantie deckt keine Schäden oder Fehlfunktionen aufgrund einer Nutzung jenseits der Angaben dieser Anschlüsse und ihrer zugehörigen Kabel ab.
+
+Définition de l'utilisation excessive du FR connecteur d'alimentation électrique
+
+Le courant nominal maximum d'un périphérique (Molex) ou d'un connecteur SATA est de 5 A, ce qui correspond à 60 W (+12 V x 5 A) ou 25 W (+5 V x 5 A). Veuillez vous assurer que les appareils connectés fonctionnent dans ces limites. La garantie de SilverStone ne couvre pas les dommages ou les dysfonctionnements résultant d'utilisations dépassant ces connecteurs et leurs câbles associés. Le courant nominal maximal des connecteurs 24 broches de la carte mère pour ses doubles broches métalliques +12 V est de 5 A chacun, ce qui représente au total 120 W (+12 V x 5 A x 2). Veuillez vous assurer que les dispositifs de tension +12 V connectés à la carte mère fonctionnent dans ces limites. La garantie de SilverStone ne couvre pas les dommages ou les dysfonctionnements résultant d'utilisations dépassant la capacité de ces connecteurs et de leurs câbles associés.
+
+Le courant nominal maximum d'un câble et d'un connecteur PCIe 8 broches unique est de 12,5 A, ce qui correspond à 150 W (+12 V x 12,5 A). La garantie de SilverStone ne couvre donc pas les dommages ou les dysfonctionnements résultant de l'utilisation d'une carte graphique ou d'une carte d'extension avec un connecteur PCIe 8 broches unique qui dépasse une consommation énergétique totale de 225 W standard (150 W provenant du connecteur PCIe 8 broches + 75 W provenant de l'emplacement de la carte mère PCIe). De même, une carte graphique ou une carte d'extension avec deux connecteurs PCIe 8 broches qui dépasse une consommation énergétique totale de 375 W (300 W provenant des deux connecteurs PCIe 8 broches + 75 W provenant de l'emplacement de la carte mère PCIe) ne sera également pas couverte dans le cadre de la garantie.
+
+La corrente massima di un singolo cavo PCIe a 8 pin e del connettore è 12,5 A, corrispondente a 150 W (+12 V x 12,5 A). Pertanto, la garanzia di SilverStone non copre danni o malfunzionamenti derivanti dall'utilizzo di una scheda grafica o una scheda di espansione con un singolo connettore PCIe a 8 pin che supera l'assorbimento totale di 225 W (150 W da connettore PCIe a 8 pin + 75 W da slot PCIe). Analogamente, la garanzia non copre anche una scheda grafica o una scheda di espansione con doppi connettori PCIe a 8 pin che superano l'assorbimento totale di 375 W (300 W da doppi connettori PCIe a 8 pin + 75 W dalla scheda madre PCIe). La corrente massima del connettore periferico (molex) o SATA è 5 A, corrispondente a 60 W (+12 V x 5 A) o 25 W (+5 V x 5 A). Assicurarsi che i dispositivi collegati funzionino entro questi limiti. La garanzia di SilverStone non copre danni o malfunzionamenti derivanti da uso eccessivo di questi connettori e dei relativi cavi. La corrente massima del connettore a 24 pin per scheda madre per i suoi due pin di metallo a +12 V è di 5 A ciascuno, per un totale di 120 W (+12 V x 5 A x 2). Assicurarsi che i dispositivi a +12 V collegati alla scheda madre funzionino con questi limiti. La garanzia di SilverStone non copre danni o malfunzionamenti derivanti da uso eccessivo di questi connettori e dei relativi cavi.
+
+Definizione di uso eccessivo del connettore IT di alimentazione
+
+La corriente máxima de un solo cable PCIe de 8 pines es 12,5A, lo que son 150W (+12V x 12,5A). Por tanto, la garantía de SilverStone no cubrirá daños o fallos provocados por el uso de una tarjeta gráfica o de expansión con un único conector PCIe de 8 pines que exceda el total estándar de 225W (150W del conector PCIe de 8 pines + 75W del zócalo PCIe de la placa base). De igual modo, una tarjeta gráfica o de expansión con conectores duales PCIe de 8 pines que superen 375W de potencia (300W de los dos conectores PCIe de 8 pines + 75W del zócalo de la placa base) tampoco será cubierta por la garantía.
+
+La corriente máxima del conector de periféricos (molex) o SATA es 5A, que son 60W (+12V x 5A) o 25W (+5V x 5A). Por favor, asegúrese de que los dispositivos conectados funcionan dentro de estos límites. La garantía de SilverStone no cubrirá daños o fallos a resultas de un uso excesivo de estos conectores y sus cables asociados. La corriente máxima del conector de 24 pines de la placa base para sus pines de metal duales de +12V es de 5A cada uno, para un total de 120W (+12V x 5A x 2). Por favor, asegúrese de que los dispositivos de +12V conectados a la placa base funcionan dentro de estos límites. La garantía de SilverStone no cubrirá daños o averías a resultas de un uso excesivo para estos conectores y sus cables asociados.
+
+Definición de uso excesivo del conector de ES la Fuente de alimentación
+
+Определение чрезмерной нагрузки на RU коннектор блока питания
+
+Один кабель и коннектор PCIe 8pin поддерживает ток 12.5A, что равно 150Вт (+12В x 12.5A). Таким образом, гарантийные обязательства SilverStone не будут действовать если вы используете видеокарту или другую карту расширения с одним коннектором PCIe 8pin, которые превышает стандартную общую потребляемую мощность 225Вт (150Вт через коннектор PCIe 8pin + 75Вт через слот PCIe материнской платы). Аналогично, видеокарта или другая карта расширения с двумя коннекторами PCIe 8pin, которые превышают общую потребляемую мощность 375Вт (300Вт через коннектор PCIe 8pin + 75Вт через слот PCIe материнской платы), также не будут покрываться гарантией. Максимальный номинальный ток периферийного (molex) или SATA разъёма составляет 5A, что равно 60Вт (+12В x 5A) или 25Вт (+5В x 5A). Пожалуйста, убедитесь, что подключенные устройства работают в этих пределах. Гарантия SilverStone не будет распространяться на неисправности, возникающие в результате использования этих коннекторов или подключаемых к ним кабелей. Максимальный номинальный ток 24pin коннектора материнской платы для его двойных металлических контактов +12В составляет 5A на каждый, что равно 120Вт (+12В x 5A x 2). Пожалуйста, убедитесь, что устройства, подключенные к линии +12В, работают в этих пределах. Гарантия SilverStone не будет распространяться на неисправности, возникающие в результате использования этих коннекторов или подключаемых к ним кабелей.
+
+KR 전원 공급 커넥터 과용 정의
+
+埮沂穢͑΁ʹͺΖ͑ͩ穆͑理決挚͑愕͑珪嘫瘶汞͑牢堆͑洊幞͑洛冯汆͑ͣͦ͢͟Ͳ嵢昢͑ 
+洊崫求嵢͑筞斶穞彺͑ͦ͢͡Έ͙ͣ͜͢·͑Ω͑ͣͦ͢͟Ͳ͚沋城埪͑͟΄ΚΝΧΖΣ΄ΥΠΟΖ汞͑ 
+懺溣櫖昢垚͑祢渆͑ͣͣͦΈ汞͑爣͑暒捊͑洊崫͙͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶汞͑ͦ͢͡Έ歆͑ 
+΁ʹͺΖ͑彚汾懺姢͑枲嵵汞͑ͨͦΈ汞͑穯͚汊͑爎刂穞垚͑埮沂͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑ 
+痗沲͑勾岞穃͑獺姢喞͑筛沫͑獺姢庂͑斲殯穞櫲͑愢旣穞垚͑暖旇͑嬖垚͑ 
+欪沗壟汊͑懺旇穞滆͑橐枻城埪͑͟決歆͑廎焲儆滆嵢͑ͤͨͦΈ汞͑爣͑暒捊͑ 
+洊崫͙΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑ͣ儢汞͑ͤ͡͡Έ歆͑΁ʹͺΖ͑彚汾懺姢͑枲嵵汞͑ͨͦΈ汞͑ 
+穯͚汊͑爎刂穞垚͑姆櫂͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑痗沲͑勾岞穃͑獺姢喞͑筛沫͑獺姢庂͑ 
+斲殯空壊͑懺溣櫖昢͑懺旇空渂滆͑橐枻城埪͟ 
+渂懆沫獞͙ΞΠΝΖΩ͚͑嬖垚͑΄Ͳ΅Ͳ͑珪嘫瘶汞͑牢堆͑洊幞͑洛冯汆͑ͦͲ嵢昢͑ 
+洊崫求嵢͑筞斶穞彺͑ͧ͡Έ͙ͣ͜͢·͑Ω͑ͦͲ͚͑嬖垚͑ͣͦΈ͙ͦ͜·͑Ω͑ͦͲ͚沋城埪͑͟ 
+櫶冶夢͑沫獞姪汆͑決峲穢͑洢穢͑穞櫖昢廒͑沗壟柢琢檂͑穯城埪͑͟΄ΚΝΧΖΣ΄ΥΠΟΖ 
+汞͑懺溣櫖昢垚͑決峲穢͑珪嘫瘶͑愕͑決歆͑櫶冶夞垚͑理決挚汞͑洛冯汊͑ 
+爎刂穞櫲͑斲殯穮求嵢桮͑愢旣穞垚͑暖旇決喞͑欪沗壟汊͑懺旇穞滆͑ 
+橐枻城埪͟ 
+姆櫂͑ͣ͜͢·͑匎暓͑穆櫖͑斲殯夞垚͑ͣͥ穆͑彚汾懺姢͑珪嘫瘶汞͑洛冯͑洊幞垚͑ 
+ͦͲ͑決彶͑͝儇儇͑穯凊儆͑ͣ͢͡Έ͙͑ͣ͜͢·͑Ω͑ͦͲ͑Ω͚͑ͣ͑沋城埪͑͟彚汾懺姢櫖͑ 
+櫶冶夢͑ͣ͜͢·͑沫獞儆͑空埿͑穢凊͑惾廒求嵢͑沗壟夞壊嵣͑穞柳柢欪͑͟ 
+΄ΚΝΧΖΣ΄ΥΠΟΖ汆͑決͑珪嘫瘶喞͑分崮͑理決挚汞͑穢凊庂͑爎刂空昢͑ 
+斲殯穮求嵢桮͑愢旣穞垚͑暖旇決喞͑処沫櫖͑堆空昢͑懺沫穞滆͑橐枻城埪͑͟ 
+
+Définition de l'utilisation excessive du FR connecteur d'alimentation électrique
+
+Le courant nominal maximum d'un périphérique (Molex) ou d'un connecteur SATA est de 5 A, ce qui correspond à 60 W (+12 V x 5 A) ou 25 W (+5 V x 5 A). Veuillez vous assurer que les appareils connectés fonctionnent dans ces limites. La garantie de SilverStone ne couvre pas les dommages ou les dysfonctionnements résultant d'utilisations dépassant ces connecteurs et leurs câbles associés. Le courant nominal maximal des connecteurs 24 broches de la carte mère pour ses doubles broches métalliques +12 V est de 5 A chacun, ce qui représente au total 120 W (+12 V x 5 A x 2). Veuillez vous assurer que les dispositifs de tension +12 V connectés à la carte mère fonctionnent dans ces limites. La garantie de SilverStone ne couvre pas les dommages ou les dysfonctionnements résultant d'utilisations dépassant la capacité de ces connecteurs et de leurs câbles associés.
+
+Le courant nominal maximum d'un câble et d'un connecteur PCIe 8 broches unique est de 12,5 A, ce qui correspond à 150 W (+12 V x 12,5 A). La garantie de SilverStone ne couvre donc pas les dommages ou les dysfonctionnements résultant de l'utilisation d'une carte graphique ou d'une carte d'extension avec un connecteur PCIe 8 broches unique qui dépasse une consommation énergétique totale de 225 W standard (150 W provenant du connecteur PCIe 8 broches + 75 W provenant de l'emplacement de la carte mère PCIe). De même, une carte graphique ou une carte d'extension avec deux connecteurs PCIe 8 broches qui dépasse une consommation énergétique totale de 375 W (300 W provenant des deux connecteurs PCIe 8 broches + 75 W provenant de l'emplacement de la carte mère PCIe) ne sera également pas couverte dans le cadre de la garantie.
+
+La corrente massima di un singolo cavo PCIe a 8 pin e del connettore è 12,5 A, corrispondente a 150 W (+12 V x 12,5 A). Pertanto, la garanzia di SilverStone non copre danni o malfunzionamenti derivanti dall'utilizzo di una scheda grafica o una scheda di espansione con un singolo connettore PCIe a 8 pin che supera l'assorbimento totale di 225 W (150 W da connettore PCIe a 8 pin + 75 W da slot PCIe). Analogamente, la garanzia non copre anche una scheda grafica o una scheda di espansione con doppi connettori PCIe a 8 pin che superano l'assorbimento totale di 375 W (300 W da doppi connettori PCIe a 8 pin + 75 W dalla scheda madre PCIe). La corrente massima del connettore periferico (molex) o SATA è 5 A, corrispondente a 60 W (+12 V x 5 A) o 25 W (+5 V x 5 A). Assicurarsi che i dispositivi collegati funzionino entro questi limiti. La garanzia di SilverStone non copre danni o malfunzionamenti derivanti da uso eccessivo di questi connettori e dei relativi cavi. La corrente massima del connettore a 24 pin per scheda madre per i suoi due pin di metallo a +12 V è di 5 A ciascuno, per un totale di 120 W (+12 V x 5 A x 2). Assicurarsi che i dispositivi a +12 V collegati alla scheda madre funzionino con questi limiti. La garanzia di SilverStone non copre danni o malfunzionamenti derivanti da uso eccessivo di questi connettori e dei relativi cavi.
+
+Definizione di uso eccessivo del connettore IT di alimentazione
+
+La corriente máxima de un solo cable PCIe de 8 pines es 12,5A, lo que son 150W (+12V x 12,5A). Por tanto, la garantía de SilverStone no cubrirá daños o fallos provocados por el uso de una tarjeta gráfica o de expansión con un único conector PCIe de 8 pines que exceda el total estándar de 225W (150W del conector PCIe de 8 pines + 75W del zócalo PCIe de la placa base). De igual modo, una tarjeta gráfica o de expansión con conectores duales PCIe de 8 pines que superen 375W de potencia (300W de los dos conectores PCIe de 8 pines + 75W del zócalo de la placa base) tampoco será cubierta por la garantía.
+
+La corriente máxima del conector de periféricos (molex) o SATA es 5A, que son 60W (+12V x 5A) o 25W (+5V x 5A). Por favor, asegúrese de que los dispositivos conectados funcionan dentro de estos límites. La garantía de SilverStone no cubrirá daños o fallos a resultas de un uso excesivo de estos conectores y sus cables asociados. La corriente máxima del conector de 24 pines de la placa base para sus pines de metal duales de +12V es de 5A cada uno, para un total de 120W (+12V x 5A x 2). Por favor, asegúrese de que los dispositivos de +12V conectados a la placa base funcionan dentro de estos límites. La garantía de SilverStone no cubrirá daños o averías a resultas de un uso excesivo para estos conectores y sus cables asociados.
+
+Definición de uso excesivo del conector de ES la Fuente de alimentación
+
+Определение чрезмерной нагрузки на RU коннектор блока питания
+
+Один кабель и коннектор PCIe 8pin поддерживает ток 12.5A, что равно 150Вт (+12В x 12.5A). Таким образом, гарантийные обязательства SilverStone не будут действовать если вы используете видеокарту или другую карту расширения с одним коннектором PCIe 8pin, которые превышает стандартную общую потребляемую мощность 225Вт (150Вт через коннектор PCIe 8pin + 75Вт через слот PCIe материнской платы). Аналогично, видеокарта или другая карта расширения с двумя коннекторами PCIe 8pin, которые превышают общую потребляемую мощность 375Вт (300Вт через коннектор PCIe 8pin + 75Вт через слот PCIe материнской платы), также не будут покрываться гарантией. Максимальный номинальный ток периферийного (molex) или SATA разъёма составляет 5A, что равно 60Вт (+12В x 5A) или 25Вт (+5В x 5A). Пожалуйста, убедитесь, что подключенные устройства работают в этих пределах. Гарантия SilverStone не будет распространяться на неисправности, возникающие в результате использования этих коннекторов или подключаемых к ним кабелей. Максимальный номинальный ток 24pin коннектора материнской платы для его двойных металлических контактов +12В составляет 5A на каждый, что равно 120Вт (+12В x 5A x 2). Пожалуйста, убедитесь, что устройства, подключенные к линии +12В, работают в этих пределах. Гарантия SilverStone не будет распространяться на неисправности, возникающие в результате использования этих коннекторов или подключаемых к ним кабелей.
+
+KR 전원 공급 커넥터 과용 정의
+
+埮沂穢͑΁ʹͺΖ͑ͩ穆͑理決挚͑愕͑珪嘫瘶汞͑牢堆͑洊幞͑洛冯汆͑ͣͦ͢͟Ͳ嵢昢͑ 
+洊崫求嵢͑筞斶穞彺͑ͦ͢͡Έ͙ͣ͜͢·͑Ω͑ͣͦ͢͟Ͳ͚沋城埪͑͟΄ΚΝΧΖΣ΄ΥΠΟΖ汞͑ 
+懺溣櫖昢垚͑祢渆͑ͣͣͦΈ汞͑爣͑暒捊͑洊崫͙͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶汞͑ͦ͢͡Έ歆͑ 
+΁ʹͺΖ͑彚汾懺姢͑枲嵵汞͑ͨͦΈ汞͑穯͚汊͑爎刂穞垚͑埮沂͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑ 
+痗沲͑勾岞穃͑獺姢喞͑筛沫͑獺姢庂͑斲殯穞櫲͑愢旣穞垚͑暖旇͑嬖垚͑ 
+欪沗壟汊͑懺旇穞滆͑橐枻城埪͑͟決歆͑廎焲儆滆嵢͑ͤͨͦΈ汞͑爣͑暒捊͑ 
+洊崫͙΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑ͣ儢汞͑ͤ͡͡Έ歆͑΁ʹͺΖ͑彚汾懺姢͑枲嵵汞͑ͨͦΈ汞͑ 
+穯͚汊͑爎刂穞垚͑姆櫂͑΁ʹͺΖ͑ͩ穆͑珪嘫瘶͑痗沲͑勾岞穃͑獺姢喞͑筛沫͑獺姢庂͑ 
+斲殯空壊͑懺溣櫖昢͑懺旇空渂滆͑橐枻城埪͟ 
+渂懆沫獞͙ΞΠΝΖΩ͚͑嬖垚͑΄Ͳ΅Ͳ͑珪嘫瘶汞͑牢堆͑洊幞͑洛冯汆͑ͦͲ嵢昢͑ 
+洊崫求嵢͑筞斶穞彺͑ͧ͡Έ͙ͣ͜͢·͑Ω͑ͦͲ͚͑嬖垚͑ͣͦΈ͙ͦ͜·͑Ω͑ͦͲ͚沋城埪͑͟ 
+櫶冶夢͑沫獞姪汆͑決峲穢͑洢穢͑穞櫖昢廒͑沗壟柢琢檂͑穯城埪͑͟΄ΚΝΧΖΣ΄ΥΠΟΖ 
+汞͑懺溣櫖昢垚͑決峲穢͑珪嘫瘶͑愕͑決歆͑櫶冶夞垚͑理決挚汞͑洛冯汊͑ 
+爎刂穞櫲͑斲殯穮求嵢桮͑愢旣穞垚͑暖旇決喞͑欪沗壟汊͑懺旇穞滆͑ 
+橐枻城埪͟ 
+姆櫂͑ͣ͜͢·͑匎暓͑穆櫖͑斲殯夞垚͑ͣͥ穆͑彚汾懺姢͑珪嘫瘶汞͑洛冯͑洊幞垚͑ 
+ͦͲ͑決彶͑͝儇儇͑穯凊儆͑ͣ͢͡Έ͙͑ͣ͜͢·͑Ω͑ͦͲ͑Ω͚͑ͣ͑沋城埪͑͟彚汾懺姢櫖͑ 
+櫶冶夢͑ͣ͜͢·͑沫獞儆͑空埿͑穢凊͑惾廒求嵢͑沗壟夞壊嵣͑穞柳柢欪͑͟ 
+΄ΚΝΧΖΣ΄ΥΠΟΖ汆͑決͑珪嘫瘶喞͑分崮͑理決挚汞͑穢凊庂͑爎刂空昢͑ 
+斲殯穮求嵢桮͑愢旣穞垚͑暖旇決喞͑処沫櫖͑堆空昢͑懺沫穞滆͑橐枻城埪͑͟ 
+
+JP 電力供給コネクタの使用限度超過に関する説明 単一のPCIe 8ピンケーブルおよびコネクタの最大定格電流は12.5Aで 150W (+12V x 12.5A)となります。それで定格225W合計電力消費(PCIe 8 ピンコネクタからの150W + PCIeマザーボードスロットからの75W)を超 える、単一PCIe 8ピンコネクタ装備のグラフィックスカードまたは拡張カ ード使用によって生じた損傷や故障の場合、SilverStoneの製品保証は適 用外となります。同様に、375W合計電力消費(2基のPCIe 8ピンコネクタ からの300W + PCIeマザーボードスロットからの75W)を超える、デュア ルPCIe 8ピンコネクタ装備のグラフィックスカードまたは拡張カード使用 によって生じた損傷や故障の場合も、製品保証適用外となります。 周辺用 (molex)またはSATAコネクタの最大定格電流は5Aで、60W (+12V x 5A)または25W (+5V x 5A)となります。接続された装置がこれら 限度以内で動作することを確認してください。これらコネクタおよび関連 ケーブルの定格を超える使用法で生じた損傷や故障については、 SilverStone製品保証対象外となりますのでご注意ください。
+
+24ピンマザーボードコネクタのデュアル+12V金属製ピンに対する最大 定格電流はそれぞれ5Aなので合計は120W (+12V x 5A x 2)となります。 接続される+12V入力のデバイスが、これら上限以内で動作することをご 確認ください。これらコネクタおよび関連ケーブルでの限界を超えた使 用で生じた損傷または故障は、SilverStoneによる製品保証対象外となり ます。
+
+ऩᴵ3&,H SLQ⬉⑤㒓Ϣ᥹༈ⱘ᳔໻乱ᅮ⬉⌕Ў $ˈ⪺⡍᭄ : ˄ 9 [ $˅Ǆ ಴ℸˈ䫊⃷ⱘ⬉⑤ֱ೎ϡࣙᣀ⫼Ѣऩᴵ3&,H SLQ᥹༈Пᰒव ᠽܙवˈ೼䍙䖛ᷛޚ :ᘏࡳ㗫㣗ೈ᠔䗴៤ⱘᤳണ ៪ᬙ䱰˄ : ⱘ3&,H SLQ᥹༈ :ⱘЏᵓ3&,Hᦦῑ˅Ǆ ҹℸ㉏ ᥼ˈ㢹݋໛ঠ3&,H SLQ᥹༈ⱘᰒव ᠽܙवˈ䋳䕑ϔԚ䍙䖛 :ᘏ ࡳ㗫ˈ㾚ৠϡሲֱ೎㣗ೈݙ˄ :ᴹ㞾ϸϾ3&,H SLQ᥹༈ :ⱘ Џᵓ3&,Hᦦῑ˅Ǆ
+
+໻ SLQ˄PROH[˅៪6$7$᥹༈ⱘ᳔໻乱ᅮ⬉⌕Ў $ˈे :˄ 9 [ 
+$˅៪ :˄ 9 [ $˅Ǆ 䇋⹂ֱ䖲᥹ⱘ䆒໛ⱚԢѢℸ䰤ࠊϟ䖤㸠 
+Ǆ 
+䫊⃷ϡֱ೎䍙ߎ 5⬉ կᑨ఼᥹༈ঞ݊Ⳍ݇㒓ᴤПՓ⫼䋳䕑Ϟ䰤᠔䗴 
+៤ⱘᤳണ៪ᬙ䱰Ǆ 
+
+SLQЏᵓ᥹༈ⱘঠ 9䞥ሲ䩜㛮᳔໻乱ᅮ⬉⌕Ў $ˈे :˄ 9 [ $ [ ˅Ǆ䇋⹂ֱ䖲᥹ⱘ 9䆒໛ⱚԢѢℸ䰤ࠊϟ䖤㸠Ǆ 䫊⃷ϡֱ೎䍙ߎ 5⬉ կᑨ఼᥹༈ঞ݊Ⳍ݇㒓ᴤПՓ⫼䋳䕑Ϟ䰤᠔䗴 ៤ⱘᤳണ៪ᬙ䱰Ǆ
+
+CN ⬉⑤կᑨ఼᥹༈䖛ᑺՓ⫼ᅮН
+
+TW 䳏⑤կឝ఼᥹丁䘢ᑺՓ⫼ᅮ㕽 ஂṱ3&,H SLQ䳏⑤㎮㟛᥹丁ⱘ᳔໻両ᅮ䳏⌕⚎ $ˈ⪺⡍ᭌ : ˄ 9 [ $˅Ǆ ಴ℸˈ䡔⃷ⱘ䳏⑤ֱ೎ϡࣙᣀ⫼ᮐஂṱ3&,H SLQ᥹丁П乃व ᫈ܙवˈ೼䍙䘢῭⑪ :㐑ࡳ㗫㆘ೡ᠔䗴៤ⱘ᧡າ ៪ᬙ䱰˄ : ⱘ3&,H SLQ᥹丁 :ⱘЏ″ᵓ3&,Hᦦῑ˅Ǆ ҹℸ 串᥼ˈ㢹 ٭݋ 䲭3&,H SLQ᥹丁ⱘ乃व ᫈ܙवˈ䉴䓝ϔԚ䍙䘢 : 㐑ࡳ㗫ˈ㽪ৠϡቀֱ೎㆘ೡܻ˄ :՚㞾ܽן3&,H SLQ᥹丁 : ⱘЏ″ᵓ3&,Hᦦῑ˅Ǆ
+
+໻ SLQ˄PROH[˅៪6$7$᥹丁ⱘ᳔໻両ᅮ䳏⌕⚎ $ˈे :˄ 9 [ 
+$˅៪ :˄ 9 [ $˅Ǆ 䂟⺎ֱ䗷᥹ⱘ䀁٭ⱚԢᮐℸ䰤ࠊϟ䘟㸠 
+Ǆ 
+䡔⃷ϡֱ೎䍙ߎ䳏⑤կឝ఼᥹丁ঞ݊Ⳍ䮰㎮ᴤПՓ⫼䉴䓝Ϟ䰤᠔䗴 
+៤ⱘ᧡າ៪ᬙ䱰Ǆ 
+
+SLQЏ″ᵓ᥹丁ⱘ䲭 9䞥ቀ䞱㝇᳔໻両ᅮ䳏⌕⚎ $ˈे :˄ 9 [ $ [ ˅Ǆ䂟⺎ֱ䗷᥹ⱘ 9䀁٭ⱚԢᮐℸ䰤ࠊϟ䘟㸠Ǆ 䡔⃷ϡֱ೎䍙ߎ䳏⑤կឝ఼᥹丁ঞ݊Ⳍ䮰㎮ᴤПՓ⫼䉴䓝Ϟ䰤᠔䗴 ៤ⱘ᧡າ៪ᬙ䱰Ǆ
+
+TH ขีดจำกัดการรองรับการใช้งานของขั้วต่อจากพาวเวอร์ซัพพลาย สำหรับขั้วเชื่อมต่อและสายไฟเลี้ยง PCIe 8 พินสามารถรองรับกระแสได้สูงสุด 12.5 แอมป์หรือหมายถึง 150 วัตต์ (+12V x 12.5A) ดังนั้นการรับประกันจากทาง SilverStone จะไม่ครอบคลุมถึงความ เสียหายหรือความผิดปรกติซึ่งเกิดขึ้นกับกราฟิกการ์ดรวมถึงการ์ดขยายความยาวที่ใช้งาน ขั้วเชื่อมต่อ PCIe 8 พิน ซึ่งมันมีการใช้พลังงานรวมทั้งสิ้นเกินกว่ามาตรฐานที่กำหนดคือ 225 วัตต์ (150 วัตต์จาก PCIe 8 พิน + 75 วัตต์จากสล๊อต PCIe บน เมนบอร์ด) อันรวมถึงกราฟิการ์ดหรือการ์ดขยายความยาวที่ใช้ขั้วต่อไฟเลี้ยง PCIe 8 พินจำนวน 2 ชุดซึ่งมีการใช้พลังงานทั้งสิ้น 375 วัตต์ (300 วัตต์จากขั้ว PCIe 8 พิน 2 ชุด + 75 วัตต์จากสล๊อต PCIe บนเมนบอร์ด) ซึ่งไม่ครอบคลุมเช่นกัน
+
+ภายใต้การรับประกัน ขั้วเชื่อมต่อ Peripheral หรือ Molex 4 พินและ SATA มันสามารถ รองรับกระแสได้สูงสุด 5 แอมป์หรือหมายถึง 60 วัตต์ (+12V x 5A) หรือ (+5V + 5A) กรุณาให้แน่ใจว่าอุปกรณ์ที่ใช้งานมีการใช้พลังงานไม่เกินกว่าขีดจำกัดที่รองรับ ดัง นั้นการรับประกันจากทาง SilverStone จะไม่ครอบคลุมถึงความเสียหายหรือความผิด ปรกติจากอุปกรณ์ที่เชื่อมต่อใช้งานจากตัวสายเชื่อมต่อซึ่งมีการใช้พลังงานเกินกว่าขีด จำกัด
+
+กระแสไฟฟ้าสูงสุดของขั้วต่อเมนบอร์ด 24 พิน สำหรับพินโลหะ +12V คู่แต่ละอันมีค่า 
+5A ซึ่งรวมทั้งหมดเป็น 120W 
+(+12V x 5A x 2) โปรดตรวจสอบให้มั่นใจว่าอุปกรณ์ตัวดึงพลังงาน +12V ที่เชื่อม 
+ต่อกับเมนบอร์ดสามารถทำงานภายใต้ขีดจำกัดเหล่านี้ได้การรับประกันของ SilverStone 
+ไม่คุ้มครองความเสียหาย หรืออาการเสียที่เป็นผลจากการใช้เกินขีดจำกัดของขั้วต่อและสาย 
+เคเบิลที่ใช้เชื่อมต่อเหล่านี้ 
+
+⚎њֱ䅋Փ⫼㗙ঞ䰆☿ⱘⳂⱘˈᅝ㺱ℸѸ᦯ᓣ䳏⑤կឝ఼ᰖˈᖙ䷜ᅝ㺱ᮐヺড়ϟ߫৘䷙㽕∖ⱘ໪←Ёˈ 
+ϺϨᅝ㺱ཹ୘ᕠˈᠡৃ᥹Ϟ䳏⑤Ǆ 
+໪←ᴤ䊾䷜⚎䰆☿໪←Ǆ໪໇ᴤ䋼乏Ў䰆☿໪໇Ǆ 
+໪←ⱘϞᮍঞو䙞П೧ᔶ䭟ᄨˈ᳔໻ܻᕥϡৃ໻ᮐ PPǄ 
+໪←ⱘϞᮍঞو䙞П䭋ṱൟ䭟ᄨˈᇡ㾦㎮䎱䲶ϡৃ໻ᮐ PP˗㢹ᇀᑺᇣᮐ PPˈࠛ䭋ᑺϡফ䰤ࠊǄ 
+໪←ᑩ䚼ϡৃ᳝䭟ᄨǄ໪໇ᑩ䚼ϡৃ᳝ᓔᄨǄ 
+
+Ⳉᕥϡ໻ᮐ PP ᇡ㾦㎮ϡ໻ᮐ PP ᇀᑺᇣᮐ PP ࠛ䭋ᑺϡ䰤
+
+Openings that do not exceed 1mm in width regardless of length
+
+Openings that do not exceed 5mm in any dimension ᴀ⫶ક䔌ߎ৿᳝ॅ䱾㛑䞣ˈ⚎䙓ܡ᪡԰ᰖⱐ⫳ॅ䱾ˈ䷜ᮐ㺱ܹ㋏㍅″←Ϻᇛ᠔᳝䀁٭ᅝ㺱ཹ⭊ᕠᠡৃ䭟ଳ䳏⑤Ǆ ᴀ⫶કП䳏⑤䔌ߎ䴲ቀ䳏࡯䰤ࠊൟ䳏⑤ˈ䂟䗷᥹Փ⫼݋䰆☿໪←П਼䙞ˈҹ䙓ܡ ♑☿ ॅ䱾ⱐ⫳Ǆ
+
+%60, 52+6 䊛㿞 KWWS ZZZ VLOYHUVWRQHWHN FRP GRZQORDGV 368 56' SGI
+
+This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.
+
+Please refer to SilverStone website for latest specifications updates.
+
+the power supply is only suitable for Information Technology & Audio/Video equipment.
+
+Model (on safety):SST-AX0750MCGD-C Model (on safety):SST-AX0850MCGD-D
+
+※付属の電源コードは当該製品専用です。他の機器に使用しないでください。
+
+NO. G11249060
+
+
+
+# Manual-ST1500-TI_ST1300-TI_ST1100-TI-V1.ai
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st1500-ti-manual.pdf
+Author: oscar.chen
+
+#### ST1500-TI/ST1300-TI/ST1100-TI
+
+##### STRIDER TITANIUM SERIES
+
+Premium, full-modular 80 PLUS Titanium power supplies
+
+Top-level efficiency with 80 PLUS Titanium certification 
+All Japanese capacitors 
+100% modular cables 
+24/7 continuous power output with 50℃ operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Dual EPS 8pin with multiple PCI-E 8 / 6pin connectors support 
+Ultra silent 135mm fan with intelligent semi-fanless operation 
+
+### SPECIFICATION
+
+## SilverStone Strider Titanium
+
+## ST1500-TI
+
+## ST1300-TI
+
+## ST1100-TI
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Titanium PS/2
+
+Table 1 AC Input Line Requirements Parameter Vin( Full range ) Vin Frequency Iin(ST1100-TI) Iin(ST1300-TI) Iin(ST1500-TI)
+
+Min. 90 47
+
+Max. 264 63
+
+Nom. 
+100 --- 240 
+60 --- 50 
+12.0 --- 6.0 
+15.0 --- 7.5 
+17.6 --- 8.8 
+
+Unit VACrms Hz Arms Arms Arms
+
+This specification describes the requirements of 1100W,1300W,1500Watts switching power supply with an stretch ATX form-factor and EPS 12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics.
+
+The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+Power factor correction (PF)>0.90 at full load.
+
+1. AC INPUT
+
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and over the specified temperature range (Top). The peak inrush current shall be less than the ratings of its critical components (including input fuse, bulk rectifiers, and surge limiting device).
+
+2. DC OUTPUT
+
+| 2.1 DC voltage regulation | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| Parameter | Range | Min | Nom. | Max | Unit |
+| +3.3V | +/-3％ | +3.20 | +3.30 | +3.39 | Volts |
+| +5V | +/-3％ | +4.85 | +5.00 | +5.15 | Volts |
+| +12V | +/-3％ | +11.64 | +12.00 | +12.36 | Volts |
+| -12V | +/-10％ | -13.20 | -12.00 | -10.80 | Volts |
+| +5VSB | +/-5％ | +4.75 | +5.00 | +5.25 | Volts |
+
+Note: Voltage tolerance is requied at main connector and S-ATA connector(if used)
+
+2.2 Load ranges
+
+2.2.1:(ST1100-TI Load Range)
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Min(optional) 
+0 
+0 
+0.15 
+0 
+0 
+Nom. 
+- 
+- 
+- 
+- 
+- 
+
+Max Peak 
+25 
+22 
+92 
+0.3 
+3 
+
+1.Maximum c.ontinuous combined load on +3.3V and +5V outputs shall not exceed 120W. 
+2.Maximum continuous total DC output power should not exceed 1100W. 
+3.Peak DC output power should not exceed 1200W for 12 second. 
+
+2.2.2:(ST1300-TI Load Range)
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Min(optional) 
+0 
+0 
+0.15 
+0 
+0 
+Nom. 
+- 
+- 
+- 
+- 
+- 
+
+Max Peak 
+25 
+22 
+108 
+0.3 
+3 
+
+1.Maximum continuous combined load on +3.3V and +5V outputs shall not exceed 120W. 
+2.Maximum continuous total DC output power should not exceed 1300W. 
+3.Peak DC output power should not exceed 1400W for 12 second. 
+02 
+
+2.2.3:(ST1500-TI Load Range)
+
+1.Maximum c.ontinuous combined load on +3.3V and +5V outputs shall not exceed 120W. 
+2.Maximum continuous total DC output power should not exceed 1500W. 
+3.Peak DC output power should not exceed 1600W for 12 second. 
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Min(optional) 
+0 
+0 
+0.15 
+0 
+0 
+Nom. 
+- 
+- 
+- 
+- 
+- 
+
+Max Peak 
+25 
+22 
+125 
+0.3 
+3 
+
+2.3 Output Ripple
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Ripple&Noise 
+50 
+50 
+120 
+120 
+50 
+
+Unit mVp-p mVp-p mVp-p mVp-p mVp-p
+
+2.3.1 Ripple regulation
+
+2.3.2 Definition
+
+2.3.3 Ripple voltage test circuit
+
+The ripple voltage of the outputs shall be measured at the pins of the output connector when terminated in the load impedance specified in figure 1. Ripple and noise are measured at the connectors with a 0.1uF ceramic capacitor and a 10uF electrolytic capacitor to simulate system loading. Ripple shall be measured under any condition of line voltage, output load, line frequency, operation temperature.
+
+Figure 1. Ripple voltage test circuit
+
+AC Hot AC Neutral
+
+Power Supply V out V return 10uF 0.1uF Load
+
+Scope
+
+AC Ground
+
+2.4 Overshoot Any overshoot at turn on or turn off shall be less 10% of the norminal voltage value,all outputs shall be within the regulation limit of section 2.0 before issuing the power good signal of section 5.0.
+
+2.5 Efficiency
+
+2.6 Remote ON/OFF control
+
+3.1 Over current protection
+
+At 115Vac
+
+When the logic level "PS-ON" is low, the DC outputs are to be enabled. 
+When the logic level is high or open collector, the DC outputs are to be disabled. 
+
+The power supply shall have current limit to prevent the +3.3V,+5V,and +12V outputs from exceeding the values shown in the following Table.If the current limits are exceeded the power supply shall shutdown and latch off.
+
+3. PROTECTION
+
+3.2 Over Temperature Protection
+
+3.3 Over-power protection
+
+3.4 Under voltage protection.
+
+The power supply will be protected against over temperature conditions caused by loss of fan cooling or excessive ambient temperature. In an OTP condition the PSU will shutdown. When the power supply temperature drops to within specifide limits,t he power supply shall restore power automatically. The OTP must have built in hysteresis such that the power supply will not oscillate on and off due to temperature condition. The power supply will be shutdown and latch off when output power within 110~130% of rated DC output. Note: Assurance machine can work at low voltage,full load won't damage machine.
+
+In an under voltage fault occurs, the supply will latch all DC outputs into a shutdown state when +12V, +5V & +3.3V outputs under 85% of it's maximum value.
+
+Voltage +12V(ST1100-TI) +12V(ST1300-TI) +12V(ST1500-TI) +5V +3.3V
+
+Over Current Limit (Iout limit) 
+100A minimum; 130A maximum 
+120A minimum; 150A maximum 
+130A minimum; 160A maximum 
+28A minimum; 48A maximum 
+28A minimum; 48A maximum 
+
+load
+
+10% 
+20% 
+50% 
+100% 
+
+Efficiency
+
+90% 
+92% 
+94% 
+90% 
+
+PF
+
+- 
+0.95 
+0.95 
+0.95 
+
+3.5 Over voltage protection 
+The over voltage sense circuitry and reference shall reside in packages that are separate and distinct from 
+the regulator control circuity and reference.No single point fault shall be able to cause a sustained over 
+voltage condition on any or all outputs.The supply shall provide latch-mode over voltage protection as 
+defined in Table. 
+
+3.6 Short circuit 
+An output short circuit is defined as any output impedance of less than 0.1 ohms.The power supply shall 
+shut down and latch off for shorting the +3.3 VDC,+5 VDC,or+12VDC rails to return or any other rail. 
+Shorts between main output rails and +5VSB shall not cause any damage to the power supply. The 
+power supply shall either shut down and latch off or fold back for shorting the negative rails.+5VSB must 
+be capable of being shorted indefinitely,but when the short is removed, the power supply shall recover 
+automatically or by cycling PS_ON#.The power supply shall be capable of withstanding a continuous 
+short-circuit to the output without damage or overstress to the unit 
+3.7 No load operation 
+No damage or hazardous condition should occur with all the DC output connectors disconnected from the 
+load. The power supply may latch into the shutdown state. 
+
+output +12 VDC +5 VDC +3.3 VDC
+
+Minimum 
+13 
+5.5 
+3.6 
+Nominal 
+15 
+6 
+4 
+Maximum 
+17 
+7 
+5 
+
+Unit Volts Volts Volts
+
+Figure 2. PS-OK Timing Sequence 
+(1)T3: Power good signal turn on delay time (100ms~500ms) 
+(2)T4: Power good signal turn off delay time (75%Load 1ms min) 
+(3)T2: Rise time (0.1~20ms) 
+(4)T6: Hold up time (75%Load 16ms Min) 
+
+4.1 Signal timing drawing
+
+4.2 Hold up time
+
+Figure 2. is a reference for signal timing for main power connector signals and rails.
+
+When the power loss its input power, it shall maintain 16ms in regulation limit at normal input voltage and 75% load (AC:115V/60Hz or 230V/50Hz)
+
+4. TIMING
+
+6.1 Underwriters Laboratory (UL) recognition.
+
+7.1 ELECTROSTATIC DISCHARGE (ESD) - IEC 61000 – 4 - 2：2008 
+7.2 ELECTRICAL FAST TRANSIENT / BURST ( EFT/B) – IEC 61000 – 4 - 4：2012 
+7.3 SURGE – IEC 61000 – 4 - 5：2014 
+7.4 POWER FREQUENCY MAGNETIC FIELD – IEC 61000 – 4 - 8：2009 
+7.5 VOLTAGE DIPS – IEC 61000 – 4 - 11：2004 
+7.6 RADIATED SUSCEPTIBILTY – IEC 61000 – 4 – 3：2006+A1：2007+A2： 
+2010(IEC 61000 – 4 – 3： 2010) 
+7.7 CONDUCTED SUSCEPTIBILTY – IEC 61000 – 4 - 6：2008 
+(IEC 61000 – 4 – 6： 2013) 
+7.8 VOLTAGE FLUCTATION - EN 61000 – 3 – 3：2008(EN 61000 – 3 – 3：2013) 
+7.9 EN61000-3-2：2006+A2：2009 harmonic current emissions. 
+(EN 61000 – 3 – 2：2014) 
+
+7.10 EN55022：2010/AC：2011 Class B Radio interference (CISPR 22). 7.11 ANSI C63.4-2009 / FCC Part 15 Subpart B / ICE-003 lssue 5 class B 115VAC operation.
+
+5. ENVIRONMENT
+
+6. SAFETY
+
+7. ELECTROMAGNETIC COMPATIBILITY (EMC)
+
+5.1 Operation
+
+The power supply designed to meet UL 60950.
+
+5.2 Shipping and Storage
+
+Temperature Relative Humidity
+
+0 to 50℃ 
+10 to 90%, non-condensing 
+
+Temperature Relative Humidity -20 to 90℃ 5 to 95%, non-condensing
+
+5.3 Altitude Operating Storage
+
+2000m 
+3000m 
+
+8.1 MTBF (mean time between failures) calculation
+
+150 mm (W) × 86 mm (H) × 180mm (D)
+
+8. MTBF
+
+9. Mechanical Specification
+
+The demonstrated MTBF shall be 100,000 hours of continuous operation at 25oC,at 80% load, and nominal line. The MTBF of the power supply be calculated in accordance with MIL-HDBK-217F. The DC FAN is not included.
+
+If applicable to sales in Europe, the power supply shall meet the requirements of EN 61000-3-2 Class D and the Guidelines for the Suppression of Harmonics in Appliances and General Use Equipment Class D for harmonic line current content at full-rated power.
+
+NO. G11231190
+
+
+
+# Power supplies
+URL: https://www.silverstonetek.com/upload/sstedm/st70f-pb/st70f-pb_st60f-pb_st50f-pb_edm_en.pdf
+Author: shadow
+
+HEADQUARTERS 
+12F.,NO.168,Jiankang Rd., Zhonghe Dist., 
+New Taipei City 235, Taiwan R.O.C. 
+Tel: +886-2-8228-1238 
+Fax: +886-2-8228-7123 
+USA 
+13626 Monte Vista Ave.Unit A, Chino, 
+CA 91710, USA 
+Tel: +1-909-465-9596 
+Fax: +1-909-465-9596 
+EUROPE 
+Brandstücken 43, D-22549 Hamburg 
+Germany 
+Tel: +49-40-675931-0 
+Fax: +49-40-675931-66 
+
+Model Name. SST-ST70F-PB SST-ST60F-PB SST-ST50F-PB www.silverstonetek.com
+
+## Power supplies
+
+700W / 600 W / 500W 700W / 600 W / 500W
+
+Special Features Special Features pecial Features
+
+High efficiency with 80 PLUS Bronze certification 
+24/7 continuous power output with 40 C operating temperature 
+100% modular cables 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Silent running 120mm fan with 18dBA 
+PCI-E 8pin and PCI-E 6pin connectors support 
+
+o
+
+with excellent combination of features, efficiency, and durability
+
+Performance(output)
+
+### Introduction
+
+648W / 700W for +12V output 552W / 600W for +12V output 456W / 500W for +12V output 100%
+
+The Strider series is the most versatile and time-proven line of power supply products from SilverStone with models rated from 500W to 1500W and packed
+
++3%
+
+with innovative features. To build on this impressive lineup, SilverStone engineered a new generation of power supplies that combine more features than ever before.
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| (ripple and noise) | +1% +3% | 80% 60% | | Efficency 80 Plus Bronze Gold |
+| | | +5% | | Silver |
+| | 160mm | 180mm | Bronze 40 | 20 |
+| | 140mm | | | 0 |
+| Size | | 25C | | Quietness |
+| 140mm | | 40C | | 18 BA |
+
+Stability
+
+The Strider Plus ST50F-P boasts the important features professionals and enthusiasts
+
+crave:
+
+•High efficiency: 80 PLUS Bronze level
+
+d
+
+•Compact size (140mm depth) to fit in nearly any system
+
+50C
+
+•Class-leading powerful single +12V rail with 34A
+
+Operating temperature (component grade)
+
+40 C
+
+•Quiet and cool 120mm fan
+
+The versatility of these power supplies extends to the 100% modular cables with all the important connectors to support current and future graphics card
+
+specifications.
+
+For enthusiasts that are looking for the power supply with all the right features to make a high performing and aesthetically pleasing system, the Strider Plus series reaches the goal with maximum satisfaction.
+
+#### Specifications
+
+SST-ST70F-PB / SST-ST60F-PB / SST-ST50F-PB 47Hz ~ 63Hz
+
+Active PFC（PF>0.95 at full load） 82% ~ 85%（20% to 100% loading）
+
+Model No. 
+Input Frequency Range 
+PFC 
+Efficiency 
+MTBF 
+Operating temperature 
+Color 
+Cooling System 
+Noise Level 
+Dimension 
+Weight 
+Form Factor 
+Black (lead-free paint) 
+Single 120mm silent fan 
+18 dBA minimum 
+150 mm (W) × 86 mm (H) × 140 mm (D) 
+2.0 kg 
+ATX 
+
+100,000 hours 
+0°C ~ 40°C 
+
+##### Model No.
+
+MB 24 / 20P CPU 4 + 4P PCI-E 6 + 2P PCI-E 6P FLOPPY 4P SATA PERIPHERAL 4P
+
+SST-ST70F-PB SST-ST60F-PB
+
+-x 2 -
+
+x 3 
+x 3 
+x 3 
+x 8 
+x 8 
+SST-ST50F-PB x 8 
+
+Model No. Max. output +3.3V +5V +12V -12V +5Vsb
+
+22A 18A 54A 2.5A 0.3A
+
+SST-ST70F-PB 700W
+
+SST-ST60F-PB 600W
+
+| 20A | 130W | 17A | 648W 46A | 3.6W 0.3A | 12.5W 2.5A |
+| --- | --- | --- | --- | --- | --- |
+| 18A | 120W | 16A | 552W 38A | 3.6W 0.3A | 12.5W 2.5A |
+
+SST-ST50F-PB 500W
+
+110W 456W 3.6W 12.5W
+
+www.silverstonetek.com
+
+80
+
+115VAC 230VAC
+
+82
+
+84
+
+86
+
+88
+
+100% moudlar cable design for use with short cable kit such as SilverStone’s PP05 or for easy removal in a case with cable routed and tied down
+
+140mm depth sets new standard for high wattage PSUs with modular cables
+
+Designed for 80 PLUS Bronze level of efficiency to reduce wasted heat and save on electricity ±3% regulation and low ripple & noise performance for high stability
+
+Flat cables have much greater flexibility to allow for tighter folding and management of cables
+
+Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking
+
+1000
+
+500
+
+1500
+
+2000
+
+2500
+
+Built-in 120mm fan has excellent airflow and low noise, perfect for quiet home or office use
+
+140mm
+
+180mm
+
+
+
+# STRIDER TITANIUM SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-ST80F-TI-ST70F-TI-ST60F-TI-Manual.pdf
+Author: shadow
+
+ST80F-TI / ST70F-TI / ST60F-TI
+
+## STRIDER TITANIUM SERIES
+
+World’s smallest 80 PLUS Titanium, full-modular ATX power supplies
+
+High efficiency with 80 PLUS Titanium certification Compact design with a depth of 150mm for easy integration 100% modular cables 24/7 continuous power output with 40C operating temperature Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise All Japanese capacitors Ultra silent 120mm fan with 18dBA minimum
+
+o
+
+Installation and system optimization guide:
+
+The following manual and guides were carefully prepared by the SilverStone engineering team to help you maximize the potential of your SilverStone product. Please keep this manual for future reference when upgrading or performing maintenance on your system. A copy of this manual can also be downloaded from our website at:
+
+P.1
+
+AC INPUT
+
+P.2
+
+DC OUTPUT
+
+P.4
+
+| DC OUTPUT PROTECTION TIMING | P.2 P.4 P.5 |
+| --- | --- |
+| ENVIRONMENT SAFETY | P.6 P.6 |
+
+P.5
+
+TIMING
+
+P.6
+
+P.6
+
+SAFETY
+
+P.6
+
+ELECTROMAGNETIC COMPATIBILITY (EMC)
+
+P.7
+
+MTBF
+
+P.7
+
+Mechanical Specification
+
+##### SPECIFICATION
+
+#### SilverStone Strider Titanium
+
+### ST80F-TI ST70F-TI ST60F-TI
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Titanium PS/2
+
+This specification describes the requirements of 600,700,800 Watts switching power supply with an stretch ATX form-factor and EPS 12V, +5V standby voltage ,remote on/off control, full range line input capability and forced air cooling characteristics.
+
+1. AC INPUT
+
+1.1 AC input requirements The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+| | Table 1 AC Input Line Requirements | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Parameter | | Min. | | | | Nom. | | | Max. | | Unit | | |
+| | Vin( Full range ) | | | | 90 | | | 100---240 | | | 264 | | VACrms | | |
+| | Vin Frequency | | | | 47 | | | 60-----50 | | | 63 | | Hz | | |
+| | | Iin(600W) | | | - | | | 9-----4.5 | | | | - | Arms | | |
+| | | Iin(700W) | | | - | | | 10------5 | | | | - | Arms | | |
+| | | Iin(800W) | | | - | | | 11--- 5.5 | | | | - | Arms | | |
+
+Power factor correction (PF)>0.90 at full load.
+
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and over the specified temperature range (Top). The peak inrush current shall be less than the ratings of its critical components (including input fuse, bulk rectifiers, and surge limiting device).
+
+2. DC OUTPUT
+
+2.1 DC voltage regulation
+
+Range +/-3％ +/-3％ +/-3％ +/-10％ +/-5％
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+
+Min 
++3.20 
++4.85 
++11.64 
+-13.20 
++4.75 
+Nom. 
++3.30 
++5.00 
++12.00 
+-12.00 
++5.00 
+Max 
++3.39 
++5.15 
++12.36 
+-10.80 
++5.25 
+
+Unit Volts Volts Volts Volts Volts
+
+2.2 Load ranges
+
+| 2.2.1 ST60F-TI Load Range | | | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Parameter | | | | Min(optional) | | | | | Nom. | | | | | Max | | | | Peak | | | Unit | |
+| +3.3V | | | | | 0.1 | | | | | - | | | | 20 | | | | - | | | Amps | |
+| | +5V | | | | 0.2 | | | | | - | | | | 20 | | | | - | | | Amps | |
+| | +12V | | | | 0.15 | | | | | - | | | | 49 | | | | - | | | Amps | |
+| | -12V | | | | | 0 | | | | - | | | | 0.3 | | | | - | | | Amps | |
+| +5VSB | | | | | | 0 | | | | - | | | | 2.5 | | | | - | | | Amps | |
+| | | 1.Maximum continuous total DC output power should not exceed 600W. | | | | | | | | | | | | | | | | | | | | |
+
+1.Maximum continuous total DC output power should not exceed 600W. 
+2.Maximum continuous combined load on +3.3V and +5V outputs shall not exceed 100W. 
+3.Maximum combined current for the +12V outputs shall be 49A(588W). 
+4.Peak DC output power should not exceed 650W for 12 second. 
+
+| | | 4.Peak DC output power should not exceed 650W for 12 second. | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2.2.2: ST70F-TI Load Range | | | | | | | | | | | | | | | | | | | | | | |
+| Parameter | | | | Min(optional) | | | | | Nom. | | | | | Max | | | | Peak | | | Unit | |
+| +3.3V | | | | | 0.1 | | | | | - | | | | 22 | | | | - | | | Amps | |
+| | +5V | | | | 0.2 | | | | | - | | | | 22 | | | | - | | | Amps | |
+| | +12V | | | | 0.15 | | | | | - | | | | 58 | | | | - | | | Amps | |
+| | -12V | | | | | 0 | | | | - | | | | 0.3 | | | | - | | | Amps | |
+| +5VSB | | | | | | 0 | | | | - | | | | 2.5 | | | | - | | | Amps | |
+| | | 1.Maximum continuous total DC output power should not exceed 700W. | | | | | | | | | | | | | | | | | | | | |
+
+1.Maximum continuous total DC output power should not exceed 700W. 
+2.Maximum continuous combined load on +3.3V and +5V outputs shall not exceed 120W. 
+3.Maximum combined current for the +12V outputs shall be 58A(696W). 
+4.Peak DC output power should not exceed 750W for 12 second. 
+
+| | | 4.Peak DC output power should not exceed 750W for 12 second. | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2.2.3: ST80F-TI Load Range | | | | | | | | | | | | | | | | | | | | | | |
+| Parameter | | | | Min(optional) | | | | | Nom. | | | | | Max | | | | Peak | | | Unit | |
+| +3.3V | | | | | 0.1 | | | | | - | | | | 22 | | | | - | | | Amps | |
+| | +5V | | | | 0.2 | | | | | - | | | | 22 | | | | - | | | Amps | |
+| | +12V | | | | 0.15 | | | | | - | | | | 66 | | | | - | | | Amps | |
+| | -12V | | | | | 0 | | | | - | | | | 0.3 | | | | - | | | Amps | |
+| +5VSB | | | | | | 0 | | | | - | | | | 2.5 | | | | - | | | Amps | |
+| | | 1.Maximum continuous total DC output power should not exceed 800W. | | | | | | | | | | | | | | | | | | | | |
+
+1.Maximum continuous total DC output power should not exceed 800W. 
+2.Maximum continuous combined load on +3.3V and +5V outputs shall not exceed 120W. 
+3.Maximum combined current for the +12V outputs shall be 66A(792W). 
+4.Peak DC output power should not exceed 850W for 12 second. 
+
+2.3 Output Ripple
+
+2.3.2 Definition
+
+2.3.3 Ripple voltage test circuit
+
+2.3.1 Ripple regulation
+
+2.4 Overshoot
+
+Any overshoot at turn on or turn off shall be less 10% of the normal voltage value, all outputs shall be within the regulation limit of section 2.0 before issuing the power good signal of section 5.0.
+
+2.5 Efficiency
+
+Power supply efficiency typical 10% load/90%, 20% load/92%, 50% load/94%, 100% load/90% at 115V AC voltage on all outputs.
+
+The ripple voltage of the outputs shall be measured at the pins of the output connector when terminated in the load impedance specified in figure 1. Ripple and noise are measured at the connectors with a 0.1uF ceramic capacitor and a 10uF electrolytic capacitor to simulate system loading. Ripple shall be measured under any condition of line voltage, output load, line frequency, operation temperature.
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Ripple&Noise 
+50 
+50 
+120 
+120 
+50 
+
+Unit mVp-p mVp-p mVp-p mVp-p mVp-p
+
+Figure 1. Ripple voltage test circuit
+
+AC Hot AC Neutral
+
+Power Supply V out V return
+
+10uF 0.1uF
+
+Load
+
+Scope
+
+AC Ground
+
+2.6 Remote ON/OFF control
+
+3. PROTECTION
+
+3.1 Over current protection
+
+3.2 Over Temperature Protection
+
+The power supply shall have current limit to prevent the +3.3V,+5V,and +12V outputs from exceeding the values shown in the following Table. If the current limits are exceeded the power supply shall shutdown and latch off.
+
+The power supply will be protected against over temperature conditions caused by loss of fan cooling or excessive ambient temperature. In an OTP condition the PSU will shutdown. When the power supply temperature drops to within specifide limits, the power supply shall restore power automatically. The OTP circuit temperature drops to within specifide limits, the power supply shall restore power automatically. The OTP circuit condition.
+
+3.3 Over-power protection
+
+The power supply will be shutdown and latch off when output power within 110~160% of rated DC output. Note: Assurance machine can work at low voltage,full load won't damage machine.
+
+3.4 Under voltage protection.
+
+In an under voltage fault occurs, the supply will latch all DC outputs into a shutdown state when +12V,+5V & +3.3V outputs under 85% of it's maximum value.
+
+ST60F-TI
+
+When the logic level "PS-ON" is low, the DC outputs are to be enabled. 
+When the logic level is high or open collector, the DC outputs are to be disabled. 
+
+Voltage +12V +5V +3.3V
+
+Over Current Limit (Iout limit) 49A minimum; 75A maximum 22A minimum; 45A maximum 22A minimum; 45A maximum
+
+ST70F-TI Voltage +12V +5V +3.3V
+
+Over Current Limit (Iout limit) 58A minimum; 87A maximum 24A minimum; 45A maximum 24A minimum; 45A maximum
+
+ST80F-TI Voltage +12V +5V +3.3V
+
+Over Current Limit (Iout limit) 66A minimum; 95A maximum 24A minimum; 45A maximum 24A minimum; 45A maximum
+
+3.5 Over voltage protection The over voltage sense circuitry and reference shall reside in packages that are separate and distinct from the regulator control circuity and reference. No single point fault shall be able to cause a sustained from the regulator control circuity and reference. No single point fault shall be able to cause a sustained as defined in Table.
+
+3.6 Short circuit An output short circuit is defined as any output impedance of less than 0.1 ohms. The power supply shall shut down and latch off for shorting the +3.3 VDC,+5 VDC,or+12 VDC rails to return or any other rail. Shorts between main output rails and +5VSB shall not cause any damage to the power supply. The power supply shall either shut down and latch off or fold back for shorting the negative rails.+5VSB must be capable of being shorted indefinitely, but when the short is removed, the power supply shall recover automatically or by cycling PS_ON#. The power supply shall be capable of withstanding a continuous short-circuit to the output without damage or overstress to the unit
+
+3.7 No load operation No damage or hazardous condition should occur with all the DC output connectors disconnected from the load. The power supply may latch into the shutdown state.
+
+Figure 2. is a reference for signal timing for main power connector signals and rails.
+
+Figure 2. PS-OK Timing Sequence
+
+output +12 VDC +5 VDC +3.3 VDC
+
+Minimum 
+13 
+5.5 
+3.6 
+Nominal 
+15 
+6 
+4 
+Maximum 
+17 
+7 
+5 
+
+Unit Volts Volts Volts
+
+4.1 Signal timing drawing
+
+4. TIMING
+
+(1)T3: Power good signal turn on delay time (100ms~500ms) 
+(2)T2: Rise time(0.1~20ms) 
+(3)T6: Hold up time (75%Load 16ms) 
+
+When the power loss its input power, it shall maintain 16ms in regulation limit at normal input voltage and 75% full load (AC:115V/60Hz or 230V/50Hz)
+
+The power supply designed to meet UL 60950.
+
+4.2 Hold up time
+
+5.1 Operation
+
+5. ENVIRONMENT
+
+6.1 Underwriters Laboratory (UL) recognition.
+
+6. SAFETY
+
+7.1 ELECTROSTATIC DISCHARGE (ESD) - IEC 61000 – 4 - 2：2008 
+7.2 ELECTRICAL FAST TRANSIENT / BURST ( EFT/B) – IEC 61000 – 4 - 4：2012 
+7.3 SURGE – IEC 61000 – 4 - 5：2005 
+7.4 POWER FREQUENCY MAGNETIC FIELD – IEC 61000 – 4 - 8：2009 
+7.5 VOLTAGE DIPS – IEC 61000 – 4 - 11：2004 
+7.6 RADIATED SUSCEPTIBILTY – IEC 61000 – 4 – 3：2006+A1：2007+A2：2010 
+7.7 CONDUCTED SUSCEPTIBILTY – IEC 61000 – 4 - 6：2008 
+7.8 VOLTAGE FLUCTATION - EN 61000 – 3 – 3：2008 
+
+7. ELECTROMAGNETIC COMPATIBILITY (EMC)
+
+Temperature Relative Humidity
+
+0 to 40C 10 to 90%, non-condensing
+
+o
+
+5.2 Shipping and Storage
+
+Temperature Relative Humidity
+
+-20 to 90C 5 to 95%, non-condensing
+
+o
+
+5.3 Altitude
+
+Operating Storage
+
+10,000FT max 
+50,000FT max 
+
+7.9 EN61000-3-2：2006+A2：2009 harmonic current emissions.
+
+7.10 EN55022：2010/AC：2011 Class B Radio interference (CISPR 22). 7.11 ANSI C63.4-2009 / FCC Part 15 Subpart B / ICE-003 lssue 5 class B 115VAC operation.
+
+If applicable to sales in Europe, the power supply shall meet the requirements of EN 61000-3-2 Class D and the Guidelines for the Suppression of Harmonics in Appliances and General Use Equipment Class D for harmonic line current content at full-rated power.
+
+The demonstrated MTBF shall be 100,000 hours of continuous operation at 25oC,at 80% load, and nominal line. The MTBF of the power supply be calculated in accordance with MIL-HDBK-217F. The DC FAN is not included.
+
+8.1 MTBF (mean time between failures) calculation
+
+8. MTBF
+
+150 mm (W) × 86 mm (H) × 150mm (D)
+
+9.Mechanical Specification
+
+G11226000

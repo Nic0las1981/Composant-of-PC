@@ -1,5 +1,9 @@
-import { useId } from 'react';
+import { useId, useState } from 'react';
 import IndividualProductArt from './IndividualProductArt';
+import AioPumpArt from './AioPumpArt';
+import CaseFacePattern from './CaseFacePattern';
+import {coolerAppearances,caseAppearances} from '../data/hardwareAppearance';
+import {getProductImage} from '../data/productImages';
 import type { Component } from '../data/catalog';
 import { getVisualProfile } from '../data/visualProfiles';
 
@@ -10,12 +14,17 @@ type ProductArtProps = {
   component?: Component;
   /** Extra engraving and surface detail for the large product preview. */
   detailed?: boolean;
+  /** Allows offline review of the reconstructed fallback independently of photos. */
+  preferIllustration?: boolean;
 };
 
 /** Specification-based illustrations: appearance cues, not manufacturer CAD or photographs. */
-export default function ProductArt({ category, brand, className, component, detailed = false }: ProductArtProps) {
+export default function ProductArt({ category, brand, className, component, detailed = false, preferIllustration = false }: ProductArtProps) {
   const id = `hardware-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`;
   const profile = getVisualProfile(component);
+  const productImage=preferIllustration?undefined:getProductImage(component);
+  const [loadedImage,setLoadedImage]=useState<string|null>(null);
+  const photoVisible=!!productImage&&loadedImage===productImage.imageURL;
   const paint = (name: string) => `url(#${id}-${name})`;
   const accent = profile?.accent || '#b3f472';
   const shell = profile?.color || '#30383a';
@@ -55,17 +64,18 @@ export default function ProductArt({ category, brand, className, component, deta
     <path d={`m${x-size*.5} ${y}h${size}m-${size*.5} -${size*.5}v${size}`} stroke="#303b40" strokeWidth=".35" />
   </g>;
   let fanSequence = 0;
-  const fan = (x: number, y: number, r: number, glowing = false, fanColor = '#253039', square = false) => {
+  const fan = (x: number, y: number, r: number, glowing = false, fanColor = '#253039', square = false, detail?: {roundedFrame?:boolean;bladeCount?:number;bladeColor?:string}) => {
     const rotorId = `${id}-rotor-${fanSequence++}`;
-    return <g data-art-part="fan" key={`f-${x}-${y}-${r}`} transform={`translate(${x} ${y})`} data-rgb-zone={glowing ? "fan" : undefined}>
+    const blades=detail?.bladeCount??9;
+    return <g data-art-part="fan" data-fan-frame={square?detail?.roundedFrame?'round':'square':'axial'} data-blade-count={blades} key={`f-${x}-${y}-${r}`} transform={`translate(${x} ${y})`} data-rgb-zone={glowing ? "fan" : undefined}>
       <defs><radialGradient id={rotorId} cx=".35" cy=".25" r=".8"><stop stopColor={mix(fanColor,255,.38)}/><stop offset=".42" stopColor={fanColor}/><stop offset=".76" stopColor={mix(fanColor,0,.38)}/><stop offset="1" stopColor={mix(fanColor,255,.09)}/></radialGradient></defs>
-      {square && <><rect x={-r-2.2} y={-r-2.2} width={r*2+4.4} height={r*2+4.4} rx="2" fill={fanColor} stroke="#77858b" strokeWidth=".45" />{[-1,1].flatMap(a=>[-1,1].map(b=>screw(a*(r+.4),b*(r+.4),.65)))}</>}
+      {square && <>{detail?.roundedFrame?<><circle r={r+2.2} fill={fanColor} stroke="#77858b" strokeWidth=".45"/>{[-1,1].flatMap(a=>[-1,1].map(b=><rect key={`${a}-${b}`} x={a*(r*.77)-2.5} y={b*(r*.77)-2.5} width="5" height="5" rx="1.3" fill={fanColor} stroke="#77858b" strokeWidth=".35"/>))}</>:<rect x={-r-2.2} y={-r-2.2} width={r*2+4.4} height={r*2+4.4} rx="2" fill={fanColor} stroke="#77858b" strokeWidth=".45" />}{[-1,1].flatMap(a=>[-1,1].map(b=>screw(a*(detail?.roundedFrame?r*.77:r+.4),b*(detail?.roundedFrame?r*.77:r+.4),.65)))}</>}
       <circle r={r+1} fill={`url(#${rotorId})`} stroke="#6e7a7e" strokeWidth=".65" />
       {glowing && <circle r={r-.25} fill="none" stroke={paint('rgb')} strokeWidth="3.6" opacity=".19" />}
       <circle r={r-.35} fill="#10181c" stroke={glowing ? paint('rgb') : '#445159'} strokeWidth={glowing ? 1.65 : .55} />
       {glowing && <circle r={r-.35} fill="none" stroke="#d5edff" strokeWidth=".3" opacity=".8" />}
-      {Array.from({ length: 9 }, (_, i) => <g key={i} transform={`rotate(${i*40})`}>
-        <path d={`M-1 -1 C${-r*.7} ${-r*.33},${-r*.9} ${-r*.83},${-r*.30} ${-r*.92} Q${r*.14} ${-r*.94},${r*.25} ${-r*.76} Q${-r*.34} ${-r*.48},1 1Z`} fill={glowing ? paint('rgb-blades') : `url(#${rotorId})`} stroke={glowing ? '#dae7f7' : '#7f9096'} strokeWidth=".22" />
+      {Array.from({ length: blades }, (_, i) => <g key={i} transform={`rotate(${i*360/blades})`}>
+        <path d={`M-1 -1 C${-r*.7} ${-r*.33},${-r*.9} ${-r*.83},${-r*.30} ${-r*.92} Q${r*(blades<=5?.55:.14)} ${-r*.94},${r*(blades<=5?.66:.25)} ${-r*(blades<=5?.65:.76)} Q${-r*.34} ${-r*.48},1 1Z`} fill={glowing ? paint('rgb-blades') : detail?.bladeColor??`url(#${rotorId})`} stroke={glowing ? '#dae7f7' : '#7f9096'} strokeWidth=".22" />
         <path d={`M-1 -1Q${-r*.36} ${-r*.35},${-r*.3} ${-r*.86}`} stroke={mix(fanColor,0,.65)} strokeWidth=".75" opacity=".55"/>
         {detailed && <path d={`M-2 -3Q${-r*.48} ${-r*.55},${-r*.26} ${-r*.82}`} stroke="#bac5c8" strokeWidth=".2" opacity=".4" />}
       </g>)}
@@ -82,15 +92,17 @@ export default function ProductArt({ category, brand, className, component, deta
       const intel = maker.toLowerCase().includes('intel');
       const pga = component?.socket === 'AM4';
       const am5 = component?.socket === 'AM5' || (!component && !intel);
-      const width = intel ? 44 : 51;
-      const height = intel ? 57 : 51;
+      const cpuProfile=profile?.category==='cpu'?profile:undefined;
+      const width = cpuProfile?cpuProfile.widthMm*1.275:intel ? 47.8 : 51;
+      const height = cpuProfile?cpuProfile.heightMm*1.275:intel ? 57.4 : 51;
       const ihs = am5
         ? 'M10 5H20V9H30V5H41V14H46V24H42V30H46V40H37V45H27V41H21V45H11V36H6V26H10V20H6V10H10Z'
         : `M6 6H${width-6}V${height-6}H6Z`;
-      artwork = <g transform={`matrix(1,-.24,.56,.66,${intel?23:21},30)`}>
+      artwork = <g data-package={component?.socket??(intel?'LGA1700':'AM5')} transform={`matrix(1,-.24,.56,.66,${intel?21:21},30)`}>
         <path d={`M0 ${height}v5h${width}v-5M${width} 0v${height+5}`} fill="#1b342c" stroke="#4c6859" strokeWidth="1.2" />
         <rect width={width} height={height} rx="1.4" fill="#255542" stroke="#b0b888" strokeWidth=".7" />
         <path d={`M1.2 1.2h${width-2.4}M1.2 ${height-1.2}h${width-2.4}`} stroke="#97b58b" strokeWidth=".45" />
+        {intel&&<path d={`M0 ${height*.28}a1.5 1.5 0 0 1 0 3M${width} ${height*.28}a1.5 1.5 0 0 0 0 3M0 ${height*.71}a1.5 1.5 0 0 1 0 3M${width} ${height*.71}a1.5 1.5 0 0 0 0 3`} fill="#152925" stroke="#92aa90" strokeWidth=".4"/>}
         {detailed && <path d={`M4 ${height*.36}v${height*.25}h2M${width-4} ${height*.36}v${height*.25}h-2`} stroke="#c7bf7a" strokeWidth=".3" opacity=".75" />}
         {pga && Array.from({length:detailed?20:13},(_,i)=><g key={i}>
           <path d={`M${2+i*(width-4)/(detailed?20:13)} ${height+1}v2.8M${2+i*(width-4)/(detailed?20:13)} .8v1.5`} stroke="#dfbd68" strokeWidth=".7" />
@@ -101,8 +113,8 @@ export default function ProductArt({ category, brand, className, component, deta
         <path d={ihs} fill={paint('brushed')} opacity=".25" />
         <path d={ihs} transform="translate(.4 -.4)" fill="none" stroke="#f0f3ed" strokeWidth=".25" opacity=".5" />
         <path d={`M13 13H${width-12}M13 ${height-12}H${width-12}`} stroke="#f1f4ec" strokeWidth=".65" opacity=".7" />
-        <text x={width/2} y={height*.42} textAnchor="middle" fill="#475552" fontFamily="Arial,sans-serif" fontSize={intel?8:7} fontWeight="700">{intel?'intel':maker.toUpperCase() || 'CPU'}</text>
-        <text x={width/2} y={height*.56} textAnchor="middle" fill="#64706b" fontFamily="Arial,sans-serif" fontSize="4.3" letterSpacing="1">{/\bCore\b/i.test(model)?'CORE':/\bRyzen\b/i.test(model)?'RYZEN':''}</text>
+        <text x={width/2} y={height*.38} textAnchor="middle" fill="#475552" fontFamily="Arial,sans-serif" fontSize={intel?7:4.7} fontWeight="700">{intel?'intel':maker.toUpperCase() || 'CPU'}</text>
+        <text x={width/2} y={height*.56} textAnchor="middle" fill="#58635f" fontFamily="Arial,sans-serif" fontSize={intel?4.3:7} fontWeight={intel?'400':'700'} letterSpacing={intel?1:'.35'}>{/\bCore\b/i.test(model)?'CORE':/\bRyzen\b/i.test(model)?'RYZEN':''}</text>
         <text x={width/2} y={height*.68} textAnchor="middle" fill="#626e67" fontFamily="Arial,sans-serif" fontSize="2.9">{engraving || component?.socket || ''}</text>
         {detailed && <><text x={width/2} y={height*.77} textAnchor="middle" fill="#728079" fontFamily="monospace" fontSize="1.75">{component?.socket} · PROCESSOR</text><g transform={`translate(${width-14} ${height-16})`}>{[0,1,2].flatMap(y=>[0,1,2].map(x=><rect key={`${x}-${y}`} x={x} y={y} width=".65" height=".65" fill="#6c7972"/>))}</g></>}
         <path d={`M2 ${height-3}l3 1.3-3 1.3Z`} fill="#e1c97d" />
@@ -286,6 +298,8 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'cooler': {
       const p = profile?.category === 'cooler' ? profile : undefined;
+      const appearance=component?coolerAppearances[component.id]:undefined;
+      const fanDetail=appearance?{roundedFrame:appearance.fanFrame==='round',bladeCount:appearance.bladeCount,bladeColor:maker==='Noctua'&&!/chromax/i.test(model)?'#795239':undefined}:undefined;
       if (p?.kind === 'aio') {
         const count = p.fanCount;
         const width = count===3?88:count===2?68:40;
@@ -297,7 +311,7 @@ export default function ProductArt({ category, brand, className, component, deta
             <path d={`M10 6 ${width+10} -2v25L10 33Z`} fill={paint('heatsink-surface')} stroke="#a0aaac" strokeWidth=".7" />
             <path d="M0 0 10 6v27L0 26Z" fill={p.color} stroke="#7b898f" strokeWidth=".6" />
             <g transform="translate(11 8) skewY(-5.2)">
-              {Array.from({length:count},(_,i)=>fan((i+.5)*(width-2)/count,11.5,Math.min(10.4,(width/count-6)/2),p.fanRgb || false,p.fanColor,true))}
+              {Array.from({length:count},(_,i)=>fan((i+.5)*(width-2)/count,11.5,Math.min(10.4,(width/count-6)/2),p.fanRgb || false,p.fanColor,true,fanDetail))}
             </g>
             <path d={`M13 31 ${width+6} 22`} stroke="#bec7c8" strokeWidth=".5" />
             {screw(3,5,.7)}{screw(3,23,.7)}
@@ -306,12 +320,12 @@ export default function ProductArt({ category, brand, className, component, deta
           <path d={`M${left+5} 41C2 52 17 83 53 68M${left+10} 44C18 57 28 81 58 72`} fill="none" stroke={p.tubeColor || '#2d393f'} strokeWidth="3.5" strokeLinecap="round" />
           <path d={`M${left+5} 41C2 52 17 83 53 68M${left+10} 44C18 57 28 81 58 72`} fill="none" stroke="#8d9da1" strokeWidth=".55" strokeDasharray={detailed?'.7 1':undefined} opacity=".65" />
           <path d={`m${left+2} 39 5 4m-1-1 5 4M50 67l5 5m1-2 5 4`} stroke="#b1bab7" strokeWidth="2.5" />
-          <path d="m50 56 25-6 16 11v12l-25 8-16-13Z" fill={paint('pump-surface')} stroke="#8f9ea3" strokeWidth=".8" />
+          {appearance?.pumpShape?<AioPumpArt appearance={appearance} color={p.pumpColor??p.color} brand={maker} rgb={p.rgb} paint={paint}/>:<><path d="m50 56 25-6 16 11v12l-25 8-16-13Z" fill={paint('pump-surface')} stroke="#8f9ea3" strokeWidth=".8" />
           <path d="m50 56 25-6 16 11-25 7Z" fill={paint('pump-surface')} stroke="#c4cfcc" strokeWidth=".7" />
           <path d="m54 71 12 9 21-6" stroke="#bdc3c0" strokeWidth=".6" />
           <g transform="matrix(1,-.23,.6,.66,56,57)">
             {p.pumpDisplay==='lcd' ? <><rect width="23" height="15" rx="3" fill="#091d2a" stroke="#91b1bb" strokeWidth=".8" /><path d="M4 11h2l2-4 2 3h2l2-5 3 6h3" stroke="#65bccb" strokeWidth=".45"/><text x="11.5" y="8" textAnchor="middle" fill="#b1edf0" fontSize="6" fontFamily="Arial,sans-serif">32°</text></> : <><ellipse cx="11" cy="7" rx="11" ry="8" fill="#1a252c" stroke={p.pumpDisplay==='rgb-ring'?paint('rgb'):'#8b9b9e'} data-rgb-zone={p.pumpDisplay==='rgb-ring'?'pump-ring':undefined} strokeWidth={p.pumpDisplay==='rgb-ring'?1.6:.7}/><text x="11" y="8" textAnchor="middle" fill="#d6e1dc" fontSize="3.3" fontFamily="Arial,sans-serif" fontWeight="700">{maker.slice(0,7).toUpperCase()}</text></>}
-          </g>
+          </g></>}
           {detailed && <text x="108" y="77" textAnchor="end" fill="#92a5aa" fontFamily="Arial,sans-serif" fontSize="3.6">{p.radiatorSizeMm} mm</text>}
         </>;
       } else if (p?.kind === 'low-profile') {
@@ -321,7 +335,7 @@ export default function ProductArt({ category, brand, className, component, deta
           {Array.from({length:detailed?9:6},(_,i)=><path key={i} d={`M21 ${43+i*(detailed?1.2:1.8)}l30 18 45-15`} stroke="#3e4b50" strokeWidth=".6" fill="none"/>)}
           <path d="m34 60 4 8 18 11 16-6" fill="none" stroke="#bbac87" strokeWidth="2.5" />
           <path d="m43 58 4 8 18 11 16-6" fill="none" stroke="#c9c7b1" strokeWidth="2" />
-          {p.fanCount>0 && <g transform="matrix(1,-.29,.56,.65,60,42)">{fan(0,0,23,p.fanRgb || false,p.fanColor,true)}</g>}
+          {p.fanCount>0 && <g transform="matrix(1,-.29,.56,.65,60,42)">{fan(0,0,23,p.fanRgb || false,p.fanColor,true,fanDetail)}</g>}
           <path d="m43 74 12 6 13-4-12-7Z" fill="#aa9d80" stroke="#d8d2bb" strokeWidth=".6" />
         </>;
       } else {
@@ -336,8 +350,11 @@ export default function ProductArt({ category, brand, className, component, deta
           <path d="m45 37 27-8v38l-27 8Z" fill={paint('heatsink-surface')} stroke="#a0adaa" strokeWidth=".6" />
           {Array.from({length:detailed?23:15},(_,i)=><path key={i} d={`m26 ${26+i*(detailed?1.5:2.3)} 19 13 26-8`} fill="none" stroke="#33444a" strokeWidth=".65" />)}
           {Array.from({length:pipeCount},(_,i)=><g key={i}><ellipse cx={30+i*3.5} cy={24-i*.55} rx="1.4" ry=".8" fill="#aab1a2" stroke="#d6d9c8" strokeWidth=".3"/><ellipse cx={46+i*3.4} cy={16-i*.6} rx="1.4" ry=".8" fill="#b0b6a6" stroke="#d6d9c8" strokeWidth=".3"/></g>)}
-          {(p?.fanCount??2)>0 && <g transform="matrix(.65,.33,0,1,62,47)">{fan(0,0,15,p?.fanRgb || false,p?.fanColor,true)}</g>}
-          {(p?.fanCount??2)>1 && <g transform="matrix(.7,.35,0,1,33,48)">{fan(0,0,17,p?.fanRgb || false,p?.fanColor,true)}</g>}
+          {(p?.fanCount??2)>0 && <g transform={`matrix(.65,.33,0,1,${appearance?.centralFan?55:62},47)`}>{fan(0,0,15,p?.fanRgb || false,p?.fanColor,true,fanDetail)}</g>}
+          {(p?.fanCount??2)>1 && <g transform="matrix(.7,.35,0,1,33,48)">{fan(0,0,17,p?.fanRgb || false,p?.fanColor,true,fanDetail)}</g>}
+          {appearance?.centralFan&&<g data-art-part="asymmetric-front-tower"><path d="m25 23 20 14v38L25 62Z" fill={paint('heatsink-surface')} stroke="#b9c3c2" strokeWidth=".6"/>{Array.from({length:24},(_,i)=><path key={i} d={`m26 ${25+i*1.5} 18 12.6`} stroke="#71808a" strokeWidth=".45"/>)}</g>}
+          {appearance?.capStyle==='deepcool-grid'&&<g data-art-part="twin-grid-caps">{['m40 14 31-6 24 13-31 8Z','m25 23 26-7 21 13-27 8Z'].map(d=><path key={d} d={d} fill="#30373b" stroke="#819096" strokeWidth=".5"/>)}{[0,1,2,3].map(i=><path key={i} d={`M${28+i*4} ${23-i}l18 11M${45+i*5} ${14-i}l21 12`} stroke="#657277" strokeWidth=".45"/>)}<path d="m47 18 2 1-2 1-2-1Zm-13 8 2 1-2 1-2-1Z" fill="#48b5a9"/></g>}
+          {appearance?.capStyle==='dark-rock'&&<g data-art-part="bridged-top-cover"><path d="m25 23 46-15 24 13-50 16Z" fill="#242a2e" stroke="#6a777c" strokeWidth=".7"/>{Array.from({length:10},(_,i)=><path key={i} d={`m${29+i*4} ${23-i*1.3} 18 10`} stroke="#5e6c72" strokeWidth=".4"/>)}<text x="58" y="23" transform="rotate(-18 58 23)" textAnchor="middle" fontSize="3.5" fill="#a6b0b2" fontFamily="Arial">be quiet!</text></g>}
           {/DIGITAL/i.test(model) && <>
             <path d="m25 23 26-7 21 13-27 8Z" fill="#1b252d" stroke="#647b83" strokeWidth=".6" />
             <path d="m28 24 21-6 17 11-21 6Z" fill="#0d1a24" stroke="#607c87" strokeWidth=".45" />
@@ -385,23 +402,24 @@ export default function ProductArt({ category, brand, className, component, deta
     }
     case 'case': {
       const p = profile?.category === 'case' ? profile : undefined;
+      const appearance=component?caseAppearances[component.id]:undefined;
       const short = p?.kind==='sandwich', panoramic = p?.kind==='panoramic';
       const compact = p?.kind==='compact';
       const wood = p?.woodAccent || p?.kind==='wood-front';
-      const height = short?43:compact?59:68;
-      const top = short?25:compact?13:9, bottom=top+height;
-      const frontWidth = short?25:panoramic?28:25;
-      const sideWidth = short?47:36;
+      const rawSide=(p?.depthMm??400)*.1,rawFront=(p?.widthMm??230)*.1,rawPanel=(p?.heightMm??460)*.13;
+      const fit=Math.min(1,86/(rawSide+rawFront),74/(rawPanel+rawSide*.32+rawFront*.28));
+      const frontWidth=rawFront*fit,sideWidth=rawSide*fit,panelH=rawPanel*fit;
+      const height=panelH+sideWidth*.32;
+      const top=(90-panelH-sideWidth*.32-frontWidth*.28)/2+frontWidth*.28,bottom=top+height;
       const left = (120-frontWidth-sideWidth)/2;
       const edge = left+sideWidth, right=edge+frontWidth;
       const sideGlass = p?.glass || p?.sidePanel==='acrylic';
       const sideMatrix = `matrix(1,.32,0,1,${left} ${top})`;
       const frontMatrix = `matrix(1,-.28,0,1,${edge} ${top+sideWidth*.32})`;
-      const panelH = height-sideWidth*.32;
       const frontFanCount = p?.stockFanMount==='front'?Math.min(3, Math.max(0,p.fanCount-(p.rearFanCount || 0))):0;
       artwork = <>
         <path d={`M${left} ${top} ${left+frontWidth} ${top-frontWidth*.28} ${right} ${top+sideWidth*.32-frontWidth*.28} ${edge} ${top+sideWidth*.32}Z`} fill={paint('frame-surface')} stroke="#9ca9ac" strokeWidth=".65" />
-        {Array.from({length:detailed?13:9},(_,i)=><path key={i} d={`M${left+4+i*2} ${top-.8-i*.56}l${sideWidth-12} ${((sideWidth-12)*.32)}`} stroke="#0e1b21" strokeWidth=".6" opacity=".75"/>)}
+        {Array.from({length:detailed?13:9},(_,i)=><path key={i} d={`M${left+4+i*(frontWidth-8)/(detailed?13:9)} ${top-.8-i*(frontWidth-8)/(detailed?13:9)*.28}l${sideWidth-8} ${((sideWidth-8)*.32)}`} stroke="#0e1b21" strokeWidth=".6" opacity=".75"/>)}
         <g transform={sideMatrix}>
           <rect data-art-part="case-panel" width={sideWidth} height={panelH} fill={paint('shell-surface')} stroke="#96a5a8" strokeWidth=".65" />
           {sideGlass ? <>
@@ -418,8 +436,10 @@ export default function ProductArt({ category, brand, className, component, deta
             <path d={`M${sideWidth-4} 7v${panelH-18}`} stroke="#d9e5e7" strokeWidth="1" opacity=".2"/>
             <path d={`M${sideWidth-5} 5 4 ${panelH-10}`} stroke="#c6dce3" strokeWidth=".45" opacity=".25" />
           </> : <>
-            {Array.from({length:short?16:13},(_,i)=><path key={i} d={`M${3+i*(sideWidth-6)/(short?16:13)} 4v${panelH-9}`} stroke="#111d22" strokeWidth=".9" strokeDasharray={short?undefined:'1 1.1'}/>)}
+            {appearance?.frontPattern==='square-perforation'?<CaseFacePattern pattern="square-perforation" width={sideWidth} height={panelH}/>:Array.from({length:short?16:13},(_,i)=><path key={i} d={`M${3+i*(sideWidth-6)/(short?16:13)} 4v${panelH-9}`} stroke="#111d22" strokeWidth=".9" strokeDasharray={short?undefined:'1 1.1'}/>)}
           </>}
+          {appearance?.lowerSideMesh&&<g data-art-part="lower-mesh-door"><rect x="1" y={panelH*.76} width={sideWidth-2} height={panelH*.22} fill={paint('frame-surface')}/><path d={`M2 ${panelH*.77}h${sideWidth-4}`} stroke="#9aabae" strokeWidth=".4"/>{Array.from({length:18},(_,i)=><path key={i} d={`M${3+i*(sideWidth-6)/18} ${panelH*.8}v${panelH*.15}`} stroke="#7d8e91" strokeDasharray=".4 .6" strokeWidth=".4"/>)}</g>}
+          {appearance?.ioPosition==='side'&&<g data-art-part="side-io"><path d={`M${sideWidth-6} ${panelH*.3}l4-3v${panelH*.48}l-4-3Z`} fill="#404b50" stroke="#8e9ca0" strokeWidth=".4"/>{[0,1].map(i=><rect key={i} x={sideWidth-4.8} y={panelH*.36+i*5} width="1.7" height="3.2" fill="#111b22" stroke="#99a5a7" strokeWidth=".3"/>)}<circle cx={sideWidth-4} cy={panelH*.63} r="1" fill="#172128" stroke="#9bacae" strokeWidth=".4"/></g>}
           {[2.2,sideWidth-2.2].flatMap(x=>[2.2,panelH-2.2].map(y=>screw(x,y,.55)))}
         </g>
         <g transform={frontMatrix}>
@@ -429,6 +449,8 @@ export default function ProductArt({ category, brand, className, component, deta
             <path d={`M3 4h${frontWidth*.4}L3 ${panelH-7}Z`} fill="#d8edf4" opacity=".07" />
             <path d={`M3 ${panelH-10}h${frontWidth-6}`} stroke="#79929a" strokeWidth=".5" />
             <path d={`M${frontWidth-4} 6v${panelH-17}`} stroke="#cee8ee" strokeWidth=".45" opacity=".35" />
+            {appearance?.frontColumn&&<rect x={frontWidth*.81} width={frontWidth*.19} height={panelH} fill={paint('frame-surface')} stroke="#6d7c80" strokeWidth=".4"/>}
+            {appearance?.angledIntake&&<path d={`M1 3 5 4v${panelH-9}l-4 2Z`} fill="#667780" opacity=".2" stroke="#b1c5c8" strokeWidth=".4"/>}
           </> : wood ? <>
             <rect x="2" y={short?panelH-10:3} width={frontWidth-4} height={short?8:panelH-5} fill={paint('wood')} />
             {Array.from({length:6},(_,i)=><path key={`grain-${i}`} d={short ? `M${3+i*3.1} ${panelH-9}q.8 1.5 0 3t.15 3` : `M${3+i*3.1} 4q1 4 0 8t.2 ${panelH-18}`} fill="none" stroke="#e1b17e" strokeWidth=".32" opacity=".45"/>)}
@@ -437,18 +459,20 @@ export default function ProductArt({ category, brand, className, component, deta
           </> : <>
             <rect x="2" y="3" width={frontWidth-4} height={panelH-6} fill="#19272c" />
             <g transform={`translate(${frontWidth/2} 12)`}>{Array.from({length:frontFanCount},(_,i)=>fan(0,i*15,7,p?.fanRgb || false,'#465258'))}</g>
-            {Array.from({length:detailed?16:12},(_,i)=><path key={i} d={`M${3+i*(frontWidth-5)/(detailed?16:12)} 4v${panelH-8}`} stroke="#8c9ca0" strokeWidth=".35" strokeDasharray=".55 .8" opacity=".65"/>)}
+            <CaseFacePattern pattern={appearance?.frontPattern??'fine-mesh'} width={frontWidth} height={panelH}/>
+            {appearance?.lowerFrontCover&&<g data-art-part="front-drive-cover"><rect x="1.3" y={panelH*.79} width={frontWidth-2.6} height={panelH*.19} fill={paint('front-surface')} stroke="#6b7b80" strokeWidth=".45"/><path d={`M2 ${panelH*.8}h${frontWidth-4}`} stroke="#0c161c" strokeWidth=".7"/></g>}
           </>}
+          {(appearance?.ioPosition==='front-bottom'||appearance?.ioPosition==='front-top')&&!short&&<g data-art-part="front-io" transform={`translate(${frontWidth*.38} ${appearance.ioPosition==='front-bottom'?panelH-3:2})`}><circle r=".9" fill="#132027" stroke="#b3c2c4" strokeWidth=".4"/>{[3.2,6.2].map(x=><rect key={x} x={x} y="-.65" width="1.8" height="1.2" rx=".2" fill="#11212b" stroke="#93aaae" strokeWidth=".25"/>)}</g>}
           {component?.id==='case-o11' && p?.rgb && <g data-rgb-zone="case-front-strip"><rect x={frontWidth-2.6} y="3" width="2.5" height={panelH-6} rx=".6" fill={paint('rgb')} opacity=".2"/><rect x={frontWidth-1.8} y="3" width=".9" height={panelH-6} rx=".35" fill={paint('rgb')}/></g>}
           <text x={frontWidth/2} y={panelH-2} textAnchor="middle" fill={light(p?.frontColor)?'#4c5c55':'#a9b9bc'} fontSize="1.8" fontFamily="Arial,sans-serif" letterSpacing=".3">{maker.slice(0,10).toUpperCase()}</text>
         </g>
         <path d={`M${left+3} ${bottom-sideWidth*.32}v4M${edge+3} ${bottom}v4M${right-4} ${bottom-frontWidth*.28}v4`} stroke="#27373e" strokeWidth="3.5" />
-        <g transform={`matrix(1,-.28,.7,.22,${left+frontWidth-2} ${top-4})`}>
+        {(!appearance||appearance.ioPosition==='top')&&<g transform={`matrix(1,-.28,.7,.22,${left+frontWidth-2} ${top-4})`}>
           <circle r="1.3" fill="#15242b" stroke="#a3b5b6" strokeWidth=".5" />
           <rect x="3" y="-1" width="3.2" height="1.7" rx=".3" fill="#10212b" stroke="#879c9f" strokeWidth=".3" />
           <rect x="8" y="-1" width="3.2" height="1.7" rx=".3" fill="#10212b" stroke="#879c9f" strokeWidth=".3" />
           <circle cx="14" cy="0" r=".65" fill="#101e26" stroke="#8da0a5" strokeWidth=".3" />
-        </g>
+        </g>}
       </>;
       break;
     }
@@ -456,9 +480,10 @@ export default function ProductArt({ category, brand, className, component, deta
       artwork = <rect x="35" y="20" width="50" height="50" rx="9" fill={paint('graphite')} stroke="#607056" />;
   }
   if(profile?.design && component) artwork=<IndividualProductArt component={component} profile={profile} detailed={detailed} paint={paint} fan={fan}/>;
-  return <svg data-art-material="physical-v2" data-art-family={category} data-art-fidelity={profile?.fidelity??'reconstructed'} data-model-design={profile?.design} className={className} viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-component-id={component?.id} data-visual-kind={profile && 'kind' in profile ? profile.kind : category} data-art-detail={detailed?'high':'standard'}>
+  return <svg data-art-material="physical-v2" data-art-mode={photoVisible?'manufacturer-photo':'illustration'} data-photo-inspection={productImage?.inspection} data-photo-source={productImage?.sourceURL} data-art-family={category} data-art-fidelity={profile?.fidelity??'reconstructed'} data-model-design={profile?.design} className={className} viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-component-id={component?.id} data-visual-kind={profile && 'kind' in profile ? profile.kind : category} data-art-detail={detailed?'high':'standard'}>
     <defs>
       <filter id={`${id}-object-shadow`} x="-15%" y="-15%" width="140%" height="150%" colorInterpolationFilters="sRGB"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" floodColor="#000" floodOpacity=".48"/></filter>
+      {productImage&&<clipPath id={`${id}-photo-clip`}><rect x="3" y="2" width="114" height="86" rx="3"/></clipPath>}
       <pattern id={`${id}-brushed`} width="4" height="1.3" patternUnits="userSpaceOnUse"><path d="M0 .3h4M.8 1h2.5" stroke="#f4f6f5" strokeWidth=".11"/><path d="M1 .7h3" stroke="#12191e" strokeWidth=".1"/></pattern>
       <linearGradient id={`${id}-rgb`} x1="0" y1="0" x2="1" y2=".7" gradientUnits="objectBoundingBox">{rainbow}</linearGradient>
       <linearGradient id={`${id}-rgb-line`} x1="0" y1="0" x2="90" y2="0" gradientUnits="userSpaceOnUse">{rainbow}</linearGradient>
@@ -471,7 +496,11 @@ export default function ProductArt({ category, brand, className, component, deta
       <radialGradient id={`${id}-hub`}><stop stopColor="#bbc4c1"/><stop offset=".4" stopColor="#75868c"/><stop offset="1" stopColor="#32434c"/></radialGradient>
       <radialGradient id={`${id}-shadow`}><stop stopColor="#000" stopOpacity=".45"/><stop offset="1" stopColor="#000" stopOpacity="0"/></radialGradient>
     </defs>
-    <ellipse cx="62" cy="80" rx="45" ry="7" fill={paint('shadow')} opacity=".6"/>
-    <g data-art-part="hardware" filter={paint('object-shadow')}>{artwork}</g>
+    <ellipse cx="62" cy="80" rx="45" ry="7" fill={paint('shadow')} opacity={photoVisible?0:.6}/>
+    <g data-art-part="hardware" opacity={photoVisible?0:1} filter={paint('object-shadow')}>{artwork}</g>
+    {productImage&&<g data-art-part="manufacturer-photo" opacity={photoVisible?1:0} clipPath={paint('photo-clip')}>
+      <rect x="3" y="2" width="114" height="86" rx="3" fill="#fff"/>
+      <image href={productImage.imageURL} x="5" y="3" width="110" height="84" preserveAspectRatio="xMidYMid meet" onLoad={()=>setLoadedImage(productImage.imageURL)} onError={()=>setLoadedImage(null)}/>
+    </g>}
   </svg>;
 }

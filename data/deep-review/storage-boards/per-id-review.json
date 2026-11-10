@@ -1,0 +1,2637 @@
+[
+  {
+    "id": "import-ssd-d059db5a3f51",
+    "name": "SPATIUM M461 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440Q550-P83",
+    "model": "SPATIUM M461 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-msi-spatium-m461-ssd-2-to-nvme-m-2-gen4x4",
+      "https://us.msi.com/Storage/SPATIUM-M461-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1671676182c52dd20e7100f736db2ceb362003e025.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-eb1372b0d38f",
+    "name": "Predator GM7000 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7000 PCIe4.0 M.2 SSD 2 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/4TB-1024x1024.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-17616f354d01",
+    "name": "SPATIUM M480 PRO 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765446803edb0991374789aa82cc332654379c.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-e88ae69bc436",
+    "name": "AORUS Gen4 7300 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "AG4731TB N",
+    "model": "AORUS Gen4 7300 SSD 1TB",
+    "documented": 10,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-gigabyte-aorus-gen4-7300-1tb-m-2-nvme-7300mb-s-cache-ddr4",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-1TB",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-f283c8bd9b53",
+    "name": "Predator GM7000 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7000 PCIe4.0 M.2 SSD 1 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/4TB-1024x1024.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-176f5b4040fa",
+    "name": "AORUS Gen4 7300 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "AG4732TB N",
+    "model": "AORUS Gen4 7300 SSD 2TB",
+    "documented": 10,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-gigabyte-aorus-gen4-7300-2tb-m-2-nvme-7300mb-s-ddr4-cache",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7300-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-294e5dd61b76",
+    "name": "SPATIUM M480 PRO 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 4TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765446803edb0991374789aa82cc332654379c.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-8f1752cabb69",
+    "name": "SPATIUM M450 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440K380-P83",
+    "model": "SPATIUM M450 PCIe 4.0 NVMe M.2 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-ssd-msi-spatium-m450-500gb-pcie-4-0-nvme-3000-mb-s",
+      "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1642995723ed98239a4324aef29e8ae8c1b8df83ba.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-d375d6af2ab6",
+    "name": "Predator GM7000 512 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7000 PCIe4.0 M.2 SSD 512 GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/4TB-1024x1024.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-302299185989",
+    "name": "Predator GM7000 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7000 PCIe4.0 M.2 SSD 4 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2026/03/Predator-GM7000-Specifications.pdf",
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7000-pcie-4-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/4TB-1024x1024.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-bf430783fc36",
+    "name": "AORUS Gen5 14000 4 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 14000 SSD 4TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-14000-SSD-4TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5d263aa4a2d7",
+    "name": "ROG Strix SQ7 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "ROG Strix SQ7 Gen4 SSD 1TB",
+    "documented": 10,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "endurance",
+        "label": "Endurance TBW",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/"
+    ],
+    "imageURLs": [
+      "https://dlcdnwebimgs.asus.com/gain/FC3B53D4-55AC-46C0-922B-1309F5765ECE"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-6bbac873bdfa",
+    "name": "4000E 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "G440E500G",
+    "model": "GIGABYTE Gen4 4000E SSD 500GB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-gigabyte-gen4-4000e-ssd-500gb-m-2-3600mb-s-pci-express-4-0",
+      "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-500GB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-d8eecd17e46f",
+    "name": "FX700 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "HP PCIe Gen 4x4 M.2 SSD 1 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx700pciem.2ssd"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5bbe09feb2b0",
+    "name": "FX700 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "HP PCIe Gen 4x4 M.2 SSD 2 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx700pciem.2ssd"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-2bc9d95f0ce4",
+    "name": "4000E 250 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "YG01010002615",
+    "model": "GIGABYTE Gen4 4000E SSD 250GB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-gigabyte-gen4-4000e-250gb-m-2-nvme-3500mo-s-pcie-4-0",
+      "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-250GB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-80029e977660",
+    "name": "FX900 Pro 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "HP FX900 Pro M.2 SSD 4 TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx900prom.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-aa229a39d8ce",
+    "name": "FA200 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Acer FA200 PCle M.2 SSD 500 GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/"
+    ],
+    "imageURLs": [
+      "https://www.acerstorage.com/wp-content/uploads/2025/04/2-acer-fa200-pcle-m.2-ssd-2.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-800e154a8bf2",
+    "name": "FX900 Pro 512 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "HP FX900 Pro M.2 SSD 512 GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "read",
+        "label": "Lecture séquentielle",
+        "state": "conflicting",
+        "sourceURLs": [
+          "https://hp.biwintech.com/u_file/photo/20230822/FX900%20Pro%20Specifications.pdf",
+          "https://hp.biwintech.com/products/hpfx900prom.2/"
+        ],
+        "value": [
+          "7 000 Mo/s maximum — page produit actuelle",
+          "7 400 Mo/s maximum — PDF constructeur août 2023"
+        ],
+        "sourceScope": "record"
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/u_file/photo/20230822/FX900%20Pro%20Specifications.pdf",
+      "https://hp.biwintech.com/products/hpfx900prom.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-22e9d7d12189",
+    "name": "FX700 500 Go · PCIe 4.0 ×4",
+    "admitted": false,
+    "status": "identity_missing",
+    "mpn": null,
+    "model": null,
+    "documented": 0,
+    "required": 13,
+    "missing": [
+      {
+        "key": "capacity",
+        "label": "Capacité",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": 500
+      },
+      {
+        "key": "interface",
+        "label": "Interface PCIe/SATA",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": "M.2 NVMe"
+      },
+      {
+        "key": "interfaceGeneration",
+        "label": "Génération et lignes PCIe",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "formFactor",
+        "label": "Format du SSD",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "read",
+        "label": "Lecture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "write",
+        "label": "Écriture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "endurance",
+        "label": "Endurance TBW",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "warranty",
+        "label": "Garantie",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": "PCPartPicker archive 500 Go et 8U2N1AA ; le fabricant publie 512 Go, le marchand 8U2N1AA#. Le suffixe commercial et la correction de capacité ne sont pas présumés équivalents."
+  },
+  {
+    "id": "import-ssd-76eb7ba0285b",
+    "name": "SPATIUM M460 250 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 250GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636556123eb5aa1cf13d0c6fad033dc9d8c3f268.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-ace7e9dcd595",
+    "name": "SPATIUM M480 PRO 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765446803edb0991374789aa82cc332654379c.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-3a6bd172d580",
+    "name": "Predator GM7 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7 PCIe 4.0 SSD 2 TB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/1-predator-gm7-pcie-4.0-ssd.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-7b1e45749f0e",
+    "name": "SPATIUM M450 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440L980-P83",
+    "model": "SPATIUM M450 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-msi-spatium-m450-ssd-1-to-m-2-nvme-pcie-4-0",
+      "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1642995723ed98239a4324aef29e8ae8c1b8df83ba.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-56f811e2c235",
+    "name": "AORUS Gen5 14000 1 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 14000 SSD 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-14000-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-12615b173d78",
+    "name": "Predator GM7 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7 PCIe 4.0 SSD 1 TB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/1-predator-gm7-pcie-4.0-ssd.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-a7f64782c122",
+    "name": "AORUS Gen5 14000 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 14000 SSD 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-14000-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-ca46e21b99ef",
+    "name": "SPATIUM M580 FROZR 4 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR 4TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR",
+      "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1711446104d54242283417c6654b5ce27510d810bf.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-2065274db5d8",
+    "name": "SPATIUM M461 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M461 PCIe 4.0 NVMe M.2 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://us.msi.com/Storage/SPATIUM-M461-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1671676182c52dd20e7100f736db2ceb362003e025.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-8b591c3fba29",
+    "name": "Predator GM7 512 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7 PCIe 4.0 SSD 512 GB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/1-predator-gm7-pcie-4.0-ssd.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-a01e163c5a2a",
+    "name": "Predator GM7 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Predator GM7 PCIe 4.0 SSD 4 TB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.predatorstorage.com/products/pcie-m-2-ssd/predator-gm7-ps5-gaming-ssd/"
+    ],
+    "imageURLs": [
+      "https://www.predatorstorage.com/wp-content/uploads/2024/12/1-predator-gm7-pcie-4.0-ssd.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-529522dcc301",
+    "name": "AORUS Gen4 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 SSD 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-500GB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-d00bc614ace9",
+    "name": "FX900 Pro 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "HP FX900 Pro M.2 SSD 1 TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx900prom.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-333e2d6e868c",
+    "name": "FX900 Pro 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "HP FX900 Pro M.2 SSD 2 TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx900prom.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-0f685582059a",
+    "name": "FX700 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "HP PCIe Gen 4x4 M.2 SSD 4 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx700pciem.2ssd"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-f664ad262efe",
+    "name": "FX900 512 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "FX900 PCIe 4.0 M.2 SSD 512 GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx900m.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-e02a9eef3fda",
+    "name": "SPATIUM M460 HS 250 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS 250GB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636626741fd990b8df9cfb41692be841da5656f9.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-b44d864fc1a7",
+    "name": "SPATIUM M482 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M482 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M482-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1702464613f852469a6bd8326b1cf96b542f433598.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-519b67109b3b",
+    "name": "SPATIUM M470 PRO 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440L0J0-P83",
+    "model": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-disque-ssd-msi-spatium-m470-pro-1-to-6-000-mo-s-nvme-pcie-4-0-m-2-gen4",
+      "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1737102023fd61c4080a398deab322ad3b1db9be1c.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-98d6adeaaeb5",
+    "name": "SPATIUM M460 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636556123eb5aa1cf13d0c6fad033dc9d8c3f268.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-153587f6454b",
+    "name": "SPATIUM M470 PRO 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M470 PRO PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M470-PRO-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1737102023fd61c4080a398deab322ad3b1db9be1c.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-8b3a6dcd4615",
+    "name": "AORUS Gen4 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 SSD 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-9c3cd954a2ba",
+    "name": "SPATIUM M570 HS 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M570 PCIe 5.0 NVMe M.2 HS 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS",
+      "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_167573935424940aba56cd1dba801846447d621bb2.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-8d48e621954b",
+    "name": "SPATIUM M570 FROZR 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": "SM570PN2TBF",
+    "model": "SPATIUM M570 PRO PCIe 5.0 NVMe M.2 FROZR 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M570-PRO-PCIe-5.0-NVMe-M.2-FROZR",
+      "https://www.msi.com/Storage/SPATIUM-M570-PRO-PCIe-5.0-NVMe-M.2-FROZR/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_170237194875aa90498f215cf76ac567c0dbf72534.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5b34ff2ec3f7",
+    "name": "SPATIUM M470 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M470 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1625471744d4ce352874ef336778813999fa18e643.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-4af354863e15",
+    "name": "FA200 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Acer FA200 PCle M.2 SSD 1 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/"
+    ],
+    "imageURLs": [
+      "https://www.acerstorage.com/wp-content/uploads/2025/04/2-acer-fa200-pcle-m.2-ssd-2.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-831963d987da",
+    "name": "AORUS Gen4 5000E 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 5000E SSD 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-5000E-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-20e1f47ee05d",
+    "name": "SPATIUM M580 FROZR 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR",
+      "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1711446104d54242283417c6654b5ce27510d810bf.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-52811a674abf",
+    "name": "SPATIUM M461 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M461 PCIe 4.0 NVMe M.2 4TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://us.msi.com/Storage/SPATIUM-M461-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1671676182c52dd20e7100f736db2ceb362003e025.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-6178949b07ba",
+    "name": "SPATIUM M470 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M470 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1625471744d4ce352874ef336778813999fa18e643.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-1bc7f3b866a8",
+    "name": "SPATIUM M450 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M450 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1642995723ed98239a4324aef29e8ae8c1b8df83ba.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-08ce7343f550",
+    "name": "SPATIUM M560 1 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440L0F0-P83",
+    "model": "SPATIUM M560 PCIe 5.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-disque-ssd-msi-spatium-m560-1-to-10-200-mo-s-nvme-pcie-5-0-m-2-gen5-3d-nand",
+      "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1736395820ee7892e15474289600cd4df2ef665d13.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-414011e47a8c",
+    "name": "FA200 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Acer FA200 PCle M.2 SSD 2 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/"
+    ],
+    "imageURLs": [
+      "https://www.acerstorage.com/wp-content/uploads/2025/04/2-acer-fa200-pcle-m.2-ssd-2.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-ec017e57661b",
+    "name": "AORUS Gen4 7000s 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "AORUS Gen4 7000s SSD 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-SSD-1TB",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-ffc01db33b01",
+    "name": "4000E 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "GIGABYTE Gen4 4000E SSD 1TB",
+    "documented": 11,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/GIGABYTE-Gen4-4000E-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://static.gigabyte.com/StaticFile/Image/Global/cabf8dc5d11e487f943f903866626089/ProductRemoveBg/42868"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-fc307a4c3728",
+    "name": "SPATIUM M480 PRO PLAY 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 PLAY 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY",
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683788478a1f8352dbb3b553af9b6a105449473fc.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-c1b3e0fcc739",
+    "name": "SPATIUM M461 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "S78-440L1D0-P83",
+    "model": "SPATIUM M461 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.pccomponentes.fr/disque-dur-msi-spatium-m461-ssd-1-to-nvme-m-2-gen4x4",
+      "https://us.msi.com/Storage/SPATIUM-M461-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1671676182c52dd20e7100f736db2ceb362003e025.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-0ed4cbcd1fd6",
+    "name": "SPATIUM M482 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M482 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M482-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1702464613f852469a6bd8326b1cf96b542f433598.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-95ebc2733242",
+    "name": "FA200 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "Acer FA200 PCle M.2 SSD 4 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.acerstorage.com/products/pcie-m2-ssd/acer-ssd-fa200/"
+    ],
+    "imageURLs": [
+      "https://www.acerstorage.com/wp-content/uploads/2025/04/2-acer-fa200-pcle-m.2-ssd-2.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-6a3a2aa9f922",
+    "name": "AORUS Gen4 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 SSD 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-0766f7bc3244",
+    "name": "AORUS Gen4 5000E 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 5000E SSD 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-5000E-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://static.gigabyte.com/StaticFile/Image/Global/b3905695fd03bec7de4ac97b14ddf2f7/ProductRemoveBg/32200"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-eaa8c28b7e24",
+    "name": "SPATIUM M560 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M560 PCIe 5.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1736395820ee7892e15474289600cd4df2ef665d13.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-b009d5d5fffe",
+    "name": "AI TOP 100E 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AI TOP 100E SSD 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AI100E1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-f37e0ff096d2",
+    "name": "SPATIUM M482 Eco-Pack 2 To · PCIe 4.0 ×4",
+    "admitted": false,
+    "status": "identity_missing",
+    "mpn": null,
+    "model": null,
+    "documented": 0,
+    "required": 13,
+    "missing": [
+      {
+        "key": "capacity",
+        "label": "Capacité",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": 2000
+      },
+      {
+        "key": "interface",
+        "label": "Interface PCIe/SATA",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": "M.2 NVMe"
+      },
+      {
+        "key": "interfaceGeneration",
+        "label": "Génération et lignes PCIe",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "formFactor",
+        "label": "Format du SSD",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "read",
+        "label": "Lecture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "write",
+        "label": "Écriture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "endurance",
+        "label": "Endurance TBW",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "warranty",
+        "label": "Garantie",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": "La référence Eco-Pack/Bulk est retrouvée dans PCPartPicker. Son ancienne page MSI Store renvoie 404 et la page actuelle ne prouve pas ce conditionnement ; aucune assimilation automatique au produit boîte."
+  },
+  {
+    "id": "import-ssd-978ac54e5cda",
+    "name": "SPATIUM M480 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1625471768da9c095c4a9aec84b606454086d17d82.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-b30110d64b26",
+    "name": "AORUS 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": "GP-ASM2NE6500GTTD",
+    "model": "AORUS NVMe Gen4 SSD 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-ae99dc139aaa",
+    "name": "AORUS Gen5 12000 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 12000 SSD 2TB",
+    "documented": 9,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-89b843f2020e",
+    "name": "AI TOP 100E 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AI TOP 100E SSD 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AI100E2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-bbfbedb10ac3",
+    "name": "SPATIUM M570 HS 1 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M570 PCIe 5.0 NVMe M.2 HS 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS",
+      "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_167573935424940aba56cd1dba801846447d621bb2.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-f87228e71a44",
+    "name": "SPATIUM M480 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1625471768da9c095c4a9aec84b606454086d17d82.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-522e60ecc87a",
+    "name": "AORUS Gen4 5000E 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 5000E SSD 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-5000E-SSD-500GB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-23e502d62491",
+    "name": "AORUS Gen4 7000s 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "AORUS Gen4 7000s SSD 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-SSD-2TB",
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-651b91bb70fc",
+    "name": "SPATIUM M460 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636556123eb5aa1cf13d0c6fad033dc9d8c3f268.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5c599478feef",
+    "name": "AORUS Gen5 10000 2 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 10000 SSD 2TB",
+    "documented": 9,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-10000-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-b60ff9663b2d",
+    "name": "AORUS Gen5 12000 1 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 12000 SSD 1TB",
+    "documented": 9,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-93a9489e8520",
+    "name": "FX900 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "FX900 PCIe 4.0 M.2 SSD 1 TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://hp.biwintech.com/products/hpfx900m.2/"
+    ],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-c78da921f99b",
+    "name": "SPATIUM M480 HS 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 HS 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-HS",
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1627971127b70a90814321215a93c3c85505657ad0.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5b8818ad80e4",
+    "name": "AORUS Gen4 7000s Premium 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 7000s Prem. SSD 2TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-4cef0a463b4c",
+    "name": "SPATIUM M460 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 500GB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636556123eb5aa1cf13d0c6fad033dc9d8c3f268.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-0ba4ce7a0a77",
+    "name": "SPATIUM M480 HS 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 HS 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-HS",
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1627971127b70a90814321215a93c3c85505657ad0.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-622a8df3c9d6",
+    "name": "SPATIUM M480 PLAY 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 PLAY 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY",
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1647937771cbb25567ea4e42d4a7a889999da3c0dd.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-c5d55ec8efb5",
+    "name": "AORUS Gen5 10000 1 To · PCIe 5.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen5 10000 SSD 1TB",
+    "documented": 9,
+    "required": 13,
+    "missing": [
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen5-10000-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-41c23e10a6d6",
+    "name": "AORUS Gen4 7000s Premium 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "technical_missing",
+    "mpn": null,
+    "model": "AORUS Gen4 7000s Prem. SSD 1TB",
+    "documented": 12,
+    "required": 13,
+    "missing": [
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [
+      "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-1TB/sp"
+    ],
+    "imageURLs": [
+      "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-d1cc3dfb6be2",
+    "name": "SPATIUM M480 PRO HS 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS",
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765428fc73d335355874e3d0d7200c58749c37.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-3f908d79d9d5",
+    "name": "SPATIUM M480 PRO PLAY 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 PLAY 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY",
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683788478a1f8352dbb3b553af9b6a105449473fc.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-24dbeb6dcdf6",
+    "name": "SPATIUM M480 PRO PLAY 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 PLAY 4TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY",
+      "https://www.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-PLAY/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683788478a1f8352dbb3b553af9b6a105449473fc.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-f1742ca61924",
+    "name": "SPATIUM M480 PRO HS 4 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS 4TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS",
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765428fc73d335355874e3d0d7200c58749c37.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-0fca54c5a939",
+    "name": "SPATIUM M480 PLAY 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PCIe 4.0 NVMe M.2 PLAY 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY",
+      "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1647937771cbb25567ea4e42d4a7a889999da3c0dd.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-55202fa4b526",
+    "name": "SPATIUM M460 HS 500 Go · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS 500GB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636626741fd990b8df9cfb41692be841da5656f9.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-2ef4501f13bf",
+    "name": "SPATIUM M460 HS 1 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS 1TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636626741fd990b8df9cfb41692be841da5656f9.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-5b3546fa17df",
+    "name": "SPATIUM M460 HS 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_16636626741fd990b8df9cfb41692be841da5656f9.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-416bab47ddef",
+    "name": "SPATIUM M480 PRO HS 2 To · PCIe 4.0 ×4",
+    "admitted": true,
+    "status": "ready",
+    "mpn": null,
+    "model": "SPATIUM M480 PRO PCIe 4.0 NVMe M.2 HS 2TB",
+    "documented": 13,
+    "required": 13,
+    "missing": [],
+    "sourceURLs": [
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS",
+      "https://us.msi.com/Storage/SPATIUM-M480-PRO-PCIe-4.0-NVMe-M.2-HS/Specification"
+    ],
+    "imageURLs": [
+      "https://storage-asset.msi.com/global/picture/product/product_1683765428fc73d335355874e3d0d7200c58749c37.webp"
+    ],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": null
+  },
+  {
+    "id": "import-ssd-20af8d6c3435",
+    "name": "AI TOP UD 1 To · PCIe 4.0 ×4",
+    "admitted": false,
+    "status": "identity_missing",
+    "mpn": null,
+    "model": null,
+    "documented": 0,
+    "required": 13,
+    "missing": [
+      {
+        "key": "capacity",
+        "label": "Capacité",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": 1000
+      },
+      {
+        "key": "interface",
+        "label": "Interface PCIe/SATA",
+        "state": "present_unverified",
+        "sourceURLs": [],
+        "value": "M.2 NVMe"
+      },
+      {
+        "key": "interfaceGeneration",
+        "label": "Génération et lignes PCIe",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "formFactor",
+        "label": "Format du SSD",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "length",
+        "label": "Longueur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "height",
+        "label": "Hauteur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "width",
+        "label": "Largeur",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "read",
+        "label": "Lecture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "write",
+        "label": "Écriture séquentielle",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "nand",
+        "label": "Type NAND",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "endurance",
+        "label": "Endurance TBW",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "warranty",
+        "label": "Garantie",
+        "state": "missing",
+        "sourceURLs": []
+      },
+      {
+        "key": "heatsink",
+        "label": "Version avec ou sans dissipateur",
+        "state": "missing",
+        "sourceURLs": []
+      }
+    ],
+    "sourceURLs": [],
+    "imageURLs": [],
+    "imageStatus": "uninspected_manufacturer_reference",
+    "blocker": "AI TOP UD et AI TOP 100E sont des produits distincts. La page constructeur AI TOP UD citée par la presse renvoie 404 ; aucune table 100E ne lui est attribuée."
+  }
+]

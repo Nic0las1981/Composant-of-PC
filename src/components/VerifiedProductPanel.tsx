@@ -11,11 +11,12 @@ export default function VerifiedProductPanel({component}:{component:Component}) 
   const best = getVerifiedOffer(component);
   return <section className="cp-verified" aria-label="Références et offres vérifiées">
     <h3>Référence contrôlée auprès des sources</h3>
-    <p><strong>{product.mpn}</strong> · {product.identityNote}</p>
+    <p><strong>{product.identityKind === 'manufacturer-model' ? product.manufacturerModel : product.mpn}</strong> · {product.identityNote}</p>
+    {product.identityKind === 'manufacturer-model' && <p>Le fabricant documente ce modèle précis. Sa référence commerciale MPN reste à confirmer avant d’y rattacher une offre.</p>}
     <div className="cp-verified-sources">{product.sources.map((source,index) => <a key={`${source.url}-${index}`} href={source.url} target="_blank" rel="noopener noreferrer">
       {source.kind === 'manufacturer' ? 'Fabricant' : 'Fiche marchand'} · {source.name}<small>Consulté le {date(source.checkedAt)} (Paris)</small>
     </a>)}</div>
-    {product.offers.length > 0 ? <>
+    {product.mpn && product.identityKind !== 'manufacturer-model' && product.offers.length > 0 ? <>
       <h4>Prix TTC relevés en France</h4>
       <p>Le budget retient le plus petit prix produit neuf disponible parmi ces relevés pendant 24 h. Les frais de livraison restent séparés ; ce choix ne compare pas les totaux livrés.</p>
       <ul className="cp-verified-offers">{product.offers.map((offer,index) => <li key={`${offer.url}-${index}`} data-retailer={offer.retailer} data-price-kind={offer.priceKind}>
@@ -24,6 +25,6 @@ export default function VerifiedProductPanel({component}:{component:Component}) 
         <p>{offer.shippingNote} Relevé le {date(offer.checkedAt)} (Paris).</p>
         <small>{offer.productName} · {offer.mpn}</small>
       </li>)}</ul>
-    </> : <p>Aucune offre correspondant exactement à ce MPN n’a été confirmée dans les pages consultées.</p>}
+    </> : <p>Aucune offre correspondant exactement à cette référence n’a été confirmée dans les pages consultées.</p>}
   </section>;
 }

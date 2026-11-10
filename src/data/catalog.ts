@@ -37,6 +37,8 @@ export interface Component {
   variantGroupName?: string;
   finishName?: string;
   manufacturerPartNumber?: string;
+  /** Manufacturer's unique model designation when no sales MPN is published. */
+  manufacturerModel?: string;
   price: number;
   priceStatus?: "estimate" | "unknown";
   /** A memory summary holds a purchase total, not a single retailer kit quote. */
@@ -2074,6 +2076,13 @@ catalog.push(...catalogImported);
 catalog.push(...catalogOemMemory);
 for (const component of catalog) Object.assign(component, legacyVariantMetadata[component.id] ?? {});
 for (const component of catalog) Object.assign(component, verifiedProducts[component.id]?.patch ?? {});
+for (const component of catalog) {
+  const record=verifiedProducts[component.id];
+  if (record?.identityKind === 'manufacturer-model') {
+    component.manufacturerModel=record.manufacturerModel;
+    delete component.manufacturerPartNumber;
+  }
+}
 for (const component of catalog) Object.assign(component, extractVerifiedCompatibility(component,verifiedProducts[component.id]).patch);
 for (const component of catalog) {
   if (catalogQuarantine[component.id] && !verifiedProducts[component.id]) {

@@ -1,0 +1,271 @@
+{
+  "review": {
+    "id": "import-mb-c9cccf684caf",
+    "name": "ROG STRIX B550-I GAMING",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "sha256": "58fce532b9cf6b80c0edab932dc836a06d31d30cc7c27758a3a202a0acea96b6",
+        "bytes": 245465,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX B550-I GAMING",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/5E4B00CD-A85A-46E3-AA6E-C4024E2B6BCB"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Bluetooth",
+      "Audio",
+      "USB Ports",
+      "Software Features",
+      "ASUS Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX B550-I GAMING",
+    "identityNote": "Modèle ASUS ROG STRIX B550-I GAMING confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "ROG STRIX B550-I GAMING",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\n2 x DIMM, Max. 64GB, DDR4 5100(O.C)/5000(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3800(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz Un-buffered Memory *\nOptiMem II\nDual Channel Memory Architecture\nECC Memory (ECC mode) support varies by CPU."
+          },
+          {
+            "label": "Graphic",
+            "value": "1 x HDMI 2.1(4K@60HZ) *\n1 x DisplayPort 1.4 *\n*Graphics specifications may vary between CPU types."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x16 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD RyzenTM 4000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\nTotal supports 2 x M.2 slot(s) and 4 x SATA 6Gb/s ports\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I225-V 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) support 1024QAM/OFDMA/MU-MIMO\nIntel® Wi-Fi 6 AX200\nSupports dual band frequency 2.4/5 GHz\nSupports channel bandwidth: HT20/HT40/HT80/HT160"
+          },
+          {
+            "label": "Bluetooth",
+            "value": "Bluetooth v5.1*\n*BT 5.1 function will be ready in Windows 10 build 19041 or later."
+          },
+          {
+            "label": "Audio",
+            "value": "SupremeFX7.1 Surround Sound High Definition Audio CODEC S1220A\n- Rear audio USB Type-C® port\n- LED-illuminated design\n- Audio Shielding\n- Premium Japanese audio capacitors\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :"
+          },
+          {
+            "label": "USB Ports",
+            "value": "4 x USB 3.2 Gen 2 port(s)(1 x USB Type-C® +3 x Type-A)\n1 x USB 2.0 port(s)(1 x audio USB Type-C® )\nFront USB Port ( Total 5 )\n1 x USB 3.2 Gen 2 front panel connector port(s)(1 x USB Type-C®)\nRear USB Port ( Total 6 )\n1 x USB 2.0 port(s)\n2 x USB 3.2 Gen 1 port(s)\n2 x USB 2.0 port(s)"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- RAMCache III\n- ROG CPU-Z\n- GameFirst VI\n- Sonic Studio III + Sonic Studio Virtual Mixer \n- Sonic Radar III\n- DTS® Sound Unbound \n- Overwolf \n- Anti-virus software\nASUS Exclusive Software Features\nArmoury Crate\n- Aura Creator\n- Aura Sync\n-AI Noise Cancelling Microphone\nAI Suite 3:\n- 5-way Optimization \nTPU\nEPU\nDIGI+ VRM\nFan Xpert 4\nTurbo APP\n- EZ update\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nFlexKey"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "Aura Sync\n- Standard RGB header(s)\n- Addressable Gen 2 RGB header(s)\nASUS Q-Design \n- ASUS Q-CODE\n- ASUS Q-DIMM\n- ASUS Q-LED (DRAM [yellow],CPU [red], VGA [white], Boot Device [yellow green)\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum M.2 heatsink \nASUS EZ DIY\n-BIOS Flashback™ button\n-BIOS FlashBack™ LED\n-Clear CMOS header\n-Procool\n-Pre-mounted I/O shield\n- SafeSlot\nRear audio USB Type-C® connector"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "4 x USB 3.2 Gen 2 (1 x USB Type-C®+3 x Type-A)\n2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™1 for audio USB Type-C®)\n1 x BIOS FlashBack™ Button(s)\n1 x Intel® I225-V 2.5Gb Ethernet\n3 x LED-illuminated audio jacks\n1 x DisplayPort\n1 x HDMI\n1 x ASUS Wi-Fi Module"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.2 Gen2 connector support additional 1 USB ports(20-pin, Type-C)\n1 x VRM_HS_FAN Header\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n2 x M.2 Socket 3 with M Key design, type 2242/2260/2280 storage devices support (Supports both SATA & PCIE SSD)\n1 x CPU Fan connector(s)\n1 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x Aura RGB Strip Header(s)\n1 x Addressable Gen 2 header(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n4 x SATA 6Gb/s connector(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x Speaker connector"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x ROG audio USB Type-C® cable\n1 x Panel cable\n2 x M.2 Screw Package\nUser´s manual\nI/O Shield\n4 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\n1 x ROG Strix stickers\n1 x M.2 bracket\n1 x Cable ties pack(s)\n1 x Wi-Fi Antenna(s)\n1 x Extension cable for Addressable LED\n1 x ROG Thank you card"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )"
+          },
+          {
+            "label": "Note",
+            "value": "* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1-Channel audio."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/5E4B00CD-A85A-46E3-AA6E-C4024E2B6BCB"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "formFactor": {
+        "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD RyzenTM 4000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\nTotal supports 2 x M.2 slot(s) and 4 x SATA 6Gb/s ports\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x16 mode)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "rearIO": {
+        "value": "4 x USB 3.2 Gen 2 (1 x USB Type-C®+3 x Type-A)\n2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™1 for audio USB Type-C®)\n1 x BIOS FlashBack™ Button(s)\n1 x Intel® I225-V 2.5Gb Ethernet\n3 x LED-illuminated audio jacks\n1 x DisplayPort\n1 x HDMI\n1 x ASUS Wi-Fi Module",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.2 Gen2 connector support additional 1 USB ports(20-pin, Type-C)\n1 x VRM_HS_FAN Header\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n2 x M.2 Socket 3 with M Key design, type 2242/2260/2280 storage devices support (Supports both SATA & PCIE SSD)\n1 x CPU Fan connector(s)\n1 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x Aura RGB Strip Header(s)\n1 x Addressable Gen 2 header(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n4 x SATA 6Gb/s connector(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x Speaker connector",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "network": {
+        "value": "Intel® I225-V 2.5Gb Ethernet\nASUS LANGuard",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "audio": {
+        "value": "SupremeFX7.1 Surround Sound High Definition Audio CODEC S1220A\n- Rear audio USB Type-C® port\n- LED-illuminated design\n- Audio Shielding\n- Premium Japanese audio capacitors\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\n* Refer to www.asus.com for CPU support list\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:05+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX B550-I GAMING"
+  }
+}

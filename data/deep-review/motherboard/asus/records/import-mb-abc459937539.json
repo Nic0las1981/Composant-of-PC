@@ -1,0 +1,236 @@
+{
+  "review": {
+    "id": "import-mb-abc459937539",
+    "name": "ROG STRIX Z690-G GAMING WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "sha256": "47ff6934692c1e584455c9879c8c3d4a400a90057a9836645030a16b784a262d",
+        "bytes": 212545,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX Z690-G GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/059609D0-F66B-40E5-8F9D-2DDC5B19A424"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG STRIX Z690-G GAMING WIFI",
+    "identityNote": "Modèle ASUS ROG STRIX Z690-G GAMING WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "manufacturerPartNumber": "ROG STRIX Z690-G GAMING WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for 13th Gen Intel® Core™ & 12th Gen Intel® Core™, Pentium® Gold and Celeron® Processors\nSupports Intel®10 nm CPU\n Supports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n * Refer to www.asus.com for CPU support list.\n ** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Z690"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR5 6000(OC)/5800(OC)/5600(OC)/5400(OC)/5200(OC)/5000(OC)/4800 Non-ECC, Un-buffered Memory*\n Dual Channel Memory Architecture\n Supports Intel® Extreme Memory Profile (XMP)\n OptiMem II\n *Actual Memory data rate depends on the CPU types and DRAM modules, for more information refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n 1 x HDMI® port***\n *Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n ** Support 8K@60Hz as specified in DisplayPort 1.4.\n *** Support 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® 13th & 12th Gen Processors*\n 1 x PCIe 5.0 x16 slot (supports x16 mode)\n Intel® Z690 Chipset**\n 1 x PCIe 4.0 x16 slot (supports x4 mode)\n 1 x PCIe 3.0 x1 slot\n * Please check PCIe bifurcation table in support site.\n ** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 3 x M.2 slots and 6 x SATA 6Gb/s ports\nIntel® 13th & 12th Gen Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n Intel® Z690 Chipset**\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n M.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\n 6 x SATA 6Gb/s ports ***\n * Intel® Rapid Storage Technology supports NVMe RAID 0/1/5, SATA RAID 0/1/5/10.\n ** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n *** RAID configuration and optical disc drives are not supported on the SATA6G_E1-2 ports."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\n Supports 2.4/5/6GHz frequency band*\n Bluetooth v5.2\n * WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later."
+          },
+          {
+            "label": "USB",
+            "value": "Total 10 ports\n1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n 3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n 4 x USB 3.2 Gen 1 ports (4 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n - Impedance sense for front and rear headphone outputs\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\n Audio Features\n - SupremeFX Shielding Technology\n - Savitech SV3H712 AMP\n - Gold-plated audio jacks\n - Rear optical S/PDIF out port\n - Premium audio capacitors\n - Audio cover"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n 3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n 4 x USB 3.2 Gen 1 ports (4 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n 1 x DisplayPort\n 1 x HDMI®port\n 1 x Wi-Fi Module\n 1 x Intel® 2.5Gb Ethernet port\n 5 x Gold-plated audio jacks\n 1 x Optical S/PDIF out port\n 1 x BIOS FlashBack™ button\n 1 x Clear CMOS button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header\n 1 x 4-pin CPU OPT Fan header\n 1 x 4-pin AIO Pump header\n 3 x 4-pin Chassis Fan headers\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n 1 x 4-pin +12V Power connector\n Storage related\n 3 x M.2 slots (Key M)\n 6 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports\n Miscellaneous\n 3 x Addressable Gen 2 headers\n 1 x AURA RGB header\n 1 x CPU Over Voltage jumper\n 1 x Front Panel Audio header (AAFP)\n 1 x SPI TPM header (14-1pin)\n 1 x 20-5 pin System Panel header\n 1 x Thermal Sensor header\n 1 x Thunderbolt™ header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme Engine Digi+\n - 5K Black Metallic Capacitors\n ASUS Q-Design\n - M.2 Q-Latch\n - Q-DIMM\n - Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n - Q-Slot\n ASUS Thermal Solution\n - M.2 heatsink backplate\n - M.2 heatsink\n ASUS EZ DIY\n - BIOS FlashBack™ button\n - BIOS FlashBack™ LED\n - CPU Socket lever protector\n - Clear CMOS button\n - ProCool II\n - Pre-mounted I/O shield\n - SafeSlot\n - SafeDIMM\n AURA Sync\n - AURA RGB header\n - Addressable Gen 2 RGB headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n - GameFirst VI\n - ROG CPU-Z\n - Sonic Studio III + Sonic Studio Virtual Mixer + Sonic Suite Companion\n - Sonic Radar III\n - DTS® Sound Unbound\n - Anti-virus software\n ASUS Exclusive Software\n Armoury Crate\n - AIDA64 Extreme (60 days free trial)\n - AURA Creator\n - AURA Sync\n - Fan Xpert 4\n - Two-Way AI Noise Cancelation\n AI Suite 3\n - 5-Way Optimization with AI Overclocking\n TPU\n EPU\n DIGI+ VRM\n Turbo app\n MyAsus\n WinRAR\n UEFI BIOS\n AI Overclocking Guide\n ASUS EZ DIY\n - ASUS CrashFree BIOS 3\n - ASUS EZ Flash 3\n - ASUS UEFI BIOS EZ Mode\n FlexKey\n MemTest86"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n 4 x SATA 6Gb/s cables\n Miscellaneous\n 1 x ASUS Wi-Fi moving antennas\n 1 x Cable ties pack\n 1 x M.2 Rubber Package\n 1 x M.2 Q-Latch package\n 1 x M.2 Q-Latch package for M.2 backplate\n 1 x ROG key chain\n 1 x ROG Strix stickers\n 1 x ROG Strix thank you card\n Installation Media\n 1 x Support DVD\n Documentation\n 1 x User manual"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/059609D0-F66B-40E5-8F9D-2DDC5B19A424"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "chipset": {
+        "value": "Z690",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 3 x M.2 slots and 6 x SATA 6Gb/s ports\nIntel® 13th & 12th Gen Processors\n M.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n Intel® Z690 Chipset**\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n M.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\n 6 x SATA 6Gb/s ports ***\n * Intel® Rapid Storage Technology supports NVMe RAID 0/1/5, SATA RAID 0/1/5/10.\n ** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n *** RAID configuration and optical disc drives are not supported on the SATA6G_E1-2 ports.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "pcie": {
+        "value": "Intel® 13th & 12th Gen Processors*\n 1 x PCIe 5.0 x16 slot (supports x16 mode)\n Intel® Z690 Chipset**\n 1 x PCIe 4.0 x16 slot (supports x4 mode)\n 1 x PCIe 3.0 x1 slot\n * Please check PCIe bifurcation table in support site.\n ** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)\n 3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C®)\n 4 x USB 3.2 Gen 1 ports (4 x Type-A)\n 2 x USB 2.0 ports (2 x Type-A)\n 1 x DisplayPort\n 1 x HDMI®port\n 1 x Wi-Fi Module\n 1 x Intel® 2.5Gb Ethernet port\n 5 x Gold-plated audio jacks\n 1 x Optical S/PDIF out port\n 1 x BIOS FlashBack™ button\n 1 x Clear CMOS button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header\n 1 x 4-pin CPU OPT Fan header\n 1 x 4-pin AIO Pump header\n 3 x 4-pin Chassis Fan headers\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n 1 x 4-pin +12V Power connector\n Storage related\n 3 x M.2 slots (Key M)\n 6 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 2 x USB 2.0 headers support additional 4 USB 2.0 ports\n Miscellaneous\n 3 x Addressable Gen 2 headers\n 1 x AURA RGB header\n 1 x CPU Over Voltage jumper\n 1 x Front Panel Audio header (AAFP)\n 1 x SPI TPM header (14-1pin)\n 1 x 20-5 pin System Panel header\n 1 x Thermal Sensor header\n 1 x Thunderbolt™ header",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\nIntel® Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\n Supports 2.4/5/6GHz frequency band*\n Bluetooth v5.2\n * WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080\n - Impedance sense for front and rear headphone outputs\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n - Supports up to 32-Bit/384 kHz playback\n Audio Features\n - SupremeFX Shielding Technology\n - Savitech SV3H712 AMP\n - Gold-plated audio jacks\n - Rear optical S/PDIF out port\n - Premium audio capacitors\n - Audio cover",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for 13th Gen Intel® Core™ & 12th Gen Intel® Core™, Pentium® Gold and Celeron® Processors\nSupports Intel®10 nm CPU\n Supports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n * Refer to www.asus.com for CPU support list.\n ** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-g-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T13:27:16+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX Z690-G GAMING WIFI"
+  }
+}

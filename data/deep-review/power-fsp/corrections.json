@@ -1,0 +1,24 @@
+[
+  {
+    "id": "import-psu-f745fcb4b5a0",
+    "field": "wattage",
+    "oldValue": 850,
+    "newValue": 650,
+    "sourceURL": "https://www.fsplifestyle.com/en/product/HEXA85plus650W.html",
+    "checkedAt": "2026-11-10T14:36:19.025282+00:00",
+    "sourceHash": "81c798b380011ecb87a2f4b35bc111ca9e0d2426b074d01b3766cbdd19d0d096",
+    "reason": "La fiche d’origine PCPartPicker BL22FT possède le numéro de pièce HEXA 85+ 650W malgré son champ puissance850W. La fiche FSP de HEXA 85+ 650W publie Model HA650 et Rated Output Power650W. La gamme HEXA 85+ PRO850W est distincte.",
+    "originalSourceURL": "https://pcpartpicker.com/product/BL22FT/fsp-group-hexa-85-850w-80-bronze-certified-atx-power-supply-hexa-85-650w",
+    "originalSourceEvidenceFile": "followup-full.json",
+    "originalPartNumber": "HEXA 85+ 650W",
+    "manufacturerModel": "HEXA 85+ 650W",
+    "manufacturerPublishedCode": "HA650",
+    "commercialMPNConfirmed": false,
+    "updatedDisplayFields": [
+      "name",
+      "description",
+      "specs",
+      "variantGroupName"
+    ]
+  }
+]

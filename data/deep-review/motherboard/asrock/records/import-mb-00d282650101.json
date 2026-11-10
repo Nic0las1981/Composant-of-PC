@@ -1,0 +1,45 @@
+{
+  "review": {
+    "id": "import-mb-00d282650101",
+    "name": "H610M-X D5",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/H610M-X%20D5%20Gen5.pdf",
+          "checkedAt": "2026-11-10T13:59:37+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/H610M-X%20D5%20Gen5.pdf",
+          "httpStatus": 200,
+          "sha256": "2f1e08418accf22ddc6e622d72b71059a71467ca4a1f7129790224d2cab1736e",
+          "bytes": 3765707,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock H610M-X D5 Gen5 WiFi / H610M-X D5 Gen5\nmotherboard",
+        "modelNames": [
+          "H610M-X D5 Gen5 WiFi",
+          "H610M-X D5 Gen5"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Software/H610M-X%20D5/Software_BIOS%20Setup%20Guide_English.pdf",
+          "checkedAt": "2026-11-10T13:59:39+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Software/H610M-X%20D5/Software_BIOS%20Setup%20Guide_English.pdf",
+          "httpStatus": 200,
+          "sha256": "df829a4b15c79dc65b9d569681126ae12b99c021003e88cfcccea96daf0f4b2b",
+          "bytes": 1129965,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:11+00:00",
+      "url": "https://download.asrock.com/Manual/H610M-X%20D5.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

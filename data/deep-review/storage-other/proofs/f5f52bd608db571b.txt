@@ -1,0 +1,125 @@
+                              NAS D60 SSD
+
+
+
+                                NAS D60 SSD
+                                PCIe 4.0 SSD for NAS Devices
+                                The addlink DataCenter NAS D60 SSD elevates storage for NAS, Workstations,
+                                and Servers in Commercial and Enterprise settings, offering advanced caching
+                                and tiered storage options. Featuring PCIe Gen4 NVMe SSD in an M.2 2280 form
+                                factor, it achieves sustained Sequential read of up to 6000MB/s and is
+                                backward compatibility with PCIe Gen3 systems. It provides durability with 1
+                                DWPD, integrating power loss protection and TCG Pyrite Encryption for
+                                enhanced data security.
+
+                                 Optimized NAS Performance: This SSD offers sustained sequential reads of
+                                 up to 6000MB/s1 and sequential random read/write up to 800K/60K IOPS1,
+                                 ensuring consistent, high-speed data processing in network storage.
+
+                                 Compatibility to PCIe 3.0: Harnessing the speed of a PCIe Gen4 NVMe
+                                 interface within the compact M.2 2280 form factor, the NAS D60 SSD
+                                 excels in next-gen PCIe 4.0 network attached storage environments and
+Optimal Applications:            maintains full backward compatibility with PCIe 3.0 systems.
+
+• Commercial and Enterprise      Robust Endurance: With at 1 DWPD2 and up to 3800TBW, this SSD is built for
+  Network Attached Storage       NAS use and heavy workloads. Designed for continuous 24/7 operation, it
+  (NAS) Systems                  provides reliable and steady performance.
+
+• High-Performance               Power Loss Protection: Equipped specialized circuitry, the NAS D60 SSD
+  Workstations                   protect your data against corruption during unexpected power outages.
+
+• Server Storage Solutions       Enhanced Security: TCG Pyrite3 compliance provides strong password
+                                 protection and superior data security, keeping your data safe.
+
+                                 Enhanced Reliability : Highlighted by a 2 million hours MTBF and supported
+                                 by a 5-year limited warranty5, this SSD promises a cost-efficient ownership
+                                 experience.
+                                    NAS D60 SSD
+
+
+
+Specifications
+Capacity                                            480GB                              960GB                              1920GB
+
+                                            PCIe Gen4 x 4, NVMe 1.4            PCIe Gen4 x 4, NVMe 1.4            PCIe Gen4 x 4, NVMe 1.4
+Interface
+                                       Backward Compatible to PCIe Gen3   Backward Compatible to PCIe Gen3   Backward Compatible to PCIe Gen3
+
+NAND Flash                                         3D eTLC                            3D eTLC                            3D eTLC
+
+From Factor                                       M.2 2280-D                         M.2 2280-D                         M.2 2280-D
+
+Performance
+
+Sequential Read (Max, MB/s)
+                                                     6000                               6000                               6000
+Sustained, 128KB QD321
+Sequential Write (Max, MB/s)
+                       1                              700                               1400                               2000
+Sustained, 128KB QD32
+Random Read (Max, IOPS)
+                                                   450,000                            750,000                            800,000
+Sustained, 4KB QD2561
+Random Write (Max, IOPS)
+                     1                              20,000                             50,000                             60,000
+Sustained, 4KB QD256
+
+Endurance/Reliability
+
+Total Bytes Written (TB)                              920                               1900                               3800
+                                2
+DWPD (Drive Write Per Day)                             1                                  1                                  1
+
+       4
+UBER                                     < 1 sector per 10^17 bits read     < 1 sector per 10^17 bits read     < 1 sector per 10^17 bits read
+
+MTBF (Hours)                                       2,000,000                          2,000,000                          2,000,000
+                            5
+Warranty, Limited (years)                              5                                  5                                  5
+
+Power
+
+Power Supply                                         3.3V                               3.3V                               3.3V
+
+Active Read (RMS, Max.) Unit: W                      10.5                               11.55                              11.55
+
+Active Write (RMS, Max.) Unit: W                      6.5                                9.5                               11.55
+
+Idle Unit: W                                           4                                  4                                 4.2
+
+Environmental
+
+Temperature, Operating Internal (C)               0C – 70C                         0C – 70C                         0C – 70C
+
+Temperature, Nonoperating (C)                    -40C – 85C                       -40C – 85C                       -40C – 85C
+                               NAS D60 SSD
+
+
+  Capacity                                          480GB                              960GB                            1920GB
+
+  Dimension
+
+  Length (mm)                                         80                                 80                                80
+
+  Width (mm)                                          22                                 22                                22
+
+  Height (mm)                                        4.08                               4.08                              4.08
+
+
+
+ 1. Performance is gauged with FIO on Linux, employing 4KB random writes at a queue depth of 256 (QD32, 8 workers) over the entire
+ drive on an Ubuntu 20.04.2 LTS OS PCIe Gen4 system. Read/write speeds vary based on device, interface, usage, among other factors,
+ potentially lowering actual performance.
+ 2. DWPD (Drive Write Per Day) ; Test based on a JESD219A enterprise workload.
+   Warranty is 5 years. DWPD (Drive Write Per Day) = TBW/ (365 x 5 years x User capacity)
+ 3. The TCG Pyrite feature, which offers password security to safeguard user data, is optional and dependent on the firmware version.
+ 4. UBER (Uncorrectable Bit Error Rates) means the uncorrectable error per bits read.
+ 5. Warranty: 5 years or 'Percentage Used', determined via addlink's toolbox or CrystalDiskInfo. For details, see Warranty Policy."
+
+
+
+
+HEADQUARTER                                                 CONTACT INFORMATION
+6F., No. 300, Ruiguang Rd., Neihu Dist., Taipei             TEL : +886-2-8797 3116
+City 114, Taiwan (R.O.C.)                                   FAX : +886-2-8797 3522
+

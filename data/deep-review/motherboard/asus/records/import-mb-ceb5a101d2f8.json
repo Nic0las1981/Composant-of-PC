@@ -1,0 +1,35 @@
+{
+  "review": {
+    "id": "import-mb-ceb5a101d2f8",
+    "name": "ROG STRIX Z690-A GAMING WIFI",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:50+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-model/spec/",
+        "sha256": "6acf75ecec5ef74bff9df9d5dc10d37ffff21be20783f1c2d259c708355119f8",
+        "bytes": 167454,
+        "status": "fetched"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi/spec/",
+        "checkedAt": "2026-11-10T14:00:51+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:52+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

@@ -1,0 +1,357 @@
+{
+  "review": {
+    "id": "import-mb-8abfc58cd9c3",
+    "name": "MAG B550 TOMAHAWK MAX WIFI",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DisplayPort",
+      "HDMI",
+      "DirectX",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Expansion Slot",
+      "Multi-GPU",
+      "Onboard Graphics",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "WIRELESS LAN & BLUETOOTH",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System",
+      "Internal IO",
+      "BACK PANEL PORTS"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_16492305295c5ae4988ebb6356fcbaa215ee5ec04b.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MAG B550 TOMAHAWK MAX WIFI",
+    "identityNote": "Modèle MSI MAG B550 TOMAHAWK MAX WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "MAG B550 TOMAHAWK MAX WIFI",
+      "description": "Carte mère MSI MAG B550 TOMAHAWK MAX WIFI. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "2"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\n\n Supports RAID 0 and RAID 1 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Bluetooth® 5.2"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 1, Type C), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen 2, Type C), 1(Gen 2, Type A), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "5+ Optical S/PDIF (Realtek® ALC897 Codec)"
+          },
+          {
+            "label": "DisplayPort",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series, 4000G-Series, and 3000 Series processors\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DDR4 memory slots, support up to 128GB 1\n\n Supports DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\n\n Supports DDR4 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600/ 3733/ 3866/ 4000/ 4133/ 4266/ 4400/ 4533/ 4600/ 4733/ 4800/ 4866/ 5000/ 5100+ MHz by A-XMP OC MODE\n 1DPC 1R max speed 5100 MHZ\n\n 1DPC 2R max speed 3866 MHZ\n\n 2DPC 1R max speed 4000 MHZ\n\n 2DPC 2R max speed 3600 MHZ\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory\n\n Supports un-buffered memory\n\nPlease refer www.msi.com for more information on compatible memory.\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 4.0/ 3.0 x16 slot (PCI_E1) 1\n\n 1x PCIe 3.0 x16 slot (PCI_E3), supports x4 speed 2\n\n 2x PCIe 3.0 x1 slots\n\nThe supported specification depends on installed processor.\n\n When installing devices in M.2_2, PCI_E2 & PCI_E3 slots at the same time, PCI_E3 slot will be unavailable, and M2_2 slot only supports PCIe x2."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports AMD CrossFire™ Technology"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™ 2.1 port, supports a maximum resolution of 4096x2160 @60Hz 1 2\n\n Support HDCP 1.4 & 2.3\n\n 1x DisplayPort, supports a maximum resolution of 4096x2160 @60Hz 1\n\n Maximum shared memory of 16 GB\n\nAvailable for the processor with integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD B550 Chipset\n\n\n6x SATA 6Gb/s ports\n\n 2x M.2 slots (Key M)\n M2_1 slot (from AMD Processor)\n Supports PCIe 4.0/ 3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\n M2_2 slot (from AMD B550 chipset)\n Supports PCIe 3.0x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\nThe supported specification depends on installed processor."
+          },
+          {
+            "label": "USB",
+            "value": "AMD B550 Chipset\n\n\n3x USB 3.2 Gen 1 5Gbps ports (1 Type-C internal connector, and 2 ports are available through the internal USB 3.2 Gen 1 5Gbps connector)\n\n 6x USB 2.0 ports (2 Type-A ports on the back panel, 4 ports through the internal USB 2.0 connectors)\n\nAMD Processor\n\n\n2x USB 3.2 Gen 2 10Gbps ports (1 Type-C port and 1 Type-A port on the back panel)\n\n 2x USB 3.2 Gen 1 5Gbps Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "WIRELESS LAN & BLUETOOTH: AMD® Wi-Fi 6E1\n\n The Wireless module is pre-installed in the M.2 (Key-E)\n slot\n\n Supports MU-MIMO TX/RX\n\n Supports 20MHz, 40MHz, 80MHz bandwidth in 2.4GHz/\n 5GHz or 6GHz bands\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.22\n\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in\n Windows 10 version 21H1 and Windows 11\n\n Bluetooth 5.2 will be ready in Windows 10 version 21H1 and Windows 11.\nWiFi & Bluetooth: Bluetooth® 5.2"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 6x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "Keyboard / Mouse\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n Wi-Fi / Bluetooth Antenna\n\n Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 3.2 Gen 2 10Gbps Type-C\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Mounting",
+            "value": "9 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 6x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: Keyboard / Mouse\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n Wi-Fi / Bluetooth Antenna\n\n Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 3.2 Gen 2 10Gbps Type-C\n\n Optical S/PDIF OUT"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_16492305295c5ae4988ebb6356fcbaa215ee5ec04b.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD B550 Chipset\n\n\n6x SATA 6Gb/s ports\n\n 2x M.2 slots (Key M)\n M2_1 slot (from AMD Processor)\n Supports PCIe 4.0/ 3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\n M2_2 slot (from AMD B550 chipset)\n Supports PCIe 3.0x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\nThe supported specification depends on installed processor.",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 4.0/ 3.0 x16 slot (PCI_E1) 1\n\n 1x PCIe 3.0 x16 slot (PCI_E3), supports x4 speed 2\n\n 2x PCIe 3.0 x1 slots\n\nThe supported specification depends on installed processor.\n\n When installing devices in M.2_2, PCI_E2 & PCI_E3 slots at the same time, PCI_E3 slot will be unavailable, and M2_2 slot only supports PCIe x2.",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: Keyboard / Mouse\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n Wi-Fi / Bluetooth Antenna\n\n Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 3.2 Gen 2 10Gbps Type-C\n\n Optical S/PDIF OUT",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 6x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 2x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller\nWIRELESS LAN & BLUETOOTH: AMD® Wi-Fi 6E1\n\n The Wireless module is pre-installed in the M.2 (Key-E)\n slot\n\n Supports MU-MIMO TX/RX\n\n Supports 20MHz, 40MHz, 80MHz bandwidth in 2.4GHz/\n 5GHz or 6GHz bands\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.22\n\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in\n Windows 10 version 21H1 and Windows 11\n\n Bluetooth 5.2 will be ready in Windows 10 version 21H1 and Windows 11.\nWiFi & Bluetooth: Bluetooth® 5.2\nBluetooth® 5.2",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series, 4000G-Series, and 3000 Series processors\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B550-TOMAHAWK-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      }
+    }
+  }
+}

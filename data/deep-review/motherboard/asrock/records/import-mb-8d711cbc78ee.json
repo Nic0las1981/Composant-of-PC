@@ -1,0 +1,233 @@
+{
+  "review": {
+    "id": "import-mb-8d711cbc78ee",
+    "name": "X470 Master SLI",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock X470 Master SLI/ac / X470 Master SLI\nmotherboard",
+        "modelNames": [
+          "X470 Master SLI/ac",
+          "X470 Master SLI"
+        ],
+        "sharedManual": true
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:09+00:00",
+      "url": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+      "sha256": "266608f975ce1e3260522f605cd432b7914cef8566f05a9fc5ca8c33f186ff48"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock X470 Master SLI/ac / X470 Master SLI\nmotherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • ATX Form Factor\n                              • 2oz Copper PCB\n\n\n                CPU           • Supports AMD AM4 Socket Ryzen Series CPUs (Summit\n                                Ridge, Raven Ridge and Pinnacle Ridge)\n                              • Digi Power design (Intersil)\n                              • 12 Power Phase design\n                              • Supports 105W Water Cooling (Pinnacle Ridge); Supports\n                                95W Water Cooling (Summit Ridge); Supports 65W Water\n                                Cooling (Raven Ridge)\n\n\n                Chipset       • AMD Promontory X470\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n                                 3466+(OC)/3200(OC)/2933/2667/2400/2133 ECC & non-\n                                 ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Summit Ridge) support DDR4\n                                 3466+(OC)/3200(OC)/2933(OC)/2667/2400/2133 ECC &\n                                 non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Raven Ridge) support DDR4\n                                 3466+(OC)/3200(OC)/2933(OC)/2667/2400/2133 non-ECC,\n                                 un-buffered memory*\n                             * For Ryzen Series CPUs (Raven Ridge), ECC is only supported\n                             with PRO CPUs.\n                             * Please refer to Memory Support List on ASRock’s website for\n                             more information. (http://www.asrock.com/)\n                             * Please refer to page 25 for DDR4 UDIMM maximum\n                             frequency support.\n                              • Max. capacity of system memory: 64GB\n                              • 15μ Gold Contact in DIMM Slots\n\n\n                Expansion     • 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE1); dual at\nEnglish\n\n\n\n\n                Slot             x8 (PCIE1) / x8 (PCIE4))*\n                             * Supports NVMe SSD as boot disks\n                              • 4 x PCI Express 2.0 x1 Slots\n\n\n          2\n\f                                          X470 Master SLI/ac / X470 Master SLI\n\n\n\n                                             TM            TM\n             • Supports AMD Quad CrossFireX and CrossFireX\n                                         TM         TM\n             • Supports NVIDIA® Quad SLI and SLI\n             • 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n\n                                         TM\nGraphics      • Integrated AMD Radeon Vega Series Graphics in Ryzen\n                Series APU*\n             * Actual support may vary by CPU\n              • DirectX 12, Pixel Shader 5.0\n              • Max. shared memory 2GB\n              • Supports HDMI with max. resolution up to 4K x 2K\n                (4096x2160) @ 30Hz\n              • Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\n                HBR (High Bit Rate Audio) with HDMI Port (Compliant\n                HDMI monitor is required)\n              • Supports HDCP with HDMI Port\n              • Supports 4K Ultra HD (UHD) playback with HDMI Port\n\n\nAudio        • 7.1 CH HD Audio with Content Protection (Realtek ALC892\n               Audio Codec)\n             • Premium Blu-ray Audio support\n             • Supports Surge Protection\n             • Nichicon Fine Gold Series Audio Caps\n\n\nLAN          •   Gigabit LAN 10/100/1000 Mb/s\n             •   GigaLAN Intel® I211AT\n             •   Supports Wake-On-LAN\n             •   Supports Lightning/ESD Protection\n             •   Supports Energy Efficient Ethernet 802.3az\n             •   Supports PXE\n\n\nWireless     •   Intel® 802.11ac WiFi Module\nLAN (for     •   Supports IEEE 802.11a/b/g/n/ac\nX470 Mas-    •   Supports Dual-Band (2.4/5 GHz)\nter SLI/ac   •   Supports high speed wireless connections up to 433Mbps\nonly)        •   Supports Bluetooth 4.2 / 3.0 + High speed class II\n                                                                                 English\n\n\n\n\n                                                                            3\n\f              Rear Panel   •   2 x Antenna Ports (for X470 Master SLI/ac only)\n              I/O          •   1 x PS/2 Mouse/Keyboard Port\n                           •   1 x HDMI Port\n                           •   1 x Optical SPDIF Out Port\n                           •   1 x USB 3.1 Gen2 Type-A Port (10 Gb/s) (Supports ESD\n                               Protection)\n                           •   1 x USB 3.1 Gen2 Type-C Port (10 Gb/s) (Supports ESD\n                               Protection)\n                           •   6 x USB 3.1 Gen1 Ports (Supports ESD Protection)\n                           •   1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\n                               LED)\n                           •   HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\n                               Front Speaker / Microphone (Gold Audio Jacks)\n\n\n              Storage       • 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\n                               RAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n                            • 1 x Ultra M.2 Socket (M2_1), supports M Key type\n                               2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\n                               and M.2 PCI Express module up to Gen3 x4 (32 Gb/s)*\n                            • 1 x M.2 Socket (M2_2), supports M Key type\n                               2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\n                               PCI Express module up to Gen2 x2 (10 Gb/s)*\n                           * Supports NVMe SSD as boot disks\n                           * Supports ASRock U.2 Kit\n\n\n              Connector     • 1 x COM Port Header\n                            • 1 x TPM Header\n                            • 1 x Power LED and Speaker Header\n                            • 1 x AMD Fan LED Header\n                           * The AMD Fan LED Header supports LED strips of maximum\n                           load of 3A (36W) and length up to 2.5M.\n                            • 1 x RGB LED Header\n                           * Supports in total up to 12V/3A, 36W LED Strip\n                            • 1 x Addressable LED Header\n                           * Supports in total up to 5V/3A, 15W LED Strip\n                            • 1 x CPU Fan Connector (4-pin)\nEnglish\n\n\n\n\n                           * The CPU Fan Connector supports the CPU fan of maximum\n                           1A (12W) fan power.\n                            • 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\n                               Speed Control)\n\n          4\n\f                                       X470 Master SLI/ac / X470 Master SLI\n\n\n\n\n           * The CPU/Water Pump Fan supports the water cooler fan of\n           maximum 2A (24W) fan power.\n            • 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\n              Speed Control)\n           * The Chassis/Water Pump Fan supports the water cooler fan of\n           maximum 2A (24W) fan power.\n           * CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\n           CHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n            • 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\n              nector)\n            • 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\n              tor)\n            • 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\n              tor)\n            • 1 x Front Panel Audio Connector\n            • 1 x AMD LED Fan USB Header\n            • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\n              ESD Protection)\n            • 2 x USB 3.1 Gen1 Headers (Support 4 USB 3.1 Gen1 ports)\n              (Supports ESD Protection)\n\n\nBIOS       •   AMI UEFI Legal BIOS with GUI support\nFeature    •   Supports “Plug and Play”\n           •   ACPI 5.1 compliance wake up events\n           •   Supports jumperfree\n           •   SMBIOS 2.3 support\n           •   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\n               VDDP, PROM 2.5V, Voltage Multi-adjustment\n\n\nHardware   • Temperature Sensing: CPU, CPU/Water Pump, Chassis/Wa-\nMonitor      ter Pump Fans\n           • Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\n             Pump Fans\n           • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\n             ture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n           • Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\n                                                                               English\n\n\n\n\n             Water Pump Fans\n           • Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\n             NB, DRAM, PCH 1.05V, +1.8V, VDDP\n\n\n\n                                                                           5\n\f                  OS                      • Microsoft® Windows® 10 64-bit\n\n\n                  Certifica-              • FCC, CE\n                  tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n\n              * For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n                             Please realize that there is a certain risk involved with overclocking, including\n                             adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n                             third-party overclocking tools. Overclocking may affect your system’s stability, or\n                             even cause damage to the components and devices of your system. It should be done\n                             at your own risk and expense. We are not responsible for possible damage caused by\n                             overclocking.\nEnglish\n\n\n\n\n          6\n\f                                                                                                                                              X470 Master SLI/ac / X470 Master SLI\n\n\n\n",
+      "modelNames": [
+        "X470 Master SLI/ac",
+        "X470 Master SLI"
+      ],
+      "sharedManual": true
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X470 Master SLI",
+    "identityNote": "Modèle ASRock X470 Master SLI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 64,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "m2Slots": 2,
+      "manufacturerPartNumber": "X470 Master SLI",
+      "description": "Carte mère ASRock X470 Master SLI. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 64 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor\n• 2oz Copper PCB"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD AM4 Socket Ryzen Series CPUs (Summit\nRidge, Raven Ridge and Pinnacle Ridge)\n• Digi Power design (Intersil)\n• 12 Power Phase design\n• Supports 105W Water Cooling (Pinnacle Ridge); Supports\n95W Water Cooling (Summit Ridge); Supports 65W Water\nCooling (Raven Ridge)"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD Promontory X470"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n3466+(OC)/3200(OC)/2933/2667/2400/2133 ECC & non-\nECC, un-buffered memory*\n• AMD Ryzen series CPUs (Summit Ridge) support DDR4\n3466+(OC)/3200(OC)/2933(OC)/2667/2400/2133 ECC &\nnon-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Raven Ridge) support DDR4\n3466+(OC)/3200(OC)/2933(OC)/2667/2400/2133 non-ECC,\nun-buffered memory*\n* For Ryzen Series CPUs (Raven Ridge), ECC is only supported\nwith PRO CPUs.\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n* Please refer to page 25 for DDR4 UDIMM maximum\nfrequency support.\n• Max. capacity of system memory: 64GB\n• 15μ Gold Contact in DIMM Slots"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "• 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE1); dual at\nSlot             x8 (PCIE1) / x8 (PCIE4))*\n* Supports NVMe SSD as boot disks\n• 4 x PCI Express 2.0 x1 Slots\nX470 Master SLI/ac / X470 Master SLI\nTM            TM\n• Supports AMD Quad CrossFireX and CrossFireX\nTM         TM\n• Supports NVIDIA® Quad SLI and SLI\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\nTM"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD Radeon Vega Series Graphics in Ryzen\nSeries APU*\n* Actual support may vary by CPU\n• DirectX 12, Pixel Shader 5.0\n• Max. shared memory 2GB\n• Supports HDMI with max. resolution up to 4K x 2K\n(4096x2160) @ 30Hz\n• Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\nHBR (High Bit Rate Audio) with HDMI Port (Compliant\nHDMI monitor is required)\n• Supports HDCP with HDMI Port\n• Supports 4K Ultra HD (UHD) playback with HDMI Port"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio with Content Protection (Realtek ALC892\nAudio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Nichicon Fine Gold Series Audio Caps"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "•   Gigabit LAN 10/100/1000 Mb/s\n•   GigaLAN Intel® I211AT\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "•   Intel® 802.11ac WiFi Module\nLAN (for     •   Supports IEEE 802.11a/b/g/n/ac\nX470 Mas-    •   Supports Dual-Band (2.4/5 GHz)\nter SLI/ac   •   Supports high speed wireless connections up to 433Mbps\nonly)        •   Supports Bluetooth 4.2 / 3.0 + High speed class II"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "•   2 x Antenna Ports (for X470 Master SLI/ac only)\nI/O          •   1 x PS/2 Mouse/Keyboard Port\n•   1 x HDMI Port\n•   1 x Optical SPDIF Out Port\n•   1 x USB 3.1 Gen2 Type-A Port (10 Gb/s) (Supports ESD\nProtection)\n•   1 x USB 3.1 Gen2 Type-C Port (10 Gb/s) (Supports ESD\nProtection)\n•   6 x USB 3.1 Gen1 Ports (Supports ESD Protection)\n•   1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n•   HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "• 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 1 x Ultra M.2 Socket (M2_1), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\nand M.2 PCI Express module up to Gen3 x4 (32 Gb/s)*\n• 1 x M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen2 x2 (10 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n* The AMD Fan LED Header supports LED strips of maximum\nload of 3A (36W) and length up to 2.5M.\n• 1 x RGB LED Header\n* Supports in total up to 12V/3A, 36W LED Strip\n• 1 x Addressable LED Header\n* Supports in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\nX470 Master SLI/ac / X470 Master SLI\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\nCHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\nnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 1 x AMD LED Fan USB Header\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.1 Gen1 Headers (Support 4 USB 3.1 Gen1 ports)\n(Supports ESD Protection)"
+          },
+          {
+            "label": "BIOS",
+            "value": "•   AMI UEFI Legal BIOS with GUI support\nFeature    •   Supports “Plug and Play”\n•   ACPI 5.1 compliance wake up events\n•   Supports jumperfree\n•   SMBIOS 2.3 support\n•   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP, PROM 2.5V, Voltage Multi-adjustment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "• Temperature Sensing: CPU, CPU/Water Pump, Chassis/Wa-\nMonitor      ter Pump Fans\n• Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\nPump Fans\n• Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n• Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\nWater Pump Fans\n• Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\nNB, DRAM, PCH 1.05V, +1.8V, VDDP"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may affect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking.\nX470 Master SLI/ac / X470 Master SLI"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Capacité mémoire indiquée dans le manuel ; les évolutions de BIOS et la liste de compatibilité fabricant peuvent modifier cette limite. Les restrictions de lignes PCIe/M.2 selon le processeur restent applicables.",
+      "m2Slots compte les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et les sockets SATA seuls sont exclus.",
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur.",
+      "Manuel commun à plusieurs modèles explicitement nommés : les clauses conditionnelles identifiant chaque modèle restent présentes, sans les attribuer automatiquement aux autres variantes."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor\n• 2oz Copper PCB",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "chipset": {
+        "value": "• AMD Promontory X470",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "storagePorts": {
+        "value": "• 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 1 x Ultra M.2 Socket (M2_1), supports M Key type\n2230/2242/2260/2280/22110 M.2 SATA3 6.0 Gb/s module\nand M.2 PCI Express module up to Gen3 x4 (32 Gb/s)*\n• 1 x M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen2 x2 (10 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "pcie": {
+        "value": "• 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE1); dual at\nSlot             x8 (PCIE1) / x8 (PCIE4))*\n* Supports NVMe SSD as boot disks\n• 4 x PCI Express 2.0 x1 Slots\nX470 Master SLI/ac / X470 Master SLI\nTM            TM\n• Supports AMD Quad CrossFireX and CrossFireX\nTM         TM\n• Supports NVIDIA® Quad SLI and SLI\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "rearIO": {
+        "value": "•   2 x Antenna Ports (for X470 Master SLI/ac only)\nI/O          •   1 x PS/2 Mouse/Keyboard Port\n•   1 x HDMI Port\n•   1 x Optical SPDIF Out Port\n•   1 x USB 3.1 Gen2 Type-A Port (10 Gb/s) (Supports ESD\nProtection)\n•   1 x USB 3.1 Gen2 Type-C Port (10 Gb/s) (Supports ESD\nProtection)\n•   6 x USB 3.1 Gen1 Ports (Supports ESD Protection)\n•   1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n•   HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n* The AMD Fan LED Header supports LED strips of maximum\nload of 3A (36W) and length up to 2.5M.\n• 1 x RGB LED Header\n* Supports in total up to 12V/3A, 36W LED Strip\n• 1 x Addressable LED Header\n* Supports in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\nX470 Master SLI/ac / X470 Master SLI\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP and\nCHA_FAN3/WP can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\nnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power Connec-\ntor)\n• 1 x Front Panel Audio Connector\n• 1 x AMD LED Fan USB Header\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.1 Gen1 Headers (Support 4 USB 3.1 Gen1 ports)\n(Supports ESD Protection)",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "network": {
+        "value": "•   Gigabit LAN 10/100/1000 Mb/s\n•   GigaLAN Intel® I211AT\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE\n•   Intel® 802.11ac WiFi Module\nLAN (for     •   Supports IEEE 802.11a/b/g/n/ac\nX470 Mas-    •   Supports Dual-Band (2.4/5 GHz)\nter SLI/ac   •   Supports high speed wireless connections up to 433Mbps\nonly)        •   Supports Bluetooth 4.2 / 3.0 + High speed class II",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio with Content Protection (Realtek ALC892\nAudio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Nichicon Fine Gold Series Audio Caps",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD AM4 Socket Ryzen Series CPUs (Summit\nRidge, Raven Ridge and Pinnacle Ridge)\n• Digi Power design (Intersil)\n• 12 Power Phase design\n• Supports 105W Water Cooling (Pinnacle Ridge); Supports\n95W Water Cooling (Summit Ridge); Supports 65W Water\nCooling (Raven Ridge)\nBIOS: •   AMI UEFI Legal BIOS with GUI support\nFeature    •   Supports “Plug and Play”\n•   ACPI 5.1 compliance wake up events\n•   Supports jumperfree\n•   SMBIOS 2.3 support\n•   CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP, PROM 2.5V, Voltage Multi-adjustment",
+        "sourceURL": "https://download.asrock.com/Manual/X470%20Master%20SLI.pdf",
+        "checkedAt": "2026-11-10T11:01:09+00:00"
+      }
+    },
+    "manufacturerModel": "X470 Master SLI"
+  }
+}

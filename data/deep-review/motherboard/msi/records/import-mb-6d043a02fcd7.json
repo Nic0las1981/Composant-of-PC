@@ -1,0 +1,367 @@
+{
+  "review": {
+    "id": "import-mb-6d043a02fcd7",
+    "name": "A520M PRO-C DASH",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "PCI",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Serial ports (Rear)",
+      "Parallel Port(Front)",
+      "Audio ports (Rear)",
+      "DVI-D",
+      "VGA",
+      "HDMI",
+      "DirectX",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slot",
+      "Onboard Graphics",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "MOUNTING",
+      "Internal IO",
+      "BACK PANEL PORTS"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_5_20200818100807_5f3b3807d5d9e.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "A520M PRO-C DASH",
+    "identityNote": "Modèle MSI A520M PRO-C DASH confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 64,
+      "m2Slots": 1,
+      "socket": "AM4",
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 220.0,
+      "manufacturerPartNumber": "A520M PRO-C DASH",
+      "description": "Carte mère MSI A520M PRO-C DASH. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "2 emplacements DDR4",
+        "Mémoire maximale documentée : 64 Go",
+        "1 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® A520 chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "2"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "64"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "1"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "2"
+          },
+          {
+            "label": "PCI",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "1"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "4(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Serial ports (Rear)",
+            "value": "1"
+          },
+          {
+            "label": "Parallel Port(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC892/ALC897 Codec"
+          },
+          {
+            "label": "DVI-D",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "MATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series, 4000 G-Series, 3000 Series and 3000 G-Series processors\n\n\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR4 memory slots, support up to 64GB1\n\n Supports DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\n Supports un-buffered memory\n\n Please refer www.msi.com for more information on compatible memory.\n\n See supported memory\nDIMM Slots: 2\nMax Memory (GB): 64\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 3.0 x16 slot (From AMD processor)\n Supports x16 speed with Ryzen™ 5000, 5000G, 4000G and 3000 processors\n\n Supports x8 speed with Ryzen™ 3000G processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon Graphics processors\n\n 2x PCIe 3.0 x1 slots(From chipset, PCI_E1 & PCI_E3)\n\n 1x PCI slot"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x VGA port, supports a maximum resolution of 2048x1280 @60Hz1\n\n 1x DVI-D port, supports a maximum resolution of 1920x1200 @60Hz1\n\n 1x HDMI™ 2.1 port, supports a maximum resolution of 4096x2160 @60Hz12\n\n Support HDCP 1.4 & 2.3\n\n Maximum shared memory of 16 GB\n\n Available for the processor with integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD® A520 Chipset\n\n 4x SATA 6Gb/s ports\n\n 1x M.2 slot (From AMD processor, Key M)\n Supports PCIe 3.0 x4 & SATA 6G/s with Ryzen™ 5000, 5000G, 4000G, 3000 and 3000G processors\n\n Supports SATA 6Gb/s with Athlon™ with Radeon™ Vega Graphics processors\n\n Supports 2242/ 2260/ 2280 storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "AMD® A520 Chipset\n\n 2x USB 3.2 Gen 1 5Gbps ports are available through the internal USB 3.2 Gen 1 5Gbps connector\n\n 6x USB 2.0 ports (2 Type-A ports on the back panel, 4 ports through the internal USB 2.0 connectors)\n\n AMD® Processor\n\n 4x USB 3.2 Gen 1 5Gbps Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC892/ALC897 Codec\n\n 7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8111EPV 1Gbps LAN controller"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 4-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 1x M.2 slot (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Serial port connector\n\n 1x Parallel port connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "VGA\n\n COM port\n\n Mouse\n\n LAN\n\n DVI-D\n\n HDMI™\n\n Keyboard\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 2.0\n\n Audio Connectors"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "Micro-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)"
+          },
+          {
+            "label": "MOUNTING",
+            "value": "6 mounting holes"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 4-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 1x M.2 slot (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Serial port connector\n\n 1x Parallel port connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: VGA\n\n COM port\n\n Mouse\n\n LAN\n\n DVI-D\n\n HDMI™\n\n Keyboard\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 2.0\n\n Audio Connectors"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_5_20200818100807_5f3b3807d5d9e.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "formFactor": {
+        "value": "MATX\nMicro-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "boardDimensions": {
+        "value": "MATX\nMicro-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "chipset": {
+        "value": "AMD® A520 chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD® A520 Chipset\n\n 4x SATA 6Gb/s ports\n\n 1x M.2 slot (From AMD processor, Key M)\n Supports PCIe 3.0 x4 & SATA 6G/s with Ryzen™ 5000, 5000G, 4000G, 3000 and 3000G processors\n\n Supports SATA 6Gb/s with Athlon™ with Radeon™ Vega Graphics processors\n\n Supports 2242/ 2260/ 2280 storage devices",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 3.0 x16 slot (From AMD processor)\n Supports x16 speed with Ryzen™ 5000, 5000G, 4000G and 3000 processors\n\n Supports x8 speed with Ryzen™ 3000G processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon Graphics processors\n\n 2x PCIe 3.0 x1 slots(From chipset, PCI_E1 & PCI_E3)\n\n 1x PCI slot",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: VGA\n\n COM port\n\n Mouse\n\n LAN\n\n DVI-D\n\n HDMI™\n\n Keyboard\n\n USB 3.2 Gen 1 5Gbps Type-A\n\n USB 2.0\n\n Audio Connectors",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 4-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 1x M.2 slot (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Serial port connector\n\n 1x Parallel port connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8111EPV 1Gbps LAN controller",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC892/ALC897 Codec\n\n 7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 Series, 5000 G-Series, 4000 G-Series, 3000 Series and 3000 G-Series processors\n\n\n See supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.msi.com/Motherboard/A520M-PRO-C-DASH/Specification",
+        "checkedAt": "2026-11-10T11:00:36+00:00"
+      }
+    }
+  }
+}

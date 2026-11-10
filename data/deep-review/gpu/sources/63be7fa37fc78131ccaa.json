@@ -1,0 +1,16 @@
+{
+  "brand": "Sparkle",
+  "url": "https://www.sparkle.com.tw/files/20250116160609764.pdf",
+  "kind": "pdf",
+  "checkedAt": "2026-11-10T14:27:05Z",
+  "requestedURL": "https://www.sparkle.com.tw/files/20250116160609764.pdf",
+  "contentFile": "data/deep-review/gpu/sources/63be7fa37fc78131ccaa.html.gz",
+  "contentTruncated": false,
+  "status": 200,
+  "contentType": "application/pdf",
+  "sha256": "c8ffbabef726a2a1111bb31d415a7be7817c9c0a93786af346ca939b086577ca",
+  "bytes": 102113,
+  "text": "SPARKLE Intel® Arc™ Graphics\n Card Quick Installation Guide\n\fSystem Requirements\n\n  1. To install the Sparkle Intel® Arc™ Graphics Card, you'll need a\n     motherboard with one or more PCI Express x16 slots for expansion.\n  2. 10th Gen Intel® Core™ Processors and higher with compatible\n     motherboard supporting Resizable Bar. AMD Ryzen™ 3000 Series\n     Processors with AMD 500 Series motherboard supporting Smart Access\n     Memory. See Intel’s website for more details\n  3. Make sure your monitor or display device is compatible with the output\n     interface of your graphics card.\n  4. Power consumption varies by model, so please refer to Sparkle's\n     website to calculate your system's minimum power requirement.\n  5. Your operating system must be Linux© /Windows® 10/ Windows® 11.\n     For additional support details, please refer to Intel's website.\n\n\nInstall Your Graphics Card\n\n  1. Turn off your computer and disconnect the power cord before opening\n     up the case.\n  2. Remove any existing graphics card (if applicable) or PCIE slot cover.\n  3. Insert the Sparkle Intel® Arc™ Graphics Card into the PCIE slot and\n       make sure it's securely in place with the locking mechanism.\n  4.   Secure the graphics card to the PCIE bracket using a thumbscrew.\n  5.   Plug in any required external PCIE power connectors from your\n       appropriate PC Power Supply Unit.\n  6.   Close up the case and connect your display cable to the corresponding\n       GPU display output port.\n  7.   Power on your system and boot up to OS! We recommend removing all\n       drivers for your previous card and performing a clean install of new\n       drivers for optimal performance.\n\fHow to Install Driver\n\nStep 1: Visit the link to download Display Driver Uninstaller (DDU):\nhttps://www.guru3d.com/download/display-driver-uninstaller-download/\n\nStep 2: Run DDU and check the log to identify which graphic driver you are\ncurrently using.\n\nStep 3: Uninstall the previous drivers (including AMD and Nvidia) or the\ncurrent ARC driver by selecting GPU as the device type and choosing the\ndevice corresponding to your GPU vendor.\n\nStep 4: Visit the Intel website to download and install the latest driver.\n\nFollow these instructions carefully to ensure proper installation of your\ngraphics card. If you run into any issues during installation, feel free to visit\nSparkle or Intel's websites for additional support resources.\n\f",
+  "links": [],
+  "documentFormat": "pdf"
+}

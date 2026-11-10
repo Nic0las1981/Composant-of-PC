@@ -1,0 +1,224 @@
+{
+  "review": {
+    "id": "import-mb-1a154a8aa5d0",
+    "name": "TUF X470-PLUS GAMING",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+          "checkedAt": "2026-11-10T14:09:14+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+          "httpStatus": 200,
+          "sha256": "4b13d34f5e0349d7115fd37a6626cd0731b56c4f72864993dd6fecfa4850f99b",
+          "bytes": 6310834,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "cover": "draobrehtoM TUF X470-PLUS GAMING",
+        "pages": [
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "product": {
+    "mpn": "TUF X470-PLUS GAMING",
+    "identityNote": "Modèle ASUS TUF X470-PLUS GAMING confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — manuel officiel, tableau des spécifications",
+        "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF X470-PLUS GAMING",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AM4 socket for AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™\nVega Graphics/ Ryzen™ 1st Generation/ 7th Generation A-Series/\nAthlon X4 Processors\nSupports CPU up to 8 cores*\n* Due to the CPU limitations, CPU cores supported vary by processor.\n** Refer to www.asus.com for the AMD CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X470 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega\nGraphics/ Ryzen™ 1st Generation Processors\n- 4 x DIMM, max. 64GB, DDR4 3200(O.C.)/ 3000(O.C.)/ 2800(O.C.)/\n2666/ 2400/ 2133 MHz, un-buffered memory\nAMD 7th Generation A-Series/ Athlon X4 Processors\n- 4 x DIMM, max. 64GB, DDR4 2400/ 2133 MHz, un-buffered memory\nDual channel memory architecture\n* Hyper DIMM support is subject to the physical characteristics of\nindividual CPUs.\n** Refer to www.asus.com for the Memory QVL (Qualified Vendors List)."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n1 x PCIe 3.0 x16 slot (max. at x16 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics/ 7th Generation\nA-Series/ Athlon X4 Processors\n1 x PCIe 3.0 x16 slot (max. at x8 mode)\nAMD X470 chipset\n- 1 x PCIe 2.0 x16 slot (max. at x4 mode)\n- 3 x PCIe 2.0 x1 slots"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Integrated Graphics in the AMD Ryzen™ with Radeon™ Vega\nGraphics/ 7th Generation A-Series Processors\nMulti-VGA output support: HDMI and DVI-D ports\n- Supports HDMI 1.4b with maximum resolution of 4096 x 2160\n@24Hz/ 2560 x 1600 @60Hz\n- Supports DVI-D with maximum resolution of 1920 x 1200 @60Hz\n- Maximum shared memory of 2048 MB"
+          },
+          {
+            "label": "Multi-GPU support",
+            "value": "Supports AMD CrossFireX™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega\nGraphics*/ Ryzen™ 1st Generation Processors\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(PCIe 3.0\nx4 mode and SATA mode) storage devices support\nAMD 7th Generation A-Series*/ Athlon X4 Processors\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(SATA\nmode) storage devices support\nAMD X470 Chipset:\n- M.2_2 socket 3 with M Key, Type 2242/ 2260/ 2280 (PCIe 3.0 x2\nmode and SATA mode) storage devices support\n- 6 x Serial ATA 6 Gb/s connectors with RAID 0, RAID 1 and RAID\n10 support\n* Supports NVMe RAID configurations via onboard M.2 storages."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® 8111H Gigabit LAN Controller"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC 887-VD2 8-channel* High Definition Audio CODEC\n- Exclusive DTS Custom for GAMING Headsets\n- Audio Shielding: Ensures precision analog/digital separation and\ngreatly reduces multi-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right\nchannels to guard the quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and\nimmersive sound with exceptional clarity and fidelity.\n- Supports jack-detection and front panel jack-retasking\nAudio Cover: Effective shielding preserves the integrity of audio\nsignals to ensure best quality.\n* Use a chassis with HD audio module in the front panel to support an\n8-channel audio output."
+          },
+          {
+            "label": "USB",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega\nGraphics/ Ryzen™ 1st Generation/ 7th Generation A-Series/\nAthlon X4 Processors\n- 3 x USB 3.1 Gen 1 (up to 5Gbps) ports at back panel (2 x Type-A\nand 1 x Type C)\nAMD X470 chipset\n- 2 x USB 3.1 Gen 2 (up to 10Gbps) ports at back panel (teal blue)\n- 4 x USB 3.1 Gen 1 (up to 5Gbps) ports at mid-board\n- 6 x USB 2.0 ports at mid-board (2 ports at back panel,4 ports at\nmid-board)"
+          },
+          {
+            "label": "ASUS Unique Features",
+            "value": "Dependable Stability\nASUS TUF PROTECTION\n- ASUS SafeSlot - Protect your graphics card Investment\n- ASUS LANGuard: Protects against LAN surges, lightning\nstrikes and static-electricity discharges!\n- ASUS Overvoltage Protection: World-class circuit-protecting\npower design\n- ASUS Stainless-Steel Back I/O: 3X corrosion-resistance for\ngreater durability!\n- ASUS DIGI+ VRM: 6 Phase digital power design\nSuperb performance\nUEFI BIOS\n- Most advanced options with fast response time\nASUS Fan Xpert 4 Core\n- Advanced fan and liquid controls for ultimate cooling and\nquietness\nGaming Scenario\nAURA\n- Bright up your build\nEasy PC DIY\nSafe motherboard mounting\n- Component-free areas to minimize damage risk\nQ-Design\n- ASUS Q-Slot\n- ASUS Q-DIMM\nASUS Exclusive Features\n- featuring a friendly graphics user interface\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- PC Cleaner"
+          },
+          {
+            "label": "ASUS Quiet Thermal Solution",
+            "value": "Quiet Thermal Design:\n- Stylish Fanless Design: MOS Heat-sink & Chipset Heat-sink\nsolution\n- ASUS FAN Xpert 4 Core"
+          },
+          {
+            "label": "ASUS Exclusive Overclocking Features",
+            "value": "Precision Tweaker 2:\n- vVDDCR CPU: Adjustable CPU voltage at 0.00625V increment\n- vVDDCR SOC: Adjustable CPU/NB voltage at 0.00625V\nincrement\n- vDRAM Bus: Adjustable DRAM voltage at 0.005V increment\nOverclocking Protection:\n- ASUS C.P.R.(CPU Parameter Recall)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/ mouse combo port\n1 x HDMI port\n1 x DVI-D port\n2 x USB 3.1 Gen 2 (up to 10Gbps) ports (teal blue, Type-A)\n1 x USB 3.1 Gen 1 (up to 5Gbps) port (Type C)\n2 x USB 3.1 Gen 1 (up to 5Gbps) ports (Type A, blue)\n2 x USB 2.0/1.1 ports\n1 x LAN (RJ-45) port\n3 x Audio jacks support 8-channel audio output"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x USB 3.1 Gen 1 (up to 5Gbps) connectors support additional 4\nUSB ports\n2 x USB 2.0/1.1 connectors support additional 4 USB ports\n6 x SATA 6 Gb/s connectors\n1 x M.2 Socket 3 for M Key, type 2242/ 2260/ 2280/ 22110 storage\ndevices support (Supports both PCIe and SATA modes)\n1 x M.2 Socket 3 for M Key, type 2242/ 2260/ 2280 storage devices\nsupport (Supports both PCIe and SATA modes)\n1 x CPU Fan connector (4-pin) for both 3-pin (DC mode) and 4-pin\n(PWM mode) CPU coolers control with auto detection support\n3 x Chassis Fan connectors (4-pin) for both 3-pin (DC mode) and\n4-pin (PWM mode) coolers control with auto detection support\n1 x AIO_PUMP connector (4-pin)\n1 x AURA RGB header\n1 x 24-pin EATX power connector\n1 x 8-pin EATX 12V power connector\n1 x System panel connector\n1 x Front panel audio connector (AAFP)\n1 x COM connector\n1 x S/PDIF out connector\n1 x Clear CMOS jumper (2-pin)"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.0, ACPI\n6.0, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS\n3, F6 Q-fan Control, F3 My Favorites, Last Modified log, F12\nPrintScreen, ASUS User Profile, F4 AURA ON/OFF, F9 Search,\nand ASUS DRAM SPD (Serial Presence Detect) memory\ninformation"
+          },
+          {
+            "label": "Administration",
+            "value": "DMI 3.0, WOL by PME, PXE"
+          },
+          {
+            "label": "Support DVD contents",
+            "value": "Drivers\nASUS Utilities\nAnti-virus software (OEM version)"
+          },
+          {
+            "label": "Operating System Support",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le tableau complet du manuel conserve les limites et restrictions publiées à son édition ; les mises à jour BIOS/QVL peuvent modifier les listes de CPU et de mémoire compatibles."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470 Chipset",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega\nGraphics*/ Ryzen™ 1st Generation Processors\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(PCIe 3.0\nx4 mode and SATA mode) storage devices support\nAMD 7th Generation A-Series*/ Athlon X4 Processors\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(SATA\nmode) storage devices support\nAMD X470 Chipset:\n- M.2_2 socket 3 with M Key, Type 2242/ 2260/ 2280 (PCIe 3.0 x2\nmode and SATA mode) storage devices support\n- 6 x Serial ATA 6 Gb/s connectors with RAID 0, RAID 1 and RAID\n10 support\n* Supports NVMe RAID configurations via onboard M.2 storages.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n1 x PCIe 3.0 x16 slot (max. at x16 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics/ 7th Generation\nA-Series/ Athlon X4 Processors\n1 x PCIe 3.0 x16 slot (max. at x8 mode)\nAMD X470 chipset\n- 1 x PCIe 2.0 x16 slot (max. at x4 mode)\n- 3 x PCIe 2.0 x1 slots",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/ mouse combo port\n1 x HDMI port\n1 x DVI-D port\n2 x USB 3.1 Gen 2 (up to 10Gbps) ports (teal blue, Type-A)\n1 x USB 3.1 Gen 1 (up to 5Gbps) port (Type C)\n2 x USB 3.1 Gen 1 (up to 5Gbps) ports (Type A, blue)\n2 x USB 2.0/1.1 ports\n1 x LAN (RJ-45) port\n3 x Audio jacks support 8-channel audio output",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "internalIO": {
+        "value": "2 x USB 3.1 Gen 1 (up to 5Gbps) connectors support additional 4\nUSB ports\n2 x USB 2.0/1.1 connectors support additional 4 USB ports\n6 x SATA 6 Gb/s connectors\n1 x M.2 Socket 3 for M Key, type 2242/ 2260/ 2280/ 22110 storage\ndevices support (Supports both PCIe and SATA modes)\n1 x M.2 Socket 3 for M Key, type 2242/ 2260/ 2280 storage devices\nsupport (Supports both PCIe and SATA modes)\n1 x CPU Fan connector (4-pin) for both 3-pin (DC mode) and 4-pin\n(PWM mode) CPU coolers control with auto detection support\n3 x Chassis Fan connectors (4-pin) for both 3-pin (DC mode) and\n4-pin (PWM mode) coolers control with auto detection support\n1 x AIO_PUMP connector (4-pin)\n1 x AURA RGB header\n1 x 24-pin EATX power connector\n1 x 8-pin EATX 12V power connector\n1 x System panel connector\n1 x Front panel audio connector (AAFP)\n1 x COM connector\n1 x S/PDIF out connector\n1 x Clear CMOS jumper (2-pin)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "network": {
+        "value": "Realtek® 8111H Gigabit LAN Controller",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC 887-VD2 8-channel* High Definition Audio CODEC\n- Exclusive DTS Custom for GAMING Headsets\n- Audio Shielding: Ensures precision analog/digital separation and\ngreatly reduces multi-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right\nchannels to guard the quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and\nimmersive sound with exceptional clarity and fidelity.\n- Supports jack-detection and front panel jack-retasking\nAudio Cover: Effective shielding preserves the integrity of audio\nsignals to ensure best quality.\n* Use a chassis with HD audio module in the front panel to support an\n8-channel audio output.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM4 socket for AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™\nVega Graphics/ Ryzen™ 1st Generation/ 7th Generation A-Series/\nAthlon X4 Processors\nSupports CPU up to 8 cores*\n* Due to the CPU limitations, CPU cores supported vary by processor.\n** Refer to www.asus.com for the AMD CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.0, ACPI\n6.0, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS\n3, F6 Q-fan Control, F3 My Favorites, Last Modified log, F12\nPrintScreen, ASUS User Profile, F4 AURA ON/OFF, F9 Search,\nand ASUS DRAM SPD (Serial Presence Detect) memory\ninformation",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_X470-PLUS-GAMING/E13882_TUF_X470-PLUS_GAMING_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:09:14+00:00"
+      }
+    },
+    "manufacturerModel": "TUF X470-PLUS GAMING"
+  }
+}

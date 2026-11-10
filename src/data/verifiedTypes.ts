@@ -29,8 +29,13 @@ export interface VerifiedFieldEvidence {
   checkedAt: string;
   notApplicable?: boolean;
   reason?: string;
+  /** Explicitly incompatible statements in the cited source remain unresolved. */
+  conflicting?: boolean;
 }
 export interface VerifiedProduct {
+  /** A documented model without a sales part number keeps mpn empty. */
+  identityKind?: 'mpn' | 'manufacturer-model';
+  manufacturerModel?: string;
   mpn: string;
   identityNote: string;
   sources: VerifiedSource[];
@@ -39,4 +44,11 @@ export interface VerifiedProduct {
   offers: VerifiedOffer[];
   notes: string[];
   fieldEvidence?: Record<string, VerifiedFieldEvidence>;
+}
+
+export function matchesProductIdentity(component: Component, product: VerifiedProduct | undefined): boolean {
+  if (!product) return false;
+  if (product.identityKind === 'manufacturer-model') return product.mpn === ''
+    && Boolean(product.manufacturerModel?.trim()) && component.manufacturerModel === product.manufacturerModel;
+  return Boolean(product.mpn.trim()) && component.manufacturerPartNumber?.trim().toUpperCase() === product.mpn.trim().toUpperCase();
 }

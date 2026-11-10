@@ -203,7 +203,7 @@ test('catalog-wide single replacements never recommend a known incompatible alte
 
 test('imported GPUs without performance or power data produce no invented bottleneck or PSU margin', () => {
   const gpu = catalog.find(component => component.category === 'gpu' && component.source
-    && component.gamingScore === undefined && component.creationScore === undefined && component.powerW === undefined)!;
+    && component.gamingScore === undefined && component.creationScore === undefined && component.powerW === undefined && getReferencePrice(component) === null)!;
   assert.ok(gpu, 'expected an imported GPU with explicitly partial specifications');
   for (const usage of ['gaming', 'creation', 'general'] as const) {
     const analysis = analyzeBuild({ ...defaultSelection, gpu: gpu.id }, '1440p', usage);

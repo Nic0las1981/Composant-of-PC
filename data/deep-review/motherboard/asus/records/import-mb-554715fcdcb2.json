@@ -1,0 +1,278 @@
+{
+  "review": {
+    "id": "import-mb-554715fcdcb2",
+    "name": "TUF GAMING B550-PLUS (WI-FI)",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:26:47+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "sha256": "2ee598675c84a0fedae6f6d589677c1717d084d0e41661d4b16c3cfbb270b24f",
+        "bytes": 325423,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "sha256": "4c115c10e0c5d792b90bcb79e0eb32d52fa10200ba36e7870f11e3bd2c6eea11",
+        "bytes": 327491,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF GAMING B550-PLUS (WI-FI)",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/00b0f713-21c7-4aa1-9762-a36a20730631/",
+      "https://www.asus.com/media/global/gallery/opfvw4luj79dyozb_setting_xxx_0_90_end_184.png"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Audio",
+      "USB Ports",
+      "Software Features",
+      "ASUS Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note"
+    ],
+    "documentedFields": [
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING B550-PLUS (WI-FI)",
+    "identityNote": "Modèle ASUS TUF GAMING B550-PLUS (WI-FI) confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING B550-PLUS (WI-FI)",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Build in AMD for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *,* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD RyzenTM 4000 G-Series Processors,4 x DIMM, Max. 128GB, DDR4 4800(O.C.)/4600(O.C)/4466(O.C.)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3333(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory,4 x DIMM, Max. 128GB, DDR4 4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3333(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory *,Dual Channel Memory Architecture,ECC Memory (ECC mode) support varies by CPU.,** Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Graphic",
+            "value": "1 x DisplayPort 1.2,1 x HDMI 2.1(4K@60HZ),*Graphics specifications may vary between CPU types."
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "Supports AMD 2-Way CrossFireX Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD RyzenTM 4000 G-Series Processor,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors,* Support PCIe bifurcation for RAID on CPU function.,AMD B550 Chipset,1 x PCIe 3.0 x16 (x4 mode),3 x PCIe 3.0 x1,1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports,AMD RyzenTM 4000 G-Series Processors :,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support*2,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :,1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode),AMD B550 Chipset :,6 x SATA 6Gb/s port(s),,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support,Support Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8125B 2.5Gb Ethernet,TUF LANGuard"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "Supports PCIe interface,2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) support 1024QAM/OFDMA/MU-MIMO,Supports up to 2.4Gbps max data rate,Intel® Wi-Fi 6 AX200,Supports dual band frequency 2.4/5 GHz,Supports channel bandwidth: HT20/HT40/HT80/HT160"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC S1200A7.1 Surround Sound High Definition Audio CODEC,- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback,- Audio Shielding,- Dedicated audio PCB layers,- Unique de-pop circuit,- Audio Cover,- Premium Japanese audio capacitors,- Exclusive DTS Custom for GAMING Headsets.,Audio Feature :,- Optical S/PDIF out port(s) at back panel"
+          },
+          {
+            "label": "USB Ports",
+            "value": "4 x USB 3.2 Gen 1 port(s)( x Type-A),2 x USB 2.0 port(s)( x Type-A),4 x USB 2.0 port(s)(4 x Type-A),Front USB Port ( Total 6 ),2 x USB 3.2 Gen 2 port(s)(1 x Type-A +1 x USB Type-C®),Rear USB Port ( Total 8 ),2 x USB 3.2 Gen 1 port(s)(2 x Type-A)"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- AI Noise Cancelling Microphone\nAI Suite 3\n- Performance And Power Saving Utility\n TurboV EVO\n EPU \n Digi+ VRM\n Fan Xpert 4\n- EZ update\nTUF GAMING CPU-Z\nAI Charger \nASUS Turbo LAN\nDAEMON Tools\nDTS Custom for GAMING Headsets\nNorton Anti-virus software (Free Trial for 60 days) \nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "ASUS TUF PROTECTION\n- ASUS DIGI+ VRM (Digital power design with Dr. MOS)\n- ASUS Enhanced DRAM Overcurrent Protection\n- ASUS ESD Guards\n- TUF LANGuard\n- ASUS Overvoltage Protection\n- ASUS SafeSlot\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design \n- ASUS Q-DIMM\n- ASUS Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum M.2 heatsink \nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Procool\nAURA Sync\n- Standard RGB headers\n- Addressable Gen 2 RGB header"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 2 (teal blue) (1 x Type-A+1 x USB Type-C®),1 x BIOS FlashBack™ Button(s),4 x USB 3.2 Gen 1 (blue) Type-A,1 x LAN (2.5G) port(s),2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™),1 x ASUS Wi-Fi Module,1 x DisplayPort,1 x HDMI,1 x Optical S/PDIF out,5 x Audio jack(s)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode),1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s),1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode),1 x Thunderbolt header(s),6 x SATA 6Gb/s connector(s),1 x 8-pin EATX 12V Power connectors,2 x Addressable Gen 2 header(s),1 x Thermal sensor connector(s),1 x System panel connector,2 x Aura RGB Strip Headers,1 x CPU Fan connector(s),1 x CPU OPT Fan connector(s),3 x Chassis Fan connector(s),1 x AIO_PUMP connector,1 x COM port header,2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s),1 x SPI TPM header,1 x 24-pin EATX Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x Clear CMOS jumper(s)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x M.2 SSD screw package(s),1 x M.2 Rubber Package(s),1 x Wi-Fi Antenna(s),2 x SATA 6Gb/s cable(s),1 x TUF GAMING Sticker,1 x TUF Certification card(s),User´s manual,I/O Shield,1 x Supporting DVD"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "12 inch x 9.6 inch ( 30.5 cm x 24.4 cm ),ATX Form Factor"
+          },
+          {
+            "label": "Note",
+            "value": "*1 PCIE 3.0 X16_2 runs x1 mode when any of the PCIe 3.0 x1 slots is occupied.\n*2 M2_2 shares bandwidth with SATA6G_56. When M.2_2 is populated, SATA6G_56 will be disabled."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/00b0f713-21c7-4aa1-9762-a36a20730631/"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.asus.com/media/global/gallery/opfvw4luj79dyozb_setting_xxx_0_90_end_184.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "formFactor": {
+        "value": "12 inch x 9.6 inch ( 30.5 cm x 24.4 cm ),ATX Form Factor",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "boardDimensions": {
+        "value": "12 inch x 9.6 inch ( 30.5 cm x 24.4 cm ),ATX Form Factor",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports,AMD RyzenTM 4000 G-Series Processors :,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support*2,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :,1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode),AMD B550 Chipset :,6 x SATA 6Gb/s port(s),,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support,Support Raid 0, 1, 10",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "pcie": {
+        "value": "AMD RyzenTM 4000 G-Series Processor,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors,* Support PCIe bifurcation for RAID on CPU function.,AMD B550 Chipset,1 x PCIe 3.0 x16 (x4 mode),3 x PCIe 3.0 x1,1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 2 (teal blue) (1 x Type-A+1 x USB Type-C®),1 x BIOS FlashBack™ Button(s),4 x USB 3.2 Gen 1 (blue) Type-A,1 x LAN (2.5G) port(s),2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™),1 x ASUS Wi-Fi Module,1 x DisplayPort,1 x HDMI,1 x Optical S/PDIF out,5 x Audio jack(s)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "internalIO": {
+        "value": "1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode),1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s),1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode),1 x Thunderbolt header(s),6 x SATA 6Gb/s connector(s),1 x 8-pin EATX 12V Power connectors,2 x Addressable Gen 2 header(s),1 x Thermal sensor connector(s),1 x System panel connector,2 x Aura RGB Strip Headers,1 x CPU Fan connector(s),1 x CPU OPT Fan connector(s),3 x Chassis Fan connector(s),1 x AIO_PUMP connector,1 x COM port header,2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s),1 x SPI TPM header,1 x 24-pin EATX Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x Clear CMOS jumper(s)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8125B 2.5Gb Ethernet,TUF LANGuard",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC S1200A7.1 Surround Sound High Definition Audio CODEC,- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback,- Audio Shielding,- Dedicated audio PCB layers,- Unique de-pop circuit,- Audio Cover,- Premium Japanese audio capacitors,- Exclusive DTS Custom for GAMING Headsets.,Audio Feature :,- Optical S/PDIF out port(s) at back panel",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      },
+      "cpuSupport": {
+        "value": "Build in AMD for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *,* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:39+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING B550-PLUS (WI-FI)"
+  }
+}

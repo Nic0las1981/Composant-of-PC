@@ -1,0 +1,2204 @@
+{
+  "import-ssd-1d59b3493634": {
+    "mpn": "500GB TN450",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TN450, capacité 500GB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "548248"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "500GB TN450"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996756988"
+          },
+          {
+            "label": "Capacité",
+            "value": "500GB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5021-E21"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 5,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 3,500MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 800,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 450,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "300 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "5 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "4 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "500GB TN450",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 4.0,
+      "description": "SSD Inland TN450 de 500GB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 5,000MBps. Les spécifications détaillées sont celles de la référence fabricant 500GB TN450 publiée par Micro Center.",
+      "specs": [
+        "500GB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 5,000MBps en lecture",
+        "300 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "500GB TN450",
+        "sourceURL": "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 4.0,
+        "sourceURL": "https://www.microcenter.com/product/663876/inland-tn450-500gb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-226f33626176": {
+    "mpn": "8TB PER PLUS W/",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Performance Plus, capacité 8TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/651927/inland-performance-plus-8tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "432716"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "8TB PER PLUS W/"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996750405"
+          },
+          {
+            "label": "Capacité",
+            "value": "8TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 5,800MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 950,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 850,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "6,000 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "3 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "10.9 Watts / 10.5 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "8TB PER PLUS W/",
+      "capacityGB": 8000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "description": "SSD Inland Performance Plus de 8TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,000MBps. Les spécifications détaillées sont celles de la référence fabricant 8TB PER PLUS W/ publiée par Micro Center.",
+      "specs": [
+        "8TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,000MBps en lecture",
+        "6,000 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "8TB PER PLUS W/",
+        "sourceURL": "https://www.microcenter.com/product/651927/inland-performance-plus-8tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "capacityGB": {
+        "value": 8000,
+        "sourceURL": "https://www.microcenter.com/product/651927/inland-performance-plus-8tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/651927/inland-performance-plus-8tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      }
+    }
+  },
+  "import-ssd-3be5e55dc92c": {
+    "mpn": "4TB PER PLUS W/",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Performance Plus, capacité 4TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/647867/inland-performance-plus-4tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "386813"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "4TB PER PLUS W/"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996750009"
+          },
+          {
+            "label": "Capacité",
+            "value": "4TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,200MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 6,300MBps"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 550,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "3,000 TBW"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "4TB PER PLUS W/",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "description": "SSD Inland Performance Plus de 4TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,200MBps. Les spécifications détaillées sont celles de la référence fabricant 4TB PER PLUS W/ publiée par Micro Center.",
+      "specs": [
+        "4TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,200MBps en lecture",
+        "3,000 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "La valeur « Random Write 4K : Up to 950,00 IOPS » publiée comporte un séparateur numérique ambigu ; elle n’est pas présentée comme mesure validée.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "4TB PER PLUS W/",
+        "sourceURL": "https://www.microcenter.com/product/647867/inland-performance-plus-4tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://www.microcenter.com/product/647867/inland-performance-plus-4tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/647867/inland-performance-plus-4tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-3cf5c8638530": {
+    "mpn": "1TB QN450",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland QN450, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "701805"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB QN450"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996774760"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "RTS5772"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D QLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 5,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 4,000MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 450,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 300,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "0.23 Watts"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "5.3 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Dimensions de la boîte (L × P × H)",
+            "value": "5.25 x 0.60 x 4.00 in. (133.35 x 15.24 x 101.60 mm)"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB QN450",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 5.3,
+      "description": "SSD Inland QN450 de 1TB, 3D QLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 5,000MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB QN450 publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D QLC NAND Flash",
+        "Up to 5,000MBps en lecture",
+        "600 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB QN450",
+        "sourceURL": "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 5.3,
+        "sourceURL": "https://www.microcenter.com/product/680085/inland-qn450-1tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-cab56ed2ce67": {
+    "mpn": "2TB QN450",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland QN450, capacité 2TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "701813"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "2TB QN450"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996774777"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "RTS5772"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D QLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 5,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 3,500MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 450,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 350,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "0.23 Watts"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "5.3 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Dimensions de la boîte (L × P × H)",
+            "value": "5.25 x 0.60 x 4.00 in. (133.35 x 15.24 x 101.60 mm)"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "2TB QN450",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 5.3,
+      "description": "SSD Inland QN450 de 2TB, 3D QLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 5,000MBps. Les spécifications détaillées sont celles de la référence fabricant 2TB QN450 publiée par Micro Center.",
+      "specs": [
+        "2TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D QLC NAND Flash",
+        "Up to 5,000MBps en lecture",
+        "600 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "2TB QN450",
+        "sourceURL": "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 5.3,
+        "sourceURL": "https://www.microcenter.com/product/680086/inland-qn450-2tb-ssd-3d-qlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-b7e6ae415940": {
+    "mpn": "500GB NVME PERF",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Performance, capacité 500GB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/608457/inland-performance-500gb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive,-read-write-speed-up-to-4500-mbps-and-2200-mbps,-bac",
+        "checkedAt": "2026-11-10T14:38:28.975Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "953919"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "500GB NVME PERF"
+          },
+          {
+            "label": "Capacité",
+            "value": "500GB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 4,500MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 2,200MBps"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,700,000 Hours"
+          },
+          {
+            "label": "Width",
+            "value": "4.29 in. (108.97 mm)"
+          },
+          {
+            "label": "Depth",
+            "value": "0.94 in. (23.88 mm)"
+          },
+          {
+            "label": "Height",
+            "value": "5.20 in. (132.08 mm)"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "500GB NVME PERF",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "description": "SSD Inland Performance de 500GB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 4,500MBps. Les spécifications détaillées sont celles de la référence fabricant 500GB NVME PERF publiée par Micro Center.",
+      "specs": [
+        "500GB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 4,500MBps en lecture"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "500GB NVME PERF",
+        "sourceURL": "https://www.microcenter.com/support/608457/inland-performance-500gb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive,-read-write-speed-up-to-4500-mbps-and-2200-mbps,-bac",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://www.microcenter.com/support/608457/inland-performance-500gb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive,-read-write-speed-up-to-4500-mbps-and-2200-mbps,-bac",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/608457/inland-performance-500gb-ssd-gen-40-pcie-nvme-4-x4-m2-2280-tlc-3d-nand-internal-solid-state-drive,-read-write-speed-up-to-4500-mbps-and-2200-mbps,-bac",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      }
+    }
+  },
+  "import-ssd-dc9be1a60112": {
+    "mpn": "8TB PER+ SSD HS",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Gaming Performance Plus, capacité 8TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "432732"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "8TB PER+ SSD HS"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996750429"
+          },
+          {
+            "label": "Capacité",
+            "value": "8TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 5,800MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 950,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 850,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "6,000 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "3 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "10.9 Watts / 10.5 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "8TB PER+ SSD HS",
+      "capacityGB": 8000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "storageHeatsink": true,
+      "description": "SSD Inland Gaming Performance Plus de 8TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,000MBps. Les spécifications détaillées sont celles de la référence fabricant 8TB PER+ SSD HS publiée par Micro Center.",
+      "specs": [
+        "8TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,000MBps en lecture",
+        "6,000 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "8TB PER+ SSD HS",
+        "sourceURL": "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "capacityGB": {
+        "value": 8000,
+        "sourceURL": "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.microcenter.com/support/651930/inland-gaming-performance-plus-8tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      }
+    }
+  },
+  "import-ssd-931895bbeb53": {
+    "mpn": "4TB PER+ SSD HS",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Gaming Performance Plus, capacité 4TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:38:28.975Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "432724"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "4TB PER+ SSD HS"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996750412"
+          },
+          {
+            "label": "Capacité",
+            "value": "4TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,200MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 6,300MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 950,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 550,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "3,000 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "3 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "10.9 Watts / 10.5 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "4TB PER+ SSD HS",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "storageHeatsink": true,
+      "description": "SSD Inland Gaming Performance Plus de 4TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,200MBps. Les spécifications détaillées sont celles de la référence fabricant 4TB PER+ SSD HS publiée par Micro Center.",
+      "specs": [
+        "4TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,200MBps en lecture",
+        "3,000 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "4TB PER+ SSD HS",
+        "sourceURL": "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.microcenter.com/support/651929/inland-gaming-performance-plus-4tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      }
+    }
+  },
+  "import-ssd-bef354f7d98c": {
+    "mpn": "1TB TN450",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TN450, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "548255"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB TN450"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996756995"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5021-E21"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 5,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 3,900MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 700,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 850,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "5 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "4 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB TN450",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 4.0,
+      "description": "SSD Inland TN450 de 1TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 5,000MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB TN450 publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 5,000MBps en lecture",
+        "600 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB TN450",
+        "sourceURL": "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 4.0,
+        "sourceURL": "https://www.microcenter.com/support/663877/inland-tn450-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-78b79a537b8b": {
+    "mpn": "1TB TN470",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TN470, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "656207"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB TN470"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996774609"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5027-E27T"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,300MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 6,100MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 800,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 900,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "5 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "5.3 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Shock Resistance",
+            "value": "1,500G, 0.5ms"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB TN470",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 5.3,
+      "description": "SSD Inland TN470 de 1TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,300MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB TN470 publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,300MBps en lecture",
+        "600 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB TN470",
+        "sourceURL": "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 5.3,
+        "sourceURL": "https://www.microcenter.com/product/675663/inland-tn470-1tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  },
+  "import-ssd-a9e8d9ce33e8": {
+    "mpn": "2TB TN470",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TN470, capacité 2TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "656223"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "2TB TN470"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996774616"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5027-E27T"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,300MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 6,400MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 900,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 900,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "1,200 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "5 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "5.3 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Shock Resistance",
+            "value": "1,500G, 0.5ms"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "2TB TN470",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 5.3,
+      "description": "SSD Inland TN470 de 2TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,300MBps. Les spécifications détaillées sont celles de la référence fabricant 2TB TN470 publiée par Micro Center.",
+      "specs": [
+        "2TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,300MBps en lecture",
+        "1,200 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "2TB TN470",
+        "sourceURL": "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "powerW": {
+        "value": 5.3,
+        "sourceURL": "https://www.microcenter.com/product/675664/inland-tn470-2tb-ssd-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      }
+    }
+  },
+  "import-ssd-deb11aa6119e": {
+    "mpn": "2TB PER+ SSD HS",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Gaming Performance Plus, capacité 2TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "356139"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "2TB PER+ SSD HS"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996746255"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 6,850MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 700,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 650,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "1,400 TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "2TB PER+ SSD HS",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "storageHeatsink": true,
+      "description": "SSD Inland Gaming Performance Plus de 2TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,000MBps. Les spécifications détaillées sont celles de la référence fabricant 2TB PER+ SSD HS publiée par Micro Center.",
+      "specs": [
+        "2TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,000MBps en lecture",
+        "1,400 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "2TB PER+ SSD HS",
+        "sourceURL": "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.microcenter.com/product/644993/inland-gaming-performance-plus-2tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      }
+    }
+  },
+  "import-ssd-e59b50a02686": {
+    "mpn": "1TB PER+ SSD HS",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Gaming Performance Plus, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "356113"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB PER+ SSD HS"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996746248"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 7,000MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 700,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 350,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "700 TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB PER+ SSD HS",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "storageHeatsink": true,
+      "description": "SSD Inland Gaming Performance Plus de 1TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 7,000MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB PER+ SSD HS publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 7,000MBps en lecture",
+        "700 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "La valeur « Write Speed : Up to 5,5000MBps » publiée comporte un séparateur numérique ambigu ; elle n’est pas présentée comme mesure validée.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB PER+ SSD HS",
+        "sourceURL": "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.microcenter.com/product/644992/inland-gaming-performance-plus-1tb-ssd-3d-tlc-nand-pcie-nvme-gen-4-x-4-m2-2280-heatsink-compatible-with-ps5-internal-solid-state-drive",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      }
+    }
+  },
+  "import-ssd-e9147a775c93": {
+    "mpn": "2TB TD510 NVME",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TD510, capacité 2TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "516567"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "2TB TD510 NVME"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996753345"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 5 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E26"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 10,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 9,500MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 1,250,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 1,500,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "1,400 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "< 900 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "11 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "2TB TD510 NVME",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 11.0,
+      "description": "SSD Inland TD510 de 2TB, TLC NAND Flash, interface PCIe Gen 5 x 4. Lecture annoncée : Up to 10,000MBps. Les spécifications détaillées sont celles de la référence fabricant 2TB TD510 NVME publiée par Micro Center.",
+      "specs": [
+        "2TB · M.2 2280 M Key",
+        "PCIe Gen 5 x 4 · TLC NAND Flash",
+        "Up to 10,000MBps en lecture",
+        "1,400 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "2TB TD510 NVME",
+        "sourceURL": "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      },
+      "powerW": {
+        "value": 11.0,
+        "sourceURL": "https://www.microcenter.com/support/660437/inland-td510-2tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:37:25.356Z"
+      }
+    }
+  },
+  "import-ssd-9e17505a60cb": {
+    "mpn": "1TB PER NO HEAT",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland Performance, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/product/639627/inland-performance-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:38:28.975Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "300749"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB PER NO HEAT"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996741786"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 5,000MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 4,300MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 500,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 600,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "1,800 TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,700,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB PER NO HEAT",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "description": "SSD Inland Performance de 1TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 5,000MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB PER NO HEAT publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 5,000MBps en lecture",
+        "1,800 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB PER NO HEAT",
+        "sourceURL": "https://www.microcenter.com/product/639627/inland-performance-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/product/639627/inland-performance-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/product/639627/inland-performance-1tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:38:28.975Z"
+      }
+    }
+  },
+  "import-ssd-8836225f694e": {
+    "mpn": "2TB TN450",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TN450, capacité 2TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:31:54Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "548263"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "2TB TN450"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996757008"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 4 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5021-E21"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 4,900MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 4,700MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 900,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 800,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "1200 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "50 mW"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "5 mW"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "4 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "2TB TN450",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 4.0,
+      "description": "SSD Inland TN450 de 2TB, 3D TLC NAND Flash, interface PCIe Gen 4 x 4. Lecture annoncée : Up to 4,900MBps. Les spécifications détaillées sont celles de la référence fabricant 2TB TN450 publiée par Micro Center.",
+      "specs": [
+        "2TB · M.2 2280 M Key",
+        "PCIe Gen 4 x 4 · 3D TLC NAND Flash",
+        "Up to 4,900MBps en lecture",
+        "1200 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "2TB TN450",
+        "sourceURL": "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      },
+      "powerW": {
+        "value": 4.0,
+        "sourceURL": "https://www.microcenter.com/support/663878/inland-tn450-2tb-3d-tlc-nand-pcie-gen-4-x4-nvme-m2-2280-internal-ssd",
+        "checkedAt": "2026-11-10T14:31:54Z"
+      }
+    }
+  },
+  "import-ssd-7159f0beb482": {
+    "mpn": "1TB TD510",
+    "identityKind": "mpn",
+    "identityNote": "Série Inland TD510, capacité 1TB et Mfr Part# explicitement rapprochés. Les variantes Performance, Performance Plus et Gaming Performance Plus sont distinctes.",
+    "sources": [
+      {
+        "name": "Micro Center — fiche technique Inland",
+        "url": "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Spécifications Inland publiées par Micro Center",
+        "rows": [
+          {
+            "label": "Référence magasin Micro Center",
+            "value": "567313"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "1TB TD510"
+          },
+          {
+            "label": "Code UPC",
+            "value": "618996757428"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface",
+            "value": "PCIe Gen 5 x 4"
+          },
+          {
+            "label": "Format",
+            "value": "M.2 2280 M Key"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5026-E26"
+          },
+          {
+            "label": "Type de NAND",
+            "value": "3D TLC NAND Flash"
+          },
+          {
+            "label": "Lecture séquentielle maximale annoncée",
+            "value": "Up to 9,500MBps"
+          },
+          {
+            "label": "Écriture séquentielle maximale annoncée",
+            "value": "Up to 8,500MBps"
+          },
+          {
+            "label": "Écriture aléatoire 4K annoncée",
+            "value": "Up to 1,400,000 IOPS"
+          },
+          {
+            "label": "Lecture aléatoire 4K annoncée",
+            "value": "Up to 1,300,000 IOPS"
+          },
+          {
+            "label": "Endurance",
+            "value": "700 TBW"
+          },
+          {
+            "label": "Consommation au repos publiée",
+            "value": "0.9 Watts"
+          },
+          {
+            "label": "Consommation en veille publiée",
+            "value": "0.9 Watts"
+          },
+          {
+            "label": "Consommation lecture/écriture publiée",
+            "value": "10 Watts"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 Hours"
+          },
+          {
+            "label": "Garantie pièces (marché américain)",
+            "value": "6 Years Limited"
+          },
+          {
+            "label": "Garantie main-d’œuvre (marché américain)",
+            "value": "6 Years Limited"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "1TB TD510",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "detailLevel": "partial",
+      "powerW": 10.0,
+      "description": "SSD Inland TD510 de 1TB, 3D TLC NAND Flash, interface PCIe Gen 5 x 4. Lecture annoncée : Up to 9,500MBps. Les spécifications détaillées sont celles de la référence fabricant 1TB TD510 publiée par Micro Center.",
+      "specs": [
+        "1TB · M.2 2280 M Key",
+        "PCIe Gen 5 x 4 · 3D TLC NAND Flash",
+        "Up to 9,500MBps en lecture",
+        "700 TBW"
+      ]
+    },
+    "offers": [],
+    "notes": [
+      "Fiche technique primaire Micro Center pour la référence Inland explicitement publiée dans « Mfr Part# ». Les garanties décrivent le marché américain. Aucun prix en dollars ni frais de livraison américains ne sont proposés comme prix français.",
+      "Le format M.2 2280 indique la taille nominale du circuit. La hauteur réelle du SSD avec dissipateur, lorsqu’elle n’est pas publiée, reste inconnue ; les dimensions de la boîte ne sont pas celles du SSD."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "1TB TD510",
+        "sourceURL": "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      },
+      "powerW": {
+        "value": 10.0,
+        "sourceURL": "https://www.microcenter.com/support/666002/inland-td510-1tb-3d-tlc-nand-pcie-gen-5-x-4-nvme-m2-internal-ssd",
+        "checkedAt": "2026-11-10T14:36:30.254Z"
+      }
+    }
+  }
+}

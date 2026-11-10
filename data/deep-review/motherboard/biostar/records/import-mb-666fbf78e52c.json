@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-666fbf78e52c",
+    "name": "B350GT3",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": "6.1",
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+          "checkedAt": "2026-11-10T13:46:28+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20180313_4.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180313_5.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180313_6.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20170223_10.jpg"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "870",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "B350GT3",
+    "identityNote": "Modèle Biostar B350GT3 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "formFactor": "Micro-ATX",
+      "heightMm": 238.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B350GT3",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR B350GT3 — révision 6.1",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD B350"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Support Dual Channel DDR4 3200(OC)/ 2933(OC)/ 2667/ 2400/ 2133/ 1866 MHz\nSupport Non-ECC & ECC Un-buffered DIMM Memory modules\n4 x DDR4 DIMM Memory Slot\nMax. Supports up to 64GB Memory\n* DDR4 2667 for AMD Ryzen CPU\nRyzen - DDR Maximum Frequency Support Table(For better DDR4 compatibility, it is recommended to follow the table below to install DDR4 modules. Please refer to memory support list for more details.)MaximumDIMMA1DIMMA2DIMMB1DIMMB2\nDDR4-2667-SR--\nDDR4-2667-DR--\nDDR4-2667-SR-SR\nDDR4-2400-DR-DR\nDDR4-2133SRSRSRSR\nDDR4-1866DRDRDRDRSR:Single-rank DIMM, 1R x4 or 1R x8\nDR:Dualrank DIMMs, 2R x4 or 2R x8"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4 x SATA III Connectors (6Gb/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector, support M.2 type 2242/ 2260/ 2280 SATA III (6Gb/s) & PCI-E (32Gb/s)Storage\n* Specifications vary by CPU types* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU & NPU is 16Gb/s.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller\nSupport Super LAN Surge Protection"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC887 8-Channel HD Audio\nSupport Biostar Hi-Fi"
+          },
+          {
+            "label": "USB",
+            "value": "2 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Port\n1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCI-E 3.0 x16 Slot(x16 for Ryzen CPU only, NPU/APU run at x8 speed)\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot(x4)(share bandwidth w/ PCI-E x1 slot, when PCI-E x1 is occupied, PCI-E x16(x4) will run at x1 speed)\n* Specifications vary by CPU types2 x PCI-E 2.0 x1 Slot\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2\n2 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Port\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n3 x Audio Jacks"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header\n4 x SATA III Connector (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector, support M.2 type 2242/ 2260/ 2280 SATA 6Gb/s & PCI-E Storage\n1 x Front Audio Header\n1 x Front Panel Header\n1 x S/PDIF-Out Header\n1 x CPU Fan Connector\n2 x System Fan Connector\n2 x 5050 LED Header\n1 x COM Port Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU / System Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(x64) / 11(x64)\nSupport Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only"
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT Utility\nFLY.NET\nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x User Manual"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\n5050 LED FUN ZONE\nSupports PURO Hi-Fi\nDual BIOS\nSupports 100% Solid capacitor\nBIO-FLASHER\nSupports BIOS Online Update"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180313_4.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180313_5.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180313_6.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20170223_10.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 23.8cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "chipset": {
+        "value": "AMD B350",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "storagePorts": {
+        "value": "4 x SATA III Connectors (6Gb/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector, support M.2 type 2242/ 2260/ 2280 SATA III (6Gb/s) & PCI-E (32Gb/s)Storage\n* Specifications vary by CPU types* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU & NPU is 16Gb/s.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCI-E 3.0 x16 Slot(x16 for Ryzen CPU only, NPU/APU run at x8 speed)\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot(x4)(share bandwidth w/ PCI-E x1 slot, when PCI-E x1 is occupied, PCI-E x16(x4) will run at x1 speed)\n* Specifications vary by CPU types2 x PCI-E 2.0 x1 Slot\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2\n2 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Port\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n3 x Audio Jacks",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header\n4 x SATA III Connector (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector, support M.2 type 2242/ 2260/ 2280 SATA 6Gb/s & PCI-E Storage\n1 x Front Audio Header\n1 x Front Panel Header\n1 x S/PDIF-Out Header\n1 x CPU Fan Connector\n2 x System Fan Connector\n2 x 5050 LED Header\n1 x COM Port Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller\nSupport Super LAN Surge Protection",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC887 8-Channel HD Audio\nSupport Biostar Hi-Fi",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=870&pname=B350GT3&chipset=AMD%20B350",
+        "checkedAt": "2026-11-10T13:46:28+00:00"
+      }
+    }
+  }
+}

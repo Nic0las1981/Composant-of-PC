@@ -1,0 +1,202 @@
+{
+  "review": {
+    "id": "import-mb-e04503239104",
+    "name": "H610M 666 WIFI6 ARGB",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "MS-H610M 666 WIFI6 ARGB",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+          "checkedAt": "2026-11-10T14:10:29+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+          "sha256": "77faceca529ce067929fd3aefa1e1d7fde01d223634507c04242d77c204a4d12",
+          "bytes": 209289,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "MS-H610M 666 WIFI6 ARGB",
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "DISPLAY",
+          "Expansion Slots",
+          "Storage",
+          "USB",
+          "NETWROK",
+          "Audio",
+          "Internal IO",
+          "LED FEATURE",
+          "Operating System",
+          "Form Factor"
+        ]
+      }
+    ],
+    "photos": [
+      "http://www.maxsun.com/cdn/shop/files/H610M-666-WIFI6-ARG.png?v=1724898367&width=2048"
+    ]
+  },
+  "product": {
+    "mpn": "H610M 666 WIFI6 ARGB",
+    "identityNote": "Modèle MAXSUN H610M 666 WIFI6 ARGB confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MAXSUN — spécifications officielles du modèle",
+        "url": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "formFactor": "Micro-ATX",
+      "heightMm": 225.0,
+      "widthMm": 180.0,
+      "manufacturerPartNumber": "H610M 666 WIFI6 ARGB",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MAXSUN",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "INTEL H610"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR4, Maximum Memory Capacity 64GB\nSupport 2133/2400/2666/2933/3200MHz memory frequency MHz memory frequency"
+          },
+          {
+            "label": "DISPLAY",
+            "value": "1xVGA port.Supports up to 1920*1080@30Hz resolution\n1x HDMI™1.4port. Supports up to 4096*2160@30Hz resolution"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 4.0 x16 slot\n1x PCIe 3.0 x1 slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "M.2 slot (Key M), type 2242/2280 (supports PCIe 3.0 x4 mode)\n4x SATA 6Gb/s ports"
+          },
+          {
+            "label": "USB",
+            "value": "Onboard rear ports:2*USB3.2 GEN1 ports, 2* USB2.0 ports\nOn-board pins: 1* set (2 pcs)ofUSB2.0 pins, 1* set (2 pcs) ofUSB3.2 GEN1 pins"
+          },
+          {
+            "label": "NETWROK",
+            "value": "Realtek® RTL8111H 1G LAN."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8-pin Power Connector(CPU_PWR)\n1* set of system fan pins, 1* set of CPU fan pins\n1* set of chassis font control panel pins (F_PANEL)"
+          },
+          {
+            "label": "LED FEATURE",
+            "value": "4x Distributed Debug LED"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "M-ATX\n225mm x 180mm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "http://www.maxsun.com/cdn/shop/files/H610M-666-WIFI6-ARG.png?v=1724898367&width=2048"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "formFactor": {
+        "value": "M-ATX\n225mm x 180mm",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "boardDimensions": {
+        "value": "M-ATX\n225mm x 180mm",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "chipset": {
+        "value": "INTEL H610",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2 slot (Key M), type 2242/2280 (supports PCIe 3.0 x4 mode)\n4x SATA 6Gb/s ports",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 4.0 x16 slot\n1x PCIe 3.0 x1 slot",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "internalIO": {
+        "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8-pin Power Connector(CPU_PWR)\n1* set of system fan pins, 1* set of CPU fan pins\n1* set of chassis font control panel pins (F_PANEL)",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec.",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700",
+        "sourceURL": "https://www.maxsun.com/products/ms-h610m-666-wifi6-argb-1",
+        "checkedAt": "2026-11-10T14:10:29+00:00"
+      }
+    },
+    "manufacturerModel": "MS-H610M 666 WIFI6 ARGB"
+  }
+}

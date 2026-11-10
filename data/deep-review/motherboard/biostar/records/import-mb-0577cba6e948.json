@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-0577cba6e948",
+    "name": "A320MH PRO",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+          "checkedAt": "2026-11-10T14:00:28+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bA320MH_45_BOX_Aa3d.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20170329_9.jpg",
+          "https://www.biostar.com.tw/upload/Motherboard/b20170329_10.jpg",
+          "https://www.biostar.com.tw/upload/Motherboard/b20170329_11.jpg"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "881",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "A320MH PRO",
+    "identityNote": "Modèle Biostar A320MH PRO confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 184.0,
+      "widthMm": 226.0,
+      "manufacturerPartNumber": "A320MH PRO",
+      "detailLevel": "partial",
+      "maxMemoryGB": 32
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR A320MH PRO — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD A320"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Support Dual Channel DDR4 2667/ 2400/ 2133/ 1866 MHz\nSupport Non-ECC & ECC Un-buffered DIMM Memory modules\n2 x DDR4 DIMM Memory Slot\nMax. Supports up to 32GB Memory\n* DDR4 2667 for AMD Ryzen CPU\nRyzen - DDR Maximum Frequency Support Table(For better DDR4 compatibility, it is recommended to follow the table below to install DDR4 modules. Please refer to memory support list for more details.)MaximumDIMMA1DIMMB1\nDDR4-2667SR-\nDDR4-2667DR-\nDDR4-2667SRSR\nDDR4-2400DRDRSR:Single-rank DIMM, 1R x4 or 1R x8\nDR:Dual-rank DIMMs, 2R x4 or 2R x8"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4 x SATA III Connector\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8111H - 10/100/1000Mb/s Controller\nSupport Super LAN Surge Protection"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC887 8-Channel HD Audio"
+          },
+          {
+            "label": "USB",
+            "value": "2 x USB 3.1 Gen1 Port\n1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Port\n2 x USB 2.0 Header"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCI-E 3.0 x16 Slot(x16 for Ryzen CPU only, NPU/APU run at x8 speed)\n* Specifications vary by CPU types2 x PCI-E 3.0 x1 Slot\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 Mouse\n1 x PS/2 Keyboard\n2 x USB 3.1 Gen1 Port\n2 x USB 2.0 Port\n1 x HDMI® Port\n1 x VGA Port\n1 x LAN Port\n3 x Audio Jacks"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header\n4 x SATA III Connector (6Gb/s)\n1 x Front Audio Header\n1 x Front Panel Header\n1 x CPU Fan Connector\n1 x System Fan Connector\n1 x COM Port Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 22.6cm x 18.4cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(x64) / 11(x64)\nSupport Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard\nSmart Speed LAN(Windows 7 only)"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "2 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x Quick Guide"
+          },
+          {
+            "label": "FEATURES",
+            "value": "Supports 100% Solid capacitor\nBIO-FLASHER\nSupports BIOS Online Update"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bA320MH_45_BOX_Aa3d.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20170329_9.jpg"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20170329_10.jpg"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20170329_11.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 22.6cm x 18.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 22.6cm x 18.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "chipset": {
+        "value": "AMD A320",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "storagePorts": {
+        "value": "4 x SATA III Connector\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCI-E 3.0 x16 Slot(x16 for Ryzen CPU only, NPU/APU run at x8 speed)\n* Specifications vary by CPU types2 x PCI-E 3.0 x1 Slot\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 Mouse\n1 x PS/2 Keyboard\n2 x USB 3.1 Gen1 Port\n2 x USB 2.0 Port\n1 x HDMI® Port\n1 x VGA Port\n1 x LAN Port\n3 x Audio Jacks",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.1 Gen1 Header\n2 x USB 2.0 Header\n4 x SATA III Connector (6Gb/s)\n1 x Front Audio Header\n1 x Front Panel Header\n1 x CPU Fan Connector\n1 x System Fan Connector\n1 x COM Port Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8111H - 10/100/1000Mb/s Controller\nSupport Super LAN Surge Protection",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC887 8-Channel HD Audio",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics/7th Gen A-Series/Athlon X4 Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "memoryCapacity": {
+        "value": 32,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=881&pname=A320MH%20PRO&chipset=AMD%20A320",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      }
+    }
+  }
+}

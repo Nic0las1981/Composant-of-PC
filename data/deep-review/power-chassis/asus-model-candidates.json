@@ -1,0 +1,282 @@
+[
+  {
+    "id": "import-psu-a7ac761a0e01",
+    "expectedManufacturerModel": "ROG-THOR-1600T-GAMING",
+    "sourceKey": "extra-asus-9c2e333c8c",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1600t-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-a236dc6812cb",
+    "expectedManufacturerModel": "ROG-STRIX-1200P-GAMING",
+    "sourceKey": "extra-asus-c4e7b7954f",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1200p-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-96868ff4a7ec",
+    "expectedManufacturerModel": "TUF-GAMING-1000G",
+    "sourceKey": "extra-asus-2609b42a49",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-1000g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-5f452bbaab5c",
+    "expectedManufacturerModel": "TUF-GAMING-850G",
+    "sourceKey": "extra-asus-61abae7487",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-850g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-62977067533e",
+    "expectedManufacturerModel": "TUF-GAMING-750G",
+    "sourceKey": "extra-asus-e84a72eb7c",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-750g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-5f769dddab93",
+    "expectedManufacturerModel": "TUF-GAMING-650B",
+    "sourceKey": "extra-asus-a400ed52fa",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-650b/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-05c6502e88d9",
+    "expectedManufacturerModel": "ROG-STRIX-1000P-GAMING",
+    "sourceKey": "extra-asus-24a9422756",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1000p-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-06f7bcf21ea6",
+    "expectedManufacturerModel": "AP-750G",
+    "sourceKey": "extra-asus-259ec50502",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/prime/ap-750g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-356fd414344c",
+    "expectedManufacturerModel": "AP-850G",
+    "sourceKey": "extra-asus-39526fa0bb",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/prime/ap-850g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-63988cbe1d58",
+    "expectedManufacturerModel": "TUF-GAMING-1000G-WHITE",
+    "sourceKey": "extra-asus-94ca45230d",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-1000g-white/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-ed1fbc86fdf1",
+    "expectedManufacturerModel": "ROG-THOR-1000P2-GAMING",
+    "sourceKey": "extra-asus-55f48855f8",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1000p2-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-724f7911f7c7",
+    "expectedManufacturerModel": "TUF-GAMING-1200G",
+    "sourceKey": "extra-asus-7f5eacdb2e",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-1200g/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-0615a9190b10",
+    "expectedManufacturerModel": "ROG-STRIX-850G-WHITE",
+    "sourceKey": "extra-asus-52198bf826",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-850g-white-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-476f551b6679",
+    "expectedManufacturerModel": "ROG-THOR-1200P2-GAMING",
+    "sourceKey": "extra-asus-5ec0312783",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1200p2-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-1d2473837fe1",
+    "expectedManufacturerModel": "ROG-STRIX-750G",
+    "sourceKey": "extra-asus-13dae0f3b1",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-750g-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-b09a51641390",
+    "expectedManufacturerModel": "ROG-STRIX-850G",
+    "sourceKey": "extra-asus-e4d9f792b9",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-850g-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-bc7afe358e05",
+    "expectedManufacturerModel": "ROG-THOR-850P2-GAMING",
+    "sourceKey": "extra-asus-65cdf5f118",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-850p2-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-26d95792af8d",
+    "expectedManufacturerModel": "ROG-STRIX-1000G",
+    "sourceKey": "extra-asus-d1c4511ab5",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1000g-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-265a5270be40",
+    "expectedManufacturerModel": "TUF-GAMING-750B",
+    "sourceKey": "extra-asus-166dfb05dc",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-750b/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-0bbefb749dc8",
+    "expectedManufacturerModel": "ROG-THOR-1200P",
+    "sourceKey": "extra-asus-5dd7aae5f2",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1200p-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-c899d181f321",
+    "expectedManufacturerModel": "ROG-STRIX-1000G-AURA-GAMING",
+    "sourceKey": "extra-asus-0dc5ce911f",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1000g-aura-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-c26dd541e06b",
+    "expectedManufacturerModel": "ROG-THOR-1600T3-GAMING",
+    "sourceKey": "extra-asus-290170b671",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1600t3-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-c2be704e7e1d",
+    "expectedManufacturerModel": "TUF-GAMING-550B",
+    "sourceKey": "extra-asus-e815167734",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-550b/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-6ce4decc9c7c",
+    "expectedManufacturerModel": "ROG-THOR-850P",
+    "sourceKey": "extra-asus-0dd0861cf5",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-850p-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-3f738cbd0207",
+    "expectedManufacturerModel": "ROG-STRIX-1000P-GAMING-WHITE",
+    "sourceKey": "extra-asus-ddba0f4e04",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1000p-gaming-white/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-924f87560d85",
+    "expectedManufacturerModel": "ROG-STRIX-750G-AURA-GAMING",
+    "sourceKey": "extra-asus-62e1c98db4",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-750g-aura-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-6a616915d10b",
+    "expectedManufacturerModel": "ROG-STRIX-850P-GAMING",
+    "sourceKey": "extra-asus-9f3d622a59",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-850p-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-a21832774532",
+    "expectedManufacturerModel": "ROG-STRIX-1200G-AURA-GAMING",
+    "sourceKey": "extra-asus-b3cb8f59b4",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1200g-aura-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-595e74018798",
+    "expectedManufacturerModel": "ROG-STRIX-1000G-AURA-GAMING-WHITE",
+    "sourceKey": "extra-asus-18f44978bd",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-1000g-aura-gaming-white-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-9a96f4872b5f",
+    "expectedManufacturerModel": "ROG-STRIX-850G-AURA-GAMING",
+    "sourceKey": "extra-asus-853d563b97",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-850g-aura-gaming-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-eb3f09fa9168",
+    "expectedManufacturerModel": "TUF-GAMING-450B",
+    "sourceKey": "extra-asus-8238559cc9",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-450b/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-7f04874bb5ed",
+    "expectedManufacturerModel": "ROG-STRIX-650G",
+    "sourceKey": "extra-asus-89bca31eb7",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-650g-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-07c94bb786d7",
+    "expectedManufacturerModel": "ROG-STRIX-550G",
+    "sourceKey": "extra-asus-da19da6c47",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-550g-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-64bdf4837f0e",
+    "expectedManufacturerModel": "ROG-THOR-1000P2-GAMING-EVA-EDITION",
+    "sourceKey": "extra-asus-cc468fcbb0",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1000p2-gaming-eva-edition-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-0e03f799eea1",
+    "expectedManufacturerModel": "ROG-THOR-1200P3-GAMING",
+    "sourceKey": "extra-asus-a4545ca7d2",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1200p3-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-1dbb7f5d098e",
+    "expectedManufacturerModel": "ROG-THOR-1200P3-HATSUNE-MIKU-EDITION",
+    "sourceKey": "extra-asus-5c4341eb14",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1200p3-hatsune-miku-edition/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-391d2a1f99fe",
+    "expectedManufacturerModel": "ROG-STRIX-850G-GUNDAM-EDITION",
+    "sourceKey": "extra-asus-566b4d1bf5",
+    "url": "https://rog.asus.com/power-supply-units/rog-strix/rog-strix-850g-gundam-edition-model/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-f79ad3abab9b",
+    "expectedManufacturerModel": "ROG-THOR-1000P3-GAMING",
+    "sourceKey": "extra-asus-985c021677",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1000p3-gaming/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-b2f3f93c57c1",
+    "expectedManufacturerModel": "PRIME-750B",
+    "sourceKey": "extra-asus-f8e4e094b9",
+    "url": "https://www.asus.com/motherboards-components/power-supply-units/prime/prime-750b/techspec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  },
+  {
+    "id": "import-psu-dfe26c89ab69",
+    "expectedManufacturerModel": "ROG-THOR-1200P3-GAMING-WHITE",
+    "sourceKey": "extra-asus-67bdfda705",
+    "url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1200p3-gaming-white/spec/",
+    "derivation": "archive family/power/finish to canonical manufacturer endpoint; returned Model field must agree"
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "review": {
+    "id": "import-mb-eac39d5b8614",
+    "name": "B550M Pro RS",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock B550M Pro RS motherboard",
+        "modelNames": [
+          "B550M Pro RS"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:00:38+00:00",
+      "url": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+      "sha256": "a7f1826cb6c5138874ae12eb3496115a0171efbc00bffc89e45f58c13805eb04"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock B550M Pro RS motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • Micro ATX Form Factor\n                              • 2oz Copper PCB\n\n                                                                     TM\n                CPU           • Supports AMD AM4 Socket Ryzen 3000, 3000 G-Series,\n                                 4000 G-Series, 5000 and 5000 G-Series Desktop Processors*\n                             * Please refer to CPU support list for details.\n\n\n                Chipset       • AMD B550\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs (Vermeer) support DDR4\n                                4533+(OC)/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200\n                                (OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/\n                                3600(OC)/3466(OC)/3200/2933/2667/2400/2133 ECC &\n                                non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Matisse) support DDR4 4533+(OC\n                                )/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133\n                                (OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n                                3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\n                                buffered memory*\n                              • AMD Ryzen series APUs (Cezanne) support DDR4\n                                4733+(OC)/4666(OC)/4600(OC)/4533(OC)/4466(OC)/\n                                4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133(OC)/\n                                4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n                                3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\n                                buffered memory*\n                              • AMD Ryzen series APUs (Renoir) support DDR4 4733+(OC\n                                )/4666(OC)/4600(OC)/4533(OC)/4466(OC)/4400(OC)\n                                /4333(OC)/4266(OC)/4200(OC)/4133(OC)/4000(OC)/\n                                3866(OC)/3800(OC)/3733(OC)/3600(OC)/3466(OC)/\n                                3200/2933/2667/2400/2133 ECC & non-ECC, un-buffered\n                                memory*\n                              • AMD Ryzen series APUs (Picasso) support DDR4 3333+(OC\nEnglish\n\n\n\n\n                                )/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\n                                memory*\n                             * For Ryzen Series APUs (Picasso, Cezanne and Renoir), ECC is\n                             only supported with PRO CPUs.\n\n          2\n\f                                                                            B550M Pro RS\n\n\n\n\n            * Please refer to Memory Support List on ASRock’s website for\n            more information. (http://www.asrock.com/)\n             • Max. capacity of system memory: 128GB\n             • Supports Extreme Memory Profile (XMP) memory modules\n            * Please refer to page 21 for AMD non-XMP memory frequency\n            support. For more details, please refer to the QVL on ASRock’s\n            website.\n\n\nExpansion   AMD Ryzen series CPUs (Vermeer and Matisse)\nSlot         • 2 x PCIe x16 Slots (PCIE1: Gen4x16 mode; PCIE3: Gen3 x4\n                mode)*\n            AMD Ryzen series APUs (Cezanne and Renoir)\n             • 2 x PCIe x16 Slots (PCIE1: Gen3x16 mode; PCIE3: Gen3 x4\n                mode)*\n            AMD Ryzen series APUs (Picasso)\n             • 2 x PCIe x16 Slots (PCIE1: Gen3x8 mode; PCIE3: Gen3 x4\n                mode)*\n            * Supports NVMe SSD as boot disks\n                                         TM\n             • Supports AMD CrossFire\n             • 1 x PCIe 3.0 x1 Slot (PCIE2: x1 mode)\n\n                                        TM\nGraphics     • Integrated AMD Radeon Vega Series Graphics in Ryzen\n                Series APU* (Actual support may vary by CPU)\n             • 1 x HDMI 2.1, supports HDR, HDCP 2.3, 4K Ultra HD\n                (UHD) playback and max. resolution up to 4K 60Hz*\n             • 1 x DisplayPort 1.4, supports HDCP 2.3, 4K Ultra HD\n                (UHD) playback and max. resolution up to 5K 120Hz\n            * Picasso supports HDCP 2.2 with HDMI 2.0 Port\n\n\nAudio       • 7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n\n\nLAN         • 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n            • Dragon RTL8125BG\n            • Supports Dragon 2.5G LAN Software\n              - Smart Auto Adjust Bandwidth Control\n                                                                                        English\n\n\n\n\n              - Visual User Friendly UI\n              - Visual Network Usage Statistics\n              - Optimized Default Setting for Game, Browser, and\n                Streaming Modes\n              - User Customized Priority Control\n                                                                                    3\n\f              USB          CPU:\n                            • 4 x USB 3.2 Gen1 Type-A (2 Rear (USB32_12), 2 Front\n                              (USB3_5_6))\n                           Chipset:\n                            • 2 x USB 3.2 Gen1 Type-A (Rear (USB32_34))\n                            • 6 x USB 2.0 (2 Rear, 4 Front)\n                           * All USB ports support ESD Protection\n\n\n              Rear Panel   •   1 x PS/2 Mouse/Keyboard Port\n              I/O          •   1 x HDMI Port\n                           •   1 x DisplayPort 1.4\n                           •   4 x USB 3.2 Gen1 Ports\n                           •   2 x USB 2.0 Ports\n                           •   1 x RJ-45 LAN Port with LED\n                           •   HD Audio Jacks: Line in / Front Speaker / Microphone\n\n\n              Storage      CPU:\n                            • 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\n                              PCIe Gen4x4 (64 Gb/s) mode (with Vermeer, Matisse) or\n                              Gen3x4 (32 Gb/s) mode (with Cezanne, Renoir and Picasso)*\n                           Chipset:\n                            • 1 x M.2 Socket (M2_2, Key M), supports type 2280 SATA3\n                              6.0 Gb/s & PCIe Gen3x2 (16 Gb/s) modes*\n                            • 4 x SATA3 6.0 Gb/s Connectors\n\n                           * Supports NVMe SSD as boot disks\n                           * NVMe SSD is not supported with AMD Athlon™ 3000G Pro-\n                           cessors\n\n\n              RAID         • Supports RAID 0, RAID 1 and RAID 10 for SATA storage\n                             devices\n\n\n              Connector    • 1 x SPI TPM Header\n                           • 1 x Power LED and Speaker Header\n                           • 2 x RGB LED Headers*\nEnglish\n\n\n\n\n                           • 2 x Addressable LED Headers**\n                           • 1 x CPU Fan Connector (4-pin)***\n                           • 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\n                             Speed Control)****\n                           • 1 x 24 pin ATX Power Connector\n          4\n\f                                                                                                      B550M Pro RS\n\n\n\n\n                            • 1 x 8 pin 12V Power Connector\n                            • 1 x Front Panel Audio Connector\n                            • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n                            • 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n                           * Support in total up to 12V/3A, 36W LED Strip\n                           ** Support in total up to 5V/3A, 15W LED Strip\n                           *** CPU_FAN1 supports the fan power up to 1A (12W).\n                           **** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n                           **** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\n                           in use.\n\n\n    BIOS                    • AMI UEFI Legal BIOS with GUI support\n    Feature\n\n\n    OS                      • Microsoft® Windows® 10 64-bit / 11 64-bit\n\n\n    Certifica-              • FCC, CE\n    tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n               Please realize that there is a certain risk involved with overclocking, including\n               adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n               third-party overclocking tools. Overclocking may affect your system’s stability, or\n               even cause damage to the components and devices of your system. It should be done\n               at your own risk and expense. We are not responsible for possible damage caused by\n               overclocking.\n                                                                                                                  English\n\n\n\n\n                                                                                                              5\n\f              ",
+      "modelNames": [
+        "B550M Pro RS"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "B550M Pro RS",
+    "identityNote": "Modèle ASRock B550M Pro RS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "socket": "AM4",
+      "formFactor": "Micro-ATX",
+      "m2Slots": 2,
+      "manufacturerPartNumber": "B550M Pro RS",
+      "description": "Carte mère ASRock B550M Pro RS. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• Micro ATX Form Factor\n• 2oz Copper PCB\nTM"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD AM4 Socket Ryzen 3000, 3000 G-Series,\n4000 G-Series, 5000 and 5000 G-Series Desktop Processors*\n* Please refer to CPU support list for details."
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs (Vermeer) support DDR4\n4533+(OC)/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200\n(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/\n3600(OC)/3466(OC)/3200/2933/2667/2400/2133 ECC &\nnon-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Matisse) support DDR4 4533+(OC\n)/4466(OC)/4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133\n(OC)/4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\nbuffered memory*\n• AMD Ryzen series APUs (Cezanne) support DDR4\n4733+(OC)/4666(OC)/4600(OC)/4533(OC)/4466(OC)/\n4400(OC)/4333(OC)/4266(OC)/4200(OC)/4133(OC)/\n4000(OC)/3866(OC)/3800(OC)/3733(OC)/3600(OC)/\n3466(OC)/3200/2933/2667/2400/2133 ECC & non-ECC, un-\nbuffered memory*\n• AMD Ryzen series APUs (Renoir) support DDR4 4733+(OC\n)/4666(OC)/4600(OC)/4533(OC)/4466(OC)/4400(OC)\n/4333(OC)/4266(OC)/4200(OC)/4133(OC)/4000(OC)/\n3866(OC)/3800(OC)/3733(OC)/3600(OC)/3466(OC)/\n3200/2933/2667/2400/2133 ECC & non-ECC, un-buffered\nmemory*\n• AMD Ryzen series APUs (Picasso) support DDR4 3333+(OC\n)/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\nmemory*\n* For Ryzen Series APUs (Picasso, Cezanne and Renoir), ECC is\nonly supported with PRO CPUs.\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n• Max. capacity of system memory: 128GB\n• Supports Extreme Memory Profile (XMP) memory modules\n* Please refer to page 21 for AMD non-XMP memory frequency\nsupport. For more details, please refer to the QVL on ASRock’s\nwebsite."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs (Vermeer and Matisse)\nSlot         • 2 x PCIe x16 Slots (PCIE1: Gen4x16 mode; PCIE3: Gen3 x4\nmode)*\nAMD Ryzen series APUs (Cezanne and Renoir)\n• 2 x PCIe x16 Slots (PCIE1: Gen3x16 mode; PCIE3: Gen3 x4\nmode)*\nAMD Ryzen series APUs (Picasso)\n• 2 x PCIe x16 Slots (PCIE1: Gen3x8 mode; PCIE3: Gen3 x4\nmode)*\n* Supports NVMe SSD as boot disks\nTM\n• Supports AMD CrossFire\n• 1 x PCIe 3.0 x1 Slot (PCIE2: x1 mode)\nTM"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD Radeon Vega Series Graphics in Ryzen\nSeries APU* (Actual support may vary by CPU)\n• 1 x HDMI 2.1, supports HDR, HDCP 2.3, 4K Ultra HD\n(UHD) playback and max. resolution up to 4K 60Hz*\n• 1 x DisplayPort 1.4, supports HDCP 2.3, 4K Ultra HD\n(UHD) playback and max. resolution up to 5K 120Hz\n* Picasso supports HDCP 2.2 with HDMI 2.0 Port"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Dragon RTL8125BG\n• Supports Dragon 2.5G LAN Software\n- Smart Auto Adjust Bandwidth Control\n- Visual User Friendly UI\n- Visual Network Usage Statistics\n- Optimized Default Setting for Game, Browser, and\nStreaming Modes\n- User Customized Priority Control"
+          },
+          {
+            "label": "USB",
+            "value": "CPU:\n• 4 x USB 3.2 Gen1 Type-A (2 Rear (USB32_12), 2 Front\n(USB3_5_6))\nChipset:\n• 2 x USB 3.2 Gen1 Type-A (Rear (USB32_34))\n• 6 x USB 2.0 (2 Rear, 4 Front)\n* All USB ports support ESD Protection"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "•   1 x PS/2 Mouse/Keyboard Port\nI/O          •   1 x HDMI Port\n•   1 x DisplayPort 1.4\n•   4 x USB 3.2 Gen1 Ports\n•   2 x USB 2.0 Ports\n•   1 x RJ-45 LAN Port with LED\n•   HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode (with Vermeer, Matisse) or\nGen3x4 (32 Gb/s) mode (with Cezanne, Renoir and Picasso)*\nChipset:\n• 1 x M.2 Socket (M2_2, Key M), supports type 2280 SATA3\n6.0 Gb/s & PCIe Gen3x2 (16 Gb/s) modes*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* NVMe SSD is not supported with AMD Athlon™ 3000G Pro-\ncessors"
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0, RAID 1 and RAID 10 for SATA storage\ndevices"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x SPI TPM Header\n• 1 x Power LED and Speaker Header\n• 2 x RGB LED Headers*\n• 2 x Addressable LED Headers**\n• 1 x CPU Fan Connector (4-pin)***\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)****\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n* Support in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n**** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n**** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\nin use."
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with GUI support\nFeature"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit / 11 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may affect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Capacité mémoire indiquée dans le manuel ; les évolutions de BIOS et la liste de compatibilité fabricant peuvent modifier cette limite. Les restrictions de lignes PCIe/M.2 selon le processeur restent applicables.",
+      "m2Slots compte les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et les sockets SATA seuls sont exclus.",
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "formFactor": {
+        "value": "• Micro ATX Form Factor\n• 2oz Copper PCB\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "chipset": {
+        "value": "• AMD B550",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "storagePorts": {
+        "value": "CPU:\n• 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen4x4 (64 Gb/s) mode (with Vermeer, Matisse) or\nGen3x4 (32 Gb/s) mode (with Cezanne, Renoir and Picasso)*\nChipset:\n• 1 x M.2 Socket (M2_2, Key M), supports type 2280 SATA3\n6.0 Gb/s & PCIe Gen3x2 (16 Gb/s) modes*\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* NVMe SSD is not supported with AMD Athlon™ 3000G Pro-\ncessors",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs (Vermeer and Matisse)\nSlot         • 2 x PCIe x16 Slots (PCIE1: Gen4x16 mode; PCIE3: Gen3 x4\nmode)*\nAMD Ryzen series APUs (Cezanne and Renoir)\n• 2 x PCIe x16 Slots (PCIE1: Gen3x16 mode; PCIE3: Gen3 x4\nmode)*\nAMD Ryzen series APUs (Picasso)\n• 2 x PCIe x16 Slots (PCIE1: Gen3x8 mode; PCIE3: Gen3 x4\nmode)*\n* Supports NVMe SSD as boot disks\nTM\n• Supports AMD CrossFire\n• 1 x PCIe 3.0 x1 Slot (PCIE2: x1 mode)\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "rearIO": {
+        "value": "•   1 x PS/2 Mouse/Keyboard Port\nI/O          •   1 x HDMI Port\n•   1 x DisplayPort 1.4\n•   4 x USB 3.2 Gen1 Ports\n•   2 x USB 2.0 Ports\n•   1 x RJ-45 LAN Port with LED\n•   HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x SPI TPM Header\n• 1 x Power LED and Speaker Header\n• 2 x RGB LED Headers*\n• 2 x Addressable LED Headers**\n• 1 x CPU Fan Connector (4-pin)***\n• 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)****\n• 1 x 24 pin ATX Power Connector\n• 1 x 8 pin 12V Power Connector\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports)\n* Support in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n**** CHA_FAN1~3/WP support the fan power up to 2A (24W).\n**** CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is\nin use.",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "network": {
+        "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Dragon RTL8125BG\n• Supports Dragon 2.5G LAN Software\n- Smart Auto Adjust Bandwidth Control\n- Visual User Friendly UI\n- Visual Network Usage Statistics\n- Optimized Default Setting for Game, Browser, and\nStreaming Modes\n- User Customized Priority Control",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio (Realtek ALC897 Audio Codec)",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD AM4 Socket Ryzen 3000, 3000 G-Series,\n4000 G-Series, 5000 and 5000 G-Series Desktop Processors*\n* Please refer to CPU support list for details.\nBIOS: • AMI UEFI Legal BIOS with GUI support\nFeature",
+        "sourceURL": "https://download.asrock.com/Manual/B550M%20Pro%20RS.pdf",
+        "checkedAt": "2026-11-10T11:00:38+00:00"
+      }
+    },
+    "manufacturerModel": "B550M Pro RS"
+  }
+}

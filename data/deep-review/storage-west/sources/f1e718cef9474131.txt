@@ -1,0 +1,192 @@
+                                                                             P L AT I N U M P 4 1 S S D
+
+
+
+
+                                                SK hynix
+                                                Platinum P41 SSD
+
+                                                Product Brief
+
+
+
+
+               World-Leading Technology
+                  SK hynix innovations, cell interlayer height reduction and ultra-precise alignment
+                  Industry-leading 176-layer NAND flash memory consumer SSD
+
+
+               The Ultimate in Performance
+                  Top-class sequential read and write speeds of 7,000MB/s and 6,500MB/s
+                  Next-tier power efficiency, running at incredible speeds and cooler than ever
+
+
+               Durability Guaranteed, 5-year Warranty
+                  SK hynix 5-year warranty
+                  1,000 hours of High-Temperature Operating Life (HTOL) testing with
+                  Mean Time Between Failures (MTBF) reaching 1.5 million hours
+
+
+* SK HYNIX RESERVES THE RIGHT TO CHANGE PRODUCTS, INFORMATION AND SPECIFICATIONS WITHOUT NOTICE.   (Jan. 2022)
+                                                                                         P L AT I N U M P 4 1 S S D
+
+
+
+
+Platinum P41 Series Product Specification
+
+                 Capacity                           2TB                          1TB                      500GB
+
+           Form Factor                                                   M.2 2280 Single Side
+
+                 Interface                                             PCIe Gen4, up to 4 lanes
+
+                                Read
+                                                7,000 MB/s                    7,000 MB/s                7,000 MB/s
+   Sequential                    (up to)
+  Performance
+      1) 3) 4)                  Write
+                                 (up to)
+                                                6,500 MB/s                    6,500 MB/s                4,700 MB/s
+
+
+                                Read
+                                 (up to)
+                                               1,400K IOPS                    1,400K IOPS               960K IOPS
+    Random
+  Performance
+      2) 3) 5)                  Write
+                                 (up to)
+                                               1,300K IOPS                    1,300K IOPS              1,000K IOPS
+
+
+                                                Active Write 8)               PS3 (@Idle)               PS4 (@L1.2)
+     Power Consumption 7)
+                                                    7.5W                        < 50mW                     < 5mW
+
+                                           - Windows 8.1 64bit, Windows 10 64bit
+     NVMe Driver Support
+                                           - Linux 14.04 64bit, Linux 15.04 64bit
+
+
+                                           - Support up to 256 queues
+        Queue Support
+                                           - Support up to 1,024 queue depth for each queue
+
+
+          Operating                        - 0℃ to 70℃
+      Temperature Range 9)                 - Temperature Sensor
+
+
+                          10)              - Operating : 1,500G, duration 0.5ms
+                  Shock
+                                           - Non-Operating : 1,500G, duration 0.5ms
+
+
+                                           - Operating : 20G, 20 ~ 2KHz (Frequency)
+             Vibration11)
+                                           - Non-Operating : 20G, 20 ~ 2KHz (Frequency)
+
+                                TBW 13)         1,200 TBW                      750 TBW                    500 TBW
+
+   Reliability 12)              MTBF 14)   1.5 Million hours
+
+                                BER 15)    1 error in 1015 bits transferred
+
+            Dimension                                          (22.00 ± 0.15) X (80.00 ± 0.15) X (Max. 2.38) mm
+
+                 Weight                                                         7.0g ± 5%
+
+                 Voltage                                                        3.3V ± 5%
+
+
+  * SK HYNIX RESERVES THE RIGHT TO CHANGE PRODUCTS, INFORMATION AND SPECIFICATIONS WITHOUT NOTICE.            (Jan. 2022)
+                                                                                                      P L AT I N U M P 4 1 S S D
+
+
+
+
+Notes
+
+- Supports TCG/OPAL 2.01 and Pyrite
+- For cloning, use USB-PCIe M.2 adapter with JMicron JMS583, ASMedia ASM2362, or Realtek RTL9210.
+- May not be compatible with Macbook Pro, Macbook Air
+
+
+
+ 1) Measured using IOmeter1.1 with a queue depth (QD) of 32 and set to 128KiB alignment. (1MB/sec = 1,000,000 bytes/sec)
+ 2) Measured using IOmeter1.1 with 16 threads, a queue depth (QD) of 32 each and set to 4KiB alignment.
+ 3) IOmeter1.1 was used for measuring. Measurements are performed on 1GB of LBA range with a queue depth of 32 and 16 workers.
+     System variations may affect results. (Test Pre-condition : Secure erase and NTFS formatted as a secondary drive)
+ 4) Set to 128KiB alignment /1MB/sec = 1,000,000 bytes/sec was used in sequential performances.
+ 5) Set to 4KiB alignment, 16 threads condition
+ 6) Test System: Intel i9 11900K, DDR4-4400, Gigabyte Z590 Aorus Master, Bios(CPU overclock: Advanced, XMP: profile1)
+ 7) All numbers are averaged data, measured more than 3 times.
+ 8) Active power is measured during execution of sequential write 128KB with a queue depth of 32.
+ 9) Measured w/o condensation. Operating mode is measured by temperature sensor, SMART Attributes Bytes 02:01h.
+10) Shock specification assumes that the SSD is mounted securely with the input shock applied to the drive mounting screws.
+     Stimulus may be applied in the X, Y or Z axis.
+11) Vibration specification assumes that the SSD is mounted securely with the input vibration applied to the drive mounting screws.
+     Stimulus may be applied in the X, Y or Z axis. The measured specification is in root mean SQ. form.
+12) The SSD incorporates advanced technology for defect and error management while using various combinations of
+     hardwarebased error correction algorithms and firmware-based static and dynamic wear-leveling algorithms.
+13) Terabytes Written: the amount of data that can be written to the SSD over the life of the drive.
+14) 1.5M Mean Time Between Failures is estimated based on population. These statistics are not relevant to individual units through
+     Reliability Demonstration Test (RDT).
+15) Bit error rate will not exceed one sector in the specified number of bits read. In the unlikely event of a read error,
+     the SSD will report it as a read failure to the host; the sector in error will be considered corrupt and will not be returned to the host.
+
+
+
+
+   * SK HYNIX RESERVES THE RIGHT TO CHANGE PRODUCTS, INFORMATION AND SPECIFICATIONS WITHOUT NOTICE.                              (Jan. 2022)
+                                                                                  P L AT I N U M P 4 1 S S D
+
+
+
+
+Certifications
+
+  Certifications                                              Description
+
+                         Indicates conformity with the essential health and safety requirements set out in
+   CE Compliant
+                         European Directives
+
+   UL Certified          Underwriters Laboratories, Inc. Component Recognition UL60950-1.
+
+                         This device complies with part 15 of the FCC Rules. Operation is subject to the
+                         following two conditions:
+   FCC Certified         (1) This device may not cause harmful interference.
+                         (2) This device must accept any interference received, including interference that may
+                             cause undesired operation.
+
+                         Compliance with the Australia/New Zealand Standard AS/NZS3548 and Electromagnetic
+ C-Tick Compliant
+                         Compatibility(EMC) Framework requirements of Australian Communication Authority(ACA)
+
+
+                         Compliance to the Taiwan EMC standard "Limits and methods of measurement of radio
+  BSMI Compliant
+                         disturbance characteristics of information technology equipment, CNS 13438 ClassB”
+
+
+                         Compliance with paragraph 1 of Article 11 of the Electromagnetic Compatibility Control
+       KCC               Regulation and meets the Electromagnetic Compatibility (EMC) Framework
+                         requirements of the Radio Research Laboratory (RRL) Ministry of Information and
+                         Communication Republic of Korea
+
+
+ RoHS Compliant          Restriction of Hazardous Substance Directive
+
+
+     PCI-SIG             Compliance to PCI-SIG compliance test and got the integrator list
+
+
+ Microsoft WHLK          Compliance to Microsoft Windows Hardware Lab Kit
+
+
+
+
+  * SK HYNIX RESERVES THE RIGHT TO CHANGE PRODUCTS, INFORMATION AND SPECIFICATIONS WITHOUT NOTICE.      (Jan. 2022)
+

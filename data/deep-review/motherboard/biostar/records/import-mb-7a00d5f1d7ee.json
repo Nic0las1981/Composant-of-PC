@@ -1,0 +1,249 @@
+{
+  "review": {
+    "id": "import-mb-7a00d5f1d7ee",
+    "name": "X570GT8",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+          "checkedAt": "2026-11-10T13:46:33+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20190617.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190617_1.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190617_2.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190617_3.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "952",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X570GT8",
+    "identityNote": "Modèle Biostar X570GT8 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 244.0,
+      "widthMm": 305.0,
+      "manufacturerPartNumber": "X570GT8",
+      "detailLevel": "partial",
+      "maxMemoryGB": 128
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X570GT8 — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd and 2nd Gen Ryzen/3rd, 2nd and 1st Gen Ryzen with Radeon Vega Graphics Processors\n \nSupports AMD AM4 Socket for 4th Gen (Vermeer) processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2667\n \nSupports Dual Channel DDR4 2933(OC)/ 3200(OC)/ 3600(OC)/ 4000(OC)/ 4400+(OC) \n \n4 x DDR4 DIMM Memory Slot, Max. Supports up to 128 GB Memory\n \nEach DIMM supports non-ECC and ECC Un-buffered 8/ 16/ 32 GB DDR4 module\n \n* DDR4 - 2667 only for Ryzen CPU.\n \n* Please refer to www.biostar.com.tw for Memory support list.\n \nPlease insert two memory modules into the matching slot numbers* in order to run in dual channel mode and we recommend you install them in the DDR4_A2 and DDR4_B2 sockets for optimum performance. *Please refer to the user manual.\n \nThe system stability that vary depending on the processor capability, no matter you run XMP at DDR4 3200MHz or higher.\n \nIf you’d like to insert two or four memory modules into the matching slot numbers in order to run in dual channel mode and we recommend you use the same memory capacities, brands, speeds, and chips.\n \nBecause there are varieties of memory modules on the market, we can only verify some of them. The list of all the memory modules shown above is for reference only."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10 \n \n2x M.2 (Key M) Slot (PCIE-M2_1/ PCIE-M2_3) :\n \n Supports M.2 Type 2242/ 2260/ 2280 SSD module\n \n Supports PCI-E Gen4 x4 (64Gb/s) & SATA III (6.0Gb/s) SSD\n \n1x M.2 (Key M) Slot (PCIE-M2_2) :\n \n Supports M.2 Type 2242/ 2260/ 2280/ 22110 SSD module\n \n Supports PCI-E Gen4 x4 (64Gb/s) & SATA III (6.0Gb/s) SSD\n \n* M.2 (Key M) Slot (PCIE-M2_1) :\n \n Supports PCI-E Gen4 x4 (64Gb/s) speed, which depends only on Ryzen 3rd Gen Matisse.\n \n* When SATA3U/ SATA3L connector is occupied, the PCIE-M2_3 slot only supports SATA mode. \n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel i211AT\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front + Rear)"
+          },
+          {
+            "label": "USB",
+            "value": "1x USB 3.1 Gen2 (10Gb/s) Type-C port (1 on rear I/Os)\n \n1x USB 3.1 Gen2 (10Gb/s) Type-A port (1 on rear I/Os)\n \n6x USB 3.1 Gen1 (5Gb/s) port (4 on rear I/Os and 2 via internal headers)\n \n2x USB 3.1 Gen1 (5Gb/s) port (2 via internal headers) : Supports LIGHTNING CHARGER(not support USB wake up function)\n \n4x USB 2.0 port (4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 4.0 x16 Slot (PEX16_1) * Note :\n \nSupports x16 (x16, x8) lanes with AMD Ryzen 2nd and 3rd Gen processors. \n \nSupports x8 lanes with AMD Ryzen with Radeon Vega Graphics processors.\n \n1x PCIe 4.0 x16 Slot: Supports x8 mode (PEX16_2) * Note :\n \nSupports x8 lanes with AMD Ryzen 2nd and 3rd Gen processors.\n \nPEX16_2 slot only AMD Matisse and Pinnacle support.\n \n1x PCIe 4.0 x16 Slot: Supports x4 mode (PEX16_SB_1) * Note\n \n3x PCIe 4.0 x1 Slot * Note\n \n* According to different CPUs will have different speeds.\n \n* Note: PCIe 4.0 speed only for AMD Ryzen 3rd Gen Matisse.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1x PS/2 Keyboard / Mouse \n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x DP Port\n \n1x LAN port\n \n1x USB 3.1 Gen2 (10Gb/s) Type-C Port \n \n1x USB 3.1 Gen2 (10Gb/s) Type-A Port \n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n5x Audio Jack\n \n1x SPDIF_Out"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "6x SATA III (6.0Gb/s) Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) 1x 4-Pin Power Connector\n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n2x CPU Fan Connector\n \n3x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n2x LED Header (12V/ 5V)"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT EVO Utility\n \nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x User Manual"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\nDigital Power+\nLightning Charger\nM.2 Cooling Protection\nDual BIOS\nSupports 100% Solid capacitor\nA.I FAN\nIron Slot Protection\nPCIe M.2 4.0\nLED ROCK ZONE\nRACING ARMOR\nRGB Memory Sync\nRAZER Chroma Sync"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190617.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190617_1.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190617_2.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190617_3.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor Dimension: 30.5 cm x 24.4 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10 \n \n2x M.2 (Key M) Slot (PCIE-M2_1/ PCIE-M2_3) :\n \n Supports M.2 Type 2242/ 2260/ 2280 SSD module\n \n Supports PCI-E Gen4 x4 (64Gb/s) & SATA III (6.0Gb/s) SSD\n \n1x M.2 (Key M) Slot (PCIE-M2_2) :\n \n Supports M.2 Type 2242/ 2260/ 2280/ 22110 SSD module\n \n Supports PCI-E Gen4 x4 (64Gb/s) & SATA III (6.0Gb/s) SSD\n \n* M.2 (Key M) Slot (PCIE-M2_1) :\n \n Supports PCI-E Gen4 x4 (64Gb/s) speed, which depends only on Ryzen 3rd Gen Matisse.\n \n* When SATA3U/ SATA3L connector is occupied, the PCIE-M2_3 slot only supports SATA mode. \n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 4.0 x16 Slot (PEX16_1) * Note :\n \nSupports x16 (x16, x8) lanes with AMD Ryzen 2nd and 3rd Gen processors. \n \nSupports x8 lanes with AMD Ryzen with Radeon Vega Graphics processors.\n \n1x PCIe 4.0 x16 Slot: Supports x8 mode (PEX16_2) * Note :\n \nSupports x8 lanes with AMD Ryzen 2nd and 3rd Gen processors.\n \nPEX16_2 slot only AMD Matisse and Pinnacle support.\n \n1x PCIe 4.0 x16 Slot: Supports x4 mode (PEX16_SB_1) * Note\n \n3x PCIe 4.0 x1 Slot * Note\n \n* According to different CPUs will have different speeds.\n \n* Note: PCIe 4.0 speed only for AMD Ryzen 3rd Gen Matisse.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "rearIO": {
+        "value": "1x PS/2 Keyboard / Mouse \n \n1x DVI-D Port\n \n1x HDMI® Port\n \n1x DP Port\n \n1x LAN port\n \n1x USB 3.1 Gen2 (10Gb/s) Type-C Port \n \n1x USB 3.1 Gen2 (10Gb/s) Type-A Port \n \n4x USB 3.1 Gen1 (5Gb/s) Port\n \n5x Audio Jack\n \n1x SPDIF_Out",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "internalIO": {
+        "value": "6x SATA III (6.0Gb/s) Connector\n \n2x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n2x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) 1x 4-Pin Power Connector\n \n1x 8-Pin Power Connector\n \n1x 24-Pin Power Connector\n \n2x CPU Fan Connector\n \n3x System Fan Connector\n \n1x Front Panel Header\n \n1x Front Audio Header\n \n1x Clear CMOS Header\n \n2x LED Header (12V/ 5V)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "network": {
+        "value": "Intel i211AT\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "audio": {
+        "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front + Rear)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd and 2nd Gen Ryzen/3rd, 2nd and 1st Gen Ryzen with Radeon Vega Graphics Processors\n \nSupports AMD AM4 Socket for 4th Gen (Vermeer) processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=952&pname=X570GT8&chipset=AMD%20X570",
+        "checkedAt": "2026-11-10T13:46:33+00:00"
+      }
+    }
+  }
+}

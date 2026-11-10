@@ -1,0 +1,55 @@
+{
+  "id": "import-ssd-22e9d7d12189",
+  "brand": "HP",
+  "state": "exact_model_and_capacity",
+  "manufacturerModel": "HP FX700 512 GB",
+  "source": {
+    "name": "HP / BIWIN — FX700, seule capacité d’entrée de gamme publiée",
+    "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "checkedAt": "2026-11-10T14:36:42+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "checkedAt": "2026-11-10T14:36:42+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "sha256": "7fde6fd5402597e7abb0c62e5fcb00525f337950d155af5c2f8ca9875e5d88d2",
+    "bytes": 52992,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCIe Gen 4x4, NVMe 2.0",
+    "Form Factor": "M.2 2280",
+    "Capacity": "512 GB",
+    "Sequential Read speed": "6300 MB/s / 7200 MB/s / 7200 MB/s / 7200 MB/s",
+    "Sequential Write speed": "3100 MB/s / 6200 MB/s / 6200 MB/s / 6200 MB/s",
+    "4K Random Read Speed (Up to)": "567K IOPS",
+    "4K Random Write Speed (Up to)": "586K IOPS",
+    "Max. Power Consumption (Read)": "3.18 W",
+    "Max. Power Consumption (Write)": "3.05 W",
+    "Max. Power Consumption (Idle)": "39.76 mW",
+    "Dimensions": "80 × 22 × 2.4 mm",
+    "Weight": "Less than 10 g",
+    "MTBF": "2,000,000 hours",
+    "Operating Temperature": "0 ℃ to 70 ℃",
+    "Storage Temperature": "-40 ℃ to 85 ℃",
+    "Vibration Resistance": "3.1 GRMS (2-500Hz)",
+    "Shock Resistance": "100 G/ 6 ms",
+    "Certifications": "CE, FCC, RoHS, KCC, VCCI, BSMI, RCM",
+    "Warranty": "5-Year / 200 TBW"
+  },
+  "images": [],
+  "partNumber": "",
+  "patch": {
+    "capacityGB": 512,
+    "name": "FX700 512 Go · PCIe 4.0 ×4"
+  },
+  "extraFacts": {
+    "capacity": 512
+  },
+  "notes": [
+    "Correction explicite de la capacité 500 Go de l’archive : la gamme officielle FX700 publie uniquement 512 Go, 1 To, 2 To et 4 To. Aucune autre variante 500 Go n’est publiée.",
+    "La référence marchande 8U2N1AA/# n’est pas attribuée : identité par modèle constructeur, sans prix."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "review": {
+    "id": "import-mb-1966372633d4",
+    "name": "Terminator B760ITX D4 WIFI",
+    "state": "primary_unconfirmed",
+    "manufacturerModel": "MS-Terminator B760ITX D4 WIFI V3",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.maxsun.com/products/terminator-b760itx-d4-wifi",
+          "checkedAt": "2026-11-10T14:10:41+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.maxsun.com/products/terminator-b760itx-d4-wifi",
+          "sha256": "33be97a42bcae367da08b9b581f0b4e3e9852160f31b5ae4ffa1f73584296676",
+          "bytes": 211581,
+          "status": "fetched"
+        },
+        "state": "model_or_revision_mismatch",
+        "actualModel": "MS-Terminator B760ITX D4 WIFI V3"
+      }
+    ],
+    "photos": []
+  },
+  "product": null
+}

@@ -1,0 +1,348 @@
+{
+  "review": {
+    "id": "import-mb-e4e9d1e81175",
+    "name": "B550M PRO-VDH WIFI (CEC)",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DisplayPort",
+      "VGA",
+      "HDMI",
+      "DirectX",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slot",
+      "Onboard Graphics",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "MOUNTING",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1628494217dd444da1237494a0d38164d0a5d8cddc.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "B550M PRO-VDH WIFI (CEC)",
+    "identityNote": "Modèle MSI B550M PRO-VDH WIFI (CEC) confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B550M PRO-VDH WIFI (CEC)",
+      "detailLevel": "partial",
+      "maxMemoryGB": 128
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AMD Socket AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "4"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen4 / Gen3"
+          },
+          {
+            "label": "SATAIII",
+            "value": "8"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\n\n Supports RAID 0 and RAID 1 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6 AX200/AX210"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 1, Type C), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "2(Gen 2, Type A), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC892/ALC897 Codec"
+          },
+          {
+            "label": "DisplayPort",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "MATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AM4 socket 3rd Gen AMD Ryzen™ processors, and future AMD Ryzen™ processors with BIOS update\n\n\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR4 memory slots, support up to 128GB 1\n\n Supports DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\n\n Supports DDR4 2667/ 2800 /2933 /3000 /3066 /3200 /3466 /3600/ 3733 /3866 /4000 /4133 /4266 /4400+ MHz by A-XMP OC MODE\n 1DPC 1R max speed 4400 MHZ\n\n 1DPC 2R max speed 3733 MHZ\n\n 2DPC 1R max speed 3866 MHZ\n\n 2DPC 2R max speed 3466 MHZ\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory\n\n Supports un-buffered memory\n\n Please refer www.msi.com for more information on compatible memory.\n\n See supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 3.0/ 4.0 x16 slot (PCI_E1)1\n\n 3x PCIe 3.0 x16 slots, support PCIe x1 speed\n\n The supported specification depends on installed processor."
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x VGA port, supports resolution of 2048x1536 @50Hz, 2048x1280 @60Hz, 1920x1200 @60Hz 1\n\n 1x DisplayPort, supports a maximum resolution of 4096x2160 @60Hz 1\n\n 1x HDMI™ 2.1 port, supports a maximum resolution of 4096x2160 @60Hz 1 2\n\n Maximum shared memory of 16 GB\n\n Available for the processor with integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "ASMedia AM1064 Chipset\n 4x SATA 6Gb/s ports\n AMD B550 Chipset\n 4x SATA 6Gb/s ports\n\n 2x M.2 slots (Key M)\n M2_1 slot (from AMD Processor)\n Supports PCIe 4.0/ 3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n M2_2 slot (from AMD B550 chipset)\n Supports PCIe 3.0x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\n The supported specification depends on installed processor."
+          },
+          {
+            "label": "USB",
+            "value": "AMD B550 Chipset\n\n 3x USB 3.2 Gen 1 5Gbps ports (1 Type-C internal connector, and 2 ports are available through the internal USB 3.2 Gen 1 5Gbps connector)\n\n 6x USB 2.0 ports (2 Type-A ports on the back panel, 4 ports through the internal USB 2.0 connectors)\n\n AMD Processor\n\n 2x USB 3.2 Gen 1 5Gbps Type-A ports on the back panel\n\n 2x USB 3.2 Gen 2 10Gbps Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC892/ALC897 Codec\n\n 7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® 8RTL8111GN / RTL8111HN 1Gbps LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel®Wi-Fi 6 AX200/ AX210 or AMD Wi-Fi 6E RZ6081\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2, FIPS, FISMA\n\n WiFi 6 pre certified2\n The wireless module varies according to the production batch.\n\n Only support WIN 10 64-bit"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 8x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 3x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connector\n\n 1x 3-pin RAINBOW LED connector\n\n 1xTPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "VGA\n\n USB3.2 Gen 2 10Gbps Type-A\n\n Keyboard / Mouse\n\n LAN port\n\n WiFi/Bluetooth\n\n Audio connector\n\n Flash BIOS Button\n\n DisplayPort\n\n HDMI™\n\n USB 2.0\n\n USB3.2 Gen1 5Gbps Type-A"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "Micro-ATX Form Factor\n\n 9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)"
+          },
+          {
+            "label": "MOUNTING",
+            "value": "8 mounting holes"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 8x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 3x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connector\n\n 1x 3-pin RAINBOW LED connector\n\n 1xTPM module connector\n\n 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: VGA\n\n USB3.2 Gen 2 10Gbps Type-A\n\n Keyboard / Mouse\n\n LAN port\n\n WiFi/Bluetooth\n\n Audio connector\n\n Flash BIOS Button\n\n DisplayPort\n\n HDMI™\n\n USB 2.0\n\n USB3.2 Gen1 5Gbps Type-A"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel®Wi-Fi 6 AX200/ AX210 or AMD Wi-Fi 6E RZ6081\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2, FIPS, FISMA\n\n WiFi 6 pre certified2\n The wireless module varies according to the production batch.\n\n Only support WIN 10 64-bit\nWiFi & Bluetooth: Intel® Wi-Fi 6 AX200/AX210"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1628494217dd444da1237494a0d38164d0a5d8cddc.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "formFactor": {
+        "value": "MATX\nMicro-ATX Form Factor\n\n 9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "boardDimensions": {
+        "value": "MATX\nMicro-ATX Form Factor\n\n 9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "storagePorts": {
+        "value": "ASMedia AM1064 Chipset\n 4x SATA 6Gb/s ports\n AMD B550 Chipset\n 4x SATA 6Gb/s ports\n\n 2x M.2 slots (Key M)\n M2_1 slot (from AMD Processor)\n Supports PCIe 4.0/ 3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n M2_2 slot (from AMD B550 chipset)\n Supports PCIe 3.0x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\n The supported specification depends on installed processor.",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 3.0/ 4.0 x16 slot (PCI_E1)1\n\n 3x PCIe 3.0 x16 slots, support PCIe x1 speed\n\n The supported specification depends on installed processor.",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: VGA\n\n USB3.2 Gen 2 10Gbps Type-A\n\n Keyboard / Mouse\n\n LAN port\n\n WiFi/Bluetooth\n\n Audio connector\n\n Flash BIOS Button\n\n DisplayPort\n\n HDMI™\n\n USB 2.0\n\n USB3.2 Gen1 5Gbps Type-A",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 8x SATA 6Gb/s connectors\n\n 2x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 3x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connector\n\n 1x 3-pin RAINBOW LED connector\n\n 1xTPM module connector\n\n 1x Clear CMOS jumper",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® 8RTL8111GN / RTL8111HN 1Gbps LAN controller\nWireless LAN & Bluetooth®: Intel®Wi-Fi 6 AX200/ AX210 or AMD Wi-Fi 6E RZ6081\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2, FIPS, FISMA\n\n WiFi 6 pre certified2\n The wireless module varies according to the production batch.\n\n Only support WIN 10 64-bit\nWiFi & Bluetooth: Intel® Wi-Fi 6 AX200/AX210\nIntel® Wi-Fi 6 AX200/AX210",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC892/ALC897 Codec\n\n 7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AM4 socket 3rd Gen AMD Ryzen™ processors, and future AMD Ryzen™ processors with BIOS update\n\n\n See supported processors\nAMD Socket AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification",
+        "checkedAt": "2026-11-10T14:00:33+00:00"
+      }
+    }
+  }
+}

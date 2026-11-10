@@ -1,0 +1,61 @@
+{
+  "review": {
+    "id": "import-mb-8648e43caf9a",
+    "name": "A620AM-X WiFi",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Software/AMD%20A620/Software_BIOS%20Setup%20Guide_English.pdf",
+          "checkedAt": "2026-11-10T14:11:21+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Software/AMD%20A620/Software_BIOS%20Setup%20Guide_English.pdf",
+          "httpStatus": 200,
+          "sha256": "5ca97b6846eb3ffe0c451493658f4b54434a63e17044500e4d0df7a7ff94f2c3",
+          "bytes": 5912915,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A620M%20Pro%20RS.pdf",
+          "checkedAt": "2026-11-10T14:11:22+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A620M%20Pro%20RS.pdf",
+          "httpStatus": 200,
+          "sha256": "dfe777586d8aed4421be08ac225faee1c6bb20eb7a254e534247e6eb500e902d",
+          "bytes": 5817316,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A620M Pro RS WiFi / A620M Pro RS\nmotherboard",
+        "modelNames": [
+          "A620M Pro RS WiFi",
+          "A620M Pro RS"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A620M-C.pdf",
+          "checkedAt": "2026-11-10T14:11:25+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A620M-C.pdf",
+          "httpStatus": 200,
+          "sha256": "cd1cf2b4b06e8bf68886cc6cd7d057c022854663f1370b09e0120014d86a6d6b",
+          "bytes": 5521301,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A620M-C motherboard",
+        "modelNames": [
+          "A620M-C"
+        ]
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:13+00:00",
+      "url": "https://download.asrock.com/Manual/A620AM-X%20WiFi.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

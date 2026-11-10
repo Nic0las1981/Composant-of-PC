@@ -1,0 +1,287 @@
+{
+  "review": {
+    "id": "import-mb-ff2446993190",
+    "name": "MPG B850I EDGE TI WIFI",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+    "sections": [
+      "Chipset",
+      "CPU",
+      "Memory",
+      "Onboard Graphics",
+      "Slot",
+      "Audio",
+      "Storage",
+      "RAID",
+      "USB",
+      "LAN",
+      "Internal IO",
+      "WIRELESS LAN & BLUETOOTH",
+      "LED FEATURE",
+      "BACK PANEL PORTS",
+      "OPERATING SYSTEM",
+      "BOX CONTENT",
+      "PCB Info",
+      "Processor",
+      "Expansion Slots",
+      "Multi-GPU",
+      "WiFi & Bluetooth",
+      "Internal connectors",
+      "LED Feature",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_175323898154dfae49b44da21e9ff1bb78e7f8a1d6.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "MPG B850I EDGE TI WIFI",
+    "identityNote": "Modèle MSI MPG B850I EDGE TI WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 128,
+      "m2Slots": 5,
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "MPG B850I EDGE TI WIFI",
+      "description": "Carte mère MSI MPG B850I EDGE TI WIFI. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM5",
+        "4 emplacements DDR5",
+        "Mémoire maximale documentée : 128 Go",
+        "5 emplacement(s) M.2 PCIe/NVMe",
+        "Format Mini-ITX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "Intel® Z690 Chipset"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 9000/ 8000/ 7000 Series Desktop ProcessorsSocket AM5"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR5 memory slots, support up to 128GB1\n\n Supports 1R 4800 MHz (by JEDEC & POR)\n\n Max. overclocking frequency:\n 1DPC 1R Max speed up to 6666+ MHz\n\n 1DPC 2R Max speed up to 5600+ MHz > 6000+ MHz\n\n 2DPC 1R Max speed up to 4000+ MHz > 5600+ MHz\n\n 2DPC 2R Max speed up to 4000+ MHz > 5600+ MHz\n\n\nSupports Intel® XMP 3.0 OC\n\nSupports Dual Controller Dual-Channel mode\n\nSupports non-ECC, un-buffered memory\n\nPlease refer to www.msi.com for more information on compatible memory\n\nSee supported memory"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™ 2.1 with HDR port, supports a maximum \nresolution of 4K 60Hz1/ 2\n\n1x DisplayPort 1.4 port with HBR3, supports a maximum \nresolution of 4K 60Hz1/ 2\n \n Available only on processors featuring integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCI-E x16 slotPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU) \n\nPCI_E1 slot\n\n• Supports PCIe 5.0 x16 (For Ryzen™ 9000/ 7000 Series processors)\n\n• Supports PCIe 4.0 x8 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports PCIe 4.0 x4 (For Ryzen™ 8500/ 8300 Series processor)"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC4080 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4x SATA 6Gb/s ports - SATA5~8* (From Z690 Chipset)1\n\n 2 x SATA 6Gb/s ports - SATAA & SATAB (From ASMedia ASM1061)\n 5x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\nSupports 2260/ 2280/ 22110 storage devices\n\n M2_2 slot (From Z690 Chipset)\n Supports PCIe 4.0 x4\n\nSupports 2260/ 2280 storage devices\n\n M2_3 slot (From Z690 Chipset)\n \n Supports PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\nM2_4 slot (From Z690 Chipset)1\n \n Supports PCIe 3.0 x4\n\n Supports SATA 6Gb/s\n\nSupports 2242/ 2260/ 2280 storage devices\n\n \nM2_5 slot (From Z690 Chipset)\n \n Supports PCIe 4.0 x4\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280 storage devices\n\n \nM2_2~5 support Intel® Optane™ Memory\n\n\nSupports Intel® Smart Response Technology for Intel \nCore™ processors\n\nSATA7 will be unavailable when installing M.2 SATA SSD in the M2_4 slot."
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage\ndevices\n\nSupports RAID 0, RAID 1 , RAID 5 and RAID 10 for M.2 \nNVMe storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "Intel® Z690 Chipset\n\n1x USB3.2 Gen2x2 20Gbps Type-C port on the back \npanel\n\n \n 6x USB 3.2 Gen 2 10Gbps ports (5 Type-A ports on \nthe back panel, 1 Type-C available through the internal \nconnector)\n\n2x USB 3.2 Gen 1 5Gbps ports available through the \ninternal connector\n\n4 USB 2.0 ports on the back panel\n\nUSB Hub-GL850G\n\n4x USB 2.0 ports available through internal connectors"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Intel® I225V 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x Power Connector(ATX_PWR)1x Power Connector(CPU_PWR)1x CPU Fan1x Combo Fan (Pump_Sys Fan)1x System Fan1x EZ Conn-header (JAF_2)2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Addressable V2 RGB LED connector (JARGB_V2)1x TPM pin header(Support TPM 2.0)2x USB 2.0 ports2x USB 5Gbps Type A ports1x USB 10Gbps Type C ports\nInternal connectors: 1x 24-pin ATX main power connector\n\n2x 8-pin ATX 12V power connectors\n\n6x SATA 6Gb/s connectors\n\n5x M.2 slots (M-Key)\n\n1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 \nUSB 3.2 Gen 1 5Gbps ports)\n\n2x USB 2.0 Type-A connectors (supports additional 4 USB \n2.0 ports)\n\n1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n6x 4-pin system fan connectors\n\n1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x Clear CMOS jumper\n\n1x TPM module connector\n\n1x TBT connector (supports RTD3)\n\n1x Tuning Controller connector"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "WIRELESS LAN & BLUETOOTH: Wi-Fi 7The Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz* (320MHz) up to 5.8Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax/ be\nSupports Bluetooth® 5.4**, MLO, 4KQAM\n* 6GHz band support may depend on every country’s regulations and Wi-Fi 7 will be ready in Windows 11 version 24H2.\n\n** The Bluetooth version may be updated, please refer to the Wi-Fi chipset vendor’s website for details. Bluetooth 5.4 will be ready in Windows 11 version 24H2.\nWiFi & Bluetooth: Intel® Wi-Fi 6E module\n\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/6GHz 1(160MHz) up to 2.4Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax\n\nSupports Bluetooth 5.22, FIPS, FISMA\nWi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1 and Windows 11.\n\n Bluetooth 5.2 will be ready in WIN10 21H1 and Windows11."
+          },
+          {
+            "label": "LED FEATURE",
+            "value": "4x EZ Debug LED\n\n1x EZ Memory Detection LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Clear CMOS Button\n\n5G LAN\n\nWi-Fi / Bluetooth\n\nAudio Connectors\n\nFlash BIOS Button\n\nHDMI™\n\nUSB 5Gbps Type-A\n\nUSB 10Gbps Type-A\n\nUSB 20Gbps Type-C\n\nUSB 10Gbps Type-A\n\nOptical S/PDIF Out\nBack panel ports: USB 2.0\n\n DisplayPort\n\n 2.5G LAN\n\n Wi-Fi/Bluetooth\n\n Audio Connectors\n\n Flash BIOS Button\n\nHDMI™\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF Out"
+          },
+          {
+            "label": "OPERATING SYSTEM",
+            "value": "Support for Windows® 11 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini-ITX170mmx170mm"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 12th Gen Intel® Core™, Pentium® Gold and \nCeleron® Processors1\n\n Processor socket LGA1700\n\n\nPlease go to intel.com for compatibility information.\n\nSee supported processors"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "3x PCIe x16 slots\n PCI_E1 & PCI_E2 slots (From CPU)\n Support PCIe 5.0\n\nSupport x16/ x0, x8/ x8\n\nPCI_E3 slot (From Z690 Chipset)\n Supports PCIe 3.0 x4"
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports AMD® CrossFire™ Technology"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E module\n\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/6GHz 1(160MHz) up to 2.4Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax\n\nSupports Bluetooth 5.22, FIPS, FISMA\nWi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1 and Windows 11.\n\n Bluetooth 5.2 will be ready in WIN10 21H1 and Windows11."
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n2x 8-pin ATX 12V power connectors\n\n6x SATA 6Gb/s connectors\n\n5x M.2 slots (M-Key)\n\n1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 \nUSB 3.2 Gen 1 5Gbps ports)\n\n2x USB 2.0 Type-A connectors (supports additional 4 USB \n2.0 ports)\n\n1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n6x 4-pin system fan connectors\n\n1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x Clear CMOS jumper\n\n1x TPM module connector\n\n1x TBT connector (supports RTD3)\n\n1x Tuning Controller connector"
+          },
+          {
+            "label": "LED Feature",
+            "value": "1x EZ LED Control switch\n\n 4x EZ Debug LED\n\n 1x 2-Digit Debug Code LED\n\n 1x 4-pin RGB LED connector\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin CORSAIR LED connector"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "USB 2.0\n\n DisplayPort\n\n 2.5G LAN\n\n Wi-Fi/Bluetooth\n\n Audio Connectors\n\n Flash BIOS Button\n\nHDMI™\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF Out"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Mounting",
+            "value": "9 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_175323898154dfae49b44da21e9ff1bb78e7f8a1d6.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "m2": {
+        "value": 5,
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "formFactor": {
+        "value": "Mini-ITX170mmx170mm\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini-ITX170mmx170mm\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "chipset": {
+        "value": "Intel® Z690 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "storagePorts": {
+        "value": "4x SATA 6Gb/s ports - SATA5~8* (From Z690 Chipset)1\n\n 2 x SATA 6Gb/s ports - SATAA & SATAB (From ASMedia ASM1061)\n 5x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\nSupports 2260/ 2280/ 22110 storage devices\n\n M2_2 slot (From Z690 Chipset)\n Supports PCIe 4.0 x4\n\nSupports 2260/ 2280 storage devices\n\n M2_3 slot (From Z690 Chipset)\n \n Supports PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\nM2_4 slot (From Z690 Chipset)1\n \n Supports PCIe 3.0 x4\n\n Supports SATA 6Gb/s\n\nSupports 2242/ 2260/ 2280 storage devices\n\n \nM2_5 slot (From Z690 Chipset)\n \n Supports PCIe 4.0 x4\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280 storage devices\n\n \nM2_2~5 support Intel® Optane™ Memory\n\n\nSupports Intel® Smart Response Technology for Intel \nCore™ processors\n\nSATA7 will be unavailable when installing M.2 SATA SSD in the M2_4 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "pcie": {
+        "value": "3x PCIe x16 slots\n PCI_E1 & PCI_E2 slots (From CPU)\n Support PCIe 5.0\n\nSupport x16/ x0, x8/ x8\n\nPCI_E3 slot (From Z690 Chipset)\n Supports PCIe 3.0 x4\n1x PCI-E x16 slotPCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU) \n\nPCI_E1 slot\n\n• Supports PCIe 5.0 x16 (For Ryzen™ 9000/ 7000 Series processors)\n\n• Supports PCIe 4.0 x8 (For Ryzen™ 8700/ 8600/ 8400 Series processors)\n\n• Supports PCIe 4.0 x4 (For Ryzen™ 8500/ 8300 Series processor)",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "rearIO": {
+        "value": "Clear CMOS Button\n\n5G LAN\n\nWi-Fi / Bluetooth\n\nAudio Connectors\n\nFlash BIOS Button\n\nHDMI™\n\nUSB 5Gbps Type-A\n\nUSB 10Gbps Type-A\n\nUSB 20Gbps Type-C\n\nUSB 10Gbps Type-A\n\nOptical S/PDIF Out\nBack panel ports: USB 2.0\n\n DisplayPort\n\n 2.5G LAN\n\n Wi-Fi/Bluetooth\n\n Audio Connectors\n\n Flash BIOS Button\n\nHDMI™\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF Out",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "internalIO": {
+        "value": "1x Power Connector(ATX_PWR)1x Power Connector(CPU_PWR)1x CPU Fan1x Combo Fan (Pump_Sys Fan)1x System Fan1x EZ Conn-header (JAF_2)2x Front Panel (JFP)1x Chassis Intrusion (JCI)1x Front Audio (JAUD)1x Addressable V2 RGB LED connector (JARGB_V2)1x TPM pin header(Support TPM 2.0)2x USB 2.0 ports2x USB 5Gbps Type A ports1x USB 10Gbps Type C ports\nInternal connectors: 1x 24-pin ATX main power connector\n\n2x 8-pin ATX 12V power connectors\n\n6x SATA 6Gb/s connectors\n\n5x M.2 slots (M-Key)\n\n1x USB 3.2 Gen 2 10Gbps Type-C connector\n\n1x USB 3.2 Gen 1 5Gbps connector (supports additional 2 \nUSB 3.2 Gen 1 5Gbps ports)\n\n2x USB 2.0 Type-A connectors (supports additional 4 USB \n2.0 ports)\n\n1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n6x 4-pin system fan connectors\n\n1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x Clear CMOS jumper\n\n1x TPM module connector\n\n1x TBT connector (supports RTD3)\n\n1x Tuning Controller connector",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "network": {
+        "value": "1x Intel® I225V 2.5Gbps LAN controller\nWIRELESS LAN & BLUETOOTH: Wi-Fi 7The Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz* (320MHz) up to 5.8Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax/ be\nSupports Bluetooth® 5.4**, MLO, 4KQAM\n* 6GHz band support may depend on every country’s regulations and Wi-Fi 7 will be ready in Windows 11 version 24H2.\n\n** The Bluetooth version may be updated, please refer to the Wi-Fi chipset vendor’s website for details. Bluetooth 5.4 will be ready in Windows 11 version 24H2.\nWiFi & Bluetooth: Intel® Wi-Fi 6E module\n\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/6GHz 1(160MHz) up to 2.4Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax\n\nSupports Bluetooth 5.22, FIPS, FISMA\nWi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1 and Windows 11.\n\n Bluetooth 5.2 will be ready in WIN10 21H1 and Windows11.\nIntel® Wi-Fi 6E module\n\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\n\nSupports MU-MIMO TX/RX, 2.4GHz/ 5GHz/6GHz 1(160MHz) up to 2.4Gbps\n\nSupports 802.11 a/ b/ g/ n/ ac/ ax\n\nSupports Bluetooth 5.22, FIPS, FISMA\nWi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in WIN10 21H1 and Windows 11.\n\n Bluetooth 5.2 will be ready in WIN10 21H1 and Windows11.",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC4080 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 9000/ 8000/ 7000 Series Desktop ProcessorsSocket AM5\nSupports 12th Gen Intel® Core™, Pentium® Gold and \nCeleron® Processors1\n\n Processor socket LGA1700\n\n\nPlease go to intel.com for compatibility information.\n\nSee supported processors",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:23+00:00"
+      }
+    }
+  }
+}

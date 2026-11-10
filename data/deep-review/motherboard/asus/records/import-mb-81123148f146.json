@@ -1,0 +1,267 @@
+{
+  "review": {
+    "id": "import-mb-81123148f146",
+    "name": "ROG CROSSHAIR X870E APEX",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "sha256": "a126c73df21c4e5b92c0e25bc162ad78e4e7a840f99032e3a009adc976ce76f6",
+        "bytes": 227416,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG CROSSHAIR X870E APEX",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/646659B5-60C1-4177-8F37-9C3FAD27EB74"
+    ],
+    "sections": [
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "RAID Support",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG CROSSHAIR X870E APEX",
+    "identityNote": "Modèle ASUS ROG CROSSHAIR X870E APEX confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 2,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG CROSSHAIR X870E APEX",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X870E"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM slots, max. 128GB, DDR5 \nSupports up to\n8200+MT/s(OC) with Ryzen™ 9000 Series Processors,\n9600+MT/s(OC) with Ryzen™ 8000 Series Processors\n8000+MT/s(OC) with Ryzen™ 7000 Series Processors,\nECC and Non-ECC, Un-buffered Memory*\nDual channel memory architecture \nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/download-center/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "2 x USB4® (40Gbps) ports support USB Type-C® display outputs*\nGraphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\nVGA resolution support depends on processors' or graphic cards' resolution.\n*Supports max. 4K@60Hz as specified in DisplayPort 1.4a"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n2 x PCIe 5.0 x16 slots with Q-Release Slim (supports x16 or x8/x8** or x8/x4/x4 modes***)\n\nAMD Ryzen™ 8700 & 8600 & 8400 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with Q-Release Slim (only supports PCIEx16_1 & total bandwidth for x8, PCIEx16_2 will be disabled)\nAMD Ryzen™ 8500 & 8300 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with Q-Release Slim (only supports PCIEx16_1 & total bandwidth for x4, PCIEx16_2 will be disabled)\nAMD X870E Chipset\n1 x PCIe 4.0 x4 slot\n1 x PCIe 3.0 x1 slot\n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n**When both PCIEX16_1 and PCIEX16_2 are in use, they will each run in x8 mode.\n***When M.2_2 is enabled, but M.2_3 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n***When M.2_3 is enabled, but M.2_2 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will run in x4 mode.\n***When both M.2_2 and M.2_3 are enabled, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 5 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)**\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (Not supports)\nM.2_3 slot (Key M), type 2242/2260/2280 (Not supports)\nAMD X870E Chipset\nDIMM.2_1 slot (Key M), type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nDIMM.2_2 slot (Key M), type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*  Specifications vary by CPU types.\n**When M.2_2 is enabled, but M.2_3 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n**When M.2_3 is enabled, but M.2_2 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will run in x4 mode.\n**When both M.2_2 and M.2_3 are enabled, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled."
+          },
+          {
+            "label": "RAID Support",
+            "value": "AMD RAIDXpert2 Technology\nRyzen™ 9000 Series Processors: RAID 0/1/5/10\nRyzen™ 8000 Series Processors: RAID 0/1\nRyzen™ 7000 Series Processors: RAID 0/1/10 \n*  Specifications vary by CPU types."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 7 (Qualcomm QCNCM865 or MediaTek MT7927)*\n2x2 Wi-Fi 7** (802.11be) \nSupports 2.4/5/6GHz frequency band***\nSupports Wi-Fi 7 320MHz bandwidth\nBluetooth® v5.4****\n\n*The actual Wi-Fi module that comes with this motherboard may vary, please refer to the label on the product for more details.\n**Wi-Fi features may vary depending on the operating system\n For Windows 11, Wi-Fi 7 will require  24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E. \n For Windows 10, please note that no driver is available, refer to the Wi-Fi chipset vendor's website for details.\n*** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n**** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 10 ports)\n2 x USB4® (40Gbps) ports (2 x USB Type-C®)\n6 x USB 10Gbps ports (5 x Type-A + 1 x USB Type-C®) \n2 x USB 5Gbps ports (2 x Type-A)\nFront USB (Total 10 ports)\n1 x USB 20Gbps (supports USB Type-C® with up to 60W PD/QC4+)*\n1 x USB 20Gbps connector (supports USB Type-C®)\n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nUSB Type-C®power delivery output: max. 5V/3A\n*USB Type-C®power delivery output: 5/9/15/20V max. 3A, PPS:3.3–21V max. 3A"
+          },
+          {
+            "label": "Audio",
+            "value": "\"ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080*\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel MIC Jack-retasking\n- High quality 120 dB SNR stereo playback output and 110 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback on front panel\"\nAudio Features\n- SupremeFX Shielding Technology \n- Savitech SV3H712 AMP  \n- Gold-plated audio jacks\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n- Audio cover\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output. \n** The LINE OUT port on the rear panel does not support spatial audio. If you wish to use spatial audio, make sure to connect your audio output device to the audio jack on the front panel of your chassis or use a USB interface audio device."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB4® (40Gbps) ports (2 x USB Type-C®)\n6 x USB 10Gbps ports (5 x Type-A + 1 x USB Type-C®) \n2 x USB 5Gbps ports (2 x Type-A)\n1 x Wi-Fi module\n1 x Realtek 5Gb Ethernet port\n1 x PS/2 keyboard/mouse combo port \n2 x Gold-plated audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button \n1 x Clear CMOS button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n2 x 4-pin Chassis Fan headers\n2 x 4-pin Full Speed Fan headers\n1 x W_PUMP+ header\n1 x Extra Flow Fan header\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connector\n1 x 8-pin PCIe Power connector\nStorage Related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n2 x USB 20Gbps connectors (support USB Type-C® ) \n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n1 x 80 Light Bar jumper\n3 x Addressable Gen2 headers\n1 x Alteration PCIe mode switch\n2 x BCLK button\n1 x BIOS Switch button \n1 x FlexKey button \n1 x Front Panel Audio header (F_AUDIO)\n1 x LN2 Mode jumper \n1 x Pause switch\n12 x ProbeIt Measurement Points\n1 x ReTry button\n2 x RSVD switches\n1 x RSVD_4 header\n1 x Safe Boot button\n1 x Slow Mode switch \n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme OC Kit\n- FlexKey button\n- LN2 Mode\n- ProbeIt\n- ReTry button\n- Safe boot button\n- Start button\n- Slow Mode\nExtreme Engine Digi+\n- SMD Capacitor\n- MicroFine alloy choke \nASUS Q-Design- M.2 Q-Latch\n- M.2 Q-Release\n- M.2 Q-Slide\n- Q-Release Slim (with PCIe SafeSlot)\n- Q-Antenna\n- Q-Code\n- Q-Connector\n- Q-Dashboard\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\nASUS Thermal Solution\n- M.2 heatsink backplate\n- M.2 heatsink\n- VRM heatsink design\n- Metal backplate\nASUS EZ DIY\n- Backplate\n- BIOS FlashBack™ button\n- Clear CMOS button\n- CPU Socket lever protector\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAura Sync\n- Addressable Gen2 header(s)\nFront Panel USB 20Gbps with Quick Charge 4+ Support\n- Support: up to 60W fast charging and USB Wattage Watcher*\n- Output: 5/9/15/20V max. 3A, PPS:3.3–21V max. 3A\n- Compatible with PD3.0 and PPS\n* To support 60W, please install the power cable to the 8-pin PCIe power connector or else only 27W will be supported."
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- ROG CPU-Z\n- Dolby Atmos\n- Internet Security (1-year full version)\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (1 year full version) \n- Aura Creator\n- Aura Sync\n-Fan Xpert 4 (with AI Cooling II)\n- GameFirst\n- HWiNFO\nASUS AI Advisor\nASUS DriverHub\nASUS GlideX\nUSB Wattage Watcher\nTurboV Core \nWinRAR (40 Days Free Trial)\nAdobe Creative Cloud (Free Trial)\nUEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash\n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey\nFlexKey"
+          },
+          {
+            "label": "BIOS",
+            "value": "2 x 256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME"
+          },
+          {
+            "label": "Accessoires",
+            "value": "ROG DIMM.2 with Heatsink\n1 x ROG DIMM.2 with heatsink\n1 x M.2 pad for ROG DIMM.2\n2 x M.2 screw package for ROG DIMM.2\nAdditional Cooling Kit\n1 x ROG Memory Fan Kit\nMiscellaneous\n1 x ASUS WiFi Q-Antenna\n1 x Q-connector\n3 x M.2 Q-Slide package\n3 x M.2 rubber package\n1 x ROG stickers\n1 x ROG thank you card\n1 x ROG Bottle Opener\nInstallation Media\n1 x USB drive with utilities and drivers \nDocumentation\n1 x Quick start guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 11  (22H2 & later)"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/646659B5-60C1-4177-8F37-9C3FAD27EB74"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "chipset": {
+        "value": "AMD X870E",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 5 x M.2 slots and 4 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)**\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 5.0 x4 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280 (Not supports)\nM.2_3 slot (Key M), type 2242/2260/2280 (Not supports)\nAMD X870E Chipset\nDIMM.2_1 slot (Key M), type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\nDIMM.2_2 slot (Key M), type 2230/2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n*  Specifications vary by CPU types.\n**When M.2_2 is enabled, but M.2_3 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n**When M.2_3 is enabled, but M.2_2 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will run in x4 mode.\n**When both M.2_2 and M.2_3 are enabled, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n2 x PCIe 5.0 x16 slots with Q-Release Slim (supports x16 or x8/x8** or x8/x4/x4 modes***)\n\nAMD Ryzen™ 8700 & 8600 & 8400 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with Q-Release Slim (only supports PCIEx16_1 & total bandwidth for x8, PCIEx16_2 will be disabled)\nAMD Ryzen™ 8500 & 8300 Series Desktop Processors*\n2 x PCIe 4.0 x16 slots with Q-Release Slim (only supports PCIEx16_1 & total bandwidth for x4, PCIEx16_2 will be disabled)\nAMD X870E Chipset\n1 x PCIe 4.0 x4 slot\n1 x PCIe 3.0 x1 slot\n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n**When both PCIEX16_1 and PCIEX16_2 are in use, they will each run in x8 mode.\n***When M.2_2 is enabled, but M.2_3 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n***When M.2_3 is enabled, but M.2_2 is not in use, PCIEX16_1 will run in x8 mode and PCIEX16_2 will run in x4 mode.\n***When both M.2_2 and M.2_3 are enabled, PCIEX16_1 will run in x8 mode and PCIEX16_2 will be disabled.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB4® (40Gbps) ports (2 x USB Type-C®)\n6 x USB 10Gbps ports (5 x Type-A + 1 x USB Type-C®) \n2 x USB 5Gbps ports (2 x Type-A)\n1 x Wi-Fi module\n1 x Realtek 5Gb Ethernet port\n1 x PS/2 keyboard/mouse combo port \n2 x Gold-plated audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button \n1 x Clear CMOS button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n2 x 4-pin Chassis Fan headers\n2 x 4-pin Full Speed Fan headers\n1 x W_PUMP+ header\n1 x Extra Flow Fan header\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connector\n1 x 8-pin PCIe Power connector\nStorage Related\n3 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n2 x USB 20Gbps connectors (support USB Type-C® ) \n2 x USB 5Gbps headers support 4 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n1 x 80 Light Bar jumper\n3 x Addressable Gen2 headers\n1 x Alteration PCIe mode switch\n2 x BCLK button\n1 x BIOS Switch button \n1 x FlexKey button \n1 x Front Panel Audio header (F_AUDIO)\n1 x LN2 Mode jumper \n1 x Pause switch\n12 x ProbeIt Measurement Points\n1 x ReTry button\n2 x RSVD switches\n1 x RSVD_4 header\n1 x Safe Boot button\n1 x Slow Mode switch \n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 5Gb Ethernet\nASUS LANGuard\nWi-Fi 7 (Qualcomm QCNCM865 or MediaTek MT7927)*\n2x2 Wi-Fi 7** (802.11be) \nSupports 2.4/5/6GHz frequency band***\nSupports Wi-Fi 7 320MHz bandwidth\nBluetooth® v5.4****\n\n*The actual Wi-Fi module that comes with this motherboard may vary, please refer to the label on the product for more details.\n**Wi-Fi features may vary depending on the operating system\n For Windows 11, Wi-Fi 7 will require  24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E. \n For Windows 10, please note that no driver is available, refer to the Wi-Fi chipset vendor's website for details.\n*** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n**** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "audio": {
+        "value": "\"ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080*\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel MIC Jack-retasking\n- High quality 120 dB SNR stereo playback output and 110 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback on front panel\"\nAudio Features\n- SupremeFX Shielding Technology \n- Savitech SV3H712 AMP  \n- Gold-plated audio jacks\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n- Audio cover\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output. \n** The LINE OUT port on the rear panel does not support spatial audio. If you wish to use spatial audio, make sure to connect your audio output device to the audio jack on the front panel of your chassis or use a USB interface audio device.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list.\nBIOS: 2 x 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/",
+        "checkedAt": "2026-11-10T13:41:38+00:00"
+      }
+    },
+    "manufacturerModel": "ROG CROSSHAIR X870E APEX"
+  }
+}

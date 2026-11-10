@@ -1,0 +1,262 @@
+{
+  "review": {
+    "id": "import-mb-8e839f11b34f",
+    "name": "ProArt B660-CREATOR D4",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "sha256": "99721e69f36b0624d2b6ba6881467cf7da602b53edb11b3916244fcea4d30308",
+        "bytes": 364720,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ProArt B660-CREATOR D4",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/f7859487-d7d7-4a5f-b2fe-e75d4e3c6b9f/"
+    ],
+    "sections": [
+      "Model",
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ProArt B660-CREATOR D4",
+    "identityNote": "Modèle ASUS ProArt B660-CREATOR D4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ProArt B660-CREATOR D4",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® 10 nm CPU\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B660 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4\n5333(OC)/5066(OC)/5000(OC)/4800(OC)/4600(OC)/4400(OC)/4266(OC)/4000(OC)/3866(OC)/3733(OC)/3600(OC)/3466(OC)/3400(OC)/3333(OC)/3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nOptiMem II\n* Actual Memory frequency support depends on the CPU types and DRAM modules, for more information refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI® port**\n1 x USB Type-C port supports DisplayPort output***\n1 x DP IN that will have output through USB Type-C port\n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n** Support 4K@60Hz as specified in HDMI 2.1.\n*** Support max. 8K@60Hz as specified in DisplayPort 1.4. DisplayPort resolution support depends on graphic cards’ resolution.\n**** A DisplayPort to DisplayPort cable is required for the USB Type-C® port at the back panel to output DisplayPort signal."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® 14th & 13th & 12th Gen Processors\n1 x PCIe 5.0/4.0/3.0 x16 slot\nIntel® B660 Chipset*\n1 x PCIe 3.0 x16 slot (supports x4 mode)\n1 x PCIe 3.0 x1 slot**\n* Supports Intel® Optane Memory H Series on PCH-attached PCIE slot\n** PCIe X1 shares bandwidth with M.2_2. PCIe X1 will be disable when M.2_2 runs at PCIe x4 mode by manually enabled."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 3 x M.2 slots and 4x SATA 6Gb/s ports*\nIntel® 14th & 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110\n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nIntel® B660 Chipset**\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)***\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports***\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10.\n** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n*** M.2_2 slot shares bandwidth with PCIe X1 and WiFi Key E. M.2_2 will run at PCI 3.0 x2 mode either a device is detected at PCIe x1 or WiFi Key E slot."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 2.5Gb Ethernet\n1 x Intel® 1Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "M.2 slot only (Key E, PCIe)*\n*Wi-Fi module is sold separately."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 9 ports)\n1 x USB 3.2 Gen 2 Type-C® port (shared with DisplayPort graphic output)\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C® with 60W PD/QC4+)\n1 x USB 3.2 Gen 1 header supports additional 2 x USB 3.2 Gen1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB Type-C® port supports USB 3.2 Gen2 and DisplayPort output\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort (Input only)\n1 x HDMI® port\n1 x Realtek 2.5Gb Ethernet port\n1 x Intel® 1Gb Ethernet port\n5 x Audio jacks\n1 x Optical S/PDIF out port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C® with 60W PD/QC4+)\n1 x USB 3.2 Gen 1 header supports additional 2 x USB 3.2 Gen1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x M.2 slot (Key E)\n1 x SPI TPM header (14-1pin)\n1 x 20-5 pin System Panel header\n1 x Thermal Sensor header\n1 x Thunderbolt™ header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- Enhanced DRAM Overcurrent Protection\n- ESD Guards\n- LANGuard\n- Overvoltage Protection\n- SafeSlot\n- Stainless-Steel Back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- Q-Connector\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- Flexible M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- ProCool\n- Pre-mounted I/O shield\nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 4\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Performance And Power Saving Utility\nEPU\nDIGI+ VRM\nTurbo app\nASUS CPU-Z\nIT Management software supported\n- ASUS Control Center Express(ACCE)\nProArt Creator Hub\nCreationFirst\nNorton Anti-virus software (Free Trial version)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n\n1 x DisplayPort cable\n\n2 x SATA 6Gb/s cables\n\nMiscellaneous\n\n3 x M.2 rubber packages\n\n1 x M.2 SSD Screw Package\n\n1 x Q-connector\n\nInstallation Media\n\n1 x Support DVD\n\nDocumentation\n\n1 x ACC Express Activation Key Card\n\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/f7859487-d7d7-4a5f-b2fe-e75d4e3c6b9f/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B660 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 3 x M.2 slots and 4x SATA 6Gb/s ports*\nIntel® 14th & 13th & 12th Gen Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110\n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nIntel® B660 Chipset**\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)***\nM.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports***\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10.\n** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n*** M.2_2 slot shares bandwidth with PCIe X1 and WiFi Key E. M.2_2 will run at PCI 3.0 x2 mode either a device is detected at PCIe x1 or WiFi Key E slot.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "pcie": {
+        "value": "Intel® 14th & 13th & 12th Gen Processors\n1 x PCIe 5.0/4.0/3.0 x16 slot\nIntel® B660 Chipset*\n1 x PCIe 3.0 x16 slot (supports x4 mode)\n1 x PCIe 3.0 x1 slot**\n* Supports Intel® Optane Memory H Series on PCH-attached PCIE slot\n** PCIe X1 shares bandwidth with M.2_2. PCIe X1 will be disable when M.2_2 runs at PCIe x4 mode by manually enabled.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB Type-C® port supports USB 3.2 Gen2 and DisplayPort output\n4 x USB 3.2 Gen 1 ports (4 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort (Input only)\n1 x HDMI® port\n1 x Realtek 2.5Gb Ethernet port\n1 x Intel® 1Gb Ethernet port\n5 x Audio jacks\n1 x Optical S/PDIF out port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n3 x M.2 slots (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C® with 60W PD/QC4+)\n1 x USB 3.2 Gen 1 header supports additional 2 x USB 3.2 Gen1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x AURA RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x M.2 slot (Key E)\n1 x SPI TPM header (14-1pin)\n1 x 20-5 pin System Panel header\n1 x Thermal Sensor header\n1 x Thunderbolt™ header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 2.5Gb Ethernet\n1 x Intel® 1Gb Ethernet\nASUS LANGuard\nM.2 slot only (Key E, PCIe)*\n*Wi-Fi module is sold separately.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Power pre-regulator reduces power input noise to ensure consistent performance\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® 10 nm CPU\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128 Mb",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-b660-creator-d4/techspec/",
+        "checkedAt": "2026-11-10T13:26:51+00:00"
+      }
+    },
+    "manufacturerModel": "ProArt B660-CREATOR D4"
+  }
+}

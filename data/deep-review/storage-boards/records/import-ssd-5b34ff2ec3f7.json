@@ -1,0 +1,64 @@
+{
+  "id": "import-ssd-5b34ff2ec3f7",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M470 PCIe 4.0 NVMe M.2 1TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification",
+    "sha256": "a695ea3f17ba8086368c86e6ae749e3c9a7f6ab786af921b3264740e273608bf",
+    "bytes": 61650,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M470 PCIe 4.0 NVMe M.2",
+    "Capacity": "1TB",
+    "Controller": "PHISON E16",
+    "Flash Memory": "3D NAND",
+    "DRAM Cache": "1GB DDR4",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4x4, NVMe 1.3",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)",
+    "Sequential Read up to (MB/s)": "5000",
+    "Sequential Write up to (MB/s)": "4400",
+    "Random Read 4KB up to (IOPS)": "600,000",
+    "Random Write 4KB up to (IOPS)": "600,000",
+    "Maximum Operating Power (W)": "6.3",
+    "Idle Power PS3 (mW)": "20",
+    "Low Power L1.2 (mW)": "2",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "1600",
+    "Mean Time Between Failure (MTBF)": "Up to 1,700,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nPyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1625471744d4ce352874ef336778813999fa18e643.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification",
+        "checkedAt": "2026-11-10T14:36:12+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M470-PCIe-4.0-NVMe-M.2/Specification",
+        "sha256": "a695ea3f17ba8086368c86e6ae749e3c9a7f6ab786af921b3264740e273608bf",
+        "bytes": 61650,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M470 PCIe 4.0 NVMe M.2",
+      "selectedColumn": "SPATIUM M470 PCIe 4.0 NVMe M.2 1TB"
+    }
+  ]
+}

@@ -1,0 +1,1132 @@
+                                                                                 REF 5, a5
+                                                                                        500000062-02
+
+
+
+
+Embedded SSD/
+SSD intégré/
+固态硬盘
+
+                                                        取扱説明書_____________________________________ JP
+
+                                                        Instruction Manual _____________________________ EN
+
+                                                        Manuel d’instructions __________________________ FR
+
+                                                        操作指南 ______________________________________ CS
+
+
+
+
+ご使用前に、この取扱説明書をよくお読みください。
+Please read this instruction manual before use.
+Veuillez lire ce manuel d’instructions avant utilisation.
+
+使用前请仔细阅读本操作指南。
+
+
+
+
+https://www.nextorage.net/
+
+© 2023 Nextorage Corporation
+日本語
+                                 機またはマザーボードが損傷する恐
+取り付け方法                            れがあります。
+                                4 パソコンのカバーを元どおりに取り
+※ ノートパソコンではお使いいただけ               付けて、電源ケーブルを接続しま
+  ません。                           す。
+※ 本書の手順は例です。お使いのパソ
+  コンの取扱説明書と手順が異なる場
+  合は、パソコンの取扱説明書に従っ              取り外し方法
+  てください。
+※ 本機は、M.2 2280のサイズに対応し          パソコンの電源を切り、電源ケーブル
+     た、PCle SSD対応のM.2スロットに      を取り外してから、取り付けと逆の手
+     取り付けてください。お使いのパソ           順で取り外してください。
+     コンの取扱説明書などを参照して、
+     スロットの仕様を確認してから取り
+  付けてください。                      使用上のご注意
+※ パソコンのSSDを交換した場合、パ
+     ソコンの保証が受けられなくなる場           本機は精密機器です。突然の故障等の
+     合があります。詳しくは、パソコン           理由によってデータが消失する場合が
+  の製造元にお問合せください。                あります。万一の場合に備えて定期的
+※ 本機の取り付け、取り外しの際に発              にバックアップを行ってください。弊
+     生した機器の破損、ケガなどにつき           社では、いかなる場合においても記録
+     ましては責任を負いませんので、十           内容の修復・復元・再現などはいたし
+  分注意して作業をしてください。               ません。また、記録内容の破損・消失
+1 静電気による本機、およびパソコン              についてはいかなる原因であっても一
+  の故障を防ぐため、本機やパソコン              切その責任は負いかねます。
+     内部に触れる前に非塗装の金属表面            付属の製品保証書は本機限定のもの
+     に触れるなどして、静電気を体から            で、本機の取扱説明書に従った通常
+  除去してください。                      のご使用時、または必要動作環境／
+2 パソコンの電源を切り、電源ケーブ               推奨動作環境でのご使用時に限られ
+     ル、パソコンのカバーを取り外しま            ます。ユーザーサポートなどの各種
+     す。                          サービスも上記の前提で提供するも
+3 マザーボードのM.2スロットに本機               のです。
+  を取り付けます。マザーボードの                本機を分解した場合、保証対象外に
+     SSD固定用のネジをいったん取り外           なります。
+     したあと、本機の下側のヒートシン            落とす、重い物をのせる、強い
+     クを持ってM.2スロットに挿入し、           ショックを与える、引っ張る、圧力
+     ネジを付け直して本機を固定しま             をかけるなどの行為は、本機の故障
+     す。その際、きつく締めすぎると本            の原因となりますので、行わないよ
+                                 うにしてください。
+
+JP
+     2   取り付け方法 / 取り外し方法 / 使用上のご注意
+この装置は、クラスB機器です。こ           本体の温度上昇について
+の装置は、住宅環境で使用すること            動作中および動作後しばらくは本
+を目的としていますが、この装置が、            機の表面が非常に高温であるため
+ラジオやテレビジョン受信機に接近             絶対に手または肌を触れないでく
+して使用されると、受信障害を引き             ださい。
+起こすことがあります。                 本機に触れる前に本機の温度が十
+取扱説明書に従って、正しい取り扱             分下がっていることをご確認くだ
+いをしてください。                    さい。
+                 VCCI-B     本機に触れる可能性がある方々に
+                             対して、これらを適切に注意喚起
+ お使いの機器などの機能による
+                             してください。
+「フォーマット」や「削除」では、本
+ 機内のデータは完全に消去されない
+ 場合があります。本機の譲渡／廃棄
+ の際は、データ消去専用ソフトをご
+ 使用いただくか、本機を物理的に破
+                          故障かな？と思った                                 JP
+
+ 壊するなど、お客様の責任において         ら
+ データを処理してください。
+                          お使いの機器が本機を認識しない場合、
+取り扱いについて                  または正常に動作しない場合、本機の
+ 本機を分解したり、改造したりしな        取り付けを再度確認してください。
+ いでください。                  解決しない場合は、以下のサポートサ
+ 使用中、保管中にかかわらず、次の        イトをご確認ください。
+ ような場所に置かないでください。         https://www.nextorage.net/support/
+ 故障の原因になります。
+ − 異常に高温、低温または多湿にな
+   る場所                    商標について
+ − 炎天下や熱器具の近く、夏場の窓
+   を閉め切った自動車内は特に高温         NVMeはNVM Express, Inc. の商標です。
+   になり、放置すると変形したり故         PCleはPCI-SIGの商標です。
+   障したりすることがあります。         その他、本取扱説明書で登場するシス
+ − 強力な磁気のあるところや放射線        テム名、製品名は、一般に各開発メー
+   のある場所                  カーの登録商標あるいは商標です。
+ − 振動や大きな音のする場所、不安        なお、本文中では™、®マークは明記
+   定な場所                   していません。
+ − 風通しが悪い場所
+ − ほこり、湿気の多い場所
+
+
+
+
+                                       故障かな？と思ったら          3   JP
+主な仕様                                    保証書とアフター
+インターフェース
+                                        サービス
+M.2 2280 PCIe 5.0 x 4 : NE5N□□□ / NN5
+                                        保証書
+□□□-□TB□□□
+                                         この取扱説明書には保証書が添付さ
+外形寸法                                     れています。お買い上げ時のレシー
+約 24.8 mm × 39.4 mm × 80.5 mm（幅／高         トまたは明細書を大切に保存してく
+さ／奥行き）    （最大突起物を除く）
+                                          ださい。
+TBW（Total Byte Written（書き                保証期間は、お買い上げ日より5年間、
+
+込み耐性）
+    ）*                                   またはTBWしきい値に達するまでの
+                                         いずれか短い期間となります。
+NE5N2TB / NN5PRO-2TB1BH：1 400 TB
+NE5N1TB / NN5PRO-1TB1BH：700 TB
+                                        アフターサービス
+* TBW は、JEDEC 218 / 219 ワークロード
+  に基づいて算出しています。                         調子が悪いときはまずチェックを
+同梱物                                     この取扱説明書をもう一度ご覧になっ
+ヒートシンク付M.2 2280 NVMe SSD（1）
+                                        てお調べください。
+印刷物一式                                   それでも具合が悪いときは
+※ネジは付属しておりません。                          相談窓口にご相談ください。
+                                        ご相談になるときは、次のことをお知
+容量は10億バイトを1 GBとして表記してい
+ます。実際に使用可能な領域は、システム                     らせください。
+ファイル領域があるため、表示されている                      型名：NE5N□□□ / NN5□□□-□
+内容より少なくなります。                              TB□□□
+                                         故障の状態：できるだけ詳しく
+容量は１兆バイトを1 TBとして表記してい
+ます。実際に使用可能な領域は、システム                      お買い上げ日、注文番号などご注文
+ファイル領域があるため、表示されている                      の詳細
+内容より少なくなります。                             お買い上げ店舗
+                                        保証期間中の修理は
+本機の仕様および外観は、改良のため予告
+なく変更することがあります。                          保証書の記載内容に基づいて修理または
+                                        同等品との交換をさせていただきます。
+                                        詳しくは保証書をご覧ください。
+                                        部品の保有期間について
+                                        当社ではEmbedded SSDの補修用性能
+                                        部品（製品の機能を維持するために必
+                                        要な部品）を、製造打ち切り後5年間保
+                                        有しています。ただし、故障の状況そ
+                                        の他の事情により、修理に代えて同等
+                                        品との交換をする場合がありますので
+                                        ご了承ください。
+JP
+     4   主な仕様 / 保証書とアフターサービス
+                                        保証書
+                                        ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+                                                                                品名                                                                                                                                                                                                                                                                                      Embedded SSD
+                                                                                型名                                                                                                                                                                                                                  NE5N                                                                                / NN5                                                                        - TB
+                                                          年    お買上げ日
+                                                               月     日
+    ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+                             本書は、本書記載内容
+                                      （下記記載）で無料修理を行うことをお約束するものです。
+                             お買上げの日から下記期間中に故障が発生した場合は、お客様欄にご記入の上、修理をお申付けください。
+                                        ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+                                販売店
+
+
+    ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+                  お問合せ先：修理相談窓口
+                  フリーダイヤル：                                                                                          0120-889-102
+                  ホームページ：https://www.nextorage.net/support/
+                       Nextorage株式会社 神奈川県川崎市川崎区駅前本町12-1 川崎駅前タワー・リバーク9階 〒210-0007
+                                        ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+                            保証期間      お買い上げの日から5年間、または規定の書き込み容量(TBW)に達するまでのうち、短い方の期間。
+                                                              お客様住所
+                                                              お名前                                                                                                                                                                                                                                                                                                                                                                       様                                     電話                                                                                 -                                                              -
+    ORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGIINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINALORIGINAL
+
+
+
+
+無料修理規定
+1. 正常な使用状態で、保証期間内に本機が故障した場合には、本書に従い無料修理または同等品と無料交換いたします。お買い上げのお店にお
+   持ちいただくか、相談窓口にご連絡ください。その他の責任は、お客様の記録されたデータの損失および障害が発生した場合も含め、いかな
+   る場合も一切負いかねます旨ご了承ください。
+2. 無料修理によリ、交換された旧製品は、当社にて適宜廃棄処分させていただきます。
+   ・修理後の製品をお客様にてお受け取りいただけない場合（当社がお客様と連絡がとれない場合等を含みます）、または製品お預かリ後にお
+    客様が修理のご依頼をキャンセルされたにもかかわらず当該製品をお客様にてお受け取りいただけない場合、当該製品をお預かりした日か
+    ら6か月間の保管期間の経過をもって、当該製品の所有権は当社に移転し、当社が当該製品を当社所定の方法にて処分もしくは第三者へ譲
+    渡できることとします。
+3. 保証期間内の故障でも次の場合には有料となります。
+（1） 本書および販売店が発行するレシートまたは明細書の提示が無い場合。
+（2） つぎの保証対象外の用途で使用された場合。ドライブレコーダー、監視カメラ、サーバー記録などの常時繰り返し記録用途・デジタルサイネ
+    ージなど常時再生用途・産業用途
+（3） 本書にお買上げ日および販売店の記載がない場合または本書の記載を書き換えた場合
+（4） 保証期間中に発生した故障について、保証期間終了後に修理依頼された場合
+（5） 使用上の誤り（取扱説明書、本体貼付ラベル等の注意書きに従った正常な使用をしなかった場合を含む）による故障・損傷
+（6） 他の機器から受けた障害または不当な修理、改造による故障・損傷
+（7） お買上げ後の移設、輸送、落下などによる故障・損傷
+（8） 火災、地震、風水害、落雷その他の天災地変、公害、塩害、ガス害（硫化ガスなど）、異常電圧などによる故障・損傷
+（9） 業務用など一般家庭用以外での使用による故障・損傷
+（10）消耗・摩耗した部品の交換、汚損した部分の交換
+4. 故障の状況その他の事情により、修理に代えて製品交換をする場合がありますのでご了承ください。
+5. 修理に際して再生部品・代替部品を使用する場合があります。また、修理により交換した部品は弊社が任意に回収のうえ適切に処理・処分
+   させていただきます。
+6. 本書に基づく無料修理（製品交換を含む）後の製品については、最初のご購入時の保証期間が適用されます。
+7. 故障によりお買上げの製品を使用できなかったことによる損害については補償いたしません。
+8. 記録媒体を搭載または使用する製品の場合、故障の際または修理・交換により記録内容が消失等する場合がありますが、記録内容について
+   の補償はいたしません。
+9. 本書は日本国内でのみ有効です。（This warranty is valid only in Japan.）
+修理メモ
+＊本書はお客様の法律上の権利を制限するものではありません。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 NSSD01
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            保証書とアフターサービス                                                                                                                                                                                                 5                                                                   JP
+ English
+CAUTION:                                       then reattach the screw to secure
+Failure to follow safety precautions for       the SSD. Overtightening the
+electrical products may result in fire or      screw may damage the SSD or
+personal injury.                               motherboard.
+Please read this instruction manual         4. Reattach the cover to the
+carefully to ensure safe use of the            computer and connect the power
+product.                                       cable.
+
+
+
+How to Install in a                         How to Remove from a
+Computer                                    Computer
+ The SSD cannot be used in a laptop        Turn off a computer and disconnect
+  computer.                                 the power cable, then remove the SSD
+ The procedure in this manual is an        in the reverse order of installation.
+  example. If the procedure differs
+  from that described in the manual
+  for your computer, follow the
+  procedure in the manual for your          Cautions on Use
+  computer.
+ Install the SSD in a PCIe SSD
+                                            This SSD is a precision instrument.
+  compatible M.2 slot with support for      Data may be lost due to sudden failure
+  M.2 2280 size. Refer to the manual        or other reasons. Back up your data
+  for your computer to confirm the slot     regularly just in case. We will not
+  specifications before installation.       recover, restore, or reproduce stored
+ Replacing the SSD in your computer
+                                            content in any case. Furthermore, we
+  may void the warranty of your             bear no liability regardless of the cause
+  computer. For details, contact the        of the damage or loss of stored
+  manufacturer of your computer.            content.
+                                             The included product warranty is for
+ We bear no liability for any damage
+  to equipment, injury, etc. that may         this SSD only, and is limited to when
+  occur during installation or removal        used normally in accordance with
+  of the SSD. Be sufficiently careful         the instruction manual of the SSD
+  when carrying out the work.                 and when used in the required/
+                                              recommended operating
+1. To prevent an SSD or computer              environment. Various services
+   failure due to static electricity,         including user support are provided
+   remove static electricity from             under the above preconditions.
+                                             Disassembly of the SSD is not
+   your body by, for example,
+   touching an unpainted metal                covered by the warranty.
+                                             Do not drop, place heavy objects on,
+   surface before touching the SSD
+   or the inside of the computer.             subject to strong shock or vibration,
+2. Turn off the computer, disconnect          pull, or apply pressure to the
+   the power cable, and remove the            product. Doing so may cause the
+   computer cover.                            product to malfunction.
+                                             The data in the SSD may not be
+3. Install the SSD in the M.2 slot on
+   the motherboard. Remove the                completely erased by formatting or
+   SSD mounting screw from the                deleting using the functions of your
+   motherboard, hold the heatsink             equipment. When transferring or
+   on the bottom of the unit and              disposing of the SSD, you are
+   insert the SSD into the M.2 slot,          responsible for taking a measure for
+
+EN
+     2
+  the data, such as using special data
+  erasure software or physically
+  destroying the SSD.
+                                          Trademarks
+                                           The NVMe word mark is registered
+Handling
+                                            and unregistered, trademark and
+ Do not disassemble or modify the          service mark of NVM Express, Inc. in
+  SSD.                                      the United States and other
+ Do not place the SSD in the following     countries.
+  locations, whether for use or            PCle is registered service marks of
+  storage. A failure may occur.             PCI-SIG.
+  – Locations with unusually high or       Nextorage and the Nextorage logo
+    low temperatures or high humidity       are registered trademarks or
+    The temperature will become             trademarks of Nextorage
+    especially high under the blazing       Corporation.
+    sun, near a heating appliance, or     Other system and product names
+    in a car with the windows closed in   appearing in this manual are generally
+    summer. Leaving the SSD in such a     registered trademarks or trademarks of
+    location may cause deformation        their respective developer/manufacturer.
+    and failure.                          The ™ and ® marks are not included in
+  – Locations with strong magnetism       the text of this manual.
+    or radiation
+  – Locations subject to vibration or
+                                                                                          EN
+    loud noise and locations that are
+    unstable                              Main Specifications
+  – Locations with poor ventilation
+  – Locations with a lot of dust or       Interface
+    humidity
+                                          M.2 2280 PCIe 5.0 x 4 : NE5N/
+                                          NN5-TB
+ Increase in SSD Temperature
+  Never touch the SSD with a hand        Dimensions (Approx.)
+   or skin during operation and for a     24.8 mm × 39.4 mm × 80.5 mm (1 in × 1
+   while afterwards because its           9/16 in × 3 1/4 in)
+   surfaces will be extremely hot.        (W × H × D, without protrusions)
+  Make sure that the SSD has
+   sufficiently cooled before             TBW (Total Byte Written)*
+   touching it.                           NE5N2TB/NN5PRO-2TB1BH: 1 400 TB
+  Please alert people who may
+                                          NE5N1TB/NN5PRO-1TB1BH: 700 TB
+   touch the SSD.
+                                          * TBW is calculated based on JEDEC 218/219
+                                            workload.
+
+                                          Included items
+Troubleshooting                           M.2 2280 NVMe SSD with heatsink (x1)
+                                          Set of printed documentation (x1)
+If the SSD is not recognized by your      A screw for mounting to equipment is
+equipment or does not operate             not included.
+properly, reinstall it and check again.
+If the problem is not resolved, check     Capacity is based on 1 GB = 1 billion
+the following support website.            bytes. A portion of the memory is used
+https://www.nextorage.net/en/             for system files and may vary.
+support/
+
+
+
+                                                                                 3   EN
+Capacity is based on 1 TB = 1 trillion         This Limited Warranty covers only the
+bytes. A portion of the memory is used         hardware components packaged with
+for system files and may vary.                 the product. It does not cover separate
+                                               accessories, technical assistance for
+The specifications and appearance of           hardware or software usage and it
+the SSD are subject to change for              does not cover any software products
+improvement without notice.                    whether or not contained in the
+                                               product, and other included content;
+                                               any such software or other included
+                                               content is provided “AS IS” unless
+LIMITED WARRANTY                               expressly provided for in a separate
+                                               written agreement.
+United States and Canada only                  In order to receive warranty service,
+– 5 years*                                     the product must be returned
+* Warranty and product support valid for       according to the procedures of the
+  5 years from the original date of purchase   online store where it was purchased.
+  or before writing the maximum TBW (Total
+  Bytes Written).                              To obtain warranty service, please
+                                               contact the customer service
+Nextorage Corporation (“Nextorage”),           department of the online store where
+solely for purchases made in the               You purchased the product.
+United States and Canada, warrants             Use of Your Personal Information. If
+this product against defects in material       You obtain service under this Limited
+or workmanship for the original owner          Warranty, You authorize Nextorage to
+and any subsequent end user owner(s)           store, use and process information
+(“You” or “Your”) for the time period          about the service provided to You and
+set forth above as set forth herein.           Your contact information (including
+                                               Your name, phone number, address,
+Pursuant to this Limited Warranty,             and e-mail address). Nextorage may
+Nextorage will, at its option, i) replace      use this information to perform service
+the product with a new or recertified/         under this Limited Warranty in
+refurbished product of the same (or            accordance with its Privacy Policy,
+similar) model ii) refund the purchase         which can be found here: https://
+price upon confirmation of Your                www.nextorage.net/en/privacy/
+receipt or purchase record at the
+online store or retailer where You             Loss of Data: Nextorage cannot
+purchased the product. For purposes            guarantee that it will be able to refund
+of this Limited Warranty, “recertified”        or exchange any product under this
+or “refurbished” means a product or            Limited Warranty without risk to or loss
+part that has been returned to its             of software or data. It is Your
+original specifications. In the event of a     responsibility to remove or backup any
+defect, these are Your exclusive               removable media or parts, data,
+remedies. Nextorage does not warrant           software or other materials You may
+that the operation of the product will         have stored or preserved on Your
+be uninterrupted or error-free.                product. It is likely that any media or
+                                               parts, data, software, or other
+Term: For the time period set forth            materials (like pictures, music, videos,
+above from the original date of                etc.) will be lost or reformatted during
+purchase of the product from the               service and Nextorage will not be
+online store or retailer authorized by         responsible for any such damage or
+Nextorage to sell the product.                 loss.
+
+
+
+EN
+     4
+Refund/Replacement Warranty: This          or internet viruses, bugs, worms, or
+Limited Warranty shall apply to any        Trojan Horses; (xi) malfunctions due to
+replacement, recertified or refurbished    peripherals/accessories; (xii)
+product for the remainder of the           modifications of or to any part of the
+original Limited Warranty period or for    product, including “rooting” or other
+ninety (90) days from the replacement,     modifications to control the behavior
+whichever is longer. Any product           of the product or any factory installed
+replaced under this Limited Warranty       operating system; (xiii) use of the
+will become the property of                product with constant or repetitive
+Nextorage. Any replacement                 recording applications such as drive
+recertified or refurbished product         recorders, surveillance cameras, server
+provided under this Limited Warranty       applications, and constant playback
+may, at Nextorage’s option, vary in        applications such as digital signage, or
+color and/or cosmetic design from the      industrial applications; or (xiv) any
+original product and may not include       product where the factory-applied
+any original engraving or similar          serial number has been altered or
+customization/personalization.             removed from the product.
+
+Exceptions: Nextorage is not               LIMITATION ON DAMAGES: Nextorage
+responsible for, and this Limited          SHALL NOT BE LIABLE FOR ANY
+Warranty does not cover, any damage        INCIDENTAL OR CONSEQUENTIAL
+arising from a failure to operate the      DAMAGES FOR BREACH OF ANY
+product within its intended uses, or       EXPRESS OR IMPLIED WARRANTY OR
+otherwise follow the owner’s manual        CONDITION ON THIS PRODUCT. NOR
+and safety instructions relating to the    SHALL RECOVERY OF ANY KIND
+product’s use and installation.            AGAINST Nextorage BE GREATER THAN
+Nextorage is not responsible for any       THE ORIGINAL PURCHASE PRICE OF
+labor costs You may incur relating to      THE PRODUCT FROM Nextorage OR AN
+service from service providers other       AUTHORIZED ONLINE SHOP.
+than from an online store's Customer
+Service where the product was              DURATION OF IMPLIED WARRANTIES
+purchased. This Limited Warranty only      OR CONDITIONS: EXCEPT TO THE
+covers product issues caused by            EXTENT PROHIBITED BY APPLICABLE
+defects in material or workmanship         LAW, ANY IMPLIED WARRANTY OF
+during ordinary consumer use. This         MERCHANTIBILITY OR FITNESS FOR A
+Limited Warranty does not cover            PARTICULAR PURPOSE ON THIS
+products purchased from sources            PRODUCT IS LIMITED IN DURATION TO
+other than authorized retailers or         THE DURATION OF THIS LIMITED
+authorized online stores, or issues due    WARRANTY.
+to: (i) outdoor exposure and other acts
+of nature; (ii) power surges; (iii)        Some jurisdictions do not allow the
+accidental damage; (iv) abuse; (v)         exclusion or limitation of incidental or
+limitations of technology; (vi) cosmetic   consequential damages, or allow
+damage; (vii) contact with liquid, heat,   limitations on how long an implied
+humidity or perspiration, sand, smoke,     warranty lasts, so the above
+or foreign materials; (viii) damage,       limitations or exclusions may not apply
+malfunction and/or failure to the          to You. This Limited Warranty gives
+product resulting from use of parts or     You specific legal rights and You may
+supplies not sold or authorized by         have other rights which vary from
+Nextorage; (ix) damage, malfunction        jurisdiction to jurisdiction.
+and/or failure to the product resulting
+from servicing not authorized or
+performed by Nextorage; (x) computer
+
+                                                                                5   EN
+For purchases made in the U.S.: Read        of the American Arbitration
+the following Dispute Resolution/           Association (“AAA”), when applicable
+Arbitration provision carefully. It         and in effect when the claim is filed.
+details Your rights and instructions        You may get a copy of AAA’s Rules by
+should a dispute related to the             contacting AAA at (800) 778-7879 or
+product arise.                              visiting www.adr.org. The filing fees to
+                                            begin and carry out arbitration will be
+What Happens If We Have A Dispute:          shared between You and Nextorage,
+Should a dispute or claim arise related     but in no event shall Your fees ever
+to the product, Your purchase and/or        exceed the amount allowable by the
+use of the product, the terms of this       special rules for Consumers Disputes
+Limited Warranty, or any service            provided for by AAA, at which point
+provided under the terms of this            Nextorage will cover all additional
+Limited Warranty (including any repair      administrative fees and expenses. This
+or replacement) (“Dispute”), You and        does not prohibit the Arbitrator from
+Nextorage agree that the Dispute            giving the winning party their fees and
+shall be resolved exclusively through       expenses of the arbitration when
+binding arbitration. YOU                    appropriate pursuant to the Rules.
+UNDERSTAND AND ACKNOWLEDGE                  Unless You and Nextorage agree
+THAT BY AGREEING TO ARBITRATION,            differently, the arbitration will take
+YOU ARE GIVING UP THE RIGHT TO              place in the county and state where
+LITIGATE (OR PARTICIPATE IN AS A            You live, and applicable federal or
+PARTY OR CLASS MEMBER) IN ANY               state law shall govern the substance of
+DISPUTES IN COURT. You also agree           any Dispute during the arbitration.
+that ANY DISPUTE RESOLUTION                 However, the Federal Arbitration Act, 9
+PROCEEDING WILL ONLY CONSIDER               U.S.C. § 1, et seq., will govern the
+YOUR INDIVIDUAL CLAIMS, AND                 arbitration itself and not any state law
+BOTH PARTIES AGREE NOT TO HAVE              on arbitration. The Arbitrator’s
+ANY DISPUTE HEARD AS A CLASS                decision will be binding and final,
+ACTION, REPRESENTATIVE ACTION,              except for a limited right of appeal
+CONSOLIDATED ACTION, OR PRIVATE             under the Federal Arbitration Act.
+ATTORNEY GENERAL ACTION. Despite
+the above, You have the right to            Opt-Out Instructions. IF YOU DO NOT
+litigate any Dispute on an individual       WISH TO BE BOUND BY THE BINDING
+basis in small claims court or other        ARBITRATION PROVISION, THEN: (1)
+similar court of limited jurisdiction, to   You must notify Nextorage in writing
+the extent the amount at issue does         within 30 days of the date that You
+not exceed $15,000, and as long as          purchased the product; (2) Your
+such court has proper jurisdiction and      written notification must be mailed to
+all other requirements (including the       Nextorage Corporation, Kawasaki-eki-
+amount in controversy) are satisfied.       mae Tower Riverk 9F 12-1
+                                            Ekimaehoncho, Kawasaki-ku Kawasaki
+Arbitration Instructions. To begin          city Kanagawa 210-0007 Japan. AND
+Arbitration, either You or Nextorage        (3) Your written notification must
+must make a written demand to the           include (a) Your NAME, (b) Your
+other for arbitration. The Arbitration      ADDRESS, (c) the DATE You purchased
+will take place before a single             the product, and (d) a clear statement
+arbitrator. The arbitration will be         that “YOU DO NOT WISH TO RESOLVE
+administered in keeping with the            DISPUTES WITH Nextorage THROUGH
+Expedited Procedures of the                 ARBITRATION AND/OR BE BOUND BY
+Commercial Arbitration Rules and the        THE CLASS ACTION WAIVER”
+Supplementary Proceedings for
+Consumer-Related disputes (“Rules”)
+
+EN
+     6
+Opting out of this dispute resolution        – Reorient or relocate the receiving
+procedure will not affect the coverage         antenna.
+of the Limited Warranty in any way,          – Increase the separation between
+and You will continue to enjoy the             the equipment and receiver.
+benefits of the limited warranty.            – Connect the equipment into an
+                                               outlet on a circuit different from
+                                               that to which the receiver is
+                                               connected.
+For the Customers in                         – Consult the dealer or an
+the U.S.A.                                     experienced radio/TV technician
+                                               for help.
+NOT APPLICABLE IN CANADA,
+INCLUDING IN THE PROVINCE OF               The information below is for the FCC
+QUEBEC                                     related matters only.
+(POUR LES CONSOMMATEURS AUX
+ETATS-UNIS. NON APPLICABLE AU              Supplier’s Declaration of Conformity
+CANADA, Y COMPRIS LA PROVINCE DE           Trade Name: Nextorage
+QUEBEC)                                    Model: NE5Nxxx/NN5xxx-xTBxxx
+                                           (x:alphanumeric character such as
+CAUTION:                                   1,2,..., A,B,...)
+                                           Responsible Party: Violette
+You are cautioned that any changes or      Engineering Corporation
+modifications not expressly approved       Address: 313 Park Avenue Suite 300,
+in this manual could void your             Falls Church, VA 22046 USA
+authority to operate this equipment.       Mail: info@violetteengineering.com
+Note:
+This equipment has been tested and
+found to comply with the limits for a
+Class B digital device, pursuant to part
+15 of the FCC Rules.
+These limits are designed to provide
+reasonable protection against harmful
+interference in a residential
+installation. This equipment
+generates, uses and can radiate radio
+frequency energy and,
+if not installed and used in accordance
+with the instructions, may cause
+harmful interference to radio
+communications.
+However, there is no guarantee that
+interference will not occur in a
+particular installation. If this
+equipment does cause harmful
+interference to radio or television
+reception,
+which can be determined by turning
+the equipment off and on, the user is
+encouraged to try to correct the
+interference by one or more of the
+following measures:
+
+
+                                                                              7   EN
+ Français
+Attention :                                2. Éteignez l’ordinateur, débranchez
+Le non-respect des consignes de               le câble d’alimentation et retirez
+sécurité relatives aux produits               le capot de l’ordinateur.
+électriques peut entraîner un incendie     3. Installez le SSD dans le logement
+ou des blessures.                             M.2 de la carte mère. Retirez la vis
+Veuillez lire attentivement ce                de fixation du SSD de la carte
+manuel d’instructions pour garantir           mère, tenez le dissipateur
+une utilisation sûre du produit.              thermique sur la partie inférieure
+                                              de l’appareil et insérez le SSD
+                                              dans le logement M.2, puis
+                                              remettez la vis en place pour fixer
+Installation dans un                          le SSD. Un serrage excessif de la
+                                              vis risque d’endommager le SSD
+ordinateur                                    ou la carte mère.
+                                           4. Refi xez le capot a l’ordinateur et
+ Le disque SSD ne peut pas etre              branchez le cable d’alimentation.
+     utilise sur un ordinateur portatif.
+ La procédure présentée dans ce
+  manuel sert d’exemple. Si la
+  procédure diffère de celle décrite       Retrait de votre
+  dans le manuel de votre ordinateur,
+  suivez la procédure indiquée dans le     ordinateur
+  manuel de votre ordinateur.
+ Installez le SSD dans un logement        Éteignez votre ordinateur et
+  M.2 compatible avec SSD PCIe             débranchez le câble d’alimentation,
+  prenant en charge la taille M.2 2280.    puis retirez le SSD dans l’ordre inverse
+  Reportez-vous au manuel de votre         de l’installation.
+  ordinateur pour confirmer les
+  caractéristiques techniques du
+  logement avant l’installation.
+ Le remplacement du SSD de votre
+                                           Précautions
+  ordinateur peut annuler la garantie      d’utilisation
+  de votre ordinateur. Pour plus de
+  détails, contactez le fabricant de       Ce SSD est un instrument de précision.
+  votre ordinateur.                        Les données peuvent se perdre en
+ Nous ne sommes pas responsables          raison d’une panne soudaine ou
+  des dommages matériels, des              d’autres raisons. Sauvegardez
+  blessures, etc. qui pourraient           régulièrement vos données, au cas où.
+  survenir pendant l’installation ou le    En aucun cas, nous ne récupérerons,
+  retrait du SSD. Soyez suffisamment       restaurerons ou reproduirons le
+  prudent lors de l’exécution du           contenu stocké. En outre, nous
+  travail.                                 n’assumons aucune responsabilité,
+                                           quelle que soit la cause du dommage
+1. Pour éviter une panne d’un              ou de la perte du contenu stocké.
+   disque SSD ou de l’ordinateur            La garantie du produit fournie
+   due à l’électricité statique,             concerne uniquement ce SSD et se
+   éliminez l’électricité statique de        limite à une utilisation normale,
+   votre corps, par exemple en               conforme au manuel d’instructions
+   touchant une surface métallique           du SSD, et à une utilisation dans
+   non peinte avant de toucher le            l’environnement de fonctionnement
+   SSD ou l’intérieur de l’ordinateur.       requis/recommandé. Divers
+                                             services, y compris l’assistance aux
+
+FR
+     2
+  utilisateurs, sont fournis dans les
+  conditions préalables                    Augmentation de la
+  susmentionnées.                          température du SSD
+ Le démontage du SSD n’est pas             Ne touchez jamais le SSD avec la
+  couvert par la garantie.                   main ou la peau pendant le
+ Ne laissez pas tomber le produit, ne       fonctionnement et pendant un
+  placez pas d’objets lourds dessus, ne      certain temps après, car ses
+  le soumettez pas à des chocs ou à          surfaces sont extrêmement
+  des vibrations intenses, ne le tirez       chaudes.
+  pas et n’exercez pas de pression          Assurez-vous que le SSD a
+  dessus. Cela pourrait causer un            suffisamment refroidi avant de le
+  dysfonctionnement du produit.              toucher.
+ Les données du SSD peuvent ne pas         Veuillez avertir les personnes
+  être complètement effacées par le          susceptibles de toucher le SSD.
+  formatage ou la suppression à l’aide
+  des fonctions de votre équipement.
+  Lors du transfert ou de la mise au
+  rebut du SSD, il vous incombe de
+  prendre une mesure pour les
+                                          Dépannage
+  données, par exemple en utilisant       Si le SSD n’est pas reconnu par votre
+  un logiciel spécial d’effacement des    équipement ou ne fonctionne pas
+  données ou en détruisant                correctement, réinstallez-le et
+  physiquement le SSD.                    revérifiez-le.
+                                          Si le problème n’est pas résolu,             FR
+Manipulation
+                                          consultez le site Web d’assistance
+ Ne démontez pas et ne modifiez le       suivant.
+  SSD.                                    https://www.nextorage.net/en/
+ Ne placez pas le SSD dans les           support/
+  endroits suivants, que ce soit pour
+  l’utiliser ou le stocker. Une panne
+  pourrait se produire.
+  – Endroits où les températures sont     Marques
+     anormalement élevées ou basses
+     ou endroits à humidité élevée         La marque et le nom NVMe est une
+     La température devient                 marque commerciale et de service
+     particulièrement élevée sous un        déposée ou non déposée de NVM
+     soleil de plomb, à proximité d’un      Express, Inc. aux États-Unis et dans
+     appareil de chauffage ou dans une      d’autres pays.
+     voiture aux vitres fermées en été.    PCle est une marque de service
+     Laisser le SSD dans un tel endroit     déposée de PCI-SIG.
+     peut entraîner une déformation et     Nextorage et le logo Nextorage sont
+     une panne.                             des marques déposées ou des
+  – Endroits à fort magnétisme ou           marques commerciales de
+     rayonnement                            Nextorage Corporation.
+  – Endroits soumis à des vibrations      Les autres noms de système et de
+     ou à des bruits forts et             produit qui apparaissent dans ce
+     emplacements instables               manuel sont généralement des
+  – Endroits mal ventilés                 marques déposées ou des marques de
+  – Endroits où il y a beaucoup de        leurs propriétaires respectifs.
+     poussière ou d’humidité              Les marques ™ et ® ne sont pas
+                                          incluses dans le texte de ce manuel.
+
+
+
+                                                                             3    FR
+                                                 compter de la date d’achat initiale ou
+                                                 avant l’écriture du TBW (Nombre total
+Caractéristiques                                 d’octets écrits) maximum.
+techniques principales                          Nextorage Corporation
+                                                (« Nextorage »), exclusivement pour
+Interface                                       les achats effectués aux États-Unis et
+                                                au Canada, garantit ce produit contre
+M.2 2280 PCIe 5.0 x 4 : NE5N/                les défauts de matériaux ou de
+NN5-TB                                   fabrication pour le propriétaire
+                                                d’origine et tous les propriétaires
+Dimensions (Environ)
+                                                utilisateurs finaux suivants (« Vous »
+24,8 mm × 39,4 mm × 80,5 mm (1 po. ×            ou « Vos ») pendant la période définie
+1 9/16 po. × 3 1/4 po.) (L × H × P, hors        ci-dessus et comme indiqué dans les
+parties saillantes)                             présentes.
+TBW (Total Byte Written (Nombre                 Conformément à cette Garantie
+total d'octets écrits))*                        limitée, Nextorage, à son gré, i)
+NE5N2TB/NN5PRO-2TB1BH : 1 400 To                remplacera le produit par un produit
+NE5N1TB/NN5PRO-1TB1BH : 700 To                  neuf ou recertifié/remis en état du
+* Le TBW est calculé sur la base de la charge   même modèle (ou similaire) ii)
+  de travail JEDEC 218/219.                     remboursera le prix d’achat après
+                                                confirmation de votre reçu ou de votre
+Éléments inclus                                 relevé d’achat dans la boutique
+M.2 2280 NVMe SSD avec dissipateur              virtuelle ou chez le détaillant où vous
+thermique (x1)                                  avez acheté le produit. Aux fins de la
+Jeu de documents imprimés (x1)                  présente Garantie limitée, les termes
+Les vis pour le montage sur                     « recertifié » ou « remis en état »
+l’équipement ne sont pas incluses.              désignent un produit ou une pièce qui
+                                                a retrouvé ses spécifications d’origine.
+La capacité est calculée sur la base de         En cas de défaut, ce sont Vos recours
+1 Go = 1 milliard d’octets. Une partie de       exclusifs. Nextorage ne garantit pas le
+la mémoire est utilisée pour les fichiers       fonctionnement ininterrompu ou sans
+système et peut varier.                         erreur du produit.
+
+La capacité est calculée sur la base de         Modalité : Pendant la période définie
+1 To = 1 billion d’octets. Une partie de la     ci-dessus à compter de la date d’achat
+mémoire est utilisée pour les fichiers          d’origine du produit auprès d’une
+système et peut varier.                         boutique virtuelle ou d’un détaillant
+                                                autorisé par Nextorage à vendre le
+Les caractéristiques techniques de ce           produit.
+SSD sont susceptibles d’être modifiées
+en vue d’être améliorées à tout                 Cette Garantie limitée couvre
+moment et sans préavis.                         uniquement les composants matériels
+                                                emballés avec le produit. Elle ne
+                                                couvre pas les accessoires séparés,
+                                                l’assistance technique pour l’utilisation
+GARANTIE LIMITÉE                                du matériel ou du logiciel et elle ne
+                                                couvre pas les produits logiciels
+                                                contenus ou non dans le produit, et
+É.-U. et Canada uniquement – 5                  tout autre contenu inclut ; tout logiciel
+ans*                                            ou autre contenu inclut est fourni « EN
+* La garantie et l’assistance technique du      L’ÉTAT » sauf indication contraire
+  produit sont valables pendant 5 ans à
+
+FR
+     4
+conformément à un contrat écrit              Garantie limitée d’origine ou pour une
+séparément.                                  période de quatre-vingt-dix (90) jours,
+                                             la plus longue date étant celle retenue.
+Pour bénéficier du service de garantie,      Tout produit remplacé au titre de ladite
+le produit doit être retourné                Garantie limitée sera la propriété de
+conformément aux procédures de la            Nextorage. Tout produit de
+boutique virtuelle où il a été acheté.       remplacement, recertifié ou remis en
+Pour obtenir un service de garantie,         état fourni au titre de ladite Garantie
+veuillez contacter le service client de la   limitée peut, au gré de Nextorage, être
+boutique virtuelle où vous avez acheté       de couleur et/ou d’aspect différent par
+le produit.                                  rapport au produit d’origine et peut ne
+Utilisation de vos informations              pas inclure de gravure d’origine ou une
+personnelles. Si vous obtenez un             personnalisation similaire.
+service dans le cadre de cette Garantie
+limitée, vous autorisez Nextorage à          Exceptions : Nextorage n’est pas
+stocker, utiliser et traiter les             responsable de, et ladite Garantie
+informations concernant le service qui       limitée ne couvre pas, tout dommage
+vous a été fourni et vos coordonnées (y      survenu suite à une utilisation du
+compris votre nom, votre numéro de           produit ne respectant pas ses
+téléphone, votre adresse et votre            utilisations prévues, ou autrement le
+adresse e-mail). Nextorage peut              non-respect du manuel du propriétaire
+utiliser ces informations pour effectuer     et des consignes de sécurité se
+le service dans le cadre de cette            rapportant à l’utilisation et à
+Garantie limitée, conformément à sa          l’installation du produit. Nextorage
+politique de confidentialité, qui peut       n’est pas responsable des coûts de
+être consultée ici : https://                main d’œuvre que vous pourriez
+www.nextorage.net/en/privacy/                encourir en relation avec un service
+                                             provenant de fournisseurs de services
+Perte de données : Nextorage ne peut         autres que le service client d’une
+pas garantir qu’elle sera en mesure de       boutique virtuelle où le produit a été
+rembourser ou d’échanger tout                acheté. Ladite Garantie limitée couvre
+produit dans le cadre de cette Garantie      uniquement les dommages causés au
+limitée sans risque ou perte de logiciel     produit par des défauts de matériaux
+ou de données. Il relève de votre            ou de fabrication pendant son
+responsabilité de retirer ou                 utilisation normale par le client. Ladite
+sauvegarder tout média ou toute pièce        Garantie limitée ne couvre pas les
+amovible, toutes données, tout               produits achetés auprès de sources
+logiciel ou autre matériel stocké ou         autres que les détaillants autorisés ou
+conservé sur votre produit. Il est           les boutiques virtuelles autorisées, ou
+probable que tout média ou toute             les dommages causés par : (i) une
+pièce, toutes données, tout logiciel ou      exposition extérieure et d’autres actes
+autre matériel (comme des images, de         de la nature ; (ii) les surtensions ; (iii)
+la musique, des vidéos, etc.) soit perdu     un dommage accidentel ; (iv) un abus ;
+ou reformaté pendant le service et           (v) les limites de la technologie ; (vi) un
+Nextorage ne pourra être tenue pour          dommage cosmétique ; (vii) le contact
+responsable dudit dommage ou de              avec un liquide, la chaleur, l’humidité
+ladite perte.                                ou la sueur, le sable, la fumée ou des
+                                             matériaux étrangers ; (viii) l’utilisation
+Garantie de remboursement/                   de pièces ou d’accessoires non vendus
+remplacement : Cette Garantie                ou autorisés par Nextorage ; (ix)
+limitée s’applique à tout produit de         l’entretien non autorisé ou non
+remplacement, recertifié ou remis en         exécuté par Nextorage ou un centre de
+état pendant la période restante de la       service autorisé Nextorage ; (x) les
+
+                                                                                    5   FR
+virus informatiques ou circulant sur          exclusions ci-dessus peuvent ne pas
+Internet, les bogues, les vers ou les         s’appliquer à vous. Ladite Garantie
+chevaux de Troie ; (xi) les                   limitée vous octroie des droits
+dysfonctionnements dus à des                  spécifiques reconnus par la loi et vous
+périphériques/accessoires ; (xii) les         pouvez bénéficier d’autres droits qui
+modifications apportées à une pièce           varient d’une juridiction à une autre.
+du produit, incluant l’enracinement ou
+toute autre modification visant à             Pour les achats effectués aux États-
+contrôler le comportement du produit          Unis : Lisez attentivement la clause
+ou tout système d’exploitation installé       de résolution/d’arbitrage des litiges
+à l’usine ; (xiii) l’utilisation du produit   suivante. Vos droits et les étapes à
+avec des applications                         suivre en cas de litige lié au produit y
+d’enregistrement constant ou répétitif        sont détaillés.
+comme des enregistreurs de disque,
+des caméras de surveillance, des              Que se passe-t-il en cas de litige : En
+applications de serveur, et des               cas de litige ou de réclamation lié(e) au
+applications de lecture constante             produit, à votre achat et/ou à
+telles que l’affichage dynamique, ou          l’utilisation du produit, aux clauses de
+des applications industrielles ; ou (xiv)     ladite Garantie limitée, ou à un service
+tout produit dont le numéro de série          fourni conformément aux conditions
+appliqué à l’usine a été altéré ou retiré     de ladite Garantie limitée (incluant une
+du produit.                                   réparation ou un remplacement)
+                                              (« Litige »), vous et Nextorage
+LIMITATIONS DES DOMMAGES-                     acceptez que le litige soit résolu
+INTÉRÊTS : Nextorage NE PEUT PAS              exclusivement à travers un arbitrage
+ÊTRE TENUE RESPONSABLE DES                    exécutoire. VOUS COMPRENEZ ET
+DOMMAGES ACCESSOIRES OU                       RECONNAISSEZ QU’EN ACCEPTANT
+CONSÉCUTIFS RÉSULTANT DE                      L’ARBITRAGE VOUS AVEZ LE DROIT
+L’INEXÉCUTION D’UNE GARANTIE                  D’INTENTER UNE ACTION EN JUSTICE
+EXPRESSE OU IMPLICITE OU D’UNE                POUR (OU DE PARTICIPER EN TANT
+CONDITION SUR CE PRODUIT. TOUT                QUE PARTIE OU MEMBRE DU
+RECOUVREMENT DE Nextorage NE                  RECOURS À) LA RÉSOLUTION DES
+POURRA PAS EXCÉDER LE PRIX                    LITIGES DEVANT UN TRIBUNAL. Vous
+D’ACHAT D’ORIGINE DU PRODUIT                  acceptez également que TOUTE
+VENDU PAR Nextorage OU UNE                    PROCÉDURE DE RÈGLEMENT DES
+BOUTIQUE VIRTUELLE AUTORISÉE.                 DIFFÉRENDS CONSIDÈRERA
+                                              UNIQUEMENT VOS REVENDICATIONS
+DURÉE DES GARANTIES OU DES                    INDIVIDUELLES, ET LES DEUX PARTIES
+CONDITIONS IMPLICITES : SAUF DANS             ACCEPTENT QU’UN LITIGE NE SOIT
+LA MESURE OÙ CELA EST INTERDIT PAR            PAS ENTENDU COMME UN RECOURS
+LA LOI EN VIGUEUR, TOUTE GARANTIE             COLLECTIF OU UN RECOURS DU
+IMPLICITE DE VALEUR MARCHANDE OU              PROCUREUR GÉNÉRAL. Malgré les
+D’ADAPTATION À UN USAGE                       indications ci-dessus, vous avez le
+PARTICULIER SUR CE PRODUIT EST                droit d’intenter une action en justice
+LIMITÉE À LA DURÉE DE LADITE                  de manière individuelle devant la Cour
+GARANTIE LIMITÉE.                             des petites créances ou une Cour
+                                              similaire à la compétence limitée, dans
+Certaines juridictions n’autorisent pas       la mesure où le montant en question
+l’exclusion ou la limitation des              n’excède pas 15 000 $, et aussi
+dommages accessoires ou                       longtemps que la dite Cour soit
+consécutifs, ou autorisent les                compétente et que toutes les autres
+limitations de durée d’une garantie           exigences (incluant le montant en
+implicite, ainsi les limitations ou           litige) soient satisfaites.
+
+FR
+     6
+Consignes d’arbitrage. Pour                    par courrier à Nextorage Corporation,
+commencer l’arbitrage, vous ou                 Kawasaki-eki-mae Tower Riverk 9F 12-1
+Nextorage devez faire une demande              Ekimaehoncho, Kawasaki-ku Kawasaki
+d’arbitrage écrite à l’autre partie.           city Kanagawa 210-0007 Japon ; ET (3)
+L’arbitrage aura lieu devant un seul           Votre notification écrite doit inclure (a)
+arbitre. L’arbitrage sera géré en suivant      votre NOM (b) votre ADRESSE, (c) la
+les Procédures accélérées des Règles           DATE d’achat du produit, et (d) une
+d’arbitrage commercial et les                  déclaration claire stipulant que « VOUS
+Procédures additionnelles (les                 NE SOUHAITEZ PAS RÉSOUDRE LES
+« Règles ») de l’association américaine        DIFFÉRENDS AVEC Nextorage À
+d’arbitrage (« AAA ») pour les                 TRAVERS L’ARBITRAGE ET/OU ÊTRE
+différends de consommateur, si elles           CONTRAINT PAR LA RENONCIATION À
+sont applicables et en vigueur au              INITIER OU PARTICIPER À UN RECOURS
+moment où la réclamation est traitée.          COLLECTIF ».
+Vous pouvez demander une copie des             Décider de ne pas adhérer à cette
+Règles de l’AAA en contactant l’AAA au         procédure de résolution des différends
+(800) 778-7879 ou en visitant le site          n’affectera en aucun cas la couverture
+Web www.adr.org. Les droits de dépôt           de la Garantie limitée et vous
+pour commencer et mener l’arbitrage            continuerez à bénéficier des
+seront partagés entre vous et                  avantages de la garantie limitée.
+Nextorage, mais vos frais ne devront
+en aucun cas excéder le montant
+permis par les règles spécifiques de
+l’AAA pour les Différends de
+consommateur, après quoi Nextorage
+couvrira tous les frais administratifs et
+dépenses additionnels. Ce paragraphe
+n’interdit pas à l’arbitre de restituer à la
+partie ayant obtenu gain de cause les
+frais et dépenses qu’elle a engagées
+dans l’arbitrage lorsque les Règles le
+permettent. Sauf si Nextorage et vous
+en conveniez autrement, l’arbitrage
+aura lieu dans le pays et l’État où vous
+vivez, et la loi fédérale ou d’État
+applicable régira le fond du différend
+pendant l’arbitrage. Cependant, la Loi
+sur l’arbitrage fédéral 9 U.S.C. § 1, et
+seq., régira l’arbitrage et non une
+quelconque loi d’État sur l’arbitrage. La
+décision de l’arbitre sera obligatoire et
+définitive, sauf dans le cadre d’un droit
+d’appel limité conformément à la Loi
+sur l’arbitrage.
+
+Consignes d’exclusion. SI VOUS NE
+SOUHAITEZ PAS ÊTRE CONTRAINT
+PAR LA CLAUSE D’ARBITRAGE
+OBLIGATOIRE, ALORS : (1) Vous devez
+en informer Nextorage par écrit dans
+les 30 jours à compter de la date
+d’achat du produit ; (2) Votre
+notification écrite doit être envoyée
+
+                                                                                      7   FR
+ 中文 （简）
+注意：
+未能遵循电气产品的安全预防措施将可
+能导致火灾或人身伤害。
+                              如何拆卸本产品
+请仔细阅读本操作指南，以确保安全使
+用本产品。                         关闭电脑电源，拔下电源线，按照安装
+                              顺序的反向顺序，拆除固态硬盘。
+
+
+
+如何在电脑上安装                      使用注意事项
+ 固态硬盘不能在笔记本电脑上使用。
+ 本操作指南中的安装流程只是一个范            此固态硬盘是精密设备，数据可能由于
+  例。如果本指南的流程不同于你的电            突发故障或其他原因丢失，所以请定期
+  脑操作指南，请以你的电脑操作指南            备份数据以防意外丢失。任何情况下，
+  为准。                         我们都无法提供维修、恢复或者再造存
+ 固态硬盘需要安装在兼容 PCIe 固态硬        储的内容。此外，无论造成所存储内容
+  盘的 M.2 插槽中，并支持 M.2 2280 的   损坏或丢失的原因为何，我们都不会承
+  尺寸。请按照你的电脑操作指南，在            担任何责任。
+  安装前确认插槽规格符合要求。               附带的产品保修仅适用于此固态硬
+ 更换电脑中的固态硬盘可能会使电脑              盘，并且仅限于按照固态硬盘的操作
+  的保修无效。有关详细信息，请联系              指南在所需 / 推荐的操作环境下的正
+  电脑制造商。                        常使用。在上述前提条件下，将提供
+ 在安装或移除固态硬盘的过程中，可              包括用户支持在内的各种服务。
+  能产生机器损伤或人体伤害，我们对             固态硬盘的拆卸不在保修范围内。
+  此不会承担任何责任。在操作过程中             不要跌落固态硬盘、在固态硬盘上放
+  请格外小心。                        置重物、使固态硬盘受到强烈冲击或
+                                振动、拉动或对固态硬盘施加压力。
+1. 为了防止静电导致固态硬盘或电脑出             这样做可能会导致固态硬盘出现故
+   现故障，先让你的身体触碰一下没有             障。
+   涂层的金属表面，来释放身体上的静            保存在固态硬盘中的数据，在“ 格式化 ”
+   电，然后再触碰固态硬盘或电脑内              和 “ 删除 ” 时，可能不会被完全删除。
+   部。                           在转移或者丢弃固态硬盘时，请使用特
+2. 关闭电脑，断开电源线，取下电脑面             别的数据清除软件，或者物理损毁，你
+   板。                           本人必须承担数据丢弃的风险。
+3. 将固态硬盘安装在主板的 M.2 插槽
+                              日常管理事项
+   中。从主板上取下固态硬盘固定螺
+   丝，手扶着散热片下方，把固态硬盘            不要拆卸和修改固态硬盘。
+   插入 M.2 插槽内，然后重新拧上螺          不要把固态硬盘放置在以下环境中，
+   丝以固定固态硬盘。如果你把螺丝拧            无论是使用还是存放。可能会发生故
+   得太紧，固态硬盘或者主板可能会受            障。
+   损。                          – 温度特别高或特别低，或者湿度特
+4. 重新装上电脑面板，连上电源线。               别高的环境
+                                 阳光下暴晒，靠近暖风机，在夏天
+                                 放在车窗紧闭的车内。把固态硬盘
+                                 放在此类环境可能会导致固态硬盘
+                                 变形或者损坏。
+                               – 强磁场或者强放射性环境
+                               – 震动、强噪声或不稳定的环境
+                               – 通风很差的环境
+
+CS
+     2
+  – 有很多灰尘或潮湿的环境
+
+ 固态硬盘温度的升高
+                                        主要规格
+  在运行过程中或者运行刚结束后，
+                                        接口类型
+   固态硬盘的表面会非常烫，因此不
+   要用手或皮肤去触碰它。                          M.2 2280 PCIe 5.0 x 4 : NE5N □□□ /
+  在准备触摸前，请确认固态硬盘温                      NN5 □□□ - □ TB □□□
+   度是否足够低。
+  请提醒准备触摸固态硬盘的人员。
+                                        尺寸 （近似值）
+                                        24.8 mm × 39.4 mm × 80.5 mm（宽 × 高 ×
+                                        深，不包括凸出部分）
+
+                                        TBW （Total Byte Written （写入总
+故障排除                                    字节数）） *
+                                        NE5N2TB/NN5PRO-2TB1BH：1 400 TB
+如果你的设备无法识别固态硬盘或固态                       NE5N1TB/NN5PRO-1TB1BH：700 TB
+硬盘不能正常运行，请重新安装并再次                       * TBW 是基于 JEDEC 218/219 工作量计
+检查固态硬盘。                                   算的。
+如果问题未解决，请查看以下支持网
+站。                                      包装内物品
+https://www.nextorage.net/zh/support/   M.2 2280 NVMe 固态硬盘，包括散热片
+                                        （1 个）
+                                        印刷资料一套
+                                        不随附安装到设备上的螺丝。                             CS
+商标                                      容量基于 1 GB=10 亿字节。内存的一部
+                                        分会用于系统文件，具体可能有所不同。
+ NVMe字标是NVM Express, Inc.在美国
+  和其他国家 / 地区的注册和未注册商                    容量基于 1 TB=1 万亿字节。内存的一部
+  标以及服务标志。                              分会用于系统文件，具体可能有所不同。
+ PCle 是 PCI-SIG 的注册服务标志。
+ Nextorage和Nextorage徽标是Nextorage       固态硬盘的规格和外观如有变更，恕不
+  Corporation 的注册商标或商标。                 另行通知。
+本指南中出现的其他系统和产品名称，
+都是各自开发商 / 制造商的注册商标或
+商标。
+本指南正文中不包含 ™ 和 ® 标志。
+
+
+
+
+                                                                        3    CS
+                                                  保修期： 5 年 *
+产品中有害物质的名称及含量                                     * 保修和产品支持自最初购买之日起 5 年
+                                                    之内或写入最大 TBW （写入总字节
+                                                    数）之前有效。
+                        有害物质
+     部件                             多溴 多溴二        保修服务规定
+     名称    铅 汞 镉 六价铬                              1) 本卡是本产品的保修服务凭证；
+          (Pb) (Hg) (Cd) (Cr (VI)) 联苯 苯醚
+                                   (PBB) (PBDE)   2) 本卡记载的保修服务是 Nextorage 为
+内置线 ×                                                了让用户安心购买与使用 Nextorage
+         ○ ○   ○   ○   ○                             产品而制定的保修政策。保修服务内
+路板
+散热片 ○ ○ ○      ○   ○   ○                             容与范围以本卡明示的规定为限；
+                                                  3) 本卡记载的产品出现性能故障时
+本表格依据 SJ/T 11364 的规定编制。
+                                                     （以 Nextorage 授权经销商判断为
+○︰ 表示该有害物质在该部件所有均质                                   准），请出示本卡和有效发票。
+    材料中的含量均在 GB/T 26572 规                            Nextorage 授权经销商将依据自主判
+    定的限量要求以下。                                        断，仅为用户提供更换式修理服务，
+× ︰ 表示该有害物质至少在该部件的某                                  即通过直接更换质量合格的产品的方
+    一均质材料中的含量超出 GB/T                                 式进行修理，而不再采取其他修理方
+    26572 规定的限量要求。                                   式；
+为避免造成环境污染，请将废弃产品按                                 4) 在本卡规定的保修期内发生零件或产
+                                                     品更换的，均不延长或重新计算产品
+照当地法律法规要求进行处置。
+                                                     的保修期；
+                                                  5) 在本卡记载的保修服务中更换下来的
+产品名称 : 固态硬盘
+型号：    NE5N1TB, NE5N2TB,                             零件或产品，均不返还给用户；
+       NE5N4TB, NN5PRO-1TB1BH,                    6) 本卡不承担其他贲任，包括但不限于
+       NN5PRO-2TB1BH                                 偶尔发生的或随之而来的损坏或预计
+                                                     会得到的利益或利润的损失、由于使
+商品产地：请参考包装
+                                                     用或无法使用产品导致的工作停止或
+生产日期：请参考包装
+                                                     损坏等情况下的任何贲任；
+出版日期：2023 年 8 月
+                                                  7) 凭本卡提出保修服务申请时，请事先
+                                                     备份好产品中的数据。在对产品进行
+制造商： 新世拓株式会社
+                                                     格式化后，无法恢复和保留产品中的
+     （Nextorage Corporation）
+                                                     数据。 Nextorage 授权经销商对于产
+制造商地址：
+                                                     品中的内容被浏览、更换、删除或以
+     日本国神奈川县川崎市川崎
+                                                     任何形式被修改，恕不负责；
+     区驿前本町 12 番地 1 川崎驿
+                                                  8) 本卡记载的保修服务只在中国境内大
+     前塔里拜克 9 层
+                                                     陆地区有效 （除台湾、香港、澳门
+                                                     地区）；
+仅限中国市场：
+总经销商：北京鑫东原科贸有限公司                                  9) 如本卡记载的内容与可适用的国家法
+                                                     律规定不一致时，以国家法律规定为
+总经销商地址：
+                                                     准。
+     北京市海淀区中关村大街 22 号
+     中科大厦 A 座 807 室
+                                                  不实行保修服务的情况：
+                                                  1) 不能出示有效发票和本卡的；
+                                                  2) 消耗材料的自然消耗、磨损及老化的；
+                                                  3) 事故、灾害、战争等不可抗力因素造
+产品保修卡                                                成故障的；
+                                                  4) 自行改装、修理、或由未获
+Nextorage                                            Nextorage 或授权经销商许可的第三
+产品名称： 固态硬盘                                           方拆动、改装、修理的；
+
+CS
+     4
+5) 由于进液、受潮、外力挤压、掉落等
+    使用或保管不当造成故障的，
+6) 使用盗版软件或在使用过程中感染病
+    毒造成故障的；
+7) 不符合本卡规定情况的；
+8) 未按产品使用说明要求，使用、维
+    护、保管而造成故降的；
+9) 非 Nextorage 或授权经销商所经销之
+    产品的；
+10) 应用于下列保修范围外之用途的。
+   （应用于日常反复记录之用途，如行
+    车记录仪、监控摄像头、服务器记录
+    等；应用于日常反复之用途及产业用
+    途 , 如数字标牌等）。
+
+※ 接受保修服务时必须提供本保修卡
+
+
+
+
+                            5   CS
+Nextorage Corporation
+Tower Riverk 9F, 12-1, Ekimaehoncho, Kawasaki-ku, Kawasaki City, Kanagawa 210-0007, Japan
+

@@ -1,0 +1,246 @@
+{
+  "review": {
+    "id": "import-mb-db3d665c7d5a",
+    "name": "X470NH",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+          "checkedAt": "2026-11-10T13:46:32+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20190917.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190906.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190906_1.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20190906_2.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "962",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X470NH",
+    "identityNote": "Modèle Biostar X470NH confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "formFactor": "Mini-ITX",
+      "manufacturerPartNumber": "X470NH",
+      "detailLevel": "partial",
+      "maxMemoryGB": 32
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X470NH — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X470"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2667 \n \nSupports Dual Channel DDR4 2933(OC)/ 3200(OC)/ 3600(OC)/ 4000(OC) \n \n2 x DDR4 DIMM Memory Slot, Max. Supports up to 32 GB Memory \n \nEach DIMM supports non-ECC and ECC Un-buffered 8/ 16 GB DDR4 module\n \n* DDR4 - 2667 only for Ryzen CPU\n \n* Please refer to www.biostar.com.tw for Memory support list"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10 \n \n1x M.2 (M Key) : Supports PCIe (32Gb/s) & SATA III (6Gb/s) SSD (Ryzen series - Summit Ridge / Raven Ridge / Pinnacle Ridge / Picasso / Matisse / Renoir / Vermeer / Cezanne) \n \n Supports SATA III (6Gb/s) SSD (A-series APU / Bristol Ridge / Athlon ) \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC887\n \n7.1 Channels, Blu-ray Audio"
+          },
+          {
+            "label": "USB",
+            "value": "6x USB 3.1 Gen1 (5Gb/s) port (4 on rear I/Os and 2 via internal header) \n \n4x USB 2.0 port (2 on rear I/Os and 2 via internal header)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCI-E 3.0 x 16 slot (Bristol / Reven Ridge x8 , Summit Ridge x16) \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1x PS/2 Keyboard Port \n \n1x HDMI® Port \n \n1x VGA Port \n \n1x LAN port \n \n4x USB 3.1 Gen1 (5Gb/s) Port \n \n2x USB 2.0 Port \n \n3x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4x SATA III 6.0Gb/s Connectors\n \n1x USB 2.0 Header (each header supports 2 USB 2.0 ports) \n \n1x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) \n \n1x 4-Pin Power Connector \n \n1x 24-Pin Power Connector \n \n1x CPU Fan Connector \n \n1x System Fan Connector \n \n1x Front Panel Header \n \n1x Front Audio Header \n \n1x Clear CMOS Header \n \n1x Speaker Header \n \n1x COM Port Header \n \n1x S/PDIF out Connector"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini ITX Form Factor Dimension: 170 mm x 170 mm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 7(64bit) / 10(64bit) / 11(64bit)\n※Support Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only\nBiostar reserves the right to add or remove support for any OS with or without notice"
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "2 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x Quick Guide"
+          },
+          {
+            "label": "FEATURES",
+            "value": "Supports uEFI GUI Interface BIOS"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190917.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190906.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190906_1.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20190906_2.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "formFactor": {
+        "value": "Mini ITX Form Factor Dimension: 170 mm x 170 mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini ITX Form Factor Dimension: 170 mm x 170 mm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "storagePorts": {
+        "value": "4x SATA III Connector (6Gb/s) : Supports AHCI & RAID 0, 1, 10 \n \n1x M.2 (M Key) : Supports PCIe (32Gb/s) & SATA III (6Gb/s) SSD (Ryzen series - Summit Ridge / Raven Ridge / Pinnacle Ridge / Picasso / Matisse / Renoir / Vermeer / Cezanne) \n \n Supports SATA III (6Gb/s) SSD (A-series APU / Bristol Ridge / Athlon ) \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCI-E 3.0 x 16 slot (Bristol / Reven Ridge x8 , Summit Ridge x16) \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "rearIO": {
+        "value": "1x PS/2 Keyboard Port \n \n1x HDMI® Port \n \n1x VGA Port \n \n1x LAN port \n \n4x USB 3.1 Gen1 (5Gb/s) Port \n \n2x USB 2.0 Port \n \n3x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "internalIO": {
+        "value": "4x SATA III 6.0Gb/s Connectors\n \n1x USB 2.0 Header (each header supports 2 USB 2.0 ports) \n \n1x USB 3.1 Gen1 (5Gb/s) Header (each header supports 2 USB 3.1 Gen1 ports) \n \n1x 4-Pin Power Connector \n \n1x 24-Pin Power Connector \n \n1x CPU Fan Connector \n \n1x System Fan Connector \n \n1x Front Panel Header \n \n1x Front Audio Header \n \n1x Clear CMOS Header \n \n1x Speaker Header \n \n1x COM Port Header \n \n1x S/PDIF out Connector",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8111H\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "audio": {
+        "value": "ALC887\n \n7.1 Channels, Blu-ray Audio",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 32,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=962&pname=X470NH&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      }
+    }
+  }
+}

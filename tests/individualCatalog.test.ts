@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {catalog,getComponent,defaultSelection} from '../src/data/catalog.ts';
 import {individualProducts} from '../src/data/individualCatalog.ts';
+import {verifiedProducts} from '../src/data/verifiedCatalog.ts';
 import {getVerifiedOffer} from '../src/lib/verifiedOffers.ts';
 import {analyzeBuild} from '../src/lib/compatibility.ts';
 import {getMissingCompatibilityFields} from '../src/lib/componentCoverage.ts';
@@ -34,6 +35,10 @@ test('the selected board and memory now inform compatibility while unpublished G
 });
 
 test('an out-of-stock 8 GB card never borrows the price of its available 16 GB sibling',t=>{
+  const ids=['import-gpu-a682aa002297','import-gpu-a12582346528'];
+  const saved=ids.map(id=>verifiedProducts[id]);
+  for(const id of ids)verifiedProducts[id]=individualProducts[id];
+  t.after(()=>ids.forEach((id,i)=>{verifiedProducts[id]=saved[i];}));
   const gpu=getComponent('import-gpu-a682aa002297')!;
   const checked=Math.max(...Object.values(individualProducts).flatMap(p=>p.offers.map(o=>Date.parse(o.checkedAt))))+1000;
   t.mock.method(Date,'now',()=>checked);

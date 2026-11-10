@@ -1,0 +1,261 @@
+{
+  "review": {
+    "id": "import-mb-318588b3339e",
+    "name": "ProArt X570-CREATOR WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "sha256": "cfe8fcac1dbe7ee965bb4f9109ed4ce2274a7da28b9b7faf14972e2b58ad436c",
+        "bytes": 370472,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ProArt X570-CREATOR WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/ece0f14b-d56c-40a6-b7a4-9fb8725a3b3b/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ProArt X570-CREATOR WIFI",
+    "identityNote": "Modèle ASUS ProArt X570-CREATOR WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 245.0,
+      "manufacturerPartNumber": "ProArt X570-CREATOR WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Ryzen 5000 G-Series/ 4000 G-Series/ 3000 G-Series Desktop Processors and AMD Athlon 3000 G-Series Desktop Processors, AMD Socket AM4 for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors*\n\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n 4 x DIMM, Max. 128GB, DDR4 4800(OC) / 4600(OC) / 4400(OC) / 4266(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3400(OC) / 3200 / 3000 / 2933 / 2800 / 2666 / 2400 / 2133 MHz, un-buffered memory*\n AMD Ryzen™ 5000 G-Series and 4000 G-Series Processors\n 4 x DIMM, Max. 128GB, DDR4 DDR4 5100(OC) / 5000(OC) / 4866(OC) / 4800(OC) / 4600(OC) / 4400(OC) / 4266(OC) / 4133(OC) / 4000(OC) / 3866(OC) / 3733(OC) / 3600(OC) / 3466(OC) / 3400(OC) / 3200 / 3000 / 2933 / 2800 / 2666 / 2400 / 2133 MHz, un-buffered memory*\n AMD Ryzen™ 2000 Series Desktop Processors\n 4 x DIMM, max. 128GB, DDR4 3600(OC) / 3466(OC) / 3400(OC) / 3200(OC) / 3000(OC) / 2933 / 2800 / 2666 / 2400 / 2133 MHz, un-buffered memory*\n AMD Ryzen™ 3000 G-Series and 2000-G Series Desktop Processors\n 4 x DIMM, max. 128GB, DDR4 3200(OC) / 3000(OC) / 2933 / 2800 / 2666 / 2400 / 2133 MHz, un-buffered memory*\nOptiMem II\n Dual Channel Memory Architecture\n ECC Memory (ECC mode) support varies by CPU.\n * Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI® 2.1(4K@60Hz)\n 2 x Intel® Thunderbolt™ 4 ports (USB Type-C®) support DisplayPort 1.2/1.4 and Thunderbolt™ video outputs *\n * VGA resolution support depends on processors' or graphic cards' resolution. For more details about the video input and output settings please refer to the user manual."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series and 3000 Series Desktop Processors\n 2 x PCIe 4.0 x16 (x16 or dual x8**)*\n AMD Ryzen™ 5000 G-Serie, 4000 G-Series and 2000 Series Processors\n 2 x PCIe 3.0 x16 (x16 or dual x8**)*\n AMD Ryzen™ 2000 G-Series and 3000 G-Series Processors\n 1 x PCIe 3.0 x16 (x8 mode)*\n AMD X570 Chipset\n 1 x PCIe 4.0 x16 slot (supports x4 mode)\n * Support PCIe bandwidth bifurcation for RAID on CPU function.\n ** PCIEX16_2 slot share bandwidth with M.2_2, which runs at PCIe 4.0/3.0 x8 by default.\n When M.2_2 is enabled, PCIEX16_2 will run PCIe 4.0/3.0 x4 mode, adjust this item in BIOS settings."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 3 x M.2 slots and 6 x SATA 6Gb/s ports, Total supports 3 x M.2 slots and 6 x SATA 6Gb/s ports\n AMD Ryzen™ 5000 Series and 3000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4)*\n AMD Ryzen™ 5000 G-Serie, 4000 G-Series and 2000 Series Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4)*\n AMD Ryzen™ 2000 G-Series and 3000 G-Series Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\n AMD X570 Chipset\n M.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\n Supports RAID 0, 1, 10\n6 x SATA 6Gb/s ports\n\n* M.2_2 slot share bandwidth with PCIEX16_2. When M.2_2 is enabled, PCIEX16_2 will run PCIe 4.0/3.0 x4 mode, adjust this item in BIOS settings."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet\n1 x Marvell® 10Gb Ethernet, 1 x Marvell® AQtion AQC113CS 10Gb Ethernet\n 1 x Intel® I225-V 2.5Gb Ethernet\n ASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 6E\n 2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\n Supports 2.4/5/6GHz frequency band*\n Bluetooth v5.2\n * WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB:Total 10 ports, Rear USB (Total 10 ports)\n 2 x Thunderbolt™ 4 port(s) (2 x USB Type-C®) with up to 5V/3A, 15W charging support\n 4 x USB 3.2 Gen 2 port(s) (4 x Type-A)\n 4 x USB 3.2 Gen 1 port(s) (4 x Type-A)\n\nFront USB (Total 9 ports)\n 1 x USB 3.2 Gen 2 connector (support(s) USB Type-C®)\n 1 x USB 3.2 Gen 1 header(s) support(s) additional 2 USB 3.2 Gen 1 ports\n 3 x USB 2.0 header(s) support(s) additional 6 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n - Impedance sense for front and rear headphone outputs\n - Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n - Supports up to 32-Bit/192 kHz playback*\n Audio Features\n - Power pre-regulator reduces power input noise to ensure consistent performance\n - Premium Japanese audio capacitors\n - Dedicated audio PCB layers\n - Audio cover\n - Unique de-pop circuit\n * Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n 4 x USB 3.2 Gen 2 port(s) (4 x Type-A)\n 4 x USB 3.2 Gen 1 port(s) (4 x Type-A)\n 1 x DisplayPort (Input only)\n 1 x HDMI® port\n 1 x Intel® I225-V 2.5Gb Ethernet port\n 1 x Marvell® AQtion AQC113CS 10Gb Ethernet port\n 1 x ASUS Wi-Fi Module\n 5 x Audio jacks\n 1 x BIOS FlashBack™ button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header(s)\n 1 x 4-pin CPU OPT Fan header(s)\n 1 x 4-pin AIO Pump header(s)\n 1 x W_PUMP+ header(s)\n 4 x 4-pin Chassis Fan header(s)\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n 1 x 4-pin +12V Power connector\n Storage related\n 3 x M.2 slots (Key M)\n 6 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 2 connector (support(s) USB Type-C®)\n 1 x USB 3.2 Gen 1 header(s) support(s) additional 2 USB 3.2 Gen 1 ports\n 3 x USB 2.0 header(s) support(s) additional 6 USB 2.0 ports\n Miscellaneous\n 3 x AURA Addressable Gen 2 header(s)\n 1 x AURA RGB header(s)\n 1 x Clear CMOS header\n 1 x COM Port header\n 1 x Front Panel Audio header (AAFP)\n 1 x SPI TPM header (14-1pin)\n 1 x 20-3 pin System Panel header with Chassis intrude function\n 1 x Thermal Sensor header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n - DIGI+ VRM (- Digital power design with Dr. MOS)\n - Enhanced DRAM Overcurrent Protection\n - ESD Guards\n - LANGuard\n - Overvoltage Protection\n - SafeSlot Core\n - Stainless-Steel Back I/O\n ASUS Q-Design\n - Q-DIMM\n - Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n - M.2 Q-Latch\n - Q-Slot\n ASUS Thermal Solution\n - M.2 heatsink\n - VRM heatsink design\n ASUS EZ DIY\n - BIOS FlashBack™ button\n - BIOS FlashBack™ LED\n - ProCool II\n - Pre-mounted I/O shield\n - SafeSlot\n AURA Sync\n - AURA RGB header(s)\n - Addressable Gen 2 RGB header(s)\n Bespoke Motherboard Design & Business Focused Features\n - 24/7 Reliability\n - Overcurrent Protection"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\n Armoury Crate\n - AURA Creator\n - AURA Sync\n - Two-Way AI Noise Cancelation\n AI Suite 3\n - 5-Way Optimization by Dual Intelligent Processors 5\n TPU\n EPU\n Digi+ VRM\n Fan Xpert 4\n Turbo app\n - EZ update\n ASUS CPU-Z\n IT Management software supported\n - ASUS Control Center Express(ACCE)\n ProArt Creator Hub\n DAEMON Tools\n Norton Anti-virus software (Free Trial version)\n WinRAR\n UEFI BIOS\n ASUS EZ DIY\n - ASUS CrashFree BIOS 3\n - ASUS EZ Flash 3\n - ASUS UEFI BIOS EZ Mode\n FlexKey"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n 4 x SATA 6Gb/s cables\n 1 x DP to DP cable for Thunderbolt™ 4\n Miscellaneous\n 1 x ASUS Wi-Fi moving antennas\n 2 x M.2 Rubber Package(s)\n 1 x M.2 SSD screw package(s)\n 1 x Q-connector\n Installation Media\n 1 x Support DVD\n Documentation\n 1 x ACC Express Activation Key Card\n 1 x User manual"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit, Windows® 11 Ready"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX, 30.5cm x 24.5cm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/ece0f14b-d56c-40a6-b7a4-9fb8725a3b3b/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "formFactor": {
+        "value": "ATX, 30.5cm x 24.5cm",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX, 30.5cm x 24.5cm",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "chipset": {
+        "value": "X570",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 3 x M.2 slots and 6 x SATA 6Gb/s ports, Total supports 3 x M.2 slots and 6 x SATA 6Gb/s ports\n AMD Ryzen™ 5000 Series and 3000 Series Desktop Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4)*\n AMD Ryzen™ 5000 G-Serie, 4000 G-Series and 2000 Series Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\n M.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4)*\n AMD Ryzen™ 2000 G-Series and 3000 G-Series Processors\n M.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 & SATA modes)\n AMD X570 Chipset\n M.2_3 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 & SATA modes)\n Supports RAID 0, 1, 10\n6 x SATA 6Gb/s ports\n\n* M.2_2 slot share bandwidth with PCIEX16_2. When M.2_2 is enabled, PCIEX16_2 will run PCIe 4.0/3.0 x4 mode, adjust this item in BIOS settings.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series and 3000 Series Desktop Processors\n 2 x PCIe 4.0 x16 (x16 or dual x8**)*\n AMD Ryzen™ 5000 G-Serie, 4000 G-Series and 2000 Series Processors\n 2 x PCIe 3.0 x16 (x16 or dual x8**)*\n AMD Ryzen™ 2000 G-Series and 3000 G-Series Processors\n 1 x PCIe 3.0 x16 (x8 mode)*\n AMD X570 Chipset\n 1 x PCIe 4.0 x16 slot (supports x4 mode)\n * Support PCIe bandwidth bifurcation for RAID on CPU function.\n ** PCIEX16_2 slot share bandwidth with M.2_2, which runs at PCIe 4.0/3.0 x8 by default.\n When M.2_2 is enabled, PCIEX16_2 will run PCIe 4.0/3.0 x4 mode, adjust this item in BIOS settings.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "rearIO": {
+        "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n 4 x USB 3.2 Gen 2 port(s) (4 x Type-A)\n 4 x USB 3.2 Gen 1 port(s) (4 x Type-A)\n 1 x DisplayPort (Input only)\n 1 x HDMI® port\n 1 x Intel® I225-V 2.5Gb Ethernet port\n 1 x Marvell® AQtion AQC113CS 10Gb Ethernet port\n 1 x ASUS Wi-Fi Module\n 5 x Audio jacks\n 1 x BIOS FlashBack™ button",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header(s)\n 1 x 4-pin CPU OPT Fan header(s)\n 1 x 4-pin AIO Pump header(s)\n 1 x W_PUMP+ header(s)\n 4 x 4-pin Chassis Fan header(s)\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n 1 x 4-pin +12V Power connector\n Storage related\n 3 x M.2 slots (Key M)\n 6 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 2 connector (support(s) USB Type-C®)\n 1 x USB 3.2 Gen 1 header(s) support(s) additional 2 USB 3.2 Gen 1 ports\n 3 x USB 2.0 header(s) support(s) additional 6 USB 2.0 ports\n Miscellaneous\n 3 x AURA Addressable Gen 2 header(s)\n 1 x AURA RGB header(s)\n 1 x Clear CMOS header\n 1 x COM Port header\n 1 x Front Panel Audio header (AAFP)\n 1 x SPI TPM header (14-1pin)\n 1 x 20-3 pin System Panel header with Chassis intrude function\n 1 x Thermal Sensor header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\n1 x Marvell® 10Gb Ethernet, 1 x Marvell® AQtion AQC113CS 10Gb Ethernet\n 1 x Intel® I225-V 2.5Gb Ethernet\n ASUS LANGuard\nWi-Fi 6E\n 2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\n Supports 2.4/5/6GHz frequency band*\n Bluetooth v5.2\n * WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "audio": {
+        "value": "Realtek S1220A 7.1 Surround Sound High Definition Audio CODEC*\n - Impedance sense for front and rear headphone outputs\n - Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n - Supports up to 32-Bit/192 kHz playback*\n Audio Features\n - Power pre-regulator reduces power input noise to ensure consistent performance\n - Premium Japanese audio capacitors\n - Dedicated audio PCB layers\n - Audio cover\n - Unique de-pop circuit\n * Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Ryzen 5000 G-Series/ 4000 G-Series/ 3000 G-Series Desktop Processors and AMD Athlon 3000 G-Series Desktop Processors, AMD Socket AM4 for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors*\n\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/proart/proart-x570-creator-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      }
+    },
+    "manufacturerModel": "ProArt X570-CREATOR WIFI"
+  }
+}

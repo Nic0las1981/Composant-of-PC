@@ -1,0 +1,525 @@
+{
+  "url": "https://www.solidigm.com/bin/solidigm/productConfigurator?path=/content/solidigm/us/en/products/client/pro-series/p44",
+  "checkedAt": "2026-11-10T14:21:44.812458+00:00",
+  "data": {
+    "allFilters": {
+      "interface": [
+        "Any Interface",
+        "PCIe 4.0 x4, NVMe"
+      ],
+      "formFactor": [
+        "Any Form Factor",
+        "M.2 2280"
+      ],
+      "capacity": [
+        "Any Capacity",
+        "2 TB",
+        "1 TB",
+        "512 GB"
+      ]
+    },
+    "filters": [
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "2 TB",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "2 TB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "2 TB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "2 TB",
+        "result": "229723"
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "1 TB",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "1 TB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "1 TB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "1 TB",
+        "result": "229725"
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "Any Form Factor",
+        "capacity": "512 GB",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "Any Interface",
+        "formFactor": "M.2 2280",
+        "capacity": "512 GB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "Any Form Factor",
+        "capacity": "512 GB",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "Any Capacity",
+        "result": -1
+      },
+      {
+        "interface": "PCIe 4.0 x4, NVMe",
+        "formFactor": "M.2 2280",
+        "capacity": "512 GB",
+        "result": "229728"
+      }
+    ],
+    "results": [
+      {
+        "path": "229723",
+        "productPagePath": "/content/solidigm/us/en/products/client/pro-series/p44",
+        "attributes": {
+          "RandomWrite8GBSpanValue": "",
+          "FilterFamily": "Client SSDs",
+          "SSDHighEnduranceTechnology": "No",
+          "FilterIntelTechnology": "Smart Response Technology|Rapid Start Technology",
+          "SSDTemperatureMonitoring": "No",
+          "PCNMDDSINFO1": "<a href='https://qdms.intel.com/Portal/SearchPCNDataBase.aspx?mm=99C38J'>PCN</a> | <a href='https://qdms.intel.com/MDDS/MDDSView.aspx?mm=99C38J'>MDDS</a>",
+          "ARKPageURL": "",
+          "CodeNameText": "Hollywood Beach",
+          "TechnologyIndicatorList": "Rapid Start Technology, Smart Response Technology",
+          "RandomWrite100PctSpanValue": "1.3M IOPS (4K Blocks)",
+          "CertifiedUseConditions": "PC/Client",
+          "FilterProcessorGraphics": "No",
+          "EndToEndDataProtection": "Yes",
+          "EPLDP": "No",
+          "LithographyType": "176L 3D NAND",
+          "BornOnDate": "Q4'22",
+          "RandomRead8GBSpanValue": "",
+          "MTBF": ">= 1.6 million hours",
+          "RandomRead100PctSpanValue": "1.4M IOPS (4K Blocks)",
+          "PublicOrderingandComplianceFlag": "Yes",
+          "AdditionalInfoUrl": "https://www.intel.com/content/www/us/en/products/memory-storage/solid-state-drives.html",
+          "SSDEnduranceRating": "1200 TBW",
+          "Sort_Change_Date": "2022-04-22 09:42:24",
+          "DriveCapacity": "2 TB",
+          "RemoteSecureEraseTechVersion": "No",
+          "ProductGroup": "Solidigm\u2122 P41 Plus",
+          "StatusCodeText": "Launched",
+          "SSDFormFactor": "M.2 2280",
+          "UBER": "<1 sector per 10^15 bits read",
+          "OperatingTemperature": "0\u00b0C to 70\u00b0C",
+          "SSDHardwareEncryption": "AES 256-bit Encryption, TCG Pyrite Supported",
+          "SSDPowerActive": "7.5 W",
+          "RetailSkuAvailable": "Yes",
+          "SSDInterface": "PCIe 4.0 x4, NVMe",
+          "WarrantyLengthYears": "5  yrs",
+          "SSDShock": "Operating; 1,500 G/0.5 ms --Non Operation; 1,500 G/0.5 ms",
+          "SequentialReadMB": "7000 MB/s",
+          "VibrationNonOperating": "2.0 G (20-2000Hz)",
+          "VibrationOperating": "2.0 G (20-2000Hz)",
+          "SSDWeight": "<10 grams",
+          "SequentialWriteMB": "6500 MB/s",
+          "UPEPageURL": "",
+          "OperatingTemperatureMax": "70 \u00b0C",
+          "FilterUseConditions": "PC/Client/Tablet",
+          "SSDPowerIdle": "50 mW",
+          "FilterFormFactor": "M.2 2280",
+          "SmartResponseTechVersion": "Yes",
+          "OperatingTemperatureMin": "0 \u00b0C",
+          "RapidStartTechVersion": "Yes",
+          "FilterInterface": "PCIe 4.0 x4 NVMe",
+          "SortOrder": "52049",
+          "Ark_Page_refresh": "2022-02-16 03:46:22",
+          "SSDPowerRating": "7.5 W / 50 mW",
+          "SSDVibrationRating": "2.0 G (20-2000Hz) / 2.0 G (20-2000Hz)",
+          "SSDRandomRating": "1.4M IOPS (4K Blocks) / 1.3M IOPS (4K Blocks)"
+        },
+        "orderingSpecs": [
+          {
+            "name": "Solidigm\u2122 P44 Pro(2.0TB, M.2 2280-S3-M) Retail Box Single Pack",
+            "eccn": "5A992C",
+            "ccats": "G158436",
+            "ushts": "8471706000",
+            "orderingCode": "SSDPFKKW020X7X1",
+            "shippingMedia": "BOX",
+            "specName": "Retail Box Single Pack"
+          }
+        ],
+        "pcnmdds": [
+          {
+            "MMID": "AA000006Q",
+            "PCN": [
+              {
+                "MMID": "AA000006Q",
+                "PCNName": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "PCNNumber": "0000019775-01",
+                "PublishDate": "08/09/2024",
+                "ChangeTitle": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "KeyCharacteristicsOfChange": "Product Discontinuance",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006Q",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000019775-01.pdf"
+              },
+              {
+                "MMID": "AA000006Q",
+                "PCNName": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "PCNNumber": "0000016504-00",
+                "PublishDate": "09/25/2023",
+                "ChangeTitle": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "KeyCharacteristicsOfChange": "Packaging Kit",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006Q",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000016504-00.pdf"
+              },
+              {
+                "MMID": "AA000006Q",
+                "PCNName": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "PCNNumber": "0000014542-01",
+                "PublishDate": "08/11/2023",
+                "ChangeTitle": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "KeyCharacteristicsOfChange": "Label",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006Q",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000014542-01.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "229725",
+        "productPagePath": "/content/solidigm/us/en/products/client/pro-series/p44",
+        "attributes": {
+          "RandomWrite8GBSpanValue": "",
+          "FilterFamily": "Client SSDs",
+          "SSDHighEnduranceTechnology": "No",
+          "FilterIntelTechnology": "Smart Response Technology|Rapid Start Technology",
+          "SSDTemperatureMonitoring": "No",
+          "PCNMDDSINFO1": "<a href='https://qdms.intel.com/Portal/SearchPCNDataBase.aspx?mm=99C38J'>PCN</a> | <a href='https://qdms.intel.com/MDDS/MDDSView.aspx?mm=99C38J'>MDDS</a>",
+          "ARKPageURL": "",
+          "CodeNameText": "Hollywood Beach",
+          "TechnologyIndicatorList": "Rapid Start Technology, Smart Response Technology",
+          "RandomWrite100PctSpanValue": "1.3M IOPS (4K Blocks)",
+          "CertifiedUseConditions": "PC/Client",
+          "FilterProcessorGraphics": "No",
+          "EndToEndDataProtection": "Yes",
+          "EPLDP": "No",
+          "LithographyType": "176L 3D NAND",
+          "BornOnDate": "Q4'22",
+          "RandomRead8GBSpanValue": "",
+          "MTBF": ">= 1.6 million hours",
+          "RandomRead100PctSpanValue": "1.4M IOPS (4K Blocks)",
+          "PublicOrderingandComplianceFlag": "Yes",
+          "AdditionalInfoUrl": "https://www.intel.com/content/www/us/en/products/memory-storage/solid-state-drives.html",
+          "SSDEnduranceRating": "750 TBW",
+          "Sort_Change_Date": "2022-04-22 09:42:24",
+          "DriveCapacity": "1 TB",
+          "RemoteSecureEraseTechVersion": "No",
+          "ProductGroup": "Solidigm\u2122 P41 Plus",
+          "StatusCodeText": "Launched",
+          "SSDFormFactor": "M.2 2280",
+          "UBER": "<1 sector per 10^15 bits read",
+          "OperatingTemperature": "0\u00b0C to 70\u00b0C",
+          "SSDHardwareEncryption": "AES 256-bit Encryption, TCG Pyrite Supported",
+          "SSDPowerActive": "7.5 W",
+          "RetailSkuAvailable": "Yes",
+          "SSDInterface": "PCIe 4.0 x4, NVMe",
+          "WarrantyLengthYears": "5  yrs",
+          "SSDShock": "Operating; 1,500 G/0.5 ms --Non Operation; 1,500 G/0.5 ms",
+          "SequentialReadMB": "7000 MB/s",
+          "VibrationNonOperating": "2.0 G (20-2000Hz)",
+          "VibrationOperating": "2.0 G (20-2000Hz)",
+          "SSDWeight": "<10 grams",
+          "SequentialWriteMB": "6500 MB/s",
+          "UPEPageURL": "",
+          "OperatingTemperatureMax": "70 \u00b0C",
+          "FilterUseConditions": "PC/Client/Tablet",
+          "SSDPowerIdle": "50 mW",
+          "FilterFormFactor": "M.2 2280",
+          "SmartResponseTechVersion": "Yes",
+          "OperatingTemperatureMin": "0 \u00b0C",
+          "RapidStartTechVersion": "Yes",
+          "FilterInterface": "PCIe 4.0 x4 NVMe",
+          "SortOrder": "52049",
+          "Ark_Page_refresh": "2022-02-16 03:46:22",
+          "SSDPowerRating": "7.5 W / 50 mW",
+          "SSDVibrationRating": "2.0 G (20-2000Hz) / 2.0 G (20-2000Hz)",
+          "SSDRandomRating": "1.4M IOPS (4K Blocks) / 1.3M IOPS (4K Blocks)"
+        },
+        "orderingSpecs": [
+          {
+            "name": "Solidigm\u2122 P44 Pro(1.0TB, M.2 2280-S3-M) Retail Box Single Pack",
+            "eccn": "5A992C",
+            "ccats": "G158436",
+            "ushts": "8471706000",
+            "orderingCode": "SSDPFKKW010X7X1",
+            "shippingMedia": "BOX",
+            "specName": "Retail Box Single Pack"
+          }
+        ],
+        "pcnmdds": [
+          {
+            "MMID": "AA000006P",
+            "PCN": [
+              {
+                "MMID": "AA000006P",
+                "PCNName": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "PCNNumber": "0000019775-01",
+                "PublishDate": "08/09/2024",
+                "ChangeTitle": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "KeyCharacteristicsOfChange": "Product Discontinuance",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006P",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000019775-01.pdf"
+              },
+              {
+                "MMID": "AA000006P",
+                "PCNName": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "PCNNumber": "0000016504-00",
+                "PublishDate": "09/25/2023",
+                "ChangeTitle": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "KeyCharacteristicsOfChange": "Packaging Kit",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006P",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000016504-00.pdf"
+              },
+              {
+                "MMID": "AA000006P",
+                "PCNName": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "PCNNumber": "0000014542-01",
+                "PublishDate": "08/11/2023",
+                "ChangeTitle": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "KeyCharacteristicsOfChange": "Label",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006P",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000014542-01.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "229728",
+        "productPagePath": "/content/solidigm/us/en/products/client/pro-series/p44",
+        "attributes": {
+          "RandomWrite8GBSpanValue": "",
+          "FilterFamily": "Client SSDs",
+          "SSDHighEnduranceTechnology": "No",
+          "FilterIntelTechnology": "Smart Response Technology|Rapid Start Technology",
+          "SSDTemperatureMonitoring": "No",
+          "PCNMDDSINFO1": "<a href='https://qdms.intel.com/Portal/SearchPCNDataBase.aspx?mm=99C38J'>PCN</a> | <a href='https://qdms.intel.com/MDDS/MDDSView.aspx?mm=99C38J'>MDDS</a>",
+          "ARKPageURL": "",
+          "CodeNameText": "Hollywood Beach",
+          "TechnologyIndicatorList": "Rapid Start Technology, Smart Response Technology",
+          "RandomWrite100PctSpanValue": "1.3M IOPS (4K Blocks)",
+          "CertifiedUseConditions": "PC/Client",
+          "FilterProcessorGraphics": "No",
+          "EndToEndDataProtection": "Yes",
+          "EPLDP": "No",
+          "LithographyType": "176L 3D NAND",
+          "BornOnDate": "Q4'22",
+          "RandomRead8GBSpanValue": "",
+          "MTBF": ">= 1.6 million hours",
+          "RandomRead100PctSpanValue": "1.4M IOPS (4K Blocks)",
+          "PublicOrderingandComplianceFlag": "Yes",
+          "AdditionalInfoUrl": "https://www.intel.com/content/www/us/en/products/memory-storage/solid-state-drives.html",
+          "SSDEnduranceRating": "500 TBW",
+          "Sort_Change_Date": "2022-04-22 09:42:24",
+          "DriveCapacity": "512 GB",
+          "RemoteSecureEraseTechVersion": "No",
+          "ProductGroup": "Solidigm\u2122 P41 Plus",
+          "StatusCodeText": "Launched",
+          "SSDFormFactor": "M.2 2280",
+          "UBER": "<1 sector per 10^15 bits read",
+          "OperatingTemperature": "0\u00b0C to 70\u00b0C",
+          "SSDHardwareEncryption": "AES 256-bit Encryption, TCG Pyrite Supported",
+          "SSDPowerActive": "7.5 W",
+          "RetailSkuAvailable": "Yes",
+          "SSDInterface": "PCIe 4.0 x4, NVMe",
+          "WarrantyLengthYears": "5  yrs",
+          "SSDShock": "Operating; 1,500 G/0.5 ms --Non Operation; 1,500 G/0.5 ms",
+          "SequentialReadMB": "7000 MB/s",
+          "VibrationNonOperating": "2.0 G (20-2000Hz)",
+          "VibrationOperating": "2.0 G (20-2000Hz)",
+          "SSDWeight": "<10 grams",
+          "SequentialWriteMB": "4700 MB/s",
+          "UPEPageURL": "",
+          "OperatingTemperatureMax": "70 \u00b0C",
+          "FilterUseConditions": "PC/Client/Tablet",
+          "SSDPowerIdle": "50 mW",
+          "FilterFormFactor": "M.2 2280",
+          "SmartResponseTechVersion": "Yes",
+          "OperatingTemperatureMin": "0 \u00b0C",
+          "RapidStartTechVersion": "Yes",
+          "FilterInterface": "PCIe 4.0 x4 NVMe",
+          "SortOrder": "52049",
+          "Ark_Page_refresh": "2022-02-16 03:46:22",
+          "SSDPowerRating": "7.5 W / 50 mW",
+          "SSDVibrationRating": "2.0 G (20-2000Hz) / 2.0 G (20-2000Hz)",
+          "SSDRandomRating": "1.4M IOPS (4K Blocks) / 1.3M IOPS (4K Blocks)"
+        },
+        "orderingSpecs": [
+          {
+            "name": "Solidigm\u2122 P44 Pro(512GB, M.2 2280-S3-M) Retail Box Single Pack",
+            "eccn": "5A992C",
+            "ccats": "G158436",
+            "ushts": "8471706000",
+            "orderingCode": "SSDPFKKW512H7X1",
+            "shippingMedia": "BOX",
+            "specName": "Retail Box Single Pack"
+          }
+        ],
+        "pcnmdds": [
+          {
+            "MMID": "AA000006N",
+            "PCN": [
+              {
+                "MMID": "AA000006N",
+                "PCNName": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "PCNNumber": "0000019775-01",
+                "PublishDate": "08/09/2024",
+                "ChangeTitle": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "KeyCharacteristicsOfChange": "Product Discontinuance",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006N",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Solidigm P44 Pro Series SKUs for Retail, Product Discontinuance, Product End of Life",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000019775-01.pdf"
+              },
+              {
+                "MMID": "AA000006N",
+                "PCNName": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "PCNNumber": "0000016504-00",
+                "PublishDate": "09/25/2023",
+                "ChangeTitle": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "KeyCharacteristicsOfChange": "Packaging Kit",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006N",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "Leaflet with Solidigm Synergy\u2122 Software information added into P44 Pro Retail Box",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000016504-00.pdf"
+              },
+              {
+                "MMID": "AA000006N",
+                "PCNName": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "PCNNumber": "0000014542-01",
+                "PublishDate": "08/11/2023",
+                "ChangeTitle": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "KeyCharacteristicsOfChange": "Label",
+                "MarketName": "Generic",
+                "MMNumber": "AA000006N",
+                "ProductCode": "Flash Memory Products",
+                "CustomerImpactOfChangeAndRecommendedAtion": "All Solidigm Products, Addition of Data Identifier to Shipping Label",
+                "sourceLink": "/content/dam/solidigm/en/site/products/documents/pcn/PCN0000014542-01.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seriesStatus": 2
+  }
+}

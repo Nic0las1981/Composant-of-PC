@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-10T16:17:26.961Z",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error fetching URL(s): https://hkftp.zotac.com/External/VGA/RTX20series/RTX2080Ti/brochure/ZT-T20810D-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/RTX2080Ti/brochure/ZT-T20810F-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/SUPER/2070SUPER/Brochure/ZT-T20710B-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/SUPER/2070SUPER/Brochure/ZT-T20710D-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/SUPER/2070SUPER/Brochure/ZT-T20710E-10M-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX20series/SUPER/2070SUPER/Brochure/ZT-T20710F-10P-brochure.pdf: CRAWL_TIMEOUT; https://hkftp.zotac.com/External/VGA/RTX30series/3060Ti/Brochure/ZT-A30610E-10M-brochure.pdf: CRAWL_TIMEOUT"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

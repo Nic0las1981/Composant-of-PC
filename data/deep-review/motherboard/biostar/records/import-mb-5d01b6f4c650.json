@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-5d01b6f4c650",
+    "name": "X470GTN",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+          "checkedAt": "2026-11-10T13:46:29+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20180410.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180410_1.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180410_2.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180410_3.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "910",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X470GTN",
+    "identityNote": "Modèle Biostar X470GTN confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "X470GTN",
+      "detailLevel": "partial",
+      "maxMemoryGB": 32
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X470GTN — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X470"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Support Dual Channel DDR4 1866/2133/ 2400/ 2667/ 2933(OC)/3200(OC) MHz\n2 x DDR4 DIMM Memory Slot\nMax. Supports up to 32GB Memory\n* DDR4 2667 for AMD Ryzen CPU\n※Athlon 200GE does not support ECC DDR4 memory module."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4 x SATA III Connectors (6GB/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU typesSupport Hot-Plug in AHCI mode\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector(32Gb/s)\n* Specifications vary by CPU typesSupport both PCIE NAND for PCIE SSD and SATA NAND for SATA SSD\n* Specifications vary by CPU typesM.2(32Gb/s):the bandwidth is depended on CPU Ryzen is 32Gb/s;APU & NPU is 16Gb/s.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC892 8-Channel Blu-ray Audio\nSupport Blu-ray Audio"
+          },
+          {
+            "label": "USB",
+            "value": "1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n1 x USB 3.1 Gen1 Header\n1 x USB 2.0 Header"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCI-E 3.0 x16 Slot (When using APU or NPU,the bandwidth is x8 speed)\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 Keyboard/Mouse\n1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n5 x Audio Jacks\n1 x S/PDIF Out Port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.1 Gen1 Header\n1 x USB 2.0 Header(each header support 2 USB 2.0 ports)\n4 x SATA III Connectors (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector\n1 x Front Audio Header\n1 x Front Panel Header\n1 x CPU Fan Connector\n1 x System Fan Connector\n1 x LN2 Switch\n2 x 5050 LED Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSystem Fan Monitoring\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini ITX Form Factor Dimension: 17 cm x 17 cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(x64) / 11(x64)\nSupport Windows 7 (x64) for Bristol / Summit /Pinnacle Ridge only"
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT EVO Utility\nFLY.NET\nBullGuard\nSmart Ear headphone Utility"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\nIron Slot Protection"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180410.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180410_1.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180410_2.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180410_3.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "formFactor": {
+        "value": "Mini ITX Form Factor Dimension: 17 cm x 17 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini ITX Form Factor Dimension: 17 cm x 17 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "storagePorts": {
+        "value": "4 x SATA III Connectors (6GB/s)\n* Specifications vary by CPU typesSupport SATA RAID: 0,1,10\n* Specifications vary by CPU typesSupport Hot-Plug in AHCI mode\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector(32Gb/s)\n* Specifications vary by CPU typesSupport both PCIE NAND for PCIE SSD and SATA NAND for SATA SSD\n* Specifications vary by CPU typesM.2(32Gb/s):the bandwidth is depended on CPU Ryzen is 32Gb/s;APU & NPU is 16Gb/s.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCI-E 3.0 x16 Slot (When using APU or NPU,the bandwidth is x8 speed)\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 Keyboard/Mouse\n1 x USB 3.1 Gen2 Type-C Port\n1 x USB 3.1 Gen2 Type-A Port\n4 x USB 3.1 Gen1 Ports\n1 x HDMI® Port\n1 x DVI-D Connector\n1 x LAN Port\n5 x Audio Jacks\n1 x S/PDIF Out Port",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.1 Gen1 Header\n1 x USB 2.0 Header(each header support 2 USB 2.0 ports)\n4 x SATA III Connectors (6Gb/s)\n1 x M.2 Key M 32Gb/s Connector\n1 x Front Audio Header\n1 x Front Panel Header\n1 x CPU Fan Connector\n1 x System Fan Connector\n1 x LN2 Switch\n2 x 5050 LED Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC892 8-Channel Blu-ray Audio\nSupport Blu-ray Audio",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memoryCapacity": {
+        "value": 32,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=910&pname=X470GTN&chipset=AMD%20X470",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      }
+    }
+  }
+}

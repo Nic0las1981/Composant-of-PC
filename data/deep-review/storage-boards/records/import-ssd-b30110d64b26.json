@@ -1,0 +1,90 @@
+{
+  "id": "import-ssd-b30110d64b26",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AORUS NVMe Gen4 SSD 500GB",
+  "partNumber": "GP-ASM2NE6500GTTD",
+  "source": {
+    "name": "Gigabyte — référence exacte rapprochée par son code commercial",
+    "url": "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp",
+    "checkedAt": "2026-11-10T14:55:08+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp",
+    "checkedAt": "2026-11-10T14:55:08+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp",
+    "sha256": "7921b2cbc2e3bbff8c7f79a79adbdbc1909fcf69e272a27df2b88dae82688b1e",
+    "bytes": 588029,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 4.0x4, NVMe 1.3",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "500GB",
+    "NAND": "3D TLC Toshiba BiCS4",
+    "External DDR Cache": "DDR4 512MB",
+    "Sequential Read speed": "Up to 5000 MB/s",
+    "Sequential Write speed": "Up to 2500 MB/s",
+    "Random Read IOPS": "up to 400k",
+    "Random Write IOPS": "up to 550k",
+    "Dimension": "80.5 x 11.25 x 23.5 mm",
+    "Mean time between failure (MTBF)": "1.77 million hours",
+    "Power Consumption (Active)": "Average: R : 5.9W; W : 4.5W",
+    "Power Consumption (Idle)": "13.21mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 850TBW.\n\n2. Limited warranty based on 5 years or 850TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"Percentage Used\" (SMART ID: 05) in SMART page of \"GIGABYTE SSD toolbox\" reaches 100 means out of warranty. (A new unused product will show the number of 0)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Published model code": "GP-ASM2NE6500GTTD"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp",
+        "checkedAt": "2026-11-10T14:36:15+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-NVMe-Gen4-SSD-500GB/sp",
+        "sha256": "7921b2cbc2e3bbff8c7f79a79adbdbc1909fcf69e272a27df2b88dae82688b1e",
+        "bytes": 588029,
+        "status": "fetched"
+      },
+      "title": "AORUS NVMe Gen4 SSD 500GB",
+      "state": "model_variant_mismatch"
+    },
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-500GB/sp",
+        "checkedAt": "2026-11-10T14:36:11+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-SSD-500GB/sp",
+        "sha256": "8de01fc92c8511ad66aac619e743e08ac231d9749c1d3c9b775904ebef626d21",
+        "bytes": 582226,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 SSD 500GB",
+      "state": "model_variant_mismatch"
+    },
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-5000E-SSD-500GB/sp",
+        "checkedAt": "2026-11-10T14:36:16+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-5000E-SSD-500GB/sp",
+        "sha256": "cc8489045592e4525f463697ddca12bb6425688b47e45ef2c296405a78d2c574",
+        "bytes": 576284,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 5000E SSD 500GB",
+      "state": "model_variant_mismatch"
+    }
+  ],
+  "notes": [
+    "Le nom court de l’archive a été rapproché par la référence commerciale explicite de la fiche PCPartPicker originale, puis vérifié sur la fiche constructeur. Les variantes voisines restent distinctes."
+  ],
+  "identityEvidenceFile": "data/deep-review/storage-boards/variant-searches/identity-full.json"
+}

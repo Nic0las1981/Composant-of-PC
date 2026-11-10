@@ -1,0 +1,276 @@
+{
+  "review": {
+    "id": "import-mb-721e819f790d",
+    "name": "ROG Strix X570-I Gaming",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "sha256": "b0f4b257b70365938fcda1087780ffffb99c6ddf1816e799f922e44cddb99236",
+        "bytes": 246007,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG Strix X570-I Gaming",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/565563A3-359E-4E80-BF7A-6FC1B2079469"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Bluetooth",
+      "Audio",
+      "USB Ports",
+      "ROG Exclusive Features",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Support Disc",
+      "Operating System",
+      "Form Factor",
+      "Note",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG Strix X570-I Gaming",
+    "identityNote": "Modèle ASUS ROG Strix X570-I Gaming confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "ROG Strix X570-I Gaming",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM, Max. 64GB, DDR4 4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3800(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933(O.C.)/2800/2666/2400/2133 MHz Non-ECC, Un-buffered Memory\n2 x DIMM, Max. 64GB, DDR4 5100(O.C)/4866(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3800(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory *\nAMD RyzenTM 4000 G-Series Processors\nAMD RyzenTM 2000 Series Processors\n2 x DIMM, Max. 64GB, DDR4 3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933/2800(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory *\n2 x DIMM, Max. 64GB, DDR4 3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.)/2666/2400/2133 MHz Non-ECC, Un-buffered Memory\nDual Channel Memory Architecture\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Graphic",
+            "value": "Integrated Graphics in AMD Ryzen™ 4000 G-Series/ 3000 G-Series/ 2000 G-Series Desktop Processors\n- Support DisplayPort 1.4 with max. resolution 8K 7680 × 4320 @60Hz\nMulti-VGA output support : HDMI/DisplayPort ports\n- Supports HDMI 2.0b with maximum resolution of 4096 x 2160 @ 60 Hz"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD RyzenTM 4000 G-Series / 2000 Series Processors\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD RyzenTM 3000 G-Series / 2000 G-Series Processors\n1 x PCIe 4.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x8 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD RyzenTM 4000 G-Series / 3000 G-Series / 2000 Series / 2000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\nAMD X570 chipset :\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Anti-surge LANGuard\nROG GameFirst Technology\nIntel® I211-AT"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "Supports channel bandwidth: HT20/HT40/HT80/HT160\nIntel® Wi-Fi 6 AX200\n2 x 2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with MU-MIMO supports dual frequency band 2.4/5GHz\nUp to 2.4Gbps transfer speed"
+          },
+          {
+            "label": "Bluetooth",
+            "value": "Bluetooth® 5.0"
+          },
+          {
+            "label": "Audio",
+            "value": "- LED-illuminated design - Brighten up your build with the gorgeous illuminated audio trace path.\nSupremeFX8-Channel High Definition Audio CODEC S1220A\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *2\nAudio Feature :\n- DTS® Sound Unbound\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Virtual Mixer"
+          },
+          {
+            "label": "USB Ports",
+            "value": "AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors :\n4 x USB 3.2 Gen 2 port(s) (3 x Type-A+1 x Type-C)\n4 x USB 3.2 Gen 1 port(s) (4 at back panel, blue)\n2 x USB 2.0 port(s)\nAMD X570 chipset :\n2 x USB 3.2 Gen 1 port(s) (2 at mid-board)"
+          },
+          {
+            "label": "ROG Exclusive Features",
+            "value": "ROG Exclusive Software\n- RAMCache III\n- CPU-Z\n- GameFirst V"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "5-Way Optimization by Dual Intelligent Processors 5\n- Whole system optimization with a single click! 5-Way Optimization tuning key perfectly consolidates TPU, EPU, DIGI+ VRM, Fan Xpert 4, and Turbo App together, providing better CPU performance, efficient power saving, precise digital power control, whole system cooling and even tailor your own app usages.\nTPU\n- Auto Tuning, TurboV, GPU Boost\nASUS EPU :\n- EPU\nAURA :\n- Aura Lighting Control\n- Addressable Gen 2 Header\nASUS Exclusive Features :\n- AI Suite 3\n- Ai Charger\nASUS EZ DIY :\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\nASUS Q-Design :\n- ASUS Q-Shield\n- ASUS Q-Slot\n- ASUS Q-DIMM\n- ASUS Q-LED (CPU, DRAM, VGA, Boot Device LED)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "4 x USB 3.2 Gen 1 (blue)\n3 x LED-illuminated audio jacks\n1 x DisplayPort\n1 x HDMI\n1 x ASUS Wi-Fi Module\n3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)\n1 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-C)\nAnti-surge LAN (RJ45) port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x AAFP connector\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n1 x HS_FAN\n2 x M.2 Socket 3 with M Key design, type 2242/2260/2280 storage devices support (Supports both SATA & PCIE SSD)\n1 x PCH_FAN\n1 x Aura RGB Strip Header(s)\n1 x Addressable Gen 2 header(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n4 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x T_Sensor Connector\n1 x Speaker connector"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x AAFP Extension Cable\n1 x Panel cable\n2 x M.2 Screw Package\nUser´s manual\n4 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\n1 x ROG Strix stickers\n1 x M.2 bracket\n1 x Cable ties pack(s)\n1 x Wi-Fi Antenna(s)\n1 x Extension cable for Addressable LED\n1 x ROG Thank you card\nI/O Shield"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.2, ACPI 6.2."
+          },
+          {
+            "label": "Administration",
+            "value": "WOL, PXE"
+          },
+          {
+            "label": "Support Disc",
+            "value": "Overwolf\nAnti-virus software (OEM version)\nWinRAR"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )"
+          },
+          {
+            "label": "Note",
+            "value": "*1 Due to limitations in HDA bandwidth, 32-Bit/192kHz is not supported for 8-Channel audio.\n*2 Use a chassis with HD audio module in the front panel to support an 8-channel audio output."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/565563A3-359E-4E80-BF7A-6FC1B2079469"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "formFactor": {
+        "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini ITX Form Factor\n6.7 inch x 6.7 inch ( 17 cm x 17 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD RyzenTM 4000 G-Series / 3000 G-Series / 2000 Series / 2000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\nAMD X570 chipset :\n4 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "pcie": {
+        "value": "AMD RyzenTM 4000 G-Series / 2000 Series Processors\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD RyzenTM 3000 G-Series / 2000 G-Series Processors\n1 x PCIe 4.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x16 mode)\n1 x PCIe 3.0 x16 (x8 mode)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "rearIO": {
+        "value": "4 x USB 3.2 Gen 1 (blue)\n3 x LED-illuminated audio jacks\n1 x DisplayPort\n1 x HDMI\n1 x ASUS Wi-Fi Module\n3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)\n1 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-C)\nAnti-surge LAN (RJ45) port",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "internalIO": {
+        "value": "1 x AAFP connector\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n1 x HS_FAN\n2 x M.2 Socket 3 with M Key design, type 2242/2260/2280 storage devices support (Supports both SATA & PCIE SSD)\n1 x PCH_FAN\n1 x Aura RGB Strip Header(s)\n1 x Addressable Gen 2 header(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n4 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x T_Sensor Connector\n1 x Speaker connector",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "network": {
+        "value": "Anti-surge LANGuard\nROG GameFirst Technology\nIntel® I211-AT",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "audio": {
+        "value": "- LED-illuminated design - Brighten up your build with the gorgeous illuminated audio trace path.\nSupremeFX8-Channel High Definition Audio CODEC S1220A\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *2\nAudio Feature :\n- DTS® Sound Unbound\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Virtual Mixer",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors\n* Refer to www.asus.com for CPU support list\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.2, ACPI 6.2.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-i-gaming-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00"
+      }
+    },
+    "manufacturerModel": "ROG Strix X570-I Gaming"
+  }
+}

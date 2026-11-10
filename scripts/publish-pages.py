@@ -31,7 +31,10 @@ with tempfile.TemporaryDirectory(prefix='forge-pages-') as staging:
     tree = git('write-tree', env=task_env)
     files = git('ls-tree', '-r', '--name-only', tree).splitlines()
     assert 'index.html' in files and '.nojekyll' in files
-    assert all(name in ('index.html', 'favicon.svg', '.nojekyll') or name.startswith('assets/') for name in files), 'Unexpected file in deployment.'
+    cad_files={f'models/noctua/{name}.glb' for name in ('nf-a15-chromax','nf-a14x25r-g2','nf-a12x25r','nf-a9x14')}
+    cad_files.add('models/noctua/README-Noctua.txt')
+    assert all(name in ('index.html', 'favicon.svg', '.nojekyll', 'catalog-packing-report.json') or name.startswith('assets/') or name in cad_files for name in files), 'Unexpected file in deployment.'
+    assert cad_files.issubset(files), 'Manufacturer CAD assets or license notice missing.'
     if parent and tree == git('rev-parse', f'{parent}^{{tree}}'):
         print('Compiled site already matches the deployment branch. Nothing to publish.')
         raise SystemExit(0)

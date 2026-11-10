@@ -1,0 +1,372 @@
+{
+  "review": {
+    "id": "import-mb-27d038b105da",
+    "name": "B450 GAMING PRO CARBON AC",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.1 ports (Front)",
+      "USB 3.1 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Audio ports (Rear)",
+      "DisplayPort",
+      "HDMI",
+      "DirectX",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Slots",
+      "Multi-GPU",
+      "Storage",
+      "Onboard Graphics",
+      "USB",
+      "Audio",
+      "WiFi & Bluetooth",
+      "LAN",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_2_20180716112434_5b4c0ff2e1ab5.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "B450 GAMING PRO CARBON AC",
+    "identityNote": "Modèle MSI B450 GAMING PRO CARBON AC confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B450 GAMING PRO CARBON AC",
+      "description": "Carte mère MSI B450 GAMING PRO CARBON AC. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "1 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B450 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3 (16) (8), Gen2 (4)"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "3"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\n\n Supports RAID 0 and RAID 1 for M.2 NVMe RAID"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.1 ports (Front)",
+            "value": "2(Gen1, Type A)"
+          },
+          {
+            "label": "USB 3.1 ports (Rear)",
+            "value": "1(Gen2, Type C), 1(Gen2, Type A), 2(Gen1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "5+ Optical S/PDIF (Realtek® ALC1220 Codec)"
+          },
+          {
+            "label": "DisplayPort",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit\n \nSupport for Windows® 7 64-bit\n \n* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 1st, 2nd and 3rd Gen AMD® Ryzen™/ Ryzen™ with Radeon™ Vega Graphics / 2nd Gen AMD® Ryzen™ with Radeon™ Graphics and Athlon™ with Radeon™ Vega Graphics Desktop Processors for Socket AM4\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DDR4 memory slots, support up to 128GB *ComboPI 1.0.0.3-based and above BIOS are required.1\n\n Supports 1866/ 2133/ 2400/ 2667Mhz (by JEDEC)\n\n Supports 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466 MHz(by A-XMP OC MODE)\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\nPlease refer www.msi.com for more information on compatible memory.\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCIe 3.0 x16 slot (PCI_E1)\n Supports x16 speed with 1st, 2nd and 3rd Gen AMD Ryzen™ processors\n\n Supports x8 speed with Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with adeon™ Graphics processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon™ Vega Graphics Processors\n\n 1 x PCIe 2.0 x16 slot (PCI_E4, supports x4 mode)1,2\n\n 3 x PCIe 2.0 x1 slots2\n\nM2_2 slot will be unavailable when installing devices in PCI_E2, PCI_E3, PCI_E4 and PCI_E5 slot.\n\n PCI_E4 will run x1 speed when installing devices in any PCIe 2.0x1 slot."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "1st, 2nd and 3rd Gen AMD® Ryzen™\n Supports 2-Way AMD® CrossFire™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD® B450 Chipset\n\n4 x SATA 6Gb/s ports1\n\n 1 x M.2 slot (M2_2, Key M)1\n Supports PCIe 2.0 x4 2242/ 2260 /2280 storage devices\n\nAMD® CPU\n\n1 x M.2 slot (M2_1, Key M)1\n\n Supports PCIe 3.0 x4 (1st, 2nd and 3rd Gen AMD Ryzen™/ Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with Radeon™ Graphics) or PCIe 3.0 x2 (Athlon™ with Radeon™ Vega Graphics) and SATA 6Gb/s 2242/ 2260 /2280/ 22110 storage devices\n\n 2 x SATA 6Gb/s ports1\n\nPCI_E2, PCI_E3, PCI_E4 and PCI_E5 slots will be unavailable when installing M.2 PCIe SSD in M2_2 slot.\n\n SATA5 and SATA6 ports will be unavailable when installing a M.2 device in M2_1 slot."
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1 x DisplayPort, supports a maximum resolution of 4096x2304 @60Hz, 2560x1600 @60Hz, 3840x2160 @60Hz, 1920x1200 @60Hz12\n\n 1 x HDMI™ 2.0b with HDR port, supports a maximum resolution of 4K @60Hz123\n\nOnly support when using Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with Radeon™ Graphics/ Athlon™ with Radeon™ Vega Graphics processors\n\n Maximum shared memory of 2048 MB\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "USB",
+            "value": "AMD® B450 Chipset\n\n1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-C port on the back panel\n\n 1 x USB 3.1 Gen2 (SuperSpeed USB 10Gbps) Type-A port on the back panel\n\n 2 x USB 3.1 Gen1 (SuperSpeed USB) ports available through the internal USB 3.1 Gen1 connector\n\n 6 x USB 2.0 (High-speed USB) ports (2 Type-A ports on the back panel, 4 ports available through the internal USB 2.0 connectors)\n\nAMD® CPU\n\n2 x USB 3.1 Gen1 (SuperSpeed USB) Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Dual Band Wireless-AC 92601\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 1.73 Gbps speed.\n\n Supports Dual Mode Bluetooth 2.1, 2.1+EDR, 3.0, 4.0, BLE,4.2, 5.0\n\n 1 x M2_3 slot with E key (Wi-Fi mode)\n\nOnly support windows 10 64-bit"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® I211AT Gigabit LAN controller"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 1 x 4-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connectors (support additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin water-pump-fan connector\n\n 4 x 4-pin system fan connectors\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial Port connector\n\n 1 x Clear CMOS jumper\n\n 1 x 2pin LED Power connector\n\n 2 x 5050 RGB LED strip 12V connectors (JRGB1~2)\n\n 1 x WS2812B Individually Addressable RGB LED strip 5V connector (JRAINBOW1)\n\n 1 x CORSAIR connector (JCORSAIR1)"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "PS/2 Combo Port\n\n DisplayPort\n\n Wi-Fi / Bluetooth\n\n LAN Port\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ Port\n\n USB 3.1 Gen1\n\n USB 3.1 Gen2 Type-A + C\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor"
+          },
+          {
+            "label": "Mounting",
+            "value": "9 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 10 64-bit\n\n Support for Windows® 7 64-bit\n\n * To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 1 x 4-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connectors (support additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin water-pump-fan connector\n\n 4 x 4-pin system fan connectors\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial Port connector\n\n 1 x Clear CMOS jumper\n\n 1 x 2pin LED Power connector\n\n 2 x 5050 RGB LED strip 12V connectors (JRGB1~2)\n\n 1 x WS2812B Individually Addressable RGB LED strip 5V connector (JRAINBOW1)\n\n 1 x CORSAIR connector (JCORSAIR1)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: PS/2 Combo Port\n\n DisplayPort\n\n Wi-Fi / Bluetooth\n\n LAN Port\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ Port\n\n USB 3.1 Gen1\n\n USB 3.1 Gen2 Type-A + C\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "WiFi & Bluetooth: Intel® Dual Band Wireless-AC 92601\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 1.73 Gbps speed.\n\n Supports Dual Mode Bluetooth 2.1, 2.1+EDR, 3.0, 4.0, BLE,4.2, 5.0\n\n 1 x M2_3 slot with E key (Wi-Fi mode)\n\nOnly support windows 10 64-bit"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_2_20180716112434_5b4c0ff2e1ab5.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\n12 in. x 9.6 in. (30.5 cm x 24.4 cm)\n\n ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B450 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD® B450 Chipset\n\n4 x SATA 6Gb/s ports1\n\n 1 x M.2 slot (M2_2, Key M)1\n Supports PCIe 2.0 x4 2242/ 2260 /2280 storage devices\n\nAMD® CPU\n\n1 x M.2 slot (M2_1, Key M)1\n\n Supports PCIe 3.0 x4 (1st, 2nd and 3rd Gen AMD Ryzen™/ Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with Radeon™ Graphics) or PCIe 3.0 x2 (Athlon™ with Radeon™ Vega Graphics) and SATA 6Gb/s 2242/ 2260 /2280/ 22110 storage devices\n\n 2 x SATA 6Gb/s ports1\n\nPCI_E2, PCI_E3, PCI_E4 and PCI_E5 slots will be unavailable when installing M.2 PCIe SSD in M2_2 slot.\n\n SATA5 and SATA6 ports will be unavailable when installing a M.2 device in M2_1 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCIe 3.0 x16 slot (PCI_E1)\n Supports x16 speed with 1st, 2nd and 3rd Gen AMD Ryzen™ processors\n\n Supports x8 speed with Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with adeon™ Graphics processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon™ Vega Graphics Processors\n\n 1 x PCIe 2.0 x16 slot (PCI_E4, supports x4 mode)1,2\n\n 3 x PCIe 2.0 x1 slots2\n\nM2_2 slot will be unavailable when installing devices in PCI_E2, PCI_E3, PCI_E4 and PCI_E5 slot.\n\n PCI_E4 will run x1 speed when installing devices in any PCIe 2.0x1 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: PS/2 Combo Port\n\n DisplayPort\n\n Wi-Fi / Bluetooth\n\n LAN Port\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Port\n\n HDMI™ Port\n\n USB 3.1 Gen1\n\n USB 3.1 Gen2 Type-A + C\n\n Optical S/PDIF OUT",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 1 x 4-pin ATX 12V power connector\n\n 6 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (support additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connectors (support additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin water-pump-fan connector\n\n 4 x 4-pin system fan connectors\n\n 1 x TPM module connector\n\n 1 x Front panel audio connector\n\n 2 x System panel connectors\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial Port connector\n\n 1 x Clear CMOS jumper\n\n 1 x 2pin LED Power connector\n\n 2 x 5050 RGB LED strip 12V connectors (JRGB1~2)\n\n 1 x WS2812B Individually Addressable RGB LED strip 5V connector (JRAINBOW1)\n\n 1 x CORSAIR connector (JCORSAIR1)",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® I211AT Gigabit LAN controller\nWiFi & Bluetooth: Intel® Dual Band Wireless-AC 92601\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 1.73 Gbps speed.\n\n Supports Dual Mode Bluetooth 2.1, 2.1+EDR, 3.0, 4.0, BLE,4.2, 5.0\n\n 1 x M2_3 slot with E key (Wi-Fi mode)\n\nOnly support windows 10 64-bit\nIntel® Dual Band Wireless-AC 92601\n\nSupports Wi-Fi 802.11 a/b/g/n/ac, dual band (2.4GHz, 5GHz) up to 1.73 Gbps speed.\n\n Supports Dual Mode Bluetooth 2.1, 2.1+EDR, 3.0, 4.0, BLE,4.2, 5.0\n\n 1 x M2_3 slot with E key (Wi-Fi mode)\n\nOnly support windows 10 64-bit",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC1220 Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports 1st, 2nd and 3rd Gen AMD® Ryzen™/ Ryzen™ with Radeon™ Vega Graphics / 2nd Gen AMD® Ryzen™ with Radeon™ Graphics and Athlon™ with Radeon™ Vega Graphics Desktop Processors for Socket AM4\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/B450-GAMING-PRO-CARBON-AC/Specification",
+        "checkedAt": "2026-11-10T11:00:27+00:00"
+      }
+    }
+  }
+}

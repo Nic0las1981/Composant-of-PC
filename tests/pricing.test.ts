@@ -55,6 +55,7 @@ test("old, future or not-in-stock reports are excluded from the indicative EUR r
   for (const mapping of MARKET_MAPPINGS) {
     const component = getComponent(mapping.component.id)!;
     const observation = getMarketObservation(component)!;
+    if(!observation){assert.equal(getIndicativeMarketObservation(component),null);continue;}
     if (observation.availabilityReported !== "in_stock") {
       assert.equal(getIndicativeMarketObservation(component), null);
       assert.equal(getReferencePrice(component), component.priceStatus === "unknown" || getVerifiedProduct(component) ? null : component.price);

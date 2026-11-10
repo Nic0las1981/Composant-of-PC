@@ -1,0 +1,77 @@
+{
+  "id": "import-ssd-e02a9eef3fda",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS 250GB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:11+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:11+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification",
+    "sha256": "89281970f27a56ad50e9b9e39fb510e60fcaa14c04485395118c189c1ddcd1f0",
+    "bytes": 68075,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS",
+    "Capacity": "250GB",
+    "Controller": "PHISON E21T",
+    "Flash Memory": "3D NAND",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4x4, NVMe 1.4",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 2.15mm (H) (w/o heatsink)\n\n80.40mm (L) x 23.00mm (W) x 20.40mm (H) (w/ heatsink)",
+    "Sequential Read up to (MB/s)": "4650",
+    "Sequential Write up to (MB/s)": "1900",
+    "Random Read 4KB up to (IOPS)": "220,000",
+    "Random Write 4KB up to (IOPS)": "470,000",
+    "Maximum Operating Power (W)": "3.6",
+    "Idle Power PS3 (mW)": "50",
+    "Low Power L1.2 (mW)": "5",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "200",
+    "Mean Time Between Failure (MTBF)": "Up to 1,500,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS Support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nPyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_16636626741fd990b8df9cfb41692be841da5656f9.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification",
+        "checkedAt": "2026-11-10T14:36:11+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M460-PCIe-4.0-NVMe-M.2-HS/Specification",
+        "sha256": "89281970f27a56ad50e9b9e39fb510e60fcaa14c04485395118c189c1ddcd1f0",
+        "bytes": 68075,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M460 PCIe 4.0 NVMe M.2 HS",
+      "selectedColumn": "SPATIUM M460 PCIe 4.0 NVMe M.2 250GB HS"
+    }
+  ],
+  "patch": {
+    "lengthMm": 80.4,
+    "widthMm": 23.0,
+    "heightMm": 20.4
+  },
+  "extraFacts": {
+    "length": 80.4,
+    "width": 23.0,
+    "height": 20.4
+  },
+  "heatsinkEvidence": {
+    "statement": "80.40mm (L) x 23.00mm (W) x 20.40mm (H) (w/ heatsink)",
+    "installed": true
+  }
+}

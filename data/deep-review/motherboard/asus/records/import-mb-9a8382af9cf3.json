@@ -1,0 +1,173 @@
+{
+  "review": {
+    "id": "import-mb-9a8382af9cf3",
+    "name": "Prime B450M-A II",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T13:26:08+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "sha256": "999aa291a7ea56f516948cc05d3e1790853abe63318fa847ae3d205428142946",
+        "bytes": 329105,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "sha256": "95201b585c26253976a51c6b7c677d6e421a413f1950411356a1b3fddf26aeea",
+        "bytes": 299125,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B450M-A II",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/de2d101b-af53-4b61-b5f8-02f19de759ce/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Storage",
+      "Special Features",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "90MB15Z0-M0EAY0",
+    "identityNote": "Modèle ASUS Prime B450M-A II confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "PcComponentes",
+        "url": "https://www.pccomponentes.fr/asus-prime-b450m-a-ii",
+        "checkedAt": "2026-11-10T09:52:10Z",
+        "kind": "retailer"
+      },
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "90MB15Z0-M0EAY0",
+      "heightMm": 244.0,
+      "widthMm": 240.0,
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3rd/2nd/1st Gen AMD Ryzen™/ 2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors"
+          },
+          {
+            "label": "Chipset",
+            "value": "B450"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI 2.1"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 1 x M.2 slot and 6 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Y"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Win10 64bit/Win7 64bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "24.4cm x 24 cm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/de2d101b-af53-4b61-b5f8-02f19de759ce/"
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "retailer": "PcComponentes",
+        "seller": "ZOOMICI FR",
+        "url": "https://www.pccomponentes.fr/asus-prime-b450m-a-ii",
+        "productName": "Asus PRIME B450M-A II",
+        "mpn": "90MB15Z0-M0EAY0",
+        "amount": 302.94,
+        "currency": "EUR",
+        "market": "FR",
+        "condition": "new",
+        "availability": "in_stock",
+        "priceKind": "current",
+        "shipping": 0,
+        "shippingNote": "Frais affichés : 0 € ; destination et conditions à confirmer.",
+        "checkedAt": "2026-11-10T09:52:10Z"
+      }
+    ],
+    "notes": [
+      "Contrôle automatisé par caractéristiques discriminantes sur une page produit primaire. Les caractéristiques encore absentes restent à confirmer ; ce relevé ne constitue pas une validation complète de compatibilité.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "formFactor": {
+        "value": "24.4cm x 24 cm",
+        "sourceURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "boardDimensions": {
+        "value": "24.4cm x 24 cm",
+        "sourceURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "chipset": {
+        "value": "B450",
+        "sourceURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 1 x M.2 slot and 6 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3rd/2nd/1st Gen AMD Ryzen™/ 2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors",
+        "sourceURL": "https://www.asus.com/uk/motherboards-components/motherboards/prime/prime-b450m-a-ii/techspec/",
+        "checkedAt": "2026-11-10T14:00:28+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B450M-A II"
+  }
+}

@@ -8,13 +8,14 @@ type V3 = [
 ];
 /** These small assemblies represent a kind of hardware, not an electrical
  * netlist, package count or manufacturing revision. They never feed specs. */
-export function CircuitPackages({ width, length, position = [0, 0, 0] }: {
+export function CircuitPackages({ width, length, depth = .03, position = [0, 0, 0] }: {
     width: number;
     length: number;
+    depth?: number;
     position?: V3;
 }) {
-    const packages = useMemo<BoxInstance[]>(() => Array.from({ length: 8 }, (_, i) => ({ position: [.014, (i % 2 - .5) * width * .74, -length * .37 + Math.floor(i / 2) * length * .24] as V3, size: [.018, width * .12, length * .055] as V3 })), [width, length]);
-    const terminals = useMemo<BoxInstance[]>(() => packages.flatMap(p => [-1, 1].map(side => ({ position: [p.position[0] + .002, p.position[1], p.position[2] + side * length * .033] as V3, size: [.022, width * .13, length * .012] as V3 }))), [packages, width, length]);
+    const packages = useMemo<BoxInstance[]>(() => Array.from({ length: 8 }, (_, i) => ({ position: [depth * .45, (i % 2 - .5) * width * .74, -length * .37 + Math.floor(i / 2) * length * .24] as V3, size: [depth * .22, width * .12, length * .055] as V3 })), [width, length, depth]);
+    const terminals = useMemo<BoxInstance[]>(() => packages.flatMap(p => [-1, 1].map(side => ({ position: [p.position[0] + depth * .01, p.position[1], p.position[2] + side * length * .033] as V3, size: [depth * .24, width * .13, length * .012] as V3 }))), [packages, width, length, depth]);
     return <group name="representative-surface-mount-packages" position={position}>
   <BoxInstances items={terminals} color="#a8afaa" metalness={.82} roughness={.36}/>
   <BoxInstances items={packages} color="#403d32" metalness={.03} roughness={.8}/>
@@ -50,11 +51,12 @@ export function M2Board({ width: w, length: l, thickness: t, color }: {
   <MetalBox position={[-t * .43, -w * .498, 0]} size={[t * .2, .0015, l * .9]} color="#8b7350" roughness={.66} metalness={.18}/>
  </group>;
 }
-export function CpuContactField({ width: w, height: h, depth: d, pins }: {
+export function CpuContactField({ width: w, height: h, depth: d, pins, socketHoles = false }: {
     width: number;
     height: number;
     depth: number;
     pins: boolean;
+    socketHoles?: boolean;
 }) {
     const contacts = useRef<THREE.InstancedMesh>(null);
     useLayoutEffect(() => {
@@ -76,27 +78,28 @@ export function CpuContactField({ width: w, height: h, depth: d, pins }: {
             contacts.current.computeBoundingSphere();
         }
     }, [w, h, d, pins]);
-    return <group name={pins ? 'cpu-representative-pga-pins' : 'cpu-representative-lga-lands'} userData={{ contactLayout: 'representative-not-pin-map' }}>
+    return <group name={socketHoles ? 'pga-socket-representative-holes' : pins ? 'cpu-representative-pga-pins' : 'cpu-representative-lga-lands'} userData={{ contactLayout: 'representative-not-pin-map' }}>
   <instancedMesh ref={contacts} args={[undefined, undefined, 200]} castShadow>
    <cylinderGeometry args={[pins ? .003 : .006, pins ? .004 : .006, pins ? .026 : .003, 8]}/>
-   <meshStandardMaterial color="#bb9b55" metalness={.76} roughness={.35}/>
+   <meshStandardMaterial color={socketHoles ? "#0b1211" : "#bb9b55"} metalness={socketHoles ? .05 : .76} roughness={socketHoles ? .8 : .35}/>
   </instancedMesh>
   <MetalBox position={[-d * .54, 0, 0]} size={[.002, h * .25, w * .25]} color="#223f31" roughness={.8} metalness={.08}/>
  </group>;
 }
-export function FanWireClips({ height: h, width: w, depth: d, fanCount }: {
+export function FanWireClips({ height: h, width: w, depth: d, fanCount, fanCenters }: {
     height: number;
     width: number;
     depth: number;
     fanCount: number;
+    fanCenters?: number[];
 }) {
     const lines = useMemo<V3[][]>(() => Array.from({ length: Math.min(fanCount, 2) }, (_, fan) => [-1, 1].map(side => [
-        [h * .34, side * w * .49, d * (fan ? -.055 : fanCount > 1 ? .43 : -.055)],
-        [h * .38, side * w * .53, d * (fan ? -.055 : fanCount > 1 ? .43 : -.055)],
-        [h * .32, side * w * .55, d * (fan ? -.14 : fanCount > 1 ? .30 : -.14)],
-        [-h * .2, side * w * .55, d * (fan ? -.14 : fanCount > 1 ? .30 : -.14)],
-        [-h * .28, side * w * .53, d * (fan ? -.055 : fanCount > 1 ? .43 : -.055)],
-    ] as V3[])).flat(), [h, w, d, fanCount]);
+        [h * .34, side * w * .49, (fanCenters?.[fan] ?? d * (fan ? -.055 : fanCount > 1 ? .43 : -.055))],
+        [h * .38, side * w * .53, (fanCenters?.[fan] ?? d * (fan ? -.055 : fanCount > 1 ? .43 : -.055))],
+        [h * .32, side * w * .55, (fanCenters?.[fan] ?? d * (fan ? -.055 : fanCount > 1 ? .43 : -.055)) - 25 * .008 * .55],
+        [-h * .2, side * w * .55, (fanCenters?.[fan] ?? d * (fan ? -.055 : fanCount > 1 ? .43 : -.055)) - 25 * .008 * .55],
+        [-h * .28, side * w * .53, (fanCenters?.[fan] ?? d * (fan ? -.055 : fanCount > 1 ? .43 : -.055))],
+    ] as V3[])).flat(), [h, w, d, fanCount, fanCenters]);
     return <group name="tower-fan-retention-clips">{lines.map((points, i) => <Tube key={i} points={points} radius={.005} color="#7e8788"/>)}</group>;
 }
 export function VentilatedPsuShell({ width: w, height: h, depth: d, color }: {
@@ -154,4 +157,23 @@ export function AxialShroud({ length: l, width: w, height: h, fans, radius, span
     }, [l, w, h, fans, radius, span, reverseLast]);
     useEffect(() => () => geometry.dispose(), [geometry]);
     return <mesh name="axial-gpu-aperture-shroud" geometry={geometry} position={[0, -h * .41, 0]} rotation={[Math.PI / 2, 0, Math.PI / 2]} castShadow receiveShadow><meshStandardMaterial color={color} metalness={.24} roughness={.47}/></mesh>;
+}
+
+/** Substrate shape distinguishes the socket package without inventing a pin map. */
+export function CpuSubstrate({width:w,height:h,depth:d,intel}:{width:number;height:number;depth:number;intel:boolean}) {
+    const geometry=useMemo(()=>{
+        const outline=new THREE.Shape(),r=Math.min(w,h)*.025,n=h*.035;
+        outline.moveTo(-w/2+r,-h/2);outline.lineTo(w/2-r,-h/2);outline.lineTo(w/2,-h/2+r);
+        if(intel){outline.lineTo(w/2,-h*.22-n);outline.lineTo(w/2-w*.035,-h*.22-n);outline.lineTo(w/2-w*.035,-h*.22+n);outline.lineTo(w/2,-h*.22+n);}
+        outline.lineTo(w/2,h/2-r);outline.lineTo(w/2-r,h/2);outline.lineTo(-w/2+r,h/2);outline.lineTo(-w/2,h/2-r);
+        if(intel){outline.lineTo(-w/2,-h*.22+n);outline.lineTo(-w/2+w*.035,-h*.22+n);outline.lineTo(-w/2+w*.035,-h*.22-n);outline.lineTo(-w/2,-h*.22-n);}
+        outline.lineTo(-w/2,-h/2+r);outline.closePath();
+        return new THREE.ExtrudeGeometry(outline,{depth:d*.45,bevelEnabled:false});
+    },[w,h,d,intel]);
+    const marker=useMemo(()=>{const s=new THREE.Shape();s.moveTo(0,0);s.lineTo(w*.085,0);s.lineTo(0,h*.085);s.closePath();return new THREE.ShapeGeometry(s);},[w,h]);
+    useEffect(()=>()=>geometry.dispose(),[geometry]);useEffect(()=>()=>marker.dispose(),[marker]);
+    return <group name={intel?'lga1700-keyed-substrate':'amd-substrate'}>
+        <mesh position={[-d*.525,0,0]} rotation={[0,Math.PI/2,0]} geometry={geometry} castShadow><meshStandardMaterial color={intel?'#354b44':'#243b2c'} roughness={.73} metalness={.08}/></mesh>
+        <mesh position={[-d*.068,-h*.465,w*.465]} rotation={[0,Math.PI/2,0]} geometry={marker}><meshStandardMaterial color="#c3ab68" metalness={.55} roughness={.45}/></mesh>
+    </group>;
 }

@@ -1,0 +1,4 @@
+# Retain original source excerpts and license bytes, including PDF layout spaces.
+data/deep-review/** -whitespace
+tests/fixtures/** -whitespace
+public/models/noctua/README-Noctua.txt -whitespace

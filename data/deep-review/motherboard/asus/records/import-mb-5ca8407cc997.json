@@ -1,0 +1,267 @@
+{
+  "review": {
+    "id": "import-mb-5ca8407cc997",
+    "name": "TUF GAMING X870-PLUS WIFI",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "sha256": "512afad8334b40d7728091344958eb487d36422c705df3d7892225df4578f81a",
+        "bytes": 364221,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF GAMING X870-PLUS WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/2f4080b0-9c80-4e05-8267-64052d58773f/",
+      "https://dlcdnwebimgs.asus.com/gain/64c122cf-1bab-4bac-aa97-591e1573dd29/"
+    ],
+    "sections": [
+      "Model",
+      "News & Updates",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING X870-PLUS WIFI",
+    "identityNote": "Modèle ASUS TUF GAMING X870-PLUS WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 256,
+      "m2Slots": 4,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING X870-PLUS WIFI",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X870 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM slots, max. 256GB, DDR5\nSupports up to 8000+MT/s(OC) with Ryzen™ 9000 & 8000 & 7000 Series Processors\nECC and Non-ECC, Un-buffered DIMM*\nDual channel memory architecture\nSupports AMD Extended Profiles for Overclocking (EXPO™)\nASUS Enhanced Memory Profile (AEMP)\n* Adjustments will be made based on the specifications of mass-produced memory products available on the market.\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/download-center/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI™ port**\n2 x USB4® (40Gbps) ports support USB Type-C® display outputs***\n* Graphics specifications may vary between CPU types. Please refer to AMD CPU specifications.\n** Supports 4K@60Hz as specified in HDMI 2.1.  \n*** Supports max. 4K@60Hz as specified in DisplayPort 1.4a.\n**** VGA resolution support depends on processors' or graphic cards' resolution."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)***\nAMD X870 Chipset1 x PCIe 4.0 x16 slot (supports x4 mode)****\n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n** The PCIEX16(G5) shares bandwidth with M.2_2. The PCIEX16(G5) will run to x8 mode when M.2_2 runs.\n*** Specifications vary by CPU types.\n**** The PCIEX16(G4) shares bandwidth with M.2_4. The PCIEX16(G4) will be disabled when M.2_4 runs.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/download-center/ for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total Supports 4 x M.2 slots and 2 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot not support\nAMD X870 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_4 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)***\n2 x SATA 6Gb/s ports\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1. RAID 5 Function is only supported by AMD Ryzen™ 9000 series CPU.\n** The PCIEX16(G5) shares bandwidth with M.2_2. The PCIEX16(G5) will run to x8 mode when M.2_2 runs.\n*** The PCIEX16(G4) shares bandwidth with M.2_4. The PCIEX16(G4) will be disabled when M.2_4 runs."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wi-Fi 7*\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 160MHz bandwidth, up to 2.9Gbps transfer rate.\nBluetooth® v5.4***\n*Wi-Fi features may vary depending on the operating system\n For Windows 11, Wi-Fi 7 will require  24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E.\n** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n*** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 10 ports)\n2 x USB4® (40Gbps) ports (2 x USB Type-C®)*\n3 x USB 10Gbps ports (3 x Type-A)\n4 x USB 5Gbps ports (4 x Type-A)\n1 x USB 2.0 port (1 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 20Gbps connector (supports USB Type-C® with up to 30W PD Fast-charge)**\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\n* USB Type-C® power delivery output: max. 5V/3A\n** USB Type-C® power delivery output: 5V/9V max. 3A, 12V max. 2.5A, 15V max. 2A."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC1220P 7.1 Surround Sound High Definition Audio CODEC\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n- Supports up to 32-Bit/192 kHz playback*\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB4® (40Gbps) (2 x USB Type-C®) ports\n3 x USB 10Gbps ports (3 x Type-A)\n4 x USB 5Gbps ports (4 x Type-A)\n1 x USB 2.0 port (1 x Type-A) \n1 x HDMI™ port\n1 x Wi-Fi module\n1 x Realtek 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™ button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\n1 x W_PUMP+ header\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connectors\nStorage Related\n4 x M.2 slots (Key M) \n2 x SATA 6Gb/s ports\nUSB\n1 x USB 20Gbps connector (supports USB Type-C® with up to 30W PD Fast-charge)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Clear CMOS header\n1 x Chassis Intrusion header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x 10-1 pin Front System Panel header\n1 x Thermal Sensor header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS TUF PROTECTION\n- DIGI+ VRM (- Digital power design with SPS)\n- ESD Guards \n- TUF LANGuard\n- Overvoltage protection\n- SafeSlot\n- Stainless-steel back I/O\nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-Antenna\n- Q-Dashboard\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsinks\n- VRM heatsink design\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- ProCool\n- Pre-mounted I/O shield\n- SafeDIMM\nAura Sync\n- Addressable Gen 2 headers\nFront Panel USB 20Gbps with PD Fast Charge Support\n- Support: up to 30W fast charging and USB Wattage Watcher\n- Output: 5V/9V max. 3A, 12V max. 2.5A, 15V max. 2A\n- Compatible with PD3.0"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Fan Xpert 4 (with AI Cooling II)\n- Power Saving\nASUS DriverHub\n- ASUS AI Advisor\n- ASUS GlideX\n- USB Wattage Watcher\n- TurboV Core \n- TUF GAMING CPU-Z\nDTS Audio Processing\nNorton 360 for Gamers (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\n- ASUS MyHotkey"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nMiscellaneous\n1 x ASUS WiFi Q-Antenna\n2 x M.2 rubber packages\n1 x Screw package for M.2 SSD\n1 x TUF GAMING sticker\nDocumentation1 x Quick start guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 11"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/2f4080b0-9c80-4e05-8267-64052d58773f/"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://dlcdnwebimgs.asus.com/gain/64c122cf-1bab-4bac-aa97-591e1573dd29/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "memoryCapacity": {
+        "value": 256,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "chipset": {
+        "value": "AMD X870 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "storagePorts": {
+        "value": "Total Supports 4 x M.2 slots and 2 x SATA 6Gb/s ports*\nAMD Ryzen™ 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot not support\nAMD X870 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_4 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)***\n2 x SATA 6Gb/s ports\n* AMD RAIDXpert2 Technology supports both PCIe RAID 0/1/5/10 and SATA RAID 0/1. RAID 5 Function is only supported by AMD Ryzen™ 9000 series CPU.\n** The PCIEX16(G5) shares bandwidth with M.2_2. The PCIEX16(G5) will run to x8 mode when M.2_2 runs.\n*** The PCIEX16(G4) shares bandwidth with M.2_4. The PCIEX16(G4) will be disabled when M.2_4 runs.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 9000 & 7000 Series Desktop Processors*\n1 x PCIe 5.0 x16 slot (supports x16 mode)**\nAMD Ryzen™ 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)***\nAMD X870 Chipset1 x PCIe 4.0 x16 slot (supports x4 mode)****\n* Please check the PCIe bifurcation table on the support site (https://www.asus.com/support/FAQ/1037507/).\n** The PCIEX16(G5) shares bandwidth with M.2_2. The PCIEX16(G5) will run to x8 mode when M.2_2 runs.\n*** Specifications vary by CPU types.\n**** The PCIEX16(G4) shares bandwidth with M.2_4. The PCIEX16(G4) will be disabled when M.2_4 runs.\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/download-center/ for the list of supported peripherals.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB4® (40Gbps) (2 x USB Type-C®) ports\n3 x USB 10Gbps ports (3 x Type-A)\n4 x USB 5Gbps ports (4 x Type-A)\n1 x USB 2.0 port (1 x Type-A) \n1 x HDMI™ port\n1 x Wi-Fi module\n1 x Realtek 2.5Gb Ethernet port\n5 x Audio jacks \n1 x BIOS FlashBack™ button",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling Related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\n1 x W_PUMP+ header\nPower Related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connectors\nStorage Related\n4 x M.2 slots (Key M) \n2 x SATA 6Gb/s ports\nUSB\n1 x USB 20Gbps connector (supports USB Type-C® with up to 30W PD Fast-charge)\n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Clear CMOS header\n1 x Chassis Intrusion header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x 10-1 pin Front System Panel header\n1 x Thermal Sensor header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 2.5Gb Ethernet\nTUF LANGuard\nWi-Fi 7*\n2x2 Wi-Fi 7 (802.11be)\nSupports 2.4/5/6GHz frequency band**\nSupports Wi-Fi 7 160MHz bandwidth, up to 2.9Gbps transfer rate.\nBluetooth® v5.4***\n*Wi-Fi features may vary depending on the operating system\n For Windows 11, Wi-Fi 7 will require  24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only support Wi-Fi 6E.\n** Wi-Fi 6GHz frequency band and bandwidth regulatory may vary between countries.\n*** The Bluetooth® version may vary, please refer to the Wi-Fi module manufacturer's website for the latest specifications.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC1220P 7.1 Surround Sound High Definition Audio CODEC\n- Impedance sense for front and rear headphone outputs\n- Internal audio Amplifier to enhance the highest quality sound for headphone and speakers\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input (Line-in)\n- Supports up to 32-Bit/192 kHz playback*\nAudio Features\n- Audio Shielding\n- Premium audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit\n* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1 Surround Sound audio.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Socket AM5 for AMD Ryzen™ 9000 & 8000 & 7000 Series Desktop Processors*\n* Refer to https://www.asus.com/support/download-center/ for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x870-plus-wifi/techspec/",
+        "checkedAt": "2026-11-10T13:26:06+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING X870-PLUS WIFI"
+  }
+}

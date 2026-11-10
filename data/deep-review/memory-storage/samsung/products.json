@@ -1,0 +1,857 @@
+{
+  "oem-ram-samsung-m378a1k43eb2-cwe": {
+    "mpn": "M378A1K43EB2-CWE",
+    "identityNote": "Barrette OEM individuelle M378A1K43EB2-CWE, 8 Go, 1Rx8. Le code complet figure dans le tableau CompuRAM. Aucun kit commercial n’est déduit.",
+    "sources": [
+      {
+        "name": "CompuRAM — fiche du MPN exact",
+        "url": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Caractéristiques CompuRAM — référence exacte",
+        "rows": [
+          {
+            "label": "Référence constructeur",
+            "value": "M378A1K43EB2-CWE"
+          },
+          {
+            "label": "Capacité du module",
+            "value": "8 Go"
+          },
+          {
+            "label": "Type et débit",
+            "value": "DDR4-3200 · 3200 MT/s"
+          },
+          {
+            "label": "Format",
+            "value": "DIMM UDIMM · 288 contacts"
+          },
+          {
+            "label": "Organisation du module",
+            "value": "1Gx64"
+          },
+          {
+            "label": "Rangs",
+            "value": "1"
+          },
+          {
+            "label": "Organisation",
+            "value": "8GB (1Rx8)"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non · unbuffered"
+          },
+          {
+            "label": "Correction ECC",
+            "value": "Non"
+          },
+          {
+            "label": "Organisation des puces",
+            "value": "1Gx8"
+          },
+          {
+            "label": "Nombre de puces DRAM",
+            "value": "8"
+          },
+          {
+            "label": "Boîtier des puces",
+            "value": "FBGA(78ball)"
+          },
+          {
+            "label": "Profil",
+            "value": "JEDEC"
+          },
+          {
+            "label": "Tension",
+            "value": "1,2 V"
+          },
+          {
+            "label": "Hauteur",
+            "value": "31,25 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "M378A1K43EB2-CWE",
+      "capacityGB": 8,
+      "memorySticks": 1,
+      "memoryType": "DDR4",
+      "memorySpeedMTs": 3200,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "memoryProfile": "JEDEC",
+      "memoryRankCount": 1,
+      "memoryDeviceWidthBits": 8,
+      "memoryVoltageV": 1.2,
+      "heightMm": 31.25,
+      "detailLevel": "partial",
+      "description": "Barrette OEM individuelle M378A1K43EB2-CWE de 8 Go, DDR4-3200, organisation 1Rx8, UDIMM non ECC non enregistrée à 1,2 V. Hauteur de 31,25 mm publiée par CompuRAM pour cette référence exacte. CL22 relevée dans l’échantillon SPD public existant ; la vitesse effective dépend de la plateforme."
+    },
+    "offers": [],
+    "notes": [
+      "La source CompuRAM est un revendeur, pas Samsung. Les pages Samsung historiques redirigent actuellement vers la page DDR générique sans ce code produit.",
+      "La référence et les caractéristiques électriques concordent avec l’échantillon SPD public déjà associé à cette fiche. La hauteur vient de la fiche CompuRAM exacte.",
+      "Aucun prix français disponible confirmé pour cette barrette. Aucune offre équivalente ni kit de plusieurs modules n’est transféré.",
+      "Les dimensions longueur/épaisseur et une photographie fabricant de cette référence exacte restent sans preuve. Le nombre de rangs ne désigne pas le nombre de canaux ni le nombre de faces du PCB."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "M378A1K43EB2-CWE",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "capacityGB": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memorySpeedMTs": {
+        "value": 3200,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryProfile": {
+        "value": "JEDEC",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryRankCount": {
+        "value": 1,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryDeviceWidthBits": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "memoryVoltageV": {
+        "value": 1.2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      },
+      "heightMm": {
+        "value": 31.25,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a1k43eb2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.147804+00:00"
+      }
+    }
+  },
+  "oem-ram-samsung-m378a2g43ab3-cwe": {
+    "mpn": "M378A2G43AB3-CWE",
+    "identityNote": "Barrette OEM individuelle M378A2G43AB3-CWE, 16 Go, 1Rx8. Le code complet figure dans le tableau CompuRAM. Aucun kit commercial n’est déduit.",
+    "sources": [
+      {
+        "name": "CompuRAM — fiche du MPN exact",
+        "url": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Caractéristiques CompuRAM — référence exacte",
+        "rows": [
+          {
+            "label": "Référence constructeur",
+            "value": "M378A2G43AB3-CWE"
+          },
+          {
+            "label": "Capacité du module",
+            "value": "16 Go"
+          },
+          {
+            "label": "Type et débit",
+            "value": "DDR4-3200 · 3200 MT/s"
+          },
+          {
+            "label": "Format",
+            "value": "DIMM UDIMM · 288 contacts"
+          },
+          {
+            "label": "Organisation du module",
+            "value": "2Gx64"
+          },
+          {
+            "label": "Rangs",
+            "value": "1"
+          },
+          {
+            "label": "Organisation",
+            "value": "16GB (1Rx8)"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non · unbuffered"
+          },
+          {
+            "label": "Correction ECC",
+            "value": "Non"
+          },
+          {
+            "label": "Organisation des puces",
+            "value": "2Gx8"
+          },
+          {
+            "label": "Nombre de puces DRAM",
+            "value": "8"
+          },
+          {
+            "label": "Boîtier des puces",
+            "value": "FBGA(78ball)"
+          },
+          {
+            "label": "Profil",
+            "value": "JEDEC"
+          },
+          {
+            "label": "Tension",
+            "value": "1,2 V"
+          },
+          {
+            "label": "Hauteur",
+            "value": "31,25 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "M378A2G43AB3-CWE",
+      "capacityGB": 16,
+      "memorySticks": 1,
+      "memoryType": "DDR4",
+      "memorySpeedMTs": 3200,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "memoryProfile": "JEDEC",
+      "memoryRankCount": 1,
+      "memoryDeviceWidthBits": 8,
+      "memoryVoltageV": 1.2,
+      "heightMm": 31.25,
+      "detailLevel": "partial",
+      "description": "Barrette OEM individuelle M378A2G43AB3-CWE de 16 Go, DDR4-3200, organisation 1Rx8, UDIMM non ECC non enregistrée à 1,2 V. Hauteur de 31,25 mm publiée par CompuRAM pour cette référence exacte. CL22 relevée dans l’échantillon SPD public existant ; la vitesse effective dépend de la plateforme."
+    },
+    "offers": [],
+    "notes": [
+      "La source CompuRAM est un revendeur, pas Samsung. Les pages Samsung historiques redirigent actuellement vers la page DDR générique sans ce code produit.",
+      "La référence et les caractéristiques électriques concordent avec l’échantillon SPD public déjà associé à cette fiche. La hauteur vient de la fiche CompuRAM exacte.",
+      "Aucun prix français disponible confirmé pour cette barrette. Aucune offre équivalente ni kit de plusieurs modules n’est transféré.",
+      "Les dimensions longueur/épaisseur et une photographie fabricant de cette référence exacte restent sans preuve. Le nombre de rangs ne désigne pas le nombre de canaux ni le nombre de faces du PCB."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "M378A2G43AB3-CWE",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memorySpeedMTs": {
+        "value": 3200,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryProfile": {
+        "value": "JEDEC",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryRankCount": {
+        "value": 1,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryDeviceWidthBits": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "memoryVoltageV": {
+        "value": 1.2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      },
+      "heightMm": {
+        "value": 31.25,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43ab3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.263997+00:00"
+      }
+    }
+  },
+  "oem-ram-samsung-m378a2g43bb3-cwe": {
+    "mpn": "M378A2G43BB3-CWE",
+    "identityNote": "Barrette OEM individuelle M378A2G43BB3-CWE, 16 Go, 1Rx8. Le code complet figure dans le tableau CompuRAM. Aucun kit commercial n’est déduit.",
+    "sources": [
+      {
+        "name": "CompuRAM — fiche du MPN exact",
+        "url": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Caractéristiques CompuRAM — référence exacte",
+        "rows": [
+          {
+            "label": "Référence constructeur",
+            "value": "M378A2G43BB3-CWE"
+          },
+          {
+            "label": "Capacité du module",
+            "value": "16 Go"
+          },
+          {
+            "label": "Type et débit",
+            "value": "DDR4-3200 · 3200 MT/s"
+          },
+          {
+            "label": "Format",
+            "value": "DIMM UDIMM · 288 contacts"
+          },
+          {
+            "label": "Organisation du module",
+            "value": "2Gx64"
+          },
+          {
+            "label": "Rangs",
+            "value": "1"
+          },
+          {
+            "label": "Organisation",
+            "value": "16GB (1Rx8)"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non · unbuffered"
+          },
+          {
+            "label": "Correction ECC",
+            "value": "Non"
+          },
+          {
+            "label": "Organisation des puces",
+            "value": "2Gx8"
+          },
+          {
+            "label": "Nombre de puces DRAM",
+            "value": "8"
+          },
+          {
+            "label": "Boîtier des puces",
+            "value": "FBGA(78ball)"
+          },
+          {
+            "label": "Profil",
+            "value": "JEDEC"
+          },
+          {
+            "label": "Tension",
+            "value": "1,2 V"
+          },
+          {
+            "label": "Hauteur",
+            "value": "31,25 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "M378A2G43BB3-CWE",
+      "capacityGB": 16,
+      "memorySticks": 1,
+      "memoryType": "DDR4",
+      "memorySpeedMTs": 3200,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "memoryProfile": "JEDEC",
+      "memoryRankCount": 1,
+      "memoryDeviceWidthBits": 8,
+      "memoryVoltageV": 1.2,
+      "heightMm": 31.25,
+      "detailLevel": "partial",
+      "description": "Barrette OEM individuelle M378A2G43BB3-CWE de 16 Go, DDR4-3200, organisation 1Rx8, UDIMM non ECC non enregistrée à 1,2 V. Hauteur de 31,25 mm publiée par CompuRAM pour cette référence exacte. CL22 relevée dans l’échantillon SPD public existant ; la vitesse effective dépend de la plateforme."
+    },
+    "offers": [],
+    "notes": [
+      "La source CompuRAM est un revendeur, pas Samsung. Les pages Samsung historiques redirigent actuellement vers la page DDR générique sans ce code produit.",
+      "La référence et les caractéristiques électriques concordent avec l’échantillon SPD public déjà associé à cette fiche. La hauteur vient de la fiche CompuRAM exacte.",
+      "Aucun prix français disponible confirmé pour cette barrette. Aucune offre équivalente ni kit de plusieurs modules n’est transféré.",
+      "Les dimensions longueur/épaisseur et une photographie fabricant de cette référence exacte restent sans preuve. Le nombre de rangs ne désigne pas le nombre de canaux ni le nombre de faces du PCB."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "M378A2G43BB3-CWE",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memorySpeedMTs": {
+        "value": 3200,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryProfile": {
+        "value": "JEDEC",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryRankCount": {
+        "value": 1,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryDeviceWidthBits": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "memoryVoltageV": {
+        "value": 1.2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      },
+      "heightMm": {
+        "value": 31.25,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2g43bb3-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.306307+00:00"
+      }
+    }
+  },
+  "oem-ram-samsung-m378a2k43eb1-cwe": {
+    "mpn": "M378A2K43EB1-CWE",
+    "identityNote": "Barrette OEM individuelle M378A2K43EB1-CWE, 16 Go, 2Rx8. Le code complet figure dans le tableau CompuRAM. Aucun kit commercial n’est déduit.",
+    "sources": [
+      {
+        "name": "CompuRAM — fiche du MPN exact",
+        "url": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Caractéristiques CompuRAM — référence exacte",
+        "rows": [
+          {
+            "label": "Référence constructeur",
+            "value": "M378A2K43EB1-CWE"
+          },
+          {
+            "label": "Capacité du module",
+            "value": "16 Go"
+          },
+          {
+            "label": "Type et débit",
+            "value": "DDR4-3200 · 3200 MT/s"
+          },
+          {
+            "label": "Format",
+            "value": "DIMM UDIMM · 288 contacts"
+          },
+          {
+            "label": "Organisation du module",
+            "value": "2Gx64"
+          },
+          {
+            "label": "Rangs",
+            "value": "2"
+          },
+          {
+            "label": "Organisation",
+            "value": "16GB (2Rx8)"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non · unbuffered"
+          },
+          {
+            "label": "Correction ECC",
+            "value": "Non"
+          },
+          {
+            "label": "Organisation des puces",
+            "value": "1Gx8"
+          },
+          {
+            "label": "Nombre de puces DRAM",
+            "value": "16"
+          },
+          {
+            "label": "Boîtier des puces",
+            "value": "FBGA(78ball)"
+          },
+          {
+            "label": "Profil",
+            "value": "JEDEC"
+          },
+          {
+            "label": "Tension",
+            "value": "1,2 V"
+          },
+          {
+            "label": "Hauteur",
+            "value": "31,25 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "M378A2K43EB1-CWE",
+      "capacityGB": 16,
+      "memorySticks": 1,
+      "memoryType": "DDR4",
+      "memorySpeedMTs": 3200,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "memoryProfile": "JEDEC",
+      "memoryRankCount": 2,
+      "memoryDeviceWidthBits": 8,
+      "memoryVoltageV": 1.2,
+      "heightMm": 31.25,
+      "detailLevel": "partial",
+      "description": "Barrette OEM individuelle M378A2K43EB1-CWE de 16 Go, DDR4-3200, organisation 2Rx8, UDIMM non ECC non enregistrée à 1,2 V. Hauteur de 31,25 mm publiée par CompuRAM pour cette référence exacte. CL22 relevée dans l’échantillon SPD public existant ; la vitesse effective dépend de la plateforme."
+    },
+    "offers": [],
+    "notes": [
+      "La source CompuRAM est un revendeur, pas Samsung. Les pages Samsung historiques redirigent actuellement vers la page DDR générique sans ce code produit.",
+      "La référence et les caractéristiques électriques concordent avec l’échantillon SPD public déjà associé à cette fiche. La hauteur vient de la fiche CompuRAM exacte.",
+      "Aucun prix français disponible confirmé pour cette barrette. Aucune offre équivalente ni kit de plusieurs modules n’est transféré.",
+      "Les dimensions longueur/épaisseur et une photographie fabricant de cette référence exacte restent sans preuve. Le nombre de rangs ne désigne pas le nombre de canaux ni le nombre de faces du PCB."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "M378A2K43EB1-CWE",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "capacityGB": {
+        "value": 16,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memorySpeedMTs": {
+        "value": 3200,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryProfile": {
+        "value": "JEDEC",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryRankCount": {
+        "value": 2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryDeviceWidthBits": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "memoryVoltageV": {
+        "value": 1.2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      },
+      "heightMm": {
+        "value": 31.25,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a2k43eb1-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.380412+00:00"
+      }
+    }
+  },
+  "oem-ram-samsung-m378a4g43ab2-cwe": {
+    "mpn": "M378A4G43AB2-CWE",
+    "identityNote": "Barrette OEM individuelle M378A4G43AB2-CWE, 32 Go, 2Rx8. Le code complet figure dans le tableau CompuRAM. Aucun kit commercial n’est déduit.",
+    "sources": [
+      {
+        "name": "CompuRAM — fiche du MPN exact",
+        "url": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Caractéristiques CompuRAM — référence exacte",
+        "rows": [
+          {
+            "label": "Référence constructeur",
+            "value": "M378A4G43AB2-CWE"
+          },
+          {
+            "label": "Capacité du module",
+            "value": "32 Go"
+          },
+          {
+            "label": "Type et débit",
+            "value": "DDR4-3200 · 3200 MT/s"
+          },
+          {
+            "label": "Format",
+            "value": "DIMM UDIMM · 288 contacts"
+          },
+          {
+            "label": "Organisation du module",
+            "value": "4Gx64"
+          },
+          {
+            "label": "Rangs",
+            "value": "2"
+          },
+          {
+            "label": "Organisation",
+            "value": "32GB (2Rx8)"
+          },
+          {
+            "label": "Mémoire enregistrée",
+            "value": "Non · unbuffered"
+          },
+          {
+            "label": "Correction ECC",
+            "value": "Non"
+          },
+          {
+            "label": "Organisation des puces",
+            "value": "2Gx8"
+          },
+          {
+            "label": "Nombre de puces DRAM",
+            "value": "16"
+          },
+          {
+            "label": "Boîtier des puces",
+            "value": "FBGA(78ball)"
+          },
+          {
+            "label": "Profil",
+            "value": "JEDEC"
+          },
+          {
+            "label": "Tension",
+            "value": "1,2 V"
+          },
+          {
+            "label": "Hauteur",
+            "value": "31,25 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "M378A4G43AB2-CWE",
+      "capacityGB": 32,
+      "memorySticks": 1,
+      "memoryType": "DDR4",
+      "memorySpeedMTs": 3200,
+      "memoryModuleFormat": "DIMM",
+      "memoryModuleKind": "UDIMM",
+      "memoryRegistered": false,
+      "memoryEcc": false,
+      "memoryProfile": "JEDEC",
+      "memoryRankCount": 2,
+      "memoryDeviceWidthBits": 8,
+      "memoryVoltageV": 1.2,
+      "heightMm": 31.25,
+      "detailLevel": "partial",
+      "description": "Barrette OEM individuelle M378A4G43AB2-CWE de 32 Go, DDR4-3200, organisation 2Rx8, UDIMM non ECC non enregistrée à 1,2 V. Hauteur de 31,25 mm publiée par CompuRAM pour cette référence exacte. CL22 relevée dans l’échantillon SPD public existant ; la vitesse effective dépend de la plateforme."
+    },
+    "offers": [],
+    "notes": [
+      "La source CompuRAM est un revendeur, pas Samsung. Les pages Samsung historiques redirigent actuellement vers la page DDR générique sans ce code produit.",
+      "La référence et les caractéristiques électriques concordent avec l’échantillon SPD public déjà associé à cette fiche. La hauteur vient de la fiche CompuRAM exacte.",
+      "Aucun prix français disponible confirmé pour cette barrette. Aucune offre équivalente ni kit de plusieurs modules n’est transféré.",
+      "Les dimensions longueur/épaisseur et une photographie fabricant de cette référence exacte restent sans preuve. Le nombre de rangs ne désigne pas le nombre de canaux ni le nombre de faces du PCB."
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "M378A4G43AB2-CWE",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "capacityGB": {
+        "value": 32,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memorySpeedMTs": {
+        "value": 3200,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryModuleFormat": {
+        "value": "DIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryModuleKind": {
+        "value": "UDIMM",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryRegistered": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryEcc": {
+        "value": false,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryProfile": {
+        "value": "JEDEC",
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryRankCount": {
+        "value": 2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryDeviceWidthBits": {
+        "value": 8,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "memoryVoltageV": {
+        "value": 1.2,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      },
+      "heightMm": {
+        "value": 31.25,
+        "sourceURL": "https://www.compuram.biz/memory_module/samsung/m378a4g43ab2-cwe.htm",
+        "checkedAt": "2026-11-10T13:22:37.501769+00:00"
+      }
+    }
+  }
+}

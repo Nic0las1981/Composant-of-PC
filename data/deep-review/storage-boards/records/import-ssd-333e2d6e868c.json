@@ -1,0 +1,64 @@
+{
+  "id": "import-ssd-333e2d6e868c",
+  "brand": "HP",
+  "manufacturerModel": "HP FX900 Pro M.2 SSD 2 TB",
+  "source": {
+    "name": "HP / BIWIN — fiche officielle, capacité exacte",
+    "url": "https://hp.biwintech.com/products/hpfx900prom.2/",
+    "checkedAt": "2026-11-10T14:36:38+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://hp.biwintech.com/products/hpfx900prom.2/",
+    "checkedAt": "2026-11-10T14:36:38+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://hp.biwintech.com/products/hpfx900prom.2/",
+    "sha256": "c9e53ac10f6d2072004ddeae747fcf64ef9dd9661cbee37953ab25425d53345c",
+    "bytes": 52725,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCIe Gen 4.0 x 4, NVMe 1.4",
+    "Form Factor": "M.2 2280",
+    "Capacity": "2 TB",
+    "Sequential Read up to (MB/s)": "7400",
+    "Sequential Write up to (MB/s)": "6700",
+    "Max. Random Read Speed (IOPS)": "1344K",
+    "Max. Random Write Speed (IOPS)": "1122K",
+    "Dimensions": "80 × 22 × 3.2 mm",
+    "Weight": "≤ 10 g",
+    "MTBF": "≥ 1,000,000 hours",
+    "Operating Temperature": "0 °C to 70 °C",
+    "Storage Temperature": "-40 °C to 85 °C",
+    "Vibration Resistance": "3.1 GRMS (2-500Hz)",
+    "Shock Resistance": "100 G/ 6 ms",
+    "Certifications": "CE, FCC, RoHS, cTUVus, KCC, BSMI, VCCI, RCM",
+    "Warranty": "5-Year / 1200 TBW",
+    "NAND": "3D NAND Flash"
+  },
+  "images": [],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://hp.biwintech.com/products/hpfx900prom.2/",
+        "checkedAt": "2026-11-10T14:36:38+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://hp.biwintech.com/products/hpfx900prom.2/",
+        "sha256": "c9e53ac10f6d2072004ddeae747fcf64ef9dd9661cbee37953ab25425d53345c",
+        "bytes": 52725,
+        "status": "fetched"
+      },
+      "title": "HP FX900 Pro M.2 SSD",
+      "publishedCapacities": [
+        512,
+        1000,
+        2000,
+        4000
+      ]
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "GRAPHENE THERMAL PAD BETTER HEAT DISSIPATION"
+  }
+}

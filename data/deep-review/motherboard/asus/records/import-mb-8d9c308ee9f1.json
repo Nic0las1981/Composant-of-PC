@@ -1,0 +1,251 @@
+{
+  "review": {
+    "id": "import-mb-8d9c308ee9f1",
+    "name": "CROSSHAIR VI HERO",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "sha256": "33b8a7e791e4300d4ec897c21671a911e485c7bfac72472943f2499269517447",
+        "bytes": 257061,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG CROSSHAIR VI HERO",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/472CA6FF-ED86-4790-8B74-FC5E4B91D73C"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Audio",
+      "USB Ports",
+      "ROG Exclusive Features",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Support Disc",
+      "Operating System",
+      "Form Factor",
+      "Note",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "CROSSHAIR VI HERO",
+    "identityNote": "Modèle ASUS CROSSHAIR VI HERO confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "CROSSHAIR VI HERO",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for 3rd/2nd/1st Gen AMD Ryzen™/Ryzen™ with Radeon™ Vega Graphics/7th Generation A-series/Athlon X4 Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X370"
+          },
+          {
+            "label": "Mémoire",
+            "value": "3rd and 2nd Gen AMD Ryzen™ Processors\n4 x DIMM, Max. 128GB, DDR4 3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.)/2666/2400/2133 MHz ECC and non-ECC, Un-buffered Memory *\n4 x DIMM, Max. 128GB, DDR4 2400/2133 MHz Non-ECC, Un-buffered Memory *\n2nd and 1st Gen Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics/ 1st Gen AMD Ryzen™ Processors\n4 x DIMM, Max. 128GB, DDR4 3200(O.C.)/3000(O.C.)/2933(O.C.)/2800(O.C.)/2666/2400/2133 MHz Memory\nAMD 7th Generation A-series/Athlon™ Processors\nDual Channel Memory Architecture\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "Supports NVIDIA® 2-Way SLI™ Technology *3\nSupports AMD CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD X370 chipset\n1 x PCIe 2.0 x16 (max at x4 mode) *1\n3 x PCIe 2.0 x1\nAMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n2 x PCIe 3.0/2.0 x16 (x16 or dual x8)\nAMD Ryzen™ with Radeon™ Vega Graphics /7th Generation A-Series/Athlon X4 Processors\n1 x PCIe 3.0/2.0 x16 (x8 mode)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD X370 chipset :\nAMD 7th Generation A-series/Athlon™ Processors :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA mode)\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ 1st Generation Processors :\n8 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "ROG GameFirst IV\nIntel® I211-AT, 1 x Gigabit LAN Controller(s)\nAnti-surge LANGuard"
+          },
+          {
+            "label": "Audio",
+            "value": "- Sonic Studio III\nROG SupremeFX8-Channel High Definition Audio CODEC S1220\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\n- ESS® ES9023P\n- Supports up to 32-Bit/192kHz playback *2\nAudio Feature :\n- Gold-plated jacks\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III"
+          },
+          {
+            "label": "USB Ports",
+            "value": "6 x USB 3.0 port(s) (4 at back panel, blue, 2 at mid-board)\n4 x USB 3.0 port(s) (4 at back panel, blue)\nAMD X370 chipset :\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ 1st Generation/7th Generation A-Series/Athlon X4 Processors :\n2 x USB 3.1 port(s) (2 at back panel, black+red, Type-A + USB Type-CTM)\n1 x USB 3.1 Gen 2 front panel connector port(s)\n6 x USB 2.0 port(s) (4 at back panel, black, 2 at mid-board)\nASMedia® USB 3.1 Gen 2 controller :"
+          },
+          {
+            "label": "ROG Exclusive Features",
+            "value": "BIOS FlashBack™\nLoadline Calibration\n- One-click Overclocking\n- DirectKey\nKeyBot II\n- ClrCMOS\n- Power On\n- NexFET™ Power Block MOSFET\nROG RAMDisk\nROG RAMCache II\n- O.C. Profile\nClear CMOS button\nROG CloneDrive\nSlow Mode\nReTry Button\nSafe Boot Button\nLN2 Mode\nGameFirst IV\nMem TweakIt\nROG CPU-Z\nOverwolf\nStart Button\nReset Button\nROG Aura\nExtreme Engine Digi+ :\n- MicroFine Alloy Chokes\n- 10K Black Metallic Capacitors\nUEFI BIOS features :\n- Tweakers´ Paradise\n- ROG SSD Secure Erase\n- Graphic Card Information Preview\nExtreme Tweaker"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS Dual Intelligent Processors 5-Way Optimization by Dual Intelligent Processors 5 :\n- 5-Way Optimization tuning key perfectly consolidates TPU, EPU, DIGI+ VRM, Fan Expert 4, and Turbo App\nTPU\nGamer´s Guardian:\n- SafeSlot\nASUS Exclusive Features :\n- AI Suite 3\nASUS EZ DIY :\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\nASUS Q-Design :\n- ASUS Q-Shield\n- ASUS Q-Code\n- ASUS Q-LED (CPU, DRAM, VGA, Boot Device LED)\n- ASUS Q-DIMM\n- ASUS Q-Connector"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB 3.2 Gen 2 (black)USB Type-CTM,\n1 x USB 3.2 Gen 2 (red)Type-A\n4 x USB 2.0 (one port can be switched to USB BIOS FlashBack™)\n1 x USB BIOS FlashBack™ Button(s)\n8 x USB 3.2 Gen 1 (blue)\n1 x M.2 Wi-Fi Slot\n1 x LAN (RJ45) port(s)\n1 x Optical S/PDIF out\n1 x Clear CMOS button(s)\n5 x Gold-plated audio jacks"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x 4-pin EATX 12V_1 Power connector(s)\n1 x ROG extension (ROG_EXT) header(s)\n2 x 3D Mount screw port(s)\n1 x 8-pin EATX 12V Power connector\n1 x USB 3.1 Gen 2 front panel connector\n2 x Aura RGB Strip Header(s)\n1 x USB 3.1 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.1 Gen 1 port(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support\n1 x TPM header\n8 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x W_PUMP+ connector\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Slow Mode switch(es)\n1 x Thermal sensor connector(s)\n1 x Reset button(s)\n1 x LN2 Mode jumper(s)\n1 x Safe Boot button\n1 x ReTry button\n1 x System panel connector\n1 x W_IN header\n1 x W_OUT header\n1 x W_FLOW header\n1 x Start button"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x 3D printing mount package\n1 x 10-in-1 ROG cable label\nASUS Q-Shield\n1 x SLI HB BRIDGE(2-WAY-M)\nUser´s manual\n4 x SATA 6Gb/s cable(s)\n1 x M.2 Screw Package\n1 x Supporting DVD\n1 x ROG big sticker\n1 x Q-Connector\n1 x Extension Cable for RGB strips (80 cm)\n1 x ROG coaster(s)"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.0, ACPI 6.1, Multi-language BIOS, \nASUS EZ Flash 3, CrashFree BIOS 3, F11 EZ Tuning Wizard, F6 Qfan Control, F3 My Favorites, Last Modified log, \nF12 PrintScreen and ASUS DRAM SPD (Serial Presence Detect) memory information"
+          },
+          {
+            "label": "Administration",
+            "value": "WfM 2.0, WOL by PME, PXE"
+          },
+          {
+            "label": "Support Disc",
+            "value": "Drivers \n AURA \n ROG GameFirst IV*3\n ROG RAMDisk \n ROG RAMCache II \n ROG CPU-Z \n ROG Mem TweakIt \n ROG Keybot II \n Sonic Studio III\n Sonic Radar III\n Overwolf \n CloneDrive \n Kaspersky® Anti-Virus \n DAEMON Tools Software \n Winzip \n ASUS WebStorage \n ASUS Utilities"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "12 inch x 9.6 inch ( cm x cm )\nATX Form Factor"
+          },
+          {
+            "label": "Note",
+            "value": "*1 PCIeX4_3 slot shares bandwidth with PCIeX1_1, PCIeX1_2 and PCIeX1_3. \n*2 Due to limitations in HDA bandwidth, 32-Bit/192kHz is not supported for 8-Channel audio. \n*3 Due to CPU limitation, NVIDIA® 2-Way SLI™ Technology is not supported for AMD 7th Gen A-series/Athlon™ Processors."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/472CA6FF-ED86-4790-8B74-FC5E4B91D73C"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "formFactor": {
+        "value": "12 inch x 9.6 inch ( cm x cm )\nATX Form Factor",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "chipset": {
+        "value": "AMD X370",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD X370 chipset :\nAMD 7th Generation A-series/Athlon™ Processors :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA mode)\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ 1st Generation Processors :\n8 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "pcie": {
+        "value": "AMD X370 chipset\n1 x PCIe 2.0 x16 (max at x4 mode) *1\n3 x PCIe 2.0 x1\nAMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n2 x PCIe 3.0/2.0 x16 (x16 or dual x8)\nAMD Ryzen™ with Radeon™ Vega Graphics /7th Generation A-Series/Athlon X4 Processors\n1 x PCIe 3.0/2.0 x16 (x8 mode)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB 3.2 Gen 2 (black)USB Type-CTM,\n1 x USB 3.2 Gen 2 (red)Type-A\n4 x USB 2.0 (one port can be switched to USB BIOS FlashBack™)\n1 x USB BIOS FlashBack™ Button(s)\n8 x USB 3.2 Gen 1 (blue)\n1 x M.2 Wi-Fi Slot\n1 x LAN (RJ45) port(s)\n1 x Optical S/PDIF out\n1 x Clear CMOS button(s)\n5 x Gold-plated audio jacks",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "internalIO": {
+        "value": "1 x 4-pin EATX 12V_1 Power connector(s)\n1 x ROG extension (ROG_EXT) header(s)\n2 x 3D Mount screw port(s)\n1 x 8-pin EATX 12V Power connector\n1 x USB 3.1 Gen 2 front panel connector\n2 x Aura RGB Strip Header(s)\n1 x USB 3.1 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.1 Gen 1 port(s)\n1 x USB 2.0 connector(s) support(s) additional 2 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support\n1 x TPM header\n8 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x W_PUMP+ connector\n1 x AIO_PUMP connector\n1 x 24-pin EATX Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Slow Mode switch(es)\n1 x Thermal sensor connector(s)\n1 x Reset button(s)\n1 x LN2 Mode jumper(s)\n1 x Safe Boot button\n1 x ReTry button\n1 x System panel connector\n1 x W_IN header\n1 x W_OUT header\n1 x W_FLOW header\n1 x Start button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "network": {
+        "value": "ROG GameFirst IV\nIntel® I211-AT, 1 x Gigabit LAN Controller(s)\nAnti-surge LANGuard",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "audio": {
+        "value": "- Sonic Studio III\nROG SupremeFX8-Channel High Definition Audio CODEC S1220\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\n- ESS® ES9023P\n- Supports up to 32-Bit/192kHz playback *2\nAudio Feature :\n- Gold-plated jacks\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for 3rd/2nd/1st Gen AMD Ryzen™/Ryzen™ with Radeon™ Vega Graphics/7th Generation A-series/Athlon X4 Processors\n* Refer to www.asus.com for CPU support list\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.0, ACPI 6.1, Multi-language BIOS, \nASUS EZ Flash 3, CrashFree BIOS 3, F11 EZ Tuning Wizard, F6 Qfan Control, F3 My Favorites, Last Modified log, \nF12 PrintScreen and ASUS DRAM SPD (Serial Presence Detect) memory information",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-vi-hero-model/spec/",
+        "checkedAt": "2026-11-10T13:30:41+00:00"
+      }
+    },
+    "manufacturerModel": "ROG CROSSHAIR VI HERO"
+  }
+}

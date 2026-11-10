@@ -1,0 +1,261 @@
+{
+  "review": {
+    "id": "import-mb-590a96d118c1",
+    "name": "PRIME B760M-PLUS",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "sha256": "e4898a2891b3b9a155f82583ac6a98d48536b2b8c3eb914f957071cbc927be72",
+        "bytes": 351683,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME B760M-PLUS",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/7e0d319f-3fbd-4b3e-acf6-d6a5c9466693/",
+      "https://dlcdnwebimgs.asus.com/gain/dac5df9c-aeab-44e4-9ad7-97b83a5d0527/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B760M-PLUS",
+    "identityNote": "Modèle ASUS PRIME B760M-PLUS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME B760M-PLUS",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel®Core™ 12th Gen, Pentium® Gold and Celeron® Processors* \nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nIntel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel®Core™ 12th Gen, Pentium® Gold and Celeron® Processors* \nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.comfor CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B760 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM slots, max. 192GB, DDR5\n7200+(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nASUS Enhanced Memory Profile II (AEMP II)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function.\n4 x DIMM slots, max. 192GB, DDR5\n7200+(OC)/7000(OC)/6800(OC)/6600(OC)/6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nASUS Enhanced Memory Profile II (AEMP II)\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/.\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort**\n1 x HDMI™port***  \n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n**  Supports max. 4K@60Hz as specified in DisplayPort 1.4.\n***  Supports 4K@60Hz as specified in HDMI 2.1.\n1 x DisplayPort**\n1 x HDMI™port***  \n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n**  Supports max. 4K@60Hz as specified in DisplayPort 1.4.\n***  Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® CoreTM Processors (14th & 13th & 12th Gen)*\n1 x PCIe 4.0 x16 slot\nIntel® B760 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n1 x PCIe 4.0 x1 slot\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® CoreTM Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel®B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports  SATA RAID 0/1/5/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 6 ports)\n2 x USB 10Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A) \nFront USB (Total 8 ports)\n1 x USB 5Gbps connector (supports USB Type-C®) \n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n3 x USB 2.0 headers support 5 additional USB 2.0 ports\n* USB Type-C® power delivery output: max. 5V/3A\nRear USB (Total 6 ports)\n2 x USB 10Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A) \nFront USB (Total 8 ports)\n1 x USB 5Gbps connector ((supports USB Type-C®) \n1 x USB 5Gbps headers support 2 additional USB 5Gbps ports\n3 x USB 2.0 header support 5 additional USB 2.0 ports\n* USB Type-C® power delivery output: max. 5V/3A"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding \n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.\nRealtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Audio Shielding \n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 10Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A) \n1 x DisplayPort\n1 x HDMI™ port\n1 x Realtek 2.5Gb Ethernet port\n3 x Audio jacks \n1 x PS/2 Keyboard/Mouse combo port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n3 x USB 2.0 headers support 5 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front panel audio header (F_AUDIO)\n1 x LPT header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\nFan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n3 x USB 2.0 header support 5 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front panel audio header (F_AUDIO)\n1 x LPT header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n- DIGI+ VRM (- Digital power design with DrMOS)\n- ESD Guards \n- LANGuard\n- SafeSlot Core+\n- Stainless-Steel Back I/O\nASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS Thermal Solution\n- M.2 heatsink\n- VRM heatsink design\nASUS EZ DIY\n- ProCool \nAURA Sync\n- AURA RGB header\n- Addressable Gen 2 headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 2+\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Digi+ VRM\n- PC Cleaner\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\nAASUS Exclusive Software\nArmoury Crate\n- AURA Creator\n- AURA Sync\n- Fan Xpert 2+\n- Power Saving\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Digi+ VRM\n- PC Cleaner\nASUS CPU-Z\nNorton 360 Deluxe (60 Days Free Trial)\nWinRAR (40 Days Free Trial)\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables \nMiscellaneous\n1 x M.2 Rubber Package\n1 x Screw package for M.2 SSD\nDocumentation\n1 x Quick start guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/7e0d319f-3fbd-4b3e-acf6-d6a5c9466693/"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://dlcdnwebimgs.asus.com/gain/dac5df9c-aeab-44e4-9ad7-97b83a5d0527/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "formFactor": {
+        "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "boardDimensions": {
+        "value": "micro-ATX Form Factor\n9.6 inch x 9.6 inch ( 24.4 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B760 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® CoreTM Processors (14th & 13th & 12th Gen)\nM.2_1 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\nIntel®B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports  SATA RAID 0/1/5/10.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "pcie": {
+        "value": "Intel® CoreTM Processors (14th & 13th & 12th Gen)*\n1 x PCIe 4.0 x16 slot\nIntel® B760 Chipset\n1 x PCIe 4.0 x16 slot (supports x4 mode)\n1 x PCIe 4.0 x1 slot\n- To ensure compatibility of the device installed, please refer to https://www.asus.com/support/ for the list of supported peripherals.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 10Gbps ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A) \n1 x DisplayPort\n1 x HDMI™ port\n1 x Realtek 2.5Gb Ethernet port\n3 x Audio jacks \n1 x PS/2 Keyboard/Mouse combo port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n3 x USB 2.0 headers support 5 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front panel audio header (F_AUDIO)\n1 x LPT header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function\nFan and Cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 5Gbps connector (supports USB Type-C® ) \n1 x USB 5Gbps header supports 2 additional USB 5Gbps ports\n3 x USB 2.0 header support 5 additional USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Aura RGB header\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front panel audio header (F_AUDIO)\n1 x LPT header\n1 x S/PDIF Out header\n1 x SPI TPM header (14-1pin)\n1 x 20-3 pin System Panel header with Chassis intrude function",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 2.5Gb Ethernet\nASUS LANGuard",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding \n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.\nRealtek 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\"\nAudio Features\n- Audio Shielding \n- Premium audio capacitors\n- Dedicated audio PCB layers\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel®Core™ 12th Gen, Pentium® Gold and Celeron® Processors* \nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nIntel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel®Core™ 12th Gen, Pentium® Gold and Celeron® Processors* \nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.comfor CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-plus/techspec/",
+        "checkedAt": "2026-11-10T13:27:01+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B760M-PLUS"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "requestedURL": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/sp",
+  "checkedAt": "2026-11-10T13:25:01+00:00",
+  "attempts": [
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/sp",
+      "status": 200,
+      "resolvedURL": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/sp",
+      "bytes": 599500
+    }
+  ],
+  "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/sp",
+  "httpStatus": 200,
+  "sha256": "afc2aa6f6a1fd118716ac6bf9ef7d99448f8369f67fd2f007884b686ca4a0c11",
+  "title": "B650M GAMING PLUS WIFI (Rev. 1.3)",
+  "model": "B650M GAMING PLUS WIFI",
+  "revision": "1.3",
+  "sections": {
+    "CPU": "AMD Socket AM5, support for: AMD Ryzen™ 9000 Series Processors/ AMD Ryzen™ 8000 Series Processors/ AMD Ryzen™ 7000 Series Processors (Go to GIGABYTE's website for the latest CPU support list.)",
+    "Chipset": "AMD B650",
+    "Memory": "Support for DDR5 8000(OC)/ 7800(OC)/ 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800 MT/s memory modules 4 x DDR5 DIMM sockets supporting up to 256 GB (64 GB single DIMM capacity) of system memory Dual channel memory architecture Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory modules (The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to \"Memory Support List\" on GIGABYTE's website for more information.)",
+    "Onboard Graphics": "Integrated Graphics Processor with AMD Radeon™ Graphics support - 2 x DisplayPorts, supporting a maximum resolution of 3840x2160@144 Hz * Support for DisplayPort 1.4 version. - 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.1 version and HDCP 2.3. ** Support for native HDMI 2.1 TMDS compatible ports. Support for up to triple-display at the same time (Graphics specifications may vary depending on CPU support.)",
+    "Audio": "Realtek® Audio CODEC High Definition Audio 2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.",
+    "LAN": "Realtek® 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)",
+    "Wireless Communication module": "Realtek® Wi-Fi 6 RTL8851BE - WIFI a, b, g, n, ac, ax, supporting 2.4/5 GHz carrier frequency bands - BLUETOOTH 5.3 - Support for 11ax 80MHz wireless (Actual data rate may vary depending on environment and equipment.)",
+    "Expansion Slots": "1 x PCI Express x16 slot (PCIEX16), integrated in the CPU: \u001b AMD Ryzen™ 7000 Series Processors/ Ryzen™ 9000 Series Processors support PCIe 4.0 x16 mode \u001b AMD Ryzen™ 8000 Series-Phoenix 1 Processors support PCIe 4.0 x8 mode \u001b AMD Ryzen™ 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4 mode * The PCIEX16 slot can only support a graphics card or an NVMe SSD. Chipset: - 1 x PCI Express x1 slot, supporting PCIe 3.0 and running at x1 (PCIEX1)",
+    "Storage Interface": "1 x M.2 connector (M2A_CPU), integrated in the CPU, supporting Socket 3, M key, type 2580 SSDs: \u001b AMD Ryzen™ 7000 Series Processors/ Ryzen™ 9000 Series Processors support PCIe 4.0 x4/x2 SSDs \u001b AMD Ryzen™ 8000 Series-Phoenix 1 Processors support PCIe 4.0 x4/x2 SSDs \u001b AMD Ryzen™ 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4/x2 SSDs 1 x M.2 connector (M2C_SB), integrated in the Chipset, supporting Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSDs 4 x SATA 6Gb/s connectors RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices RAID 0, RAID 1, and RAID 10 support for SATA storage devices",
+    "USB": "CPU: - 1 x USB Type-C® port on the back panel, with USB 3.2 Gen 1 support - 1 x USB 3.2 Gen 1 port on the back panel - 1 x USB 2.0/1.1 port on the back panel Chipset: - 2 x USB 3.2 Gen 1 ports on the back panel - 1 x USB Type-C® port with USB 3.2 Gen 1 support, available through the internal USB header - 2 x USB 3.2 Gen 1 ports available through the internal USB header - 5 x USB 2.0/1.1 ports (1 port on the back panel, 4 ports available through the internal USB headers)",
+    "Internal I/O Connectors": "1 x 24-pin ATX main power connector 1 x 8-pin ATX 12V power connector 1 x CPU fan header 2 x system fan headers 2 x addressable LED strip headers 1 x RGB LED strip header 2 x M.2 Socket 3 connectors 4 x SATA 6Gb/s connectors 1 x front panel header 1 x front panel audio header 1 x USB Type-C® header, with USB 3.2 Gen 1 support 1 x USB 3.2 Gen 1 header 2 x USB 2.0/1.1 headers 1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only) 1 x Q-Flash Plus button 1 x reset jumper 1 x Clear CMOS jumper",
+    "Back Panel Connectors": "1 x PS/2 keyboard/mouse port 1 x USB Type-C® port, with USB 3.2 Gen 1 support 3 x USB 3.2 Gen 1 ports 2 x USB 2.0/1.1 ports 1 x HDMI port 2 x DisplayPorts 2 x antenna connectors (1T1R) 1 x RJ-45 port 3 x audio jacks",
+    "I/O Controller": "iTE® I/O Controller Chip",
+    "H/W Monitoring": "Voltage detection Temperature detection Fan speed detection Fan fail warning Fan speed control * Whether the fan speed control function is supported will depend on the fan you install.",
+    "BIOS": "1 x 256 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+    "Unique Features": "Support for GIGABYTE Control Center (GCC) * Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. Support for Q-Flash Support for Q-Flash Plus",
+    "Bundled Software": "Norton® Internet Security (OEM version) LAN bandwidth management software",
+    "Operating System": "Support for Windows 11 64-bit Support for Windows 10 64-bit",
+    "Form Factor": "Micro ATX Form Factor; 24.4cm x 24.4cm"
+  },
+  "sectionItems": {
+    "CPU": [],
+    "Chipset": [],
+    "Memory": [],
+    "Onboard Graphics": [],
+    "Audio": [],
+    "LAN": [],
+    "Wireless Communication module": [],
+    "Expansion Slots": [],
+    "Storage Interface": [],
+    "USB": [],
+    "Internal I/O Connectors": [],
+    "Back Panel Connectors": [],
+    "I/O Controller": [],
+    "H/W Monitoring": [],
+    "BIOS": [],
+    "Unique Features": [],
+    "Bundled Software": [],
+    "Operating System": [],
+    "Form Factor": []
+  },
+  "imageURLs": [
+    "https://static.gigabyte.com/StaticFile/Image/Global/1da83cb1781a28ac61bc0cee95f34c62/ProductRemoveBg/46611"
+  ],
+  "revisionURLs": [
+    "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13",
+    "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-10-11-12"
+  ],
+  "manualURLs": [],
+  "status": "official_specifications",
+  "manufacturerAliases": [
+    "B650M GAMING PLUS WF"
+  ]
+}

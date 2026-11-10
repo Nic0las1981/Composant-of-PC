@@ -1,0 +1,216 @@
+{
+  "review": {
+    "id": "import-mb-1f4215428d1d",
+    "name": "TUF GAMING B550-PRO",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+          "checkedAt": "2026-11-10T14:09:05+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+          "httpStatus": 200,
+          "sha256": "b19576498e0b5d493420ea9a571fdf24f487e8b16e88427c1320547bd2e315a1",
+          "bytes": 3773117,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "cover": "draobrehtoM TUF GAMING B550-PRO",
+        "pages": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING B550-PRO",
+    "identityNote": "Modèle ASUS TUF GAMING B550-PRO confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — manuel officiel, tableau des spécifications",
+        "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING B550-PRO",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000\nSeries Desktop Processors*\n*Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n4 x DIMM, Max. 128GB, DDR4 4600(O.C.)/ 4400(O.C.)/ 4333(O.C.)/\n4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/\n3466(O.C.)/3333(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz,\nUn-buffered Memory*\nAMD Ryzen™ 4000 G-Series Desktop Processors\n4 x DIMM, Max. 128GB, DDR4 5100(O.C.)/4866(O.C.)/4600(O.C.)/\n4500(O.C.)/4400(O.C)/4333(O.C.)/4266(O.C.)/4200(O.C.)/4133(O.C.)/\n4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/\n3333(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory*\nDual Channel Memory Architecture\n*ECC Memory (ECC mode) support varies by CPU.\n**Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort 1.2\n1 x HDMITM 2.1(4K@60HZ)\n*Graphics specifications may vary between CPU types."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD B550 Chipset\n1 x PCIe 3.0 x16 slot (supports x4 mode)*\n3 x PCIe 3.0 x1 slots*\n*PCIE 3.0 X16_2 runs x1 mode when any of the PCIe 3.0 x1 slots is occupied.\n**Support PCIe bifurcation for RAID on CPU function."
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "Supports AMD 2-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slots and 6 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 &\nSATA modes)\nAMD Ryzen™ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 &\nSATA modes)\nAMD B550 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 &\nSATA modes)*\n6 x SATA 6Gb/s ports\nSupport Raid 0, 1, 10\n* M2_2 shares bandwidth with SATA6G_56. When M.2_2 is populated, SATA6G_56\nwill be disabled."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek RTL8125B 2.5Gb Ethernet"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 8 ports)\n2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C®)\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\nFront USB (Total 7 ports)\n2 x USB 3.2 Gen 1 headers support additional 3 USB 3.2 Gen 1 ports (2 x\nType-A + 1 x USB Type-C®)\n2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC S1200A 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Rear optical S/PDIF out port\n- Premium Japanese audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C®)\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMITM port\n1 x Realtek RTL8125B 2.5Gb Ethernet port\n5 x Audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n6 x SATA 6Gb/s ports\nUSB\n2 x USB 3.2 Gen 1 headers support additional 3 USB 3.2 Gen 1 ports (2 x\nType-A + 1 x USB Type-C®)\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n2 x AURA Addressable Gen 2 headers\n2 x AURA RGB headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x SPI TPM header (14-1 pin)\n1 x 20-3 pin System Panel header\n1 x Thermal Sensor header\n1 x Thunderbolt header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS TUF PROTECTION\n- ASUS DIGI+ VRM (Digital power design with DrMOS)\n- ASUS Enhanced DRAM Overcurrent Protection\n- ASUS ESD Guards\n- TUF LANGuard\n- ASUS Overvoltage Protection\n- ASUS SafeSlot\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design\n- ASUS Q-DIMM\n- ASUS Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device\n[yellow green])\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum M.2 heatsink\nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Procool\nAURA Sync\n- AURA RGB headers\n- Addressable Gen 2 RGB headers"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Performance And Power Saving Utility\nTurboV EVO\nEPU\nDIGI+ VRM\nFan Xpert 4\nPC Cleaner\n- EZ update\n- System Information\nTUF GAMING CPU-Z\nAI Charger\nASUS Turbo LAN\nDTS Custom for GAMING Headsets\nNorton Anti-virus software (Free Trial for 60 days)\nWinRAR\nUEFI BIOS\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch (30.5 cm x 24.4 cm)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le tableau complet du manuel conserve les limites et restrictions publiées à son édition ; les mises à jour BIOS/QVL peuvent modifier les listes de CPU et de mémoire compatibles."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slots and 6 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 &\nSATA modes)\nAMD Ryzen™ 4000 G-Series Desktop Processors\nM.2_1 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 &\nSATA modes)\nAMD B550 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 3.0 x4 &\nSATA modes)*\n6 x SATA 6Gb/s ports\nSupport Raid 0, 1, 10\n* M2_2 shares bandwidth with SATA6G_56. When M.2_2 is populated, SATA6G_56\nwill be disabled.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x16 mode)\nAMD Ryzen™ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD B550 Chipset\n1 x PCIe 3.0 x16 slot (supports x4 mode)*\n3 x PCIe 3.0 x1 slots*\n*PCIE 3.0 X16_2 runs x1 mode when any of the PCIe 3.0 x1 slots is occupied.\n**Support PCIe bifurcation for RAID on CPU function.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C®)\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n4 x USB 2.0 ports (4 x Type-A)\n1 x DisplayPort\n1 x HDMITM port\n1 x Realtek RTL8125B 2.5Gb Ethernet port\n5 x Audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and cooling related\n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n3 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\n1 x 4-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M)\n6 x SATA 6Gb/s ports\nUSB\n2 x USB 3.2 Gen 1 headers support additional 3 USB 3.2 Gen 1 ports (2 x\nType-A + 1 x USB Type-C®)\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n2 x AURA Addressable Gen 2 headers\n2 x AURA RGB headers\n1 x Clear CMOS header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x SPI TPM header (14-1 pin)\n1 x 20-3 pin System Panel header\n1 x Thermal Sensor header\n1 x Thunderbolt header",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek RTL8125B 2.5Gb Ethernet",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC S1200A 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack detection, Multi-streaming, Front Panel Jack-retasking\n- Supports up to 24-Bit/192 kHz playback\nAudio Features\n- Audio Shielding\n- Rear optical S/PDIF out port\n- Premium Japanese audio capacitors\n- Dedicated audio PCB layers\n- Audio cover\n- Unique de-pop circuit",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000\nSeries Desktop Processors*\n*Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550-PRO/E17542_TUF_GAMING_B550-PRO_UM_web.pdf",
+        "checkedAt": "2026-11-10T14:09:05+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING B550-PRO"
+  }
+}

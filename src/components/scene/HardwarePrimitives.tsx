@@ -283,7 +283,7 @@ export function RGBRing({
   );
 }
 
-function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
+function CurvedFanBlades({ radius, color, bladeCount = 9, rgb = false }: { radius: number; color: string; bladeCount?: number; rgb?: boolean }) {
   const ref = useRef<THREE.InstancedMesh>(null);
   const surface = useHardwareSurface("plastic");
   const geometry = useMemo(() => {
@@ -305,27 +305,30 @@ function CurvedFanBlades({ radius, color }: { radius: number; color: string }) {
     });
     const vertices=blade.getAttribute("position");
     for(let i=0;i<vertices.count;i++){
-      const x=vertices.getX(i),y=vertices.getY(i);
+      const x=vertices.getX(i),y=vertices.getY(i) * Math.min(1.65, 9 / Math.max(1, bladeCount));
+      vertices.setY(i, y);
       vertices.setZ(i,vertices.getZ(i)+y*(.32+.2*x)+.035*x*x);
     }
     blade.computeVertexNormals();
     return blade;
-  }, []);
+  }, [bladeCount]);
   useEffect(() => () => geometry.dispose(), [geometry]);
   useLayoutEffect(() => {
     if (!ref.current) return;
     const object = new THREE.Object3D();
-    for (let i = 0; i < 9; i++) {
-      object.rotation.z = (i / 9) * Math.PI * 2;
+    for (let i = 0; i < bladeCount; i++) {
+      object.rotation.z = (i / bladeCount) * Math.PI * 2;
       object.scale.setScalar(radius);
       object.updateMatrix();
       ref.current.setMatrixAt(i, object.matrix);
+      ref.current.setColorAt(i, rgb ? new THREE.Color().setHSL(i / bladeCount + .04, .45, .65) : new THREE.Color("#ffffff"));
     }
     ref.current.instanceMatrix.needsUpdate = true;
+    if (ref.current.instanceColor) ref.current.instanceColor.needsUpdate = true;
     ref.current.computeBoundingSphere();
-  }, [radius]);
+  }, [radius, bladeCount, rgb]);
   return (
-    <instancedMesh ref={ref} args={[geometry, undefined, 9]}>
+    <instancedMesh ref={ref} args={[geometry, undefined, bladeCount]}>
       <meshStandardMaterial
         color={color}
         metalness={0.12}
@@ -382,6 +385,8 @@ export function HardwareFan({
   hubLabel,
   color = "#171b20",
   bladeColor,
+  bladeCount = 9,
+  depth = .11,
 }: {
   radius?: number;
   position?: Vector3;
@@ -392,6 +397,9 @@ export function HardwareFan({
   hubLabel?: string;
   color?: string;
   bladeColor?: string;
+  bladeCount?: number;
+  /** Illustrated axial thickness in scene units; supplied CAD uses its own envelope. */
+  depth?: number;
 }) {
   const rotor = useRef<THREE.Group>(null);
   const animated = useSceneAnimation();
@@ -426,7 +434,7 @@ export function HardwareFan({
     rotation: [0, 0, angle] as Vector3,
   })), [radius]);
   return (
-    <group name="hardware-fan" userData={{ animationKind: "fan", rgb }} position={position} rotation={rotation}>
+    <group name="hardware-fan" userData={{ animationKind: "fan", rgb, illustratedBladeCount: bladeCount }} position={position} rotation={rotation} scale={[1, 1, depth / .11]}>
       {frame && <><FanHousing radius={radius} color={color} /><BoxInstances items={supports} color={color} metalness={0.1} roughness={0.6} /></>}
       {rgb ? <RGBRing radius={radius} position={[0, 0, 0.047]} phase={rgbPhase} /> : <mesh position={[0, 0, 0.047]}>
         <ringGeometry args={[radius * 0.86, radius, 48]} />
@@ -439,7 +447,7 @@ export function HardwareFan({
       </mesh>}
       <group ref={rotor} name="fan-rotor" userData={{ animationKind: "fan-rotor" }}>
       <group position={[0, 0, 0.005]}>
-        <CurvedFanBlades radius={radius} color={resolvedBladeColor} />
+        <CurvedFanBlades radius={radius} color={resolvedBladeColor} bladeCount={bladeCount} rgb={rgb} />
       </group>
       <mesh position={[0, 0, 0.016]} rotation={[Math.PI / 2, 0, 0]}>
         <cylinderGeometry args={[radius * 0.24, radius * 0.24, 0.04, 24]} />

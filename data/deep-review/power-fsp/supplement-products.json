@@ -1,0 +1,1037 @@
+{
+  "import-psu-dfda1cc04099": {
+    "identityKind": "mpn",
+    "manufacturerModel": "FSP650-80EGN 90+",
+    "mpn": "9PA6502502",
+    "identityNote": "Identité exacte dans le document cité. La référence commerciale est publiée explicitement.",
+    "sources": [
+      {
+        "name": "FSP — fiche FSP650-80EGN 90+, PDF original distribué par Rosch, page 1",
+        "url": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche constructeur",
+        "rows": [
+          {
+            "label": "Modèle fabricant",
+            "value": "FSP650-80EGN 90+"
+          },
+          {
+            "label": "Référence commerciale",
+            "value": "9PA6502502"
+          },
+          {
+            "label": "Puissance nominale continue",
+            "value": "650 W"
+          },
+          {
+            "label": "Puissance de crête",
+            "value": "700 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX / PS2"
+          },
+          {
+            "label": "Dimensions (profondeur × largeur × hauteur)",
+            "value": "140 × 150 × 86 mm"
+          },
+          {
+            "label": "Certification",
+            "value": "80 PLUS Gold"
+          },
+          {
+            "label": "Rendement mesuré (charge 20 / 50 / 100 %)",
+            "value": "89,67 / 90,97 / 88,54 %"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "90–264 V ; 10–5 A ; 47–63 Hz"
+          },
+          {
+            "label": "Rail +12 V combiné",
+            "value": "600 W / 50 A, quatre rails limités chacun à 18 A"
+          },
+          {
+            "label": "Rails +3,3 V / +5 V",
+            "value": "26 A chacun, 150 W combinés"
+          },
+          {
+            "label": "Rails -12 V / +5Vsb",
+            "value": "0,5 A / 3,5 A, 23,5 W combinés"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "1 ATX 20+4 ; 1 EPS 4+4 ; 2 PCIe 6 broches ; 2 PCIe 6+2 ; 4 SATA ; 4 Molex ; 1 Floppy"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "Roulement à billes double ; diamètre non indiqué dans cette fiche"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OTP, OPP, SCP"
+          },
+          {
+            "label": "Garantie annoncée sur le document",
+            "value": "2 ans"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "power": {
+        "value": 650,
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "format": {
+        "value": "ATX / PS2",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "depth": {
+        "value": 140,
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "width": {
+        "value": 150,
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "height": {
+        "value": 86,
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "efficiency": {
+        "value": "80 PLUS Gold",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "rail12v": {
+        "value": "600 W combinés sur +12V1/2/3/4",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "connectors": {
+        "value": "1 ATX 20+4 ; 1 EPS 4+4 ; 2 PCIe 6 broches ; 2 PCIe 6+2 ; 4 SATA ; 4 Molex ; 1 Floppy",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "fan": {
+        "value": "Roulement à billes double ; diamètre non indiqué dans cette fiche",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "protections": {
+        "value": "OCP, OVP, UVP, OTP, OPP, SCP",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      },
+      "warranty": {
+        "value": "2 ans — logo sur le PDF constructeur",
+        "sourceURL": "https://www.rosch-computer.de/file.jsp?aid=5730&sku=FSP650-80EGN",
+        "checkedAt": "2026-11-10T15:16:23.626850+00:00"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "FSP650-80EGN 90+",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP FSP650-80EGN 90+. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "FSP650-80EGN 90+"
+      ],
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "depthMm": 140,
+      "widthMm": 150,
+      "heightMm": 86,
+      "manufacturerPartNumber": "9PA6502502"
+    },
+    "offers": [],
+    "notes": [
+      "La valeur 700 W est une crête ; la puissance continue publiée est 650 W.",
+      "Inspection visuelle du PDF : logo FSP, référence 9PA6502502, dimensions et tableau des connecteurs contrôlés."
+    ]
+  },
+  "import-psu-151622328ff0": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "ATX400-PNT",
+    "mpn": "",
+    "identityNote": "Identité exacte dans le document cité. Aucun SKU commercial distinct n’est attribué.",
+    "sources": [
+      {
+        "name": "FSP Group USA — ATX400-PNT, page produit intégrale",
+        "url": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche constructeur",
+        "rows": [
+          {
+            "label": "Modèle",
+            "value": "ATX400-PNT"
+          },
+          {
+            "label": "Puissance annoncée",
+            "value": "400 W"
+          },
+          {
+            "label": "Norme ATX",
+            "value": "ATX12V v2.2"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm, contrôle thermique"
+          },
+          {
+            "label": "Connectique annoncée",
+            "value": "Alimentation Serial ATA prise en charge ; nombre non publié"
+          },
+          {
+            "label": "Veille",
+            "value": "1 W"
+          },
+          {
+            "label": "Garantie du modèle OEM",
+            "value": "1 an"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "power": {
+        "value": 400,
+        "sourceURL": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z"
+      },
+      "format": {
+        "value": "ATX",
+        "sourceURL": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z"
+      },
+      "atx": {
+        "value": "ATX12V 2.2",
+        "sourceURL": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z"
+      },
+      "fan": {
+        "value": "120 mm, contrôle thermique",
+        "sourceURL": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z"
+      },
+      "warranty": {
+        "value": "1 an — garantie OEM explicitement indiquée",
+        "sourceURL": "https://www.fspgroupusa.com/ecommerce/pc-psu/atx400-pnt.html",
+        "checkedAt": "2026-11-10T15:20:59.732Z"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "ATX400-PNT",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP ATX400-PNT. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "ATX400-PNT"
+      ],
+      "wattage": 400,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-psu-53c110cc9ed9": {
+    "identityKind": "mpn",
+    "manufacturerModel": "VITAL 400",
+    "mpn": "PPA4001912",
+    "identityNote": "Identité exacte dans le document cité. La référence commerciale est publiée explicitement.",
+    "sources": [
+      {
+        "name": "FSP Group USA — présentation VITAL400, diapositives 3, 5 et 6",
+        "url": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche constructeur",
+        "rows": [
+          {
+            "label": "Référence commerciale",
+            "value": "PPA4001912"
+          },
+          {
+            "label": "Puissance continue",
+            "value": "400 W à 30 °C"
+          },
+          {
+            "label": "Normes",
+            "value": "ATX 2.31 / EPS 2.92"
+          },
+          {
+            "label": "Certification et rendement",
+            "value": "80 PLUS, >80 %"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes (MODULAR CABLE: N/A)"
+          },
+          {
+            "label": "Dimensions (largeur × profondeur × hauteur)",
+            "value": "5.90 × 5.51 × 3.38 pouces — dimensions de l’unité"
+          },
+          {
+            "label": "Masse",
+            "value": "3.60 lb"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 ; P4 4+4 ; 3 Molex ; 1 FDD ; 4 SATA ; 1 PCIe 6+2"
+          },
+          {
+            "label": "Rails de sortie",
+            "value": "+3,3 V 24 A ; +5 V 23 A ; +12V1 17 A ; +12V2 15 A ; -12 V 0,5 A ; +5Vsb 2,5 A"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, SCP, OPP"
+          },
+          {
+            "label": "MTBF",
+            "value": "100 000 heures, conditions typiques"
+          },
+          {
+            "label": "PFC",
+            "value": "Actif, facteur de puissance ≥0,99"
+          },
+          {
+            "label": "Garantie",
+            "value": "3 ans"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "power": {
+        "value": "400 W continus à 30 °C",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "format": {
+        "value": "ATX",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "atx": {
+        "value": "ATX 2.31",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "efficiency": {
+        "value": "80 PLUS >80 %",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "modularity": {
+        "value": "Câbles fixes",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "height": {
+        "value": "3.38 in",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "width": {
+        "value": "5.90 in",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "depth": {
+        "value": "5.51 in",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "connectors": {
+        "value": "ATX 20+4 ; P4 4+4 ; 3 Molex ; 1 FDD ; 4 SATA ; 1 PCIe 6+2",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "fan": {
+        "value": "120 mm",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "protections": {
+        "value": "OCP, OVP, UVP, SCP, OPP",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      },
+      "warranty": {
+        "value": "3 ans",
+        "sourceURL": "https://www.slideshare.net/slideshow/fsp-group-400-w-atx-power-supply-12v-80-plus-certified-vital-series-vital-400-56349600/56349600",
+        "checkedAt": "2026-11-10T15:25:23.227Z"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "VITAL 400",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP VITAL 400. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "VITAL 400"
+      ],
+      "wattage": 400,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "manufacturerPartNumber": "PPA4001912"
+    },
+    "offers": [],
+    "notes": [
+      "Présentation signée FSP Group USA avec référence PPA4001912 et coordonnées fabricant. Les dimensions d’emballage ne sont pas attribuées à l’alimentation."
+    ]
+  },
+  "import-psu-8033bbbfd4e0": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "SAGA+ 450R",
+    "mpn": "",
+    "identityNote": "Identité exacte dans le document cité. Aucun SKU commercial distinct n’est attribué.",
+    "sources": [
+      {
+        "name": "Newegg — fiche historique exacte SAGA+ 450R",
+        "url": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche marchande ancienne — confirmation constructeur absente",
+        "rows": [
+          {
+            "label": "Brand",
+            "value": "FSP Group"
+          },
+          {
+            "label": "Model",
+            "value": "SAGA+ 450R"
+          },
+          {
+            "label": "Type",
+            "value": "ATX12V v2.2"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "450 W"
+          },
+          {
+            "label": "Fans",
+            "value": "1 x 120mm sleeve-bearing with Thermal Sensor Linked"
+          },
+          {
+            "label": "PFC",
+            "value": "No"
+          },
+          {
+            "label": "Main Connector",
+            "value": "20+4Pin"
+          },
+          {
+            "label": "+12V Rails",
+            "value": "2"
+          },
+          {
+            "label": "PCI-Express Connector",
+            "value": "1 x 6-Pin"
+          },
+          {
+            "label": "SATA Power Connector",
+            "value": "2"
+          },
+          {
+            "label": "SLI",
+            "value": "No"
+          },
+          {
+            "label": "CrossFire",
+            "value": "No"
+          },
+          {
+            "label": "Modular",
+            "value": "No"
+          },
+          {
+            "label": "Power Good Signal",
+            "value": "100-500ms"
+          },
+          {
+            "label": "Hold-up Time",
+            "value": "12.0ms minimum"
+          },
+          {
+            "label": "Efficiency",
+            "value": "> 70%"
+          },
+          {
+            "label": "Over Voltage Protection",
+            "value": "+3.3V (4.6V max.), +5V (6.5V max.), 12V1 (15.5V max.), 12V2 (15.5V max.)"
+          },
+          {
+            "label": "Input Voltage",
+            "value": "115 / 230 V"
+          },
+          {
+            "label": "Input Frequency Range",
+            "value": "50/60 Hz"
+          },
+          {
+            "label": "Input Current",
+            "value": "8.5/ 5A"
+          },
+          {
+            "label": "Output",
+            "value": "+3.3V@20A, +5V@16A, +12V1@14A, +12V2@13A, [email protected], [email protected]"
+          },
+          {
+            "label": "MTBF",
+            "value": "100K hours at 25°C"
+          },
+          {
+            "label": "Approvals",
+            "value": "NEMKO, TUV, CSA, IEC, UL, CE"
+          },
+          {
+            "label": "Connectors",
+            "value": "1 x Main connector (20+4Pin)1 x 12V (P4)4 x peripheral2+1 x SATA (One Molex 4-Pin to SATA coverter include)1 x Floppy1 x PCI-E"
+          },
+          {
+            "label": "Features",
+            "value": "SUPPORTS MULTI-CORE AMD/INTEL CPU SYSTEMMESHED OUTPUT CABLEComplete OVP, OCP, SCP ProtectionTHERMAL CONTROL SYSTEM LINKED TO FANTHERMAL COATING CASING (FROSTY WHITE)SECURE ON/OFF POWER SWITCHENERGY SAVER | 1-WATT STANDBY MODE"
+          },
+          {
+            "label": "Dimensions",
+            "value": "140.0L x 150.0W x 86.0H mm"
+          },
+          {
+            "label": "First Listed on Newegg",
+            "value": "July 12, 2005"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "format": {
+        "value": "ATX",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "atx": {
+        "value": "ATX12V v2.2",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "fan": {
+        "value": "1 x 120mm sleeve-bearing with Thermal Sensor Linked",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "efficiency": {
+        "value": "> 70%",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "connectors": {
+        "value": "1 x Main connector (20+4Pin)1 x 12V (P4)4 x peripheral2+1 x SATA (One Molex 4-Pin to SATA coverter include)1 x Floppy1 x PCI-E",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "warranty": {
+        "value": "3 ans — garantie marchande américaine",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "modularity": {
+        "value": "Câbles fixes",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "protections": {
+        "value": "OVP : +3.3V (4.6V max.), +5V (6.5V max.), 12V1 (15.5V max.), 12V2 (15.5V max.)",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "depth": {
+        "value": 140,
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "width": {
+        "value": 150,
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      },
+      "height": {
+        "value": 86,
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-450r-450w/p/N82E16817104954",
+        "checkedAt": "2026-11-10T15:18:23.538913+00:00"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "SAGA+ 450R",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP SAGA+ 450R. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "450 W maximum annoncé",
+        "ATX12V v2.2",
+        "Puissance continue non documentée"
+      ],
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "name": "Group SAGA+ 450R · 450 W maximum · ATX",
+      "depthMm": 140,
+      "widthMm": 150,
+      "heightMm": 86
+    },
+    "offers": [],
+    "notes": [
+      "Source marchande historique : confirmation constructeur primaire encore absente.",
+      "La fiche donne une puissance maximale, pas une puissance continue ; cette valeur n’est pas utilisée comme capacité nominale vérifiée.",
+      "Les valeurs de sortie remplacées par [email protected] sur la page ne sont pas reconstituées."
+    ],
+    "clearNominalPower": true
+  },
+  "import-psu-18b8aa77c8fb": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "SAGA+ 500R",
+    "mpn": "",
+    "identityNote": "Identité exacte dans le document cité. Aucun SKU commercial distinct n’est attribué.",
+    "sources": [
+      {
+        "name": "Newegg — fiche historique exacte SAGA+ 500R",
+        "url": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche marchande ancienne — confirmation constructeur absente",
+        "rows": [
+          {
+            "label": "Brand",
+            "value": "FSP Group"
+          },
+          {
+            "label": "Model",
+            "value": "SAGA+ 500R"
+          },
+          {
+            "label": "Type",
+            "value": "ATX2.2"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "500 W"
+          },
+          {
+            "label": "Fans",
+            "value": "120mm Riffle.bearing Fan"
+          },
+          {
+            "label": "Main Connector",
+            "value": "20+4Pin"
+          },
+          {
+            "label": "+12V Rails",
+            "value": "2"
+          },
+          {
+            "label": "PCI-Express Connector",
+            "value": "1 x 6-Pin"
+          },
+          {
+            "label": "Efficiency",
+            "value": "> 80%"
+          },
+          {
+            "label": "Over Voltage Protection",
+            "value": "Yes"
+          },
+          {
+            "label": "Input Voltage",
+            "value": "115 / 230 V"
+          },
+          {
+            "label": "Output",
+            "value": "+3.3V@22A, +5V@16A, +12V1@14A, +12V2@16A, [email protected], [email protected]"
+          },
+          {
+            "label": "MTBF",
+            "value": "100,000 Hours @ 25°C Ambient"
+          },
+          {
+            "label": "Approvals",
+            "value": "UL, CSA, VDE, NEMKO, TUV, CE, CB, FCC"
+          },
+          {
+            "label": "Connectors",
+            "value": "1 x Main connector (20+4Pin)1 x 12V(4Pin)5 x Peripheral4 x SATA1 x Floppy1 x PCI-E"
+          },
+          {
+            "label": "Features",
+            "value": "Supports Dual CPU SystemThermal Coating (Frosty White)Advanced Thermal Control SensorMesh.wire Cable Management (main)"
+          },
+          {
+            "label": "Dimensions",
+            "value": "5.9\" x 5.51\" x 3.38\""
+          },
+          {
+            "label": "First Listed on Newegg",
+            "value": "October 29, 2009"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "format": {
+        "value": "ATX",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "atx": {
+        "value": "ATX2.2",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "fan": {
+        "value": "120mm Riffle.bearing Fan",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "efficiency": {
+        "value": "> 80%",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "connectors": {
+        "value": "1 x Main connector (20+4Pin)1 x 12V(4Pin)5 x Peripheral4 x SATA1 x Floppy1 x PCI-E",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "warranty": {
+        "value": "3 ans — garantie marchande américaine",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      },
+      "protections": {
+        "value": "OVP : Yes",
+        "sourceURL": "https://www.newegg.com/fsp-group-saga-500r-500w/p/N82E16817104069",
+        "checkedAt": "2026-11-10T15:24:43.419865+00:00"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "SAGA+ 500R",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP SAGA+ 500R. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "500 W maximum annoncé",
+        "ATX2.2",
+        "Puissance continue non documentée"
+      ],
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "name": "Group SAGA+ 500R · 500 W maximum · ATX"
+    },
+    "offers": [],
+    "notes": [
+      "Source marchande historique : confirmation constructeur primaire encore absente.",
+      "La fiche donne une puissance maximale, pas une puissance continue ; cette valeur n’est pas utilisée comme capacité nominale vérifiée.",
+      "Les valeurs de sortie remplacées par [email protected] sur la page ne sont pas reconstituées."
+    ],
+    "clearNominalPower": true
+  },
+  "import-psu-080ab2c7872e": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "ZEN400",
+    "mpn": "",
+    "identityNote": "Identité exacte dans le document cité. Aucun SKU commercial distinct n’est attribué.",
+    "sources": [
+      {
+        "name": "ATXPowerSupplies — fiche exacte FSP ZEN400",
+        "url": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche marchande ancienne — confirmation constructeur absente",
+        "rows": [
+          {
+            "label": "Puissance annoncée",
+            "value": "400 W"
+          },
+          {
+            "label": "Certification",
+            "value": "80 PLUS Bronze"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "Aucun, refroidissement passif"
+          },
+          {
+            "label": "Bruit annoncé",
+            "value": "0 dB"
+          },
+          {
+            "label": "Dimensions (largeur × hauteur × profondeur)",
+            "value": "5.9 × 3.4 × 5.5 pouces"
+          },
+          {
+            "label": "Connecteurs publiés",
+            "value": "1 ATX 20/24 ; 1 P4 ; 2 PCI Express ; 4 Molex"
+          },
+          {
+            "label": "SATA — description",
+            "value": "2 prises"
+          },
+          {
+            "label": "SATA — caractéristiques",
+            "value": "4 prises"
+          },
+          {
+            "label": "Rails 12 V",
+            "value": "+12V1 : 14 A ; +12V2 : 13 A ; total annoncé 27 A"
+          },
+          {
+            "label": "Autres rails",
+            "value": "+3,3 V : 20 A ; +5 V : 14 A ; -12 V : 0,5 A ; +5Vsb : 2,5 A"
+          },
+          {
+            "label": "Certifications de sécurité",
+            "value": "cUL, CE, CB, FCC"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "power": {
+        "value": 400,
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "format": {
+        "value": "ATX",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "efficiency": {
+        "value": "80 PLUS Bronze",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "fan": {
+        "value": "Sans ventilateur (passif)",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "width": {
+        "value": "5.9 in",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "height": {
+        "value": "3.4 in",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "depth": {
+        "value": "5.5 in",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00"
+      },
+      "connectors": {
+        "value": "2 ou 4 SATA selon la section de la même page",
+        "sourceURL": "https://www.atxpowersupplies.com/400-Watt-Fanless-Power-Supply-FSP-ZEN-400",
+        "checkedAt": "2026-11-10T15:18:28.557539+00:00",
+        "conflicting": true
+      }
+    },
+    "patch": {
+      "manufacturerModel": "ZEN400",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP ZEN400. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "ZEN400"
+      ],
+      "wattage": 400,
+      "psuFormat": "ATX",
+      "fanCount": 0
+    },
+    "offers": [],
+    "notes": [
+      "Fiche marchande uniquement. Le nombre de SATA est contradictoire dans la même page (2 ou 4) et reste non résolu."
+    ]
+  },
+  "import-psu-ebe7581f01d2": {
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "EVEREST 85PLUS 800",
+    "mpn": "",
+    "identityNote": "Identité exacte dans le document cité. Aucun SKU commercial distinct n’est attribué.",
+    "sources": [
+      {
+        "name": "RootNet — fiche historique EVEREST_85PLUS_800",
+        "url": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Fiche marchande ancienne — confirmation constructeur absente",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "800 W"
+          },
+          {
+            "label": "Format et normes",
+            "value": "ATX12V v2.3 / SSI EPS12V v2.92"
+          },
+          {
+            "label": "Certification et rendement",
+            "value": "80 PLUS Bronze /85 %"
+          },
+          {
+            "label": "Dimensions (largeur × hauteur × profondeur)",
+            "value": "150 × 86 × 165 mm"
+          },
+          {
+            "label": "Rail +12 V combiné",
+            "value": "773 W pour +12V1/+12V2/+12V3/+12V4"
+          },
+          {
+            "label": "Rails +3,3 V/+5 V combinés",
+            "value": "175 W"
+          },
+          {
+            "label": "Rails individuels",
+            "value": "+3,3V 30A ; +5V 30A ; +12V1 20A ; +12V2 25A ; +12V3 20A ; +12V4 25A ; +5Vsb 3A ; -12V 0,8A"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Carte mère 24+8+4 ; PCIe 4 ×6+2 ; périphériques 5 ; FDD1 ; SATA9"
+          },
+          {
+            "label": "Câbles",
+            "value": "Détachables"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "1 ×120 mm, régulation thermique"
+          },
+          {
+            "label": "Bruit annoncé",
+            "value": "21 dB, protocole non précisé"
+          },
+          {
+            "label": "Garantie locale du marchand",
+            "value": "36 mois"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100–240 V /50–60 Hz"
+          }
+        ]
+      }
+    ],
+    "fieldEvidence": {
+      "power": {
+        "value": 800,
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "format": {
+        "value": "ATX",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "atx": {
+        "value": "ATX12V2.3",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "efficiency": {
+        "value": "80 PLUS Bronze /85 %",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "depth": {
+        "value": 165,
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "width": {
+        "value": 150,
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "height": {
+        "value": 86,
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "rail12v": {
+        "value": "773 W combinés",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "connectors": {
+        "value": "Carte mère 24+8+4 ; PCIe 4 ×6+2 ; périphériques 5 ; FDD1 ; SATA9",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "fan": {
+        "value": "120 mm",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      },
+      "warranty": {
+        "value": "36 mois, garantie locale du marchand",
+        "sourceURL": "http://www.rootnet.com.ua/products/computers/komplektujuwie-pc/power-supply/fsp/222-blok-pitanija-fsp-everest-800-85-135cm-fan-apfc24844xpci-e9xsatapcordmodularretail.html",
+        "checkedAt": "2026-11-10T15:18:29.902873+00:00"
+      }
+    },
+    "patch": {
+      "manufacturerModel": "EVEREST 85PLUS 800",
+      "detailLevel": "partial",
+      "description": "Alimentation FSP EVEREST 85PLUS 800. Données reprises du document exact cité ; aucune offre actuelle créée.",
+      "specs": [
+        "EVEREST 85PLUS 800"
+      ],
+      "wattage": 800,
+      "psuFormat": "ATX",
+      "depthMm": 165,
+      "widthMm": 150,
+      "heightMm": 86,
+      "fanSizeMm": 120
+    },
+    "offers": [],
+    "notes": [
+      "Fiche marchande ancienne, non confirmée par une fiche primaire actuelle. Aucun prix ni disponibilité français ne sont créés."
+    ]
+  }
+}

@@ -7,6 +7,7 @@ import argparse
 import subprocess
 import math
 from pathlib import Path
+from catalog_integrity_proofs import documented_capacity_correction, documented_wattage_correction
 
 ROOT=Path(__file__).resolve().parents[1]
 input_path=ROOT/'data/full-review/input.json'
@@ -14,7 +15,7 @@ rows=json.loads(input_path.read_text() if input_path.exists() else gzip.decompre
 parser=argparse.ArgumentParser();parser.add_argument('--current',action='store_true');args=parser.parse_args()
 if args.current:
  originals={c['id']:c.get('originalRecord') for c in rows}
- current=subprocess.check_output([str(ROOT/'node_modules/.bin/tsx'),'-e',"import {catalog} from './src/data/catalog.ts'; console.log(JSON.stringify(catalog));"],cwd=ROOT,text=True)
+ current=subprocess.check_output([str(ROOT/'node_modules/.bin/tsx'),'-e',"import {catalog} from './src/data/catalog.ts'; import {getVerifiedProduct} from './src/lib/verifiedOffers.ts'; console.log(JSON.stringify(catalog.map(c=>{const p=getVerifiedProduct(c);return {...c,primaryCorrectionProof:p?{identityMatches:true,capacityGB:p.patch.capacityGB,wattage:p.patch.wattage,manufacturerSources:p.sources.filter(s=>s.kind==='manufacturer').map(s=>s.url)}:null};})));"],cwd=ROOT,text=True)
  rows=[{**c,'originalRecord':originals.get(c['id'])} for c in json.loads(current)]
 required={
  'cpu':['socket','supportedMemory'],
@@ -27,9 +28,13 @@ required={
  'case':['supportedFormFactors','maxGpuLengthMm','maxCoolerHeightMm','heightMm','widthMm','depthMm'],
 }
 ids=Counter(r['id'] for r in rows)
+corrections=[]
+for path in (ROOT/'data/deep-review').glob('*/corrections.json'):
+ document=json.loads(path.read_text())
+ if isinstance(document,list):corrections.extend(document)
 checks=[]
 for c in rows:
- errors=[];warnings=[]
+ errors=[];warnings=[];archiveCorrection=None
  category=c['category']
  if ids[c['id']]!=1:errors.append('Identifiant dupliqué')
  if not c['name'].strip() or not c['brand'].strip():errors.append('Nom ou marque absent')
@@ -52,9 +57,13 @@ for c in rows:
    modules=original.get('modules') or []
    if len(modules)==2 and c.get('capacityGB')!=modules[0]*modules[1]:errors.append('Capacité différente de la ligne archivée')
    if len(modules)==2 and c.get('memorySticks')!=modules[0]:errors.append('Kit différent de la ligne archivée')
-  if category=='storage' and c.get('capacityGB')!=original.get('capacity'):errors.append('Capacité SSD différente de la ligne archivée')
-  if category=='psu' and c.get('wattage')!=original.get('wattage'):errors.append('Puissance différente de la ligne archivée')
- checks.append({'id':c['id'],'category':category,'status':'invalid' if errors else 'consistent','errors':errors,'warnings':warnings,'missingCompatibilityFields':missing,'primaryVerification':'separate_check_required'})
+  if category=='storage' and c.get('capacityGB')!=original.get('capacity'):
+   archiveCorrection=documented_capacity_correction(c,original,corrections)
+   if not archiveCorrection:errors.append('Capacité SSD différente de la ligne archivée sans correction constructeur documentée')
+  if category=='psu' and c.get('wattage') is not None and c.get('wattage')!=original.get('wattage'):
+   archiveCorrection=documented_wattage_correction(c,original,corrections)
+   if not archiveCorrection:errors.append('Puissance différente de la ligne archivée sans correction constructeur documentée')
+ checks.append({'id':c['id'],'category':category,'status':'invalid' if errors else 'consistent','errors':errors,'warnings':warnings,'missingCompatibilityFields':missing,'primaryVerification':'separate_check_required',**({'documentedArchiveCorrection':archiveCorrection} if archiveCorrection else {})})
 report={'generatedAt':datetime.now(timezone.utc).isoformat(),'scope':'data_integrity_only','inputScope':'integrated_catalog' if args.current else 'frozen_pre_review_catalog','total':len(rows),'consistent':sum(c['status']=='consistent' for c in checks),'invalid':sum(c['status']=='invalid' for c in checks),'incompleteCompatibility':sum(bool(c['missingCompatibilityFields']) for c in checks),'categories':dict(Counter(c['category'] for c in checks)),'checks':checks}
 (ROOT/'data/full-review/integrity.json').write_text(json.dumps(report,ensure_ascii=False,separators=(',',':'))+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='checks'},ensure_ascii=False,indent=2))

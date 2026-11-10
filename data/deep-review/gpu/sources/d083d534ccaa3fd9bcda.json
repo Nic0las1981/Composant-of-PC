@@ -1,0 +1,14 @@
+{
+  "brand": "Gigabyte",
+  "url": "https://www.gigabyte.com/robots.txt",
+  "kind": "index",
+  "checkedAt": "2026-11-10T13:24:16Z",
+  "requestedURL": "https://www.gigabyte.com/robots.txt",
+  "contentFile": "data/deep-review/gpu/sources/d083d534ccaa3fd9bcda.html.gz",
+  "status": 200,
+  "contentType": "text/plain",
+  "sha256": "3defaccc465ec79174cc723d5ee2e8dfdab739dcb1be11d2c25fa59b67b3e187",
+  "bytes": 928,
+  "links": [],
+  "text": "User-agent: *\nDisallow: /*Products_Spec.aspx*\nDisallow: /*Products_Overview.aspx*\nDisallow: /*Driver_Model.aspx*\nDisallow: /*CPUSupport_Model.aspx*\nDisallow: /*Driver_DownloadFile.aspx*\nDisallow: /*Utility_DownloadFile.aspx*\nDisallow: /*Manual_Model.aspx*\nDisallow: /*WebCtrl*\nDisallow: /*downloads.aspx*\nDisallow: /*news-page.aspx*\nDisallow: /*main.aspx*\nDisallow: /*Json/SmartRobotProductAPI*\nDisallow: /*Json/SmartRobotProductLineApi*\nDisallow: /*iisApplicationNuxt*\nDisallow: /*inside-highlight*\nDisallow: /*?keyword=*\nDisallow: /*?kw=*\nDisallow: /*?lan=*\nDisallow: /*?redirect=*\nAllow: /iisApplicationNuxt/api*\n\nUser-agent: AhrefsBot\nCrawl-delay: 5\nDisallow: /*iisApplicationNuxt*\nDisallow: /*inside-highlight*\nDisallow: /*?keyword=*\nDisallow: /*?kw=*\nDisallow: /*?lan=*\nDisallow: /*?redirect=*\nAllow: /iisApplicationNuxt/api*\n\nSitemap: https://www.gigabyte.com/sitemap_index.xml\nLLMs.txt: https://www.gigabyte.com/llms.txt"
+}

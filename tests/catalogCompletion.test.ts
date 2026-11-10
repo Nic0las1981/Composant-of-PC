@@ -23,6 +23,10 @@ test('conflicting technical rows remain unresolved and on-die ECC is not host EC
  assert.equal(completion.technical.fields.find(f=>f.key==='voltage')?.state,'conflicting');
  assert.equal(completion.technical.fields.find(f=>f.key==='hostEcc')?.state,'missing');
 });
+test('an explicit source contradiction overrides a populated archive or patch field',()=>{
+ const p:VerifiedProduct={...product,patch:{capacityGB:32},fieldEvidence:{capacity:{value:'32 GB in heading; 16 GB in table',sourceURL:source.url,checkedAt:source.checkedAt,conflicting:true}}};
+ assert.equal(getCatalogCompletion({...c,manufacturerPartNumber:'EXACT'},p).technical.fields.find(f=>f.key==='capacity')?.state,'conflicting');
+});
 test('technical completeness does not imply a live price or visually reviewed reconstruction',()=>{
  const facts:Record<string,FieldEvidence>=Object.fromEntries(catalogTechnicalRequirements.ram.map(f=>[f.key,{value:'Explicitly documented test value',sourceURL:source.url,checkedAt:source.checkedAt}]));
  const completion=getCatalogCompletion({...c,manufacturerPartNumber:'EXACT'},product,{facts});
@@ -67,6 +71,22 @@ test('combined manufacturer rows prove only explicitly identifiable facts',()=>{
  const boardFields=getCatalogCompletion(board,boardProduct).technical.fields;
  for(const key of ['memoryType','memoryCapacity','memorySlots','m2'])assert.equal(boardFields.find(f=>f.key===key)?.state,'documented',key);
  assert.equal(boardFields.find(f=>f.key==='cpuSupport')?.state,'missing');
+});
+test('GPU display interfaces cannot validate the PCIe bus and compound rows preserve their meanings',()=>{
+ const base:Component={...c,category:'gpu',manufacturerPartNumber:'EXACT',capacityGB:undefined};
+ const p:VerifiedProduct={...product,groups:[{title:'Manufacturer',rows:[
+  {label:'Interface',value:'2 × HDMI 2.1, 3 × DisplayPort 1.4a'},
+  {label:'Memory Size/Bus',value:'12GB/192 bit GDDR6'},
+  {label:'Engine Clock',value:'Boost Clock: Up to 2584 MHz Game Clock: Up to 2226 MHz'},
+  {label:'Cooler Type',value:'3 Fans'},
+ ]}]};
+ const fields=getCatalogCompletion(base,p).technical.fields;
+ assert.equal(fields.find(f=>f.key==='interface')?.state,'missing');
+ assert.equal(fields.find(f=>f.key==='displayOutputs')?.state,'documented');
+ assert.equal(fields.find(f=>f.key==='vramType')?.value,'GDDR6');
+ assert.equal(fields.find(f=>f.key==='memoryBus')?.value,'192 bits');
+ assert.equal(fields.find(f=>f.key==='fans')?.value,'3');
+ assert.equal(fields.find(f=>f.key==='boardPower')?.state,'missing');
 });
 test('field source mapping is explicit and cannot introduce unregistered references',()=>{
  const p={...product,sources:[source,{...source,url:'https://retailer.test/exact',kind:'retailer' as const}],groups:[{title:'Manufacturer specifications',rows:[{label:'Tested Voltage',value:'1.4 V'}]}]};

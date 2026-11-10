@@ -1,0 +1,63 @@
+{
+  "id": "import-ssd-8f1752cabb69",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M450 PCIe 4.0 NVMe M.2 500GB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:07+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:07+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification",
+    "sha256": "ee4618d2d417b367bf8c3fe9eecf04adee01e75051d3ea55a42670c51ee73a00",
+    "bytes": 67631,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M450 PCIe 4.0 NVMe M.2",
+    "Capacity": "500GB",
+    "Controller": "PHISON E19T",
+    "Flash Memory": "3D NAND",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4x4, NVMe 1.4",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)",
+    "Sequential Read up to (MB/s)": "3600",
+    "Sequential Write up to (MB/s)": "2300",
+    "Random Read 4KB up to (IOPS)": "300,000",
+    "Random Write 4KB up to (IOPS)": "550,000",
+    "Maximum Operating Power (W)": "3.4",
+    "Idle Power PS3 (mW)": "40",
+    "Low Power L1.2 (mW)": "5",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "300",
+    "Mean Time Between Failure (MTBF)": "Up to 1,500,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nPyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1642995723ed98239a4324aef29e8ae8c1b8df83ba.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification",
+        "checkedAt": "2026-11-10T14:36:07+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M450-PCIe-4.0-NVMe-M.2/Specification",
+        "sha256": "ee4618d2d417b367bf8c3fe9eecf04adee01e75051d3ea55a42670c51ee73a00",
+        "bytes": 67631,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M450 PCIe 4.0 NVMe M.2",
+      "selectedColumn": "SPATIUM M450 PCIe 4.0 NVMe M.2 500GB"
+    }
+  ]
+}

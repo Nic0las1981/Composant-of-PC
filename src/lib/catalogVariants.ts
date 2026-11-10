@@ -11,12 +11,37 @@ export interface VariantGroup {
   variants: Component[];
 }
 
+// New primary evidence can invalidate an older archive's colour-only grouping.
+// Keep those references independently selectable until their identities agree.
+const invariantFields: Array<keyof Component> = [
+  'brand','socket','memoryType','supportedMemory','formFactor','supportedFormFactors',
+  'capacityGB','memorySticks','memorySpeedMTs','casLatency','memoryModuleFormat',
+  'memoryRegistered','memoryEcc','memoryProfile','memoryRankCount','memoryDeviceWidthBits',
+  'memoryVoltageV','memoryModuleKind','memoryHeatspreader','maxMemoryGB','memorySlots',
+  'lengthMm','widthMm','heightMm','depthMm','thicknessMm','fanCount','fanSizeMm',
+  'powerW','wattage','psuFormat','rgb','coolingType','radiatorSizeMm','radiatorThicknessMm',
+];
+function conflictingGroups(components:readonly Component[]):Set<string> {
+  const declarations=new Map<string,Component[]>();
+  for(const component of components) {
+    const declared=component.variantGroupId?.trim();
+    if (!declared) continue;
+    const key=`${component.category}:group:${declared}`;
+    const members=declarations.get(key)??[];members.push(component);declarations.set(key,members);
+  }
+  return new Set([...declarations].filter(([,members])=>invariantFields.some(field=>
+    new Set(members.map(c=>c[field]).filter(value=>value!==undefined).map(value=>JSON.stringify(value))).size>1,
+  )).map(([key])=>key));
+}
+const invalidatedGroups=conflictingGroups(catalog);
+
 /** Only explicit, audited metadata can collapse variants. Similar names,
  * capacity, prices or a shared commercial family are never enough.
  */
 export function getVariantGroupId(component: Component): string {
   const declared = component.variantGroupId?.trim();
-  return declared ? `${component.category}:group:${declared}` : `${component.category}:variant:${component.id}`;
+  const key=declared ? `${component.category}:group:${declared}` : '';
+  return key&&!invalidatedGroups.has(key) ? key : `${component.category}:variant:${component.id}`;
 }
 
 /** Can group a filtered subset without reintroducing excluded variants.
@@ -25,15 +50,17 @@ export function getVariantGroupId(component: Component): string {
 export function groupVariants(components: readonly Component[]): VariantGroup[] {
   const groups = new Map<string, VariantGroup>();
   const seen = new Set<string>();
+  const conflicting=conflictingGroups(components);
   for (const component of components) {
     if (seen.has(component.id)) continue;
     seen.add(component.id);
-    const id = getVariantGroupId(component);
+    const declaredId=getVariantGroupId(component);
+    const id=conflicting.has(declaredId)?`${component.category}:variant:${component.id}`:declaredId;
     let group = groups.get(id);
     if (!group) {
       group = {
         id,
-        name: component.variantGroupName?.trim() || component.name,
+        name: id.includes(':group:') ? component.variantGroupName?.trim() || component.name : component.name,
         category: component.category,
         variants: [],
       };

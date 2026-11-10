@@ -1,0 +1,17 @@
+# Revue des SSD Lexar, Sabrent, PNY, Addlink, Klevv, Nextorage et Netac
+
+Contrôle effectué le 10 novembre 2026 sur les **184 références** de ces sept marques présentes dans `../memory-storage/input.json.gz` : Lexar 46, Sabrent 21, PNY 30, Addlink 37, Klevv 18, Nextorage 19 et Netac 13.
+
+`products.json` et `src/data/deepStorageOtherCatalog.ts` sont générés par `scripts/build-deep-storage-other.py`. Les tableaux par capacité sont transcrits explicitement ; le générateur ne déduit ni MPN, ni débit, ni endurance d'une capacité voisine. **159 références ont un MPN publié**, 25 ont une identité fabricant/modèle/capacité sans MPN reconstruit. Toutes les identités et capacités du périmètre ont une revue ; cela ne signifie pas que chaque constructeur publie chaque caractéristique.
+
+La grille comporte 13 champs par référence. **2 184 champs sur 2 392** sont documentés ; 74 références ont les 13 champs. Les 208 champs non résolus sont explicitement listés par ID dans `coverage.json` : endurance 67, largeur 37, longueur 31, NAND 30, hauteur 25, lecture 7, écriture 7, garantie 3 et dissipateur 1. Les sept débits non attribués concernent les six Addlink G55/G55H (maxima de gamme sans tableau par capacité) et le PNY CS3140 8 To (existence du SKU confirmée mais PDF fabricant limité aux capacités inférieures).
+
+Les sources sont des pages ou PDF fabricant en priorité, puis des fiches de marchands/distributeurs portant le modèle ou MPN exact. Certaines fiches originales fabricant sont conservées par des distributeurs ; leur provenance est indiquée dans les notes. Les résultats de recherche et essais de laboratoires ont servi à retrouver les sources, sans transformer leurs mesures en spécifications fabricant. Les visuels de débits Sabrent ont été inspectés en plus de l'OCR ; la capacité imprimée sur le SSD est contrôlée.
+
+Cas préservés : NQ790 500 Go distinct de 512 Go ; NQ710 4 To retrouvé dans la fiche Lexar de septembre 2023 ; CRAS C715 corrigé en PCIe 3.0 ×4 ; NN5PRO corrigé en PCIe 5.0 ×4 et séparé du NE5N ; radiateurs HS séparés des versions nues. Les largeurs contradictoires Addlink de 20 mm et la longueur PNY CS3150 de 76 mm ne sont pas imposées à la géométrie. Les dimensions Sabrent arrondies en pouces ne deviennent pas des mesures millimétriques exactes. La hauteur totale des kits HTSK et du Netac NV7000-t avec son dissipateur à poser reste inconnue lorsqu'elle n'est pas publiée.
+
+`source-manifest.json` indexe les 110 preuves utilisées avec URL, date, empreinte du texte extrait et empreinte du contenu récupéré lorsqu'elle est disponible. Les preuves JSON conservent les textes ; elles suffisent au générateur et aux tests. Les PDF et images bruts sont des caches facultatifs et ne sont pas nécessaires dans l'archive du projet. `scripts/research-storage-other.py` réutilise un JSON existant ou récupère à nouveau la source par URL si ce cache manque. `scripts/ocr-storage-manufacturer-images.py` permet de récupérer et lire les visuels officiels.
+
+Les prix ne sont pas relevés par ce module : une offre précédente n'est conservée que si son MPN est identique. Leur actualisation et leur disponibilité relèvent du collecteur de prix commun. Les valeurs en devises étrangères présentes dans les preuves ne sont pas des offres ajoutées au catalogue.
+
+Validation : `npx tsx --test tests/deepStorageOther.test.ts` contrôle le périmètre exhaustif, les capacités, les citations, les variantes, les contradictions, l'absence de transfert d'offres entre identités et la disponibilité des preuves sans PDF/image brut.

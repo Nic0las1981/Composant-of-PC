@@ -1,0 +1,237 @@
+{
+  "review": {
+    "id": "import-mb-23e95c3130bd",
+    "name": "B350 TOMAHAWK",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "PCI",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.1 ports (Front)",
+      "USB 3.1 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Audio ports (Rear)",
+      "DVI-D",
+      "VGA",
+      "HDMI",
+      "DirectX",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Memory"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_6_20170209184027_589c471b500fd.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memorySlots",
+      "formFactor",
+      "chipset",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "B350 TOMAHAWK",
+    "identityNote": "Modèle MSI B350 TOMAHAWK confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "B350 TOMAHAWK",
+      "description": "Carte mère MSI B350 TOMAHAWK. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "Mémoire maximale documentée : 128 Go",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B350 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3(16), Gen2(4)"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "2"
+          },
+          {
+            "label": "PCI",
+            "value": "2"
+          },
+          {
+            "label": "SATAIII",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "1"
+          },
+          {
+            "label": "RAID",
+            "value": "0/1/10"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.1 ports (Front)",
+            "value": "4(Gen1, Type A)"
+          },
+          {
+            "label": "USB 3.1 ports (Rear)",
+            "value": "3(Gen1, Type A), 1(Gen1, Type C)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC892 Codec"
+          },
+          {
+            "label": "DVI-D",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bitSupport for Windows® 7 64-bit* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Mémoire",
+            "value": "DIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_6_20170209184027_589c471b500fd.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      },
+      "formFactor": {
+        "value": "ATX",
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B350 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/B350-TOMAHAWK/Specification",
+        "checkedAt": "2026-11-10T11:00:28+00:00"
+      }
+    }
+  }
+}

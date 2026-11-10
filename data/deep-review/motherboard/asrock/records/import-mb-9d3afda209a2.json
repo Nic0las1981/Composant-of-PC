@@ -1,0 +1,234 @@
+{
+  "review": {
+    "id": "import-mb-9d3afda209a2",
+    "name": "B850 Riptide WiFi",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "url": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock B850 Riptide WiFi motherboard",
+        "modelNames": [
+          "B850 Riptide WiFi"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:00:25+00:00",
+      "url": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+      "httpStatus": 200,
+      "resolvedURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+      "sha256": "c8c9bc12df4ac7e46551973944aa1e0d005a14394a216c8adf4bb9eff755d98f"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock B850 Riptide WiFi motherboard",
+      "specificationExcerpt": "1.2 Speciications\n\n                Platform     • ATX Form Factor\n                             • 8 Layer PCB\n\n                                                                  TM\n                CPU          • Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000\n                                Series Processors*\n                            * he availability of expansion slots may vary by CPU. Please\n                            refer to PCIe/M.2 Bandwidth Table for details. (http://www.\n                            asrock.com/)\n\n\n                Chipset      • AMD B850\n\n\n                Memory       • Dual Channel DDR5 Memory Technology\n                             • 4 x DDR5 DIMM Slots\n                             • Supports DDR5 ECC/non-ECC, un-bufered memory up to\n                               8000+(OC)*\n                             • Max. capacity of system memory: 256GB\n                             • Supports Extreme Memory Proile (XMP) and EXTended\n                                Proiles for Overclocking (EXPO) memory modules\n                            * Please refer to Memory Support List on ASRock's website for\n                            more information. (http://www.asrock.com/)\n\n\n                Expansion    CPU:\n                Slot         • 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\n                             •\n                             Chipset:\n                             • 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode*\n                             • 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/\n                               BT PCIe WiFi module\n\n\n                            * PCIE1 will run at Gen5x16 with 9000 and 7000 series\n                            processors, Gen4x8 with 8000 (Phoenix 1) series processors and\n                            Gen4x4 with 8000 (Phoenix 2) series processors.\n                            * If M2_4 is occupied, PCIE2 will be disabled.\nEnglish\n\n\n\n\n                            * Supports NVMe SSD as boot disks\n\n\n                             • 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n\n\n\n\n          2\n\f                                                                      B850 Riptide WiFi\n\n\n\n                                TM\nGraphics   • Integrated AMD RDNA graphics (Actual support may\n             vary by CPU)\n           • 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR,\n             HDCP 2.3 and max. resolution up to 4K 120Hz\n\n\nAudio      • 7.1 CH HD Audio with Content Protection (Realtek\n             ALC4082 Audio Codec)\n           • Individual PCB Layers for R/L Audio Channel\n           • Direct Drive Technology on Front headphone port (Supports\n             up to 600 Ohm headsets)\n           • Nahimic Audio\n\n\nLAN        • 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n           • Killer® E3100G\n           • Supports Killer LAN Sotware\n\n\nWireless   • 802.11be 2x2 Wi-Fi 7 Module\nLAN        • Supports IEEE 802.11a/b/g/n/ac/ax/axe/be\n            • Supports 2.4GHz/5GHz/6GHz* frequency band\n            • Supports 160MHz channel bandwidth with 6GHz* frequen-\n               cy band\n           * Wi-Fi 7 (6GHz band) will be supported by Microsot® Win-\n           dows® 11. he availability will depend on the diferent regula-\n           tion status of each country and region. It will be activated (for\n           supported countries) through Windows Update and sotware\n           updates once available.\n           • 1 antenna to support 2 (Transmit) x 2 (Receive) diversity\n             technology\n           • Supports Bluetooth 5.4\n           • Supports MU-MIMO\n\n\nUSB        CPU:\n           • 2 x USB 3.2 Gen2 Type-C (Rear)\n           • 1 x USB 3.2 Gen2 Type-A (Rear (USB32_3))\n           • 1 x USB 3.2 Gen1 Type-A (Rear (USB32_1))\n                                                                                      English\n\n\n\n\n           Chipset:\n           • 1 x USB 3.2 Gen2x2 Type-C (Front)\n           • 1 x USB 3.2 Gen2 Type-A (Rear (USB32_4))\n\n\n\n                                                                                  3\n\f                           • 6 x USB 3.2 Gen1 Type-A (2 Rear (USB32_2 and USB32_5),\n                             4 Front)\n                            • 8 x USB 2.0 (4 Rear, 4 Front)\n                           * All USB ports support ESD Protection\n\n\n              Rear Panel   • 2 x Antenna Ports\n              I/O          • 1 x HDMI Port\n                           • 1 x Optical SPDIF Out Port\n                           • 2 x USB 3.2 Gen2 Type-C Ports (10 Gb/s)\n                           • 3 x USB 3.2 Gen1 Type-A Ports*\n                           • 2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)**\n                           • 4 x USB 2.0 Ports\n                           • 1 x RJ-45 LAN Port\n                           • 1 x BIOS Flashback Button\n                           • 1 x Line Out Jack (Gold Audio Jack)\n                            • 1 x Microphone Input Jack (Gold Audio Jack)\n                           * USB32_12 are Lightning Gaming Ports.\n                           ** USB32_34 supports Ultra USB Power.\n\n\n              Storage      CPU:\n                           • 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280\n                             PCIe Gen5x4 (128 Gb/s) mode*\n                           • 1 x Hyper M.2 Socket (M2_2, Key M), supports type\n                             2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n                           Chipset:\n                           • 1 x Hyper M.2 Socket (M2_3, Key M), supports type\n                             2230/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n                           • 1 x Hyper M.2 Socket (M2_4, Key M), supports type\n                             2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n                           ASMedia ASM1061:\n                           • 4 x SATA3 6.0 Gb/s Connectors\n\n                           * Supports NVMe SSD as boot disks\n                           * M2_1 is the irst priority for M.2 installation.\n                           * M2_1 will run at Gen5x4 with 9000 and 7000 series proces-\n                           sors and Gen4x4 with 8000 (Phoenix 1 and Phoenix 2) series\nEnglish\n\n\n\n\n                           processors.\n                           * M2_2 will run at Gen4x2 with 8000 (Phoenix 2) series proces-\n                           sors.\n                           * If M2_4 is occupied, PCIE2 will be disabled.\n\n          4\n\f                                                                   B850 Riptide WiFi\n\n\n\n\nRAID        • Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe\n              storage devices\n\n\nConnector   • 1 x SPI TPM Header\n            • 1 x hermistor Cable Header\n            • 1 x Power LED and Speaker Header\n            • 1 x RGB LED Header*\n            • 3 x Addressable LED Headers**\n            • 2 x CPU Fan Connectors (4-pin) (Smart Fan Speed Con-\n              trol)***\n            • 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\n              trol)***\n            • 1 x AIO Pump Fan Connector (4-pin) (Smart Fan Speed\n              Control)***\n            • 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\n              nector)\n            • 2 x 8 pin 12V Power Connectors (Hi-Density Power Con-\n              nector)\n            • 1 x Front Panel Audio Connector\n            • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n             • 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n             • 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s)\n            * Supports in total up to 12V/3A, 36W LED Strip\n            ** Support in total up to 5V/3A, 15W LED Strip\n            *** CPU_FAN1 supports the fan power up to 1A (12W).\n            *** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP support the\n            fan power up to 3A (36W).\n            *** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP can auto\n            detect if 3-pin or 4-pin fan is in use.\n\n\nBIOS        • AMI UEFI Legal BIOS with GUI support\nFeature\n\n\nOS          • Microsot® Windows® 10 64-bit / 11 64-bit\n                                                                                   English\n\n\n\n\nCertiica-   • FCC, CE\ntions       • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n\n\n                                                                               5\n\f              * For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n                             Please realize that there is a certain risk involved with overclocking, including\n                             adjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\n                             third-party overclocking tools. Overclocking may afect your system’s stability, or\n                             even cause damage to the components and devices of your system. It should be done\n                             at your own risk and expense. We are not responsible for possible damage caused by\n                             overclocking.\nEnglish\n\n\n\n\n          6\n\f                                                                                                                                                                                                                                                                                                                                                                            B850 Riptide WiFi\n\n\n\n     ",
+      "modelNames": [
+        "B850 Riptide WiFi"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "B850 Riptide WiFi",
+    "identityNote": "Modèle ASRock B850 Riptide WiFi confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 256,
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "m2Slots": 4,
+      "manufacturerPartNumber": "B850 Riptide WiFi",
+      "description": "Carte mère ASRock B850 Riptide WiFi. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM5",
+        "4 emplacements DDR5",
+        "Mémoire maximale documentée : 256 Go",
+        "4 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor\n• 8 Layer PCB\nTM"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000\nSeries Processors*\n* he availability of expansion slots may vary by CPU. Please\nrefer to PCIe/M.2 Bandwidth Table for details. (http://www.\nasrock.com/)"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD B850"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR5 Memory Technology\n• 4 x DDR5 DIMM Slots\n• Supports DDR5 ECC/non-ECC, un-bufered memory up to\n8000+(OC)*\n• Max. capacity of system memory: 256GB\n• Supports Extreme Memory Proile (XMP) and EXTended\nProiles for Overclocking (EXPO) memory modules\n* Please refer to Memory Support List on ASRock's website for\nmore information. (http://www.asrock.com/)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "CPU:\nSlot         • 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\n•\nChipset:\n• 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode*\n• 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/\nBT PCIe WiFi module\n* PCIE1 will run at Gen5x16 with 9000 and 7000 series\nprocessors, Gen4x8 with 8000 (Phoenix 1) series processors and\nGen4x4 with 8000 (Phoenix 2) series processors.\n* If M2_4 is occupied, PCIE2 will be disabled.\n* Supports NVMe SSD as boot disks\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\nTM"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD RDNA graphics (Actual support may\nvary by CPU)\n• 1 x HDMI 2.1 TMDS/FRL 8G Compatible, supports HDR,\nHDCP 2.3 and max. resolution up to 4K 120Hz"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC4082 Audio Codec)\n• Individual PCB Layers for R/L Audio Channel\n• Direct Drive Technology on Front headphone port (Supports\nup to 600 Ohm headsets)\n• Nahimic Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Killer® E3100G\n• Supports Killer LAN Sotware"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "• 802.11be 2x2 Wi-Fi 7 Module\nLAN        • Supports IEEE 802.11a/b/g/n/ac/ax/axe/be\n• Supports 2.4GHz/5GHz/6GHz* frequency band\n• Supports 160MHz channel bandwidth with 6GHz* frequen-\ncy band\n* Wi-Fi 7 (6GHz band) will be supported by Microsot® Win-\ndows® 11. he availability will depend on the diferent regula-\ntion status of each country and region. It will be activated (for\nsupported countries) through Windows Update and sotware\nupdates once available.\n• 1 antenna to support 2 (Transmit) x 2 (Receive) diversity\ntechnology\n• Supports Bluetooth 5.4\n• Supports MU-MIMO"
+          },
+          {
+            "label": "USB",
+            "value": "CPU:\n• 2 x USB 3.2 Gen2 Type-C (Rear)\n• 1 x USB 3.2 Gen2 Type-A (Rear (USB32_3))\n• 1 x USB 3.2 Gen1 Type-A (Rear (USB32_1))\nChipset:\n• 1 x USB 3.2 Gen2x2 Type-C (Front)\n• 1 x USB 3.2 Gen2 Type-A (Rear (USB32_4))\n• 6 x USB 3.2 Gen1 Type-A (2 Rear (USB32_2 and USB32_5),\n4 Front)\n• 8 x USB 2.0 (4 Rear, 4 Front)\n* All USB ports support ESD Protection"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 2 x Antenna Ports\nI/O          • 1 x HDMI Port\n• 1 x Optical SPDIF Out Port\n• 2 x USB 3.2 Gen2 Type-C Ports (10 Gb/s)\n• 3 x USB 3.2 Gen1 Type-A Ports*\n• 2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)**\n• 4 x USB 2.0 Ports\n• 1 x RJ-45 LAN Port\n• 1 x BIOS Flashback Button\n• 1 x Line Out Jack (Gold Audio Jack)\n• 1 x Microphone Input Jack (Gold Audio Jack)\n* USB32_12 are Lightning Gaming Ports.\n** USB32_34 supports Ultra USB Power."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:\n• 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen5x4 (128 Gb/s) mode*\n• 1 x Hyper M.2 Socket (M2_2, Key M), supports type\n2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Hyper M.2 Socket (M2_3, Key M), supports type\n2230/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n• 1 x Hyper M.2 Socket (M2_4, Key M), supports type\n2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\nASMedia ASM1061:\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* M2_1 is the irst priority for M.2 installation.\n* M2_1 will run at Gen5x4 with 9000 and 7000 series proces-\nsors and Gen4x4 with 8000 (Phoenix 1 and Phoenix 2) series\nprocessors.\n* M2_2 will run at Gen4x2 with 8000 (Phoenix 2) series proces-\nsors.\n* If M2_4 is occupied, PCIE2 will be disabled."
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe\nstorage devices"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x SPI TPM Header\n• 1 x hermistor Cable Header\n• 1 x Power LED and Speaker Header\n• 1 x RGB LED Header*\n• 3 x Addressable LED Headers**\n• 2 x CPU Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 1 x AIO Pump Fan Connector (4-pin) (Smart Fan Speed\nControl)***\n• 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\nnector)\n• 2 x 8 pin 12V Power Connectors (Hi-Density Power Con-\nnector)\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s)\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n*** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP support the\nfan power up to 3A (36W).\n*** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP can auto\ndetect if 3-pin or 4-pin fan is in use."
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with GUI support\nFeature"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsot® Windows® 10 64-bit / 11 64-bit\nCertiica-   • FCC, CE\ntions       • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including\nadjusting the setting in the BIOS, applying Untied Overclocking Technology, or using\nthird-party overclocking tools. Overclocking may afect your system’s stability, or\neven cause damage to the components and devices of your system. It should be done\nat your own risk and expense. We are not responsible for possible damage caused by\noverclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Capacité mémoire indiquée dans le manuel ; les évolutions de BIOS et la liste de compatibilité fabricant peuvent modifier cette limite. Les restrictions de lignes PCIe/M.2 selon le processeur restent applicables.",
+      "m2Slots compte les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et les sockets SATA seuls sont exclus.",
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "memoryCapacity": {
+        "value": 256,
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor\n• 8 Layer PCB\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "chipset": {
+        "value": "• AMD B850",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "storagePorts": {
+        "value": "CPU:\n• 1 x Blazing M.2 Socket (M2_1, Key M), supports type 2280\nPCIe Gen5x4 (128 Gb/s) mode*\n• 1 x Hyper M.2 Socket (M2_2, Key M), supports type\n2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\nChipset:\n• 1 x Hyper M.2 Socket (M2_3, Key M), supports type\n2230/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\n• 1 x Hyper M.2 Socket (M2_4, Key M), supports type\n2260/2280 PCIe Gen4x4 (64 Gb/s) mode*\nASMedia ASM1061:\n• 4 x SATA3 6.0 Gb/s Connectors\n* Supports NVMe SSD as boot disks\n* M2_1 is the irst priority for M.2 installation.\n* M2_1 will run at Gen5x4 with 9000 and 7000 series proces-\nsors and Gen4x4 with 8000 (Phoenix 1 and Phoenix 2) series\nprocessors.\n* M2_2 will run at Gen4x2 with 8000 (Phoenix 2) series proces-\nsors.\n* If M2_4 is occupied, PCIE2 will be disabled.",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "pcie": {
+        "value": "CPU:\nSlot         • 1 x PCIe 5.0 x16 Slot (PCIE1), supports x16 mode*\n•\nChipset:\n• 1 x PCIe 4.0 x16 Slot (PCIE2), supports x4 mode*\n• 1 x Vertical M.2 Socket (Key E), supports type 2230 WiFi/\nBT PCIe WiFi module\n* PCIE1 will run at Gen5x16 with 9000 and 7000 series\nprocessors, Gen4x8 with 8000 (Phoenix 1) series processors and\nGen4x4 with 8000 (Phoenix 2) series processors.\n* If M2_4 is occupied, PCIE2 will be disabled.\n* Supports NVMe SSD as boot disks\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\nTM",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "rearIO": {
+        "value": "• 2 x Antenna Ports\nI/O          • 1 x HDMI Port\n• 1 x Optical SPDIF Out Port\n• 2 x USB 3.2 Gen2 Type-C Ports (10 Gb/s)\n• 3 x USB 3.2 Gen1 Type-A Ports*\n• 2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)**\n• 4 x USB 2.0 Ports\n• 1 x RJ-45 LAN Port\n• 1 x BIOS Flashback Button\n• 1 x Line Out Jack (Gold Audio Jack)\n• 1 x Microphone Input Jack (Gold Audio Jack)\n* USB32_12 are Lightning Gaming Ports.\n** USB32_34 supports Ultra USB Power.",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x SPI TPM Header\n• 1 x hermistor Cable Header\n• 1 x Power LED and Speaker Header\n• 1 x RGB LED Header*\n• 3 x Addressable LED Headers**\n• 2 x CPU Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 3 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)***\n• 1 x AIO Pump Fan Connector (4-pin) (Smart Fan Speed\nControl)***\n• 1 x 24 pin ATX Power Connector (Hi-Density Power Con-\nnector)\n• 2 x 8 pin 12V Power Connectors (Hi-Density Power Con-\nnector)\n• 1 x Front Panel Audio Connector\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n• 1 x Front Panel Type C USB 3.2 Gen2x2 Header (20 Gb/s)\n* Supports in total up to 12V/3A, 36W LED Strip\n** Support in total up to 5V/3A, 15W LED Strip\n*** CPU_FAN1 supports the fan power up to 1A (12W).\n*** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP support the\nfan power up to 3A (36W).\n*** CPU_FAN2, CHA_FAN1~3 and AIO_PUMP can auto\ndetect if 3-pin or 4-pin fan is in use.",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "network": {
+        "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• Killer® E3100G\n• Supports Killer LAN Sotware\n• 802.11be 2x2 Wi-Fi 7 Module\nLAN        • Supports IEEE 802.11a/b/g/n/ac/ax/axe/be\n• Supports 2.4GHz/5GHz/6GHz* frequency band\n• Supports 160MHz channel bandwidth with 6GHz* frequen-\ncy band\n* Wi-Fi 7 (6GHz band) will be supported by Microsot® Win-\ndows® 11. he availability will depend on the diferent regula-\ntion status of each country and region. It will be activated (for\nsupported countries) through Windows Update and sotware\nupdates once available.\n• 1 antenna to support 2 (Transmit) x 2 (Receive) diversity\ntechnology\n• Supports Bluetooth 5.4\n• Supports MU-MIMO",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC4082 Audio Codec)\n• Individual PCB Layers for R/L Audio Channel\n• Direct Drive Technology on Front headphone port (Supports\nup to 600 Ohm headsets)\n• Nahimic Audio",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000\nSeries Processors*\n* he availability of expansion slots may vary by CPU. Please\nrefer to PCIe/M.2 Bandwidth Table for details. (http://www.\nasrock.com/)\nBIOS: • AMI UEFI Legal BIOS with GUI support\nFeature",
+        "sourceURL": "https://download.asrock.com/Manual/B850%20Riptide%20WiFi.pdf",
+        "checkedAt": "2026-11-10T11:00:25+00:00"
+      }
+    },
+    "manufacturerModel": "B850 Riptide WiFi"
+  }
+}

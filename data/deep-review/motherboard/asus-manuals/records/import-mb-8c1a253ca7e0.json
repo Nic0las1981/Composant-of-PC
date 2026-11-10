@@ -1,0 +1,204 @@
+{
+  "review": {
+    "id": "import-mb-8c1a253ca7e0",
+    "name": "PRIME B450M-K",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+          "checkedAt": "2026-11-10T14:09:08+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+          "httpStatus": 200,
+          "sha256": "549ba349ab5c56386a9d5aebbb77e7a45d309452006cfeb37c4f9e9c5d846ddd",
+          "bytes": 3161447,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "cover": "draobrehtoM PRIME B450M-K",
+        "pages": [
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  "product": {
+    "mpn": "PRIME B450M-K",
+    "identityNote": "Modèle ASUS PRIME B450M-K confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — manuel officiel, tableau des spécifications",
+        "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 32,
+      "m2Slots": 1,
+      "heightMm": 226.0,
+      "widthMm": 221.0,
+      "manufacturerPartNumber": "PRIME B450M-K",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AM4 socket for AMD Ryzen™ 2nd Generation / Ryzen™ with Radeon™ Vega\nGraphics / Ryzen™ 1st Generation processors:\nSupports CPU up to 8 cores*\n* Due to CPU limitation, CPU cores supported vary by processor.\n** Refer to www.asus.com for AMD CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B450 chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 2nd Generation /AMD Ryzen™ with Radeon™ Vega Graphics/\nRyzen™ 1st Generation processors:\n2 x DIMM, max. 32GB, DDR4 3200(O.C.) / 3000(O.C.)/2933(O.C.)/2800(O\n.C)/2666/2400/2133 MHz, un-buffered memory\nDual-channel memory architecture\n* Refer to www.asus.com for the latest Memory QVL (Qualified Vendors List).\n** ECC memory(ECC mode) support varies by CPU."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Integrated Graphics in the AMD Ryzen™ with Radeon™ Vega Graphics\nMulti-VGA output support: DVI-D and D-Sub ports\n- Supports DVI-D output with a maximum resolution of 1920 x 1200 @60Hz\n- Supports D-Sub output with a maximum resolution of 1920 x 1200 @60Hz"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation / Ryzen™ 1st Generation processors:\n1 x PCI Express 3.0/2.0 x16 slot (max. @x16 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics\n1 x PCI Express 3.0/2.0 x16 slot (max. @x8 mode)\nAMD B450 Chipset:\n2 x PCI Express 2.0 x1 slots"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD B450 Chipset\n- 4 x Serial ATA 6.0 Gb/s connectors with RAID 0, RAID 1 and RAID 10 support\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™\n1st Generation processors:\n- 1 x M.2 socket 3 with M Key, Type 2242/2260/2280 (PCIe 3.0 x4 and SATA\nmodes) storage devices support"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® 8111H Gigabit LAN controller"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC 887-VD2 8-Channel High Definition Audio CODEC\n- LED-illuminated design: Brighten up your build with the gorgeous illuminated\naudio trace path.\n- Audio Shielding: Ensures precision analog/digital separation and greatly reduces\nmulti-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right channels to guard\nthe quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and immersive\nsound with exceptional clarity and fidelity\n- Supports jack-detection and front panel jack-retasking\n* Use a chassis with HD audio module in the front panel to support an 8-channel audio\noutput."
+          },
+          {
+            "label": "USB",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/\nRyzen™ 1st Generation processors:\n- 4 x USB 3.1 Gen 1 (up to 5Gbps) ports (4 ports at back panel)\nAMD B450 Chipset:\n- 2 x USB 3.1 Gen 2 (up to 10Gbps) ports ( 2 ports at back panel)\n- 2 x USB 3.1 Gen 1 (up to 5Gbps) ports ( 2 ports at mid-board)\n- 4 x USB 2.0/1.1 ports ( 4 ports at mid-board)"
+          },
+          {
+            "label": "ASUS unique features",
+            "value": "Dependable Stability\nASUS 5X PROTECTION III\n- ASUS SafeSlot Core: Fortified PCIe Slot prevents damage\n- ASUS LANGuard: Protects against LAN surges, lightning strikes and static-\nelectricity discharges!\n- ASUS Overvoltage Protection: World-class circuit-protecting power design\n- ASUS Stainless-Steel Back I/O: 3X corrosion-resistance for greater durability!\n- ASUS DIGI+ VRM: 6 Phase digital power design\nSuperb performance\nUEFI BIOS\n- The most advanced options with a fast response time\nEasy PC DIY\nSafe motherboard mounting\n- Component-free areas to minimize damage risk\nQ-Design\n- ASUS Q-DIMM\n- ASUS Q-Slot\nUEFI BIOS EZ Mode\n- Featuring a friendly graphics user interface\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3"
+          },
+          {
+            "label": "ASUS Quiet Thermal Solution",
+            "value": "Quiet Thermal Design:\n- Stylish Fanless Design: Chipset Heat-sink\n- ASUS Fan Xpert"
+          },
+          {
+            "label": "Rear panel I/O ports",
+            "value": "1 x PS/2 Keyboard port\n1 x PS/2 Mouse port\n1 x D-Sub port\n1 x DVI-D port\n1 x LAN (RJ-45) port\n2 x USB 3.1 Gen 2 ports\n4 x USB 3.1 Gen 1 ports\n3 x Audio jacks support 8-channel audio output"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1 x USB 3.1 Gen 1 connector supports additional 2 USB 3.1 Gen 1 ports\n2 x USB 2.0/1.1 connectors support additional 4 USB 2.0/1.1 ports\n4 x SATA 6.0Gb/s connectors\n1 x M.2 socket 3 for M Key and type 2242/2260/2280 devices support(both\nSATA & PCIe mode)\n1 x COM connector\n1 x CPU Fan connector\n1 x Chassis Fan connector (supports 3-pin DC & 4-pin PWM modes)\n1 x Front panel audio connector\n1 x 24-pin EATX power connector\n1 x 8-pin EATX 12V power connector\n1 x 2-pin Clear CMOS header\n1 x System panel connector\n1 x Speaker connector\n1 x S/PDIF out connector"
+          },
+          {
+            "label": "BIOS features",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.1, ACPI 6.1, Multi-\nlanguage BIOS, ASUS EZ Flash 3, ASUS CrashFree BIOS 3, My Favorite, Last\nModified log, F12 PrintScreen, ASUS DRAM SPD (Serial Presence Detect)\nmemory information, F6 Qfan Control"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Support DVD",
+            "value": "Drivers\nASUS Utilities\nASUS Update\nAnti-virus software (OEM version)"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 (64-bit)"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "uATX Form Factor, 8.9’’ x 8.7’’(22.6cm x 22.1cm)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le tableau complet du manuel conserve les limites et restrictions publiées à son édition ; les mises à jour BIOS/QVL peuvent modifier les listes de CPU et de mémoire compatibles."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "memoryCapacity": {
+        "value": 32,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "formFactor": {
+        "value": "uATX Form Factor, 8.9’’ x 8.7’’(22.6cm x 22.1cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "boardDimensions": {
+        "value": "uATX Form Factor, 8.9’’ x 8.7’’(22.6cm x 22.1cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "chipset": {
+        "value": "AMD B450 chipset",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD B450 Chipset\n- 4 x Serial ATA 6.0 Gb/s connectors with RAID 0, RAID 1 and RAID 10 support\nAMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Ryzen™\n1st Generation processors:\n- 1 x M.2 socket 3 with M Key, Type 2242/2260/2280 (PCIe 3.0 x4 and SATA\nmodes) storage devices support",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 2nd Generation / Ryzen™ 1st Generation processors:\n1 x PCI Express 3.0/2.0 x16 slot (max. @x16 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics\n1 x PCI Express 3.0/2.0 x16 slot (max. @x8 mode)\nAMD B450 Chipset:\n2 x PCI Express 2.0 x1 slots",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "network": {
+        "value": "Realtek® 8111H Gigabit LAN controller",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC 887-VD2 8-Channel High Definition Audio CODEC\n- LED-illuminated design: Brighten up your build with the gorgeous illuminated\naudio trace path.\n- Audio Shielding: Ensures precision analog/digital separation and greatly reduces\nmulti-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right channels to guard\nthe quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and immersive\nsound with exceptional clarity and fidelity\n- Supports jack-detection and front panel jack-retasking\n* Use a chassis with HD audio module in the front panel to support an 8-channel audio\noutput.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM4 socket for AMD Ryzen™ 2nd Generation / Ryzen™ with Radeon™ Vega\nGraphics / Ryzen™ 1st Generation processors:\nSupports CPU up to 8 cores*\n* Due to CPU limitation, CPU cores supported vary by processor.\n** Refer to www.asus.com for AMD CPU support list.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B450M-K/E14215_PRIME_B450M-K_UM_WEB.pdf?model=PRIME+B450M-K",
+        "checkedAt": "2026-11-10T14:09:08+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME B450M-K"
+  }
+}

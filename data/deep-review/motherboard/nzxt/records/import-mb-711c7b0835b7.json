@@ -1,0 +1,383 @@
+{
+  "review": {
+    "id": "import-mb-711c7b0835b7",
+    "name": "N7 B550",
+    "state": "exact_color_sku_and_specs",
+    "title": "N7 B550 Specs",
+    "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+    "checkedAt": "2026-11-10T14:01:42+00:00",
+    "apiURL": "https://support.nzxt.com/api/v2/help_center/articles/search.json?query=N7&locale=en-us",
+    "apiSHA256": "a4c8b6053a71f0d7d2fc6289f8eb3c6b735c478d9dceddeeede606a55dd35a4f",
+    "modelNumberStatement": "N7-B55XT-B1 (Black)\n\nN7-B55XT-W1 (White)",
+    "selectedFinish": "Black",
+    "articleUpdatedAt": "2026-09-19T14:20:40Z"
+  },
+  "product": {
+    "mpn": "N7-B55XT-B1",
+    "identityNote": "NZXT documente N7 B550 et la référence commerciale N7-B55XT-B1 pour la finition Black. Les références des autres finitions restent distinctes.",
+    "sources": [
+      {
+        "name": "NZXT — spécifications et références couleur officielles",
+        "url": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "N7-B55XT-B1",
+      "detailLevel": "partial",
+      "manufacturerModel": "N7 B550",
+      "memorySlots": 4
+    },
+    "groups": [
+      {
+        "title": "NZXT — General",
+        "rows": [
+          {
+            "label": "Form Factor",
+            "value": "ATX"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B550"
+          },
+          {
+            "label": "Socket Type",
+            "value": "AMD®AM4"
+          },
+          {
+            "label": "CPU Support",
+            "value": "AMD Socket AM4 Ryzen™ Processors\n3000, 4000, and 5000 Series\n\nDoes notsupport AMD Ryzen™ 5 3400G or Ryzen™ 3 3200G"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Wireless Support",
+            "value": "WiFi 6E, Bluetooth 5.2"
+          },
+          {
+            "label": "Operating System",
+            "value": "Windows® 10 64-bit or newer"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "AMD 2-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "Warranty",
+            "value": "3 Years"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Memory",
+        "rows": [
+          {
+            "label": "DIMM Type",
+            "value": "DDR4 288-pin"
+          },
+          {
+            "label": "Max Memory Capacity",
+            "value": "128 GB"
+          },
+          {
+            "label": "Memory Architecture",
+            "value": "Dual Channel"
+          },
+          {
+            "label": "Base Frequency Support",
+            "value": "3200 MHz\n\n2933 MHz\n\n2667 MHz\n\n2400 MHz\n\n2133 MHz"
+          },
+          {
+            "label": "Max Memory Speed",
+            "value": "4666+ MHz (Vermeer & Matisse CPU)\n\n4733+ MHz (Renoir APU)"
+          },
+          {
+            "label": "ECC Support",
+            "value": "ECC and non-ECC un-buffered memory"
+          },
+          {
+            "label": "XMP Support",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Integrated Graphics",
+        "rows": [
+          {
+            "label": "Graphics Controller",
+            "value": "AMD Radeon™ Vega Series Graphics\n(Requires a supported AMD Ryzen APU)"
+          },
+          {
+            "label": "Integrated Graphics Output",
+            "value": "HDMI™ 2.1"
+          },
+          {
+            "label": "Maximum Resolution",
+            "value": "4096 x 2160 @ 60Hz"
+          },
+          {
+            "label": "Maximum Shared Memory",
+            "value": "16GB (with 32GB DRAM installed)"
+          },
+          {
+            "label": "Microsoft PlayReady® Support",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Expansion Slots",
+        "rows": [
+          {
+            "label": "PCIe x16 (x16 Mode) Slots",
+            "value": "1"
+          },
+          {
+            "label": "PCIe x16 (x4 Mode) Slots",
+            "value": "1"
+          },
+          {
+            "label": "PCIe  x1 Slots",
+            "value": "2"
+          },
+          {
+            "label": "PCIe Type",
+            "value": "PCIEX16_1\n\nPCIe 4.0 x16 (Vermeer & Matisse CPUs)\n\nPCIe 3.0 x16 (Renoir CPUs)\nPCIE3\n\nPCIe 3.0 x4\nPCIE2 & PCIE4\n\nPCIe 3.0 x1"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Storage Support",
+        "rows": [
+          {
+            "label": "M.2 Type 2242/2260/2280 Slots\n(M-Key)",
+            "value": "2"
+          },
+          {
+            "label": "M.2 Type",
+            "value": "M2_1\n\nPCIe 4.0 x4 (Vermeer & Matisse CPUs)\n\nPCIe 3.0 x4 (Renoir CPUs)\nM2_2\n\nPCIe 3.0 x2 orSATA *\n* M2_2 and SATA3_5_6 use shared lanes."
+          },
+          {
+            "label": "SATA 6Gb/s Ports",
+            "value": "6 *\nSupport for RAID 0/1/5/10, NCQ, AHCI, and Hot Plug\n\n* M2_2 and SATA3_5_6 use shared lanes."
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Network and Wireless Support",
+        "rows": [
+          {
+            "label": "Onboard LAN Controller",
+            "value": "Realtek® RTL8125BG 2.5G LAN\n\nSupport for Wake-on-LAN\n\nSupports Energy Efficient Ethernet 802.3az"
+          },
+          {
+            "label": "Onboard WLAN (WiFi) Controller",
+            "value": "Intel Dual Band Wireless-AX210 Wi-Fi 6E\n\nSupports WiFi 802.11 a/b/g/n/ax\n\nSupports Bluetooth\n\nSupport for dual band frequency (2.4/5GHz, 6GHz)\n\nSupports MU-MIMO"
+          },
+          {
+            "label": "Bluetooth Version",
+            "value": "Bluetooth V5.2"
+          },
+          {
+            "label": "Included Antenna(s)",
+            "value": "2x \"Pen Type\" RP-SMA Male Compatible"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Rear I/O",
+        "rows": [
+          {
+            "label": "USB 3.2 Gen 2 (Type C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 2 (Type-A)",
+            "value": "3"
+          },
+          {
+            "label": "USB 3.2 Gen 1 (Type-A)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 (Type-A)",
+            "value": "2"
+          },
+          {
+            "label": "HDMI™ 2.1",
+            "value": "1"
+          },
+          {
+            "label": "Wireless Antenna",
+            "value": "2 (2T2R)"
+          },
+          {
+            "label": "LAN (RJ45)",
+            "value": "1"
+          },
+          {
+            "label": "5.1-Channel Audio Jacks",
+            "value": "1 x Front Surround/Stereo LR\n\n1 x Center/Subwoofer\n\n1 x Rear Surround\n\n1 x Line-In\n\n1 x Microphone\n\n1 x Optical SPDIF Out"
+          },
+          {
+            "label": "Additional Features",
+            "value": "1 x BIOS Flashback Button\n\n1 x Clear CMOS Button"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Internal I/O",
+        "rows": [
+          {
+            "label": "M.2 (M-Key) Slot",
+            "value": "2"
+          },
+          {
+            "label": "M.2 (E-Key) Slot",
+            "value": "1 *\n* For included wireless card"
+          },
+          {
+            "label": "SATA 6Gbps Port",
+            "value": "6"
+          },
+          {
+            "label": "USB 3.2 Gen 2 Header (for Type-C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 1 Header (for Type-A)",
+            "value": "2 (Up to 2 ports per header)"
+          },
+          {
+            "label": "USB 2.0 Header",
+            "value": "3 (Up to 2 ports per header)"
+          },
+          {
+            "label": "Front Panel Audio",
+            "value": "1"
+          },
+          {
+            "label": "4-pin PWM Fan Header",
+            "value": "1 x CPU_FAN (Up to 24W)\n\n1 x AIO_PUMP (Up to 24W)\n\n5 x SYS_FAN (Up to 24W)"
+          },
+          {
+            "label": "NZXT RGB Header",
+            "value": "2 *\n* Supports up to 5 NZXT RGB devices, 40 LEDs total per header."
+          },
+          {
+            "label": "5V ARGB Header",
+            "value": "1 *\n* Supports up to 40 LEDs per header"
+          },
+          {
+            "label": "12V RGB Header",
+            "value": "1 *\n* Supports 5050 RGB LED strips with a maximum power rating of 12V 3A (36W) and length within 2 meters."
+          },
+          {
+            "label": "ATX Power Header",
+            "value": "1 x 24-pin ATX Power\n\n1 x 8-pin ATX 12V Power\n\n1 x 4-pin ATX 12V Power"
+          },
+          {
+            "label": "Additional Features",
+            "value": "1 x Power Button\n\n1 x Reset Button\n\n1 x POST LEDs"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Product Info",
+        "rows": [
+          {
+            "label": "Model Number",
+            "value": "N7-B55XT-B1 (Black)\n\nN7-B55XT-W1 (White)"
+          },
+          {
+            "label": "UPC",
+            "value": "815671015242 (Black)\n\n815671015235 (White)"
+          },
+          {
+            "label": "EAN",
+            "value": "5060301696680 (Black)\n\n5060301696697 (White)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "formFactor": {
+        "value": "ATX",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B550",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2 Type 2242/2260/2280 Slots\n(M-Key): 2\nM.2 Type: M2_1\n\nPCIe 4.0 x4 (Vermeer & Matisse CPUs)\n\nPCIe 3.0 x4 (Renoir CPUs)\nM2_2\n\nPCIe 3.0 x2 orSATA *\n* M2_2 and SATA3_5_6 use shared lanes.\nSATA 6Gb/s Ports: 6 *\nSupport for RAID 0/1/5/10, NCQ, AHCI, and Hot Plug\n\n* M2_2 and SATA3_5_6 use shared lanes.",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "rearIO": {
+        "value": "USB 3.2 Gen 2 (Type C): 1\nUSB 3.2 Gen 2 (Type-A): 3\nUSB 3.2 Gen 1 (Type-A): 4\nUSB 2.0 (Type-A): 2\nHDMI™ 2.1: 1\nWireless Antenna: 2 (2T2R)\nLAN (RJ45): 1\n5.1-Channel Audio Jacks: 1 x Front Surround/Stereo LR\n\n1 x Center/Subwoofer\n\n1 x Rear Surround\n\n1 x Line-In\n\n1 x Microphone\n\n1 x Optical SPDIF Out\nAdditional Features: 1 x BIOS Flashback Button\n\n1 x Clear CMOS Button",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "internalIO": {
+        "value": "M.2 (M-Key) Slot: 2\nM.2 (E-Key) Slot: 1 *\n* For included wireless card\nSATA 6Gbps Port: 6\nUSB 3.2 Gen 2 Header (for Type-C): 1\nUSB 3.2 Gen 1 Header (for Type-A): 2 (Up to 2 ports per header)\nUSB 2.0 Header: 3 (Up to 2 ports per header)\nFront Panel Audio: 1\n4-pin PWM Fan Header: 1 x CPU_FAN (Up to 24W)\n\n1 x AIO_PUMP (Up to 24W)\n\n5 x SYS_FAN (Up to 24W)\nNZXT RGB Header: 2 *\n* Supports up to 5 NZXT RGB devices, 40 LEDs total per header.\n5V ARGB Header: 1 *\n* Supports up to 40 LEDs per header\n12V RGB Header: 1 *\n* Supports 5050 RGB LED strips with a maximum power rating of 12V 3A (36W) and length within 2 meters.\nATX Power Header: 1 x 24-pin ATX Power\n\n1 x 8-pin ATX 12V Power\n\n1 x 4-pin ATX 12V Power\nAdditional Features: 1 x Power Button\n\n1 x Reset Button\n\n1 x POST LEDs",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "network": {
+        "value": "Onboard LAN Controller: Realtek® RTL8125BG 2.5G LAN\n\nSupport for Wake-on-LAN\n\nSupports Energy Efficient Ethernet 802.3az\nOnboard WLAN (WiFi) Controller: Intel Dual Band Wireless-AX210 Wi-Fi 6E\n\nSupports WiFi 802.11 a/b/g/n/ax\n\nSupports Bluetooth\n\nSupport for dual band frequency (2.4/5GHz, 6GHz)\n\nSupports MU-MIMO\nBluetooth Version: Bluetooth V5.2\nIncluded Antenna(s): 2x \"Pen Type\" RP-SMA Male Compatible",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket: AMD®AM4\nAMD Socket AM4 Ryzen™ Processors\n3000, 4000, and 5000 Series\n\nDoes notsupport AMD Ryzen™ 5 3400G or Ryzen™ 3 3200G",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/37547153004827-N7-B550-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      }
+    },
+    "identityKind": "mpn",
+    "manufacturerModel": "N7 B550"
+  }
+}

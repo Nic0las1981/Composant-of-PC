@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-7cef8e359f9c",
+    "name": "B660GTN",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+          "checkedAt": "2026-11-10T13:46:29+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bB660GTN_box_JAkE.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_Top_Wq1w.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_45_DJch.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_IO-update_cMQZ.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "1045",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "B660GTN",
+    "identityNote": "Modèle Biostar B660GTN confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "B660GTN",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR B660GTN — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "Intel B660"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support for 12th/ 13th/ 14th Generation Intel Core™ i9/ i7/ i5/ i3 processors and Intel Pentium processors/Intel \nCeleron processors in the LGA1700 package\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4-1866/ 2133/ 2400/ 2666/2800/2933/3200/3600(OC)/3800(OC)/4000(OC)/ 4133(OC)/4300(OC)/5000+(OC)\n \n2 x DDR4 DIMM Memory Slot, Max. Supports up to 64 GB Memory\n \nEach DIMM supports non-ECC 4/ 8/ 16/ 32GB DDR4 module\n \nSupport Intel Extreme Memory Profile (XMP) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 socket and 4x SATA III (6Gb/s) ports\n \nIntel 12th/13th/14th Processors\n \n1 x M.2 (M Key) Socket (M2_PCIEG4_64G):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 4.0 x4 (64Gb/s)\n \nIntel B660 Chipset\n \n1 x M.2 (M Key) Socket (M2_PCIEG4_64G_SATA):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 4.0 x 4 (64Gb/s) & SATA lll (6Gb/s) SSD\n \nSupports Intel Rapid Storage Technology and Intel Optane Technology\n \n4 x SATA III Connector (6Gb/s): Supports AHCI, RAID 0, 1, 5, 10 & Intel® Rapid Storage Technology \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8125B\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front + Rear)"
+          },
+          {
+            "label": "USB",
+            "value": "2 x USB 3.2 (Gen1) ports (2 via internal header)\n \n4 x USB 3.2 (Gen2) ports (4 on rear I/Os)\n \n4 x USB 2.0 ports (2 on rear I/Os and 2 via internal header)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "INTEL 12th/13th/14th Processors\n \n1 x PCIe 5.0 x16 Slot (x16 mode) \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x WIFI Antenna Ports\n \n1 x PS/2 Keyboard/ Mouse Port\n \n1 x HDMI® Port\n \n1 x DP Port\n \n4 x USB 3.2 (Gen2) Ports\n \n2 x USB 2.0 ports\n \n3 x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module and Intel CNVi\n \n1 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1 x USB 3.2 (Gen1) Header (each header supports 2 USB 3.2 (Gen1) ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x LED Header (5V)\n \n1 x LED Header (12V)\n \n* M.2 (E key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nSystem Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini ITX Form Factor Dimension: 17cm x 17cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT Utility\nBullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x DVD Driver\n1 x Quick Guide"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\nBIO-FLASHER\nA.I FAN\nRACING GT Utility"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bB660GTN_box_JAkE.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_Top_Wq1w.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_45_DJch.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bBIOSTAR_RACING_B660GTN_IO-update_cMQZ.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "formFactor": {
+        "value": "Mini ITX Form Factor Dimension: 17cm x 17cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini ITX Form Factor Dimension: 17cm x 17cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "chipset": {
+        "value": "Intel B660",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 socket and 4x SATA III (6Gb/s) ports\n \nIntel 12th/13th/14th Processors\n \n1 x M.2 (M Key) Socket (M2_PCIEG4_64G):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 4.0 x4 (64Gb/s)\n \nIntel B660 Chipset\n \n1 x M.2 (M Key) Socket (M2_PCIEG4_64G_SATA):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 4.0 x 4 (64Gb/s) & SATA lll (6Gb/s) SSD\n \nSupports Intel Rapid Storage Technology and Intel Optane Technology\n \n4 x SATA III Connector (6Gb/s): Supports AHCI, RAID 0, 1, 5, 10 & Intel® Rapid Storage Technology \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "pcie": {
+        "value": "INTEL 12th/13th/14th Processors\n \n1 x PCIe 5.0 x16 Slot (x16 mode) \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "rearIO": {
+        "value": "2 x WIFI Antenna Ports\n \n1 x PS/2 Keyboard/ Mouse Port\n \n1 x HDMI® Port\n \n1 x DP Port\n \n4 x USB 3.2 (Gen2) Ports\n \n2 x USB 2.0 ports\n \n3 x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "internalIO": {
+        "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module and Intel CNVi\n \n1 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n \n1 x USB 3.2 (Gen1) Header (each header supports 2 USB 3.2 (Gen1) ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x LED Header (5V)\n \n1 x LED Header (12V)\n \n* M.2 (E key) Wi-Fi card is not provided",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8125B\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "audio": {
+        "value": "ALC1220\n \n7.1 Channels, High Definition Audio, Hi-Fi(Front + Rear)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support for 12th/ 13th/ 14th Generation Intel Core™ i9/ i7/ i5/ i3 processors and Intel Pentium processors/Intel \nCeleron processors in the LGA1700 package\n \n* Please refer to www.biostar.com.tw for CPU support list.",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1045&pname=B660GTN&chipset=Intel%20B660",
+        "checkedAt": "2026-11-10T13:46:29+00:00"
+      }
+    }
+  }
+}

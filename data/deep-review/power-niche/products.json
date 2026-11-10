@@ -1,0 +1,6139 @@
+{
+  "import-psu-fc8146bd490f": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH Century II 850W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/century-ii-850w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "Century II 850W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "850"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (140)"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-40°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / EMC / FCC&ICES / KC / KCC / LVD / RCM / RoHS2.0 / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562747263"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 10A Max"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70.8A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 70.8A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "849.6W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 849.6W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "850W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 2 câble(s) × 2 (6+2 Pins) connecteur(s) ; 12V-2x6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 2 câble(s) × 4 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH Century II 850W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH Century II 850W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-88404d54d770": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH Century II 1050W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/century-ii-1050w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1050 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "Century II 1050W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "1050"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (140)"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-40°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / EMC / FCC&ICES / KC / KCC / LVD / RCM / RoHS2.0 / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562743371"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 15A-10A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "87.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 87.5A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1050W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 1050W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1050W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 3 câble(s) × 2 (6+2 Pins) connecteur(s) ; 12V-2x6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 3 câble(s) × 4 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH Century II 1050W",
+      "wattage": 1050,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH Century II 1050W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-ba5e23e89b19": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH APX 650W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=408&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:34.321602+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "APX 650W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*140*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Rendement",
+            "value": "80% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC-ICES / EAC / RCM / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 12A MAX"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Max Output Current",
+            "value": "18A · 18A · 54.1A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Max Output Power",
+            "value": "100W · 649.2W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "650W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 2 ; SATA : 6 ; Molex 4 Pin : 3"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH APX 650W",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH APX 650W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-e651ccbdc22c": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH Century II 1200W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/century-ii-1200w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1200 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "Century II 1200W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "1200"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (140)"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-40°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / EMC / FCC&ICES / KC / KCC / LVD / RCM / RoHS2.0 / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562746365"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 15A-10A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "100A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 100A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1200W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 1200W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1200W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 3 câble(s) × 2 (6+2 Pins) connecteur(s) ; 12V-2x6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 3 câble(s) × 4 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH Century II 1200W",
+      "wattage": 1200,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH Century II 1200W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-7d4bf7685b85": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH APX 750W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=407&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:34.262722+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "APX 750W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*140*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Rendement",
+            "value": "80% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC-ICES / EAC / RCM / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 12A MAX"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Max Output Current",
+            "value": "18A · 18A · 62.5A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Max Output Power",
+            "value": "100W · 750W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "750W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 4 ; SATA : 6 ; Molex 4 Pin : 3"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH APX 750W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH APX 750W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-6efba3774134": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH APX 550W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=409&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:34.227927+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "550 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "APX 550W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*140*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Rendement",
+            "value": "80% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC-ICES / EAC / RCM / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 12A MAX"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Max Output Current",
+            "value": "18A · 18A · 45.8A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Max Output Power",
+            "value": "100W · 549.6W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "550W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 2 ; SATA : 6 ; Molex 4 Pin : 3"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH APX 550W",
+      "wattage": 550,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH APX 550W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-19a9efbf18c7": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN PLA 1200W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/titan-pla-1200w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1200 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN PLA 1200W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "1200"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (160)"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "160*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-50°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / FCC / KC / RCM / RoHS / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562744613"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 15-7.5A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "100A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "25A · 25A · 100A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1200W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "125W · 1200W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1200W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 3 câble(s) × 1 (6+2 Pins) connecteur(s) ; 12V-2X6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 2 câble(s) × 4 connecteur(s) ; SATA 3.3V : 2 câble(s) × 2 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN PLA 1200W",
+      "wattage": 1200,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN PLA 1200W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-dddc05af20f2": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN PLA 850W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/titan-pla-850w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN PLA 850W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "850"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (160)"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "160*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-50°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / FCC / KC / RCM / RoHS / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562742619"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 11-5.5A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 70A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "840W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 840W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "850W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 3 câble(s) × 1 (6+2 Pins) connecteur(s) ; 12V-2X6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 2 câble(s) × 4 connecteur(s) ; SATA 3.3V : 2 câble(s) × 2 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN PLA 850W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN PLA 850W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-5fc213a47378": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN PLA 1000W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/titan-pla-1000w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1000 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN PLA 1000W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "1000"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (160)"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "160*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-50°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / FCC / KC / RCM / RoHS / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562743616"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 13-6.5A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "83A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "25A · 25A · 83A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "996W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "125W · 996W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1000W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 3 câble(s) × 1 (6+2 Pins) connecteur(s) ; 12V-2X6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 2 câble(s) × 4 connecteur(s) ; SATA 3.3V : 2 câble(s) × 2 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN PLA 1000W",
+      "wattage": 1000,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN PLA 1000W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-f5496ac5e3d6": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH CENTURY G5 850W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=369&s_ok2=",
+        "checkedAt": "2026-11-10T14:51:51.190406+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "CENTURY G5 850W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*140*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm(FDB Fan)"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 12A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 70.5A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "846W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "110W · 846W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "850W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : (2 Connectors)*2 ; SATA : (4 Connectors)*2 + (2 Connectors)*1 ; Molex 4Pin : (3 Connectors)*1 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH CENTURY G5 850W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH CENTURY G5 850W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-8ffdfcc15658": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN PLA 750W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.montechpc.com/titan-pla-750w",
+        "checkedAt": "2026-11-10T14:51:52.258595+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN PLA 750W"
+          },
+          {
+            "label": "Puissance nominale",
+            "value": "750"
+          },
+          {
+            "label": "Format",
+            "value": "ATX (160)"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Plage d’entrée",
+            "value": "Full Range"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "160*150*86mm"
+          },
+          {
+            "label": "Ventilateur · Size",
+            "value": "135mm"
+          },
+          {
+            "label": "Ventilateur · roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-50°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OPP / OVP / UVP / SCP / OCP / OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "BSMI / CB / CCC / CE / EAC / FCC / KC / RCM / RoHS / cTUVus / TUV / UKCA"
+          },
+          {
+            "label": "EAN publié",
+            "value": "4710562741612"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 Years"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 10-5A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "62A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 62A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "744W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 744W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "750W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "Motherboard : 1 câble(s) × 1 (20+4 Pins) connecteur(s) ; CPU : 2 câble(s) × 1 (4+4 Pins) connecteur(s) ; PCIe : 2 câble(s) × 1 (6+2 Pins) connecteur(s) ; 12V-2X6 : 1 câble(s) × 1 (16 Pins to 16 Pins) connecteur(s) ; SATA : 2 câble(s) × 4 connecteur(s) ; SATA 3.3V : 1 câble(s) × 2 connecteur(s) ; Molex : 1 câble(s) × 4 connecteur(s)"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.1"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12V-2x6"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN PLA 750W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN PLA 750W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-ed00624a124a": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN GOLD 1000W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=329&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.170868+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1000 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN GOLD 1000W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*160*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135mm ( FDB Fan )"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 15A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "83.33A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "22A · 22A · 83.33A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1000W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "120W · 1000W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1000W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 5 ; SATA : 12 ; Molex 4Pin : 4 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN GOLD 1000W",
+      "wattage": 1000,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN GOLD 1000W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-38d39f7628bc": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN GOLD 850W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=327&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:32.990834+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN GOLD 850W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*160*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135mm ( FDB Fan )"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 12A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70.8A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "22A · 22A · 70.8A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "850W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "120W · 850W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "850W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 4 ; SATA : 12 ; Molex 4Pin : 4 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN GOLD 850W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN GOLD 850W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-15065658b41a": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH CENTURY G5 750W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=370&s_ok2=",
+        "checkedAt": "2026-11-10T14:51:51.756794+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "CENTURY G5 750W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*140*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm (FDB Fan)"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 10A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "62.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 62.5A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "744W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 744W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "750W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : (2 Connectors)*2 ; SATA : (4 Connectors)*2 + (2 Connectors)*1 ; Molex 4Pin : (3 Connectors)*1 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH CENTURY G5 750W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH CENTURY G5 750W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-f8729ebc41bf": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN GOLD 1200W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=330&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:32.815075+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1200 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN GOLD 1200W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*160*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135mm ( FDB Fan )"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 15A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "100A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "22A · 22A · 100A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1200W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "120W · 1200W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "1200W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 5 ; SATA : 12 ; Molex 4Pin : 4 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN GOLD 1200W",
+      "wattage": 1200,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN GOLD 1200W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-c7e8b42fa381": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH TITAN GOLD 750W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=326&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.268611+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "TITAN GOLD 750W"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "Intel ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50-60Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "150*160*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135mm ( FDB Fan )"
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / OTP / SCP / OCP/ UVP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / FCC / RoHS / BSMI"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 50-60Hz 12A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · +12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "62.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "22A · 22A · 62.5A · 0.3A · 3A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "750W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "120W · 750W · 3.6W · 15W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "750W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 4 ; SATA : 12 ; Molex 4Pin : 4 ; 12+4PCIe 5.0 : 1"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Version ATX",
+            "value": "3.0"
+          },
+          {
+            "label": "Connecteur GPU de nouvelle génération",
+            "value": "12VHPWR"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH TITAN GOLD 750W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "fanSizeMm": 135,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160.0,
+      "description": "Alimentation MONTECH TITAN GOLD 750W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Axes normalisés au format ATX : largeur arrière 150 mm, hauteur 86 mm, axe restant en profondeur ; le tableau source inverse les deux axes horizontaux."
+    ]
+  },
+  "import-psu-260309a2e581": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH CENTURY 650",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=185&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.474649+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "CENTURY 650"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "9A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm ( FDB Fan )"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP/OVP/UVP/OPP/SCP/OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 9.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "54A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 54A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "648W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 648W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "650W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 4 ; SATA : 8 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 4"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH CENTURY 650",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH CENTURY 650. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-bf69b45692d0": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH GAMMA II 750",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=47&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.874657+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "GAMMA II 750"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / UVP / SCP / OCP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 10.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "62A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "22A · 22A · 62A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "744W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "120W · 744W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "750W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 4 ; SATA : 8 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 4"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH GAMMA II 750",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH GAMMA II 750. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-32f8cfbc5a9a": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH GAMMA II 650",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=46&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.726313+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "GAMMA II 650"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / UVP / SCP / OCP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 10.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "53A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 53A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "636W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "110W · 636W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "650W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 4 ; SATA : 8 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 4"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH GAMMA II 650",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH GAMMA II 650. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-5aaf77b4e4d7": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH GAMMA II 550",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=45&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.962637+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "550 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "GAMMA II 550"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "8A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OVP / OPP / UVP / SCP / OCP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 8.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "45A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 45A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "540W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "110W · 540W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "550W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 2 ; SATA : 8 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 2"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH GAMMA II 550",
+      "wattage": 550,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH GAMMA II 550. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-94ae22c93bc3": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH CENTURY 550",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=186&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.682696+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "550 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "CENTURY 550"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "8A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm ( FDB Fan )"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP/OVP/UVP/OPP/SCP/OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 8.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "45.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 45.5A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "546W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "100W · 546W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "550W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 2 ; SATA : 8 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 2"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH CENTURY 550",
+      "wattage": 550,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH CENTURY 550. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-c27212880608": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "MONTECH CENTURY 850",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "Montech — spécifications et manuel",
+        "url": "https://www.telon.com.tw/en/products_detail.php?nid=175&s_ok2=",
+        "checkedAt": "2026-11-10T14:54:33.608514+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Modèle fabricant",
+            "value": "CENTURY 850"
+          },
+          {
+            "label": "Format électrique publié",
+            "value": "ATX12V"
+          },
+          {
+            "label": "PFC",
+            "value": "Active PFC (>0.9 typical)"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100-240Vac"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47-63Hz"
+          },
+          {
+            "label": "Dimensions publiées",
+            "value": "140*150*86mm"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120mm ( FDB Fan )"
+          },
+          {
+            "label": "Temps de maintien",
+            "value": "10msec (minimum) at 80% of full load at 230Vac input."
+          },
+          {
+            "label": "Rendement",
+            "value": "90% Typically"
+          },
+          {
+            "label": "MTBF",
+            "value": ">100,000 Hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0-45°C"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP/OVP/UVP/OPP/SCP/OTP"
+          },
+          {
+            "label": "Homologations",
+            "value": "cTUVus / TUV / CB / CE / RoHS / FCC"
+          },
+          {
+            "label": "Entrée secteur",
+            "value": "100-240Vac 47-63Hz 12.0A"
+          },
+          {
+            "label": "Ordre des rails de sortie",
+            "value": "+3.3V · +5V · 12V · -12V · +5VSB"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70.5A"
+          },
+          {
+            "label": "Courants des rails (ordre ci-dessus)",
+            "value": "20A · 20A · 70.5A · 0.3A · 2.5A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "846W"
+          },
+          {
+            "label": "Puissances des rails (3,3/5 V combinés puis 12 V, −12 V et 5 VSB)",
+            "value": "110W · 846W · 3.6W · 12.5W"
+          },
+          {
+            "label": "Puissance totale",
+            "value": "850W"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "M/B 20+4 Pin : 1 ; CPU 4+4 Pin : 2 ; PCIE 6+2 Pin : 6 ; SATA : 10 ; Molex 4Pin : 3 ; FDD : 1 ; M/B 20+4Pin : 1 ; CPU 4+4Pin : 2 ; PCIE 6+2 : 6"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "MONTECH CENTURY 850",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "fanSizeMm": 120,
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140.0,
+      "description": "Alimentation MONTECH CENTURY 850. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-12cc854046f1": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 650 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Noir"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 650 W",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II 650 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-fc4111745161": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II VE 750 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "7 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "PFC",
+            "value": "0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 2 ; PCIe 6+2 : 3 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "1 connecteur ; capacité publiée 600 W"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II VE 750 W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II VE 750 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 et ATX 3.1 publiés selon édition du document.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-6cc0843c6e75": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 850 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Noir"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 850 W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II 850 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-debc68a80d1b": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CYBERCORE 1000 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_cybercore_qsg.pdf",
+        "checkedAt": "2026-11-10T14:55:18.561322+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://www.xpg.com/en/news/963",
+        "checkedAt": "2026-11-10T14:56:47.701282+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://www.xpg.com/np/xpg/pc-components-CYBERCORE?tab=faq",
+        "checkedAt": "2026-11-10T14:56:47.701282+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1000 W"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm, XPG VENTO PRO 120 PWM par Nidec"
+          },
+          {
+            "label": "Roulement",
+            "value": "Double roulement à billes"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "83,33 A"
+          },
+          {
+            "label": "Câbles CPU/PCIe",
+            "value": "Conducteurs 16 AWG"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Ventilation semi-passive",
+            "value": "Arrêt sous environ 30 % de charge, selon communiqué fabricant"
+          },
+          {
+            "label": "Topologie",
+            "value": "PFC entrelacé ; PMIC numérique ; DC-DC"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CYBERCORE 1000 W",
+      "wattage": 1000,
+      "psuFormat": "ATX",
+      "depthMm": 160,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CYBERCORE 1000 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "L’extraction du manuel original ne restitue pas toutes ses pages mécaniques et de câbles. Ces valeurs ne sont pas copiées depuis le CYBERCORE II."
+    ]
+  },
+  "import-psu-5d436e556d8b": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG PYLON 550 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "550 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Bronze"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.52"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Température maximale de fonctionnement",
+            "value": "50 °C"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Vitesse du ventilateur",
+            "value": "2 000 tr/min"
+          },
+          {
+            "label": "MTBF",
+            "value": "100 000 h à pleine charge et 25 °C"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "550 W, 100 % de la puissance nominale"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 1 ; PCIe 6+2 : 2 ; SATA : 5 ; Molex : 2 ; Floppy : 1"
+          },
+          {
+            "label": "Condensateur principal",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Topologie",
+            "value": "DC-DC"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG PYLON 550 W",
+      "wattage": 550,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG PYLON 550 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+    ]
+  },
+  "import-psu-9bd991bb9a3e": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG PYLON 650 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Bronze"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.52"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Température maximale de fonctionnement",
+            "value": "50 °C"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Vitesse du ventilateur",
+            "value": "2 000 tr/min"
+          },
+          {
+            "label": "MTBF",
+            "value": "100 000 h à pleine charge et 25 °C"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "650 W, 100 % de la puissance nominale"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 2 ; PCIe 6+2 : 4 ; SATA : 8 ; Molex : 3 ; Floppy : 1"
+          },
+          {
+            "label": "Condensateur principal",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Topologie",
+            "value": "DC-DC"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG PYLON 650 W",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG PYLON 650 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+    ]
+  },
+  "import-psu-842467d40eb9": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II VE 650 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "7 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "PFC",
+            "value": "0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 2 ; PCIe 6+2 : 2 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "1 connecteur ; capacité publiée 450 W"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II VE 650 W",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II VE 650 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 et ATX 3.1 publiés selon édition du document.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-3f25a0d3e514": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 750 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Noir"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 750 W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II 750 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-32ab1e4438e0": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG PYLON 750 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Bronze"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.52"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Température maximale de fonctionnement",
+            "value": "50 °C"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Vitesse du ventilateur",
+            "value": "2 000 tr/min"
+          },
+          {
+            "label": "MTBF",
+            "value": "100 000 h à pleine charge et 25 °C"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "750 W, 100 % de la puissance nominale"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 2 ; PCIe 6+2 : 4 ; SATA : 8 ; Molex : 3 ; Floppy : 1"
+          },
+          {
+            "label": "Condensateur principal",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Topologie",
+            "value": "DC-DC"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG PYLON 750 W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG PYLON 750 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+    ]
+  },
+  "import-psu-972048b2f907": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II VE 850 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg%5Fcore%5Freactor%5Fii%5Fve%5Fdatasheet%5F202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "7 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "PFC",
+            "value": "0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 2 ; PCIe 6+2 : 3 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "1 connecteur ; capacité publiée 600 W"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II VE 850 W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II VE 850 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Les fiches de la famille ont été révisées de ATX 3.0/12VHPWR à ATX 3.1/12V-2x6. Sans révision du produit d’archive, ces deux champs restent indéterminés ; dimensions et câblage commun sont conservés."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 et ATX 3.1 publiés selon édition du document.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_ve_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-dcb8d6875c7d": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG KYBER 750 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4/8 : 2 ; PCIe 6+2 : 2 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Longueur câble ATX/CPU",
+            "value": "650 mm"
+          },
+          {
+            "label": "Longueur câble PCIe",
+            "value": "600 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "450 + 150 + 150 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG KYBER 750 W",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG KYBER 750 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-3b151f77d8c7": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CYBERCORE 1300 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_cybercore_qsg.pdf",
+        "checkedAt": "2026-11-10T14:55:18.561322+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://www.xpg.com/en/news/963",
+        "checkedAt": "2026-11-10T14:56:47.701282+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://www.xpg.com/np/xpg/pc-components-CYBERCORE?tab=faq",
+        "checkedAt": "2026-11-10T14:56:47.701282+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1300 W"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm, XPG VENTO PRO 120 PWM par Nidec"
+          },
+          {
+            "label": "Roulement",
+            "value": "Double roulement à billes"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "108,33 A"
+          },
+          {
+            "label": "Câbles CPU/PCIe",
+            "value": "Conducteurs 16 AWG"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Ventilation semi-passive",
+            "value": "Arrêt sous environ 30 % de charge, selon communiqué fabricant"
+          },
+          {
+            "label": "Topologie",
+            "value": "PFC entrelacé ; PMIC numérique ; DC-DC"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "1 300 W"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15 A"
+          },
+          {
+            "label": "Puissance combinée +3,3 V / +5 V",
+            "value": "130 W"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CYBERCORE 1300 W",
+      "wattage": 1300,
+      "psuFormat": "ATX",
+      "depthMm": 160,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CYBERCORE 1300 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "L’extraction du manuel original ne restitue pas toutes ses pages mécaniques et de câbles. Ces valeurs ne sont pas copiées depuis le CYBERCORE II."
+    ]
+  },
+  "import-psu-caadcf139c4a": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG KYBER 850 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4/8 : 2 ; PCIe 6+2 : 2 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Longueur câble ATX/CPU",
+            "value": "650 mm"
+          },
+          {
+            "label": "Longueur câble PCIe",
+            "value": "600 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "450 + 150 + 150 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG KYBER 850 W",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG KYBER 850 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 12VHPWR dans le premier document, ATX 3.1 / 12V-2x6 dans la révision 202409.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-4888c400d1a3": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 1000 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1000 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "13 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Noir"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 1000 W",
+      "wattage": 1000,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160,
+      "fanSizeMm": 135,
+      "description": "Alimentation XPG Core Reactor II 1000 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-aa1e050cce37": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 850 W White",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Blanc"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 850 W White",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG Core Reactor II 850 W White. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-56712dd4a3f7": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CORE Reactor 850",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "850 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, OPP, OTP, NLO, SCP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "12 A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "850 W"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "70,8 A"
+          },
+          {
+            "label": "Puissance combinée +3,3 V / +5 V",
+            "value": "120 W"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Câbles du manuel",
+            "value": "ATX 24 : 1 ; EPS 4+4 : 2 ; PCIe 6+2 : 4 câbles ; SATA : 3 câbles dans le tableau"
+          },
+          {
+            "label": "Longueur câble ATX/EPS/PCIe",
+            "value": "650 mm ± 10 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "500 mm ± 10 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CORE Reactor 850",
+      "wattage": 850,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CORE Reactor 850. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+    ]
+  },
+  "import-psu-71d3431ea6f9": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CORE Reactor 750",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "750 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, OPP, OTP, NLO, SCP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "750 W"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "62,5 A"
+          },
+          {
+            "label": "Puissance combinée +3,3 V / +5 V",
+            "value": "120 W"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Câbles du manuel",
+            "value": "ATX 24 : 1 ; EPS 4+4 : 2 ; PCIe 6+2 : 4 câbles ; SATA : 3 câbles dans le tableau"
+          },
+          {
+            "label": "Longueur câble ATX/EPS/PCIe",
+            "value": "650 mm ± 10 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "500 mm ± 10 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CORE Reactor 750",
+      "wattage": 750,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CORE Reactor 750. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+    ]
+  },
+  "import-psu-64fa3faf0589": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG Core Reactor II 1200 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1200 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Finition confirmée",
+            "value": "Noir"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG Core Reactor II 1200 W",
+      "wattage": 1200,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160,
+      "fanSizeMm": 135,
+      "description": "Alimentation XPG Core Reactor II 1200 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Révision de connecteur non identifiée : l’ancien document publie ATX 3.0/12VHPWR et celui de septembre 2025 ATX 3.1/12V-2x6 sous les mêmes codes régionaux. Les mesures communes sont conservées, aucune génération n’est choisie arbitrairement."
+    ],
+    "fieldEvidence": {
+      "atx": {
+        "value": "ATX 3.0 / 3.1 selon édition ; connecteur 12VHPWR / 12V-2x6 non tranché.",
+        "conflicting": true,
+        "sourceURL": "https://webapi3.adata.com/storage/downloadfile/xpg_core_reactor_ii_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "reason": "Versions fabricant distinctes non rattachables à la révision d’archive."
+      }
+    }
+  },
+  "import-psu-4f5f1fce3a8d": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CORE Reactor 650",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/XPG%20Core%20Reactor%20_QSG.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, OPP, OTP, NLO, SCP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "650 W"
+          },
+          {
+            "label": "Courant maximal du rail +12 V",
+            "value": "54,1 A"
+          },
+          {
+            "label": "Puissance combinée +3,3 V / +5 V",
+            "value": "110 W"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Câbles du manuel",
+            "value": "ATX 24 : 1 ; EPS 4+4 : 1 ; PCIe 6+2 : 2 câbles ; SATA : 3 câbles dans le tableau"
+          },
+          {
+            "label": "Longueur câble ATX/EPS/PCIe",
+            "value": "650 mm ± 10 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "500 mm ± 10 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CORE Reactor 650",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CORE Reactor 650. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le manuel distingue câbles et connecteurs ; les tableaux PCIe ne suffisent pas à multiplier les prises par câble. Les nombres de câbles sont conservés comme tels."
+    ]
+  },
+  "import-psu-5c67c792f337": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CYBERCORE II 1000 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/cybercore_ii_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1000 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Versions ATX déclarées",
+            "value": "3.0 et 3.1 dans le même document"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "12VHPWR : 1 câble de 650 mm"
+          },
+          {
+            "label": "Roulement",
+            "value": "Double roulement à billes, XPG VENTO PRO 120 PWM par Nidec"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "110–240 V selon cette fiche"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "13 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "Câbles communs",
+            "value": "ATX 20+4 : 1 × 750 mm ; CPU 4+4 : 2 × 750 mm"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Architecture",
+            "value": "Contrôle numérique T.I. ; PFC entrelacé"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CYBERCORE II 1000 W",
+      "wattage": 1000,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CYBERCORE II 1000 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Les cellules du tableau PCIe/SATA/Molex du PDF extrait sont incohérentes (quantités câbles/prises). Leurs totaux ne sont pas validés."
+    ]
+  },
+  "import-psu-6b9e65fb17b3": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG KYBER 650 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_kyber_psu_datasheet_202409.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "650 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Gold"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "10 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4/8 : 2 ; PCIe 6+2 : 2 ; SATA : 6 ; Molex : 2"
+          },
+          {
+            "label": "Longueur câble ATX/CPU",
+            "value": "650 mm"
+          },
+          {
+            "label": "Longueur câble PCIe",
+            "value": "600 mm"
+          },
+          {
+            "label": "Longueur câble SATA",
+            "value": "450 + 150 + 150 mm"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.52"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "Aucun"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG KYBER 650 W",
+      "wattage": 650,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG KYBER 650 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle."
+    ]
+  },
+  "import-psu-b1bc25a94ae8": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG CYBERCORE II 1300 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/cybercore_ii_datasheet.pdf",
+        "checkedAt": "2026-11-10T14:52:41.664349+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1300 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Platinum"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "10 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "160 mm"
+          },
+          {
+            "label": "Versions ATX déclarées",
+            "value": "3.0 et 3.1 dans le même document"
+          },
+          {
+            "label": "Connecteur GPU 16 contacts",
+            "value": "12VHPWR : 1 câble de 650 mm"
+          },
+          {
+            "label": "Roulement",
+            "value": "Double roulement à billes, XPG VENTO PRO 120 PWM par Nidec"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "110–240 V selon cette fiche"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "Câbles communs",
+            "value": "ATX 20+4 : 1 × 750 mm ; CPU 4+4 : 2 × 750 mm"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Architecture",
+            "value": "Contrôle numérique T.I. ; PFC entrelacé"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG CYBERCORE II 1300 W",
+      "wattage": 1300,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 160,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG CYBERCORE II 1300 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Les cellules du tableau PCIe/SATA/Molex du PDF extrait sont incohérentes (quantités câbles/prises). Leurs totaux ne sont pas validés."
+    ]
+  },
+  "import-psu-7270869091dc": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG FUSION 1600",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/xpg_fusion_1600_titanium_psu_datasheet_202509.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "1600 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Titanium"
+          },
+          {
+            "label": "Modularité",
+            "value": "Entièrement modulaire"
+          },
+          {
+            "label": "Garantie",
+            "value": "12 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "135 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "210 mm"
+          },
+          {
+            "label": "Puissance selon tension d’entrée",
+            "value": "1 300 W sur 100–240 V ; 1 600 W sur 115–240 V selon les deux plages du fabricant"
+          },
+          {
+            "label": "Courant d’entrée",
+            "value": "15–8 A"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "47–63 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Roulement",
+            "value": "Double roulement à billes"
+          },
+          {
+            "label": "Pilotage",
+            "value": "Contrôle et surveillance numériques XPG PRIME"
+          },
+          {
+            "label": "Condensateurs",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Architecture",
+            "value": "Transformateur planaire Delta ; transistors GaN ; LLC et DC-DC"
+          },
+          {
+            "label": "Port de commande",
+            "value": "PRIME port et OC Link"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG FUSION 1600",
+      "wattage": 1600,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 210,
+      "fanSizeMm": 135,
+      "description": "Alimentation XPG FUSION 1600. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "La référence d’archive ne précise pas la révision. Le document 202509 décrit ATX 3.1 et 12V-2x6 ; ces détails ne sont pas appliqués à un ancien exemplaire non identifié."
+    ]
+  },
+  "import-psu-2208e5c6b41c": {
+    "mpn": "",
+    "identityKind": "manufacturer-model",
+    "manufacturerModel": "XPG PYLON 450 W",
+    "identityNote": "Modèle constructeur, puissance et finition rapprochés des documents cités. Le suffixe régional de commande reste non confirmé.",
+    "sources": [
+      {
+        "name": "ADATA XPG — spécifications et manuel",
+        "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_pylon_psu_250721_v2.pdf",
+        "checkedAt": "2026-11-10T14:53:47.477388+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Alimentation · spécifications du modèle",
+        "rows": [
+          {
+            "label": "Puissance nominale",
+            "value": "450 W"
+          },
+          {
+            "label": "Format",
+            "value": "ATX"
+          },
+          {
+            "label": "Certification 80 PLUS",
+            "value": "Bronze"
+          },
+          {
+            "label": "Modularité",
+            "value": "Câbles fixes"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Ventilateur",
+            "value": "120 mm"
+          },
+          {
+            "label": "Protections",
+            "value": "OCP, OVP, UVP, OPP, SCP, OTP, NLO, SIP"
+          },
+          {
+            "label": "Largeur",
+            "value": "150 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "86 mm"
+          },
+          {
+            "label": "Profondeur",
+            "value": "140 mm"
+          },
+          {
+            "label": "Version ATX",
+            "value": "2.52"
+          },
+          {
+            "label": "Tension d’entrée",
+            "value": "100–240 V"
+          },
+          {
+            "label": "Fréquence secteur",
+            "value": "50–60 Hz"
+          },
+          {
+            "label": "PFC",
+            "value": "> 0,99"
+          },
+          {
+            "label": "Température maximale de fonctionnement",
+            "value": "50 °C"
+          },
+          {
+            "label": "Roulement",
+            "value": "FDB"
+          },
+          {
+            "label": "Vitesse du ventilateur",
+            "value": "2 000 tr/min"
+          },
+          {
+            "label": "MTBF",
+            "value": "100 000 h à pleine charge et 25 °C"
+          },
+          {
+            "label": "Rail +12 V",
+            "value": "450 W, 100 % de la puissance nominale"
+          },
+          {
+            "label": "Connecteurs",
+            "value": "ATX 20+4 : 1 ; CPU 4+4 : 1 ; PCIe 6+2 : 2 ; SATA : 5 ; Molex : 2 ; Floppy : 1"
+          },
+          {
+            "label": "Condensateur principal",
+            "value": "Japonais, 105 °C"
+          },
+          {
+            "label": "Topologie",
+            "value": "DC-DC"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerModel": "XPG PYLON 450 W",
+      "wattage": 450,
+      "psuFormat": "ATX",
+      "widthMm": 150,
+      "heightMm": 86,
+      "depthMm": 140,
+      "fanSizeMm": 120,
+      "description": "Alimentation XPG PYLON 450 W. Dimensions, ventilation, câbles et limites publiées figurent dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Aucun prix ni MPN régional déduit du seul nom du modèle.",
+      "Le PDF utilise visuellement la lettre O pour certains zéros (14O,12O,45O) ; les valeurs numériques sont normalisées sans modifier les colonnes par puissance."
+    ]
+  }
+}

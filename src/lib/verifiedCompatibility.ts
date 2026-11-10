@@ -1,5 +1,6 @@
 import type {Component} from '../data/catalog.ts';
 import type {VerifiedProduct} from '../data/verifiedTypes.ts';
+import {matchesProductIdentity} from '../data/verifiedTypes.ts';
 
 export interface CompatibilityEvidence {field:keyof Component; value:unknown; group:string; label:string; sourceValue:string}
 export interface CompatibilityExtraction {patch:Partial<Component>; evidence:CompatibilityEvidence[]; conflicts:Array<{field:keyof Component; values:unknown[]; existing?:unknown}>}
@@ -21,7 +22,7 @@ const count=(v:string,min=0,max=16)=>/^\d+$/.test(v.trim())&&Number(v)>=min&&Num
  */
 export function extractVerifiedCompatibility(component:Component,product:VerifiedProduct|undefined):CompatibilityExtraction {
   const result:CompatibilityExtraction={patch:{},evidence:[],conflicts:[]};
-  if(!product||!component.manufacturerPartNumber||norm(component.manufacturerPartNumber)!==norm(product.mpn))return result;
+  if(!product||!matchesProductIdentity(component,product))return result;
   const candidates=new Map<keyof Component,CompatibilityEvidence[]>();
   const add=(field:keyof Component,value:unknown,group:string,label:string,sourceValue:string)=>{
     if(value===undefined)return;

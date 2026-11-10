@@ -1,0 +1,223 @@
+{
+  "review": {
+    "id": "import-mb-d83ed6bb5bc4",
+    "name": "iCraft B760M CROSS",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "MS-iCraft B760M CROSS",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.maxsun.com/products/icraft-b760m-cross",
+          "checkedAt": "2026-11-10T14:10:31+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+          "sha256": "9629231283a1d5ab49f81d590eda8174d10a0222f1c5183c8572ab454ce0c6ca",
+          "bytes": 206976,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "MS-iCraft B760M CROSS",
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Expansion Slots",
+          "Storage",
+          "RAID",
+          "USB",
+          "LAN",
+          "WIRELESS / BLUETOOTH",
+          "Audio",
+          "Internal IO",
+          "LED FEATURE",
+          "Operating System",
+          "Form Factor"
+        ]
+      }
+    ],
+    "photos": [
+      "http://www.maxsun.com/cdn/shop/files/4000_3cross.png?v=1715418833&width=2048"
+    ]
+  },
+  "product": {
+    "mpn": "iCraft B760M CROSS",
+    "identityNote": "Modèle MAXSUN iCraft B760M CROSS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MAXSUN — spécifications officielles du modèle",
+        "url": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 3,
+      "formFactor": "Micro-ATX",
+      "heightMm": 245.0,
+      "widthMm": 245.0,
+      "manufacturerPartNumber": "iCraft B760M CROSS",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MAXSUN",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "INTEL B760"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR5, Maximum Memory Capacity 192GB\nMemory Support DDR5 7600(OC)/7200(OC)/7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800 MHz"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1x DisplayPort 1.4\n1x HDMI™port\n*HDMI™ port supports up to 4K@30Hz\n*Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 5.0 x16 slot\n1x PCIe 3.0 x4 slot\n1x PCIe 3.0 x1 slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "M.2_1 slot (Key M), type 2242/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "*Front USB (Total 7 ports)\n1x USB 3.2 Gen1 Type C (10Gbps)\n2x USB 3.2 Gen1 Type A\n4x USB 2.0\n*Rear USB (Total 9 ports)\n1x USB 3.2 Gen2 Type C (20Gbps)\n4x USB 3.2 Gen1 Type A\n4x USB 2.0"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® RTL8125BG 2.5G LAN"
+          },
+          {
+            "label": "WIRELESS / BLUETOOTH",
+            "value": "Intel® Wi-Fi 6E AX211\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\nSupports MU-MIMO TX/RX, 2.4GHz / 5GHz / 6GHz* (160MHz) up to 2.4Gbps\nSupports 802.11 a/ b/ g/ n/ ac/ ax\nSupports Bluetooth® 5.3"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec\n7.1-Channel High Definition Audio\nSupports S/PDIF output"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8+4-pin Power Connector(CPU_PWR)\n1x CPU Fan\n1x Pump Fan\n2x System Fan\n3 x M.2 slots (Key-M)\n4x SATA 6Gb/s ports\n1x M.2 slots (Key-E)\n1x 4-Pin BUZZER\n2x 5V 3-Pin ARGB\n1x 12V 4-Pin RGB\n1x Clear CMOS\n1x Front Audio\n1x COM_A Port\n1x TPM pin header(Support TPM 2.0)\n1x RGB Button\n1x POWER Button"
+          },
+          {
+            "label": "LED FEATURE",
+            "value": "4x Distributed Debug LED"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "M-ATX\n245mm x 245mm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "http://www.maxsun.com/cdn/shop/files/4000_3cross.png?v=1715418833&width=2048"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "formFactor": {
+        "value": "M-ATX\n245mm x 245mm",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "M-ATX\n245mm x 245mm",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "chipset": {
+        "value": "INTEL B760",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2_1 slot (Key M), type 2242/2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2280/22110 (supports PCIe 4.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2280/22110 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 5.0 x16 slot\n1x PCIe 3.0 x4 slot\n1x PCIe 3.0 x1 slot",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "internalIO": {
+        "value": "1x 24-pin Power Connector(ATX_PWR)\n1x 8+4-pin Power Connector(CPU_PWR)\n1x CPU Fan\n1x Pump Fan\n2x System Fan\n3 x M.2 slots (Key-M)\n4x SATA 6Gb/s ports\n1x M.2 slots (Key-E)\n1x 4-Pin BUZZER\n2x 5V 3-Pin ARGB\n1x 12V 4-Pin RGB\n1x Clear CMOS\n1x Front Audio\n1x COM_A Port\n1x TPM pin header(Support TPM 2.0)\n1x RGB Button\n1x POWER Button",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "network": {
+        "value": "Realtek® RTL8125BG 2.5G LAN",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec\n7.1-Channel High Definition Audio\nSupports S/PDIF output",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports 12th/13th/14th Gen Intel® Core™ Processors, Pentium® Gold and Celeron® Processors\nLGA 1700",
+        "sourceURL": "https://www.maxsun.com/products/icraft-b760m-cross",
+        "checkedAt": "2026-11-10T14:10:31+00:00"
+      }
+    },
+    "manufacturerModel": "MS-iCraft B760M CROSS"
+  }
+}

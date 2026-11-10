@@ -1,0 +1,337 @@
+{
+  "review": {
+    "id": "import-mb-f403baaa1076",
+    "name": "MPG B550I GAMING EDGE MAX WIFI",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "SATAIII",
+      "M.2 Slot",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "HDMI",
+      "DirectX",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slots",
+      "Onboard Graphics",
+      "Storage",
+      "RAID",
+      "USB",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "Back panel ports",
+      "I/O Controller",
+      "Dimensions",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_16093854807025e210645ee41e0de63a0901393de8.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MPG B550I GAMING EDGE MAX WIFI",
+    "identityNote": "Modèle MSI MPG B550I GAMING EDGE MAX WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 64,
+      "m2Slots": 1,
+      "socket": "AM4",
+      "formFactor": "Mini-ITX",
+      "heightMm": 170.0,
+      "widthMm": 170.0,
+      "manufacturerPartNumber": "MPG B550I GAMING EDGE MAX WIFI",
+      "description": "Carte mère MSI MPG B550I GAMING EDGE MAX WIFI. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "2 emplacements DDR4",
+        "Mémoire maximale documentée : 64 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format Mini-ITX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "2"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "64"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Bluetooth® 5.2"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 1, Type C), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen 2, Type C), 1(Gen 2, Type A), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "2"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "5+ Optical S/PDIF (Realtek® ALC1200 Codec)"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Mini-ITX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR4 memory slots, support up to 64GB 1\n Supports DDR4 1866/ 2133/ 2400/ 2667 MHz by JEDEC\n\n Supports DDR4 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600/ 3733/ 3866/ 4000/ 4133/ 4266/ 4400/ 4466/ 4533 / 4600+ MHz by A-XMP OC MODE\n 1DPC 1R max speed 4600 MHZ\n\n 1DPC 2R max speed 4000 MHZ\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports un-buffered memory\n Please refer www.msi.com for more information on compatible memory.\n See supported memory\nDIMM Slots: 2\nMax Memory (GB): 64\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 4.0 / 3.0 x16 slot 1\n The supported specification depends on installed processor."
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™ 2.1 port, supports a maximum resolution of 4096x2160 @60Hz1\n\n Maximum shared memory of 2048 MB\n Available for the processor with integrated graphics."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD B550 Chipset\n 4x SATA 6Gb/s ports\n\n 2x M.2 slots [Key M]\n M2 1 slot [from AMD Processor]\n Supports PCIe 4.0/3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280 storage devices\n\n M2_2 slot [from AMD B550 chipset]\n Supports PCIe 3.0x4\n\n Supports 2280 storage devices\n The supported specification depends on installed processor."
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\n\n Supports RAID 0 and RAID 1 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "AMD B550 Chipset\n 3x USB 3.2 Gen 1 5Gbps ports [1 Type-C internal connector, and 2 ports are available through the internal USB 3.2 Gen 1 5Gbps connector]\n\n 4x USB 2.0 ports [2 Type-A ports on the back panel, 2 ports through the internal USB 2.0 connector]\n AMD Processor\n 2x USB 3.2 Gen 2 10Gbps ports [1 Type-C port and 1 Type-A port] on the back panel\n\n 2x USB 3.2 Gen 1 5Gbps Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC1200 Codec\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel® AX200/AX210\n The Wireless module is pre-installed in the M.2 [Key-E] slot\n\n Supports MU-MIMO TX/RX, 2.4GHz / 5GHz [160MHz] up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x M.2 slots [M-Key]\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector [supports additional 2 USB 3.2 Gen 1 5Gbps ports]\n\n 1x USB 2.0 connector [supports additional 2 USB 2.0 ports]\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x 3-pin RAINBOW LED connector\n\n 1x Clear CMOS jumper\n\n 4x EZ Debug LED"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "USB 2.0\n\n WiFi / Bluetooth\n\n USB 3.2 Gen 2 10Gbps(Type-A)\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n PS/2 Combo Port\n\n HDMI™ 2.1\n\n USB 3.2 Gen 2 10Gbps(Type-C)\n\n Clear CMOS\n\n USB 3.2 Gen 1 5Gbops(Type-A)\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "I/O Controller",
+            "value": "NUVOTON NCT6687-R Controller Chip"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "Mini-ITX Form Factor\n\n 6.7 in. x 6.7 in. (17.0 cm x 17.0 cm)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x M.2 slots [M-Key]\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector [supports additional 2 USB 3.2 Gen 1 5Gbps ports]\n\n 1x USB 2.0 connector [supports additional 2 USB 2.0 ports]\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x 3-pin RAINBOW LED connector\n\n 1x Clear CMOS jumper\n\n 4x EZ Debug LED"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: USB 2.0\n\n WiFi / Bluetooth\n\n USB 3.2 Gen 2 10Gbps(Type-A)\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n PS/2 Combo Port\n\n HDMI™ 2.1\n\n USB 3.2 Gen 2 10Gbps(Type-C)\n\n Clear CMOS\n\n USB 3.2 Gen 1 5Gbops(Type-A)\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel® AX200/AX210\n The Wireless module is pre-installed in the M.2 [Key-E] slot\n\n Supports MU-MIMO TX/RX, 2.4GHz / 5GHz [160MHz] up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2\nWiFi & Bluetooth: Bluetooth® 5.2"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_16093854807025e210645ee41e0de63a0901393de8.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "formFactor": {
+        "value": "Mini-ITX\nMini-ITX Form Factor\n\n 6.7 in. x 6.7 in. (17.0 cm x 17.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "Mini-ITX\nMini-ITX Form Factor\n\n 6.7 in. x 6.7 in. (17.0 cm x 17.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD B550 Chipset\n 4x SATA 6Gb/s ports\n\n 2x M.2 slots [Key M]\n M2 1 slot [from AMD Processor]\n Supports PCIe 4.0/3.0 x4 1\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280 storage devices\n\n M2_2 slot [from AMD B550 chipset]\n Supports PCIe 3.0x4\n\n Supports 2280 storage devices\n The supported specification depends on installed processor.",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 4.0 / 3.0 x16 slot 1\n The supported specification depends on installed processor.",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: USB 2.0\n\n WiFi / Bluetooth\n\n USB 3.2 Gen 2 10Gbps(Type-A)\n\n 2.5G LAN\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n PS/2 Combo Port\n\n HDMI™ 2.1\n\n USB 3.2 Gen 2 10Gbps(Type-C)\n\n Clear CMOS\n\n USB 3.2 Gen 1 5Gbops(Type-A)\n\n Optical S/PDIF OUT",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x M.2 slots [M-Key]\n\n 1x USB 3.2 Gen 1 5Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector [supports additional 2 USB 3.2 Gen 1 5Gbps ports]\n\n 1x USB 2.0 connector [supports additional 2 USB 2.0 ports]\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 1x 4-pin system fan connector\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x 3-pin RAINBOW LED connector\n\n 1x Clear CMOS jumper\n\n 4x EZ Debug LED",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller\nWireless LAN & Bluetooth®: Intel® AX200/AX210\n The Wireless module is pre-installed in the M.2 [Key-E] slot\n\n Supports MU-MIMO TX/RX, 2.4GHz / 5GHz [160MHz] up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.2\nWiFi & Bluetooth: Bluetooth® 5.2\nBluetooth® 5.2",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC1200 Codec\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n See supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-MAX-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:30+00:00"
+      }
+    }
+  }
+}

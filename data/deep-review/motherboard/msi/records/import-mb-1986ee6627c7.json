@@ -1,0 +1,352 @@
+{
+  "review": {
+    "id": "import-mb-1986ee6627c7",
+    "name": "MEG B550 UNIFY-X",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "HDMI",
+      "DirectX",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slots",
+      "Onboard Graphics",
+      "Multi-GPU",
+      "Storage",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "Back panel ports",
+      "LED Features",
+      "I/O Controller",
+      "Hardware Monitor",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1609384494661de83ac6a8752d5cb9d767c1a7e030.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MEG B550 UNIFY-X",
+    "identityNote": "Modèle MSI MEG B550 UNIFY-X confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 64,
+      "m2Slots": 4,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 304,
+      "widthMm": 244,
+      "manufacturerPartNumber": "MEG B550 UNIFY-X",
+      "description": "Carte mère MSI MEG B550 UNIFY-X. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "2 emplacements DDR4",
+        "Mémoire maximale documentée : 64 Go",
+        "4 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AMD Socket AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "2"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "64"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "2"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "4"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage devices\n\n Supports RAID 0, RAID 1 and RAID 10 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6 AX200"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 2, Type C), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen 2, Type C), 3(Gen 2, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "4"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "5+ Optical S/PDIF (Realtek® ALC1220P Codec)"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.4 cm x 24.4 cm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR4 memory slots, support up to 64GB 1\n\n Supports DDR4 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz by JEDEC\n\n AMD Ryzen 4000 G-Series processors support DDR4 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600/ 3733/ 3866/ 4000/ 4133/ 4266/ 4400/ 4533/ 4600/ 4733/ 4800/ 5000/ 5100/ 5300+ (Max. 5800) MHz by A-XMP OC MODE\n\n 3rd Gen AMD Ryzen processors supports DDR4 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600/ 3733/ 3866/ 4000/ 4133/ 4266/ 4400/ 4533/ 4600/ 4733/ 4800/ 4866/ 5000/ 5100+ MHz by A-XMP OC MODE\n\n AMD Ryzen 4000 G-Series processors\n 1DPC 1R max speed 5300 MHz (QVL), Max. 5800 MHz\n\n 1DPC 2R max speed 4266 MHz (QVL), Max. 4600 MHz\n\n 3rd Gen AMD Ryzen processors\n 1DPC 1R max speed 5100 MHz (QVL), Max. 5300 MHz\n\n 1DPC 2R max speed 4260 MHz (QVL)\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\n Supports un-buffered memory\n\nPlease refer www.msi.com for more information on compatible memory.\n\nSee supported memory\nDIMM Slots: 2\nMax Memory (GB): 64\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Processor\n1x PCIe 4.0/ 3.0 x16 slot (PCI_E1) 1\n\nAMD B550 Chipset\n 1x PCIe 3.0 x16 slot (PCI_E4), supports x4 speed 2\n\n 2x PCIe 3.0 x1 slots (PCI_E2 & PCI_E3)3\n\nThe supported specification depends on installed processor.\n\n The PCI_E4 slot will be unavailable, when installing M.2 SSD into M2_4.\n\n The both PCIe x1 slots will be unavailable after you install the M.2 SSD into M2_2 slot in Chipset support mode (default mode)."
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1 x HDMI™ 2.1 port, supporting a maximum resolution of 4096x2160 @120 Hz 1 2\n\n Support HDCP 1.4 & 2.3\n\n Maximum shared memory of 16GB\n\nAvailable for the processor with integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports 2-Way AMD CrossFire™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA 6Gb/s ports 1 2\n\n 4x M.2 slots (Key M)\n M2_1 slot (from CPU)\n Supports PCIe 4.0/ 3.0 x43\n\n Supports SATA 6Gb/s\n\n Supports 2280/ 22110 storage devices\n\n M2_2 slot\n Chipset support mode (default, from Chipset ) - supports PCIe 3.0 x2\n\n CPU support mode (From CPU) - supports PCIe 4.0/ 3.0 x4 3\n\n Supports 2280 storage devices\n\n M2_3 slot\n Chipset support mode (default, from Chipset ) - supports PCIe 3.0 x2\n\n CPU support mode (From CPU) - supports PCIe 4.0/ 3.0 x4 3\n\n Supports SATA 6Gb/s\n\n Supports 2280/ 22110 storage devices\n\n M2_4 slot\n Supports PCIe 3.0 x4\n\n Supports 2280 storage devices\n\nThe SATA5 port will be unavailable when installing M.2 SATA SSD into M2_3.\n\n The SATA5 and SATA6 ports will be unavailable when installing M.2 PCIe SSD into M2_3\n\n M.2 specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC1220P Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel® Wi-Fi 6 AX200\n\nThe Wireless module is pre-installed in the M2_WIFI1 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.1"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connector\n\n 1x 6-pin PCIE power connector\n\n 6x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin CORSAIR LED connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper\n\n 1x Power button\n\n 1x Reset button"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "Clear CMOS Button\n\n Keyboard / Mouse\n\n USB 2.0 Ports\n\n 2.5G LAN\n\n Wi-Fi /Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Ports\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A+C)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "LED Features",
+            "value": "1x EZ LED Control switch\n\n 1x 2-Digit Debug Code LED\n\n 4x EZ Debug LED"
+          },
+          {
+            "label": "I/O Controller",
+            "value": "NUVOTON NCT6687D-R Controller Chip"
+          },
+          {
+            "label": "Hardware Monitor",
+            "value": "CPU/ System/ Chipset temperature detection\n\n CPU/ System/ Pump fan speed detection\n\n CPU/ System/ Pump fan speed control"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connector\n\n 1x 6-pin PCIE power connector\n\n 6x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin CORSAIR LED connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper\n\n 1x Power button\n\n 1x Reset button"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: Clear CMOS Button\n\n Keyboard / Mouse\n\n USB 2.0 Ports\n\n 2.5G LAN\n\n Wi-Fi /Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Ports\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A+C)\n\n Optical S/PDIF-Out"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel® Wi-Fi 6 AX200\n\nThe Wireless module is pre-installed in the M2_WIFI1 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.1\nWiFi & Bluetooth: Intel® Wi-Fi 6 AX200"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1609384494661de83ac6a8752d5cb9d767c1a7e030.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA 6Gb/s ports 1 2\n\n 4x M.2 slots (Key M)\n M2_1 slot (from CPU)\n Supports PCIe 4.0/ 3.0 x43\n\n Supports SATA 6Gb/s\n\n Supports 2280/ 22110 storage devices\n\n M2_2 slot\n Chipset support mode (default, from Chipset ) - supports PCIe 3.0 x2\n\n CPU support mode (From CPU) - supports PCIe 4.0/ 3.0 x4 3\n\n Supports 2280 storage devices\n\n M2_3 slot\n Chipset support mode (default, from Chipset ) - supports PCIe 3.0 x2\n\n CPU support mode (From CPU) - supports PCIe 4.0/ 3.0 x4 3\n\n Supports SATA 6Gb/s\n\n Supports 2280/ 22110 storage devices\n\n M2_4 slot\n Supports PCIe 3.0 x4\n\n Supports 2280 storage devices\n\nThe SATA5 port will be unavailable when installing M.2 SATA SSD into M2_3.\n\n The SATA5 and SATA6 ports will be unavailable when installing M.2 PCIe SSD into M2_3\n\n M.2 specifications may vary depending on the CPU installed.",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "pcie": {
+        "value": "AMD Processor\n1x PCIe 4.0/ 3.0 x16 slot (PCI_E1) 1\n\nAMD B550 Chipset\n 1x PCIe 3.0 x16 slot (PCI_E4), supports x4 speed 2\n\n 2x PCIe 3.0 x1 slots (PCI_E2 & PCI_E3)3\n\nThe supported specification depends on installed processor.\n\n The PCI_E4 slot will be unavailable, when installing M.2 SSD into M2_4.\n\n The both PCIe x1 slots will be unavailable after you install the M.2 SSD into M2_2 slot in Chipset support mode (default mode).",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: Clear CMOS Button\n\n Keyboard / Mouse\n\n USB 2.0 Ports\n\n 2.5G LAN\n\n Wi-Fi /Bluetooth\n\n HD Audio Connectors\n\n Flash BIOS Button\n\n USB 2.0 Ports\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps (Type-A)\n\n USB 3.2 Gen 2 10Gbps (Type-A+C)\n\n Optical S/PDIF-Out",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connector\n\n 1x 6-pin PCIE power connector\n\n 6x SATA 6Gb/s connectors\n\n 4x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 6x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 1x 3-pin CORSAIR LED connector\n\n 1x TPM module connector\n\n 1x Clear CMOS jumper\n\n 1x Power button\n\n 1x Reset button",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125B 2.5Gbps LAN controller\nWireless LAN & Bluetooth®: Intel® Wi-Fi 6 AX200\n\nThe Wireless module is pre-installed in the M2_WIFI1 (Key-E) slot\n\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz (160MHz) up to 2.4Gbps\n\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n\n Supports Bluetooth® 5.1\nWiFi & Bluetooth: Intel® Wi-Fi 6 AX200\nIntel® Wi-Fi 6 AX200",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC1220P Codec\n\n7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n\nSee supported processors\nAMD Socket AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      }
+    }
+  }
+}

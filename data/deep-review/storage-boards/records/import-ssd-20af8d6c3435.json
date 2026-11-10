@@ -1,0 +1,37 @@
+{
+  "id": "import-ssd-20af8d6c3435",
+  "brand": "Gigabyte",
+  "name": "AI TOP UD 1 To · PCIe 4.0 ×4",
+  "state": "primary_unconfirmed",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+        "checkedAt": "2026-11-10T14:36:14+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AI100E1TB/sp",
+        "sha256": "5112570b6c1910163f9918ce92e8fdb97e90458893689cb19b16cc06f756e53b",
+        "bytes": 580471,
+        "status": "fetched"
+      },
+      "title": "AI TOP 100E SSD 1TB",
+      "state": "model_variant_mismatch"
+    },
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AI-TOP-Capable/sp",
+        "checkedAt": "2026-11-10T14:36:19+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "title": ""
+    }
+  ],
+  "blocker": "AI TOP UD et AI TOP 100E sont des produits distincts. La page constructeur AI TOP UD citée par la presse renvoie 404 ; aucune table 100E ne lui est attribuée.",
+  "followupEvidenceFiles": [
+    "variant-pages/aiud-news.json",
+    "overviews/aiud.json",
+    "variant-pages/aiudbase.json",
+    "variant-searches/aiud-followup.json"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "review": {
+    "id": "import-mb-cf494445eaaa",
+    "name": "ROG Crosshair VIII Formula",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "sha256": "996d980415b85c4a34e640ed11fc91956edf798bf3b5dce80b5533617488bf95",
+        "bytes": 272618,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG Crosshair VIII Formula",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/6C060D34-5F4C-4284-B5C5-3F58ABB0119F"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Bluetooth",
+      "Audio",
+      "USB Ports",
+      "ROG Exclusive Features",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG Crosshair VIII Formula",
+    "identityNote": "Modèle ASUS ROG Crosshair VIII Formula confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG Crosshair VIII Formula",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 4866(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz Memory\n4 x DIMM, Max. 128GB, DDR4 5100(O.C)/4866(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz Memory\nAMD RyzenTM 4000 G-Series Processor\nAMD RyzenTM 2000 Series Processors\n4 x DIMM, Max. 128GB, DDR4 3600(O.C.)/3466(O.C.)/3200(O.C.)/3000(O.C.)/2933/2800/2666/2400/2133 MHz Memory\n4 x DIMM, Max. 128GB, DDR4 3200(O.C.)/3000(O.C.)/2933/2800/2666/2400/2133 MHz Memory\nDual Channel Memory Architecture\nECC Memory (ECC mode) support varies by CPU.\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 2000 Series Desktop Processors>\nAMD Ryzen™ 3000 G-Series/ 2000 G-Series Desktop Processors\nSupports NVIDIA 2-Way SLI® Technology\nSupports AMD 3-Way CrossFireX™ Technology\nSupports AMD 2-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD RyzenTM 3000 G-Series / 2000 G-Series Processors\nAMD RyzenTM4000 G-Series / 2000 Series Processors\n2 x PCIe 4.0 x16 (x16 or dual x8)\n2 x PCIe 3.0 x16 (x16 or dual x8)\n1 x PCIe 3.0 x16 (x8 mode)\nAMD X570 chipset\n1 x PCIe 4.0 x16 (x4 mode)\n1 x PCIe 4.0 x1"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD RyzenTM 4000 G-Series / 3000 G-Series / 2000 Series / 2000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\nAMD X570 chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support\n8 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I211-AT\nAquantia AQC111C 5G LAN\nASUS LAN Guard\nROG GameFirst V Technology"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "Intel® Wi-Fi 6 AX200\nSupports channel bandwidth: HT20/HT40/HT80/HT160\n2 x 2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) with MU-MIMO supports dual frequency band 2.4/5GHz\nUp to 2.4Gbps transfer speed"
+          },
+          {
+            "label": "Bluetooth",
+            "value": "Bluetooth® 5.0"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX8-Channel High Definition Audio CODEC S1220\n- Supports : Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\n- ESS® ES9023P\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :\n- Gold-plated jacks\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Link\n* Due to limitations in HDA bandwidth, 32-Bit/192kHz is not supported for 8-Channel audio."
+          },
+          {
+            "label": "USB Ports",
+            "value": "AMD Ryzen™5000 Series / 4000 G-Series/ 3000 Series Processors :\nAMD Ryzen™3000 G-Series / 2000 Series / 2000 G-Series Processors :\n4 x USB 3.2 Gen 2 port(s) (4 at back panel, red, Type-A)\n4 x USB 3.2 Gen 1 port(s) (4 at back panel, red, Type-A)\n1 x USB 3.2 Gen 2 front panel connector port(s)\n4 x USB 3.2 Gen 2 port(s) (3 at back panel, red, Type-A, 1 x Type-C)\n8 x USB 3.2 Gen 1 port(s) (4 at back panel, blue, 4 at mid-board)\nAMD X570 chipset :\n4 x USB 2.0 port(s)"
+          },
+          {
+            "label": "ROG Exclusive Features",
+            "value": "USB BIOS FlashBack™\nROG RGB Armor\nStart Button\nReset Button\nROG Aura\nExtreme Engine Digi+ :\n- IR3555 PoweIRstage®\n- MicroFine Alloy Chokes\n- 10K Black Metallic Capacitors\nROG Extreme OC kit :\n- Safe Boot button\n- Slow Mode\n- LN2 Mode\nUEFI BIOS features :\n- Tweakers´ Paradise\n- ROG SSD Secure Erase\n- Graphic Card Information Preview\nCrosschill EK III\nROG Patented Pre-mounted I/O Shield\nROG Exclusive Software\n- Mem Tweakit\n- RAMCache III\n- RAMDisk\n- CPU-Z\n- GameFirst V\n- Overwolf"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "- USB BIOS FlashBack™\n- BIOS FlashBack™ Button\nASUS Dual Intelligent Processors 5-Way Optimization by Dual Intelligent Processors 5 :\n- 5-Way Optimization tuning key perfectly consolidates TPU, EPU, DIGI+ VRM, Fan Expert 4, and Turbo App\nGamer´s Guardian:\n- DRAM Overcurrent Protection\n- ESD Guards on LAN, Audio,and USB ports\nASUS SafeSlot - Protect your graphics card Investment\nLiveDash OLED\nAURA :\n- Aura Lighting Control\n- Aura RGB Strip Headers\n- Addressable Gen 2 Header\nASUS Exclusive Features :\n- AI Suite 3\n- Ai Charger\n- ASUS CrashFree BIOS 3\n- Armoury Crate\n- Pre-mounted I/O Shield\n- ASUS NODE: hardware control interface\n- Clear CMOS Button\nASUS Q-Design :\n- ASUS Q-LED (CPU, DRAM, VGA, Boot Device LED)\n- ASUS Q-DIMM\n- ASUS Q-Connector"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x USB BIOS FlashBack™ Button(s)\n1 x Optical S/PDIF out\n1 x Clear CMOS button(s)\n1 x ASUS Wi-Fi Module\n1 x Gold-plated audio jacks\n4 x USB 3.2 Gen 1 (up to 5Gbps) ports\n8 x USB 3.2 Gen 2 (up to 10Gbps) ports ()\nAnti-surge LAN (RJ45) port\n1 x AQC-111C 5G LAN port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 4 USB ports\n1 x PCH_FAN\n2 x Aura RGB Strip Header(s)\n2 x Addressable Gen 2 header(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260 storage devices support (both SATA & PCIE mode)\n1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & PCIE mode)\n8 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x Optional Fan connector(s)\n1 x AIO_PUMP connector\n1 x H_AMP fan connector\n1 x W_PUMP+ connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x 4-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Slow Mode switch(es)\n1 x LN2 Mode header(s)\n1 x Power-on button(s)\n1 x Reset button(s)\n1 x Node Connector(s)\n1 x Safe Boot button\n1 x ReTry button\n1 x System panel connector\n1 x W_IN header\n1 x W_OUT header\n1 x W_FLOW header\n1 x Thermal sensor connector\n1 x Speaker connector\n1 x USB 3.2 Gen 2 (up to 10Gbps) connector"
+          },
+          {
+            "label": "Accessoires",
+            "value": "User´s manual\n1 x ROG logo plate sticker\n4 x SATA power cable\n1 x M.2 Screw Package\n1 x Supporting DVD\n1 x ROG big sticker\n1 x Q-Connector\n1 x Wi-Fi Antenna(s)\n1 x Extension Cable for RGB strips (80 cm)\n1 x Extension cable for Addressable LED\n1 x ROG coaster(s)\n2 x ROG weave SATA 6G cable\n1 x ROG Thank you card"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.2, ACPI 6.2"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/6C060D34-5F4C-4284-B5C5-3F58ABB0119F"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD RyzenTM 4000 G-Series / 3000 G-Series / 2000 Series / 2000 G-Series Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support\n1 x M.2_1 socket 3, with M key, type 2242/2260/2280 storage devices support (SATA & PCIE 3.0 x 4 mode)\nAMD X570 chipset :\n1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support\n8 x SATA 6Gb/s port(s),\nSupport Raid 0, 1, 10",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD RyzenTM 3000 G-Series / 2000 G-Series Processors\nAMD RyzenTM4000 G-Series / 2000 Series Processors\n2 x PCIe 4.0 x16 (x16 or dual x8)\n2 x PCIe 3.0 x16 (x16 or dual x8)\n1 x PCIe 3.0 x16 (x8 mode)\nAMD X570 chipset\n1 x PCIe 4.0 x16 (x4 mode)\n1 x PCIe 4.0 x1",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "rearIO": {
+        "value": "1 x USB BIOS FlashBack™ Button(s)\n1 x Optical S/PDIF out\n1 x Clear CMOS button(s)\n1 x ASUS Wi-Fi Module\n1 x Gold-plated audio jacks\n4 x USB 3.2 Gen 1 (up to 5Gbps) ports\n8 x USB 3.2 Gen 2 (up to 10Gbps) ports ()\nAnti-surge LAN (RJ45) port\n1 x AQC-111C 5G LAN port",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "internalIO": {
+        "value": "2 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 4 USB ports\n1 x PCH_FAN\n2 x Aura RGB Strip Header(s)\n2 x Addressable Gen 2 header(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260 storage devices support (both SATA & PCIE mode)\n1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & PCIE mode)\n8 x SATA 6Gb/s connector(s)\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x Optional Fan connector(s)\n1 x AIO_PUMP connector\n1 x H_AMP fan connector\n1 x W_PUMP+ connector\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x 4-pin ATX 12V Power connector(s)\n1 x Front panel audio connector(s) (AAFP)\n1 x Slow Mode switch(es)\n1 x LN2 Mode header(s)\n1 x Power-on button(s)\n1 x Reset button(s)\n1 x Node Connector(s)\n1 x Safe Boot button\n1 x ReTry button\n1 x System panel connector\n1 x W_IN header\n1 x W_OUT header\n1 x W_FLOW header\n1 x Thermal sensor connector\n1 x Speaker connector\n1 x USB 3.2 Gen 2 (up to 10Gbps) connector",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "network": {
+        "value": "Intel® I211-AT\nAquantia AQC111C 5G LAN\nASUS LAN Guard\nROG GameFirst V Technology",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX8-Channel High Definition Audio CODEC S1220\n- Supports : Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- SupremeFX Shielding Technology\n- ESS® ES9023P\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :\n- Gold-plated jacks\n- Optical S/PDIF out port(s) at back panel\n- Sonic Radar III\n- Sonic Studio III + Sonic Studio Link\n* Due to limitations in HDA bandwidth, 32-Bit/192kHz is not supported for 8-Channel audio.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors\n* Refer to www.asus.com for CPU support list\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS, PnP, WfM2.0, SM BIOS 3.2, ACPI 6.2",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-viii-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:27:07+00:00"
+      }
+    },
+    "manufacturerModel": "ROG Crosshair VIII Formula"
+  }
+}

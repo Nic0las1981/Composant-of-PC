@@ -1,0 +1,25 @@
+{
+  "review": {
+    "id": "import-mb-ea2b5f030ada",
+    "name": "Challenger H610M ITX 2LAN",
+    "state": "primary_unconfirmed",
+    "manufacturerModel": "MS-Challenger H610 ITX 2LAN V3",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.maxsun.com/products/challenger-h610m-itx-2lan",
+          "checkedAt": "2026-11-10T14:10:45+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.maxsun.com/products/challenger-h610m-itx-2lan",
+          "sha256": "986c535402b1e1a966eb3b473f8b5402b463d2378829e1c4170d21f11173d69e",
+          "bytes": 208107,
+          "status": "fetched"
+        },
+        "state": "model_or_revision_mismatch",
+        "actualModel": "MS-Challenger H610 ITX 2LAN V3"
+      }
+    ],
+    "photos": []
+  },
+  "product": null
+}

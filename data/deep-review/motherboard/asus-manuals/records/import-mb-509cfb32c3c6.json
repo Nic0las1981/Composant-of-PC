@@ -1,0 +1,36 @@
+{
+  "review": {
+    "id": "import-mb-509cfb32c3c6",
+    "name": "PRIME B350M-A/CSM",
+    "state": "primary_manual_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/E12722_PRIME_B350M-A_UM_web_v3_web_only.pdf?model=PRIME+B350M-A",
+          "checkedAt": "2026-11-10T14:09:30+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/E12722_PRIME_B350M-A_UM_web_v3_web_only.pdf?model=PRIME+B350M-A",
+          "httpStatus": 200,
+          "sha256": "45bec3d79d4b43a8279a2722ab008ab6520c403e8ca170635c891c46f87dbd63",
+          "bytes": 3453787,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "draobrehtoM PRIME B350M-A"
+      },
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/C12722_PRIME_B350M-A_web_V3_WEB_20170706.pdf?model=PRIME+B350M-A",
+          "checkedAt": "2026-11-10T14:09:31+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_B350M-A/C12722_PRIME_B350M-A_web_V3_WEB_20170706.pdf?model=PRIME+B350M-A",
+          "httpStatus": 200,
+          "sha256": "0ef95f6da8c3ee78c115b2e58c0c2b1174ded80dc917e293267f683fde1db7bd",
+          "bytes": 1699305,
+          "status": "manual_fetched"
+        },
+        "state": "manual_cover_model_mismatch",
+        "cover": "C12722/ 第三版 / 2017 年 3 月 © 華碩電腦股份有限公司保留所有權利 15060-93102200 PRIME B350M-A 用 戶 手 冊 FAN_RGB_HEADER PCIEX16 PCIEX1_1 PRIME B350M-A PCIEX1_2 CLRTC SPDIF_OUT COM USB34 USB56 USB3_12 SPEAKER AAFP F_PANEL 欲了解主板各接口的詳細介紹，請掃描右側的二維碼。 V21XTAE RWPXTAE +DVIRGMI CPU_FAN ASM 1143 CHA_FAN BATTERY R8e1a1lt1eHk Super I/O ALC 887 )ni6.9(mc4.42 AMD® B350 4MA TEKCOS )eludom nip-882 ,tib46( 1A_MMID 4RDD 22110 2280 2260 2242 )3TEKCOS(1_2.M )eludom nip-882,tib46( 2A_MMID 4RDD )eludom nip-882 ,tib46( 1B_MMID 4RDD )eludom nip-882 ,tib46( 2B_MMID 4RDD 24cm(9.45in) KBMS HDMI USB3_56 USB3.1 _E12 LAN_USB3_34 1B2I8OMSb AUDIO SATA6G_1 SATA6G_2 SATA6G_5 SATA6G_4 IVD AGV drauGNAL 6_G6ATAS 5_G6ATAS Realtek® 8111H"
+      }
+    ]
+  },
+  "product": null
+}

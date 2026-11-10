@@ -1,0 +1,63 @@
+{
+  "id": "import-ssd-eaa8c28b7e24",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M560 PCIe 5.0 NVMe M.2 2TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification",
+    "sha256": "0640f6dc2e98bf1de3ae55e44ca26f8a1b71d39a1b1a73147d138c9f3ca9fc39",
+    "bytes": 60947,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M560 PCIe 5.0 NVMe M.2",
+    "Capacity": "2TB",
+    "Controller": "PHISON E31T",
+    "Flash Memory": "3D NAND",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen5x4, NVMe 2.0",
+    "Compatibility": "PCIe Gen5 /PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 2.15mm (H)",
+    "Sequential Read up to (MB/s)": "10,300",
+    "Sequential Write up to (MB/s)": "8,700",
+    "Random Read 4KB up to (IOPS)": "1,300,000",
+    "Random Write 4KB up to (IOPS)": "1,400,000",
+    "Maximum Operating Power (W)": "5.9",
+    "Idle Power PS3 (mW)": "50",
+    "Low Power L1.2 (mW)": "3.5",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "40°C – 85°C",
+    "Terabytes Written (TBW)": "1200",
+    "Mean Time Between Failure (MTBF)": "Up to 1,500,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS support required) \n\nSMART (Self-Monitoring, Analysis and Reporting Technology) \n\nLDPC (Low Density Parity Check) ECC Algorithm \n\nEnd to End Data Path Protection \n\nAPST (Autonomous Power State Transition)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1736395820ee7892e15474289600cd4df2ef665d13.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification",
+        "checkedAt": "2026-11-10T14:36:12+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M560-PCIe-5.0-NVMe-M.2/Specification",
+        "sha256": "0640f6dc2e98bf1de3ae55e44ca26f8a1b71d39a1b1a73147d138c9f3ca9fc39",
+        "bytes": 60947,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M560 PCIe 5.0 NVMe M.2",
+      "selectedColumn": "SPATIUM M560 PCIe 5.0 NVMe M.2 2TB"
+    }
+  ]
+}

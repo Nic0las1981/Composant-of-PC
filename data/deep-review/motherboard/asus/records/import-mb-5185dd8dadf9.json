@@ -1,0 +1,166 @@
+{
+  "review": {
+    "id": "import-mb-5185dd8dadf9",
+    "name": "TUF GAMING X570-PRO (WI-FI)",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:26:55+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "sha256": "8ad7b51fffe2eb0100df0320965f0a620ff5197e421dfdf8c664b24672d71261",
+        "bytes": 327873,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "sha256": "25f1079a3b11d9f033c51d83c046fda1c1ffe03c120a5930dfa3216b56ef3671",
+        "bytes": 283887,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF GAMING X570-PRO (WI-FI)",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/c5c37cea-a7f1-4652-985a-aac48d532ebf/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "Special Features",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "network",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING X570-PRO (WI-FI)",
+    "identityNote": "Modèle ASUS TUF GAMING X570-PRO (WI-FI) confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING X570-PRO (WI-FI)",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors"
+          },
+          {
+            "label": "Chipset",
+            "value": "X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI 1.4\n1 x DisplayPort 1.2"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 2 x M.2 slots and 8 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 2.5Gb Ethernet"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "2x2 Dual Band Intel Wi-Fi a/b/g/n/ac/ax + BT5.1"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Y"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 10 64bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX, 30.5cm x 24.4cm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/c5c37cea-a7f1-4652-985a-aac48d532ebf/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "formFactor": {
+        "value": "ATX, 30.5cm x 24.4cm",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX, 30.5cm x 24.4cm",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "chipset": {
+        "value": "X570",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 2 x M.2 slots and 8 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 2.5Gb Ethernet\n2x2 Dual Band Intel Wi-Fi a/b/g/n/ac/ax + BT5.1",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-pro-wi-fi/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING X570-PRO (WI-FI)"
+  }
+}

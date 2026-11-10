@@ -1,0 +1,223 @@
+{
+  "review": {
+    "id": "import-mb-deb51f826ece",
+    "name": "X370 GAMING X",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+          "checkedAt": "2026-11-10T13:59:36+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+          "httpStatus": 200,
+          "sha256": "5214ea9dfad62bdb636d1049b5a91490aad19a8bac824e83c7c19e42a8163d14",
+          "bytes": 3428579,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock Fatal1ty X370 Gaming X Series motherboard",
+        "modelNames": [
+          "Fatal1ty X370 Gaming X Series"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+      "checkedAt": "2026-11-10T13:59:36+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+      "httpStatus": 200,
+      "sha256": "5214ea9dfad62bdb636d1049b5a91490aad19a8bac824e83c7c19e42a8163d14"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock Fatal1ty X370 Gaming X Series motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • ATX Form Factor\n\n\n                CPU           • Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\n                                and Ryzen CPUs (Summit Ridge)\n                              • 12 Power Phase design\n                              • Supports 95W Water Cooling\n\n\n                Chipset       • AMD Promontory X370\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs support DDR4 3200+(OC)/2933\n                                 (OC)/2667/2400/2133 ECC & non-ECC, un-buffered\n                                 memory*\n                              • AMD 7th Gen A-Series APUs support DDR4 2400/2133 ECC\n                                 & non-ECC, un-buffered memory*\n                             * Please refer to Memory Support List on ASRock’s website for\n                             more information. (http://www.asrock.com/)\n                             * Please refer to page 23 for DDR4 UDIMM maximum\n                             frequency support.\n                              • Max. capacity of system memory: 64GB\n                              • 15μ Gold Contact in DIMM Slots\n\n\n                Expansion    AMD Ryzen series CPUs\n                Slot          • 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\n                                 x8 (PCIE2) / x8 (PCIE4))*\n                             AMD 7th A-Series APUs\n                              • 1 x PCI Express 3.0 x16 Slot (single at x8 (PCIE2))*\n                             * Supports NVMe SSD as boot disks\n                              • 4 x PCI Express 2.0 x1 Slots\n                              • Supports AMD Quad CrossFireXTM and CrossFireXTM **\n                              • Supports NVIDIA® Quad SLITM and SLITM**\n                             ** This feature is only supported with Ryzen Series CPUs (Sum-\n                             mit Ridge).\nEnglish\n\n\n\n\n                              • 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT module\n                              • 15μ Gold Contact in VGA PCIe Slot (PCIE2)\n\n\n\n\n          2\n\f                                                    Fatal1ty X370 Gaming X Series\n\n\n\n\nGraphics      • Integrated AMD RadeonTM R-Series Graphics in A-series\n                APU*\n             * Actual support may vary by CPU\n              • DirectX 12, Pixel Shader 5.0\n              • Max. shared memory 1GB\n              • Supports HDMI with max. resolution up to 4K x 2K\n                (4096x2160) @ 24Hz / (3840x2160) @ 30Hz\n              • Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\n                HBR (High Bit Rate Audio) with HDMI Port (Compliant\n                HDMI monitor is required)\n              • Supports HDCP with HDMI Port\n              • Supports Full HD 1080p Blu-ray (BD) playback with HDMI\n                Port\n\n\nAudio        • 7.1 CH HD Audio with Content Protection (Realtek\n               ALC1220 Audio Codec)\n             • Premium Blu-ray Audio support\n             • Supports Surge Protection\n             • Nichicon Fine Gold Series Audio Caps\n             • 120dB SNR DAC with Differential Amplifier\n             • TI® NE5532 Premium Headset Amplifier for Front Panel\n               Audio Connector (Supports up to 600 Ohm headsets)\n             • Pure Power-In\n             • Direct Drive Technology\n             • PCB Isolate Shielding\n             • Impedance Sensing on Line Out port\n             • Individual PCB Layers for R/L Audio Channel\n             • Gold Audio Jacks\n             • Supports Creative SoundBlaster Cinema3\n\n\nLAN          •   Gigabit LAN 10/100/1000 Mb/s\n             •   GigaLAN Intel® I211AT\n             •   Supports Wake-On-LAN\n             •   Supports Lightning/ESD Protection\n             •   Supports Energy Efficient Ethernet 802.3az\n             •   Supports PXE\n                                                                                    English\n\n\n\n\nRear Panel   • 2 x Antenna Ports\nI/O          • 1 x PS/2 Mouse Port\n\n\n                                                                               3\n\f                           • 1 x PS/2 Keyboard Port\n                           • 1 x HDMI Port\n                           • 1 x Optical SPDIF Out Port\n                           • 1 x USB 3.0 Type-A Port (Supports ESD Protection)\n                           • 1 x USB 3.0 Type-C Port (Supports ESD Protection)\n                           • 6 x USB 3.0 Ports (Supports ESD Protection)\n                          * 1 x Fatal1ty Mouse Port (USB 3.0) is included\n                           • 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\n                              LED)\n                           • HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\n                              Front Speaker / Microphone (Gold Audio Jacks)\n\n\n              Storage      • 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\n                              RAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n                           • 1 x Ultra M.2 Socket (M2_1), supports type\n                              2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\n                              PCI Express module up to Gen3 x4 (32 Gb/s) (with Ryzen\n                              CPU) or Gen3 x2 (16 Gb/s) (with A-Series APU)*\n                           • 1 x M.2 Socket (M2_2), supports type 2230/2242/2260/2280\n                              M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module\n                              up to Gen2 x2 (10 Gb/s)*\n                          * Supports NVMe SSD as boot disks\n                          * Supports ASRock U.2 Kit\n\n\n              Connector    • 1 x COM Port Header\n                           • 1 x TPM Header\n                           • 1 x Power LED and Speaker Header\n                           • 1 x AMD Fan LED Header\n                           • 2 x RGB LED Headers\n                          * Supports up to 12V/3A, 36W LED Strip\n                           • 1 x CPU Fan Connector (4-pin)\n                          * The CPU Fan Connector supports the CPU fan of maximum\n                          1A (12W) fan power.\n                           • 1 x CPU Optional/Water Pump Fan Connector (4-pin)\n                              (Smart Fan Speed Control)\n                          * The CPU Optional/Water Pump Fan supports the water cooler\nEnglish\n\n\n\n\n                          fan of maximum 1.5A (18W) fan power.\n                           • 2 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\n                              trol)\n\n\n\n          4\n\f                                                 Fatal1ty X370 Gaming X Series\n\n\n\n\n            • 1 x Chassis Optional/Water Pump Fan Connector (4-pin)\n              (Smart Fan Speed Control)\n           * The Chassis Optional/Water Pump Fan supports the water\n           cooler fan of maximum 1.5A (18W) fan power.\n           * CHA_FAN2 can auto detect if 3-pin or 4-pin fan is in use.\n            • 1 x 24 pin ATX Power Connector (Hi-Density Power\n              Connector)\n            • 1 x 8 pin 12V Power Connector (Hi-Density Power\n              Connector)\n            • 1 x Front Panel Audio Connector\n            • 1 x AMD LED Fan USB Header\n            • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\n              ESD Protection)\n            • 2 x USB 3.0 Headers (Support 4 USB 3.0 ports) (Supports\n              ESD Protection)\n            • 1 x Dr. Debug with LED\n\n\nBIOS       • AMI UEFI Legal BIOS with multilingual GUI support\nFeature    • Supports “Plug and Play”\n           • ACPI 5.1 compliance wake up events\n           • Supports jumperfree\n           • SMBIOS 2.3 support\n           • CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\n             VDDP, PROM 2.5V, Voltage Multi-adjustment\n\n\nHardware   • Temperature Sensing: CPU, CPU Optional/Water Pump,\nMonitor      Chassis, Chassis Optional/Water Pump Fans\n           • Fan Tachometer: CPU, CPU Optional/Water Pump, Chassis,\n             Chassis Optional/Water Pump Fans\n           • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\n             ture): CPU, CPU Optional/Water Pump, Chassis, Chassis\n             Optional/Water Pump Fans\n           • Fan Multi-Speed Control: CPU, CPU Optional/Water Pump,\n             Chassis, Chassis Optional/Water Pump Fans\n           • Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\n             NB, DRAM, PCH 1.05V, +1.8V, VDDP\n                                                                                 English\n\n\n\n\n                                                                            5\n\f                  OS                      • Microsoft® Windows® 10 64-bit\n                                         * For the updated Windows® 10 driver, please visit ASRock’s\n                                         website for details: http://www.asrock.com\n\n\n                  Certifica-              • FCC, CE, WHQL\n                  tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n\n\n\n\n              * For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n                          Please realize that there is a certain risk involved with overclocking, including adjusting\n                          the setting in the BIOS, applying Untied Overclocking Technology, or using third-party\n                          overclocking tools. Overclocking may affect your system’s stability, or even cause damage to\n                          the components and devices of your system. It should be done at your own risk and expense.\n                          We are not responsible for possible damage caused by overclocking.\nEnglish\n\n\n\n\n          6\n\f                                                                                                                                                                                                        Fatal1ty X370 Gaming X Series\n\n\n\n",
+      "modelNames": [
+        "Fatal1ty X370 Gaming X Series"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X370 GAMING X",
+    "identityNote": "Modèle ASRock X370 GAMING X confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X370 GAMING X",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\nand Ryzen CPUs (Summit Ridge)\n• 12 Power Phase design\n• Supports 95W Water Cooling"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD Promontory X370"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs support DDR4 3200+(OC)/2933\n(OC)/2667/2400/2133 ECC & non-ECC, un-buffered\nmemory*\n• AMD 7th Gen A-Series APUs support DDR4 2400/2133 ECC\n& non-ECC, un-buffered memory*\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n* Please refer to page 23 for DDR4 UDIMM maximum\nfrequency support.\n• Max. capacity of system memory: 64GB\n• 15μ Gold Contact in DIMM Slots"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs\nSlot          • 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\nx8 (PCIE2) / x8 (PCIE4))*\nAMD 7th A-Series APUs\n• 1 x PCI Express 3.0 x16 Slot (single at x8 (PCIE2))*\n* Supports NVMe SSD as boot disks\n• 4 x PCI Express 2.0 x1 Slots\n• Supports AMD Quad CrossFireXTM and CrossFireXTM **\n• Supports NVIDIA® Quad SLITM and SLITM**\n** This feature is only supported with Ryzen Series CPUs (Sum-\nmit Ridge).\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT module\n• 15μ Gold Contact in VGA PCIe Slot (PCIE2)"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD RadeonTM R-Series Graphics in A-series\nAPU*\n* Actual support may vary by CPU\n• DirectX 12, Pixel Shader 5.0\n• Max. shared memory 1GB\n• Supports HDMI with max. resolution up to 4K x 2K\n(4096x2160) @ 24Hz / (3840x2160) @ 30Hz\n• Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\nHBR (High Bit Rate Audio) with HDMI Port (Compliant\nHDMI monitor is required)\n• Supports HDCP with HDMI Port\n• Supports Full HD 1080p Blu-ray (BD) playback with HDMI\nPort"
+          },
+          {
+            "label": "Audio",
+            "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC1220 Audio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Nichicon Fine Gold Series Audio Caps\n• 120dB SNR DAC with Differential Amplifier\n• TI® NE5532 Premium Headset Amplifier for Front Panel\nAudio Connector (Supports up to 600 Ohm headsets)\n• Pure Power-In\n• Direct Drive Technology\n• PCB Isolate Shielding\n• Impedance Sensing on Line Out port\n• Individual PCB Layers for R/L Audio Channel\n• Gold Audio Jacks\n• Supports Creative SoundBlaster Cinema3"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "•   Gigabit LAN 10/100/1000 Mb/s\n•   GigaLAN Intel® I211AT\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "• 2 x Antenna Ports\nI/O          • 1 x PS/2 Mouse Port\n• 1 x PS/2 Keyboard Port\n• 1 x HDMI Port\n• 1 x Optical SPDIF Out Port\n• 1 x USB 3.0 Type-A Port (Supports ESD Protection)\n• 1 x USB 3.0 Type-C Port (Supports ESD Protection)\n• 6 x USB 3.0 Ports (Supports ESD Protection)\n* 1 x Fatal1ty Mouse Port (USB 3.0) is included\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "• 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 1 x Ultra M.2 Socket (M2_1), supports type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen3 x4 (32 Gb/s) (with Ryzen\nCPU) or Gen3 x2 (16 Gb/s) (with A-Series APU)*\n• 1 x M.2 Socket (M2_2), supports type 2230/2242/2260/2280\nM.2 SATA3 6.0 Gb/s module and M.2 PCI Express module\nup to Gen2 x2 (10 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n• 2 x RGB LED Headers\n* Supports up to 12V/3A, 36W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU Optional/Water Pump Fan Connector (4-pin)\n(Smart Fan Speed Control)\n* The CPU Optional/Water Pump Fan supports the water cooler\nfan of maximum 1.5A (18W) fan power.\n• 2 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)\n• 1 x Chassis Optional/Water Pump Fan Connector (4-pin)\n(Smart Fan Speed Control)\n* The Chassis Optional/Water Pump Fan supports the water\ncooler fan of maximum 1.5A (18W) fan power.\n* CHA_FAN2 can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector\n• 1 x AMD LED Fan USB Header\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.0 Headers (Support 4 USB 3.0 ports) (Supports\nESD Protection)\n• 1 x Dr. Debug with LED"
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with multilingual GUI support\nFeature    • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP, PROM 2.5V, Voltage Multi-adjustment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "• Temperature Sensing: CPU, CPU Optional/Water Pump,\nMonitor      Chassis, Chassis Optional/Water Pump Fans\n• Fan Tachometer: CPU, CPU Optional/Water Pump, Chassis,\nChassis Optional/Water Pump Fans\n• Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nture): CPU, CPU Optional/Water Pump, Chassis, Chassis\nOptional/Water Pump Fans\n• Fan Multi-Speed Control: CPU, CPU Optional/Water Pump,\nChassis, Chassis Optional/Water Pump Fans\n• Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, VCORE_\nNB, DRAM, PCH 1.05V, +1.8V, VDDP"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit\n* For the updated Windows® 10 driver, please visit ASRock’s\nwebsite for details: http://www.asrock.com\nCertifica-              • FCC, CE, WHQL\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including adjusting\nthe setting in the BIOS, applying Untied Overclocking Technology, or using third-party\noverclocking tools. Overclocking may affect your system’s stability, or even cause damage to\nthe components and devices of your system. It should be done at your own risk and expense.\nWe are not responsible for possible damage caused by overclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "chipset": {
+        "value": "• AMD Promontory X370",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "storagePorts": {
+        "value": "• 6 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0,\nRAID 1 and RAID 10), NCQ, AHCI and Hot Plug\n• 1 x Ultra M.2 Socket (M2_1), supports type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen3 x4 (32 Gb/s) (with Ryzen\nCPU) or Gen3 x2 (16 Gb/s) (with A-Series APU)*\n• 1 x M.2 Socket (M2_2), supports type 2230/2242/2260/2280\nM.2 SATA3 6.0 Gb/s module and M.2 PCI Express module\nup to Gen2 x2 (10 Gb/s)*\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs\nSlot          • 2 x PCI Express 3.0 x16 Slots (single at x16 (PCIE2); dual at\nx8 (PCIE2) / x8 (PCIE4))*\nAMD 7th A-Series APUs\n• 1 x PCI Express 3.0 x16 Slot (single at x8 (PCIE2))*\n* Supports NVMe SSD as boot disks\n• 4 x PCI Express 2.0 x1 Slots\n• Supports AMD Quad CrossFireXTM and CrossFireXTM **\n• Supports NVIDIA® Quad SLITM and SLITM**\n** This feature is only supported with Ryzen Series CPUs (Sum-\nmit Ridge).\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT module\n• 15μ Gold Contact in VGA PCIe Slot (PCIE2)",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "rearIO": {
+        "value": "• 2 x Antenna Ports\nI/O          • 1 x PS/2 Mouse Port\n• 1 x PS/2 Keyboard Port\n• 1 x HDMI Port\n• 1 x Optical SPDIF Out Port\n• 1 x USB 3.0 Type-A Port (Supports ESD Protection)\n• 1 x USB 3.0 Type-C Port (Supports ESD Protection)\n• 6 x USB 3.0 Ports (Supports ESD Protection)\n* 1 x Fatal1ty Mouse Port (USB 3.0) is included\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x COM Port Header\n• 1 x TPM Header\n• 1 x Power LED and Speaker Header\n• 1 x AMD Fan LED Header\n• 2 x RGB LED Headers\n* Supports up to 12V/3A, 36W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU Optional/Water Pump Fan Connector (4-pin)\n(Smart Fan Speed Control)\n* The CPU Optional/Water Pump Fan supports the water cooler\nfan of maximum 1.5A (18W) fan power.\n• 2 x Chassis Fan Connectors (4-pin) (Smart Fan Speed Con-\ntrol)\n• 1 x Chassis Optional/Water Pump Fan Connector (4-pin)\n(Smart Fan Speed Control)\n* The Chassis Optional/Water Pump Fan supports the water\ncooler fan of maximum 1.5A (18W) fan power.\n* CHA_FAN2 can auto detect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector\n• 1 x AMD LED Fan USB Header\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.0 Headers (Support 4 USB 3.0 ports) (Supports\nESD Protection)\n• 1 x Dr. Debug with LED",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "network": {
+        "value": "•   Gigabit LAN 10/100/1000 Mb/s\n•   GigaLAN Intel® I211AT\n•   Supports Wake-On-LAN\n•   Supports Lightning/ESD Protection\n•   Supports Energy Efficient Ethernet 802.3az\n•   Supports PXE",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "audio": {
+        "value": "• 7.1 CH HD Audio with Content Protection (Realtek\nALC1220 Audio Codec)\n• Premium Blu-ray Audio support\n• Supports Surge Protection\n• Nichicon Fine Gold Series Audio Caps\n• 120dB SNR DAC with Differential Amplifier\n• TI® NE5532 Premium Headset Amplifier for Front Panel\nAudio Connector (Supports up to 600 Ohm headsets)\n• Pure Power-In\n• Direct Drive Technology\n• PCB Isolate Shielding\n• Impedance Sensing on Line Out port\n• Individual PCB Layers for R/L Audio Channel\n• Gold Audio Jacks\n• Supports Creative SoundBlaster Cinema3",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD Socket AM4 A-Series APUs (Bristol Ridge)\nand Ryzen CPUs (Summit Ridge)\n• 12 Power Phase design\n• Supports 95W Water Cooling\nBIOS: • AMI UEFI Legal BIOS with multilingual GUI support\nFeature    • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• CPU, VCORE_NB, DRAM, VPPM, PCH 1.05V, +1.8V,\nVDDP, PROM 2.5V, Voltage Multi-adjustment",
+        "sourceURL": "https://download.asrock.com/Manual/Fatal1ty%20X370%20Gaming%20X.pdf",
+        "checkedAt": "2026-11-10T13:59:36+00:00"
+      }
+    },
+    "manufacturerModel": "X370 GAMING X"
+  }
+}

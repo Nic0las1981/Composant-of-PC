@@ -1,0 +1,3153 @@
+{
+  "scope": 184,
+  "products": 184,
+  "byBrand": {
+    "Klevv": 18,
+    "Sabrent": 21,
+    "Lexar": 46,
+    "PNY": 30,
+    "Netac": 13,
+    "Nextorage": 19,
+    "Addlink": 37
+  },
+  "records": [
+    {
+      "id": "import-ssd-16175b31bb50",
+      "brand": "Klevv",
+      "name": "CRAS C910 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C91",
+      "model": null,
+      "sourceKeys": [
+        "2cb1e4d08f1891d9"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-1af50f9dfccc",
+      "brand": "Klevv",
+      "name": "CRAS C910 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K02TBM2SP0-C91",
+      "model": null,
+      "sourceKeys": [
+        "2cb1e4d08f1891d9"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-74b0493c4038",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4P-8TB",
+      "model": null,
+      "sourceKeys": [
+        "289c60e25e8fa969",
+        "image-tables/3c18379f803e177e"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Les valeurs 7100/6600 Mo/s et 3000 TBW sont celles du visuel 8 To et de sa FAQ fabricant, sans leur substituer les chiffres d’agrégateurs."
+      ]
+    },
+    {
+      "id": "import-ssd-e1b5f2393e07",
+      "brand": "Lexar",
+      "name": "NM790 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "e681a6b3c06c972b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-53b55cf68551",
+      "brand": "Lexar",
+      "name": "NM790 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "e681a6b3c06c972b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-8daac566497d",
+      "brand": "Klevv",
+      "name": "CRAS C910 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K04TBM2SP0-C91",
+      "model": null,
+      "sourceKeys": [
+        "2cb1e4d08f1891d9"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-8250d6c42b2f",
+      "brand": "Lexar",
+      "name": "NM790 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "e681a6b3c06c972b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-33e394a3d748",
+      "brand": "Sabrent",
+      "name": "Rocket 5 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT5-4TB",
+      "model": null,
+      "sourceKeys": [
+        "83b4b389b272f983",
+        "7ec74382a959d002",
+        "9b67f1efcf6fe7b8"
+      ],
+      "documentedFields": 9,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-7ade80842c8c",
+      "brand": "PNY",
+      "name": "CS2150 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2150-2TB-TB",
+      "model": null,
+      "sourceKeys": [
+        "7978338b133634df"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bd6e42585492",
+      "brand": "PNY",
+      "name": "CS2150 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2150-1TB-TB",
+      "model": null,
+      "sourceKeys": [
+        "7978338b133634df"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bf22c51d72c7",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040-4TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-99a539f9ae24",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4P-2TB",
+      "model": null,
+      "sourceKeys": [
+        "df85ac5b2035f88e",
+        "image-tables/eb9d01cd85b531fd"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-004f876318a3",
+      "brand": "Klevv",
+      "name": "CRAS C910 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K500GM2SP0-C91",
+      "model": null,
+      "sourceKeys": [
+        "2cb1e4d08f1891d9"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-43ad32751447",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4P-1TB",
+      "model": null,
+      "sourceKeys": [
+        "66ce19d44a55c7b8",
+        "image-tables/bb5f0bb4814a6241"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Débits de la version illustrée sur la fiche constructeur ; les révisions de NAND ultérieures ne sont pas confondues avec cette valeur publiée."
+      ]
+    },
+    {
+      "id": "import-ssd-5388eae60e9a",
+      "brand": "Lexar",
+      "name": "NM790 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X008T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "e681a6b3c06c972b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-7b08953c645d",
+      "brand": "Netac",
+      "name": "NV7000-t 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000t-2T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "a36814f1ad0e598c"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "height"
+      ],
+      "notes": [
+        "La fiche donne 80 × 22 × 2,3 mm pour le PCB seul. Un dissipateur métallique à poser est fourni ; sa hauteur montée n’est pas publiée et n’est pas assimilée à celle du PCB."
+      ]
+    },
+    {
+      "id": "import-ssd-dc0ae58837c8",
+      "brand": "PNY",
+      "name": "CS2241 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2241-500-RB",
+      "model": null,
+      "sourceKeys": [
+        "e314dc134f4a2630"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-2fef5cb7d16c",
+      "brand": "Netac",
+      "name": "NV7000-t 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000t-1T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "a36814f1ad0e598c"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "height"
+      ],
+      "notes": [
+        "La fiche donne 80 × 22 × 2,3 mm pour le PCB seul. Un dissipateur métallique à poser est fourni ; sa hauteur montée n’est pas publiée et n’est pas assimilée à celle du PCB."
+      ]
+    },
+    {
+      "id": "import-ssd-7ecfeda0780f",
+      "brand": "Sabrent",
+      "name": "Rocket 4.0 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-ROCKET-NVME4-500",
+      "model": null,
+      "sourceKeys": [
+        "1b165b5c43e21a99",
+        "0c56f2967618ab36"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-61cdc96ed956",
+      "brand": "Nextorage",
+      "name": "NEM-PAB 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PAB2TB",
+      "model": null,
+      "sourceKeys": [
+        "3f6f4cd121d81295"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-02e6a22aea14",
+      "brand": "Lexar",
+      "name": "NM790 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X512G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "e681a6b3c06c972b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-8cfa1c13bbbe",
+      "brand": "Lexar",
+      "name": "NM710 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM710X500G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "b354b5dc434c942d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 03/2023 hébergée par RS, tableau des SKU Global ; performances également confirmées par la page Lexar NM710."
+      ]
+    },
+    {
+      "id": "import-ssd-e168f9fbe248",
+      "brand": "Nextorage",
+      "name": "NEM-PAC 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PAC4TB",
+      "model": null,
+      "sourceKeys": [
+        "cbc08995698e0ab2"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-a0040913e971",
+      "brand": "Netac",
+      "name": "NV5000 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000-500-E4X",
+      "model": null,
+      "sourceKeys": [
+        "73b8da96aa44b8ca"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-58b6a82596f7",
+      "brand": "Klevv",
+      "name": "CRAS C715 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K512GM2SP0-C7T",
+      "model": null,
+      "sourceKeys": [
+        "3f255f534594cc08"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’archive : le CRAS C715 est PCIe 3.0 ×4 et non PCIe 4.0 ×4."
+      ]
+    },
+    {
+      "id": "import-ssd-4508925f46a0",
+      "brand": "Nextorage",
+      "name": "G-Series 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NE1N8TB",
+      "model": null,
+      "sourceKeys": [
+        "cd6b4fd5361326e0"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-6f2a9fd4b0d0",
+      "brand": "Netac",
+      "name": "NV7000 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000-4T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "1e9f99aa63bc5cbf"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ec2c99545061",
+      "brand": "Klevv",
+      "name": "CRAS C715 256 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K256GM2SP0-C7T",
+      "model": null,
+      "sourceKeys": [
+        "3f255f534594cc08"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’archive : le CRAS C715 est PCIe 3.0 ×4 et non PCIe 4.0 ×4."
+      ]
+    },
+    {
+      "id": "import-ssd-811a2dda0c7a",
+      "brand": "Addlink",
+      "name": "G55 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55 2000 GB",
+      "sourceKeys": [
+        "7629d0917a01b9b9"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche publie un maximum de gamme de 10300/9000 Mo/s sans tableau par capacité ; ces maxima ne sont pas attribués individuellement."
+      ]
+    },
+    {
+      "id": "import-ssd-e18800d7885d",
+      "brand": "Nextorage",
+      "name": "NEM-PAB 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PAB1TB",
+      "model": null,
+      "sourceKeys": [
+        "3f6f4cd121d81295"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-114f51e94248",
+      "brand": "Addlink",
+      "name": "A93 PS5 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A93 PS5 4000 GB",
+      "sourceKeys": [
+        "7a5b7a048cebbd47"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bad55e3b62e0",
+      "brand": "PNY",
+      "name": "CS3140 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140-8TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "72eebbc43f532a4e"
+      ],
+      "documentedFields": 4,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "read",
+        "write",
+        "nand",
+        "endurance",
+        "warranty",
+        "heatsink"
+      ],
+      "notes": [
+        "L’existence du SKU 8 To est confirmée par le distributeur Win Source. Le PDF fabricant actuel ne couvre que 1/2/4 To ; aucun débit, endurance ni dimension de ces capacités n’est transféré au 8 To."
+      ]
+    },
+    {
+      "id": "import-ssd-e42898e58722",
+      "brand": "Addlink",
+      "name": "G55 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55 1000 GB",
+      "sourceKeys": [
+        "7629d0917a01b9b9"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche publie un maximum de gamme de 10300/9000 Mo/s sans tableau par capacité ; ces maxima ne sont pas attribués individuellement."
+      ]
+    },
+    {
+      "id": "import-ssd-4ab26a19dd16",
+      "brand": "Addlink",
+      "name": "A95 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A95 8000 GB",
+      "sourceKeys": [
+        "021770f2671ab627"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Le PDF A95 indique 20 mm de largeur pour un module 2280 ; la largeur totale contradictoire est laissée à confirmer. La hauteur de 9,1 mm inclut le dissipateur."
+      ]
+    },
+    {
+      "id": "import-ssd-775e05dbf6d4",
+      "brand": "Netac",
+      "name": "NV7000-t 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000t-512-E4X",
+      "model": null,
+      "sourceKeys": [
+        "a36814f1ad0e598c"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "height"
+      ],
+      "notes": [
+        "La fiche donne 80 × 22 × 2,3 mm pour le PCB seul. Un dissipateur métallique à poser est fourni ; sa hauteur montée n’est pas publiée et n’est pas assimilée à celle du PCB."
+      ]
+    },
+    {
+      "id": "import-ssd-a9cf33fa768c",
+      "brand": "Addlink",
+      "name": "D60 960 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink D60 960 GB",
+      "sourceKeys": [
+        "f5f52bd608db571b"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Modèle NAS D60 : performances soutenues, endurance 1 DWPD, protection contre perte d’alimentation ; ne pas assimiler au S95 grand public."
+      ]
+    },
+    {
+      "id": "import-ssd-091abba89432",
+      "brand": "Addlink",
+      "name": "S90 Lite 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad512GBS90LTM2P",
+      "model": null,
+      "sourceKeys": [
+        "8926a88ef6dbfeff"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Tableau du distributeur japonais Aiuto : quatre SKU S90 Lite distincts, hauteur maximale publiée 3,5 mm. L’endurance contractuelle est définie par le pourcentage SMART utilisé, sans TBW chiffré publié."
+      ]
+    },
+    {
+      "id": "import-ssd-1d41d1e3adef",
+      "brand": "Addlink",
+      "name": "D60 480 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink D60 480 GB",
+      "sourceKeys": [
+        "f5f52bd608db571b"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Modèle NAS D60 : performances soutenues, endurance 1 DWPD, protection contre perte d’alimentation ; ne pas assimiler au S95 grand public."
+      ]
+    },
+    {
+      "id": "import-ssd-63d5cd5a323b",
+      "brand": "Addlink",
+      "name": "D60 1920 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink D60 1920 GB",
+      "sourceKeys": [
+        "f5f52bd608db571b"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Modèle NAS D60 : performances soutenues, endurance 1 DWPD, protection contre perte d’alimentation ; ne pas assimiler au S95 grand public."
+      ]
+    },
+    {
+      "id": "import-ssd-72251adddea9",
+      "brand": "Klevv",
+      "name": "CRAS C930 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C93",
+      "model": null,
+      "sourceKeys": [
+        "d6eb22ebaed04736"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 3,2 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-261777d09ab7",
+      "brand": "Klevv",
+      "name": "CRAS C930 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K02TBM2SP0-C93",
+      "model": null,
+      "sourceKeys": [
+        "d6eb22ebaed04736"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 3,2 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-2d17f8df1b00",
+      "brand": "Lexar",
+      "name": "NQ790 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ790X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "a301306b17ebddbf"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ad88c0d48939",
+      "brand": "Lexar",
+      "name": "NM710 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM710X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "b354b5dc434c942d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 03/2023 hébergée par RS, tableau des SKU Global ; performances également confirmées par la page Lexar NM710."
+      ]
+    },
+    {
+      "id": "import-ssd-56828fa5895a",
+      "brand": "Klevv",
+      "name": "CRAS C910 Lite 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K04TBM2SP0-C9L",
+      "model": null,
+      "sourceKeys": [
+        "1961506c4283cbd2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-0e78b87cff71",
+      "brand": "Lexar",
+      "name": "Professional NM1090 PRO 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM109P004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "06497c6cab53406f"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ed01111e3d51",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus G 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTG-4TB",
+      "model": null,
+      "sourceKeys": [
+        "0e6242b7bc26a3c1",
+        "ba610050226a5b21"
+      ],
+      "documentedFields": 9,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "La fiche Scan du SKU exact confirme 7300/6900 Mo/s. Un ancien message de support Sabrent donne une estimation différente et provisoire ; son TBW n’est pas assimilé à une spécification ferme."
+      ]
+    },
+    {
+      "id": "import-ssd-96edacc70469",
+      "brand": "PNY",
+      "name": "CS2241 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2241-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "e314dc134f4a2630"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-b7abfb41ab4a",
+      "brand": "PNY",
+      "name": "CS2241 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2241-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "e314dc134f4a2630"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-9f1645658a4a",
+      "brand": "PNY",
+      "name": "CS2241 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2241-4TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "e314dc134f4a2630"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-64563aee22ac",
+      "brand": "Sabrent",
+      "name": "Rocket 5 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT5-2TB",
+      "model": null,
+      "sourceKeys": [
+        "bd60cde80bc8e70e",
+        "9e231d320d5b7c7a",
+        "d75e3e081484ab44"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Dimensions et endurance explicites du SKU 2 To publiées par Wootware ; sa garantie marchande trois ans ne remplace pas la garantie fabricant actuelle."
+      ]
+    },
+    {
+      "id": "import-ssd-70cdaaf14290",
+      "brand": "Klevv",
+      "name": "CRAS C925 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K500GM2SP0-C9T",
+      "model": null,
+      "sourceKeys": [
+        "0a67e407421ca1e1"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-22aaf101470f",
+      "brand": "Sabrent",
+      "name": "Rocket 4 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4L-1TB",
+      "model": null,
+      "sourceKeys": [
+        "2a69e0a3174256f0",
+        "image-tables/b332febc4f86e250"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "nand",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Le visuel officiel portant 1 TB donne 6100 Mo/s en écriture ; le paragraphe commun à la gamme donne 6400. Le visuel de cette capacité est retenu."
+      ]
+    },
+    {
+      "id": "import-ssd-ccea74c1a993",
+      "brand": "Lexar",
+      "name": "PLAY 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNMPLY8008T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "9b69c847e4d61d2d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 04/2024 hébergée par 1fodiscount, avec SKU Global par capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-fdd623081273",
+      "brand": "Netac",
+      "name": "NV7000 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000-2T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "1e9f99aa63bc5cbf"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-232080459d09",
+      "brand": "PNY",
+      "name": "CS2140 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2140-500-RB",
+      "model": null,
+      "sourceKeys": [
+        "fa92e752dc62cb27"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-32b1882767b2",
+      "brand": "Netac",
+      "name": "NV7000 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV7000-1T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "1e9f99aa63bc5cbf"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-78bc3c6fb1a4",
+      "brand": "Nextorage",
+      "name": "G-Series LE 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NN4LE-2TB",
+      "model": null,
+      "sourceKeys": [
+        "a14636fdd8bdea49"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-9dbc5e6cd38a",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO w/Heatsink 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P512G-RN8NG",
+      "model": null,
+      "sourceKeys": [
+        "69222f0325c7ca06"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-4fe606458d81",
+      "brand": "Lexar",
+      "name": "NQ710 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ710X500G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "1917ba96ad2e6b67",
+        "4bd8f6be952696df"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-7721a01dfe2d",
+      "brand": "Nextorage",
+      "name": "G-Series 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NE1N4TB",
+      "model": null,
+      "sourceKeys": [
+        "cd6b4fd5361326e0"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-f486c29aa78b",
+      "brand": "Netac",
+      "name": "NV5000-N 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000N-500-E4X",
+      "model": null,
+      "sourceKeys": [
+        "487288ad0e828396"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-b11f25fb8cce",
+      "brand": "Nextorage",
+      "name": "NEM-PA 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PA8TB",
+      "model": null,
+      "sourceKeys": [
+        "10ba1901df79fafd"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-f159cae0b6b8",
+      "brand": "Addlink",
+      "name": "A95 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A95 2000 GB",
+      "sourceKeys": [
+        "021770f2671ab627"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Le PDF A95 indique 20 mm de largeur pour un module 2280 ; la largeur totale contradictoire est laissée à confirmer. La hauteur de 9,1 mm inclut le dissipateur."
+      ]
+    },
+    {
+      "id": "import-ssd-9f9b1a8c4a58",
+      "brand": "Nextorage",
+      "name": "G-Series LE 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NN4LE-1TB",
+      "model": null,
+      "sourceKeys": [
+        "a14636fdd8bdea49"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-fe58cc36e673",
+      "brand": "Addlink",
+      "name": "A95 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A95 4000 GB",
+      "sourceKeys": [
+        "021770f2671ab627"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Le PDF A95 indique 20 mm de largeur pour un module 2280 ; la largeur totale contradictoire est laissée à confirmer. La hauteur de 9,1 mm inclut le dissipateur."
+      ]
+    },
+    {
+      "id": "import-ssd-b58ad7e4f6ae",
+      "brand": "Addlink",
+      "name": "G55H 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55H 1000 GB",
+      "sourceKeys": [
+        "9bafc3c81d3388d8"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche contient des maxima de gamme contradictoires 10300/10500 Mo/s, sans tableau par capacité ; aucun débit exact n’est attribué à une capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-4624ee36bfc9",
+      "brand": "Addlink",
+      "name": "S95 8 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S95 8000 GB",
+      "sourceKeys": [
+        "bd5e1911f300cd90"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-5c7d333a6742",
+      "brand": "Lexar",
+      "name": "NM710 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM710X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "b354b5dc434c942d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 03/2023 hébergée par RS, tableau des SKU Global ; performances également confirmées par la page Lexar NM710."
+      ]
+    },
+    {
+      "id": "import-ssd-66cfea72bd0a",
+      "brand": "Lexar",
+      "name": "NQ790 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ790X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "a301306b17ebddbf"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-1eedd4de434e",
+      "brand": "Lexar",
+      "name": "EQ790 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LEQ790X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "7234e58a7a1b8b98"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-b047808d4b59",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4P-4TB",
+      "model": null,
+      "sourceKeys": [
+        "43b81f5bbcffa233",
+        "23a543fe57ed6e52"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-3d60ed8676fe",
+      "brand": "Lexar",
+      "name": "EQ790 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LEQ790X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "7234e58a7a1b8b98"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-56a0429d0e62",
+      "brand": "Lexar",
+      "name": "NQ780 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ780X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "ffc22e3b24854ac1"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-872e3e37b2e5",
+      "brand": "Lexar",
+      "name": "Professional NM1090 PRO 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM109P001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "06497c6cab53406f"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’identifiant d’archive « 0843367136780 » ; référence constructeur retenue : LNM109P001T-RNNNG. Les offres d’un autre identifiant ne sont pas transférées."
+      ]
+    },
+    {
+      "id": "import-ssd-44e692606522",
+      "brand": "Sabrent",
+      "name": "Rocket 5 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT5-1TB",
+      "model": null,
+      "sourceKeys": [
+        "9c3c0b3ba7660997",
+        "b0b273061841e353",
+        "db20006ca09367e7"
+      ],
+      "documentedFields": 9,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Les maxima communs de 14 Go/s ne sont pas attribués au SKU 1 To ; Scan confirme 13000/9500 Mo/s pour SB-RKT5-1TB."
+      ]
+    },
+    {
+      "id": "import-ssd-e8df2a221e33",
+      "brand": "Lexar",
+      "name": "Professional NM1090 PRO 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM109P002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "06497c6cab53406f"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-0cc5ab9c6450",
+      "brand": "Lexar",
+      "name": "NM790 w/Heatsink 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X001T-RN9NG",
+      "model": null,
+      "sourceKeys": [
+        "5ec7a6e94e612986"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-002b4bec4b5b",
+      "brand": "PNY",
+      "name": "CS3140 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "0b8900ca7b86eca5"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "La ligne marketing Gen5 du PDF contredit son tableau technique Gen4 ; le tableau et le nom officiel CS3140 PCIe4.0 font foi."
+      ]
+    },
+    {
+      "id": "import-ssd-6d12f3c4024f",
+      "brand": "Sabrent",
+      "name": "Rocket 4 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4L-2TB",
+      "model": null,
+      "sourceKeys": [
+        "ca933c5bc709e441",
+        "image-tables/84e3b7a840ff26a0"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "nand",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-ac1c10b9351d",
+      "brand": "PNY",
+      "name": "CS3140 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "0b8900ca7b86eca5"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "La ligne marketing Gen5 du PDF contredit son tableau technique Gen4 ; le tableau et le nom officiel CS3140 PCIe4.0 font foi."
+      ]
+    },
+    {
+      "id": "import-ssd-632ad1e095f0",
+      "brand": "Lexar",
+      "name": "NM790 w/Heatsink 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X004T-RN9NG",
+      "model": null,
+      "sourceKeys": [
+        "5ec7a6e94e612986"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-eaf6baa396a4",
+      "brand": "Lexar",
+      "name": "NQ780 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ780X004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "ffc22e3b24854ac1"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-537be2e066b4",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO w/Heatsink 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P001T-RN8NG",
+      "model": null,
+      "sourceKeys": [
+        "69222f0325c7ca06"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-fe31e6d7759e",
+      "brand": "Sabrent",
+      "name": "Rocket 4.0 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-ROCKET-NVME4-1TB",
+      "model": null,
+      "sourceKeys": [
+        "733bfeb54ce0dded",
+        "image-tables/28d32fb60be2eaaf"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-eff783faa920",
+      "brand": "Lexar",
+      "name": "NM1090 w/ Heatsink 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM1090002T-RNANG",
+      "model": null,
+      "sourceKeys": [
+        "fc502eb621c52110"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar conservée par Buchmann ; version à dissipateur actif et éclairage RGB, distincte du NM1090 PRO nu."
+      ]
+    },
+    {
+      "id": "import-ssd-4b370adc4f5c",
+      "brand": "Klevv",
+      "name": "CRAS C715 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C7T",
+      "model": null,
+      "sourceKeys": [
+        "3f255f534594cc08"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’archive : le CRAS C715 est PCIe 3.0 ×4 et non PCIe 4.0 ×4."
+      ]
+    },
+    {
+      "id": "import-ssd-1231c6824139",
+      "brand": "Lexar",
+      "name": "EQ790 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LEQ790X004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "7234e58a7a1b8b98"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-945c4d6109b5",
+      "brand": "Lexar",
+      "name": "NQ710 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ710X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "1917ba96ad2e6b67",
+        "4bd8f6be952696df"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-2140adf7085e",
+      "brand": "Lexar",
+      "name": "NM790 w/Heatsink 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM790X002T-RN9NG",
+      "model": null,
+      "sourceKeys": [
+        "5ec7a6e94e612986"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-5f91ef47b35c",
+      "brand": "Sabrent",
+      "name": "Rocket 4 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKT4L-4TB",
+      "model": null,
+      "sourceKeys": [
+        "9d3c8775732087c3",
+        "image-tables/f61f0a85298f168f"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "nand",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-306689c45a9a",
+      "brand": "Lexar",
+      "name": "NQ710 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ710X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "1917ba96ad2e6b67",
+        "4bd8f6be952696df"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-89cc40be2cdd",
+      "brand": "Lexar",
+      "name": "NQ700 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ700X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "912e55f85055a500"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-3b9310206c5a",
+      "brand": "PNY",
+      "name": "CS2140 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2140-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "fa92e752dc62cb27"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-c918d951d7dc",
+      "brand": "Lexar",
+      "name": "NM990 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM990X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "0c599988fa9c0f0d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-d8b28fee58a9",
+      "brand": "PNY",
+      "name": "XLR8 CS3140 w/Heatsink 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140HS-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cefc35e13308aa5b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Fiche originale PNY 2021 conservée par B&H ; les variantes HS ne sont pas assimilées aux SSD nus du PDF PNY récent."
+      ]
+    },
+    {
+      "id": "import-ssd-905d1114362a",
+      "brand": "Sabrent",
+      "name": "Rocket Q4 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTQ4-1TB",
+      "model": null,
+      "sourceKeys": [
+        "720b740b6813e8dd",
+        "9cb46d04c65a3bcd"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-e6d3aed96eea",
+      "brand": "Lexar",
+      "name": "NM990 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM990X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "0c599988fa9c0f0d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-da9e7bd71b8b",
+      "brand": "Sabrent",
+      "name": "Rocket 4.0 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-ROCKET-NVME4-2TB",
+      "model": null,
+      "sourceKeys": [
+        "dfceaacde14b4527",
+        "image-tables/50bcdd9e2afda728"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-5559d5516530",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P512G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "721b3e2dde905d2e"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "La page Lexar américaine documente 80 × 22 × 2,45 mm pour les SKU nus ; elle résout la largeur contradictoire de 24 mm imprimée dans le PDF."
+      ]
+    },
+    {
+      "id": "import-ssd-02273fada15a",
+      "brand": "PNY",
+      "name": "CS3140 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140-4TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "0b8900ca7b86eca5"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "La ligne marketing Gen5 du PDF contredit son tableau technique Gen4 ; le tableau et le nom officiel CS3140 PCIe4.0 font foi."
+      ]
+    },
+    {
+      "id": "import-ssd-14cda4b2538f",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "721b3e2dde905d2e"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "La page Lexar américaine documente 80 × 22 × 2,45 mm pour les SKU nus ; elle résout la largeur contradictoire de 24 mm imprimée dans le PDF."
+      ]
+    },
+    {
+      "id": "import-ssd-aac37f520426",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-dd8d861c6430",
+      "brand": "Lexar",
+      "name": "NM1090 w/ Heatsink 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM1090001T-RNANG",
+      "model": null,
+      "sourceKeys": [
+        "fc502eb621c52110"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar conservée par Buchmann ; version à dissipateur actif et éclairage RGB, distincte du NM1090 PRO nu."
+      ]
+    },
+    {
+      "id": "import-ssd-e4d379f71962",
+      "brand": "Lexar",
+      "name": "NM990 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM990X004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "0c599988fa9c0f0d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-345097d3f5f8",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "721b3e2dde905d2e"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "La page Lexar américaine documente 80 × 22 × 2,45 mm pour les SKU nus ; elle résout la largeur contradictoire de 24 mm imprimée dans le PDF."
+      ]
+    },
+    {
+      "id": "import-ssd-d397627a9cb1",
+      "brand": "Lexar",
+      "name": "NQ700 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ700X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "912e55f85055a500"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-3c20a23beb12",
+      "brand": "Lexar",
+      "name": "NM760 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM760X001T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "nm760-pdf-exa"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche Lexar 07/2022 archivée, récupérée intégralement par Exa ; option de dissipateur distincte, cette référence RNNNG est nue."
+      ]
+    },
+    {
+      "id": "import-ssd-504640a1f94b",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus G 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTG-1TB",
+      "model": null,
+      "sourceKeys": [
+        "1e889d6b234661b8",
+        "g1-official-legacy"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Le tableau officiel de l’ancienne URL de collection, conservé intégralement, documente 7300/6000 Mo/s et 700 TBW."
+      ]
+    },
+    {
+      "id": "import-ssd-e313565710be",
+      "brand": "Sabrent",
+      "name": "Rocket Q4 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTQ4-4TB",
+      "model": null,
+      "sourceKeys": [
+        "3462a1d912456554",
+        "image-tables/cfa9a4b8384f088b"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-56723c2f2558",
+      "brand": "PNY",
+      "name": "XLR8 CS3140 w/Heatsink 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140HS-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cefc35e13308aa5b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Fiche originale PNY 2021 conservée par B&H ; les variantes HS ne sont pas assimilées aux SSD nus du PDF PNY récent."
+      ]
+    },
+    {
+      "id": "import-ssd-fe60286e5d1e",
+      "brand": "Nextorage",
+      "name": "NN5PRO 2 To · PCIe 4.0 ×8",
+      "status": "documented",
+      "mpn": "NN5PRO-2TB1BH",
+      "model": null,
+      "sourceKeys": [
+        "c5aa8216514948ba"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’archive : NN5PRO est PCIe5.0 ×4, et non PCIe4.0 ×8. Version 1BH avec radiateur à double structure."
+      ]
+    },
+    {
+      "id": "import-ssd-5b84cface663",
+      "brand": "PNY",
+      "name": "CS2340 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2340-1TB-TB",
+      "model": null,
+      "sourceKeys": [
+        "76cdf30c6aba187c"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-8375bca0212c",
+      "brand": "Klevv",
+      "name": "CRAS C920 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C92",
+      "model": null,
+      "sourceKeys": [
+        "cfa6429e349ff66e"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-0dd86609b4d1",
+      "brand": "Sabrent",
+      "name": "Rocket 4 Plus G 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTG-2TB",
+      "model": null,
+      "sourceKeys": [
+        "2e8790577ecc0d20",
+        "f28d6542b5b4d827"
+      ],
+      "documentedFields": 9,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "endurance"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-2f1e91b92676",
+      "brand": "Klevv",
+      "name": "CRAS C910 Lite 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C9L",
+      "model": null,
+      "sourceKeys": [
+        "1961506c4283cbd2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-2f5f81a44426",
+      "brand": "Nextorage",
+      "name": "G-Series 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NE1N2TB",
+      "model": null,
+      "sourceKeys": [
+        "cd6b4fd5361326e0"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-989e7874e7fe",
+      "brand": "PNY",
+      "name": "CS2140 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2140-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "fa92e752dc62cb27"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-df3f2a1345c8",
+      "brand": "Lexar",
+      "name": "Professional NM800PRO w/Heatsink 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM800P002T-RN8NG",
+      "model": null,
+      "sourceKeys": [
+        "69222f0325c7ca06"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-7d57137df60e",
+      "brand": "Sabrent",
+      "name": "Rocket Q4 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-RKTQ4-2TB",
+      "model": null,
+      "sourceKeys": [
+        "312476e46b908552",
+        "777dfa4f2649143f"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes."
+      ]
+    },
+    {
+      "id": "import-ssd-2cab559c8c84",
+      "brand": "Klevv",
+      "name": "CRAS C920 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K02TBM2SP0-C92",
+      "model": null,
+      "sourceKeys": [
+        "cfa6429e349ff66e"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-a48cca9892f5",
+      "brand": "Netac",
+      "name": "NV5000 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000-1T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "73b8da96aa44b8ca"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-4559105c1cbc",
+      "brand": "PNY",
+      "name": "CS2240 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2240-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "9cebbe2d7fb9e403"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bf5de2c8baee",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-832a45c8e48d",
+      "brand": "Addlink",
+      "name": "S93 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S93 2000 GB",
+      "sourceKeys": [
+        "432af5e91bb08d73"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-4606fd0d715c",
+      "brand": "Lexar",
+      "name": "PLAY 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNMPLY8002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "9b69c847e4d61d2d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 04/2024 hébergée par 1fodiscount, avec SKU Global par capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-9676ef0f6133",
+      "brand": "Addlink",
+      "name": "A93 PS5 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A93 PS5 2000 GB",
+      "sourceKeys": [
+        "7a5b7a048cebbd47"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bc151e0930d7",
+      "brand": "Addlink",
+      "name": "G55H 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55H 2000 GB",
+      "sourceKeys": [
+        "9bafc3c81d3388d8"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche contient des maxima de gamme contradictoires 10300/10500 Mo/s, sans tableau par capacité ; aucun débit exact n’est attribué à une capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-cd2b1e4e532e",
+      "brand": "Sabrent",
+      "name": "Rocket 4.0 HTSK 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-ROCKET-NVME4-HTSK-1TB",
+      "model": null,
+      "sourceKeys": [
+        "46e6cfe5ce336dca",
+        "image-tables/22079f0384203f7e"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Kit avec dissipateur distinct du SSD nu ; la hauteur montée n’est pas publiée de manière cohérente."
+      ]
+    },
+    {
+      "id": "import-ssd-b7d3e7c35335",
+      "brand": "Nextorage",
+      "name": "NEM-PA 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PA4TB",
+      "model": null,
+      "sourceKeys": [
+        "a1c24f31f68872d2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-11200161e5ee",
+      "brand": "Netac",
+      "name": "NV5000-t 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000t-1T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "3470a95877e2110b"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-56f1bc263e72",
+      "brand": "Lexar",
+      "name": "NM760 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM760X002T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "nm760-pdf-exa"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche Lexar 07/2022 archivée, récupérée intégralement par Exa ; option de dissipateur distincte, cette référence RNNNG est nue."
+      ]
+    },
+    {
+      "id": "import-ssd-c1825bee9aab",
+      "brand": "Addlink",
+      "name": "A93 PS5 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A93 PS5 1000 GB",
+      "sourceKeys": [
+        "7a5b7a048cebbd47"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-cba9291bd286",
+      "brand": "Addlink",
+      "name": "S93 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S93 4000 GB",
+      "sourceKeys": [
+        "432af5e91bb08d73"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-2a0f628d721d",
+      "brand": "Addlink",
+      "name": "S95 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S95 2000 GB",
+      "sourceKeys": [
+        "bd5e1911f300cd90"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-e54b57bdb7b9",
+      "brand": "Lexar",
+      "name": "NM760 512 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNM760X512G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "nm760-pdf-exa"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche Lexar 07/2022 archivée, récupérée intégralement par Exa ; option de dissipateur distincte, cette référence RNNNG est nue."
+      ]
+    },
+    {
+      "id": "import-ssd-cebb0e634568",
+      "brand": "Addlink",
+      "name": "S93 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S93 1000 GB",
+      "sourceKeys": [
+        "432af5e91bb08d73"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-c04ee2ac5a17",
+      "brand": "Nextorage",
+      "name": "G-Series LE 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NN4LE-4TB",
+      "model": null,
+      "sourceKeys": [
+        "a14636fdd8bdea49"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-971a77b17c8b",
+      "brand": "Sabrent",
+      "name": "Rocket 4.0 HTSK 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "SB-ROCKET-NVME4-HTSK-2TB",
+      "model": null,
+      "sourceKeys": [
+        "1d108f9d3dfe2875",
+        "image-tables/7b56cecbe0c02134"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "height"
+      ],
+      "notes": [
+        "La bannière fabricant actuelle annonce cinq ans sans inscription. Des FAQ et fiches anciennes indiquent un ou deux ans, extensibles à cinq après inscription ; vérifier les conditions attachées à la date d’achat.",
+        "Les dimensions de la page fabricant sont arrondies en pouces ; elles ne sont pas converties en cotes millimétriques prétendument exactes.",
+        "Kit avec dissipateur distinct du SSD nu ; la hauteur montée n’est pas publiée de manière cohérente."
+      ]
+    },
+    {
+      "id": "import-ssd-7c4d98ebec6c",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040-500-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-bd7f974c7eee",
+      "brand": "Nextorage",
+      "name": "NEM-PA 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PA1TB",
+      "model": null,
+      "sourceKeys": [
+        "a1c24f31f68872d2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-077dae42c210",
+      "brand": "Klevv",
+      "name": "CRAS C925 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K01TBM2SP0-C9T",
+      "model": null,
+      "sourceKeys": [
+        "0a67e407421ca1e1"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-ff34b619ab04",
+      "brand": "Nextorage",
+      "name": "NN5PRO 1 To · PCIe 4.0 ×8",
+      "status": "documented",
+      "mpn": "NN5PRO-1TB1BH",
+      "model": null,
+      "sourceKeys": [
+        "c5aa8216514948ba"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Correction de l’archive : NN5PRO est PCIe5.0 ×4, et non PCIe4.0 ×8. Version 1BH avec radiateur à double structure."
+      ]
+    },
+    {
+      "id": "import-ssd-bc0ac2e1936e",
+      "brand": "Addlink",
+      "name": "A95 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A95 1000 GB",
+      "sourceKeys": [
+        "021770f2671ab627"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Le PDF A95 indique 20 mm de largeur pour un module 2280 ; la largeur totale contradictoire est laissée à confirmer. La hauteur de 9,1 mm inclut le dissipateur."
+      ]
+    },
+    {
+      "id": "import-ssd-7d82991cc303",
+      "brand": "Addlink",
+      "name": "S90 Lite 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad4TBS90LTM2P",
+      "model": null,
+      "sourceKeys": [
+        "8926a88ef6dbfeff"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Tableau du distributeur japonais Aiuto : quatre SKU S90 Lite distincts, hauteur maximale publiée 3,5 mm. L’endurance contractuelle est définie par le pourcentage SMART utilisé, sans TBW chiffré publié."
+      ]
+    },
+    {
+      "id": "import-ssd-044afce63711",
+      "brand": "PNY",
+      "name": "CS3150 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3150HS-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "be7bdcf6a15b962b"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "length",
+        "endurance"
+      ],
+      "notes": [
+        "Version noire à deux ventilateurs. Le PDF annonce 76 mm de longueur mais un circuit M.2 2280 : cette incohérence de longueur est signalée et aucune longueur hors tout n’est imposée."
+      ]
+    },
+    {
+      "id": "import-ssd-731e9bf868c3",
+      "brand": "Lexar",
+      "name": "PLAY 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNMPLY8004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "9b69c847e4d61d2d"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar 04/2024 hébergée par 1fodiscount, avec SKU Global par capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-934b6a1697e1",
+      "brand": "Nextorage",
+      "name": "NEM-PAB 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PAB4TB",
+      "model": null,
+      "sourceKeys": [
+        "3f6f4cd121d81295"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-f87a67d28ac5",
+      "brand": "PNY",
+      "name": "XLR8 CS3140 w/Heatsink 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3140HS-4TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cefc35e13308aa5b"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Fiche originale PNY 2021 conservée par B&H ; les variantes HS ne sont pas assimilées aux SSD nus du PDF PNY récent."
+      ]
+    },
+    {
+      "id": "import-ssd-9c5a7af8af91",
+      "brand": "PNY",
+      "name": "CS3150 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3150HS-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "be7bdcf6a15b962b"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "length",
+        "endurance"
+      ],
+      "notes": [
+        "Version noire à deux ventilateurs. Le PDF annonce 76 mm de longueur mais un circuit M.2 2280 : cette incohérence de longueur est signalée et aucune longueur hors tout n’est imposée."
+      ]
+    },
+    {
+      "id": "import-ssd-5442b029711a",
+      "brand": "Netac",
+      "name": "NV5000-N 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000N-1T0-E4X",
+      "model": null,
+      "sourceKeys": [
+        "487288ad0e828396"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ea76ec557129",
+      "brand": "Klevv",
+      "name": "CRAS C910 Lite 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K500GM2SP0-C9L",
+      "model": null,
+      "sourceKeys": [
+        "1961506c4283cbd2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-4d3a65c8042f",
+      "brand": "PNY",
+      "name": "CS2340 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2340-2TB-TB",
+      "model": null,
+      "sourceKeys": [
+        "76cdf30c6aba187c"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-7fa19c6e12ad",
+      "brand": "Lexar",
+      "name": "NQ790 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ790X500G-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "30c1959e94e7ed81"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "height",
+        "nand",
+        "warranty"
+      ],
+      "notes": [
+        "Version 500 Go originale confirmée par le marchand HSSL. Elle reste distincte de la nouvelle version 512 Go du PDF Lexar actuel ; aucune capacité ni référence n’est substituée."
+      ]
+    },
+    {
+      "id": "import-ssd-8fcbd255a32d",
+      "brand": "Addlink",
+      "name": "A92 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad4TBA92M2P",
+      "model": null,
+      "sourceKeys": [
+        "1f72fa2a3cad99bb"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Tableau des trois capacités fourni par le marchand français Stealth-Gamer. La largeur de 20 mm publiée contredit le format 2280 et reste non intégrée."
+      ]
+    },
+    {
+      "id": "import-ssd-05816eddeb3d",
+      "brand": "Addlink",
+      "name": "A92 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad2TBA92M2P",
+      "model": null,
+      "sourceKeys": [
+        "1f72fa2a3cad99bb",
+        "7f2d03c433bae13c"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Tableau des trois capacités fourni par le marchand français Stealth-Gamer. La largeur de 20 mm publiée contredit le format 2280 et reste non intégrée."
+      ]
+    },
+    {
+      "id": "import-ssd-a9ab7b1fef9d",
+      "brand": "Addlink",
+      "name": "A92 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad1TBA92M2P",
+      "model": null,
+      "sourceKeys": [
+        "1f72fa2a3cad99bb",
+        "692dfbb718e8c970"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Tableau des trois capacités fourni par le marchand français Stealth-Gamer. La largeur de 20 mm publiée contredit le format 2280 et reste non intégrée."
+      ]
+    },
+    {
+      "id": "import-ssd-7d1aa94b6b4a",
+      "brand": "Addlink",
+      "name": "S95 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S95 1000 GB",
+      "sourceKeys": [
+        "bd5e1911f300cd90"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-a962850841e1",
+      "brand": "Addlink",
+      "name": "S92 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad2TBS92M2P",
+      "model": null,
+      "sourceKeys": [
+        "ef45ccb5fdd4235f"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-8ea90f1d583f",
+      "brand": "Nextorage",
+      "name": "NEM-PA 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NEM-PA2TB",
+      "model": null,
+      "sourceKeys": [
+        "a1c24f31f68872d2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-7dbe14446b46",
+      "brand": "PNY",
+      "name": "CS2240 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS2240-500-RB",
+      "model": null,
+      "sourceKeys": [
+        "9cebbe2d7fb9e403"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-664f9683ff70",
+      "brand": "Netac",
+      "name": "NV5000-t 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NT01NV5000t-500-E4X",
+      "model": null,
+      "sourceKeys": [
+        "3470a95877e2110b"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-d7e7eddbd8f0",
+      "brand": "Addlink",
+      "name": "S90 Lite 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad2TBS90LTM2P",
+      "model": null,
+      "sourceKeys": [
+        "8926a88ef6dbfeff"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Tableau du distributeur japonais Aiuto : quatre SKU S90 Lite distincts, hauteur maximale publiée 3,5 mm. L’endurance contractuelle est définie par le pourcentage SMART utilisé, sans TBW chiffré publié."
+      ]
+    },
+    {
+      "id": "import-ssd-11f96f1c7832",
+      "brand": "Addlink",
+      "name": "S95 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink S95 4000 GB",
+      "sourceKeys": [
+        "bd5e1911f300cd90"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-9f8883b118f8",
+      "brand": "Nextorage",
+      "name": "NE5N 1 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "NE5N1TB/FHHE SYM",
+      "model": null,
+      "sourceKeys": [
+        "fd103c1e935ebe5d"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Version NE5N originale de 2023 ; les débits et la hauteur du NN5PRO ultérieur ne sont pas repris."
+      ]
+    },
+    {
+      "id": "import-ssd-f3f52875287d",
+      "brand": "Nextorage",
+      "name": "G-Series 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "NE1N1TB",
+      "model": null,
+      "sourceKeys": [
+        "cd6b4fd5361326e0"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-525bead8b818",
+      "brand": "Lexar",
+      "name": "NQ710 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "LNQ710X004T-RNNNG",
+      "model": null,
+      "sourceKeys": [
+        "nq710-4tb-pdf-exa"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "warranty"
+      ],
+      "notes": [
+        "La fiche Lexar 09/2023 publiée par Data Systems documente bien le 4 To ; cette capacité n’apparaît plus dans le PDF Lexar récent à trois capacités. Garantie de cette référence ancienne non précisée dans ce document."
+      ]
+    },
+    {
+      "id": "import-ssd-ecddd6e102b7",
+      "brand": "Klevv",
+      "name": "CRAS C925 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K02TBM2SP0-C9T",
+      "model": null,
+      "sourceKeys": [
+        "0a67e407421ca1e1"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Dissipateur amovible fourni ; dimensions avec dissipateur. Le PCB seul mesure 80 × 22 × 2,15 mm."
+      ]
+    },
+    {
+      "id": "import-ssd-cb5942b65c45",
+      "brand": "Lexar",
+      "name": "NM1090 w/ Heatsink 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "LNM1090004T-RNANG",
+      "model": null,
+      "sourceKeys": [
+        "fc502eb621c52110"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "nand"
+      ],
+      "notes": [
+        "Fiche originale Lexar conservée par Buchmann ; version à dissipateur actif et éclairage RGB, distincte du NM1090 PRO nu."
+      ]
+    },
+    {
+      "id": "import-ssd-aacb77c97b10",
+      "brand": "Addlink",
+      "name": "G55H 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55H 4000 GB",
+      "sourceKeys": [
+        "9bafc3c81d3388d8"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche contient des maxima de gamme contradictoires 10300/10500 Mo/s, sans tableau par capacité ; aucun débit exact n’est attribué à une capacité."
+      ]
+    },
+    {
+      "id": "import-ssd-a0ecad7512ca",
+      "brand": "Addlink",
+      "name": "A90 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink A90 2000 GB",
+      "sourceKeys": [
+        "4e92d360148a7004",
+        "fa4f3bdc0be1e3e3"
+      ],
+      "documentedFields": 10,
+      "missingFields": [
+        "length",
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche Geekay identifie explicitement le A90 2 To et publie 5000/4400 Mo/s sur PC ; son résultat PS5 de 5600 Mo/s n’est pas utilisé comme débit nominal. Aucun MPN n’est reconstruit."
+      ]
+    },
+    {
+      "id": "import-ssd-4b98bf700a6f",
+      "brand": "Addlink",
+      "name": "A90 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad1TBA90M2P",
+      "model": null,
+      "sourceKeys": [
+        "6b7f7b608b7804b7"
+      ],
+      "documentedFields": 11,
+      "missingFields": [
+        "width",
+        "endurance"
+      ],
+      "notes": [
+        "Fiche du marchand français Stealth-Gamer pour le SKU 1 To exact. Largeur publiée 20 mm contradictoire avec 2280, laissée à confirmer."
+      ]
+    },
+    {
+      "id": "import-ssd-834610d8c274",
+      "brand": "Addlink",
+      "name": "S92 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad4TBS92M2P",
+      "model": null,
+      "sourceKeys": [
+        "7d8ff13a6f20e51f"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-2a1b6bc04dbb",
+      "brand": "Addlink",
+      "name": "S92 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad1TBS92M2P",
+      "model": null,
+      "sourceKeys": [
+        "fd8b01d06f953b22"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-558646904f32",
+      "brand": "Addlink",
+      "name": "S90 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad2TBS90M2P",
+      "model": null,
+      "sourceKeys": [
+        "d6ac6c74dd0b7369"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Fiche du distributeur officiel japonais Links International, modèle S90 original, distinct du S90 Lite qui occupe désormais l’URL fabricant /pcie-s90. Le tableau Gen4 prime sur la coquille Gen3 du paragraphe marketing."
+      ]
+    },
+    {
+      "id": "import-ssd-9da1e8a195f4",
+      "brand": "Addlink",
+      "name": "S90 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad1TBS90M2P",
+      "model": null,
+      "sourceKeys": [
+        "d6ac6c74dd0b7369"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Fiche du distributeur officiel japonais Links International, modèle S90 original, distinct du S90 Lite qui occupe désormais l’URL fabricant /pcie-s90. Le tableau Gen4 prime sur la coquille Gen3 du paragraphe marketing."
+      ]
+    },
+    {
+      "id": "import-ssd-174f32a96ea8",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 w/Heatsink 500 Go · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040HS-500-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ebccb6d86586",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 w/Heatsink 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040HS-1TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-ef71d486d2ed",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 w/Heatsink 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040HS-2TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-a78553f6434e",
+      "brand": "PNY",
+      "name": "XLR8 CS3040 w/Heatsink 4 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "M280CS3040HS-4TB-RB",
+      "model": null,
+      "sourceKeys": [
+        "cf937e3d305f8291"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-24df9cc5a243",
+      "brand": "Netac",
+      "name": "NV5000 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Netac NV5000 2000 GB",
+      "sourceKeys": [
+        "73b8da96aa44b8ca"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "La colonne 2 To de la fiche NV5000 imprime « NT01NV3000-2T0-E4X ». Cette incohérence est conservée comme limite : le modèle NV5000 2 To est documenté, mais aucun MPN NV5000 2 To n’est reconstruit."
+      ]
+    },
+    {
+      "id": "import-ssd-9d2eaec7e69d",
+      "brand": "Addlink",
+      "name": "S90 Lite 1 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "ad1TBS90LTM2P",
+      "model": null,
+      "sourceKeys": [
+        "8926a88ef6dbfeff"
+      ],
+      "documentedFields": 12,
+      "missingFields": [
+        "endurance"
+      ],
+      "notes": [
+        "Tableau du distributeur japonais Aiuto : quatre SKU S90 Lite distincts, hauteur maximale publiée 3,5 mm. L’endurance contractuelle est définie par le pourcentage SMART utilisé, sans TBW chiffré publié."
+      ]
+    },
+    {
+      "id": "import-ssd-1ca332de4add",
+      "brand": "Nextorage",
+      "name": "NE5N 2 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "NE5N2TB/FHHE SYM",
+      "model": null,
+      "sourceKeys": [
+        "fd103c1e935ebe5d"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": [
+        "Version NE5N originale de 2023 ; les débits et la hauteur du NN5PRO ultérieur ne sont pas repris."
+      ]
+    },
+    {
+      "id": "import-ssd-bf67b4095b5e",
+      "brand": "Klevv",
+      "name": "CRAS C910 Lite 2 To · PCIe 4.0 ×4",
+      "status": "documented",
+      "mpn": "K02TBM2SP0-C9L",
+      "model": null,
+      "sourceKeys": [
+        "1961506c4283cbd2"
+      ],
+      "documentedFields": 13,
+      "missingFields": [],
+      "notes": []
+    },
+    {
+      "id": "import-ssd-c62ea9f10879",
+      "brand": "Addlink",
+      "name": "G55 4 To · PCIe 5.0 ×4",
+      "status": "documented",
+      "mpn": "",
+      "model": "Addlink G55 4000 GB",
+      "sourceKeys": [
+        "7629d0917a01b9b9"
+      ],
+      "documentedFields": 8,
+      "missingFields": [
+        "length",
+        "width",
+        "read",
+        "write",
+        "endurance"
+      ],
+      "notes": [
+        "La fiche publie un maximum de gamme de 10300/9000 Mo/s sans tableau par capacité ; ces maxima ne sont pas attribués individuellement."
+      ]
+    }
+  ]
+}

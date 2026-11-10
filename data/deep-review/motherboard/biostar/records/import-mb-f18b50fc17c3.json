@@ -1,0 +1,371 @@
+{
+  "review": {
+    "id": "import-mb-f18b50fc17c3",
+    "name": "H610MX-E",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": "6.1",
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+          "checkedAt": "2026-11-10T13:46:32+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_61_45_BOX_U2IK.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v6_njj1.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v_6_45_Qk2y.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_VER6_u7Ag.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES"
+        ]
+      },
+      {
+        "revision": "6.0",
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1047&pname=H610MX-E&chipset=Intel%20H610",
+          "checkedAt": "2026-11-10T13:46:33+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_BOX_OUh8.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_top_KUX4.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_gLmV.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bH610-MX-E_IO_NC9A.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "1065",
+        "state": "exact_manufacturer_table"
+      },
+      {
+        "sid": "1047",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "H610MX-E",
+    "identityNote": "Modèle Biostar H610MX-E confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1047&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 236.0,
+      "widthMm": 208.0,
+      "manufacturerPartNumber": "H610MX-E",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR H610MX-E — révision 6.1",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "Intel H610"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support for 12th/ 13th/ 14th Generation Intel Core™ i9/ i7/ i5/ i3 processors and Intel Pentium processors/ \nIntel Celeron processors in the LGA1700 package\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2666/ 2933/ 3200\n \n2 x DDR4 DIMM Memory Slot, Max. Supports up to 64 GB Memory\n \nEach DIMM supports non-ECC 4/8/16/32GB DDR4 module\n \nSupport Intel Extreme Memory Profile (XMP) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Supports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 1 x M.2 socket and 4x SATA III (6Gb/s) ports\n \nIntel H610 Chipset\n \n1 x M.2 (M Key) Socket (M2_PCIEG3_32G_SATA):\n \nSupports M.2 Type 2242 /2260 /2280 SSD module\n \nSupports PCIe 3.0 x 4 (32Gb/s) & SATA lll (6Gb/s) SSD\n \n4 x SATA III Connector (6Gb/s)\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel I219V\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC897\n \n7.1 Channels, High Definition Audio"
+          },
+          {
+            "label": "USB",
+            "value": "4 x USB 3.2 (Gen1) ports (2 on rear I/Os and 2 via internal headers)\n \n8 x USB 2.0 ports (4 on rear I/Os and 4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "INTEL 12th/13th/14th Processors\n \n1 x PCIe 4.0 x16 Slot (x16 mode)\n \nIntel H610 Chipset\n \n1 x PCIe 3.0 x1 Slot \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x WIFI Antenna Port\n \n1 x PS/2 Keyboard/Mouse Port\n \n1 x HDMI®\n \n1 x VGA+DVI Port\n \n2 x USB 3.2 (Gen1) ports\n \n4 x USB 2.0 ports\n \n1 x LAN port\n \n3 x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & \nBluetooth module and Intel CNVi\n \n2 x USB 2.0 Headers (each header supports 2 USB 2.0 \nports)\n \n1 x USB 3.2 (Gen1) Header (each header supports 2 \nUSB 3.2 (Gen1) ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n* M.2 (E key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nCPU/DDR Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 20.8cm x 23.6cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10 (64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "2 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x Quick Guide\n1 x WiFi antenna accessories(Wi-Fi accessories are optional, contact your local dealer to purchase.)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_61_45_BOX_U2IK.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v6_njj1.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_v_6_45_Qk2y.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_VER6_u7Ag.png"
+          }
+        ]
+      },
+      {
+        "title": "BIOSTAR H610MX-E — révision 6.0",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "Intel H610"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support for 12th/ 13th/ 14th Generation Intel Core™ i9/ i7/ i5/ i3 processors and Intel Pentium processors/ \nIntel Celeron processors in the LGA1700 package\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "Supports Dual Channel DDR4 1866/ 2133/ 2400/ 2666/ 2933/ 3200\n \n2 x DDR4 DIMM Memory Slot, Max. Supports up to 64 GB Memory\n \nEach DIMM supports non-ECC 4/8/16/32GB DDR4 module\n \nSupport Intel Extreme Memory Profile (XMP) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Supports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 1 x M.2 socket and 4x SATA III (6Gb/s) ports\n \nIntel H610 Chipset\n \n1 x M.2 (M Key) Socket (M2_PCIEG3_32G_SATA):\n \nSupports M.2 Type 2242 /2260 /2280 SSD module\n \nSupports PCIe 3.0 x 4 (32Gb/s) & SATA lll (6Gb/s) SSD\n \n4 x SATA III Connector (6Gb/s) \n \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel I219V\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC897\n \n7.1 Channels, High Definition Audio"
+          },
+          {
+            "label": "USB",
+            "value": "4 x USB 3.2 (Gen1) ports (2 on rear I/Os and 2 via internal headers)\n \n8 x USB 2.0 ports (4 on rear I/Os and 4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "INTEL 12th/13th/14th Processors\n \n1 x PCIe 4.0 x16 Slot (x16 mode)\n \nIntel H610 Chipset\n \n1 x PCIe 3.0 x1 Slot \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x WIFI Antenna Port\n \n1 x PS/2 Keyboard/Mouse Port\n \n1 x HDMI®\n \n1 x VGA+DVI Port\n \n2 x USB 3.2 (Gen1) ports\n \n4 x USB 2.0 ports\n \n1 x LAN port\n \n3 x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & \nBluetooth module and Intel CNVi\n \n2 x USB 2.0 Headers (each header supports 2 USB 2.0 \nports)\n \n1 x USB 3.2 (Gen1) Header (each header supports 2 \nUSB 3.2 (Gen1) ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n* M.2 (E key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nCPU / System Fan Monitoring\nSmart / Manual CPU Fan Control\nCPU/DDR Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 20.8cm x 23.6cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10 (64bit) / 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "2 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x Quick Guide\n1 x WiFi antenna accessories"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_BOX_OUh8.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_top_KUX4.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610MX-E_45_gLmV.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bH610-MX-E_IO_NC9A.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 20.8cm x 23.6cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 20.8cm x 23.6cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "chipset": {
+        "value": "Intel H610",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "pcie": {
+        "value": "INTEL 12th/13th/14th Processors\n \n1 x PCIe 4.0 x16 Slot (x16 mode)\n \nIntel H610 Chipset\n \n1 x PCIe 3.0 x1 Slot \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "rearIO": {
+        "value": "1 x WIFI Antenna Port\n \n1 x PS/2 Keyboard/Mouse Port\n \n1 x HDMI®\n \n1 x VGA+DVI Port\n \n2 x USB 3.2 (Gen1) ports\n \n4 x USB 2.0 ports\n \n1 x LAN port\n \n3 x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "internalIO": {
+        "value": "4 x SATA III Connectors (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & \nBluetooth module and Intel CNVi\n \n2 x USB 2.0 Headers (each header supports 2 USB 2.0 \nports)\n \n1 x USB 3.2 (Gen1) Header (each header supports 2 \nUSB 3.2 (Gen1) ports)\n \n1 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Header\n \n1 x COM Port Header\n \n1 x TPM Header\n \n* M.2 (E key) Wi-Fi card is not provided",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "network": {
+        "value": "Intel I219V\n \n10/ 100/ 1000 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "audio": {
+        "value": "ALC897\n \n7.1 Channels, High Definition Audio",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support for 12th/ 13th/ 14th Generation Intel Core™ i9/ i7/ i5/ i3 processors and Intel Pentium processors/ \nIntel Celeron processors in the LGA1700 package\n \n* Please refer to www.biostar.com.tw for CPU support list.",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1065&pname=H610MX-E&chipset=Intel%20H610",
+        "checkedAt": "2026-11-10T13:46:32+00:00"
+      }
+    }
+  }
+}

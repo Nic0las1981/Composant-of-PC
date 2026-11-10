@@ -1,0 +1,377 @@
+{
+  "review": {
+    "id": "import-mb-d2c7d688f1da",
+    "name": "N7 B650E",
+    "state": "exact_color_sku_and_specs",
+    "title": "N7 B650E Specs",
+    "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+    "checkedAt": "2026-11-10T14:01:42+00:00",
+    "apiURL": "https://support.nzxt.com/api/v2/help_center/articles/search.json?query=N7&locale=en-us",
+    "apiSHA256": "a4c8b6053a71f0d7d2fc6289f8eb3c6b735c478d9dceddeeede606a55dd35a4f",
+    "modelNumberStatement": "N7-B65XT-B1 (Black)\n\nN7-B65XT-W1 (White)",
+    "selectedFinish": "Black",
+    "articleUpdatedAt": "2025-09-27T00:26:21Z"
+  },
+  "product": {
+    "mpn": "N7-B65XT-B1",
+    "identityNote": "NZXT documente N7 B650E et la référence commerciale N7-B65XT-B1 pour la finition Black. Les références des autres finitions restent distinctes.",
+    "sources": [
+      {
+        "name": "NZXT — spécifications et références couleur officielles",
+        "url": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "maxMemoryGB": 128,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "N7-B65XT-B1",
+      "detailLevel": "partial",
+      "manufacturerModel": "N7 B650E",
+      "memorySlots": 4
+    },
+    "groups": [
+      {
+        "title": "NZXT — General",
+        "rows": [
+          {
+            "label": "Form Factor",
+            "value": "ATX"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B650E"
+          },
+          {
+            "label": "Socket Type",
+            "value": "AMD®AM5"
+          },
+          {
+            "label": "CPU Support",
+            "value": "AMD Socket AM5 Ryzen™ Processors7000 Series*\n\n8000 & 9000 Series**\n* BIOS version 1.21 required forAMD® Ryzen™ 7000 Series X3D CPUs.\n\n** BIOS version 3.01 or newer required for  AMD® Ryzen™ 8000 & 9000"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Wireless Support",
+            "value": "Dual-Band WiFi 6E, Bluetooth 5.2"
+          },
+          {
+            "label": "Operating System",
+            "value": "Windows® 10 64-bit or newer"
+          },
+          {
+            "label": "NZXT CAM Support",
+            "value": "Yes"
+          },
+          {
+            "label": "Warranty",
+            "value": "3 Years"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Memory",
+        "rows": [
+          {
+            "label": "DIMM Type",
+            "value": "DDR5 288-pin"
+          },
+          {
+            "label": "Max Memory Capacity",
+            "value": "128GB"
+          },
+          {
+            "label": "Memory Architecture",
+            "value": "Dual-Channel"
+          },
+          {
+            "label": "Max Memory Speed",
+            "value": "Please refer to Memory QVL on the download page for further information."
+          },
+          {
+            "label": "XMP Support",
+            "value": "Yes"
+          },
+          {
+            "label": "AMD EXPO Support",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Integrated Graphics & Audio",
+        "rows": [
+          {
+            "label": "Audio Codec",
+            "value": "ALC1220 Codec"
+          },
+          {
+            "label": "Graphics Controller",
+            "value": "AMD RDNA™ Graphics\n(Requires a supported AMD Ryzen CPU with embedded graphics)"
+          },
+          {
+            "label": "Integrated Graphics Output",
+            "value": "HDMI 2.1, supports HDR & HDCP 2.3"
+          },
+          {
+            "label": "Maximum Resolution",
+            "value": "4830 x 2160 (4K) @ 60Hz"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Expansion Support",
+        "rows": [
+          {
+            "label": "PCIe Slots",
+            "value": "PCIEX16_1\n\nPCIe 5.0 x16 (Supports x16 Mode) via CPU\n\nSupports NVMe SSD as boot disks.\nPCIEX16_2 & PCIEX16_3\n\nPCIe 4.0 x16 (Supports x2 Mode) via Chipset\n\nSupports NVMe SSD as boot disks."
+          },
+          {
+            "label": "M.2 Socket (E-Key)",
+            "value": "1 (Supports 2230 form factor Wi-Fi/BT PCIe modules) via Chipset"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Storage Support",
+        "rows": [
+          {
+            "label": "M.2 Type 2242/2260/2280 Slots\n(M-Key)",
+            "value": "3"
+          },
+          {
+            "label": "M.2 Slots",
+            "value": "M.2_1\n\nPCIe 5.0(Supports x4 Mode) via CPU\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks.\nM.2_2\n\nPCIe 4.0 (Supports x4 Mode) via CPU\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks.\nM.2_3\n\nPCIe 4.0 (Supports x2 Mode) via Chipset\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks."
+          },
+          {
+            "label": "SATA 6Gb/s Ports",
+            "value": "4"
+          },
+          {
+            "label": "RAID Support",
+            "value": "Supports RAID 0/1/10 for SATA storage devices\n\nSupports RAID 0/1/10 for M.2 NVMe storage devices"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Network and Wireless Support",
+        "rows": [
+          {
+            "label": "Onboard LAN Controller",
+            "value": "Realtek® RTL8125BG 2.5G LAN"
+          },
+          {
+            "label": "Onboard WLAN (WiFi) Controller",
+            "value": "MediaTek MT7921K (RZ608) Wi-Fi 6E\n\nSupports IEEE 802.11 a/b/g/n/ac/ax\n\nSupports Dual Band 2x2 with extended 6GHz band support*\n\nSupports MU-MIMO\n\nSupports Bluetooth + High speed class II\n* Wi-Fi 6E (6GHz band) will be supported by Microsoft® Windows® 11.  Availability may vary by country and region. A 6GHz compatible router is required for 6E functionality."
+          },
+          {
+            "label": "Bluetooth Version",
+            "value": "5.2"
+          },
+          {
+            "label": "Included Antenna(s)",
+            "value": "2x \"Pen Type\" RP-SMA Male Compatible"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Rear I/O",
+        "rows": [
+          {
+            "label": "USB 3.2 Gen 2 (Type-C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 2 (Type-A)",
+            "value": "2"
+          },
+          {
+            "label": "USB 3.2 Gen 1 (Type-A)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 (Type-A)",
+            "value": "2"
+          },
+          {
+            "label": "Wireless Antenna",
+            "value": "2"
+          },
+          {
+            "label": "LAN (RJ45)",
+            "value": "1"
+          },
+          {
+            "label": "HDMI™ 2.1",
+            "value": "1"
+          },
+          {
+            "label": "Audio Jacks",
+            "value": "1 x Center/Subwoofer\n\n1 x Rear Surround\n\n1x Line In\n\n1 x Line Out (Speaker Left/Right)\n\n1 x Microphone\n\n1 x Optical SPDIF Out"
+          },
+          {
+            "label": "Additional Features",
+            "value": "1 x BIOS Flashback Button\n\n1 x Clear CMOS Button"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Internal I/O",
+        "rows": [
+          {
+            "label": "M.2 (M-Key) Slot",
+            "value": "3"
+          },
+          {
+            "label": "M.2 (E-Key) Slot",
+            "value": "1"
+          },
+          {
+            "label": "SATA 6Gbps Port",
+            "value": "4"
+          },
+          {
+            "label": "USB 3.2 Gen 2 Header (for Type-C)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 Gen 1 Header (for Type-A)",
+            "value": "1"
+          },
+          {
+            "label": "USB 2.0 Header",
+            "value": "2"
+          },
+          {
+            "label": "Front Panel Audio",
+            "value": "1"
+          },
+          {
+            "label": "4-pin PWM Fan Header",
+            "value": "1 x 4-pin (PWM) CPU_FAN connector (Up to 24W per channel)\n\n1 x 4-pin (PWM) AIO_PUMP connector (Up to 24W per channel)\n\n5 x 4-pin (PWM) SYS_FAN connectors (Up to 24W per channel)"
+          },
+          {
+            "label": "NZXT RGB Header (4-pin)",
+            "value": "4"
+          },
+          {
+            "label": "5V ARGB Header",
+            "value": "2"
+          },
+          {
+            "label": "ATX Power Header",
+            "value": "1x 24-pin ATX Power Connector\n\n1x 8+4-pin ATX 12V Power Connector"
+          },
+          {
+            "label": "Additional Features",
+            "value": "Power Button\n\nReset Button\n\nPOST LEDs"
+          }
+        ]
+      },
+      {
+        "title": "NZXT — Product Info",
+        "rows": [
+          {
+            "label": "Model Number",
+            "value": "N7-B65XT-B1 (Black)\n\nN7-B65XT-W1 (White)"
+          },
+          {
+            "label": "UPC",
+            "value": "810074842884 (Black)\n\n810074842877 (White)"
+          },
+          {
+            "label": "EAN",
+            "value": "5056547202822 (Black)\n\n5056547202815 (White)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "formFactor": {
+        "value": "ATX",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B650E",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "storagePorts": {
+        "value": "M.2 Type 2242/2260/2280 Slots\n(M-Key): 3\nM.2 Slots: M.2_1\n\nPCIe 5.0(Supports x4 Mode) via CPU\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks.\nM.2_2\n\nPCIe 4.0 (Supports x4 Mode) via CPU\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks.\nM.2_3\n\nPCIe 4.0 (Supports x2 Mode) via Chipset\n\nSupports 2242, 2260, & 2280 form factor\n\nSupports NVMe SSD as boot disks.\nSATA 6Gb/s Ports: 4\nRAID Support: Supports RAID 0/1/10 for SATA storage devices\n\nSupports RAID 0/1/10 for M.2 NVMe storage devices",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "pcie": {
+        "value": "PCIe Slots: PCIEX16_1\n\nPCIe 5.0 x16 (Supports x16 Mode) via CPU\n\nSupports NVMe SSD as boot disks.\nPCIEX16_2 & PCIEX16_3\n\nPCIe 4.0 x16 (Supports x2 Mode) via Chipset\n\nSupports NVMe SSD as boot disks.\nM.2 Socket (E-Key): 1 (Supports 2230 form factor Wi-Fi/BT PCIe modules) via Chipset",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "rearIO": {
+        "value": "USB 3.2 Gen 2 (Type-C): 1\nUSB 3.2 Gen 2 (Type-A): 2\nUSB 3.2 Gen 1 (Type-A): 4\nUSB 2.0 (Type-A): 2\nWireless Antenna: 2\nLAN (RJ45): 1\nHDMI™ 2.1: 1\nAudio Jacks: 1 x Center/Subwoofer\n\n1 x Rear Surround\n\n1x Line In\n\n1 x Line Out (Speaker Left/Right)\n\n1 x Microphone\n\n1 x Optical SPDIF Out\nAdditional Features: 1 x BIOS Flashback Button\n\n1 x Clear CMOS Button",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "internalIO": {
+        "value": "M.2 (M-Key) Slot: 3\nM.2 (E-Key) Slot: 1\nSATA 6Gbps Port: 4\nUSB 3.2 Gen 2 Header (for Type-C): 1\nUSB 3.2 Gen 1 Header (for Type-A): 1\nUSB 2.0 Header: 2\nFront Panel Audio: 1\n4-pin PWM Fan Header: 1 x 4-pin (PWM) CPU_FAN connector (Up to 24W per channel)\n\n1 x 4-pin (PWM) AIO_PUMP connector (Up to 24W per channel)\n\n5 x 4-pin (PWM) SYS_FAN connectors (Up to 24W per channel)\nNZXT RGB Header (4-pin): 4\n5V ARGB Header: 2\nATX Power Header: 1x 24-pin ATX Power Connector\n\n1x 8+4-pin ATX 12V Power Connector\nAdditional Features: Power Button\n\nReset Button\n\nPOST LEDs",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "network": {
+        "value": "Onboard LAN Controller: Realtek® RTL8125BG 2.5G LAN\nOnboard WLAN (WiFi) Controller: MediaTek MT7921K (RZ608) Wi-Fi 6E\n\nSupports IEEE 802.11 a/b/g/n/ac/ax\n\nSupports Dual Band 2x2 with extended 6GHz band support*\n\nSupports MU-MIMO\n\nSupports Bluetooth + High speed class II\n* Wi-Fi 6E (6GHz band) will be supported by Microsoft® Windows® 11.  Availability may vary by country and region. A 6GHz compatible router is required for 6E functionality.\nBluetooth Version: 5.2\nIncluded Antenna(s): 2x \"Pen Type\" RP-SMA Male Compatible",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "audio": {
+        "value": "ALC1220 Codec",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket: AMD®AM5\nAMD Socket AM5 Ryzen™ Processors7000 Series*\n\n8000 & 9000 Series**\n* BIOS version 1.21 required forAMD® Ryzen™ 7000 Series X3D CPUs.\n\n** BIOS version 3.01 or newer required for  AMD® Ryzen™ 8000 & 9000",
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://support.nzxt.com/hc/en-us/articles/41500739318043-N7-B650E-Specs",
+        "checkedAt": "2026-11-10T14:01:42+00:00"
+      }
+    },
+    "identityKind": "mpn",
+    "manufacturerModel": "N7 B650E"
+  }
+}

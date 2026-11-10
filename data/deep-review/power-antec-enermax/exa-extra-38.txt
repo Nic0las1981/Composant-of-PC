@@ -1,0 +1,666 @@
+# ENERMAX EMD525AWT Datasheet
+URL: https://manuzoid.com/manuals/XNAmR-Enermax%20MODU82%2B%20625
+
+ENERMAX EMD525AWT Datasheet
+
+# ENERMAX EMD525AWT, EMD625AWT Datasheet 
+
+- Hello! I am an AI chatbot trained to assist you with the ENERMAX EMD525AWT Datasheet. I’ve already reviewed the document and can help you find the information you need or explain it in simple terms. Just ask your questions, and providing more details will help me assist you more effectively!
+
+Pr ecaution Notice 
+
+Only a technician, authorized by ENERMAX, is allowed to perform maintenance service! 
+
+W arranty is subject to void under unauthor ized attempt to open the power case or 
+
+modification of any kinds, even attempted onl y, of the power supply or its components! 
+
+ENERMAX will not be responsible for dam ages caused by following situations: 
+
+ Opening of the PSU case and/or modification of any component or cable without 
+
+ENERMAX’ written authorization 
+
+ Ignoring connector’ s wrong insertion prevention design by attaching a connector to a 
+
+device in wrong orientation 
+
+ Connecting too many devices to one cable unit by using additional adaptor (Y cables) or 
+
+exceeding ENERMAX Eternity-connector recommendation which may cause voltage 
+
+drop to the devices and eventually damage them. 
+
+ Usage of non-genuine ENERMAX modular cables 
+
+ Damage caused by natural phenomena or uncontrollable forces, such as lightning, 
+
+flooding, fire, earthquake, etc. 
+
+This ENERMAX T echnology Corporation product is warranted to be free from defects in 
+
+material and workmanship for a period of three (3) years from the date of purchase. 
+
+ENERMAX T echnology Corporation agrees to repa ir or replace the product, at its own option 
+
+and at no charge, if, during the warranty period, it is returned to nearest ENERMAX 
+
+T echnology Corporation subsidia ry/agent with all shipping charges prepaid and bearing a 
+
+return merchandize authorization (RMA) number, and if inspection reveals that the product is 
+
+defective. Charges for rem oving or installing the product are excluded under the terms of this 
+
+warranty agreement. This warranty shall not appl y to any product, which has been subject to 
+
+connection to a faulty power source, alteration, negligence, or accident, or to any product, 
+
+which has been installed other than in accord ance with these instructions. In no event shall 
+
+ENERMAX T echnology Corporation, or its subsidia ries, or agents be liable for damages for a 
+
+breach of warranty in an amount exceeding the purchase price of this product! 
+
+If you are uncertain whether or not your ENERMAX PSU is defective, please contact your 
+
+dealer/reseller for support! 
+
+W eb Site: http://www.enermax.com
+
+E-mail: enermax@enerm ax.com.tw
+
+© 2008, ENERMAX T echnology Corporation, 15F-2, No. 888, Jing- Guo Road, T aoyuan City (330), T aiwan (R.O.C.), T el. 
+
++886-3-316-1675, Fax. +886- 3-346-6640 
+
+names m entioned are the property of their respective owners.
+
+ENERMAX MODU82+ Series Power Supply Specification 
+
+Model 
+
+Spec. 
+
+EMD425A WT EMD525A WT EMD625A WT 
+
+AC Input 
+
+Input V oltage 
+
+100-240V AC, 50-60Hz, automatic switching, Active PFC 
+
+(Maximum operation range: 90-265V AC) 
+
+Input Current 6.7A-3A 7.5A-3.5A 9.5A-4A 
+
+DC Output 
+
+ Rated Combined Rated Combined Rated Combined
+
++3.3V 0.1-20A 0.1-24A 0.1-24A 
+
++5V 0.1-20A 
+
+120W 
+
+0.1-24A
+
+140W 
+
+0.1-24A 
+
+140W 
+
++12V1 0.1-22A 0.1-25A 0.1-25A 
+
++12V2 0.5-22A 0.5-25A 0.5-25A 
+
++12V3 0-22A 
+
+396W 
+
+(33A) 
+
+0-25A
+
+480W 
+
+(40A) 
+
+0.0-25A 
+
+600W 
+
+(50A) 
+
+-12V 0-0.6A 7.2W 0-0.6A 7.2W 0-0.6A 7.2W 
+
++5Vsb 0-3A 15W 0-3A 15W 0-3A 15W 
+
+T otal Power 
+
+425W 525W 625W 
+
+Protection Cir cuits 
+
+DC Rails T rigger Range 
+
++3.3V 28-40A 
+
++5V 28-40A 
+
+Over Current Protection 
+
++12V1/2/3 25–30A (425W) / 30-35A (525/625W) 
+
+DC Rails T rigger Range 
+
++3.3V 3.7 – 4.1V 
+
++5V 5.7 – 6.5V 
+
+Over V oltage Protection 
+
++12V1/2/3 13.1 – 14.5V 
+
+DC Rails T rigger Range 
+
++3.3V 2.0-2.4V 
+
++5V 3.3-3.7V 
+
+(DC) Under V oltage 
+
+Protection 
+
++12V1/2/3 8.5-9.5V 
+
+(AC) Under V oltage 
+
+Protection 
+
+Activated when AC input voltage < 80V AC 
+
+Over Power Protection Activated when output power > 1 10~150% of rated max load. 
+
+Short Circuit Protection Activated when any DC rails short circuited 
+
+Over T emperature 
+
+Protection 
+
+Activated when PSU heat sink > 90-100
+
+o
+
+C / 194
+
+- 212
+
+o
+
+F 
+
+Environment 
+
+T emperature 
+
+Operation ambient: 0~40
+
+o
+
+C/32~104
+
+o
+
+F (for full rated output) 
+
+Storage am bient: -40~70
+
+ o
+
+C/-40~158
+
+ o
+
+F 
+
+Humidity 
+
+Operation: to 85% relative humidity, non-condensing at 25
+
+ o
+
+C/77
+
+ o
+
+F 
+
+Storage: to 95% relative hum idity, non-condensing at 50
+
+ o
+
+C/122
+
+ o
+
+F 
+
+Others 
+
+Power Factor > 0.97 (Active PFC) 
+
+Efficiency 
+
+82%-85% @ 1 15V AC, 84-88% @ 230V AC 
+
+(80 PLUS
+
+®
+
+ testing standard) 
+
+Cooling 
+
+One 12cm axial fan, 450 – 1500RPM (± 10% ) @ 25℃ ambient; 
+
+450-2000RPM(± 10% ) @ 40℃ am bient, speed auto controlled. 
+
+MTBF 
+
+> 100,000 hours at 70% of full rated load, 230V AC/50Hz, 25
+
+C 
+
+(MIL-HDBK-217F standard) 
+
+Dimension 150 (w) x 86 (h) x 140 (d) mm 
+
+W eight 1.6kg(for 425W) / 1.8kg(for 525W & 625W) (without m odular cables) 
+
+Safety UL/cUL, TUV, BSMI, CCC, GOST, CB 
+
+EMC CE (EN61204-3 standard), FCC, MIC 
+
+User’ s Manual 
+
+Dear customer, 
+
+Thank you for choosing this ENERMAX M ODU82+ power supply unit (PSU)! Please read 
+
+this manual carefully and follow its in structions, before installing the PSU. 
+
+W e, ENERMAX, are globally renowned as the leading manufacturer of innovative PC 
+
+products of highest quality just like this MODU 82+, which complies with the newest standard 
+
+for desktop class power supplies. W e would like to dr aw your attention to the fact that PC is a 
+
+delicate systems, which require very specific conditions to work best for you without failing. 
+
+T o avoid failures and to increase lifetime of your entire PC, we suggest you to make sure that: 
+
+ Y our PC is NOT located near a radiator or any other heat producing device 
+
+ Y our PC is NOT located near a magnetic device 
+
+ Y our PC is NOT located in a moist and/ or dusty and/or vibrating environment 
+
+ Y our PC is NOT exposed to direct sunshine 
+
+ Y our PC is suf ficiently cooled by additional fans 
+
+W e do not r ecommend using PC systems with fanless cooling, because a potentially high inner 
+
+temperatur e decr eases stability and lifetime of all components inside your PC! 
+
+COMP A TIBILITY 
+
+ ENERMAX MODU82+ series is compliant with: 
+
+ Intel A TX12V Power Supply Design Guide v2.3 specification and downward 
+
+compatible with v2.0, v2.01 and v2.2. 
+
+ A TX Sy stem Design Guide v2.2, v2.1 
+
+ BTX/ EEB/ CEB/EPS12V 
+
+ This PSU does not support MB with ISA e xpansion slot, which might require –5V 
+
+power. –5V has been cancelled from Intel A TX12V v1.3 specification onwards. 
+
+EXTRA NOTICE
+
+ If you use multi outlets AC extension cables to provide the system power, do not use 
+
+other high power consumption equipment, such as laser printers or radiators, on the 
+
+same extension cable to avoid exceeding cable’ s safety loading capacity. 
+
+ If you plan to add the UPS (Uninterruptible Power Supply) for your sy stem, please 
+
+choose adequate watts/V A capacity UPS for possible supplied devices need. Ex.
+
+Connected devices to same UPS Estimated peak power draw (W/V A) 
+
+Dual CPU workstation with MODU82+ 525W 640W / 646V A 
+
+20” LCD monitor with speaker 55W / 94V A 
+
+A4 inkjet Printer 30W / 60V A 
+
+Suggest UPS minimum output power capacity: 725W or 800V A 
+
+ Please do not mistake V A capacity as W atts, or use insuf ficient power UPS. This would 
+
+result less UPS battery runtime or the inability to power the system in battery mode.
+
+ This PSU is compatible with si mulated and pure sine wave UPS.
+
+NAME OF P AR TS 
+
+1. Output cable: Please check “Cables & 
+
+Connectors” section. 
+
+2. 12cm fan. 
+
+3. AC inlet * 
+
+4. I/O switch*: individual PSU on/of f switch 
+
+(I=ON, O=OFF) 
+
+* W hen assemble or maintain the system, 
+
+please remove AC cord from AC inlet, or 
+
+turn I/O switch into “O” position. 
+
+CABLES & CONNECT ORS
+
+All connectors are designed to prevent insertion in wrong orientation. If you cannot easily 
+
+insert a connector to the power supply or PC devices, please check if you are inserting the 
+
+connector in the right orientation. Do not try by force to insert it nor modify the connectors. 
+
+This might damage power supply and PC com ponents, and warranty shall be void. 
+
+Use ONL Y genuine ENERMAX modular cables coming with ENERMAX PSU. Third party 
+
+cables might not be compatible and might cause damage to your PSU and/or PC system, and 
+
+use of third party cable shall void PSU warranty. 
+
+ CONNECTOR ON NA TIVE CABLE 
+
+425W 525W & 625W 
+
+(20+4)P Mainboard, 
+
+in combined mode 
+
+24-pin configuration supports 
+
+latest A TX/BTX PC & dual CPU 
+
+EEB/CEB server/workstation 
+
+boards. 
+
+(20+4)P Mainboard, 
+
+in split mode
+
+20-pin configuration supports 
+
+former A TX systems. 
+
+24P Mainboard 
+
+24-pin configuration supports 
+
+latest A TX/BTX PC & dual CPU 
+
+EEB/CEB server/workstation 
+
+boards. 
+
+4+4P CPU +12V, 
+
+in combined mode 
+
+8-pin configuration supports 
+
+dual CPU server/workstation 
+
+systems and some single CPU 
+
+PC systems. 
+
+8P CPU +12V 
+
+8-pin configuration supports dual 
+
+CPU server/workstation systems 
+
+and some single CPU PC 
+
+systems. 
+
+4+4P CPU +12V, 
+
+in split mode 
+
+4-pin configuration supports 
+
+most A TX/BTX sy stems. Please 
+
+use the connector with “12V” 
+
+marking. 
+
+4P CPU +12V 
+
+4-pin connector supports most 
+
+A T X/BTX systems. Some dual 
+
+CPU server/workstation might 
+
+also require this 4-pin connector. 
+
+FM (F AN RPM MONITOR) 
+
+For 12cm fan RPM detection. 
+
+Normal fan speed for MODU82+ is 450-2000RPM (± 10% )
+
+ MODULAR SOCKETS & CABLE 
+
+Following graphic illustrates the modular sockets layout and DC rail distribution. 
+
+5-pin BLACK sockets 
+
+The black sockets are for modular cable to 
+
+power drives or other peripheral. 
+
+12Pin RED sockets 
+
+The red sockets are for modular cable to power 
+
+graphics card, CPU or RAM. 
+
+ MODULAR CABLES SUPPLIED 
+
+EMC01 1: 3 X SA T A drives 
+
+Modular cable for SA T A drives like ODD and HDD. 
+
+EMC012:3 x 4P Mole x (IDE/SCSI) dri ves 
+
+Modular cable for IDE/SCSI dri ves and other peripherals 
+
+EMC013: 3 x 4P Molex (IDE/SCSI) dri ves + 1 X FDD 
+
+connector 
+
+Modular cable for IDE/SCSI dri ves and peripheral, plus 1 
+
+FDD power connector. 
+
+EMC014: 2 x 6+2P (8P) PCI-E 2.0 
+
+Modular cable for 1 or 2 perform ance PCI Express 
+
+graphic cards, which needs 6P or 8P PCI-E connector. 
+
+EMC015: 1 x 6+2P (8P) PCI-E 2.0 (525W) 
+
+Modular cable for 1 perform ance PCI Express graphic 
+
+cards, which needs 6P or 8P PCI-E connector. 
+
+These two 
+
+sockets are not 
+
+available for 
+
+425W m odel.
+
+N
+
+ative Cables 
+
+MB, CPU 
+
+by +12V1 
+
+A TT ACHING / DET ACHING THE MODULAR CABLES 
+
+Attaching the modular cable to PSU 
+
+5-pin / 12-pin connector on modular cable and PSU’ s modular socket 
+
+has a white arrow mark. 
+
+The steps to make correct connection is easy: 
+
+1. Black connector to black socket, and red to red. 
+
+2. Arrow mark to arrow mark. 
+
+3. Then you can easily plug in the connector. 
+
+Detaching the modular cable fr om PSU 
+
+5-pin / 12-pin connector on modular cable has two hooks to lock with 
+
+the PSU’ s modular sockets. When unplug the modular cable from 
+
+PSU, please press two hooks together and gently pull out the cable. 
+
+ CONNECTORS ON MODULAR CABLE 
+
+6+2P (8P) PCI Express, in combined mode 
+
+8-pin configuration supports latest ex treme graphic cards, which require 8pin 
+
+PCI-E connector. 
+
+6+2P (8P) PCI Express, in split mode / 6P PCI Express 
+
+6-pin configuration supports most performance PCI-E graphic card
+
+s, which 
+
+require 6-pin PCI-E connector. 
+
+SA T A 
+
+For SA T A drives. *1 
+
+4P Molex 
+
+For IDE/SCSI drives or some AGP graphic card with traditional 4P power in 
+
+socket. *2 
+
+FDD 
+
+For floppy drive. 
+
+*1 Some SA T A drives might accept SA T A or 4P Molex power. Normally, use either one of 
+
+power connector to power the driver, BUT NOT BOTH! Please check the drive’ s manual 
+
+for details. 
+
+*2 Some MB might require this connector to share the +12V current from 20-pin mainboard 
+
+connector to PCI-E slot. If your MB alr eady supports 24-pin mainboard connector, you 
+
+may not add the 4P Molex power on it. Please check the MB’ s manual for details. 
+
+BOOTING YOUR SYSTEM 
+
+Before booting your system, please check that 
+
+1. Main power connector (20 or 24-pin configuration) is properly connected. 
+
+2. CPU +12V power connector (4 or 8-pin conf iguration), and/or a 4P Molex connector (if 
+
+required by MB) is properly connected. 
+
+3. All other needed connectors are properly connected 
+
+4. AC cord is properly connected to wall plug and PSU AC inlet. 
+
+5. Close your PC chassis 
+
+6. T urn on the power supply by switching the I/O switch to “I”, and your system is ready. 
+
+PROTECTION, SAFETY & SECURITY 
+
+This ENERMAX PSU features multiple protections. In case of most abnormal situations, the 
+
+power supply will automatically turn off to avoid potential danger to itself and other PC 
+
+components. It is usually a malfunction of components or user’ s negligence to trigger off a 
+
+protection event. In such circumstance, please check your PC devices and working 
+
+environment for malfunction: 
+
+1. T urn I/O switch of power supply into “O” position, or disconnect AC cord from wall 
+
+plug and power supply AC inlet. 
+
+2. Check PSU for temperature by simply touching it. If it is very hot, this can be caused by 
+
+malfunction of case fans or the PSU fan it self and/or wrong positioning of your PC. 
+
+3. W ait some minutes until PSU cools of f 
+
+4. Reconnect AC cord to wall plug and power supply AC inlet 
+
+5. T urn I/O switch of power supply into “I” position, and reboot your system. 
+
+6. Check, if all fans are working 
+
+7. Contact technical support of the respective manufacturer of the component which you 
+
+think might be the cause to the problem (e.g. MB, GPU or PSU) 
+
+If you have any question or need support, please contact your reseller or nearest ENERMAX 
+
+subsidiary/agent or ENERMAX headquarter service center.
+
+W eb Site: http://www.enermax.com 
+
+E-mail: enermax@enerm ax.com.tw

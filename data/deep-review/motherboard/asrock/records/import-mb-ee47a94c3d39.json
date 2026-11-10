@@ -1,0 +1,227 @@
+{
+  "review": {
+    "id": "import-mb-ee47a94c3d39",
+    "name": "X570S PG Riptide",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+          "checkedAt": "2026-11-10T13:59:16+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+          "httpStatus": 200,
+          "sha256": "ad0847fa8e3593bfe38fea892778b15c396b57de710dda1e93924a4c121395fa",
+          "bytes": 5479351,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "identityExcerpt": "purchasing ASRock X570S PG Riptide motherboard",
+        "modelNames": [
+          "X570S PG Riptide"
+        ],
+        "sharedManual": false
+      }
+    ],
+    "source": {
+      "url": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+      "checkedAt": "2026-11-10T13:59:16+00:00",
+      "resolvedURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+      "httpStatus": 200,
+      "sha256": "ad0847fa8e3593bfe38fea892778b15c396b57de710dda1e93924a4c121395fa"
+    },
+    "proof": {
+      "state": "exact_manufacturer_manual",
+      "identityExcerpt": "purchasing ASRock X570S PG Riptide motherboard",
+      "specificationExcerpt": "1.2 Specifications\n\n                Platform      • ATX Form Factor\n                              • Solid Capacitor design\n                              • 2oz Copper PCB\n\n\n                CPU           • Supports AMD AM4 Socket RyzenTM 2000, 3000, 4000\n                                G-Series and 5000 Series Desktop Processors\n                              • Digi Power design\n                              • 10 Power Phase design\n\n\n                Chipset       • AMD X570\n\n\n                Memory        • Dual Channel DDR4 Memory Technology\n                              • 4 x DDR4 DIMM Slots\n                              • AMD Ryzen series CPUs (Vermeer) support DDR4\n                                5000+(OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666\n                                (OC)/4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4\n                                266(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800\n                                (OC)/3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/\n                                2400/2133 ECC & non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Matisse) support DDR4 5000+\n                                (OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666(OC)/\n                                4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4266\n                                (OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/\n                                3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/2400/2133\n                                ECC & non-ECC, un-buffered memory*\n                              • AMD Ryzen series APUs (Renoir) support DDR4 5000+\n                                (OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666(OC)/\n                                4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4266\n                                (OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/\n                                3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/2400/2133\n                                ECC & non-ECC, un-buffered memory*\n                              • AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n                                3600+(OC)/3466(OC)/3200(OC)/2933/2667/2400/2133 ECC\n                                & non-ECC, un-buffered memory*\nEnglish\n\n\n\n\n          2\n\f                                                                 X570S PG Riptide\n\n\n\n\n            • AMD Ryzen series APUs (Picasso) support DDR4 3466+\n              (OC)/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\n                memory*\n            * For Ryzen Series APUs (Picasso), ECC is only supported with\n            PRO CPUs.\n            * Please refer to Memory Support List on ASRock’s website for\n            more information. (http://www.asrock.com/)\n            * Please refer to page 24 for DDR4 UDIMM maximum\n            frequency support.\n             • Max. capacity of system memory: 128GB\n             • Supports Extreme Memory Profile (XMP) memory modules\n             • 15μ Gold Contact in DIMM Slots\n\n\nExpansion    AMD Ryzen series CPUs (Vermeer, Matisse)\nSlot         • 1 x PCI Express 4.0 x16 Slot (x16 (PCIE1))*\n             AMD Ryzen series CPUs (Renoir, Pinnacle Ridge)\n             • 1 x PCI Express 3.0 x16 Slot (x16 (PCIE1)*\n             AMD Ryzen series APUs (Picasso)\n             • 1 x PCI Express 3.0 x16 Slot (x8 (PCIE1))*\n             AMD X570 Chipset\n             • 2 x PCI Express 4.0 x16 Slots (x4 (PCIE4) / x2 (PCIE6))*\n            * Supports NVMe SSD as boot disks\n             • 3 x PCI Express 4.0 x1 Slots\n             • Supports AMD Quad CrossFireXTM and CrossFireXTM\n             • 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n             • 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\n                WiFi module\n\n\nGraphics     • Integrated AMD RadeonTM Vega Series Graphics in Ryzen\n                Series APU*\n            * Actual support may vary by CPU\n             • DirectX 12, Pixel Shader 5.0\n             • Shared memory default 2GB. Max Shared memory supports\n                up to 16GB.\n            * The Max shared memory 16GB requires 32GB system memory\n            installed.\n                                                                                    English\n\n\n\n\n             • Supports HDMI 2.1 with max. resolution up to 4K x 2K\n                (4096x2160) @ 60Hz\n\n\n\n\n                                                                               3\n\f                           • Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\n                             HBR (High Bit Rate Audio) with HDMI 2.1 Port (Compliant\n                               HDMI monitor is required)\n                           •   Supports HDR (High Dynamic Range) with HDMI 2.1\n                           •   Supports HDCP 2.3 with HDMI 2.1 Port\n                           •   Supports 4K Ultra HD (UHD) playback with HDMI 2.1 Port\n                           •   Supports Microsoft PlayReady®\n\n\n              Audio        •   7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n                           •   Supports Surge Protection\n                           •   Gold Audio Jacks\n                           •   Nahimic Audio\n\n\n              LAN          • 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n                           • 1 x Killer® E3100G (PCIE x1 Gigabit LAN 10/100/1000/2500\n                             Mb/s)\n                           • Supports Killer LAN Software\n                           • Supports Wake-On-LAN\n                           • Supports Lightning/ESD Protection\n                           • Supports Energy Efficient Ethernet 802.3az\n                           • Supports PXE\n\n\n              Rear Panel   •  1 x Antenna Bracket\n              I/O          •  1 x PS/2 Mouse/Keyboard Port\n                           •  1 x HDMI Port\n                           •  1 x Optical SPDIF Out Port\n                           •  1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (Supports ESD\n                              Protection)\n                            • 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (Supports ESD\n                              Protection)\n                            • 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n                           * USB3_2 and USB31_TA_1 are the Lightning Gaming Ports.\n                            • 2 x USB 2.0 Ports (Supports ESD Protection)\n                            • 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\n                              LED)\n                            • 1 x BIOS Flashback Button with LED\nEnglish\n\n\n\n\n                            • HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\n                              Front Speaker / Microphone (Gold Audio Jacks)\n\n\n\n\n          4\n\f                                                                 X570S PG Riptide\n\n\n\n\nStorage      • 6 x SATA3 6.0 Gb/s Connectors\n             • 1 x Hyper M.2 Socket (M2_1), supports M Key type\n                 2230/2242/2260/2280 M.2 PCI Express module up to\n                 Gen4x4 (64 Gb/s) (with Vermeer, Matisse) or Gen3x4\n                 (32 Gb/s) (with Renoir, Pinnacle Ridge and Picasso)*\n             • 1 x Hyper M.2 Socket (M2_2), supports M Key type\n                 2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\n                 PCI Express module up to Gen4x4 (64 Gb/s)*\n            * If M2_2 is occupied by a PCIE-type M.2 device, SATA3_5_6\n            will be disabled.\n            * If Thunderbolt support is enabled, SATA type M.2 will be\n            disabled.\n            * Supports NVMe SSD as boot disks\n            * Supports ASRock U.2 Kit\n\n\nRAID        • Supports RAID 0, RAID 1 and RAID 10 for SATA storage\n              devices\n            • Supports RAID 0 and RAID 1 for M.2 NVMe storage\n              devices\n\n\nConnector    • 1 x Power LED and Speaker Header\n             • 2 x RGB LED Headers\n            * Support in total up to 12V/3A, 36W LED Strip\n             • 2 x Addressable LED Headers\n            * Support in total up to 5V/3A, 15W LED Strip\n             • 1 x CPU Fan Connector (4-pin)\n            * The CPU Fan Connector supports the CPU fan of maximum\n            1A (12W) fan power.\n             • 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\n                Speed Control)\n            * The CPU/Water Pump Fan supports the water cooler fan of\n            maximum 2A (24W) fan power.\n             • 5 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\n                Speed Control)\n            * The Chassis/Water Pump Fan supports the water cooler fan of\n            maximum 2A (24W) fan power.\n                                                                                    English\n\n\n\n\n            * CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP, CHA_\n            FAN3/WP, CHA_FAN4/WP and CHA_FAN5/WP can auto\n            detect if 3-pin or 4-pin fan is in use.\n\n\n\n                                                                               5\n\f                         • 1 x 24 pin ATX Power Connector (Hi-Density Power\n                           Connector)\n                          • 1 x 8 pin 12V Power Connector (Hi-Density Power\n                             Connector)\n                          • 1 x 4 pin 12V Power Connector (Hi-Density Power\n                             Connector)\n                          • 1 x Front Panel Audio Connector\n                          • 1 x Thunderbolt AIC Connector (5-pin) (Supports ASRock\n                             Thunderbolt 4 AIC Card only)\n                         * Please visit ASRock’s website for more information on the\n                         limitations of this connector. (http://www.asrock.com/)\n                          • 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\n                             ESD Protection)\n                          • 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n                             (Supports ESD Protection)\n                          • 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\n                             Protection)\n                          • 1 x Clear CMOS Button\n\n\n              BIOS       • AMI UEFI Legal BIOS with GUI support\n              Feature    • Supports “Plug and Play”\n                         • ACPI 5.1 compliance wake up events\n                         • Supports jumperfree\n                         • SMBIOS 2.3 support\n                         • CPU, VDDCR_SOC, DRAM, VPPM, PREM VDD_CLDO,\n                           PERM VDDCR_SOC, +1.8V, VDDP Voltage Multi-adjust-\n                           ment\n\n\n              Hardware   • Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\n              Monitor      Pump Fans\n                         • Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\n                           ture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n                         • Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\n                           Water Pump Fans\n                         • Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, CPU VD-\n                           DCR_SOC, DRAM, VPPM, PREM VDDCR_SOC, +1.8V,\nEnglish\n\n\n\n\n                           VDDP\n\n\n\n\n          6\n\f                                                                                                 X570S PG Riptide\n\n\n\n\n    OS                      • Microsoft® Windows® 10 64-bit\n\n\n    Certifica-              • FCC, CE\n    tions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n                            • CEC Tier II ready\n\n\n\n\n* For detailed product information, please visit our website: http://www.asrock.com\n\n\n\n\n             Please realize that there is a certain risk involved with overclocking, including adjusting\n            the setting in the BIOS, applying Untied Overclocking Technology, or using third-party\n            overclocking tools. Overclocking may affect your system’s stability, or even cause damage to\n            the components and devices of your system. It should be done at your own risk and expense.\n            We are not responsible for possible damage caused by overclocking.\n\n\n\n\n                                                                                                                    English\n\n\n\n\n                                                                                                               7\n\f                   ",
+      "modelNames": [
+        "X570S PG Riptide"
+      ],
+      "sharedManual": false
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "X570S PG Riptide",
+    "identityNote": "Modèle ASRock X570S PG Riptide confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "manufacturerPartNumber": "X570S PG Riptide",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Format et dimensions",
+            "value": "• ATX Form Factor\n• Solid Capacitor design\n• 2oz Copper PCB"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "• Supports AMD AM4 Socket RyzenTM 2000, 3000, 4000\nG-Series and 5000 Series Desktop Processors\n• Digi Power design\n• 10 Power Phase design"
+          },
+          {
+            "label": "Chipset",
+            "value": "• AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "• Dual Channel DDR4 Memory Technology\n• 4 x DDR4 DIMM Slots\n• AMD Ryzen series CPUs (Vermeer) support DDR4\n5000+(OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666\n(OC)/4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4\n266(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800\n(OC)/3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/\n2400/2133 ECC & non-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Matisse) support DDR4 5000+\n(OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666(OC)/\n4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4266\n(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/\n3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/2400/2133\nECC & non-ECC, un-buffered memory*\n• AMD Ryzen series APUs (Renoir) support DDR4 5000+\n(OC)/4933(OC)/4866(OC)/4800(OC)/4733(OC)/4666(OC)/\n4600(OC)/4533(OC)/4466(OC)/4400(OC)/4333(OC)/4266\n(OC)/4200(OC)/4133(OC)/4000(OC)/3866(OC)/3800(OC)/\n3733(OC)/3600(OC)/3466(OC)/3200/2933/2667/2400/2133\nECC & non-ECC, un-buffered memory*\n• AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4\n3600+(OC)/3466(OC)/3200(OC)/2933/2667/2400/2133 ECC\n& non-ECC, un-buffered memory*\n• AMD Ryzen series APUs (Picasso) support DDR4 3466+\n(OC)/3200(OC)/2933/2667/2400/2133 non-ECC, un-buffered\nmemory*\n* For Ryzen Series APUs (Picasso), ECC is only supported with\nPRO CPUs.\n* Please refer to Memory Support List on ASRock’s website for\nmore information. (http://www.asrock.com/)\n* Please refer to page 24 for DDR4 UDIMM maximum\nfrequency support.\n• Max. capacity of system memory: 128GB\n• Supports Extreme Memory Profile (XMP) memory modules\n• 15μ Gold Contact in DIMM Slots"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs (Vermeer, Matisse)\nSlot         • 1 x PCI Express 4.0 x16 Slot (x16 (PCIE1))*\nAMD Ryzen series CPUs (Renoir, Pinnacle Ridge)\n• 1 x PCI Express 3.0 x16 Slot (x16 (PCIE1)*\nAMD Ryzen series APUs (Picasso)\n• 1 x PCI Express 3.0 x16 Slot (x8 (PCIE1))*\nAMD X570 Chipset\n• 2 x PCI Express 4.0 x16 Slots (x4 (PCIE4) / x2 (PCIE6))*\n* Supports NVMe SSD as boot disks\n• 3 x PCI Express 4.0 x1 Slots\n• Supports AMD Quad CrossFireXTM and CrossFireXTM\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "• Integrated AMD RadeonTM Vega Series Graphics in Ryzen\nSeries APU*\n* Actual support may vary by CPU\n• DirectX 12, Pixel Shader 5.0\n• Shared memory default 2GB. Max Shared memory supports\nup to 16GB.\n* The Max shared memory 16GB requires 32GB system memory\ninstalled.\n• Supports HDMI 2.1 with max. resolution up to 4K x 2K\n(4096x2160) @ 60Hz\n• Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and\nHBR (High Bit Rate Audio) with HDMI 2.1 Port (Compliant\nHDMI monitor is required)\n•   Supports HDR (High Dynamic Range) with HDMI 2.1\n•   Supports HDCP 2.3 with HDMI 2.1 Port\n•   Supports 4K Ultra HD (UHD) playback with HDMI 2.1 Port\n•   Supports Microsoft PlayReady®"
+          },
+          {
+            "label": "Audio",
+            "value": "•   7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n•   Supports Surge Protection\n•   Gold Audio Jacks\n•   Nahimic Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• 1 x Killer® E3100G (PCIE x1 Gigabit LAN 10/100/1000/2500\nMb/s)\n• Supports Killer LAN Software\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports Energy Efficient Ethernet 802.3az\n• Supports PXE"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "•  1 x Antenna Bracket\nI/O          •  1 x PS/2 Mouse/Keyboard Port\n•  1 x HDMI Port\n•  1 x Optical SPDIF Out Port\n•  1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (Supports ESD\nProtection)\n• 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (Supports ESD\nProtection)\n• 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n* USB3_2 and USB31_TA_1 are the Lightning Gaming Ports.\n• 2 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• 1 x BIOS Flashback Button with LED\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "• 6 x SATA3 6.0 Gb/s Connectors\n• 1 x Hyper M.2 Socket (M2_1), supports M Key type\n2230/2242/2260/2280 M.2 PCI Express module up to\nGen4x4 (64 Gb/s) (with Vermeer, Matisse) or Gen3x4\n(32 Gb/s) (with Renoir, Pinnacle Ridge and Picasso)*\n• 1 x Hyper M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen4x4 (64 Gb/s)*\n* If M2_2 is occupied by a PCIE-type M.2 device, SATA3_5_6\nwill be disabled.\n* If Thunderbolt support is enabled, SATA type M.2 will be\ndisabled.\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit"
+          },
+          {
+            "label": "RAID",
+            "value": "• Supports RAID 0, RAID 1 and RAID 10 for SATA storage\ndevices\n• Supports RAID 0 and RAID 1 for M.2 NVMe storage\ndevices"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "• 1 x Power LED and Speaker Header\n• 2 x RGB LED Headers\n* Support in total up to 12V/3A, 36W LED Strip\n• 2 x Addressable LED Headers\n* Support in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 5 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP, CHA_\nFAN3/WP, CHA_FAN4/WP and CHA_FAN5/WP can auto\ndetect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector\n• 1 x Thunderbolt AIC Connector (5-pin) (Supports ASRock\nThunderbolt 4 AIC Card only)\n* Please visit ASRock’s website for more information on the\nlimitations of this connector. (http://www.asrock.com/)\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n(Supports ESD Protection)\n• 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\nProtection)\n• 1 x Clear CMOS Button"
+          },
+          {
+            "label": "BIOS",
+            "value": "• AMI UEFI Legal BIOS with GUI support\nFeature    • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• CPU, VDDCR_SOC, DRAM, VPPM, PREM VDD_CLDO,\nPERM VDDCR_SOC, +1.8V, VDDP Voltage Multi-adjust-\nment"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "• Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water\nMonitor      Pump Fans\n• Quiet Fan (Auto adjust chassis fan speed by CPU tempera-\nture): CPU, CPU/Water Pump, Chassis/Water Pump Fans\n• Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/\nWater Pump Fans\n• Voltage monitoring: +12V, +5V, +3.3V, CPU Vcore, CPU VD-\nDCR_SOC, DRAM, VPPM, PREM VDDCR_SOC, +1.8V,\nVDDP"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "• Microsoft® Windows® 10 64-bit\nCertifica-              • FCC, CE\ntions                   • ErP/EuP ready (ErP/EuP ready power supply is required)\n• CEC Tier II ready\n* For detailed product information, please visit our website: http://www.asrock.com\nPlease realize that there is a certain risk involved with overclocking, including adjusting\nthe setting in the BIOS, applying Untied Overclocking Technology, or using third-party\noverclocking tools. Overclocking may affect your system’s stability, or even cause damage to\nthe components and devices of your system. It should be done at your own risk and expense.\nWe are not responsible for possible damage caused by overclocking."
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "formFactor": {
+        "value": "• ATX Form Factor\n• Solid Capacitor design\n• 2oz Copper PCB",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "chipset": {
+        "value": "• AMD X570",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "storagePorts": {
+        "value": "• 6 x SATA3 6.0 Gb/s Connectors\n• 1 x Hyper M.2 Socket (M2_1), supports M Key type\n2230/2242/2260/2280 M.2 PCI Express module up to\nGen4x4 (64 Gb/s) (with Vermeer, Matisse) or Gen3x4\n(32 Gb/s) (with Renoir, Pinnacle Ridge and Picasso)*\n• 1 x Hyper M.2 Socket (M2_2), supports M Key type\n2230/2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2\nPCI Express module up to Gen4x4 (64 Gb/s)*\n* If M2_2 is occupied by a PCIE-type M.2 device, SATA3_5_6\nwill be disabled.\n* If Thunderbolt support is enabled, SATA type M.2 will be\ndisabled.\n* Supports NVMe SSD as boot disks\n* Supports ASRock U.2 Kit",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs (Vermeer, Matisse)\nSlot         • 1 x PCI Express 4.0 x16 Slot (x16 (PCIE1))*\nAMD Ryzen series CPUs (Renoir, Pinnacle Ridge)\n• 1 x PCI Express 3.0 x16 Slot (x16 (PCIE1)*\nAMD Ryzen series APUs (Picasso)\n• 1 x PCI Express 3.0 x16 Slot (x8 (PCIE1))*\nAMD X570 Chipset\n• 2 x PCI Express 4.0 x16 Slots (x4 (PCIE4) / x2 (PCIE6))*\n* Supports NVMe SSD as boot disks\n• 3 x PCI Express 4.0 x1 Slots\n• Supports AMD Quad CrossFireXTM and CrossFireXTM\n• 15μ Gold Contact in VGA PCIe Slot (PCIE1)\n• 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe\nWiFi module",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "rearIO": {
+        "value": "•  1 x Antenna Bracket\nI/O          •  1 x PS/2 Mouse/Keyboard Port\n•  1 x HDMI Port\n•  1 x Optical SPDIF Out Port\n•  1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (Supports ESD\nProtection)\n• 1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (Supports ESD\nProtection)\n• 4 x USB 3.2 Gen1 Ports (Supports ESD Protection)\n* USB3_2 and USB31_TA_1 are the Lightning Gaming Ports.\n• 2 x USB 2.0 Ports (Supports ESD Protection)\n• 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED\nLED)\n• 1 x BIOS Flashback Button with LED\n• HD Audio Jacks: Rear Speaker / Central / Bass / Line in /\nFront Speaker / Microphone (Gold Audio Jacks)",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "internalIO": {
+        "value": "• 1 x Power LED and Speaker Header\n• 2 x RGB LED Headers\n* Support in total up to 12V/3A, 36W LED Strip\n• 2 x Addressable LED Headers\n* Support in total up to 5V/3A, 15W LED Strip\n• 1 x CPU Fan Connector (4-pin)\n* The CPU Fan Connector supports the CPU fan of maximum\n1A (12W) fan power.\n• 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan\nSpeed Control)\n* The CPU/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n• 5 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan\nSpeed Control)\n* The Chassis/Water Pump Fan supports the water cooler fan of\nmaximum 2A (24W) fan power.\n* CPU_FAN2/WP, CHA_FAN1/WP, CHA_FAN2/WP, CHA_\nFAN3/WP, CHA_FAN4/WP and CHA_FAN5/WP can auto\ndetect if 3-pin or 4-pin fan is in use.\n• 1 x 24 pin ATX Power Connector (Hi-Density Power\nConnector)\n• 1 x 8 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x 4 pin 12V Power Connector (Hi-Density Power\nConnector)\n• 1 x Front Panel Audio Connector\n• 1 x Thunderbolt AIC Connector (5-pin) (Supports ASRock\nThunderbolt 4 AIC Card only)\n* Please visit ASRock’s website for more information on the\nlimitations of this connector. (http://www.asrock.com/)\n• 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports\nESD Protection)\n• 2 x USB 3.2 Gen1 Headers (Support 4 USB 3.2 Gen1 ports)\n(Supports ESD Protection)\n• 1 x Front Panel Type C USB 3.2 Gen2 Header (Supports ESD\nProtection)\n• 1 x Clear CMOS Button",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "network": {
+        "value": "• 2.5 Gigabit LAN 10/100/1000/2500 Mb/s\n• 1 x Killer® E3100G (PCIE x1 Gigabit LAN 10/100/1000/2500\nMb/s)\n• Supports Killer LAN Software\n• Supports Wake-On-LAN\n• Supports Lightning/ESD Protection\n• Supports Energy Efficient Ethernet 802.3az\n• Supports PXE",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "audio": {
+        "value": "•   7.1 CH HD Audio (Realtek ALC897 Audio Codec)\n•   Supports Surge Protection\n•   Gold Audio Jacks\n•   Nahimic Audio",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      },
+      "cpuSupport": {
+        "value": "• Supports AMD AM4 Socket RyzenTM 2000, 3000, 4000\nG-Series and 5000 Series Desktop Processors\n• Digi Power design\n• 10 Power Phase design\nBIOS: • AMI UEFI Legal BIOS with GUI support\nFeature    • Supports “Plug and Play”\n• ACPI 5.1 compliance wake up events\n• Supports jumperfree\n• SMBIOS 2.3 support\n• CPU, VDDCR_SOC, DRAM, VPPM, PREM VDD_CLDO,\nPERM VDDCR_SOC, +1.8V, VDDP Voltage Multi-adjust-\nment",
+        "sourceURL": "https://download.asrock.com/Manual/X570S%20PG%20Riptide.pdf",
+        "checkedAt": "2026-11-10T13:59:16+00:00"
+      }
+    },
+    "manufacturerModel": "X570S PG Riptide"
+  }
+}

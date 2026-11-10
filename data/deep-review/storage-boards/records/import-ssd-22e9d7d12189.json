@@ -1,0 +1,32 @@
+{
+  "id": "import-ssd-22e9d7d12189",
+  "brand": "HP",
+  "name": "FX700 500 Go · PCIe 4.0 ×4",
+  "state": "primary_unconfirmed",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+        "checkedAt": "2026-11-10T14:36:42+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+        "sha256": "7fde6fd5402597e7abb0c62e5fcb00525f337950d155af5c2f8ca9875e5d88d2",
+        "bytes": 52992,
+        "status": "fetched"
+      },
+      "title": "HP PCIe Gen 4x4 M.2 SSD",
+      "publishedCapacities": [
+        512,
+        1000,
+        2000,
+        4000
+      ],
+      "state": "exact_capacity_unconfirmed"
+    }
+  ],
+  "blocker": "PCPartPicker archive 500 Go et 8U2N1AA ; le fabricant publie 512 Go, le marchand 8U2N1AA#. Le suffixe commercial et la correction de capacité ne sont pas présumés équivalents.",
+  "followupEvidenceFiles": [
+    "variant-searches/hp500-pcp.json",
+    "variant-searches/followup-full.json"
+  ]
+}

@@ -1,0 +1,135 @@
+# Precaution Notice
+URL: https://www.enermaxjapan.com/support_manual_dl/PRO82_manual_japan.pdf
+Author: 20070606
+
+## Precaution Notice
+
+Only a technician, authorized by ENERMAX, is allowed to perform maintenance service! Warranty is subject to void under unauthorized attempt to open the power case or modification of any kinds, even attempted only, of the power supply or its components!
+
+ENERMAX will not be responsible for damages caused by following situations: z Opening of the PSU case and/or modification of any component or cable without ENERMAX’ written authorization z Ignoring connector’s wrong insertion prevention design by attaching a connector to a device in wrong orientation z Connecting too many devices to one cable unit by using additional adaptor (Y cables) or exceeding ENERMAX Eternity-connector recommendation which may cause voltage drop to the devices and eventually damage them. z Usage of non-genuine ENERMAX modular cables z Damage caused by natural phenomena or uncontrollable forces, such as lightning, flooding, fire, earthquake, etc.
+
+This ENERMAX Technology Corporation product is warranted to be free from defects in material and workmanship for a period of three (3) years from the date of purchase. ENERMAX Technology Corporation agrees to repair or replace the product, at its own option and at no charge, if, during the warranty period, it is returned to nearest ENERMAX Technology Corporation subsidiary/agent with all shipping charges prepaid and bearing a return merchandize authorization (RMA) number, and if inspection reveals that the product is defective. Charges for removing or installing the product are excluded under the terms of this warranty agreement. This warranty shall not apply to any product, which has been subject to connection to a faulty power source, alteration, negligence, or accident, or to any product, which has been installed other than in accordance with these instructions. In no event shall ENERMAX Technology Corporation, or its subsidiaries, or agents be liable for damages for a breach of warranty in an amount exceeding the purchase price of this product!
+
+If you are uncertain whether or not your ENERMAX PSU is defective, please contact your dealer/reseller for support!
+
+Web Site: http://www.enermax.com E-mail: enermax@enermax.com.tw
+
+© 2008, ENERMAX Technology Corporation, 15F-2, No. 888, Jing-Guo Road, Taoyuan City (330), Taiwan (R.O.C.), Tel. 
++886-3-316-1675, Fax. +886-3-346-6640 
+All rights reserved. Actual product and accessories may differ from Illustrations. Information in this manual is subject to change 
+without prior notice. Printing errors and omissions excepted. All trademarks, registered trademarks and/or product names mentioned 
+are the property of their respective owners. 
+部品名 
+1. 出力ケーブル：「ケーブルとコネクタ」の項を参照してください 
+2. 12cm ファン 
+3. AC インレット* 
+4. I/O スイッチ*:電源 I/O（オン/オフ）スイッチ (I=ON, O=OFF) 
+*システムアセンブリまたはメンテナンスを行う場合、AC コードを AC インレット 
+から取り外すまたは I/O スイッチを“O”位置（オフ）にする。 
+
+Specifications
+
+| Spec | Model EPR385AWT | EPR425AWT | | EPR525AWT | EPR625AWT |
+| --- | --- | --- | --- | --- | --- |
+| AC input | | 100-240VAC, 50-60Hz, automatic adjustment, active PFC | Max. range: 90-265VAC | | |
+| Input current | 6-2.5A | | 6.7-3A | 7.5-3.5A | 9.5-4A |
+| | | | DC Output | | |
+| | Rated | Combined Rated | Combined | Rated Combined | Rated Combined |
+| +3.3V +5V | 0.1-20A 0.1-20A | 0.1-20A 110W 0.1-20A | 0.1-24A 120W 0.1-24A | 140W | 0.1-24A 140W 0.1-24A |
+| +12V1 | 0.1-20A | 0.1-22A | 0.1-25A | | 0.1-25A |
+| | | 360W | 396W | 480W | 600W |
+| +12V2 | 0.5-20A | 0.5-22A | 0.5-25A | | 0.5-25A |
+| | | (30A) | (33A) | (40A) | (50A) |
+| +12V3 | | 0-22A | | 0-25A | 0-25A |
+| -12V | 0-0.6A | 7.2W 0-0.6A | 7.2W 0-0.6A | 7.2W | 0-0.6A 7.2W |
+| +5Vsb | 0-3A | 15W 0-3A | 15W 0.0-3A | 15W | 0-3A 15W |
+| Total Power | 385W | | 425W | 525W | 625W |
+| | | Protection Circuits | | | |
+| | | DC Rails | | Trigger Range | |
+| 28–40A Over Current Protection | | +3.3V +5V | | 28-40A | |
+| | | +12V1/2/3 | 25–30A (385/425W) / 30-35A (525/625W) | | |
+| | | DC Rails | | Trigger Range | |
+| 5.7 – 6.5V Over Voltage Protection | | +3.3V +5V | | 3.7 – 4.1V | |
+| | | +12V1/2/3 | | 13.1 – 14.5V | |
+| | | DC Rails | | Trigger Range | |
+| (DC) Under Voltage | | +3.3V | | 2.0-2.4V | |
+| | Protection | +5V | | 3.3-3.7V | |
+| | | +12V1/2/3 | | 8.5-9.5V | |
+| (AC) Under Voltage | Protection | Activated when AC input voltage < 80VAC. | | | |
+| Over Power Protection | | Activated when output power >110-150% of max load. | | | |
+| Short Circuit Protection | | Activated when any DC rails short circuited. | | | |
+| Over Temperature Protection | | Activated when PSU temp. >90-110 | | oC / 194-230 oF | |
+| | | | Environment | | |
+| | Temperature | Operation ambient: 0~40 Storage ambient: -40~70 | oC/32~104 oC/-40~158 | oF (for full rated output) oF | |
+| | Humidity | Operation: to 85% relative humidity, non-condensing at 25 Storage: to 95% relative humidity, non-condensing at 50 | | | oC / 77 oF oC / 122 oF |
+| | | | Others | | |
+| | Power Factor | > 0.97 (Active PFC) | | | |
+| | Efficiency | 82%-85% @ 115VAC, 84 -88% @ 230VAC (80 PLUS ® testing standard) | | | |
+| | Cooling | One 12cm fan, 450-1500RPM (±10%)@25 450-2000RPM (±10%)@40 | oC ambient, speed auto controlled | oC ambient; | |
+| | MTBF | > 100K hours under 70% of full rated load, 230VAC/50Hz input, 25 (MIL-HDBK-217F standard) | | | oC ambient |
+| | Dimension | 150 (W) x 86 (H) x 140 (D) mm | | | |
+| | Weight | 1.6kg(for 385/425W) / 2.2.kg(for 525W & 625W) | | | |
+| | Safety | UL/cUL, TUV, BSMI, CCC, GOST, CB report | | | |
+| | EMC | CE (EN61204-3 standard), FCC, MIC | | | |
+
+ご挨拶
+
+この度は ENERMAX PRO82+電源ユニットをお買い上げいただき、誠にありがとうござ います。電源ユニットを設置する前に、本マニュアルをよくお読みの上、正しくお使いく ださい。
+
+ケーブルとコネクタ
+
+| 385W & 425W | 525W & 625W |
+| --- | --- |
+| ピン メインボード 20+4 （コンバインモード） 24 ピン構成では、新世代の ATX / BTX PC、およびデュア ル CPU の EEB / CEB ワークステーションボード をサポートします。 ピンメインボード 20+4 （スプリットモード） 20 ピン構成 (4 ピン モジ ュールは取り外され使用し ません) では、以前の ATX システムをサポートします。 | ピン メインボード サーバ / 24 新世代の ATX / BTX PC、およ びデュアル CPU の EEB / CEB サーバ / ワークステーション ボードをサポートします。 |
+| ピン 4+4 CPU +12V (コンバインモード） 8 ピン構成では、デュアル 一部のシングル CPU PC ピン CPU +12V（スプリットモード） 4+4 4 ピン構成では、ほとんどの のマーキングあるコネクタを使用してください。 | CPU サーバ / ワークステーション システムと、 システム をサポートします。 ATX/BTX システムをサポートします。「+ 12V」 |
+| ピン)PCI-E（コンバインモード）(425/525/625W) 6+2 ピン(8 8 ピン構成の PCI Express ピン)PCI-E（スプリットモード）(425/525/625W) 6+2 ピン(8 6 ピン構成の PCI Express | グラフィックカード用。 グラフィックカード用。 |
+| 6 ピン PCI-E (PCI Express 1.0)電源コネクタ PCI Express グラフィックカード用。 | |
+| 電源コネクタ SATA SATA ドライブ用。* ピン 電源コネクタ 4 Molex IDE / SCSI ドライブまたは一部の AGP グラフィックカード用。 | *一部の SATA ドライブは、SATA と 4P Molex の 2 種類を接続することが可能 です。そのようなドライブの場合、一 種類の電源コネクタのみを接続して ください。ドライブの取扱説明書を参 照してください。 |
+| 電源コネクタ FDD フロッピーディスクドライブ用。 | |
+| FM (ファン回転数) 12cm ファン回転数測定用。 正常範囲：450-2000RPM (±10% )。 | 電源コネクタ |
+
+互換性
+
+z ENERMAX PRO82+電源ユニットシリーズは、以下に準拠しています:
+
+『Intel ATX12V Power Supply Design Guide(電源ユニットデザインガイド)』v2.3 の仕様、 
+および v2.2,v2.01, v2.0 との下位互換 
+『ATX System Design Guide (ATX システムデザインガイド)』v2.2, v2.1 
+BTX/ EEB/ CEB/EPS12V 
+
+お使いの MB に ISA バスがある場合、本電源ユニットには一部の ISA デバイスをサポートするた めの -5v レールがないため、バスを完全にサポートできない可能性があります。このレールは
+
+ATX12V v1.3 より廃止されました。
+
+z コンピュータの故障を避け、寿命を延ばすために、次の推奨事項に留意してください: コンピュータをラジエーターやその他の熱を発生する装置の近くに置かない コンピュータを磁気が発生する装置の近くに置かない コンピュータを湿気や埃、振動のある環境に置かない コンピュータを直射日光にさらさない PC ファンを追加してコンピュータを十分に冷却する
+
+内部の高温によりコンピュータの全部品の安定性や寿命が低下する可能性があるため、ファンレス 冷却システムを使用することはお勧めしません。
+
+システムの起動
+
+電源を入れる前に、以下のことを再度、ご確認ください: 1. メイン電源コネクタ(20 ピンあるいは 24 ピンの構成)は適切に接続されているか。 2. CPU +12V 電源コネクタ(4 ピンあるいは 8 ピンの構成)は適切に接続されているか、または 4 ピン Molex 電源コネクタ(MB に必要される場合)は適切に接続されているか。 3. その他の電源コネクタは適切に接続されているか。 4. AC コードは適切にコンセントと電源ユニット AC インレットに接続されているか。 5. PC のサイドパネルは閉じているか。 6. I/O スイッチが「I」に設定されており、PC の起動準備完了しているか。
+
+保護、安全、およびセキュリティ
+
+ENERMAX PRO82+ 電源ユニットには、いくつかの保護機能が搭載されています。異常な状況で、 
+電源やその他のコンピュータ コンポーネントへの危険を回避するために、自動的に電源が切れる 
+ようになっています。保護機能が働いたとき、ほとんどの場合、コンポーネントの不具合やユーザ 
+ーの不注意が原因です。このような場合、いったん電源を切り、各デバイスとの接続を外して、コ 
+ンピュータ デバイスや作業環境に不具合がないか確認してください: 
+1. 電源ユニットの I/O スイッチを「O」にします。またはコンセントや電源ユニットの AC 入 
+力の AC コードを取り外します。 
+2. 電源ユニットに触って温度を確認します。非常に高温になっている場合は、ケースのファン 
+や 電源ユニットのファンの不具合や、コンピュータの不適切な置き場所 (本マニュアルの 
+冒頭にある推奨事項を確認してください) が原因で熱くなった可能性があります。 
+3. 電源ユニットの熱が冷めるまでしばらく待ちます。 
+4. AC コードをコンセントおよび電源ユニットの AC 入力に再度、接続します。 
+5. 電源ユニットの I/O スイッチを「I」にします。 
+6. 全てのファンが作動していることを確認します。 
+7. 問題の原因であると考えられるコンポーネント(MB、GPU、HDD、電源ユニットなど) のメー 
+カー各社のテクニカル サポートに連絡します。 
+
+ご質問やサポートについては、ご購入元または ENERMAX 販売代理店または当社サポートにお問 い合わせください。
+
+Web Site: http://www.enermax.com E-mail: enermax@enermax.com.tw
+
+本書に記載されている事項は事前通告無しに変更されることがあります。© 2008 すべての著作権 ENERMAX Technology Corporation にあります。 ENERMAX からの書面による許可なく本書の複写、転載を禁じます。

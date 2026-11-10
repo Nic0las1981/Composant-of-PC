@@ -1,0 +1,58 @@
+{
+  "id": "import-ssd-b60ff9663b2d",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AORUS Gen5 12000 SSD 1TB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp",
+    "checkedAt": "2026-11-10T14:36:17+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp",
+    "checkedAt": "2026-11-10T14:36:17+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp",
+    "sha256": "df556f95d7195a2324eb5f4b49c1b6548501ea4035c8aac17a1e6af596e8c48e",
+    "bytes": 577965,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 5.0x4, NVMe 2.0",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "1000GB",
+    "NAND": "3D TLC NAND Flash",
+    "External DDR Cache": "LPDDR4 2GB",
+    "Sequential Read speed": "Up to 11,700 MB/s",
+    "Sequential Write speed": "Up to 9,500MB/s",
+    "Dimension": "SSD without Heatsink: 80 x 22 x 3.5mm\n\nSSD with Heatsink: 92 x 23.5 x 44.7 mm\n\nPlease refer to the file to check the M.2 Thermal Guard XTREME Incompatible List",
+    "Mean time between failure (MTBF)": "1.6 million hours",
+    "Max. Operating Power": "11W",
+    "Power Consumption (Idle, PS3)": "<144mW",
+    "Power Consumption(PS4, L1.2)": "<85mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 700TBW.\n\n2. Limited warranty based on 5 years or 700TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"Percentage Used\" (SMART ID: 05) in SMART page of \"GIGABYTE SSD toolbox\" reaches 100 means out of warranty. (A new unused product will show the number of 0)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.\n\n* To keep AORUS Gen5 12000 SSD from overheating, please adopt the motherboard build-in heatsink or Thermal Guard Xtreme heatsink to prevent throttling.",
+    "Published model code": "AG512K1TB"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp",
+        "checkedAt": "2026-11-10T14:36:17+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen5-12000-SSD-1TB/sp",
+        "sha256": "df556f95d7195a2324eb5f4b49c1b6548501ea4035c8aac17a1e6af596e8c48e",
+        "bytes": 577965,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen5 12000 SSD 1TB"
+    }
+  ]
+}

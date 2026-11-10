@@ -1,0 +1,67 @@
+{
+  "requestedURL": "https://www.gigabyte.com/Motherboard/B760M-K-V2-DDR4/sp",
+  "checkedAt": "2026-11-10T13:26:33+00:00",
+  "attempts": [
+    {
+      "url": "https://www.gigabyte.com/Motherboard/B760M-K-V2-DDR4/sp",
+      "status": 200,
+      "resolvedURL": "https://www.gigabyte.com/Motherboard/B760M-K-V2-DDR4/sp",
+      "bytes": 596819
+    }
+  ],
+  "url": "https://www.gigabyte.com/Motherboard/B760M-K-V2-DDR4/sp",
+  "httpStatus": 200,
+  "sha256": "3e04be0b729148a0d17b145e2ddd23b3914047c9974d9bc7fc63c3191918a332",
+  "title": "B760M K V2 DDR4",
+  "model": "B760M K V2 DDR4",
+  "revision": null,
+  "sections": {
+    "CPU": "LGA1700 socket: Support for the 14th, 13th, and 12th Generation Intel® Core™, Pentium® Gold and Celeron® Processors (Go to GIGABYTE's website for the latest CPU support list.) L3 cache varies with CPU",
+    "Chipset": "Intel® B760 Express Chipset",
+    "Memory": "Support for DDR4 3200/3000/2933/2666/2400/2133 MT/s memory modules 2 x DDR4 DIMM sockets supporting up to 64 GB (32 GB single DIMM capacity) of system memory Dual channel memory architecture Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode) Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules Support for Extreme Memory Profile (XMP) memory modules (The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to \"Memory Support List\" on GIGABYTE's website for more information.)",
+    "Onboard Graphics": "Integrated Graphics Processor-Intel® HD Graphics support: - 1 x D-Sub port, supporting a maximum resolution of 1920x1200@60 Hz - 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz * Support for HDMI 2.1 version and HDCP 2.3. ** Support for native HDMI 2.1 TMDS compatible ports. (Graphics specifications may vary depending on CPU support.)",
+    "Audio": "Realtek® Audio CODEC High Definition Audio 2/4/5.1/7.1-channel * You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.",
+    "LAN": "Realtek® GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)",
+    "Expansion Slots": "CPU: - 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x16 Chipset: - 1 x PCI Express x1 slot, supporting PCIe 3.0 and running at x1",
+    "Storage Interface": "Chipset: - 1 x M.2 connector (Socket 3, M key, type 2280/2260 PCIe 3.0 x4/x2 SSD support) - 4 x SATA 6Gb/s connectors RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices",
+    "USB": "Chipset: - 4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header) - 4 x USB 2.0/1.1 ports on the back panel Chipset+USB 2.0 Hub: - 4 x USB 2.0/1.1 ports available through the internal USB headers",
+    "Internal I/O Connectors": "1 x 24-pin ATX main power connector 1 x 8-pin ATX 12V power connector 1 x CPU fan header 2 x system fan headers 1 x M.2 Socket 3 connector 4 x SATA 6Gb/s connectors 1 x RGB LED strip header 1 x front panel header 1 x front panel audio header 1 x speaker header 1 x USB 3.2 Gen 1 header 2 x USB 2.0/1.1 headers 1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/GC-TPM2.0 SPI V2 module only) 1 x serial port header 1 x Clear CMOS jumper 1 x chassis intrusion header",
+    "Back Panel Connectors": "1 x PS/2 keyboard/mouse port 1 x D-Sub port 1 x HDMI port 2 x USB 3.2 Gen 1 ports 4 x USB 2.0/1.1 ports 1 x RJ-45 port 3 x audio jacks",
+    "I/O Controller": "iTE® I/O Controller Chip",
+    "H/W Monitoring": "Voltage detection Temperature detection Fan speed detection Water cooling flow rate detection Fan fail warning Fan speed control * Whether the fan speed control function is supported will depend on the fan you install.",
+    "BIOS": "1 x 128 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0",
+    "Unique Features": "Support for GIGABYTE Control Center (GCC) * Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications. Support for Q-Flash",
+    "Bundled Software": "Norton® Internet Security (OEM version) LAN bandwidth management software",
+    "Operating System": "Support for Windows 11 64-bit Support for Windows 10 64-bit",
+    "Form Factor": "Micro ATX Form Factor; 22.3cm x 19.3cm"
+  },
+  "sectionItems": {
+    "CPU": [],
+    "Chipset": [],
+    "Memory": [],
+    "Onboard Graphics": [],
+    "Audio": [],
+    "LAN": [],
+    "Expansion Slots": [],
+    "Storage Interface": [],
+    "USB": [],
+    "Internal I/O Connectors": [],
+    "Back Panel Connectors": [],
+    "I/O Controller": [],
+    "H/W Monitoring": [],
+    "BIOS": [],
+    "Unique Features": [],
+    "Bundled Software": [],
+    "Operating System": [],
+    "Form Factor": []
+  },
+  "imageURLs": [
+    "https://static.gigabyte.com/StaticFile/Image/Global/7a9bd7e154e364b9209f416101770a11/ProductRemoveBg/41685"
+  ],
+  "revisionURLs": [
+    "https://www.gigabyte.com/Motherboard/B760M-K-V2-DDR4"
+  ],
+  "manualURLs": [],
+  "status": "official_specifications",
+  "manufacturerAliases": []
+}

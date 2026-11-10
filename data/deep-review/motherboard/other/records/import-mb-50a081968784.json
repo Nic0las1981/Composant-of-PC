@@ -1,0 +1,232 @@
+{
+  "review": {
+    "id": "import-mb-50a081968784",
+    "name": "BATTLE-AX B550M-HD PRO V14",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "BATTLE-AX B550M-HD PRO V14",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://en.colorful.cn/en/home/product?id=894&mid=84",
+          "checkedAt": "2026-11-10T14:10:33+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorfulgroup.com/en/Error/NotFound",
+          "sha256": "38da3573eab4fd16b5f21845f1653834b046a9841f112d6cc8af886d32c0a0aa",
+          "bytes": 398,
+          "status": "fetched"
+        },
+        "state": "public_api_route_unavailable"
+      },
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=824&mid=84",
+          "checkedAt": "2026-11-10T14:10:37+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=824&mid=84",
+          "sha256": "630d5a2d31ea78fc74975f2d2b0fb4ab09b2601e1c54749dbb5e2ac57b548293",
+          "bytes": 85623,
+          "status": "fetched"
+        },
+        "api": {
+          "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+          "checkedAt": "2026-11-10T14:10:43+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+          "sha256": "ac1d0d705be3bb8370501f6661eb26f681c3d0927792f19d72ad72d912528565",
+          "bytes": 5043,
+          "status": "fetched"
+        }
+      },
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=824&mid=84",
+          "checkedAt": "2026-11-10T14:10:37+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=824&mid=84",
+          "sha256": "630d5a2d31ea78fc74975f2d2b0fb4ab09b2601e1c54749dbb5e2ac57b548293",
+          "bytes": 85623,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "BATTLE-AX B550M-HD PRO V14",
+        "sections": [
+          "Graphics card support",
+          "CPU",
+          "Storage",
+          "Expansion Slots",
+          "Form Factor",
+          "Chipset",
+          "LAN",
+          "I/O connections",
+          "Hardware monitoring",
+          "BIOS",
+          "Audio",
+          "Power management",
+          "Memory",
+          "产品系列"
+        ]
+      }
+    ],
+    "photos": [
+      "https://www.colorful.cn/content/upload/form/84/202601/4e2a9e12-b3d0-4a2e-a180-27e2fabce254.jpg"
+    ]
+  },
+  "product": {
+    "mpn": "BATTLE-AX B550M-HD PRO V14",
+    "identityNote": "Modèle Colorful BATTLE-AX B550M-HD PRO V14 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "Colorful — API publique de spécifications du modèle exact",
+        "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Colorful — fiche produit associée à l’API",
+        "url": "https://www.colorful.cn/home/product?id=824&mid=84",
+        "checkedAt": "2026-11-10T14:10:37+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "BATTLE-AX B550M-HD PRO V14",
+      "detailLevel": "partial",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "maxMemoryPerSlotGB": 32
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — Colorful",
+        "rows": [
+          {
+            "label": "Graphics card support",
+            "value": "1个PCI Express4.0 x16插槽"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "支持AM4接口的第3代AMD锐龙™处理器及Ryzen 3 5100、Ryzen 5 5500、Ryzen 7 5700、Ryzen 7 PRO 4700、Ryzen 5 4500、Ryzen 3 4100、Ryzen 7 5800X3D (*上述规格仅供参考，请访问七彩虹官网查询最新的处理器支持列表)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4个SATA3.0 6Gb/s硬盘接口，支持RAID0、1、10，1个M.2插槽(支持SATA和PCIe4.0 x4总线的SSD，支持2242/2260/2280规格的SSD)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1个PCI Express4.0x16插槽,1个PCI Express3.0x1插槽"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "192mm*225mm mATX"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL8111H 千兆"
+          },
+          {
+            "label": "I/O connections",
+            "value": "IO接口：1个PS2鼠标/键盘通用端口、2个USB2.0接口、1个HDMI接口、1个DVI接口、1个VGA接口、4个USB3.1 Gen1接口、1个千兆网络接口、1组3孔6声道音频接口。板载：2个USB2.0扩展插针,1个USB3.1 扩展插针,1个12V 4Pin RGB风扇插针,1个COM插针,1个CPU风扇插座,1个系统风扇插座"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "CPU风扇转速可控，SYSTEM风扇转速监视， CPU温度监视，及各组电压监视"
+          },
+          {
+            "label": "BIOS",
+            "value": "128M UEFI，支持中文简体，英语，韩语"
+          },
+          {
+            "label": "Audio",
+            "value": "ALC662 6声道"
+          },
+          {
+            "label": "Power management",
+            "value": "支持ACPI S3/S4/S5，支持PS2鼠标/键盘唤醒，网络S5唤醒，支持定时开机、来电开机，PS2端口和下面的2个USB2.0接口支持关机带电功能(可通过JPS1跳线关闭）！"
+          },
+          {
+            "label": "Mémoire",
+            "value": "提供2个内存条插槽, 支持DDR4双通道，单根内存最大支持32GB，总内存容量最大支持64GB，支持DDR4 3200/3000/2933/2800/2666/2400/2133MHZ规格内存,温馨提示：内存超频频率还取决于搭配CPU和内存本身超频性能!"
+          },
+          {
+            "label": "产品系列",
+            "value": "战斧系列"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.colorful.cn/content/upload/form/84/202601/4e2a9e12-b3d0-4a2e-a180-27e2fabce254.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "formFactor": {
+        "value": "192mm*225mm mATX",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "storagePorts": {
+        "value": "4个SATA3.0 6Gb/s硬盘接口，支持RAID0、1、10，1个M.2插槽(支持SATA和PCIe4.0 x4总线的SSD，支持2242/2260/2280规格的SSD)",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "pcie": {
+        "value": "1个PCI Express4.0x16插槽,1个PCI Express3.0x1插槽",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "network": {
+        "value": "RTL8111H 千兆",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "audio": {
+        "value": "ALC662 6声道",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "cpuSupport": {
+        "value": "支持AM4接口的第3代AMD锐龙™处理器及Ryzen 3 5100、Ryzen 5 5500、Ryzen 7 5700、Ryzen 7 PRO 4700、Ryzen 5 4500、Ryzen 3 4100、Ryzen 7 5800X3D (*上述规格仅供参考，请访问七彩虹官网查询最新的处理器支持列表)\nBIOS: 128M UEFI，支持中文简体，英语，韩语",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      },
+      "memoryPerSlot": {
+        "value": 32,
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=824",
+        "checkedAt": "2026-11-10T14:10:43+00:00"
+      }
+    },
+    "manufacturerModel": "BATTLE-AX B550M-HD PRO V14"
+  }
+}

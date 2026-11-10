@@ -1,0 +1,270 @@
+{
+  "review": {
+    "id": "import-mb-c63d19839f7b",
+    "name": "A320M-HDV R3.0",
+    "state": "exact_manufacturer_web_table",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A320M-HDV.pdf",
+          "checkedAt": "2026-11-10T13:59:26+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A320M-HDV.pdf",
+          "httpStatus": 200,
+          "sha256": "0da1a93648c3bd689e152256b47120833b0ba97f5d33ea395e08c25d784929d2",
+          "bytes": 3099495,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock AB350M-HDV/A320M-HDV/A320M-DGS\nmotherboard",
+        "modelNames": [
+          "AB350M-HDV",
+          "A320M-HDV",
+          "A320M-DGS"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/QIG/A320M-HDV%20R3.0_CN.pdf",
+          "checkedAt": "2026-11-10T14:11:12+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/QIG/A320M-HDV%20R3.0_CN.pdf",
+          "httpStatus": 200,
+          "sha256": "965f215619511410a88e39fe8695075449f65eaaf522b69af70d52cb9c681e48",
+          "bytes": 209694,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/A320M-HD.pdf",
+          "checkedAt": "2026-11-10T14:11:14+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/A320M-HD.pdf",
+          "httpStatus": 200,
+          "sha256": "2f70617d0af64b9a75b7c287c0f2ac517a36cb5200a54f9fdd8d7880ee886f02",
+          "bytes": 2571377,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock A320M-HD motherboard",
+        "modelNames": [
+          "A320M-HD"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+          "checkedAt": "2026-11-10T14:16:26.911Z",
+          "contentSHA256": "98ec203addc0a21d9443d9c0cb372d6cf80a641d4d8ca8b1e8eeceac958a7a36"
+        },
+        "state": "exact_manufacturer_web_table"
+      }
+    ],
+    "source": {
+      "url": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+      "checkedAt": "2026-11-10T14:16:26.911Z"
+    },
+    "proof": {
+      "state": "exact_manufacturer_web_table",
+      "identityExcerpt": "# ASRock &gt; A320M-HDV R3.0",
+      "specificationExcerpt": "\nCPU\n\n- Supports AMD Socket AM4 A-Series APUs (Bristol Ridge) and Ryzen Series CPUs (Vermeer, Cezanne, Renoir, Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge)*- 6 Power Phase design- Supports CPU up to 105W\n\n*Bristol Ridge does not supports since BIOS version 7.XX.Vermeer, Cezanne and Renoir CPUs are supported after updating the BIOS, using another CPU for that update.\n\nChipsatz\n\n- AMD Promontory A320\n\nArbeitsspeicher\n\n- Dual Channel DDR4 Memory Technology- 2 x DDR4 DIMM Slots- AMD Ryzen series CPUs (Matisse) support DDR4 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4 3200+(OC) / 2933(OC) / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Picasso) support DDR4 2933 / 2667 / 2400 / 2133 non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Summit Ridge) support DDR4 3200+(OC) / 2933(OC) / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Picasso and Raven Ridge) support DDR4 3200+(OC) / 2933 / 2667 / 2400 / 2133 non-ECC, un-buffered memory*- AMD 7th Gen A-Series APUs support DDR4 2400 / 2133 non-ECC, un-buffered memory*- Max. capacity of system memory: 32GB**- 15μ Gold Contact in DIMM Slots\n\n*Bei CPUs aus der Ryzen-Serie (Raven Ridge) wird ECC nur von PRO-CPUs unterstützt.Bitte entnehmen Sie die maximale DDR4-UDIMM-Frequenz der folgenden Tabelle.A-Series APUs: Ryzen Series CPUs (Matisse): Ryzen Series CPUs (Pinnacle Ridge): Ryzen Series CPUs (Picasso): Ryzen Series CPUs (Summit Ridge): Ryzen Series CPUs (Raven Ridge): SR: Single rank DIMM, 1Rx4 or 1Rx8 on DIMM module labelDR: Dual rank DIMM, 2Rx4 or 2Rx8 on DIMM module label**Aufgrund von Limitierungen im Betriebssystem ist es möglich, dass Windows® 32-bit OS weniger als 4 GB RAM für das System reservieren kann. For Windows® 64-bit OS with 64-bit CPU, there is no such limitation.\n\nBIOS\n\n- 128Mb AMI UEFI Legal BIOS with GUI support- Supports \"Plug and Play\"- ACPI 5.1 compliance wake up events- Supports jumperfree- SMBIOS 2.3 support- DRAM Voltage multi-adjustment\n\nGrafik\n\n- Integrated AMD Radeon™ Vega Series Graphics in Ryzen Series APU*- Интегрирана графика AMD Radeon™ от серия R в APU от серията A*- DirectX 12, Pixel Shader 5.0- Standardmäßig beträgt der geteilte Speicher 2 GB. Maximal sind 16 GB geteilter Speicher möglich.**- Three graphics output options: D-Sub, DVI-D and HDMI- Supports Triple Monitor- Supports HDMI with max. Auflösung up to 4K x 2K (4096x2160) @ 24Hz / (3840x2160) @ 30Hz- Supports DVI-D with max. Auflösung up to 1920x1200 @ 60Hz- Supports D-Sub with max. Auflösung up to 2048x1536 @ 60Hz- Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and HBR (High Bit Rate Audio) with HDMI Port (Compliant HDMI monitor is required)- Supports HDCP 1.4 with DVI-D and HDMI Ports- Supports Full HD 1080p Blu-ray (BD) playback with DVI-D and HDMI Ports\n\n*Die Unterstützung kann je nach CPU variieren**Für den maximalen geteilten Speicher in Höhe von 16 GB werden 32 GB Arbeitsspeicher benötigt.\n\nAudio\n\n- 7.1 CH HD Audio (Realtek ALC887 Audio Codec)- Supports Surge Protection- ELNA Audio Caps\n\nLAN\n\n- PCIE x1 Gigabit LAN 10/100/1000 Mb/s- Realtek RTL8111GR- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports PXE\n\nSteckplätze\n\nAMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x16 mode)*AMD 7th A-Series APUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Ryzen series CPUs (Picasso, Raven Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Athlon series CPUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x4 mode)*- 1 x PCI Express 2.0 x1 Slot\n\n*Unterstützt NVMe-SSD als Boot-Festplatte\n\nSpeicherplatz\n\n- 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0, RAID 1 and RAID 10), NCQ, AHCI and Hot Plug- 1 x Ultra M.2 Socket, supports M Key type 2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4 (32 Gb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and Athlon series APU)*\n\n*Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 Kit\n\nAnschluss\n\n- 1 x COM Port Header- 1 x TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x CPU Fan Connector (4-pin)- 2 x Chassis Fan Connectors (1 x 4-pin, 1 x 3-pin)*- 1 x 24 pin ATX Power Connector- 1 x 4 pin 12V Power Connector- 1 x Front Panel Audio Connector- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.1 Gen1 Header (Supports 2 USB 3.1 Gen1 ports) (Supports ESD Protection)\n\n*Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt).\n\nBlende\n\n- 1 x PS/2 Mouse/Keyboard Port- 1 x D-Sub Port- 1 x DVI-D Port- 1 x HDMI Port- 2 x USB 2.0 Ports (Supports ESD Protection)- 4 x USB 3.1 Gen1 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone\n\nSoftware und UEFI\n\nSoftware- ASRock Motherboard Utility (A-Tuning)- ASRock APP Charger- ASRock XFast LANUEFI- ASRock Full HD UEFI- ASRock Sofort-Flash- ASRock Easy RAID Installer\n\n*Diese Tools können im Live Update & APP Shop heruntergeladen werden.\n\nSupport-CD\n\n- Drivers, Utilities, AntiVirus Software (Trial Version), Google Chrome Browser and Toolbar\n\nProduktzubehör\n\n- Quick Installation Guide, Support CD, I/O Shield- 2 x SATA Data Cables- 1 x Screw for M.2 Socket\n\nHardware überwachung\n\n- CPU/Chassis temperature sensing- CPU/Chassis Fan Tachometer- CPU/Chassis Quiet Fan- CPU/Chassis Fan multi-speed control- CASE OPEN detection- Voltage monitoring: +12V, +5V, +3.3V, Vcore\n\nFormfaktor\n\n- Micro ATX Form Factor: 9.0-in x 7.9-in, 23.0 cm x 20.1 cm- Solid Capacitor design\n\nBetriebssystem\n\n- Microsoft® Windows® 10 64-bit / 11 64-bit*\n\n*Bristol Ridge and Summit Ridge do not officially support Windows® 11.\n\nZertifizierungen\n\n- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)\n\n"
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "A320M-HDV R3.0",
+    "identityNote": "Modèle ASRock A320M-HDV R3.0 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 32,
+      "formFactor": "Micro-ATX",
+      "heightMm": 230.0,
+      "widthMm": 201.0,
+      "manufacturerPartNumber": "A320M-HDV R3.0",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "- Supports AMD Socket AM4 A-Series APUs (Bristol Ridge) and Ryzen Series CPUs (Vermeer, Cezanne, Renoir, Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge)*- 6 Power Phase design- Supports CPU up to 105W\n\n*Bristol Ridge does not supports since BIOS version 7.XX.Vermeer, Cezanne and Renoir CPUs are supported after updating the BIOS, using another CPU for that update."
+          },
+          {
+            "label": "Chipset",
+            "value": "- AMD Promontory A320"
+          },
+          {
+            "label": "Mémoire",
+            "value": "- Dual Channel DDR4 Memory Technology- 2 x DDR4 DIMM Slots- AMD Ryzen series CPUs (Matisse) support DDR4 3200 / 2933 / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Pinnacle Ridge) support DDR4 3200+(OC) / 2933(OC) / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Picasso) support DDR4 2933 / 2667 / 2400 / 2133 non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Summit Ridge) support DDR4 3200+(OC) / 2933(OC) / 2667 / 2400 / 2133 ECC & non-ECC, un-buffered memory*- AMD Ryzen series CPUs (Picasso and Raven Ridge) support DDR4 3200+(OC) / 2933 / 2667 / 2400 / 2133 non-ECC, un-buffered memory*- AMD 7th Gen A-Series APUs support DDR4 2400 / 2133 non-ECC, un-buffered memory*- Max. capacity of system memory: 32GB**- 15μ Gold Contact in DIMM Slots\n\n*Bei CPUs aus der Ryzen-Serie (Raven Ridge) wird ECC nur von PRO-CPUs unterstützt.Bitte entnehmen Sie die maximale DDR4-UDIMM-Frequenz der folgenden Tabelle.A-Series APUs: Ryzen Series CPUs (Matisse): Ryzen Series CPUs (Pinnacle Ridge): Ryzen Series CPUs (Picasso): Ryzen Series CPUs (Summit Ridge): Ryzen Series CPUs (Raven Ridge): SR: Single rank DIMM, 1Rx4 or 1Rx8 on DIMM module labelDR: Dual rank DIMM, 2Rx4 or 2Rx8 on DIMM module label**Aufgrund von Limitierungen im Betriebssystem ist es möglich, dass Windows® 32-bit OS weniger als 4 GB RAM für das System reservieren kann. For Windows® 64-bit OS with 64-bit CPU, there is no such limitation."
+          },
+          {
+            "label": "BIOS",
+            "value": "- 128Mb AMI UEFI Legal BIOS with GUI support- Supports \"Plug and Play\"- ACPI 5.1 compliance wake up events- Supports jumperfree- SMBIOS 2.3 support- DRAM Voltage multi-adjustment"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "- Integrated AMD Radeon™ Vega Series Graphics in Ryzen Series APU*- Интегрирана графика AMD Radeon™ от серия R в APU от серията A*- DirectX 12, Pixel Shader 5.0- Standardmäßig beträgt der geteilte Speicher 2 GB. Maximal sind 16 GB geteilter Speicher möglich.**- Three graphics output options: D-Sub, DVI-D and HDMI- Supports Triple Monitor- Supports HDMI with max. Auflösung up to 4K x 2K (4096x2160) @ 24Hz / (3840x2160) @ 30Hz- Supports DVI-D with max. Auflösung up to 1920x1200 @ 60Hz- Supports D-Sub with max. Auflösung up to 2048x1536 @ 60Hz- Supports Auto Lip Sync, Deep Color (12bpc), xvYCC and HBR (High Bit Rate Audio) with HDMI Port (Compliant HDMI monitor is required)- Supports HDCP 1.4 with DVI-D and HDMI Ports- Supports Full HD 1080p Blu-ray (BD) playback with DVI-D and HDMI Ports\n\n*Die Unterstützung kann je nach CPU variieren**Für den maximalen geteilten Speicher in Höhe von 16 GB werden 32 GB Arbeitsspeicher benötigt."
+          },
+          {
+            "label": "Audio",
+            "value": "- 7.1 CH HD Audio (Realtek ALC887 Audio Codec)- Supports Surge Protection- ELNA Audio Caps"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "- PCIE x1 Gigabit LAN 10/100/1000 Mb/s- Realtek RTL8111GR- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports PXE"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x16 mode)*AMD 7th A-Series APUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Ryzen series CPUs (Picasso, Raven Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Athlon series CPUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x4 mode)*- 1 x PCI Express 2.0 x1 Slot\n\n*Unterstützt NVMe-SSD als Boot-Festplatte"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "- 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0, RAID 1 and RAID 10), NCQ, AHCI and Hot Plug- 1 x Ultra M.2 Socket, supports M Key type 2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4 (32 Gb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and Athlon series APU)*\n\n*Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 Kit"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "- 1 x COM Port Header- 1 x TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x CPU Fan Connector (4-pin)- 2 x Chassis Fan Connectors (1 x 4-pin, 1 x 3-pin)*- 1 x 24 pin ATX Power Connector- 1 x 4 pin 12V Power Connector- 1 x Front Panel Audio Connector- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.1 Gen1 Header (Supports 2 USB 3.1 Gen1 ports) (Supports ESD Protection)\n\n*Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt)."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "- 1 x PS/2 Mouse/Keyboard Port- 1 x D-Sub Port- 1 x DVI-D Port- 1 x HDMI Port- 2 x USB 2.0 Ports (Supports ESD Protection)- 4 x USB 3.1 Gen1 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Software and UEFI",
+            "value": "Software- ASRock Motherboard Utility (A-Tuning)- ASRock APP Charger- ASRock XFast LANUEFI- ASRock Full HD UEFI- ASRock Sofort-Flash- ASRock Easy RAID Installer\n\n*Diese Tools können im Live Update & APP Shop heruntergeladen werden."
+          },
+          {
+            "label": "Support CD",
+            "value": "- Drivers, Utilities, AntiVirus Software (Trial Version), Google Chrome Browser and Toolbar"
+          },
+          {
+            "label": "Accessoires",
+            "value": "- Quick Installation Guide, Support CD, I/O Shield- 2 x SATA Data Cables- 1 x Screw for M.2 Socket"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "- CPU/Chassis temperature sensing- CPU/Chassis Fan Tachometer- CPU/Chassis Quiet Fan- CPU/Chassis Fan multi-speed control- CASE OPEN detection- Voltage monitoring: +12V, +5V, +3.3V, Vcore"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "- Micro ATX Form Factor: 9.0-in x 7.9-in, 23.0 cm x 20.1 cm- Solid Capacitor design"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "- Microsoft® Windows® 10 64-bit / 11 64-bit*\n\n*Bristol Ridge and Summit Ridge do not officially support Windows® 11."
+          },
+          {
+            "label": "Certifications",
+            "value": "- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "memoryCapacity": {
+        "value": 32,
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "formFactor": {
+        "value": "- Micro ATX Form Factor: 9.0-in x 7.9-in, 23.0 cm x 20.1 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "boardDimensions": {
+        "value": "- Micro ATX Form Factor: 9.0-in x 7.9-in, 23.0 cm x 20.1 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "chipset": {
+        "value": "- AMD Promontory A320",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "storagePorts": {
+        "value": "- 4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0, RAID 1 and RAID 10), NCQ, AHCI and Hot Plug- 1 x Ultra M.2 Socket, supports M Key type 2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4 (32 Gb/s) (with Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge) or Gen3 x2 (16 Gb/s) (with A-Series APU and Athlon series APU)*\n\n*Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 Kit",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "pcie": {
+        "value": "AMD Ryzen series CPUs (Matisse, Summit Ridge and Pinnacle Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x16 mode)*AMD 7th A-Series APUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Ryzen series CPUs (Picasso, Raven Ridge)- 1 x PCI Express 3.0 x16 Slot (PCIE2: x8 mode)*AMD Athlon series CPUs- 1 x PCI Express 3.0 x16 Slot (PCIE2: x4 mode)*- 1 x PCI Express 2.0 x1 Slot\n\n*Unterstützt NVMe-SSD als Boot-Festplatte",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "rearIO": {
+        "value": "- 1 x PS/2 Mouse/Keyboard Port- 1 x D-Sub Port- 1 x DVI-D Port- 1 x HDMI Port- 2 x USB 2.0 Ports (Supports ESD Protection)- 4 x USB 3.1 Gen1 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "internalIO": {
+        "value": "- 1 x COM Port Header- 1 x TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x CPU Fan Connector (4-pin)- 2 x Chassis Fan Connectors (1 x 4-pin, 1 x 3-pin)*- 1 x 24 pin ATX Power Connector- 1 x 4 pin 12V Power Connector- 1 x Front Panel Audio Connector- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.1 Gen1 Header (Supports 2 USB 3.1 Gen1 ports) (Supports ESD Protection)\n\n*Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt).",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "network": {
+        "value": "- PCIE x1 Gigabit LAN 10/100/1000 Mb/s- Realtek RTL8111GR- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports PXE",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "audio": {
+        "value": "- 7.1 CH HD Audio (Realtek ALC887 Audio Codec)- Supports Surge Protection- ELNA Audio Caps",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      },
+      "cpuSupport": {
+        "value": "- Supports AMD Socket AM4 A-Series APUs (Bristol Ridge) and Ryzen Series CPUs (Vermeer, Cezanne, Renoir, Matisse, Picasso, Summit Ridge, Raven Ridge and Pinnacle Ridge)*- 6 Power Phase design- Supports CPU up to 105W\n\n*Bristol Ridge does not supports since BIOS version 7.XX.Vermeer, Cezanne and Renoir CPUs are supported after updating the BIOS, using another CPU for that update.\nBIOS: - 128Mb AMI UEFI Legal BIOS with GUI support- Supports \"Plug and Play\"- ACPI 5.1 compliance wake up events- Supports jumperfree- SMBIOS 2.3 support- DRAM Voltage multi-adjustment",
+        "sourceURL": "https://asrock.com/mb/AMD/A320M-HDV%20R3.0/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:26.911Z"
+      }
+    },
+    "manufacturerModel": "A320M-HDV R3.0"
+  }
+}

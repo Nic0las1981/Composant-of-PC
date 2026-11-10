@@ -1,0 +1,60 @@
+{
+  "review": {
+    "id": "import-mb-c3f5f6173c7f",
+    "name": "B760M-HDVP",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/B760M-HDVM.2.pdf",
+          "checkedAt": "2026-11-10T13:59:37+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/B760M-HDVM.2.pdf",
+          "httpStatus": 200,
+          "sha256": "a7462fd6abb8df065275a8a792067a47eaaf79a77880f5b00d2e6c151172468b",
+          "bytes": 2102781,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock B760M-HDV/M.2 motherboard",
+        "modelNames": [
+          "B760M-HDV/M.2"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/B760M-HDVM.2%20D4.pdf",
+          "checkedAt": "2026-11-10T14:11:18+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/B760M-HDVM.2%20D4.pdf",
+          "httpStatus": 200,
+          "sha256": "ac68e9d3d496a855590f7e54447b2488a2adc494d25fa2875b8138a37d19ef56",
+          "bytes": 1806905,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock B760M-HDV/M.2 D4 motherboard",
+        "modelNames": [
+          "B760M-HDV/M.2 D4"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Software/Intel%20B760/Software_BIOS%20Setup%20Guide_English.pdf",
+          "checkedAt": "2026-11-10T14:11:19+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Software/Intel%20B760/Software_BIOS%20Setup%20Guide_English.pdf",
+          "httpStatus": 200,
+          "sha256": "3fcc0dc4524d2bccef6f2c3db65c7e3e3d57f7126d4b74c0b1f624c5fa742383",
+          "bytes": 2854801,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:13+00:00",
+      "url": "https://download.asrock.com/Manual/B760M-HDVP.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

@@ -1,0 +1,362 @@
+{
+  "review": {
+    "id": "import-mb-c1345413e592",
+    "name": "MAG B660 TOMAHAWK WIFI",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+    "sections": [
+      "Socket",
+      "DDR5 Memory",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "WiFi & Bluetooth",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Audio ports (Rear)",
+      "DisplayPort",
+      "HDMI",
+      "DirectX",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Expansion Slot",
+      "Multi-GPU",
+      "Onboard Graphics",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Wireless LAN & Bluetooth®",
+      "Internal connectors",
+      "LED Feature",
+      "Back panel ports",
+      "Dimensions",
+      "Internal IO",
+      "BACK PANEL PORTS",
+      "WIRELESS LAN & BLUETOOTH"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1641451939cdb7ca66ce454f702dc30211fa528964.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "MAG B660 TOMAHAWK WIFI",
+    "identityNote": "Modèle MSI MAG B660 TOMAHAWK WIFI confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR5",
+      "maxMemoryGB": 192,
+      "m2Slots": 3,
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "MAG B660 TOMAHAWK WIFI",
+      "description": "Carte mère MSI MAG B660 TOMAHAWK WIFI. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket LGA1700",
+        "4 emplacements DDR5",
+        "Mémoire maximale documentée : 192 Go",
+        "3 emplacement(s) M.2 PCIe/NVMe",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "1700"
+          },
+          {
+            "label": "DDR5 Memory",
+            "value": "6200+(OC) , 6000(OC) , 5800(OC) , 5600(JEDEC) , 5400(JEDEC) , 5200(JEDEC) , 5000(JEDEC) , 4800(JEDEC) MHz"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B660 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "192"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "3"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices 1\n SATAA & SATAB do not support RAID function."
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E module"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "1(Gen 2, Type C), 1(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "1(Gen 2x2, Type C), 4(Gen 2, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "4"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC1220P Codec"
+          },
+          {
+            "label": "DisplayPort",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n Please go to msi.com to get the newest support status as new processors are released.\n See supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR5 memory slots, support up to 192GB 1\n Supports 1R 4800 MHz (by JEDEC & POR)\n\n Max overclocking frequency:\n\n 1DPC 1R Max speed up to 6200+ MHz\n\n 1DPC 2R Max speed up to 6000+ MHz\n\n 2DPC 1R Max speed up to 5600+ MHz\n\n 2DPC 2R Max speed up to 5600+ MHz\n\n Supports Intel® XMP 3.0 OC\n\n Supports Dual Controller Dual-Channel mode\n\n Supports non-ECC, un-buffered memory\n\n Please refer to www.msi.com for more information on compatible memory.\n\n See supported memory\nDDR5 Memory: 6200+(OC) , 6000(OC) , 5800(OC) , 5600(JEDEC) , 5400(JEDEC) , 5200(JEDEC) , 5000(JEDEC) , 4800(JEDEC) MHz\nDIMM Slots: 4\nMax Memory (GB): 192\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCIe x16 slots\n PCI_E1 (From CPU)\n Support up to PCIe 4.0\n\n PCI_E2 (From B660 chipset)\n Support up to PCIe 3.0 x4\n\n 1x PCIe 3.0 x1 slot (From B660 chipset)"
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports AMD® CrossFire™ Technology"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x HDMI™ 2.1 with HDR port, supports a maximum\n resolution of 4K 60Hz 1 / 2\n\n 1x DisplayPort 1.4 port with HBR3, supports a maximum\n resolution of 4K 60Hz 1 / 2\n Available only on processors featuring integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6x SATA 6Gb/s ports\n SATA5~8 (From B660 chipset)\n\n SATAA~B (From ASM1061)\n\n 3x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports up to PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\n M2_2 & M2_3 slots (From B660 chipset)\n M2_2 supports up to PCIe 4.0 x4\n\n M2_3 supports up to PCIe 4.0 x2 1\n\n Supports SATA up to 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n Supports Intel® Optane™ Memory\n\n Supports Intel® Smart Response Technology for Intel Core™ processors\n SATA7 will be unavailable when installing M.2 SATA SSD in the M2_3 slot."
+          },
+          {
+            "label": "USB",
+            "value": "Intel® B660 Chipset\n\n 1x USB3.2 Gen 2x2 20Gbps port (Type-C port on the back panel)\n\n 5x USB 3.2 Gen 2 10Gbps ports (4 Type-A ports on the back panel, 1 Type-C available through the internal connector)\n\n 2x USB 3.2 Gen 1 5Gbps Type-A ports available through the internal connector\n\n 8x USB 2.0 ports (4 Type-A ports on the back panel, 4 Type-A ports available through the internal connectors)"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC1220P Codec\n\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125B-CG 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Wireless LAN & Bluetooth®",
+            "value": "Intel® Wi-Fi 6E\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 (160MHz) up to 2.4Gbps\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n Supports Bluetooth® 5.3 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in Windows 11.\n\n Bluetooth 5.3 will be ready in Windows 10 build 21H1 and Windows 11."
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 3x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 5x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x TPM module connector\n\n 1x TBT connector (supports RTD3)\n\n 1x Tuning Controller connecto"
+          },
+          {
+            "label": "LED Feature",
+            "value": "2x 4-pin RGB LED connectors\n\n 2x 3-pin RAINBOW LED connectors\n\n 4x EZ Debug LED"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "USB 2.0 Port\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n Wi-Fi / Bluetooth Antenna\n\n HD Audio Connectors\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 3x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 5x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x TPM module connector\n\n 1x TBT connector (supports RTD3)\n\n 1x Tuning Controller connecto"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: USB 2.0 Port\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n Wi-Fi / Bluetooth Antenna\n\n HD Audio Connectors\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF OUT"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Wireless LAN & Bluetooth®: Intel® Wi-Fi 6E\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 (160MHz) up to 2.4Gbps\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n Supports Bluetooth® 5.3 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in Windows 11.\n\n Bluetooth 5.3 will be ready in Windows 10 build 21H1 and Windows 11.\nWiFi & Bluetooth: Intel® Wi-Fi 6E module"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1641451939cdb7ca66ce454f702dc30211fa528964.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\nATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B660 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "storagePorts": {
+        "value": "6x SATA 6Gb/s ports\n SATA5~8 (From B660 chipset)\n\n SATAA~B (From ASM1061)\n\n 3x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports up to PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280/ 22110 storage devices\n\n M2_2 & M2_3 slots (From B660 chipset)\n M2_2 supports up to PCIe 4.0 x4\n\n M2_3 supports up to PCIe 4.0 x2 1\n\n Supports SATA up to 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n Supports Intel® Optane™ Memory\n\n Supports Intel® Smart Response Technology for Intel Core™ processors\n SATA7 will be unavailable when installing M.2 SATA SSD in the M2_3 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "pcie": {
+        "value": "2x PCIe x16 slots\n PCI_E1 (From CPU)\n Support up to PCIe 4.0\n\n PCI_E2 (From B660 chipset)\n Support up to PCIe 3.0 x4\n\n 1x PCIe 3.0 x1 slot (From B660 chipset)",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: USB 2.0 Port\n\n DisplayPort 1.4\n\n 2.5G LAN Port\n\n Wi-Fi / Bluetooth Antenna\n\n HD Audio Connectors\n\n HDMI™ 2.1 Port\n\n USB 3.2 Gen 2 10Gbps Type-A\n\n USB 3.2 Gen 2x2 20Gbps Type-C\n\n Optical S/PDIF OUT",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 2x 8-pin ATX 12V power connectors\n\n 6x SATA 6Gb/s connectors\n\n 3x M.2 slots (M-Key)\n\n 1x USB 3.2 Gen 2 10Gbps Type-C port\n\n 1x USB 3.2 Gen 1 5Gbps connector (supports additional 2\n USB 3.2 Gen 1 5Gbps ports)\n\n 2x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1x 4-pin CPU fan connector\n\n 1x 4-pin water-pump fan connector\n\n 5x 4-pin system fan connectors\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x TPM module connector\n\n 1x TBT connector (supports RTD3)\n\n 1x Tuning Controller connecto",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125B-CG 2.5Gbps LAN controller\nWireless LAN & Bluetooth®: Intel® Wi-Fi 6E\n\n The Wireless module is pre-installed in the M.2 (Key-E) slot\n Supports MU-MIMO TX/RX, 2.4GHz/ 5GHz/ 6GHz 1 (160MHz) up to 2.4Gbps\n Supports 802.11 a/ b/ g/ n/ ac/ ax\n Supports Bluetooth® 5.3 2, FIPS, FISMA\n Wi-Fi 6E 6GHz may depend on every country’s regulations and will be ready in Windows 11.\n\n Bluetooth 5.3 will be ready in Windows 10 build 21H1 and Windows 11.\nWiFi & Bluetooth: Intel® Wi-Fi 6E module\nIntel® Wi-Fi 6E module",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC1220P Codec\n\n 7.1-Channel High Definition Audio\n\n Supports S/PDIF output",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n Please go to msi.com to get the newest support status as new processors are released.\n See supported processors\n1700",
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      }
+    }
+  }
+}

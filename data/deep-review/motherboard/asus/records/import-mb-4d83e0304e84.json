@@ -1,0 +1,262 @@
+{
+  "review": {
+    "id": "import-mb-4d83e0304e84",
+    "name": "ROG MAXIMUS Z690 FORMULA",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula/spec/",
+        "checkedAt": "2026-11-10T13:42:17+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "sha256": "3eaa5afbdb288526a6b9b364911b44498b00595408e21d99ffd1a3738d2257bf",
+        "bytes": 231519,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG MAXIMUS Z690 FORMULA",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/1E88FFA5-D6AD-4A5C-9E4E-045584015E56"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Form Factor",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "ROG MAXIMUS Z690 FORMULA",
+    "identityNote": "Modèle ASUS ROG MAXIMUS Z690 FORMULA confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 3,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "ROG MAXIMUS Z690 FORMULA",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for 13th Gen Intel® Core™ & 12th Gen Intel® Core™, Pentium® Gold and Celeron® Processors\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Z690"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 192GB, DDR5 6400+(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800MHz Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\n** Supported memory types, data rate (speed), and number of DRAM modules may vary depending on the CPU and memory configuration, for more information refer to www.asus.com for the memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI® port**\n2 x Intel® Thunderbolt™ 4 ports (USB Type-C®) support DisplayPort 1.4 and Thunderbolt™ video outputs***\n* Graphics specifications may vary between CPU types.\n** Support 4K@60Hz as specified in HDMI 2.1.\n*** VGA resolution support depends on processors' or graphic cards' resolution."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® CoreTM Processors (14th & 13th & 12th Gen)*\n2 x PCIe 5.0 x16 slot(s) (supports x16 or x8/x8 mode(s))**\nIntel® Z690 Chipset***\n1 x PCIe 4.0 x16 slot (supports x4 or x4/x4 mode)***\n* Please check PCIe bifurcation table in manual Chapter 1\n** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1, PCIEX16(G5)_2 will run x8 only and if ROG Hyper M.2 card is installed on PCIEX16(G5)_2, PCIEX16(G5)_1 will run x8 only.\n*** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 5 x M.2 slots and 6 x SATA 6Gb/s ports\nIntel® CoreTM Processors (14th & 13th & 12th Gen)*\nM.2_1 slot (Key M), type 2242/2260/2280/22110\n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nHyper M.2_1 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110***\n- Intel® 13th & 12th Gen processors support PCIe 5.0 x4 mode\n\nIntel® Z690 Chipset**\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\nHyper M.2_1 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110 (suppports PCIe 4.0 x4 mode)***\nHyper M.2_2 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110 (suppports PCIe 4.0 x4 mode)****\n6 x SATA 6Gb/s ports*****\n* Intel® Rapid Storage Technology supports NVMe RAID 0/1/5, SATA RAID 0/1/5/10.\n** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n*** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1, Hyper M.2_1 slot can support PCIe 5.0 x4 mode. When ROG Hyper M.2 card is installed on PCIEX16(G5)_2, Hyper M.2_1 slot can support PCIe 5.0 x4 mode. When ROG Hyper M.2 card is installed on PCIEX16(G4)_3, Hyper M.2_1 and Hyper M.2_2 slots can support PCIe 4.0 x4 mode.\n**** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1 or PCIEX16(G5)_2, Hyper M.2_2 slot will be disabled. When ROG Hyper M.2 card is installed on PCIEX16(G4)_3, Hyper M.2_1 and Hyper M.2_2 slots can support PCIe 4.0 x4 mode.\n***** SATA6G_E12 cannot support RAID 0/1/5/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Marvell® 10Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "Intel® Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later."
+          },
+          {
+            "label": "USB",
+            "value": "Total 12 ports\n2 x Thunderbolt™ 4 port(s) (2 x USB Type-C®)\n7 x USB 3.2 Gen 2 port(s) (6 x Type-A + 1 x USB Type-C®)\n3 x USB 2.0 port(s) (3 x Type-A)\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n2 x USB 3.2 Gen 1 header(s) support(s) additional 4 USB 3.2 Gen 1 ports\n2 x USB 2.0 header(s) support(s) additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4082\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\nAudio Features\n- SupremeFX Shielding Technology\n- ESS® SABRE9018Q2C DAC/AMP\n- Gold-plated audio jacks\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n\n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n7 x USB 3.2 Gen 2 port(s) (6 x Type-A + 1 x USB Type-C®)\n3 x USB 2.0 port(s) (3 x Type-A)\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Marvell® AQtion 10Gb Ethernet port\n5 x Gold-plated audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button\n1 x Clear CMOS button"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin CPU OPT Fan header(s)\n1 x 4-pin AIO Pump header(s)\n4 x 4-pin Chassis Fan header(s)\n1 x W_PUMP+ header(s)\n1 x 2-pin Water In header\n1 x 2-pin Water Out header\n1 x 3-pin Water Flow header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connector\n1 x 6-pin PCIe Graphics Card connector\nStorage related\n3 x M.2 slots (Key M)\n6 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n2 x USB 3.2 Gen 1 header(s) support(s) additional 4 USB 3.2 Gen 1 ports\n2 x USB 2.0 header(s) support(s) additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 header(s)\n1 x AURA RGB header(s)\n1 x FlexKey button\n1 x 12-1 pin Front Panel Audio header (AAFP)\n1 x ReTry button\n1 x SPI TPM header (14-1pin)\n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Extreme OC Kit\n- FlexKey button\n- ReTry button\n- Start button\nExtreme Engine Digi+\n- 10K Black Metallic Capacitors\n- MicroFine Alloy Choke\nASUS Q-Design\n- M.2 Q-Latch\n- PCIe Slot Q-Release\n- Q-Code\n- Q-Connector\n- Q-DIMM\n- Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- Q-Slot\nASUS Thermal Solution\n- CrossChill EK III\n- M.2 heatsink backplate\n- M.2 heatsinks\n- Steel backplate\nASUS EZ DIY\n- BIOS FlashBack™ button\n- Clear CMOS button\n- CPU Socket lever protector\n- ProCool II\n- Pre-mounted I/O shield\n- SafeSlot\n- SafeDIMM\nAURA Sync\n- AURA RGB header(s)\n- Addressable Gen 2 header(s)\nOLED 2\"\nFront Panel USB 3.2 Gen 2x2 with Quick Charge 4+ Support\n- Support: up to 60W charging*\n- Output: 5/9/15/20V max. 3A, PPS:3.3–21V max. 3A\n- Compatible with QC 4.0/3.0/2.0, PD3.0 and PPS\n* To support 60W, please install the power cable to 6-pin PCIe Graphics Card connector or can only support 27W\nASUS HYDRANODE\n- 1 x 12-1 pin Front Panel Audio header (AAFP)\n- 3 x Chassis fan support* (CHA_FAN1P,CHA_FAN2P,CHA_FAN3P)\n* Visit ASUS Website for the latest compatibility list."
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- GameFirst VI\n- ROG CPU-Z\n- Sonic Studio III + Sonic Studio Virtual Mixer + Sonic Suite Companion\n- Sonic Radar III\n- DTS® Sound Unbound\n- BullGuard Internet Security (1-year full version)\nASUS Exclusive Software\nArmoury Crate\n- AIDA64 Extreme (1 year full version)\n- AURA Creator\n- AURA Sync\n- Fan Xpert 4\n- Two-Way AI Noise Cancelation\nAI Suite 3\n- Easy Optimization with AI Overclocking\nTPU\nEPU\nDIGI+ Power Control\nTurbo app\nMyAsus\nWinRAR\nWEFI BIOS\nAI Overclocking Guide\nASUS EZ DIY\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\n- ASUS UEFI BIOS EZ Mode\nMemTest86"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n1 x ARGB RGB extension cable\n1 x RGB extension cable\n2 x ROG weave SATA 6G cables\n4 x SATA 6Gb/s cables\nROG Hyper M.2 Card\n1 x ROG Hyper M.2 Card\n2 x M.2 screw package for ROG Hyper M.2 Card\nMiscellaneous\n1 x ASUS Wi-Fi moving antennas\n1 x M.2 Rubber Package(s)\n1 x Q-connector\n1 x M.2 Q-Latch package(s)\n2 x M.2 Q-Latch packages for M.2 backplate\n1 x ROG key chain\n1 x ROG stickers\n1 x ROG thank you card\n1 x ROG Graphic card holder\nInstallation Media\n1 x USB drive with utilities and drivers\nDocumentation\n1 x User guide"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX\n30.5cm x 24.4cm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/1E88FFA5-D6AD-4A5C-9E4E-045584015E56"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "m2": {
+        "value": 3,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "formFactor": {
+        "value": "ATX\n30.5cm x 24.4cm",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX\n30.5cm x 24.4cm",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "chipset": {
+        "value": "Z690",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 5 x M.2 slots and 6 x SATA 6Gb/s ports\nIntel® CoreTM Processors (14th & 13th & 12th Gen)*\nM.2_1 slot (Key M), type 2242/2260/2280/22110\n- Intel® 13th & 12th Gen processors support PCIe 4.0 x4 mode.\nHyper M.2_1 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110***\n- Intel® 13th & 12th Gen processors support PCIe 5.0 x4 mode\n\nIntel® Z690 Chipset**\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 mode)\nM.2_3 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 & SATA modes)\nHyper M.2_1 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110 (suppports PCIe 4.0 x4 mode)***\nHyper M.2_2 slot (Key M) via ROG Hyper M.2 card, type 2242/2260/2280/22110 (suppports PCIe 4.0 x4 mode)****\n6 x SATA 6Gb/s ports*****\n* Intel® Rapid Storage Technology supports NVMe RAID 0/1/5, SATA RAID 0/1/5/10.\n** Intel® Rapid Storage Technology supports Intel® Optane Memory H Series on PCH attached M.2 slots.\n*** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1, Hyper M.2_1 slot can support PCIe 5.0 x4 mode. When ROG Hyper M.2 card is installed on PCIEX16(G5)_2, Hyper M.2_1 slot can support PCIe 5.0 x4 mode. When ROG Hyper M.2 card is installed on PCIEX16(G4)_3, Hyper M.2_1 and Hyper M.2_2 slots can support PCIe 4.0 x4 mode.\n**** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1 or PCIEX16(G5)_2, Hyper M.2_2 slot will be disabled. When ROG Hyper M.2 card is installed on PCIEX16(G4)_3, Hyper M.2_1 and Hyper M.2_2 slots can support PCIe 4.0 x4 mode.\n***** SATA6G_E12 cannot support RAID 0/1/5/10.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "pcie": {
+        "value": "Intel® CoreTM Processors (14th & 13th & 12th Gen)*\n2 x PCIe 5.0 x16 slot(s) (supports x16 or x8/x8 mode(s))**\nIntel® Z690 Chipset***\n1 x PCIe 4.0 x16 slot (supports x4 or x4/x4 mode)***\n* Please check PCIe bifurcation table in manual Chapter 1\n** When ROG Hyper M.2 card is installed on PCIEX16(G5)_1, PCIEX16(G5)_2 will run x8 only and if ROG Hyper M.2 card is installed on PCIEX16(G5)_2, PCIEX16(G5)_1 will run x8 only.\n*** Supports Intel® Optane Memory H Series on PCH-attached PCIe slot",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "rearIO": {
+        "value": "2 x Thunderbolt™ 4 USB Type-C® port(s)\n7 x USB 3.2 Gen 2 port(s) (6 x Type-A + 1 x USB Type-C®)\n3 x USB 2.0 port(s) (3 x Type-A)\n1 x HDMI® port\n1 x Wi-Fi Module\n1 x Marvell® AQtion 10Gb Ethernet port\n5 x Gold-plated audio jacks\n1 x Optical S/PDIF out port\n1 x BIOS FlashBack™ button\n1 x Clear CMOS button",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header(s)\n1 x 4-pin CPU OPT Fan header(s)\n1 x 4-pin AIO Pump header(s)\n4 x 4-pin Chassis Fan header(s)\n1 x W_PUMP+ header(s)\n1 x 2-pin Water In header\n1 x 2-pin Water Out header\n1 x 3-pin Water Flow header\nPower related\n1 x 24-pin Main Power connector\n2 x 8-pin +12V Power connector\n1 x 6-pin PCIe Graphics Card connector\nStorage related\n3 x M.2 slots (Key M)\n6 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 2x2 connector (supports USB Type-C®)\n2 x USB 3.2 Gen 1 header(s) support(s) additional 4 USB 3.2 Gen 1 ports\n2 x USB 2.0 header(s) support(s) additional 4 USB 2.0 ports\nMiscellaneous\n3 x Addressable Gen 2 header(s)\n1 x AURA RGB header(s)\n1 x FlexKey button\n1 x 12-1 pin Front Panel Audio header (AAFP)\n1 x ReTry button\n1 x SPI TPM header (14-1pin)\n1 x Start button\n1 x 10-1 pin System Panel header\n1 x Thermal Sensor header",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "network": {
+        "value": "1 x Marvell® 10Gb Ethernet\nASUS LANGuard\nIntel® Wi-Fi 6E\n2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax)\nSupports 2.4/5/6GHz frequency band*\nBluetooth v5.2\n* WiFi 6E 6GHz regulatory may vary between countries, and function will be ready in Windows 11 or later.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "audio": {
+        "value": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4082\n- Impedance sense for front and rear headphone outputs\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality 120 dB SNR stereo playback output and 113 dB SNR recording input\n- Supports up to 32-Bit/384 kHz playback\nAudio Features\n- SupremeFX Shielding Technology\n- ESS® SABRE9018Q2C DAC/AMP\n- Gold-plated audio jacks\n- Rear optical S/PDIF out port\n- Premium audio capacitors\n\n*The rear panel Line out port does not support spatial audio. If you wish to use spatial audio make sure to connect your audio output device to the audio jack on the front panel of your chassis.",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for 13th Gen Intel® Core™ & 12th Gen Intel® Core™, Pentium® Gold and Celeron® Processors\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z690-formula-model/spec/",
+        "checkedAt": "2026-11-10T13:42:18+00:00"
+      }
+    },
+    "manufacturerModel": "ROG MAXIMUS Z690 FORMULA"
+  }
+}

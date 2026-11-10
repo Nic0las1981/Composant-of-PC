@@ -3,6 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { RoundedBox } from "@react-three/drei";
 import * as THREE from "three";
 import { RoundedBoxGeometry } from "three/examples/jsm/geometries/RoundedBoxGeometry.js";
+import { caseAppearances } from "../../data/hardwareAppearance";
 import { MM, type CaseVisualProfile } from "../../data/visualProfiles";
 import { BoxInstances, HardwareFan, RGBStrip, useHardwareSurface, type BoxInstance } from "./HardwarePrimitives";
 
@@ -88,7 +89,7 @@ function Screw({
   );
 }
 
-type Perforation = "round" | "diagonal" | "triangle" | "slats";
+type Perforation = "round" | "diagonal" | "triangle" | "slats" | "fine" | "hexagon" | "square";
 function usePerforation(kind: Perforation) {
   const texture = useMemo(() => {
     const canvas = document.createElement("canvas");
@@ -100,7 +101,7 @@ function usePerforation(kind: Perforation) {
     if (kind === "slats") {
       for (let x = 8; x < 128; x += 16) ctx.fillRect(x, 5, 8, 118);
     } else {
-      const gap = kind === "diagonal" ? 23 : 17;
+      const gap = kind === "fine" || kind === "square" ? 7 : kind === "hexagon" ? 18 : kind === "diagonal" ? 23 : 17;
       for (let y = 0; y <= 128; y += gap)
         for (let x = -gap; x <= 128; x += gap) {
           const shift = ((Math.floor(y / gap) % 2) * gap) / 2;
@@ -115,7 +116,9 @@ function usePerforation(kind: Perforation) {
             ctx.lineTo(x + shift + 6, y);
             ctx.lineTo(x + shift, y + 6);
             ctx.lineTo(x + shift - 6, y);
-          } else ctx.arc(x + shift, y, 4.9, 0, Math.PI * 2);
+          } else if (kind === "square") ctx.rect(x + shift - 2, y - 2, 4, 4);
+          else if (kind === "hexagon") { for (let side=0;side<6;side++) { const angle=Math.PI*side/3; const px=x+shift+7.5*Math.cos(angle),py=y+7.5*Math.sin(angle); if(side)ctx.lineTo(px,py);else ctx.moveTo(px,py); } ctx.closePath(); }
+          else ctx.arc(x + shift, y, kind === "fine" ? 2.8 : 4.9, 0, Math.PI * 2);
           ctx.fill();
         }
     }
@@ -137,6 +140,7 @@ function MeshPanel({
   pattern = "round",
   ghost = false,
   nonInteractive = false,
+  geometricPrint = false,
 }: {
   size: [number, number];
   position: Vec3;
@@ -145,8 +149,13 @@ function MeshPanel({
   pattern?: Perforation;
   ghost?: boolean;
   nonInteractive?: boolean;
+  geometricPrint?: boolean;
 }) {
   const alpha = usePerforation(pattern);
+  const graphic=useMemo(()=>{if(!geometricPrint)return undefined;const c=document.createElement('canvas');c.width=c.height=256;const ctx=c.getContext('2d')!;ctx.fillStyle='#4c5252';ctx.fillRect(0,0,256,256);
+    for(let row=0;row<8;row++)for(let col=0;col<8;col++){const x=col*32,y=row*32;ctx.fillStyle=['#4e5656','#747c7b','#909593','#343d3f'][(row*3+col)%4];ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+32,y);ctx.lineTo(x+(row%2?0:32),y+32);ctx.closePath();ctx.fill();}
+    const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(2,3);return t;},[geometricPrint]);
+  useEffect(()=>()=>graphic?.dispose(),[graphic]);
   const surface = useHardwareSurface("paint");
   return (
     <mesh
@@ -157,7 +166,8 @@ function MeshPanel({
     >
       <planeGeometry args={size} />
       <meshStandardMaterial
-        color={color}
+        color={geometricPrint ? "#ffffff" : color}
+        map={graphic}
         metalness={0.16}
         roughness={0.62}
         bumpMap={surface?.texture}
@@ -345,6 +355,33 @@ function TopIO({
   );
 }
 
+function FrontIO({ width:w, height:h, depth:d, top, light }: {width:number;height:number;depth:number;top:boolean;light:boolean}) {
+  const y=top?h/2-.17:-h/2+.17,z=d/2+.028;
+  const metal=light?'#667478':'#adb9bb';
+  return <group name={top?'front-top-io':'front-bottom-io'}>
+    <mesh position={[w*.32,y,z]}><ringGeometry args={[.035,.044,24]}/><meshStandardMaterial color={metal} metalness={.7}/></mesh>
+    <mesh position={[w*.32,y,z-.001]}><circleGeometry args={[.034,24]}/><meshStandardMaterial color={light?'#d2d8d6':'#171d20'} roughness={.5}/></mesh>
+    {[-.18,0].map((offset,i)=><group key={i} position={[w*.1+offset,y,z]}>
+      <Metal size={[.105,.037,.009]} color={metal}/><Metal position={[0,0,.006]} size={[.087,.023,.006]} color="#0b1216"/>
+    </group>)}
+    <Metal position={[w*.1-.33,y,z]} size={[.06,.022,.01]} color="#10181c"/>
+    <mesh position={[w*.1-.46,y,z]}><ringGeometry args={[.012,.019,16]}/><meshStandardMaterial color={metal} metalness={.6}/></mesh>
+  </group>;
+}
+
+/** Facets follow the Meshify front silhouette; tiny mesh holes stay a texture. */
+function FacetedIntake({width:w,height:h,position,color}:{width:number;height:number;position:Vec3;color:string}) {
+  const alpha=usePerforation('fine');
+  const geometry=useMemo(()=>{
+    const points=[[-w/2,-h/2,0],[w/2,-h/2,0],[w/2,h/2,0],[-w/2,h/2,0],[-w*.08,h*.08,.075]];
+    const vertices:number[]=[],uvs:number[]=[];
+    [[0,1,4],[1,2,4],[2,3,4],[3,0,4]].forEach(triangle=>triangle.forEach(index=>{const p=points[index];vertices.push(...p);uvs.push(p[0]/w+.5,p[1]/h+.5);}));
+    const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(vertices,3));g.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));g.computeVertexNormals();return g;
+  },[w,h]);
+  useEffect(()=>()=>geometry.dispose(),[geometry]);
+  return <mesh name="meshify-faceted-front" geometry={geometry} position={position}><meshStandardMaterial color={color} alphaMap={alpha} alphaTest={.5} roughness={.48} metalness={.3} side={THREE.DoubleSide}/></mesh>;
+}
+
 /** Recessed rubber cable pass-throughs on the motherboard tray. */
 function CableGrommet({ position, height = 0.32, width = 0.16 }: { position: Vec3; height?: number; width?: number }) {
   const ribs = useMemo<BoxInstance[]>(() => Array.from({ length: 4 }, (_, i) => ({
@@ -455,7 +492,7 @@ function SidePanel({
           rotation={[0, Math.PI / 2, 0]}
           size={[depth - 0.13, height - 0.17]}
           color={profile.color}
-          pattern={profile.kind === "sandwich" ? "slats" : "round"}
+          pattern={profile.kind === "sandwich" ? "slats" : profile.id === "case-ap201" ? "square" : "fine"}
           ghost={ghost}
           nonInteractive
         />
@@ -476,6 +513,7 @@ function SidePanel({
           />
         </mesh>
       )}
+      {caseAppearances[profile.id]?.lowerSideMesh && <MeshPanel position={[.011,-height*.35,0]} rotation={[0,Math.PI/2,0]} size={[depth-.16,height*.23]} color={profile.frameColor} pattern="fine" ghost={ghost} nonInteractive/>}
       {!ghost && (
         <>
           {profile.sidePanel !== "vented" && (
@@ -620,7 +658,8 @@ function TowerFrame({
         rotation={[-Math.PI / 2, 0, 0]}
         size={[w - 0.14, d - 0.19]}
         color={profile.color}
-        pattern={profile.kind === "compact" ? "diagonal" : "round"}
+        pattern={profile.id === "case-ap201" ? "square" : "fine"}
+        geometricPrint={profile.id === "case-q300l"}
       />
       <RearPanel profile={profile} width={w} height={h} depth={d} />
       {[-1, 1].flatMap((x) =>
@@ -633,7 +672,8 @@ function TowerFrame({
           />
         )),
       )}
-      {profile.id !== "case-q300l" && <TopIO width={w} height={h} depth={d} light={isLightCase(profile)} />}
+      {(caseAppearances[profile.id]?.ioPosition === "top" || !caseAppearances[profile.id]) && <TopIO width={w} height={h} depth={d} light={isLightCase(profile)} />}
+      {(caseAppearances[profile.id]?.ioPosition === "front-top" || caseAppearances[profile.id]?.ioPosition === "front-bottom") && <FrontIO width={w} height={h} depth={d} top={caseAppearances[profile.id]?.ioPosition === "front-top"} light={isLightCase(profile)}/>}
     </group>
   );
 }
@@ -665,6 +705,7 @@ function Panoramic({
   return (
     <group>
       <TowerFrame profile={profile} width={w} height={h} depth={d} />
+      {caseAppearances[profile.id]?.ioPosition === "front-bottom" && <Metal position={[0,-h/2+.12,d/2+.016]} size={[w,.22,.04]} color={profile.frameColor}/>}
       <Metal
         size={[w * 0.22, h - 0.14, 0.07]}
         position={[-w * 0.39, 0.025, d / 2 - 0.04]}
@@ -764,7 +805,8 @@ function Airflow({
   const frontFans = Math.max(0, profile.fanCount - rearFans);
   const fanSize = profile.fanSizeMm * MM;
   const nzxt = profile.id === "case-h7";
-  const triangularFront = /^case-(4000d|5000d)/.test(profile.id);
+  const appearance = caseAppearances[profile.id];
+  const triangularFront = appearance?.frontPattern === "triangles";
   return (
     <group>
       <TowerFrame profile={profile} width={w} height={h} depth={d} />
@@ -817,12 +859,14 @@ function Airflow({
         />
       )}
       <IntakeFilter width={w - 0.28} height={h - 0.29} position={[0, 0.04, d / 2 + 0.014]} />
-      <MeshPanel
+      {appearance?.frontPattern === "faceted-mesh" ? <FacetedIntake width={w-.27} height={h-.28} position={[0,.04,d/2+.042]} color={profile.frontColor}/> : <MeshPanel
         position={[0, 0.04, d / 2 + 0.042]}
         size={[w - 0.27, h - 0.28]}
         color={light ? "#d0d7d7" : "#40494b"}
-        pattern={triangularFront ? "triangle" : nzxt ? "round" : "diagonal"}
-      />
+        pattern={triangularFront ? "triangle" : appearance?.frontPattern === "hexagons" ? "hexagon" : "fine"}
+      />}
+      {appearance?.lowerFrontCover && <Metal size={[w-.14,h*.18,.06]} position={[0,-h*.39,d/2+.045]} color={profile.frontColor}/>}
+      {appearance?.lowerSideMesh && <Metal size={[.035,.025,d-.1]} position={[w/2,-h*.23,0]} color={profile.frameColor}/>}
       <FrontBadge
         text={caseBrand(profile)}
         position={[0, -h / 2 + 0.22, d / 2 + 0.053]}
@@ -850,11 +894,13 @@ function Compact({ profile, openSide, exploded }: CaseModelProps) {
   return (
     <group>
       <TowerFrame profile={profile} width={w} height={h} depth={d} />
+      {!q300 && <Metal position={[0,h/2-.14,d/2+.015]} size={[w-.08,.28,.04]} color={profile.frontColor}/>}
       <MeshPanel
         position={[0, 0.025, d / 2 + 0.008]}
         size={[w - 0.1, h - 0.14]}
         color={light ? "#cfd8d7" : "#434c50"}
-        pattern={q300 ? "diagonal" : "round"}
+        pattern={q300 ? "fine" : "square"}
+        geometricPrint={q300}
       />
       <Metal
         size={[0.07, h - 0.08, 0.05]}

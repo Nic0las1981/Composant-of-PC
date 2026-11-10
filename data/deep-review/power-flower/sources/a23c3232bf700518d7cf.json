@@ -1,0 +1,692 @@
+{
+  "url": "https://www.super-flower.com.tw/products-detail/ZILLIONDB/",
+  "checkedAt": "2026-11-10T15:06:09.262811+00:00",
+  "status": 200,
+  "resolvedURL": "https://www.super-flower.com.tw/products-detail/ZILLIONDB/",
+  "sha256": "f1bfeb2bfa1ccaaa00d52f0568b2def5146418b288f86206af4f108da1f23572",
+  "bytes": 150746,
+  "rawFile": "data/deep-review/power-flower/sources/a23c3232bf700518d7cf.raw.gz",
+  "format": "html",
+  "textSegments": [
+    "ZILLION DB SILVER-振華電腦有限公司",
+    "{\n\t\"@context\": \"http://schema.org\",\n\t\"@type\": \"BreadcrumbList\",\n\t\"itemListElement\": [\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 1,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/\",\n\t\t\t\t\"name\": \"HOME\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 2,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/\",\n\t\t\t\t\"name\": \"PRODUCTS\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 3,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/Power-Supplies/\",\n\t\t\t\t\"name\": \"Power Supply\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 4,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/Power-Supplies/PowerSupplyZILLION/\",\n\t\t\t\t\"name\": \"ZILLION\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 5,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products-detail/ZILLIONDB/\",\n\t\t\t\t\"name\": \"ZILLION DB SILVER\"\n\t\t\t}\n\t\t}\n\t]\n}",
+    "const isMobile = false;\n\tconst isTablet = false;\n    const _http_url_link = 'https://www.super-flower.com.tw/';\n    const http_url_link = 'https://www.super-flower.com.tw/';",
+    ".cls-2{fill:#0033a1}",
+    ";(function() {\n        const bodyDom = document.querySelector('body');\n        const loadingDom = document.querySelector('.loadingArea');\n        bodyDom.classList.add('loadingOverflow');\n\n                if(!navigator.cookieEnabled) {\n            removeLoading();\n            return;\n        }\n\n                const loadingSession = sessionStorage.getItem('loading');\n        if(loadingSession === 'ok') {\n            // 無 loading，直接設旗標讓 index.php $(function(){}) 接手啟動 banner\n            window._bannerShouldStart = true;\n            removeLoading();\n            return;\n        }\n\n        sessionStorage.setItem('loading','ok');\n        setTimeout(showLoading, 500);\n        setTimeout(hideLoading, 4000);\n        setTimeout(removeLoading, 5000);\n\n                function showLoading() {\n            loadingDom.classList.add('show');\n        }\n\n                function hideLoading() {\n            loadingDom.classList.add('hide');\n            loadingDom.style.pointerEvents = \"none\";\n        }\n\n                function removeLoading() {\n            loadingDom.remove();\n            bodyDom.classList.remove('loadingOverflow');\n\n            // 通知 bannerArea 可以開始播放\n            window._bannerShouldStart = true;\n            document.dispatchEvent(new CustomEvent('bannerStart'));\n\n            // 晚點出現 privacyArea\n            setTimeout(function() {\n                const privacyArea = document.querySelector('.privacyArea');\n                if(privacyArea){\n                    privacyArea.classList.add('show');\n                }\n            }, 1500);\n        }\n    })();",
+    "PRODUCTS",
+    "Power Supply",
+    "Cooling",
+    "Cases",
+    "Fans",
+    "Others",
+    "WHERE TO BUY",
+    "NEWS",
+    "Notices",
+    "Reviews",
+    "Media",
+    "Awards",
+    "COMPANY",
+    "FAQ",
+    "CONTACT",
+    "EN",
+    "繁",
+    "HOME",
+    "PRODUCTS",
+    "Power Supply",
+    "ZILLION",
+    "ZILLION DB SILVER",
+    "ZILLION DB SILVER",
+    "Support All Intel / AMD Multi-Core CPU & ATX / BTX Compatible Motherboards.",
+    "Support NVIDIA® SLI™ & ATI CrossFireX™ High Performance Graphic Card.",
+    "Cybenetics Silver Certified, ≥87% & <89% overall efficiency.",
+    "Comply With Energy Star Standard & EuP (Energy Using Products) Regulation",
+    "Comply With ATX 12V v2.3, EPS 12V v2.92 Specification.",
+    "PCI-E (6+2) Pin Connector For High-End Graphic Card Requirement.",
+    "OVP / SCP / OPP / NLP",
+    "All Flat Cables.",
+    "Taiwanese Main Capacitor.",
+    "WATTAGE",
+    "850W",
+    "750W",
+    "650W",
+    "COLOR",
+    "COLOR",
+    "COLOR",
+    "ADD TO INQUIRY",
+    "ADD TO COMPARE",
+    "var currentInquiryList = ([] || []).map(String);\n\t\t\t\t\tvar currentCompareList = ([] || []).map(String);\n\t\t\t\t\tvar langArr = {\n\t\t\t\t\t\taddInquiry: \"ADD TO INQUIRY\",\n\t\t\t\t\t\tremoveInquiry: \"REMOVE FROM INQUIRY\",\n\t\t\t\t\t\taddCompare: \"ADD TO COMPARE\",\n\t\t\t\t\t\tremoveCompare: \"REMOVE FROM COMPARE\"\n\t\t\t\t\t};",
+    "OVERVIEW",
+    "SPECIFICATION",
+    "CABLE",
+    "850W",
+    "750W",
+    "650W",
+    "Technical Specifications",
+    "Model No.",
+    "ZILLION DB Silver 850W ATX3.1 (2025)",
+    "ZILLION DB Silver 750W ATX3.1 (2025)",
+    "ZILLION DB Silver 650W ATX3.1 (2025)",
+    "WATTAGE",
+    "850W",
+    "750W",
+    "650W",
+    "80PLUS®",
+    "Cybenetics Efficiency Level",
+    "Silver",
+    "Silver",
+    "Silver",
+    "Cybenetics Noise Level",
+    "Intel Power Design Guide",
+    "Dimensions",
+    "140mm(L) x 150mm(W) x 86mm(H)",
+    "140mm(L) x 150mm(W) x 86mm(H)",
+    "140mm(L) x 150mm(W) x 86mm(H)",
+    "Fan Information",
+    "Fan Size",
+    "120mm HDB Fan",
+    "120mm HDB Fan",
+    "120mm HDB Fan",
+    "Fan Bearing",
+    "Electrical Features",
+    "Frequency",
+    "AC Input",
+    "200V~240V | 50-60Hz",
+    "200V~240V | 50-60Hz",
+    "200V~240V | 50-60Hz",
+    "Protection",
+    "OVP  SCP  OPP  NLP",
+    "OVP  SCP  OPP  NLP",
+    "OVP  SCP  OPP  NLP",
+    "Operating Temperature",
+    "Cable Information",
+    "Modularity",
+    "Cable type",
+    "Safety and Environmental",
+    "Safety and EMC",
+    "TÜV / CB / CE / RoHS",
+    "TÜV / CB / CE / RoHS",
+    "TÜV / CB / CE / RoHS",
+    "Environmental Compliance",
+    "Power Output",
+    "model no.: SF-550Z12DB",
+    "AC INPUT",
+    "200-240V~, 50-60Hz, 6A",
+    "DC OUTPUT",
+    "+3.3V",
+    "+5V",
+    "+12V",
+    "-12V",
+    "+5VSB",
+    "550W",
+    "Max Output Current",
+    "18A",
+    "18A",
+    "70.8A",
+    "0.3A",
+    "3A",
+    "Max Combined Wattage",
+    "100W",
+    "849.6W",
+    "3.6W",
+    "15W",
+    "850W",
+    "Power Output",
+    "model no.: SF-550Z12DB",
+    "AC INPUT",
+    "200-240V~, 50-60Hz, 6A",
+    "DC OUTPUT",
+    "+3.3V",
+    "+5V",
+    "+12V",
+    "-12V",
+    "+5VSB",
+    "550W",
+    "Max Output Current",
+    "18A",
+    "18A",
+    "62.5A",
+    "0.3A",
+    "3A",
+    "Max Combined Wattage",
+    "100W",
+    "750W",
+    "3.6W",
+    "15W",
+    "750W",
+    "Power Output",
+    "model no.: SF-550Z12DB",
+    "AC INPUT",
+    "200-240V~, 50-60Hz, 6A",
+    "DC OUTPUT",
+    "+3.3V",
+    "+5V",
+    "+12V",
+    "-12V",
+    "+5VSB",
+    "550W",
+    "Max Output Current",
+    "18A",
+    "18A",
+    "54.1A",
+    "0.3A",
+    "3A",
+    "Max Combined Wattage",
+    "100W",
+    "649.2W",
+    "3.6W",
+    "15W",
+    "650W",
+    "850W",
+    "750W",
+    "650W",
+    "20+4Pin",
+    "x1",
+    "(4+4Pin) CPU",
+    "x2",
+    "SLI (2 x PCI 6+2 Pin)",
+    "x2",
+    "4 SATA",
+    "x2",
+    "4 Molex",
+    "x1",
+    "20+4Pin",
+    "x1",
+    "(4+4Pin) CPU",
+    "x2",
+    "SLI (2 x PCI 6+2 Pin)",
+    "x2",
+    "4 SATA",
+    "x2",
+    "4 Molex",
+    "x1",
+    "20+4Pin",
+    "x1",
+    "(4+4Pin) CPU",
+    "x1",
+    "SLI (2 x PCI 6+2 Pin)",
+    "x1",
+    "PCI-E 6+2Pin",
+    "x1",
+    "3 SATA + 1 Molex",
+    "x2",
+    "PRODUCTS",
+    "WHERE TO BUY",
+    "NEWS",
+    "COMPANY",
+    "FAQ",
+    "CONTACT",
+    "ADD:",
+    "7F., No. 649-1, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 242, Taiwan (R.O.C.)",
+    "TEL:",
+    "02-2908-5366",
+    "FAX:",
+    "02-2908-5400",
+    "Copyright ©",
+    "2026",
+    "SUPER FLOWER",
+    "All Rights Reserved.",
+    "Design",
+    "iBest",
+    "PRIVACY POLICY",
+    "Cookie Settings",
+    "PRE-ORDER",
+    "0",
+    "COMPARE",
+    "0",
+    "INQUIRY",
+    "0",
+    "Q&A",
+    "TOP",
+    "$(function() {\n        const chartData = [];\n\n        window.newChart = () => {\n            /**\n             * 取得圖表資料\n             */\n            $('.chart').each(function() {\n                const str = $(this).data('chart');\n                if (str == undefined) return;\n                // html string to json\n                let data = str\n                    .replace(/&quot;/g, '\"')\n                    .replace(/&lt;/g, '<')\n                    .replace(/&gt;/g, '>')\n                    .replace(/&amp;/g, '&')\n                    .replace(/&nbsp;/g, ' ')\n                    .replace(/&apos;/g, \"'\")\n                data = JSON.parse(data);\n                chartData.push({\n                    id: $(this).attr('id'),\n                    code: `{{CHART.${$(this).data('code')}}}`,\n                    title: $(this).data('title'),\n                    type: $(this).data('type'),\n                    importData: data,\n                });\n            });\n\n            chartData.forEach((item, index) => {\n                item.chart = new ChartPreview(item);\n            });\n            window.chartIntances = chartData.map(item => item.chart);\n        }\n        \n        window.destoryChart = () => {\n            chartData.forEach((item, index) => {\n                item.chart.chart.destroy();\n            });\n            chartData.splice(0, chartData.length);\n            window.chartIntances = [];\n        }\n\n        newChart();\n    });",
+    "$(function() {\n        $('.textEditor .numberList, .textEditor .cardList, .textEditor .infoList').each(function() {\n            let counts = [];\n            const wrap = $(this);\n            wrap.find('.num .text').each(function() {\n                const num = $(this).text().trim();\n                const len = num.length;\n                let decimalPlaces = 0;\n                if (num.indexOf('.') > -1) {\n                    decimalPlaces = 2;\n                }\n                const options = {\n                    separator: ',',\n                    decimalPlaces,\n                    duration: 2,\n                }\n                const count = new countUp.CountUp($(this)[0], num, options);\n                counts.push(count);\n            });\n\n            let isStart = false;\n            if ($(document).scrollTop() > wrap.offset().top - $(window).height() / 1.05) {\n                if (isStart) return;\n                setTimeout(() => {\n                    counts.forEach(function(count) {\n                        count.start();\n                    });\n                }, 300);\n                isStart = true;\n            }\n            $(document).on('scroll', function() {\n                if ($(document).scrollTop() > wrap.offset().top - $(window).height() / 1.05) {\n                    if (isStart) return;\n                    setTimeout(() => {\n                        counts.forEach(function(count) {\n                            count.start();\n                        });\n                    }, 300);\n                    isStart = true;\n                }\n            });\n        });\n    })",
+    "$(function() {\n        const currentSlide = $('.swiper-slide.current').index();\n        const startSlide = currentSlide - 1 < 0 ? 0 : currentSlide - 1;\n\n        const num = $('.swiper-slide.classItem').length;\n        let itemWidth = 0;\n        $('.classLink .classItem').each(function() {\n            itemWidth += $(this).outerWidth();\n        });\n        let containerWidth = $('.classLink').outerWidth();\n\n        const swiper = new Swiper('.swiperClassLink', {\n            slidesPerView: 'auto',\n            freeMode: {\n                enabled: true,\n                sticky: true,\n            },\n            initialSlide: startSlide,\n            // loopedSlides: 8,\n            // loop: true,\n            on: {\n                init: function() {\n                    if (currentSlide === 0) {\n                        $('.classLink').addClass('onLeft');\n                    }\n                },\n            }\n        });\n\n        if (itemWidth < containerWidth) {\n            $('.classLink').addClass('onRight');\n            $('.classLink').addClass('onLeft');\n        } else {\n            if (currentSlide === 0) {\n                $('.esgList').addClass('onLeft');\n            }\n\n            if (currentSlide === num - 1) {\n                $('.esgList').addClass('onRight');\n            }\n\n            swiper.on('slideChangeTransitionEnd', function() {\n                if (swiper.isBeginning) return;\n                if (swiper.isEnd) return;\n                $('.classLink').removeClass('onLeft');\n                $('.classLink').removeClass('onRight');\n            });\n\n            swiper.on('reachEnd', function() {\n                $('.classLink').addClass('onRight');\n                $('.classLink').removeClass('onLeft');\n            });\n\n            swiper.on('reachBeginning', function() {\n                $('.classLink').addClass('onLeft');\n                $('.classLink').removeClass('onRight');\n            });\n        }\n    });",
+    "EN",
+    "繁",
+    "PRODUCTS",
+    "Power Supply",
+    "Cooling",
+    "Cases",
+    "Fans",
+    "Others",
+    "WHERE TO BUY",
+    "NEWS",
+    "Notices",
+    "Reviews",
+    "Media",
+    "Awards",
+    "COMPANY",
+    "FAQ",
+    "CONTACT",
+    "Copyright ©",
+    "2026",
+    "SUPER FLOWER",
+    "All Rights Reserved.",
+    "Design",
+    "iBest",
+    "PRIVACY POLICY",
+    "Cookie Settings",
+    "if(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readInquiry();\n})\n\nfunction pdInquiryLen(num) {\n    $(\".inquiryCartCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#moduleInquiry\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#moduleInquiry\"]').removeClass('show');\n    }\n}\n\nfunction printInquiryList(items) {\n    if(!items.length) {\n        $('#car_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (let i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#car_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" aria-label=\"Delete\" style=\"cursor:pointer\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n\n        $('#car_list_html .del').last().on('click', function(){\n            addInquiry(currentItem.data_id);\n        });\n    }\n}\n\nfunction addInquiry(id) \n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('#pr_btn_'+id).text('REMOVE FROM INQUIRY').addClass('bgSecond');\n                $('#pr_btn_'+id).addClass('current');\n\n                                    toasts.show('Added to inquiry', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('#pr_btn_'+id).text('ADD TO INQUIRY').removeClass('bgSecond');\n                $('#pr_btn_'+id).removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                                \n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readInquiry()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#car_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllInquiry()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('a[id*=\"pr_btn_\"]').text('ADD TO INQUIRY').removeClass('bgSecond');\n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeInquiry(id)\n{\n    $('#pr_tr_'+id).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n            if(result.items == 0){\n                $('#service_form .dataTable').remove();\n            }\n        }\n    });\n}",
+    "INQUIRY",
+    "total",
+    "0",
+    "items",
+    "Clear",
+    "Inquiry",
+    "$('#moduleInquiry .clear').last().on('click',function(){\n                    removeAllInquiry();\n                });",
+    "if(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readpreorder();\n})\n\nfunction pdpreorderLen(num) {\n    $(\".preorderCartCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#modulepreorder\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#modulepreorder\"]').removeClass('show');\n    }\n}\n\nfunction printpreorderList(items) {\n    if(!items.length) {\n        $('#preorder_car_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (let i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#preorder_car_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" aria-label=\"Delete\" style=\"cursor:pointer\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n\n        $('#preorder_car_list_html .del').last().on('click', function(){\n            addpreorder(currentItem.data_id);\n        });\n    }\n}\n\nfunction addpreorder(id) \n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('#pr_btn_'+id).text('REMOVE FROM PRE-ORDER').addClass('bgSecond');\n                $('[data-pr-id=\"'+id+'\"]').addClass('current');\n\n                                    toasts.show('Added to pre-order', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('#pr_btn_'+id).text('ADD TO PRE-ORDER').removeClass('bgSecond');\n                $('[data-pr-id=\"'+id+'\"]').removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                                \n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readpreorder()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllpreorder()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('a[id*=\"pr_btn_\"]').text('ADD TO PRE-ORDER').removeClass('bgSecond');\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removepreorder(id)\n{\n    $('#pr_tr_'+id).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n            if(result.items == 0){\n                $('#service_form .dataTable').remove();\n            }\n        }\n    });\n}",
+    "PRE-ORDER",
+    "total",
+    "0",
+    "items",
+    "Clear",
+    "Pre-Order",
+    "$('#modulepreorder .clear').last().on('click',function(){\n                    removeAllpreorder();\n                });",
+    "if(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readCompare();\n    $('#moduleCompare .compareLink').on('click',function(){\n        if(parseInt($('#moduleCompare .compareCount').text()) < 2)\n        {\n            alert('Need at least two items to compare');\n            window.location.href='https://www.super-flower.com.tw/products/';\n        }\n        else\n        {\n            window.location.href='https://www.super-flower.com.tw/products/compare/';\n        }\n    });\n})\n\nfunction pdLen(num) {\n    $(\".compareCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#moduleCompare\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#moduleCompare\"]').removeClass('show');\n    }\n}\n\nfunction printList(items) {\n    if(!items.length) {\n        $('#compare_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (var i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#compare_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" style=\"cursor:pointer\" aria-label=\"Delete\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n        \n        $('.del').last().on('click', function(){\n            compare(currentItem.data_id);\n        });\n    }\n}\n\nfunction compare(id)\n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n    \n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('[id=\"compare_btn_'+id+'\"]').text('REMOVE FROM COMPARE').addClass('bgSecond');\n                $('[id=\"compare_btn_'+id+'\"]').addClass('current');\n\n                                    toasts.show('Added to compare', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('[id=\"compare_btn_'+id+'\"]').text('ADD TO COMPARE').removeClass('bgSecond');\n                $('[id=\"compare_btn_'+id+'\"]').removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readCompare()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllCompare()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('[id^=\"compare_btn_\"]').removeClass('current');\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeCompare(id)\n{\n    $(`[data-c-id='${id}']`).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n\n            if(result.items.length <= 1){\n                alert('請加入兩項以上產品進行比較');\n                window.location.href='https://www.super-flower.com.tw/products/';\n            }\n        }\n    });\n}",
+    "COMPARE",
+    "total",
+    "0",
+    "items",
+    "Clear",
+    "Compare",
+    "$('.clear').last().on('click',function(){\n                    removeAllCompare();\n                });",
+    "Search",
+    "We detected that you have disabled cookies. For the best experience, we recommend using cookies to browse this website to use all the features of this site.",
+    "我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息",
+    "Manage Cookies",
+    "Accept All",
+    "Privacy Settings",
+    "我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息",
+    "Privacy Policy",
+    "Accept All",
+    "Manage Consent Settings",
+    "Essential Cookies",
+    "Accept All",
+    "網站運行離不開這些 Cookie 且您不能在系統中將其關閉。通常僅根據您所做出的操作（即服務請求）來設置這些 Cookie，如設置隱私偏好、登錄或填充表格。您可以將您的瀏覽器設置為阻止或向您提示這些 Cookie，但可能會導致某些網站功能無法工作。",
+    "Marketing Cookies",
+    "行銷 Cookie 能用來追蹤訪客造訪網站的歷程。目的是用來顯示與個別使用者相關或吸引他們的廣告，因此對發佈者或第三方廣告商而言比較重要。",
+    "定向 Cookie",
+    "這些 Cookie 由廣告合作夥伴通過我們的網站進行設置。這些公司可能利用 Cookie 構建您的興趣分佈圖並向您展示其他網站上的相關廣告。它們只需識別您的瀏覽器和設備便可發揮作用。如果您不允許使用這些 Cookie，您將不能體驗不同網站上的定向廣告。",
+    "社交媒體 Cookie",
+    "這些 Cookie 由我們已添加到網站上的一系列社交媒體服務設置，使您能夠與朋友和網絡共享我們的內容。它們能夠通過其他網站跟踪您的瀏覽器並構建您的興趣分佈圖。這可能會影響您在訪問其他網站時所查看的內容和消息。如果您不允許使用這些 Cookie，您可能無法使用或查看這些共享工具。",
+    "Confirm Selection",
+    "(function() {\n        const privacyConsent = window.PrivacyConsent;\n        if (!privacyConsent) return;\n\n        const codeGroups = {\n            functional: {\n                head: \"\\n\",\n                bodyfront: \"\\n\",\n                bodyend: \"\\n\",\n            },\n            marketing: {\n                head: \"<!-- Google tag (gtag.js) -->\\r\\n<script async src=\\\"https:\\/\\/www.googletagmanager.com\\/gtag\\/js?id=G-M113HD0BRJ\\\" nonce=\\\"736e8ab5ed8eb7341a83fcc83f7975fb\\\"><\\/script>\\r\\n<script nonce=\\\"736e8ab5ed8eb7341a83fcc83f7975fb\\\">\\r\\n  window.dataLayer = window.dataLayer || [];\\r\\n  function gtag(){dataLayer.push(arguments);}\\r\\n  gtag('js', new Date());\\r\\n\\r\\n  gtag('config', 'G-M113HD0BRJ');\\r\\n<\\/script>\\n\",\n                bodyfront: \"\\n\",\n                bodyend: \"\\n\",\n            },\n        };\n\n        privacyConsent.syncCheckboxes({\n            functional: '#cookie_functional',\n            marketing: '#cookie_marketing',\n        });\n\n        $('#modulePrivacy .topBox .subtitle').on('click', function(e) {\n            $(this).parents('.topBox').stop(false, false).toggleClass('open');\n            $(this).parents('.topBox').siblings('.text').stop(false, false).slideToggle(300);\n        });\n        \n        function removePrivacyElement() {\n            $('body').removeClass('overflow');\n            $('#modulePrivacy, .moduleMask').removeClass('show');\n            $('.privacyArea').addClass('check');\n\n            setTimeout(function() {\n                $('#modulePrivacy, .privacyArea').remove();\n            }, 1000);\n        }\n\n        if(navigator.cookieEnabled) {\n\n            $('#modulePrivacy .privacyTrigger, .privacyArea .privacyTrigger').on('click', function(e) {\n                e.preventDefault();\n\n                const savedBefore = privacyConsent.get();\n                let privacyJson = {\n                    necessary: true,\n                    functional: true,\n                    marketing: true\n                };\n\n                if($(this).hasClass('acceptCustom')) {\n                    privacyJson = privacyConsent.readCheckboxes({\n                        functional: '#cookie_functional',\n                        marketing: '#cookie_marketing',\n                    });\n                }\n\n                const saved = privacyConsent.save(privacyJson);\n                if (!saved) return;\n\n                if (savedBefore !== null) {\n                    location.reload();\n                    return;\n                }\n\n                privacyConsent.injectGranted(codeGroups, saved);\n            \n                removePrivacyElement();\n            });\n        } else {\n            $('#modulePrivacy .btn a, .privacyArea .btn a.acceptAll').on('click', function(e) {\n                e.preventDefault();\n                removePrivacyElement();\n            });\n        }\n    })();",
+    ".line{fill:#4fc441;}",
+    ".google0{fill:#E94535;}\n\t\t\t.google1{fill:#4EA853;}\n\t\t\t.google2{fill:#4285F3;}\n\t\t\t.google3{fill:#F7BB32;}\n\t\t\t.google4{fill:#3C84EF;}",
+    ".facebook0{fill:#FFFFFF;}",
+    "$(document).ready(function() {\n        $('.titan').lightGallery({\n            actualSize: false,\n            download: false,\n            hash: false,\n            share: false,\n            // 影片自動撥放設定\n            autoplayFirstVideo: false, //是否自動撥放 (自動撥放一定要靜音，要注意是否需要出現控制列(開啟音量))\n            tumbnails: false,\n            youtubePlayerParams: {\n                rel: 0,\n                controls: 0 //0:隱藏 1:顯示控制列\n            },\n        });\n    });",
+    "$('table.responsive').footable();",
+    "$(document).ready(function() {\n        if ($('.ellipsis').length) {\n            $('.ellipsis').dotdotdot({\n                wrap: 'letter',\n                remove: [' ', ',', ';', '.', '!', '?'],\n                watch: true\n            });\n        }\n    });",
+    "window.getCopy=function(){var t=atob('RGdlLXN5aWlnZm5mI2VidXkyI3VpNkI2ZTZzMXQ2IyMlQnUzNiMzJTIjZmklc3U4OHUzMWUxZm4lMnV0OWU2YmZzYmIlJXVlOCUxZjYlNiMjNjIwMDMyMjZ1LTkxRDE4'),a='',i,p=function(s){return JSON.parse('\"'+s+'\"');};for(i=0;i<t.length;i+=2){a+=(t[i]=='%')?'\\\\':(t[i]=='#')?' ':t[i];}return p(a);}",
+    "// catalog banner輪播\n    if($('.bannerArea .albumList').length) {\n        const albumCarousel = new SlickCarousel('.bannerArea .albumList', {\n            fade: true,\n        });\n    }\n\n    // 懸浮列\n    let scrollVal = $(window).scrollTop();\n    if(scrollVal > 200) {\n        $('.floatBox .goTop').addClass('show');\n    } else {\n        $('.floatBox .goTop').removeClass('show');\n    }\n\n    $(window).on('scroll', function() {\n        scrollVal = $(window).scrollTop();\n        if(scrollVal > 200) {\n            $('.floatBox .goTop').addClass('show');\n        } else {\n            $('.floatBox .goTop').removeClass('show');\n        }\n    });\n\n    // ── 全域顯示邏輯 ──────────────────────────────────────────────────────\n    function handleBannerShow() {\n        const $bannerArea = $('.bannerArea');\n        if ($bannerArea.length > 0) {\n            $bannerArea.addClass('show');\n        }\n    }\n\n    function handleHeaderShow() {\n        $('header').addClass('show');\n    }\n\n    function initPageShow() {\n        handleBannerShow();\n        handleHeaderShow();\n    }\n\n    // 監聽載入完成事件\n    document.addEventListener('bannerStart', initPageShow);\n\n    // 處理已跳過 loading 的情況\n    if (window._bannerShouldStart) {\n        initPageShow();\n    }",
+    "$(function() {\n        gsap.registerPlugin(ScrollTrigger);\n\n        $(window).on('resize', function() {\n            ScrollTrigger.refresh();\n        })\n    })",
+    "// 檢查瀏覽器是否支援LocalStorage\n    if (typeof(Storage) !== \"undefined\") {\n        window.addEventListener('load', function() {\n            let currentUrl = window.location.href;\n            let pageTitle = document.title;\n            let currentTime = '1794323170';\n            let refererUrl = '';\n            \n            let data = {\n                url: currentUrl,\n                title: pageTitle,\n                time: currentTime\n            };\n            \n            let existingData = localStorage.getItem('visitedPageLogs');\n        \n            if (existingData) {\n                try {\n                    existingData = JSON.parse(existingData);\n                } catch (e) {\n                    existingData = [];\n                }\n            }\n            else{\n                existingData = [];\n            }\n            \n            if(existingData.length == 0){\n                existingData.push({\n                    url: refererUrl,\n                    title: '',\n                    type: 'referer',\n                    time: currentTime\n                });\n            }\n            existingData.push(data);\n\n            if (existingData.length > 100) {\n                existingData.shift();\n            }\n            \n            localStorage.setItem('visitedPageLogs', JSON.stringify(existingData));\n\n        });\n    }",
+    "$(function(){\n        // 瓦數切換連動顏色列表與規格表\n        $('.wattageSelect').on('change', function(){\n            $('.colorList button').removeClass('current');\n\n            var selectedWattageId = $(this).val();\n\n            // 1. 連動顏色群組\n            $('.wattageGroup').hide();\n            var $activeGroup = $('#wattage_' + selectedWattageId);\n            $activeGroup.show();\n\n            // 自動點擊該瓦數下的第一個顏色按鈕，以觸發相簿更新\n            $activeGroup.find('button:first').trigger('click');\n\n            // 2. 更新洽詢與比較按鈕狀態\n            updateInquiryCompareButtons(selectedWattageId);\n\n            // 3. 連動規格表頁籤中的瓦數按鈕樣式\n            $('.wattageTitle').removeClass('current');\n            $('.wattageTitle[data-id=\"' + selectedWattageId + '\"]').addClass('current');\n\n            // 4. 切換規格表內容 (只顯示當前瓦數對應的那一欄)\n            $('.spec_col').hide();\n            $('.spec_col_' + selectedWattageId).show();\n\n            // 5. 切換該瓦數的內容說明\n            $('.wattageExpBox').hide();\n            $('.wattageExp_' + selectedWattageId).show();\n\n            // 6. 切換該瓦數的價格說明\n            $('.priceNoteBox').hide();\n            $('.priceNote_' + selectedWattageId).show();\n\n            // 7. 切換該瓦數的線材清單\n            $('.wattageCable').hide();\n            $('.wattageCable_' + selectedWattageId).show();\n\n            // 8. 切換該瓦數的下載連結\n            updateDownloadLink(selectedWattageId);\n        });\n\n        $('.wattageBox .rwdContent').text($('.wattageTitle').first().text());\n\n        $('.wattageBox .rwdContent').on('click', function(){\n            $(this).closest('.wattageBox').find('.wattageTitle').toggleClass('show');\n        });\n\n        // 點擊規格表上方的瓦數按鈕，同步切換下拉選單\n        $(document).on('click', '.wattageTitle', function(){\n            var id = $(this).data('id');\n            $('.wattageSelect').val(id).trigger('change');\n\n            $('.wattageTitle').removeClass('show');\n\n            let text = $(this).text();\n            $('.rwdContent').text(text);\n            \n            // 如果是在規格表頁籤，點擊時捲動到上方 introBox 比較好觀察變化 (選用)\n            // $('html, body').animate({ scrollTop: $('.insIntroBox').offset().top - 100 }, 500);\n        });\n\n        // 依目前瓦數更新下載連結\n        function updateDownloadLink(wattageId) {\n            var $link = $('#downloadTabLink');\n            if (!$link.length) return;\n\n            var map = $link.data('download-map');\n            if (typeof map === 'string') {\n                try {\n                    map = JSON.parse(map);\n                } catch (e) {\n                    map = {};\n                }\n            }\n\n            wattageId = String(wattageId);\n            var url = map && map[wattageId] ? map[wattageId] : '';\n\n            if (url) {\n                $link.attr('href', url);\n                $link.closest('.tabDownloadItem').show();\n            } else {\n                $link.closest('.tabDownloadItem').hide();\n            }\n        }\n\n        // 更新按鈕狀態\n        function updateInquiryCompareButtons(id) {\n            id = String(id);\n            if (typeof currentInquiryList !== 'undefined') {\n                if (currentInquiryList.indexOf(id) > -1) {\n                    $('#mainQuoteBtn').addClass('current').find('.btnText').text(langArr.removeInquiry);\n                } else {\n                    $('#mainQuoteBtn').removeClass('current').find('.btnText').text(langArr.addInquiry);\n                }\n            }\n\n            if (typeof currentCompareList !== 'undefined') {\n                if (currentCompareList.indexOf(id) > -1) {\n                    $('#mainCompareBtn').addClass('current').find('.btnText').text(langArr.removeCompare);\n                } else {\n                    $('#mainCompareBtn').removeClass('current').find('.btnText').text(langArr.addCompare);\n                }\n            }\n\n            if (typeof currentPreorderList !== 'undefined') {\n                $('#mainPreOrderBtn').attr('data-pr-id', id);\n\n                if (currentPreorderList.indexOf(id) > -1) {\n                    $('#mainPreOrderBtn').addClass('current').find('.btnText').text(langArr.removePreOrder);\n                } else {\n                    $('#mainPreOrderBtn').removeClass('current').find('.btnText').text(langArr.addPreOrder);\n                }\n            }\n        }\n\n        // 洽詢按鈕點擊\n        $(document).on('click', '#mainQuoteBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            addInquiry(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentInquiryList.indexOf(id);\n            if (index > -1) {\n                currentInquiryList.splice(index, 1);\n            } else {\n                currentInquiryList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        // 比較按鈕點擊\n        $(document).on('click', '#mainCompareBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            compare(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentCompareList.indexOf(id);\n            if (index > -1) {\n                currentCompareList.splice(index, 1);\n            } else {\n                currentCompareList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        // 預購按鈕點擊\n        $(document).on('click', '#mainPreOrderBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            addpreorder(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentPreorderList.indexOf(id);\n            if (index > -1) {\n                currentPreorderList.splice(index, 1);\n            } else {\n                currentPreorderList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        const homeClassAjax = new classAjax();\n        const albumEvent = new albumTriggerObj();\n\n        if($('.colorList button').length < 1) {\n            albumEvent.initial();\n        }\n\n        // 顏色點擊切換相簿\n        $(document).on('click', '.colorList button', function(){\n            let current = $(this);\n            let currentMblink = current.data('id');\n\n            // 如果已經是當前選中，就不重複執行\n            if(current.hasClass('current')) {\n                return false;\n            }\n\n            // 防止記憶體洩漏：更新 HTML 前先銷毀舊的 Slick 實例\n            try {\n                if ($('.albumListMain').hasClass('slick-initialized')) {\n                    $('.albumListMain').slick('unslick');\n                }\n                if ($('.albumListNav').hasClass('slick-initialized')) {\n                    $('.albumListNav').slick('unslick');\n                }\n            } catch(e) {}\n\n            let callBack = function() {\n                current.addClass('current');\n                current.siblings().removeClass('current');\n\n                // 建立全新實例以獲取最新的 DOM 元素並初始化\n                const newAlbumEvent = new albumTriggerObj();\n                newAlbumEvent.initial();\n\n                $('.titan').lightGallery({\n                    actualSize: false,\n                    download: false,\n                    hash: false,\n                    share: false,\n                    // 影片自動撥放設定\n                    autoplayFirstVideo: false,\n                    tumbnails: false,\n                    youtubePlayerParams: {\n                        rel: 0,\n                        controls: 0\n                    },\n                });\n            }\n\n            homeClassAjax.get('.albumBox', 'products', currentMblink, 3, callBack);\n        });\n\n        // 一進入頁面時，自動先選擇 select 的第一筆 option 並觸發 change\n        var $wattageSelect = $('.wattageSelect');\n        var firstVal = $wattageSelect.find('option:first').val();\n        if(firstVal) {\n            $wattageSelect.val(firstVal).trigger('change');\n        }\n\n        //tab \n\t\t$('.tabContent .tabContentItem').eq(0).show();\n\t\t$('.tab [data-js=\"tab\"]') .eq(0).find('a').addClass('current');\n        $('.tab [data-js=\"tab\"]') .find('a').on('click', function(){\n            var obj = $(this).attr('href');\n            if (/^https?:\\/\\//i.test(obj)) {\n                return true;\n            }\n\t\t\t$(this).addClass('current').parent('[data-js=\"tab\"]').siblings().find('.current').removeClass('current');\n\t\t\t$(obj).fadeIn().siblings().hide();\n\t\t\treturn false;\n\t\t});\n\t});"
+  ],
+  "text": "ZILLION DB SILVER-振華電腦有限公司\n{\n\t\"@context\": \"http://schema.org\",\n\t\"@type\": \"BreadcrumbList\",\n\t\"itemListElement\": [\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 1,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/\",\n\t\t\t\t\"name\": \"HOME\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 2,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/\",\n\t\t\t\t\"name\": \"PRODUCTS\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 3,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/Power-Supplies/\",\n\t\t\t\t\"name\": \"Power Supply\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 4,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products/Power-Supplies/PowerSupplyZILLION/\",\n\t\t\t\t\"name\": \"ZILLION\"\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"ListItem\",\n\t\t\t\"position\": 5,\n\t\t\t\"item\": {\n\t\t\t\t\"@id\": \"https://www.super-flower.com.tw/products-detail/ZILLIONDB/\",\n\t\t\t\t\"name\": \"ZILLION DB SILVER\"\n\t\t\t}\n\t\t}\n\t]\n}\nconst isMobile = false;\n\tconst isTablet = false;\n    const _http_url_link = 'https://www.super-flower.com.tw/';\n    const http_url_link = 'https://www.super-flower.com.tw/';\n.cls-2{fill:#0033a1}\n;(function() {\n        const bodyDom = document.querySelector('body');\n        const loadingDom = document.querySelector('.loadingArea');\n        bodyDom.classList.add('loadingOverflow');\n\n                if(!navigator.cookieEnabled) {\n            removeLoading();\n            return;\n        }\n\n                const loadingSession = sessionStorage.getItem('loading');\n        if(loadingSession === 'ok') {\n            // 無 loading，直接設旗標讓 index.php $(function(){}) 接手啟動 banner\n            window._bannerShouldStart = true;\n            removeLoading();\n            return;\n        }\n\n        sessionStorage.setItem('loading','ok');\n        setTimeout(showLoading, 500);\n        setTimeout(hideLoading, 4000);\n        setTimeout(removeLoading, 5000);\n\n                function showLoading() {\n            loadingDom.classList.add('show');\n        }\n\n                function hideLoading() {\n            loadingDom.classList.add('hide');\n            loadingDom.style.pointerEvents = \"none\";\n        }\n\n                function removeLoading() {\n            loadingDom.remove();\n            bodyDom.classList.remove('loadingOverflow');\n\n            // 通知 bannerArea 可以開始播放\n            window._bannerShouldStart = true;\n            document.dispatchEvent(new CustomEvent('bannerStart'));\n\n            // 晚點出現 privacyArea\n            setTimeout(function() {\n                const privacyArea = document.querySelector('.privacyArea');\n                if(privacyArea){\n                    privacyArea.classList.add('show');\n                }\n            }, 1500);\n        }\n    })();\nPRODUCTS\nPower Supply\nCooling\nCases\nFans\nOthers\nWHERE TO BUY\nNEWS\nNotices\nReviews\nMedia\nAwards\nCOMPANY\nFAQ\nCONTACT\nEN\n繁\nHOME\nPRODUCTS\nPower Supply\nZILLION\nZILLION DB SILVER\nZILLION DB SILVER\nSupport All Intel / AMD Multi-Core CPU & ATX / BTX Compatible Motherboards.\nSupport NVIDIA® SLI™ & ATI CrossFireX™ High Performance Graphic Card.\nCybenetics Silver Certified, ≥87% & <89% overall efficiency.\nComply With Energy Star Standard & EuP (Energy Using Products) Regulation\nComply With ATX 12V v2.3, EPS 12V v2.92 Specification.\nPCI-E (6+2) Pin Connector For High-End Graphic Card Requirement.\nOVP / SCP / OPP / NLP\nAll Flat Cables.\nTaiwanese Main Capacitor.\nWATTAGE\n850W\n750W\n650W\nCOLOR\nCOLOR\nCOLOR\nADD TO INQUIRY\nADD TO COMPARE\nvar currentInquiryList = ([] || []).map(String);\n\t\t\t\t\tvar currentCompareList = ([] || []).map(String);\n\t\t\t\t\tvar langArr = {\n\t\t\t\t\t\taddInquiry: \"ADD TO INQUIRY\",\n\t\t\t\t\t\tremoveInquiry: \"REMOVE FROM INQUIRY\",\n\t\t\t\t\t\taddCompare: \"ADD TO COMPARE\",\n\t\t\t\t\t\tremoveCompare: \"REMOVE FROM COMPARE\"\n\t\t\t\t\t};\nOVERVIEW\nSPECIFICATION\nCABLE\n850W\n750W\n650W\nTechnical Specifications\nModel No.\nZILLION DB Silver 850W ATX3.1 (2025)\nZILLION DB Silver 750W ATX3.1 (2025)\nZILLION DB Silver 650W ATX3.1 (2025)\nWATTAGE\n850W\n750W\n650W\n80PLUS®\nCybenetics Efficiency Level\nSilver\nSilver\nSilver\nCybenetics Noise Level\nIntel Power Design Guide\nDimensions\n140mm(L) x 150mm(W) x 86mm(H)\n140mm(L) x 150mm(W) x 86mm(H)\n140mm(L) x 150mm(W) x 86mm(H)\nFan Information\nFan Size\n120mm HDB Fan\n120mm HDB Fan\n120mm HDB Fan\nFan Bearing\nElectrical Features\nFrequency\nAC Input\n200V~240V | 50-60Hz\n200V~240V | 50-60Hz\n200V~240V | 50-60Hz\nProtection\nOVP  SCP  OPP  NLP\nOVP  SCP  OPP  NLP\nOVP  SCP  OPP  NLP\nOperating Temperature\nCable Information\nModularity\nCable type\nSafety and Environmental\nSafety and EMC\nTÜV / CB / CE / RoHS\nTÜV / CB / CE / RoHS\nTÜV / CB / CE / RoHS\nEnvironmental Compliance\nPower Output\nmodel no.: SF-550Z12DB\nAC INPUT\n200-240V~, 50-60Hz, 6A\nDC OUTPUT\n+3.3V\n+5V\n+12V\n-12V\n+5VSB\n550W\nMax Output Current\n18A\n18A\n70.8A\n0.3A\n3A\nMax Combined Wattage\n100W\n849.6W\n3.6W\n15W\n850W\nPower Output\nmodel no.: SF-550Z12DB\nAC INPUT\n200-240V~, 50-60Hz, 6A\nDC OUTPUT\n+3.3V\n+5V\n+12V\n-12V\n+5VSB\n550W\nMax Output Current\n18A\n18A\n62.5A\n0.3A\n3A\nMax Combined Wattage\n100W\n750W\n3.6W\n15W\n750W\nPower Output\nmodel no.: SF-550Z12DB\nAC INPUT\n200-240V~, 50-60Hz, 6A\nDC OUTPUT\n+3.3V\n+5V\n+12V\n-12V\n+5VSB\n550W\nMax Output Current\n18A\n18A\n54.1A\n0.3A\n3A\nMax Combined Wattage\n100W\n649.2W\n3.6W\n15W\n650W\n850W\n750W\n650W\n20+4Pin\nx1\n(4+4Pin) CPU\nx2\nSLI (2 x PCI 6+2 Pin)\nx2\n4 SATA\nx2\n4 Molex\nx1\n20+4Pin\nx1\n(4+4Pin) CPU\nx2\nSLI (2 x PCI 6+2 Pin)\nx2\n4 SATA\nx2\n4 Molex\nx1\n20+4Pin\nx1\n(4+4Pin) CPU\nx1\nSLI (2 x PCI 6+2 Pin)\nx1\nPCI-E 6+2Pin\nx1\n3 SATA + 1 Molex\nx2\nPRODUCTS\nWHERE TO BUY\nNEWS\nCOMPANY\nFAQ\nCONTACT\nADD:\n7F., No. 649-1, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 242, Taiwan (R.O.C.)\nTEL:\n02-2908-5366\nFAX:\n02-2908-5400\nCopyright ©\n2026\nSUPER FLOWER\nAll Rights Reserved.\nDesign\niBest\nPRIVACY POLICY\nCookie Settings\nPRE-ORDER\n0\nCOMPARE\n0\nINQUIRY\n0\nQ&A\nTOP\n$(function() {\n        const chartData = [];\n\n        window.newChart = () => {\n            /**\n             * 取得圖表資料\n             */\n            $('.chart').each(function() {\n                const str = $(this).data('chart');\n                if (str == undefined) return;\n                // html string to json\n                let data = str\n                    .replace(/&quot;/g, '\"')\n                    .replace(/&lt;/g, '<')\n                    .replace(/&gt;/g, '>')\n                    .replace(/&amp;/g, '&')\n                    .replace(/&nbsp;/g, ' ')\n                    .replace(/&apos;/g, \"'\")\n                data = JSON.parse(data);\n                chartData.push({\n                    id: $(this).attr('id'),\n                    code: `{{CHART.${$(this).data('code')}}}`,\n                    title: $(this).data('title'),\n                    type: $(this).data('type'),\n                    importData: data,\n                });\n            });\n\n            chartData.forEach((item, index) => {\n                item.chart = new ChartPreview(item);\n            });\n            window.chartIntances = chartData.map(item => item.chart);\n        }\n        \n        window.destoryChart = () => {\n            chartData.forEach((item, index) => {\n                item.chart.chart.destroy();\n            });\n            chartData.splice(0, chartData.length);\n            window.chartIntances = [];\n        }\n\n        newChart();\n    });\n$(function() {\n        $('.textEditor .numberList, .textEditor .cardList, .textEditor .infoList').each(function() {\n            let counts = [];\n            const wrap = $(this);\n            wrap.find('.num .text').each(function() {\n                const num = $(this).text().trim();\n                const len = num.length;\n                let decimalPlaces = 0;\n                if (num.indexOf('.') > -1) {\n                    decimalPlaces = 2;\n                }\n                const options = {\n                    separator: ',',\n                    decimalPlaces,\n                    duration: 2,\n                }\n                const count = new countUp.CountUp($(this)[0], num, options);\n                counts.push(count);\n            });\n\n            let isStart = false;\n            if ($(document).scrollTop() > wrap.offset().top - $(window).height() / 1.05) {\n                if (isStart) return;\n                setTimeout(() => {\n                    counts.forEach(function(count) {\n                        count.start();\n                    });\n                }, 300);\n                isStart = true;\n            }\n            $(document).on('scroll', function() {\n                if ($(document).scrollTop() > wrap.offset().top - $(window).height() / 1.05) {\n                    if (isStart) return;\n                    setTimeout(() => {\n                        counts.forEach(function(count) {\n                            count.start();\n                        });\n                    }, 300);\n                    isStart = true;\n                }\n            });\n        });\n    })\n$(function() {\n        const currentSlide = $('.swiper-slide.current').index();\n        const startSlide = currentSlide - 1 < 0 ? 0 : currentSlide - 1;\n\n        const num = $('.swiper-slide.classItem').length;\n        let itemWidth = 0;\n        $('.classLink .classItem').each(function() {\n            itemWidth += $(this).outerWidth();\n        });\n        let containerWidth = $('.classLink').outerWidth();\n\n        const swiper = new Swiper('.swiperClassLink', {\n            slidesPerView: 'auto',\n            freeMode: {\n                enabled: true,\n                sticky: true,\n            },\n            initialSlide: startSlide,\n            // loopedSlides: 8,\n            // loop: true,\n            on: {\n                init: function() {\n                    if (currentSlide === 0) {\n                        $('.classLink').addClass('onLeft');\n                    }\n                },\n            }\n        });\n\n        if (itemWidth < containerWidth) {\n            $('.classLink').addClass('onRight');\n            $('.classLink').addClass('onLeft');\n        } else {\n            if (currentSlide === 0) {\n                $('.esgList').addClass('onLeft');\n            }\n\n            if (currentSlide === num - 1) {\n                $('.esgList').addClass('onRight');\n            }\n\n            swiper.on('slideChangeTransitionEnd', function() {\n                if (swiper.isBeginning) return;\n                if (swiper.isEnd) return;\n                $('.classLink').removeClass('onLeft');\n                $('.classLink').removeClass('onRight');\n            });\n\n            swiper.on('reachEnd', function() {\n                $('.classLink').addClass('onRight');\n                $('.classLink').removeClass('onLeft');\n            });\n\n            swiper.on('reachBeginning', function() {\n                $('.classLink').addClass('onLeft');\n                $('.classLink').removeClass('onRight');\n            });\n        }\n    });\nEN\n繁\nPRODUCTS\nPower Supply\nCooling\nCases\nFans\nOthers\nWHERE TO BUY\nNEWS\nNotices\nReviews\nMedia\nAwards\nCOMPANY\nFAQ\nCONTACT\nCopyright ©\n2026\nSUPER FLOWER\nAll Rights Reserved.\nDesign\niBest\nPRIVACY POLICY\nCookie Settings\nif(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readInquiry();\n})\n\nfunction pdInquiryLen(num) {\n    $(\".inquiryCartCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#moduleInquiry\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#moduleInquiry\"]').removeClass('show');\n    }\n}\n\nfunction printInquiryList(items) {\n    if(!items.length) {\n        $('#car_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (let i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#car_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" aria-label=\"Delete\" style=\"cursor:pointer\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n\n        $('#car_list_html .del').last().on('click', function(){\n            addInquiry(currentItem.data_id);\n        });\n    }\n}\n\nfunction addInquiry(id) \n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('#pr_btn_'+id).text('REMOVE FROM INQUIRY').addClass('bgSecond');\n                $('#pr_btn_'+id).addClass('current');\n\n                                    toasts.show('Added to inquiry', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('#pr_btn_'+id).text('ADD TO INQUIRY').removeClass('bgSecond');\n                $('#pr_btn_'+id).removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                                \n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readInquiry()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#car_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllInquiry()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('a[id*=\"pr_btn_\"]').text('ADD TO INQUIRY').removeClass('bgSecond');\n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeInquiry(id)\n{\n    $('#pr_tr_'+id).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/inquiry/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#car_list_html').html('');\n            if(result.items !== null) \n            {\n                printInquiryList(result.items);\n                pdInquiryLen(result.items.length);\n            }\n            if(result.items == 0){\n                $('#service_form .dataTable').remove();\n            }\n        }\n    });\n}\nINQUIRY\ntotal\n0\nitems\nClear\nInquiry\n$('#moduleInquiry .clear').last().on('click',function(){\n                    removeAllInquiry();\n                });\nif(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readpreorder();\n})\n\nfunction pdpreorderLen(num) {\n    $(\".preorderCartCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#modulepreorder\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#modulepreorder\"]').removeClass('show');\n    }\n}\n\nfunction printpreorderList(items) {\n    if(!items.length) {\n        $('#preorder_car_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (let i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#preorder_car_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" aria-label=\"Delete\" style=\"cursor:pointer\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n\n        $('#preorder_car_list_html .del').last().on('click', function(){\n            addpreorder(currentItem.data_id);\n        });\n    }\n}\n\nfunction addpreorder(id) \n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('#pr_btn_'+id).text('REMOVE FROM PRE-ORDER').addClass('bgSecond');\n                $('[data-pr-id=\"'+id+'\"]').addClass('current');\n\n                                    toasts.show('Added to pre-order', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('#pr_btn_'+id).text('ADD TO PRE-ORDER').removeClass('bgSecond');\n                $('[data-pr-id=\"'+id+'\"]').removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                                \n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readpreorder()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllpreorder()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('a[id*=\"pr_btn_\"]').text('ADD TO PRE-ORDER').removeClass('bgSecond');\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removepreorder(id)\n{\n    $('#pr_tr_'+id).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/preorder/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#preorder_car_list_html').html('');\n            if(result.items !== null) \n            {\n                printpreorderList(result.items);\n                pdpreorderLen(result.items.length);\n            }\n            if(result.items == 0){\n                $('#service_form .dataTable').remove();\n            }\n        }\n    });\n}\nPRE-ORDER\ntotal\n0\nitems\nClear\nPre-Order\n$('#modulepreorder .clear').last().on('click',function(){\n                    removeAllpreorder();\n                });\nif(typeof toasts === 'undefined') {\n    var toasts = new ibestToasts();\n}\n\n$(function(){\n    readCompare();\n    $('#moduleCompare .compareLink').on('click',function(){\n        if(parseInt($('#moduleCompare .compareCount').text()) < 2)\n        {\n            alert('Need at least two items to compare');\n            window.location.href='https://www.super-flower.com.tw/products/';\n        }\n        else\n        {\n            window.location.href='https://www.super-flower.com.tw/products/compare/';\n        }\n    });\n})\n\nfunction pdLen(num) {\n    $(\".compareCount\").text(num);\n    if (num > 0) {\n        $('.floatBox .cart[href=\"#moduleCompare\"]').addClass('show');\n    } else {\n        $('.floatBox .cart[href=\"#moduleCompare\"]').removeClass('show');\n    }\n}\n\nfunction printList(items) {\n    if(!items.length) {\n        $('#compare_list_html').append('<p class=\"text\">Your cart is empty</p>');\n        return false;\n    }\n    \n    for (var i=0;i<items.length;i++){\n        const url = 'https://www.super-flower.com.tw/products-detail/' +items[i].data_blink+'/';\n        const imgDisplay = items[i].data_list_pic ? '' : 'hidden';\n        $('#compare_list_html').append('<div class=\"cartItem\">'+\n        '<div class=\"Img '+imgDisplay+'\"><a href=\"'+url+'\"><img src=\"'+items[i].data_list_pic+'\"></a></div>' +\n        '<div class=\"Txt\">'+\n            '<p class=\"title\"> <a href=\"'+url+'\">'+items[i].data_title+'</a></p>'+\n        '</div>'+\n        '<button class=\"del\" style=\"cursor:pointer\" aria-label=\"Delete\"><svg class=\"icon-garbage\"><use xlink:href=\"#icon-garbage\"></use></svg></button>'+\n        '</div>');\n\n        const currentItem = items[i];\t\t\t\t\t\t        \n        \n        $('.del').last().on('click', function(){\n            compare(currentItem.data_id);\n        });\n    }\n}\n\nfunction compare(id)\n{\n    if(!navigator.cookieEnabled) {\n        $('#moduleCookie, .moduleMask').addClass('show');\n        return false;\n    }\n    \n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else if(result.status == 'add')\n            {\n                // $('[id=\"compare_btn_'+id+'\"]').text('REMOVE FROM COMPARE').addClass('bgSecond');\n                $('[id=\"compare_btn_'+id+'\"]').addClass('current');\n\n                                    toasts.show('Added to compare', 'success');\n                            }\n            else if(result.status == 'remove')\n            {\n                // $('[id=\"compare_btn_'+id+'\"]').text('ADD TO COMPARE').removeClass('bgSecond');\n                $('[id=\"compare_btn_'+id+'\"]').removeClass('current');\n\n                                    toasts.show('Removed', 'dark');\n                            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction readCompare()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'act':6},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status && result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items && result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeAllCompare()\n{\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'act':7},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n            else \n            {\n                $('[id^=\"compare_btn_\"]').removeClass('current');\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n        }\n    });\n}\n\nfunction removeCompare(id)\n{\n    $(`[data-c-id='${id}']`).remove();\n\n    $.ajax({\n        url:'https://www.super-flower.com.tw/products/act/',\n        type:\"post\",\n        data:{'index_id':id,'act':5},\n        cache:false,\n        dataType:\"text\",\n        success:function(result){\n            var result = JSON.parse(result);\n            if (result.status == 'error')\n            {\n                alert(result.msg.data_msg);\n            }\n\n            $('#compare_list_html').html('');\n            if(result.items !== null) \n            {\n                printList(result.items);\n                pdLen(result.items.length);\n            }\n\n            if(result.items.length <= 1){\n                alert('請加入兩項以上產品進行比較');\n                window.location.href='https://www.super-flower.com.tw/products/';\n            }\n        }\n    });\n}\nCOMPARE\ntotal\n0\nitems\nClear\nCompare\n$('.clear').last().on('click',function(){\n                    removeAllCompare();\n                });\nSearch\nWe detected that you have disabled cookies. For the best experience, we recommend using cookies to browse this website to use all the features of this site.\n我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息\nManage Cookies\nAccept All\nPrivacy Settings\n我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息\nPrivacy Policy\nAccept All\nManage Consent Settings\nEssential Cookies\nAccept All\n網站運行離不開這些 Cookie 且您不能在系統中將其關閉。通常僅根據您所做出的操作（即服務請求）來設置這些 Cookie，如設置隱私偏好、登錄或填充表格。您可以將您的瀏覽器設置為阻止或向您提示這些 Cookie，但可能會導致某些網站功能無法工作。\nMarketing Cookies\n行銷 Cookie 能用來追蹤訪客造訪網站的歷程。目的是用來顯示與個別使用者相關或吸引他們的廣告，因此對發佈者或第三方廣告商而言比較重要。\n定向 Cookie\n這些 Cookie 由廣告合作夥伴通過我們的網站進行設置。這些公司可能利用 Cookie 構建您的興趣分佈圖並向您展示其他網站上的相關廣告。它們只需識別您的瀏覽器和設備便可發揮作用。如果您不允許使用這些 Cookie，您將不能體驗不同網站上的定向廣告。\n社交媒體 Cookie\n這些 Cookie 由我們已添加到網站上的一系列社交媒體服務設置，使您能夠與朋友和網絡共享我們的內容。它們能夠通過其他網站跟踪您的瀏覽器並構建您的興趣分佈圖。這可能會影響您在訪問其他網站時所查看的內容和消息。如果您不允許使用這些 Cookie，您可能無法使用或查看這些共享工具。\nConfirm Selection\n(function() {\n        const privacyConsent = window.PrivacyConsent;\n        if (!privacyConsent) return;\n\n        const codeGroups = {\n            functional: {\n                head: \"\\n\",\n                bodyfront: \"\\n\",\n                bodyend: \"\\n\",\n            },\n            marketing: {\n                head: \"<!-- Google tag (gtag.js) -->\\r\\n<script async src=\\\"https:\\/\\/www.googletagmanager.com\\/gtag\\/js?id=G-M113HD0BRJ\\\" nonce=\\\"736e8ab5ed8eb7341a83fcc83f7975fb\\\"><\\/script>\\r\\n<script nonce=\\\"736e8ab5ed8eb7341a83fcc83f7975fb\\\">\\r\\n  window.dataLayer = window.dataLayer || [];\\r\\n  function gtag(){dataLayer.push(arguments);}\\r\\n  gtag('js', new Date());\\r\\n\\r\\n  gtag('config', 'G-M113HD0BRJ');\\r\\n<\\/script>\\n\",\n                bodyfront: \"\\n\",\n                bodyend: \"\\n\",\n            },\n        };\n\n        privacyConsent.syncCheckboxes({\n            functional: '#cookie_functional',\n            marketing: '#cookie_marketing',\n        });\n\n        $('#modulePrivacy .topBox .subtitle').on('click', function(e) {\n            $(this).parents('.topBox').stop(false, false).toggleClass('open');\n            $(this).parents('.topBox').siblings('.text').stop(false, false).slideToggle(300);\n        });\n        \n        function removePrivacyElement() {\n            $('body').removeClass('overflow');\n            $('#modulePrivacy, .moduleMask').removeClass('show');\n            $('.privacyArea').addClass('check');\n\n            setTimeout(function() {\n                $('#modulePrivacy, .privacyArea').remove();\n            }, 1000);\n        }\n\n        if(navigator.cookieEnabled) {\n\n            $('#modulePrivacy .privacyTrigger, .privacyArea .privacyTrigger').on('click', function(e) {\n                e.preventDefault();\n\n                const savedBefore = privacyConsent.get();\n                let privacyJson = {\n                    necessary: true,\n                    functional: true,\n                    marketing: true\n                };\n\n                if($(this).hasClass('acceptCustom')) {\n                    privacyJson = privacyConsent.readCheckboxes({\n                        functional: '#cookie_functional',\n                        marketing: '#cookie_marketing',\n                    });\n                }\n\n                const saved = privacyConsent.save(privacyJson);\n                if (!saved) return;\n\n                if (savedBefore !== null) {\n                    location.reload();\n                    return;\n                }\n\n                privacyConsent.injectGranted(codeGroups, saved);\n            \n                removePrivacyElement();\n            });\n        } else {\n            $('#modulePrivacy .btn a, .privacyArea .btn a.acceptAll').on('click', function(e) {\n                e.preventDefault();\n                removePrivacyElement();\n            });\n        }\n    })();\n.line{fill:#4fc441;}\n.google0{fill:#E94535;}\n\t\t\t.google1{fill:#4EA853;}\n\t\t\t.google2{fill:#4285F3;}\n\t\t\t.google3{fill:#F7BB32;}\n\t\t\t.google4{fill:#3C84EF;}\n.facebook0{fill:#FFFFFF;}\n$(document).ready(function() {\n        $('.titan').lightGallery({\n            actualSize: false,\n            download: false,\n            hash: false,\n            share: false,\n            // 影片自動撥放設定\n            autoplayFirstVideo: false, //是否自動撥放 (自動撥放一定要靜音，要注意是否需要出現控制列(開啟音量))\n            tumbnails: false,\n            youtubePlayerParams: {\n                rel: 0,\n                controls: 0 //0:隱藏 1:顯示控制列\n            },\n        });\n    });\n$('table.responsive').footable();\n$(document).ready(function() {\n        if ($('.ellipsis').length) {\n            $('.ellipsis').dotdotdot({\n                wrap: 'letter',\n                remove: [' ', ',', ';', '.', '!', '?'],\n                watch: true\n            });\n        }\n    });\nwindow.getCopy=function(){var t=atob('RGdlLXN5aWlnZm5mI2VidXkyI3VpNkI2ZTZzMXQ2IyMlQnUzNiMzJTIjZmklc3U4OHUzMWUxZm4lMnV0OWU2YmZzYmIlJXVlOCUxZjYlNiMjNjIwMDMyMjZ1LTkxRDE4'),a='',i,p=function(s){return JSON.parse('\"'+s+'\"');};for(i=0;i<t.length;i+=2){a+=(t[i]=='%')?'\\\\':(t[i]=='#')?' ':t[i];}return p(a);}\n// catalog banner輪播\n    if($('.bannerArea .albumList').length) {\n        const albumCarousel = new SlickCarousel('.bannerArea .albumList', {\n            fade: true,\n        });\n    }\n\n    // 懸浮列\n    let scrollVal = $(window).scrollTop();\n    if(scrollVal > 200) {\n        $('.floatBox .goTop').addClass('show');\n    } else {\n        $('.floatBox .goTop').removeClass('show');\n    }\n\n    $(window).on('scroll', function() {\n        scrollVal = $(window).scrollTop();\n        if(scrollVal > 200) {\n            $('.floatBox .goTop').addClass('show');\n        } else {\n            $('.floatBox .goTop').removeClass('show');\n        }\n    });\n\n    // ── 全域顯示邏輯 ──────────────────────────────────────────────────────\n    function handleBannerShow() {\n        const $bannerArea = $('.bannerArea');\n        if ($bannerArea.length > 0) {\n            $bannerArea.addClass('show');\n        }\n    }\n\n    function handleHeaderShow() {\n        $('header').addClass('show');\n    }\n\n    function initPageShow() {\n        handleBannerShow();\n        handleHeaderShow();\n    }\n\n    // 監聽載入完成事件\n    document.addEventListener('bannerStart', initPageShow);\n\n    // 處理已跳過 loading 的情況\n    if (window._bannerShouldStart) {\n        initPageShow();\n    }\n$(function() {\n        gsap.registerPlugin(ScrollTrigger);\n\n        $(window).on('resize', function() {\n            ScrollTrigger.refresh();\n        })\n    })\n// 檢查瀏覽器是否支援LocalStorage\n    if (typeof(Storage) !== \"undefined\") {\n        window.addEventListener('load', function() {\n            let currentUrl = window.location.href;\n            let pageTitle = document.title;\n            let currentTime = '1794323170';\n            let refererUrl = '';\n            \n            let data = {\n                url: currentUrl,\n                title: pageTitle,\n                time: currentTime\n            };\n            \n            let existingData = localStorage.getItem('visitedPageLogs');\n        \n            if (existingData) {\n                try {\n                    existingData = JSON.parse(existingData);\n                } catch (e) {\n                    existingData = [];\n                }\n            }\n            else{\n                existingData = [];\n            }\n            \n            if(existingData.length == 0){\n                existingData.push({\n                    url: refererUrl,\n                    title: '',\n                    type: 'referer',\n                    time: currentTime\n                });\n            }\n            existingData.push(data);\n\n            if (existingData.length > 100) {\n                existingData.shift();\n            }\n            \n            localStorage.setItem('visitedPageLogs', JSON.stringify(existingData));\n\n        });\n    }\n$(function(){\n        // 瓦數切換連動顏色列表與規格表\n        $('.wattageSelect').on('change', function(){\n            $('.colorList button').removeClass('current');\n\n            var selectedWattageId = $(this).val();\n\n            // 1. 連動顏色群組\n            $('.wattageGroup').hide();\n            var $activeGroup = $('#wattage_' + selectedWattageId);\n            $activeGroup.show();\n\n            // 自動點擊該瓦數下的第一個顏色按鈕，以觸發相簿更新\n            $activeGroup.find('button:first').trigger('click');\n\n            // 2. 更新洽詢與比較按鈕狀態\n            updateInquiryCompareButtons(selectedWattageId);\n\n            // 3. 連動規格表頁籤中的瓦數按鈕樣式\n            $('.wattageTitle').removeClass('current');\n            $('.wattageTitle[data-id=\"' + selectedWattageId + '\"]').addClass('current');\n\n            // 4. 切換規格表內容 (只顯示當前瓦數對應的那一欄)\n            $('.spec_col').hide();\n            $('.spec_col_' + selectedWattageId).show();\n\n            // 5. 切換該瓦數的內容說明\n            $('.wattageExpBox').hide();\n            $('.wattageExp_' + selectedWattageId).show();\n\n            // 6. 切換該瓦數的價格說明\n            $('.priceNoteBox').hide();\n            $('.priceNote_' + selectedWattageId).show();\n\n            // 7. 切換該瓦數的線材清單\n            $('.wattageCable').hide();\n            $('.wattageCable_' + selectedWattageId).show();\n\n            // 8. 切換該瓦數的下載連結\n            updateDownloadLink(selectedWattageId);\n        });\n\n        $('.wattageBox .rwdContent').text($('.wattageTitle').first().text());\n\n        $('.wattageBox .rwdContent').on('click', function(){\n            $(this).closest('.wattageBox').find('.wattageTitle').toggleClass('show');\n        });\n\n        // 點擊規格表上方的瓦數按鈕，同步切換下拉選單\n        $(document).on('click', '.wattageTitle', function(){\n            var id = $(this).data('id');\n            $('.wattageSelect').val(id).trigger('change');\n\n            $('.wattageTitle').removeClass('show');\n\n            let text = $(this).text();\n            $('.rwdContent').text(text);\n            \n            // 如果是在規格表頁籤，點擊時捲動到上方 introBox 比較好觀察變化 (選用)\n            // $('html, body').animate({ scrollTop: $('.insIntroBox').offset().top - 100 }, 500);\n        });\n\n        // 依目前瓦數更新下載連結\n        function updateDownloadLink(wattageId) {\n            var $link = $('#downloadTabLink');\n            if (!$link.length) return;\n\n            var map = $link.data('download-map');\n            if (typeof map === 'string') {\n                try {\n                    map = JSON.parse(map);\n                } catch (e) {\n                    map = {};\n                }\n            }\n\n            wattageId = String(wattageId);\n            var url = map && map[wattageId] ? map[wattageId] : '';\n\n            if (url) {\n                $link.attr('href', url);\n                $link.closest('.tabDownloadItem').show();\n            } else {\n                $link.closest('.tabDownloadItem').hide();\n            }\n        }\n\n        // 更新按鈕狀態\n        function updateInquiryCompareButtons(id) {\n            id = String(id);\n            if (typeof currentInquiryList !== 'undefined') {\n                if (currentInquiryList.indexOf(id) > -1) {\n                    $('#mainQuoteBtn').addClass('current').find('.btnText').text(langArr.removeInquiry);\n                } else {\n                    $('#mainQuoteBtn').removeClass('current').find('.btnText').text(langArr.addInquiry);\n                }\n            }\n\n            if (typeof currentCompareList !== 'undefined') {\n                if (currentCompareList.indexOf(id) > -1) {\n                    $('#mainCompareBtn').addClass('current').find('.btnText').text(langArr.removeCompare);\n                } else {\n                    $('#mainCompareBtn').removeClass('current').find('.btnText').text(langArr.addCompare);\n                }\n            }\n\n            if (typeof currentPreorderList !== 'undefined') {\n                $('#mainPreOrderBtn').attr('data-pr-id', id);\n\n                if (currentPreorderList.indexOf(id) > -1) {\n                    $('#mainPreOrderBtn').addClass('current').find('.btnText').text(langArr.removePreOrder);\n                } else {\n                    $('#mainPreOrderBtn').removeClass('current').find('.btnText').text(langArr.addPreOrder);\n                }\n            }\n        }\n\n        // 洽詢按鈕點擊\n        $(document).on('click', '#mainQuoteBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            addInquiry(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentInquiryList.indexOf(id);\n            if (index > -1) {\n                currentInquiryList.splice(index, 1);\n            } else {\n                currentInquiryList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        // 比較按鈕點擊\n        $(document).on('click', '#mainCompareBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            compare(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentCompareList.indexOf(id);\n            if (index > -1) {\n                currentCompareList.splice(index, 1);\n            } else {\n                currentCompareList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        // 預購按鈕點擊\n        $(document).on('click', '#mainPreOrderBtn', function(e){\n            e.preventDefault();\n            var id = String($('.wattageSelect').val());\n            if(!id) return;\n\n            addpreorder(id);\n            \n            // 更新本地狀態：如果已存在則移除，否則加入\n            var index = currentPreorderList.indexOf(id);\n            if (index > -1) {\n                currentPreorderList.splice(index, 1);\n            } else {\n                currentPreorderList.push(id);\n            }\n            updateInquiryCompareButtons(id);\n        });\n\n        const homeClassAjax = new classAjax();\n        const albumEvent = new albumTriggerObj();\n\n        if($('.colorList button').length < 1) {\n            albumEvent.initial();\n        }\n\n        // 顏色點擊切換相簿\n        $(document).on('click', '.colorList button', function(){\n            let current = $(this);\n            let currentMblink = current.data('id');\n\n            // 如果已經是當前選中，就不重複執行\n            if(current.hasClass('current')) {\n                return false;\n            }\n\n            // 防止記憶體洩漏：更新 HTML 前先銷毀舊的 Slick 實例\n            try {\n                if ($('.albumListMain').hasClass('slick-initialized')) {\n                    $('.albumListMain').slick('unslick');\n                }\n                if ($('.albumListNav').hasClass('slick-initialized')) {\n                    $('.albumListNav').slick('unslick');\n                }\n            } catch(e) {}\n\n            let callBack = function() {\n                current.addClass('current');\n                current.siblings().removeClass('current');\n\n                // 建立全新實例以獲取最新的 DOM 元素並初始化\n                const newAlbumEvent = new albumTriggerObj();\n                newAlbumEvent.initial();\n\n                $('.titan').lightGallery({\n                    actualSize: false,\n                    download: false,\n                    hash: false,\n                    share: false,\n                    // 影片自動撥放設定\n                    autoplayFirstVideo: false,\n                    tumbnails: false,\n                    youtubePlayerParams: {\n                        rel: 0,\n                        controls: 0\n                    },\n                });\n            }\n\n            homeClassAjax.get('.albumBox', 'products', currentMblink, 3, callBack);\n        });\n\n        // 一進入頁面時，自動先選擇 select 的第一筆 option 並觸發 change\n        var $wattageSelect = $('.wattageSelect');\n        var firstVal = $wattageSelect.find('option:first').val();\n        if(firstVal) {\n            $wattageSelect.val(firstVal).trigger('change');\n        }\n\n        //tab \n\t\t$('.tabContent .tabContentItem').eq(0).show();\n\t\t$('.tab [data-js=\"tab\"]') .eq(0).find('a').addClass('current');\n        $('.tab [data-js=\"tab\"]') .find('a').on('click', function(){\n            var obj = $(this).attr('href');\n            if (/^https?:\\/\\//i.test(obj)) {\n                return true;\n            }\n\t\t\t$(this).addClass('current').parent('[data-js=\"tab\"]').siblings().find('.current').removeClass('current');\n\t\t\t$(obj).fadeIn().siblings().hide();\n\t\t\treturn false;\n\t\t});\n\t});",
+  "links": [
+    "https://www.super-flower.com.tw/products/Power-Supplies/PowerSupplyZILLION/",
+    "https://www.ibest.tw",
+    "https://www.super-flower.com.tw/privacy/",
+    "https://www.super-flower.com.tw/news/23/",
+    "https://www.super-flower.com.tw/products/Others/",
+    "https://www.super-flower.com.tw/tw/",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#moduleInquiry",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#modulepreorder",
+    "https://www.super-flower.com.tw/",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#moduleCompare",
+    "https://www.super-flower.com.tw/news/26/",
+    "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_RGXbLTkj8g.png",
+    "https://www.instagram.com/superflowerofficial/",
+    "https://www.super-flower.com.tw/products/",
+    "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_wSTHRCnVmw.png",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#modulePrivacy",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#cable",
+    "https://www.super-flower.com.tw/preorder/",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/",
+    "https://www.super-flower.com.tw/products/Cases/",
+    "https://www.super-flower.com.tw/inquiry/",
+    "https://www.super-flower.com.tw/contact/",
+    "https://www.youtube.com/@SuperFlowerOfficial",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#spec",
+    "https://www.super-flower.com.tw/products/Cooling/",
+    "https://www.super-flower.com.tw/about/",
+    "https://maps.google.com.tw/?q=F., No. 649-1, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 242, Taiwan (R.O.C.)",
+    "https://www.super-flower.com.tw/news/21/",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#moduleSearch",
+    "https://www.super-flower.com.tw/news/24/",
+    "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_LsWySdaC9V.png",
+    "https://www.super-flower.com.tw/products/Fans/",
+    "https://www.super-flower.com.tw/faq/",
+    "https://www.super-flower.com.tw/products-detail/ZILLIONDB/#price",
+    "https://www.super-flower.com.tw/spot/",
+    "https://www.facebook.com/superflowerpsu/",
+    "https://www.super-flower.com.tw/calculator/",
+    "tel:02-2908-5366",
+    "https://www.super-flower.com.tw/news/",
+    "https://www.super-flower.com.tw/products/Power-Supplies/"
+  ],
+  "images": [
+    {
+      "url": "https://www.super-flower.com.tw/images/logo_noButter.png",
+      "alt": "振華電腦有限公司"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_LsWySdaC9V.png",
+      "alt": "ALL_catalog_color_26E11_LsWySdaC9V"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_RGXbLTkj8g.png",
+      "alt": "ALL_catalog_color_26E11_RGXbLTkj8g"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_b/ALL_catalog_color_26E11_wSTHRCnVmw.png",
+      "alt": "ALL_catalog_color_26E11_wSTHRCnVmw"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_s/ALL_catalog_color_26E11_LsWySdaC9V.png",
+      "alt": "ALL_catalog_color_26E11_LsWySdaC9V"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_s/ALL_catalog_color_26E11_RGXbLTkj8g.png",
+      "alt": "ALL_catalog_color_26E11_RGXbLTkj8g"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_color_s/ALL_catalog_color_26E11_wSTHRCnVmw.png",
+      "alt": "ALL_catalog_color_26E11_wSTHRCnVmw"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_b/ALL_catalog_26E21_JC5Zi6aHD3.jpg",
+      "alt": "ALL_catalog_26E21_JC5Zi6aHD3"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_b/ALL_catalog_26E21_uHJ2izIRtl.jpg",
+      "alt": "ALL_catalog_26E21_uHJ2izIRtl"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/26dda906-9736-4361-94bb-e03e2e0c92e3__26E05dVFzH.png",
+      "alt": "20+4Pin@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/%284%2B4Pin%29_650__26E13GtsmF.png",
+      "alt": "(4+4Pin) CPU@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/SLI_600__26E18hK4Kt.png",
+      "alt": "SLI (2 x PCI 6+2 Pin)@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/4SATA_600__26E187dwmU.png",
+      "alt": "4 SATA@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/4molex_600__26E18xj1AD.png",
+      "alt": "4 Molex@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/catalogCableImg_1__26C17S5R79.png",
+      "alt": "20+4Pin@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/%284%2B4Pin%29_650__26E13GtsmF.png",
+      "alt": "(4+4Pin) CPU@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/SLI_600__26E18hK4Kt.png",
+      "alt": "SLI (2 x PCI 6+2 Pin)@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/4SATA_600__26E187dwmU.png",
+      "alt": "4 SATA@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/4molex_600__26E18xj1AD.png",
+      "alt": "4 Molex@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/26dda906-9736-4361-94bb-e03e2e0c92e3__26E05dVFzH.png",
+      "alt": "20+4Pin@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/%284%2B4Pin%29_600__26E13B1IDJ.png",
+      "alt": "(4+4Pin) CPU@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/SLI2xPCI6%2B2Pin__500__26E13Y6a7g.png",
+      "alt": "SLI (2 x PCI 6+2 Pin)@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/6%2B2_500__26E18WS8sl.png",
+      "alt": "PCI-E 6+2Pin@x1"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/upload/catalog_cable_list/enL_catalog_cable_26E19_lCEhetLKOt.png",
+      "alt": "3 SATA + 1 Molex@x2"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/images/logo_noButter.png",
+      "alt": "振華電腦有限公司"
+    },
+    {
+      "url": "https://www.super-flower.com.tw/images/logo_noButter.png",
+      "alt": "振華電腦有限公司"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Model No.",
+        "ZILLION DB Silver 850W ATX3.1 (2025)",
+        "ZILLION DB Silver 750W ATX3.1 (2025)",
+        "ZILLION DB Silver 650W ATX3.1 (2025)"
+      ],
+      [
+        "WATTAGE",
+        "850W",
+        "750W",
+        "650W"
+      ],
+      [
+        "80PLUS®",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cybenetics Efficiency Level",
+        "Silver",
+        "Silver",
+        "Silver"
+      ],
+      [
+        "Cybenetics Noise Level",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Intel Power Design Guide",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Dimensions",
+        "140mm(L) x 150mm(W) x 86mm(H)",
+        "140mm(L) x 150mm(W) x 86mm(H)",
+        "140mm(L) x 150mm(W) x 86mm(H)"
+      ],
+      [
+        "Fan Information",
+        "Fan Size",
+        "120mm HDB Fan",
+        "120mm HDB Fan",
+        "120mm HDB Fan"
+      ],
+      [
+        "Fan Bearing",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Electrical Features",
+        "Frequency",
+        "",
+        "",
+        ""
+      ],
+      [
+        "AC Input",
+        "200V~240V | 50-60Hz",
+        "200V~240V | 50-60Hz",
+        "200V~240V | 50-60Hz"
+      ],
+      [
+        "Protection",
+        "OVP SCP OPP NLP",
+        "OVP SCP OPP NLP",
+        "OVP SCP OPP NLP"
+      ],
+      [
+        "Operating Temperature",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cable Information",
+        "Modularity",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cable type",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Safety and Environmental",
+        "Safety and EMC",
+        "TÜV / CB / CE / RoHS",
+        "TÜV / CB / CE / RoHS",
+        "TÜV / CB / CE / RoHS"
+      ],
+      [
+        "Environmental Compliance",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "model no.: SF-550Z12DB"
+      ],
+      [
+        "AC INPUT",
+        "200-240V~, 50-60Hz, 6A"
+      ],
+      [
+        "DC OUTPUT",
+        "+3.3V",
+        "+5V",
+        "+12V",
+        "-12V",
+        "+5VSB"
+      ],
+      [
+        "550W",
+        "Max Output Current",
+        "18A",
+        "18A",
+        "70.8A",
+        "0.3A",
+        "3A"
+      ],
+      [
+        "Max Combined Wattage",
+        "100W",
+        "849.6W",
+        "3.6W",
+        "15W"
+      ],
+      [
+        "850W"
+      ]
+    ],
+    [
+      [
+        "model no.: SF-550Z12DB"
+      ],
+      [
+        "AC INPUT",
+        "200-240V~, 50-60Hz, 6A"
+      ],
+      [
+        "DC OUTPUT",
+        "+3.3V",
+        "+5V",
+        "+12V",
+        "-12V",
+        "+5VSB"
+      ],
+      [
+        "550W",
+        "Max Output Current",
+        "18A",
+        "18A",
+        "62.5A",
+        "0.3A",
+        "3A"
+      ],
+      [
+        "Max Combined Wattage",
+        "100W",
+        "750W",
+        "3.6W",
+        "15W"
+      ],
+      [
+        "750W"
+      ]
+    ],
+    [
+      [
+        "model no.: SF-550Z12DB"
+      ],
+      [
+        "AC INPUT",
+        "200-240V~, 50-60Hz, 6A"
+      ],
+      [
+        "DC OUTPUT",
+        "+3.3V",
+        "+5V",
+        "+12V",
+        "-12V",
+        "+5VSB"
+      ],
+      [
+        "550W",
+        "Max Output Current",
+        "18A",
+        "18A",
+        "54.1A",
+        "0.3A",
+        "3A"
+      ],
+      [
+        "Max Combined Wattage",
+        "100W",
+        "649.2W",
+        "3.6W",
+        "15W"
+      ],
+      [
+        "650W"
+      ]
+    ]
+  ]
+}

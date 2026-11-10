@@ -1,0 +1,94 @@
+{
+  "id": "import-ssd-0fca54c5a939",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M480 PCIe 4.0 NVMe M.2 PLAY 1TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification",
+    "sha256": "21f9be0127d850ab1faf4f8cfef8810dd9f16e13afbc98c29a0cbed315d0bdd2",
+    "bytes": 68760,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M480 PCIe 4.0 NVMe M.2 PLAY",
+    "Capacity": "1TB",
+    "Controller": "PHISON E18",
+    "Flash Memory": "3D NAND",
+    "DRAM Cache": "1GB DDR4",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen4x4, NVMe 1.4",
+    "Compatibility": "PCIe Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.40mm (L) x 24.00mm (W) x 10.70mm (H), PS5 Compatible",
+    "Sequential Read up to (MB/s)": "7000",
+    "Sequential Write up to (MB/s)": "5500",
+    "Random Read 4KB up to (IOPS)": "350,000",
+    "Random Write 4KB up to (IOPS)": "700,000",
+    "Maximum Operating Power (W)": "6.6",
+    "Idle Power PS3 (mW)": "14",
+    "Low Power L1.2 (mW)": "3",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "700",
+    "Mean Time Between Failure (MTBF)": "Up to 1,600,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS support required) \n\nSMART (Self-Monitoring, Analysis and Reporting Technology) \n\nLDPC (Low Density Parity Check) ECC Algorithm \n\nEnd to End Data Path Protection \n\nAPST (Autonomous Power State Transition) \n\nAES256/Pyrite (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1647937771cbb25567ea4e42d4a7a889999da3c0dd.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification",
+        "checkedAt": "2026-11-10T14:36:18+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY/Specification",
+        "sha256": "21f9be0127d850ab1faf4f8cfef8810dd9f16e13afbc98c29a0cbed315d0bdd2",
+        "bytes": 68760,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M480 PCIe 4.0 NVMe M.2 PLAY",
+      "selectedColumn": "SPATIUM M480 PCIe 4.0 NVMe M.2 1TB PLAY"
+    }
+  ],
+  "additionalSources": [
+    {
+      "name": "MSI — présentation officielle du dissipateur de cette variante",
+      "url": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY",
+      "checkedAt": "2026-11-10T14:55:43+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "SPATIUM M480 sports a sleek dual-finish aluminum heatsink that efficiently\n dissipates heat and allows the SSD to sustain maximum performance under heavy load on any\n platform.",
+    "installed": true
+  },
+  "extraFieldEvidence": {
+    "heatsink": {
+      "value": "SPATIUM M480 sports a sleek dual-finish aluminum heatsink that efficiently\n dissipates heat and allows the SSD to sustain maximum performance under heavy load on any\n platform.",
+      "sourceURL": "https://www.msi.com/Storage/SPATIUM-M480-PCIe-4.0-NVMe-M.2-PLAY",
+      "checkedAt": "2026-11-10T14:55:43+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Dissipateur de la variante exacte",
+      "rows": [
+        {
+          "label": "Dissipateur fourni",
+          "value": "SPATIUM M480 sports a sleek dual-finish aluminum heatsink that efficiently\n dissipates heat and allows the SSD to sustain maximum performance under heavy load on any\n platform."
+        }
+      ]
+    }
+  ]
+}

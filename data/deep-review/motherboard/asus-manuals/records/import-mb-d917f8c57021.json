@@ -1,0 +1,228 @@
+{
+  "review": {
+    "id": "import-mb-d917f8c57021",
+    "name": "PRIME X370-PRO",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+          "checkedAt": "2026-11-10T14:09:11+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+          "httpStatus": 200,
+          "sha256": "a2e2bee9b355a7ffbeb704ddcd8a1d726fc454707c702e8c58a0b2e499748a64",
+          "bytes": 5046889,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "cover": "draobrehtoM PRIME X370-PRO",
+        "pages": [
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "product": {
+    "mpn": "PRIME X370-PRO",
+    "identityNote": "Modèle ASUS PRIME X370-PRO confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — manuel officiel, tableau des spécifications",
+        "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME X370-PRO",
+      "detailLevel": "partial",
+      "m2Slots": 1
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AM4 socket for AMD Ryzen™/7th Generation A-series/Athlon™ Processorss\nSupports CPU up to 8 cores*\n* Due to CPU limitation, CPU cores supported varies by processor.\n** Refer to www.asus.com for the AMD CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X370 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ Processors\n4 x DIMM, max. 64GB DDR4 3200(O.C.)/2933(O.C.)2666/2400/2133 MHz, ECC\nand non-ECC, un-buffered memory\nAMD 7th Generation A-series/Athlon™ Processors\n4 x DIMM, max. 64GB DDR4 2400/2133 MHz, non-ECC, un-buffered memory\nDual channel memory architecture\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors List) Please refer to\nMemory QVL (Qualified Vendors List) for details.\n** Hyper DIMM support is subject to the physical characteristics of individual CPUs."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ Processors\n2 x PCI Express 3.0/2.0 x16 slots (single at x16 or dual at x8/x8 mode)\nAMD 7th Generation A-series/Athlon™ Processors\n1 x PCI Express 3.0/2.0 x16 slot (single at x8)\nAMD X370 chipset\n1 x PCI Express 2.0 x16 slot (max. at x4 mode)*\n3 x PCI Express 2.0 x1 slots\n* PCIeX16_3 slot shares bandwidth with PCIeX1_1 and PCIeX1_3."
+          },
+          {
+            "label": "VGA",
+            "value": "Integrated AMD Radeon™ R Series Graphics in the 7th Generation A-Series APU\nMulti-VGA output support: DisplayPort/HDMI ports\nSupports DisplayPort 1.2 with max. resolution 4096 x 2160@60Hz\nSupports HDMI 1.4b with max. resolution 4096 x 2160 @24Hz / 2560 x 1600\n@60Hz\nMaximum shared memory of 2048MB"
+          },
+          {
+            "label": "Multi-GPU support",
+            "value": "AMD Ryzen™ Processors\nSupports NVIDIA® 2-Way SLI™ Technology\nSupports AMD CrossFireX™ Technology\nAMD 7th Generation A-series/Athlon™ Processors\nSupports AMD CrossFireX™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ Processors\n- 1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 (PCIE 3.0 x4 and\nSATA modes) storage devices support\nAMD 7th Generation A-series/Athlon™ Processors\n- 1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110(PCIE 3.0 x2 and SATA\nmodes) storage devices support\nAMD X370 chipset with RAID 0, 1, 10 support\n- 8 x SATA 6.0 Gb/s ports (gray)"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I211AT Gigabit LAN"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® S1220A 8-channel high definition audio CODEC\n- Audio Shielding: Ensures precision analog/digital separation and greatly reduces\nmulti-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right channels to guard\nthe quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and immersive sound\nwith exceptional clarity and fidelity\n- Supports jack-detection, multi-streaming, front panel jack-retasking\n- High quality 120dB SNR stereo playback output (Line-out@back) & 113dB SNR\ninput (Line-in) support\n- Optical S/PDIF out port at back I/O"
+          },
+          {
+            "label": "USB",
+            "value": "AMD Ryzen™/7th Generation A-series/Athlon™ Processors\n- 4 x USB 3.0/2.0 ports (4 ports at back panel[blue])\nAMD X370 Chipset\n- 1 x USB 3.1/3.0/2.0 front panel connector\n- 4 x USB 3.0/2.0 ports (2 ports at mid-board; 2 ports at back panel,Type-A[blue]\nand Type-C)\n- 4 x USB 2.0/1.1 ports at mid-board\nASMedia USB 3.1 controllers\n- 2 x USB 3.1/3.0/2.0 ports (2 ports at back panel[teal blue])"
+          },
+          {
+            "label": "ASUS Exclusive Features",
+            "value": "<Performance Optimization>\n5-Way Optimization\n- Whole system optimization with a single click! Perfectly consolidates TPU, EPU,\nDIGI+ VRM, Fan Xpert 4, and Turbo App.\nDIGI+ VRM\n- 6+4 Phase digital power design\nTPU\n- Auto Tuning\nEPU\n- EPU\nF an Xpert 4 featuring system performance tuning, network priority, and audio\nscene configuration for selected applications\nTurbo App featuring system performance tuning, network priority, and audio\nscene configuration for selected applications.\nGaming Scenario\nAURA\n- Bright up your Build\nAudio Features\n- Audio that roars on the battlefield\nEZ DIY\nUEFI BIOS EZ Mode\n- featuring friendly graphics user interface\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\nQ-Design\n- ASUS Q-Shield\n- ASUS Q-Slot\n- ASUS Q-DIMM\n- ASUS Q-Connector"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "Special Features:\nASUS SafeSlot\n- Protect your graphics card Investment\nASUS 5X Protection III\n- ASUS SafeSlot Core - Fortified PCIe with solid soldering\n- ASUS LANGuard - Protects against LAN surges, lightning strikes and\nstatic-electricity discharges!\n- ASUS Overvoltage Protection - World-class circuit-protecting power\ndesign\n- ASUS DIGI+ VRM - 6+4 Phase digital power design\n- ASUS DRAM Overcurrent Protection: Enhanced DRAM overcurrent\nprotection\n- ASUS Stainless - Steel Back I/O: 3X corrosion-resistance for greater\ndurability!\n- ASUS ESD Guards - Enhanced ESD protection\n- AI Suite 3\n- Ai Charger"
+          },
+          {
+            "label": "ASUS Quiet Thermal Solution",
+            "value": "Quiet Thermal Design:\n- ASUS Fan Xpert 4\n- Stylish Fanless Design: Chipset Heat-sink & MOS Heat-sink solution"
+          },
+          {
+            "label": "ASUS Exclusive Overclocking Features",
+            "value": "Precision Tweaker 2:\n- vVDDCR CPU: Adjustable CPU voltage at 0.00625V increment\n- vVDDCR SOC: Adjustable CPU/NB voltage at 0.00625V increment\n- vDRAM Bus: Adjustable DRAM voltage at 0.005V increment\nOverclocking Protection:\n- ASUS C.P.R.(CPU Parameter Recall)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 Keyboard/Mouse Combo port\n1 x DisplayPort\n1 x HDMI port\n1 x Intel LAN (RJ45) port\n2 x USB 3.1/3.0/2.0 port (teal blue, Type A)\n1 x USB 3.0/2.0 port (Type C)\n5x USB 3.0/2.0 ports (blue, Type A)\n1 x Optical S/PDIF out\n5 x Audio Jacks(Line in,Front Speaker Out,Mic in,Center/Subwoofer,Rear\nSpeaker Out)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.1/3.0/2.0 front panel connector\n1 x USB 3.0/2.0 connectors support additional 2 USB ports (19-pin)\n2 x USB 2.0/1/1 connectors support additional 4 USB ports\n1 x M.2 Socket 3 for M Key, type 2242/2260/2280/22110 devices support,\n(both SATA & PCIE mode)\n8 x SATA 6.0Gb/s connectors (gray)\n1 x CPU Fan header (4-pin) for both 3-pin(DC mode) and 4-pin(PWM mode)\nCPU coolers control with auto detection support\n1 x CPU OPT Fan header (4-pin)\n1 x AIO Pump header (4-pin)\n1 x W_PUMP+ header (4-pin)\n2 x Chassis Fan connectors (4-pin) for both 3-pin(DC mode) and 4-pin(PWM\nmode) coolers control with auto detection support\n1 x Aura RGB header\n1 x Front panel audio connector (AAFP)\n1 x TPM connector\n1 x COM connector\n1 x 24-pin EATX Power connector\n1 x 8-pin EATX 12V Power connector\n1 x System Panel\n1 x Clear CMOS header"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS, PnP, DMI3.0, WfM2.0, SM BIOS 3.0,\nACPI 6.1, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F11\nEZ Tuning Wizard, F6 Qfan Control, F3 My Favorites, Last Modified log,\nF12 PrintScreen, and ASUS DRAM SPD (Serial Presence Detect) memory\ninformation"
+          },
+          {
+            "label": "Administration",
+            "value": "WfM 2.0, DMI 3.0, WOL by PME, PXE"
+          },
+          {
+            "label": "Support DVD contents",
+            "value": "Drivers\nASUS Utilities\nEZ Update\nAnti-virus software (OEM version)"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor, 12”x 9.6” (30.5cm x 24.4cm)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le tableau complet du manuel conserve les limites et restrictions publiées à son édition ; les mises à jour BIOS/QVL peuvent modifier les listes de CPU et de mémoire compatibles."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5cm x 24.4cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5cm x 24.4cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "chipset": {
+        "value": "AMD X370 Chipset",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ Processors\n- 1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 (PCIE 3.0 x4 and\nSATA modes) storage devices support\nAMD 7th Generation A-series/Athlon™ Processors\n- 1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110(PCIE 3.0 x2 and SATA\nmodes) storage devices support\nAMD X370 chipset with RAID 0, 1, 10 support\n- 8 x SATA 6.0 Gb/s ports (gray)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ Processors\n2 x PCI Express 3.0/2.0 x16 slots (single at x16 or dual at x8/x8 mode)\nAMD 7th Generation A-series/Athlon™ Processors\n1 x PCI Express 3.0/2.0 x16 slot (single at x8)\nAMD X370 chipset\n1 x PCI Express 2.0 x16 slot (max. at x4 mode)*\n3 x PCI Express 2.0 x1 slots\n* PCIeX16_3 slot shares bandwidth with PCIeX1_1 and PCIeX1_3.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 Keyboard/Mouse Combo port\n1 x DisplayPort\n1 x HDMI port\n1 x Intel LAN (RJ45) port\n2 x USB 3.1/3.0/2.0 port (teal blue, Type A)\n1 x USB 3.0/2.0 port (Type C)\n5x USB 3.0/2.0 ports (blue, Type A)\n1 x Optical S/PDIF out\n5 x Audio Jacks(Line in,Front Speaker Out,Mic in,Center/Subwoofer,Rear\nSpeaker Out)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.1/3.0/2.0 front panel connector\n1 x USB 3.0/2.0 connectors support additional 2 USB ports (19-pin)\n2 x USB 2.0/1/1 connectors support additional 4 USB ports\n1 x M.2 Socket 3 for M Key, type 2242/2260/2280/22110 devices support,\n(both SATA & PCIE mode)\n8 x SATA 6.0Gb/s connectors (gray)\n1 x CPU Fan header (4-pin) for both 3-pin(DC mode) and 4-pin(PWM mode)\nCPU coolers control with auto detection support\n1 x CPU OPT Fan header (4-pin)\n1 x AIO Pump header (4-pin)\n1 x W_PUMP+ header (4-pin)\n2 x Chassis Fan connectors (4-pin) for both 3-pin(DC mode) and 4-pin(PWM\nmode) coolers control with auto detection support\n1 x Aura RGB header\n1 x Front panel audio connector (AAFP)\n1 x TPM connector\n1 x COM connector\n1 x 24-pin EATX Power connector\n1 x 8-pin EATX 12V Power connector\n1 x System Panel\n1 x Clear CMOS header",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "network": {
+        "value": "Intel® I211AT Gigabit LAN",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "audio": {
+        "value": "Realtek® S1220A 8-channel high definition audio CODEC\n- Audio Shielding: Ensures precision analog/digital separation and greatly reduces\nmulti-lateral interference\n- Dedicated audio PCB layers: Separate layers for left and right channels to guard\nthe quality of the sensitive audio signals\n- Premium Japanese audio capacitors: Provide warm, natural and immersive sound\nwith exceptional clarity and fidelity\n- Supports jack-detection, multi-streaming, front panel jack-retasking\n- High quality 120dB SNR stereo playback output (Line-out@back) & 113dB SNR\ninput (Line-in) support\n- Optical S/PDIF out port at back I/O",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM4 socket for AMD Ryzen™/7th Generation A-series/Athlon™ Processorss\nSupports CPU up to 8 cores*\n* Due to CPU limitation, CPU cores supported varies by processor.\n** Refer to www.asus.com for the AMD CPU support list.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS, PnP, DMI3.0, WfM2.0, SM BIOS 3.0,\nACPI 6.1, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F11\nEZ Tuning Wizard, F6 Qfan Control, F3 My Favorites, Last Modified log,\nF12 PrintScreen, and ASUS DRAM SPD (Serial Presence Detect) memory\ninformation",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X370-PRO/E12577_PRIME_X370-PRO_UM_v2_web_only_20170712.pdf",
+        "checkedAt": "2026-11-10T14:09:11+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME X370-PRO"
+  }
+}

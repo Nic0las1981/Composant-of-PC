@@ -1,0 +1,205 @@
+{
+  "review": {
+    "id": "import-mb-2a42f168bc1c",
+    "name": "PRO A520M-C II/CSM",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "sha256": "66733df0b84dc5f493f5c3e1fd194f4acf6ab735eaf9b0e32db995b929ae9b52",
+        "bytes": 339894,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "Pro A520M-C II/CSM",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/c0975a18-da56-4a1d-bddc-edd9f0365af1/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "memoryType",
+      "formFactor",
+      "boardDimensions",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRO A520M-C II/CSM",
+    "identityNote": "Modèle ASUS PRO A520M-C II/CSM confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memoryType": "DDR4",
+      "heightMm": 244.0,
+      "widthMm": 229.0,
+      "manufacturerPartNumber": "PRO A520M-C II/CSM",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "*Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "DDR4 4866(O.C.)/4600(O.C.)/4466(O.C.)/4400(O.C.)/4333(O.C.)/4266(O.C.)/4200(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/346(O.C.)/3400(O.C.)/3333(O.C.)/3200/3000/2933/2800/2666/2400/2133 MHz, Un-buffered Memory*\nDual Channel Memory Architecture\n*ECC memory (ECC mode) support varies by CPU.\n*Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists), and memory frequency support depends on the CPU types."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x DisplayPort 1.2\n1 x D-Sub\n1 x DVI-D\n1 x HDMI™ 2.1(4K@60Hz)\n*Graphics specifications may vary between CPU types.\n*The DVI-D port and the DisplayPort cannot work at the same time. Only the DVI-D port functions when the two ports are both connected."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD A520 Chipset\n2 x PCIe 3.0 x1 slots\n1 x PCI slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series Desktop Processors\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD A520 Chipset\n4 x SATA 6Gb/s ports\nSupport RAID 0, 1, 10"
+          },
+          {
+            "label": "USB",
+            "value": "4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports2 x USB 2.0 headers support additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC897 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n*A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x DisplayPort\n1 x D-Sub port\n1 x DVI-D port\n1 x HDMI™ port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x COM port\n1 x PS/2 Keyboard (purple) port\n1 x PS/2 Mouse (green) port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x Chassis Intrude header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x LPC debug header\n1 x LPT header\n1 x SMBUS header\n1 x Speaker header\n1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS Q-Design\n - ASUS Q-DIMM\n - ASUS Q-Slot\n ASUS Thermal Solution\n - Aluminum heatsink design\n ASUS EZ DIY\n - Box Headers\n Bespoke Motherboard Design & Business Focused Features\n - ASUS Self Recovering BIOS\n - ASUS Event Log\n - ASUS Commercial BIOS kit\n - Anti-Moisture Coating\n - 24/7 Reliability\n - Overcurrent Protection\n TPM 2.0 IC Onboard"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nIT Management software supported\n- ASUS Control Center Express(ACCE)"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n 2 x SATA 6Gb/s cables\n Miscellaneous\n 1 x I/O Shield\n 1 x M.2 SSD screw package\n Installation Media\n 1 x Support DVD\n Documentation\n 1 x ACC Express Activation Key Card\n 1 x User manual"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows 10 64bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "24.4cm x 22.9cm"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/c0975a18-da56-4a1d-bddc-edd9f0365af1/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "formFactor": {
+        "value": "24.4cm x 22.9cm",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "boardDimensions": {
+        "value": "24.4cm x 22.9cm",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series Desktop Processors\nM.2 slot (Key M), type 2242/2260/2280 (supports PCIe 3.0 x4 & SATA modes)\nAMD A520 Chipset\n4 x SATA 6Gb/s ports\nSupport RAID 0, 1, 10",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 slot (supports x16 mode)\nAMD A520 Chipset\n2 x PCIe 3.0 x1 slots\n1 x PCI slot",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "rearIO": {
+        "value": "4 x USB 3.2 Gen 1 ports (4 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\n1 x DisplayPort\n1 x D-Sub port\n1 x DVI-D port\n1 x HDMI™ port\n1 x Realtek 1Gb Ethernet port\n3 x Audio jacks\n1 x COM port\n1 x PS/2 Keyboard (purple) port\n1 x PS/2 Mouse (green) port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n1 x M.2 slot (Key M)\n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support additional 4 USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x Chassis Intrude header\n1 x COM Port header\n1 x Front Panel Audio header (AAFP)\n1 x LPC debug header\n1 x LPT header\n1 x SMBUS header\n1 x Speaker header\n1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC897 7.1 Surround Sound High Definition Audio CODEC*\n- Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n*A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      },
+      "cpuSupport": {
+        "value": "*Refer to www.asus.com for CPU support list.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-a520m-c-ii-csm/techspec/",
+        "checkedAt": "2026-11-10T13:26:59+00:00"
+      }
+    },
+    "manufacturerModel": "Pro A520M-C II/CSM"
+  }
+}

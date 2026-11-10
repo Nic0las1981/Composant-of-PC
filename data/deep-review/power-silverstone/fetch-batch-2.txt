@@ -1,0 +1,1902 @@
+# ST85F-PT
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st85f-pt-manual.pdf
+Author: oscar.chen
+
+#### ST85F-PT
+
+##### STRIDER PLATINUM SERIES
+
+World’s smallest 80 PLUS Platinum, full-modular ATX power supplies
+
+High efficiency with 80 PLUS Platinum certification Compact design with a depth of 140mm for easy integration 100% modular cables 24/7 continuous power output with 40℃ operating temperature Class-leading single +12V rail Strict ±3% voltage regulation and low ripple & noise Ultra silent 120mm fan with intelligent semi-fanless operation
+
+o
+
+### SPECIFICATION
+
+## SilverStone Strider Platinum
+
+## SST-ST85F-PT
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Platinum PS/2
+
+1.1 Scope
+
+This specification defines the performance characteristics of a single phase 750, 650, 550 watts, 5 output power supply. This specification also defines worldwide safety and electromagnetic compatibility requirements for the power supply which is intended for use in computer products.
+
+Nominal Voltage 100-240 Vrms
+
+Voltage Variation Range 90 - 264 Vrms
+
+1. General
+
+2.1 Input Voltage
+
+2.2 Input Frequency
+
+* The power supply must operate at above frequency with 90-264 VACrms input voltage range.
+
+2. Input Characteristics
+
+Nominal Frequency 50-60 Hz
+
+Frequency Variation Range 47 Hz to 63 Hz
+
+2.3 Max. Input AC Current
+
+3.1 Normal Operation Output
+
+3. Output characteristics
+
+Max. Input Current
+
+2.4 Inrush Current 
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase 
+of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and 
+over the specified temperature range. The peak inrush current shall be less than the ratings of its critical 
+components (including input fuse, bulk rectifiers, and surge limiting device). 
+2.5 Efficiency 
+ST85F-PT provides an efficiency of 90% minimum when measured at 20% load , provides an efficiency of 92% 
+minimum when measured at 50% load, provides an efficiency of 89% minimum when measured at 100% load, 
+under 115V/60Hz and 230V/50Hz condition. 
+
+Maximum continuous total DC output power should not exceed 850W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 850W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+3.2 Remote On/Off Controlled mode 
+The PSON# signal is required to remotely turn on/off the power supply, PSON# is an active low signal that 
+turns on the output power rails. When this is not pulled low by the system, or left open, the outputs (except 
+the +5VSB) turn off. This signal is pulled to a standby voltage by a pull-up resistor internal to the power 
+supply. 
+TTL level "H" 2.0 V – 5.25 V 
+"L" 0.0 V – 1.0 V 
+
+12A
+
+Measuring Range 90 - 264 Vrms
+
+Output Voltage 
+1. +5V 
+2. +12V 
+3. –12V 
+4. +5Vs 
+5. +3.3V 
+
+Load MIN 
+0.2A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+70.9A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.5 Hold-up Time
+
+3.3 Regulation The cross regulation defined as follows, the output regulation should be within the specified range.
+
+3.4 Rise Time DC output rise time is less than 20 mS at nominal line and full load.
+
+DC +5V, +3.3V ,12V output maintains at least 16mS after power off which hold within 70% loads under 230V/50Hz condition.
+
+3.6 5VSB 
+5VSB is requierd for the implementation of PS-ON described above. 5VSB is a standby voltage that may 
+be used to power circuits that require power input during the powered-down state of all power rails. The 
+5 VSB pin should deliver 5V ±5% at a minimum of 3.0 A for PC board circuits to operate. Conversely, PC 
+board should draw no more than 3.0A maximum form this pin. This power may be used to operate circuits 
+such as soft power control. 
+
+Load Light Load. Typical Load Full Load
+
++5V 2.49A 6.22A 12.43A +3.3V 2.49A 6.22A 12.43A +12V 12.18A 30.45A 60.90A -12V 0.05A 0.13A 0.26A +5Vsb 0.52A 1.29A 2.58A
+
+3.7 PG-OK
+
+3.8 3.3V Sense
+
+PG-OK is a power good signal and should be asserted high by power supply to indicate that the +5 VDC and +3.3 VDC outputs are above the under-voltage thresholds of the power supply. When this signal is asserted high, there should be sufficient mains energy stored by the converter to guarantee continuous power operation within specification. Conversely, when either the +5VDC or the +3.3VDC output voltage falls below the under-voltage threshold, or when mains power has been removed for a time sufficiently long so that power supply operation is no longer guaranteed, PG-OK should be deasserted to a low state. See Figure 1 for a representation of the timing characteristics of the PG-OK,PS-ON, and germane power rail signals.
+
+A default 3.3V sense line should be implemented pin 13 of the connector.
+
+3.9 Capacitive Load 
+The power supply should be able to power up and operate normally with the following capacitances 
+simultaneously present on the DC outputs. 
+
+Output +5V +12V +3.3V -12V +5VS
+
+Capacitive load (uF) 
+10,000 
+10,000 
+10,000 
+330 
+10,000 
+
+In primary circuit of the power supply , a protected fuse is inserted. Only internal fault of the power supply will cause the fuse blown. Any overload or short circuit at DC output will keep from fuse brown or fire hazard.
+
+4.1 Input Protection
+
+The +5V/+12V/+3.3V DC output are protected against the under voltage condition . range value can't be exceed 3.3~3.7V at 5V terminal and 8.5~9.5V at 12V, 2.0~2.4V at 3.3V.
+
+4.2 Output Protection
+
+4.2.1 Under voltage protection
+
+The +12V/ DC output are protected against the over voltage condition . Maximum value can't be over 15.5V at 12V.
+
+4.2.2 Over Voltage Protection
+
+The power supply can be used electronic circuit to limit the output current against exceeding 10%-60% of surge output power or protected against excessive power delivery since short circuit of any output or over total power at high line.
+
+4.2.3 Over Power Protection
+
+4. Protection
+
+5.1 No Load Start
+
+5. Start Stability
+
+Short circuit placed on +5V,+12V,+3.3V,-12V will latch off. +5VSB will auto-recovery.
+
+4.2.4 Short Circuit Protection
+
+This power supply includes an over-temperature protection sensor, which can trip and shut down the power supply at 110℃
+
+4.2.6 Over-Temperature Protection
+
+Current protection should be designed to limit the current to operate within safe operating conditions. Over current protection schemes where only the voltage output that experiences the over current event is shut off may be adequate to maintain safe operation of the power supply and the system; however, damage to the motherboard or other system components may occur. The recommended over current protection scheme is for the power supply to latch into the shutdown state. The setting of over current protection for each output rail is as following.
+
+When power is applied to ST85F-PT with no load connected or under minimum load connected, neither damage to power supply nor hazards to users will occur.
+
+5.2 Cold Start The power supply shall operate properly when first applied at normal input voltage and or so maximum load after 4 hours storage in 0℃ environment.
+
+4.2.5 Over-Current Protection
+
+6.1 Temperature and Humidity
+
+6. Environments
+
+6.1.1 Operating Temperature 0 to 40C Relative Humidity 20 to 90 %
+
+o
+
+Frequency 5-55-10 Hz
+
+Duration 30 minutes
+
+Amplitude 0.35 mm
+
+6.2 Altitude The power supply can operate normally at any altitude between 0 to 10000 feet.
+
+6.3 Vibration and Shock Sweep and resonance search for each of X,Y,Z, axis at the sweep. RATE of 1/OCTAVE/Min.
+
+CE,FCC
+
+7. Conducted EMI cTUVus, CB,TUV
+
+8.1 Safety Requirement
+
+The AC leakage current is less than 3.5mA when the power supply connect to 264Vac/50Hz .
+
+8.2 Leakage Current
+
+The insulation resistance should be not less than 30M ohm after applying of 500VDC for 1 minute.
+
+8.3 Insulation Resistance
+
+The power supply shall withstand for 1 minute without breakdown the application of a 60Hz 1500V AC voltage applied between both input line and chassis (20mA DC cut-off current). Main transformer shall similarly withstand 3000Vac applied between both primary and secondary windings for a minimum of one minute.
+
+8.4 Dielectric Voltage Withstand
+
+8. Product Safety
+
+A TTL compatible signal for the purpose of initiating an orderly start-up procedure under normal input operating conditions. During power up, this signal is asserted ( low ) until +5V is under regulation and AC reaches min. line specification range. After all voltage are going appropriate level, the system may have a turn on delay of 100mS, but no greater than 500mS. During power off the signal should go to low level before +5V is out of regulation. The low level is 0 to 0.8V and high level is 4.75 to 5.25V. The " Power Good "signal can drive up to 6 standard TTL loads.
+
+9. Power Good Signal
+
+6.1.2 Storage Temperature -40 to 70C Relative Humidity 20 to 95 % noncondensing
+
+o
+
+Time Diagram Figure 1
+
+* T1 : Turn on time ( 500mS Max.) 
+* T2 : Rise time ( ≦ 20mS Max.) 
+* T3 : Power good turn on delay time ( 100 < T3 < 500 mS ) 
+* T4 : Switch on time (10mS Max.) 
+* T5 : Power hold-on time ( 16 mS Min at 70%load) 
+* T6 : Power good turn off delay time ( 1.0 mS Min.) 
+* Power on-off cycle : 
+When the power supply is turned off for a minimum of 2.0 sec. and turn on again, the power good signal 
+will be asserted. 
+
+The power supply with active power factor correction, and meet the EN61000-3-2 standards, The power factor is greater than 0.9 at 230V/50Hz, Max. load.
+
+13. Power Factor
+
+150 mm (W) × 86 mm (H) × 140mm (D)
+
+14. Mechanical Specification
+
+The MTBF of the power should be 100,000 hours min.
+
+10. MTBF
+
+11.1 Input Voltage
+
+Applying 220Vac.
+
+11.2 Test Condition
+
+Applying 75% loads for the power supply in 45 (+/-5) C chamber for 4 hours.
+
+11. Burn-In
+
+The product shall meet requirement for EN61000-3-2 & EN61000-3-3 :1995 standard of class D, test at 230Vac 50Hz.
+
+12. Harmonics
+
+Power Supply Timing
+
+NO. G11226830
+
+
+
+# STRIDER PLATINUM SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-ST75F-PT-ST65F-PT-ST55F-PT-Manual.pdf
+Author: shadow
+
+##### ST75F-PT / ST65F-PT / ST55F-PT
+
+### STRIDER PLATINUM SERIES
+
+World’s smallest 80 PLUS Platinum, full-modular ATX power supplies
+
+Compact design with a depth of 140mm for easy integration 
+High efficiency with 80 PLUS Platinum certification 
+100% modular cables 
+24/7 continuous power output with 40C operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Ultra silent 120mm fan with intelligent semi-fanless operation 
+
+o
+
+#### SPECIFICATION
+
+## SilverStone Strider Platinum
+
+| | | SST-ST75F-PT | |
+| --- | --- | --- | --- |
+| | | SST-ST65F-PT | |
+| | | SST-ST55F-PT | |
+
+ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Platinum PS/2
+
+1. General
+
+1.1 Scope This specification defines the performance characteristics of a single phase 750, 650, 550 watts, 5 output power supply. This specification also defines worldwide safety and electromagnetic compatibility requirements for the power supply which is intended for use in computer products.
+
+2. Input Characteristics
+
+2.1 Input Voltage
+
+Nominal Voltage 100-240 Vrms
+
+Voltage Variation Range 90 - 264 Vrms
+
+2.2 Input Frequency
+
+Nominal Frequency 50-60 Hz
+
+Frequency Variation Range 47 Hz to 63 Hz
+
+* The power supply must operate at above frequency with 90-264 VACrms input voltage range.
+
+2.3 Max. Input AC Current
+
+3.1 Normal Operation Output
+
+3. Output characteristics
+
+Max. Input Current
+
+ST75F-PT
+
+ST75F-PT
+
+ST65F-PT
+
+ST55F-PT
+
+2.4 Inrush Current 
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase 
+of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and 
+over the specified temperature range. The peak inrush current shall be less than the ratings of its critical 
+components (including input fuse, bulk rectifiers, and surge limiting device). 
+2.5 Efficiency 
+ST75G-PT, ST65F-PT, ST55F-PT provides an efficiency of 89% minimum when measured at full load under 
+115V/60Hz and 230V/50Hz condition. 
+
+Maximum continuous total DC output power should not exceed750W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 750W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+10A
+
+Measuring Range 90 - 264 Vrms
+
+Max. Input Current 10A
+
+Measuring Range 90 - 264 Vrms
+
+Max. Input Current 8A
+
+Measuring Range 90 - 264 Vrms
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.2A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+62.5A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.2 Remote On/Off Controlled mode 
+The PSON# signal is required to remotely turn on/off the power supply, PSON# is an active low signal that 
+turns on the output power rails. When this is not pulled low by the system, or left open, the outputs (except 
+the +5VSB) turn off. This signal is pulled to a standby voltage by a pull-up resistor internal to the power 
+supply. 
+TTL level "H" 2.0 V – 5.25 V 
+"L" 0.0 V – 1.0 V 
+
+ST65F-PT
+
+Maximum continuous total DC output power should not exceed650W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 120W. Maximum combined load on +12V outputs shall not exceed 650W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+22A 
+54.2A 
+0.3A 
+3.0A 
+22.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±53% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+ST55F-PT
+
+Maximum continuous total DC output power should not exceed550W. Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 105W. Maximum combined load on +12V outputs shall not exceed 550W. NOTE: Noise test should be measured with 20 MHz bandwidth frequency oscilloscope. The output terminal shall add a tantalum capacitor of 10uF in parallel with a ceramic capacitor of 0.1uF.
+
+Output Voltage 
+1. +5V 
+2. +12V 
+4. –12V 
+5. +5Vs 
+6. +3.3V 
+
+Load MIN 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+0.0A 
+
+Range MAX 
+20A 
+45.9A 
+0.3A 
+3.0A 
+20.0A 
+Regulation 
+±3% 
+±3% 
+±10% 
+±5% 
+±3% 
+Ripple & Noise P-P Max. 
+50mV 
+120mV 
+120mV 
+50mV 
+50mV 
+
+3.3 Regulation
+
+The cross regulation defined as follows, the output regulation should be within the specified range.
+
+ST75F-PT
+
+| | Load | | +5V | | | +3.3V | | +12V | | -12V | | +5Vsb | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Light Load. | | 2.44A | | | 2.44A | | 10.55A | | 0.05A | | 0.51A | | |
+| | Typical Load | | 6.10A | | | 6.10A | | 26.38A | | 0.13A | | 1.27A | | |
+| | Full Load | | 12.20A | | | 12.20A | | 52.75A | | 0.25A | | 2.53A | | |
+
+ST65F-PT
+
+| | Load | | +5V | | | +3.3V | | +12V | | -12V | | +5Vsb | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Light Load. | | 2.38A | | | 2.38A | | 8.93A | | 0.05A | | 0.49A | | |
+| | Typical Load | | 5.96A | | | 5.96A | | 22.32A | | 0.12A | | 1.24A | | |
+| | Full Load | | 11.92A | | | 11.92A | | 44.65A | | 0.25A | | 2.47A | | |
+
+ST55F-PT
+
+Load Light Load. Typical Load Full Load
+
++5V 2.07A 5.16A 10.33A +3.3V 2.07A 5.16A 10.33A +12V 7.48A 18.71A 37.42A -12V 0.05A 0.12A 0.24A +5Vsb 0.49A 1.22A 2.45A
+
+3.4 Rise Time
+
+DC output rise time is less than 20 mS at nominal line and full load.
+
+3.5 Hold-up Time
+
+DC +5V output maintains at least 16mS after power off which hold within full load under 230V/50Hz condition.
+
+3.6 5VSB
+
+5VSB is requierd for the implementation of PS-ON described above. 5VSB is a standby voltage that may be used to power circuits that require power input during the powered-down state of all power rails. The 5 VSB pin should deliver 5V ±5% at a minimum of 3.0 A for PC board circuits to operate. Conversely, PC board should draw no more than 3.0A maximum form this pin. This power may be used to operate circuits such as soft power
+
+3.7 PG-OK
+
+PG-OK is a power good signal and should be asserted high by power supply to indicate that the +5 VDC and +3.3 VDC outputs are above the under-voltage thresholds of the power supply. When this signal is asserted high, there should be sufficient mains energy stored by the converter to guarantee continuous power operation within specification. Conversely, when either the +5VDC or the +3.3VDC output voltage falls below the under-voltage threshold, or when mains power has been removed for a time sufficiently long so that power supply operation is no longer guaranteed, PG-OK should be deasserted to a low state. See Figure 1 for a representation of the timing characteristics of the PG-OK,PS-ON, and germane power rail signals.
+
+3.8 3.3V Sense
+
+A default 3.3V sense line should be implemented pin 13 of the connector.
+
+3.9 Capacitive Load
+
+The power supply should be able to power up and operate normally with the following capacitances simultaneously present on the DC outputs.
+
+| | Output | | | | Capacitive load (uF) | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | +5V | | | 6,000 | | |
+| | | +12V | | | 8,000 | | |
+| | | +3.3V | | | 6,000 | | |
+| | | -12V | | | 350 | | |
+| | | +5VS | | | 350 | | |
+
+4. Protection
+
+4.1 Input Protection
+
+In primary circuit of the power supply , a protected fuse is inserted. Only internal fault of the power supply will cause the fuse blown. Any overload or short circuit at DC output will keep from fuse brown or fire hazard.
+
+4.2 Output Protection
+
+4.2.1 Under voltage protection
+
+The +5V/+12V/+3.3V DC output are protected against the under voltage condition . range value can't be exceed 3.3~3.7V at 5V terminal and 8.5~9.5V at 12V, 2.0~2.4V at 3.3V.
+
+4.2.2 Over Voltage Protection
+
+The +12V/ DC output are protected against the over voltage condition . Maximum value can't be over 15.5V at 12V.
+
+4.2.3 Over Power Protection
+
+The power supply can be used electronic circuit to limit the output current against exceeding 10%-60% of surge output power or protected against excessive power delivery since short circuit of any output or over total power at high line.
+
+5.1 No Load Start
+
+5. Start Stability
+
+Frequency
+
+5-55-10 Hz
+
+Duration 30 minutes
+
+Amplitude
+
+0.35 mm
+
+Short circuit placed on +5V,+12V,+3.3V,-12V will latch off. +5VSB will auto-recovery.
+
+4.2.4 Short Circuit Protection
+
+Current protection should be designed to limit the current to operate within safe operating conditions. Over current protection schemes where only the voltage output that experiences the over current event is shut off may be adequate to maintain safe operation of the power supply and the system; however, damage to the motherboard or other system components may occur. The recommended over current protection scheme is for the power supply to latch into the shutdown state. The setting of over current protection for each output rail is as following.
+
+When power is applied to ST75F-PT, ST65F-PT, ST55F-PT with no load connected or under minimum load connected, neither damage to power supply nor hazards to users will occur.
+
+6.1 Temperature and Humidity
+
+6. Environments
+
+6.1.1 Operating
+
+6.2 Altitude The power supply can operate normally at any altitude between 0 to 10000 feet.
+
+6.3 Vibration and Shock Sweep and resonance search for each of X,Y,Z, axis at the sweep. RATE of 1/OCTAVE/Min.
+
+Temperature 0 to 40C Relative Humidity 20 to 90 %
+
+5.2 Cold Start The power supply shall operate properly when first applied at normal input voltage and or so maximum load after 4 hours storage in 0℃ environment.
+
+4.2.5 Over-Current Protection
+
+o
+
+6.1.2 Storage Temperature -40 to 70C Relative Humidity 20 to 95 % noncondensing
+
+o
+
+CE,FCC
+
+7. Conducted EMI
+
+cTUVus, CB,TUV
+
+8.1 Safety Requirement
+
+The AC leakage current is less than 3.5mA when the power supply connect to 264Vac/50Hz .
+
+8.2 Leakage Current
+
+The insulation resistance should be not less than 30M ohm after applying of 500VDC for 1 minute.
+
+8.3 Insulation Resistance
+
+The power supply shall withstand for 1 minute without breakdown the application of a 60Hz 1500V AC voltage applied between both input line and chassis (20mA DC cut-off current). Main transformer shall similarly withstand 3000Vac applied between both primary and secondary windings for a minimum of one minute.
+
+8.4 Dielectric Voltage Withstand
+
+8. Product Safety
+
+A TTL compatible signal for the purpose of initiating an orderly start-up procedure under normal input operating conditions. During power up, this signal is asserted ( low ) until +5V is under regulation and AC reaches min. line specification range. After all voltage are going appropriate level, the system may have a turn on delay of 100mS, but no greater than 500mS. During power off the signal should go to low level before +5V is out of regulation. The low level is 0 to 0.8V and high level is 4.75 to 5.25V. The " Power Good "signal can drive up to 6 standard TTL loads.
+
+9. Power Good Signal
+
+* T1 : Turn on time ( 2 sec. Max.) 
+* T2 : Rise time ( ≦ 20mS Max.) 
+* T3 : Power good turn on delay time ( 100 < T3 < 500 mS ) 
+* T4 : Switch on time (0.5 sec. Max.) 
+* T5 : Power good turn off delay time ( 1.0 mS Min.) PS-ON/OFF 
+* T6 : Power hold-on time ( 16 mS Min.) 
+* Power on-off cycle : 
+When the power supply is turned off for a minimum of 2.0 sec. and turn on again, the power good signal will be 
+asserted. 
+
+Time Diagram Figure 1
+
+The power supply with active power factor correction, and meet the EN61000-3-2 standards, The power factor is greater than 0.9 at 230V/50Hz, Max. load.
+
+13. Power Factor
+
+150 mm (W) × 86 mm (H) × 140mm (D)
+
+14. Mechanical Specification
+
+The MTBF of the power should be 100,000 hours min.
+
+10. MTBF
+
+11.1 Input Voltage
+
+Applying 220Vac for 230V model.
+
+11.2 Test Condition
+
+Applying 75% loads for the power supply in 45 (+/-5) oC chamber for 4 hours.
+
+11. Burn-In
+
+The product shall meet requirement for EN61000-3-2 & EN61000-3-3 :1995 standard of class D, test at 230Vac 50Hz.
+
+12. Harmonics
+
+NO. G11224800
+
+
+
+# <5354313230302D47285031333129BBA1A9FAAED12DABCAADB1ABCAA9B32E6169>
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-Strider-Gold-Manual.pdf
+Author: jacky
+
+October, 2010 NO.G11212840 STRIDER GOLD ST1200-G / ST1000-G / ST85F-G / ST75F-G The perfect balance of performance, efficiency, and quality
+
+## SPECIFICATION
+
+STRIDER GOLD SERIES 
+SST-ST1200-G 
+SST-ST1000-G 
+SST-ST85F-G 
+SST-ST75F-G 
+
+### ATX12V / EPS 12V Switching Power Supply With Active PFC 80 PLUS Gold PS/2
+
+This specification describes the requirements of 750W, 850W, 1000W, 1200W switching power supply with an stretch ATX form-factor and EPS12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics .
+
+#### 1. AC INPUT
+
+1.1 AC input requirements 
+The input voltage, current, and frequency requirements for continuous operation are 
+stated below. 
+Table 1 AC Input Line Requirements 
+
+Power factor correction (PF) >0.90 at full load. The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and over the specified temperature range (Top). The peak inrush current shall be less than the ratings of its critical components (including input fuse, bulk rectifiers, and surge limiting device).
+
+Parameter 
+Vin (Full range) 
+Vin (Full range,1200W) 
+Vin Frequency 
+Iin (750W) 
+Iin (850W) 
+Iin (1000W,1200W) 
+
+Min 90 103 47
+
+Nom 
+100-240 
+115-240 
+60-50 
+9.5-4.8 
+11-5.5 
+12-6 
+
+Max 264 264 63
+
+Unit VACrms VACrms Hz Arms Arms Arms
+
+STRIDER GOLD SERIES
+
+#### 2. DC OUTPUT
+
+##### 2.1 DC voltage regulation
+
+1.Maximum continuous total DC output power should not exceed 750W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 62A (744W). 
+4.Maximum peak total DC output power should not exceed 850W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+2.2 Load ranges 
+2.2.1: (ST75F-G Load Range) 
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+
+Range +/-3％ +/-3％ +/-3％ +/-10％ +/-3％
+
+Min 
++3.20 
++4.85 
++11.64 
+-10.80 
++4.85 
+Nom 
++3.30 
++5.00 
++12.00 
+-12.00 
++5.00 
+Max 
++3.40 
++5.15 
++12.36 
+-13.20 
++5.15 
+
+Unit Volts Volts Volts Volts Volts
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+
+2.2.2: (ST85F-G Load Range) Parameter +3.3V +5V +12V -12V +5VSB
+
+03 
+1.Maximum continuous total DC output power should not exceed 1000W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 83A (996W). 
+4.Maximum peak total DC output power should not exceed 1100W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+1.Maximum continuous total DC output power should not exceed 850W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 70A (840W). 
+4.Maximum peak total DC output power should not exceed 950W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+
+2.2.3: (ST1000-G Load Range) Parameter +3.3V +5V +12V -12V +5VSB
+
+1.Maximum continuous total DC output power should not exceed 1200W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 100A (1200W). 
+4.Maximum peak total DC output power should not exceed 1300W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+
+2.2.4: (ST1200-G Load Range) Parameter +3.3V +5V +12V -12V +5VSB
+
+##### STRIDER GOLD SERIES STRIDER ST1000 STRIDER ST1000-NV
+
+AC H ot AC N e u tra l
+
+Power Supply V out
+
+V re tu rn
+
+10uF 0.1uF
+
+Load
+
+Scope
+
+AC Ground
+
+The ripple voltage of the outputs shall be measured at the pins of the output connector when terminated in the load impedance specified in figure 1. Ripple and noise are measured at the connectors with a 0.1uF ceramic capa ny condition of line voltage, output load, line frequency, operation temperature.
+
+Any overshoot at turn on or turn off shall be less 10% of the norminal voltage value, all outputs shall be within the regulation limit of section 2.0 before issuing the power good signal of section 5.0 .
+
+##### 2.3 Output Ripple
+
+##### 2.4 Overshoot
+
+##### 2.3.1 Ripple regulation
+
+##### 2.3.2 Definition
+
+##### 2.3.3 Ripple voltage test circuit
+
+Parameter 
++3.3V 
++5V 
++12V 
+-12V 
++5VSB 
+Ripple&Noise 
+<50 
+<50 
+<120 
+<120 
+<50 
+
+Unit mVp-p mVp-p mVp-p mVp-p mVp-p
+
+| | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | STRIDER GOLD SERIES | | |
+| | 2.5 Efficiency Power supply efficiency typical 87%~90% at normal AC main voltage and 20%~100% load on all outputs. 2.6 Remote ON/OFF control When the logic level "PS-ON" is low, the DC outputs are to be enabled. When the logic level is high or open collector, the DC outputs are to be disabled. 3. PROTECTION 3.1 Over current protection The power supply shall have current limit to prevent the +3.3V,+5V,and +12V outputs from exceeding the values shown in the following Table.If the current limits are exceeded the power supply shall shutdown and latch off. ST75F-G | | ST85F-G | | | 3.2 Over-power protection The power supply will be shutdown and latch off when output power within 105~150% of rated DC output. Note: Assurance machine can work at low voltage, full load won't damage machine. 3.3 Over-power protection The power supply will be shutdown and latch off when output power within 105~150% of rated DC output. Note: Assurance machine can work at low voltage,full load won't damage machine. 3.4 Under voltage protection In an under voltage fault occurs, the supply will latch all DC outputs into a shutdown state when +12V,+5V & +3.3V outputs under 85% of it's maximum value. 3.5 Over voltage protection The over voltage sense circuitry and reference shall reside in packages that are separate and distinct from the regulator control circuity and reference. No single | | | |
+| | Voltage Over Current Limit (Iout limit) +3.3V 30A minimum; +5V 30A minimum; | 50A maximum 50A maximum | Voltage Over Current Limit (Iout limit) +3.3V 30A minimum; +5V 30A minimum; | 50A maximum 50A maximum | | point fault shall be able to cause a sustained over voltage condition on any or all outputs. The supply shall provide latch-mode over voltage protection as defined in Table. | | | |
+| | +12V 65A minimum; | 105A maximum | +12V 75A minimum; | 120A maximum | | output Minimum | Nominal Maximum | Unit | |
+| | ST1000-G | | ST1200-G | | | +12 VDC 13.3 +5 VDC 5.70 | 15.0 16.5 6.30 7.00 | Volts Volts | |
+| | Voltage Over Current Limit (Iout limit) | | Voltage Over Current Limit (Iout limit) | | | +3.3 VDC 3.90 | 4.20 4.50 | Volts | |
+| | +3.3V 30A minimum; +5V 30A minimum; +12V 85A minimum; | 50A maximum 50A maximum 130A maximum | +3.3V 30A minimum; +5V 30A minimum; +12V 105A minimum; 150A maximum | 50A maximum 50A maximum | | 3.6 Short circuit An output short circuit is defined as any output impedance of less than 0.1 ohms. The power supply shall shut down and latch off for shorting the +3.3 VDC,+5 VDC, | | | |
+| | The power supply will be protected against over temperature conditions caused by loss of fan cooling or excessive ambient temperature. In an OTP condition the PSU will shutdown. When the power supply temperature drops to within specifide limits, the power supply shall restore power automatically. The OTP circuit must have built in hysteresis such that the power supply will not oscillate on and off due to temperature recovering condition. | | | | | or+12 VDC rails to return or any other rail. Shorts between main output rails and +5VSB shall not cause any damage to the power supply. The power supply shall either shut down and latch off or fold back for shorting the negative rails.+5VSB must be capable of being shorted indefinitely, but when the short is removed, the power supply shall recover automatically or by cycling PS_ON# .The power supply shall be capable of withstanding a continuous short-circuit to the output without damage or overstress to the unit. 3.7 No load operation No damage or hazardous condition should occur with all the DC output connectors disconnected from the load. The power supply may latch into the shutdown state. | | | |
+| | 05 | | | | | | | | 06 |
+| | | | | | | | | | |
+
+| | | | |
+| --- | --- | --- | --- |
+| | | STRIDER GOLD SERIES | |
+| 4. TIMING 4.1 Signal timing drawing Figure 2. is a reference for signal timing for main power connector signals and rails. (1) T3: Power good signal turn on delay time (100ms~500ms) (2) T4: Power good signal turn off delay time (1ms min) (3) T2: Rise time (0.1~70ms) (4) T6: Hold up time (17ms min) Tested at 75% of maximum load at 100-240VAC input. 4.2 Hold up time When the power loss its input power, it shall maintain 17ms in regulation limit at normal input voltage. (AC: 115V/60Hz or 230V/50Hz) 5. ENVIRONMENT 5.1 Operation O O Temperature 0 C to 40 C Relative Humidity 10% to 90%, non-condensing 5.2 Shipping and Storage O O Temperature -20 C to 60 C Relative Humidity 5% to 95%, non-condensing 5.3 Altitude Operating 10,000FT max Storage 50,000FT max | 6. SAFETY 6.1 Underwriters Laboratory (UL) recognition. The power supply designed to meet UL 1950. 6.2 The power supply must bear the German Bauart Mark from TUV. 7. ELECTROMAGNETIC COMPATIBILITY (EMC) 7.1 IEC 61000-4-2 ESD LEVEL X20KV4. 7.2 IEC 61000-4-3 radiated electrical field requirement. 7.3 IEC 61000-4-4 BURST . 7.4 IEC 61000-4-5 surge Voltages 7.5 EN61000-3-2 harmonic current emissions. If applicable to sales in Japan or Europe, the power supply shall meet the requirements of EN 61000-3-2 class D and the guidelines for the suppression of harmonics in appliances and general use equipment class D for harmonic line current content at full-rated power. 7.6 EN55024 class B radio interference (CISPR 22) 7.7 FCC part 15, subpart J class B 115VAC operation. 8. MTBF 8.1 MTBF (mean time between failures) calculation The demonstrated MTBF shall be 100,000 hours of continuous operation at O 25 C, full load, and nominal line. The MTBF of the power supply be calculated in accordance with MIL-HDBK-217F. The DC FAN is not included. 9. MECHANICAL REQUIREMENTS 9.1 Physical Dimension 150 mm (W) × 86 mm (H) × 180mm (D) | | |
+| 07 | | | 08 |
+| | | | |
+
+M/B 24PIN connector
+
+Orange Blue Black Green Black Black Black White Red Red Red Black
+
+Signal +3.3V -12VDC COM PS-ON COM COM COM N/C +5VDC +5VDC +5VDC COM
+
+Signal 
++3.3V 
++3.3V 
+COM 
++5VDC 
+COM 
++5VDC 
+COM 
+PWRGOOD 
++5Vsb 
++12V 
++12V 
++3.3V 
+
+Orange Orange Black Red Black Red Black Grey Purple Yellow Yellow Orange
+
+EPS 12V 8PIN connector
+
+Yellow Yellow Yellow Yellow
+
+Signal +12V +12V +12V +12V
+
+Signal COM COM COM COM
+
+Black Black Black Black
+
+ATX 12V 4PIN (4+4PIN EPS 12V in split mode)
+
+Black Black
+
+Signal GND GND
+
+Pin 1 2
+
+Pin 3 4
+
+Signal +12V +12V
+
+Yellow Yellow
+
+##### 9.2 Connectors
+
+STRIDER GOLD SERIES
+
+SATA connector
+
+Orange Black Red Black Yellow
+
+Signal +3.3V COM +5V COM +12V
+
+8PIN PCI Express connector
+
+Yellow 
+Yellow 
+Yellow 
+Black sense1 
+
+Signal +12V +12V +12V COM
+
+Signal COM COM COM COM
+
+Black Black Black Black
+
+6PIN PCI Express connector
+
+Yellow Yellow Yellow
+
+Signal +12V +12V +12V
+
+Pin 1 2 3
+
+Pin 4 5 6
+
+Signal COM COM COM
+
+Black Black Black
+
+4PIN peripheral connector (HDD) 4PIN floppy connector (FDD)
+
+Yellow Black Black Red
+
+Signal +12V COM COM +5VDC
+
+Signal +5VDC COM COM +12V
+
+Red Black Black Yellow
+
+
+
+# STRIDER ESSENTIAL SERIES
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/en-st50f-es230_st40f-es230-manual.pdf
+Author: oscar.chen
+
+#### ST50F-ES230/ST40F-ES230/ST30F-ES230
+
+## STRIDER ESSENTIAL SERIES
+
+### Power for everything you need
+
+High efficiency with 80 PLUS certification 24/7 continuous power output with 40℃ operating temperature Class-leading single +12V rail Active PFC Circuitry PCI-E 8pin and PCI-E 6pin connector support Silent running 120mm fan with 18dBA
+
+##### SPECIFICATION
+
+### SilverStone Strider Essential
+
+| | | ST50F-ES230 | |
+| --- | --- | --- | --- |
+| | | ST40F-ES230 | |
+| | | ST30F-ES230 | |
+
+ATX12V Switching Power Supply With Active PFC PS/2
+
+1. INPUT:
+
+1.1 VOLTAGE
+
+MINIMUM NOMINAL MAXIMUM UNITS 180 200-240 264 Vrms
+
+1.2 FREQUENCY
+
+47Hz ~ 63Hz
+
+1.3 CURRENT 4.0A max.(ST50F-ES230), 3.0A max.(ST40F-ES230, ST30F-ES230),
+
+1.4 INRUSH CURRENT 150A max. when ac input 230Vac and 25 C cold start.
+
+| ST50F-ES230 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Loading | | | | | +12V | | | | | +5V | | | +3.3V | | | -12V | | | | +5Vsb | | | | Efficiency | | | | | |
+| | | 20% | | | | 6.53A | | | | | 2.22A | | | 2.36A | | | 0.05A | | | | | 0.43A | | | | 82% | | | | |
+| | | 50% | | | | 16.32A | | | | | 5.56A | | | 5.89A | | | 0.13A | | | | | 1.07A | | | | 85% | | | | |
+| | 100% | | | | | 32.64A | | | | 11.12A | | | | 11.78A | | | 0.26A | | | | | 2.15A | | | | 82% | | | | |
+| ST40F-ES230 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Loading | | | | | +12V | | | | | +5V | | | +3.3V | | | -12V | | | | +5Vsb | | | | Efficiency | | | | | |
+| | | 20% | | | | 5.04A | | | | | 1.98A | | | 2.10A | | | 0.05A | | | | 0.42A | | | | | 82% | | | | |
+| | | 50% | | | | 12.60A | | | | | 4.94A | | | | 5.25A | | 0.13A | | | | 1.05A | | | | | 85% | | | | |
+| | 100% | | | | | 25.20A | | | | | 9.88A | | | 10.49A | | | 0.25A | | | | 2.10A | | | | | 82% | | | | |
+| ST30F-ES230 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | Loading | | | | | +12V | | | | | +5V | | | +3.3V | | | -12V | | | | +5Vsb | | | | Efficiency | | | | | |
+| | | 20% | | | | 3.57A | | | | | 1.71A | | | | 1.83A | | 0.05A | | | | 0.41A | | | | | 82% | | | | |
+| | | 50% | | | | 8.92A | | | | | 4.28A | | | | 4.57A | | 0.12A | | | | 1.01A | | | | | 85% | | | | |
+| | | 100% | | | | 17.83A | | | | | 8.56A | | | | 9.13A | | 0.24A | | | | | 2.03A | | | | 82% | | | | |
+
+1.5 POWER EFFICIENCY
+
+1.6 LEAKAGE CURRENT 3.5mA max.
+
+1.7 POWER FACTOR PF > 0.95 at 230Vac input and full load
+
+2. OUTPUT:
+
+ST50F-ES230
+
++5V 17.0A 0.5A --+3.3V 18.0A 0.3A --
+
+Voltage 
+Max load* 
+Min load 
+Peak load 
+Combined power* 
+Regulation*** 
+Ripple & Noise** 
+
++12V 38.0A 1.0A ----+5,-5% 120mV
+
+-12V 
+0.3A 
+0.0A 
+-- 
+-- 
++10,-10% 
+120mV 
+
++5Vsb 2.5A 0.0A 3.0A --+5,-5% 50mV
+
+110W +5,-5% 50mV +5,-5% 50mV
+
+ST40F-ES230
+
+* ‧ The continuous total output power is 500W max. 
+‧ The combined power of +5V and +3.3V is 110W max. 
+‧ When +5V load is over 15A, +12V min load is 4A. 
+‧ When +12V load is over 30A, +5V min load is 4A. 
+‧ Peak currents may last up to 12 seconds with not more than one occurrence per minute. 
+** Add 0.1uF and 10uF capacitors across output terminal during ripple & noise test. 
+*** LOAD REGULATION TEST TABLE: 
+
+LOAD1 
+LOAD2 
+LOAD3 
+LOAD4 
+LOAD5 
+LOAD6 
+LOAD7 
+LOAD8 
++5V 
+0.5A 
+5.0A 
+8.0A 
+14.0A 
+10.0A 
+5.0A 
+7.0A 
+0.5A 
++12V 
+1.0A 
+1.0A 
+5.0A 
+28.0A 
+17.0A 
+34.0A 
+36.0A 
+2.0A 
++3.3V 
+0.3A 
+5.0A 
+8.0A 
+7.5A 
+18.0A 
+10.0A 
+0.3A 
+0.3A 
+-12V 
+0.0A 
+0.0A 
+0.1A 
+0.2A 
+0.2A 
+0.3A 
+0.3A 
+0.0A 
++5Vsb 
+0.0A 
+0.1A 
+0.5A 
+1.0A 
+1.5A 
+2.5A 
+0.5A 
+0.0A 
+LOAD1 
+LOAD2 
+LOAD3 
+LOAD4 
+LOAD5 
+LOAD6 
+LOAD7 
+LOAD8 
++5V 
+0.5A 
+5.0A 
+8.0A 
+14.0A 
+8.5A 
+5.0A 
+5.5A 
+0.5A 
++12V 
+1.0A 
+1.0A 
+5.0A 
+22.0A 
+13.0A 
+26.0A 
+28.0A 
+2.0A 
++3.3V 
+0.3A 
+5.0A 
+8.0A 
+6.0A 
+17.0A 
+10.0A 
+0.3A 
+0.3A 
+-12V 
+0.0A 
+0.0A 
+0.1A 
+0.2A 
+0.2A 
+0.3A 
+0.3A 
+0.0A 
++5Vsb 
+0.0A 
+0.1A 
+0.5A 
+1.0A 
+1.5A 
+2.5A 
+0.5A 
+0.0A 
+
+*‧ The continuous total output power is 400W max. 
+‧ The combined power of +5V and +3.3V is 100W max. 
+‧ When +5V load is over 15A, +12V min load is 10A. 
+‧ When +12V load is over 30A, +5V min load is 2A. 
+‧ Peak currents may last up to 12 seconds with not more than one occurrence per minute. 
+** Add 0.1uF and 10uF capacitors across output terminal during ripple & noise test. 
+*** LOAD REGULATION TEST TABLE: 
+Voltage 
+Max load* 
+Min load 
+Peak load 
+Combined power* 
+Regulation*** 
+Ripple & Noise** 
+
++5V 16.0A 0.5A --
+
+100W +5,-5%
+
+50mV +3.3V 17.0A 0.3A --+5,-5%
+
+50mV +12V 30.0A 1.0A ----+5,-5%
+
+120mV
+
+-12V 
+0.3A 
+0.0A 
+-- 
+-- 
++10,-10% 
+
+120mV +5Vsb
+
+2.5A 0.0A 3.0A --+5,-5%
+
+50mV
+
+ST30F-ES230
+
++5Vsb +5V 15.0A 0.5A --+3.3V 16.0A 0.3A --+12V 22.0A 1.0A ----+5,-5%
+
+-12V 
+0.3A 
+0.0A 
+-- 
+-- 
++10,-10% 
+Voltage 
+Max load* 
+Min load 
+Peak load 
+Combined power* 
+Regulation*** 
+Ripple & Noise** 
+
+2.5A 0.0A 3.0A --+5,-5%
+
+90W +5,-5% +5,-5%
+
+50mV
+
+50mV
+
+120mV
+
+120mV
+
+50mV
+
+*‧ The continuous total output power is 300W max. 
+‧ The combined power of +5V and +3.3V is 90W max. 
+‧ When +5V load is over 15A, +12V min load is 6A. 
+‧ When +12V load is over 22A, +5V min load is 2A. 
+‧ Peak currents may last up to 12 seconds with not more than one occurrence per minute. 
+** Add 0.1uF and 10uF capacitors across output terminal during ripple & noise test. 
+*** LOAD REGULATION TEST TABLE: 
+
+| *** | LOAD REGULATION TEST TABLE: | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | +5V | | | | +12V | | | | | +3.3V | | | | | | -12V | | | +5Vsb | | | |
+| | LOAD1 | | | | | 0.5A | | | | 1.0A | | | | | | 0.3A | | | | | 0.0A | | | 0.0A | | | |
+| | LOAD2 | | | | | 3.0A | | | | 1.0A | | | | | | 3.0A | | | | | 0.0A | | | 0.1A | | | |
+| | LOAD3 | | | | | 6.0A | | | | 4.0A | | | | | | 6.0A | | | | | 0.1A | | | 0.5A | | | |
+| | LOAD4 | | | | | 12.0A | | | | 14.0A | | | | | | 6.0A | | | | | 0.2A | | | 1.0A | | | |
+| | LOAD5 | | | | | 7.5A | | | | 9.0A | | | | | 16.0A | | | | | | 0.2A | | | 1.5A | | | |
+| | LOAD6 | | | | | 4.0A | | | | 18.0A | | | | | | 6.0A | | | | | 0.3A | | | 2.5A | | | |
+| | LOAD7 | | | | | 5.0A | | | | 20.0A | | | | | | 0.3A | | | | | 0.3A | | | 0.5A | | | |
+| | LOAD8 | | | | | 0.5A | | | | 2.0A | | | | | | 0.3A | | | | | 0.0A | | | 0.0A | | | |
+| 2.1 REMOTE ON/OFF | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | TTL High/PS-OFF; TTL Low/PS-ON | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | VIL=0.8Vmax, IIL=-1.6mAmax @Vin=0.4V | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | VIH=2.0Vmin @Iin=-200uA, VIH=5.25Vmax @open ckt. | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+2.2 HOLD-UP TIME
+
+10msec (minimum) at 80% of full load at 230Vac input.
+
+2.3 POWER GOOD DELAY
+
+100-500 msec.
+
+2.4 POWER FAIL DELAY
+
+1 msec.
+
+2.5 TURN-ON DELAY TIME
+
+2000 msec max.At Nominal Line Full Load.
+
+2.6 TRANSIENT OVERSHOOT
+
+DC output transient step sizes as below table:
+
+Output voltage Max. step size
+
++5V 30% +3.3V 30% +12V 30%
+
+Load-changing repetition rate of 10m seconds. 
+At dynamic loading,regulation at the +5V,+3.3V,+12V outputs can go to -8%+5% 
+Load slew rated 1.0A/uS and capacitive load as below : 
++5V +3.3V +12V -12V +5Vsb 
+10000uF 10000uF 10000uF 470uF 10000uF 
+
+2.7 RISE TIME
+
+20ms max at full load.
+
+3. PROTECTION:
+
+When OVP ,OPP or short protection is triggered, the main outputs will be latched off. The main outputs can be reset by cycling the DC remote on/off or AC power.
+
++5Vsb output is auto recovery when fault condition removed.
+
+3.1 OVER VOLTAGE PROTECTION
+
+| | +3.3V output | 4.5 Vmax. | |
+| --- | --- | --- | --- |
+| | +5.0V output | 7.0 Vmax. | |
+| | +12.0V output | 15.6 Vmax. | |
+
+3.2 SHORT PROTECTION
+
+All output to GND.
+
+3.3 OVER POWER PROTECTION
+
+Foldback at 110%~150% over peak load
+
+4. ENVIRONMENT:
+
+4.1 OPERATING TEMP 
+4.2 STORAGE TEMP 
+
+0 C to + 40 C -20 C to + 70 C
+
+4.3 OPERATING HUMIDITY 20% to 90%,non-condensing 
+4.4 STORAGE HUMIDITY 5% to 95%, non-condensing 
+05 
+
+4.5 OPERATING ALTITUDE 0 to 10,000 feet 4.6 STORAGE ALTITUDE 0 to 50,000 feet
+
+5.1 PRIMARY TO SECONDARY 1800Vac for 1 minute
+
+5. HI-POT:
+
+6.1 CONDUCTED EMI 1. MEET CISPR 22： Class B
+
+6.2 SAFETY STANDARDS 1. MEET TUV (EN60950) 2. MEET CB (IEC 950 ) 3. MEET CE 4. MEET CCC
+
+6.3 HARMONIC MEET IEC61000-3-2,Class D
+
+6. SAFETY AND EMC REQUIREMENTS
+
+100K hrs minimum
+
+7. MTBF at 25 C(demonstrated)
+
+150 mm (W) × 86 mm (H) × 140mm (D)
+
+8. DIMENSIONS
+
+NO. G11227180
+
+
+
+# World’s smallest
+URL: https://www.silverstonetek.com/upload/sstedm/st75f-gs/st75f-gs_st65f-g_st55f-g_edm_en.pdf
+Author: oscar.chen
+
+HEADQUARTERS 
+12F.,NO.168,Jiankang Rd., Zhonghe Dist., 
+New Taipei City 235, Taiwan R.O.C. 
+Tel: +886-2-8228-1238 
+Fax: +886-2-8228-7123 
+USA 
+13626 Monte Vista Ave.Unit A, Chino, 
+CA 91710, USA 
+Tel: +1-909-465-9596 
+Fax: +1-909-465-9596 
+EUROPE 
+Brandstücken 43, D-22549 Hamburg 
+Germany 
+Tel: +49-40-675931-0 
+Fax: +49-40-675931-66 
+
+Model Name. SST-ST75F-GS SST-ST65F-G SST-ST55F-G www.silverstonetek.com
+
+## World’s smallest
+
+750W / 650W / 550W 750W / 650W / 550W
+
+Special Features
+
+Compact design with a depth of 140mm for easy integration 
+80 PLUS Gold certification 
+100% modular cables 
+24/7 continuous power output with 40 C operating temperature 
+Class-leading single +12V rail 
+Strict ±3% voltage regulation and low ripple & noise 
+Silent running 120mm fan with 18dBA minimum 
+
+o
+
+full-modular ATX power supplies
+
+##### World’s smallest, full-modular ATX power supplies ST75F-GS / ST65F-G / ST55F-GSTRIDER GOLD SERIES
+
+Performance(output)
+
+#### Introduction Introduction Introduction
+
+750W / 750W for +12V output 
+650W / 650W for +12V output 
+550W / 550W for +12V output 
+
+To meet the requirements of current and future desktop computers, To meet the requirements of current and future desktop computers,
+
+To meet the requirements of current and future desktop computers,
+
+100%
+
+SilverStone created the Strider Gold S series power supplies. The Strider Gold S
+
+SilverStone created the Strider Gold S series power supplies. The Strider Gold S SilverStone created the Strider Gold S series power supplies. The Strider Gold S
+
++3%
+
+models are all new designs engineered to be the smallest, full-modular ATX models are all new designs engineered to be the smallest, full-modular ATX models are all new designs engineered to be the smallest, full-modular ATX
+
+power supplies at any wattage levels.
+
+power supplies at any wattage levels.
+
+| | | | |
+| --- | --- | --- | --- |
+| (ripple and noise) | +1% | 80% 60% | Efficency 80 Plus Gold Gold |
+| | +3% | | |
+| | 160mm | +5% 180mm | Silver Bronze 40 20 |
+| | 140mm | | 0 |
+| Size | | 25C | Quietness |
+| 140mm | | 40C | 18 BA |
+
+Stability
+
+The Strider Gold S series includes wattage range from 550W to 1500W
+
+The Strider Gold S series includes wattage range from 550W to 1500W The Strider Gold S series includes wattage range from 550W to 1500W for a great variety of applications. With short depth designs, all models in the for a great variety of applications. With short depth designs, all models in the for a great variety of applications. With short depth designs, all models in the series are among the world’s smallest full-modular ATX PSUs. In addition to series are among the world’s smallest full-modular ATX PSUs. In addition to series are among the world’s smallest full-modular ATX PSUs. In addition to
+
+d
+
+50C
+
+80 PLUS Gold level efficiency, the Strider Gold S PSUs are built to meet very
+
+80 PLUS Gold level efficiency, the Strider Gold S PSUs are built to meet very 80 PLUS Gold level efficiency, the Strider Gold S PSUs are built to meet very
+
+Operating temperature (component grade)
+
+high standards in electrical performance with ±3% voltage regulation, ±3% ripple high standards in electrical performance with ±3% voltage regulation, ±3% ripple high standards in electrical performance with ±3% voltage regulation, ±3% ripple
+
+40 C
+
+& noise, and high amperage single +12V rail. Other notable features included & noise, and high amperage single +12V rail. Other notable features included
+
+o
+
+are 24/7 40C continuous output capability, low-noise fan, and multiple sets are 24/7 40 are 24/7 40℃ continuous output capability, low-noise fan, and multiple sets continuous output capability, low-noise fan, and multiple sets of PCI-E cables. For users looking for a power supply with faultless combination of PCI-E cables. For users looking for a power supply with faultless combination of PCI-E cables. For users looking for a power supply with faultless combination of compact size, performance, efficiency, and quality, the Strider Gold S Series of compact size, performance, efficiency, and quality, the Strider Gold S Series of compact size, performance, efficiency, and quality, the Strider Gold S Series
+
+is the only choice.
+
+is the only choice.
+
+| Specifications | |
+| --- | --- |
+| Model No. SST-ST75F-GS / SST-ST65F-G / SST-ST55F-G | Color Black (lead-free paint) |
+| Max DC output 750W / 650W / 550W | Cooling System Single 120mm silent fan |
+| Active PFC（PF>0.95 at full load） PFC | Noise Level 18 dBA minimum |
+| 87% ~ 90%（20% to 100% loading） Efficiency | Dimension 150 mm (W) × 86 mm (H) × 140 mm (D) |
+| MTBF 100,000 hours | Weight 2.1 kg (ST75F-GS) / 2.0 kg (ST65F-G) / 1.9g (ST55F-G) |
+| Operating temperature 0°C ~ 40°C | Form Factor ATX |
+
+### World’s smallest, full-modular ATX power supplies ST75F-GS / ST65F-G / ST55F-GSTRIDER GOLD SERIES STRIDER GOLD SERIES
+
+##### Model No.
+
+MB 24 / 20P CPU 4 + 4P PCI-E 6 + 2P PCI-E 6P FLOPPY 4P SATA PERIPHERAL 4P
+
+SST-ST75F-GS SST-ST65F-G
+
+-x 2 -
+
+x 6 
+x 6 
+x 6 
+x 8 
+x 8 
+SST-ST55F-G x 8 
+
+Model No. Max. output +12V -12V
+
++5Vsb
+
++3.3V +5V
+
+22A 22A 62.5A 3.0A
+
+0.3
+
+SST-ST75F-GS 750W
+
+SST-ST65F-G 650W
+
+| 22A | 120W | 22A | 750W 54.2A | 3.6W 0.3A | 15W 3.0A |
+| --- | --- | --- | --- | --- | --- |
+| 20A | 120W | 20A | 650W 45.9A | 3.6W 0.3A | 15W 3.0A |
+
+SST-ST55F-G 550W
+
+105W 550W 3.6W 15W
+
+www.silverstonetek.com
+
+100% moudlar cable design for use with short cable kit such as SilverStone’s PP05 or for easy removal in a case with cable routed and tied down
+
+140mm depth sets new standard for high wattage PSUs with modular cables
+
+Designed for 80 PLUS Gold level of efficiency to reduce wasted heat and save on electricity ±3% regulation and low ripple & noise performance for high stability
+
+Flat cables have much greater flexibility to allow for tighter folding and management of cables
+
+Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking
+
+Built-in 120mm fan has excellent airflow and low noise, perfect for quiet home or office use
+
+### World’s smallest, full-modular ATX power supplies ST75F-GS / ST65F-G / ST55F-GSTRIDER GOLD SERIES STRIDER GOLD SERIES
+
+1
+
+4
+
+0 m m
+
+1
+
+8
+
+0 m m
+
+
+
+# ST1000-PT
+URL: https://www.silverstonetek.com/en/product/info/power-supplies/ST1000-PT/
+Author: SilverStone Technology
+
+ST1000-PT
+
+ST1000-PT
+
+- High efficiency with 80 PLUS Platinum certification
+- 139mm Air Penetrator fan with intelligent semi-fanless operation
+- FF141 magnetized fan filter included
+- 100% modular cables
+- 24/7 continuous power output with 40℃ operating temperature
+- Strict ±3% voltage regulation and low ripple & noise
+- Dual EPS 8pin with multiple individual one-on-one PCI-E 8/6pin connectors
+
+ 
+
+VERSION
+
+| 1.Designed for 80 PLUS Platinum level of efficiency to reduce wasted heat and save on electricity. | 2.100% moudlar cable design for use with short cable kit such as SilverStone’s PP05-E or for easy removal in a case with cable routed and tied down. |
+| --- | --- |
+| | |
+| 3.Flat cables have much greater flexibility to allow for tighter folding and management of cables. | 4.Ultra-quiet 139mm fan with intelligent RPM control guarantees cool performance and silent operation with minimum of 18dBA during fan operation. The fanless mode operation deactivates when PSU’s loading reaches 40%. |
+| | |
+| 5.Powerful single +12V rail design, perfect for future high-end component upgrades or overclocking. | 6.±3% regulation and low ripple & noise performance for high stability. |
+| | |
+| 7.The included | |
+| Installation guide: Please make sure the power supply fan and FF141 can be easily attached to any steel power supply surface. | |
+
+Product Specifications
+
+Product No. SST-ST1000-PT
+
+Color Black（Lead-Free Paint）
+
+Max. DC Output 1000W (Peak 1050W)
+
+Power density 431W per liter
+
+Load Range
+
+| Output | +3.3V | +5V | +12V | +5VSB | -12V |
+| --- | --- | --- | --- | --- | --- |
+| Max.(Amps) | 25A | 22A | 83A | 2.5A | 0.3A |
+| Peak (Amps) | / | / | / | / | / |
+| Min.(Amps) | 0.1A | 0.2A | 0.15A | 0A | 0A |
+| Range (%) | ±3% | ±3% | ±3% | ±5% | ±10% |
+| Line Reg.(%) | ±1% | ±1% | ±1% | ±1% | ±1% |
+| Ripple(mVp-p) | 50mV | 50mV | 120mV | 50mV | 120mV |
+
+Combined +3.3V & +5V 120W
+
+Combined +12V 996W
+
+Input Voltage 90V~264V
+
+Input Frequency Range 47Hz~63Hz
+
+PFC Active PFC（PF>0.9 at full load）
+
+Efficiency 89%~92% at 20%~100% loading
+
+MTBF 100,000 hours
+
+Operating temperature 0°C ~ 40°C
+
+Protection
+
+Over current protection Over power protection Over voltage protection Short circuit protection Under voltage protection Over temperature protection
+
+Connectors
+
+1 x 24 / 20-Pin motherboard connector（550mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（750mm） 1 x 8 / 4-Pin EPS / ATX 12V connector（550mm） 6 x 8 / 6-Pin PCIE connector（"550mm" x 6） 16 x SATA connector（"600mm / 150mm / 150mm / 150mm" x 4） 6 x 4-Pin Peripheral connector（"600mm / 150mm / 150mm" x 2） 2 x 4-Pin Floppy connector（"600mm / 150mm / 150mm / 150mm" x 2）
+
+Cooling System Single 139mm silent fan
+
+Noise Level 0 ~ 36 dBA
+
+Certification 80 PLUS Platinum
+
+Form factor ATX
+
+Dimension 150 mm (W) x 86 mm (H) x 180 mm (D)
+
+Weight 3.3 kg
+
+Other GPU Support list
+
+* If you want to connect four SSDs on one SATA cable, please note that the total +5V output of each cable cannot exceed 5A. We recommend installing on two independent SATA cables to avoid overloading on the cables. 
+
+ * Power supply connector overuse definition A single PCIe 8pin cable and connector’s maximum current rating is 12.5A, which is 150W (+12V x 12.5A). So SilverStone’s warranty will not cover damages or malfunction resulting from the use of a graphics card or expansion card with a single PCIe 8pin connector that exceeds standard 225W total power draw (150W from PCIe 8pin connector + 75W from PCIe motherboard slot). Similarly, a graphics card or expansion card with dual PCIe 8pin connectors that exceed 375W total power draw (300W from two PCIe 8pin connectors + 75W from PCIe motherboard slot) will also not be covered under warranty. Peripheral (molex) or SATA connector’s maximum current rating is 5A, which is 60W (+12V x 5A) or 25W (+5V x 5A). Please ensure connected devices are operating under these limits. SilverStone’s warranty will not cover damages or malfunction resulting from usages exceeding these connectors and their associated cables. 24pin motherboard connector’s maximum current rating for its dual +12V metal pins are 5A each, which totals 120W (+12V x 5A x 2). Please ensure +12V drawing devices connected to the motherboard are operating under these limits. SilverStone’s warranty will not cover damages or malfunction resulting from usages exceeding these connectors and their associated cables. 
+
+ ● Specifications presented on this page contains most recent revisions and may differ from those printed on retail boxes or manuals. 
+
+File Download
+
+| Describe | Version | File Size | Download |
+| --- | --- | --- | --- |
+| Describe ST1000-PT High resolution photos | Version | File Size 13.51 MB | Download |
+| Describe ST1000-PT Manual | Version V1.0 | File Size 126.43 KB | Download |
+| Describe Restricted substance declaration | Version V1.0 | File Size 391.02 KB | Download |
+| Describe Multilanguage installation manual | Version V1.0 | File Size 21.56 MB | Download |
+| Describe Warranty Information | Version | File Size | Download |
+| Describe ST1000-PT Product Sheet (st1000pt_st1200pt_edm_en.pdf) | Version | File Size 167.55 KB | Download |
+
+How to properly connect PCIe cables to high power consumption graphics cards?
+
+3. How to Jump Start your power supply (Paper clip test)
+
+# <5354313230302D472D45766F285031333529BBA1A9FAAED12DABCAADB1ABCAA9B32E6169>
+URL: https://www.silverstonetek.com/upload/downloads/Manual/power/EN-Strider-Gold-Evo-Manual.pdf
+Author: paul.chen
+
+July, 2011 
+NO.G11214420 
+
+## STRIDER GOLD EVOLUTION
+
+The perfect balance of performance, efficiency, and quality
+
+#### ST1200-G Evolution ST1000-G Evolution ST85F-G Evolution ST75F-G Evolution
+
+#### 2. DC OUTPUT
+
+##### 2.1 DC voltage regulation
+
+Parameter Range Min. Nom. Max. Unit +3.3V +/-3% +3.20 +3.30 +3.40 Volts +5V +/-3% +4.85 +5.00 +5.15 Volts +12V +/-3% +11.64 +12.00 +12.36 Volts -12V +/-10% -13.20 -12.00 -10.80 Volts +5VSB +/-3% +4.85 +5.00 +5.15 Volts
+
+### SPECIFICATION STRIDER GOLD EVOLUTION SERIES SST-ST1200-G Evolution SST-ST1000-G Evolution SST-ST85F-G Evolution SST-ST75F-G Evolution
+
+### ATX12V / EPS 12V Switching Power Supply With Active PFC 80Plus Gold PS/2
+
+2.2 Load ranges 
+2.2.1: (ST75F-G Evolution Load Range) 
+
+This specification describes the requirements of 750W、850W、1000W、1200W switching power supply with an stretch ATX form-factor and EPS12V, +5V standby voltage, remote on/off control, full range line input capability and forced air cooling characteristics.
+
+1. AC INPUT 
+1.1 AC input requirements 
+
+The input voltage, current, and frequency requirements for continuous operation are stated below.
+
+Table 1 AC Input Line Requirements
+
+| Parameter +3.3V | Min. 0.3 | Max. 22 | Unit Amps |
+| --- | --- | --- | --- |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 62 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+| 1.Maximum continuous total DC output power should not exceed 750W. 2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 150W. 3.Maximum current for +12V outputs shall be 62A(744W). 4.Maximum peak total DC output power should not exceed 850W. 5.Peak power and current loading shall be supported for a minimum of 12 second. 6.When +12V is load to 28A , -12V minimum load is 0.02A. 2.2.2: (ST85F-G Evolution Load Range) | | | |
+| Parameter | Min. | Max. | Unit |
+| +3.3V | 0.3 | 22 | Amps |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 70 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+
+| Parameter | Min. | Nom. | Max. | Unit |
+| --- | --- | --- | --- | --- |
+| Vin( Full range ) | 90 | 100-240 | 264 | VACrms |
+| Vin(Full range,1200W) | 103 | 115-240 | 264 | VACrms |
+| Vin Frequency | 47 | 60-50 | 63 | Hz |
+| Iin(750W) | | 9.5-4.8 | | Arms |
+| Iin(850W) | | 11-5.5 | | Arms |
+| Iin(1000W,1200W) | | 12-6 | | Arms |
+
+Power factor correction (PF)>0.90 at full load.
+
+The power supply must meet inrush requirements for any rated AC voltage, during turn on at any phase of AC voltage, during a single cycle AC dropout condition, during repetitive ON/OFF cycling of AC, and over the specified temperature range (Top). The peak inrush current shall be less than the ratings of its critical components (including input fuse, bulk rectifiers, and surge limiting device).
+
+##### 2.3 Output Ripple
+
+2.3.1 Ripple regulation
+
+1.Maximum continuous total DC output power should not exceed 850W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 70A(840W). 
+4.Maximum peak total DC output power should not exceed 950W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+
+Parameter Ripple&Noise Unit +3.3V <50 mVp-p +5V <50 mVp-p +12V <120 mVp-p -12V <120 mVp-p +5VSB <50 mVp-p
+
+2.2.3: (ST1000-G Evolution Load Range)
+
+2.3.2 Definition
+
+The ripple voltage of the outputs shall be measured at the pins of the output connec tor when terminated in the load impedance specified in figure 1. Ripple and noise are measured at the connectors with a 0.1uF ceramic capacitor and a 10uF electrolytic capacitor to simulate system loading. Ripple shall be measured under any condition of line voltage, output load, line frequency, operation temperature.
+
+2.3.3 Ripple voltage test circuit
+
+Power Supply V out V return
+
+| Parameter | Min. | Max. | Unit |
+| --- | --- | --- | --- |
+| +3.3V | 0.3 | 25 | Amps |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 83 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+| 1.Maximum continuous total DC output power should not exceed 1000W. 2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not exceed 150W. 3.Maximum current for +12V outputs shall be 83A(996W). 4.Maximum peak total DC output power should not exceed 1100W. 5.Peak power and current loading shall be supported for a minimum of 12 second. 6.When +12V is load to 28A , -12V minimum load is 0.02A. 2.2.4: (ST1200-G Evolution Load Range) Parameter | Min. | Max. | Unit |
+| +3.3V | 0.3 | 25 | Amps |
+| +5V | 0.3 | 25 | Amps |
+| +12V | 0.1 | 100 | Amps |
+| -12V | 0 | 0.3 | Amps |
+| +5VSB | 0.1 | 3.5 | Amps |
+
+10uF 0.1uF
+
+AC Hot AC Neutral
+
+Load
+
+AC Ground
+
+Scope
+
+##### 2.4 Overshoot
+
+1.Maximum continuous total DC output power should not exceed 1200W. 
+2.Maximum continuous combined load on +3.3VDC and +5VDC outputs shall not 
+exceed 150W. 
+3.Maximum current for +12V outputs shall be 100A(1200W). 
+4.Maximum peak total DC output power should not exceed 1300W. 
+5.Peak power and current loading shall be supported for a minimum of 12 second. 
+6.When +12V is load to 28A , -12V minimum load is 0.02A. 
+
+Any overshoot at turn on or turn off shall be less 10% of the norminal voltage value, all outputs shall be within the regulation limit of section 2.0 before issuing the power good signal of section 5.0 .
+
+| | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | STRIDER GOLD EVOLUTION SERIES | | |
+| | 2.5 Efficiency Power supply efficiency typical 87%, at nominal input voltage of 115VAC or 230VAC and full load . 2.6 Remote ON/OFF control When the logic level "PS-ON" is low, the DC outputs are to be enabled. When the logic level is high or open collector, the DC outputs are to be disabled. 3. PROTECTION 3.1 Over current protection The power supply shall have current limit to prevent the +3.3V,+5V,and +12V outputs from exceeding the values shown in the following Table. If the current limits are exceeded the power supply shall shutdown and latch off. | | | | 3.2 Over-power protection The power supply will be shutdown and latch off when output power within 105~150% of rated DC output. Note: Assurance machine can work at low voltage, full load won't damage machine. 3.3 Under voltage protection In an under voltage fault occurs, the supply will latch all DC outputs into a shutdown state when +12V,+5V & +3.3V outputs under 85% of it's maximum value. 3.4 Over voltage protection The over voltage sense circuitry and reference shall reside in packages that are separate and distinct from the regulator control circuity and reference. No single point fault shall be able to cause a sustained over voltage condition on any or all outputs. The supply shall provide latch-mode over voltage protection as defined in Table. | | | |
+| | ST75F-G Evolution | ST85F-G Evolution | | | Output | Minimum Nominal Maximum | Unit | |
+| | Voltage Over Current Limit (Iout limit) | Voltage Over Current Limit (Iout limit) | | | +12 VDC | 13.3 15 16.5 | Volts | |
+| | +3.3V 30A minimum +5V 30A minimum +12V 65A minimum ST1000-G Evolution | 60A maximum +3.3V 30A minimum 60A maximum +5V 30A minimum 105A maximum +12V 75A minimum ST1200-G Evolution | 60A maximum 60A maximum 120A maximum | | +5 VDC +3.3 VDC 3.5 Short circuit An output short circuit is defined as any output impedance of less than 0.1 ohms. The power supply shall shut down and latch off for shorting the +3.3 VDC,+5 VDC,or+12 | 5.7 6.3 3.9 4.2 4.5 | 7 Volts Volts | |
+| | Voltage Over Current Limit (Iout limit) | Voltage Over Current Limit (Iout limit) | | | VDC rails to return or any other rail. Shorts between main output rails and +5VSB shall | | | |
+| | +3.3V 30A minimum +5V 30A minimum +12V 85A minimum The power supply will be protected against over temperature conditions caused by loss of fan cooling or excessive ambient temperature. In an OTP condition the PSU will shutdown. When the power supply temperature drops to within specifide limits, the power supply shall restore power automatically. The OTP circuit must have built in hysteresis such that the power supply will not oscillate on and off due to temperature recovering condition. | +3.3V 30A minimum 60A maximum +5V 30A minimum 60A maximum +12V 105A minimum 130A maximum | 60A maximum 60A maximum 150A maximum | | not cause any damage to the power supply. The power supply shall either shut down and latch off or fold back for shorting the negative rails.+5VSB must be capable of being shorted indefinitely, but when the short is removed, the power supply shall recover automatically or by cycling PS_ON#. The power supply shall be capable of withstanding a continuous short-circuit to the output without damage or overstress to the unit 3.6 No load operation No damage or hazardous condition should occur with all the DC output connectors disconnected from the load. The power supply may latch into the shutdown state. | | | |
+| | 05 | | | | | | | 06 |
+| | | | | | | | | |
+
+#### 4. TIMING
+
+#### 6. SAFETY
+
+##### 6.1 Underwriters Laboratory (UL) recognition.
+
+##### 4.1 Signal timing drawing
+
+Figure 2. is a reference for signal timing for main power connector signals and rails.
+
+The power supply designed to meet UL 1950.
+
+##### 6.2 The power supply must bear the German Bauart Mark from TUV.
+
+#### 7. ELECTROMAGNETIC COMPATIBILITY (EMC)
+
+7.1 IEC 61000-4-2 ESD LEVEL X20KV4. 
+7.2 IEC 61000-4-3 radiated electrical field requirement. 
+7.3 IEC 61000-4-4 BURST . 
+7.4 IEC 61000-4-5 surge Voltages 
+7.5 EN61000-3-2 harmonic current emissions. 
+Figure 2 
+
+If applicable to sales in Japan or Europe, the power supply shall meet the require ments of EN 61000-3-2 class D and the guidelines for the suppression of harmonics in appliances and general use equipment class D for harmonic line current content at full-rated power.
+
+(1)T3: Power good signal turn on delay time (100ms~500ms) 
+(2)T4: Power good signal turn off delay time (1ms min) 
+(3)T2: Rise time (0.1~70ms) 
+(4)T6: Hold up time (17ms min) Tested at 75% of maximum load at 100-240VAC input. 
+
+##### 4.2 Hold up time
+
+7.6 EN55024 class B radio interference (CISPR 22) 
+7.7 FCC part 15, subpart J class B 115VAC operation. 
+
+When the power loss its input power, it shall maintain 17ms in regulation limit at normal input voltage. (AC:115V/60Hz or 230V/50Hz)
+
+#### 5. ENVIRONMENT
+
+#### 8. MTBF
+
+##### 5.1 Operation
+
+##### 8.1 MTBF (mean time between failures) calculation
+
+The demonstrated MTBF shall be 100,000 hours of continuous operation at 25°C, full load, and nominal line. The MTBF of the power supply be calculated in accordance with MIL-HDBK-217F. The DC FAN is not included.
+
+| Temperature | 0°C to 40°C |
+| --- | --- |
+| Relative Humidity | 10% to 90%, non-condensing |
+| 5.2 Shipping and Storage | |
+| Temperature | -20°C to 60°C |
+| Relative Humidity | 5% to 95%, non-condensing |
+| 5.3 Altitude | |
+| Operating | 10,000 FT max. |
+| Storage | 50,000 FT max. |
+
+#### 9. MECHANICAL REQUIREMENTS
+
+##### 9.1 Physical Dimension
+
+150 mm (W) × 86 mm (H) × 180mm (D)
+
+4PIN peripheral connector (HDD) 4PIN floppy connector (FDD)
+
+9.2 Connectors 
+M/B 24PIN connector 
+Signal Pin Pin Signal 
+Orange +3.3V 13 1 +3.3V Orange 
+Blue -12VDC 14 2 +3.3V Orange 
+Black COM 15 3 COM Black 
+Green PS-ON 16 4 +5VDC Red 
+
+| | Signal | Pin | Pin | Signal |
+| --- | --- | --- | --- | --- |
+| Yellow | +12V | 1 | 1 | +5VDC Red |
+| Black | COM | 2 | 2 | COM Black |
+| Black | COM | 3 | 3 | COM Black |
+| Red | +5VDC | 4 | 4 | +12V Yellow |
+
+SATA connector Signal Pin Orange +3.3V 5 Black COM 4 Red +5V 3 Black COM 2 Yellow +12V 1
+
+| Black | COM | 17 | 5 | COM Black |
+| --- | --- | --- | --- | --- |
+| Black | COM | 18 | 6 | +5VDC Red |
+| Black | COM | 19 | 7 | COM Black |
+| White | N/C | 20 | 8 | PWRGOOD Grey |
+| Red | +5VDC | 21 | 9 | +5Vsb Purple |
+| Red | +5VDC | 22 | 10 | +12V Yellow |
+| Red | +5VDC | 23 | 11 | +12V Yellow |
+| Black | COM | 24 | 12 | +3.3V Orange |
+| EPS 12V 8PIN connector | | | | |
+| Signal | | Pin | Pin | Signal |
+| Yellow | +12V | 5 | 1 | COM Black |
+| Yellow | +12V | 6 | 2 | COM Black |
+| Yellow | +12V | 7 | 3 | COM Black |
+| Yellow | +12V | 8 | 4 | COM Black |
+
+8PIN PCI Express connector
+
+| | Signal | Pin | Pin | Signal |
+| --- | --- | --- | --- | --- |
+| Yellow | +12V | 1 | 5 | COM Black |
+| Yellow | +12V | 2 | 6 | COM Black |
+| Yellow | +12V | 3 | 7 | COM Black |
+| Black sense1 | COM | 4 | 8 | COM Black |
+| 6PIN PCI Express connector | | | | |
+| | Signal | Pin | Pin | Signal |
+| Yellow | +12V | 1 | 4 | COM Black |
+| Yellow | +12V | 2 | 5 | COM Black |
+| Yellow | +12V | 3 | 6 | COM Black |
+
+ATX 12V 4PIN (4+4PIN EPS 12V in split mode) Signal Pin Pin Signal Black GND 1 3 +12V Yellow Black GND 2 4 +12V Yellow
+
+©2011 SilverStone Technology Co., Ltd. All Rights Reserved. 
+All specifications are subject to change without prior notice.

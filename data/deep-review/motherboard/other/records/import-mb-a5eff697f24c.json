@@ -1,0 +1,209 @@
+{
+  "review": {
+    "id": "import-mb-a5eff697f24c",
+    "name": "CVN Z790D5 GAMING FROZEN V20",
+    "state": "exact_manufacturer_table",
+    "manufacturerModel": "CVN Z790D5 GAMING FROZEN V20",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=912&mid=84",
+          "checkedAt": "2026-11-10T14:10:33+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=912&mid=84",
+          "sha256": "94ef5f55a01d24f0643b5f17118e82003f3b797c1f5cf4a36efcbdefba4616ed",
+          "bytes": 87644,
+          "status": "fetched"
+        },
+        "api": {
+          "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+          "checkedAt": "2026-11-10T14:13:26+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+          "sha256": "dd39fcb573d94fcbec0a14a6c03a53265e25fcb25d48b946a7336a9a264b7ba7",
+          "bytes": 5870,
+          "status": "fetched"
+        }
+      },
+      {
+        "source": {
+          "url": "https://www.colorful.cn/home/product?id=912&mid=84",
+          "checkedAt": "2026-11-10T14:10:33+00:00",
+          "httpStatus": 200,
+          "resolvedURL": "https://www.colorful.cn/home/product?id=912&mid=84",
+          "sha256": "94ef5f55a01d24f0643b5f17118e82003f3b797c1f5cf4a36efcbdefba4616ed",
+          "bytes": 87644,
+          "status": "fetched"
+        },
+        "state": "exact_manufacturer_table",
+        "actualModel": "CVN Z790D5 GAMING FROZEN V20",
+        "sections": [
+          "CPU",
+          "Memory",
+          "Expansion Slots",
+          "I/O connections",
+          "Power management",
+          "Storage",
+          "Audio",
+          "Form Factor",
+          "产品系列",
+          "LAN",
+          "Chipset",
+          "Hardware monitoring",
+          "BIOS"
+        ]
+      }
+    ],
+    "photos": [
+      "https://www.colorful.cn/uploads/image/2023/02/20230216142556884060.jpg"
+    ]
+  },
+  "product": {
+    "mpn": "CVN Z790D5 GAMING FROZEN V20",
+    "identityNote": "Modèle Colorful CVN Z790D5 GAMING FROZEN V20 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "Colorful — API publique de spécifications du modèle exact",
+        "url": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Colorful — fiche produit associée à l’API",
+        "url": "https://www.colorful.cn/home/product?id=912&mid=84",
+        "checkedAt": "2026-11-10T14:10:33+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "m2Slots": 4,
+      "heightMm": 305.0,
+      "widthMm": 245.0,
+      "manufacturerPartNumber": "CVN Z790D5 GAMING FROZEN V20",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — Colorful",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "支持适配主板LGA 1700插槽的第14代、第13代和第12代Intel® 酷睿TM、奔腾®以及赛扬®处理器 |（*请访问七彩虹官网www.colorful.cn查询最新的处理器支持列表）"
+          },
+          {
+            "label": "Mémoire",
+            "value": "提供4条DDR5内存插槽，可支持高达192 GB容量内存 (单一插槽最高支持48 GB容量)|-支持DDR5-7000(OC)/6800(OC)/6600(OC)/6400(OC)/6200(OC)/6000(OC)/5800(OC)/5600(OC)/5400(OC)/5200(OC)/5000(OC)/4800MHz内存|-支持Intel® Extreme Memory Profile (XMP)内存技术|-支持双通道内存技术|（*请访问七彩虹官网www.colorful.cn查询最新的内存兼容性列表）"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1个PCIe 5.0 x16插槽|1个PCIe x16插槽（支持PCIe 4.0 x4规格）|2个PCIe 3.0 x1插槽"
+          },
+          {
+            "label": "I/O connections",
+            "value": "后置I/O接口：|-2个USB 2.0接口|-4个USB 3.2 Gen 1 Type-A接口|-1个USB 3.2 Gen 2 Type-A接口|-1个USB 3.2 Gen 2x2 Type-C接口|-1个DP 1.2接口，最高支持4K 60Hz的分辨率|-1个HDMI 2.0接口，最高支持4K 60Hz的分辨率|-1个2.5G网络接口|-2个Wi-Fi 6天线接口|-6个音频接口（音频输入/音频输出/麦克风）|-1个BIOS更新按键|板载设备接口：|-1个CPU风扇插针|-3个系统风扇插针|-1个水冷泵插针|-2个USB 2.0插针可扩展4个USB 2.0 Type-A接口|-1个USB 3.2 Gen 1插针可扩展2个USB 3.2 Gen 1 Type-A接口|-1个USB 3.2 Gen 1 Type-C插槽可扩展1个USB 3.2 Gen 1 Type-C接口|-2个5V 3-pin ARGB插针|-2个12V 4-pin RGB插针|-1个前置音频插针|-1个前置面板插针|-1个喇叭插针|-1个清除CMOS按键|-1个串口插针|-1个BIOS烧录器插针|-1个诊断卡插针|-1个ME写保护跳线|-1个RGB灯效控制跳线"
+          },
+          {
+            "label": "Power management",
+            "value": "支持S3、S4，网络S5唤醒，支持定时开机、来电开机"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "共支持4个M.2插槽和6个SATA 6Gb/s硬盘接口，支持用SATA或M.2 NVMe硬盘设备创建RAID 0，RAID 1，RAID 5，RAID 10磁盘阵列|-M.2_1插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，CPU通道）|-M.2_2插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|-M.2_3插槽：支持2242/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|-M.2_4插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|（*RAID磁盘阵列的创建步骤详见七彩虹官方的BIOS用户指南）"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC897 高保真解码芯片，支持7.1声道"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX板型|305mm x 245mm"
+          },
+          {
+            "label": "产品系列",
+            "value": "CVN系列"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "RTL8125 2.5Gbit网卡，AX201/AX200 WiFi 6无线网卡，蓝牙5.2"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel Z790"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "CPU风扇转速可控，系统风扇转速可控（Fan1支持独立控制，Fan2和Fan3共享控制），CPU温度监视，System温度监视，及各组电压监视"
+          },
+          {
+            "label": "BIOS",
+            "value": "128M UEFI，支持多国语言"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.colorful.cn/uploads/image/2023/02/20230216142556884060.jpg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Texte fabricant conservé avec ses restrictions. Les images proviennent du modèle dans le catalogue officiel ; aucune inspection photographique de fidélité n’est supposée."
+    ],
+    "fieldEvidence": {
+      "m2": {
+        "value": 4,
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "formFactor": {
+        "value": "ATX板型|305mm x 245mm",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX板型|305mm x 245mm",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "chipset": {
+        "value": "Intel Z790",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "storagePorts": {
+        "value": "共支持4个M.2插槽和6个SATA 6Gb/s硬盘接口，支持用SATA或M.2 NVMe硬盘设备创建RAID 0，RAID 1，RAID 5，RAID 10磁盘阵列|-M.2_1插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，CPU通道）|-M.2_2插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|-M.2_3插槽：支持2242/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|-M.2_4插槽：支持2242/2260/2280规格M.2 SSD（PCIe 4.0 x4，PCH通道）|（*RAID磁盘阵列的创建步骤详见七彩虹官方的BIOS用户指南）",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "pcie": {
+        "value": "1个PCIe 5.0 x16插槽|1个PCIe x16插槽（支持PCIe 4.0 x4规格）|2个PCIe 3.0 x1插槽",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "network": {
+        "value": "RTL8125 2.5Gbit网卡，AX201/AX200 WiFi 6无线网卡，蓝牙5.2",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC897 高保真解码芯片，支持7.1声道",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      },
+      "cpuSupport": {
+        "value": "支持适配主板LGA 1700插槽的第14代、第13代和第12代Intel® 酷睿TM、奔腾®以及赛扬®处理器 |（*请访问七彩虹官网www.colorful.cn查询最新的处理器支持列表）\nBIOS: 128M UEFI，支持多国语言",
+        "sourceURL": "https://www.colorful.cn/Home/GetAttrbuteValue?mid=84&id=912",
+        "checkedAt": "2026-11-10T14:13:26+00:00"
+      }
+    },
+    "manufacturerModel": "CVN Z790D5 GAMING FROZEN V20"
+  }
+}

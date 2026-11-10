@@ -1,0 +1,66 @@
+{
+  "id": "import-ssd-5bbe09feb2b0",
+  "brand": "HP",
+  "manufacturerModel": "HP PCIe Gen 4x4 M.2 SSD 2 TB",
+  "source": {
+    "name": "HP / BIWIN — fiche officielle, capacité exacte",
+    "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "checkedAt": "2026-11-10T14:36:42+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "checkedAt": "2026-11-10T14:36:42+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+    "sha256": "7fde6fd5402597e7abb0c62e5fcb00525f337950d155af5c2f8ca9875e5d88d2",
+    "bytes": 52992,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCIe Gen 4x4, NVMe 2.0",
+    "Form Factor": "M.2 2280",
+    "Capacity": "2 TB",
+    "Sequential Read speed": "6300 MB/s / 7200 MB/s / 7200 MB/s / 7200 MB/s",
+    "Sequential Write speed": "3100 MB/s / 6200 MB/s / 6200 MB/s / 6200 MB/s",
+    "4K Random Read Speed (Up to)": "1050K IOPS",
+    "4K Random Write Speed (Up to)": "721K IOPS",
+    "Max. Power Consumption (Read)": "3.66 W",
+    "Max. Power Consumption (Write)": "3.31 W",
+    "Max. Power Consumption (Idle)": "40.37 mW",
+    "Dimensions": "80 × 22 × 2.4 mm",
+    "Weight": "Less than 10 g",
+    "MTBF": "2,000,000 hours",
+    "Operating Temperature": "0 ℃ to 70 ℃",
+    "Storage Temperature": "-40 ℃ to 85 ℃",
+    "Vibration Resistance": "3.1 GRMS (2-500Hz)",
+    "Shock Resistance": "100 G/ 6 ms",
+    "Certifications": "CE, FCC, RoHS, KCC, VCCI, BSMI, RCM",
+    "Warranty": "5-Year / 800 TBW"
+  },
+  "images": [],
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+        "checkedAt": "2026-11-10T14:36:42+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://hp.biwintech.com/products/hpfx700pciem.2ssd",
+        "sha256": "7fde6fd5402597e7abb0c62e5fcb00525f337950d155af5c2f8ca9875e5d88d2",
+        "bytes": 52992,
+        "status": "fetched"
+      },
+      "title": "HP PCIe Gen 4x4 M.2 SSD",
+      "publishedCapacities": [
+        512,
+        1000,
+        2000,
+        4000
+      ]
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "GRAPHENE THERMAL PAD FOR BETTER HEAT DISSIPATION"
+  }
+}

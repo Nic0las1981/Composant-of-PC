@@ -23,6 +23,7 @@ import VerifiedProductPanel from './VerifiedProductPanel';
 import { verifiedProducts } from '../data/verifiedCatalog';
 import {catalogControlSummary} from '../data/catalogControl';
 import CatalogControlNotice from './CatalogControlNotice';
+import {getProductImage} from '../data/productImages';
 
 export interface CatalogPanelProps {
   category: CategoryId;
@@ -61,6 +62,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
   const [view, setView] = useState<View>(initialProduct ? 'detail' : 'list');
   const [detailId, setDetailId] = useState<string | null>(initialProduct?.id ?? null);
   const [search, setSearch] = useState('');
+  const [specSearch, setSpecSearch] = useState({ componentId: '', value: '' });
   const [brand, setBrand] = useState('all');
   const [family, setFamily] = useState('all');
   const [sort, setSort] = useState<Sort>('newest');
@@ -200,7 +202,13 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
   const visibleResults = results.slice(0, visibleCount);
   const filterCount = [search.trim() !== '', brand !== 'all', family !== 'all', maxPrice !== 'all', compatibleOnly, coolingType !== 'all', memoryType !== 'all', capacity !== 'all', moduleCapacity !== 'all', moduleKind !== 'all', organization !== 'all', modules !== 'all', boardSlots !== 'all', socket !== 'all', memorySpeed !== 'all'].filter(Boolean).length;
   const detail = productForCategory(detailId, category);
+  const detailImage=getProductImage(detail);
   const details = detail ? getProductDetails(detail) : undefined;
+  const specQuery = specSearch.componentId === detail?.id ? specSearch.value : '';
+  const normalizedSpecQuery = normalize(specQuery.trim());
+  const detailGroups = details?.groups.map(group => ({ ...group, rows: group.rows.filter(row =>
+    !normalizedSpecQuery || normalize(`${group.title} ${row.displayLabel ?? row.label} ${row.value}`).includes(normalizedSpecQuery),
+  ) })).filter(group => group.rows.length) ?? [];
   const detailRelease = detail ? getReleaseInfo(detail) : null;
   const detailGroup = getVariantGroup(detail);
   const pricing = detail ? getPricingInfo(detail) : undefined;
@@ -332,7 +340,7 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
     {view === 'detail' && detail && details && <>
       <button type="button" ref={backRef} className="cp-back" onClick={() => setView('list')}><ArrowLeft size={16} aria-hidden="true" />Retour aux composants</button>
       <section className="cp-detail-hero" aria-labelledby="cp-product-name">
-        <div className="cp-detail-art"><span className="cp-detail-category">{details.categoryLabel}</span><ProductArt category={detail.category} brand={detail.brand} component={detail} detailed /><p>{getVisualProfile(detail)?.fidelity === 'schematic' ? 'Aperçu schématique : les volumes non renseignés sont illustratifs.' : 'Visuel reconstitué. Vérifiez la fiche du fabricant et les dégagements avant achat.'}</p></div>
+        <div className="cp-detail-art"><span className="cp-detail-category">{details.categoryLabel}</span><ProductArt category={detail.category} brand={detail.brand} component={detail} detailed /><p className="cp-illustration-caption">{getVisualProfile(detail)?.fidelity === 'schematic' ? 'Aperçu schématique : les volumes non renseignés sont illustratifs.' : 'Visuel reconstitué. Vérifiez la fiche du fabricant et les dégagements avant achat.'}</p>{detailImage&&<p className="cp-photo-caption">Photo constructeur · <a href={detailImage.sourceURL} target="_blank" rel="noopener noreferrer">Voir la source</a>{detailImage.revision&&<> · {detailImage.revision}</>}</p>}</div>
         <div className="cp-detail-intro"><span className="cp-brand">{detail.brand}</span><h3 id="cp-product-name">{detail.name}</h3><p>{detail.description}</p><div className="cp-detail-highlights">{details.highlights.map((item, index) => <span key={`${index}-${item}`}>{item}</span>)}</div><div className="cp-detail-price"><strong className={getReferencePrice(detail) === null ? 'cp-price-unknown' : ''}>{formatComponentPrice(detail)}</strong>{getReferencePrice(detail) !== null && <span>Prix {getPriceCaption(detail)}</span>}{priceDelta(detail)}</div><div className="cp-detail-actions">{chooseButton(detail)}<button type="button" className={`cp-button cp-secondary ${isComparedComponent(detail) ? 'cp-active' : ''}`} aria-pressed={isComparedComponent(detail)} disabled={!isComparedComponent(detail) && compareIds.length >= 3} onClick={() => toggleComparison(detail)}>{isComparedComponent(detail) ? <Check size={15} aria-hidden="true" /> : <GitCompareArrows size={15} aria-hidden="true" />}Comparer</button></div></div>
       </section>
       <section className="cp-release-detail" aria-label="Classement chronologique"><Info size={17} aria-hidden="true" /><div><strong>{releaseBadge(detailRelease)}</strong><p>{detailRelease ? `${detailRelease.label} · ${releaseDateLabel(detailRelease)}. ${detailRelease.note ?? (detailRelease.basis === 'model' ? 'Repère de sortie du modèle.' : 'Le lancement de la génération ou de la gamme ne date pas chaque capacité, finition ou révision.')}` : 'La date de sortie n’est pas renseignée. Cette référence apparaît après les composants datés dans les tris chronologiques.'}</p>{detailRelease?.sourceUrl && <a href={detailRelease.sourceUrl} target="_blank" rel="noopener noreferrer">{detailRelease.sourceName ?? 'Consulter le repère historique'}<ArrowUpRight size={13} /></a>}</div></section>
@@ -360,7 +368,9 @@ export default function CatalogPanel({ category, selection, resolution, usage, i
         {detailWarnings.map((warning) => <div className="cp-notice cp-notice-warning" key={warning.id}><Info size={16} aria-hidden="true" /><div><strong>{warning.title}</strong><p>{warning.description}</p></div></div>)}
         {(category === 'cpu' || category === 'gpu') && detailAnalysis?.selected.cpu && detailAnalysis?.selected.gpu && <div className="cp-notice"><GitCompareArrows size={16} aria-hidden="true" /><div><strong>Équilibre CPU / GPU · {resolution === '4k' ? '4K' : resolution}</strong><p>{detailAnalysis.balance.description}</p>{detailAnalysis.balance.limiter !== 'unknown' && <small>Estimation indicative selon l’usage choisi, sans mesure de performances en jeu.</small>}</div></div>}
       </section>
-      <div className="cp-detail-specs">{details.groups.map((group) => <section key={group.title}><h3>{group.title}</h3><dl>{group.rows.map((row) => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>)}</div>
+      <div className="cp-spec-search"><label className="cp-search"><Search size={18} aria-hidden="true" /><input aria-label="Rechercher une caractéristique" placeholder="Dans la fiche : USB, dimensions, tension…" value={specQuery} onChange={event => setSpecSearch({ componentId: detail.id, value: event.target.value })} />{specQuery && <button type="button" aria-label="Effacer la recherche de caractéristique" onClick={() => setSpecSearch({ componentId: detail.id, value: '' })}><X size={16} /></button>}</label>{specQuery && <span role="status">{detailGroups.reduce((count, group) => count + group.rows.length, 0)} ligne(s) correspondante(s)</span>}</div>
+      <div className="cp-detail-specs">{detailGroups.map((group) => <section key={group.title}><h3>{group.title}</h3><dl>{group.rows.map((row) => <div key={row.label}><dt>{row.displayLabel ?? row.label}</dt><dd>{row.value}</dd></div>)}</dl></section>)}</div>
+      {specQuery && detailGroups.length === 0 && <p className="cp-spec-empty">Aucune caractéristique ne correspond à « {specQuery} ». Essayez un autre terme ou effacez la recherche pour afficher toute la fiche.</p>}
       {details.advice.length > 0 && <section className="cp-advice"><h3><Info size={17} aria-hidden="true" />Les détails à vérifier</h3><ul>{details.advice.map((advice, index) => <li key={index}>{advice}</li>)}</ul></section>}
     </>}
 

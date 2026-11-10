@@ -1,0 +1,248 @@
+{
+  "review": {
+    "id": "import-mb-f4ee66d602a8",
+    "name": "X870E VALKYRIE",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+          "checkedAt": "2026-11-10T13:46:25+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/bX870E_VALKYRIE_BOX_9P5j.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_Top-V3_p0uX.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-R45_dvqb.png",
+          "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_IO_3OM8.png"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "RAID",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "1161",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "X870E VALKYRIE",
+    "identityNote": "Modèle Biostar X870E VALKYRIE confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM5",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "X870E VALKYRIE",
+      "detailLevel": "partial",
+      "maxMemoryGB": 256
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR X870E VALKYRIE — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD X870E"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Socket AM5 support AMD Ryzen™ 9000 / 8000 / 7000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list."
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen 9000 / 8000 / 7000 Series Processors:\n \nSupports Dual Channel DDR5 - 8000+(OC) MT/s, Non-ECC, Un-buffered Memory\n \n4 x DDR5 DIMM Memory Slot, Max. Supports up to 256 GB Memory\n \nSupport Intel® Extreme Memory Profile (XMP) memory modules and AMD EXTended Profiles for \nOverclocking (EXPO) memory modules\n \n* Please refer to www.biostar.com.tw for Memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Supports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total support 4 x M.2 Socket and 6 x SATA (6Gb/s) ports\n \nAMD Ryzen 9000 / 8000G / 7000 Series Processors\n \n1 x M.2 (Key M) Socket (M2M_CPU):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 5.0 x4 (128Gb/s)/ 4.0 x4 (64Gb/s) - NVMe SSD\n \nAMD X870 Chipset\n \n1 x M.2 (Key M) Socket (M2M_SB_1):\n \nSupport M.2 Type 2260/2280/22110 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n1 x M.2 (Key M2) Socket (M2M_SB_2):\n \nSupport M.2 Type 2260/2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n1 x M.2 (Key M2) Socket (M2M_SB_3):\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n6 x SATA III Connector (6Gb/s):\n \nSupports AHCI & RAID 0, 1, 10\n \n* When using module on M.2 Socket (M2M_SB_3), the PCI-E slot (PCIEX16_3) will be disabled.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8125D\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC1220-VB2\n \n7.1 Channels, High Definition Audio, Hi-Fi (Front)"
+          },
+          {
+            "label": "USB",
+            "value": "2 x USB 4.0/Thunderbolt Type-C Port with (DP)\n \n (2 on rear I/O)\n \n1 x USB 3.2 (Gen2x2) Type-C port\n \n (1 via internal headers)\n \n10 x USB 3.2 (Gen2) port\n \n (8 on rear I/O and 2 via internal header)\n \n4 x USB 2.0 port\n \n (4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen 9000/ 7000 Series Processors\n \n1 x PCIe 5.0 x16 Slot (x16 or x8/x8 mode)\n \n1 x PCIe 5.0 x16 Slot (x8 mode)\n \n* When you use both, PCIEX16_1 and PCIEX16_2 will run x8 mode.\n \nAMD Ryzen 8700G & 8600G (Phoenix1) Processors\n \n1 x PCIe 4.0 x16 Slot (x8 mode)\n \n1 x PCIe 4.0 x16 Slot (disable)\n \n* Only support PCIEX16_1 for x8 mode, PCIEX16_2 will be disable.\n \nAMD Ryzen 8500G & 8300G (Phoenix2) Processors\n \n1 x PCIe 4.0 x16 Slot (x4 mode)\n \n1 x PCIe 4.0 x16 Slot (disable)\n \n* Only support PCIEX16_1 for x4 mode, PCIEX16_2 will be disable.\n \nAMD X870E Chipset\n \n1 x PCIe 4.0 x16 Slot (x4 mode) \n\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x WiFi Antenna Ports\n \n1 x HDMI® Port\n \n1 x DP Port \n \n2 x USB 4.0/Thunderbolt Type-C Port with (DP)\n \n8 x USB 3.2 (Gen2) Ports\n \n1 x 2.5 Gigabit LAN port\n \n5 x Audio Jack\n \n1 x S/PDIF_Out\n \n1 x SMART BIOS UPDATE Button\n \n1 x SMART BIOS USB Port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "6 x SATA III Connector (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n1 x USB 3.2 (Gen2x2) Type-C Port\n \n (each header supports 1 USB 3.2 (Gen2x2) Type-C port)\n \n1 x USB 3.2 (Gen2) Header\n \n (each header supports 2 USB 3.2 (Gen2) ports)\n \n2 x USB 2.0 Header\n \n (each header supports 2 USB 2.0 ports)\n \n2 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n4 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Switch Button\n \n1 x Power Switch Button\n \n1 x Reset Switch Button\n \n1 x COM Port Header\n \n1 x TPM Header\n \n1 x Thunderbolt Header\n \n4 x LED Header (5V)\n \n1 x LED Header (12V)\n \n1 x IO LED Header\n \n* M.2 (E Key) Wi-Fi card is not provided"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, 1 , 10 for M.2 NVMe storage devices"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nSmart / Manual CPU Fan Control\nCPU/DDR Voltage Monitoring"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor Dimension: 24.4 cm x 30.5 cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / Windows 11(64bit)\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "BullGuard"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x Quick Guide\n1 x Female header 2X5/2.54mm/180度/61Y-72-05GG89/PINREX"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bX870E_VALKYRIE_BOX_9P5j.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_Top-V3_p0uX.png"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-R45_dvqb.png"
+          },
+          {
+            "label": "Photographie constructeur 4",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/bVALKYRIE_X870E-_IO_3OM8.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor Dimension: 24.4 cm x 30.5 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor Dimension: 24.4 cm x 30.5 cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "chipset": {
+        "value": "AMD X870E",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "storagePorts": {
+        "value": "Total support 4 x M.2 Socket and 6 x SATA (6Gb/s) ports\n \nAMD Ryzen 9000 / 8000G / 7000 Series Processors\n \n1 x M.2 (Key M) Socket (M2M_CPU):\n \nSupports M.2 Type 2280 SSD module\n \nSupports PCIe 5.0 x4 (128Gb/s)/ 4.0 x4 (64Gb/s) - NVMe SSD\n \nAMD X870 Chipset\n \n1 x M.2 (Key M) Socket (M2M_SB_1):\n \nSupport M.2 Type 2260/2280/22110 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n1 x M.2 (Key M2) Socket (M2M_SB_2):\n \nSupport M.2 Type 2260/2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n1 x M.2 (Key M2) Socket (M2M_SB_3):\n \nSupport M.2 Type 2280 SSD module\n \nSupport PCIe 4.0 x 4 (64Gb/s) - NVMe SSD\n \n6 x SATA III Connector (6Gb/s):\n \nSupports AHCI & RAID 0, 1, 10\n \n* When using module on M.2 Socket (M2M_SB_3), the PCI-E slot (PCIEX16_3) will be disabled.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen 9000/ 7000 Series Processors\n \n1 x PCIe 5.0 x16 Slot (x16 or x8/x8 mode)\n \n1 x PCIe 5.0 x16 Slot (x8 mode)\n \n* When you use both, PCIEX16_1 and PCIEX16_2 will run x8 mode.\n \nAMD Ryzen 8700G & 8600G (Phoenix1) Processors\n \n1 x PCIe 4.0 x16 Slot (x8 mode)\n \n1 x PCIe 4.0 x16 Slot (disable)\n \n* Only support PCIEX16_1 for x8 mode, PCIEX16_2 will be disable.\n \nAMD Ryzen 8500G & 8300G (Phoenix2) Processors\n \n1 x PCIe 4.0 x16 Slot (x4 mode)\n \n1 x PCIe 4.0 x16 Slot (disable)\n \n* Only support PCIEX16_1 for x4 mode, PCIEX16_2 will be disable.\n \nAMD X870E Chipset\n \n1 x PCIe 4.0 x16 Slot (x4 mode) \n\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "rearIO": {
+        "value": "2 x WiFi Antenna Ports\n \n1 x HDMI® Port\n \n1 x DP Port \n \n2 x USB 4.0/Thunderbolt Type-C Port with (DP)\n \n8 x USB 3.2 (Gen2) Ports\n \n1 x 2.5 Gigabit LAN port\n \n5 x Audio Jack\n \n1 x S/PDIF_Out\n \n1 x SMART BIOS UPDATE Button\n \n1 x SMART BIOS USB Port",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "internalIO": {
+        "value": "6 x SATA III Connector (6Gb/s)\n \n1 x M.2 (E Key) Socket : Supports 2230 type Wi-Fi & Bluetooth module\n \n1 x USB 3.2 (Gen2x2) Type-C Port\n \n (each header supports 1 USB 3.2 (Gen2x2) Type-C port)\n \n1 x USB 3.2 (Gen2) Header\n \n (each header supports 2 USB 3.2 (Gen2) ports)\n \n2 x USB 2.0 Header\n \n (each header supports 2 USB 2.0 ports)\n \n2 x 8-Pin Power Connector\n \n1 x 24-Pin Power Connector\n \n1 x CPU Fan Connector\n \n1 x CPU water cooling connector (CPU_OPT)\n \n4 x System Fan Connector\n \n1 x Front Panel Header\n \n1 x Front Audio Header\n \n1 x Speaker Header\n \n1 x Clear CMOS Switch Button\n \n1 x Power Switch Button\n \n1 x Reset Switch Button\n \n1 x COM Port Header\n \n1 x TPM Header\n \n1 x Thunderbolt Header\n \n4 x LED Header (5V)\n \n1 x LED Header (12V)\n \n1 x IO LED Header\n \n* M.2 (E Key) Wi-Fi card is not provided",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8125D\n \n10/ 100/ 1000/ 2500 Mb/s auto negotiation, Half / Full duplex capability",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC1220-VB2\n \n7.1 Channels, High Definition Audio, Hi-Fi (Front)",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "cpuSupport": {
+        "value": "Socket AM5 support AMD Ryzen™ 9000 / 8000 / 7000 series Processors\n \nSupport for future AMD Ryzen processors with BIOS update\n \n* Please refer to www.biostar.com.tw for CPU support list.",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      },
+      "memoryCapacity": {
+        "value": 256,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=1161&pname=X870E%20VALKYRIE&chipset=AMD%20X870E",
+        "checkedAt": "2026-11-10T13:46:25+00:00"
+      }
+    }
+  }
+}

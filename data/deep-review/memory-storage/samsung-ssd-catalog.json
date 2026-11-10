@@ -1,0 +1,3446 @@
+[
+  {
+    "mpn": "MZ-V9E1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 EVO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9E1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9E1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 5000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 4200 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "HMB, sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "4.9 / 4.5 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9E1T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "read": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "write": {
+        "value": "4200 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf"
+  },
+  {
+    "mpn": "MZ-V9E2T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 EVO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9E2T0BW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9E2T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 5000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 4200 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "HMB, sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 4.7 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9E2T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "read": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "write": {
+        "value": "4200 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:08.770725+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_datasheet_rev.1.1.pdf"
+  },
+  {
+    "mpn": "MZ-V9S1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9S1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9S1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7150 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "HMB, sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "4.3 / 4.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9S1T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "read": {
+        "value": "7150 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "write": {
+        "value": "6300 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf"
+  },
+  {
+    "mpn": "MZ-V9S2T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9S2T0BW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9S2T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7250 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "HMB, sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "4.6 / 4.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9S2T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "read": {
+        "value": "7250 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "write": {
+        "value": "6300 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf"
+  },
+  {
+    "mpn": "MZ-V9S4T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9S4T0BW",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9S4T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7250 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "HMB, sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "2400 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 4.8 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9S4T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4 / PCIe 5.0 ×2, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "read": {
+        "value": "7250 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "write": {
+        "value": "6300 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "endurance": {
+        "value": "2400 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.771528+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_evo_plus_datasheet_rev.1.0.pdf"
+  },
+  {
+    "mpn": "MZ-V9P1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9P1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9P1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7450 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6900 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "1 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 5.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P1T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "read": {
+        "value": "7450 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "write": {
+        "value": "6900 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf"
+  },
+  {
+    "mpn": "MZ-V9P2T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9P2T0BW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9P2T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7450 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6900 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "2 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.1 / 5.5 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P2T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "read": {
+        "value": "7450 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "write": {
+        "value": "6900 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf"
+  },
+  {
+    "mpn": "MZ-V9P4T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "990 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V9P4T0BW",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V9P4T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 2.0"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7450 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 6900 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "4 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "2400 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.5 / 5.7 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V9P4T0BW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 2.0",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "read": {
+        "value": "7450 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "write": {
+        "value": "6900 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "endurance": {
+        "value": "2400 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:08.786643+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/samsung_nvme_ssd_990_pro_datasheet_rev.2.0.pdf"
+  },
+  {
+    "mpn": "MZ-V8P250BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P250BW",
+      "capacityGB": 250,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P250BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "250 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 6400 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 2700 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "512 Mo LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "150 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5 / 3.9 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P250BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "capacityGB": {
+        "value": 250,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "read": {
+        "value": "6400 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "write": {
+        "value": "2700 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "endurance": {
+        "value": "150 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8P500BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P500BW",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P500BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "500 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 6900 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 5000 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "512 Mo LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "300 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.9 / 5.4 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P500BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "read": {
+        "value": "6900 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "write": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "endurance": {
+        "value": "300 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8P1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 5000 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "1 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.2 / 5.7 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P1T0BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "write": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8P2T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P2T0BW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P2T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 5100 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "2 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.1 / 5.6 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P2T0BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "write": {
+        "value": "5100 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.755150+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8P1T0CW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO w/Heatsink",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P1T0CW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 25,
+      "heightMm": 8.88,
+      "storageHeatsink": true
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P1T0CW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 25 × 8.88 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 5000 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "1 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.2 / 5.7 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P1T0CW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "widthMm": {
+        "value": 25,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "heightMm": {
+        "value": 8.88,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "write": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "heatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf"
+  },
+  {
+    "mpn": "MZ-V8P2T0CW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980 PRO w/Heatsink",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8P2T0CW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 25,
+      "heightMm": 8.88,
+      "storageHeatsink": true
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8P2T0CW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 4.0 ×4, NVMe 1.3c"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 25 × 8.88 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 5100 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "2 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "6.1 / 5.6 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8P2T0CW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "widthMm": {
+        "value": 25,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "heightMm": {
+        "value": 8.88,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4, NVMe 1.3c",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "write": {
+        "value": "5100 Mo/s",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      },
+      "heatsink": {
+        "value": true,
+        "sourceURL": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf",
+        "checkedAt": "2026-11-10T13:41:09.220219+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://download.semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_PRO_with_Heatsink_Datasheet_Rev_2.0.pdf"
+  },
+  {
+    "mpn": "MZ-V7S250BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "970 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V7S250BW",
+      "capacityGB": 250,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V7S250BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "250 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.3"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 2300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "512 Mo LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "150 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5 / 4.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V7S250BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "capacityGB": {
+        "value": 250,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.3",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "write": {
+        "value": "2300 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "endurance": {
+        "value": "150 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf"
+  },
+  {
+    "mpn": "MZ-V7S500BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "970 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V7S500BW",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V7S500BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "500 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.3"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 3200 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "512 Mo LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "300 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 5.8 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V7S500BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.3",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "write": {
+        "value": "3200 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "endurance": {
+        "value": "300 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf"
+  },
+  {
+    "mpn": "MZ-V7S1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "970 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V7S1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V7S1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.3"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 3300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "1 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 6 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V7S1T0BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.3",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "write": {
+        "value": "3300 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf"
+  },
+  {
+    "mpn": "MZ-V7S2T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "970 EVO Plus",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V7S2T0BW",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V7S2T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.3"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 3300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "2 Go LPDDR4"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "1200 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "5.5 / 6 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V7S2T0BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.3",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "write": {
+        "value": "3300 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "endurance": {
+        "value": "1200 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf",
+        "checkedAt": "2026-11-10T13:41:10.072867+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_970_EVO_Plus_Data_Sheet_Rev.3.0.pdf"
+  },
+  {
+    "mpn": "MZ-V8V250BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8V250BW",
+      "capacityGB": 250,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8V250BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "250 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.4"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 2900 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 1300 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "Sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "150 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "3.7 / 3.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8V250BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "capacityGB": {
+        "value": 250,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.4",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "read": {
+        "value": "2900 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "write": {
+        "value": "1300 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "endurance": {
+        "value": "150 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8V500BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8V500BW",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8V500BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "500 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.4"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3100 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 2600 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "Sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "300 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "4.3 / 4.2 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8V500BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.4",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "read": {
+        "value": "3100 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "write": {
+        "value": "2600 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "endurance": {
+        "value": "300 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf"
+  },
+  {
+    "mpn": "MZ-V8V1T0BW",
+    "brand": "Samsung",
+    "category": "storage",
+    "family": "980",
+    "patch": {
+      "manufacturerPartNumber": "MZ-V8V1T0BW",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80.15,
+      "widthMm": 22.15,
+      "heightMm": 2.38,
+      "storageHeatsink": false
+    },
+    "sources": [
+      {
+        "name": "Samsung — datasheet et tableau PRODUCT LINEUP, capacité exacte",
+        "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "MZ-V8V1T0BW"
+      },
+      {
+        "label": "Capacité",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Interface et protocole",
+        "value": "PCIe 3.0 ×4, NVMe 1.4"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Dimensions maximales (L × l × H)",
+        "value": "80.15 × 22.15 × 2.38 mm"
+      },
+      {
+        "label": "Dissipateur",
+        "value": "Module nu, sans dissipateur intégré"
+      },
+      {
+        "label": "Lecture séquentielle",
+        "value": "Jusqu’à 3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle",
+        "value": "Jusqu’à 3000 Mo/s"
+      },
+      {
+        "label": "Type NAND",
+        "value": "Samsung V-NAND TLC (3 bits par cellule)"
+      },
+      {
+        "label": "Cache",
+        "value": "Sans DRAM dédiée"
+      },
+      {
+        "label": "Endurance TBW",
+        "value": "600 To écrits (TBW)"
+      },
+      {
+        "label": "Garantie",
+        "value": "5 ans limités ou seuil TBW atteint, premier terme échu"
+      },
+      {
+        "label": "Consommation active moyenne lecture / écriture",
+        "value": "4.5 / 4.6 W — mesure moyenne du fabricant, pas puissance maximale"
+      },
+      {
+        "label": "Température de fonctionnement",
+        "value": "0 à 70 °C"
+      },
+      {
+        "label": "MTBF",
+        "value": "1,5 million d’heures"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "MZ-V8V1T0BW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "lengthMm": {
+        "value": 80.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "widthMm": {
+        "value": 22.15,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heightMm": {
+        "value": 2.38,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "storageHeatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 3.0 ×4, NVMe 1.4",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "write": {
+        "value": "3000 Mo/s",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "nand": {
+        "value": "V-NAND TLC",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "endurance": {
+        "value": "600 TBW",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités ou TBW atteint",
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      },
+      "heatsink": {
+        "value": false,
+        "sourceURL": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf",
+        "checkedAt": "2026-11-10T13:41:10.931981+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://semiconductor.samsung.com/resources/data-sheet/Samsung_NVMe_SSD_980_Data_Sheet_Rev.1.1.pdf"
+  }
+]

@@ -1,13 +1,14 @@
 import type { Component } from '../data/catalog.ts';
 import { verifiedProducts } from '../data/verifiedCatalog.ts';
 import type { VerifiedOffer } from '../data/verifiedTypes.ts';
+import { matchesProductIdentity } from '../data/verifiedTypes.ts';
 
 // These are dated observations, never a promise of today's checkout price.
 export const VERIFIED_OFFER_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
 export function getVerifiedProduct(component: Component) {
   const product = verifiedProducts[component.id];
-  return product && component.manufacturerPartNumber === product.mpn ? product : undefined;
+  return matchesProductIdentity(component,product) ? product : undefined;
 }
 
 export function isCurrentVerifiedOffer(offer: VerifiedOffer, now = Date.now()): boolean {
@@ -20,7 +21,9 @@ export function isCurrentVerifiedOffer(offer: VerifiedOffer, now = Date.now()): 
 
 export function getVerifiedOffer(component: Component, now = Date.now()): VerifiedOffer | undefined {
   if (component.priceBasis === 'installed-memory-purchases') return undefined;
-  return getVerifiedProduct(component)?.offers
+  const product=getVerifiedProduct(component);
+  if (!product?.mpn || product.identityKind === 'manufacturer-model') return undefined;
+  return product.offers
     .filter(offer => offer.mpn === component.manufacturerPartNumber && isCurrentVerifiedOffer(offer, now))
     .sort((a, b) => a.amount - b.amount || a.url.localeCompare(b.url))[0];
 }

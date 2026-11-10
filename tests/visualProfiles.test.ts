@@ -251,9 +251,10 @@ test("schematic dimensions and fan templates are not displayed as imported produ
 });
 
 test("an explicitly named Heat Sink is visible on the imported SSD", () => {
-  const ssd = catalogImported.find((component) => component.category === "storage" && /with Heat Sink/i.test(component.name));
-  assert.ok(ssd);
-  const profile = getVisualProfile(ssd);
+  const candidate = catalogImported.find((component) => component.category === "storage" && /with Heat Sink/i.test(component.name));
+  assert.ok(candidate);
+  const ssd = {...candidate,id:'test-undocumented-heatsink',heightMm:undefined,manufacturerPartNumber:undefined};
+  const profile = createImportedVisualProfile(ssd);
   assert.equal(profile?.category, "storage");
   if (profile?.category !== "storage") return;
   assert.equal(profile.hasHeatsink, true);

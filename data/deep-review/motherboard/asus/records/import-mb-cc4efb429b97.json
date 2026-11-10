@@ -1,0 +1,256 @@
+{
+  "review": {
+    "id": "import-mb-cc4efb429b97",
+    "name": "PRIME X570-P",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "sha256": "d519f619759a6225cb5946e6895040869ffc439dbaab38791f9db0a077e53468",
+        "bytes": 347414,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "PRIME X570-P",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Audio",
+      "USB Ports",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "PRIME X570-P",
+    "identityNote": "Modèle ASUS PRIME X570-P confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "PRIME X570-P",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "* Refer to www.asus.com for CPU support list.,AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors,* Due to CPU limitation, CPU cores supported varies by processors."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists).,4 x DIMM, Max. 128GB, DDR4 5100(O.C)/5000(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933/2800/2666/2400/2133 MHz Un-buffered Memory,Dual Channel Memory Architecture,ECC Memory (ECC mode) support varies by CPU.,* The maximum memory capacity supported vary depending on the CPU you installed."
+          },
+          {
+            "label": "Graphic",
+            "value": "Integrated Graphics in AMD Ryzen™ 5000 G-Series/ 4000 G-Series/ 3000 G-Series/ 2000 G-Series Desktop Processors,VGA output support : HDMI port,- Supports HDMI 1.4b with max. resolution 4096 x 2160 @ 24 Hz"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series/ Desktop Processors,Supports AMD 2-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 G-Series/ 4000 G-Series/ 2000 Series Desktop Processors,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors,AMD RyzenTM 3000 G-Series / 2000 G-Series Processors,1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x8 mode),AMD X570 chipset,1 x PCIe 4.0 x16 (max at x4 mode),3 x PCIe 4.0 x1"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 5000 G-Series/ 4000 G-Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors :,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :,1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support,1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support,AMD X570 chipset :,1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support,6 x SATA 6Gb/s port(s),Support Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® RTL8111H,ASUS LAN Guard"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek S1200A8-Channel High Definition Audio CODEC *,- Premium Japanese-made audio capacitors,- Supports : Front Panel Jack-retasking, up to 24-Bit/192kHz playback,- Audio Shielding,- Dedicated audio PCB layers,- Front panel audio connector (AAFP),Audio Feature :,* Choose the chassis with HD audio module in front panel to support 8-channel audio output."
+          },
+          {
+            "label": "USB Ports",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors :,* The USB ports under the LAN port can run at USB 3.2 Gen 2 speeds with AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors.,2 x USB 3.2 Gen 2 port(s) (2 at back panel, teal blue, Type-A *),2 x USB 3.2 Gen 1 port(s) (2 at back panel, blue, Type-A),2 x USB 3.2 Gen 2 port(s) (2 at back panel, teal blue, Type-A),4 x USB 3.2 Gen 1 port(s) (4 at mid-board),AMD X570 chipset :,5 x USB 2.0 port(s) (2 at back panel, , 3 at mid-board)"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X Protection III :\n- ASUS SafeSlot Core: Fortified PCIe Slot prevents damage,- ASUS LANGuard: Protects against LAN surges, lightning strikes and static-electricity discharges!,- ASUS Overvoltage Protection: World-class circuit-protecting power design,- ASUS Stainless-Steel Back I/O: 3X corrosion-resistance for greater durability!,- ASUS DIGI+ VRM - Digital power design with Dr. MOS,- ASUS Enhanced DRAM Overcurrent Protection - Short circuit damage prevention,- ASUS ESD Guards - Enhanced ESD protection,ASUS SafeSlot - Protect your graphics card Investment,ASUS OptiMem：,- Improved DDR4 Stability,ASUS EPU :,- EPU,AURA :,- Aura RGB Strip Headers,- Aura Control,- Addressable Gen 2 Header,ASUS Exclusive Features :,- AI Suite 3,- Ai Charger,- Armoury Crate,ASUS Quiet Thermal Solution :,- Stylish Design: MOS Heat-sink with dual thermal pads design, PCH Fan and PCH Heatsink,- ASUS Fan Xpert 4,ASUS EZ DIY :,- ASUS CrashFree BIOS 3,- ASUS EZ Flash 3,- ASUS UEFI BIOS EZ Mode,ASUS Q-Design :,- ASUS Q-Slot,- ASUS Q-DIMM"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/mouse combo port(s),1 x HDMI,1 x LAN (RJ45) port(s),2 x USB 2.0,3 x Audio jack(s),2 x USB 3.2 Gen 1 (up to 5Gbps) ports Type-A,4 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 4 USB ports,2 x USB 2.0 connector(s) support(s) additional 3 USB 2.0 port(s),2 x Aura RGB Strip Headers,1 x Addressable Gen 2 header(s),1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & X4 PCIE mode),1 x M.2 Socket 3 with M Key, type 2242/2260/2280 storage devices support (SATA mode & X4 PCIE mode),1 x SPI TPM header,1 x COM port(s) connector(s),6 x SATA 6Gb/s connector(s),1 x CPU Fan connector(s) (1 x 4-pin),3 x Chassis Fan connector(s) (3 x 4-pin),1 x PCH_FAN (1 x 4-pin),1 x AIO_PUMP connector (1 x 4-pin),1 x S/PDIF out header(s),1 x 24-pin EATX Power connector(s),1 x 8-pin ATX 12V Power connector(s),1 x 4-pin ATX 12V Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x System panel(s),1 x Clear CMOS jumper(s)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "2 x SATA 6Gb/s cable(s),User´s manual,I/O Shield,2 x SATA 6Gb/s cable(s),1 x M.2 Screw Package,1 x Supporting DVD,1 x Extension cable for Addressable LED"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.2, ACPI 6.2, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F6 Qfan Control, F3 My Favorites, Last Modified log, F12 PrintScreen, F4 AURA ON/OFF, F9 Search and ASUS DRAM SPD (Serial Presence Detect) memory information"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE,WOL by PME, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/08413d73-0bc2-4ec4-9b0e-1631143c38f9/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 5000 G-Series/ 4000 G-Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors :,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :,1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 4.0 x4 and SATA modes) storage devices support,1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIE 3.0 x4 and SATA modes) storage devices support,AMD X570 chipset :,1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support,6 x SATA 6Gb/s port(s),Support Raid 0, 1, 10",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 G-Series/ 4000 G-Series/ 2000 Series Desktop Processors,AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors,AMD RyzenTM 3000 G-Series / 2000 G-Series Processors,1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x8 mode),AMD X570 chipset,1 x PCIe 4.0 x16 (max at x4 mode),3 x PCIe 4.0 x1",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/mouse combo port(s),1 x HDMI,1 x LAN (RJ45) port(s),2 x USB 2.0,3 x Audio jack(s),2 x USB 3.2 Gen 1 (up to 5Gbps) ports Type-A,4 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "internalIO": {
+        "value": "2 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 4 USB ports,2 x USB 2.0 connector(s) support(s) additional 3 USB 2.0 port(s),2 x Aura RGB Strip Headers,1 x Addressable Gen 2 header(s),1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & X4 PCIE mode),1 x M.2 Socket 3 with M Key, type 2242/2260/2280 storage devices support (SATA mode & X4 PCIE mode),1 x SPI TPM header,1 x COM port(s) connector(s),6 x SATA 6Gb/s connector(s),1 x CPU Fan connector(s) (1 x 4-pin),3 x Chassis Fan connector(s) (3 x 4-pin),1 x PCH_FAN (1 x 4-pin),1 x AIO_PUMP connector (1 x 4-pin),1 x S/PDIF out header(s),1 x 24-pin EATX Power connector(s),1 x 8-pin ATX 12V Power connector(s),1 x 4-pin ATX 12V Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x System panel(s),1 x Clear CMOS jumper(s)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "network": {
+        "value": "Realtek® RTL8111H,ASUS LAN Guard",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "audio": {
+        "value": "Realtek S1200A8-Channel High Definition Audio CODEC *,- Premium Japanese-made audio capacitors,- Supports : Front Panel Jack-retasking, up to 24-Bit/192kHz playback,- Audio Shielding,- Dedicated audio PCB layers,- Front panel audio connector (AAFP),Audio Feature :,* Choose the chassis with HD audio module in front panel to support 8-channel audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      },
+      "cpuSupport": {
+        "value": "* Refer to www.asus.com for CPU support list.,AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series/ 3000 G-Series/ 2000 Series/ 2000 G-Series Desktop Processors,* Due to CPU limitation, CPU cores supported varies by processors.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.2, ACPI 6.2, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F6 Qfan Control, F3 My Favorites, Last Modified log, F12 PrintScreen, F4 AURA ON/OFF, F9 Search and ASUS DRAM SPD (Serial Presence Detect) memory information",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x570-p/techspec/",
+        "checkedAt": "2026-11-10T13:26:24+00:00"
+      }
+    },
+    "manufacturerModel": "PRIME X570-P"
+  }
+}

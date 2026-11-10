@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-11-10T15:38:35.721Z",
+  "tasks": [
+    {
+      "url": "https://www.powercolor.com/product-detail253.htm",
+      "discoveredFor": [
+        "Radeon RX 9060 XT"
+      ]
+    }
+  ],
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error fetching URL(s): https://www.powercolor.com/product-detail253.htm: CRAWL_SSL_ERROR"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

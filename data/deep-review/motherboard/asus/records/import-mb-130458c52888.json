@@ -1,0 +1,169 @@
+{
+  "review": {
+    "id": "import-mb-130458c52888",
+    "name": "TUF B450M-PRO GAMING",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:26:56+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "sha256": "4fafc5bfb0f5b4f4ebd76b7037a7826cf4772f82171df222331c4eef22a7fb54",
+        "bytes": 326844,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "sha256": "2c5fdfd4dc7628d803590fd462c613c45c045b85c3b761c73bfba426731a0053",
+        "bytes": 303270,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF B450M-PRO GAMING",
+    "photos": [
+      "https://www.asus.com/media/global/gallery/VqD004iIEFe5qIyx_setting_xxx_0_90_end_184.png"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Special Features",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "formFactor",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "network",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF B450M-PRO GAMING",
+    "identityNote": "Modèle ASUS TUF B450M-PRO GAMING confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "formFactor": "Micro-ATX",
+      "manufacturerPartNumber": "TUF B450M-PRO GAMING",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3rd/2nd/1st Gen AMD Ryzen™/ 2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors"
+          },
+          {
+            "label": "Chipset",
+            "value": "B450"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Memory Channels:4DDR4 (Dual channel), Max Memory Size:128GB"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCIe 3.0 x16 + 1 x PCIe 2.0 x16 (max. x4)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Supports 2 x M.2 slots and 6 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 1Gb Ethernet"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "N"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB:Total 6 ports, Front USB:Total 6 ports"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "Y"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Win10 64bit/Win7 64bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "microATX"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.asus.com/media/global/gallery/VqD004iIEFe5qIyx_setting_xxx_0_90_end_184.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "formFactor": {
+        "value": "microATX",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "chipset": {
+        "value": "B450",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "storagePorts": {
+        "value": "Supports 2 x M.2 slots and 6 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCIe 3.0 x16 + 1 x PCIe 2.0 x16 (max. x4)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 1Gb Ethernet\nN",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3rd/2nd/1st Gen AMD Ryzen™/ 2nd and 1st Gen AMD Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-b450m-pro-gaming/techspec/",
+        "checkedAt": "2026-11-10T13:30:40+00:00"
+      }
+    },
+    "manufacturerModel": "TUF B450M-PRO GAMING"
+  }
+}

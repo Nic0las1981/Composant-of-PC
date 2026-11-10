@@ -1,0 +1,520 @@
+# USB Power Delivery Tester Users Guide
+URL: https://www.passmark.com/downloads/PSUTesterUsersGuide.pdf
+Author: Hamid Ketabdar
+
+## Inline PSU Tester
+
+## Users Guide
+
+Model PM123 Rev 1
+
+Document Edition: 1.4 Date: 23 January 2020 Web site: www.passmark.com
+
+#### Table of Contents
+
+Introduction ... 3 
+Warnings – Important – Please read. ... 4 
+Background ... 5 
+ATX and ATX12V standards ... 5 
+Major changes in ATX/ATX12V revisions ... 5 
+PSU Cables ... 6 
+DC Regulation range ... 8 
+Output Ripple/Noise ... 8 
+Timings ... 8 
+Ramp up ... 9 
+Power sequencing ... 10 
+Efficiency ... 10 
+Device Operation ... 11 
+Configurations ... 11 
+LCD Display ... 12 
+Keypad ... 13 
+Input and output connectors ... 14 
+Cables ... 15 
+How to Test a power supply unit ... 16 
+Monitoring Software ... 17 
+Main Window ... 17 
+Configuration Window ... 19 
+Calibration Window ... 20 
+Driver Installation ... 21 
+Windows Installation (Win7 & Win10) ... 21 
+Technical Specification ... 23 
+Software Compatibility ... 24 
+Troubleshooting ... 24 
+Some real-world faulty power supply tests ... 25 
+Antec EA-550 GREEN ... 25 
+Antec NeoECO 520C ... 26 
+Seasonic SSR-360GP Active PFC F3 ... 28 
+Seasonic SSR-650RM Active PFC F3 ... 29 
+OCZ600MXSP ... 31 
+Disclaimer ... 31 
+
+### Introduction
+
+The PSU Tester can be used to diagnose and troubleshoot your desktop power supply. With the PSU Tester, you can:
+
+• Check power supply voltages are within the approved limits. 
+• Record the minimum and maximum of voltage and current for each voltage rail. 
+• Measure the exact power drawn from each voltage rail. 
+• Measure the total power drawn from the power supply. 
+• Test for ripple on main voltage rails (1). 
+• Measure and check Power-on Time (T1), Rise Time (T2), PWR_OK delay (T3) and Power-down warning (T6) and check them against the specification. 
+• Measure the minimum slew rate on main voltage rails (1) during power up. 
+• Check that the turn-on slope of main voltage rails (1) is positive during power up (smooth power up). 
+• Check power sequencing is correct 
+
+1. Main voltage rails are +12V1DC, +12V2DC (12V CPU), +5VDC and +3.3VDC
+
+### Warnings – Important – Please read.
+
+Do not skip this step. Safety should be your primary concern during a power supply test with a PSU tester.
+
+• Remove anything conductive from your hands (e.g. metal rings, watches, or bracelets) before testing a PSU or working inside your computer. 
+• Only use the original cables that comes with the tester. The PCIe cable that comes with the tester, is not a standard cable and is custom-made for the tester. Using other cables could lead to short circuit between the voltage rails. 
+• Make sure all the cables are fully inserted. A loose connection introduces more electrical resistance which can lead to melting of the wires under high load (or even a fire). 
+• In the case of a dramatic failure of the device under test, you may see smoke coming from the power supply or inside the case or smell a burning. In this case unplug the power supply from the wall. Do not touch the PSU or the PSU Tester in such circumstances. 
+• Always have someone monitor the testing in case the device under test suddenly fails. Do not start a test and walk away. 
+• If the PSU Tester is inline (connected to both power supply and motherboard), do not power up using the keypad on the tester. Instead, use the PC power button. This is just a precaution against poor engineered power supplies that do not meet ATX standards and can prevent a short on the PS_ON line. 
+• In standalone mode the tester will dissipate 4Watts of power (in order to place a test load on the PSU). This can result in the base of the tester becoming warm to touch after a short period of time. The tester will automatically terminate testing after 1 minute to avoid overheating. 
+
+### Background
+
+A power supply unit (or PSU) converts mains AC to low-voltage regulated DC power for the internal components of a computer. The PSU normally supplies +3.3 V, +5 V, and +12 V and -12V to a PC. Older systems (before Pentium 4 and Athlon XP platforms) were designed to draw most power from 5 V and 3.3 V rails, while the newer machines draw most of their power from the 12 V rail. The −12 V supply is primarily used to provide the negative supply voltage for RS-232 ports and is also used by one pin on conventional PCI slots to provide a reference voltage for some models of sound cards.
+
+##### ATX and ATX12V standards
+
+ATX (Advanced Technology eXtended) is a motherboard and power supply configuration specification developed by Intel in 1995. The specification defines the key mechanical dimensions, mounting point, I/O panel, power and connector interfaces between a computer case, a motherboard and a power supply. There is also another specification called ATX12V which only describes the PSU.
+
+##### Major changes in ATX/ATX12V revisions
+
+| ATX Version | Introduction date | Main changes from previous version |
+| --- | --- | --- |
+| ATX | 1995 | - Created 20 pin main power cable - Included 4 pin peripheral power cable - Included floppy power cable |
+| ATX12V 1.0 | 2000 | - Added 4 pin 12V power cable. Older computers put most of their load on 3.3 and 5 volts. As time passed, computers drew more and more of their load from 12V. - Added 6 pin auxiliary power cable. It was added to provide extra wattage to motherboards for 3.3 and 5 volts. - Increased 12V output power |
+| ATX12V 1.3 | 2003 | - Added SATA power cable - Made -5V rail optional - Increased 12V output power |
+| ATX12V 2.0 | 2003 | - Changed to 24 pin main power cable. The 24-pin main power connector was added in ATX12V 2.0 to provide extra power needed by PCI Express slots. The older 20 pin main power cable only has one 12V line. - Removed 6 pin auxiliary power cable - Added 20A current limit to rails - Increased 12V output power - Reduced 3.3V and 5V output power |
+
+Table 1
+
+As of now, the latest version is ATX12V v2.4, published in April 2013.
+
+##### PSU Cables
+
+Typically, power supplies have the following connectors: - Motherboard power cable: This is the cable that goes to the motherboard to provide it with power. The connector has either 20 or 24 pins. The older 20 pin main power cable only has one 12V line. The new 24 pin connector added one line apiece for ground, 3.3, 5, and 12V. Many power supplies come with a 20+4 pin cable which is compatible with both 20 and 24 pin motherboards.
+
+Figure 1: 24-pin connector
+
+| Color | Signal | Pin | Pin | Signal | Color |
+| --- | --- | --- | --- | --- | --- |
+| | | | | +3.3 V | Orange |
+| Orange | +3.3 V | 1 | 13 | | |
+| | | | | +3.3 V | sense Brown |
+| Orange | +3.3 V | 2 | 14 | −12 V | Blue |
+| Black | Ground | 3 | 15 | Ground | Black |
+| Red | +5 V | 4 | 16 | Power on | Green |
+| Black | Ground | 5 | 17 | Ground | Black |
+| Red | +5 V | 6 | 18 | Ground | Black |
+| Black | Ground | 7 | 19 | Ground | Black |
+| Grey | Power good | 8 | 20 | Reserved | None |
+| Purple | +5 V standby | 9 | 21 | +5 V | Red |
+| Yellow | +12 V | 10 | 22 | +5 V | Red |
+| Yellow | +12 V | 11 | 23 | +5 V | Red |
+| Orange | +3.3 V | 12 | 24 | Ground | Black |
+
+Table 2: 24-pin motherboard power connector pinout - CPU power cable: This is the cable that goes to the motherboard to provide power to CPU. The connector has either 4 or 8 pins. The older 4 pin CPU power cable only has two 12V line. The new 4+4 pin connector added two more 12V lines. Many power supplies come with a 4+4 cable which is compatible with both 4 and 8 pin motherboards.
+
+Figure 2: 8-pin CPU power connector
+
+| Color | Signal | Pin | Pin | Signal | Color |
+| --- | --- | --- | --- | --- | --- |
+| Black | Ground | 1 | 5 | +12 V | Yellow |
+| Black | Ground | 2 | 6 | +12 V | Yellow |
+| Black | Ground | 3 | 7 | +12 V | Yellow |
+| Black | Ground | 4 | 8 | +12 V | Yellow |
+| - PCI Express power cable: This is the cable that goes to the PCI Express cards (e.g. graphic cards). Some graphic cards have 6 pin PCI Express power connectors and others have 8 pin connectors. Many power supplies come with a 6+2 PCI Express power cable which is compatible with both kinds of graphic cards. The 6+2 PCI Express power cable is made up of two 6-pin piece, and a 2-pin piece. | Table 3: 8-pin CPU power connector pinout Figure 3: 8-pin PCI Express connector | | | | pieces: a |
+| Color | Signal | Pin | Pin | Signal | Color |
+| Yellow | +12 V | 1 | 5 | Ground | Black |
+| Yellow | +12 V | 2 | 6 | Ground | Black |
+| Yellow | +12 V | 3 | 7 | Ground | Black |
+| Black | Ground | 4 | 8 | Ground | Black |
+
+Table 4: 8-pin PCI Express connector pinout - SATA power cable: This is the cable that goes to the hard drives.
+
+Figure 4: 15-pin SATA connector
+
+| Pin | 1 2 | 3 4 5 | 6 7 8 | 9 10 11 | 12 13 14 15 |
+| --- | --- | --- | --- | --- | --- |
+| Signal | +3.3 V | Ground | +5 V | Ground | +12 V |
+
+Table 5: 15-pin SATA connector pinout
+
+##### DC Regulation range
+
+The DC output voltages shall remain within the regulation ranges shown in Table 1.
+
+| PSU Output | line Range | Min. | Nom. | Max. | Unit |
+| --- | --- | --- | --- | --- | --- |
+| +12V1DC | ±5% | +11.40 | +12.00 | +12.60 | Volts |
+| +12V2DC (12V CPU) | ±5% | +11.40 | +12.00 | +12.60 | Volts |
+| +5V | ±5% | +4.75 | +5.00 | +5.25 | Volts |
+| +3.3VDC | ±5% | +3.14 | +3.30 | +3.47 | Volts |
+| -12VDC | ±10% | -10.80 | -12.00 | -13.20 | Volts |
+| +5VSB | ±5% | +4.75 | +5.00 | +5.25 | Volts |
+
+Table 6
+
+##### Output Ripple/Noise
+
+The output ripple/noise requirements listed in Table 2.
+
+| Output | Max. Ripple & Noise (mVpp) |
+| --- | --- |
+| +12V1DC | 120 |
+| +12V2DC (12V CPU) | 120 |
+| +5VDC | 50 |
+| +3.3VDC | 50 |
+| -12VDC | 120 |
+| +5VSB | 50 |
+
+Table 7
+
+mVpp = Millivolts peak to peak
+
+##### Timings
+
+Below you can see the timing diagram for the power good signal as available on the ATX12V specification. “VAC” is the input alternating voltage, i.e., the voltage from the wall. PS_ON# is the “power on” signal (i.e., you pushed the “standby” button from the computer case). “O/P’s” stand for “operating points.” And PWR_OK is the power good signal.
+
+Figure 5
+
+Power-on Time (T1): The power-on time is defined as the time from when PS_ON# is pulled low to when the +12VDC, +5VDC, and +3.3VDC outputs are within the regulation ranges. The power-on time shall be less than 500 ms (T1 < 500 ms).
+
+Rise Time (T2): The output voltages shall rise from ≤10% of nominal to within the regulation ranges within 0.1 ms to 20 ms (0.1 ms ≤ T2 ≤ 20 ms).
+
+PWR_OK delay (T3): PWR_OK is a “power good” signal. It should be asserted high by the power supply to indicate that the +12VDC, +5VDC, and +3.3VDC outputs are above the under-voltage thresholds. The PWR_OK time shall be asserted high within 300ms to 500ms after outputs are above the under-voltage thresholds (300 ms < T3 < 500 ms).
+
+Power-down warning (T6): During power-down, the PWR_OK signal should be asserted low at least 1ms before the +12VDC, +5VDC, and +3.3VDC outputs reach their under-voltage thresholds (T6 ≥ 1ms).
+
+##### Ramp up
+
+There must be a smooth and continuous ramp of each DC output voltage from 10% to 90% of its final set-point within the regulation band. The smooth turn-on requires that, during the 10% to 90% portion of the rise time, the slope of the turn-on waveform must be positive. The tester monitors the slope and report it as “Positive Slope”. Also, for any 5ms segment of the 10% to 90% risetime waveform, a straight line drawn between the end points of the waveform segment must have a slope ≥ [Vout, nominal / 20] V/ms. The tester measures the minimum slope across all 5ms segments during power-up and displays it as “T2 Min Slew Rate”.
+
+| Output | T2 Min Slew Rate (V/ms) |
+| --- | --- |
+| +12V1 | 0.6 |
+| +5V | 0.25 |
+| +3.3V | 0.165 |
+| +12V2 (12V CPU) | 0.6 |
+
+Table 8
+
+##### Power sequencing
+
+The +12 VDC and +5 VDC output levels must always be equal to or greater than the +3.3 output during power-up and normal operation. The time between the +12VDC or +5VDC output reaching its minimum in-regulation level and +3.3VDC reaching its minimum in-regulation level must be ≤ 20 ms. The PSU Tester checks the timing sequencing and report it as “T SEQ”.
+
+##### Efficiency
+
+80 Plus (trademarked 80 PLUS) is a voluntary certification program intended to promote efficient energy use in computer power supply units (PSUs). It certifies products that have more than 80% energy efficiency at 20%, 50% and 100% of rated load, and a power factor of 0.9 or greater at 100% load. Such PSUs waste 20% or less electric energy as heat at the specified load levels, reducing electricity use and bills compared to less efficient PSUs.
+
+| 80 Plus test type | [4] | 115 V internal non redundant | | | 230 V internal redundant | | | | | 230 V EU internal non redundant | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Percentage of rated load | 10% | 20% | 50% | 100% | 10% | 20% | 50% | 100% | 10% | 20% | 50% | 100% |
+| 80 Plus | | 80% | 80% | 80% | | | | | | 82% | 85% | 82% |
+| 80 Plus Bronze | | 82% | 85% | 82% | | 81% | 85% | 81% | | 85% | 88% | 85% |
+| 80 Plus Silver | | 85% | 88% | 85% | | 85% | 89% | 85% | | 87% | 90% | 87% |
+| 80 Plus Gold | | 87% | 90% | 87% | | 88% | 92% | 88% | | 90% | 92% | 89% |
+| 80 Plus Platinum | | 90% | 92% | 89% | | 90% | 94% | 91% | | 92% | 94% | 90% |
+| 80 Plus Titanium | 90% | 92% | 94% | 90% | 90% | 94% | 96% | 91% | 90% | 94% | 96% | 94% |
+
+Table 9: Efficiency level certifications
+
+### Device Operation
+
+A failing power supply can often be at the root of problems you might not expect, like random lockups, spontaneous reboots, and even some serious error messages. The PassMark PSU Tester is designed to quickly test a PC power supply.
+
+##### Configurations
+
+The tester can be used in two different configurations. Standalone and Inline configurations are explained below.
+
+Standalone 
+In this configuration, the PSU Tester is only connected to a PSU (i.e. it is not 
+connected to a motherboard). This configuration is recommended for the production 
+line testing or when the PC doesn’t boot. 
+
+Figure 6
+
+Inline 
+The PSU Tester is connected to a power supply and a motherboard. The inline mode 
+is more likely to reveal the root cause of more complicated issues such as random 
+lockups, spontaneous reboots and peripheral failure. Using Inline mode will also 
+result in the PSU being placed under much higher load. In addition to voltage and 
+timing measurement, the current drawn from each voltage rail is also measured in this 
+configuration. 
+
+Figure 7
+
+The PSU Tester can be connected to a computer via a USB port. Using the monitoring software, you can see all the voltages, currents and timings in one window and you
+
+Inline PSU Tester – User’s Guide Page 12 can control the tester from the software. Moreover, the software allows you to save all the measurements in a .txt file.
+
+Figure 8
+
+##### LCD Display
+
+The PassMark PSU Tester features a built-in 1.8” TFT LCD display to show voltage, current, ripple and power for each voltage rail. The default screen when a device is connected to a PSU is shown below.
+
+Figure 9
+
+Total Power: Total power drawn by the tester or motherboard. 
+Voltages: Shows “PASS” when all voltages within the regulation ranges. 
+Timings: Shows “PASS” when all timings are met. “N/A” means some of the timings 
+are not yet measured. Timings are calculated during power-up and power-down 
+process, so if it shows “N/A”, that means one or two power cycles are required to 
+calculate the timings. 
+The background colour of PASS/FAIL messages can be green, red, light red and 
+yellow. Each colour has a different meaning which are explained below: 
+PASS means voltage is currently within the approved limits and never been outside 
+the specifications. 
+PASS means voltage is currently within the approved limits, but an over-voltage was 
+detected previously. 
+
+PASS means voltage is currently within the approved limits, but an under-voltage was 
+detected previously. 
+FAIL means voltage is outside the approved limits. 
+
+##### Keypad
+
+The Tester has a membrane keypad with four keys.
+
+Power On/Off button: This button forces a power-up by asserting the PS_ON pin to logic low (PS_ON is active low). Please note that this button shouldn’t be used when the PSU Tester is inline configuration. Instead, the PC should be turned on/off using the “standby” button from the computer case.
+
+Up (Page Up) and Down (Page Down) buttons: These two buttons are used to navigate between different pages. The pages are listed below:
+
+• Default Page: Displays the total power as well as the voltages and currents status. 
+• Voltage 24-Pin: This page displays the voltage for each rail on the 24-Pin connector (i.e. +12V1DC, +5VDC, +3.3VDC, +5 VDCSB and -12VDC). 
+• Voltage CPU and PCIe: This page displays the +12V2DC (+12V CPU) voltage on the 8-Pin CPU and the +12V PCIe on the 6-Pin PCIe connectors. 
+• Voltage SATA: This page shows the voltage for each rail on the 15-Pin SATA connector (i.e. +12VDC, +5VDC, +3.3VDC). Please note that the tester doesn’t measure the actual voltages on the SATA connector, instead it displays the voltage on +12V1DC, +5VDC, +3.3VDC as these rails are almost always connected to SATA voltage rails. 
+• Ripple 24-Pin: This page displays the ripple in millivolts on +12V1DC, +5VDC, +3.3VDC and +12V2DC (+12V CPU). 
+• Timings (T1, T2, T3 and T6): This page shows the timings for +12V1DC, +5VDC, +3.3VDC and +12V2DC (+12V CPU). 
+• T2 Min Slew Rate: This page displays the minimum slew rates across all 5 ms segments during power-up for +12V1DC, +5 VDC, +3.3VDC and 12V2DC (+12V CPU). 
+• Turn-on slope: If there was a negative slope during power-up on +12V1DC, +5VDC, +3.3VDC and +12V2DC (+12V CPU) rails, this page will show a Fail. 
+• Power Sequencing: The +12VDC and +5VDC output levels must always be equal to or greater than the +3.3VDC output during power-up and normal operation. If this criterion fails, the ‘V’ column shows a red circle. Also, the time between the +12 VDC or +5VDC output reaching its minimum in regulation level and +3.3VDC reaching its minimum in-regulation level must be ≤ 20 ms. If this criterion fails, the ‘T’ column shows a red circle. 
+
+Mode: This button allows to change the mode of details on each page. Pressing this button on a page, allows you to see more details. Using this button, you can change the mode from Voltage to Current or Power while in a Voltage page or you can see the timing values while in Timing page.
+
+Page Mode 1 Mode 2 Mode 3 Mode 4
+
+Table 10
+
+##### Input and output connectors
+
+The tester has four inputs and four outputs terminals. The input terminals marked with “In” suffix should be connected to PSU. The output terminals which are only used in inline configuration are marked with “Out” suffix and should be connected to motherboard. The “SATA In” input is a bit tricky as the orientation of the SATA cable is important. Make sure the pins inside the SATA connector make electrical contact with the pads on the PCB, otherwise the hard drive won’t work.
+
+Figure 10
+
+##### Cables
+
+Each tester comes with 5 cables: - A USB 2.0 A to B cable for connecting the tester to PC.
+
+Figure 11
+
+- A 24Pin female to 20+4Pin male for connecting the “24-Pin Out” terminal to motherboard.
+
+Figure 12
+
+- An EPS 8Pin female to 4+4Pin for connecting the “CPU Out” terminal to motherboard.
+
+Figure 13
+
+- An EPS 8Pin female to 6+2Pin Male for connecting the “PCIe Out” terminal to motherboard.
+
+Figure 14
+
+- A 5Pin to dual SATA 15Pin female for connecting the “SATA Out” terminal to external hard drives.
+
+Figure 15
+
+##### How to Test a power supply unit
+
+Standalone mode 1. For your safety, first turn off the power supply by setting the I/O switch on the back panel to the “O” stand. 2. Disconnect all peripherals and devices from the power supply. 3. Connect the 24-pin, 8-pin connector and 6-pin cables of the PSU to the corresponding ‘In’ terminals of the PSU Tester. Note that some power supplies have 8-pin (6+2Pin detachable) PCIe cable. In this case detach the extra 2 pins and connect the 6-pin side. 4. Plug the AC power cord into the main. 5. Turn on the power supply by setting the I/O switch on the back panel to the “I” stand. 6. Press and hold the power button on the PSU tester for 3 seconds until the display shows “Power ON”. 7. Using the Up/Down buttons you can navigate between pages to check the voltages and timings. By pressing the mode button, you can switch between voltage, current and power modes or you can see the timing values. 8. If the monitoring port is connected, you can run the monitoring software and check the PSU parameters from the software as well.
+
+Inline Mode 1. First turn off the power supply by setting the I/O switch on the back panel to the “O” stand. 2. Disconnect all peripherals and devices from the power supply and connect the 24-pin, 8-pin connector and 6-pin cables of the PSU to the corresponding ‘In’ terminals of the PSU Tester. Note that some power supplies have 8-pin (6+2Pin detachable) PCIe cable. In this case detach the extra 2 pins and connect the 6-pin side. 3. Now use the PSU Tester cables to connect “Out” terminals to the motherboard and PC peripherals (e.g. hard drive and graphic card). 4. Plug the AC power cord into the main 5. Turn on the power supply by setting the I/O switch on the back panel to the “I” stand. 6. Turn on the machine using the “standby” button from the computer case. 7. Using the Up/Down buttons you can navigate between pages to check the voltages and timings. By pressing the mode button, you can switch between voltage, current and power modes or you can see the timing values. 8. If the monitoring port is connected, you can run the monitoring software and check the PSU parameters from the software as well. 9. You can run BurnInTest during inline testing to ramp up power usage by the motherboard and place more load on PSU.
+
+### Monitoring Software
+
+The main PSUTest application window is divided into 4 sections: Select COM Port, PSU Statistics, Overall Status, and control buttons.
+
+##### Main Window
+
+Figure 16
+
+The main screen contains the following features and options:
+
+Device 
+COM Port: The PSU Tester appears as a Virtual COM port when connected to PC. 
+You can determine the Virtual COM Port by opening the Device Manager and 
+looking for USB Serial Device (COM #) or STMicroelectronics Virtual COM Port 
+(COM #). 
+PSU Statistics 
+This section displays voltage, current, power, ripple and timing for each voltage rail. 
+A green background for a field means the value is within the acceptable range and a 
+red background means the value is outside the valid range. A grey background 
+indicates that the measurement is not yet completed, and one or two power cycles are 
+required for the value to be calculated. 'N/A' means that the measurement is not 
+available. 
+Overall Status 
+This section shows Power Status, Total Power and the status of Voltages and 
+Currents. 
+Control Buttons 
+Power ON/OFF: This button forces a PSU to power up/down. Do not use this button 
+when the tester is in inline configuration. Instead, use the “standby” button from the 
+computer case. 
+
+Clear Log: The monitoring software records all voltages in the system memory at intervals set in the configuration window. This button can be used to erase all the previous records.
+
+Save Log: Using this button, you can save the log into comma-separated values format (CSV) file.
+
+Reset Min/Max: This button resets the minimum and maximum values for voltages and currents.
+
+Save Report: Using this button, you can save all the PSU statistics in a .txt file.
+
+##### Configuration Window
+
+The following options appear in the configuration window: 
+Connected Cables: This allows you to specify which cables are connected so that the 
+unavailable voltages will be excluded from the PASS/FAIL criteria. 
+Compliance Mode: This option allows the user to select the compliance mode. In the 
+“Strict” mode, all voltages and timings are checked against the specification and any 
+out of range value will result in a FAIL message. In the “Loose” mode the criterial for 
+PASS will be loosened to allow an easier PASS when important values are within the 
+range. Table below summarizes the differences between the “Strict” and “Loose” 
+modes. 
+
+| | Strict | Loose |
+| --- | --- | --- |
+| DC Regulation range for 12V1, 12V2, 5V and 3.3V rails | 10% | 10% |
+| DC Regulation range for -12V rail | 10% | 15% |
+| T2 Min Slew Rate | According to the specification | Not Checked |
+| Power Sequencing | According to the specification | Only when 12V and 5V are above 500mV |
+
+Table 11
+
+Buzzer Mode: This option allows the user to specify the conditions at which the buzzer should alarm the user. Table below summarizes the different modes.
+
+| Mode | Description |
+| --- | --- |
+| Fatal Errors | Buzzer makes sound when voltages are outside specification or PWR_OK signal is not asserted by the PSU. |
+| Compliance | Buzzer makes sound when any of voltages or timings are outside their approved limits. |
+| Off | Buzzer is always off. |
+
+Table 12
+
+Log Intervals: This allows to specify the time intervals for samples in the log file.
+
+Figure 17
+
+##### Calibration Window
+
+The unit should provide accurate measurements out of the box, with its default calibration. Typical default accuracy is around 1% for voltage readings, 4% for small currents and 2% for larger current measurements. So, for most uses, further calibration is not required.
+
+However, for experienced users with suitable 3 rd party equipment, calibration can be performed to improve the voltage & current measurement accuracy.
+
+To calibrate, two known voltages/loads should be applied for each rail. The applied voltage/load should be measured by a high-end multimeter and is called “Applied Value”. The PSU Tester also software records its own measurement, known as the “Measured Value” and finds the gain and offset required to map this value to the expected value. It is recommended to turn off the buzzer from the configuration window as some of the sample points are outside the ATX specification and will cause the buzzer to stay on during calibration.
+
+Figure 18
+
+Voltage measurement calibration: - Open the calibration window. - From the dropdown list, select the voltage rail that should be calibrated. - Click “Reset calibration data” to erase all previous calibration data. - Apply an external voltage equal or close to Point 1. If you can’t apply the exact voltage, activate the “Allow user to specify the sample points” option, which allows you to specify the exact applied voltage. - Click “Read” button for the Point 1. - Apply an external voltage equal or close to Point 2. Again, if you can’t apply the exact voltage, activate the “Allow user to specify the sample points” option, which allows you to specify the exact applied voltage. - Click “Read” button for the Point 2. - Click “Calibrate”.
+
+Current measurement calibration: - Open the calibration window. - From the dropdown list, select the current that should be calibrated. - Connect the input voltage for the selected current to a low noise external power source. This can be a high-end PSU as well. Click “Turn On (No Load)” to power up the PSU and deactivate the internal passive loads. This step is required even if an external source is used. - Click “Reset calibration data” to erase all previous calibration data. - Apply an external load equal or close to Point 1. If you can’t apply the exact load, activate the “Allow user to specify the sample points” option, which allows you to specify the exact applied load. - Click “Read” button for the Point 1. - Apply an external load equal or close to Point 2. Again, if you can’t apply the exact load, activate the “Allow user to specify the sample points” option, which allows you to specify the exact applied load. - Click “Read” button for the Point 2. - Click Calibrate.
+
+### Driver Installation
+
+Starting from Windows 10, the STSW-STM32102 driver is no more adequate and the usage of the native inbox driver (Microsoft driver) is recommended. For other operating systems please follow the below procedure.
+
+##### Windows Installation (Win7 & Win10)
+
+Step1 – connect the device 
+With the computer turned on and running, connect the PSU Tester to the USB port on 
+the computer to be tested. The device LCD should turn on and display the default 
+screen. 
+
+Step 2 – Install the device driver Download the latest driver from the following address and extract the package. https://www.passmark.com/products/psu-tester/download.php
+
+The STSW-STM32102 software package contains four installation files based on the various versions of the Microsoft® operating system. Run the setup file according to
+
+the version of your operating system. E.g. run 
+‘CP_V1.5.0_Setup_W7_x64_64bits.exe’ if you have a 64-bit version of Windows 7 
+installed on your computer. 
+
+### Technical Specification
+
+| CPU | ARM Cortex M4 |
+| --- | --- |
+| Memory | 32KB RAM, 128K Flash |
+| User Interface | 1.8” TFT LCD 128X64 Pixels + Membrane Keypad |
+| Standards | ATX12V |
+| Connectors | 24-Pin In, 8-Pin CPU In, 6-Pin PCIe In, SATA In, 24-Pin Out, 8-Pin CPU Out, 6- Pin PCIe Out, SATA Out |
+| Internal load | Internal load (1Watt) on +12V1DC, +12V2DC, +5VDC and +3.3VDC voltage rails. Active only when the PSU tester is in standalone mode (Disable in Inline mode). |
+
+Measurement Voltages: +12V1DC, +12V2DC (12V CPU), +5VDC, +3.3VDC, +5VSB, -12VDC, +12VDC PCIe
+
+Currents: 
++12V1DC, +12V2DC (12V CPU), 
++5VDC, +3.3VDC, +5VSB, +12VDC 
+PCIe, +12VDC SATA, +5VDC SATA. 
++3.3VDC SATA 
+Ripple: 
++12V1DC, +12V2DC (12V CPU), 
++5VDC, +3.3VDC 
+Timings: 
+Power-on Time (T1), Rise Time (T2), 
+PWR_OK delay (T3) and Power-down 
+warning (T6) 
+
+Minimum slew rate and Ramp up: Check smooth and continuous ramp up of +12V1DC, +12V2DC (12V CPU), +5VDC, +3.3VDC.
+
+Power Sequencing: Check +12VDC and +5VDC against +3.3VDC during power up to ensure they are equal to or greater than the +3.3VDC.
+
+| Voltage Measurenment Range | +12V: 0 to +14.7V, Resolution: 3.5mV +5V: 0 to +6.6V, Resolution: 1.6mV +3.3V: 0 to +4.5V, Resolution: 1.1mV -12V: -15V to +3.3V, Resolution: 4.4mV |
+| --- | --- |
+| Maximum inline current | +12V1DC: 25A +12V2DC (12V CPU): 50A +5VDC: 30A |
+
+| | +3.3VDC: 30A +5VSB: 8A +12VDC PCIe: 30A +12VDC SATA: 5.5A +5VDC SATA: 5.5A +3.3VDC SATA: 5.5A |
+| --- | --- |
+| Operational Voltage | 5V via USB port or the +5V on the 24-Pin connector |
+| Operational Current | 200mA |
+| Measurement Error (A) | ±4% before calibration, 1.5% after calibration (Note 1) |
+| Measurement Error (V) | ±1% before calibration, 0.25% after calibration (Note 1) |
+| Case | High impact ABS plastic |
+| Size | 225mm x 85mm x 30mm (8.8 x 3.3 x 1.2 inches) |
+| Weight | 240g (8.4 oz) |
+| Safety Protections | Over voltage protection +12V: protected up to 22V +5V: protected up to 10V +3.3V: protected up to 6.5V |
+| Storage Temperature | -30 ºC to + 80 ºC |
+| Usage Temperature | 0 ºC to + 40 ºC |
+| Part number | PM123 |
+| RoHS (Lead free) | Yes |
+
+Table 13 1. Calibration service is available upon request for an additional fee. Calibration can also be done by the user if they have a high-end multimeter and a programmable load tester. The PSU Tester firmware is software upgradeable in the field. The specifications above are for the PassMark Inline PSU Tester hardware revision 001.
+
+### Software Compatibility
+
+Window 7, 8, 10 are supported. 
+Windows: PSUTest software is required for Windows. Both 32bit and 64bit Windows 
+drivers are available. 
+
+### Troubleshooting
+
+Symptom: No display after connecting the USB cable 
+The tester takes its power from the Analysis port. There is most likely a fault with the 
+cable or computer. 
+
+Symptom: Power, but no Found New Hardware window The basic USB device enumeration process could not be completed. This could be a fault in the Windows O/S installation or with the USB hardware in the computer.
+
+### Some real-world faulty power supply tests
+
+##### Antec EA-550 GREEN
+
+This is a 550 Watt 80 Plus Bronze Certified power supply.
+
+Claimed power specifications:
+
+| Rail | | +3.3V | +5V | +12V1 | +12V2 | -12V | +5VSB |
+| --- | --- | --- | --- | --- | --- | --- | ---

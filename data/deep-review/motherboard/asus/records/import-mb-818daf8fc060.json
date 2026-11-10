@@ -1,0 +1,50 @@
+{
+  "review": {
+    "id": "import-mb-818daf8fc060",
+    "name": "ROG STRIX Z690-A GAMING WIFI D4",
+    "state": "unavailable",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4-model/spec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4-model/spec/",
+        "sha256": "16395b3549dfb07399f2890b76e0ea6078c67c6ddaf60997af94549fb9f46059",
+        "bytes": 175429,
+        "status": "fetched"
+      },
+      {
+        "url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4-model/spec/",
+        "checkedAt": "2026-11-10T14:00:36+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4-model/spec/",
+        "sha256": "a0bb44686fe94b22168e5a02daa9e23c9f352723894638e2c8ea55df9b53af9c",
+        "bytes": 175438,
+        "status": "fetched"
+      },
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4/spec/",
+        "checkedAt": "2026-11-10T14:00:36+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4/spec/",
+        "checkedAt": "2026-11-10T14:00:38+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://rog.asus.com/us/us/motherboards/rog-strix/rog-strix-z690-a-gaming-wifi-d4-model/spec/",
+        "checkedAt": "2026-11-10T14:00:39+00:00",
+        "status": "unavailable",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

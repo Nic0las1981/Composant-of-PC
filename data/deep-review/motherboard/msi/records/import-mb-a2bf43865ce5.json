@@ -1,0 +1,373 @@
+{
+  "review": {
+    "id": "import-mb-a2bf43865ce5",
+    "name": "PRO B550-P GEN3",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Audio ports (Rear)",
+      "DVI-D",
+      "VGA",
+      "HDMI",
+      "CrossFire",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slot",
+      "Multi-GPU",
+      "Onboard Graphics",
+      "SATA Ports",
+      "M.2 SSD Slots",
+      "Audio",
+      "LAN",
+      "Power Connectors",
+      "Internal USB \nConnectors",
+      "Fan Connectors",
+      "System Connectors",
+      "Jumpers",
+      "LED Features",
+      "Back Panel \nConnectors",
+      "I/O Controller",
+      "Hardware Monitor",
+      "BIOS Features",
+      "Software",
+      "Internal IO",
+      "Storage"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_16481932767ffc54a8ed729e6aec235ccb3529063e.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "PRO B550-P GEN3",
+    "identityNote": "Modèle MSI PRO B550-P GEN3 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "heightMm": 305,
+      "widthMm": 244,
+      "manufacturerPartNumber": "PRO B550-P GEN3",
+      "description": "Carte mère MSI PRO B550-P GEN3. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "Format ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B550 Chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "2"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "4"
+          },
+          {
+            "label": "SATAIII",
+            "value": "6"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "1"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1 and RAID 10 for SATA storage \ndevices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "2(Gen 2, Type A), 2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC897 Codec"
+          },
+          {
+            "label": "DVI-D",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "CrossFire",
+            "value": "Y"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4x DDR4 memory slots, supporting up to 128GB* 1\n\n Supports 1866/ 2133/ 2400/ 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz (by JEDEC)\n\n Supports DDR4 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466/ 3600/ 3733/ 3866/ 4000/ 4133/ 4266/ 4400+ MHz by A-XMP OC MODE\n 1DPC 1R max speed 4400 MHz\n\n 1DPC 2R max speed 3733 MHZ\n\n 2DPC 1R max speed 3866 MHZ\n\n 2DPC 2R max speed 3466 MHZ\n\n Dual channel memory architecture\n\n Supports non-ECC UDIMM memory\n\n Supports ECC UDIMM memory (non-ECC mode)\n\n Supports un-buffered memory\n\nPlease refer www.msi.com for more information on compatible memory.\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "2x PCIe x16 slots\n PCI_E1 slot (From CPU)\n \n Supports PCIe 3.0 x16\n\n PCI_E41 (From B550 chipset)\n Supports PCIe 3.0 x4\n\n \n 4x PCIe x1 slots\n PCI_E2, E3, E5 and E6 slots (From B550 chipset)\n \n PCI_E4 will run x1 speed when installing devices in PCI_E2/ PCI_E3/ PCI_E5 slot."
+          },
+          {
+            "label": "Multi-GPU",
+            "value": "Supports AMD CrossFire™ Technology"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x VGA port, supports maximum resolution of 2048x1536\n@50Hz1\n\n 1x DVI-D port, support a maximum resolution of \n1920x1200 @60Hz 1\n\n 1x HDMI™ 2.0b port, supports a maximum resolution of \n4096x2160 @30Hz, 2560x1600 @60Hz1 2\n\n\n Maximum shared memory of 16 GB\n\nAvailable only on processors featuring integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "SATA Ports",
+            "value": "6x SATA 6Gb/s ports (From B550 chipset)1"
+          },
+          {
+            "label": "M.2 SSD Slots",
+            "value": "1x M.2 slot (Key M)\n \n M2_1 slot (From CPU)\n Supports PCIe 3.0 x4\n\n Supports SATA 6Gb/s\n\n Supports 2260/ 2280/ 22110 storage devices"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec\n\n7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® 8111H Gigabit LAN controller"
+          },
+          {
+            "label": "Power Connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector"
+          },
+          {
+            "label": "Internal USB \nConnectors",
+            "value": "1x USB 3.2 Gen 1 5Gbps connector (From B550 chipset)\n Supports additional 2 USB 3.2 Gen 1 5Gbps ports\n\n2x USB 2.0 connectors (From B550 chipset)\n \n Supports additional 4 USB 2.0 ports"
+          },
+          {
+            "label": "Fan Connectors",
+            "value": "1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n4x 4-pin system fan connectors"
+          },
+          {
+            "label": "System Connectors",
+            "value": "1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x TPM module connector\n\n1x Serial port connector\n\n1x Parallel port connector"
+          },
+          {
+            "label": "Jumpers",
+            "value": "1x Clear CMOS jumper"
+          },
+          {
+            "label": "LED Features",
+            "value": "2x 4-pin RGB LED connectors\n\n 4x EZ Debug LED"
+          },
+          {
+            "label": "Back Panel \nConnectors",
+            "value": "Keyboard / Mouse\n\nVGA\n\nUSB 3.2 Gen 1 5Gbps Type-A\n\nLAN port\n\nAudio connector\n\nFlash BIOS Button\n\nUSB 2.0\n\nDVI-D\n\nHDMI™\n\nUSB 3.2 Gen 2 10Gbps Type-A"
+          },
+          {
+            "label": "I/O Controller",
+            "value": "NUVOTON NCT6797 Controller Chip"
+          },
+          {
+            "label": "Hardware Monitor",
+            "value": "CPU/ System/ Chipset temperature detection\n\n CPU/ System/ Pump fan speed detection\n\n CPU/ System/ Pump fan speed control"
+          },
+          {
+            "label": "BIOS Features",
+            "value": "1x 256 Mb flash\n\nUEFI AMI BIOS\n\nACPI 6.1, SMBIOS 2.8\n\nMulti-language"
+          },
+          {
+            "label": "Software",
+            "value": "MSI Center\n\n CPU-Z MSI GAMING\n\n Google Chrome™, Google Toolbar, Google Drive\n\n Norton™ Internet Security Solution"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Power Connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\nFan Connectors: 1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n4x 4-pin system fan connectors\nSystem Connectors: 1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x TPM module connector\n\n1x Serial port connector\n\n1x Parallel port connector\nJumpers: 1x Clear CMOS jumper"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "SATA Ports: 6x SATA 6Gb/s ports (From B550 chipset)1"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_16481932767ffc54a8ed729e6aec235ccb3529063e.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n\n 12 in. x 9.6 in. (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B550 Chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "storagePorts": {
+        "value": "SATA Ports: 6x SATA 6Gb/s ports (From B550 chipset)1",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "pcie": {
+        "value": "2x PCIe x16 slots\n PCI_E1 slot (From CPU)\n \n Supports PCIe 3.0 x16\n\n PCI_E41 (From B550 chipset)\n Supports PCIe 3.0 x4\n\n \n 4x PCIe x1 slots\n PCI_E2, E3, E5 and E6 slots (From B550 chipset)\n \n PCI_E4 will run x1 speed when installing devices in PCI_E2/ PCI_E3/ PCI_E5 slot.",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "internalIO": {
+        "value": "Power Connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\nFan Connectors: 1x 4-pin CPU fan connector\n\n1x 4-pin water-pump fan connector\n\n4x 4-pin system fan connectors\nSystem Connectors: 1x Front panel audio connector\n\n2x System panel connectors\n\n1x Chassis Intrusion connector\n\n1x TPM module connector\n\n1x Serial port connector\n\n1x Parallel port connector\nJumpers: 1x Clear CMOS jumper",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® 8111H Gigabit LAN controller",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec\n\n7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD Ryzen™ 5000 & 3000 Series desktop processors (not compatible with AMD Ryzen™ 5 3400G & Ryzen™ 3 3200G) and AMD Ryzen™ 4000 G-Series desktop processors\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3/Specification",
+        "checkedAt": "2026-11-10T11:00:31+00:00"
+      }
+    }
+  }
+}

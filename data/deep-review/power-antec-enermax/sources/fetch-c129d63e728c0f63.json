@@ -1,0 +1,15 @@
+{
+  "key": "fetch-c129d63e728c0f63",
+  "url": "https://www.antec.com/documents/product/power-Antec%20PSU_GPU%20PCIE_EN_210929.pdf",
+  "checkedAt": "2026-11-10T14:53:31.193941+00:00",
+  "statusCode": 200,
+  "resolvedURL": "https://www.antec.com/documents/product/power-Antec%20PSU_GPU%20PCIE_EN_210929.pdf",
+  "sha256": "3452786e9b1e036416b68b9ac2445c93fc451ba876f7bcfd4203a1aeb058b8b0",
+  "primaryText": "\f",
+  "primaryRawText": "\f",
+  "format": "pdf",
+  "discoveredFrom": "https://www.antec.com/documents/product/power-Antec PSU_GPU PCIE_EN_210929.pdf",
+  "ocrText": "e The PCI-E header provides power to the GPU. A single cable usually contains 2 x 6 + 2pin headers. (See figure @)\n\n© Recently, the power consumption of high-end GPUs increases. Therefore, we highly recommend:\n\nif the model of GPU requires 200W or above, we suggest you use 2 or 3 6+2pin headers to power on your GPU\n\n(See recommended figure Q)\n\n——\n\n—2—\n\n2\n\nzal\n\ne)\n\naS\n\nzal\n\nce)\n\ni f\n\nth}\n\n(a\n\nie\n\nital\n\naan\n\nes\n\nmar\n\nAttention:\n\n¢ If the GPU contains two headers, we suggest using 2 PCI-E cables to provide power for each 6+2pin header.\n\n¢ |f the GPU contains three headers, we suggest using 3 PCI-E cables to provide power for each 6+2pin header\n\nto avoid high power consumption causing damage to the individual cable.\n",
+  "ocrMethod": "tesseract psm11, full PDF pages scaled to 2200px",
+  "pdfFile": "data/deep-review/power-antec-enermax/sources/fetch-c129d63e728c0f63.pdf"
+}

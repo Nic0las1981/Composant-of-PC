@@ -1,0 +1,229 @@
+{
+  "review": {
+    "id": "import-mb-60c50e339ee6",
+    "name": "Prime X470-Pro",
+    "state": "exact_manufacturer_manual",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+          "checkedAt": "2026-11-10T14:08:54+00:00",
+          "resolvedURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+          "httpStatus": 200,
+          "sha256": "4302f620056ec5599c9f116680b79ac55e6e9c27c1ff908e90a529f3c8392249",
+          "bytes": 6480285,
+          "status": "manual_fetched"
+        },
+        "state": "exact_manufacturer_manual",
+        "cover": "draobrehtoM PRIME X470-PRO",
+        "pages": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  "product": {
+    "mpn": "Prime X470-Pro",
+    "identityNote": "Modèle ASUS Prime X470-Pro confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — manuel officiel, tableau des spécifications",
+        "url": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "Prime X470-Pro",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AM4 socket for AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™\nVega Graphics/ Ryzen™ 1st Generation/ 7th Generation A-Series/\nAthlon X4 Processors\nSupports CPU up to 8 cores*\n* Due to the CPU limitations, CPU cores supported vary by processor.\n** Refer to www.asus.com for the AMD CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X470 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 2nd Generation Processors\n- 4 x DIMM, max. 64GB, DDR4 3600(O.C.)/ 3466(O.C.)/ 3200(O.C.)/\n3000(O.C)/ 2933(O.C.)/ 2800(O.C)/ 2666/ 2400/ 2133 MHz, un-\nbuffered memory\nAMD Ryzen™ with Radeon™ Vega Graphics/ Ryzen™ 1st\nGeneration Processors\n- 4 x DIMM, max. 64GB, DDR4 3200(O.C.)/ 3000(O.C)/ 2933(O.C.)/\n2800(O.C)/ 2666/ 2400/ 2133 MHz, un-buffered memory\nAMD 7th Generation A-Series/ Athlon X4 Processors\n- 4 x DIMM, max. 64GB, DDR4 2400/ 2133 MHz, un-buffered memory\nDual channel memory architecture\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors List)."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n2 x PCIe 3.0 x16 slots (single at x16 or dual at x8/x8 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics/ 7th Generation\nA-Series/ Athlon X4 Processors\n1 x PCIe 3.0 x16 slot (at x8 mode)\nAMD X470 chipset\n- 1 x PCIe 2.0 x16 slot (max. at x4 mode)*\n- 3 x PCIe 2.0 x1 slots\n* The PCIe x16_3 slot shares bandwidth with PCIe x1_1 and PCIe x1_3."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "Integrated Graphics in the AMD Ryzen™ with Radeon™ Vega\nGraphics/ 7th Generation A-Series Processors\nMulti-VGA output support: HDMI and DisplayPort ports\n- Supports HDMI 1.4b with maximum resolution of 4096 x 2160\n@24Hz/ 2560 x 1600 @60Hz\n- Supports DisplayPort 1.2 with maximum resolution of 4096 x 2160\n@60Hz\n- Maximum shared memory of 2048 MB"
+          },
+          {
+            "label": "Multi-GPU support",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n- Supports NVIDIA® 2-Way SLI™ Technology\n- Supports AMD CrossFireX™ Technology\nAMD Ryzen™ with Radeon™ Vega Graphics/ 7th Generation\nA-Series/ Athlon X4 Processors\n- Supports AMD CrossFireX™ Technology"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/\nRyzen™ 1st Generation Processors**\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(PCIe 3.0 x4\nmode and SATA mode) storage devices support\nAMD 7th Generation A-Series/ Athlon X4 Processors**\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(SATA mode)\nstorage devices support\nAMD X470 Chipset:\n- M.2_2 socket 3* with M Key, Type 2242/ 2260/ 2280 (PCIe 3.0 x2 mode\nand SATA mode) storage devices support\n- 6 x Serial ATA 6 Gb/s connectors with RAID 0, RAID 1 and RAID 10\nsupport\n* The M.2_2 socket shares PCIe clock with PCIe x1_1. When PCIe x1_1 or PCIe\nx1_3 is occupied, the M.2_2 socket can only support SATA mode.\n** Supports PCIe RAID configurations via onboard M.2 storages."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I211AT Gigabit LAN"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® S1220A 8-Channel high-definition CODEC featuring Crystal\nSound 3\n- Separate layer for left and right track, ensuring both sound deliver equal\nquality\n- Impedance sense for front and rear headphone outputs\n- Audio shielding ensures precise analog/digital separation and greatly\nreduced multi-lateral interference\n- EMI protection cover to prevent electrical noise to affect the amplifier\nquality\n- Internal audio Amplifier to enhance the highest quality sound for\nheadphone and speakers\n- Premium Japan-made audio capacitors provides warm, natural, and\nimmersive sound with exceptional clarity and fidelity\n- High quality 120dB SNR stereo playback output (Line-out@back) &\n113dB SNR input (Line-in) support\n- Supports up to 32-Bit/ 192kHz playback*\n- Supports jack-detection, multi-streaming, front panel jack-retasking (MIC)\n- Optical S/PDIF out port at back panel\n* Due to limitations in the HDA bandwidth, 32-Bit/192kHz is not supported for\n8-Channel audio."
+          },
+          {
+            "label": "USB",
+            "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/\nRyzen™ 1st Generation/ 7th Generation A-Series/ Athlon X4\nProcessors\n- 4 x USB 3.1 Gen 1 (up to 5Gbps) ports at back panel (blue)\nAMD X470 chipset\n- 1 x USB 3.1 Gen 2 (up to 10Gbps) front panel connector\n- 2 x USB 3.1 Gen 1 (up to 5Gbps) ports at mid-board\n- 2 x USB 3.1 Gen 1 (up to 5Gbps) ports at back panel (1 x Type-A and 1\nx Type C)\n- 4 x USB 2.0 ports at mid-board\nASMedia USB 3.1 controller\n- 2 x USB 3.1 Gen 2 (up to 10Gbps) ports at back panel (teal blue)"
+          },
+          {
+            "label": "ASUS Unique Features",
+            "value": "Performance Optimization\n5-Way Optimization\n- Whole system optimization with a single click! Perfectly\nconsolidates better CPU performance, power saving, digital\npower control, system cooling and app usages.\nDigi+VRM\n- 6+4 phase digital power design\nEPU\n- EPU\nTPU\n- Auto Tuning\nF an Xpert 4\n- featuring Fan Auto Tuning function and multiple thermistors\nselection for optimized system cooling control\nTurbo App\n- featuring system performance tuning, network priority, and\naudio scene configuration for selected applications\nGaming Scenario\nAURA\n- Bright up your build\nAudio Features\n- Audio that roars on the battlefield\nEZ DIY\n- featuring a friendly graphics user interface\n- ASUS CrashFree BIOS 3\n- ASUS EZ Flash 3\nASUS Q-Design\n- ASUS Q-Shield\n- ASUS Q-Slot\n- ASUS Q-DIMM\n- ASUS Q-Connector"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS SafeSlot - Protect your graphics card Investment\nASUS 5X Protection III\n- ASUS SafeSlot Core - Fortified PCIe with solid soldering\n- ASUS LANGuard - Protects against LAN surges, lightning strikes\nand static-electricity discharges!\n- ASUS Overvoltage Protection - World-class circuit-protecting\npower design\n- ASUS DIGI+ VRM - 6+4 phase digital power design\n- ASUS DRAM Overcurrent Protection: Enhanced DRAM\novercurrent protection\n- ASUS Stainless-Steel Back I/O: 3X corrosion-resistance for\ngreater durability!\n- ASUS ESD Guards - Enhanced ESD protection\nAI Suite 3\nAI Charger"
+          },
+          {
+            "label": "ASUS Quiet Thermal Solution",
+            "value": "Quiet Thermal Design:\n- ASUS Fan Xpert 4\n- Stylish Fanless Design: Chipset Heat-sink & MOS Heat-sink & M.2\nHeat-sink solution"
+          },
+          {
+            "label": "ASUS Exclusive Overclocking Features",
+            "value": "Precision Tweaker 2:\n- vVDDCR CPU: Adjustable CPU voltage at 0.00625V increment\n- vVDDCR SOC: Adjustable CPU/NB voltage at 0.00625V increment\n- vDRAM Bus: Adjustable DRAM voltage at 0.005V increment\nOverclocking Protection:\n- ASUS C.P.R.(CPU Parameter Recall)"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/ mouse combo port\n1 x HDMI port\n1 x DisplayPort\n2 x USB 3.1 Gen 2 (up to 10Gbps) ports (teal blue, Type-A)\n1 x USB 3.1 Gen 1 (up to 5Gbps) port (Type-C)\n5 x USB 3.1 Gen 1 (up to 5Gbps) ports (blue,Type-A)\n1 x Intel LAN (RJ45) port\n1 x Optical S/PDIF out\n5 x Audio jacks (Line in, Front Speaker Out, Mic in, Center/\nSubwoofer, Rear Speaker Out)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.1 Gen 2 (up to 10Gbps) front panel connector\n1 x USB 3.1 Gen 1 (up to 5Gbps) connector supports additional 2\nUSB ports\n2 x USB 2.0 connectors support additional 4 USB ports\n1 x TPM connector\n6 x SATA 6 Gb/s connectors\n1 x M.2_1 Socket 3 for M Key, type 2242/ 2260/ 2280/ 22110 storage\ndevices support (Supports PCIe and SATA modes)\n1 x M.2_2 Socket 3 for M Key, type 2242/ 2260/ 2280 storage devices\nsupport (Supports PCIe and SATA modes)\n1 x CPU Fan connector (4-pin) for both 3-pin (DC mode) and 4-pin\n(PWM mode) CPU coolers control with auto detection support\n1 x CPU OPT Fan connector (4-pin)\n1 x AIO Pump connector (4-pin)\n1 x W_PUMP+ connector (4-pin)\n3 x Chassis Fan connectors (4-pin) for both 3-pin (DC mode) and\n4-pin (PWM mode) coolers control with auto detection support\n1 x Thermal sensor connector\n2 x AURA RGB headers\n1 x 24-pin EATX power connector\n1 x 8-pin EATX 12V power connector\n1 x System panel connector\n1 x Front panel audio connector (AAFP)\n1 x COM connector\n1 x Clear CMOS jumper (2-pin)"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.0, ACPI\n6.0, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3,\nF11 EZ Tuning Wizard, F6 Q-fan Control, F3 My Favorites, Last\nModified log, F12 PrintScreen, User Profile, F4 AURA ON/OFF, F9\nSearch, and ASUS DRAM SPD (Serial Presence Detect) memory\ninformation"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Support DVD contents",
+            "value": "Drivers\nASUS Utilities\nAnti-virus software (OEM version)"
+          },
+          {
+            "label": "Operating System Support",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le tableau complet du manuel conserve les limites et restrictions publiées à son édition ; les mises à jour BIOS/QVL peuvent modifier les listes de CPU et de mémoire compatibles."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor, 12”x 9.6” (30.5 cm x 24.4 cm)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "chipset": {
+        "value": "AMD X470 Chipset",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/\nRyzen™ 1st Generation Processors**\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(PCIe 3.0 x4\nmode and SATA mode) storage devices support\nAMD 7th Generation A-Series/ Athlon X4 Processors**\n- M.2_1 socket 3 with M Key, Type 2242/ 2260/ 2280/ 22110(SATA mode)\nstorage devices support\nAMD X470 Chipset:\n- M.2_2 socket 3* with M Key, Type 2242/ 2260/ 2280 (PCIe 3.0 x2 mode\nand SATA mode) storage devices support\n- 6 x Serial ATA 6 Gb/s connectors with RAID 0, RAID 1 and RAID 10\nsupport\n* The M.2_2 socket shares PCIe clock with PCIe x1_1. When PCIe x1_1 or PCIe\nx1_3 is occupied, the M.2_2 socket can only support SATA mode.\n** Supports PCIe RAID configurations via onboard M.2 storages.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 2nd Generation/ Ryzen™ 1st Generation Processors\n2 x PCIe 3.0 x16 slots (single at x16 or dual at x8/x8 mode)\nAMD Ryzen™ with Radeon™ Vega Graphics/ 7th Generation\nA-Series/ Athlon X4 Processors\n1 x PCIe 3.0 x16 slot (at x8 mode)\nAMD X470 chipset\n- 1 x PCIe 2.0 x16 slot (max. at x4 mode)*\n- 3 x PCIe 2.0 x1 slots\n* The PCIe x16_3 slot shares bandwidth with PCIe x1_1 and PCIe x1_3.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/ mouse combo port\n1 x HDMI port\n1 x DisplayPort\n2 x USB 3.1 Gen 2 (up to 10Gbps) ports (teal blue, Type-A)\n1 x USB 3.1 Gen 1 (up to 5Gbps) port (Type-C)\n5 x USB 3.1 Gen 1 (up to 5Gbps) ports (blue,Type-A)\n1 x Intel LAN (RJ45) port\n1 x Optical S/PDIF out\n5 x Audio jacks (Line in, Front Speaker Out, Mic in, Center/\nSubwoofer, Rear Speaker Out)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.1 Gen 2 (up to 10Gbps) front panel connector\n1 x USB 3.1 Gen 1 (up to 5Gbps) connector supports additional 2\nUSB ports\n2 x USB 2.0 connectors support additional 4 USB ports\n1 x TPM connector\n6 x SATA 6 Gb/s connectors\n1 x M.2_1 Socket 3 for M Key, type 2242/ 2260/ 2280/ 22110 storage\ndevices support (Supports PCIe and SATA modes)\n1 x M.2_2 Socket 3 for M Key, type 2242/ 2260/ 2280 storage devices\nsupport (Supports PCIe and SATA modes)\n1 x CPU Fan connector (4-pin) for both 3-pin (DC mode) and 4-pin\n(PWM mode) CPU coolers control with auto detection support\n1 x CPU OPT Fan connector (4-pin)\n1 x AIO Pump connector (4-pin)\n1 x W_PUMP+ connector (4-pin)\n3 x Chassis Fan connectors (4-pin) for both 3-pin (DC mode) and\n4-pin (PWM mode) coolers control with auto detection support\n1 x Thermal sensor connector\n2 x AURA RGB headers\n1 x 24-pin EATX power connector\n1 x 8-pin EATX 12V power connector\n1 x System panel connector\n1 x Front panel audio connector (AAFP)\n1 x COM connector\n1 x Clear CMOS jumper (2-pin)",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "network": {
+        "value": "Intel® I211AT Gigabit LAN",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "audio": {
+        "value": "Realtek® S1220A 8-Channel high-definition CODEC featuring Crystal\nSound 3\n- Separate layer for left and right track, ensuring both sound deliver equal\nquality\n- Impedance sense for front and rear headphone outputs\n- Audio shielding ensures precise analog/digital separation and greatly\nreduced multi-lateral interference\n- EMI protection cover to prevent electrical noise to affect the amplifier\nquality\n- Internal audio Amplifier to enhance the highest quality sound for\nheadphone and speakers\n- Premium Japan-made audio capacitors provides warm, natural, and\nimmersive sound with exceptional clarity and fidelity\n- High quality 120dB SNR stereo playback output (Line-out@back) &\n113dB SNR input (Line-in) support\n- Supports up to 32-Bit/ 192kHz playback*\n- Supports jack-detection, multi-streaming, front panel jack-retasking (MIC)\n- Optical S/PDIF out port at back panel\n* Due to limitations in the HDA bandwidth, 32-Bit/192kHz is not supported for\n8-Channel audio.",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      },
+      "cpuSupport": {
+        "value": "AM4 socket for AMD Ryzen™ 2nd Generation/ Ryzen™ with Radeon™\nVega Graphics/ Ryzen™ 1st Generation/ 7th Generation A-Series/\nAthlon X4 Processors\nSupports CPU up to 8 cores*\n* Due to the CPU limitations, CPU cores supported vary by processor.\n** Refer to www.asus.com for the AMD CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.0, ACPI\n6.0, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3,\nF11 EZ Tuning Wizard, F6 Q-fan Control, F3 My Favorites, Last\nModified log, F12 PrintScreen, User Profile, F4 AURA ON/OFF, F9\nSearch, and ASUS DRAM SPD (Serial Presence Detect) memory\ninformation",
+        "sourceURL": "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/PRIME_X470-PRO/E13883_PRIME__X470-PRO_UM_WEB.pdf",
+        "checkedAt": "2026-11-10T14:08:54+00:00"
+      }
+    },
+    "manufacturerModel": "Prime X470-Pro"
+  }
+}

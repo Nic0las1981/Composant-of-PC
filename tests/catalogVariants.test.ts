@@ -34,6 +34,16 @@ test("filtering variants before grouping does not reintroduce an excluded finish
   assert.equal(white.price, 120);
 });
 
+test('new documented mechanical differences invalidate a legacy colour-only grouping without replacing IDs',()=>{
+  const black=finish('test-mechanical-black','Noir',100);
+  const white={...finish('test-mechanical-white','Blanc',120),heightMm:500};
+  const other={...black,heightMm:450};
+  const groups=groupVariants([other,white]);
+  assert.equal(groups.length,2);
+  assert.deepEqual(groups.flatMap(g=>g.variants.map(v=>v.id)),[other.id,white.id]);
+  assert.ok(groups.every(g=>g.id.includes(':variant:')));
+});
+
 test("the actual chosen retail ID survives defaults, saves and independent finish prices", () => {
   const black = finish("test-black", "Noir", 120);
   const white = finish("test-white", "Blanc", 100);

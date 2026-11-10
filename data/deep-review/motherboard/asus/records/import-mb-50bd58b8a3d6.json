@@ -1,0 +1,50 @@
+{
+  "review": {
+    "id": "import-mb-50bd58b8a3d6",
+    "name": "Pro H610M-C-CSM",
+    "state": "exact_model_not_confirmed",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:39+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "sha256": "4417b54f40f8fbffd2db79c6acf0814914448f53adbdaedc3c72c274b86d7f39",
+        "bytes": 319294,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:30:50+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/csm/",
+        "sha256": "43e7e7a6fa77d27f739f78077f599cf717e6c13f44578fd3708d6dd1e3463613",
+        "bytes": 496676,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/uk/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T14:00:58+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/uk/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "sha256": "eaa9ee97f2e3c012a46db183cad97dbbb554a8339a7ee47171dac212c74064ca",
+        "bytes": 286163,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/ca-en/motherboards-components/motherboards/csm/pro-h610m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T14:01:01+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/ca-en/motherboards-components/motherboards/csm/",
+        "sha256": "21d99e7c69c2be8d12b3ee796648454a671e7ddd40b1c8238407476a478f20a7",
+        "bytes": 490987,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": null,
+    "photos": [],
+    "sections": [],
+    "documentedFields": []
+  },
+  "product": null
+}

@@ -1,0 +1,270 @@
+{
+  "review": {
+    "id": "import-mb-1512569f9daa",
+    "name": "TUF GAMING X570-PLUS",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:30+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "sha256": "d85e3028ecfd373265544ba48375f27e9b1f9a1d7d029e396c74c3da6e38e86a",
+        "bytes": 328077,
+        "status": "fetched"
+      },
+      {
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "sha256": "3e0e1a2195ac13ff9afa4fc2be55350d9d489a1597837b5bae5560ddc2132b91",
+        "bytes": 323593,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF GAMING X570-PLUS",
+    "photos": [
+      "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_184.png"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Audio",
+      "USB Ports",
+      "Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING X570-PLUS",
+    "identityNote": "Modèle ASUS TUF GAMING X570-PLUS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 1,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING X570-PLUS",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket 3rd and 2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics /3rd Gen AMD Ryzen™ Processors,* Refer to www.asus.com for CPU support list.,* Due to CPU limitation, CPU cores supported varies by processors."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD X570"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 5100(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3400(O.C.)/3200(O.C.)/3000(O.C.)/2933/2800/2666/2400/2133 MHz Un-buffered Memory,* The maximum memory frequency supported varies by processor.,* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists).,Dual Channel Memory Architecture,ECC Memory (ECC mode) support varies by CPU.,** Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Graphic",
+            "value": "Integrated Graphics in the 3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics Processors,Multi-VGA output support : HDMI/DisplayPort ports,- Supports DisplayPort with max. resolution 4096 x 2160 @ 60 Hz,- Supports HDMI 1.4b with max. resolution 4096 x 2160 @ 24 Hz"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "3rd and 2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics Processors,Supports AMD CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode),1 x PCIe 3.0/2.0 x16 (x8 mode),1 x PCIe 4.0 x16 (max at x4 mode),3 x PCIe 4.0 x1,AMD X570 chipset"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics Processors :,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support,8 x SATA 6Gb/s port(s),3rd Gen AMD Ryzen™ Processors :,AMD X570 chipset :,Support Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek® L8200A,TUF LANGuard,ASUS Turbo LAN Utility"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC S1200A8-Channel High Definition Audio CODEC,- Audio Shielding,- Dedicated audio PCB layers,- Premium Japanese audio capacitors,- Audio Cover,- Exclusive DTS Custom for GAMING Headsets.,Audio Feature :"
+          },
+          {
+            "label": "USB Ports",
+            "value": "3rd and 2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics Processors :,3 x USB 3.2 Gen 2 port(s) (3 at back panel, , 2 x Type-A+1 x USB Type-C®),4 x USB 3.2 Gen 1 port(s) (4 at back panel, ),2 x USB 3.2 Gen 1 port(s) (2 at mid-board),AMD X570 chipset :,4 x USB 2.0 port(s) (4 at mid-board)"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS TUF PROTECTION,- ASUS SafeSlot: Protect your graphics card Investment,- ASUS ESD Guard: Enhanced ESD protection,- ASUS DIGI+ VRM: Precision control for stable power,- ASUS LANGuard: Protects against LAN surges, lightning strikes and static-electricity discharges!,AURA :,- Aura Lighting Control,- Aura RGB Strip Headers,- Addressable Gen 2 Header,ASUS Quiet Thermal Solution :,- Stylish Design: MOS Heat-sink with dual thermal pads design, PCH Fan, PCH and M.2 Heatsink,- ASUS Fan Xpert 4,ASUS EZ DIY :,- ASUS CrashFree BIOS 3,- ASUS EZ Flash 3,- ASUS UEFI BIOS EZ Mode,ASUS Q-Design :,- ASUS Q-LED (CPU, DRAM, VGA, Boot Device LED),- ASUS Q-Slot,- ASUS Q-DIMM,DIY Friendly Design,- Procool,- SafeSlot,- Digi+ VRM,- Highly Durable components,- ESD Guards,- ASUS Overvoltage Protection: World-class circuit-protecting power design,- ASUS Stainless-Steel Back I/O: 3X corrosion-resistance for greater durability!,ASUS Exclusive Features :,- AI Suite 3,- Ai Charger"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 keyboard/mouse combo port(s),1 x LAN (RJ45) port(s),4 x USB 3.2 Gen 1 (up to 5Gbps) ports,3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A + USB Type-CTM),1 x DisplayPort,1 x HDMI,1 x Optical S/PDIF out,5 x Audio jack(s)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "2 x Aura RGB Strip Header(s),1 x Addressable Gen 2 header(s),8 x SATA 6Gb/s connector(s),1 x CPU Fan connector(s),1 x CPU OPT Fan connector(s),3 x Chassis Fan connector(s),1 x AIO_PUMP connector,1 x COM port header,1 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 2 USB ports,2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s),1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & X4 PCIE mode),1 x SPI TPM header,1 x 24-pin EATX Power connector(s),1 x 8-pin ATX 12V Power connector(s),1 x 4-pin ATX 12V Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x System panel(s),1 x Clear CMOS jumper(s)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "2 x SATA 6Gb/s cable(s),1 x TUF GAMING Sticker,1 x TUF Certification card(s),User´s manual,I/O Shield,1 x M.2 Screw Package,1 x Supporting DVD"
+          },
+          {
+            "label": "BIOS",
+            "value": "256Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.2, ACPI 6.2, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F6 Qfan Control, F3 My Favorites, F4 AURA ON/OFF, Last Modified log, F9 Search, F12 PrintScreen, and ASUS DRAM SPD (Serial Presence Detect) memory information"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          },
+          {
+            "label": "Note",
+            "value": "None"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.asus.com/media/global/gallery/vd7pofnyusetrpeq_setting_xxx_0_90_end_184.png"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor,12.0 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "chipset": {
+        "value": "AMD X570",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "storagePorts": {
+        "value": "2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics Processors :,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support,1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 4.0 x4 and SATA modes) storage devices support,8 x SATA 6Gb/s port(s),3rd Gen AMD Ryzen™ Processors :,AMD X570 chipset :,Support Raid 0, 1, 10",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCIe 4.0 x16 (x16 mode),1 x PCIe 3.0 x16 (x16 mode),1 x PCIe 3.0/2.0 x16 (x8 mode),1 x PCIe 4.0 x16 (max at x4 mode),3 x PCIe 4.0 x1,AMD X570 chipset",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 keyboard/mouse combo port(s),1 x LAN (RJ45) port(s),4 x USB 3.2 Gen 1 (up to 5Gbps) ports,3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A + USB Type-CTM),1 x DisplayPort,1 x HDMI,1 x Optical S/PDIF out,5 x Audio jack(s)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "internalIO": {
+        "value": "2 x Aura RGB Strip Header(s),1 x Addressable Gen 2 header(s),8 x SATA 6Gb/s connector(s),1 x CPU Fan connector(s),1 x CPU OPT Fan connector(s),3 x Chassis Fan connector(s),1 x AIO_PUMP connector,1 x COM port header,1 x USB 3.2 Gen 1 (up to 5Gbps) connector support additional 2 USB ports,2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s),1 x M.2 Socket 3 with M Key, type 2242/2260/2280/22110 storage devices support (SATA mode & X4 PCIE mode),1 x SPI TPM header,1 x 24-pin EATX Power connector(s),1 x 8-pin ATX 12V Power connector(s),1 x 4-pin ATX 12V Power connector(s),1 x Front panel audio connector(s) (AAFP),1 x System panel(s),1 x Clear CMOS jumper(s)",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "network": {
+        "value": "Realtek® L8200A,TUF LANGuard,ASUS Turbo LAN Utility",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC S1200A8-Channel High Definition Audio CODEC,- Audio Shielding,- Dedicated audio PCB layers,- Premium Japanese audio capacitors,- Audio Cover,- Exclusive DTS Custom for GAMING Headsets.,Audio Feature :",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket 3rd and 2nd Gen AMD Ryzen™/3rd, 2nd and 1st Gen AMD Ryzen™ with Radeon™ Graphics /3rd Gen AMD Ryzen™ Processors,* Refer to www.asus.com for CPU support list.,* Due to CPU limitation, CPU cores supported varies by processors.\nBIOS: 256Mb Flash ROM, UEFI AMI BIOS, PnP, SM BIOS 3.2, ACPI 6.2, Multi-language BIOS, ASUS EZ Flash 3, CrashFree BIOS 3, F6 Qfan Control, F3 My Favorites, F4 AURA ON/OFF, Last Modified log, F9 Search, F12 PrintScreen, and ASUS DRAM SPD (Serial Presence Detect) memory information",
+        "sourceURL": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-x570-plus/techspec/",
+        "checkedAt": "2026-11-10T13:30:35+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING X570-PLUS"
+  }
+}

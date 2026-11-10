@@ -1,0 +1,102 @@
+{
+  "id": "import-ssd-bbfbedb10ac3",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M570 PCIe 5.0 NVMe M.2 HS 1TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification",
+    "checkedAt": "2026-11-10T14:36:12+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification",
+    "sha256": "5bfd94f312aa35d3025ebefc9d57d6e011a24c21b1bd0e65b66ba0fbe1f87b59",
+    "bytes": 60703,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M570 PCIe 5.0 NVMe M.2 HS",
+    "Capacity": "1TB",
+    "Controller": "PHISON E26",
+    "Flash Memory": "3D NAND",
+    "DRAM Cache": "2GB LPDDR4",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen5x4, NVMe 2.0",
+    "Compatibility": "PCIe Gen5 / Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "80.00mm (L) x 22.00mm (W) x 3.5mm (H) (w/o heatsink)\n\n80.40mm (L) x 23.00mm (W) x 20.40mm (H) (w/ heatsink)",
+    "Sequential Read up to (MB/s)": "9,500",
+    "Sequential Write up to (MB/s)": "8,500",
+    "Random Read 4KB up to (IOPS)": "1,300,000",
+    "Random Write 4KB up to (IOPS)": "1,500,000",
+    "Maximum Operating Power (W)": "10",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "700",
+    "Mean Time Between Failure (MTBF)": "Up to 1,600,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS Support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_167573935424940aba56cd1dba801846447d621bb2.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification",
+        "checkedAt": "2026-11-10T14:36:12+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS/Specification",
+        "sha256": "5bfd94f312aa35d3025ebefc9d57d6e011a24c21b1bd0e65b66ba0fbe1f87b59",
+        "bytes": 60703,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M570 PCIe 5.0 NVMe M.2 HS",
+      "selectedColumn": "SPATIUM M570 PCIe 5.0 NVMe M.2 1TB HS"
+    }
+  ],
+  "patch": {
+    "lengthMm": 80.4,
+    "widthMm": 23.0,
+    "heightMm": 20.4
+  },
+  "extraFacts": {
+    "length": 80.4,
+    "width": 23.0,
+    "height": 20.4
+  },
+  "heatsinkEvidence": {
+    "statement": "SPATIUM M570 sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration.",
+    "installed": true
+  },
+  "additionalSources": [
+    {
+      "name": "MSI — présentation officielle du dissipateur de cette variante",
+      "url": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS",
+      "checkedAt": "2026-11-10T14:55:45+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "extraFieldEvidence": {
+    "heatsink": {
+      "value": "SPATIUM M570 sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration.",
+      "sourceURL": "https://www.msi.com/Storage/SPATIUM-M570-PCIe-5.0-NVMe-M.2-HS",
+      "checkedAt": "2026-11-10T14:55:45+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Dissipateur de la variante exacte",
+      "rows": [
+        {
+          "label": "Dissipateur fourni",
+          "value": "SPATIUM M570 sports a gorgeous bronze-colored aluminum heatsink with a stacked fin structure\n that\n efficiently dissipates heat and allows the SSD to sustain maximum performance under heavy\n load.\n \n *Disclaimer: Performance may vary based on system hardware & software configuration."
+        }
+      ]
+    }
+  ]
+}

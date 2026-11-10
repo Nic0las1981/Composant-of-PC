@@ -5,7 +5,7 @@ import { catalog, getComponent, type Component } from "../src/data/catalog.ts";
 import { MARKET_MAPPINGS, MARKET_SOURCE, marketObservations } from "../src/data/marketObservations.ts";
 import { getMarketObservation, matchesMarketMapping } from "../src/lib/marketObservations.ts";
 
-test("ten audited identities preserve the exact source facts and immutable provenance", () => {
+test("ten archived identities preserve their source facts; changed current identities invalidate the mapping", () => {
   assert.equal(snapshot.records.length, 10);
   assert.equal(MARKET_MAPPINGS.length, 10);
   assert.equal(Object.keys(marketObservations).length, 10);
@@ -18,7 +18,9 @@ test("ten audited identities preserve the exact source facts and immutable prove
   for (const record of snapshot.records) {
     const component = getComponent(record.component.id);
     assert.ok(component, record.component.id);
-    const observation = getMarketObservation(component);
+    const archivedIdentity:Component={...component,...record.component,finishName:record.component.finishName??undefined,manufacturerPartNumber:record.component.manufacturerPartNumber??undefined} as Component;
+    const observation = getMarketObservation(archivedIdentity);
+    if(!matchesMarketMapping(component,MARKET_MAPPINGS.find(m=>m.component.id===component.id)!))assert.equal(getMarketObservation(component),null,component.id);
     assert.ok(observation, record.component.id);
     assert.ok(Number.isFinite(observation.amount) && observation.amount > 0);
     assert.equal(observation.amount, record.current.price);
@@ -39,7 +41,7 @@ test("ten audited identities preserve the exact source facts and immutable prove
 test("a source update and an unchanged-price date never become a per-product check", () => {
   let distinctDates = 0;
   for (const record of snapshot.records) {
-    const observation = getMarketObservation(getComponent(record.component.id))!;
+    const observation = marketObservations[record.component.id]!;
     assert.equal(observation.sourceUpdatedAt, snapshot.source.sourceUpdatedAt);
     assert.equal(observation.priceSince, record.current.since);
     assert.equal(observation.retrievedAt, snapshot.source.retrievedAt);

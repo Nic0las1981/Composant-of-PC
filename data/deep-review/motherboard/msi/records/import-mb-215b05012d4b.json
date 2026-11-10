@@ -1,0 +1,336 @@
+{
+  "review": {
+    "id": "import-mb-215b05012d4b",
+    "name": "PRO B660M-G DDR4",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.2 ports (Front)",
+      "USB 3.2 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Audio ports (Rear)",
+      "DisplayPort",
+      "VGA",
+      "HDMI",
+      "DirectX",
+      "CPU Support",
+      "Form Factor",
+      "CPU",
+      "Memory",
+      "Expansion Slot",
+      "Onboard Graphics",
+      "Audio",
+      "LAN",
+      "Storage",
+      "USB",
+      "BIOS Features",
+      "Internal connectors",
+      "LED Feature",
+      "Back panel Connectors",
+      "Internal IO"
+    ],
+    "photos": [
+      "https://storage-asset.msi.com/global/picture/product/product_1641286898f040a16a386f99cd98eb5d99f5e6e9cf.webp"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "PRO B660M-G DDR4",
+    "identityNote": "Modèle MSI PRO B660M-G DDR4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 2,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 64,
+      "m2Slots": 2,
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "heightMm": 244,
+      "widthMm": 220,
+      "manufacturerPartNumber": "PRO B660M-G DDR4",
+      "description": "Carte mère MSI PRO B660M-G DDR4. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket LGA1700",
+        "2 emplacements DDR4",
+        "Mémoire maximale documentée : 64 Go",
+        "2 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "1700"
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B660 chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "2"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "64"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "1"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "1"
+          },
+          {
+            "label": "SATAIII",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "2"
+          },
+          {
+            "label": "RAID",
+            "value": "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.2 ports (Front)",
+            "value": "2(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 3.2 ports (Rear)",
+            "value": "4(Gen 1, Type A)"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "2"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "Realtek® ALC897 Codec"
+          },
+          {
+            "label": "DisplayPort",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "M-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n\n\n Please go to msi.com to get the newest support status as\n new processors are released."
+          },
+          {
+            "label": "Mémoire",
+            "value": "2x DDR4 memory slots, support up to 64GB 1\n\n Supports ADL-s 1R 2133/2666/2933/3200 MHz 1\n 1DPC 1R Max speed up to 4600+ MHz\n\n 1DPC 2R Max speed up to 4000+ MHz\n\n Supports Dual-Channel mode\n\n Supports non-ECC, un-buffered memory\n\n Supports Intel® Extreme Memory Profile (XMP)\n\n Please refer www.msi.com for more information on compatible memory.\n See supported memory\nDIMM Slots: 2\nMax Memory (GB): 64\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1x PCIe 4.0 x16 slot (from CPU)\n\n 1x PCIe 3.0 x1 slot (from B660 chipset)"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1x VGA port, supports a maximum resolution of 2048x1536 @50Hz, 2048x1280 @60Hz, 1920x1200 @60Hz 1/2\n\n 1x HDMI™ 2.1 with HDR port, supports a maximum resolution of 4K 60Hz 1/2\n\n 1x DisplayPort 1.4 port, supports a maximum resolution of 4K 60Hz 1/2 (PRO B660M-G DDR4)\n Available for the processor with integrated graphics.\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC897 Codec\n 7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1x Realtek® RTL8125BG 2.5Gbps LAN controller"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "4x SATA 6Gb/s ports (From B660 chipset) 1\n\n 2x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\n M2_2 slot (From B660 chipset) 1\n Supports PCIe 4.0 x4\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n Supports Intel® Optane™ Technology\n\n SATA7 will be unavailable when installing M.2 SATA SSD in the M2_2 slot.\n\n Intel® Optane™ Memory Ready. Before using Intel®® Optane™ memory modules, please ensure that you have updated the drivers and BIOS to the latest version from MSI website."
+          },
+          {
+            "label": "USB",
+            "value": "Intel® B660 Chipset\n\n 6x USB 3.2 Gen 1 5Gbps ports (4 Type-A ports on the back panel, 2 ports through the internal connector)\n\n 2x USB 2.0 Type-A ports on the back panel\n\n USB Hub-GL850G\n\n 4x USB 2.0 ports available through internal connectors"
+          },
+          {
+            "label": "BIOS Features",
+            "value": "1x 256 Mb flash\n\n UEFI AMI BIOS\n\n ACPI 6.4, SMBIOS 3.4\n\n Multi-language"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x USB 2.0 connector (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 1 5Gbps connector (support additional 2 USB ports)\n\n 1x 4-pin CPU fan connector\n\n 2x 4-pin system fan connectorx\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Serial port connector\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x JRGB\n\n 2x JRAINBOW\n\n 1x Tuning Controller Connector"
+          },
+          {
+            "label": "LED Feature",
+            "value": "4x EZ Debug LED"
+          },
+          {
+            "label": "Back panel Connectors",
+            "value": "VGA\n\n Keyboard / Mouse\n\n LAN port\n\n Audio connector\n\n HDMI™\n\n DisplayPort\n\n USB 2.0\n\n USB 3.2 Gen 1 5Gbps Type-A"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x USB 2.0 connector (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 1 5Gbps connector (support additional 2 USB ports)\n\n 1x 4-pin CPU fan connector\n\n 2x 4-pin system fan connectorx\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Serial port connector\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x JRGB\n\n 2x JRAINBOW\n\n 1x Tuning Controller Connector"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://storage-asset.msi.com/global/picture/product/product_1641286898f040a16a386f99cd98eb5d99f5e6e9cf.webp"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "formFactor": {
+        "value": "M-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "boardDimensions": {
+        "value": "M-ATX Form Factor\n\n 9.6 in. x 8.7 in. (24.4 cm x 22.0 cm)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B660 chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "storagePorts": {
+        "value": "4x SATA 6Gb/s ports (From B660 chipset) 1\n\n 2x M.2 slots (Key M)\n M2_1 slot (From CPU)\n Supports PCIe 4.0 x4\n\n Supports 2242/ 2260/ 2280 storage devices\n\n M2_2 slot (From B660 chipset) 1\n Supports PCIe 4.0 x4\n\n Supports SATA 6Gb/s\n\n Supports 2242/ 2260/ 2280 storage devices\n\n Supports Intel® Optane™ Technology\n\n SATA7 will be unavailable when installing M.2 SATA SSD in the M2_2 slot.\n\n Intel® Optane™ Memory Ready. Before using Intel®® Optane™ memory modules, please ensure that you have updated the drivers and BIOS to the latest version from MSI website.",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "pcie": {
+        "value": "1x PCIe 4.0 x16 slot (from CPU)\n\n 1x PCIe 3.0 x1 slot (from B660 chipset)",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1x 24-pin ATX main power connector\n\n 1x 8-pin ATX 12V power connector\n\n 4x SATA 6Gb/s connectors\n\n 2x USB 2.0 connector (support additional 4 USB ports)\n\n 1x USB 3.2 Gen 1 5Gbps connector (support additional 2 USB ports)\n\n 1x 4-pin CPU fan connector\n\n 2x 4-pin system fan connectorx\n\n 1x Front panel audio connector\n\n 2x System panel connectors\n\n 1x Serial port connector\n\n 1x TPM module connector\n\n 1x Chassis Intrusion connector\n\n 1x Clear CMOS jumper\n\n 1x JRGB\n\n 2x JRAINBOW\n\n 1x Tuning Controller Connector",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "network": {
+        "value": "1x Realtek® RTL8125BG 2.5Gbps LAN controller",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC897 Codec\n 7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "cpuSupport": {
+        "value": "Support Intel® Core™ 14th/ 13th/ 12th Gen Processors, Intel® Pentium® Gold and Celeron® Processors 1\n\n Processor socket LGA1700\n\n\n Please go to msi.com to get the newest support status as\n new processors are released.\n1700",
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/Specification",
+        "checkedAt": "2026-11-10T11:00:32+00:00"
+      }
+    }
+  }
+}

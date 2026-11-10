@@ -1,0 +1,237 @@
+{
+  "review": {
+    "id": "import-mb-6069d2a01d3f",
+    "name": "B450GT3",
+    "state": "manufacturer_revision_tables",
+    "clearedAmbiguousFields": [],
+    "revisions": [
+      {
+        "revision": null,
+        "source": {
+          "name": "BIOSTAR — spécifications officielles",
+          "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+          "checkedAt": "2026-11-10T13:46:30+00:00",
+          "kind": "manufacturer"
+        },
+        "photos": [
+          "https://www.biostar.com.tw/upload/Motherboard/b20180730.png",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180718.jpeg",
+          "https://www.biostar.com.tw/upload/Motherboard/b20180718_1.jpeg"
+        ],
+        "sections": [
+          "Chipset",
+          "CPU",
+          "Memory",
+          "Graphics",
+          "Storage",
+          "LAN",
+          "Audio",
+          "USB",
+          "Expansion Slots",
+          "BACK PANEL PORTS",
+          "Internal IO",
+          "H/W MONITORING",
+          "Form Factor",
+          "Operating System",
+          "BUNDLE SOFTWARE",
+          "ACCESSORIES",
+          "FEATURES"
+        ]
+      }
+    ],
+    "attempts": [
+      {
+        "sid": "926",
+        "state": "exact_manufacturer_table"
+      }
+    ]
+  },
+  "product": {
+    "mpn": "B450GT3",
+    "identityNote": "Modèle Biostar B450GT3 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "BIOSTAR — spécifications officielles",
+        "url": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B450GT3",
+      "detailLevel": "partial",
+      "maxMemoryGB": 64
+    },
+    "groups": [
+      {
+        "title": "BIOSTAR B450GT3 — révision non indiquée",
+        "rows": [
+          {
+            "label": "Chipset",
+            "value": "AMD B450"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "Support Dual Channel DDR4 1866/2133/2400/2666/2933/3200(OC) MHz\nMax. Supports up to 64GB Memory\nEach DIMM supports non-ECC 8/16 GB DDR4 module"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "By CPU model\nSupports DX12\nSupports HDCP"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "6 x SATA III Connectors (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector: Support PCI-E (32Gb/s) & SATA III (6Gb/s) SSD\n* Specifications vary by CPU types* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU & CPU is 16Gb/s.\n * When PCIE-M2_1 slot is occupied, the SATAIII_1 / SATAIII_2 connector will be disabled.\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC1150 7.1-Channel Audio\nSupport HD Audio\nSupport SPDIF_out"
+          },
+          {
+            "label": "USB",
+            "value": "1 x USB 3.2 Gen2 Type-C Port(10Gb/s) (1 on rear I/O)\n \n1 x USB 3.2 Gen2 Type-A Port(10Gb/s) (1 on rear I/O)\n \n4 x USB 3.2 Gen1 Ports (5Gb/s) (2 on rear I/Os and 2 via internal headers)\n \n6 x USB 2.0 Ports (2 on rear I/Os and 4 via internal headers)"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCI-E 3.0 x16 Slot\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot(x4)\n* Specifications vary by CPU types2 x PCI-E 2.0 x1 Slots\n* Specifications vary by CPU types"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x PS/2 Keyboard/ Mouse\n \n1 x DVI-D Port\n \n1 x VGA Port\n \n1 x HDMI® Port\n \n1 x LAN port\n \n1 x USB 3.1 Gen2 (10Gb/s) Type-C Port\n \n1 x USB 3.1 Gen2 (10Gb/s) Type-A Port\n \n2 x USB 3.1 Gen1 (5Gb/s) Port\n \n2 x USB 2.0 Port\n \n6 x Audio Jack"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x USB 3.2 Gen1 Header(5Gb/s) (each header supports 2 USB 3.2 Gen1 ports)\n2 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n6 x SATA III Connector (6Gb/s)\n1 x Front Audio Header\n1 x Front Panel Header\n1 x S/PDIF-Out Header\n1 x CPU Fan Connector\n2 x System Fan Connector\n2 x 5050 LED Header\n1 x 8-Pin Power Connector\n1 x 24-Pin Power Connector\n1 x Clear CMOS Header\n1 x COM Port Header"
+          },
+          {
+            "label": "H/W MONITORING",
+            "value": "CPU / System Temperature Monitoring\nSystem Fan Monitoring\nSmart / Manual CPU Fan Control"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Supports Windows 10(64bit) / 11(64bit)\nWindows 7(64bit) for Bristol Ridge/ Summit Ridge/ Pinnacle Ridge only\n※Biostar reserves the right to add or remove support for any OS with or without notice."
+          },
+          {
+            "label": "BUNDLE SOFTWARE",
+            "value": "Racing GT EVO Utility\nFLY.NET\nBullGuard\nBIO-Remote2\nSmart Speed LAN"
+          },
+          {
+            "label": "ACCESSORIES",
+            "value": "4 x SATA Cable\n1 x I/O Shield\n1 x DVD Driver\n1 x User Manual"
+          },
+          {
+            "label": "FEATURES",
+            "value": "VIVID LED DJ\n5050 LED FUN ZONE\nDual BIOS\nBIO-FLASHER\nIron Slot Protection"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180730.png"
+          },
+          {
+            "label": "Photographie constructeur 2",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180718.jpeg"
+          },
+          {
+            "label": "Photographie constructeur 3",
+            "value": "https://www.biostar.com.tw/upload/Motherboard/b20180718_1.jpeg"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "L’archive ne précise pas de révision de PCB. Les versions officiellement accessibles restent identifiées séparément ; seuls les faits communs sont projetés dans les métadonnées."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "formFactor": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "Micro ATX Form Factor Dimension: 24.4cm x 24.4cm ( W x L )",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "chipset": {
+        "value": "AMD B450",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "storagePorts": {
+        "value": "6 x SATA III Connectors (6Gb/s) : Supports AHCI & RAID 0, 1, 10\n* Specifications vary by CPU types1 x M.2 (M Key) 32Gb/s Connector: Support PCI-E (32Gb/s) & SATA III (6Gb/s) SSD\n* Specifications vary by CPU types* M.2 (32Gb/s) : The bandwidth is depended on CPU, Ryzen is 32Gb/s ; APU & CPU is 16Gb/s.\n * When PCIE-M2_1 slot is occupied, the SATAIII_1 / SATAIII_2 connector will be disabled.\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCI-E 3.0 x16 Slot\n* Specifications vary by CPU types1 x PCI-E 2.0 x16 Slot(x4)\n* Specifications vary by CPU types2 x PCI-E 2.0 x1 Slots\n* Specifications vary by CPU types",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "rearIO": {
+        "value": "1 x PS/2 Keyboard/ Mouse\n \n1 x DVI-D Port\n \n1 x VGA Port\n \n1 x HDMI® Port\n \n1 x LAN port\n \n1 x USB 3.1 Gen2 (10Gb/s) Type-C Port\n \n1 x USB 3.1 Gen2 (10Gb/s) Type-A Port\n \n2 x USB 3.1 Gen1 (5Gb/s) Port\n \n2 x USB 2.0 Port\n \n6 x Audio Jack",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "internalIO": {
+        "value": "1 x USB 3.2 Gen1 Header(5Gb/s) (each header supports 2 USB 3.2 Gen1 ports)\n2 x USB 2.0 Header (each header supports 2 USB 2.0 ports)\n6 x SATA III Connector (6Gb/s)\n1 x Front Audio Header\n1 x Front Panel Header\n1 x S/PDIF-Out Header\n1 x CPU Fan Connector\n2 x System Fan Connector\n2 x 5050 LED Header\n1 x 8-Pin Power Connector\n1 x 24-Pin Power Connector\n1 x Clear CMOS Header\n1 x COM Port Header",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8118AS - 10/100/1000Mb/s Controller",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC1150 7.1-Channel Audio\nSupport HD Audio\nSupport SPDIF_out",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD AM4 Socket for 3rd, 2nd and 1st Gen Ryzen/2nd and 1st Gen Ryzen with Radeon Vega\n \nGraphics/Athlon with Radeon Vega Graphics Processors",
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.biostar.com.tw/app/en/mb/mb_content.php?S_ID=926&pname=B450GT3&chipset=AMD%20B450",
+        "checkedAt": "2026-11-10T13:46:30+00:00"
+      }
+    }
+  }
+}

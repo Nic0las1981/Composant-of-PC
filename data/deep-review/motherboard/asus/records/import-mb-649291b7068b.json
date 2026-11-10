@@ -1,0 +1,276 @@
+{
+  "review": {
+    "id": "import-mb-649291b7068b",
+    "name": "Strix B550-XE Gaming WiFi",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "sha256": "69031c67c8f3883418f07f9dc87240d5c8a4fc83ab331930c616f1cc30d47d99",
+        "bytes": 243475,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "ROG STRIX B550-XE GAMING WIFI",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/0FF6B8DF-0D85-4893-947E-64290A35D38E"
+    ],
+    "sections": [
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Bluetooth",
+      "Audio",
+      "USB Ports",
+      "Software Features",
+      "ASUS Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note",
+      "Model"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "Strix B550-XE Gaming WiFi",
+    "identityNote": "Modèle ASUS Strix B550-XE Gaming WiFi confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "Strix B550-XE Gaming WiFi",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\n* Refer to www.asus.com for CPU support list"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 128GB, DDR4 4866(O.C)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3600(O.C.)/3466(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory\nAMD Ryzen™ 4000 G-Series Desktop Processors\n4 x DIMM, Max. 128GB, DDR4 5100(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3600(O.C.)/3466(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory\nOptiMem II\nDual Channel Memory Architecture\nECC Memory (ECC mode) support varies by CPU.\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Graphic",
+            "value": "1 x HDMI 2.1(4K@60HZ)\n1 x DisplayPort 1.2\n*Graphics specifications may vary between CPU types.\nIntegrated Graphics Processor"
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "Supports NVIDIA 2-Way SLI® Technology\nSupports AMD 3-Way CrossFireX™ Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD B550 Chipset\n1 x PCIe 3.0 x16 (x4 mode) *\n2 x PCIe 3.0 x1\n2 x PCIe 4.0 x16 (x16 or dual x8)\n2 x PCIe 3.0 x16 (x16 or dual x8)"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD Ryzen™ 4000 G-Series Desktop Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_2 socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\nTotal supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports\n1 x M.2_1 socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)*\nSupport Raid 0, 1, 10\n6 x SATA 6Gb/s port(s),"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Intel® I225-V 2.5Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) support 1024QAM/OFDMA/MU-MIMO\nIntel® Wi-Fi 6 AX200\nSupports dual band frequency 2.4/5 GHz\nSupports channel bandwidth: HT20/HT40/HT80/HT160"
+          },
+          {
+            "label": "Bluetooth",
+            "value": "Bluetooth v5.1*\n*BT 5.1 function will be ready in Windows 10 build 19041 or later."
+          },
+          {
+            "label": "Audio",
+            "value": "- Rear audio USB Type-C® port\n- Audio Shielding\nROG SupremeFX7.1-Channel High Definition Audio CODEC S1220A\n- Premium Japanese audio capacitors\n- Audio Cover\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :\n- SupremeFX Shielding™ Technology"
+          },
+          {
+            "label": "USB Ports",
+            "value": "3 x USB 3.2 Gen 2 port(s)(2 x Type-A +1 x USB Type-C®)\n1 x USB 2.0 port(s)(1 x audio USB Type-C® )\n4 x USB 2.0 port(s)(4 x Type-A)\nRear USB Port ( Total 8 )\nFront USB Port ( Total 7 )\n2 x USB 3.2 Gen 1 port(s)\n4 x USB 2.0 port(s)\n1 x USB 3.2 Gen 2 front panel connector port(s)"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ROG Exclusive Software\n- RAMCache III\n- ROG CPU-Z\n- GameFirst VI\n- Sonic Studio III + Sonic Studio Virtual Mixer \n- Sonic Radar III\n- DTS® Sound Unbound \n- Overwolf \n- Anti-virus software\nASUS Exclusive Software Features\nArmoury Crate\n- Aura Creator\n- Aura Sync\nAi noise cancelling microphone \nAI Suite 3:\n- 5-way Optimization \nTPU\nEPU\nDIGI+ VRM\nFan Xpert 4\nTurbo APP\n- EZ update\nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode\n FlexKey"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "Aura Sync\n- Standard RGB header(s)\n- Addressable Gen 2 RGB header(s)\nASUS Q-Design \n- ASUS Q-CODE\n- ASUS Q-DIMM\n- ASUS Q-LED (DRAM [yellow],CPU [red], VGA [white], Boot Device [yellow green)\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum M.2 heatsink \nASUS EZ DIY\n-BIOS Flashback™ button\n-BIOS FlashBack™ LED\n-Clear CMOS header\n-Procool\n-Pre-mounted I/O shield\n- SafeSlot\nRear audio USB Type-C® connector"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "3 x USB 3.2 Gen 2 (2 x Type-A+1 x USB Type-C®)\n5 x USB 2.0 (1 for audio USB Type-C®)\n1 x BIOS FlashBack™ Button(s)\n1 x Intel® I225-V 2.5Gb Ethernet\n1 x DisplayPort\n1 x HDMI\n5 x Audio jack(s)\nASUS Wi-Fi module (Wi-Fi 802.11 a/b/g/n/ac and Bluetooth v5.0)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x AAFP connector\n1 x M.2 Socket 1 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 2 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x USB 3.2 Gen2 connector support additional 1 USB ports(20-pin, Type-C)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n1 x Thunderbolt header(s)\n1 x Q-Code\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n2 x Aura RGB Strip Header(s)\n2 x Addressable Gen 2 header(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n6 x SATA 6Gb/s connector(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x 4-pin ATX 12V Power connector(s)\n1 x System panel(s)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "1 x Hyper M.2 x16 Gen 4 Card\n5 x M.2 SSD screw package(s)\n3 x M.2 Rubber Package(s)\n1 x ROG audio USB Type-C® cable\n1 ROG key chain\n1 x Wi-Fi moving antenna\nUser´s manual\n4 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\n1 x ROG Strix stickers\n1 x Cable ties pack(s)\n1 x Extension Cable for RGB strips (80 cm)\n1 x Extension cable for Addressable LED\n1 x ROG Thank you card"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )"
+          },
+          {
+            "label": "Note",
+            "value": "*Share bandwidth with PCIe3.0 x1_1, PCIe3.0 x1_2\n** When the M.2_2 Socket 3 is populated , SATA6G_5/6 ports will be disabled.\n´* Due to limitations in HDA bandwidth, 32-Bit/192 kHz is not supported for 7.1-Channel audio."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/0FF6B8DF-0D85-4893-947E-64290A35D38E"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor\n12 inch x 9.6 inch ( 30.5 cm x 24.4 cm )",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD Ryzen™ 4000 G-Series Desktop Processors :\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2_2 socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\nTotal supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports\n1 x M.2_1 socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\nAMD B550 Chipset :\n1 x M.2_2 socket 3, with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)*\nSupport Raid 0, 1, 10\n6 x SATA 6Gb/s port(s),",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\nAMD B550 Chipset\n1 x PCIe 3.0 x16 (x4 mode) *\n2 x PCIe 3.0 x1\n2 x PCIe 4.0 x16 (x16 or dual x8)\n2 x PCIe 3.0 x16 (x16 or dual x8)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "rearIO": {
+        "value": "3 x USB 3.2 Gen 2 (2 x Type-A+1 x USB Type-C®)\n5 x USB 2.0 (1 for audio USB Type-C®)\n1 x BIOS FlashBack™ Button(s)\n1 x Intel® I225-V 2.5Gb Ethernet\n1 x DisplayPort\n1 x HDMI\n5 x Audio jack(s)\nASUS Wi-Fi module (Wi-Fi 802.11 a/b/g/n/ac and Bluetooth v5.0)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "internalIO": {
+        "value": "1 x AAFP connector\n1 x M.2 Socket 1 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 2 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x USB 3.2 Gen2 connector support additional 1 USB ports(20-pin, Type-C)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s)\n1 x Thunderbolt header(s)\n1 x Q-Code\n1 x CPU Fan connector(s)\n1 x CPU OPT Fan connector(s)\n3 x Chassis Fan connector(s)\n1 x AIO_PUMP connector\n2 x Aura RGB Strip Header(s)\n2 x Addressable Gen 2 header(s)\n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n6 x SATA 6Gb/s connector(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin ATX 12V Power connector(s)\n1 x 4-pin ATX 12V Power connector(s)\n1 x System panel(s)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "network": {
+        "value": "Intel® I225-V 2.5Gb Ethernet\nASUS LANGuard",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "audio": {
+        "value": "- Rear audio USB Type-C® port\n- Audio Shielding\nROG SupremeFX7.1-Channel High Definition Audio CODEC S1220A\n- Premium Japanese audio capacitors\n- Audio Cover\n- Dual OP Amplifiers\n- Impedance sense for front and rear headphone outputs\n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking\n- High quality120dBSNR stereo playback outputand113dBSNR recording input\n- Supports up to 32-Bit/192kHz playback *\nAudio Feature :\n- SupremeFX Shielding™ Technology",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors\n* Refer to www.asus.com for CPU support list\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/",
+        "checkedAt": "2026-11-10T14:00:41+00:00"
+      }
+    },
+    "manufacturerModel": "ROG STRIX B550-XE GAMING WIFI"
+  }
+}

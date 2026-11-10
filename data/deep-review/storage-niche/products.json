@@ -1,0 +1,4417 @@
+{
+  "import-ssd-8a245eb21ed8": {
+    "mpn": "MKNSSDGA8TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/gamma-8tb-mknssdga8tb-d8/",
+        "checkedAt": "2026-11-10T14:31:54.776755+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Gamma"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDGA8TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "8TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E18"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7000MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 5900MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "6000"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC NAND"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.003W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDGA8TB-D8",
+      "capacityGB": 8000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Gamma 8 To · PCIe 4.0 ×4. Référence MKNSSDGA8TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280.",
+      "La page indique 5 V pour ce module M.2 : tension non transférée en raison de cette incohérence."
+    ]
+  },
+  "import-ssd-a8f0cc5b6321": {
+    "mpn": "MKNSSDVT1TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/vortex-1tb-mknssdvt1tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVT1TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7430MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 5300MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.1W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "8W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVT1TB-D8",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex Redline 1 To · PCIe 4.0 ×4. Référence MKNSSDVT1TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 500 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-95436576acb9": {
+    "mpn": "MKNSSDHL512GB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://www.wootware.co.za/mushkin-mknssdhl512gb-d8-helix-l-512gb-pcie-3-0-x4-nvme-m-2-2280-solid-state-drive.html",
+        "checkedAt": "2026-11-10T14:35:13.091864+00:00",
+        "kind": "retailer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDHL512GB-D8"
+          },
+          {
+            "label": "Capacité",
+            "value": "512 Go"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 3.0 x4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Silicon Motion SM2263XT"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "2 105 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "1 670 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "240 000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "260 000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "300 TBW"
+          },
+          {
+            "label": "Garantie",
+            "value": "3 ans ou 300 TBW"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Poids",
+            "value": "7 g"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,5 million d’heures"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDHL512GB-D8",
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "name": "Helix-L 512 Go · PCIe 3.0 ×4",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "specs": [
+        "512 Go",
+        "M.2 2280 · PCIe 3.0 ×4 NVMe 1.3",
+        "Lecture 2 105 Mo/s · écriture 1 670 Mo/s"
+      ],
+      "description": "Mushkin Helix-L 512 Go · PCIe 3.0 ×4. Référence MKNSSDHL512GB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La fiche marchande identifie le MPN 512 Go exact. L’ancienne génération PCIe 4.0 de l’archive est corrigée en PCIe 3.0. Aucun prix étranger n’est importé."
+    ]
+  },
+  "import-ssd-22096485fe97": {
+    "mpn": "MKNSSDVT2TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://www.mushkin.com/product/vortex-2tb-mknssdvt2tb-d8/",
+        "checkedAt": "2026-11-10T14:31:54.776755+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVT2TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7415MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 6800MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.1W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "9W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVT2TB-D8",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex Redline 2 To · PCIe 4.0 ×4. Référence MKNSSDVT2TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 1000 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-32da600b62ac": {
+    "mpn": "MKNSSDVT4TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://www.newegg.com/mushkin-enhanced-4tb-vortex-nvme-1-4/p/N82E16820992019",
+        "checkedAt": "2026-11-10T14:35:13.091864+00:00",
+        "kind": "retailer"
+      },
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://poweredbymushkin.com/Home/index.php/products2/257-vortex",
+        "checkedAt": "2026-11-10T14:35:13.091864+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex"
+          },
+          {
+            "label": "Part Number",
+            "value": "MKNSSDVT4TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "4TB"
+          },
+          {
+            "label": "Memory Components",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCI-Express 4.0 x4"
+          },
+          {
+            "label": "Protocol",
+            "value": "NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7415 MBps"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 6800 MBps"
+          },
+          {
+            "label": "4KB Random Read",
+            "value": "Up to 730,000 IOPS"
+          },
+          {
+            "label": "4KB Random Write",
+            "value": "Up to 1,500,000 IOPS"
+          },
+          {
+            "label": "Terabytes Written (TBW)",
+            "value": "2000TB"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule non précisée"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "2 000 TBW"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVT4TB-D8",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "description": "Mushkin Vortex Redline 4 To · PCIe 4.0 ×4. Référence MKNSSDVT4TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Le catalogue officiel confirme le MPN Vortex 4 To. Les mesures proviennent de sa fiche Newegg exacte. Garantie contradictoire entre les sections 5 ans et 3 ans : non validée."
+    ]
+  },
+  "import-ssd-75cb94306333": {
+    "mpn": "MKNSSDED500GB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/endora-500gb-mknssded500gb-d8/",
+        "checkedAt": "2026-11-10T14:34:01.127091+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Endora"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDED500GB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "500GB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4785MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 1325MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Up to 4W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDED500GB-D8",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "name": "Endora 500 Go · PCIe 4.0 ×4",
+      "description": "Mushkin Endora 500 Go · PCIe 4.0 ×4. Référence MKNSSDED500GB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-90f59ceab847": {
+    "mpn": "MKNSSDVL1TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/vortex-lx-1tb-mknssdvl1tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex LX"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVL1TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5220"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 5200MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 4370MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "5W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVL1TB-D8",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex-LX 1 To · PCIe 4.0 ×4. Référence MKNSSDVL1TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 500 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-07f8019d8bb7": {
+    "mpn": "MKNSSDVT512GB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/vortex-512gb-mknssdvt512gb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVT512GB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "512GB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5236"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 6750MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 2635MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.1W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "7W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVT512GB-D8",
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex Redline 512 Go · PCIe 4.0 ×4. Référence MKNSSDVT512GB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 250 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-00be098e4941": {
+    "mpn": "MKNSSDVL2TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/vortex-lx-2tb-mknssdvl2tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex LX"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVL2TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5220"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4985MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 4775MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVL2TB-D8",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex-LX 2 To · PCIe 4.0 ×4. Référence MKNSSDVL2TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 1000 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-63f47cf4779f": {
+    "mpn": "MKNSSDED4TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/endora-4tb-mknssded4tb-d8/",
+        "checkedAt": "2026-11-10T14:34:01.127091+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Endora"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDED4TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "4TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 5050MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 4750MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Up to 6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDED4TB-D8",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "name": "Endora 4 To · PCIe 4.0 ×4",
+      "description": "Mushkin Endora 4 To · PCIe 4.0 ×4. Référence MKNSSDED4TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-2862e4911b4c": {
+    "mpn": "MKNSSDVL512GB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/vortex-lx-512gb-mknssdvl512gb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Vortex LX"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDVL512GB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "512GB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "InnoGrit IG5220"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4725MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 2525MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.3W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.5W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDVL512GB-D8",
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Vortex-LX 512 Go · PCIe 4.0 ×4. Référence MKNSSDVL512GB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 250 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-64aef832360f": {
+    "mpn": "MKNSSDGA2TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/gamma-2tb-mknssdga2tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Gamma"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDGA2TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E18"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7175MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 6800MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1400"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC NAND"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.003W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDGA2TB-D8",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Gamma 2 To · PCIe 4.0 ×4. Référence MKNSSDGA2TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280.",
+      "La page indique 5 V pour ce module M.2 : tension non transférée en raison de cette incohérence."
+    ]
+  },
+  "import-ssd-dc34bd231ea2": {
+    "mpn": "MKNSSDDE1TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/delta-1tb-mknssdde1tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Delta"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDDE1TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E16"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4700MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 2100MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "200"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND · déclaration à recouper",
+            "value": "La page indique 3D TLC, mais ses autres cellules comportent des incohérences ; type non validé."
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.002W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDDE1TB-D8",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Delta 1 To · PCIe 4.0 ×4. Référence MKNSSDDE1TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-da2e23f8ef8c": {
+    "mpn": "MKNSSDDE2TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/delta-2tb-mknssdde2tb-d8/",
+        "checkedAt": "2026-11-10T14:33:41.019983+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Delta"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDDE2TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E16"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4975MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 3750MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND · déclaration à recouper",
+            "value": "La page indique 3D TLC, mais ses autres cellules comportent des incohérences ; type non validé."
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.002W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDDE2TB-D8",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Delta 2 To · PCIe 4.0 ×4. Référence MKNSSDDE2TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 400 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-1bca63012893": {
+    "mpn": "MKNSSDED1TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/endora-1tb-mknssded1tb-d8/",
+        "checkedAt": "2026-11-10T14:34:01.127091+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Endora"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDED1TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 5035MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 3810MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Up to 4W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDED1TB-D8",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "name": "Endora 1 To · PCIe 4.0 ×4",
+      "description": "Mushkin Endora 1 To · PCIe 4.0 ×4. Référence MKNSSDED1TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-656a4821f819": {
+    "mpn": "MKNSSDDE4TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/delta-4tb-mknssdde4tb-d8/",
+        "checkedAt": "2026-11-10T14:33:41.019983+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Delta"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDDE4TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.3"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E16"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 4975MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 3975MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND · déclaration à recouper",
+            "value": "La page indique 3D TLC, mais ses autres cellules comportent des incohérences ; type non validé."
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.002W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Capacité · divergence",
+            "value": "Titre / MPN : 4 To ; cellule de spécifications : 2TB"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDDE4TB-D8",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Delta 4 To · PCIe 4.0 ×4. Référence MKNSSDDE4TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Endurance contradictoire sur la page : tableau 800 TBW, clause de garantie 200 TBW. Valeur non validée.",
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280.",
+      "La référence et le titre indiquent 4 To, mais la cellule Capacity de la page indique 2TB : capacité historique conservée, contradiction signalée."
+    ],
+    "fieldEvidence": {
+      "capacity": {
+        "value": "Titre et MPN : 4 To ; cellule de spécifications : 2TB",
+        "sourceURL": "https://mushkin.com/product/delta-4tb-mknssdde4tb-d8/",
+        "checkedAt": "2026-11-10T14:33:41.019983+00:00",
+        "conflicting": true,
+        "reason": "Contradiction interne à la page fabricant."
+      }
+    }
+  },
+  "import-ssd-428d94d0f647": {
+    "mpn": "MKNSSDGA4TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/gamma-4tb-mknssdga4tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Gamma"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDGA4TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "4TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E18"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7200MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 6890MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3000"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC NAND"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.003W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDGA4TB-D8",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Gamma 4 To · PCIe 4.0 ×4. Référence MKNSSDGA4TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280.",
+      "La page indique 5 V pour ce module M.2 : tension non transférée en raison de cette incohérence."
+    ]
+  },
+  "import-ssd-91e88abbee72": {
+    "mpn": "MKNSSDED2TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/endora-2tb-mknssded2tb-d8/",
+        "checkedAt": "2026-11-10T14:34:01.127091+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Endora"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDED2TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "2TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 5065MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 4610MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,500,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND ; cellule TLC/QLC non précisée"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "80mW"
+          },
+          {
+            "label": "Consommation active",
+            "value": "Up to 4W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Host Memory Buffer",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDED2TB-D8",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "name": "Endora 2 To · PCIe 4.0 ×4",
+      "description": "Mushkin Endora 2 To · PCIe 4.0 ×4. Référence MKNSSDED2TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280."
+    ]
+  },
+  "import-ssd-39f2c93ba240": {
+    "mpn": "MKNSSDGA1TB-D8",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Mushkin — fiche technique",
+        "url": "https://mushkin.com/product/gamma-1tb-mknssdga1tb-d8/",
+        "checkedAt": "2026-11-10T14:33:09.373405+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Série",
+            "value": "Gamma"
+          },
+          {
+            "label": "Référence fabricant",
+            "value": "MKNSSDGA1TB-D8"
+          },
+          {
+            "label": "Format M.2",
+            "value": "M.2 2280"
+          },
+          {
+            "label": "Capacité",
+            "value": "1TB"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe Gen4 x4 NVMe 1.4"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison E18"
+          },
+          {
+            "label": "Poids",
+            "value": "7g"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "Up to 7150MB/s"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "Up to 5600MB/s"
+          },
+          {
+            "label": "Temps de recherche",
+            "value": "<0.1ms"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "700"
+          },
+          {
+            "label": "MTBF",
+            "value": "1,600,000 hours"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0°C-70°C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "-40°C-85°C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1500G"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3,8 mm"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC NAND"
+          },
+          {
+            "label": "Consommation au repos",
+            "value": "0.003W"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6.6W"
+          },
+          {
+            "label": "Fonction · SLC caching",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · Security Erase",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · TRIM",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · S.M.A.R.T.",
+            "value": "Publiée par le fabricant"
+          },
+          {
+            "label": "Fonction · User-upgradeable firmware",
+            "value": "Publiée par le fabricant"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "MKNSSDGA1TB-D8",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "Mushkin Gamma 1 To · PCIe 4.0 ×4. Référence MKNSSDGA1TB-D8 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Axes normalisés : la page nomme Height le côté de 80 mm et Depth l’épaisseur de 3,8 mm du module M.2 2280.",
+      "La page indique 5 V pour ce module M.2 : tension non transférée en raison de cette incohérence."
+    ]
+  },
+  "import-ssd-2b8e5572f024": {
+    "mpn": "SSDPR-PX700-01T-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-goodram-ssd-px700-eng-1.3.pdf",
+        "checkedAt": "2026-11-10T14:26:37.654915+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/en/products/goodram-px700-ssd-2/",
+        "checkedAt": "2026-11-10T14:35:15.375435+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SSDPR-PX700-01T-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "1024 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7400 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6500 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "820000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "600 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module avec fine étiquette thermique ; aucun dissipateur volumineux fourni"
+          },
+          {
+            "label": "Poids",
+            "value": "9 g"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "2.65 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SSDPR-PX700-01T-80",
+      "capacityGB": 1024,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.65,
+      "description": "GOODRAM PX700 1024 Go · PCIe 4.0 ×4. Référence SSDPR-PX700-01T-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La page produit donne explicitement 1 024 / 2 048 / 4 096 Go, alors que le PDF abrège en 1 / 2 / 4 To. Les capacités détaillées de la page sont conservées."
+    ]
+  },
+  "import-ssd-8390e89bef1a": {
+    "mpn": "SSDPR-PX700-02T-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-goodram-ssd-px700-eng-1.3.pdf",
+        "checkedAt": "2026-11-10T14:26:37.654915+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/en/products/goodram-px700-ssd-2/",
+        "checkedAt": "2026-11-10T14:35:15.375435+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SSDPR-PX700-02T-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "2048 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7400 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6500 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "820000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1200 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module avec fine étiquette thermique ; aucun dissipateur volumineux fourni"
+          },
+          {
+            "label": "Poids",
+            "value": "9 g"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "2.65 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SSDPR-PX700-02T-80",
+      "capacityGB": 2048,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.65,
+      "description": "GOODRAM PX700 2048 Go · PCIe 4.0 ×4. Référence SSDPR-PX700-02T-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La page produit donne explicitement 1 024 / 2 048 / 4 096 Go, alors que le PDF abrège en 1 / 2 / 4 To. Les capacités détaillées de la page sont conservées."
+    ]
+  },
+  "import-ssd-3008614a572c": {
+    "mpn": "SSDPR-PX700-04T-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-goodram-ssd-px700-eng-1.3.pdf",
+        "checkedAt": "2026-11-10T14:26:37.654915+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/en/products/goodram-px700-ssd-2/",
+        "checkedAt": "2026-11-10T14:35:15.375435+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "SSDPR-PX700-04T-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "4096 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7400 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6500 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "2400 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module avec fine étiquette thermique ; aucun dissipateur volumineux fourni"
+          },
+          {
+            "label": "Poids",
+            "value": "9 g"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "2.65 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "SSDPR-PX700-04T-80",
+      "capacityGB": 4096,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.65,
+      "description": "GOODRAM PX700 4096 Go · PCIe 4.0 ×4. Référence SSDPR-PX700-04T-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La page produit donne explicitement 1 024 / 2 048 / 4 096 Go, alors que le PDF abrège en 1 / 2 / 4 To. Les capacités détaillées de la page sont conservées."
+    ]
+  },
+  "import-ssd-92a4d11bf35c": {
+    "mpn": "IRP-SSDPR-P54S-1K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_gen-5_en.pdf",
+        "checkedAt": "2026-11-10T14:26:37.891771+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P54S-1K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "11500 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "9000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1300000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1400000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "700 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 5.0 x4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5026-E26"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1600000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.6 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P54S-1K0-80",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.6,
+      "description": "GOODRAM IRDM PRO GEN 5 1 To · PCIe 5.0 ×4. Référence IRP-SSDPR-P54S-1K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-4b4eb3faf4ac": {
+    "mpn": "IRP-SSDPR-P54S-4K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_gen-5_en.pdf",
+        "checkedAt": "2026-11-10T14:26:37.891771+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P54S-4K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "4000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "12000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "11000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1400000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1400000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3000 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 5.0 x4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5026-E26"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1600000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.6 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P54S-4K0-80",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.6,
+      "description": "GOODRAM IRDM PRO GEN 5 4 To · PCIe 5.0 ×4. Référence IRP-SSDPR-P54S-4K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-8300e8ac6a9b": {
+    "mpn": "IRP-SSDPR-P54S-2K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_gen-5_en.pdf",
+        "checkedAt": "2026-11-10T14:26:37.891771+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P54S-2K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "12000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "11000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1400000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1400000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1400 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 5.0 x4 NVMe 2.0"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5026-E26"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "1600000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.6 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P54S-2K0-80",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.6,
+      "description": "GOODRAM IRDM PRO GEN 5 2 To · PCIe 5.0 ×4. Référence IRP-SSDPR-P54S-2K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-6f87c93d04e8": {
+    "mpn": "IRP-SSDPR-P44S-1K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_slim-eng-6.pdf",
+        "checkedAt": "2026-11-10T14:33:11.772199+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P44S-1K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "5500 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "350000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "700000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "700 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5018-E18"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "2000000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P44S-1K0-80",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "GOODRAM IRDM PRO SLIM 1 To · PCIe 4.0 ×4. Référence IRP-SSDPR-P44S-1K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-03e2c0d063b8": {
+    "mpn": "IRP-SSDPR-P44S-4K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_slim-eng-6.pdf",
+        "checkedAt": "2026-11-10T14:33:11.772199+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P44S-4K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "4000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6850 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "650000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "700000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3000 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5018-E18"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "2000000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P44S-4K0-80",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "GOODRAM IRDM PRO SLIM 4 To · PCIe 4.0 ×4. Référence IRP-SSDPR-P44S-4K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-1d1be8b7de53": {
+    "mpn": "IRP-SSDPR-P44S-2K0-80",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "GOODRAM — fiche technique",
+        "url": "https://www.goodram.com/wp-content/uploads/datasheet-irdm_pro_slim-eng-6.pdf",
+        "checkedAt": "2026-11-10T14:33:11.772199+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "IRP-SSDPR-P44S-2K0-80"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6850 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "650000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "700000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1400 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, clé M"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Contrôleur",
+            "value": "Phison PS5018-E18"
+          },
+          {
+            "label": "Mémoire tampon",
+            "value": "DRAM présente"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans limitée par TBW"
+          },
+          {
+            "label": "MTBF",
+            "value": "2000000 heures"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Module nu"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "ECC, wear leveling, bad block management, TRIM, SMART, over provision, firmware upgrade, thermal throttling"
+          },
+          {
+            "label": "Gestion de durée de vie",
+            "value": "Media wear indicator ; read-only mode en fin de vie"
+          },
+          {
+            "label": "Sécurité",
+            "value": "NVMe Format"
+          },
+          {
+            "label": "Cache",
+            "value": "SLC caching"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          },
+          {
+            "label": "Hauteur",
+            "value": "3.8 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "IRP-SSDPR-P44S-2K0-80",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.8,
+      "description": "GOODRAM IRDM PRO SLIM 2 To · PCIe 4.0 ×4. Référence IRP-SSDPR-P44S-2K0-80 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": []
+  },
+  "import-ssd-d77ea9709b6a": {
+    "mpn": "AP2TBAS2280Q4U-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Apacer_Consumer_PCIe_Gen4_M.2_2280_SSD_AS2280Q4U_3D%20NAND_Spec_v1.1.pdf",
+        "checkedAt": "2026-11-10T14:33:58.415014+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4U.pdf",
+        "checkedAt": "2026-11-10T14:34:00.067912+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP2TBAS2280Q4U-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7400 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "7000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1500 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, 75 contacts"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Fourni séparément, à installer au choix"
+          },
+          {
+            "label": "Dimensions du module nu",
+            "value": "80 × 22 × 2,25 mm (simple face) ou 3,5 mm (double face)"
+          },
+          {
+            "label": "Dimensions avec dissipateur",
+            "value": "80 × 22,9 × 10,8 mm maximum"
+          },
+          {
+            "label": "Consommation active",
+            "value": "9,7 W maximum, varie selon capacité et configuration"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 600 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Global wear leveling, bad block management, SMART, TRIM, over provisioning"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP2TBAS2280Q4U-1",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4U 2 To · PCIe 4.0 ×4. Référence AP2TBAS2280Q4U-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La fiche ne rattache pas chaque capacité au PCB simple ou double face. L’épaisseur du module nu reste non affectée ; toutes les enveloppes publiées sont détaillées."
+    ]
+  },
+  "import-ssd-ebb9cf216622": {
+    "mpn": "AP1TBAS2280Q4U-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Apacer_Consumer_PCIe_Gen4_M.2_2280_SSD_AS2280Q4U_3D%20NAND_Spec_v1.1.pdf",
+        "checkedAt": "2026-11-10T14:33:58.415014+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4U.pdf",
+        "checkedAt": "2026-11-10T14:34:00.067912+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP1TBAS2280Q4U-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7300 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "6000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "1000000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "750 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, 75 contacts"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Fourni séparément, à installer au choix"
+          },
+          {
+            "label": "Dimensions du module nu",
+            "value": "80 × 22 × 2,25 mm (simple face) ou 3,5 mm (double face)"
+          },
+          {
+            "label": "Dimensions avec dissipateur",
+            "value": "80 × 22,9 × 10,8 mm maximum"
+          },
+          {
+            "label": "Consommation active",
+            "value": "9,7 W maximum, varie selon capacité et configuration"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 600 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Global wear leveling, bad block management, SMART, TRIM, over provisioning"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP1TBAS2280Q4U-1",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4U 1 To · PCIe 4.0 ×4. Référence AP1TBAS2280Q4U-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La fiche ne rattache pas chaque capacité au PCB simple ou double face. L’épaisseur du module nu reste non affectée ; toutes les enveloppes publiées sont détaillées."
+    ]
+  },
+  "import-ssd-ecc3f1e15532": {
+    "mpn": "AP512GAS2280Q4U-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Apacer_Consumer_PCIe_Gen4_M.2_2280_SSD_AS2280Q4U_3D%20NAND_Spec_v1.1.pdf",
+        "checkedAt": "2026-11-10T14:33:58.415014+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4U.pdf",
+        "checkedAt": "2026-11-10T14:34:00.067912+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP512GAS2280Q4U-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "512 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "7000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "3000 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "450000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "300000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "350 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.4"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280, 75 contacts"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D NAND"
+          },
+          {
+            "label": "Garantie",
+            "value": "5 ans ou TBW, première limite atteinte"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Fourni séparément, à installer au choix"
+          },
+          {
+            "label": "Dimensions du module nu",
+            "value": "80 × 22 × 2,25 mm (simple face) ou 3,5 mm (double face)"
+          },
+          {
+            "label": "Dimensions avec dissipateur",
+            "value": "80 × 22,9 × 10,8 mm maximum"
+          },
+          {
+            "label": "Consommation active",
+            "value": "9,7 W maximum, varie selon capacité et configuration"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 600 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Global wear leveling, bad block management, SMART, TRIM, over provisioning"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP512GAS2280Q4U-1",
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4U 512 Go · PCIe 4.0 ×4. Référence AP512GAS2280Q4U-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "La fiche ne rattache pas chaque capacité au PCB simple ou double face. L’épaisseur du module nu reste non affectée ; toutes les enveloppes publiées sont détaillées."
+    ]
+  },
+  "import-ssd-ca7f0d0cb1d1": {
+    "mpn": "AP500GAS2280Q4-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/AS2280Q4_Spec_Sheet_rev1-1.pdf",
+        "checkedAt": "2026-11-10T14:26:45.254656+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4.pdf",
+        "checkedAt": "2026-11-10T14:26:42.891632+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP500GAS2280Q4-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "500 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "4500 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "2500 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "150000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "300000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "400 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Garantie",
+            "value": "3 ans limitée, selon la fiche commerciale"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur dédié fourni"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6,7 W maximum"
+          },
+          {
+            "label": "Consommation en état d’économie",
+            "value": "Inférieure à 21,12 mW"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Bad block management, SMART, power failure management, TRIM, over provisioning"
+          },
+          {
+            "label": "Dimensions · divergence",
+            "value": "PDF technique : 3,88 mm dans le résumé et 1,20/1,35 mm dans le plan ; fiche commerciale : 2,25/3,50 mm selon PCB"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP500GAS2280Q4-1",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4 500 Go · PCIe 4.0 ×4. Référence AP500GAS2280Q4-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Les documents officiels divergent sur l’épaisseur. Aucune hauteur unique n’est inventée."
+    ]
+  },
+  "import-ssd-b02ff2653f35": {
+    "mpn": "AP2TBAS2280Q4-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/AS2280Q4_Spec_Sheet_rev1-1.pdf",
+        "checkedAt": "2026-11-10T14:26:45.254656+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4.pdf",
+        "checkedAt": "2026-11-10T14:26:42.891632+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP2TBAS2280Q4-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "2000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4400 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "3350 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Garantie",
+            "value": "3 ans limitée, selon la fiche commerciale"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur dédié fourni"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6,7 W maximum"
+          },
+          {
+            "label": "Consommation en état d’économie",
+            "value": "Inférieure à 21,12 mW"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Bad block management, SMART, power failure management, TRIM, over provisioning"
+          },
+          {
+            "label": "Dimensions · divergence",
+            "value": "PDF technique : 3,88 mm dans le résumé et 1,20/1,35 mm dans le plan ; fiche commerciale : 2,25/3,50 mm selon PCB"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP2TBAS2280Q4-1",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4 2 To · PCIe 4.0 ×4. Référence AP2TBAS2280Q4-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Les documents officiels divergent sur l’épaisseur. Aucune hauteur unique n’est inventée."
+    ]
+  },
+  "import-ssd-403cd8d132e7": {
+    "mpn": "AP1TBAS2280Q4-1",
+    "identityNote": "Référence exacte rapprochée de la capacité et de la série dans le document cité.",
+    "sources": [
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/AS2280Q4_Spec_Sheet_rev1-1.pdf",
+        "checkedAt": "2026-11-10T14:26:45.254656+00:00",
+        "kind": "manufacturer"
+      },
+      {
+        "name": "Apacer — fiche technique",
+        "url": "https://www.apacer.com/upload/media/download/Personal-biz/Specification%20Sheet/Data%20Sheet_AS2280Q4.pdf",
+        "checkedAt": "2026-11-10T14:26:42.891632+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Stockage · identification et performances",
+        "rows": [
+          {
+            "label": "Référence fabricant",
+            "value": "AP1TBAS2280Q4-1"
+          },
+          {
+            "label": "Capacité",
+            "value": "1000 Go"
+          },
+          {
+            "label": "Lecture séquentielle",
+            "value": "5000 Mo/s maximum"
+          },
+          {
+            "label": "Écriture séquentielle",
+            "value": "4400 Mo/s maximum"
+          },
+          {
+            "label": "Lecture aléatoire",
+            "value": "750000 IOPS maximum"
+          },
+          {
+            "label": "Écriture aléatoire",
+            "value": "750000 IOPS maximum"
+          },
+          {
+            "label": "Endurance TBW",
+            "value": "1650 TBW"
+          },
+          {
+            "label": "Interface et protocole",
+            "value": "PCIe 4.0 x4 NVMe 1.3"
+          },
+          {
+            "label": "Format M.2",
+            "value": "2280"
+          },
+          {
+            "label": "Type NAND",
+            "value": "3D TLC"
+          },
+          {
+            "label": "Garantie",
+            "value": "3 ans limitée, selon la fiche commerciale"
+          },
+          {
+            "label": "Dissipateur",
+            "value": "Dissipateur dédié fourni"
+          },
+          {
+            "label": "Consommation active",
+            "value": "6,7 W maximum"
+          },
+          {
+            "label": "Consommation en état d’économie",
+            "value": "Inférieure à 21,12 mW"
+          },
+          {
+            "label": "Alimentation",
+            "value": "3,3 V ± 5 %"
+          },
+          {
+            "label": "MTBF",
+            "value": "Plus de 1 500 000 heures"
+          },
+          {
+            "label": "Température de fonctionnement",
+            "value": "0 à 70 °C"
+          },
+          {
+            "label": "Température de stockage",
+            "value": "−40 à 85 °C"
+          },
+          {
+            "label": "Résistance aux chocs",
+            "value": "1 500 G"
+          },
+          {
+            "label": "Gestion de la mémoire",
+            "value": "Bad block management, SMART, power failure management, TRIM, over provisioning"
+          },
+          {
+            "label": "Dimensions · divergence",
+            "value": "PDF technique : 3,88 mm dans le résumé et 1,20/1,35 mm dans le plan ; fiche commerciale : 2,25/3,50 mm selon PCB"
+          },
+          {
+            "label": "Longueur",
+            "value": "80 mm"
+          },
+          {
+            "label": "Largeur",
+            "value": "22 mm"
+          }
+        ]
+      }
+    ],
+    "patch": {
+      "manufacturerPartNumber": "AP1TBAS2280Q4-1",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "description": "Apacer AS2280Q4 1 To · PCIe 4.0 ×4. Référence AP1TBAS2280Q4-1 : caractéristiques et limites documentées dans la fiche détaillée."
+    },
+    "offers": [],
+    "notes": [
+      "Les documents officiels divergent sur l’épaisseur. Aucune hauteur unique n’est inventée."
+    ]
+  }
+}

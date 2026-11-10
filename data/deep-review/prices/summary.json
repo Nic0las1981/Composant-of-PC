@@ -1,0 +1,56 @@
+{
+  "referenceRecords": 963,
+  "observedOffers": 1269,
+  "outcomes": [
+    {
+      "retailer": "Amazon",
+      "status": "search_unavailable",
+      "count": 4636
+    },
+    {
+      "retailer": "Fnac",
+      "status": "exact_offer_observed",
+      "count": 259
+    },
+    {
+      "retailer": "Fnac",
+      "status": "exact_product_without_admissible_offer",
+      "count": 11
+    },
+    {
+      "retailer": "Fnac",
+      "status": "no_exact_match",
+      "count": 5375
+    },
+    {
+      "retailer": "LDLC",
+      "status": "exact_offer_observed",
+      "count": 152
+    },
+    {
+      "retailer": "LDLC",
+      "status": "no_exact_match",
+      "count": 1493
+    },
+    {
+      "retailer": "LDLC",
+      "status": "search_unavailable",
+      "count": 2991
+    },
+    {
+      "retailer": "PcComponentes",
+      "status": "exact_offer_observed",
+      "count": 810
+    },
+    {
+      "retailer": "PcComponentes",
+      "status": "exact_product_without_admissible_offer",
+      "count": 1
+    },
+    {
+      "retailer": "PcComponentes",
+      "status": "no_exact_match",
+      "count": 3825
+    }
+  ]
+}

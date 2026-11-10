@@ -1,0 +1,3238 @@
+[
+  {
+    "mpn": "SKC3000S/512G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "KC3000",
+    "patch": {
+      "manufacturerPartNumber": "SKC3000S/512G",
+      "capacityGB": 512,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.21,
+      "storageHeatsink": true,
+      "powerW": 4.1
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SKC3000S/512G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "512 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "3900 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "400 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "Refroidissement",
+        "value": "Diffuseur thermique bas profil graphène-aluminium"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.21 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "4.1 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SKC3000S/512G",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "capacityGB": {
+        "value": 512,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "heightMm": {
+        "value": 2.21,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "powerW": {
+        "value": 4.1,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "write": {
+        "value": "3900 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "endurance": {
+        "value": "400 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SKC3000S/1024G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "KC3000",
+    "patch": {
+      "manufacturerPartNumber": "SKC3000S/1024G",
+      "capacityGB": 1024,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.21,
+      "storageHeatsink": true,
+      "powerW": 6.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SKC3000S/1024G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1024 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "800 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "Refroidissement",
+        "value": "Diffuseur thermique bas profil graphène-aluminium"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.21 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "6.3 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SKC3000S/1024G",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "capacityGB": {
+        "value": 1024,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "heightMm": {
+        "value": 2.21,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "powerW": {
+        "value": 6.3,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "write": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "endurance": {
+        "value": "800 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SKC3000D/2048G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "KC3000",
+    "patch": {
+      "manufacturerPartNumber": "SKC3000D/2048G",
+      "capacityGB": 2048,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.5,
+      "storageHeatsink": true,
+      "powerW": 9.9
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SKC3000D/2048G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2048 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "1600 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "Refroidissement",
+        "value": "Diffuseur thermique bas profil graphène-aluminium"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 3.5 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "9.9 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SKC3000D/2048G",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "capacityGB": {
+        "value": 2048,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "heightMm": {
+        "value": 3.5,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "powerW": {
+        "value": 9.9,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "endurance": {
+        "value": "1600 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SKC3000D/4096G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "KC3000",
+    "patch": {
+      "manufacturerPartNumber": "SKC3000D/4096G",
+      "capacityGB": 4096,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.5,
+      "storageHeatsink": true,
+      "powerW": 10.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SKC3000D/4096G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4096 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "3200 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "Refroidissement",
+        "value": "Diffuseur thermique bas profil graphène-aluminium"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 3.5 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "10.2 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SKC3000D/4096G",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "capacityGB": {
+        "value": 4096,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "heightMm": {
+        "value": 3.5,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "powerW": {
+        "value": 10.2,
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "read": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      },
+      "endurance": {
+        "value": "3200 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.967765+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/KC3000_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV3S/500G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV3",
+    "patch": {
+      "manufacturerPartNumber": "SNV3S/500G",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV3S/500G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "500 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "5000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "3000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "160 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV3S/500G",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "read": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "write": {
+        "value": "3000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "endurance": {
+        "value": "160 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV3S/1000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV3",
+    "patch": {
+      "manufacturerPartNumber": "SNV3S/1000G",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV3S/1000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "4000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "320 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV3S/1000G",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "read": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "write": {
+        "value": "4000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "endurance": {
+        "value": "320 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV3S/2000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV3",
+    "patch": {
+      "manufacturerPartNumber": "SNV3S/2000G",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV3S/2000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "5000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "640 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV3S/2000G",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "read": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "write": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "endurance": {
+        "value": "640 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV3S/4000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV3",
+    "patch": {
+      "manufacturerPartNumber": "SNV3S/4000G",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV3S/4000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "5000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "1280 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV3S/4000G",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "read": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "write": {
+        "value": "5000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      },
+      "endurance": {
+        "value": "1280 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+        "checkedAt": "2026-11-10T14:22:26.980512+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/snv3s_us.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV2S/250G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV2",
+    "patch": {
+      "manufacturerPartNumber": "SNV2S/250G",
+      "capacityGB": 250,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV2S/250G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "250 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "3000 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "1300 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "3 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "80 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.2 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV2S/250G",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "capacityGB": {
+        "value": 250,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "heightMm": {
+        "value": 2.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "read": {
+        "value": "3000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "write": {
+        "value": "1300 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "warranty": {
+        "value": "3 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "endurance": {
+        "value": "80 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV2S/500G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV2",
+    "patch": {
+      "manufacturerPartNumber": "SNV2S/500G",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV2S/500G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "500 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "2100 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "3 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "160 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.2 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV2S/500G",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "heightMm": {
+        "value": 2.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "write": {
+        "value": "2100 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "warranty": {
+        "value": "3 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "endurance": {
+        "value": "160 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV2S/1000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV2",
+    "patch": {
+      "manufacturerPartNumber": "SNV2S/1000G",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV2S/1000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "2100 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "3 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "320 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.2 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV2S/1000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "heightMm": {
+        "value": 2.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "write": {
+        "value": "2100 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "warranty": {
+        "value": "3 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "endurance": {
+        "value": "320 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV2S/2000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV2",
+    "patch": {
+      "manufacturerPartNumber": "SNV2S/2000G",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV2S/2000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "2800 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "3 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "640 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.2 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV2S/2000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "heightMm": {
+        "value": 2.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "write": {
+        "value": "2800 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "warranty": {
+        "value": "3 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "endurance": {
+        "value": "640 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SNV2S/4000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "NV2",
+    "patch": {
+      "manufacturerPartNumber": "SNV2S/4000G",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SNV2S/4000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "3500 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "2800 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "3 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "1280 TBW"
+      },
+      {
+        "label": "NAND / disposition",
+        "value": "NAND 3D · circuit simple face"
+      },
+      {
+        "label": "Masse / MTBF / température",
+        "value": "7 g · 2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.2 mm"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SNV2S/4000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "heightMm": {
+        "value": 2.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "read": {
+        "value": "3500 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "write": {
+        "value": "2800 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "warranty": {
+        "value": "3 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      },
+      "endurance": {
+        "value": "1280 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+        "checkedAt": "2026-11-10T14:22:27.516979+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SNV2S_de.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYR2S/1T0",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "FURY Renegade G5",
+    "patch": {
+      "manufacturerPartNumber": "SFYR2S/1T0",
+      "capacityGB": 1024,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "powerW": 6.6
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYR2S/1T0"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1024 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "14200 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "11000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 5.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "1000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "SM2508 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "DirectStorage",
+        "value": "Pris en charge"
+      },
+      {
+        "label": "Puissance moyenne MobileMark",
+        "value": "0,27 W"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "6.6 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYR2S/1T0",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "capacityGB": {
+        "value": 1024,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "powerW": {
+        "value": 6.6,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "read": {
+        "value": "14200 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "write": {
+        "value": "11000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 5.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "endurance": {
+        "value": "1000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYR2S/2T0",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "FURY Renegade G5",
+    "patch": {
+      "manufacturerPartNumber": "SFYR2S/2T0",
+      "capacityGB": 2048,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "powerW": 7
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYR2S/2T0"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2048 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "14700 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "14000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 5.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "2000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "SM2508 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "DirectStorage",
+        "value": "Pris en charge"
+      },
+      {
+        "label": "Puissance moyenne MobileMark",
+        "value": "0,27 W"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "7 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYR2S/2T0",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "capacityGB": {
+        "value": 2048,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "powerW": {
+        "value": 7,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "read": {
+        "value": "14700 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "write": {
+        "value": "14000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 5.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "endurance": {
+        "value": "2000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYR2S/4T0",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "FURY Renegade G5",
+    "patch": {
+      "manufacturerPartNumber": "SFYR2S/4T0",
+      "capacityGB": 4096,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 2.3,
+      "powerW": 9.5
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYR2S/4T0"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4096 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "14800 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "14000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 5.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "4000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "SM2508 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "DirectStorage",
+        "value": "Pris en charge"
+      },
+      {
+        "label": "Puissance moyenne MobileMark",
+        "value": "0,27 W"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 2.3 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "9.5 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYR2S/4T0",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "capacityGB": {
+        "value": 4096,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "heightMm": {
+        "value": 2.3,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "powerW": {
+        "value": 9.5,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "read": {
+        "value": "14800 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "write": {
+        "value": "14000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 5.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "endurance": {
+        "value": "4000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYR2D/8T1",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "FURY Renegade G5",
+    "patch": {
+      "manufacturerPartNumber": "SFYR2D/8T1",
+      "capacityGB": 8192,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 22,
+      "heightMm": 3.65,
+      "powerW": 9.5
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYR2D/8T1"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "8192 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "14800 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "14000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 5.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "8000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "SM2508 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "DirectStorage",
+        "value": "Pris en charge"
+      },
+      {
+        "label": "Puissance moyenne MobileMark",
+        "value": "0,27 W"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 22 × 3.65 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "9.5 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYR2D/8T1",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "capacityGB": {
+        "value": 8192,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "widthMm": {
+        "value": 22,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "heightMm": {
+        "value": 3.65,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "powerW": {
+        "value": 9.5,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "read": {
+        "value": "14800 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "write": {
+        "value": "14000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 5.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      },
+      "endurance": {
+        "value": "8000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+        "checkedAt": "2026-11-10T14:22:27.423699+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR2S_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRSK/1000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade with Heat Sink",
+    "patch": {
+      "manufacturerPartNumber": "SFYRSK/1000G",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 23.67,
+      "heightMm": 10.5,
+      "storageHeatsink": true,
+      "powerW": 6.3
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRSK/1000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "1000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 23.67 × 10.5 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "6.3 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRSK/1000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "widthMm": {
+        "value": 23.67,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "heightMm": {
+        "value": 10.5,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "powerW": {
+        "value": 6.3,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "write": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "endurance": {
+        "value": "1000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRDK/2000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade with Heat Sink",
+    "patch": {
+      "manufacturerPartNumber": "SFYRDK/2000G",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 23.67,
+      "heightMm": 10.5,
+      "storageHeatsink": true,
+      "powerW": 9.9
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRDK/2000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "2000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 23.67 × 10.5 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "9.9 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRDK/2000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "widthMm": {
+        "value": 23.67,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "heightMm": {
+        "value": 10.5,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "powerW": {
+        "value": 9.9,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "endurance": {
+        "value": "2000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRDK/4000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade with Heat Sink",
+    "patch": {
+      "manufacturerPartNumber": "SFYRDK/4000G",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe",
+      "lengthMm": 80,
+      "widthMm": 23.67,
+      "heightMm": 10.5,
+      "storageHeatsink": true,
+      "powerW": 10.2
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRDK/4000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      },
+      {
+        "label": "Endurance totale publiée",
+        "value": "4000 TBW"
+      },
+      {
+        "label": "Contrôleur / NAND / DRAM",
+        "value": "Phison E18 · NAND 3D TLC · cache DRAM présent"
+      },
+      {
+        "label": "MTBF / température de fonctionnement",
+        "value": "2 000 000 heures · 0 à 70 °C"
+      },
+      {
+        "label": "Dimensions L × l × H",
+        "value": "80 × 23.67 × 10.5 mm"
+      },
+      {
+        "label": "Puissance maximale publiée",
+        "value": "10.2 W"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRDK/4000G",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "lengthMm": {
+        "value": 80,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "widthMm": {
+        "value": 23.67,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "heightMm": {
+        "value": 10.5,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "storageHeatsink": {
+        "value": true,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "powerW": {
+        "value": 10.2,
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      },
+      "endurance": {
+        "value": "4000 TBW",
+        "sourceURL": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+        "checkedAt": "2026-11-10T14:22:26.938055+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://www.kingston.com/datasheets/SFYR_en.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRS/500G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade",
+    "patch": {
+      "manufacturerPartNumber": "SFYRS/500G",
+      "capacityGB": 500,
+      "storageInterface": "M.2 NVMe"
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRS/500G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "500 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "3900 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRS/500G",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "capacityGB": {
+        "value": 500,
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "write": {
+        "value": "3900 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRS/1000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade",
+    "patch": {
+      "manufacturerPartNumber": "SFYRS/1000G",
+      "capacityGB": 1000,
+      "storageInterface": "M.2 NVMe"
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRS/1000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "1000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "6000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRS/1000G",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "capacityGB": {
+        "value": 1000,
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "write": {
+        "value": "6000 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRD/2000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade",
+    "patch": {
+      "manufacturerPartNumber": "SFYRD/2000G",
+      "capacityGB": 2000,
+      "storageInterface": "M.2 NVMe"
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRD/2000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "2000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRD/2000G",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "capacityGB": {
+        "value": 2000,
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+    "formFactor": "M.2 2280"
+  },
+  {
+    "mpn": "SFYRD/4000G",
+    "brand": "Kingston",
+    "category": "storage",
+    "family": "Fury Renegade",
+    "patch": {
+      "manufacturerPartNumber": "SFYRD/4000G",
+      "capacityGB": 4000,
+      "storageInterface": "M.2 NVMe"
+    },
+    "sources": [
+      {
+        "name": "Kingston — tableau fabricant par capacité et références exactes",
+        "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "rows": [
+      {
+        "label": "Référence fabricant",
+        "value": "SFYRD/4000G"
+      },
+      {
+        "label": "Capacité nominale publiée",
+        "value": "4000 Go"
+      },
+      {
+        "label": "Lecture séquentielle maximale",
+        "value": "7300 Mo/s"
+      },
+      {
+        "label": "Écriture séquentielle maximale",
+        "value": "7000 Mo/s"
+      },
+      {
+        "label": "Format M.2",
+        "value": "M.2 2280"
+      },
+      {
+        "label": "Interface PCIe",
+        "value": "PCIe 4.0 ×4"
+      },
+      {
+        "label": "Garantie limitée / usure",
+        "value": "5 ans limités"
+      }
+    ],
+    "fieldEvidence": {
+      "manufacturerPartNumber": {
+        "value": "SFYRD/4000G",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "capacityGB": {
+        "value": 4000,
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "storageInterface": {
+        "value": "M.2 NVMe",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "read": {
+        "value": "7300 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "write": {
+        "value": "7000 Mo/s",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "formFactor": {
+        "value": "M.2 2280",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "interfaceGeneration": {
+        "value": "PCIe 4.0 ×4",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      },
+      "warranty": {
+        "value": "5 ans limités",
+        "sourceURL": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+        "checkedAt": "2026-11-10T14:22:27.539123+00:00"
+      }
+    },
+    "images": [],
+    "url": "https://media.kingston.com/pdfs/SSDFamilyFlyer_mkf_952.pdf",
+    "formFactor": "M.2 2280"
+  }
+]

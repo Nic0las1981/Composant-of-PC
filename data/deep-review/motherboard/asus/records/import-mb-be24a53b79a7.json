@@ -1,0 +1,264 @@
+{
+  "review": {
+    "id": "import-mb-be24a53b79a7",
+    "name": "TUF GAMING B550-PLUS",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "sha256": "3435c415cefee1ccbc51bd19db1ce7fdc9fd3a7eb0eec16540c39777a94edfcd",
+        "bytes": 355668,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "TUF GAMING B550-PLUS",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/308e8189-5ea1-4ead-b5ef-2aa7b2c2692e/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphic",
+      "Multi-GPU Support",
+      "Expansion Slots",
+      "Storage",
+      "LAN",
+      "Wireless Data Network",
+      "Audio",
+      "USB Ports",
+      "Software Features",
+      "ASUS Special Features",
+      "Back I/O Ports",
+      "Internal I/O Ports",
+      "Accessories",
+      "BIOS",
+      "Manageability",
+      "Operating System",
+      "Form Factor",
+      "Note"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "TUF GAMING B550-PLUS",
+    "identityNote": "Modèle ASUS TUF GAMING B550-PLUS confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "AM4",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "formFactor": "ATX",
+      "heightMm": 305.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "TUF GAMING B550-PLUS",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *\n* Refer to www.asus.com for CPU support list."
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD B550"
+          },
+          {
+            "label": "Mémoire",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n4 x DIMM, Max. 128GB, DDR4 4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3333(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory *\nAMD RyzenTM 4000 G-Series Processors\n4 x DIMM, Max. 128GB, DDR4 4800(O.C.)/4600(O.C)/4466(O.C.)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3733(O.C.)/3600(O.C.)/3466(O.C.)/3333(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory \nDual Channel Memory Architecture \nECC Memory (ECC mode) support varies by CPU.\n* Refer to www.asus.com for the Memory QVL (Qualified Vendors Lists)."
+          },
+          {
+            "label": "Graphic",
+            "value": "1  x DisplayPort 1.2 \n1  x HDMI 2.1(4K@60HZ) \n*Graphics specifications may vary between CPU types."
+          },
+          {
+            "label": "Multi-GPU Support",
+            "value": "Supports AMD 2-Way CrossFireX Technology"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode) \nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 (x16 mode) \nAMD B550 Chipset\n1 x PCIe 3.0 x16 (x4 mode) \n3 x PCIe 3.0 x1 \n* Support PCIe bifurcation for RAID on CPU function."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors :\n1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support\nAMD B550 Chipset :\n1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support*2\n6 x SATA 6Gb/s port(s), \nSupport Raid 0, 1, 10"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "Realtek RTL8125B 2.5Gb Ethernet\nTUF LANGuard"
+          },
+          {
+            "label": "Wireless Data Network",
+            "value": "M.2 slot only (Key E) (Support PCIe interface)* \n*Wi-Fi module is sold separately."
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek ALC S1200A 7.1 Surround Sound High Definition Audio CODEC \n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback\nAudio Feature :\n- Exclusive DTS Custom for GAMING Headsets.\n- Optical S/PDIF out port(s) at back panel\n- Audio cover\n- Audio Shielding\n- Dedicated audio PCB layers\n- Unique de-pop circuit"
+          },
+          {
+            "label": "USB Ports",
+            "value": "Rear USB Port ( Total 8  ) \n2 x USB 3.2 Gen 2 port(s)(1 x Type-A +1 x USB Type-C®)\n4 x USB 3.2 Gen 1 port(s)( x Type-A)\n2 x USB 2.0 port(s)( x Type-A)\nFront USB Port ( Total 6  ) \n2 x USB 3.2 Gen 1 port(s)(2 x Type-A)\n4 x USB 2.0 port(s)(4 x Type-A)"
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nArmoury Crate\n- Aura Creator\n- Aura Sync\n- AI Noise Cancelling Microphone\nAI Suite 3\n- Performance And Power Saving Utility\n TurboV EVO\n EPU \n Digi+ VRM\n Fan Xpert 4\n- EZ update\nTUF GAMING CPU-Z\nAI Charger \nASUS Turbo LAN\nDAEMON Tools\nDTS Custom for GAMING Headsets\nNorton Anti-virus software (Free Trial for 60 days) \nWinRAR\nUEFI BIOS\nASUS EZ DIY \n- ASUS CrashFree BIOS 3 \n- ASUS EZ Flash 3 \n- ASUS UEFI BIOS EZ Mode"
+          },
+          {
+            "label": "ASUS Special Features",
+            "value": "ASUS TUF PROTECTION\n- ASUS DIGI+ VRM (Digital power design with Dr. MOS)\n- ASUS Enhanced DRAM Overcurrent Protection\n- ASUS ESD Guards\n- TUF LANGuard\n- ASUS Overvoltage Protection\n- ASUS SafeSlot\n- ASUS Stainless-Steel Back I/O\nASUS Q-Design \n- ASUS Q-DIMM\n- ASUS Q-LED (CPU [red], DRAM [yellow], VGA [white], Boot Device [yellow green])\n- ASUS Q-Slot\nASUS Thermal Solution\n- Aluminum M.2 heatsink \nASUS EZ DIY\n- BIOS FlashBack™ button\n- BIOS FlashBack™ LED\n- Procool\nAURA Sync\n- Standard RGB headers\n- Addressable Gen 2 RGB header"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "1 x DisplayPort\n1 x HDMI\n1 x LAN (2.5G) port(s)\n2 x USB 3.2 Gen 2 (teal blue) (1 x Type-A+1 x USB Type-C®) \n4 x USB 3.2 Gen 1 (blue) Type-A \n2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™) \n1 x Optical S/PDIF out\n5 x Audio jack(s)\n1 x BIOS FlashBack™ Button(s)"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "1 x CPU Fan connector(s) \n1 x CPU OPT Fan connector(s) \n3 x Chassis Fan connector(s) \n1 x AIO_PUMP connector \n2 x Aura RGB Strip Headers\n1 x Addressable Gen 2 header(s)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s) \n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x M.2 with E key for Wi-Fi module\n1 x SPI TPM header\n6 x SATA 6Gb/s connector(s)\n1 x Thunderbolt header(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x COM port header"
+          },
+          {
+            "label": "Accessoires",
+            "value": "User´s manual\nI/O Shield\n2 x SATA 6Gb/s cable(s)\n1 x Supporting DVD\n1 x TUF Gaming Sticker\n1 x TUF Certification card(s)\n1 x M.2 SSD screw package(s)\n1 x M.2 Rubber Package(s)"
+          },
+          {
+            "label": "BIOS",
+            "value": "256 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PXE"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "ATX Form Factor \n12  inch x 9.6  inch ( 30.5  cm x 24.4  cm )"
+          },
+          {
+            "label": "Note",
+            "value": "*1 PCIE 3.0 X16_2 runs x1 mode when any of the PCIe 3.0 x1 slots is occupied.\n*2 M2_2 shares bandwidth with SATA6G_56. When M.2_2 is populated, SATA6G_56 will be disabled."
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/308e8189-5ea1-4ead-b5ef-2aa7b2c2692e/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "formFactor": {
+        "value": "ATX Form Factor \n12  inch x 9.6  inch ( 30.5  cm x 24.4  cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "boardDimensions": {
+        "value": "ATX Form Factor \n12  inch x 9.6  inch ( 30.5  cm x 24.4  cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "chipset": {
+        "value": "AMD B550",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slot(s) and 6 x SATA 6Gb/s ports\nAMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors :\n1 x M.2 Socket 3, with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors :\n1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support\nAMD B550 Chipset :\n1 x M.2 Socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support*2\n6 x SATA 6Gb/s port(s), \nSupport Raid 0, 1, 10",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "pcie": {
+        "value": "AMD Ryzen™ 5000 Series/ 3000 Series Desktop Processors\n1 x PCIe 4.0 x16 (x16 mode) \nAMD Ryzen™ 5000 G-Series/ 4000 G-Series Desktop Processors\n1 x PCIe 3.0 x16 (x16 mode) \nAMD B550 Chipset\n1 x PCIe 3.0 x16 (x4 mode) \n3 x PCIe 3.0 x1 \n* Support PCIe bifurcation for RAID on CPU function.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "rearIO": {
+        "value": "1 x DisplayPort\n1 x HDMI\n1 x LAN (2.5G) port(s)\n2 x USB 3.2 Gen 2 (teal blue) (1 x Type-A+1 x USB Type-C®) \n4 x USB 3.2 Gen 1 (blue) Type-A \n2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™) \n1 x Optical S/PDIF out\n5 x Audio jack(s)\n1 x BIOS FlashBack™ Button(s)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "internalIO": {
+        "value": "1 x CPU Fan connector(s) \n1 x CPU OPT Fan connector(s) \n3 x Chassis Fan connector(s) \n1 x AIO_PUMP connector \n2 x Aura RGB Strip Headers\n1 x Addressable Gen 2 header(s)\n1 x USB 3.2 Gen 1(up to 5Gbps) connector(s) support(s) additional 2 USB 3.2 Gen 1 port(s) \n2 x USB 2.0 connector(s) support(s) additional 4 USB 2.0 port(s)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support(SATA & PCIe 4.0 x4 mode)\n1 x M.2 Socket 3 with M key, type 2242/2260/2280/22110 storage devices support (SATA & PCIE 3.0 x 4 mode)\n1 x M.2 with E key for Wi-Fi module\n1 x SPI TPM header\n6 x SATA 6Gb/s connector(s)\n1 x Thunderbolt header(s)\n1 x 24-pin EATX Power connector(s)\n1 x 8-pin EATX 12V Power connectors\n1 x Front panel audio connector(s) (AAFP)\n1 x Thermal sensor connector(s)\n1 x Clear CMOS jumper(s)\n1 x System panel connector\n1 x COM port header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "network": {
+        "value": "Realtek RTL8125B 2.5Gb Ethernet\nTUF LANGuard",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "audio": {
+        "value": "Realtek ALC S1200A 7.1 Surround Sound High Definition Audio CODEC \n- Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback\nAudio Feature :\n- Exclusive DTS Custom for GAMING Headsets.\n- Optical S/PDIF out port(s) at back panel\n- Audio cover\n- Audio Shielding\n- Dedicated audio PCB layers\n- Unique de-pop circuit",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      },
+      "cpuSupport": {
+        "value": "AMD AM4 Socket for AMD Ryzen™ 5000 Series/ 5000 G-Series/ 4000 G-Series/ 3000 Series Desktop Processors *\n* Refer to www.asus.com for CPU support list.\nBIOS: 256 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/techspec/",
+        "checkedAt": "2026-11-10T13:26:19+00:00"
+      }
+    },
+    "manufacturerModel": "TUF GAMING B550-PLUS"
+  }
+}

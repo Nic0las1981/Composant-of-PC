@@ -1,0 +1,17 @@
+{
+  "query": "site:evga.com power supply \"W3\" manual pdf",
+  "checkedAt": "2026-11-10T15:33:18.133Z",
+  "urls": [],
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "web_search_exa error (429): You've exceeded your per-user rate limit of 10 requests per second. If you want this increased, please contact the team owner.\nTimestamp: 2026-11-10T15:33:17.867Z"
+      }
+    ],
+    "structuredContent": {
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  }
+}

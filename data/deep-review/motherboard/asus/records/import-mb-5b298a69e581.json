@@ -1,0 +1,244 @@
+{
+  "review": {
+    "id": "import-mb-5b298a69e581",
+    "name": "EX-H610M-V3 D4",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "sha256": "55d1e91b7ddd95ff9f52ac8ae503084b5d06b810211b2604d05c3bc1d4a79ec1",
+        "bytes": 337058,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "EX-H610M-V3 D4",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/e2435acd-833d-49aa-ba3b-6afc89cda003/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "EX-H610M-V3 D4",
+    "identityNote": "Modèle ASUS EX-H610M-V3 D4 confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 2,
+      "maxMemoryGB": 64,
+      "formFactor": "Micro-ATX",
+      "heightMm": 234.0,
+      "widthMm": 203.0,
+      "manufacturerPartNumber": "EX-H610M-V3 D4",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th\nGen Processors, Intel® Core™ 12th Gen, Pentium® Gold and\nCeleron® Processors*\n Supports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n * Refer to www.asus.com for CPU support list.\n ** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® H610 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "2 x DIMM, Max. 64GB, DDR4 3200/3000/2933/2800/2666/2400/2133 Non-ECC, Un-buffered Memory*\n Dual Channel Memory Architecture\n Supports Intel® Extreme Memory Profile (XMP)\n * Actual memory data rate depends on the CPU types and DRAM modules, for more information refer to www.asus.com for memory support list."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "1 x HDMI® port**\n * Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates.\n ** Supports 4K@60Hz as specified in HDMI 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® Core™ Processors (14th &13th & 12th Gen)*\n 1 x PCIe 4.0 x16 slot\n Intel® H610 Chipset\n 1 x PCIe 3.0 x1 slot"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 3 x SATA 6Gb/s ports\nIntel® H610 Chipset\n 3 x SATA 6Gb/s ports"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek 1Gb Ethernet"
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 6 ports)\n 2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 4 x USB 2.0 ports (4 x Type-A)\n Front USB (Total 4 ports)\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 1 x USB 2.0 header supports additional 2 USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\"\n Audio Features\n - Audio Shielding\n - Dedicated audio PCB layers\n * A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 4 x USB 2.0 ports (4 x Type-A)\n 1 x HDMI® port\n 1 x Realtek 1Gb Ethernet port\n 3 x Audio jacks\n 1 x PS/2 Keyboard/Mouse combo port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header\n 1 x 4-pin Chassis Fan header\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n Storage related\n 3 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 1 x USB 2.0 header supports additional 2 USB 2.0 ports\n Miscellaneous\n 1 x Clear CMOS header\n 1 x Front Panel Audio header (AAFP)\n 1 x Speaker header\n 1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS 5X PROTECTION III\n - DIGI+ VRM\n - LANGuard\n - Overvoltage Protection\n - SafeSlot Core\n - Stainless-Steel Back I/O\n ASUS Q-Design\n - Q-DIMM\n - Q-Slot\n ASUS Thermal Solution\n - Aluminum heatsink design\n Non-stop Action\n - Lightning Boot\n Non-stop Challenger\n - ASUS iCafe labs certified\n Non-stop Durability\n - Anti-moisture coating\n - USBGuard"
+          },
+          {
+            "label": "BIOS",
+            "value": "128 Mb Flash ROM, UEFI AMI BIOS"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n 2 x SATA 6Gb/s cables\n Miscellaneous\n 1 x I/O Shield\n Installation Media\n 1 x Support DVD\n Documentation\n 1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11 64-bit, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor\n 9.2 inch x 8.0 inch ( 23.4 cm x 20.3 cm )"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/e2435acd-833d-49aa-ba3b-6afc89cda003/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "memorySlots": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "memoryCapacity": {
+        "value": 64,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor\n 9.2 inch x 8.0 inch ( 23.4 cm x 20.3 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor\n 9.2 inch x 8.0 inch ( 23.4 cm x 20.3 cm )",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "chipset": {
+        "value": "Intel® H610 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 3 x SATA 6Gb/s ports\nIntel® H610 Chipset\n 3 x SATA 6Gb/s ports",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "pcie": {
+        "value": "Intel® Core™ Processors (14th &13th & 12th Gen)*\n 1 x PCIe 4.0 x16 slot\n Intel® H610 Chipset\n 1 x PCIe 3.0 x1 slot",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n 4 x USB 2.0 ports (4 x Type-A)\n 1 x HDMI® port\n 1 x Realtek 1Gb Ethernet port\n 3 x Audio jacks\n 1 x PS/2 Keyboard/Mouse combo port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n 1 x 4-pin CPU Fan header\n 1 x 4-pin Chassis Fan header\n Power related\n 1 x 24-pin Main Power connector\n 1 x 8-pin +12V Power connector\n Storage related\n 3 x SATA 6Gb/s ports\n USB\n 1 x USB 3.2 Gen 1 header supports additional 2 USB 3.2 Gen 1 ports\n 1 x USB 2.0 header supports additional 2 USB 2.0 ports\n Miscellaneous\n 1 x Clear CMOS header\n 1 x Front Panel Audio header (AAFP)\n 1 x Speaker header\n 1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek 1Gb Ethernet",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Multi-streaming, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\"\n Audio Features\n - Audio Shielding\n - Dedicated audio PCB layers\n * A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th\nGen Processors, Intel® Core™ 12th Gen, Pentium® Gold and\nCeleron® Processors*\n Supports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n * Refer to www.asus.com for CPU support list.\n ** Intel® Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128 Mb Flash ROM, UEFI AMI BIOS",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-h610m-v3-d4/techspec/",
+        "checkedAt": "2026-11-10T13:27:56+00:00"
+      }
+    },
+    "manufacturerModel": "EX-H610M-V3 D4"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "import-ssd-5d263aa4a2d7",
+  "brand": "ASUS",
+  "manufacturerModel": "ROG Strix SQ7 Gen4 SSD 1TB",
+  "source": {
+    "name": "ASUS — tableau technique officiel, capacité exacte",
+    "url": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/",
+    "checkedAt": "2026-11-10T14:36:08+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/",
+    "checkedAt": "2026-11-10T14:36:08+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/",
+    "sha256": "53ff246e6ca9c6cae304a35d27740114590b451113037e026369b4c2e45069e9",
+    "bytes": 182527,
+    "status": "fetched"
+  },
+  "rows": {
+    "Color": "Black",
+    "Interface": "M.2 PCIe Gen 4X4",
+    "Speed": "7000MB/s",
+    "Capacity": "1TB",
+    "OS Compatility": "Windows® 7\nWindows® 8 / 8.1\nWindows® 8.1\nWindows® 10\nWindows11\nMac OS® X 10.6 and above\nMac OS Catalina or later\nChrome OS",
+    "Dimension": "80 mm(L)x 22 mm(W) x 3.5 mm(H)",
+    "Weight": "7.7g",
+    "Temperature": "Operating: 0℃(32℉) ~70℃(158℉)\nStorage: -40℃(-40℉) ~85℃(185℉)",
+    "Humidity": "Operating: 15%~90% (Non-Condensing)\nStorage: 10%~90% (Non-Condensing)",
+    "Voltage": "3.3V, 2A",
+    "Package Content": "Quick Installation Guide",
+    "SSD Dashboard System Requirement": "Windows® 10\nWindows® 11",
+    "NTI System Requirement": "Windows® 7\nWindows® 8.1\nWindows® 10\nWindows® 11",
+    "Model": "ROG Strix SQ7 Gen4 SSD 1TB"
+  },
+  "images": [
+    "https://dlcdnwebimgs.asus.com/gain/FC3B53D4-55AC-46C0-922B-1309F5765ECE"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/",
+        "checkedAt": "2026-11-10T14:36:08+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/spec/",
+        "sha256": "53ff246e6ca9c6cae304a35d27740114590b451113037e026369b4c2e45069e9",
+        "bytes": 182527,
+        "status": "fetched"
+      },
+      "title": "ROG Strix SQ7 Gen4 SSD 1TB"
+    }
+  ],
+  "patch": {
+    "storageInterface": "M.2 NVMe"
+  },
+  "additionalSources": [
+    {
+      "name": "ASUS — présentation officielle du modèle exact",
+      "url": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "extraFieldEvidence": {
+    "read": {
+      "value": "7000 MB/s maximum",
+      "sourceURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00"
+    },
+    "write": {
+      "value": "6000 MB/s maximum",
+      "sourceURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00"
+    },
+    "formFactor": {
+      "value": "M.2 2280",
+      "sourceURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00"
+    },
+    "interface": {
+      "value": "M.2 NVMe",
+      "sourceURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00"
+    },
+    "warranty": {
+      "value": "60 mois — conditions publiées sur la page constructeur",
+      "sourceURL": "https://rog.asus.com/storage/rog-strix-sq7-gen4-ssd-1tb-model/",
+      "checkedAt": "2026-11-10T15:00:16+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Compléments de la présentation constructeur",
+      "rows": [
+        {
+          "label": "Déclaration constructeur",
+          "value": "The ROG Strix SQ7 delivers up to 7000 MB/s sequential read speeds and up to 6000 MB/s sequential write speeds. This is double the speed of standard PCIe 3.0 SSDs, and up to 13X faster than SATA SSDs*."
+        },
+        {
+          "label": "Déclaration constructeur",
+          "value": "The Strix SQ7 has a compact M.2 2280 form factor that perfectly fits laptops, desktop PCs and the PlayStation™ 5 console. It ensures superfast load times, making it ideal for gaming enthusiasts looking to boost storage performance."
+        },
+        {
+          "label": "Déclaration constructeur",
+          "value": "Product warranty period is calculated from the first purchase date. Proof of purchase (invoice or copy of invoice) is required for repair. If proof of purchase cannot be provided, the manufacture date as recorded by ASUS will be deemed to be the start of the warranty period. The 60-month warranty period is applied on the shorter of either: (A) From the identified time mentione"
+        }
+      ]
+    }
+  ]
+}

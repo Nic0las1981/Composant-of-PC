@@ -1,0 +1,346 @@
+{
+  "review": {
+    "id": "import-mb-2dec385d6d18",
+    "name": "B450M PRO-VDH",
+    "state": "exact_manufacturer_table",
+    "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+    "sections": [
+      "Socket",
+      "Chipset",
+      "Memory Channel",
+      "DIMM Slots",
+      "Max Memory (GB)",
+      "PCI-E x16",
+      "PCI-E Gen",
+      "PCI-E x1",
+      "SATAIII",
+      "M.2 Slot",
+      "RAID",
+      "TPM (header)",
+      "USB 3.1 ports (Front)",
+      "USB 3.1 ports (Rear)",
+      "USB 2.0 ports (Front)",
+      "USB 2.0 ports (Rear)",
+      "Serial ports(Front)",
+      "Audio ports (Rear)",
+      "DVI-D",
+      "VGA",
+      "HDMI",
+      "DirectX",
+      "CPU Support",
+      "Form Factor",
+      "Processor",
+      "Memory",
+      "Slots",
+      "Onboard Graphics",
+      "Storage",
+      "USB",
+      "Audio",
+      "LAN",
+      "Internal connectors",
+      "Back panel ports",
+      "Dimensions",
+      "Mounting",
+      "Operating System",
+      "Internal IO",
+      "BACK PANEL PORTS"
+    ],
+    "photos": [],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport",
+      "memoryCapacity"
+    ]
+  },
+  "product": {
+    "mpn": "B450M PRO-VDH",
+    "identityNote": "Modèle MSI B450M PRO-VDH confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "MSI — fiche technique officielle complète",
+        "url": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "memorySlots": 4,
+      "memoryType": "DDR4",
+      "maxMemoryGB": 128,
+      "m2Slots": 1,
+      "socket": "AM4",
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B450M PRO-VDH",
+      "description": "Carte mère MSI B450M PRO-VDH. Caractéristiques relevées dans la documentation du constructeur ; restrictions de processeur, de BIOS et de partage des lignes détaillées dans la fiche.",
+      "specs": [
+        "Socket AM4",
+        "4 emplacements DDR4",
+        "Mémoire maximale documentée : 128 Go",
+        "1 emplacement(s) M.2 PCIe/NVMe",
+        "Format Micro-ATX"
+      ],
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — MSI",
+        "rows": [
+          {
+            "label": "Socket",
+            "value": "AM4"
+          },
+          {
+            "label": "Chipset",
+            "value": "AMD® B450 chipset"
+          },
+          {
+            "label": "Memory Channel",
+            "value": "Dual"
+          },
+          {
+            "label": "DIMM Slots",
+            "value": "4"
+          },
+          {
+            "label": "Max Memory (GB)",
+            "value": "128"
+          },
+          {
+            "label": "PCI-E x16",
+            "value": "1"
+          },
+          {
+            "label": "PCI-E Gen",
+            "value": "Gen3"
+          },
+          {
+            "label": "PCI-E x1",
+            "value": "2"
+          },
+          {
+            "label": "SATAIII",
+            "value": "4"
+          },
+          {
+            "label": "M.2 Slot",
+            "value": "1"
+          },
+          {
+            "label": "RAID",
+            "value": "0/1/10"
+          },
+          {
+            "label": "TPM (header)",
+            "value": "1"
+          },
+          {
+            "label": "USB 3.1 ports (Front)",
+            "value": "2(Gen1)"
+          },
+          {
+            "label": "USB 3.1 ports (Rear)",
+            "value": "4(Gen1) Type A"
+          },
+          {
+            "label": "USB 2.0 ports (Front)",
+            "value": "4"
+          },
+          {
+            "label": "USB 2.0 ports (Rear)",
+            "value": "4"
+          },
+          {
+            "label": "Serial ports(Front)",
+            "value": "1"
+          },
+          {
+            "label": "Audio ports (Rear)",
+            "value": "3(Realtek® ALC892 Codec)"
+          },
+          {
+            "label": "DVI-D",
+            "value": "1"
+          },
+          {
+            "label": "VGA",
+            "value": "1"
+          },
+          {
+            "label": "HDMI",
+            "value": "1"
+          },
+          {
+            "label": "DirectX",
+            "value": "12"
+          },
+          {
+            "label": "CPU Support",
+            "value": "Support for Windows® 10 64-bitSupport for Windows® 7 64-bit* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "M-ATX"
+          },
+          {
+            "label": "Processeurs / socket",
+            "value": "Supports AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors for Socket AM4\n\n\nSee supported processors"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DDR4 memory slots, support up to 128GB *ComboPI 1.0.0.3-based and above BIOS are required.\n Supports 1866/ 2133/ 2400/ 2667Mhz (by JEDEC)\n\n Supports 2667/ 2800/ 2933/ 3000/ 3066/ 3200/ 3466 MHz (by A-XMP OC MODE)\n\n Dual channel memory architecture\n\n Supports ECC UDIMM memory (non-ECC mode)\n\n Support non-ECC UDIMM memory\n\nSee supported memory\nDIMM Slots: 4\nMax Memory (GB): 128\nMemory Channel: Dual"
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "1 x PCIe 3.0 x16 slot\n Supports x16 speed with AMD® Ryzen™ 1st and 2nd Generation processors\n\n Supports x8 speed with AMD® Ryzen™ with Radeon Vega Graphics processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon™ Vega Graphics Processors\n\n 2 x PCIe 2.0 x1 slots"
+          },
+          {
+            "label": "Onboard Graphics",
+            "value": "1 x VGA port, supports a maximum resolution of 2048x1280@60Hz, 1920x1200@60Hz123\n\n 1 x DVI-D port, supports a maximum resolution of 1920x1200@60Hz123\n\n 1 x HDMI™ 2.0b with HDR port, supports a maximum resolution of 4K @60Hz1234\n\nOnly support when using AMD® Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processor\n\n Due to CPU spec limitation, when using AMD Athlon™ with Radeon™ Vega Graphics Processors, it could support up to 2 display with HDMI™/ VGA output.\n\n Maximum shared memory of 2048 MB\n\n Graphics specifications may vary depending on the CPU installed."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "AMD® B450 Chipset\n\n4 x SATA 6Gb/s ports\n Supports RAID 0, RAID1 and RAID 10\n\n 1 x M.2 slot (Key M)\n Supports PCIe 3.0 x4 (AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics) and SATA 6Gb/s 2242/ 2260 /2280 storage devices"
+          },
+          {
+            "label": "USB",
+            "value": "AMD® B450 Chipset\n\n2 x USB 3.1 Gen1 (SuperSpeed USB) ports through the internal USB 3.1 Gen1 connector\n\n 8 x USB 2.0 (High-speed USB) ports (4 ports on the back panel, 4 ports available through the internal USB connectors)\n\nAMD® Processors\n\n4 x USB 3.1 Gen1 (SuperSpeed USB) Type-A ports on the back panel"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek® ALC892 Codec\n\n7.1-Channel High Definition Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Realtek® 8111H Gigabit LAN controller"
+          },
+          {
+            "label": "Internal connectors",
+            "value": "1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 4 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connector (supports additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin system fan connector\n\n 1 x Front panel audio connector\n\n 2 x Front panel connectors\n\n 1 x TPM module connector\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Parallel port connector\n\n 1 x LED strip connector\n\n 1 x Clear CMOS jumper"
+          },
+          {
+            "label": "Back panel ports",
+            "value": "PS/2\n\n VGA\n\n USB 2.0\n\n USB 3.1 Gen1\n\n LAN\n\n HD Audio Connectors\n\n USB 2.0\n\n DVI-D\n\n HDMI™\n\n USB 3.1 Gen1"
+          },
+          {
+            "label": "Dimensions physiques",
+            "value": "9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)\n\n M-ATX Form Factor"
+          },
+          {
+            "label": "Mounting",
+            "value": "8 mounting holes"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Support for Windows® 10 64-bit\n\n Support for Windows® 7 64-bit\n* To support Windows® 7 64-bit, you must install an AMD Pinnacle Ridge & Summit Ridge CPU."
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Internal connectors: 1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 4 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connector (supports additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin system fan connector\n\n 1 x Front panel audio connector\n\n 2 x Front panel connectors\n\n 1 x TPM module connector\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Parallel port connector\n\n 1 x LED strip connector\n\n 1 x Clear CMOS jumper"
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "Back panel ports: PS/2\n\n VGA\n\n USB 2.0\n\n USB 3.1 Gen1\n\n LAN\n\n HD Audio Connectors\n\n USB 2.0\n\n DVI-D\n\n HDMI™\n\n USB 3.1 Gen1"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Le nom de modèle identifie la carte mère. Le fabricant ne fournit pas ici de référence commerciale de lot/PCB ; aucune révision de vente ni offre marchande nouvelle n’est supposée.",
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "AM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "m2": {
+        "value": 1,
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "formFactor": {
+        "value": "M-ATX\n9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)\n\n M-ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "boardDimensions": {
+        "value": "M-ATX\n9.6 in. x 9.6 in. (24.4 cm x 24.4 cm)\n\n M-ATX Form Factor",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "chipset": {
+        "value": "AMD® B450 chipset",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "storagePorts": {
+        "value": "AMD® B450 Chipset\n\n4 x SATA 6Gb/s ports\n Supports RAID 0, RAID1 and RAID 10\n\n 1 x M.2 slot (Key M)\n Supports PCIe 3.0 x4 (AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics) or PCIe 3.0 x2 (AMD® Athlon™ with Radeon™ Vega Graphics) and SATA 6Gb/s 2242/ 2260 /2280 storage devices",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "pcie": {
+        "value": "1 x PCIe 3.0 x16 slot\n Supports x16 speed with AMD® Ryzen™ 1st and 2nd Generation processors\n\n Supports x8 speed with AMD® Ryzen™ with Radeon Vega Graphics processors\n\n Supports x4 speed with AMD® Athlon™ with Radeon™ Vega Graphics Processors\n\n 2 x PCIe 2.0 x1 slots",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "rearIO": {
+        "value": "Back panel ports: PS/2\n\n VGA\n\n USB 2.0\n\n USB 3.1 Gen1\n\n LAN\n\n HD Audio Connectors\n\n USB 2.0\n\n DVI-D\n\n HDMI™\n\n USB 3.1 Gen1",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "internalIO": {
+        "value": "Internal connectors: 1 x 24-pin ATX main power connector\n\n 1 x 8-pin ATX 12V power connector\n\n 4 x SATA 6Gb/s connectors\n\n 2 x USB 2.0 connectors (supports additional 4 USB 2.0 ports)\n\n 1 x USB 3.1 Gen1 connector (supports additional 2 USB 3.1 Gen1 ports)\n\n 1 x 4-pin CPU fan connector\n\n 1 x 4-pin system fan connector\n\n 1 x Front panel audio connector\n\n 2 x Front panel connectors\n\n 1 x TPM module connector\n\n 1 x Chassis Intrusion connector\n\n 1 x Serial port connector\n\n 1 x Parallel port connector\n\n 1 x LED strip connector\n\n 1 x Clear CMOS jumper",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "network": {
+        "value": "1 x Realtek® 8111H Gigabit LAN controller",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "audio": {
+        "value": "Realtek® ALC892 Codec\n\n7.1-Channel High Definition Audio",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "cpuSupport": {
+        "value": "Supports AMD® Ryzen 1st and 2nd Generation/ Ryzen™ with Radeon™ Vega Graphics/ Athlon™ with Radeon™ Vega Graphics Processors for Socket AM4\n\n\nSee supported processors\nAM4",
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://www.msi.com/Motherboard/B450M-PRO-VDH/Specification",
+        "checkedAt": "2026-11-10T11:00:29+00:00"
+      }
+    }
+  }
+}

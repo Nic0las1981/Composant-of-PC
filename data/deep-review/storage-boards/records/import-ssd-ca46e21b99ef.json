@@ -1,0 +1,92 @@
+{
+  "id": "import-ssd-ca46e21b99ef",
+  "brand": "MSI",
+  "manufacturerModel": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR 4TB",
+  "source": {
+    "name": "MSI — tableau technique officiel, capacité exacte",
+    "url": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification",
+    "checkedAt": "2026-11-10T14:36:10+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification",
+    "checkedAt": "2026-11-10T14:36:10+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification",
+    "sha256": "5f5171f9d6a3c7f5f6f4bb58c8f39c4014b3caa10719c91aa6930c10ce4123f3",
+    "bytes": 63947,
+    "status": "fetched"
+  },
+  "rows": {
+    "Model Name": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR",
+    "Capacity": "4TB",
+    "Controller": "PHISON E26",
+    "Flash Memory": "3D NAND",
+    "DRAM Cache": "8GB LPDDR4",
+    "Form Factor": "M.2 2280",
+    "Interface": "PCIe Gen5x4, NVMe 2.0",
+    "Compatibility": "PCIe Gen5 / Gen4 / Gen3 / Gen2 / Gen1",
+    "Dimensions": "94.80mm (L) x 24.00mm (W) x 71.65mm (H)",
+    "Sequential Read up to (MB/s)": "14,100",
+    "Sequential Write up to (MB/s)": "12,600",
+    "Maximum Operating Power (W)": "11.5",
+    "Idle Power PS3 (mW)": "144",
+    "Low Power L1.2 (mW)": "85",
+    "Operating Temperatures": "0°C – 70°C",
+    "Storage Temperatures": "-40°C – 85°C",
+    "Terabytes Written (TBW)": "3000",
+    "Mean Time Between Failure (MTBF)": "Up to 1,600,000 Hours",
+    "Limited Warranty": "5 Years, or the coverage for the maximum TBW as stated, whichever comes first.",
+    "Advanced Features": "TRIM (Performance Optimization, OS Support required)\n\nSMART (Self-Monitoring, Analysis and Reporting Technology)\n\nLDPC (Low Density Parity Check) ECC Algorithm\n\nEnd to End Data Path Protection\n\nAPST (Autonomous Power State Transition)\n\nAES256/OPAL 2.0 (Encryption, Data Security)"
+  },
+  "images": [
+    "https://storage-asset.msi.com/global/picture/product/product_1711446104d54242283417c6654b5ce27510d810bf.webp"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification",
+        "checkedAt": "2026-11-10T14:36:10+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR/Specification",
+        "sha256": "5f5171f9d6a3c7f5f6f4bb58c8f39c4014b3caa10719c91aa6930c10ce4123f3",
+        "bytes": 63947,
+        "status": "fetched"
+      },
+      "title": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR",
+      "selectedColumn": "SPATIUM M580 PCIe 5.0 NVMe M.2 FROZR 4TB"
+    }
+  ],
+  "additionalSources": [
+    {
+      "name": "MSI — présentation officielle du dissipateur de cette variante",
+      "url": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR",
+      "checkedAt": "2026-11-10T14:55:46+00:00",
+      "kind": "manufacturer"
+    }
+  ],
+  "heatsinkEvidence": {
+    "statement": "FROZR is a new enthusiast passive SPATIUM SSD thermal solution designed with well-pathed Core Pipes and an optimal surfaced heatsink under a stylish cover, \n silently sustaining maximum storage while reducing temperatures by up to 20° C",
+    "installed": true
+  },
+  "extraFieldEvidence": {
+    "heatsink": {
+      "value": "FROZR is a new enthusiast passive SPATIUM SSD thermal solution designed with well-pathed Core Pipes and an optimal surfaced heatsink under a stylish cover, \n silently sustaining maximum storage while reducing temperatures by up to 20° C",
+      "sourceURL": "https://www.msi.com/Storage/SPATIUM-M580-PCIe-5.0-NVMe-M.2-FROZR",
+      "checkedAt": "2026-11-10T14:55:46+00:00"
+    }
+  },
+  "additionalGroups": [
+    {
+      "title": "Dissipateur de la variante exacte",
+      "rows": [
+        {
+          "label": "Dissipateur fourni",
+          "value": "FROZR is a new enthusiast passive SPATIUM SSD thermal solution designed with well-pathed Core Pipes and an optimal surfaced heatsink under a stylish cover, \n silently sustaining maximum storage while reducing temperatures by up to 20° C"
+        }
+      ]
+    }
+  ]
+}

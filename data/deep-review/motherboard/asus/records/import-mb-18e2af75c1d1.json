@@ -1,0 +1,261 @@
+{
+  "review": {
+    "id": "import-mb-18e2af75c1d1",
+    "name": "Pro B760M-C-CSM",
+    "state": "exact_manufacturer_table",
+    "attempts": [
+      {
+        "url": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "sha256": "165f76595cc6dd55b04e99203e6fe155af5526c184929950512c317f97658709",
+        "bytes": 344697,
+        "status": "fetched"
+      }
+    ],
+    "manufacturerModel": "Pro B760M-C-CSM",
+    "photos": [
+      "https://dlcdnwebimgs.asus.com/gain/c7b5c82a-5318-4341-8e2f-caa847927d9d/"
+    ],
+    "sections": [
+      "Model",
+      "CPU",
+      "Chipset",
+      "Memory",
+      "Graphics",
+      "Expansion Slots",
+      "Storage",
+      "Ethernet",
+      "Wireless & Bluetooth",
+      "USB",
+      "Audio",
+      "Back Panel I/O Ports",
+      "Internal I/O Connectors",
+      "Special Features",
+      "Software Features",
+      "BIOS",
+      "Manageability",
+      "Accessories",
+      "Operating System",
+      "Form Factor"
+    ],
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "Pro B760M-C-CSM",
+    "identityNote": "Modèle ASUS Pro B760M-C-CSM confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASUS — fiche technique officielle",
+        "url": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR5",
+      "memorySlots": 4,
+      "maxMemoryGB": 192,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "Pro B760M-C-CSM",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Fiche technique complète — ASUS",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel®Turbo Boost Max Technology 3.0 support depends on the CPU types."
+          },
+          {
+            "label": "Chipset",
+            "value": "Intel® B760 Chipset"
+          },
+          {
+            "label": "Mémoire",
+            "value": "4 x DIMM, Max. 192GB, DDR5 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800 Non-ECC, Un-buffered Memory*\nDual Channel Memory Architecture\nSupports Intel® Extreme Memory Profile (XMP)\nOptimem II\n* Supported memory types, data rate (speed), and number of DRAM modules vary depending on the CPU and memory configuration, for more information please refer to CPU/Memory Support list under the Support tab of product information site or visit https://www.asus.com/support/\n* Non-ECC, un-buffered DDR5 memory supports On-Die ECC function."
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "2 x DisplayPort**\n1 x VGA port \n1 x HDMI® port*** \n* Graphics specifications may vary between CPU types. Please refer to www.intel.com for any updates. \n** Support max. 4K@60Hz as specified in DisplayPort 1.4.\n*** Supports 4K@60Hz as specified in HDMI® 2.1."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)*\n1 x PCIe 4.0/3.0 x16 slot\nIntel® B760 Chipset\n2 x PCIe 3.0 x1 slots\nNote:To ensure compatibility of the device installed, please refer tohttps://www.asus.com/support/for the list of supported peripherals."
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th& 13th & 12th Gen)*\nM.2_1 slot (Key M), type 2242/2260/2280  (supports PCIe 4.0 x4 mode)\nIntel® B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10."
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "1 x Intel® 1Gb Ethernet\nASUS LANGuard"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "M.2 slot only (Key E, CNVi & PCIe)*\n* Wi-Fi module is sold separately."
+          },
+          {
+            "label": "USB",
+            "value": "Rear USB (Total 4 ports)\n2 x USB 3.2 Gen 1 ports (2 x Type-A)\n2 x USB 2.0 ports (2 x Type-A)\nFront USB (Total 7 ports)\n1 x USB 3.2 Gen 1 connector (suppports USB Type-C®) \n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports"
+          },
+          {
+            "label": "Audio",
+            "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n2 x USB 2.0 ports (2 x Type-A) \n2 x DisplayPorts\n1 x HDMI® port\n1 x VGA port\n1 x Intel® 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 keyboard (purple) port\n1 x PS/2 mouse (green) port"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 connector (suppports USB Type-C®) \n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x Chassis Intrude header\n2 x COM Port headers\n1 x Front Panel Audio header (AAFP) \n1 x COM debug header\n1 x LPT header\n1 x Mono-out header (with Amp IC)\n1 x M.2 slot (Key E)\n1 x SMBUS header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header"
+          },
+          {
+            "label": "Fonctions particulières",
+            "value": "ASUS Q-Design\n- Q-DIMM\n- Q-LED Core\n- Q-Slot\nASUS EZ DIY\n - Box Headers\nBespoke Motherboard Design & Business Focused Features\n- ASUS Self Recovering BIOS\n- ASUS Event Log\n- ASUS Commercial BIOS kit*\n- Anti-Moisture Coating\n- 24/7 Reliability\n- Overcurrent Protection \n* Please contact with local FAE for commercial BIOS kit."
+          },
+          {
+            "label": "Logiciels",
+            "value": "ASUS Exclusive Software\nIT Management software supported\n- ASUS Control Center Express (ACCE)"
+          },
+          {
+            "label": "BIOS",
+            "value": "128Mb Flash ROM"
+          },
+          {
+            "label": "Administration",
+            "value": "WOL by PME, PXE"
+          },
+          {
+            "label": "Accessoires",
+            "value": "Cables\n2 x SATA 6Gb/s cables\nMiscellaneous\n1 x I/O Shield\n1 x Screw package for M.2 SSD\n1 x Screw package for M.2 Key E \nDocumentation\n1 x ACC Express Activation Key Card\n1 x User guide"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "Windows® 11, Windows® 10 64-bit"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "mATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)"
+          }
+        ]
+      },
+      {
+        "title": "Références visuelles officielles",
+        "rows": [
+          {
+            "label": "Photographie constructeur 1",
+            "value": "https://dlcdnwebimgs.asus.com/gain/c7b5c82a-5318-4341-8e2f-caa847927d9d/"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "memoryType": {
+        "value": "DDR5",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "memoryCapacity": {
+        "value": 192,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "formFactor": {
+        "value": "mATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "boardDimensions": {
+        "value": "mATX Form Factor\n9.6 inch x 9.6 inch (24.4 cm x 24.4 cm)",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "chipset": {
+        "value": "Intel® B760 Chipset",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "storagePorts": {
+        "value": "Total supports 2 x M.2 slots and 4 x SATA 6Gb/s ports*\nIntel® Core™ Processors (14th& 13th & 12th Gen)*\nM.2_1 slot (Key M), type 2242/2260/2280  (supports PCIe 4.0 x4 mode)\nIntel® B760 Chipset\nM.2_2 slot (Key M), type 2242/2260/2280 (supports PCIe 4.0 x4 mode)\n4 x SATA 6Gb/s ports\n* Intel® Rapid Storage Technology supports SATA RAID 0/1/5/10.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "pcie": {
+        "value": "Intel® Core™ Processors (14th & 13th & 12th Gen)*\n1 x PCIe 4.0/3.0 x16 slot\nIntel® B760 Chipset\n2 x PCIe 3.0 x1 slots\nNote:To ensure compatibility of the device installed, please refer tohttps://www.asus.com/support/for the list of supported peripherals.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "rearIO": {
+        "value": "2 x USB 3.2 Gen 1 ports (2 x Type-A)\n2 x USB 2.0 ports (2 x Type-A) \n2 x DisplayPorts\n1 x HDMI® port\n1 x VGA port\n1 x Intel® 1Gb Ethernet port\n3 x Audio jacks\n1 x PS/2 keyboard (purple) port\n1 x PS/2 mouse (green) port",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "internalIO": {
+        "value": "Fan and Cooling related\n1 x 4-pin CPU Fan header\n2 x 4-pin Chassis Fan headers\nPower related\n1 x 24-pin Main Power connector\n1 x 8-pin +12V Power connector\nStorage related\n2 x M.2 slots (Key M) \n4 x SATA 6Gb/s ports\nUSB\n1 x USB 3.2 Gen 1 connector (suppports USB Type-C®) \n1 x USB 3.2 Gen 1 header supports 2 additional USB 3.2 Gen 1 ports\n2 x USB 2.0 headers support 4 additional USB 2.0 ports\nMiscellaneous\n1 x Clear CMOS header\n1 x Chassis Intrude header\n2 x COM Port headers\n1 x Front Panel Audio header (AAFP) \n1 x COM debug header\n1 x LPT header\n1 x Mono-out header (with Amp IC)\n1 x M.2 slot (Key E)\n1 x SMBUS header\n1 x Speaker header\n1 x SPI TPM header (14-1pin)\n1 x 10-1 pin System Panel header",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "network": {
+        "value": "1 x Intel® 1Gb Ethernet\nASUS LANGuard\nM.2 slot only (Key E, CNVi & PCIe)*\n* Wi-Fi module is sold separately.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "audio": {
+        "value": "Realtek 7.1 Surround Sound High Definition Audio CODEC*\n - Supports: Jack-detection, Front Panel Jack-retasking\n - Supports up to 24-Bit/192 kHz playback\n* A chassis with an HD audio module in the front panel is required to support 7.1 Surround Sound audio output.",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      },
+      "cpuSupport": {
+        "value": "Intel® Socket LGA1700 for Intel® Core™ 14th & 13th Gen Processors, Intel® Core™ 12th Gen, Pentium® Gold and Celeron® Processors*\nSupports Intel® Turbo Boost Technology 2.0 and Intel® Turbo Boost Max Technology 3.0**\n* Refer to www.asus.com for CPU support list.\n** Intel®Turbo Boost Max Technology 3.0 support depends on the CPU types.\nBIOS: 128Mb Flash ROM",
+        "sourceURL": "https://www.asus.com/motherboards-components/motherboards/business/pro-b760m-c-csm/techspec/",
+        "checkedAt": "2026-11-10T13:27:30+00:00"
+      }
+    },
+    "manufacturerModel": "Pro B760M-C-CSM"
+  }
+}

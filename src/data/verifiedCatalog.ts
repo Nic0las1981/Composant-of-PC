@@ -3,6 +3,8 @@ import type { VerifiedProduct } from "./verifiedTypes.ts";
 import {verifiedBulk} from "./verifiedBulk.ts";
 import {individualProducts} from "./individualCatalog.ts";
 import {comprehensiveProducts} from "./comprehensiveCatalog.ts";
+import {deepProducts} from "./deepCatalog.ts";
+import {applyDeepPrices} from "./applyDeepPrices.ts";
 import {isQuarantinedReference} from "./catalogQuarantine.ts";
 export const manuallyReviewedProducts: Record<string, VerifiedProduct> = {
   "cpu-5600": {
@@ -28324,4 +28326,4 @@ export const manuallyReviewedProducts: Record<string, VerifiedProduct> = {
     "notes": []
   }
 };
-export const verifiedProducts: Record<string, VerifiedProduct> = Object.fromEntries(Object.entries({...verifiedBulk,...manuallyReviewedProducts,...individualProducts,...comprehensiveProducts}).filter(([id,p])=>!isQuarantinedReference(id,p.mpn)));
+export const verifiedProducts: Record<string, VerifiedProduct> = Object.fromEntries(Object.entries({...verifiedBulk,...manuallyReviewedProducts,...individualProducts,...comprehensiveProducts,...deepProducts}).filter(([id,p])=>!isQuarantinedReference(id,p.mpn)).map(([id,p])=>[id,applyDeepPrices(id,p)]));

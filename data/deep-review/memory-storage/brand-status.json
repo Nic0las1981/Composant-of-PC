@@ -1,0 +1,117 @@
+{
+  "ADATA": {
+    "total": 405,
+    "ram": 343,
+    "storage": 62,
+    "enriched": 170,
+    "states": {
+      "exact_mpn_documented": 168,
+      "research_open_variant": 35,
+      "finish_or_revision_ambiguous": 30,
+      "research_open_family": 170,
+      "commercial_variant_ambiguous": 2
+    }
+  },
+  "Corsair": {
+    "total": 788,
+    "ram": 732,
+    "storage": 56,
+    "enriched": 289,
+    "states": {
+      "exact_mpn_documented": 243,
+      "research_open_variant": 226,
+      "commercial_variant_ambiguous": 46,
+      "finish_or_revision_ambiguous": 180,
+      "research_open_family": 91,
+      "identity_conflict": 2
+    }
+  },
+  "Crucial": {
+    "total": 151,
+    "ram": 109,
+    "storage": 42,
+    "enriched": 96,
+    "states": {
+      "research_open_family": 47,
+      "exact_mpn_documented": 92,
+      "research_open_variant": 8,
+      "commercial_variant_ambiguous": 4
+    }
+  },
+  "G.Skill": {
+    "total": 1015,
+    "ram": 1015,
+    "storage": 0,
+    "enriched": 835,
+    "states": {
+      "exact_mpn_documented": 730,
+      "research_open_variant": 42,
+      "commercial_variant_ambiguous": 105,
+      "research_open_family": 16,
+      "finish_or_revision_ambiguous": 117,
+      "identity_conflict": 5
+    }
+  },
+  "Kingston": {
+    "total": 472,
+    "ram": 446,
+    "storage": 26,
+    "enriched": 237,
+    "states": {
+      "exact_mpn_documented": 211,
+      "research_open_variant": 93,
+      "commercial_variant_ambiguous": 26,
+      "finish_or_revision_ambiguous": 101,
+      "research_open_family": 41
+    }
+  },
+  "Patriot": {
+    "total": 175,
+    "ram": 157,
+    "storage": 18,
+    "enriched": 77,
+    "states": {
+      "finish_or_revision_ambiguous": 32,
+      "exact_mpn_documented": 75,
+      "research_open_variant": 26,
+      "commercial_variant_ambiguous": 2,
+      "research_open_family": 40
+    }
+  },
+  "Samsung": {
+    "total": 33,
+    "ram": 5,
+    "storage": 28,
+    "enriched": 28,
+    "states": {
+      "exact_mpn_documented": 28,
+      "research_open_family": 5
+    }
+  },
+  "Silicon Power": {
+    "total": 246,
+    "ram": 223,
+    "storage": 23,
+    "enriched": 87,
+    "states": {
+      "research_open_family": 15,
+      "exact_mpn_documented": 76,
+      "finish_or_revision_ambiguous": 68,
+      "commercial_variant_ambiguous": 11,
+      "research_open_variant": 76
+    }
+  },
+  "TeamGroup": {
+    "total": 932,
+    "ram": 834,
+    "storage": 98,
+    "enriched": 522,
+    "states": {
+      "exact_mpn_documented": 396,
+      "finish_or_revision_ambiguous": 243,
+      "commercial_variant_ambiguous": 126,
+      "research_open_variant": 92,
+      "research_open_family": 75
+    }
+  }
+}

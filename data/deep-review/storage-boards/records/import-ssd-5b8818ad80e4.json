@@ -1,0 +1,59 @@
+{
+  "id": "import-ssd-5b8818ad80e4",
+  "brand": "Gigabyte",
+  "manufacturerModel": "AORUS Gen4 7000s Prem. SSD 2TB",
+  "source": {
+    "name": "Gigabyte — tableau technique officiel, capacité exacte",
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "kind": "manufacturer"
+  },
+  "receipt": {
+    "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp",
+    "checkedAt": "2026-11-10T14:36:18+00:00",
+    "httpStatus": 200,
+    "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp",
+    "sha256": "175636d719b5b499fa594c18f2962b09df77d4a86b8bdeb57a974a3ea1eefa4e",
+    "bytes": 581202,
+    "status": "fetched"
+  },
+  "rows": {
+    "Interface": "PCI-Express 4.0 x4, NVMe 1.4",
+    "Form Factor": "M.2 2280",
+    "Total Capacity": "2000GB",
+    "NAND": "3D TLC NAND Flash",
+    "External DDR Cache": "DDR4 2GB",
+    "Sequential Read speed": "Up to 7000 MB/s",
+    "Sequential Write speed": "Up to 6850 MB/s",
+    "Random Read IOPS": "up to 650k",
+    "Random Write IOPS": "up to 700k",
+    "Dimension": "92 x 23.5 x 44.7 mm\n\nPlease refer to the file to check the heatsink incompatible list for AORUS Gen4 7000s Prem. SSD.",
+    "Mean time between failure (MTBF)": "1.6 million hours",
+    "Power Consumption (Active)": "Average: R : 7.6W, W : 8.4W",
+    "Power Consumption (Idle)": "<30mW",
+    "Temperature (Operating)": "0°C to 70°C",
+    "Temperature (Storage)": "-40°C to 85°C",
+    "Warranty": "1. Limited 5-years or 1400TBW.\n\n2. Limited warranty based on 5 years or 1400TBW, whichever comes first. (*TBW is evaluated by JEDEC workload standard. )\n\n*TBW (Terabyte Written): Terabytes Written is the total amount of data that can be written into a SSD before it is likely to fail.\n\n3. When the usage of an NVME SSD as indicated by the \"Percentage Used\" (SMART ID: 05) in SMART page of \"GIGABYTE SSD toolbox\" reaches 100 means out of warranty. (A new unused product will show the number of 0)",
+    "Note": "• Test system configuration: configuration may vary by models, we will choose the latest platform for verification.\n\n• Performance may vary based on SSD's firmware version and system hardware & configuration. Sequential performance measurements based on CrystalDiskMark and IOmeter 1.1.0.\n\n• Speeds based on internal testing. Actual performance may vary.\n\n• 1GB = 1 billion bytes. Actual useable capacity may vary.",
+    "Published model code": "GP-AG70S2TB-P"
+  },
+  "images": [
+    "https://www.gigabyte.com/iisApplicationNuxt/Images/common/OgImg-Default.png"
+  ],
+  "partNumber": null,
+  "state": "exact_model_and_capacity",
+  "attempts": [
+    {
+      "source": {
+        "url": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp",
+        "checkedAt": "2026-11-10T14:36:18+00:00",
+        "httpStatus": 200,
+        "resolvedURL": "https://www.gigabyte.com/SSD/AORUS-Gen4-7000s-Prem-SSD-2TB/sp",
+        "sha256": "175636d719b5b499fa594c18f2962b09df77d4a86b8bdeb57a974a3ea1eefa4e",
+        "bytes": 581202,
+        "status": "fetched"
+      },
+      "title": "AORUS Gen4 7000s Prem. SSD 2TB"
+    }
+  ]
+}

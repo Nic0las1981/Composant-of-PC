@@ -1,0 +1,60 @@
+{
+  "review": {
+    "id": "import-mb-d38a33769da8",
+    "name": "X870 NOVA WiFi",
+    "state": "primary_unconfirmed",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Software/AMD%20X870/Software_BIOS%20Setup%20Guide_English.pdf",
+          "checkedAt": "2026-11-10T14:11:15+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Software/AMD%20X870/Software_BIOS%20Setup%20Guide_English.pdf",
+          "httpStatus": 200,
+          "sha256": "ec2ca097b878859f5de664449f5ca8d0d51eb41509290588da0fc2dacf711315",
+          "bytes": 6238786,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/X870E%20Nova%20WiFi.pdf",
+          "checkedAt": "2026-11-10T14:11:17+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/X870E%20Nova%20WiFi.pdf",
+          "httpStatus": 200,
+          "sha256": "e1153dc6d06f5850720cfb7d3b47efc91692aa2c67f27cea822bb294af176b90",
+          "bytes": 6198219,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock X870E Nova WiFi motherboard",
+        "modelNames": [
+          "X870E Nova WiFi"
+        ]
+      },
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/X870%20Steel%20Legend%20WiFi.pdf",
+          "checkedAt": "2026-11-10T14:11:19+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/X870%20Steel%20Legend%20WiFi.pdf",
+          "httpStatus": 200,
+          "sha256": "bcd7d14350eee80dba29584f3808acdcf0f05b02f198e0b6390492b3612ee9a8",
+          "bytes": 6403416,
+          "status": "manual_fetched"
+        },
+        "state": "manual_model_mismatch",
+        "identityExcerpt": "purchasing ASRock X870 Steel Legend WiFi motherboard",
+        "modelNames": [
+          "X870 Steel Legend WiFi"
+        ]
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-11-10T11:01:12+00:00",
+      "url": "https://download.asrock.com/Manual/X870%20NOVA%20WiFi.pdf"
+    },
+    "proof": {},
+    "documentedFields": []
+  },
+  "product": null
+}

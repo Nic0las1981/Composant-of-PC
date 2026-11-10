@@ -1,0 +1,251 @@
+{
+  "review": {
+    "id": "import-mb-60cfd6dd6660",
+    "name": "B660M Pro RS/ax",
+    "state": "exact_manufacturer_web_table",
+    "attempts": [
+      {
+        "source": {
+          "url": "https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf",
+          "checkedAt": "2026-11-10T14:11:14+00:00",
+          "resolvedURL": "https://download.asrock.com/Manual/Thunderbolt%204%20AIC.pdf",
+          "httpStatus": 200,
+          "sha256": "f8bba7c2bbd9191181540c7ceb6eaadc459cb37189714d8c50702e284f3b5da2",
+          "bytes": 220490,
+          "status": "manual_fetched"
+        },
+        "state": "manual_identity_missing"
+      },
+      {
+        "source": {
+          "url": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+          "checkedAt": "2026-11-10T14:16:27.043Z",
+          "contentSHA256": "e0a226e1cf292301ad42a96ec7689880315887acee6ffc855e0b9ae2cb39bff6"
+        },
+        "state": "exact_manufacturer_web_table"
+      }
+    ],
+    "source": {
+      "url": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+      "checkedAt": "2026-11-10T14:16:27.043Z"
+    },
+    "proof": {
+      "state": "exact_manufacturer_web_table",
+      "identityExcerpt": "# ASRock &gt; B660M Pro RS/ax",
+      "specificationExcerpt": "\nCPU\n\n- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- Digi Power design- 8 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology\n\nChipsatz\n\n- Intel® B660\n\nArbeitsspeicher\n\n- Dual Channel DDR4 Memory Technology- 4 x DDR4 DIMM Slots- Supports DDR4 non-ECC, un-buffered memory up to 5333+(OC)*- Supports ECC UDIMM memory modules (operate in non-ECC mode)- Max. capacity of system memory: 128GB- Supports Intel® Extreme Speicherprofile (XMP) 2.0\n\n*Supports DDR4 3200 natively.\n\nBIOS\n\n- 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, DRAM, VDD_IMC, VCCIN AUX, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment\n\nGrafik\n\n- Intel® Xe Graphik-Architektur (Gen 12)- Dual graphics output: support HDMI and DisplayPort 1.4 ports by independent display controllers- Supports HDMI 2.1 TMDS Compatible with max. Auflösung up to 4K x 2K (4096x2160) @ 60Hz- Supports DisplayPort 1.4 with DSC (Komprimiert) max. Auflösung up to 8K (7680x4320) @ 60Hz / 5K (5120x3200) @ 120Hz- Unterstützt HDCP 2.3 mit HDMI 2.1 TMDS-kompatiblen und DisplayPort 1.4-Anschlüssen\n\n*Intel® UHD Graphics Built-in Visuals und die VGA-Ausgänge können nur bei der Verwendung von CPUs mit integrierter GPU-Einheit genutzt werden.\n\nAudio\n\n- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection- Nahimic Audio\n\nLAN\n\n- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE\n\nDrahtloses LAN\n\n- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 160MHz with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Unterstützt Bluetooth 5.3 + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz Band) wird von Microsoft® Windows® 11 unterstützt. Die Verfügbarkeit hängt von den unterschiedlichen Regelungen der einzelnen Länder und Regionen ab. Sie wird (für unterstützte Länder) über Windows® Update und Software-Updates aktiviert, sobald sie verfügbar ist.Ein 6GHz-kompatibler Router ist für die 6E-Funktionalität erforderlich.\n\nSteckplätze\n\nChipset:- 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*- 1 x PCIe 3.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x1 Slot (PCIE2)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi (Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Unterstützt NVMe-SSD als Boot-Festplatte\n\nSpeicherplatz\n\nCPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Ultra M.2 Socket (M2_2, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2 only)Unterstützt Intel® Volume Management Device (VMD)Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 KitWenn der Anschluss M2_2 von einem SATA-M.2-Gerät besetzt ist, wird der Anschluss SATA3_0 deaktiviert.\n\nRAID\n\n- Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA Speichergeräte\n\nAnschluss\n\n- 1 x SPI TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x RGB LED Header*- 3 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen1 Header (Supports ESD Protection)\n\n*Unterstützt insgesamt bis zu 12V/3A, 36W-LED-Strip**Support in total up to 5V/3A, 15W LED Strip***Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt).****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP, CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is in use.\n\nBlende\n\n- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x DisplayPort 1.4- 4 x USB 3.2 Gen1 Ports (ASMedia ASM1074 hub) (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone\n\nSoftware und UEFI\n\nSoftware- ASRock Motherboard Utility (A-Tuning)- ASRock Polychrome SYNC- ASRock XFast LANUEFI- ASRock EZ Mode- ASRock Full HD UEFI- ASRock My Favorites in UEFI- ASRock Sofort-Flash- ASRock Easy RAID Installer\n\n*Diese Tools können im Live Update & APP Shop heruntergeladen werden.\n\nSupport-CD\n\n- Drivers, Utilities, AntiVirus Software (Trial Version)\n\nProduktzubehör\n\n- Quick Installation Guide, Support CD, I/O Shield- 2 x SATA Data Cables- 2 x ASRock WiFi 2.4/5/6 GHz Antennas- 2 x Screws for M.2 Sockets- 1 x Standoff for M.2 Socket\n\nHardware überwachung\n\n- Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Quiet Fan (Auto adjust chassis fan speed by CPU temperature): CPU, CPU/Water Pump, Chassis/Water Pump Fans- Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/Water Pump Fans- CASE OPEN detection- Voltage monitoring: CPU Vcore, +1.05V_PCH, DRAM, VCCIN AUX, VCCSA, +1.05V PROC, +0.82V PCH, +12V, +5V, +3.3V\n\nFormfaktor\n\n- Micro ATX Form Factor: 9.6-in x 9.6-in, 24.4 cm x 24.4 cm- Solid Capacitor design\n\nBetriebssystem\n\n- Microsoft® Windows® 10 64-bit / 11 64-bit\n\nZertifizierungen\n\n- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)\n\n"
+    },
+    "documentedFields": [
+      "socket",
+      "memoryType",
+      "memorySlots",
+      "memoryCapacity",
+      "m2",
+      "formFactor",
+      "boardDimensions",
+      "chipset",
+      "storagePorts",
+      "pcie",
+      "rearIO",
+      "internalIO",
+      "network",
+      "audio",
+      "cpuSupport"
+    ]
+  },
+  "product": {
+    "mpn": "B660M Pro RS/ax",
+    "identityNote": "Modèle ASRock B660M Pro RS/ax confirmé dans sa fiche officielle.",
+    "sources": [
+      {
+        "name": "ASRock — spécification officielle du modèle exact",
+        "url": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z",
+        "kind": "manufacturer"
+      }
+    ],
+    "patch": {
+      "socket": "LGA1700",
+      "memoryType": "DDR4",
+      "memorySlots": 4,
+      "maxMemoryGB": 128,
+      "m2Slots": 2,
+      "formFactor": "Micro-ATX",
+      "heightMm": 244.0,
+      "widthMm": 244.0,
+      "manufacturerPartNumber": "B660M Pro RS/ax",
+      "detailLevel": "partial"
+    },
+    "groups": [
+      {
+        "title": "Manuel ASRock — caractéristiques et conditions du modèle exact",
+        "rows": [
+          {
+            "label": "Processeurs / socket",
+            "value": "- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- Digi Power design- 8 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology"
+          },
+          {
+            "label": "Chipset",
+            "value": "- Intel® B660"
+          },
+          {
+            "label": "Mémoire",
+            "value": "- Dual Channel DDR4 Memory Technology- 4 x DDR4 DIMM Slots- Supports DDR4 non-ECC, un-buffered memory up to 5333+(OC)*- Supports ECC UDIMM memory modules (operate in non-ECC mode)- Max. capacity of system memory: 128GB- Supports Intel® Extreme Speicherprofile (XMP) 2.0\n\n*Supports DDR4 3200 natively."
+          },
+          {
+            "label": "BIOS",
+            "value": "- 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, DRAM, VDD_IMC, VCCIN AUX, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment"
+          },
+          {
+            "label": "Sorties graphiques intégrées",
+            "value": "- Intel® Xe Graphik-Architektur (Gen 12)- Dual graphics output: support HDMI and DisplayPort 1.4 ports by independent display controllers- Supports HDMI 2.1 TMDS Compatible with max. Auflösung up to 4K x 2K (4096x2160) @ 60Hz- Supports DisplayPort 1.4 with DSC (Komprimiert) max. Auflösung up to 8K (7680x4320) @ 60Hz / 5K (5120x3200) @ 120Hz- Unterstützt HDCP 2.3 mit HDMI 2.1 TMDS-kompatiblen und DisplayPort 1.4-Anschlüssen\n\n*Intel® UHD Graphics Built-in Visuals und die VGA-Ausgänge können nur bei der Verwendung von CPUs mit integrierter GPU-Einheit genutzt werden."
+          },
+          {
+            "label": "Audio",
+            "value": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection- Nahimic Audio"
+          },
+          {
+            "label": "Réseau filaire",
+            "value": "- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE"
+          },
+          {
+            "label": "Réseau sans fil",
+            "value": "- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 160MHz with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Unterstützt Bluetooth 5.3 + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz Band) wird von Microsoft® Windows® 11 unterstützt. Die Verfügbarkeit hängt von den unterschiedlichen Regelungen der einzelnen Länder und Regionen ab. Sie wird (für unterstützte Länder) über Windows® Update und Software-Updates aktiviert, sobald sie verfügbar ist.Ein 6GHz-kompatibler Router ist für die 6E-Funktionalität erforderlich."
+          },
+          {
+            "label": "PCIe et restrictions",
+            "value": "Chipset:- 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*- 1 x PCIe 3.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x1 Slot (PCIE2)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi (Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Unterstützt NVMe-SSD als Boot-Festplatte"
+          },
+          {
+            "label": "Stockage et restrictions",
+            "value": "CPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Ultra M.2 Socket (M2_2, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2 only)Unterstützt Intel® Volume Management Device (VMD)Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 KitWenn der Anschluss M2_2 von einem SATA-M.2-Gerät besetzt ist, wird der Anschluss SATA3_0 deaktiviert."
+          },
+          {
+            "label": "RAID",
+            "value": "- Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA Speichergeräte"
+          },
+          {
+            "label": "Connectique interne",
+            "value": "- 1 x SPI TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x RGB LED Header*- 3 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen1 Header (Supports ESD Protection)\n\n*Unterstützt insgesamt bis zu 12V/3A, 36W-LED-Strip**Support in total up to 5V/3A, 15W LED Strip***Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt).****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP, CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is in use."
+          },
+          {
+            "label": "Connectique arrière",
+            "value": "- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x DisplayPort 1.4- 4 x USB 3.2 Gen1 Ports (ASMedia ASM1074 hub) (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone"
+          },
+          {
+            "label": "Software and UEFI",
+            "value": "Software- ASRock Motherboard Utility (A-Tuning)- ASRock Polychrome SYNC- ASRock XFast LANUEFI- ASRock EZ Mode- ASRock Full HD UEFI- ASRock My Favorites in UEFI- ASRock Sofort-Flash- ASRock Easy RAID Installer\n\n*Diese Tools können im Live Update & APP Shop heruntergeladen werden."
+          },
+          {
+            "label": "Support CD",
+            "value": "- Drivers, Utilities, AntiVirus Software (Trial Version)"
+          },
+          {
+            "label": "Accessoires",
+            "value": "- Quick Installation Guide, Support CD, I/O Shield- 2 x SATA Data Cables- 2 x ASRock WiFi 2.4/5/6 GHz Antennas- 2 x Screws for M.2 Sockets- 1 x Standoff for M.2 Socket"
+          },
+          {
+            "label": "Hardware monitoring",
+            "value": "- Fan Tachometer: CPU, CPU/Water Pump, Chassis/Water Pump Fans- Quiet Fan (Auto adjust chassis fan speed by CPU temperature): CPU, CPU/Water Pump, Chassis/Water Pump Fans- Fan Multi-Speed Control: CPU, CPU/Water Pump, Chassis/Water Pump Fans- CASE OPEN detection- Voltage monitoring: CPU Vcore, +1.05V_PCH, DRAM, VCCIN AUX, VCCSA, +1.05V PROC, +0.82V PCH, +12V, +5V, +3.3V"
+          },
+          {
+            "label": "Format et dimensions",
+            "value": "- Micro ATX Form Factor: 9.6-in x 9.6-in, 24.4 cm x 24.4 cm- Solid Capacitor design"
+          },
+          {
+            "label": "Systèmes compatibles",
+            "value": "- Microsoft® Windows® 10 64-bit / 11 64-bit"
+          },
+          {
+            "label": "Certifications",
+            "value": "- FCC, CE- ErP/EuP ready (ErP/EuP ready power supply is required)"
+          }
+        ]
+      }
+    ],
+    "offers": [],
+    "notes": [
+      "Sections techniques publiées pour le modèle exact. Les champs absents restent inconnus. Aucun numéro de lot/révision non publié ni prix n’est déduit du nom de modèle.",
+      "Les restrictions CPU/BIOS, partage PCIe/M.2, limites de mémoire et conditions de connectique sont conservées dans le texte officiel.",
+      "Le compteur M.2 ne retient que les sockets de stockage explicitement PCIe/NVMe ; les sockets Wi-Fi Key E et SATA seuls sont exclus.",
+      "Le manuel peut précéder une mise à jour BIOS. Les restrictions par processeur et modèle restent textuellement présentes ; consulter également la QVL et la liste CPU du constructeur."
+    ],
+    "fieldEvidence": {
+      "socket": {
+        "value": "LGA1700",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "memoryType": {
+        "value": "DDR4",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "memorySlots": {
+        "value": 4,
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "memoryCapacity": {
+        "value": 128,
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "m2": {
+        "value": 2,
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "formFactor": {
+        "value": "- Micro ATX Form Factor: 9.6-in x 9.6-in, 24.4 cm x 24.4 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "boardDimensions": {
+        "value": "- Micro ATX Form Factor: 9.6-in x 9.6-in, 24.4 cm x 24.4 cm- Solid Capacitor design",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "chipset": {
+        "value": "- Intel® B660",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "storagePorts": {
+        "value": "CPU:- 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode*Chipset:- 1 x Ultra M.2 Socket (M2_2, Key M), supports type 2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes*- 4 x SATA3 6.0 Gb/s Connectors\n\n*Supports Intel® Optane™ Memory H Series (M2_2 only)Unterstützt Intel® Volume Management Device (VMD)Unterstützt NVMe-SSD als Boot-FestplatteSupports ASRock U.2 KitWenn der Anschluss M2_2 von einem SATA-M.2-Gerät besetzt ist, wird der Anschluss SATA3_0 deaktiviert.",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "pcie": {
+        "value": "Chipset:- 1 x PCIe 4.0 x16 Slot (PCIE1), supports x16 mode*- 1 x PCIe 3.0 x16 Slot (PCIE3), supports x4 mode*- 1 x PCIe 3.0 x1 Slot (PCIE2)*- 1 x M.2 Socket (Key E), supports type 2230 WiFi/BT PCIe WiFi module and Intel® CNVi (Integrated WiFi/BT)- Supports AMD CrossFire™\n\n*Unterstützt NVMe-SSD als Boot-Festplatte",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "rearIO": {
+        "value": "- 2 x Antenna Ports- 1 x PS/2 Mouse/Keyboard Port- 1 x HDMI Port- 1 x DisplayPort 1.4- 4 x USB 3.2 Gen1 Ports (ASMedia ASM1074 hub) (Supports ESD Protection)- 2 x USB 2.0 Ports (Supports ESD Protection)- 1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)- HD Audio Jacks: Line in / Front Speaker / Microphone",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "internalIO": {
+        "value": "- 1 x SPI TPM Header- 1 x Chassis Intrusion and Speaker Header- 1 x RGB LED Header*- 3 x Addressable LED Headers**- 1 x CPU Fan Connector (4-pin)***- 1 x CPU/Water Pump Fan Connector (4-pin) (Smart Fan Speed Control)****- 3 x Chassis/Water Pump Fan Connectors (4-pin) (Smart Fan Speed Control)*****- 1 x 24 pin ATX Power Connector- 1 x 8 pin 12V Power Connector (Hi-Density Power Connector)- 1 x Front Panel Audio Connector- 1 x Thunderbolt™ AIC Connector (5-pin) (Supports ASRock Thunderbolt™ 4 AIC Card)- 2 x USB 2.0 Headers (Support 4 USB 2.0 ports) (Supports ESD Protection)- 1 x USB 3.2 Gen1 Header (Supports 2 USB 3.2 Gen1 ports) (Supports ESD Protection)- 1 x Front Panel Type C USB 3.2 Gen1 Header (Supports ESD Protection)\n\n*Unterstützt insgesamt bis zu 12V/3A, 36W-LED-Strip**Support in total up to 5V/3A, 15W LED Strip***Der CPU-Lüfteranschluss unterstützt CPU-Lüfter mit einer Leistung von maximal 1 Ampere (12 Watt).****The CPU/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.*****The Chassis/Water Pump Fan supports the water cooler fan of maximum 2A (24W) fan power.CPU_FAN2/WP, CHA_FAN1~3/WP can auto detect if 3-pin or 4-pin fan is in use.",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "network": {
+        "value": "- Gigabit LAN 10/100/1000 Mb/s- Giga PHY Intel® I219V- Supports Wake-On-LAN- Supports Lightning/ESD Protection- Supports Energy Efficient Ethernet 802.3az- Supports UEFI PXE\n- 802.11ax Wi-Fi 6E Module- Supports IEEE 802.11a/b/g/n/ax- Supports Dual-Band 2x2 160MHz with extended 6GHz band support*- 2 antennas to support 2 (Transmit) x 2 (Receive) diversity technology- Unterstützt Bluetooth 5.3 + High speed class II- Supports MU-MIMO\n\n*Wi-Fi 6E (6GHz Band) wird von Microsoft® Windows® 11 unterstützt. Die Verfügbarkeit hängt von den unterschiedlichen Regelungen der einzelnen Länder und Regionen ab. Sie wird (für unterstützte Länder) über Windows® Update und Software-Updates aktiviert, sobald sie verfügbar ist.Ein 6GHz-kompatibler Router ist für die 6E-Funktionalität erforderlich.",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "audio": {
+        "value": "- 7.1 CH HD Audio (Realtek ALC897 Audio Codec)- Supports Surge Protection- Nahimic Audio",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      },
+      "cpuSupport": {
+        "value": "- Supports 14th, 13th & 12th Gen Intel® Core™ Processors (LGA1700)- Digi Power design- 8 Power Phase design- Supports Intel® Hybrid Technology- Supports Intel® Turbo Boost Max 3.0 Technology\nBIOS: - 128Mb AMI UEFI Legal BIOS with multilingual GUI support- ACPI 6.0 Compliant wake up events- SMBIOS 2.7 Support- CPU Core/Cache, CPU GT, DRAM, VDD_IMC, VCCIN AUX, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment",
+        "sourceURL": "https://asrock.com/MB/Intel/B660M%20Pro%20RSAX/index.de.asp",
+        "checkedAt": "2026-11-10T14:16:27.043Z"
+      }
+    },
+    "manufacturerModel": "B660M Pro RS/ax"
+  }
+}
